@@ -753,7 +753,7 @@ html.light-theme .lang-dropdown a.active {
     flex-direction: column;
     gap: 12px;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .app-card::before {
@@ -847,7 +847,7 @@ html.light-theme .app-card-icon {
 
 .app-card-footer {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: space-between;
     gap: 8px;
     margin-top: auto;
