@@ -54,6 +54,7 @@ const Header: React.FC<HeaderProps> = ({
   const [mobileLangOpen, setMobileLangOpen] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
   const cartRef = useRef<HTMLDivElement>(null);
+  const mobileCartRef = useRef<HTMLDivElement>(null);
 
   // Resolve cart items to full recipe data
   const cartRecipes = cartItems
@@ -66,16 +67,17 @@ const Header: React.FC<HeaderProps> = ({
   // Close dropdowns on click outside
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      if (!target.closest('.lang-selector')) {
+      const target = e.target as Node;
+      if (!(e.target as HTMLElement).closest?.('.lang-selector')) {
         setLangMenuOpen(false);
       }
-      if (!target.closest('.cart-selector')) {
+      const inCart = cartRef.current?.contains(target) || mobileCartRef.current?.contains(target);
+      if (!inCart) {
         setCartOpen(false);
       }
     };
-    document.addEventListener('click', handleClickOutside);
-    return () => document.removeEventListener('click', handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   const handleChangeLanguage = (lang: string) => {
@@ -115,13 +117,143 @@ const Header: React.FC<HeaderProps> = ({
       ? t('Connecting...')
       : t('Offline');
 
+  const renderCartContent = () => (
+    <>
+      <div className="cart-dropdown-header">
+        <span className="cart-dropdown-title">
+          {t('Cart')}
+          {cartItems.length > 0 && (
+            <span className="cart-count">{cartItems.length}</span>
+          )}
+        </span>
+        {cartItems.length > 0 && (
+          <button
+            className="cart-dropdown-clear"
+            onClick={onClearCart}
+            title={t('Clear cart')}
+          >
+            <Trash2 size={14} />
+          </button>
+        )}
+      </div>
+
+      <div className="cart-dropdown-items">
+        {cartRecipes.length === 0 ? (
+          <div className="cart-empty">
+            <Package size={36} />
+            <p>{t('Your cart is empty')}</p>
+            <p style={{ fontSize: '0.7rem', opacity: 0.7 }}>
+              {t('Add applications to install them as modules')}
+            </p>
+          </div>
+        ) : (
+          cartRecipes.map(({ item, recipe }) => (
+            <div key={item.recipeId} className="cart-item">
+              <div className="cart-item-icon">
+                {recipe.icon.startsWith('/') || recipe.icon.startsWith('http') ? (
+                  <img src={recipe.icon} alt={recipe.name} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                ) : (
+                  <DynamicIcon name={recipe.icon} size={16} />
+                )}
+              </div>
+              <div className="cart-item-info">
+                <div className="cart-item-name">{recipe.name}</div>
+              </div>
+              <button
+                className="cart-item-remove"
+                onClick={() => onRemoveItem(item.recipeId)}
+                title={t('Remove')}
+              >
+                <X size={14} />
+              </button>
+            </div>
+          ))
+        )}
+      </div>
+
+      {cartItems.length > 0 && (
+        <div className="cart-dropdown-footer">
+          {/* Install mode selector */}
+          <div className="cart-mode-selector">
+            <button
+              className={`cart-mode-btn ${installMode === 'module' ? 'active' : ''}`}
+              onClick={() => onSetInstallMode('module')}
+              title={t('Build as module (.sb file)')}
+            >
+              <Package size={14} />
+              {t('Module')}
+            </button>
+            <button
+              className={`cart-mode-btn ${installMode === 'system' ? 'active' : ''}`}
+              onClick={() => onSetInstallMode('system')}
+              title={t('Install directly to system')}
+            >
+              <Download size={14} />
+              {t('System')}
+            </button>
+          </div>
+
+          {/* Packaging options (only for module mode, 2+ items) */}
+          {installMode === 'module' && cartRecipes.length > 1 && (
+            <div className="cart-packaging-selector">
+              <button
+                className={`cart-packaging-btn ${packaging === 'single' ? 'active' : ''}`}
+                onClick={() => onSetPackaging('single')}
+                title={t('Combine all into one module')}
+              >
+                <Package size={14} />
+                {t('Single module')}
+              </button>
+              <button
+                className={`cart-packaging-btn ${packaging === 'separate' ? 'active' : ''}`}
+                onClick={() => onSetPackaging('separate')}
+                title={t('Build each recipe as a separate module')}
+              >
+                <Layers size={14} />
+                {t('Separate modules')}
+              </button>
+            </div>
+          )}
+
+          {/* Module name input (only for module mode, single packaging) */}
+          {installMode === 'module' && packaging === 'single' && (
+            <div className="cart-module-name">
+              <input
+                type="text"
+                className="cart-module-name-input"
+                placeholder={t('Module name (optional)')}
+                value={moduleName}
+                onChange={(e) => onSetModuleName(e.target.value)}
+                onClick={(e) => e.stopPropagation()}
+              />
+            </div>
+          )}
+
+          <div className="cart-status-line">
+            {connectionStatus === 'disconnected' && cartRecipes.length > 0 && (
+              <span>{t('Offline')} — {t('Install')} {t('via URI scheme')}</span>
+            )}
+          </div>
+          <button
+            className="cart-install-btn"
+            onClick={handleInstall}
+            disabled={cartRecipes.length === 0}
+          >
+            <Download size={16} />
+            {t('Install')} ({cartRecipes.length})
+          </button>
+        </div>
+      )}
+    </>
+  );
+
   return (
     <>
       <header>
         <div className="container nav-wrapper">
           <a href="#" className="logo" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
             <Store size={28} style={{ color: 'var(--accent)' }} />
-            MiniOS Store
+            <span className="logo-text">MiniOS Store</span>
           </a>
 
           <div className="header-search">
@@ -190,131 +322,7 @@ const Header: React.FC<HeaderProps> = ({
                 )}
               </button>
               <div className="cart-dropdown">
-                <div className="cart-dropdown-header">
-                  <span className="cart-dropdown-title">
-                    {t('Cart')}
-                    {cartItems.length > 0 && (
-                      <span className="cart-count">{cartItems.length}</span>
-                    )}
-                  </span>
-                  {cartItems.length > 0 && (
-                    <button
-                      className="cart-dropdown-clear"
-                      onClick={onClearCart}
-                      title={t('Clear cart')}
-                    >
-                      <Trash2 size={14} />
-                    </button>
-                  )}
-                </div>
-
-                <div className="cart-dropdown-items">
-                  {cartRecipes.length === 0 ? (
-                    <div className="cart-empty">
-                      <Package size={36} />
-                      <p>{t('Your cart is empty')}</p>
-                      <p style={{ fontSize: '0.7rem', opacity: 0.7 }}>
-                        {t('Add applications to install them as modules')}
-                      </p>
-                    </div>
-                  ) : (
-                    cartRecipes.map(({ item, recipe }) => (
-                      <div key={item.recipeId} className="cart-item">
-                        <div className="cart-item-icon">
-                          {recipe.icon.startsWith('/') || recipe.icon.startsWith('http') ? (
-                            <img src={recipe.icon} alt={recipe.name} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                          ) : (
-                            <DynamicIcon name={recipe.icon} size={16} />
-                          )}
-                        </div>
-                        <div className="cart-item-info">
-                          <div className="cart-item-name">{recipe.name}</div>
-                        </div>
-                        <button
-                          className="cart-item-remove"
-                          onClick={() => onRemoveItem(item.recipeId)}
-                          title={t('Remove')}
-                        >
-                          <X size={14} />
-                        </button>
-                      </div>
-                    ))
-                  )}
-                </div>
-
-                {cartItems.length > 0 && (
-                  <div className="cart-dropdown-footer">
-                    {/* Install mode selector */}
-                    <div className="cart-mode-selector">
-                      <button
-                        className={`cart-mode-btn ${installMode === 'module' ? 'active' : ''}`}
-                        onClick={() => onSetInstallMode('module')}
-                        title={t('Build as module (.sb file)')}
-                      >
-                        <Package size={14} />
-                        {t('Module')}
-                      </button>
-                      <button
-                        className={`cart-mode-btn ${installMode === 'system' ? 'active' : ''}`}
-                        onClick={() => onSetInstallMode('system')}
-                        title={t('Install directly to system')}
-                      >
-                        <Download size={14} />
-                        {t('System')}
-                      </button>
-                    </div>
-
-                    {/* Packaging options (only for module mode, 2+ items) */}
-                    {installMode === 'module' && cartRecipes.length > 1 && (
-                      <div className="cart-packaging-selector">
-                        <button
-                          className={`cart-packaging-btn ${packaging === 'single' ? 'active' : ''}`}
-                          onClick={() => onSetPackaging('single')}
-                          title={t('Combine all into one module')}
-                        >
-                          <Package size={14} />
-                          {t('Single module')}
-                        </button>
-                        <button
-                          className={`cart-packaging-btn ${packaging === 'separate' ? 'active' : ''}`}
-                          onClick={() => onSetPackaging('separate')}
-                          title={t('Build each recipe as a separate module')}
-                        >
-                          <Layers size={14} />
-                          {t('Separate modules')}
-                        </button>
-                      </div>
-                    )}
-
-                    {/* Module name input (only for module mode, single packaging) */}
-                    {installMode === 'module' && packaging === 'single' && (
-                      <div className="cart-module-name">
-                        <input
-                          type="text"
-                          className="cart-module-name-input"
-                          placeholder={t('Module name (optional)')}
-                          value={moduleName}
-                          onChange={(e) => onSetModuleName(e.target.value)}
-                          onClick={(e) => e.stopPropagation()}
-                        />
-                      </div>
-                    )}
-
-                    <div className="cart-status-line">
-                      {connectionStatus === 'disconnected' && cartRecipes.length > 0 && (
-                        <span>{t('Offline')} — {t('Install')} {t('via URI scheme')}</span>
-                      )}
-                    </div>
-                    <button
-                      className="cart-install-btn"
-                      onClick={handleInstall}
-                      disabled={cartRecipes.length === 0}
-                    >
-                      <Download size={16} />
-                      {t('Install')} ({cartRecipes.length})
-                    </button>
-                  </div>
-                )}
+                {renderCartContent()}
               </div>
             </div>
 
@@ -367,8 +375,8 @@ const Header: React.FC<HeaderProps> = ({
 
       {/* Mobile overlay */}
       <div
-        className={`mobile-overlay ${mobileLangOpen ? 'active' : ''}`}
-        onClick={() => setMobileLangOpen(false)}
+        className={`mobile-overlay ${mobileLangOpen || cartOpen ? 'active' : ''}`}
+        onClick={() => { setMobileLangOpen(false); setCartOpen(false); }}
       />
 
       {/* Mobile Language Menu */}
@@ -396,6 +404,11 @@ const Header: React.FC<HeaderProps> = ({
           ))}
         </div>
       </nav>
+
+      {/* Mobile Cart Menu */}
+      <div className={`mobile-cart-menu ${cartOpen ? 'active' : ''}`} ref={mobileCartRef}>
+        {renderCartContent()}
+      </div>
     </>
   );
 };

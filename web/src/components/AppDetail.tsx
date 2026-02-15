@@ -242,7 +242,7 @@ const AppDetail: React.FC<AppDetailProps> = ({
             <div className="app-detail-section">
               <h4>{t('Screenshots')}</h4>
               <div className="screenshot-gallery">
-                {screenshots.map((src, i) => {
+                {screenshots.slice(0, 2).map((src, i) => {
                   const fullSrc = resolveScreenshot(src);
                   const thumbSrc = getThumbUrl(fullSrc);
                   return (

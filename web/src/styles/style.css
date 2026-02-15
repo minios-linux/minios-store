@@ -1064,7 +1064,7 @@ html.light-theme .cart-btn:hover {
     padding: 0 4px;
     border-radius: 9px;
     background: var(--accent);
-    color: #0f1115;
+    color: #ffffff;
     font-size: 0.65rem;
     font-weight: 700;
     display: flex;
@@ -3173,17 +3173,24 @@ html.light-theme .skeleton-box {
     padding: 8px;
     border-radius: 10px;
     cursor: pointer;
-    color: white;
+    color: var(--text-muted);
     transition: 0.3s;
+    align-items: center;
+    justify-content: center;
 }
 
 .mobile-menu-btn:hover {
     background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+html.light-theme .mobile-menu-btn:hover {
+    color: #0f1115;
 }
 
 .mobile-menu-btn svg {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
 /* Mobile overlay */
@@ -3258,6 +3265,44 @@ html.light-theme .mobile-lang-menu a:hover {
     color: #0f1115;
 }
 
+/* Mobile cart menu */
+.mobile-cart-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -100%;
+    width: 320px;
+    max-width: 85vw;
+    height: 100dvh;
+    background: rgba(15, 17, 21, 0.7);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-left: 1px solid var(--glass-border);
+    padding-top: 20px;
+    transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: var(--z-mobile-menu);
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.mobile-cart-menu.active {
+    right: 0;
+}
+
+.mobile-cart-menu .cart-dropdown-items {
+    max-height: none;
+    flex: 1;
+    overflow-y: auto;
+}
+
+html.light-theme .mobile-cart-menu {
+    background: rgba(248, 250, 252, 0.7);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 768px) {
     .nav-wrapper {
         flex-wrap: wrap;
@@ -3282,7 +3327,7 @@ html.light-theme .mobile-lang-menu a:hover {
         display: none;
     }
 
-    .header-actions .connection-status span {
+    .header-actions .connection-status {
         display: none;
     }
 
@@ -3291,9 +3336,15 @@ html.light-theme .mobile-lang-menu a:hover {
     }
 
     .cart-dropdown {
-        width: calc(100vw - 32px);
-        max-width: 340px;
-        right: -8px;
+        display: none !important;
+    }
+
+    .mobile-cart-menu {
+        display: flex;
+    }
+
+    .logo-text {
+        display: none;
     }
 
     .mobile-menu-btn {
