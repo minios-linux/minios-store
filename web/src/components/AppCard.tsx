@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import { memo, useRef, useEffect, useState, useCallback } from 'react';
 import { DynamicIcon } from '@/components/DynamicIcon';
 import { Plus, Check } from 'lucide-react';
 import type { Recipe, Category } from '@/lib/types';
@@ -12,6 +12,22 @@ interface AppCardProps {
 }
 
 const AppCard: React.FC<AppCardProps> = ({ recipe, category, inCart, onToggleCart, onOpenDetail }) => {
+  const pkgRef = useRef<HTMLSpanElement>(null);
+  const [isTruncated, setIsTruncated] = useState(false);
+
+  const checkTruncation = useCallback(() => {
+    const el = pkgRef.current;
+    if (el) {
+      setIsTruncated(el.scrollWidth > el.clientWidth);
+    }
+  }, []);
+
+  useEffect(() => {
+    checkTruncation();
+    window.addEventListener('resize', checkTruncation);
+    return () => window.removeEventListener('resize', checkTruncation);
+  }, [checkTruncation]);
+
   return (
     <div className="app-card" onClick={onOpenDetail}>
       <div className="app-card-header">
@@ -34,7 +50,7 @@ const AppCard: React.FC<AppCardProps> = ({ recipe, category, inCart, onToggleCar
       </div>
 
       <div className="app-card-footer">
-        <div style={{ display: 'flex', gap: '6px', alignItems: 'center', flexWrap: 'wrap' }}>
+        <div className="app-card-tags">
           {category && (
             <span className="app-card-category">
               <DynamicIcon name={category.icon} size={12} />
@@ -45,7 +61,11 @@ const AppCard: React.FC<AppCardProps> = ({ recipe, category, inCart, onToggleCar
             {recipe.method}
           </span>
           {recipe.packages && recipe.packages.length > 0 && (
-            <span className="app-card-package">
+            <span
+              ref={pkgRef}
+              className={`app-card-package${isTruncated ? ' truncated' : ''}`}
+              title={isTruncated ? recipe.packages[0] : undefined}
+            >
               {recipe.packages[0]}
             </span>
           )}
