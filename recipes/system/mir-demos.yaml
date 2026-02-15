@@ -1,0 +1,34 @@
+id: mir-demos
+name: Mir Shell
+description: 'Mir Shell: "miral-shell" Demo'
+longDescription: |
+  <p>Mir is a display server running on Linux systems, with a focus on efficiency, robust operation and a well-defined driver model.</p>
+  <p>Contains demo applications that use the Mir display server</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mir-demos
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - mir
+  - server
+  - shell
+iconSources:
+  - url: m/mi/miral-shell.desktop/2e4ba38492716b76f61ba2662967b0e6/icons/128x128/mir-demos_ubuntu-logo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

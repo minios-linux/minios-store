@@ -1,0 +1,25 @@
+id: nwg-clipman
+name: Clipboard manager
+description: Clipboard history search and management tool
+longDescription: |
+  <p>nwg-clipman is a GTK3-based GUI for Senan Kelly&apos;s cliphist. It provides access to previously copied items, as well as management of the clipboard history from a window opened on gtk-layer-shell. The program is intended for use with sway, Hyprland and other wlroots-based Wayland compositors.</p>
+  <p>Features  - image &amp; text history item preview;  - searching clipboard history by a textual phrase;  - deleting selected history item;  - clearing clipboard history.</p>
+  <p>This program is a part of the nwg-shell project.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nwg-clipman
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: nwg-clipman_nwg-clipman.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

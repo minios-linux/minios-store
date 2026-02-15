@@ -1,0 +1,43 @@
+id: "granatier"
+name: Granatier
+description: Bomberman clone
+longDescription: |
+  <p>Granatier is a clone of the classic Bomberman game, inspired by the work of the Clanbomber clone.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - granatier
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/granatier/9e62912d6ef6ecd4281efea4a2b19bbb/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/granatier/9e62912d6ef6ecd4281efea4a2b19bbb/screenshots/image-1_624x412@1.png
+    width: 1331
+    height: 880
+iconSources:
+  - url: org/kde/granatier/9e62912d6ef6ecd4281efea4a2b19bbb/icons/128x128/granatier_granatier.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org//granatier"
+enabled: true
+order: 99

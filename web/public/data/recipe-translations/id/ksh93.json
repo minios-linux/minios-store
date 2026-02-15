@@ -1,0 +1,5 @@
+{
+  "name": "AT&T Korn Shell (ksh93)",
+  "description": "Shell Korn",
+  "longDescription": "<p>Ksh adalah interpreter perintah UNIX (shell) yang dirancang untuk penggunaan interaktif maupun penulisan skrip shell. Bahasa perintahnya merupakan superset dari bahasa shell sh(1).</p>\n<p>Versi 1993 menambahkan sejumlah fitur baru, terutama yang berkaitan dengan penulisan skrip, dibandingkan versi 1988 yang biasanya didistribusikan bersama varian UNIX komersial. Contohnya, ksh93 mendukung scoping leksikal, variabel majemuk, array asosiatif, referensi bernama, dan matematika floating point.</p>\n<p>Alat shcomp dapat digunakan untuk mengompilasi skrip ksh menjadi format biner.</p>\n"
+}

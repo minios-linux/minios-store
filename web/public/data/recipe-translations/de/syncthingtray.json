@@ -1,0 +1,5 @@
+{
+  "name": "Syncthing Tray",
+  "description": "Tray-Anwendung für Syncthing",
+  "longDescription": "<ul>\n  <li>Qt-basierte Tray-Anwendung für Syncthing</li>\n  <li>Bietet schnellen Zugriff auf die am häufigsten genutzten Funktionen, ersetzt aber nicht die offizielle Web-Oberfläche</li>\n  <li>Zeigt Syncthing-Benachrichtigungen an</li>\n  <li>Liest bei Bedarf die lokale Syncthing-Konfigurationsdatei aus, um eine schnelle Einrichtung bei der Verbindung zur lokalen Instanz zu ermöglichen</li>\n  <li>Kann den Status der Syncthing-Systemd-Unit anzeigen sowie deren Start und Stopp steuern</li>\n  <li>Bietet einen schnellen Zugang zur offiziellen Web-Oberfläche</li>\n  <li>Ermöglicht schnelles Umschalten zwischen mehreren Syncthing-Instanzen</li>\n</ul>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "KVPM",
+  "description": "Interface graphique pour la gestion des volumes",
+  "longDescription": "<p>KVPM est une interface graphique pour le gestionnaire de volumes logiques (LVM) et libparted sous Linux. Elle s'appuie sur les outils standards de LVM pour manipuler les volumes logiques, comme leur redimensionnement, suppression ou création. KVPM permet également de formater, monter et démonter des volumes. La création, la suppression et le redimensionnement de partitions sont aussi pris en charge.</p>\n"
+}

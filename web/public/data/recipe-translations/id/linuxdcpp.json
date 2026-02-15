@@ -1,0 +1,5 @@
+{
+  "name": "LinuxDC++",
+  "description": "Klien berbagi berkas untuk jaringan Direct Connect",
+  "longDescription": "<p>Direct Connect adalah protokol berbagi berkas peer-to-peer (P2P). Klien terhubung ke sebuah hub pusat di mana mereka dapat melihat daftar klien atau pengguna lain yang terhubung. Pengguna dapat mencari dan mengunduh berkas dari klien lain, serta melakukan chat dengan pengguna lain.</p>\n<p>Aplikasi DC++ adalah klien terpopuler di Windows yang menggunakan protokol ini. LinuxDC++ merupakan port DC++ untuk Linux. Meskipun utamanya ditujukan untuk Linux, aplikasi ini juga dapat dijalankan di sistem operasi berbasis Unix lainnya.</p>\n"
+}

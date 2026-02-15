@@ -1,0 +1,5 @@
+{
+  "name": "Apper",
+  "description": "Outil de gestion des applications et des paquets pour KDE",
+  "longDescription": "<p>Apper est un outil graphique pour gérer les paquets et applications\n      proposés par une distribution Linux.</p>\n<p>Il permet d’installer de nouveaux logiciels et de maintenir le système à jour en installant les mises à jour.</p>\n<p>Fonctionnalités :</p>\n<ul>\n  <li>Gestion des paquets logiciels indépendante de la distribution</li>\n  <li>Gestion des applications adaptée aux utilisateurs peu familiers avec les paquets</li>\n  <li>Édition des sources logicielles et des paramètres PackageKit</li>\n  <li>Notification et installation des mises à jour du système</li>\n  <li>Intégration étroite avec l’environnement de bureau KDE Plasma</li>\n</ul>\n"
+}

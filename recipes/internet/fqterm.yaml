@@ -1,0 +1,42 @@
+id: fqterm
+name: FQTerm
+description: BBS client based on Qt library in linux
+longDescription: |
+  <p>FQTerm is one of the most widely used BBS client in China, it supports Telnet/SSH1/SSH2 protocols and can process ANSI control sequences. It can be used to login BBS sites or *NIX hosts.</p>
+  <p>Almost all the BBSes in Greater China Region are in BIG5 or GBK encoding. So FQTerm only support these two encodings and ASCII.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fqterm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - qt
+  - bbs
+  - term
+iconSources:
+  - cached: fqterm_fqterm.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

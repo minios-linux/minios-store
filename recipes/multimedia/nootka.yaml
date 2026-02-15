@@ -1,0 +1,25 @@
+id: nootka
+name: Nootka
+description: Application for learning musical score notation
+longDescription: |
+  <p>Nootka is an application to learn classical score notation. It helps to understand the rules of reading and writing scores and develops skills for playing and singing notes.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nootka
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: nootka_nootka.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

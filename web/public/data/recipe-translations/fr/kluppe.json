@@ -1,0 +1,5 @@
+{
+  "name": "Kluppe",
+  "description": "lecteur et enregistreur de boucles audio",
+  "longDescription": "<p>kluppe est développé en C et utilise jack, gtk et sndfile. Ses fonctionnalités incluent :</p>\n<p> - gestion de plusieurs tampons de fichiers, plusieurs pistes « loopers »  - accès direct (interface graphique) à tous les loopers  - ports de sortie distincts ou combinés pour jack  - différents modes de lecture, dont le mode « granulaire »</p>\n<p>kluppe signifie « pince » en autrichien, et le mot devient encore plus amusant à répéter en boucle.</p>\n"
+}

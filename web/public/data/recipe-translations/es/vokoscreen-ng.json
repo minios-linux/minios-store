@@ -1,0 +1,5 @@
+{
+  "name": "vokoscreen-ng",
+  "description": "creador de grabaciones de pantalla fácil de usar",
+  "longDescription": "<p>\n      vokoscreenNG permite grabar videos de la pantalla del ordenador, cámaras web, cámaras externas, etc. Esta herramienta gráfica puede producir videos educativos, grabaciones en vivo de navegación web, tutoriales de instalación, registrar videoconferencias, entre otros. Puedes capturar solo video o video junto con audio.\n    </p>\n<p>\n      El programa puede guardar archivos en varios formatos y utilizar diferentes códecs de video y audio:\n    </p>\n<p>\n      - Video: x264, openh264, H.264 (GPU Intel), MPEG-2 (GPU Intel) y VP8.\n    </p>\n<p>\n      - Audio: vorbis, flac, opus, mp3 y aac.\n    </p>\n<p>\n      - Archivo: mkv, webm, avi, mp4 y mov.\n    </p>\n<p>\n      NOTA: por ahora openh264 y acc no están disponibles en Debian.\n    </p>\n<p>\n      vokoscreenNG es un reemplazo moderno y completo de vokoscreen, ambos desarrollados por Volker Kohaupt. La principal diferencia es que vokoscreen utiliza ffmpeg como base, mientras que vokoscreenNG ha sido reescrito desde cero y se basa en GStreamer.\n    </p>\n"
+}

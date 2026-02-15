@@ -1,0 +1,5 @@
+{
+  "name": "trezorctl",
+  "description": "Utilitaire pour interagir avec un portefeuille matériel TREZOR Bitcoin",
+  "longDescription": "<p>Peu importe le niveau de sécurité de votre ordinateur ou de votre connexion internet, vos cryptomonnaies restent toujours protégées avec TREZOR, car vos clés privées ne sont jamais exposées. TREZOR crée un environnement isolé pour la signature hors ligne des transactions et, grâce au petit écran, vous pouvez vérifier visuellement le contenu de chaque opération. C’est pourquoi toutes les opérations effectuées avec TREZOR sont entièrement sécurisées.</p>\n<p>Pour utiliser TREZOR, vous aurez également besoin d’une interface de portefeuille comme Electrum installée.</p>\n"
+}

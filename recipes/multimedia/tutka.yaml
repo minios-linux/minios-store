@@ -1,0 +1,37 @@
+id: "tutka"
+name: Tutka MIDI Tracker
+description: Compose music using MIDI
+longDescription: |
+  <p>This is a MIDI sequencer, songs are made of blocks. Each block represents a period in time. These blocks can be played in any order to form a complete song. Blocks are made of tracks on which the notes are placed. All tracks of a block are played simultaneously. Only one note can be played on one track at a time. Blocks can vary in length and may have different number of tracks.</p>
+  <p>Each note is played using an instrument. Each instrument can have properties such as name, MIDI channel, default volume, hold time and so on. Effects can also be applied to notes. In Tutka effects include things like volume, aftertouch, pitch bending, note delays, setting tempo and so on. MIDI controllers can also be used.</p>
+  <p>It uses a custom XML based file format for storing songs. Songs in OctaMED SoundStudio&apos;s MMD2 file format can also be loaded and saved.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tutka
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/tu/tutka.desktop/4b143a0caeab6979fd065bb1e1b4af34/icons/128x128/tutka_tutka.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

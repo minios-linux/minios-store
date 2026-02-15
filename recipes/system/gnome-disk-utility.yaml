@@ -1,0 +1,66 @@
+id: "gnome-disk-utility"
+name: GNOME Disks
+description: Disk management utility for GNOME
+longDescription: |
+  <p>Disks provides an easy way to inspect, format, partition, and configure disks
+        and block devices.</p>
+  <p>Using Disks, you can view SMART data, manage devices, benchmark physical
+        disks, and image USB sticks.</p>
+  
+categoryId: system
+icon: HardDrive
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-disk-utility
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - disk
+  - drive
+  - volume
+  - harddisk
+  - hdd
+  - disc
+  - cdrom
+  - dvd
+  - partition
+  - iso
+screenshotSources:
+  - url: org/gnome/DiskUtility.desktop/e8d25d14397a1fb7712df14f06691bd8/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/DiskUtility.desktop/e8d25d14397a1fb7712df14f06691bd8/screenshots/image-1_624x478@1.png
+    width: 639
+    height: 490
+  - url: org/gnome/DiskUtility.desktop/e8d25d14397a1fb7712df14f06691bd8/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/DiskUtility.desktop/e8d25d14397a1fb7712df14f06691bd8/screenshots/image-2_624x366@1.png
+    width: 1004
+    height: 589
+  - url: org/gnome/DiskUtility.desktop/e8d25d14397a1fb7712df14f06691bd8/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/DiskUtility.desktop/e8d25d14397a1fb7712df14f06691bd8/screenshots/image-3_624x427@1.png
+    width: 952
+    height: 652
+iconSources:
+  - url: org/gnome/DiskUtility.desktop/e8d25d14397a1fb7712df14f06691bd8/icons/128x128/gnome-disk-utility_org.gnome.DiskUtility.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Disks"
+enabled: true
+order: 99

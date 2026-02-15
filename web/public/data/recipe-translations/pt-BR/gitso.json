@@ -1,0 +1,5 @@
+{
+  "name": "Gitso",
+  "description": "Conecte-se a outras pessoas usando o protocolo VNC",
+  "longDescription": "<p>Gitso é um programa gráfico multiplataforma (Linux, OS X e Windows) que facilita a conexão entre duas pessoas, permitindo visualizar e controlar remotamente a tela, o teclado e o mouse do outro. Isso torna simples obter ajuda ou oferecer suporte técnico.</p>\n<p>Em um processo simples de dois passos, a pessoa que oferece o suporte primeiramente configura o redirecionamento de portas e o firewall em sua máquina, se necessário, e inicia o Gitso para escutar conexões recebidas na porta 5500. Em seguida, quem precisa de ajuda usa o Gitso para se conectar ao endereço (IP ou nome de domínio) do suporte, tornando sua tela visível remotamente e permitindo que o suporte use seu teclado e mouse.</p>\n"
+}

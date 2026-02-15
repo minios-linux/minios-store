@@ -1,0 +1,5 @@
+{
+  "name": "KAppTemplate",
+  "description": "Generator Template KDE",
+  "longDescription": "<p>KAppTemplate adalah aplikasi untuk memulai pengembangan dengan cepat menggunakan template yang telah tersedia, menyediakan kode dasar yang sering digunakan ulang serta struktur proyek yang baik.</p>\n<p>Fitur:</p>\n<ul>\n  <li>Template untuk C++, Ruby, Python, dan PHP</li>\n  <li>Kategori yang beragam</li>\n  <li>Template untuk berbagai sistem build dan framework</li>\n  <li>Template khusus untuk pengembangan KDE (plugin untuk Plasma, KOffice, KTextEditor, KRunner, Akonadi)</li>\n  <li>Mudah membuat template baru menggunakan placeholder dan perintah CMake sederhana</li>\n  <li>Terintegrasi dengan KDevelop</li>\n</ul>\n"
+}

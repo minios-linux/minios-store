@@ -1,0 +1,48 @@
+id: budgie-wallstreet
+name: Budgie Wallstreet
+description: Rotate wallpapers on regular intervals
+longDescription: |
+  <p>
+        Budgie WallStreet is a mini-app to switch wallpapers on regular intervals. Options include:
+      </p>
+  <ul>
+    <li>Set a custom folder with wallpapers to rotate</li>
+    <li>Set time interval in hours/minutes/seconds</li>
+    <li>Use random order</li>
+    <li>Synchronize lock-screen wallpaper</li>
+  </ul>
+  <p>
+        By default, the default set of wallpapers is rotated.
+      </p>
+  <p>
+      This application has been created primarily for the budgie-desktop but will also work on gnome-shell.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - budgie-wallstreet
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - wallpaper
+  - background
+screenshotSources:
+  - url: org/ubuntubudgie/wallstreetcontrol/cf9f0313969fd542acc84b54f6cdb8fb/screenshots/image-1_orig.png
+    thumbnailUrl: org/ubuntubudgie/wallstreetcontrol/cf9f0313969fd542acc84b54f6cdb8fb/screenshots/image-1_224x236@1.png
+    width: 535
+    height: 566
+iconSources:
+  - url: org/ubuntubudgie/wallstreetcontrol/cf9f0313969fd542acc84b54f6cdb8fb/icons/128x128/budgie-wallstreet_org.ubuntubudgie.wallstreet-control.png
+    width: 128
+    height: 128
+homepage: "https://github.com/UbuntuBudgie/budgie-extras"
+enabled: true
+order: 99

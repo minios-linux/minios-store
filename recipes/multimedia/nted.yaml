@@ -1,0 +1,37 @@
+id: nted
+name: NtEd
+description: Edit musical scores
+longDescription: |
+  <p>NtEd is a GTK+ score editor. It intends to be really WYSIWYG: what you see on the screen is exactly what you get on printer output. It supports up to 4 voices per staff, drum notes, 5 lyrics lines, N-Tuplets, context changes, repeats with alternatives, configurable music instruments per staff, MIDI / MusicXML import, PS / PDF / SVG / PNG / Lilypond / MIDI export. Scores can be played through the ALSA sequencer.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nted
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: nted_nted.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

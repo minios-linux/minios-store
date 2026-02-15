@@ -1,0 +1,37 @@
+id: "tikzit"
+name: TikZiT
+description: A graphical editor for PGF/TikZ
+longDescription: |
+  <p>TikZiT is a super simple GUI editor for graphs and string diagrams. Its native file format is a subset of PGF/TikZ, which means TikZiT files can be included directly in papers typeset using LaTeX.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tikzit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/ti/tikzit.desktop/9f8d9c3b0ebdc22c0b17f83c4d1d8f28/icons/128x128/tikzit_tikzit.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

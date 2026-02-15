@@ -1,0 +1,43 @@
+id: flatseal
+name: Flatseal
+description: Manage Flatpak permissions
+longDescription: |
+  <p>
+        Flatseal is a graphical utility to review and modify permissions from your Flatpak applications.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flatseal
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - seal
+  - sandbox
+  - override
+screenshotSources:
+  - url: com/github/tchx84.Flatseal/8dc41264c9de8a2442bfb822e539c88e/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/tchx84.Flatseal/8dc41264c9de8a2442bfb822e539c88e/screenshots/image-1_624x457@1.png
+    width: 1122
+    height: 822
+  - url: com/github/tchx84.Flatseal/8dc41264c9de8a2442bfb822e539c88e/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/tchx84.Flatseal/8dc41264c9de8a2442bfb822e539c88e/screenshots/image-2_624x457@1.png
+    width: 1122
+    height: 822
+  - url: com/github/tchx84.Flatseal/8dc41264c9de8a2442bfb822e539c88e/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/tchx84.Flatseal/8dc41264c9de8a2442bfb822e539c88e/screenshots/image-3_624x457@1.png
+    width: 1122
+    height: 822
+iconSources:
+  - url: com/github/tchx84.Flatseal/8dc41264c9de8a2442bfb822e539c88e/icons/128x128/flatseal_com.github.tchx84.Flatseal.png
+    width: 128
+    height: 128
+homepage: "https://github.com/tchx84/flatseal"
+enabled: true
+order: 99

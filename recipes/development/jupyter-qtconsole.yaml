@@ -1,0 +1,34 @@
+id: "jupyter-qtconsole"
+name: Jupyter Qt console
+description: Jupyter qtconsole
+longDescription: |
+  <p>IPython can be used as a replacement for the standard Python shell, or it can be used as a complete working environment for scientific computing (like Matlab or Mathematica) when paired with the standard Python scientific and numerical tools. It supports dynamic object introspections, numbered input/output prompts, a macro system, session logging, session restoring, complete system shell access, verbose and colored traceback reports, auto-parentheses, auto-quoting, and is embeddable in other Python programs.</p>
+  <p>This package contains the qtconsole binaries for the Python 3 interpreter.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jupyter-qtconsole
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: jupyter-qtconsole_network-idle.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

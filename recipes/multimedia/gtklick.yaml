@@ -1,0 +1,31 @@
+id: gtklick
+name: gtklick
+description: A Simple Metronome
+longDescription: |
+  <p>gtklick is a simple metronome with an easy-to-use GTK+ interface, supporting the JACK sound server.</p>
+  <p>It features different sounds to choose from, arbitrary meters and beat patterns, a speed trainer, and the ability to save and restore profiles. gtklick is implemented as a frontend to klick and uses OSC messages to communicate with the backend.</p>
+  <p>Using klick directly on the command line offers additional features like tempo maps and synchronization with JACK transport.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtklick
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - jackd,metronome,click,klick,beat
+iconSources:
+  - cached: gtklick_gtklick.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

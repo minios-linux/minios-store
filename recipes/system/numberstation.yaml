@@ -1,0 +1,35 @@
+id: "numberstation"
+name: Numberstation
+description: TOTP authenticator application
+longDescription: |
+  <p>
+              A TOTP authenticator application like Google Authenticator and Gnome Authenticator
+          </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - numberstation
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/postmarketos/Numberstation/60ddb3d03b01724f90434c4b1884eb82/screenshots/image-1_orig.png
+    thumbnailUrl: org/postmarketos/Numberstation/60ddb3d03b01724f90434c4b1884eb82/screenshots/image-1_624x351@1.png
+    width: 833
+    height: 469
+iconSources:
+  - url: org/postmarketos/Numberstation/60ddb3d03b01724f90434c4b1884eb82/icons/128x128/numberstation_org.postmarketos.Numberstation.png
+    width: 128
+    height: 128
+homepage: "https://sr.ht/~martijnbraam/numberstation"
+enabled: true
+order: 99

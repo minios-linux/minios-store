@@ -1,0 +1,55 @@
+id: "sound-juicer"
+name: Sound Juicer
+description: CD ripper with a clean interface and simple preferences
+longDescription: |
+  <p>Sound Juicer is a simple and clean CD ripping tool.
+        It allows you to extract the audio from audio compact discs and convert
+        them into audio files that your computer can understand and play.
+        Sound Juicer can also play the audio tracks directly from the CD, allowing
+        you to preview the CD before ripping it.</p>
+  <p>Sound Juicer is designed to be easy to use, and to work with little user
+        intervention.
+        When you start Sound Juicer, it will examine the CD in the drive and try
+        to locate information about the audio tracks using the freely-available
+        MusicBrainz service.</p>
+  
+categoryId: multimedia
+icon: Music
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sound-juicer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ripper
+screenshotSources:
+  - url: org/gnome/SoundJuicer.desktop/9658462143591b0888ff1209b3c5efcc/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/SoundJuicer.desktop/9658462143591b0888ff1209b3c5efcc/screenshots/image-1_624x351@1.png
+    width: 752
+    height: 423
+iconSources:
+  - url: org/gnome/SoundJuicer.desktop/9658462143591b0888ff1209b3c5efcc/icons/128x128/sound-juicer_org.gnome.SoundJuicer.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/SoundJuicer"
+enabled: true
+order: 99

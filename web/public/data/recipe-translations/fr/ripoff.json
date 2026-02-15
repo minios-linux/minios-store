@@ -1,0 +1,5 @@
+{
+  "name": "RipOff",
+  "description": "Extrayez l’audio de vos CD",
+  "longDescription": "<p>RipOff est un extracteur de CD pour Linux basé sur GTK+, doté d’une interface simple, de recherches automatiques dans la base CDDB et d’une architecture d’encodage extensible via plugins.</p>\n<p>Cette version ne prend pas en charge le MP3 : pour extraire en mp3, vous devez installer le paquet ripoff-mp3-plugin.</p>\n<p>Ce paquet contient l’exécutable ripoff.</p>\n"
+}

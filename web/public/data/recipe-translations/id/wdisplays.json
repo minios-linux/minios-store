@@ -1,0 +1,5 @@
+{
+  "name": "Displays",
+  "description": "Konfigurasi display wlroots",
+  "longDescription": "<p>wdisplays adalah aplikasi grafis untuk mengatur konfigurasi display pada compositor Wayland. Aplikasi ini menggunakan sebagian kode dari kanshi. wdisplays dapat berjalan di semua compositor yang mendukung protokol wlr-output-management-unstable-v1, termasuk sway. Tujuan proyek ini adalah untuk memungkinkan penyesuaian pengaturan display secara presisi pada kiosk, digital signage, dan berbagai kebutuhan multi-monitor yang kompleks.</p>\n"
+}

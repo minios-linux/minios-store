@@ -1,0 +1,5 @@
+{
+  "name": "Chocolate Setup",
+  "description": "Утилита настройки Chocolate",
+  "longDescription": "<p>Chocolate Doom нацелен на точное воспроизведение оригинальной DOS-версии Doom и других игр на движке Doom, позволяя запускать их на современных компьютерах. В отличие от большинства современных портов Doom, Chocolate Doom не основан на исходном коде Boom и не перенимает его особенности (или ошибки).</p>\n<p>В этот пакет входят:  * Chocolate Doom — порт «Doom» (1993) от Id Software  * Chocolate Heretic — порт «Heretic» (1994) от Raven Software  * Chocolate Hexen — порт «Hexen» (1995) от Raven Software  * Chocolate Strife — воссоздание «Strife» (1996) от Rogue Entertainment</p>\n<p>Эти игры максимально приближены по поведению к оригинальным DOS-версиям.</p>\n<p>Chocolate Doom поддерживает все версии Doom, включая The Ultimate Doom, Doom 2, Final Doom, а также Chex(R) Quest, HACX и FreeDM.</p>\n<p>Для запуска всех Chocolate-движков необходимы игровые данные. Для Chocolate Doom бесплатные игровые данные доступны в пакете freedm. Коммерческие данные для всех четырёх движков можно подготовить с помощью «game-data-packager».</p>\n"
+}

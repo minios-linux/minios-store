@@ -1,0 +1,5 @@
+{
+  "name": "SleepyHead",
+  "description": "SleepyHead dirancang untuk meninjau dan menganalisis data yang dihasilkan oleh mesin CPAP dan perangkat terkait, yang digunakan dalam terapi sleep apnea.",
+  "longDescription": "<p>SleepyHead adalah perangkat lunak bebas lintas platform untuk meneliti dan menganalisis data yang dihasilkan oleh mesin CPAP (Continuous Positive Airway Pressure) dan peralatan sejenis yang digunakan dalam terapi sleep apnea dan gangguan tidur lainnya.</p>\n<p>SleepyHead mendukung model mesin CPAP dengan kapabilitas data dari seri berikut: - ResMed S9  - AirSense 10  - AirCurve 10  - Philips Respironics System One  - Fisher &amp; Paykel ICON &amp; ICON+  - DeVilbiss IntelliPAP</p>\n<p>Perangkat lunak ini juga mendukung seluruh seri Oksimeter Contec CMS50, baik secara mandiri maupun disinkronkan dengan data CPAP (meskipun Anda perlu menginstal driver terpisah untuk perangkat Contec). Selain itu, SleepyHead kompatibel dengan oximeter tambahan ResMed dan PR System One, serta dapat mengimpor file dari oximeter ChoiceMMed MD300W1.</p>\n"
+}

@@ -1,0 +1,26 @@
+id: frama-c
+name: Frama-C
+description: Framework for source code analysis of software written in C
+longDescription: |
+  <p>Frama-C is a framework dedicated to the analysis of the source code of software written in C.</p>
+  <p>Frama-C gathers several static analysis techniques in a single collaborative framework. The collaborative approach of Frama-C allows static analyzers to build upon the results already computed by other analyzers in the framework. Thanks to this approach, Frama-C provides sophisticated tools, such as a slicer and dependency analysis.</p>
+  <p>It can be used to:   * Validate the source code formally   * Look for potential runtime errors   * Audit or review it   * Reverse engineer it to understand its structure   * Generate formal documentation</p>
+  <p>This package provides the graphical user interface of Frama-c and depends on frama-c-base.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - frama-c
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: frama-c_frama-c.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

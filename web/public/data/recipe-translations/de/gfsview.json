@@ -1,0 +1,5 @@
+{
+  "name": "GfsView 2D",
+  "description": "Visualisierung von Gerris 2D-Simulationen",
+  "longDescription": "<p>Gerris ist ein System zur Lösung der partiellen Differentialgleichungen, die Strömungen beschreiben.</p>\n<p>GfsView stellt die Ergebnisse von 2D- und 3D-Gerris-Simulationen dar. Eine kurze Übersicht der Hauptfunktionen:</p>\n<p>   * Skalare und Vektor-Schnitte    * Isoflächen    * Stromlinien    * Benutzerdefinierte Funktionen    * Schnelle adaptive Darstellung (mithilfe der Multiresolutions-Datenstruktur von Gerris)    * Skriptsteuerung möglich    * Offline-Bilderstellung    * Hochwertige Ausgaben in PostScript, PDF und Bitmap</p>\n"
+}

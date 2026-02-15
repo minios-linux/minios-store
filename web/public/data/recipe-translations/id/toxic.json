@@ -1,0 +1,5 @@
+{
+  "name": "Toxic",
+  "description": "Klien Tox berbasis CLI",
+  "longDescription": "<p>Ini adalah klien pesan instan berbasis Tox yang sebelumnya berada dalam repositori inti Tox, dan sekarang tersedia sebagai aplikasi mandiri.</p>\n<p>Tox adalah pengganti Skype yang aman dan terdistribusi.</p>\n<p>Pada dasarnya, ini adalah klien yang bekerja dengan pustaka intinya yang berkomunikasi menggunakan protokolnya sendiri. Semua komunikasi dienkripsi dengan pustaka kriptografi NaCl yang telah diaudit komunitas dan enkripsi ini tidak dapat dinonaktifkan.</p>\n<p>Tox dibangun di atas jaringan terdistribusi yang menggunakan koneksi P2P untuk percakapan antar pengguna. Berbeda dari alternatif Skype lainnya, Tox tidak menggunakan server terpusat, server federasi, atau supernode apa pun.</p>\n"
+}

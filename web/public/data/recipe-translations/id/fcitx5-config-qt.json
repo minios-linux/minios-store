@@ -1,0 +1,5 @@
+{
+  "name": "Fcitx 5 Migration Wizard",
+  "description": "Jalankan wizard untuk mengimpor data dari metode input lain seperti Fcitx 4 dan sebagainya.",
+  "longDescription": "<p>Ini adalah alat konfigurasi untuk Fcitx Input Method Framework versi 5.</p>\n<p>Aplikasi ini juga menyediakan alat fcitx5-migrator, yang membantu migrasi data dari Fcitx4. Untuk memigrasi data pinyin dan tabel Fcitx4, dibutuhkan alat dari paket libime-bin.</p>\n"
+}

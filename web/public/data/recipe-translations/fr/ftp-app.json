@@ -1,0 +1,5 @@
+{
+  "name": "FTP",
+  "description": "Client FTP pour GNUstep",
+  "longDescription": "<p>Il s’agit d’une application de transfert de fichiers (RFC 765) offrant une interface compacte et intuitive. Comme la plupart des applications du projet GAP, elle fonctionne aussi bien sous GNUstep que sous MacOS X, en maintenant une expérience utilisateur cohérente entre les deux environnements pour faciliter le travail multi-plateforme.</p>\n<p>FTP prend en charge différents modes d’arbitrage de ports : « default », « PORT » standard (aussi appelé actif) et « PASV » standard (aussi appelé passif).</p>\n"
+}

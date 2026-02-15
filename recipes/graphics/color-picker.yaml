@@ -1,0 +1,67 @@
+id: color-picker
+name: color-picker
+description: Powerful screen color picker based on Qt
+longDescription: |
+  <p>Colour picker and colour editor for web designers and digital  artists, With Color Picker,
+        	identifying the colours, saving and  editing is a quick and simple job.</p>
+  <p>Color Picker features include:</p>
+  <p>* Five formats of colour codes: HTML, HexRGBA, RGB, HSB/HSV, CMYK and their variations.
+            Conversion of HTML, HEX and RGB colour codes into the corresponding colours.</p>
+  <p>* Colour picker for easy handling and greater precision.</p>
+  <p>* Colour list for saving and reusing the picked colour samples for each picked colour.</p>
+  <p>* Color preview widget</p>
+  <p>* Progressive color pattern generator</p>
+  <p>* Support Switching three themes - System theme, Flat Light theme and Dark theme.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - color-picker
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - color picker
+  - gpick
+  - gcolor
+  - color
+  - colour
+screenshotSources:
+  - url: io/github/keshavbhatt.color_picker/735f697551b66a6d753e4d2689f86656/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/keshavbhatt.color_picker/735f697551b66a6d753e4d2689f86656/screenshots/image-1_624x314.png
+    width: 865
+    height: 436
+  - url: io/github/keshavbhatt.color_picker/735f697551b66a6d753e4d2689f86656/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/keshavbhatt.color_picker/735f697551b66a6d753e4d2689f86656/screenshots/image-2_624x472.png
+    width: 865
+    height: 655
+  - url: io/github/keshavbhatt.color_picker/735f697551b66a6d753e4d2689f86656/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/keshavbhatt.color_picker/735f697551b66a6d753e4d2689f86656/screenshots/image-3_224x307.png
+    width: 326
+    height: 448
+  - url: io/github/keshavbhatt.color_picker/735f697551b66a6d753e4d2689f86656/screenshots/image-4_orig.png
+    thumbnailUrl: io/github/keshavbhatt.color_picker/735f697551b66a6d753e4d2689f86656/screenshots/image-4_624x319.png
+    width: 852
+    height: 436
+  - url: io/github/keshavbhatt.color_picker/735f697551b66a6d753e4d2689f86656/screenshots/image-5_orig.png
+    thumbnailUrl: io/github/keshavbhatt.color_picker/735f697551b66a6d753e4d2689f86656/screenshots/image-5_624x470.png
+    width: 859
+    height: 648
+iconSources:
+  - url: io/github/keshavbhatt.color_picker/735f697551b66a6d753e4d2689f86656/icons/128x128/color-picker_color-picker.png
+    width: 128
+    height: 128
+developer: Keshav Bhatt
+homepage: "https://github.com/keshavbhatt/ColorPicker"
+enabled: true
+order: 99

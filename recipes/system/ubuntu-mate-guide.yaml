@@ -1,0 +1,33 @@
+id: "ubuntu-mate-guide"
+name: Ubuntu MATE Guide
+description: Getting the help you need to use Ubuntu MATE
+longDescription: |
+  <p>The official Ubuntu MATE guide, to help new users navigate their system. It&apos;s written in XML and is viewable by using Yelp (default) or other tools.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ubuntu-mate-guide
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - documentation
+  - information
+  - manual
+iconSources:
+  - url: u/ub/ubuntu-mate-guide.desktop/6dcd67e70dd8cd3e69e592acbc486441/icons/128x128/ubuntu-mate-guide_help-browser.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

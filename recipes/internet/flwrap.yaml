@@ -1,0 +1,37 @@
+id: flwrap
+name: Flwrap
+description: Amateur Radio Communications
+longDescription: |
+  <p>Flwrap is a small desktop application that encapsulates a text file, an image file, or a binary file within a set of identifier blocks. Flwrap is designed to be used to best advantage with fldigi but can be used with any digital modem program.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flwrap
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: flwrap_flwrap.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

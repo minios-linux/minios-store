@@ -1,0 +1,25 @@
+id: knutclient
+name: KNutClient
+description: Client for NUT
+longDescription: |
+  <p>KNutClient monitors UPS statistics through the NUT (Network UPS Tools, http://www.networkupstools.org/) framework on Linux and other systems. This information, presented in a nice visual format, can be invaluable on stations using an UPS.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - knutclient
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: knutclient_knutclient.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

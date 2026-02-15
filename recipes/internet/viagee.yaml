@@ -1,0 +1,34 @@
+id: "viagee"
+name: Viagee
+description: Integrate GMail with your desktop
+longDescription: |
+  <p>Viagee integrates the GMail web interface into the GNOME environment. Once installed, GMail becomes a choice as the default Mail Reader in the GNOME Preferred Applications administration application. When selected, a GMail web page will be used whenever an email service is requested.</p>
+  <p>File attachments are supported, as well as the setting of Subject, Cc, Bcc, etc.</p>
+  <p>Logout, or launch Viagee, to complete the configuration.</p>
+  <p>To demonstrate, select "Send To..." on a file in the File Browser.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - viagee
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - email
+  - mail
+  - google
+iconSources:
+  - url: v/vi/viagee.desktop/1c0d82a1af7fccc5695796b5ca56fedd/icons/128x128/viagee_viagee.png
+    width: 128
+    height: 128
+developer: David Steele
+homepage: "https://davesteele.github.io/viagee/"
+enabled: true
+order: 99

@@ -1,0 +1,40 @@
+id: "ubuntu-kylin-software-center"
+name: Ubuntu Kylin Software Center
+description: Ubuntu Kylin software-center
+longDescription: |
+  <p>Ubuntu Kylin Software Center is a newly built software center client for Ubuntu Kylin. The aim is to improve localization experience. The applications and related data come from both Ubuntu and Ubuntu Kylin repositories.</p>
+  <p>Features:  * Categorized and selected applications for users  * Newly designed user interface  * Work with Ubuntu software center and hold special packages from    Ubuntu Kylin archive</p>
+  
+categoryId: system
+icon: Package
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ubuntu-kylin-software-center
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - sources
+  - ppa
+  - install
+  - uninstall
+  - remove
+  - purchase
+  - catalogue
+  - store
+  - apps
+iconSources:
+  - cached: ubuntu-kylin-software-center_ubuntu-kylin-software-center.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

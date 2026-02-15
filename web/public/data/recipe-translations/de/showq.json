@@ -1,0 +1,5 @@
+{
+  "name": "ShowQ",
+  "description": "MIDI-steuerbarer Audio-Player",
+  "longDescription": "<p>Anwendung zur Wiedergabe von Audio-Cues und zum Auslösen von MIDI-Events, hauptsächlich für den Bühnen- und Theaterbetrieb entwickelt.</p>\n<p>Funktionen:  * 8-Kanal-Routing pro Cue  * Wiedergabe über ALSA oder JACK  * Laden/Speichern von Cue-Listen  * Hotkey-Zuordnung für jeden Cue  * Steuerung der Anwendung per MIDI</p>\n"
+}

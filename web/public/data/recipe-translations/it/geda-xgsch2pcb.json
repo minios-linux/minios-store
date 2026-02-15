@@ -1,0 +1,5 @@
+{
+  "name": "gEDA Schematic -> PCB Project",
+  "description": "Crea e modifica progetti elettronici con xgsch2pcb",
+  "longDescription": "<p>``xgsch2pcb`` offre un'interfaccia grafica intuitiva e facile da usare per il tool a riga di comando ``gsch2pcb``, parte della suite gEDA, utilizzato per generare e aggiornare layout PCB. Funziona con gli schemi realizzati con ``gschem``, sempre della suite gEDA, e con i layout PCB creati tramite ``pcb``, un sistema di progettazione comunemente adottato nell'ecosistema gEDA.</p>\n"
+}

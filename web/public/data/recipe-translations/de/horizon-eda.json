@@ -1,0 +1,5 @@
+{
+  "name": "Horizon EDA-Anwendung",
+  "description": "Erstellen von Schaltplänen und Leiterplatten (PCBs)",
+  "longDescription": "<p>Horizon ist ein EDA-Tool (Electronic Design Automation) für den Entwurf von Leiterplatten. Es verwaltet den gesamten Design-Workflow von der Schaltplaneingabe bis zum Gerber-Export. Das wesentliche Unterscheidungsmerkmal zu KiCAD ist das andere (durchdachtere) Design der Bauteilbibliotheken. Da die Software im Jahr 2018 noch recht neu war, kann sie zwar noch Ecken und Kanten aufweisen, ist aber bereits sehr leistungsfähig.</p>\n<p>Besondere Merkmale: * Durchdachte Bibliotheksverwaltung * Einheitlicher Editor für alles vom Symbol bis zur Platine * Netzlisten-basierter Schaltplan-Editor * Der hervorragende interaktive Router von KiCad * Verzögerungs- und fehlerfreie Darstellung * Regelbasierter DRC * Rückgängig machen/Wiederholen * Kopieren/Einfügen für bestimmte Objekte * Kompiliert und läuft unter Linux und Windows</p>\n"
+}

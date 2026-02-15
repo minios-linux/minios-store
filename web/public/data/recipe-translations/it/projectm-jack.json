@@ -1,0 +1,5 @@
+{
+  "name": "projectM Jack Audio Visualization",
+  "description": "Un visualizzatore musicale basato su Milkdrop che mostra flussi JackAudio tramite un'interfaccia Qt4",
+  "longDescription": "<p>projectM è una libreria di visualizzazione musicale iterativa che sfrutta OpenGL per l'accelerazione hardware. È compatibile con i preset Milkdrop.</p>\n<p>Questo pacchetto include un’applicazione per visualizzare i flussi audio JackAudio.</p>\n"
+}

@@ -1,0 +1,30 @@
+id: literki
+name: Literki
+description: Hacker's keyboard
+longDescription: |
+  <p>Literki is a full qwerty keyboard with configurable layout and always-on functionality by usage of transparency. Applications do not need to redraw and popping up the keyboard is therefore very fast.</p>
+  <p>In addition to keyboard, literki comes with touchpad and scroll buttons.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - literki
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: literki_literki.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

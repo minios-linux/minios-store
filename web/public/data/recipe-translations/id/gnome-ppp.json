@@ -1,0 +1,5 @@
+{
+  "name": "GNOME PPP",
+  "description": "Alat Dial-Up GNOME",
+  "longDescription": "<p>GNOME PPP adalah alat konfigurasi dan pemanggilan koneksi dial-up berbasis grafis yang mudah digunakan, dengan dukungan ikon di system tray.</p>\n<p>Aplikasi ini menggunakan GNOME/GTK+ sebagai antarmuka grafis dan terintegrasi dengan baik di lingkungan desktop GNOME, namun juga dapat digunakan di lingkungan lain.</p>\n<p>GNOME PPP memakai WvDial sebagai backend dialer, memungkinkan konfigurasi sederhana lewat file konfigurasi. Anda juga dapat menggunakan wvdial langsung jika tidak menjalankan X.</p>\n"
+}

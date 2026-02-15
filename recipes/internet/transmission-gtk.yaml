@@ -1,0 +1,44 @@
+id: "transmission-gtk"
+name: Transmission
+description: Download and share files over BitTorrent
+longDescription: |
+  <p>Transmission is a set of lightweight BitTorrent clients (in GUI, CLI and daemon form). All its incarnations feature a very simple, intuitive interface on top on an efficient, cross-platform back-end.</p>
+  <p>This package contains the GTK+ stand-alone client.</p>
+  
+categoryId: internet
+icon: Download
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - transmission-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: t/tr/transmission-gtk.desktop/bcefebd2f4a91f572f0973c2850e7943/screenshots/image-1_orig.png
+    thumbnailUrl: t/tr/transmission-gtk.desktop/bcefebd2f4a91f572f0973c2850e7943/screenshots/image-1_624x363@1.png
+    width: 652
+    height: 380
+iconSources:
+  - url: t/tr/transmission-gtk.desktop/bcefebd2f4a91f572f0973c2850e7943/icons/128x128/transmission-gtk_transmission.png
+    width: 128
+    height: 128
+homepage: "https://transmissionbt.com/"
+enabled: true
+order: 99

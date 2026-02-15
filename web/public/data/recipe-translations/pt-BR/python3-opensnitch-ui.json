@@ -1,0 +1,5 @@
+{
+  "name": "OpenSnitch",
+  "description": "Firewall interativo para aplicações no GNU/Linux",
+  "longDescription": "<p>\n      Sempre que um programa tentar estabelecer uma nova conexão, o OpenSnitch solicitará ao usuário que permita ou negue a ação.\n    </p>\n<p>\n      O usuário pode decidir bloquear a conexão de saída com base nas propriedades da conexão: porta, UID, IP de destino, programa ou uma combinação desses fatores. Essas regras podem ser permanentes, válidas até o reinício do aplicativo ou apenas para uma vez.\n    </p>\n<p>\n      A interface gráfica permite visualizar conexões de saída em tempo real, além de pesquisar por processo, usuário, host ou porta.\n    </p>\n<p>\n      O OpenSnitch também pode atuar como um bloqueador de domínios em todo o sistema, utilizando listas de domínios, endereços IP ou expressões regulares.\n    </p>\n"
+}

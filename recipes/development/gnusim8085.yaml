@@ -1,0 +1,69 @@
+id: "gnusim8085"
+name: GNUSim8085
+description: Intel 8085 microprocessor simulator
+longDescription: |
+  <p>GNUSim8085 is a graphical simulator, assembler and debugger for the Intel 8085 microprocessor in Linux and Windows.</p>
+  <p>Features:</p>
+  <ul>
+    <li>A simple editor component with syntax highlighting.</li>
+    <li>A keypad to input assembly language instructions with appropriate arguments.</li>
+    <li>Easy view of register contents.</li>
+    <li>Easy view of flag contents.</li>
+    <li>Decimal &lt;–&gt; Hexadecimal converter.</li>
+    <li>View of stack, memory and I/O contents.</li>
+    <li>Support for breakpoints for program debugging.</li>
+    <li>Stepwise program execution.</li>
+    <li>One click conversion of assembly program to opcode listing.</li>
+    <li>Printing support.</li>
+    <li>UI translated in various languages.</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnusim8085
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: g/gn/gnusim8085.desktop/cdd1bb0e089433bdc9f947b1ce0063e4/screenshots/image-1_orig.png
+    thumbnailUrl: g/gn/gnusim8085.desktop/cdd1bb0e089433bdc9f947b1ce0063e4/screenshots/image-1_624x355.png
+    width: 1299
+    height: 741
+  - url: g/gn/gnusim8085.desktop/cdd1bb0e089433bdc9f947b1ce0063e4/screenshots/image-2_orig.png
+    thumbnailUrl: g/gn/gnusim8085.desktop/cdd1bb0e089433bdc9f947b1ce0063e4/screenshots/image-2_624x355.png
+    width: 1299
+    height: 741
+  - url: g/gn/gnusim8085.desktop/cdd1bb0e089433bdc9f947b1ce0063e4/screenshots/image-3_orig.png
+    thumbnailUrl: g/gn/gnusim8085.desktop/cdd1bb0e089433bdc9f947b1ce0063e4/screenshots/image-3_624x355.png
+    width: 1299
+    height: 741
+  - url: g/gn/gnusim8085.desktop/cdd1bb0e089433bdc9f947b1ce0063e4/screenshots/image-4_orig.png
+    thumbnailUrl: g/gn/gnusim8085.desktop/cdd1bb0e089433bdc9f947b1ce0063e4/screenshots/image-4_624x355.png
+    width: 1299
+    height: 741
+iconSources:
+  - cached: gnusim8085_gnusim8085.png
+    width: 64
+    height: 64
+homepage: "http://www.gnusim8085.org"
+enabled: true
+order: 99

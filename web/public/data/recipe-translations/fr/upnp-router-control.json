@@ -1,0 +1,5 @@
+{
+  "name": "UPnP Router Control",
+  "description": "Un programme simple pour gérer les routeurs compatibles UPnP IGD",
+  "longDescription": "<p>UPnP Router Control permet de visualiser certains paramètres du routeur, tels que le débit réseau, l’adresse IP externe et le nom du modèle. Il offre une gestion aisée de la redirection de ports via une interface simple.</p>\n<p>UPnP Router Control récupère ces informations en utilisant le protocole UPnP-IGD. Vous devez donc l’activer sur votre routeur pour pouvoir l’utiliser.</p>\n"
+}

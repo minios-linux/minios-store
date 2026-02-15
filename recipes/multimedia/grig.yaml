@@ -1,0 +1,40 @@
+id: grig
+name: Grig
+description: Ground Station Software Suite
+longDescription: |
+  <p>GNOME RIG is a graphical user interface to the Ham Radio Control Libraries, which lets you control your communication radios and/or antenna rotators from a personal computer. GNOME RIG is written using the Gtk+ and GNOME widgets.</p>
+  <p>GNOME RIG is in a very early stage and it supports only a very little subset of the full Hamlib API, but it can be very useful in testing basic hamlib support for your rig.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - grig
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - hamradio, remote radio
+iconSources:
+  - cached: grig_ic910.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

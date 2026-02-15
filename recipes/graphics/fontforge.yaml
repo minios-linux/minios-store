@@ -1,0 +1,50 @@
+id: "fontforge"
+name: FontForge
+description: An outline font editor
+longDescription: |
+  <p>FontForge is a font editor. Use it to create, edit and convert fonts in OpenType, TrueType, UFO, CID-keyed, Multiple Master, and many other formats.</p>
+  <p>This package also provides these programs and utilities:  fontimage - produce a font thumbnail image;  fontlint  - checks the font for certain common errors;  sfddiff   - compare two font files.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fontforge
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - font
+  - fonts
+  - editor
+  - ttf
+  - otf
+  - typeface
+screenshotSources:
+  - url: org/fontforge/FontForge/9a330242db740c5ec64804dc453305ce/screenshots/image-1_orig.png
+    thumbnailUrl: org/fontforge/FontForge/9a330242db740c5ec64804dc453305ce/screenshots/image-1_624x351@1.png
+    width: 1200
+    height: 675
+iconSources:
+  - url: org/fontforge/FontForge/9a330242db740c5ec64804dc453305ce/icons/128x128/fontforge_org.fontforge.FontForge.png
+    width: 128
+    height: 128
+developer: FontForge developers
+homepage: "https://github.com/fontforge/fontforge"
+enabled: true
+order: 99

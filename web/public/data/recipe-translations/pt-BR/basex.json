@@ -1,0 +1,5 @@
+{
+  "name": "BaseX XML Database",
+  "description": "Consultas e análise visual de dados XML",
+  "longDescription": "<p>O BaseX é um banco de dados XML extremamente rápido e leve, mas ao mesmo tempo poderoso, com processador XPath/XQuery e suporte às mais recentes recomendações W3C Full Text e Update. Ele lida com grandes volumes de dados XML e oferece uma interface altamente interativa (basexgui). Além dos dois modos locais autônomos, o BaseX conta com uma arquitetura cliente/servidor.</p>\n<p>O pacote inclui os seguintes comandos:  * basex  ..........  Banco de dados XML local autônomo por linha de comando.  * basexgui  .......  Banco de dados XML local autônomo com interface gráfica.  * basexserver  ....  Servidor de Banco de Dados XML BaseX.  * basexclient  ....  Cliente BaseX XML Database. Processador de banco de dados XML e XPath/XQuery</p>\n"
+}

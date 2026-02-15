@@ -1,0 +1,5 @@
+{
+  "name": "mcpdisp-ext",
+  "description": "Emulador de Extensor Mackie Control Surface",
+  "longDescription": "<p>O mcpdisp apresenta uma porta MIDI via JACK que aceita mensagens de exibição do protocolo Mackie Control, normalmente exibidas na “scribble strip” da superfície, e as mostra na tela. Também exibe os LEDs da faixa e os medidores.</p>\n"
+}

@@ -1,0 +1,44 @@
+id: "mm3d"
+name: Maverick Model 3D
+description: 3D modeling program
+longDescription: |
+  <p>This is an OpenGL based 3D model editor that works with triangle-based models. It supports multi-level undo, skeletal animations, simple texturing, scripting, command-line batch processing, and a plugin system for adding new model and image filters. Complete online help is included. It is designed to be easy to use and easy to extend with plugins and scripts.</p>
+  <p>It supports the following 3d files: MilkShape (ms3d), Wavefront (obj), LightWave 3d Object (lwo), Quake 2 model (md2), Quake 3 model (md3), Caligari trueSpace (cob), and AutoCAD (dxf).</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mm3d
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: moe/clover/mm3d/3aba56148da70635f58db0d4f341eb45/screenshots/image-1_orig.png
+    thumbnailUrl: moe/clover/mm3d/3aba56148da70635f58db0d4f341eb45/screenshots/image-1_624x436@1.png
+    width: 1000
+    height: 700
+iconSources:
+  - url: moe/clover/mm3d/3aba56148da70635f58db0d4f341eb45/icons/128x128/mm3d_moe.clover.mm3d.png
+    width: 128
+    height: 128
+homepage: "https://clover.moe/mm3d"
+enabled: true
+order: 99

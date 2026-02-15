@@ -1,0 +1,68 @@
+id: "chatty"
+name: Chats
+description: A messaging application
+longDescription: |
+  <p>Chats is a messaging application supporting XMPP and SMS.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chatty
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - xmpp
+  - sms
+  - chat
+  - jabber
+  - messaging
+  - modem
+screenshotSources:
+  - url: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-1_orig.png
+    thumbnailUrl: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-1_224x404@1.png
+    width: 417
+    height: 753
+  - url: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-2_orig.png
+    thumbnailUrl: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-2_224x405@1.png
+    width: 417
+    height: 754
+  - url: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-3_orig.png
+    thumbnailUrl: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-3_624x671@1.png
+    width: 960
+    height: 1033
+  - url: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-4_orig.png
+    thumbnailUrl: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-4_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-5_orig.png
+    thumbnailUrl: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-5_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-6_orig.png
+    thumbnailUrl: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-6_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-7_orig.png
+    thumbnailUrl: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/screenshots/image-7_624x1248@1.png
+    width: 720
+    height: 1440
+iconSources:
+  - url: sm/puri/Chatty/c7b22a393cbf445b5e4c29917169b4f6/icons/128x128/chatty_sm.puri.Chatty.png
+    width: 128
+    height: 128
+homepage: "https://source.puri.sm/Librem5/chatty"
+enabled: true
+order: 99

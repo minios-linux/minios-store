@@ -1,0 +1,43 @@
+id: "process-viewer"
+name: Process Viewer
+description: A process viewer GUI written in Rust
+longDescription: |
+  <p>
+        Process Viewer provides current status of your processes
+        (cpu and memory usage) and your system (usage of every core
+        and of your RAM, and the temperature of your components if
+        this information is available).
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - process-viewer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - system
+  - process
+iconSources:
+  - url: fr/guillaume_gomez/ProcessViewer/aeecd918ef445f573e66aa94c1f59a95/icons/128x128/process-viewer_process-viewer.png
+    width: 128
+    height: 128
+developer: Guillaume Gomez
+homepage: "https://github.com/GuillaumeGomez/process-viewer/"
+enabled: true
+order: 99

@@ -1,0 +1,51 @@
+id: "ser-player"
+name: ser-player
+description: Video player and processing utility for SER files
+longDescription: |
+  <p>SER Player is a video player for playing SER files. SER files are used for planetary, lunar and solar captures and this player allows these captures to be viewed in the same way AVI files are viewed with a standard video player.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ser-player
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - science
+  - astronomy
+  - video
+screenshotSources:
+  - url: com/google/sites.ser-player.desktop/AB4B7E6337198A7FB01E2CB4929762DD/screenshots/image-1_orig.png
+    thumbnailUrl: com/google/sites.ser-player.desktop/AB4B7E6337198A7FB01E2CB4929762DD/screenshots/image-1_624x353.png
+    width: 800
+    height: 453
+  - url: com/google/sites.ser-player.desktop/AB4B7E6337198A7FB01E2CB4929762DD/screenshots/image-2_orig.png
+    thumbnailUrl: com/google/sites.ser-player.desktop/AB4B7E6337198A7FB01E2CB4929762DD/screenshots/image-2_624x351.png
+    width: 800
+    height: 451
+iconSources:
+  - url: com/google/sites.ser-player.desktop/72c71bd08cc021bee708749df6f214b2/icons/128x128/ser-player_ser-player.png
+    width: 128
+    height: 128
+homepage: "https://sites.google.com/site/astropipp/ser-player"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "GOPchop",
+  "description": "MPEG2-GOP-genauer Editor",
+  "longDescription": "<p>GOPchop schneidet und verbindet MPEG2-Videoströme. GOPchop nutzt eine Methode zum Schneiden, bei der kein Re-Encoding erforderlich ist. Dadurch arbeitet die Anwendung schnell und es entstehen keine Artefakte oder Qualitätsverluste, wie sie beim erneuten Kodieren auftreten können. Schnitte sind allerdings nur an I-Frames oder Gruppen von Bildern (GOP) möglich. Diese Frames treten jedoch häufig genug auf, oft sogar an Szenenübergängen, sodass die Methode von GOPchop für viele Anwendungsfälle ausreichend ist.</p>\n<p>Typische Verwendung: Manuelles Entfernen von Werbeblöcken aus aufgezeichneten Fernsehsendungen.</p>\n<p>Ein weiteres Anwendungsgebiet ist das Aufteilen von .VOB-Dateien aus Dual-Layer-DVD-Rips, damit der Inhalt so neu zusammengestellt werden kann, dass jede Hälfte auf eine einzelne DVD gebrannt werden kann.</p>\n"
+}

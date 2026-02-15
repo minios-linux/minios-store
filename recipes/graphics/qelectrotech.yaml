@@ -1,0 +1,42 @@
+id: "qelectrotech"
+name: QElectroTech
+description: Edit electrical diagrams.
+longDescription: |
+  <p>QElectroTech is a Qt5 application written in C++ . This program is helps you to design electric schematics. It includes both a schematic editor and a symbol editor. It uses XML files to store the produced contents.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qelectrotech
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - graphics
+  - science
+  - electricity
+  - engineering
+iconSources:
+  - url: q/qe/qelectrotech.desktop/52ee4ee21ce678c9a286dae304f9b6d4/icons/128x128/qelectrotech_qelectrotech.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,28 @@
+id: redshift-qt
+name: Redshift
+description: Color temperature adjustment tool
+longDescription: |
+  <p>redshift-qt is a drop-in replacement for redshift-gtk. It provides all of the same features as redshift-gtk, but integrates better with a Qt-based desktop.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - redshift-qt
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - redshift
+  - filter
+  - eyes
+  - bluelight
+iconSources:
+  - url: r/re/redshift-qt.desktop/4a008b087eb957357e9b97e64efd4c62/icons/128x128/redshift-qt_redshift.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

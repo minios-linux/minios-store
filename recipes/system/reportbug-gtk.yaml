@@ -1,0 +1,43 @@
+id: "reportbug-gtk"
+name: Reportbug
+description: Report bugs to the Debian BTS
+longDescription: |
+  <p>reportbug is a tool designed to make the reporting of bugs in Debian and derived distributions relatively painless.  Its features include:</p>
+  <p> * Integration with mutt and mh/nmh mail readers.  * Access to outstanding bug reports to make it easier to identify    whether problems have already been reported.  * Automatic checking for newer versions of packages.  * Optional automatic verification of integrity of packages via debsums.  * Support for following-up on outstanding reports.  * Optional PGP/GnuPG integration.</p>
+  <p>reportbug is designed to be used on systems with an installed mail transport agent, like exim or sendmail; however, you can edit the configuration file and send reports using any available mail server.</p>
+  <p>This package contains a desktop file and icon, and has dependencies to enable the GTK+ UI mode of reportbug to work.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - reportbug-gtk
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - debian
+  - bug
+  - bugs
+  - bts
+iconSources:
+  - url: r/re/reportbug.desktop/05533df5baab5ec688a17612753aa225/icons/128x128/reportbug-gtk_debian-swirl.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

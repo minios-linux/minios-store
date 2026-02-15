@@ -1,0 +1,5 @@
+{
+  "name": "DesktopNova",
+  "description": "Mengganti gambar latar belakang secara otomatis",
+  "longDescription": "<p>DesktopNova secara otomatis mengganti gambar latar belakang desktop setelah jangka waktu tertentu yang bisa diatur. Aplikasi ini dapat memilih gambar dari file tunggal maupun folder (dengan atau tanpa subfolder). Fitur autostart juga tersedia.</p>\n<p>Paket ini berisi antarmuka grafis (GUI) dan daemon latar belakang.</p>\n<p>Setidaknya dibutuhkan satu modul agar aplikasi berfungsi. Tanpa modul, paket ini tidak akan berjalan sebagaimana mestinya. Lihat paket desktopnova-module-*.</p>\n<p>Tersedia juga ikon tray tambahan. Lihat paket desktopnova-tray.</p>\n"
+}

@@ -1,0 +1,44 @@
+id: "therion"
+name: Therion
+description: Draw up surveys in Therion format
+longDescription: |
+  <p>Therion aids the process of drawing up cave surveys (maps). Drawings are done over scans and can be distorted to fit the centreline data. Output is in single sheet or atlas style PDF or SVG files. All data is stored in text files and a map editor (xtherion) is provided to aid in the creation of the files. A wide range of co-ordinate systems is supported.</p>
+  <p>Therion can also produce 3D models, generated from walls and passage-heights.  Output formats supported are Survex .3d files, VRML, DXF, SVG, shapefiles, and the native .lox. Scanned map overlays and relief data can be incorporated into models. Therion is compatible with Survex, and centreline data can be stored in Survex or Therion form. If survex is installed it is used for loop closures. Centreline data and sketches can be imported from PocketTopo, allowing full paperless surveying.</p>
+  <p>TeX and metapost are used to generate the images. libtk-img is needed to use scans in formats other than GIF and PNM (such as PNG and JPEG). Survex will be used for loop-closure if installed, but is not required.</p>
+  <p>You will need appropriate TeX language packages to process therion files which specify those character sets: texlive-lang-czechslovak is needed to process the examples, and texlive-lang-cyrillic is also suggested. See README.Debian for details.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - therion
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - surveying
+  - map
+  - mapping
+iconSources:
+  - url: t/th/therion.desktop/3eb26ae31845d3651d670439f59bd628/icons/128x128/therion_therion.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

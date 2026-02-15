@@ -1,0 +1,5 @@
+{
+  "name": "AleVT",
+  "description": "Visualisez les pages de télétexte",
+  "longDescription": "<p>AleVT est un programme X11 permettant de naviguer et rechercher des pages de Télétexte/Vidéotex reçues par un décodeur compatible (récepteurs bttv et DVB).</p>\n<p>Fonctionnalités principales :</p>\n<p>  * Fenêtres multiples   * Mise en cache des pages   * Recherche avec expressions régulières   * Manuel intégré</p>\n<p>Des utilitaires en ligne de commande supplémentaires permettent de :</p>\n<p>  * recevoir l'heure depuis le Télétexte/Vidéotex   * capturer des pages et les enregistrer sur disque</p>\n<p>Le Télétexte/Vidéotex est utilisé par les chaînes TV pour transmettre des pages d'informations textuelles (celles-ci sont envoyées via des lignes de balayage non visibles).</p>\n"
+}

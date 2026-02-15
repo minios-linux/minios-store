@@ -1,0 +1,38 @@
+id: pcsx2
+name: PCSX2
+description: Sony PlayStation 2 emulator
+longDescription: |
+  <p>PCSX2 is a PlayStation 2 emulator for Windows and Linux.</p>
+  <p>WARNING: It requires a CPU with SSE2 instructions. If your CPU does not support this instruction set, it does not have enough horsepower to run this emulator.</p>
+  <p>This package includes the main binary, plug-ins and localization files.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pcsx2
+distributions:
+  include:
+    - name: bionic
+      architectures: [i386]
+    - name: bookworm
+      architectures: [i386]
+    - name: bullseye
+      architectures: [i386]
+    - name: buster
+      architectures: [i386]
+    - name: focal
+      architectures: [i386]
+    - name: trixie
+      architectures: [i386]
+tags:
+  - game
+  - emulator
+iconSources:
+  - cached: pcsx2_PCSX2.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

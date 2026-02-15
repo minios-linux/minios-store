@@ -1,0 +1,5 @@
+{
+  "name": "Kookbook",
+  "description": "Einfache Anwendung zur Verwaltung von Rezeptesammlungen",
+  "longDescription": "<p>KookBook hilft Ihnen, Ihre Rezeptsammlung zu verwalten. Sie können Rezepte durchsuchen, nach Titel oder Zutat suchen und so die Details Ihrer Küchenkreationen schnell wiederfinden.</p>\n<p>Rezepte werden im Markdown-Format als Textdateien gespeichert. Ein Kochbuch, also eine Sammlung von Rezepten, ist als Ordnerstruktur mit einem oder mehreren Rezepten angelegt. Diese Ordnerstruktur dient ebenso als Möglichkeit zum Stöbern und Organisieren der Rezepte.</p>\n<p>Rezepte lassen sich mit Geräten synchronisieren oder mit anderen Nutzer:innen über externe Tools wie Git-Repositories, Nextcloud oder viele andere Dienste teilen.</p>\n<p>Das Paket enthält sowohl das Desktop-Programm „kookbook“ als auch eine Touchscreen-Version „kookbooktouch“.</p>\n<p>Ebenfalls enthalten ist ein einfaches Konvertierungstool, das eine Krecipes-Datenbank in eine Sammlung von KookBook-Markdown-Dateien umwandeln kann. Weitere Informationen finden Sie in /usr/share/doc/kookbook/README.Debian</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "QFractalNow",
+  "description": "Fraktalbilder-Generator",
+  "longDescription": "<p>FractalNow bietet Werkzeuge, um verschiedene Arten von Fraktalen schnell und unkompliziert zu erzeugen.</p>\n<p>Das Paket enthält sowohl ein Kommandozeilenprogramm (FractalNow) als auch ein grafisches Werkzeug (QFractalNow).</p>\n<p>Das grafische Tool basiert auf der Qt-Bibliothek und ermöglicht eine intuitive Erkundung und Erstellung von Fraktalbildern.</p>\n<p>Beide Werkzeuge sind vollständig multithreaded und nutzen fortschrittliche Algorithmen sowie Heuristiken, die die Berechnung im Vergleich zu den meisten anderen freien Fraktalgeneratoren deutlich beschleunigen.</p>\n"
+}

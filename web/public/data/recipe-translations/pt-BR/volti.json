@@ -1,0 +1,5 @@
+{
+  "name": "Volti",
+  "description": "Controle de Volume de Áudio na Bandeja",
+  "longDescription": "<p>Volti é um aplicativo leve em GTK+ para controle do volume de áudio diretamente na bandeja do sistema/área de notificação.</p>\n<p>Recursos:  * não requer PulseAudio, GStreamer, Phonon, etc. — apenas ALSA é necessário  * aplicação de mixer interna, com opção de escolher qualquer app de mixer  * clique esquerdo abre o controle deslizante de volume  * rolar o mouse sobre o ícone ajusta o volume, intervalo ajustável em porcentagem  * clique do meio configurável para alternar entre 'mudo' ou 'abrir mixer'  * tooltip detalhada com informações de placa e volume  * suporte a teclas multimídia  * suporte a notificações na área de trabalho ao usar as teclas</p>\n"
+}

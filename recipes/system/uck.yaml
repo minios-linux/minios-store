@@ -1,0 +1,24 @@
+id: uck
+name: Ubuntu Customization Kit
+description: Customize your Ubuntu Desktop CDs easily
+longDescription: |
+  <p>UCK is a tool that helps you customizing official Ubuntu Live CDs (including Kubuntu/Xubuntu and Edubuntu) to your needs. You can add any package to the live system like, for example, language packs, applications, etc.</p>
+  <p>Features:  * Create bootable LiveCD with predefined languages based upon an original    Ubuntu/Kubuntu live CD using graphical wizard.  * Build live CD with special features using scripts. It is possible to    customize the root filesystem (for example install/remove packages), ISO    contents (add/remove docs, change names) and initrd (add modules to boot,    change boot sequence).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - uck
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: uck_uck.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

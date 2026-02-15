@@ -1,0 +1,41 @@
+id: "ibus-typing-booster"
+name: Emoji Picker
+description: Emoji browsing tool
+longDescription: |
+  <p>
+        Emoji Picker is an emoji browsing tool which uses the emoji matching
+        code from Ibus-typing-booster.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ibus-typing-booster
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/freedesktop/ibus.engine.typing_booster.emoji_picker/a91685e3a3f3a911283848ca423d5116/screenshots/image-1_orig.png
+    thumbnailUrl: org/freedesktop/ibus.engine.typing_booster.emoji_picker/a91685e3a3f3a911283848ca423d5116/screenshots/image-1_624x468@1.png
+    width: 1024
+    height: 768
+iconSources:
+  - url: org/freedesktop/ibus.engine.typing_booster.emoji_picker/a91685e3a3f3a911283848ca423d5116/icons/128x128/ibus-typing-booster_ibus-typing-booster.png
+    width: 128
+    height: 128
+developer: Mike FABIAN
+homepage: "https://mike-fabian.github.io/ibus-typing-booster/"
+enabled: true
+order: 99

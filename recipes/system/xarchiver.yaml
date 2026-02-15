@@ -1,0 +1,48 @@
+id: "xarchiver"
+name: Xarchiver
+description: A GTK+ only archive manager
+longDescription: |
+  <p>Xarchiver is a lightweight desktop independent GTK+ frontend for manipulating xz, 7z, lzma, arj, bzip2, gzip, rar, tar, zip, rpm, lz4, compress, zstd, lzip, lrzip, lzop, lha and deb files. It allows you to create archives and add, extract, and delete files from them. Password protected archives in the arj, 7z, rar, zip and lrzip formats are supported.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xarchiver
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gtk
+  - android
+  - archiver
+  - archiving
+  - comic book
+  - compression
+  - front end
+  - frontend
+  - 7-zip
+  - 7z
+iconSources:
+  - url: x/xa/xarchiver.desktop/96ca8e1fd45caaebff67e9f459d4de19/icons/128x128/xarchiver_xarchiver.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

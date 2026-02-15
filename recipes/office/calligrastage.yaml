@@ -1,0 +1,53 @@
+id: "calligrastage"
+name: Calligra Stage
+description: Presentation
+longDescription: |
+  <p>Calligra Stage is an easy to use yet still flexible presentation application.
+        You can easily create presentations containing a rich variety of elements, from graphics to text, from charts to
+  images. Calligra Stage is extensible through a plugin system,
+        so it is easy to add new effects, new content elements or even new ways of managing your presentation. Because of
+  the integration with Calligra, all the power and flexibility
+        of the Calligra content elements are available to Stage.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Multiple master slides</li>
+    <li>Easily switch between slides during a presentation</li>
+    <li>Add notes for your slide</li>
+    <li>Supports most ODF file transitions</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - calligrastage
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/calligra.stage/86eb7e5c46466513f2d882d7e02eab39/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/calligra.stage/86eb7e5c46466513f2d882d7e02eab39/screenshots/image-1_624x388@1.png
+    width: 1412
+    height: 879
+iconSources:
+  - url: org/kde/calligra.stage/86eb7e5c46466513f2d882d7e02eab39/icons/128x128/calligrastage_org.kde.calligra.stage.png
+    width: 128
+    height: 128
+homepage: "http://www.calligra.org/stage/"
+enabled: true
+order: 99

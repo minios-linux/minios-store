@@ -1,0 +1,29 @@
+id: transgui
+name: Transmission remote GUI
+description: GUI to remotely control a Transmission daemon
+longDescription: |
+  <p>This package contains Transmission Remote GUI, which is a feature rich, cross platform, front-end to remotely control Transmission daemon via its RPC protocol. It is faster and has more functionality than build-in Transmission web interface.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - transgui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - bittorrent
+  - torrent
+  - transmission
+iconSources:
+  - cached: transgui_transgui.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

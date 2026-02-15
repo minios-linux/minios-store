@@ -1,0 +1,55 @@
+id: "kcalc"
+name: KCalc
+description: Scientific Calculator
+longDescription: |
+  <p>KCalc has everything you would expect from a scientific calculator, plus:</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kcalc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kcalc.desktop/a1b7017739ae638541fe5acfadfb335a/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kcalc.desktop/a1b7017739ae638541fe5acfadfb335a/screenshots/image-1_224x264@1.png
+    width: 487
+    height: 575
+  - url: org/kde/kcalc.desktop/a1b7017739ae638541fe5acfadfb335a/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kcalc.desktop/a1b7017739ae638541fe5acfadfb335a/screenshots/image-2_624x573@1.png
+    width: 814
+    height: 748
+  - url: org/kde/kcalc.desktop/a1b7017739ae638541fe5acfadfb335a/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kcalc.desktop/a1b7017739ae638541fe5acfadfb335a/screenshots/image-3_624x593@1.png
+    width: 728
+    height: 692
+  - url: org/kde/kcalc.desktop/a1b7017739ae638541fe5acfadfb335a/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/kcalc.desktop/a1b7017739ae638541fe5acfadfb335a/screenshots/image-4_624x530@1.png
+    width: 814
+    height: 692
+iconSources:
+  - url: org/kde/kcalc.desktop/a1b7017739ae638541fe5acfadfb335a/icons/128x128/kcalc_accessories-calculator.png
+    width: 128
+    height: 128
+homepage: "https://utils.kde.org/projects/kcalc/"
+enabled: true
+order: 99

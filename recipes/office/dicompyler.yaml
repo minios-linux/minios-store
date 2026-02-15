@@ -1,0 +1,28 @@
+id: dicompyler
+name: Dicompyler
+description: Radiation therapy research platform
+longDescription: |
+  <p>Dicompyler is an extensible, fully open source radiation therapy research platform based on the DICOM standard. It also functions as a cross-platform DICOM RT viewer.</p>
+  <p>Features:  * Import CT Images, DICOM RT structure set, RT dose and RT plan files  * Extensible plugin system with included plugins:     - 2D image viewer with dose and structure overlay     - Dose volume histogram viewer with the ability to analyze DVH parameters     - DICOM data tree viewer     - Patient anonymizer</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dicompyler
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/di/dicompyler.desktop/A7C5882582607493A77F367882B10087/icons/128x128/dicompyler_dicompyler.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

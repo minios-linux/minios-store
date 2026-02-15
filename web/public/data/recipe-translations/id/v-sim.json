@@ -1,0 +1,5 @@
+{
+  "name": "V_Sim",
+  "description": "V_Sim memvisualisasikan struktur atom seperti kristal, batas butir, molekul, dan sebagainya.",
+  "longDescription": "<p>V_Sim memvisualisasikan struktur atom seperti kristal, batas butir, molekul, dan lain-lain (baik dalam format biner maupun dalam format teks biasa).</p>\n<p>Rendering dilakukan dalam pseudo-3D menggunakan bola (atom) atau panah (spin). Pengguna dapat berinteraksi melalui berbagai fungsi untuk memilih tampilan, mengatur ikatan, menggambar bidang potong, menghitung permukaan dari medan skalar, menduplikasi node, hingga mengukur geometri. Selain itu, V_Sim memungkinkan Anda mengekspor tampilan sebagai gambar dalam format PNG, JPG, PDF (bitmap), SVG (skema), dan format lainnya. Beberapa alat juga tersedia untuk mewarnai atom berdasarkan nilai data atau menganimasikan banyak file posisi di layar.</p>\n"
+}

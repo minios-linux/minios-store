@@ -1,0 +1,29 @@
+id: sublime-music
+name: Sublime Music
+description: Native Subsonic client for Linux
+longDescription: |
+  <p>Sublime Music is a native GTK3 Revel/Gonic/Subsonic/Airsonic/*sonic client for the Linux Desktop.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sublime-music
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/su/sublime-music.desktop/a2aaa7e46b50224323c15a2bedb44787/icons/128x128/sublime-music_sublime-music.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

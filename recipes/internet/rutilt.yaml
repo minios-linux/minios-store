@@ -1,0 +1,25 @@
+id: rutilt
+name: RutilT WLAN Manager
+description: Manage your wireless network interfaces
+longDescription: |
+  <p>RutilT is a Gtk+2 utility for Linux that helps you configure your wireless devices. Although primarily written for the rt2x00 project, it supports any Linux wireless extensions compliant kernel module.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rutilt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: rutilt_rutilt.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

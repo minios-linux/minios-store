@@ -1,0 +1,42 @@
+id: "gnome-mastermind"
+name: Mastermind
+description: Break the hidden code!
+longDescription: |
+  <p>The goal of this board game is to break a code using obscure hints. The game is played by 2 players: the codemaker (the computer) and the codebreaker.  The computer generates a combination of 4 colors.  The codebreaker has to guess that pattern (both order and colors) with the least number of tries.  At each turn, the codebreaker tries a pattern and the computer provides feedback by placing pegs in the score grid.  A white peg indicates a right color but wrong position; a colored peg means that both color and position are correctly guessed.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-mastermind
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mastermind
+  - code-break
+  - guess
+iconSources:
+  - url: org/fargiolas/gnome_mastermind/74e7bf9433e53d749dec8cf6f8e876d4/icons/128x128/gnome-mastermind_gnome-mastermind.png
+    width: 128
+    height: 128
+homepage: "https://github.com/fargiolas/gnome-mastermind"
+enabled: true
+order: 99

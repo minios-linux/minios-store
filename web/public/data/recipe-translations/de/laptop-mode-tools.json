@@ -1,0 +1,5 @@
+{
+  "name": "Laptop Mode Tools Konfiguration",
+  "description": "Aktivieren/Deaktivieren der Laptop Mode Tools Einstellungen",
+  "longDescription": "<p>Der Laptop-Modus ist eine Funktion des Linux-Kernels, mit der Ihr Laptop erheblich Strom sparen kann, indem sich die Festplatte für längere Zeit abschaltet. Dieses Paket enthält die nötigen Benutzerskripte, um den Laptop-Modus zu aktivieren.</p>\n<p>Es unterstützt das automatische Aktivieren des Laptop-Modus, sobald das Gerät auf Akkubetrieb läuft. Außerdem werden weitere Energiesparfunktionen geboten, wie das Starten und Stoppen von Daemons je nach Stromquelle, automatisches Hibernate bei niedrigem Akkustand sowie das Anpassen der Terminal- und X11-Bildschirmabschaltung.</p>\n<p>laptop-mode-tools nutzt das Laptop-Modus-Feature des Linux-Kernels und wird daher auch auf Desktops und Servern zur Stromersparnis eingesetzt.</p>\n"
+}

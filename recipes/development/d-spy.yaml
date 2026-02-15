@@ -1,0 +1,37 @@
+id: "d-spy"
+name: D-Spy
+description: Analyze D-Bus connections
+longDescription: |
+  <p>D-Spy is a simple tool to explore D-Bus connections.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - d-spy
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - spy
+  - d-bus
+  - inspect
+  - development
+screenshotSources:
+  - url: org/gnome/dspy/5dc58451aad5593e45dfcfa941f7a138/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/dspy/5dc58451aad5593e45dfcfa941f7a138/screenshots/image-1_624x411@1.png
+    width: 1548
+    height: 1021
+iconSources:
+  - url: org/gnome/dspy/5dc58451aad5593e45dfcfa941f7a138/icons/128x128/d-spy_org.gnome.dspy.png
+    width: 128
+    height: 128
+developer: "Christian Hergert, et al."
+homepage: "https://apps.gnome.org/Dspy"
+enabled: true
+order: 99

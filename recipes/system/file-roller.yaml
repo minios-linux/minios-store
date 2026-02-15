@@ -1,0 +1,56 @@
+id: "file-roller"
+name: File Roller
+description: "Open, modify and create compressed archive files"
+longDescription: |
+  <p>Archive Manager (also known as File Roller) is the default GNOME application for opening, creating, and
+        modifying archive and compressed archive files.</p>
+  <p>Archive Manager supports a wide range of different archive files, including:</p>
+  <ul>
+    <li>gzip archives (.tar.gz, .tgz)</li>
+    <li>bzip archives (.tar.bz, .tbz)</li>
+    <li>zip archives (.zip)</li>
+    <li>xz archives (.tar.xz)</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - file-roller
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - zip
+  - tar
+  - extract
+  - unpack
+screenshotSources:
+  - url: org/gnome/FileRoller/127bcc8ff32377ed29231eb10d1e9bcf/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/FileRoller/127bcc8ff32377ed29231eb10d1e9bcf/screenshots/image-1_624x376@1.png
+    width: 1322
+    height: 797
+iconSources:
+  - url: org/gnome/FileRoller/127bcc8ff32377ed29231eb10d1e9bcf/icons/128x128/file-roller_org.gnome.FileRoller.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/FileRoller"
+enabled: true
+order: 99

@@ -1,0 +1,41 @@
+id: "pumpa"
+name: Pumpa
+description: pump.io social networking
+longDescription: |
+  <p>Pumpa is a simple Qt-based desktop client for identi.ca and other pump.io-based distributed social network services.  Pumpa offers several improvements over using the web interface, such as better notifications and the ability to @reply particular users.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pumpa
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pump.io
+  - social network
+  - microblog
+iconSources:
+  - url: p/pu/pumpa.desktop/c614697517ffedaaf3f8580fd541d8d2/icons/128x128/pumpa_pumpa.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

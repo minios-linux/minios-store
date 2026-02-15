@@ -1,0 +1,5 @@
+{
+  "name": "KDE IM Log Viewer",
+  "description": "Muestra los registros de tu mensajería instantánea de KDE",
+  "longDescription": "<p>Este paquete proporciona un manejador de telepathy para canales de texto, es decir, un programa que te permite chatear con tus contactos mediante mensajes instantáneos de texto.</p>\n<p>Además, este paquete incluye una interfaz gráfica para visualizar los historiales de chat de texto gestionados por telepathy.</p>\n<p>Este paquete no está diseñado para usarse de forma independiente. Se recomienda instalar el metapaquete kde-telepathy.</p>\n"
+}

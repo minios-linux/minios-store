@@ -1,0 +1,5 @@
+{
+  "name": "Gestione Processi di Sistema",
+  "description": "Gestisci i lavori di sistema presenti sul tuo computer",
+  "longDescription": "<p>jobs-admin è una semplice utility GTK+ che consente a qualsiasi amministratore di configurare facilmente i processi (servizi) presenti sul sistema. I lavori possono essere abilitati o disabilitati, avviati o arrestati, e alcuni servizi offrono anche impostazioni personalizzabili.</p>\n<p>jobs-admin utilizza jobservice come backend tramite D-Bus.</p>\n"
+}

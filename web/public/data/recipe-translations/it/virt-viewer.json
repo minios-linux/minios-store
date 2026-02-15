@@ -1,0 +1,5 @@
+{
+  "name": "Remote Viewer",
+  "description": "Accedi in remoto alle macchine virtuali",
+  "longDescription": "<p>Remote Viewer offre un'interfaccia grafica per visualizzare il desktop dei sistemi operativi guest. Attualmente supporta guest OS che utilizzano i protocolli VNC o SPICE. In futuro potrebbero essere supportati altri protocolli in base alle richieste degli utenti. Il visualizzatore può connettersi direttamente sia a sistemi locali che remoti, con la possibilità opzionale di usare la crittografia SSL/TLS.</p>\n"
+}

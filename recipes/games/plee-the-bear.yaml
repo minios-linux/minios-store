@@ -1,0 +1,40 @@
+id: "plee-the-bear"
+name: Plee the Bear
+description: "Catch your son, he ate all the honey then ran away"
+longDescription: |
+  <p>Plee the Bear will be a 2D platform game like those found on consoles in the beginning of the 90&apos;s. The basis of the scenario fit in few lines:</p>
+  <p>4 PM or so, Plee wakes up, tired. He has dreamed again about that awesome period when he went across the entire world together with his belle. He puts his leg in the honey pot... empty! Moreover every single honey pot in the house is empty. &quot;One more trick of that kid&quot;, he thinks. &quot;I&apos;m going to give him such a wallop of which he sure will remember&quot;.</p>
+  <p>Following honey drops on the ground, Plee reaches the edge of the forest. Beginning of the game.</p>
+  <p>The current version is a demo.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plee-the-bear
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/pl/plee-the-bear.desktop/54ee90abf216a69a03af0a99b86413cc/icons/128x128/plee-the-bear_ptb.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

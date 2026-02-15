@@ -1,0 +1,5 @@
+{
+  "name": "Zwischenablage-Manager",
+  "description": "Werkzeug zur Suche und Verwaltung der Zwischenablage-Historie",
+  "longDescription": "<p>nwg-clipman ist eine GTK3-basierte grafische Oberfläche für Senan Kellys cliphist. Sie ermöglicht den Zugriff auf zuvor kopierte Elemente sowie die Verwaltung der Zwischenablage-Historie über ein Fenster im gtk-layer-shell. Das Programm ist für die Nutzung mit sway, Hyprland und anderen wlroots-basierten Wayland-Compositors konzipiert.</p>\n<p>Funktionen  - Vorschau von Bild- und Text-Einträgen;  - Durchsuchen der Zwischenablage-Historie per Textsuche;  - Löschen ausgewählter Einträge;  - Leeren der Zwischenablage-Historie.</p>\n<p>Dieses Programm ist Teil des nwg-shell-Projekts.</p>\n"
+}

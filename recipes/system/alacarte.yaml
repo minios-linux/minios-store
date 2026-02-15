@@ -1,0 +1,41 @@
+id: "alacarte"
+name: Main Menu
+description: Add or remove applications from the main menu
+longDescription: |
+  <p>Alacarte is an easy-to-use menu editor for GNOME that can add and edit new entries and menus. It works with the freedesktop.org menu specification and should work with any desktop environment that uses the spec.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - alacarte
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/gnome/alacarte/2d3df9da4d84f0ea1a813eea94064293/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/alacarte/2d3df9da4d84f0ea1a813eea94064293/screenshots/image-1_624x524@1.png
+    width: 675
+    height: 567
+iconSources:
+  - url: org/gnome/alacarte/2d3df9da4d84f0ea1a813eea94064293/icons/128x128/alacarte_alacarte.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.gnome.org/GNOME/alacarte"
+enabled: true
+order: 99

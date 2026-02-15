@@ -1,0 +1,5 @@
+{
+  "name": "IpQalc",
+  "description": "Calculadora gráfica de subredes IPv4",
+  "longDescription": "<p>\n      Pequeña utilidad para cálculos de direcciones IP, incluyendo direcciones de broadcast y de red, así como la máscara comodín de Cisco.\nA partir de una dirección IPv4 dada, calcula el broadcast, la red, la máscara comodín de Cisco y el rango de hosts. También puede usarse como herramienta educativa y presenta los resultados en valores binarios y hexadecimales.\n    </p>\n"
+}

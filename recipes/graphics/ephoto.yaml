@@ -1,0 +1,36 @@
+id: ephoto
+name: Ephoto
+description: Enlightened Photo Viewer
+longDescription: |
+  <p>Ephoto is an image viewer and editor written using the Enlightenment Foundation Libraries(EFL).  It focuses on simplicity and ease of use, while taking advantage of the speed and small footprint provided by EFL.</p>
+  <p>Ephoto supports:  * Browsing the filesystem and displaying images in an easy to use grid view.  * Browsing images in a single image view format.  * Viewing images in a slideshow.  * Editing your images with features, such as cropping, auto enhance, blurring,    sharpening, brightness/contrast/gamma adjustments, hue/saturation/value    adjustments, and color level adjustment.  * Applying artistic filters to your images, such as black and white and old    photo.  * Drag And Drop file operations to easily maintain your photo directories.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ephoto
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ephoto_ephoto.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

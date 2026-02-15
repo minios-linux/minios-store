@@ -1,0 +1,5 @@
+{
+  "name": "trezorctl",
+  "description": "Dienstprogramm zur Interaktion mit einer TREZOR Bitcoin-Hardware-Wallet",
+  "longDescription": "<p>Unabhängig davon, wie unsicher Ihr Computer oder Ihre Internetverbindung ist, Ihre Coins bleiben mit TREZOR stets geschützt, da Ihre privaten Schlüssel niemals offengelegt werden. TREZOR bietet eine isolierte Umgebung zum Offline-Signieren von Transaktionen, wobei Sie über ein kleines Display den Transaktionsinhalt visuell überprüfen können. Deshalb sind alle Vorgänge mit TREZOR umfassend abgesichert.</p>\n<p>Zur Nutzung von TREZOR benötigen Sie zudem ein Wallet-Interface wie Electrum.</p>\n"
+}

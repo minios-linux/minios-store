@@ -1,0 +1,5 @@
+{
+  "name": "ScreenGrab",
+  "description": "Herramienta de capturas de pantalla en Qt",
+  "longDescription": "<p>\n      Potente utilidad para capturar pantalla basada en Qt.\n      Permite capturar la pantalla completa, una ventana o un área seleccionada.\n      Funcionalidades principales:\n    </p>\n<ul>\n  <li>Captura con retardo</li>\n  <li>Edición inmediata en otras aplicaciones</li>\n  <li>Guardado automático; inserción de fecha y hora en el nombre del archivo</li>\n  <li>Ajuste a los bordes con clic derecho</li>\n  <li>Atajos de teclado personalizables</li>\n</ul>\n"
+}

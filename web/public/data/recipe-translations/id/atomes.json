@@ -1,0 +1,5 @@
+{
+  "name": "Atomes",
+  "description": "Perangkat alat atomistik",
+  "longDescription": "<p>Atomes: seperangkat alat untuk menganalisis, memvisualisasikan, serta membuat/mengedit model atomistik tiga dimensi. Aplikasi ini menawarkan workspace yang memungkinkan banyak proyek dibuka secara bersamaan. Setiap proyek di workspace dapat saling bertukar data, seperti hasil analisis, koordinat atom, dan lainnya.</p>\n<p>Atomes juga menyediakan sistem persiapan input tingkat lanjut untuk perhitungan lanjutan menggunakan perangkat lunak molecular dynamics terkemuka:</p>\n<ul>\n  <li>MD Klasik: DLPOLY dan LAMMPS</li>\n  <li>ab-initio MD: CPMD dan CP2K</li>\n  <li>QM-MM MD: CPMD dan CP2K</li>\n</ul>\n<p>Menyiapkan berkas input untuk perhitungan ini biasanya merupakan tahap kunci, sekaligus paling rumit dalam menjalankan simulasi MD. Atomes menghadirkan asisten yang ramah pengguna untuk membantu dan membimbing ilmuwan secara bertahap agar sukses melewati tahap penting ini.</p>\n"
+}

@@ -1,0 +1,41 @@
+id: "qashctl"
+name: QasHctl
+description: ALSA HCTL mixer
+longDescription: |
+  <p>QasTools is a collection of desktop applications for the Linux sound system ALSA.</p>
+  <p>The applications included are:  - QasConfig - browser for the ALSA configuration tree  - QasHctl - mixer for ALSA&apos;s High level Control Interface  - QasMixer - desktop mixer with features similar to alsamixer</p>
+  <p>QasHctl is a mixer application for ALSA&apos;s &quot;High level Control Interface&quot;. This interface allows more complex interaction than the &quot;Simple Mixer Interface&quot; which is used by alsamixer and QasMixer.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qashctl
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - alsa
+  - audio
+  - mixer
+  - qt
+iconSources:
+  - url: org/qastools/qashctl/1f59ff7703876f28547f1e08bf9465ce/icons/128x128/qashctl_qashctl.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.com/sebholt/qastools"
+enabled: true
+order: 99

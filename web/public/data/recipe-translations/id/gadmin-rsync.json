@@ -1,0 +1,5 @@
+{
+  "name": "GAdmin-Rsync",
+  "description": "GAdmin-Rsync",
+  "longDescription": "<p>gadmin-rsync adalah antarmuka GTK+ yang mudah digunakan untuk server rsync.</p>\n<p>Fitur:  - Beberapa set cadangan yang dapat dijadwalkan berjalan otomatis menggunakan cron.  - Setiap set cadangan dapat berisi beberapa cadangan data, baik lokal maupun jarak jauh.  - Set cadangan yang dijalankan melalui jadwal cron akan menghasilkan file log untuk setiap cadangan data dalam set.  - File log cadangan akan memiliki nama yang sama dengan set cadangan terkait.  - Set cadangan juga bisa dijalankan secara manual, dan progresnya dapat dipantau pada tab progres.  - Cadangan jarak jauh berjalan sepenuhnya otomatis, diferensial, dan terenkripsi.  - Kunci (key) dibuat untuk tiap host, diunggah, lalu diinstal ke host jarak jauh menggunakan kombinasi ssh-keygen/scp dan ssh.  - Memungkinkan sinkronisasi data jarak jauh secara terjadwal.</p>\n"
+}

@@ -1,0 +1,43 @@
+id: "phosh-tour"
+name: phone Tour
+description: phone graphical tour
+longDescription: |
+  <p>
+        This apps introduces you to your device via a small graphical tour.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - phosh-tour
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mobile
+  - tour
+  - phone
+screenshotSources:
+  - url: mobi/phosh/PhoshTour/c304b305a248a071f47ced2be6f563e6/screenshots/image-1_orig.png
+    thumbnailUrl: mobi/phosh/PhoshTour/c304b305a248a071f47ced2be6f563e6/screenshots/image-1_224x448@1.png
+    width: 360
+    height: 720
+  - url: mobi/phosh/PhoshTour/c304b305a248a071f47ced2be6f563e6/screenshots/image-2_orig.png
+    thumbnailUrl: mobi/phosh/PhoshTour/c304b305a248a071f47ced2be6f563e6/screenshots/image-2_224x448@1.png
+    width: 360
+    height: 720
+iconSources:
+  - url: mobi/phosh/PhoshTour/c304b305a248a071f47ced2be6f563e6/icons/128x128/phosh-tour_mobi.phosh.PhoshTour.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.gnome.org//guidog/phosh-tour"
+enabled: true
+order: 99

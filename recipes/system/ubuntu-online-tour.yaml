@@ -1,0 +1,23 @@
+id: ubuntu-online-tour
+name: Ubuntu Tour
+description: Experience Ubuntu in your web browser
+longDescription: |
+  <p>Ubuntu Tour is a demonstration of Ubuntu&apos;s Unity user interface and various Ubuntu features, running in Firefox wb browser. Other modern HTML5/CSS3 browsers may also be used to view the tour.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ubuntu-online-tour
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ubuntu-online-tour_ubuntu-online-tour.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

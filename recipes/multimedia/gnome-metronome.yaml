@@ -1,0 +1,49 @@
+id: "gnome-metronome"
+name: Metronome
+description: A simple Metronome application for the GNOME desktop
+longDescription: |
+  <p>
+        Metronome is a GNOME application to help you to keep the tempo
+        while practicing your instrument.
+      </p>
+  <p>Features:</p>
+  <ul>
+    <li>Select the tempo by changing the beats per minute, or by tapping it</li>
+    <li>Select the time signature</li>
+    <li>Play the metronome</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-metronome
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/adrienplazas/Metronome/9338f88244debb28e02268d6f51b84cb/screenshots/image-1_orig.png
+    thumbnailUrl: com/adrienplazas/Metronome/9338f88244debb28e02268d6f51b84cb/screenshots/image-1_624x557@1.png
+    width: 722
+    height: 645
+  - url: com/adrienplazas/Metronome/9338f88244debb28e02268d6f51b84cb/screenshots/image-2_orig.png
+    thumbnailUrl: com/adrienplazas/Metronome/9338f88244debb28e02268d6f51b84cb/screenshots/image-2_224x299@1.png
+    width: 482
+    height: 645
+iconSources:
+  - url: com/adrienplazas/Metronome/9338f88244debb28e02268d6f51b84cb/icons/128x128/gnome-metronome_com.adrienplazas.Metronome.png
+    width: 128
+    height: 128
+developer: Adrien Plazas
+homepage: "https://gitlab.gnome.org/jvieira.tpt/metronome"
+enabled: true
+order: 99

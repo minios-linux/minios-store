@@ -1,0 +1,43 @@
+id: pytrainer
+name: pytrainer
+description: The Free Sport Training Center
+longDescription: |
+  <p>Pytrainer is a desktop application for logging and graphing sporting activities such as running or cycling sessions. Data can be imported from GPS devices, files or input manually. Currently pytrainer supports GPX, TCX and FIT files.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pytrainer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - sport
+  - jogging
+  - running
+  - race
+  - workout
+iconSources:
+  - cached: pytrainer_pytrainer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

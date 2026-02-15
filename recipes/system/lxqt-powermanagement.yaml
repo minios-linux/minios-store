@@ -1,0 +1,28 @@
+id: lxqt-powermanagement
+name: Power Management
+description: Various settings regarding Power Management like battery or idleness watcher
+longDescription: |
+  <p>The Power management module for LXQt.</p>
+  <p>This package contain power management module for LXQt.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxqt-powermanagement
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: l/lx/lxqt-config-powermanagement.desktop/F472F0D258823421E8E3EB91BA9CDE36/icons/128x128/lxqt-powermanagement_preferences-system-power-management.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

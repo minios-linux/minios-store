@@ -1,0 +1,36 @@
+id: "xinput-calibrator"
+name: Calibrate Touchscreen
+description: Run the calibration tool for touchscreens
+longDescription: |
+  <p>xinput-calibrator is a tool to calibrate touchscreens under X.Org. Its features include:  - work for any Xorg driver (use Xinput to get axis valuators);  - output the calibration as Xorg.conf, HAL policy and udev rule;  - support advanced driver options, such as Evdev&apos;s dynamic calibration;  - have a very intuitive GUI (normal X client);</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xinput-calibrator
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: xinput-calibrator_xinput_calibrator.png
+    width: 64
+    height: 64
+homepage: "http://www.freedesktop.org/wiki/Software/xinput_calibrator/"
+enabled: true
+order: 99

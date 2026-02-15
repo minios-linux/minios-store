@@ -1,0 +1,5 @@
+{
+  "name": "QJackRcd",
+  "description": "Un grabador sencillo para Jack",
+  "longDescription": "<p>QJackRcd es un grabador estéreo simple para Jack que incluye funciones como procesamiento de silencios para pausa automática, división de archivos y post-procesamiento en segundo plano. Puede usarse junto con QJackCtl.</p>\n<p>Características:  * Interfaz gráfica QT sencilla con indicadores de uso de disco y vúmetro.  * Soporte Jack para grabación y control de transporte Jack.  * Compresión de silencios con pausa automática y opción de dividir archivos.  * Post-procesamiento en segundo plano de archivos WAV para conversión de formato y procesamiento de señal.  * Conexión automática con la primera fuente Jack iniciada.</p>\n"
+}

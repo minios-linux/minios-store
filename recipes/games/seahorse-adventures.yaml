@@ -1,0 +1,66 @@
+id: seahorse-adventures
+name: Seahorse Adventures
+description: Help Barbie the seahorse float on bubbles to the moon
+longDescription: |
+  <p>Barbie Seahorse Adventures is a retro style platform arcade game in the spirit of Mario 3. You are Barbie the seahorse who travels through the jungle, up to the volcano until you float on bubbles to the moon. On the way to your final destination you will encounter various enemies, servants of the evil overlord who has stolen the galaxy crystal. Avoid getting hit and defeat them with your bubbles!</p>
+  
+categoryId: games
+icon: Lock
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - seahorse-adventures
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - action
+  - arcade
+  - moon
+  - jungle
+  - barbie
+  - volcano
+  - retro
+  - platform
+  - side-scroller
+screenshotSources:
+  - url: s/se/seahorse-adventures.desktop/385027d8c954aca0800e605d63f4d6f6/screenshots/image-1_orig.png
+    thumbnailUrl: s/se/seahorse-adventures.desktop/385027d8c954aca0800e605d63f4d6f6/screenshots/image-1_624x468@1.png
+    width: 640
+    height: 480
+  - url: s/se/seahorse-adventures.desktop/385027d8c954aca0800e605d63f4d6f6/screenshots/image-2_orig.png
+    thumbnailUrl: s/se/seahorse-adventures.desktop/385027d8c954aca0800e605d63f4d6f6/screenshots/image-2_624x468@1.png
+    width: 640
+    height: 480
+  - url: s/se/seahorse-adventures.desktop/385027d8c954aca0800e605d63f4d6f6/screenshots/image-3_orig.png
+    thumbnailUrl: s/se/seahorse-adventures.desktop/385027d8c954aca0800e605d63f4d6f6/screenshots/image-3_624x468@1.png
+    width: 640
+    height: 480
+  - url: s/se/seahorse-adventures.desktop/385027d8c954aca0800e605d63f4d6f6/screenshots/image-4_orig.png
+    thumbnailUrl: s/se/seahorse-adventures.desktop/385027d8c954aca0800e605d63f4d6f6/screenshots/image-4_624x468@1.png
+    width: 640
+    height: 480
+iconSources:
+  - cached: seahorse-adventures_seahorse-adventures.png
+    width: 64
+    height: 64
+homepage: "http://www.imitationpickles.org/barbie/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Intone",
+  "description": "Einfacher Musikplayer für mobile Geräte",
+  "longDescription": "<p>Intone ist eine auf Elementary basierende Benutzeroberfläche für mplayer, entwickelt in C.</p>\n<p>Ursprünglich für das Openmoko Freerunner konzipiert, läuft es jedoch auch auf anderen Systemen. Neben den Standardfunktionen gängiger Audioplayer unterstützt Intone A2DP-Headsets (Audio über Bluetooth) und kann mit FSO zur Anruferkennung interagieren (Musik wird bei eingehendem Anruf pausiert).</p>\n"
+}

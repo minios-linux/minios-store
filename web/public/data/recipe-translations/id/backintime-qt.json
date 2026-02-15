@@ -1,0 +1,5 @@
+{
+  "name": "Back In Time",
+  "description": "Sistem backup sederhana",
+  "longDescription": "<p>Back In Time adalah kerangka kerja berbasis rsync dan cron untuk mengambil snapshot serta mencadangkan folder-folder tertentu. Aplikasi ini meminimalkan penggunaan ruang disk dengan hanya membuat snapshot saat ada perubahan pada direktori, dan menggunakan hard link untuk file yang tidak berubah. Pengguna dapat menjadwalkan backup rutin melalui cron.</p>\n<p>Ini adalah antarmuka grafis untuk Back In Time.</p>\n"
+}

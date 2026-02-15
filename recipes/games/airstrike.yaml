@@ -1,0 +1,43 @@
+id: airstrike
+name: Airstrike
+description: Dogfight an enemy plane
+longDescription: |
+  <p>Airstrike is a 2d dogfight game in the tradition of the Intellivision and Amiga games &apos;Biplanes&apos; and &apos;BIP&apos;. It features a robust physics engine and several other extensions of the original games. Playable by 1 or 2 persons.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - airstrike
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dogfight
+  - plane
+  - zeppelin
+  - air
+  - combat
+iconSources:
+  - cached: airstrike_airstrike.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,44 @@
+id: "pim-sieve-editor"
+name: Sieve Editor
+description: Edit IMAP Sieve filters
+longDescription: |
+  <p>An application to assist with editing IMAP Sieve filters.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pim-sieve-editor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/sieveeditor.desktop/2b4a665f94f8188d0c2299f0a193a7ab/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/sieveeditor.desktop/2b4a665f94f8188d0c2299f0a193a7ab/screenshots/image-1_624x494@1.png
+    width: 840
+    height: 666
+iconSources:
+  - url: org/kde/sieveeditor.desktop/2b4a665f94f8188d0c2299f0a193a7ab/icons/128x128/pim-sieve-editor_sieveeditor.png
+    width: 128
+    height: 128
+developer: Laurent Montel <montel@kde.org>
+homepage: "https://kde.org"
+enabled: true
+order: 99

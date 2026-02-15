@@ -1,0 +1,5 @@
+{
+  "name": "NanoVNASaver",
+  "description": "Werkzeug zum Auslesen, Anzeigen und Speichern von Daten des NanoVNA",
+  "longDescription": "<p>Das NanoVNA ist ein Vektor-Netzwerkanalysator und Antennen-Analyzer und eignet sich zum Testen und Messen verschiedenster Funknetzwerke.</p>\n<p>Mit NanoVNASaver können Touchstone-Dateien vom NanoVNA importiert werden. Das Programm ermöglicht frequenzsegmentierte Sweeps für mehr als 101 Datenpunkte und bietet eine umfassende Darstellung sowie Analyse der gewonnenen Messdaten.</p>\n"
+}

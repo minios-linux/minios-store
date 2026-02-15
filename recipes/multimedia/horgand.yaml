@@ -1,0 +1,25 @@
+id: horgand
+name: Horgand
+description: Organd Soft Synth
+longDescription: |
+  <p>Horgand is a JACK capable organ client with presets and some effects incorporated. It generates the sound in real time like a FM synthesizer. Due this, you can change the frequency of all the drawars and add some special effects. It features auto-accompaniment, looped drums, and a bass line in a wave table way.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - horgand
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: horgand_horgand128.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

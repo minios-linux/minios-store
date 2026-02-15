@@ -1,0 +1,22 @@
+id: wdisplays
+name: Displays
+description: wlroots displays configuration
+longDescription: |
+  <p>wdisplays is a graphical application for configuring displays in Wayland compositors. It borrows some code from kanshi. It should work in any compositor that implements the wlr-output-management-unstable-v1 protocol, including sway. The goal of this project is to allow precise adjustment of display settings in kiosks, digital signage, and other elaborate multi-monitor setups.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wdisplays
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: n/ne/network.cycles.wdisplays.desktop/b57e5dc9fdf841fa53c7299e4ff1a0ca/icons/128x128/wdisplays_network.cycles.wdisplays.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

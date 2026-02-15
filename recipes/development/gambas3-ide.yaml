@@ -1,0 +1,49 @@
+id: "gambas3-ide"
+name: Gambas3
+description: IDE for the Gambas language
+longDescription: |
+  <p>Gambas is a free development environment and a full powerful development platform based on a Basic interpreter with object extensions, as easy as Visual Basic. This application provides a graphical IDE, with a database manager, an image editor, and a report designer, to assist in the creation of programs with Gambas.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gambas3-ide
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - basic
+  - interpreter
+  - visual
+  - graphical
+  - object language
+  - development environment
+screenshotSources:
+  - url: g/ga/gambas3.desktop/abc62328eabbc2fcd3f6b940e8577339/screenshots/image-1_orig.png
+    thumbnailUrl: g/ga/gambas3.desktop/abc62328eabbc2fcd3f6b940e8577339/screenshots/image-1_624x339@1.png
+    width: 1920
+    height: 1046
+iconSources:
+  - url: g/ga/gambas3.desktop/abc62328eabbc2fcd3f6b940e8577339/icons/128x128/gambas3-ide_gambas3.png
+    width: 128
+    height: 128
+developer: Benoît Minisini
+homepage: "http://gambas.sourceforge.net/"
+enabled: true
+order: 99

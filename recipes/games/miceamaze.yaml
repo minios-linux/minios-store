@@ -1,0 +1,42 @@
+id: miceamaze
+name: MiceAmaze
+description: video game with mice in a maze
+longDescription: |
+  <p>MiceAmaze is a video game that features a maze with mice and snakes. The goal is to bring the most mice to your house by placing arrows on the maze floor. But beware the snakes that want to eat them!</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - miceamaze
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - maze
+  - mice
+  - snake
+iconSources:
+  - cached: miceamaze_miceamaze.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

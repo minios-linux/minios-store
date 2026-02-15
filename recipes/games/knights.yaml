@@ -1,0 +1,85 @@
+id: "knights"
+name: KNights
+description: Chess game
+longDescription: |
+  <p>KNights is a chess game. As a player, your goal is to defeat your opponent by checkmating their king.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Local play between two players on the same computer</li>
+    <li>Play against any computer program that supports the XBoard protocol</li>
+    <li>Play on the Free Internet Chess Server (FICS)</li>
+    <li>Watching two computer engines play against each other</li>
+    <li>Support for legal move checking</li>
+    <li>Markers for possible moves, opponent’s last move and sources of check</li>
+    <li>Board borders and site notations</li>
+    <li>Complete time control, with Plasma-styled clocks</li>
+    <li>Several themes, with the possibility of downloading new ones from within the program</li>
+    <li>Animated moves (configurable)</li>
+    <li>Views for playing on a chess server, including a seek graph, text console, and chat widget</li>
+    <li>Option to undo and redo moves</li>
+    <li>Graphic interface for making and receiving offers from remote players</li>
+    <li>Support for the UCI protocol (used by Stockfish, Chessbase, and many others)</li>
+    <li>Support for saving and loading Portable game notation (PGN) files</li>
+    <li>Use of Jovie, the KDE text-to-speak program, to speak opponent’s moves</li>
+    <li>Ability to control the program via a D-Bus interface</li>
+  </ul>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - knights
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-1_624x501@1.png
+    width: 688
+    height: 553
+  - url: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-2_624x340@1.png
+    width: 2600
+    height: 1418
+  - url: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-3_624x340@1.png
+    width: 2600
+    height: 1418
+  - url: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-4_624x310@1.png
+    width: 1034
+    height: 514
+  - url: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-5_orig.png
+    thumbnailUrl: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-5_624x534@1.png
+    width: 944
+    height: 809
+  - url: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-6_orig.png
+    thumbnailUrl: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-6_624x440@1.png
+    width: 1671
+    height: 1180
+  - url: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-7_orig.png
+    thumbnailUrl: org/kde/knights/cbbf0d2137db8b2a26538ef1ff7cdc34/screenshots/image-7_624x441@1.png
+    width: 1673
+    height: 1183
+iconSources:
+  - cached: knights_knights.png
+    width: 64
+    height: 64
+homepage: "https://www.kde.org/applications/games/knights/"
+enabled: true
+order: 99

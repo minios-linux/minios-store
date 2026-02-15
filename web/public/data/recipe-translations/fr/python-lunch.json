@@ -1,0 +1,5 @@
+{
+  "name": "Lunch",
+  "description": "Lanceur de processus distribué",
+  "longDescription": "<p>Lunch est un lanceur et gestionnaire de processus distribué simple pour GNU/Linux.</p>\n<p>Avec Lunch, il est possible de lancer des processus logiciels sur plusieurs ordinateurs différents et de s'assurer qu'ils restent actifs. Ce logiciel a été conçu pour répondre aux besoins des artistes en nouveaux médias lors de performances en direct et d'installations interactives. Il relance automatiquement les logiciels en cas de plantage et permet de gérer les dépendances entre les processus en cours d'exécution.</p>\n<p>Ce paquet fournit la bibliothèque lunch pour Python, ainsi que l'utilitaire en ligne de commande lunch, qui peut être utilisé avec une interface graphique GTK+.</p>\n"
+}

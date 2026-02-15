@@ -1,0 +1,42 @@
+id: "danmaq"
+name: danmaQ
+description: Show danmaku on screen
+longDescription: |
+  <p>DanmaQ is a desktop danmaku client. It is used to display danmaku strings.</p>
+  <p>&quot;danmaku&quot;, originally a Japanese word, is a certain method of instant commenting over the Internet. It originated in Japan and became popular in East Asian cultural circle. In this case, People write comments and send them to a danmaku server. The server will push comments to danmaku clients connected to it, where comments are displayed on a real-time basis. Comment strings will fly over the screen with artistic effects.</p>
+  <p>This package provides a danmaku client program implemented in Qt5.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - danmaq
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - danmaq
+iconSources:
+  - url: moe/tuna/danmaq/74e4e70a86b02e949773a1c20a9a8f85/icons/128x128/danmaq_danmaQ.png
+    width: 128
+    height: 128
+homepage: "https://github.com/tuna/danmaQ"
+enabled: true
+order: 99

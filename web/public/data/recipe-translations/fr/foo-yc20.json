@@ -1,0 +1,5 @@
+{
+  "name": "Foo YC20",
+  "description": "Synthétiseur d’orgue",
+  "longDescription": "<p>Le YC-20 est un orgue combo à division de fréquence conçu à la fin des années 60. Cette émulation reproduit fidèlement les caractéristiques, les sonorités et les imperfections de l’orgue original.</p>\n<p>Caractéristiques :    - 61 touches    - Deux sections principales de voix    - Section de basse commutable    - Générateur + matrice de mixage : aucune restriction de polyphonie    - Contrôle de réalisme pour ajouter les défauts de l’orgue réel</p>\n<p>Limites :    - Consomme pas mal de ressources processeur    - Pas de vibrato tactile</p>\n<p>L’émulation est écrite en Faust et utilise Jack pour l’audio et le MIDI.</p>\n"
+}

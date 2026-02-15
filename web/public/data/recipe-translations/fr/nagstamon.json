@@ -1,0 +1,5 @@
+{
+  "name": "Nagstamon",
+  "description": "Surveillance du statut Nagios",
+  "longDescription": "<p>Nagstamon est un outil de surveillance du statut Nagios qui s'affiche dans la barre système ou comme barre flottante sur le bureau (GNOME, KDE) afin de vous informer en temps réel de l’état de vos réseaux supervisés par Nagios et certains de ses dérivés. Il permet de se connecter à plusieurs serveurs Nagios, Icinga, Opsview, Centreon, Op5Monitor, Check_MK Multisite, Thruk, Zabbix et Zenoss. Les événements peuvent être gérés avec un accès instantané aux hôtes et services en échec.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Piper",
+  "description": "Utilitário configurável para ajuste de mouse",
+  "longDescription": "<p>\n      Piper é uma interface gráfica para configurar mouses gamer.\n      As opções de configuração incluem alteração da resolução (DPI) do\n      mouse, adição e remoção de perfis, definição de cores de LED e\n      personalização do comportamento dos botões.\n    </p>\n<p>\n      O Piper requer o ratbagd do libratbag, o daemon responsável pela comunicação com o\n      mouse. O Piper serve apenas como interface para o ratbagd, portanto, o daemon ratbagd deve\n      estar instalado e em execução ao iniciar o Piper.\n    </p>\n"
+}

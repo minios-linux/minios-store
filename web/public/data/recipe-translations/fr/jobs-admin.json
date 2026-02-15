@@ -1,0 +1,5 @@
+{
+  "name": "Tâches système",
+  "description": "Gérez les tâches système présentes sur votre ordinateur",
+  "longDescription": "<p>jobs-admin est un utilitaire GTK+ simple qui permet à tout administrateur de configurer facilement les tâches (services) présentes sur son système. Les tâches peuvent être activées ou désactivées, démarrées ou arrêtées, et offrent même des paramètres ajustables concernant les services.</p>\n<p>jobs-admin utilise jobservice comme backend via D-Bus.</p>\n"
+}

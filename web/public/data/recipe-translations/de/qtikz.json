@@ -1,0 +1,5 @@
+{
+  "name": "QtikZ",
+  "description": "Programm zur Erstellung von TikZ-Diagrammen (aus dem LaTeX-pgf-Paket)",
+  "longDescription": "<p>QtikZ ist eine schlanke Anwendung zur Unterstützung bei der Erstellung von Diagrammen und Zeichnungen mit den TikZ-Makros aus dem LaTeX-Paket „pgf“. Sie bietet ein Texteditor-Feld zur Bearbeitung des TikZ-Codes für die Zeichnung und eine Vorschau, die die Grafik so anzeigt, wie sie von LaTeX gerendert wird. Das Vorschaufenster kann in Echtzeit aktualisiert werden. Häufig genutzte Zeichenwerkzeuge, Optionen und Stile sind über Menüs zugänglich, um den Coding-Prozess zu erleichtern.</p>\n<p>Dieses Paket enthält die Qt-Version des Programms.</p>\n<p>TikZ ist eine benutzerfreundliche Syntaxschicht für das PGF- (Portable Graphics Format) TeX-Makropaket. Zeichnungen können direkt innerhalb eines LaTeX-Dokuments erstellt und mithilfe der wichtigsten TeX-Backend-Treiber, darunter pdftex und dvips, in den Output eingebunden werden.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "mcpdisp-ext",
+  "description": "Mackie-Control-Oberflächen-Emulator-Erweiterung",
+  "longDescription": "<p>mcpdisp stellt einen JACK-MIDI-Port bereit, der Mackie-Control-Protokoll-Anzeigemeldungen entgegennimmt, die normalerweise auf dem „Scribble Strip“ eines Steuerpults erscheinen würden, und zeigt diese auf dem Bildschirm an. Auch die Streifen-LEDs und Pegelanzeigen werden dargestellt.</p>\n"
+}

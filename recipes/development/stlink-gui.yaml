@@ -1,0 +1,34 @@
+id: "stlink-gui"
+name: stlink
+description: STM32 discovery line Linux programmer
+longDescription: |
+  <p>Flashing tools for STMicroelectronics STM32VL and STM32L. The transport layers STLINKv1 and STLINKv2 are supported.</p>
+  <p>This package contains a GUI tool for stlink.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - stlink-gui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/st/stlink-gui.desktop/87228d2324467cacfda30d229d3fa811/icons/128x128/stlink-gui_stlink-gui.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

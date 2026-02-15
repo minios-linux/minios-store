@@ -1,0 +1,5 @@
+{
+  "name": "Syncthing Tray",
+  "description": "Aplicación de bandeja para Syncthing",
+  "longDescription": "<ul>\n  <li>Aplicación de bandeja basada en Qt para Syncthing</li>\n  <li>Ofrece acceso rápido a las funciones más utilizadas, pero no pretende reemplazar la interfaz web oficial</li>\n  <li>Muestra notificaciones de Syncthing</li>\n  <li>Puede leer el archivo de configuración local de Syncthing para facilitar la configuración al conectar solo a la instancia local</li>\n  <li>Permite ver el estado de la unidad systemd de Syncthing y permite iniciarla o detenerla</li>\n  <li>Brinda acceso rápido a la interfaz web oficial</li>\n  <li>Permite cambiar rápidamente entre varias instancias de Syncthing</li>\n</ul>\n"
+}

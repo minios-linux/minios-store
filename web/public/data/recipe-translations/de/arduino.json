@@ -1,0 +1,5 @@
+{
+  "name": "Arduino IDE",
+  "description": "Open-Source-Plattform für Elektronik-Prototyping",
+  "longDescription": "<p>Arduino ist eine Open-Source-Plattform für Elektronik-Prototyping, die auf flexibler, einfach zu bedienender Hardware und Software basiert. Sie richtet sich an Künstler, Designer, Bastler und alle, die an der Erstellung interaktiver Objekte oder Umgebungen interessiert sind.</p>\n<p>Dieses Paket installiert die integrierte Entwicklungsumgebung, die das Schreiben von Programmen, die Code-Verifizierung, das Kompilieren und das Hochladen auf das Arduino-Development-Board ermöglicht. Beispielcode wird ebenfalls installiert.</p>\n<p>Einige grundlegende AVR-Bibliotheken werden durch das abhängige Zusatzpaket arduino-core-avr bereitgestellt. Weitere Bibliotheken können innerhalb der IDE über die Bibliotheksverwaltung installiert werden. Dies erfordert einen funktionierenden Internetzugang.</p>\n"
+}

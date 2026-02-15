@@ -1,0 +1,5 @@
+{
+  "name": "IpQalc",
+  "description": "Grafischer IPv4-Subnetzrechner",
+  "longDescription": "<p>\n      Kleines Tool zur Berechnung von IP-Adressen, einschließlich Broadcast- und Netzwerkadressen sowie Cisco-Wildcard-Masken.\nAus einer angegebenen IPv4-Adresse werden Broadcast, Netzwerk, Cisco-Wildcard-Maske und Hostbereich berechnet. Das Programm eignet sich auch als Lehrmittel und stellt die Ergebnisse in Binär- und Hexadezimalwerten dar.\n    </p>\n"
+}

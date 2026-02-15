@@ -1,0 +1,5 @@
+{
+  "name": "VMPK",
+  "description": "Teclado virtual MIDI para piano",
+  "longDescription": "<p>VMPK (Virtual MIDI Piano Keyboard) es un generador y receptor de eventos MIDI. No produce sonido por sí mismo, pero puede utilizarse para controlar un sintetizador MIDI (ya sea hardware o software, interno o externo). Puedes usar el teclado del ordenador y también el ratón para tocar notas MIDI. Además, VMPK permite visualizar las notas MIDI interpretadas desde otro instrumento o desde un reproductor de archivos MIDI.</p>\n"
+}

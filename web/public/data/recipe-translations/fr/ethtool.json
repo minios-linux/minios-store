@@ -1,0 +1,5 @@
+{
+  "name": "ethtool",
+  "description": "afficher ou modifier les paramètres d’un périphérique Ethernet",
+  "longDescription": "<p>ethtool permet d’interroger et de modifier des paramètres tels que la vitesse, l’auto-négociation et l’offloading des sommes de contrôle sur de nombreux périphériques réseau, en particulier les interfaces Ethernet.</p>\n"
+}

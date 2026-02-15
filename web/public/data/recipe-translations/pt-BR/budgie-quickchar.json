@@ -1,0 +1,5 @@
+{
+  "name": "Budgie Quickchar",
+  "description": "Encontre e escolha rapidamente o caractere local equivalente a um caractere ASCII",
+  "longDescription": "<p>\n      Budgie Quickchar é um miniaplicativo para localizar caracteres de idioma rapidamente:\n    </p>\n<ul>\n  <li>Pressione Super+Alt+C para abrir a janela (necessário budgie-extras e budgie-extras-daemon)</li>\n  <li>Digite um caractere e todas as suas variações aparecerão.</li>\n  <li>Clique em um deles (ou use Tab para selecionar e pressione Enter) e o caractere será colado no documento</li>\n  <li>Pressione novamente para alternar a visibilidade ou Escape para esconder</li>\n</ul>\n<p>\n    Este aplicativo foi criado principalmente para o budgie-desktop, mas também funciona em qualquer ambiente gráfico baseado em X11.\n    </p>\n"
+}

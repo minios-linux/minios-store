@@ -1,0 +1,36 @@
+id: "lightdm-gtk-greeter-settings"
+name: LightDM GTK+ Greeter settings
+description: Configure LightDM GTK+ Greeter
+longDescription: |
+  <p>A simple configuration utility for the LightDM GTK+ Greeter. All configuration options available in the greeter are exposed and easily manipulated using this tool.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lightdm-gtk-greeter-settings
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - configuration
+  - utility
+iconSources:
+  - url: l/li/lightdm-gtk-greeter-settings.desktop/03b2352546280361c0978a396d2d4427/icons/128x128/lightdm-gtk-greeter-settings_lightdm-gtk-greeter-settings.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

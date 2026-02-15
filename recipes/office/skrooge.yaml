@@ -1,0 +1,60 @@
+id: "skrooge"
+name: Skrooge
+description: Personal Finances
+longDescription: |
+  <p>Skrooge is a personal finances manager powered by KDE, aiming at being simple and intuitive. Skrooge allows you to keep track of your expenses and incomes, categorize them, and build reports of them.</p>
+  <p>Features:</p>
+  <ul>
+    <li>QIF, CSV, SKROOGE, KMYMONEY import/export</li>
+    <li>Microsoft Money, OFX, QFX, MT940, GNUCASH, GRISBI, HOMEBANK and MONEY MANAGER EX import</li>
+    <li>Advanced Graphical Reports</li>
+    <li>Several tabs to help you organize your work</li>
+    <li>Infinite undo/redo (even after the file was closed !)</li>
+    <li>Instant filtering on operations and reports</li>
+    <li>Infinite categories levels</li>
+    <li>Mass update of operations</li>
+    <li>Scheduled operations</li>
+    <li>Track refund of your expenses</li>
+    <li>Automatically process operations based on search conditions</li>
+    <li>Multi currencies</li>
+    <li>Budget</li>
+    <li>Dashboard</li>
+    <li>Advices</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - skrooge
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/skrooge/6a4099c0a3c42340b90b165c898c1344/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/skrooge/6a4099c0a3c42340b90b165c898c1344/screenshots/image-1_624x377@1.png
+    width: 1680
+    height: 1015
+iconSources:
+  - url: org/kde/skrooge/6a4099c0a3c42340b90b165c898c1344/icons/128x128/skrooge_skrooge.png
+    width: 128
+    height: 128
+developer: Stephane MANKOWSKI
+homepage: "https://skrooge.org/"
+enabled: true
+order: 99

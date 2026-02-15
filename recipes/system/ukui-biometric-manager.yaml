@@ -1,0 +1,33 @@
+id: ukui-biometric-manager
+name: Biometric Manager
+description: Biometric Manager
+longDescription: |
+  <p>This package is a tool to manage the drivers of biometric devices and users&apos; features and manage whether biometric authentication is enabled. The service is provided by biometric-authentication.service in biometric-auth package.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ukui-biometric-manager
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64]
+    - name: buster
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - settings
+iconSources:
+  - cached: ukui-biometric-manager_biometric-manager.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

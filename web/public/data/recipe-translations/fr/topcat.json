@@ -1,0 +1,5 @@
+{
+  "name": "TOPCAT",
+  "description": "Outil pour opérations sur catalogues et tables",
+  "longDescription": "<p>TOPCAT est une visionneuse et un éditeur graphique interactif pour données tabulaires. Son objectif est de fournir la plupart des fonctionnalités nécessaires aux astronomes pour l’analyse et la manipulation de catalogues de sources et d’autres tables, mais il peut également être utilisé pour des données non astronomiques. Il prend en charge plusieurs formats essentiels en astronomie (notamment FITS et VOTable) et d’autres formats peuvent être ajoutés.</p>\n<p>Ce paquet contient l’exécutable.</p>\n"
+}

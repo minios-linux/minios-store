@@ -1,0 +1,5 @@
+{
+  "name": "kradio4",
+  "description": "Applicazione radio V4L/V4L2 per KDE4",
+  "longDescription": "<p>KRadio è un'applicazione radio intuitiva per KDE 4.x con supporto per driver di schede radio V4L e V4L2.</p>\n<p>Attualmente KRadio offre:</p>\n<p>  * Supporto radio V4L/V4L2   * Supporto per controllo remoto (LIRC)   * Sveglie e timer di spegnimento   * Vari controlli grafici (menu di dock, barra rapida delle stazioni, display radio)   * Registrazione con codifica MP3, Ogg/Vorbis e WAV   * Funzione timeshift   * Architettura a plugin estendibile</p>\n<p>Questo pacchetto include anche una raccolta crescente di file di preset di stazioni per molte città del mondo, contribuiti dagli utenti di KRadio.</p>\n<p>Essendo KRadio basato su un'architettura a plugin estendibile, sono benvenuti nuovi plugin (ad esempio stream radio Internet, nuove interfacce innovative).</p>\n"
+}

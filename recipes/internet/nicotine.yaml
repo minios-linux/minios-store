@@ -1,0 +1,68 @@
+id: "nicotine"
+name: Nicotine-Plus
+description: SoulSeek filesharing client
+longDescription: |
+  <p>Nicotine is a client for SoulSeek, a light and efficient file sharing system, written in Python and using the GTK2 toolkit, based on the PySoulSeek project.</p>
+  <p>It features uploading, downloading, searching and chatting, with strict bandwidth control, and tries to look like PySoulSeek.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nicotine
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-1_orig.png
+    thumbnailUrl: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-1_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-2_orig.png
+    thumbnailUrl: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-2_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-3_orig.png
+    thumbnailUrl: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-3_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-4_orig.png
+    thumbnailUrl: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-4_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-5_orig.png
+    thumbnailUrl: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-5_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-6_orig.png
+    thumbnailUrl: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-6_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-7_orig.png
+    thumbnailUrl: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-7_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-8_orig.png
+    thumbnailUrl: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/screenshots/image-8_624x457@1.png
+    width: 1122
+    height: 822
+iconSources:
+  - url: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/icons/128x128/nicotine_org.nicotine_plus.Nicotine.png
+    width: 128
+    height: 128
+  - url: org/nicotine_plus/Nicotine/f08be8a295ff781f27856babb6766039/icons/128x128@2/nicotine_org.nicotine_plus.Nicotine.png
+    width: 128
+    height: 128
+developer: Nicotine+ Team
+homepage: "https://nicotine-plus.org/"
+enabled: true
+order: 99

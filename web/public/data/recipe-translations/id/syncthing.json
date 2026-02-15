@@ -1,0 +1,5 @@
+{
+  "name": "Mulai Syncthing",
+  "description": "Menjalankan proses utama syncthing di latar belakang.",
+  "longDescription": "<p>Syncthing adalah aplikasi yang memungkinkan Anda menyinkronkan file antar berbagai perangkat. Artinya, pembuatan, perubahan, atau penghapusan file di satu perangkat akan otomatis direplikasi ke perangkat lain Anda. Syncthing tidak mengunggah data Anda ke cloud, melainkan mentransfer data langsung antar perangkat Anda selama sama-sama online.</p>\n<p>Paket ini berisi berkas binari utama: syncthing.</p>\n"
+}

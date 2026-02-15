@@ -1,0 +1,58 @@
+id: "pitivi"
+name: Pitivi
+description: Create and edit your own movies
+longDescription: |
+  <p>Pitivi is a video editor that aims to appeal to hobbyists and professionals alike, with a strong focus on efficiency, quality and usability. It integrates well with other applications and sports a beautiful user interface designed to be powerful yet easy to learn.</p>
+  <p>With a non-modal editing workflow, a framerate-independent and playhead-centric timeline, Pitivi allows you quickly and accurately trim, split and review your scenes. Pitivi&apos;s ripple and roll editing features allow spending more time on storytelling and less time on &quot;pushing clips around&quot;.</p>
+  <p>Some other features include:</p>
+  <ul>
+    <li>Accepts any file formats supported by the GStreamer multimedia framework</li>
+    <li>Can animate hundreds of special effects and filters with keyframable properties</li>
+    <li>Ability to set custom aspect ratios, framerates and rendering presets</li>
+    <li>Easy to use crossfades and SMPTE transitions</li>
+    <li>Multihead-friendly with detachable user interface components</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pitivi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - video
+  - film
+  - movie
+  - editor
+screenshotSources:
+  - url: org/pitivi/Pitivi/035a0e71e0a759e41cfe134e89388603/screenshots/image-1_orig.png
+    thumbnailUrl: org/pitivi/Pitivi/035a0e71e0a759e41cfe134e89388603/screenshots/image-1_624x397@1.png
+    width: 1304
+    height: 830
+iconSources:
+  - url: org/pitivi/Pitivi/035a0e71e0a759e41cfe134e89388603/icons/128x128/pitivi_org.pitivi.Pitivi.png
+    width: 128
+    height: 128
+developer: The Pitivi Team
+homepage: "http://www.pitivi.org"
+enabled: true
+order: 99

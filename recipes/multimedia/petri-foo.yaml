@@ -1,0 +1,34 @@
+id: petri-foo
+name: Petri-Foo
+description: Sound Sampler
+longDescription: |
+  <p>A simple but very useful midi controlled sampler for ALSA/JACK featuring:  * 64 notes of polyphony, spread across up to 64 patches.  * fast, high quality pitch scaling, linear ADSR volume envelopes.  * low pass filter with resonance; a variety of direction-independent.  * playback modes and zoomable sample editor for loop and play points.</p>
+  <p>Petri-Foo is a fork of the Specimen Sampler project.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - petri-foo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - audio
+  - sound
+  - jackd
+  - midi
+  - sampler
+iconSources:
+  - cached: petri-foo_petri-foo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

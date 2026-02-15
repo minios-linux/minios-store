@@ -1,0 +1,37 @@
+id: "gmpc"
+name: Gnome Music Player Client
+description: A gnome frontend for the mpd daemon
+longDescription: |
+  <p>A graphical client for Music Player Daemon. Features include:  * Support for loading/saving playlists  * File Browser  * Browser based on ID3 information  * Search  * Current playlist viewer with search  * ID3 Information  * Cover art (via plugins)</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gmpc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gm/gmpc.desktop/6aa665615622fc1993a0fc3089f981db/icons/128x128/gmpc_gmpc.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

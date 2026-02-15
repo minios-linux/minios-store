@@ -1,0 +1,5 @@
+{
+  "name": "Game Conqueror",
+  "description": "Spiele-Hacking-Tool. Grafische Benutzeroberfläche (GUI) für scanmem.",
+  "longDescription": "<p>scanmem ist ein einfaches interaktives Debugging-Hilfsprogramm, das dazu dient, die Adresse einer Variablen in einem laufenden Prozess zu lokalisieren. Dies kann für die Analyse oder Modifikation eines schädlichen Prozesses auf einem kompromittierten Rechner, für Reverse Engineering oder als „Pokefinder“ zum Schummeln in Videospielen verwendet werden. GameConqueror zielt darauf ab, eine CheatEngine-ähnliche Benutzeroberfläche für scanmem bereitzustellen, die benutzerfreundlich und einfach zu bedienen ist.</p>\n<p>Funktionen:</p>\n<ul>\n  <li>Fixieren mehrerer Variablen</li>\n  <li>Speicher-Viewer/Editor</li>\n  <li>... vieles mehr geplant</li>\n</ul>\n"
+}

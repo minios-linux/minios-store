@@ -1,0 +1,39 @@
+id: "mate-calc"
+name: MATE Calculator
+description: "Perform arithmetic, scientific or financial calculations"
+longDescription: |
+  <p>mate-calc is a powerful graphical calculator with financial, logical and scientific modes. It uses a multiple precision package to do its arithmetic to give a high degree of accuracy.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mate-calc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calculator,mate,scientifc,arithmetic,financial,calculations
+iconSources:
+  - cached: mate-calc_accessories-calculator.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "eBook speaker",
+  "description": "Говорящая программа для чтения электронных книг",
+  "longDescription": "<p>Этот пакет предоставляет консольную программу для чтения электронных текстов вслух с помощью синтеза речи. Имеет простой интерфейс, подходящий для использования с брайлевскими терминалами.</p>\n<p>В настоящее время поддерживаются следующие форматы (некоторые из них требуют установки дополнительных пакетов, указанных в рекомендациях этого пакета): AportisDoc, ASCII-почтовый текст, ASCII-текст, Broadband eBooks (BBeB), Composite Document File (Microsoft Office Word), DAISY3 DTBook, EPUB, GIF, GutenPalm zTXT, каталог сообщений GNU gettext, HTML-документы, ISO-8859 текст, JPEG, Microsoft Reader eBook, Microsoft Windows HtmlHelp, Microsoft Word 2007+, Mobipocket, MS Windows HtmlHelp, Netpbm PPM, OpenDocument Text, PDF, PeanutPress PalmOS, PNG, POSIX-скрипты, PostScript, Rich Text Format, troff или препроцессорный текст (например, man-страницы Linux), UTF-8 Unicode почтовый текст, UTF-8 Unicode текст, WordPerfect, XML-документы.</p>\n"
+}

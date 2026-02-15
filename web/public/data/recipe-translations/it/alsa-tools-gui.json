@@ -1,0 +1,5 @@
+{
+  "name": "Envy24 Control",
+  "description": "Utility di mixer e controllo GUI per schede audio basate su Envy24",
+  "longDescription": "<p>Una raccolta di utility ALSA con interfaccia grafica per specifiche periferiche audio:</p>\n<p> echomixer - strumento di controllo per schede audio Echoaudio  envy24control - tool di gestione per schede audio basate su Envy24 (ice1712)  hdajackretask - consente di riassegnare i jack sull'hardware HDA Intel  hdspconf - programma GUI per configurare le impostazioni Alsa delle Hammerfall HDSP.  hdspmixer - strumento per gestire le funzioni avanzate di routing delle RME Hammerfall DSP.  rmedigicontrol - utility di controllo per schede audio RME Digi32 e RME Digi96</p>\n"
+}

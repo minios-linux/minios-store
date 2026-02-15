@@ -1,0 +1,5 @@
+{
+  "name": "Helix",
+  "description": "Ein postmoderner Texteditor",
+  "longDescription": "<p>\n      Helix ist ein Terminal-basierter Texteditor, inspiriert von Kakoune / Neovim und in Rust geschrieben.\n    </p>\n<ul>\n  <li>Vim-ähnliche modale Bearbeitung</li>\n  <li>Mehrfachauswahl</li>\n  <li>Integrierte Language-Server-Unterstützung</li>\n  <li>Intelligente, inkrementelle Syntaxhervorhebung und Code-Bearbeitung via Tree-sitter</li>\n</ul>\n"
+}

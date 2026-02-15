@@ -1,0 +1,5 @@
+{
+  "name": "ukopp",
+  "description": "Backup completo e incrementale con verifica dei supporti",
+  "longDescription": "<p>Ukopp viene utilizzato per copiare o eseguire il backup di file su disco verso un altro disco o dispositivo simile, come una chiavetta USB. Copia solo i file nuovi o modificati dall'ultimo backup, risultando quindi molto veloce. L’interfaccia grafica consente di navigare nel file system per includere o escludere file e cartelle a qualsiasi livello. Queste selezioni possono essere salvate in un file di lavoro per riutilizzi successivi. I nuovi file che appaiono all’interno delle directory incluse vengono gestiti automaticamente. In modo opzionale, le versioni precedenti dei file di backup possono essere conservate invece di essere sovrascritte. I file possono essere ripristinati selettivamente tramite GUI. Proprietà e permessi vengono anch’essi ripristinati, anche se il dispositivo di destinazione utilizza un file system Microsoft.</p>\n"
+}

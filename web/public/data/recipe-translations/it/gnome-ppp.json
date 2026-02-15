@@ -1,0 +1,5 @@
+{
+  "name": "GNOME PPP",
+  "description": "Strumento GNOME per connessioni dialup",
+  "longDescription": "<p>GNOME PPP è uno strumento grafico semplice per configurare e gestire connessioni dial-up, con supporto per l'icona nell'area di notifica.</p>\n<p>Utilizza GNOME/GTK+ per l'interfaccia grafica e si integra perfettamente con l'ambiente desktop GNOME, ma può essere usato anche in altri ambienti.</p>\n<p>Si basa sul dialer WvDial per il backend, offrendo una configurazione semplice tramite file di configurazione. Puoi anche usare wvdial da linea di comando se non hai X attivo.</p>\n"
+}

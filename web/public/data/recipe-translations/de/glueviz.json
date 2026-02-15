@@ -1,0 +1,5 @@
+{
+  "name": "Glueviz",
+  "description": "Verknüpfung von Visualisierungen wissenschaftlicher Datensätze",
+  "longDescription": "<p>Glue ist ein Python-Projekt zur Verknüpfung von Visualisierungen wissenschaftlicher Datensätze aus verschiedenen Dateien. Zu den wichtigsten Funktionen gehören:</p>\n<p> * Interaktive, verknüpfte statistische Grafiken aus mehreren Dateien.  * Unterstützung zahlreicher Dateiformate, darunter gängige Bildformate, ASCII-Tabellen, astronomische Bild- und Tabellenformate (FITS, VOT, IPAC) sowie HDF5. Eigene Datenlader können ebenfalls einfach hinzugefügt werden.  * Hochgradig skriptbar und erweiterbar.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "PyQSO",
+  "description": "Outil de journalisation des contacts",
+  "longDescription": "<p>PyQSO est un outil de journalisation destiné aux radioamateurs. Il propose une interface graphique simple permettant de gérer les informations relatives aux contacts/QSOs établis avec d’autres opérateurs en ondes. Toutes les données sont stockées dans une base SQL légère. Parmi les principales fonctionnalités :</p>\n<p> * Interface personnalisable (par exemple : afficher uniquement l'indicatif et la fréquence)  * Importation et exportation des journaux au format ADIF  * Recherche d’indicatifs et remplissage automatique des champs grâce à la base qrz.com   * Tri des journaux selon chaque champ  * Impression papier ou PDF du journal  * Connexion aux clusters DX basés sur Telnet  * Suivi de progression pour le diplôme DXCC  * Traceur de ligne grise  * Filtrage des QSOs selon l’indicatif (par ex. afficher uniquement les contacts débutant par “M6”)  * Suppression des QSOs en double  * Support de base pour la bibliothèque Hamlib.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "ACM",
+  "description": "gioco di conquista galattica e impero spaziale a turni (client)",
+  "longDescription": "<p>Simulatore multigiocatore di combattimento aereo. I giocatori si sfidano in combattimenti aria-aria utilizzando missili a ricerca di calore e cannoni.</p>\n<p>Caratteristiche principali:  * Simulazione con 6 gradi di libertà.  * Limite strutturale al carico verticale positivo/negativo.  * Strumentazione classica, navigazione e head-up display (HUD).  * Diversi modelli di aerei implementati, sia civili che militari.  * Due scenari disponibili, con numerose piste di decollo e stazioni radio.</p>\n<p>acm funziona nel sistema X Window. Questa versione di acm è implementata come simulazione distribuita. Comunica le informazioni tramite il protocollo IEEE Distributed Interactive Simulation.</p>\n"
+}

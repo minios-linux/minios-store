@@ -1,0 +1,5 @@
+{
+  "name": "hime Setup",
+  "description": "Утилита настройки метода ввода hime",
+  "longDescription": "<p>HIME Input Method Editor — платформа для ввода текста, созданная на основе популярного метода ввода gcin.</p>\n<p>Для работы HIME также необходимо установить соответствующие модули ввода (immodule):</p>\n<p> * hime-gtk2-immodule для GTK2  * hime-gtk3-immodule для GTK3  * hime-qt5-immodule для Qt5</p>\n"
+}

@@ -1,0 +1,57 @@
+id: "inkscape"
+name: Inkscape
+description: Vector Graphics Editor
+longDescription: |
+  <p>An Open Source vector graphics editor, with capabilities similar to
+        Illustrator, CorelDraw, or Xara X, using the W3C standard Scalable Vector
+        Graphics (SVG) file format.</p>
+  <p>Inkscape supports many advanced SVG features (markers, clones, alpha blending,
+        etc.) and great care is taken in designing a streamlined interface.
+        It is very easy to edit nodes, perform complex path operations, trace
+        bitmaps and much more.
+        We also aim to maintain a thriving user and developer community by using
+        open, community-oriented development.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - inkscape
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - image
+  - editor
+  - vector
+  - drawing
+screenshotSources:
+  - url: org/inkscape/Inkscape/d27307b128ac7b66f068bdccde91afe3/screenshots/image-1_orig.png
+    thumbnailUrl: org/inkscape/Inkscape/d27307b128ac7b66f068bdccde91afe3/screenshots/image-1_624x349@1.png
+    width: 1270
+    height: 712
+iconSources:
+  - url: org/inkscape/Inkscape/d27307b128ac7b66f068bdccde91afe3/icons/128x128/inkscape_org.inkscape.Inkscape.png
+    width: 128
+    height: 128
+developer: The Inkscape Community
+homepage: "https://inkscape.org"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Cardpeek",
+  "description": "Werkzeug zum Auslesen von Chipkarten-Inhalten",
+  "longDescription": "<p>Cardpeek ermöglicht Besitzern von Chipkarten, detaillierte Informationen über die auf diesen Geräten gespeicherten persönlichen Daten zu erhalten. Das Tool kann derzeit die Inhalte folgender Karten auslesen:</p>\n<p>* EMV-Karten, einschließlich NFC-Karten  * Navigo-Fahrkarten für den öffentlichen Nahverkehr (teilweise Unterstützung für MOBIB)  * Die französische Gesundheitskarte „Vitale 2“  * Elektronische/biometrische Reisepässe im BAC-Sicherheitsmodus</p>\n<p>Darüber hinaus können folgende Karten mit eingeschränkter Dateninterpretation ausgelesen werden:  * Einige Mifare-Karten (z. B. Thalys-Karte)  * Moneo, die französische elektronische Geldbörse  * GSM-SIM-Karten</p>\n"
+}

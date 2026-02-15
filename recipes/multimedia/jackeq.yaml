@@ -1,0 +1,29 @@
+id: jackeq
+name: JackEQ
+description: routes and manipulates audio from/to multiple sources
+longDescription: |
+  <p>jackEQ is a tool for routing and manipulating audio from/to multiple input/output sources. It runs in the JACK Audio Connection Kit, and uses LADSPA for its backend DSP work, specifically the DJ EQ swh plugin created by Steve Harris, one of jackEQ&apos;s main authors.</p>
+  <p>jackEQ is intended to provide an accessible method for tweaking the treble, mid and bass of any JACK aware applications output. Designed specifically for live performance, it is modelled on various DJ mixing consoles which the main author has used.</p>
+  <p>jackEQ wll allow sound as rich and powerful as Jackie O, as street smart as Jackie Brown. jackEQ may be the first female entity in JACKs realm. Is jackEQ more than you can handle?</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jackeq
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: jackeq_thai-gold.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

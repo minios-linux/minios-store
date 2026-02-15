@@ -1,0 +1,5 @@
+{
+  "name": "PNMixer",
+  "description": "Un mélangeur audio pour la zone de notification",
+  "longDescription": "<p>PNMixer est une application de mixage audio simple conçue pour s’exécuter dans la zone de notification du système. Elle s’intègre parfaitement aux environnements de bureau qui ne disposent pas d’un panneau prenant en charge les applets, et qui ne peuvent donc pas lancer de mini-mélangeur. Elle est notamment très utilisée avec fbpanel et tint2, mais fonctionne sans problème dans toute zone de notification.</p>\n<p>PNMixer est conçu pour fonctionner sur les systèmes utilisant ALSA pour la gestion du son. Les autres pilotes audio comme OSS ou FFADO, ou serveurs audio comme PulseAudio ou Jack, ne sont actuellement pas pris en charge (contributions bienvenues).</p>\n"
+}

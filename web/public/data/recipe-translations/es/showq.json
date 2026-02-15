@@ -1,0 +1,5 @@
+{
+  "name": "ShowQ",
+  "description": "Reproductor de audio controlable por MIDI",
+  "longDescription": "<p>Aplicación diseñada para reproducir pistas de audio y disparar eventos MIDI, desarrollada principalmente para producciones teatrales.</p>\n<p>Características: * Enrutamiento de 8 canales por pista. * Reproducción a través de ALSA o JACK. * Carga y guarda listas de pistas. * Tecla de acceso rápido para cualquier pista. * Control de la aplicación mediante MIDI.</p>\n"
+}

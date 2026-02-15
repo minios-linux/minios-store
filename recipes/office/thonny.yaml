@@ -1,0 +1,51 @@
+id: "thonny"
+name: Thonny
+description: Python IDE for beginners
+longDescription: |
+  <p>Thonny is a simple Python IDE with features useful for learning programming.
+      It comes with a debugger which is able to visualize all the conceptual steps
+      taken to run a Python program (executing statements, evaluating expressions,
+      maintaining the call stack). There is a GUI for installing 3rd party packages
+      and special mode for learning about references.</p>
+  <p>See the homepage for more information, screenshots and a walk-through video.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - thonny
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - programming
+  - education
+screenshotSources:
+  - url: org/thonny/Thonny.desktop/9ee31ffe7d38d295ba616a862cc41843/screenshots/image-1_orig.png
+    thumbnailUrl: org/thonny/Thonny.desktop/9ee31ffe7d38d295ba616a862cc41843/screenshots/image-1_624x514@1.png
+    width: 637
+    height: 525
+iconSources:
+  - url: org/thonny/Thonny.desktop/9ee31ffe7d38d295ba616a862cc41843/icons/128x128/thonny_thonny.png
+    width: 128
+    height: 128
+homepage: "https://thonny.org"
+enabled: true
+order: 99

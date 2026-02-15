@@ -1,0 +1,33 @@
+id: "gigolo"
+name: Gigolo
+description: A simple frontend to easily connect to remote filesystems
+longDescription: |
+  <p>Gigolo is a frontend to easily manage connections to remote filesystems using GIO/GVfs. It allows you to quickly connect/mount a remote filesystem and manage bookmarks of such.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gigolo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gi/gigolo.desktop/a2b3b246195aca0ed433eb7f1d662c9c/icons/128x128/gigolo_org.xfce.gigolo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Battery Level Graph",
+  "description": "Graphique du niveau de la batterie",
+  "longDescription": "<p>Ce paquet fournit battery-stats-collector, un service qui collecte périodiquement des statistiques sur la charge des batteries présentes.</p>\n<p>Il inclut également un exécutable nommé battery-graph, permettant de générer des graphiques qplot sur l’évolution des cycles de charge et de décharge de la batterie au fil du temps.</p>\n<p>Remarque : nécessite que l’APM ou l’ACPI soit activé et fonctionnel dans votre noyau.</p>\n"
+}

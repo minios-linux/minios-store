@@ -1,0 +1,5 @@
+{
+  "name": "fprint-demo",
+  "description": "Dimostrazione della scansione delle impronte digitali",
+  "longDescription": "<p>fprint-demo è una semplice applicazione GTK+ progettata per dimostrare e testare le funzionalità di libfprint.</p>\n<p>Permette all’utente di interagire per registrare le impronte digitali e, a seconda del produttore dello scanner, mostra sia la rappresentazione normale che binarizzata, inclusa la visualizzazione delle minuzie rilevate.</p>\n"
+}

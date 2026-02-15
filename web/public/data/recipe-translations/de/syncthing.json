@@ -1,0 +1,5 @@
+{
+  "name": "Syncthing starten",
+  "description": "Startet den Hauptprozess von Syncthing im Hintergrund.",
+  "longDescription": "<p>Syncthing ist eine Anwendung, mit der Sie Ihre Dateien auf mehreren Geräten synchronisieren können. Das bedeutet, dass das Erstellen, Ändern oder Löschen von Dateien auf einem Gerät automatisch auf Ihre anderen Geräte übertragen wird. Syncthing lädt Ihre Daten nicht in die Cloud hoch, sondern tauscht die Daten direkt zwischen Ihren eigenen Geräten aus, sobald diese gleichzeitig online sind.</p>\n<p>Dieses Paket enthält die Haupt-Binärdatei: syncthing.</p>\n"
+}

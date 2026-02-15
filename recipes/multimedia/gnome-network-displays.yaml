@@ -1,0 +1,36 @@
+id: "gnome-network-displays"
+name: GNOME Network Displays
+description: Stream the desktop to Wi-Fi Display capable devices
+longDescription: |
+  <p>
+  		GNOME Network Displays allows you to cast your desktop to a remote display. Currently
+  		implemented is support for casting to Wi-Fi Display capable devices (a.k.a. Miracast).
+  		</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-network-displays
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/gnome/NetworkDisplays.desktop/ef62046c7b00233575b4790be2147a5f/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/NetworkDisplays.desktop/ef62046c7b00233575b4790be2147a5f/screenshots/image-1_624x350@1.png
+    width: 1391
+    height: 782
+iconSources:
+  - url: org/gnome/NetworkDisplays.desktop/ef62046c7b00233575b4790be2147a5f/icons/128x128/gnome-network-displays_org.gnome.NetworkDisplays.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.gnome.org/GNOME/gnome-network-displays"
+enabled: true
+order: 99

@@ -1,0 +1,42 @@
+id: billard-gl
+name: Billard-GL
+description: Play Billard Game
+longDescription: |
+  <p>Play a game of 8-ball or 9-ball, either in training mode or against a friend. For beginners, the game features a tutorial, introducing them to the user-interface and controls. Help is also available for those who do not know the rules for an 8-ball or 9-ball game.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - billard-gl
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - billard
+  - 3d
+  - opengl
+  - game
+iconSources:
+  - cached: billard-gl_billard-gl.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

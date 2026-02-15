@@ -1,0 +1,39 @@
+id: "pysolfc"
+name: PySol Fan Club Edition
+description: More than 1000 solitaire card games
+longDescription: |
+  <p>There are games that use the 52 card International Pattern deck, games for the 78 card Tarock deck, eight and ten suit Ganjifa games, Hanafuda games, Matrix games, Mahjongg games, and games for an original hexadecimal-based deck.</p>
+  <p>Its features include modern look and feel (uses Ttk widget set), multiple cardsets and tableau backgrounds, sound, unlimited undo, player statistics, a hint system, demo games, a solitaire wizard, support for user written plug-ins, an integrated HTML help browser, and lots of documentation.</p>
+  <p>PySolFC is a fork of PySol Solitaire.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pysolfc
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - solitaire
+  - patience
+  - cards
+  - pysolfc
+  - klondike
+iconSources:
+  - url: p/py/pysol.desktop/c42b90440f5e598e6545d7b7cbd07748/icons/128x128/pysolfc_pysol.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

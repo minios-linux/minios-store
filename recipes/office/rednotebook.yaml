@@ -1,0 +1,50 @@
+id: "rednotebook"
+name: RedNotebook
+description: Graphical diary and journal
+longDescription: |
+  <p>Modern desktop diary and personal journaling tool. It lets you format,
+      tag and search your entries. You can also add pictures, links and
+      customisable templates, spell check your notes, and export to plain
+      text, HTML, LaTeX or PDF.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rednotebook
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - journal
+  - diary
+  - notes
+  - notebook
+screenshotSources:
+  - url: r/re/rednotebook/f17f096920d9b7d733c22b5135ef6f63/screenshots/image-1_orig.png
+    thumbnailUrl: r/re/rednotebook/f17f096920d9b7d733c22b5135ef6f63/screenshots/image-1_624x378@1.png
+    width: 882
+    height: 535
+  - url: r/re/rednotebook/f17f096920d9b7d733c22b5135ef6f63/screenshots/image-2_orig.png
+    thumbnailUrl: r/re/rednotebook/f17f096920d9b7d733c22b5135ef6f63/screenshots/image-2_624x378@1.png
+    width: 882
+    height: 535
+iconSources:
+  - url: r/re/rednotebook/f17f096920d9b7d733c22b5135ef6f63/icons/128x128/rednotebook_rednotebook.png
+    width: 128
+    height: 128
+developer: Jendrik Seipp
+homepage: "https://rednotebook.app"
+enabled: true
+order: 99

@@ -1,0 +1,43 @@
+id: "kshisen"
+name: KShisen
+description: Shisen-Sho Mahjongg-like Tile Game
+longDescription: |
+  <p>KShisen is a solitaire-like game played using the standard set of Mahjong tiles. Unlike Mahjong however, KShisen has only one layer of scrambled tiles.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kshisen
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kshisen/91b2b96ac66697853963a146a391820f/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kshisen/91b2b96ac66697853963a146a391820f/screenshots/image-1_624x501@1.png
+    width: 688
+    height: 553
+iconSources:
+  - url: org/kde/kshisen/91b2b96ac66697853963a146a391820f/icons/128x128/kshisen_kshisen.png
+    width: 128
+    height: 128
+homepage: "http://games.kde.org/game.php?game=kshisen"
+enabled: true
+order: 99

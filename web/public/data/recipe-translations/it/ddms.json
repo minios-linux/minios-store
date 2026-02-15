@@ -1,0 +1,5 @@
+{
+  "name": "Dalvik Debug Monitor Server",
+  "description": "Debugger per applicazioni Android",
+  "longDescription": "<p>Android Studio include uno strumento di debug chiamato Dalvik Debug Monitor Server (DDMS), che offre servizi di port forwarding, acquisizione schermo dal dispositivo, informazioni su thread e heap del dispositivo, logcat, stato di processo e radio, spoofing di chiamate e SMS in entrata, spoofing dei dati di posizione e altro ancora.</p>\n<p>Vedi anche: &lt;https://developer.android.com/studio/profile/ddms.html&gt;</p>\n<p>Questo pacchetto fornisce il lanciatore standalone di DDMS. Tuttavia, è deprecato: si consiglia di utilizzare Android Device Monitor.</p>\n"
+}

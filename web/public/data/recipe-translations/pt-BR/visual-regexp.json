@@ -1,0 +1,5 @@
+{
+  "name": "visual-regexp",
+  "description": "interface gráfica para criar e depurar expressões regulares em Perl",
+  "longDescription": "<p>\n      O visual-regexp auxilia na criação, depuração e manipulação de expressões regulares em Perl. Como normalmente é difícil acertar a expressão correta na primeira tentativa, esta ferramenta mostra o efeito do regexp em um exemplo selecionado.\n    </p>\n<p>\n      O software permite projetar regexps, alterar o tipo de expressão e visualizar seu efeito interativo sobre uma amostra de sua escolha para depuração.\n    </p>\n<p>\n      Com o visual-regexp é possível modificar textos utilizando expressões regulares. Basta usar o menu para criar uma regexp que corresponde ao padrão desejado. Após a substituição, é possível salvar o novo texto. O programa também permite selecionar o formato de fim de linha ou forçá-lo para um ambiente específico.\n    </p>\n<p>\n      Este programa é um script Tcl que exibe o resultado da execução de expressões regulares, facilitando a depuração e auxiliando na construção de regexps.\n    </p>\n"
+}

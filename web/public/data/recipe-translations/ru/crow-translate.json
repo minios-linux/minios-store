@@ -1,0 +1,5 @@
+{
+  "name": "Crow Translate",
+  "description": "Простой и легкий переводчик",
+  "longDescription": "<p>\n      Crow Translate — это удобный и быстрый переводчик на C++ / Qt,\n      позволяющий переводить и озвучивать текст с помощью API Google, Yandex, Bing,\n      LibreTranslate и Lingva Translate.\n    </p>\n<p>Возможности:</p>\n<ul>\n  <li>Перевод и озвучивание текста с экрана или выделения</li>\n  <li>Поддержка 125 языков</li>\n  <li>Минимальное использование памяти (~20 МБ)</li>\n  <li>Гибкая настройка горячих клавиш</li>\n  <li>Командная строка с расширенными опциями</li>\n  <li>D-Bus API</li>\n  <li>Доступен для Linux и Windows</li>\n</ul>\n"
+}

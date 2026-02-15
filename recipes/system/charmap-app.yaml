@@ -1,0 +1,27 @@
+id: charmap-app
+name: Charmap
+description: Character map for GNUstep
+longDescription: |
+  <p>This is a character map. It is developed using the GNUstep development environment (www.gnustep.org) and is meant to contribute to GNUstep&apos;s promise towards a desktop environment.</p>
+  <p>Charmap offers font selection, allowing one to easily see all the glyphs which a particular font offers.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - charmap.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - font
+  - unicode
+iconSources:
+  - cached: charmap.app_Charmap.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

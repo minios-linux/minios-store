@@ -1,0 +1,32 @@
+id: fillets-ng
+name: Fish Fillets
+description: Puzzle game about witty fish saving the world sokoban-style
+longDescription: |
+  <p>Fish Fillets is strictly a puzzle game. The goal in every of the seventy levels is always the same: find a safe way out. The fish utter witty remarks about their surroundings, the various inhabitants of their underwater realm quarrel among themselves or comment on the efforts of your fish. The whole game is accompanied by quiet, comforting music.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fillets-ng
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - sokoban
+  - puzzle
+iconSources:
+  - cached: fillets-ng_fillets-ng.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

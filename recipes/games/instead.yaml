@@ -1,0 +1,43 @@
+id: instead
+name: INSTEAD
+description: Simple Text Adventures Interpreter
+longDescription: |
+  <p>INSTEAD -- INterpreter of Simple TExt ADventure. Using INSTEAD you can create and play games that could be classified as a mix of visual novel and text quest.</p>
+  <p>Features:   * Simple story source code (Lua-based script)   * GUI interface that supports music and pictures   * Theme support   * Portability (INSTEAD depends on SDL and Lua)</p>
+  <p>Game repository: https://instead-hub.github.io/page/games/</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - instead
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - adventure
+  - quest
+iconSources:
+  - cached: instead_sdl_instead.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

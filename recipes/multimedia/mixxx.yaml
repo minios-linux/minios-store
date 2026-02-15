@@ -1,0 +1,68 @@
+id: "mixxx"
+name: Mixxx
+description: A digital DJ interface
+longDescription: |
+  <p>Mixxx is a digital DJ system, where Wave, Ogg, FLAC and MP3 files can be mixed on a computer for use in live performances. Filters, crossfader, and speed control are provided. Mixxx can sync the 2 streams automatically, using an algorithm to detect the beat.</p>
+  <p>Mixxx works with Jack or OSS, can be controlled from the GUI or from external controllers, including MIDI devices and joysticks, and supports skins.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mixxx
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-1_orig.png
+    thumbnailUrl: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-1_624x351@1.png
+    width: 3840
+    height: 2160
+  - url: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-2_orig.png
+    thumbnailUrl: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-2_624x351@1.png
+    width: 3840
+    height: 2160
+  - url: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-3_orig.png
+    thumbnailUrl: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-3_624x351@1.png
+    width: 3840
+    height: 2160
+  - url: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-4_orig.png
+    thumbnailUrl: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-4_624x351@1.png
+    width: 3840
+    height: 2160
+  - url: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-5_orig.png
+    thumbnailUrl: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-5_624x351@1.png
+    width: 3840
+    height: 2160
+  - url: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-6_orig.png
+    thumbnailUrl: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-6_624x351@1.png
+    width: 3840
+    height: 2160
+  - url: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-7_orig.png
+    thumbnailUrl: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/screenshots/image-7_624x351@1.png
+    width: 3840
+    height: 2160
+iconSources:
+  - url: org/mixxx/Mixxx/c2e3cb4fecc8ef06e944e8cddde4f416/icons/128x128/mixxx_mixxx.png
+    width: 128
+    height: 128
+homepage: "https://mixxx.org"
+enabled: true
+order: 99

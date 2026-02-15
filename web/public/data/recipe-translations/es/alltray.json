@@ -1,0 +1,5 @@
+{
+  "name": "AllTray",
+  "description": "Acopla cualquier aplicación en el área de notificación/bandeja del sistema.",
+  "longDescription": "<p>Con AllTray puedes acoplar cualquier aplicación que no tenga icono nativo de bandeja (como Evolution, Thunderbird, Terminales) en la bandeja del sistema. Una característica destacada es que al hacer clic en el botón de \"cerrar\", la ventana se minimizará a la bandeja del sistema. Funciona correctamente con GNOME, KDE, Xfce 4*, Fluxbox* y WindowMaker*. (*) No admite arrastrar y soltar. Actívalo con la opción \"-nm\".</p>\n"
+}

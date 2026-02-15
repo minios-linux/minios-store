@@ -1,0 +1,23 @@
+id: gtkman
+name: GTKMan Manual Page Viewer
+description: A simple GTK+3 manual page viewer
+longDescription: |
+  <p>GTKMan is a simple GTK3 manual page viewer, written in Python. Manual pages are viewed by specifying their name and optionally the section they are in, just as with the original man command. The manual pages are displayed in simple text form using the default system monospace font.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtkman
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gt/gtkman.desktop/76f9478077cb5e038a10eb3e2956bc43/icons/128x128/gtkman_gtkman.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

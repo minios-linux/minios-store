@@ -1,0 +1,40 @@
+id: gnubg
+name: GNU Backgammon
+description: GTK or console backgammon program with analysis
+longDescription: |
+  <p>GNU Backgammon is a strong backgammon program (world-class with a bearoff database installed) usable either as an engine by other programs or as a standalone backgammon game.  In addition to supporting simple play, it also has extensive analysis features, a tutor mode, adjustable difficulty, and support for exporting annotated games.  It can be played either from a GTK+ graphical interface, optionally with a 3D board, or from a simple text console.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnubg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - analysis
+  - tutor
+iconSources:
+  - cached: gnubg_gnubg.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

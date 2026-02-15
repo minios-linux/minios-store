@@ -1,0 +1,54 @@
+id: "qspeakers"
+name: QSpeakers
+description: Simulate an optimizes common loudspeaker enclosures
+longDescription: |
+  <p>QSpeakers is a simple graphical program that simulates common acoustical enclosures behaviour to help designing loudspeaker systems, based on the loudspeaker driver&apos;s Thiele / Small parameters and the chosen enclosure type.</p>
+  <p>This software is mostly useful for do-it-yourself loudspeaker enthusiasts, acoustics teaching, and to a lesser extent, for loudspeaker engineering.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qspeakers
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - do it yourself
+  - diy
+  - box
+  - speaker
+  - woofer
+  - audio
+  - simulation
+  - acoustics
+screenshotSources:
+  - url: r/ro/rocks.noise.qspeakers/f8908f13d935bfb7e5aed6da26fa9ece/screenshots/image-1_orig.png
+    thumbnailUrl: r/ro/rocks.noise.qspeakers/f8908f13d935bfb7e5aed6da26fa9ece/screenshots/image-1_624x368@1.png
+    width: 1322
+    height: 780
+iconSources:
+  - url: r/ro/rocks.noise.qspeakers/f8908f13d935bfb7e5aed6da26fa9ece/icons/128x128/qspeakers_qspeakers.png
+    width: 128
+    height: 128
+developer: Benoît Rouits
+homepage: "http://brouits.free.fr/qspeakers/"
+enabled: true
+order: 99

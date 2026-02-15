@@ -1,0 +1,5 @@
+{
+  "name": "Générateur de maillage de surface Terraintool",
+  "description": "Générez des maillages de surface pour les logiciels de topographie souterraine",
+  "longDescription": "<p>Ce logiciel permet de créer des maillages de terrain pour des outils de relevé spéléologique à partir de jeux de données d’altitude en ligne. Il exploite les bases de données NASA SRTM et ASTER européennes. Les données nécessaires sont téléchargées, extraites, géolocalisées dans le système de coordonnées choisi, rééchantillonnées sur une grille, un décalage local est appliqué si besoin, le résultat est affiché puis sauvegardé au format survex (.svx). Ce programme est développé en Java.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Pronsole",
+  "description": "Logiciel hôte pour imprimante 3D en ligne de commande",
+  "longDescription": "<p>Pronsole est une interface en ligne de commande pour piloter des imprimantes 3D de bureau, telles que les RepRap. Il vous permet de charger un fichier Gcode, de connecter l’imprimante et d’envoyer les commandes Gcode. C’est la solution idéale pour contrôler une imprimante 3D depuis une machine sans interface graphique ou peu puissante.</p>\n<p>Vous pouvez non seulement envoyer du Gcode depuis un fichier, mais aussi contrôler manuellement l’imprimante ou envoyer des commandes Gcode directement.</p>\n<p>Pronsole s’intègre avec les outils de découpe (slicing) ; ainsi, en chargeant un modèle 3D STL, il sera automatiquement découpé (tranché) et chargé pour impression.</p>\n"
+}

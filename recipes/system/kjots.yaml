@@ -1,0 +1,44 @@
+id: "kjots"
+name: KJots
+description: Note Taker
+longDescription: |
+  <p>KJots organises all of your notes into separate books</p>
+  <p>Features:</p>
+  <ul>
+    <li>Multiple books handled</li>
+    <li>Each book has many named pages</li>
+    <li>Books and pages can be rearranged by drag-and-drop</li>
+    <li>Keyboard shortcuts are available for many functions</li>
+    <li>Automatic saving means your notes are safe from loss</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kjots
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: org/kde/kjots.desktop/fcd3170fddc2d3f55d8df46499075b56/icons/128x128/kjots_kjots.png
+    width: 128
+    height: 128
+homepage: "https://userbase.kde.org/KJots"
+enabled: true
+order: 99

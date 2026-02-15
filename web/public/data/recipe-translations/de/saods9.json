@@ -1,0 +1,5 @@
+{
+  "name": "SAOImage DS9",
+  "description": "Anwendung zur astronomischen Datenvisualisierung",
+  "longDescription": "<p>SAOImage DS9 ist eine Software für astronomische Bildverarbeitung und Datenvisualisierung. DS9 unterstützt FITS-Bilder und Binärtabelle, mehrere Frame-Buffers, Region-Management sowie zahlreiche Skalierungsalgorithmen und Farbkarten. Die Anwendung ermöglicht eine einfache Anbindung an externe Analyse-Tools und ist über XPA und SAMP flexibel konfigurierbar und erweiterbar.</p>\n<p>Alle Versionen und Plattformen bieten einen einheitlichen Funktionsumfang und eine konsistente Oberfläche (GUI).</p>\n<p>DS9 verfügt über erweiterte Funktionen wie 2D-, 3D- und RGB-Frame-Buffers, Mosaikbilder, Bild-Überblendung (Blinking), Geometriemarkierungen, Farbkartenanpassung, Skalierung, freien Zoom, Zuschneiden, Drehung, Verschieben (Pan) und Unterstützung verschiedener Koordinatensysteme.</p>\n<p>Die Benutzeroberfläche von DS9 ist individuell anpassbar. Elemente wie Koordinatenanzeige, Panner, Lupenansicht, horizontale und vertikale Diagramme, Button-Bar und Farbskala lassen sich über Menüs oder die Kommandozeile konfigurieren.</p>\n"
+}

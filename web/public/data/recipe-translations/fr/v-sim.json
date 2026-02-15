@@ -1,0 +1,5 @@
+{
+  "name": "V_Sim",
+  "description": "V_Sim permet de visualiser des structures atomiques comme des cristaux, des joints de grains, des molécules, etc.",
+  "longDescription": "<p>V_Sim permet de visualiser des structures atomiques telles que des cristaux, des joints de grains, des molécules, etc. (sous format binaire ou texte brut).</p>\n<p>Le rendu s’effectue en pseudo-3D avec des sphères (atomes) ou des flèches (spins). L’utilisateur dispose de nombreuses fonctions pour choisir la vue, ajuster les liens, dessiner des plans de coupe, calculer des surfaces à partir de champs scalaires, dupliquer des nœuds, mesurer la géométrie… De plus, V_Sim permet d’exporter la vue au format image (PNG, JPG, PDF bitmap), SVG (schéma) et d’autres formats. Des outils sont également fournis pour colorer les atomes selon des valeurs de données ou pour animer à l’écran de nombreux fichiers de positions.</p>\n"
+}

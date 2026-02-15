@@ -1,0 +1,34 @@
+id: objcryst-fox
+name: Fox
+description: Crystal structure determination
+longDescription: |
+  <p>FOX is a program for the ab initio structure determination from powder diffraction (neutrons, X-Ray). The crystal structure can be described as any combination of atoms, molecules or polyhedra, without a priori information about the connectivity of these &apos;building block&apos;. Fox can make multi-pattern global optimizations, and automatically correct special positions.</p>
+  <p>FOX could also be used for educational purposes, to display Crystal Structures in 3D with the associated powder diffraction pattern.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - objcryst-fox
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+iconSources:
+  - cached: objcryst-fox_fox.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

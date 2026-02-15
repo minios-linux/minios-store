@@ -1,0 +1,5 @@
+{
+  "name": "Okteta",
+  "description": "Éditeur hexadécimal",
+  "longDescription": "<p>Okteta est un éditeur simple pour la manipulation des données brutes des fichiers.</p>\n<p>Fonctionnalités&nbsp;:</p>\n<ul>\n  <li>Affichage des valeurs et des caractères soit en deux colonnes (présentation classique des éditeurs hexadécimaux) soit en lignes avec la valeur au-dessus du caractère</li>\n  <li>Édition et navigation similaires à un éditeur de texte</li>\n  <li>Vues de données personnalisables, avec profils enregistrables et rechargeables</li>\n  <li>Outils ancrables sur tous les côtés ou flottants</li>\n  <li>Encodages numériques&nbsp;: Hexadécimal, Décimal, Octal, Binaire</li>\n  <li>Encodages de caractères&nbsp;: Tous les encodages 8 bits proposés par Qt, EBCDIC</li>\n  <li>Rendu rapide des données à l’écran</li>\n  <li>Gestion de plusieurs fichiers ouverts</li>\n  <li>Prise en charge de l’annulation/rétablissement (undo/redo)</li>\n  <li>Outil de structures pour analyser et modifier suivant des définitions créées par l’utilisateur</li>\n  <li>Et bien plus…</li>\n</ul>\n"
+}

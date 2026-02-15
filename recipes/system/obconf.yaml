@@ -1,0 +1,39 @@
+id: obconf
+name: Openbox Configuration Manager
+description: Tweak settings for Openbox
+longDescription: |
+  <p>ObConf is a small graphical utility which configures the window manager Openbox&apos; preferences and configuration settings on the fly.</p>
+  <p>If you are an Openbox user, you may want this package.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - obconf
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - openbox
+  - settings
+  - configurations
+  - themes
+iconSources:
+  - cached: obconf_obconf.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "pyspread",
+  "description": "Ein Python-basiertes Tabellenkalkulationsprogramm",
+  "longDescription": "<p>Pyspread ist eine plattformübergreifende Tabellenkalkulation auf Python-Basis. Anstelle herkömmlicher Formeln geben Sie in den Zellen Python-Ausdrücke ein. Jeder Ausdruck liefert ein Python-Objekt, das von anderen Zellen aus zugänglich ist. Diese Objekte können beliebige Werte annehmen, beispielsweise Listen oder Matrizen.</p>\n"
+}

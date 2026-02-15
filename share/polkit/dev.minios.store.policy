@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+
+  <vendor>MiniOS Linux</vendor>
+  <vendor_url>https://minios.dev</vendor_url>
+
+  <action id="dev.minios.store.install">
+    <description>Install applications via MiniOS Store</description>
+    <description xml:lang="ru">Установить приложения через MiniOS Store</description>
+    <message>Authentication is required to install applications</message>
+    <message xml:lang="ru">Для установки приложений требуется аутентификация</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/minios-store-install</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+</policyconfig>

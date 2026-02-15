@@ -1,0 +1,5 @@
+{
+  "name": "Yokadi",
+  "description": "Gestore di liste TODO orientato alla riga di comando",
+  "longDescription": "<p>Yokadi è uno strumento per liste TODO che funziona tramite riga di comando e utilizza SQLite. Ti aiuta a organizzare tutte le cose da fare che non devi dimenticare. L'obiettivo è essere semplice, intuitivo ed estremamente efficiente.</p>\n<p>In Yokadi gestisci progetti che contengono attività. Al minimo, un'attività ha un titolo, ma può anche includere una descrizione, una data di scadenza, una priorità o parole chiave. Le parole chiave possono essere qualsiasi termine utile per trovare e ordinare le tue attività.</p>\n"
+}

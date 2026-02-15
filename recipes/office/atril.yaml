@@ -1,0 +1,49 @@
+id: "atril"
+name: Atril Document Viewer
+description: View multi-page documents
+longDescription: |
+  <p>Atril is a simple multi-page document viewer.  It can display and print PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI and Portable Document Format (PDF) files.</p>
+  <p>When supported by the document, it also allows searching for text, copying text to the clipboard, hypertext navigation, and table-of-contents bookmarks.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - atril
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mate
+  - document
+  - viewer
+  - pdf
+  - dvi
+  - ps
+  - xps
+  - tiff
+  - pixbuf
+  - djvu
+iconSources:
+  - url: a/at/atril.desktop/8cea038592bd2a4b3b5417bf3ab4f380/icons/128x128/atril_atril.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "OpenSTV Voting Software",
+  "description": "Realize eleições com Voto Único Transferível",
+  "longDescription": "<p>OpenSTV é um software de código aberto utilizado para implementar o voto único transferível (STV) e outros métodos de votação, como segundo turno instantâneo (IRV), votação Condorcet e votação por aprovação. O OpenSTV é o único software aberto que implementa o STV exatamente como utilizado por governos, incluindo a Escócia e a cidade de Cambridge, Massachusetts. Esses métodos foram amplamente verificados em comparação com outros softwares e/ou resultados reais de eleições.</p>\n<p>Organizações podem usar o OpenSTV para conduzir suas próprias eleições. Primeiro, a organização deve definir o método de votação. Em seguida, realiza-se a votação, geralmente com cédulas de papel. Depois, as cédulas devem ser lançadas no programa OpenSTV. Por fim, você pode utilizar o OpenSTV para apurar os votos e determinar os vencedores da eleição.</p>\n"
+}

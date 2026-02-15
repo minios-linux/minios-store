@@ -1,0 +1,56 @@
+id: "yuzu"
+name: yuzu
+description: Nintendo Switch emulator
+longDescription: |
+  <p>yuzu is the world's most popular, open-source, Nintendo Switch emulator — started by the creators of Citra.</p>
+  <p>The emulator is capable of running most commercial games at full speed, provided you meet the necessary hardware requirements.</p>
+  <p>For a full list of games yuzu support, please visit our Compatibility page.</p>
+  <p>Check out our website for the latest news on exciting features, monthly progress reports, and more!</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yuzu
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - switch
+  - emulator
+screenshotSources:
+  - url: org/yuzu_emu/yuzu/3e05a8a632ed6cb51394351d12e8856f/screenshots/image-1_orig.png
+    thumbnailUrl: org/yuzu_emu/yuzu/3e05a8a632ed6cb51394351d12e8856f/screenshots/image-1_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/yuzu_emu/yuzu/3e05a8a632ed6cb51394351d12e8856f/screenshots/image-2_orig.png
+    thumbnailUrl: org/yuzu_emu/yuzu/3e05a8a632ed6cb51394351d12e8856f/screenshots/image-2_624x351.png
+    width: 1920
+    height: 1081
+  - url: org/yuzu_emu/yuzu/3e05a8a632ed6cb51394351d12e8856f/screenshots/image-3_orig.png
+    thumbnailUrl: org/yuzu_emu/yuzu/3e05a8a632ed6cb51394351d12e8856f/screenshots/image-3_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/yuzu_emu/yuzu/3e05a8a632ed6cb51394351d12e8856f/screenshots/image-4_orig.png
+    thumbnailUrl: org/yuzu_emu/yuzu/3e05a8a632ed6cb51394351d12e8856f/screenshots/image-4_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/yuzu_emu/yuzu/3e05a8a632ed6cb51394351d12e8856f/screenshots/image-5_orig.png
+    thumbnailUrl: org/yuzu_emu/yuzu/3e05a8a632ed6cb51394351d12e8856f/screenshots/image-5_624x351.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: org/yuzu_emu/yuzu/9e447adb1fe4c9f6575e93c1532546eb/icons/128x128/yuzu_org.yuzu_emu.yuzu.png
+    width: 128
+    height: 128
+developer: yuzu Emulator Team
+homepage: "https://yuzu-emu.org/"
+enabled: true
+order: 99

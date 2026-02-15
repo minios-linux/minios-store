@@ -1,0 +1,5 @@
+{
+  "name": "BlueDevil Wizard",
+  "description": "BlueDevil Wizard",
+  "longDescription": "<p>BlueDevil adalah serangkaian komponen yang mengintegrasikan Bluetooth ke dalam lingkungan KDE. Fitur-fiturnya meliputi:  * Modul Kontrol KDE (KCM) untuk mengatur semua opsi terkait Bluetooth.  * Integrasi dengan sistem input/output KDE (KIO), memungkinkan Anda menemukan dan menjelajahi perangkat Bluetooth langsung dari pengelola berkas favorit.  * Wizard untuk memasangkan perangkat dan langsung terhubung ke layanan yang disediakan, seperti perangkat input (mouse, keyboard, Wiimote) dan audio (headset, ponsel).  * Aplikasi pada system tray yang memberikan akses ke seluruh fitur BlueDevil (memutus perangkat, mengirim berkas, pengaturan, dan lainnya).  * Daemon yang memonitor permintaan masuk, misalnya untuk menerima berkas atau memasukkan PIN yang dibutuhkan.</p>\n"
+}

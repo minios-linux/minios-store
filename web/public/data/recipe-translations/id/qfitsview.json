@@ -1,0 +1,5 @@
+{
+  "name": "QFitsView",
+  "description": "Aplikasi Visualisasi Data Astronomi",
+  "longDescription": "<p>QFitsView adalah penampil berkas FITS berbasis DPUSER. Selain menampilkan gambar dua dimensi, aplikasi ini juga menyediakan fitur untuk menjelajahi kubus data tiga dimensi. Fungsionalitas DPUSER terintegrasi dan dapat diakses langsung dari QFitsView.</p>\n<p>Perlu diketahui, paket ini dikompilasi menggunakan pustaka giza, bukan PGPLOT, karena PGPLOT merupakan perangkat lunak non-bebas.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "CuteSdr",
+  "description": "Tampilan spektrum dan demodulator data radio IQ",
+  "longDescription": "<p>Aplikasi CuteSDR dirancang terutama untuk pengembangan aplikasi khusus atau penggunaan edukasi. CuteSDR BUKANlah program dengan fitur lengkap, karena sengaja dibuat sederhana agar pengembang lebih mudah membuat aplikasi turunan sendiri. Selain itu, CuteSDR hanya menggunakan fungsionalitas standar dari Qt—tanpa pustaka eksternal atau driver khusus. Karena itu, CuteSDR hanya dapat digunakan melalui koneksi jaringan. Antarmuka utama dan kerangka aplikasinya dikembangkan oleh Moe Wheatly, AE4JY.</p>\n<p>CuteSDR sendiri hanya memiliki antarmuka jaringan dan secara langsung mendukung radio RFSPACE NetSDR dan SDR-IP. Aplikasi siqs_ftdi dan SDRxxServer (disediakan terpisah) memungkinkan koneksi jaringan ke perangkat RFSPACE USB.</p>\n"
+}

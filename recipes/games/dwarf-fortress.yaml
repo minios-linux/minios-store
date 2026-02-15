@@ -1,0 +1,29 @@
+id: dwarf-fortress
+name: Dwarf Fortress
+description: Control dwarves in a generated persistent world
+longDescription: |
+  <p>Dwarf Fortress is a single-player fantasy game. You can control a dwarven outpost or an adventurer in a randomly generated, persistent world.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dwarf-fortress
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+tags:
+  - fantasy game
+  - df
+  - bay12games
+iconSources:
+  - url: d/dw/dwarf-fortress.desktop/cf1825f8ae15fffbc1f69eaca1831792/icons/128x128/dwarf-fortress_dwarf-fortress.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "wxMaxima",
+  "description": "Uma interface gráfica para o Maxima, um poderoso sistema de álgebra computacional",
+  "longDescription": "<p>wxMaxima é uma interface gráfica para o sistema de álgebra computacional Maxima: um programa que resolve problemas matemáticos manipulando equações (e exibindo as fórmulas resultantes), em vez de apenas calcular um número. O wxMaxima facilita o uso do Maxima ao disponibilizar a maioria dos seus comandos em menus e ao oferecer diálogos de entrada para comandos que exigem mais de um argumento. Ele também implementa seu próprio motor de exibição, apresentando símbolos matemáticos de forma visual, em vez de representá-los apenas com caracteres ASCII.</p>\n<p>O wxMaxima também conta com gráficos 2D e 3D incorporados, animações simples, mistura de texto e cálculos matemáticos para criação de documentos, exportação de entradas e saídas para TeX, estruturação de documentos e um navegador para o manual do Maxima, incluindo índice de comandos e busca textual completa.</p>\n"
+}

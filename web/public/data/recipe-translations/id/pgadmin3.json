@@ -1,0 +1,5 @@
+{
+  "name": "pgAdmin III",
+  "description": "Alat Administrasi PostgreSQL",
+  "longDescription": "<p>pgAdmin III adalah aplikasi untuk desain dan manajemen basis data yang digunakan bersama PostgreSQL. Aplikasi ini bisa digunakan untuk mengelola PostgreSQL versi 7.3 ke atas dan telah diuji hingga PostgreSQL 10.</p>\n<p>pgAdmin III dirancang untuk memenuhi kebutuhan semua pengguna, mulai dari penulisan query SQL sederhana hingga pengembangan basis data yang kompleks. Antarmuka grafisnya mendukung seluruh fitur PostgreSQL dan memudahkan proses administrasi. Aplikasi ini juga mencakup editor SQL dengan penyorotan sintaks, editor kode sisi server, agen penjadwalan tugas SQL/batch/shell, dukungan untuk mesin replikasi Slony-I, dan masih banyak lagi. Koneksi ke server dapat dilakukan melalui TCP/IP atau Unix Domain Sockets (di platform *nix), serta mendukung enkripsi SSL untuk keamanan. Tidak diperlukan driver tambahan untuk berkomunikasi dengan server basis data.</p>\n"
+}

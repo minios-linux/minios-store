@@ -1,0 +1,5 @@
+{
+  "name": "Play it Slowly",
+  "description": "Uma ferramenta para reproduzir músicas em velocidades ou tons diferentes",
+  "longDescription": "<p>Play it Slowly é um software que permite reproduzir arquivos de áudio em velocidades ou tons diferentes. Também possibilita repetir em loop um trecho específico do arquivo.</p>\n<p>O objetivo é facilitar o aprendizado ou a transcrição de músicas. Ele também pode reproduzir vídeos graças ao GStreamer.</p>\n<p>O Play it Slowly é compatível com ALSA e JACK Audio Connection Kit.</p>\n"
+}

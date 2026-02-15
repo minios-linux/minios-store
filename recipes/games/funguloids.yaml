@@ -1,0 +1,40 @@
+id: funguloids
+name: Funguloids
+description: Those Funny Funguloids!
+longDescription: |
+  <p>&quot;Those Funny Funguloids!&quot; is actually a nice little piece of entertainment. You collect mushrooms, bring them back to your home base and profit! That&apos;s the basic idea in a nutshell. It has smooth, appealing 3d graphics and nice atmospheric sound effects. Go ahead and try it out - it has sounds too!</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - funguloids
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - space
+  - flying
+  - mushroom
+  - picking
+  - simulator
+  - game
+iconSources:
+  - cached: funguloids_funguloids.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

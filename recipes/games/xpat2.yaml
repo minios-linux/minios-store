@@ -1,0 +1,24 @@
+id: xpat2
+name: Xpatience2
+description: Solitaire card game
+longDescription: |
+  <p>xpat2 is a generic patience game which can be used with different rule sets. It does understand the rules of the well-known Spider game, as well as Klondike and others.</p>
+  <p>This program may have difficulties to start if you have an 8-bit or monochrome display.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xpat2
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: xpat2_Cardback5.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

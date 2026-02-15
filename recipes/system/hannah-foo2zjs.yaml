@@ -1,0 +1,30 @@
+id: "hannah-foo2zjs"
+name: Hannah
+description: Foo2ZJS Firmware Downloader and Installer
+longDescription: |
+  <p>Hannah is a graphical firmware downloader for the foo2zjs package. You can select one or more firmware(s) from a list, and let hannah download and install them.</p>
+  <p>With this software you can potentially install non-free software, so beware of that.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hannah-foo2zjs
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: h/ha/hannah-foo2zjs.desktop/342536bdef9031ffdeef1e39541217aa/icons/128x128/hannah-foo2zjs_printer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

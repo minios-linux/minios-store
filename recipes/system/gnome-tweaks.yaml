@@ -1,0 +1,68 @@
+id: "gnome-tweaks"
+name: GNOME Tweaks
+description: Tweak advanced GNOME 3 settings
+longDescription: |
+  <p>GNOME Tweaks allows adjusting advanced GNOME options.</p>
+  <p>It can install and manage themes and extensions, change power settings,
+      manage startup applications, and enable desktop icons among other settings.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-tweaks
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - settings
+  - advanced
+  - preferences
+  - extensions
+  - fonts
+  - theme
+  - xkb
+  - keyboard
+  - typing
+screenshotSources:
+  - url: org/gnome/tweaks/a2d9f374e063914e27e6428bec8acdd8/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/tweaks/a2d9f374e063914e27e6428bec8acdd8/screenshots/image-1_624x431@1.png
+    width: 2204
+    height: 1524
+  - url: org/gnome/tweaks/a2d9f374e063914e27e6428bec8acdd8/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/tweaks/a2d9f374e063914e27e6428bec8acdd8/screenshots/image-2_624x431@1.png
+    width: 2204
+    height: 1524
+  - url: org/gnome/tweaks/a2d9f374e063914e27e6428bec8acdd8/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/tweaks/a2d9f374e063914e27e6428bec8acdd8/screenshots/image-3_624x431@1.png
+    width: 2204
+    height: 1524
+  - url: org/gnome/tweaks/a2d9f374e063914e27e6428bec8acdd8/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/tweaks/a2d9f374e063914e27e6428bec8acdd8/screenshots/image-4_624x431@1.png
+    width: 2204
+    height: 1524
+iconSources:
+  - url: org/gnome/tweaks/a2d9f374e063914e27e6428bec8acdd8/icons/128x128/gnome-tweaks_org.gnome.tweaks.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Tweaks"
+enabled: true
+order: 99

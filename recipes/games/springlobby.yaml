@@ -1,0 +1,76 @@
+id: "springlobby"
+name: Springlobby
+description: Play online RTS games with the Spring engine
+longDescription: |
+  <p>Springlobby is a windowed client that allows you to download and play
+      a wide variety of games using the Spring engine, a popular RTS game engine.
+      Using this program, you can connect to one of dozens of free 24x7
+      battleroom servers on the internet that are accessible from our master server.</p>
+  <p>You&apos;ll need to download the spring RTS engine and supply lobby with
+      its installation path.
+      After that, springlobby will let you create an account and you&apos;re set to go!</p>
+  <p>Popular games that use the spring engine are:</p>
+  <ul>
+    <li>Balanced Annihilation</li>
+    <li>Tech Annihilation</li>
+    <li>Zero-K</li>
+    <li>Evolution RTS</li>
+    <li>Spring:1944</li>
+    <li>NOTA</li>
+    <li>XTA</li>
+    <li>Lots more developed regularly!</li>
+  </ul>
+  <p>The springlobby home page can be found at https://springlobby.info/ or you can visit our project page
+         on github at https://github.com/springlobby/springlobby/.</p>
+  <p>You can find out more about the spring engine and its games at https://springrts.com/.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - springlobby
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - real-time
+  - strategy
+  - lobby
+  - network
+  - multiplayer
+  - chat
+  - download
+  - spring
+screenshotSources:
+  - url: s/sp/springlobby.desktop/3f98c662c79bd09b33212c51d9612909/screenshots/image-1_orig.png
+    thumbnailUrl: s/sp/springlobby.desktop/3f98c662c79bd09b33212c51d9612909/screenshots/image-1_624x343@1.png
+    width: 1920
+    height: 1056
+  - url: s/sp/springlobby.desktop/3f98c662c79bd09b33212c51d9612909/screenshots/image-2_orig.png
+    thumbnailUrl: s/sp/springlobby.desktop/3f98c662c79bd09b33212c51d9612909/screenshots/image-2_624x343@1.png
+    width: 1920
+    height: 1056
+iconSources:
+  - url: s/sp/springlobby.desktop/3f98c662c79bd09b33212c51d9612909/icons/128x128/springlobby_springlobby.png
+    width: 128
+    height: 128
+homepage: "https://springlobby.info/"
+enabled: true
+order: 99

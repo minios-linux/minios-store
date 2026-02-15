@@ -1,0 +1,5 @@
+{
+  "name": "cmst",
+  "description": "Eine Qt-basierte grafische Oberfläche für den Connman-Verbindungsmanager mit Systemtray-Symbol",
+  "longDescription": "<p>Qt-Oberfläche für Connman mit Systemtray-Symbol. Das Programm bietet eine grafische Benutzeroberfläche zur Steuerung des Connman-Daemons. Der Connman-Daemon muss wie gewohnt gestartet werden, dieses Programm stellt lediglich die Schnittstelle dazu dar. Es werden die von Connman erkannten Technologien und Dienste angezeigt, und für WLAN-Dienste wird ein Agent bereitgestellt, der beim Eingeben der Zugangsdaten unterstützt.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "xawtv",
+  "description": "Anwendung zur Anzeige analoger Fernsehsender",
+  "longDescription": "<p>\n      xawtv war ursprünglich eine Anwendung zur Anzeige analoger Fernsehsender für Bttv-Geräte (bt848, bt878) mit Athena-Widgets, hat sich jedoch zu einer kleinen Suite von X11-Anwendungen für V4L-Geräte weiterentwickelt.\n    </p>\n<p>\n      Das xawtv-Paket umfasst eine Reihe nützlicher Konsolenprogramme:\n    </p>\n<ul>\n  <li>alevtd – ein HTTP-Daemon für analogen TV-Videotext</li>\n  <li>radio – ein Konsolenprogramm zum Hören von Radiosendern</li>\n  <li>scantv – ein Frequenzscanner für analogen Fernsehempfang</li>\n  <li>v4l-conf – aktuelle Videoeinstellungen (Größe und Farbtiefe)</li>\n  <li>v4lctl – zur Steuerung eines V4L-Geräts und Anpassung verschiedener Bildparameter</li>\n  <li>webcam – Bilderfassung von einer Webcam</li>\n</ul>\n"
+}

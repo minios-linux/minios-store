@@ -1,0 +1,5 @@
+{
+  "name": "qweborf",
+  "description": "Partage de fichiers via le protocole HTTP",
+  "longDescription": "<p>Qweborf propose une interface graphique simple pour partager des fichiers locaux en utilisant le protocole HTTP. Il permet l'écriture sur le serveur, prend en charge WebDAV, l'authentification et l'envoi de répertoires au format tar.gz. Il peut également essayer de fonctionner à travers un NAT.</p>\n"
+}

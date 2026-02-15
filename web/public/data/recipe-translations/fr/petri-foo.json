@@ -1,0 +1,5 @@
+{
+  "name": "Petri-Foo",
+  "description": "Échantillonneur audio",
+  "longDescription": "<p>Un échantillonneur logiciel simple mais très utile, contrôlé par MIDI pour ALSA/JACK, offrant :<br> • 64 notes de polyphonie, réparties sur jusqu'à 64 banques.<br> • Transposition rapide et de haute qualité, enveloppes de volume ADSR linéaires.<br> • Filtre passe-bas avec résonance ; plusieurs modes de lecture indépendants de la direction.<br> • Éditeur d'échantillons avec zoom pour ajuster précisément les points de lecture et de bouclage.</p><p>Petri-Foo est un fork du projet Specimen Sampler.</p>\n"
+}

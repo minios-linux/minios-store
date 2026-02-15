@@ -1,0 +1,5 @@
+{
+  "name": "Flare",
+  "description": "Game Role-Playing Aksi 2D-Isometrik untuk Pemain Tunggal",
+  "longDescription": "<p>Flare (Free Libre Action Roleplaying Engine) adalah mesin game sederhana yang dirancang khusus untuk jenis game tertentu: RPG aksi 2D pemain tunggal. Flare bukanlah reimplementasi dari game atau mesin yang sudah ada, melainkan sebuah penghormatan dan eksplorasi terhadap genre RPG aksi.</p>\n<p>Flare menggunakan format file sederhana (file konfigurasi gaya INI) untuk sebagian besar data game, sehingga siapa saja dapat dengan mudah memodifikasi konten game. Format terbuka lebih diutamakan (png, ogg). Kode program game ini menggunakan C++.</p>\n<p>Paket ini hanya berisi mesin game; Anda membutuhkan paket game (seperti flare atau polymorph) untuk dapat bermain.</p>\n"
+}

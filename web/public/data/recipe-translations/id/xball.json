@@ -1,0 +1,5 @@
+{
+  "name": "XBall",
+  "description": "Mensimulasikan bola-bola memantul di dalam jendela",
+  "longDescription": "<p>\n    Program ini mensimulasikan bola-bola yang memantul di dalam sebuah jendela. Anda dapat membuat bola dengan berbagai cara, serta mengatur gravitasi, elastisitas, apakah bola saling bertabrakan atau tidak, dan sebagainya.</p>\n<p>\n    Perangkat lunak ini menyediakan menu yang dapat dikonfigurasi oleh pengguna, serta widget DrawingArea yang dapat dipakai bersama widget Athena lainnya.</p>\n<p>\n    Seluruh resource disertakan di dalam program sebagai fallback resources, sehingga file app-defaults tidak wajib diinstal—kecuali saat menggunakan widget Athena, karena keybord accelerator tidak akan berfungsi jika file app-defaults tidak diinstal.</p>\n<p>\n    Untuk menjalankan demo yang disertakan, buka terminal konsol dan ketik 'run_demos'.</p>\n"
+}

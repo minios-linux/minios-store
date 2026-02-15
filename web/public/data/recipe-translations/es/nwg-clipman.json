@@ -1,0 +1,5 @@
+{
+  "name": "Administrador del portapapeles",
+  "description": "Herramienta para búsqueda y gestión del historial del portapapeles",
+  "longDescription": "<p>nwg-clipman es una interfaz gráfica basada en GTK3 para cliphist de Senan Kelly. Permite acceder a los elementos previamente copiados, así como gestionar el historial del portapapeles desde una ventana abierta en gtk-layer-shell. El programa está pensado para usarse con sway, Hyprland y otros compositores Wayland basados en wlroots.</p><p>Características:  - Vista previa de elementos del historial (imágenes y texto);  - Búsqueda en el historial del portapapeles por frase;  - Eliminación de elementos seleccionados del historial;  - Borrado completo del historial del portapapeles.</p><p>Este programa forma parte del proyecto nwg-shell.</p>\n"
+}

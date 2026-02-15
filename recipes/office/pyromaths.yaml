@@ -1,0 +1,23 @@
+id: pyromaths
+name: Pyromaths
+description: Generator for math worksheets for french college
+longDescription: |
+  <p>Pyromaths is a program which generates math worksheets in PDF format. It not only provides the solution of the exercises, but a detailed correction to better understand mistakes. Pyromaths is intended both for mathematics teachers and school students.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pyromaths
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pyromaths_pyromaths.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

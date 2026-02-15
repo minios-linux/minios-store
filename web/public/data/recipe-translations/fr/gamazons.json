@@ -1,0 +1,5 @@
+{
+  "name": "Gamazons",
+  "description": "Jeu Amazons",
+  "longDescription": "<p>Amazons est un jeu qui se joue sur un plateau de 10x10 cases, similaire à un échiquier. Chaque joueur dispose de quatre pièces (amazones) qui se déplacent comme une dame aux échecs (en ligne droite dans n'importe quelle direction). Contrairement aux échecs, il n'y a pas de prise de pièces : la victoire revient au dernier joueur pouvant effectuer un coup.</p>\n<p>Chaque tour est composé de deux actions : une amazone se déplace vers une nouvelle case, puis tire une flèche sur une autre case (la flèche suit aussi une ligne droite depuis la position d'arrivée de l'amazone). La case atteinte par la flèche devient un obstacle permanent pour le reste de la partie ; aucune pièce ne peut se déplacer ou tirer une flèche par-dessus elle. À chaque tour, il faut obligatoirement déplacer une amazone puis tirer une flèche, si bien qu'il y a à chaque fois une case en moins sur le plateau. Essayez de bloquer votre adversaire ou de vous réserver une partie avantageuse du plateau.</p>\n"
+}

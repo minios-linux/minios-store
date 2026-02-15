@@ -1,0 +1,53 @@
+id: shortwave
+name: Shortwave
+description: Listen to internet radio
+longDescription: |
+  <p>
+        Shortwave is an internet radio player that provides access to a station database with over 50,000 stations.
+      </p>
+  <p>Features:</p>
+  <ul>
+    <li>Create your own library where you can add your favorite stations</li>
+    <li>Easily search and discover new radio stations</li>
+    <li>Automatic recognition of tracks, with the possibility to save them individually</li>
+    <li>Responsive application layout, compatible for small and large screens</li>
+    <li>Play audio on supported network devices (e.g. Google Chromecasts)</li>
+    <li>Seamless integration into the GNOME desktop environment</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - shortwave
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gradio
+  - radio
+  - stream
+  - wave
+screenshotSources:
+  - url: de/haeckerfelix/Shortwave/3d6d07abe4c120f1e2f1e44cc9035e4b/screenshots/image-1_orig.png
+    thumbnailUrl: de/haeckerfelix/Shortwave/3d6d07abe4c120f1e2f1e44cc9035e4b/screenshots/image-1_624x443@1.png
+    width: 1122
+    height: 797
+  - url: de/haeckerfelix/Shortwave/3d6d07abe4c120f1e2f1e44cc9035e4b/screenshots/image-2_orig.png
+    thumbnailUrl: de/haeckerfelix/Shortwave/3d6d07abe4c120f1e2f1e44cc9035e4b/screenshots/image-2_624x443@1.png
+    width: 1122
+    height: 797
+  - url: de/haeckerfelix/Shortwave/3d6d07abe4c120f1e2f1e44cc9035e4b/screenshots/image-3_orig.png
+    thumbnailUrl: de/haeckerfelix/Shortwave/3d6d07abe4c120f1e2f1e44cc9035e4b/screenshots/image-3_224x352@1.png
+    width: 522
+    height: 822
+iconSources:
+  - url: de/haeckerfelix/Shortwave/3d6d07abe4c120f1e2f1e44cc9035e4b/icons/128x128/shortwave_de.haeckerfelix.Shortwave.png
+    width: 128
+    height: 128
+homepage: "https://apps.gnome.org/Shortwave/"
+enabled: true
+order: 99

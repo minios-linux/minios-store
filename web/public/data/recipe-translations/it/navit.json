@@ -1,0 +1,5 @@
+{
+  "name": "Navit",
+  "description": "Programma di navigazione open source basato su vettori con motore di routing",
+  "longDescription": "<p>Navit è un sistema di navigazione per auto con motore di routing integrato.</p>\n<p>La sua architettura modulare consente di utilizzare mappe vettoriali in diversi formati sia per il calcolo dei percorsi che per la visualizzazione della mappa. È anche possibile usare più mappe contemporaneamente.</p>\n<p>Le interfacce utente GTK+ o SDL sono progettate per funzionare al meglio con display touch screen. I Punti di Interesse (POI) di vari formati vengono visualizzati direttamente sulla mappa.</p>\n<p>La posizione attuale del veicolo viene letta tramite gpsd o direttamente da sensori GPS NMEA.</p>\n<p>Il motore di routing non solo calcola il percorso ottimale verso la destinazione, ma genera anche indicazioni stradali e può persino fornire istruzioni vocali tramite speech-dispatcher.</p>\n<p>Il pacchetto Debian di Navit non include alcuna mappa. Per sapere dove scaricare le mappe, consulta &lt;http://wiki.navit-project.org/index.php/Main_Page#Maps&gt;.</p>\n"
+}

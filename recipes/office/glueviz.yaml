@@ -1,0 +1,35 @@
+id: glueviz
+name: Glueviz
+description: Link visualizations of scientific datasets
+longDescription: |
+  <p>Glue is a Python project to link visualizations of scientific datasets across many files. Some of its features are:</p>
+  <p> * Interactive, linked statistical graphics of multiple files.  * Support for many file formats including common image formats,    ascii tables, astronomical image and table formats (fits, vot, ipac), and    HDF5. Custom data loaders can also be easily added.  * Highly scriptable and extendable.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - glueviz
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - graphics
+  - python
+  - science
+  - glue
+  - astronomy
+  - physics
+  - education
+  - math
+iconSources:
+  - cached: glueviz_glueviz.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

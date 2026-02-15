@@ -1,0 +1,5 @@
+{
+  "name": "FileZilla",
+  "description": "Unduh dan unggah file melalui FTP, FTPS, dan SFTP",
+  "longDescription": "<p>FileZilla adalah klien FTP lengkap dengan antarmuka GUI yang mudah digunakan.</p>\n<p>Aplikasi ini ditulis dalam bahasa C++ dan menggunakan pustaka wxWidgets.</p>\n<p>FileZilla memiliki fitur-fitur berikut:   * Mendukung protokol FTP, FTP over SSL/TLS (FTPS), dan SSH File Transfer Protocol (SFTP)   * Dukungan IPv6   * Tersedia dalam lebih dari 40 bahasa   * Mendukung resume dan transfer file berukuran besar &gt;4GB   * Pengelola Situs (Site Manager) dan antrean transfer yang mudah digunakan   * Penanda (Bookmark)   * Mendukung drag & drop   * Batas kecepatan transfer   * Filter nama berkas   * Perbandingan direktori   * Wizard konfigurasi jaringan   * Pengeditan file jarak jauh   * Fitur keep-alive   * Dukungan Proxy HTTP/1.1, SOCKS5, dan FTP   * Logging ke file   * Sinkronisasi penjelajahan direktori   * Pencarian file di server remote   * Antarmuka tab untuk terhubung ke banyak server secara bersamaan</p>\n"
+}

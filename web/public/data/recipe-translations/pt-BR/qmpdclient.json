@@ -1,0 +1,5 @@
+{
+  "name": "QMPDClient",
+  "description": "Um cliente MPD com interface aprimorada",
+  "longDescription": "<p>QMPDClient é um cliente gráfico para o MPD com interface Qt4 e recursos como exibição de capas, skins, notificações na bandeja e envio de faixas para o last.fm.</p>\n<p>MPD (Music Player Daemon) é um servidor que permite acesso remoto para reprodução de arquivos de áudio, streaming e gerenciamento de playlists. Ele pode ser utilizado com diversos clientes, incluindo este, e os clientes não precisam estar na mesma máquina que o servidor.</p>\n<p>O Music Player Daemon está disponível no pacote mpd.</p>\n"
+}

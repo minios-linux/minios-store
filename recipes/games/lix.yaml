@@ -1,0 +1,26 @@
+id: lix
+name: Lix
+description: An action-puzzle game inspired by Lemmings
+longDescription: |
+  <p>This is an action-puzzle game inspired by Lemmings (DMA Design, 1991), with singleplayer puzzles, networked multiplayer, and a level editor. Lix is written in the D programming language, uses Allegro 5 for graphics, sound, and input, and uses enet for networking.</p>
+  
+categoryId: games
+icon: Terminal
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lix
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+tags:
+  - game
+  - lemmings
+iconSources:
+  - cached: lix_lix.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

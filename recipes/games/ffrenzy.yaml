@@ -1,0 +1,26 @@
+id: ffrenzy
+name: Feeding Frenzy!
+description: multiplayer platform game with dwarfs fighting with/for food
+longDescription: |
+  <p>Feeding Frenzy! is a distributed network game for two to eight players. One instance needs to act as server for syncing player names and the levels.</p>
+  <p>During the game dwarfs need to collect food as fast as possible to bring it back to their mushrooms to live.  When a dwarfs leaves his home without providing it with food for too long, (s)he dies from hunger. The collected food can also be thrown at other dwarfs, making them unconscious when hit.  When a power-up is picked up, thrown food will have special powers!</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ffrenzy
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ffrenzy_ffrenzy.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

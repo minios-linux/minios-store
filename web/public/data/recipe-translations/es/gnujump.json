@@ -1,0 +1,5 @@
+{
+  "name": "GNUjump",
+  "description": "Salta por la torre para sobrevivir",
+  "longDescription": "<p>El objetivo de este juego es saltar al siguiente piso para no caer. A medida que asciendes en la torre en caída, los pisos caerán más rápido. Intenta sobrevivir más tiempo que los demás o, en el modo de un jugador, alcanza la máxima altura posible.</p>\n<p>Actualmente, el juego se llama sdljump (y aparecerá así en el menú), pero el nombre del paquete ha cambiado tras una actualización. La nueva versión del juego también se llamará gnujump.</p>\n<p>El juego es un clon de xjump y ofrece todas sus características, además de algunas adicionales:  * Modo multijugador (hasta cuatro jugadores, sin red)  * Gráficos fluidos opcionales (pero también al estilo xjump)  * Disponibilidad de diferentes temas  * Puede usar OpenGL para el renderizado  * Música y efectos de sonido  * Grabación (y reproducción) de partidas</p>\n"
+}

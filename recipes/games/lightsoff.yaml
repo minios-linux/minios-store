@@ -1,0 +1,67 @@
+id: "lightsoff"
+name: Lights Off
+description: Turn off all the lights
+longDescription: |
+  <p>Lights Off is a collection of light switch puzzles. Clicking on a light
+        toggles it either on or off, but also toggles all the surrounding lights,
+        too. Your objective is simple: turn off all the lights!</p>
+  <p>Players who delight in turning off lights will enjoy the huge number of
+       levels.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lightsoff
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - logic
+  - board
+  - tiles
+  - adjacent
+  - puzzle
+screenshotSources:
+  - url: org/gnome/LightsOff/6317638a400a31f1bc5e7133a56ef647/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/LightsOff/6317638a400a31f1bc5e7133a56ef647/screenshots/image-1_624x507@1.png
+    width: 661
+    height: 538
+  - url: org/gnome/LightsOff/6317638a400a31f1bc5e7133a56ef647/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/LightsOff/6317638a400a31f1bc5e7133a56ef647/screenshots/image-2_624x507@1.png
+    width: 661
+    height: 538
+  - url: org/gnome/LightsOff/6317638a400a31f1bc5e7133a56ef647/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/LightsOff/6317638a400a31f1bc5e7133a56ef647/screenshots/image-3_624x507@1.png
+    width: 661
+    height: 538
+  - url: org/gnome/LightsOff/6317638a400a31f1bc5e7133a56ef647/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/LightsOff/6317638a400a31f1bc5e7133a56ef647/screenshots/image-4_624x507@1.png
+    width: 661
+    height: 538
+iconSources:
+  - url: org/gnome/LightsOff/6317638a400a31f1bc5e7133a56ef647/icons/128x128/lightsoff_org.gnome.LightsOff.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Lightsoff"
+enabled: true
+order: 99

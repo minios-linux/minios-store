@@ -1,0 +1,38 @@
+id: traverso
+name: Traverso
+description: Multitrack Recorder
+longDescription: |
+  <p>This is a free, cross platform multitrack audio recording and editing suite, with an innovative and easy to master user interface. It is suited for both the professional and home user, who needs a robust and solid DAW.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - traverso
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - jackd
+  - daw
+iconSources:
+  - cached: traverso_traverso.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

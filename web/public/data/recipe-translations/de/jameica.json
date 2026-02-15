@@ -1,0 +1,5 @@
+{
+  "name": "Jameica",
+  "description": "Laufzeitumgebung für Java-Anwendungen",
+  "longDescription": "<p>Laufzeitumgebung für Java-Anwendungen, die als Plugins implementiert sind.</p>\n<p>Jameica übernimmt wiederkehrende Aufgaben wie:  * einheitliches Look &amp; Feel  * strikte Trennung von Benutzer- und Programmdaten  * standardisierter Zugriff auf Konfigurationsdateien  * gemeinsame Navigations- und Menüelemente  * synchroner und asynchroner Datenaustausch zwischen Plugins  * Unterstützung des Client-Server-Modells über RMI, XML-RPC oder SOAP  * vereinfachte Nutzung von Verschlüsselungsmethoden (integriertes Wallet-System)  * Headless-Betrieb für Server  * Protokollierung</p>\n"
+}

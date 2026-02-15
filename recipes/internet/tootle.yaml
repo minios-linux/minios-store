@@ -1,0 +1,59 @@
+id: tootle
+name: Tootle
+description: Lightning fast client for Mastodon
+longDescription: |
+  <p>
+        Tootle is a GTK client for the world's largest, decentralized, microblogging platform, Mastodon. With the user experience
+  in mind, it provides a clean, native interface that allows you to integrate Mastodon's social experience seamlessly with your desktop environment.
+      </p>
+  <p>
+        Mastodon is a free and open source microblogging platform similar to Twitter, but with user privacy and decentralization
+  in mind. It is one of many protocols that interacts with the Fediverse of protocols like Pleroma, GNU Social, and others. The power of federated microblogging that Mastodon brings and the agility of Tootle creates a fantastic duo for all of your social media needs.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tootle
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - toot
+  - mastodon
+  - social
+  - network
+  - post
+screenshotSources:
+  - url: com/github/bleakgrey.tootle/36b2d63696ba435431d465d36d21801b/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/bleakgrey.tootle/36b2d63696ba435431d465d36d21801b/screenshots/image-1_624x863.png
+    width: 652
+    height: 902
+  - url: com/github/bleakgrey.tootle/36b2d63696ba435431d465d36d21801b/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/bleakgrey.tootle/36b2d63696ba435431d465d36d21801b/screenshots/image-2_624x863.png
+    width: 652
+    height: 902
+  - url: com/github/bleakgrey.tootle/36b2d63696ba435431d465d36d21801b/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/bleakgrey.tootle/36b2d63696ba435431d465d36d21801b/screenshots/image-3_624x449.png
+    width: 1252
+    height: 902
+  - url: com/github/bleakgrey.tootle/36b2d63696ba435431d465d36d21801b/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/bleakgrey.tootle/36b2d63696ba435431d465d36d21801b/screenshots/image-4_624x449.png
+    width: 1252
+    height: 902
+iconSources:
+  - url: com/github/bleakgrey.tootle/36b2d63696ba435431d465d36d21801b/icons/128x128/tootle_com.github.bleakgrey.tootle.png
+    width: 128
+    height: 128
+developer: bleak_grey
+homepage: "https://github.com/bleakgrey"
+enabled: true
+order: 99

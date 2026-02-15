@@ -1,0 +1,47 @@
+id: "peg-e"
+name: Peg-E
+description: Jump pegs to eliminate them
+longDescription: |
+  <p>Peg-E is a peg solitaire game in which you jump over pieces in order to remove them from the board, ultimately trying to eliminate all but one. The boards are randomly generated, with 100 levels of difficulty. The game auto-saves, and has undo-redo capability. Pieces can move horizontally, vertically, and diagonally.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - peg-e
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - board
+screenshotSources:
+  - url: p/pe/peg-e.desktop/45cf5cb464027e511d8004ed823a2cf0/screenshots/image-1_orig.png
+    thumbnailUrl: p/pe/peg-e.desktop/45cf5cb464027e511d8004ed823a2cf0/screenshots/image-1_624x375@1.png
+    width: 752
+    height: 453
+iconSources:
+  - url: p/pe/peg-e.desktop/45cf5cb464027e511d8004ed823a2cf0/icons/128x128/peg-e_peg-e.png
+    width: 128
+    height: 128
+developer: Graeme Gott
+homepage: "https://gottcode.org/peg-e/"
+enabled: true
+order: 99

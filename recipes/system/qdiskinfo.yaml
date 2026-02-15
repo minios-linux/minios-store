@@ -1,0 +1,27 @@
+id: qdiskinfo
+name: QDiskInfo
+description: SMART data viewer
+longDescription: |
+  <p>QDiskInfo is a frontend for smartctl. It provides a user experience similar to CrystalDiskInfo. It shows the SMART (Self-Monitoring, Analysis, and Reporting Technology) data of modern hard disk drives.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qdiskinfo
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - system
+  - process
+  - task
+iconSources:
+  - url: q/qd/qdiskinfo.desktop/00a1ed775ffa23fad8c821bb8316bd41/icons/128x128/qdiskinfo_QDiskInfo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

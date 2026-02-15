@@ -1,0 +1,49 @@
+id: dustracing2d
+name: Dust Racing 2D Level Editor
+description: 2D racing game level editor
+longDescription: |
+  <p>Dust Racing (Dustrac) is a tile-based, cross-platform 2D racing game.</p>
+  <p>Dust Racing comes with a level editor for easy level creation.</p>
+  <p>Features:  * 1-2 human players against 11 challenging computer players  * 3 difficulty settings: Easy, Medium, Senna  * Split-screen two player game (vertical or horizontal)  * Game modes: Race, Time Trial, Duel  * 2D graphics with some 3D objects  * Smooth game play and physics  * Multiple race tracks  * Finishing in TOP-6 will unlock the next race track  * Star ratings based on the best positions on each race track  * Easy to create new race tracks with the level editor  * Engine and collision sounds  * Pit stops  * Runs windowed or fullscreen</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dustracing2d
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: d/du/dustrac-game.desktop/810B5F72E34DE06771A2C54AC96C92F6/screenshots/image-1_orig.png
+    thumbnailUrl: d/du/dustrac-game.desktop/810B5F72E34DE06771A2C54AC96C92F6/screenshots/image-1_624x404.png
+    width: 1260
+    height: 816
+  - url: d/du/dustrac-game.desktop/810B5F72E34DE06771A2C54AC96C92F6/screenshots/image-2_orig.png
+    thumbnailUrl: d/du/dustrac-game.desktop/810B5F72E34DE06771A2C54AC96C92F6/screenshots/image-2_624x404.png
+    width: 1260
+    height: 816
+iconSources:
+  - cached: dustracing2d_dustrac-editor.png
+    width: 64
+    height: 64
+homepage: "https://juzzlin.github.io/DustRacing2D/"
+enabled: true
+order: 99

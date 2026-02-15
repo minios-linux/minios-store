@@ -1,0 +1,39 @@
+id: marble-behaim
+name: Behaim Globe
+description: Martin Behaim's Erdapfel
+longDescription: |
+  <p>The oldest existent globe of the Earth. Martin Behaim and collaborators created the globe around 1492 at the time of Columbus' first sea travel to the west.</p>
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - marble-behaim
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - maps
+  - kirigami
+screenshotSources:
+  - url: org/kde/marble.behaim.desktop/5a059d6a6f9631627f5792f6cac1559c/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/marble.behaim.desktop/5a059d6a6f9631627f5792f6cac1559c/screenshots/image-1_624x488@1.png
+    width: 1122
+    height: 879
+  - url: org/kde/marble.behaim.desktop/5a059d6a6f9631627f5792f6cac1559c/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/marble.behaim.desktop/5a059d6a6f9631627f5792f6cac1559c/screenshots/image-2_624x488@1.png
+    width: 1122
+    height: 879
+  - url: org/kde/marble.behaim.desktop/5a059d6a6f9631627f5792f6cac1559c/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/marble.behaim.desktop/5a059d6a6f9631627f5792f6cac1559c/screenshots/image-3_624x488@1.png
+    width: 1122
+    height: 879
+iconSources:
+  - url: org/kde/marble.behaim.desktop/5a059d6a6f9631627f5792f6cac1559c/icons/128x128/marble-behaim_org.kde.marble.behaim.png
+    width: 128
+    height: 128
+homepage: "https://marble.kde.org/"
+enabled: true
+order: 99

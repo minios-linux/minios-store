@@ -1,0 +1,35 @@
+id: drmips
+name: DrMIPS
+description: Educational MIPS simulator
+longDescription: |
+  <p>DrMIPS is a graphical simulator of the MIPS processor to support computer architecture teaching and learning. It is intuitive, versatile and configurable.</p>
+  <p>The simulator is available not only for personal computers but also for Android devices, especially tablets.</p>
+  <p>DrMIPS was created under the Master&apos;s dissertation entitled &apos;Tool to Support Computer Architecture Teaching and Learning&apos; at the Faculty of Engineering of the University of Porto, in Portugal.</p>
+  <p>This package installs the PC version of the simulator.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - drmips
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+tags:
+  - mips
+  - computer architecture
+  - simulator
+  - education
+iconSources:
+  - cached: drmips_drmips.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

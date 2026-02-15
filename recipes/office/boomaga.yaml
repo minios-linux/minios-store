@@ -1,0 +1,40 @@
+id: "boomaga"
+name: Boomaga
+description: Virtual printer for viewing and editing a document before printing.
+longDescription: |
+  <p>Boomaga (BOOklet MAnager) is a virtual printer for viewing a document before printing it out using the physical printer.</p>
+  <p>The program is very simple to work with. Running any program, click &quot;print&quot; and select &quot;Boomaga&quot; to see in several seconds (CUPS takes some time to respond) the Boomaga window open.</p>
+  <p>If you print out one more document, it gets added to the previous one, and you can also print them out as one.</p>
+  <p>Regardless of whether your printer supports duplex printing or not, you would be able to easily print on both sides of the sheet.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - boomaga
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: b/bo/boomaga.desktop/bde83ea781584b33fd0e95dc0c38c824/icons/128x128/boomaga_boomaga.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "PerlPrimer",
+  "description": "Desain primer secara grafis untuk PCR dan sekuensing",
+  "longDescription": "<p>PerlPrimer adalah aplikasi GUI gratis dan open-source yang ditulis dalam Perl untuk mendesain primer pada Polymerase Chain Reaction (PCR) standar, PCR bisulfit, PCR real-time (QPCR), dan sekuensing. Aplikasi ini dirancang untuk mengotomatiskan dan mempermudah proses desain primer.</p>\n<p>Saat digunakan secara online, PerlPrimer terintegrasi dengan proyek Ensembl untuk memberikan wawasan lebih lanjut terkait struktur gen, misalnya memperhitungkan posisi ekson dan intron dalam desain primer. Urutan DNA juga dapat diambil secara langsung.</p>\n"
+}

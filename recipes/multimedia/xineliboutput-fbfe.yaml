@@ -1,0 +1,23 @@
+id: xineliboutput-fbfe
+name: VDR FrameBuffer Frontend
+description: VDR Xineliboutput Client - FrameBuffer Frontend
+longDescription: |
+  <p>This frambuffer remote frontend plays back streams provided by vdr-plugin-xineliboutput.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xineliboutput-fbfe
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: xineliboutput-fbfe_xineliboutput-fbfe.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

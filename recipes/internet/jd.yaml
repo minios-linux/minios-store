@@ -1,0 +1,29 @@
+id: jd
+name: JD 2ch browser
+description: JD is a 2ch browser based on gtkmm2.
+longDescription: |
+  <p>JD offers a comfortable browsing experience on 2ch-style bulletin board systems. Its features include:</p>
+  <p> - automated login,  - message viewing/posting,  - image viewing,  - mouse gestures,  - ignore lists,  - &quot;play-by-play&quot; mode.</p>
+  <p>It can also significantly reduce the load on servers by bypassing CGI programs and directly retrieving thread data files to your local hard drives.</p>
+  <p>&quot;2ch-style&quot; web forum sites have their origins in 2channel, which is a very popular Internet forum in Japan. Such sites are often available only in the Japanese language. For example:</p>
+  <p> - 2channel http://www.2ch.net  - Shitaraba http://rentalbbs.shitaraba.com/  - Machi-BBS http://www.machi.to/</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jd
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - 2ch
+iconSources:
+  - cached: jd_jd.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

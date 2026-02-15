@@ -1,0 +1,5 @@
+{
+  "name": "distcc monitor",
+  "description": "Vista gráfica de tareas de compilación distribuida",
+  "longDescription": "<p>distcc es un programa que permite distribuir la compilación de código C o C++ entre varias máquinas en una red. distcc genera los mismos resultados que una compilación local, es sencillo de instalar y usar, y a menudo es considerablemente más rápido que compilar localmente. distcc no requiere que todas las máquinas compartan el mismo sistema de archivos, tengan relojes sincronizados ni las mismas bibliotecas o archivos de cabecera instalados.</p>\n<p>Este es el programa monitor basado en GTK+.</p>\n"
+}

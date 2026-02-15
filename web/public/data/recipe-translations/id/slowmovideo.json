@@ -1,0 +1,5 @@
+{
+  "name": "slowmoUI",
+  "description": "Video Gerak Lambat",
+  "longDescription": "<p>Aplikasi ini tidak sekadar memutar video Anda pada kecepatan 0,01x. Anda dapat mengatur kelambatan dan percepatan video dengan mulus, serta menambahkan efek motion blur sesuai keinginan.</p>\n<p>Bagaimana cara kerja gerak lambat? slowmoVideo mencoba menganalisis pergerakan piksel pada video (dikenal dengan istilah Optical Flow), lalu menggunakan informasi tersebut untuk menghasilkan frame tambahan.</p>\n<p>Video dengan format apapun yang didukung ffmpeg dapat dimuat. Anda juga bisa memuat urutan gambar, jadi jika Anda membuat timelapse dengan frame yang terlalu sedikit, slowmoVideo dapat membantu. slowmoVideo tidak menggunakan faktor perlambatan tetap, melainkan kurva yang memungkinkan percepatan, perlambatan, bahkan pembalikan waktu secara bebas. Anda juga dapat menambahkan motion blur sebanyak yang diinginkan.</p>\n"
+}

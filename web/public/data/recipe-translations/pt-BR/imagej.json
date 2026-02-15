@@ -1,0 +1,5 @@
+{
+  "name": "ImageJ",
+  "description": "Processamento e análise de imagens",
+  "longDescription": "<p>Permite exibir, editar, analisar, processar, salvar e imprimir imagens de 8, 16 e 32 bits. Lê diversos formatos de imagem, incluindo TIFF, GIF, JPEG, BMP, DICOM, FITS e arquivos \"raw\". Suporta \"pilhas\", ou seja, séries de imagens que compartilham a mesma janela.</p>\n<p>Pode calcular estatísticas de área e valores de pixels em seleções definidas pelo usuário. Mede distâncias e ângulos. Cria histogramas de densidade e gráficos de perfil de linha. Oferece funções de processamento de imagem padrão, como ajuste de contraste, nitidez, suavização, detecção de bordas e filtro de mediana.</p>\n<p>Possui calibração espacial para fornecer medições dimensionais no mundo real em unidades como milímetros. Também possui calibração de densidade ou escala de cinza.</p>\n<p>O ImageJ é desenvolvido por Wayne Rasband (wayne@codon.nih.gov), no Research Services Branch, National Institute of Mental Health, Bethesda, Maryland, EUA.</p>\n"
+}

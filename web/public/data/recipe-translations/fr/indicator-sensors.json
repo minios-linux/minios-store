@@ -1,0 +1,5 @@
+{
+  "name": "Hardware Sensors Indicator",
+  "description": "Affiche les relevés des capteurs de température, ventilateur et tension dans le panneau du bureau",
+  "longDescription": "<p>\n      Hardware Sensors Indicator affiche les relevés des capteurs de température, de ventilateur et de tension\n      directement dans le panneau de votre bureau.\n    </p>\n<p>\n      Sous GNOME Shell, une extension est nécessaire pour voir les relevés des capteurs dans le panneau supérieur.\n      Il est donc recommandé d’installer également l’extension KStatusNotifierItem/AppIndicator Support\n      https://extensions.gnome.org/extension/615/appindicator-support/, ou\n      l’extension Hardware Sensors Indicator\n      https://extensions.gnome.org/extension/336/hardware-sensors-indicator/\n      afin de rendre les mesures visibles.\n      </p>\n"
+}

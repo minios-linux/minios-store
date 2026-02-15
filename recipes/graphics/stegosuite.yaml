@@ -1,0 +1,51 @@
+id: "stegosuite"
+name: Stegosuite
+description: Steganography tool to hide information in image files
+longDescription: |
+  <p>​      Stegosuite is a graphical steganography tool to easily hide information in image files. It allows the embedding of text messages and multiple files of any type. In addition, the embedded data is encrypted using AES. Currently supported file types are BMP, GIF, JPG and PNG.
+  ​</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - stegosuite
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - steganography
+  - embed
+  - extract
+  - image
+  - hide
+  - stego
+screenshotSources:
+  - url: o/or/org.stegosuite/36d8f4fcb3db52db9f04d350dcf72c67/screenshots/image-1_orig.png
+    thumbnailUrl: o/or/org.stegosuite/36d8f4fcb3db52db9f04d350dcf72c67/screenshots/image-1_624x386@1.png
+    width: 644
+    height: 399
+iconSources:
+  - url: o/or/org.stegosuite/36d8f4fcb3db52db9f04d350dcf72c67/icons/128x128/stegosuite_stegosuite.png
+    width: 128
+    height: 128
+homepage: "https://dev.stegosuite.org/stegosuite/stegosuite"
+enabled: true
+order: 99

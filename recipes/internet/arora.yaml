@@ -1,0 +1,23 @@
+id: arora
+name: Arora
+description: Browse the World Wide Web
+longDescription: |
+  <p>simple webkit based webbrowser using Qt toolkit. Originally based on the Qt demo browser to show the possibilities of Qt Webkit. Arora is a very basic browser that supports history and bookmarks.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - arora
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: arora_arora.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

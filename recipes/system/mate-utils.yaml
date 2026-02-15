@@ -1,0 +1,38 @@
+id: mate-utils
+name: MATE Search Tool
+description: Locate documents and folders on this computer by name or content
+longDescription: |
+  <p>This package contains all the tools bundled as MATE utilities:  - mate-disk-usage-analyzer, a disk usage analyser  - mate-dictionary, a program which can look up the definition of words    over the internet (including a panel applet to do the same)  - mate-search-tool, with which one can find files by name or content  - mate-system-log, a log viewing application  - mate-screenshot, a tool to take desktop screenshots and save them into    a file</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mate-utils
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - mate
+  - search
+  - files
+  - locate
+  - documents
+  - folders
+  - computer
+  - name
+  - content
+  - find
+iconSources:
+  - url: m/ma/mate-search-tool.desktop/774B6F69131F6B3DFF68127A3A177DFB/icons/128x128/mate-utils_system-search.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

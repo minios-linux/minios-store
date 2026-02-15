@@ -1,0 +1,62 @@
+id: "gramps"
+name: Gramps
+description: Genealogical research program
+longDescription: |
+  <p>Gramps is a genealogy program that is both intuitive for hobbyists and feature-complete for professional genealogists.</p>
+  <p>It gives you the ability to record the many details of the life of an individual as well as the complex relationships between various people, places and events.</p>
+  <p>All of your research is kept organized, searchable and as precise as you need it to be.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gramps
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - genealogy
+  - family history
+  - research
+  - family tree
+  - gedcom
+screenshotSources:
+  - url: org/gramps/gramps/bb4e688e66394c934bdc08710d9dca32/screenshots/image-1_orig.png
+    thumbnailUrl: org/gramps/gramps/bb4e688e66394c934bdc08710d9dca32/screenshots/image-1_624x376.png
+    width: 1226
+    height: 740
+  - url: org/gramps/gramps/bb4e688e66394c934bdc08710d9dca32/screenshots/image-2_orig.png
+    thumbnailUrl: org/gramps/gramps/bb4e688e66394c934bdc08710d9dca32/screenshots/image-2_624x376.png
+    width: 1226
+    height: 740
+  - url: org/gramps/gramps/bb4e688e66394c934bdc08710d9dca32/screenshots/image-3_orig.png
+    thumbnailUrl: org/gramps/gramps/bb4e688e66394c934bdc08710d9dca32/screenshots/image-3_624x376.png
+    width: 1226
+    height: 740
+  - url: org/gramps/gramps/bb4e688e66394c934bdc08710d9dca32/screenshots/image-4_orig.png
+    thumbnailUrl: org/gramps/gramps/bb4e688e66394c934bdc08710d9dca32/screenshots/image-4_624x376.png
+    width: 1226
+    height: 740
+  - url: org/gramps/gramps/bb4e688e66394c934bdc08710d9dca32/screenshots/image-5_orig.png
+    thumbnailUrl: org/gramps/gramps/bb4e688e66394c934bdc08710d9dca32/screenshots/image-5_624x376.png
+    width: 1226
+    height: 740
+iconSources:
+  - url: org/gramps_project/Gramps/b21a0c18d712298affba8ca6dfd46c34/icons/128x128/gramps_org.gramps_project.Gramps.png
+    width: 128
+    height: 128
+developer: Gramps Development Team
+homepage: "https://gramps-project.org/"
+enabled: true
+order: 99

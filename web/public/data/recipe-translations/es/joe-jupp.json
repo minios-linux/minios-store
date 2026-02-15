@@ -1,0 +1,5 @@
+{
+  "name": "jupp, editor para programadores — estilo jpico (pico, GNU nano)",
+  "description": "Edita archivos de texto, programas, …",
+  "longDescription": "<p>Este paquete contiene enlaces simbólicos que sustituyen el paquete joe de Debian utilizando la implementación de jupp (tanto binarios como páginas de manual). También incluye los archivos de configuración apropiados y, a diferencia de la versión joe de Debian, admite la copia de contexto SELinux (en sistemas Debian con el núcleo Linux), corrige muchos errores y habilita algunas de las nuevas funcionalidades de jupp en las variantes joe, jstar, jmacs, jpico y rjoe.</p>\n"
+}

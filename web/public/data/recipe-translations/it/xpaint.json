@@ -1,0 +1,5 @@
+{
+  "name": "XPaint",
+  "description": "Applicazione di disegno XPaint",
+  "longDescription": "<p>XPaint è ideale per creare grafica semplice, ma offre anche alcune funzionalità avanzate come filtri per l’elaborazione delle immagini e riempimento sfumato.</p>\n<p>Nell’editor di script C di XPaint, la voce Editor esterno nel menu File avvierà x-terminal-emulator -e sensible-editor.</p>\n<p>Per la lettura di PDF/PS è necessario il pacchetto gv, per la conversione esterna serve netpbm, mentre per la stampa occorre lpr.</p>\n"
+}

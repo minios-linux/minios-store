@@ -1,0 +1,54 @@
+id: ddcui
+name: ddcui
+description: Manage monitor settings
+longDescription: |
+  <p> Communicates with a monitor's Virtual Control Panel (VCP) to query or change monitor settings, 
+      such as brightness, red gain, and power on hours. In general, settings and information
+      that can be accessed using the monitor's On Screen Display can more easily be accessed using this application.
+      </p>
+  <p> ddcui normally communicates with the monitor using the DDC/CI protocol on a /dev/i2c device exposed by the video driver.  
+      Alternatively, ddcui supports monitors that use USB for VCP communication. 
+      </p>
+  <p>The corresponding command line program is ddcutil.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ddcui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ddcutil
+  - ddc/ci
+  - mccs
+screenshotSources:
+  - url: com/ddcutil/ddcui/94baa126a5c201bc460805b97e0622aa/screenshots/image-1_orig.png
+    thumbnailUrl: com/ddcutil/ddcui/94baa126a5c201bc460805b97e0622aa/screenshots/image-1_624x503.png
+    width: 874
+    height: 705
+  - url: com/ddcutil/ddcui/94baa126a5c201bc460805b97e0622aa/screenshots/image-2_orig.png
+    thumbnailUrl: com/ddcutil/ddcui/94baa126a5c201bc460805b97e0622aa/screenshots/image-2_624x503.png
+    width: 874
+    height: 705
+  - url: com/ddcutil/ddcui/94baa126a5c201bc460805b97e0622aa/screenshots/image-3_orig.png
+    thumbnailUrl: com/ddcutil/ddcui/94baa126a5c201bc460805b97e0622aa/screenshots/image-3_624x503.png
+    width: 874
+    height: 705
+iconSources:
+  - url: com/ddcutil/ddcui/94baa126a5c201bc460805b97e0622aa/icons/128x128/ddcui_ddcui.png
+    width: 128
+    height: 128
+developer: Sanford Rockowitz
+homepage: "https://www.ddcutil.com"
+enabled: true
+order: 99

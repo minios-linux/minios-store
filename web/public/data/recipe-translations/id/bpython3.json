@@ -1,0 +1,5 @@
+{
+  "name": "bpython3",
+  "description": "Antarmuka canggih untuk interpreter Python!",
+  "longDescription": "<p>bpython adalah antarmuka canggih untuk interpreter Python, dengan fitur-fitur sebagai berikut:</p>\n<p>  * Highlight sintaks langsung di dalam baris.   * Autolengkapi seperti readline dengan saran yang ditampilkan saat Anda mengetik.   * Daftar parameter yang diharapkan untuk setiap fungsi Python. Menggunakan pydoc untuk mencoba menebak parameter pada fungsi C.   * Fungsi \"Rewind\" untuk menghapus baris kode terakhir dari memori dan mengevaluasi ulang. Catatan: fitur ini paling berguna saat membuat kelas dan fungsi, karena \"undo\" sesungguhnya tidak memungkinkan, jadi gunakan dengan hati-hati.   * Kirim kode yang Anda tulis ke pastebin dan tampilkan URL pastebin untuk disalin, dll.   * Simpan kode yang sudah Anda masukkan ke file.   * Auto-indentation.   * Mode Anti-Crash.</p>\n<p>Paket ini berisi bpython untuk Python 3.</p>\n"
+}

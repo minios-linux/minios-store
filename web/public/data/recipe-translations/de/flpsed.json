@@ -1,0 +1,5 @@
+{
+  "name": "flpsed",
+  "description": "Ein einfacher Annotator für PS/PDF-Dateien",
+  "longDescription": "<p>flpsed ist ein WYSIWYG-PostScript-Pseudobearbeiter. \"Pseudo\", da bestehende Elemente eines Dokuments nicht entfernt oder geändert werden können. Mit flpsed lassen sich jedoch beliebige Textzeilen zu bestehenden PostScript-1-Dokumenten hinzufügen. Diese hinzugefügten Zeilen können später erneut mit flpsed bearbeitet werden.</p>\n<p>Mit pdftops, das Teil von xpdf ist, können PDF-Dokumente in PostScript umgewandelt und ebenfalls mit Text versehen werden. flpsed eignet sich besonders zum Ausfüllen von Formularen, Hinzufügen von Notizen usw.</p>\n"
+}

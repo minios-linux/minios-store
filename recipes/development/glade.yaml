@@ -1,0 +1,49 @@
+id: "glade"
+name: Glade
+description: Create or open user interface designs for GTK+ applications
+longDescription: |
+  <p>Glade is a RAD tool to enable quick &amp; easy development of user interfaces for the GTK+ 3 toolkit and the GNOME desktop environment.</p>
+  <p>The user interfaces designed in Glade are saved as XML and these can be loaded by applications dynamically as needed by using GtkBuilder or used directly to define a new GtkWidget derived object class using GTK+ new template feature.</p>
+  <p>By using GtkBuilder, Glade XML files can be used in numerous programming languages including C, C++, C#, Vala, Java, Perl, Python, and others.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - glade
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gui designer
+  - user interface
+  - ui builder
+screenshotSources:
+  - url: org/gnome/Glade/094adbafc810401230361ef39037f37e/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Glade/094adbafc810401230361ef39037f37e/screenshots/image-1_624x385.png
+    width: 1508
+    height: 932
+iconSources:
+  - url: org/gnome/Glade/26f738b54b57669a71a5f94f2394498f/icons/128x128/glade_org.gnome.Glade.png
+    width: 128
+    height: 128
+homepage: "http://glade.gnome.org/"
+enabled: true
+order: 99

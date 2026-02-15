@@ -1,0 +1,49 @@
+id: gimagereader-qt5
+name: gImageReader
+description: A graphical (qt5) frontend to tesseract-ocr
+longDescription: |
+  <p>gImageReader is a simple optical character recognition (OCR) application which acts as a frontend to the tesseract OCR engine. Features include:</p>
+  <ul>
+    <li>Import PDF documents and images from disk, scanning devices, clipboard and screenshots</li>
+    <li>Process multiple images and documents in one go</li>
+    <li>Manual or automatic recognition area definition</li>
+    <li>Recognize to plain text or to hOCR documents</li>
+    <li>Recognized text displayed directly next to the image</li>
+    <li>Post-process the recognized text, including spellchecking</li>
+    <li>Generate PDF/ODT documents from hOCR documents</li>
+  </ul>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gimagereader-qt5
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - ocr
+  - optical
+  - recognition
+  - tesseract
+  - pdf
+  - qt5
+screenshotSources:
+  - url: g/gi/gimagereader-qt5.desktop/ff811b28d5e0196e524325824cb2c581/screenshots/image-1_orig.png
+    thumbnailUrl: g/gi/gimagereader-qt5.desktop/ff811b28d5e0196e524325824cb2c581/screenshots/image-1_624x351.png
+    width: 1504
+    height: 846
+iconSources:
+  - url: g/gi/gimagereader-qt5.desktop/ff811b28d5e0196e524325824cb2c581/icons/128x128/gimagereader-qt5_gimagereader.png
+    width: 128
+    height: 128
+homepage: "https://github.com/manisandro/gImageReader"
+enabled: true
+order: 99

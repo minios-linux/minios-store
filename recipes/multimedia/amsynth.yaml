@@ -1,0 +1,47 @@
+id: "amsynth"
+name: amsynth
+description: Two oscillator subtractive software synthesizer
+longDescription: |
+  <p>amSynth features:    * two analogue-style audio oscillators, featuring:          o sine wave          o saw/triangle wave with adjustable shape          o square/pulse wave with adjustable pulsewidth          o noise generation          o &quot;random&quot; wave (noise with sample &amp; hold)          o oscillator sync          o of course, detune and range control    * mixer section with ring modulation    * analogue-style low-pass filter          o 24dB/octave curve          o dedicated ADSR envelope          o cutoff and resonance control          o keyboard pitch tracking    * amplifier with dedicated ADSR envelope    * modulation LFO          o up to 58Hz modulation          o routable to all sections (pitch, filter, amplifier)    * Effects          o High quality stereo reverb (freeverb)          o Distortion/crunch    * Easy navigation and manipulation of presets    * Stand-alone OSS or ALSA Midi/Audio client</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - amsynth
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - synthesiser
+  - softsynth
+  - midi
+  - jack
+  - realtime
+  - standalone
+screenshotSources:
+  - url: a/am/amsynth.desktop/c3e56584f54abcddac29fc3655b6cff9/screenshots/image-1_orig.png
+    thumbnailUrl: a/am/amsynth.desktop/c3e56584f54abcddac29fc3655b6cff9/screenshots/image-1_224x168.png
+    width: 616
+    height: 462
+iconSources:
+  - url: a/am/amsynth.desktop/c3e56584f54abcddac29fc3655b6cff9/icons/128x128/amsynth_amsynth.png
+    width: 128
+    height: 128
+homepage: "https://github.com/amsynth/amsynth"
+enabled: true
+order: 99

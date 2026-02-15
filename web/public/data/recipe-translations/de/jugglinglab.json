@@ -1,0 +1,5 @@
+{
+  "name": "JugglingLab",
+  "description": "Anwendung zum Erstellen und Animieren von Jongliermustern",
+  "longDescription": "<p>Juggling Lab ist eine in Java geschriebene Anwendung zum Erstellen und Animieren von Jongliermustern.</p>\n<p>Hauptziel ist es, Nutzerinnen und Nutzern beim Erlernen neuer Jongliermuster zu unterstützen und die Entwicklung eigener Muster zu erleichtern.</p>\n<p>Die Software generiert und animiert synchrone und asynchrone Siteswaps sowie Multiplex-Siteswaps. Hand- und Körperbewegungen lassen sich dabei individuell anpassen.</p>\n<p>Ein Bestandteil des Programms ist ein Siteswap-Generator, der es ermöglicht, durch Eingabe von Parametern wie der Anzahl der Objekte, der maximalen Wurfhöhe und der Musterlänge automatisch neue Siteswaps zu erstellen.</p>\n"
+}

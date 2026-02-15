@@ -1,0 +1,5 @@
+{
+  "name": "qpdfview",
+  "description": "visualizzatore di documenti a schede",
+  "longDescription": "<p>qpdfview è un semplice visualizzatore di documenti a schede che utilizza la libreria Poppler per la visualizzazione dei PDF e CUPS per la stampa, offrendo un'interfaccia grafica chiara e intuitiva basata su Qt. Il supporto per i formati DjVu e PostScript può essere aggiunto tramite plugin.</p>\n<p>Le funzionalità attualmente disponibili includono:</p>\n<ul>\n  <li>Pannelli per sommario, proprietà e miniature</li>\n  <li>Ridimensionamento, rotazione e adattamento</li>\n  <li>Modalità a schermo intero e presentazione</li>\n  <li>Disposizioni continue e multipagina</li>\n  <li>Impostazioni memorizzate per ogni file</li>\n  <li>Scorciatoie da tastiera configurabili</li>\n  <li>Barre degli strumenti personalizzabili</li>\n  <li>Supporto per documenti DjVu e PostScript tramite plugin</li>\n  <li>Ricerca del testo (solo PDF e DjVu)</li>\n  <li>Supporto SyncTeX (solo PDF)</li>\n  <li>Supporto parziale alle annotazioni (solo PDF, Poppler versione 0.20.1 o superiore)</li>\n  <li>Supporto parziale ai moduli (solo PDF)</li>\n</ul>\n"
+}

@@ -1,0 +1,44 @@
+id: "falkon"
+name: Falkon
+description: Web Browser
+longDescription: |
+  <p>Falkon is a new and very fast Qt web browser. It aims to be a lightweight web browser available through all major platforms. This project has been originally started only for educational purposes. But from its start, Falkon has grown into a feature-rich browser.</p>
+  <p>Falkon has all standard functions you expect from a web browser. It includes bookmarks, history (both also in sidebar) and tabs. Above that, you can manage RSS feeds with an included RSS reader, block ads with a built-in AdBlock plugin, block Flash content with Click2Flash and edit the local CA Certificates database with an SSL manager.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - falkon
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/falkon.desktop/d3b67b23adaa6e8dd57bc36eeed61190/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/falkon.desktop/d3b67b23adaa6e8dd57bc36eeed61190/screenshots/image-1_624x419@1.png
+    width: 981
+    height: 659
+iconSources:
+  - url: org/kde/falkon.desktop/d3b67b23adaa6e8dd57bc36eeed61190/icons/128x128/falkon_falkon.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/"
+enabled: true
+order: 99

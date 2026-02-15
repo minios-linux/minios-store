@@ -1,0 +1,5 @@
+{
+  "name": "G3DViewer",
+  "description": "Penampil model 3D",
+  "longDescription": "<p>G3DViewer adalah penampil file 3D berbasis GTK+ yang mendukung berbagai jenis file dengan memanfaatkan fitur plugin LibG3D. Model dapat diperiksa dan dirender menggunakan OpenGL. Opsi rendering mencakup tampilan wireframe, bayangan, tampilan isometrik, pencahayaan spekular, dan tekstur.</p>\n<p>Lihat 'libg3d-plugin*' untuk format yang didukung.</p>\n"
+}

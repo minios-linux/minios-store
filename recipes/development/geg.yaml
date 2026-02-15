@@ -1,0 +1,37 @@
+id: geg
+name: Geg
+description: a GTK+ Equation Grapher
+longDescription: |
+  <p>geg is a very simple utility for parsing and plotting 2D-functions, eg f(x) = 3 + sin(x), and much more complicated functions of course. It is written with GTK+ and provides a neat, configurable user interface.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - geg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: geg_plot2d.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

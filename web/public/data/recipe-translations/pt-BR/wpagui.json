@@ -1,0 +1,5 @@
+{
+  "name": "wpa_gui",
+  "description": "Interface gráfica para o wpa_supplicant",
+  "longDescription": "<p>O wpa_gui oferece uma interface Qt para selecionar a rede configurada à qual deseja se conectar. Também permite visualizar os resultados de varredura de SSIDs 802.11, acessar o histórico de eventos gerado pelo wpa_supplicant e adicionar ou editar redes do wpa_supplicant.</p>\n"
+}

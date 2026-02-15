@@ -1,0 +1,43 @@
+id: regexxer
+name: regexxer Search Tool
+description: Search and replace using regular expressions
+longDescription: |
+  <p>Regexxer is a nifty GUI search/replace tool featuring Perl-style regular expressions (PCRE - Perl Regex). If you need project-wide substitution and you&apos;re tired of hacking sed command lines together, then you should definitely give it a try.</p>
+  <p>The tool can be used to search files or contents inside of a file.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - regexxer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gui
+  - regex
+  - regexp
+  - regular expressions
+iconSources:
+  - cached: regexxer_regexxer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

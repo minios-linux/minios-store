@@ -1,0 +1,5 @@
+{
+  "name": "Horizon EDA application",
+  "description": "Concevez des schémas et des circuits imprimés",
+  "longDescription": "<p>Horizon est un outil de CAO électronique (EDA) pour la conception de circuits imprimés. Il gère l’ensemble du flux de conception, de la saisie du schéma jusqu’à l’export Gerber. Sa principale différence par rapport à KiCAD réside dans une gestion des bibliothèques de composants plus rationnelle. Ce logiciel encore récent (2018) peut présenter quelques imperfections, mais il est déjà très performant.</p>\n<p>Fonctionnalités remarquables : • Gestion ergonomique des bibliothèques • Éditeur unifié pour tous les éléments, du symbole au circuit • Saisie de schémas compatible netlist • Routeur interactif hérité de KiCAD • Rendu fluide sans latence ni artefact • Contrôle de règles (DRC) basé sur des règles • Annulation/rétablissement • Copier/coller pour certains objets • Compilation et exécution sous Linux et Windows</p>\n"
+}

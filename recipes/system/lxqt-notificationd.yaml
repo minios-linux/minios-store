@@ -1,0 +1,28 @@
+id: lxqt-notificationd
+name: Desktop Notifications
+description: Configure desktop notifications
+longDescription: |
+  <p>The LXQt notification daemon.</p>
+  <p>This package contain the LXQt notification daemon.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxqt-notificationd
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: l/lx/lxqt-config-notificationd.desktop/B8B9D3BF16DF50B37B70A1C4419CCACC/icons/128x128/lxqt-notificationd_preferences-desktop-notification.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

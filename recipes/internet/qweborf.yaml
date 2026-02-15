@@ -1,0 +1,48 @@
+id: "qweborf"
+name: qweborf
+description: Shares files using the HTTP protocol
+longDescription: |
+  <p>Qweborf provides an easy to use graphical interface to share local files using the HTTP protocol. It can enable writing on the server, webdav, authentication and sending directories as tar.gz. It can try to work across NAT.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qweborf
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - http
+  - nat
+  - network
+  - share
+screenshotSources:
+  - url: org/ltworf/qweborf/30892824bbe1514b025cfa2281051d34/screenshots/image-1_orig.png
+    thumbnailUrl: org/ltworf/qweborf/30892824bbe1514b025cfa2281051d34/screenshots/image-1_224x234@1.png
+    width: 616
+    height: 646
+iconSources:
+  - url: org/ltworf/qweborf/30892824bbe1514b025cfa2281051d34/icons/128x128/qweborf_qweborf.png
+    width: 128
+    height: 128
+homepage: "https://ltworf.codeberg.page/weborf/qweborf.html"
+enabled: true
+order: 99

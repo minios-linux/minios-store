@@ -1,0 +1,5 @@
+{
+  "name": "ranger",
+  "description": "Startet den Dateimanager ranger",
+  "longDescription": "<p>Ranger ist ein Konsolen-Dateimanager mit VI-Tastenkürzeln. Er bietet eine minimalistische und übersichtliche Curses-Oberfläche mit einer Ansicht auf die Verzeichnisstruktur. Mitgeliefert wird „rifle“, ein Dateistarter, der automatisch das passende Programm für jeden Dateityp auswählt.</p>\n<p>Designziele  * Ein einfach wartbarer Dateimanager in einer Hochsprache  * Schneller Wechsel zwischen Verzeichnissen und komfortables Durchsuchen des Dateisystems  * Schlank und dennoch nützlich, Konzentration auf das Wesentliche  * Konsolenbasiert, nahtlose Integration in die Unix-Shell</p>\n"
+}

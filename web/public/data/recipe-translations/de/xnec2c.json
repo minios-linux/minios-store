@@ -1,0 +1,5 @@
+{
+  "name": "Xnec2c",
+  "description": "Numerische Elektromagnetik-Code-Software",
+  "longDescription": "<p>Das ursprüngliche nec2c ist eine nicht-interaktive Kommandozeilenanwendung, die standardmäßige NEC2-Eingabedateien verarbeitet und eine Ausgabedatei mit den in der Eingabedatei angeforderten Daten („Kommandos“) erstellt.</p>\n<p>Im Gegensatz dazu ist xnec2c eine GUI-basierte, interaktive Anwendung, die (in ihrer aktuellen Form) NEC2-Eingabedateien einliest, die Ausgabedaten jedoch grafisch darstellt, z.B. als Drahtgitteransichten des Strahlungsmusters oder des Nahfeldes (E/H-Feld), Diagramme des maximalen Gewinns, Eingangsimpedanz, VSWR etc. in Abhängigkeit von der Frequenz sowie einfache Darstellungen der Antennenstruktur – einschließlich farbcodierter Darstellung von Strömen oder Ladungsdichten. Diese Ergebnisse werden nur auf Anforderung der Nutzerin oder des Nutzers per Menüeintrag oder Button berechnet und dargestellt – xnec2c ist also interaktiv und führt NEC2-Kommandos nicht im Batch-Stil wie das Original aus.</p>\n"
+}

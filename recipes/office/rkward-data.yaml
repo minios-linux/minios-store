@@ -1,0 +1,28 @@
+id: rkward-data
+name: RKWard
+description: GUI for the R-project
+longDescription: |
+  <p>RKWard aims to become an easy to use, transparent frontend to R, a powerful system for statistical computation and graphics. Besides a convenient GUI for the most important statistical functions, future versions will also provide seamless integration with an office-suite.</p>
+  <p>This package provides the architecture independent data files for rkward.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rkward-data
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+iconSources:
+  - url: org/kde/rkward/94E897A6FE278A64462C669E8E0FEEFC/icons/128x128/rkward-data_rkward.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

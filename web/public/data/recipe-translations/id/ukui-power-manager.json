@@ -1,0 +1,5 @@
+{
+  "name": "Power Statistics",
+  "description": "Pantau manajemen daya",
+  "longDescription": "<p>UKUI Power Manager adalah daemon sesi untuk desktop UKUI yang menangani berbagai peristiwa sistem atau desktop terkait daya, serta menjalankan aksi sesuai kebutuhan. Filosofinya adalah menyembunyikan tugas-tugas kompleks ini sepenuhnya dan hanya menampilkan pengaturan yang penting bagi pengguna.</p>\n<p>Pengelola daya UKUI menampilkan dan mengelola status baterai, peristiwa sambungan daya, kecerahan layar, penghematan daya CPU, kartu grafis, dan hard disk, serta dapat memicu mode suspend-to-RAM, hibernasi, atau mematikan perangkat, semuanya terintegrasi dengan komponen lain di desktop UKUI.</p>\n"
+}

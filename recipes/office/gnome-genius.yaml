@@ -1,0 +1,47 @@
+id: "gnome-genius"
+name: Genius Math Tool
+description: Genius Mathematical Tool and Calculator
+longDescription: |
+  <p>Genius is a general purpose calculator program similar in some aspects to BC, Matlab or Maple. It is useful both as a simple calculator and as a research or educational tool. The syntax is very intuitive and is designed to mimic how mathematics is usually written.</p>
+  <p>This package contains a GNOME frontend for genius.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-genius
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mathematics
+  - matrix
+  - vector
+  - linear algebra
+  - calculus
+  - plot
+  - plotting
+  - graph
+  - graphing
+  - function
+iconSources:
+  - url: g/gn/gnome-genius.desktop/8ec1247ffb24cf5d23d36cb324bb2b2f/icons/128x128/gnome-genius_gnome-genius.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

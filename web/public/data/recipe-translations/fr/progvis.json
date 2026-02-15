@@ -1,0 +1,5 @@
+{
+  "name": "Progvis",
+  "description": "Outil de visualisation pour programmes C/C++ concurrents",
+  "longDescription": "<p>\n      Progvis est un outil de visualisation de programmes pour les codes concurrents écrits dans un sous-ensemble de C (et certaines parties de C++). Sa visualisation détaillée de nombreux aspects des programmes C le rend également utile pour analyser des programmes séquentiels.\n    </p>\n<p>Fonctionnalités de Progvis :</p>\n<ul>\n  <li>Visualisation de programmes en C et C++</li>\n  <li>Exploration des différents entrelacements pour identifier les erreurs</li>\n  <li>Détection automatique de nombreuses erreurs courantes dans les petits programmes</li>\n</ul>\n"
+}

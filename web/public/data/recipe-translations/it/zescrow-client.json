@@ -1,0 +1,5 @@
+{
+  "name": "zEscrow",
+  "description": "Backup delle configurazioni e passphrase di mount eCryptfs",
+  "longDescription": "<p>zescrow-client fornisce l’utilità zescrow (precedentemente nota come ecryptfs-escrow-private), che consente di caricare un backup della configurazione di una Home cifrata con eCryptfs o una Private cifrata con eCryptfs su un server compatibile con zEscrow.</p>\n<p>zEscrow.gazzang.com è un esempio di server compatibile, basato su software libero AGPL disponibile su https://launchpad.net/zEscrow.</p>\n<p>zEscrow permette di:  - richiedere il server zEscrow desiderato  - recuperare la chiave pubblica GPG di tale server zEscrow  - richiedere la passphrase di accesso  - usare la passphrase di accesso per decifrare la passphrase di mount  - creare un archivio tar della directory ~/.ecryptfs e della passphrase di mount decifrata  - cifrare l’archivio con la chiave pubblica del server zEscrow  - caricare l’archivio cifrato sul server zEscrow  - mostrare un URL e offrire di avviare il browser per collegare un account Google e un indirizzo email al backup</p>\n"
+}

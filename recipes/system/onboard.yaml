@@ -1,0 +1,45 @@
+id: "onboard"
+name: Onboard Settings
+description: Change Onboard settings
+longDescription: |
+  <p>On-screen Keyboard with macros, easy layout creation and word suggestion.</p>
+  <p>This on-screen keyboard can be useful for tablet PC users, as well as for mobility impaired users.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - onboard
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - onscreen
+  - keyboard
+  - accessibility
+  - utility
+  - settings
+  - configuration
+iconSources:
+  - url: o/on/onboard.desktop/7d09002cda594f6dcc0e96c538b0def7/icons/128x128/onboard_onboard.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

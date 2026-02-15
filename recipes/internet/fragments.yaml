@@ -1,0 +1,60 @@
+id: fragments
+name: Fragments
+description: Manage torrents
+longDescription: |
+  <p>
+        An easy to use BitTorrent client. Fragments can be used to transfer files via the BitTorrent peer-to-peer file-sharing
+  protocol, such as videos, music or installation images for Linux distributions.
+      </p>
+  <ul>
+    <li>Overview of all torrents grouped by status</li>
+    <li>Schedule the order of downloads with a queue</li>
+    <li>Automatic detection of torrent or magnet links from the clipboard</li>
+    <li>Manage and access individual files of a torrent</li>
+    <li>Connect to remote Fragments or Transmission sessions</li>
+  </ul>
+  <p>
+        Fragments uses the Transmission BitTorrent project under the hood.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fragments
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - bittorrent
+  - torrent
+  - magnet
+  - download
+  - p2p
+screenshotSources:
+  - url: de/haeckerfelix/Fragments/764529bac61c38a7fcb47768bddd5be6/screenshots/image-1_orig.png
+    thumbnailUrl: de/haeckerfelix/Fragments/764529bac61c38a7fcb47768bddd5be6/screenshots/image-1_624x501@1.png
+    width: 1022
+    height: 822
+  - url: de/haeckerfelix/Fragments/764529bac61c38a7fcb47768bddd5be6/screenshots/image-2_orig.png
+    thumbnailUrl: de/haeckerfelix/Fragments/764529bac61c38a7fcb47768bddd5be6/screenshots/image-2_624x501@1.png
+    width: 1022
+    height: 822
+  - url: de/haeckerfelix/Fragments/764529bac61c38a7fcb47768bddd5be6/screenshots/image-3_orig.png
+    thumbnailUrl: de/haeckerfelix/Fragments/764529bac61c38a7fcb47768bddd5be6/screenshots/image-3_624x501@1.png
+    width: 1022
+    height: 822
+  - url: de/haeckerfelix/Fragments/764529bac61c38a7fcb47768bddd5be6/screenshots/image-4_orig.png
+    thumbnailUrl: de/haeckerfelix/Fragments/764529bac61c38a7fcb47768bddd5be6/screenshots/image-4_624x501@1.png
+    width: 1022
+    height: 822
+iconSources:
+  - url: de/haeckerfelix/Fragments/764529bac61c38a7fcb47768bddd5be6/icons/128x128/fragments_de.haeckerfelix.Fragments.png
+    width: 128
+    height: 128
+homepage: "https://apps.gnome.org/Fragments/"
+enabled: true
+order: 99

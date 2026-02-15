@@ -1,0 +1,82 @@
+id: "antimicro"
+name: AntiMicroX
+description: "Graphical program used to map gamepad buttons to keyboard, mouse, scripts and macros"
+longDescription: |
+  <p>
+       AntiMicroX is a graphical program used to map gamepad buttons/joysticks
+       to keyboard, mouse, scripts and macros.
+       It can be also used for generating SLD2 configuration (useful for mapping 
+       atypical gamepads to generic ones like xbox360).
+      </p>
+  <p>
+      It allows mapping of gamepads/joystick buttons to:
+      </p>
+  <ul>
+    <li>keyboard buttons</li>
+    <li>mouse buttons and moves</li>
+    <li>scripts and launching apps</li>
+    <li>macros consisting of elements mentioned above</li>
+  </ul>
+  <p>
+       AntiMicroX was inspired by QJoyPad.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - antimicro
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - controller
+  - keyboard
+  - joystick
+  - mouse
+screenshotSources:
+  - url: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-1_624x352@1.png
+    width: 1569
+    height: 886
+  - url: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-2_624x352@1.png
+    width: 1569
+    height: 886
+  - url: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-3_624x355@1.png
+    width: 1151
+    height: 655
+  - url: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-4_orig.png
+    thumbnailUrl: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-4_624x350@1.png
+    width: 1085
+    height: 609
+  - url: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-5_orig.png
+    thumbnailUrl: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-5_624x351@1.png
+    width: 1149
+    height: 648
+  - url: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-6_orig.png
+    thumbnailUrl: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/screenshots/image-6_624x352@1.png
+    width: 985
+    height: 557
+iconSources:
+  - url: io/github/antimicrox.antimicrox/85b5ad51fdf5b4f463ccbae7d2779f0f/icons/128x128/antimicro_io.github.antimicrox.antimicrox.png
+    width: 128
+    height: 128
+homepage: "https://github.com/AntiMicroX/antimicrox/"
+enabled: true
+order: 99

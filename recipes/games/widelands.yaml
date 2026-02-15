@@ -1,0 +1,67 @@
+id: "widelands"
+name: Widelands
+description: A real-time build-up strategy game
+longDescription: |
+  <p>You are the regent of a small clan. Your task is to build an ever growing settlement. Every member of your clan will do his or her part to produce more resources to further this growth.</p>
+  <p>Widelands offers a single-player mode with campaigns that tell stories of the tribes and their struggle in the Widelands universe. However, settling really starts when you unite with friends over the Internet or LAN to build up new empires together – or to crush each other in the dusts of war. Widelands also offers an artificial intelligence to challenge you.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - widelands
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-1_orig.png
+    thumbnailUrl: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-1_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-2_orig.png
+    thumbnailUrl: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-2_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-3_orig.png
+    thumbnailUrl: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-3_624x350@1.png
+    width: 1366
+    height: 768
+  - url: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-4_orig.png
+    thumbnailUrl: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-4_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-5_orig.png
+    thumbnailUrl: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-5_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-6_orig.png
+    thumbnailUrl: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-6_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-7_orig.png
+    thumbnailUrl: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/screenshots/image-7_624x350@1.png
+    width: 1366
+    height: 768
+iconSources:
+  - url: org/widelands/Widelands/b10198589a187a2ce2b34a3c7829d68a/icons/128x128/widelands_org.widelands.Widelands.png
+    width: 128
+    height: 128
+developer: The Widelands Development Team
+homepage: "https://wl.widelands.org/"
+enabled: true
+order: 99

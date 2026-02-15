@@ -1,0 +1,5 @@
+{
+  "name": "dxf2gcode converter",
+  "description": "Conversor de desenhos 2D em DXF para G-Code compatível com máquinas CNC",
+  "longDescription": "<p>Este programa lê desenhos mecânicos 2D de peças a serem fabricadas e gera instruções de movimento em G-code para execução em máquinas-ferramenta automáticas (máquinas CNC), como fresadoras e tornos.</p>\n<p>É um programa CAM (Manufatura Assistida por Computador) gráfico. Aceita arquivos de entrada nos formatos DXF, PDF ou PostScript. Suporta operações de fresagem, furação e torneamento, além de inserção de linguetas de fixação.</p>\n"
+}

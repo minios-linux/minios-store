@@ -1,0 +1,52 @@
+id: "qsynth"
+name: Qsynth
+description: A fluidsynth Qt GUI Interface
+longDescription: |
+  <p>Qsynth is a fluidsynth GUI front-end application, written in C++ around the
+    Qt framework, using Qt Designer. Eventually it may evolve into a softsynth
+    management application allowing the user to control and manage a variety of
+    command line softsynths.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qsynth
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - midi
+  - alsa
+  - jack
+  - fluidsynth
+  - soundfont
+  - synthesizer
+  - sampler
+  - sf2
+  - qt
+screenshotSources:
+  - url: org/rncbc/qsynth/04c30dc22081dd1093ee1e3619b0676a/screenshots/image-1_orig.png
+    thumbnailUrl: org/rncbc/qsynth/04c30dc22081dd1093ee1e3619b0676a/screenshots/image-1_224x61@1.png
+    width: 800
+    height: 218
+iconSources:
+  - url: org/rncbc/qsynth/04c30dc22081dd1093ee1e3619b0676a/icons/128x128/qsynth_org.rncbc.qsynth.png
+    width: 128
+    height: 128
+developer: rncbc aka. Rui Nuno Capela
+homepage: "https://qsynth.sourceforge.io"
+enabled: true
+order: 99

@@ -1,0 +1,26 @@
+id: input-remapper-gtk
+name: Input Remapper
+description: GUI for device specific key mappings
+longDescription: |
+  <p>input-remapper allows users to map buttons on all input devices (keyboards, mice, gamepads...) in X11 and Wayland. It also supports combined buttons and programmable macros.</p>
+  <p>This package contains the UI to configure the mappings.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - input-remapper-gtk
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: input-remapper-gtk_input-remapper.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,35 @@
+id: photoflow
+name: PhotoFlow
+description: Edit raw and raster images
+longDescription: |
+  <p>PhotoFlow is an image editor that can non-destructively process raw and raster images.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - photoflow
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - graphics
+  - photography
+  - raw
+screenshotSources:
+  - url: p/ph/photoflow/a01f04055726ebaa371439d37a6a4a0f/screenshots/image-1_orig.png
+    thumbnailUrl: p/ph/photoflow/a01f04055726ebaa371439d37a6a4a0f/screenshots/image-1_624x366.png
+    width: 2560
+    height: 1504
+iconSources:
+  - url: p/ph/photoflow/a01f04055726ebaa371439d37a6a4a0f/icons/128x128/photoflow_photoflow.png
+    width: 128
+    height: 128
+homepage: "https://github.com/aferrero2707/PhotoFlow/"
+enabled: true
+order: 99

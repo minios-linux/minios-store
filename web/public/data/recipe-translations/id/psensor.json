@@ -1,0 +1,5 @@
+{
+  "name": "Psensor",
+  "description": "Psensor adalah pemantau suhu berbasis grafis untuk Linux",
+  "longDescription": "<p>Psensor adalah aplikasi GTK+ untuk memantau sensor perangkat keras, termasuk suhu dan kecepatan kipas.</p>\n<p>Aplikasi ini menampilkan grafik untuk setiap sensor, dan memberikan peringatan kepada pengguna melalui Notifikasi Desktop serta Indikator Aplikasi jika suhu terlalu tinggi.</p>\n<p>Psensor dapat memantau:  * suhu motherboard dan sensor CPU (menggunakan lm-sensors),  * suhu GPU NVidia (menggunakan XNVCtrl),  * suhu Hard Disk Drive (menggunakan hddtemp atau pustaka atasmart),  * kecepatan putaran kipas (menggunakan lm-sensors),  * sensor dari komputer jarak jauh (menggunakan psensor-server).</p>\n"
+}

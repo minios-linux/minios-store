@@ -1,0 +1,39 @@
+id: "fcitx-data"
+name: Fcitx
+description: Start Input Method
+longDescription: |
+  <p>Fcitx is a input method framework with extension support, which provides an interface for entering characters of different scripts in applications using a variety of mapping systems.</p>
+  <p>It offers a pleasant and modern experience, with intuitive graphical configuration tools and customizable skins and mapping tables. It is highly modularized and extensible, with GTK+ 2/3 and Qt4 IM Modules, support for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly API.</p>
+  <p>This package provides the essential data files. If you are looking for a working input experience, please install the package &quot;fcitx&quot; instead.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fcitx-data
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: f/fc/fcitx.desktop/663d466fd9fea89887d9730214413efd/icons/128x128/fcitx-data_fcitx.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

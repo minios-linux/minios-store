@@ -1,0 +1,5 @@
+{
+  "name": "Cockpit",
+  "description": "Konsol Web untuk server Linux",
+  "longDescription": "<p>\n      Cockpit adalah manajer server yang memudahkan administrasi server Linux Anda melalui peramban web.\n      Berpindah antara terminal dan alat berbasis web ini sangat mudah.\n      Layanan yang dijalankan melalui Cockpit dapat dihentikan lewat terminal.\n      Demikian juga, jika terjadi error di terminal, error tersebut dapat dilihat melalui antarmuka jurnal Cockpit.\n    </p>\n<p>\n      Cockpit sangat cocok untuk sysadmin pemula, memungkinkan mereka menjalankan tugas-tugas sederhana seperti pengelolaan storage, memeriksa jurnal, serta memulai dan menghentikan layanan dengan mudah.\n      Anda juga dapat memantau dan mengelola beberapa server secara bersamaan.\n      Cukup tambahkan server lain dengan sekali klik dan semua mesin dapat dipantau secara terpusat.\n    </p>\n<p>\n      Setelah Cockpit terpasang, aktifkan dengan \"systemctl enable --now cockpit.socket\".\n    </p>\n"
+}

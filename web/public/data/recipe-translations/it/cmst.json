@@ -1,0 +1,5 @@
+{
+  "name": "cmst",
+  "description": "Interfaccia grafica Qt per il gestore di connessioni Connman con icona nel vassoio di sistema",
+  "longDescription": "<p>Interfaccia grafica Qt per Connman con icona nel vassoio di sistema. Il programma offre un’interfaccia grafica per controllare il demone connman.<br>Il demone connman deve essere avviato normalmente; questo programma funge solo da interfaccia verso quel demone.<br>È possibile visualizzare le tecnologie e i servizi rilevati da connman e, per i servizi Wi-Fi, viene registrato un agente che assiste nell’inserimento delle informazioni necessarie per la connessione alla rete wireless.</p>\n"
+}

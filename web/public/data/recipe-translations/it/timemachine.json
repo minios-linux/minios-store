@@ -1,0 +1,5 @@
+{
+  "name": "JACK Timemachine",
+  "description": "Registratore audio JACK per uso spontaneo e conservatorio",
+  "longDescription": "<p>Timemachine salva in un file WAV gli ultimi 10 secondi di audio <em>prima</em> della pressione del pulsante, più tutto ciò che viene registrato successivamente fino alla prossima pressione.</p>\n<p>L'idea è quella di sperimentare liberamente nel proprio studio e, quando si ascolta un suono interessante, premere record per catturarlo subito, senza doverlo ricreare.</p>\n<p>Utilizza JACK Audio Connection Kit, un'API che permette alle applicazioni audio di comunicare tra loro e condividere dati audio in tempo reale.</p>\n"
+}

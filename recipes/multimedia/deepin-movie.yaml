@@ -1,0 +1,44 @@
+id: "deepin-movie"
+name: Deepin Movie
+description: Play your video collection
+longDescription: |
+  <p>Deepin Movie provides an intuitive easy to use operation interface and rich complete shortcuts. You can complete all play operations by keyboard, which will make you thoroughly get rid of the constraint of mouse click. Video files in various formats can be played through Deepin Movie, and you can use the streaming function to easily enjoy online video resources.</p>
+  <p>This package is part of DDE (Deepin Desktop Environment).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deepin-movie
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - player
+  - movie
+  - theater
+  - theatre
+  - video
+iconSources:
+  - url: d/de/deepin-movie.desktop/27d10cd5f28a7afeb4828d5d0ebcb4cb/icons/128x128/deepin-movie_deepin-movie.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

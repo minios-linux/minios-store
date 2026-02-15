@@ -1,0 +1,45 @@
+id: "wmforecast"
+name: wmforecast
+description: A weather dockapp for Window Maker using the Yahoo Weather API
+longDescription: |
+  <p>wmforecast is a weather dockapp for Window Maker. It displays the current temperature and an icon representing the current conditions.  A balloon tooltip displays forecast information.  The weather information comes from the Yahoo Weather API.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wmforecast
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - weather
+  - dockapp
+  - window maker
+screenshotSources:
+  - url: org/friedcheese/wmforecast/bffbcd623ffc8aaf63907672f2851968/screenshots/image-1_orig.png
+    width: 64
+    height: 64
+iconSources:
+  - url: org/friedcheese/wmforecast/bffbcd623ffc8aaf63907672f2851968/icons/128x128/wmforecast_wmforecast.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

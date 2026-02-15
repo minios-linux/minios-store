@@ -1,0 +1,5 @@
+{
+  "name": "needrestart-session",
+  "description": "Überprüft, welche Prozesse in der aktuellen Benutzer­session nach Aktualisierungen neu gestartet werden müssen.",
+  "longDescription": "<p>needrestart prüft, welche Prozesse nach Bibliotheks-Updates neu gestartet werden sollten. needrestart-session benachrichtigt Benutzer­sessions über veraltete Prozesse nach Systemaktualisierungen.</p>\n"
+}

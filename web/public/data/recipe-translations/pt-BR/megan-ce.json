@@ -1,0 +1,5 @@
+{
+  "name": "megan",
+  "description": "Exploração e análise interativa de dados de sequenciamento em larga escala de microbiomas",
+  "longDescription": "<p>\n      Megan-ce é uma ferramenta para análise de shotgun sequencing de amostras de microbioma. Trata-se de uma reescrita e extensão do amplamente utilizado MEGAN, visando facilitar a análise interativa do conteúdo taxonômico e funcional de conjuntos de dados de microbioma de grande porte. Entre os novos recursos estão: um classificador funcional chamado InterPro2GO, montagem de reads centrada em genes, análise de coordenadas principais de taxonomia e função, além de suporte a metadados.\n    </p>\n<p>\n      Ao integrar o MEGAN CE à ferramenta de alinhamento DNA-para-proteína de alto desempenho DIAMOND, é possível oferecer um pipeline poderoso e completo para a análise de sequências de metagenoma obtidas por shotgun.\n    </p>\n"
+}

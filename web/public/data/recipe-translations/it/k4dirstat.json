@@ -1,0 +1,5 @@
+{
+  "name": "K4DirStat",
+  "description": "Statistiche di directory e utilizzo del disco",
+  "longDescription": "<p>K4DirStat (KDE Directory Statistics) è una piccola utility che riassume l’utilizzo del disco per alberi di directory, in modo simile al comando Unix 'du'. Mostra lo spazio occupato da una directory sia numericamente che graficamente. Supporta l’accesso di rete (puoi usarlo anche per sommare lo spazio su server FTP) e include azioni di pulizia sia predefinite che personalizzabili. È possibile aprire un ramo di directory direttamente in Konqueror o nel terminale preferito, comprimerlo in un archivio .tar.bz2, o definire azioni di pulizia personalizzate.</p>\n"
+}

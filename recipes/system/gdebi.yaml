@@ -1,0 +1,38 @@
+id: "gdebi"
+name: GDebi Package Installer
+description: Install and view software packages
+longDescription: |
+  <p>gdebi lets you install local deb packages resolving and installing its dependencies, like apt.</p>
+  <p>The package is also scanned via lintian before the install and its possible to inspect the control and data members of the packages.</p>
+  <p>This package contains the graphical user interface.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gdebi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - package
+  - apt
+  - dpkg
+  - install
+iconSources:
+  - url: g/gd/gdebi.desktop/4fb263fe353f70129cfb2bf0683e740c/icons/128x128/gdebi_package-x-generic.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

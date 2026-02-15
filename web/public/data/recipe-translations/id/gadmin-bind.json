@@ -1,0 +1,5 @@
+{
+  "name": "GADMIN-BIND",
+  "description": "Administrasi server DNS BIND",
+  "longDescription": "<p>gadmin-bind adalah antarmuka GTK+ yang mudah digunakan untuk ISC BIND. Aplikasi ini dapat menangani banyak domain dan memungkinkan peralihan dari domain master ke slave hanya dalam tiga klik. Anda dapat mengganti nama domain untuk seluruh domain dan subdomain, termasuk sumber daya domain seperti MX, A, AAAA, CNAME, dan NS.</p>\n<p>gadmin-bind juga dapat menghasilkan dan mengatur kunci rahasia untuk rndc, membangun lingkungan chroot, serta menangani operasi DDNS.</p>\n"
+}

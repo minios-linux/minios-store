@@ -1,0 +1,48 @@
+id: "ngraph-gtk"
+name: Ngraph
+description: create scientific 2-dimensional graphs
+longDescription: |
+  <p>Ngraph is the program to create scientific 2-dimensional graphs for researchers and engineers. This program can create advanced graphs which can&apos;t be created by spreadsheets. Graphs can be exported to postscript.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ngraph-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - graph
+  - scientific
+  - chart
+  - calculation
+screenshotSources:
+  - url: com/github/htrb.ngraph-gtk/5d901e69065ceedfcf4b4eff44ad3418/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/htrb.ngraph-gtk/5d901e69065ceedfcf4b4eff44ad3418/screenshots/image-1_624x403@1.png
+    width: 831
+    height: 537
+iconSources:
+  - url: com/github/htrb.ngraph-gtk/5d901e69065ceedfcf4b4eff44ad3418/icons/128x128/ngraph-gtk_ngraph.png
+    width: 128
+    height: 128
+homepage: "http://hito.music.coocan.jp/ngraph/ngraph-gtk.html"
+enabled: true
+order: 99

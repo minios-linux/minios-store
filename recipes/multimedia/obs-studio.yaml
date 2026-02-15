@@ -1,0 +1,46 @@
+id: "obs-studio"
+name: OBS
+description: Free and Open Source Streaming/Recording Software
+longDescription: |
+  <p>OBS Studio is designed for efficiently recording and streaming live video content. It supports live RTP streaming to various streaming sites.</p>
+  <p>Other features include:  * Encoding using H264 (x264) and AAC  * Unlimited number of scenes and sources  * File output to MP4 or FLV  * GPU-based game capture for high performance game streaming  * Bilinear or lanczos3 resampling</p>
+  <p>Note that OBS Studio requires an OpenGL 3.2 compatible video card.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - obs-studio
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/obsproject/Studio/d1b40007e4ad2be8bf96581b36f7802c/screenshots/image-1_orig.png
+    thumbnailUrl: com/obsproject/Studio/d1b40007e4ad2be8bf96581b36f7802c/screenshots/image-1_624x436@1.png
+    width: 1000
+    height: 700
+iconSources:
+  - url: com/obsproject/Studio/d1b40007e4ad2be8bf96581b36f7802c/icons/128x128/obs-studio_com.obsproject.Studio.png
+    width: 128
+    height: 128
+developer: OBS Project
+homepage: "https://obsproject.com"
+enabled: true
+order: 99

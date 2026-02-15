@@ -1,0 +1,23 @@
+id: wiredpanda
+name: wiRED Panda
+description: Learn about logic circuits in an easy and friendly way.
+longDescription: |
+  <p>WiRed Panda is designed to help students to learn about logic circuits and simulate them in an easy and friendly way.</p>
+  <p>The main features of the software are:    Real time logic simulation;    User-friendly interface;    It&apos;s intuitive and easy to use;    Export your work as an image or a PDF.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wiredpanda
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: w/wp/wpanda.desktop/f7d83fedfb35d64cd258f9bdc672d671/icons/128x128/wiredpanda_wpanda.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

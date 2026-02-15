@@ -1,0 +1,38 @@
+id: grub-customizer
+name: Grub Customizer
+description: Customize the bootloader (GRUB2 or BURG)
+longDescription: |
+  <p>Grub Customizer is a graphical interface to configure GRUB2 and BURG. It can do changes for settings and menuentries easily.</p>
+  <p>Grub Customizer has the following features:   * Move, remove or rename menuentries (they stey updatable by update-grub).   * Edit the contents of menuentries or create new ones (internally it edits     the 40_custom file).   * Provide reinstallation of the bootloader to MBR.   * Allow make settings like default operating system, kernel params,     background image, text colors, etc.   * Allow one to change the installed operating system by running on a live     CD/DVD or from an OS inside a flash drive.</p>
+  <p>Grub Customizer is useful for customizations and recovering actions over any Linux distribution.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - grub-customizer
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - grub
+  - grub2
+  - burg
+  - configuration
+  - settings
+  - menu
+iconSources:
+  - url: g/gr/grub-customizer.desktop/A0FA7FB6027B8592B3E74C16E6E82446/icons/128x128/grub-customizer_grub-customizer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

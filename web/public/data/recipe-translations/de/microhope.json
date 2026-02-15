@@ -1,0 +1,5 @@
+{
+  "name": "µHOPE",
+  "description": "MicroHOPE Mikrocontroller-Programmiersystem",
+  "longDescription": "<p>Dieses Paket enthält eine Sammlung von Beispielprogrammen zur Ansteuerung eines ATmega32-Mikrocontrollers sowie ein Tutorial, das erklärt, wie diese kompiliert, auf den Mikrocontroller geladen und sowohl einfache als auch komplexere Anpassungen vorgenommen werden können. Es ist für die Verwendung mit dem \"microhope\"-Board konzipiert, das das Hochladen von Code auf den Mikrocontroller über eine USB-Verbindung erleichtert.</p>\n<p>Neben den Beispielen ist eine Bibliothek zur Ansteuerung aller am \"microhope\"-Board verfügbaren Peripheriegeräte enthalten: LED, LCD-Display, ADC für angeschlossene Sensoren.</p>\n<p>Eine grafische Benutzeroberfläche wird ebenfalls bereitgestellt.</p>\n"
+}

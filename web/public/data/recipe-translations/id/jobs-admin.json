@@ -1,0 +1,5 @@
+{
+  "name": "Pekerjaan Sistem",
+  "description": "Kelola pekerjaan sistem yang ada di komputer Anda",
+  "longDescription": "<p>jobs-admin adalah utilitas GTK+ sederhana yang memungkinkan administrator dengan mudah mengatur pekerjaan (layanan) yang ada di sistem. Pekerjaan dapat diaktifkan atau dinonaktifkan, dijalankan atau dihentikan, dan bahkan menyediakan pengaturan layanan yang dapat disesuaikan.</p>\n<p>jobs-admin menggunakan jobservice sebagai backend melalui D-Bus.</p>\n"
+}

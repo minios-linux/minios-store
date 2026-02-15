@@ -1,0 +1,5 @@
+{
+  "name": "ImageVis3D",
+  "description": "Aplikasi desktop untuk rendering volume data berukuran besar",
+  "longDescription": "<p>ImageVis3D adalah aplikasi rendering volume yang dirancang khusus untuk memvisualisasikan data berukuran besar. Hal ini dicapai dengan membagi dataset ke dalam beberapa tingkat detail (LoD), di mana setiap tingkatnya dipecah lagi menjadi beberapa brick (primitif rendering atomik). Interaksi dilakukan pada LoD paling kasar, yang dapat dirender secara instan di hampir semua sistem modern. Setelah jeda yang dapat dikonfigurasi, ImageVis3D akan merender tingkat detail yang lebih tinggi secara bertahap, hingga data tampil pada resolusi aslinya.</p>\n<p>Pengembangan ImageVis3D disponsori oleh NIH/NCRR Center for Integrative Biomedical Computing (CIBC), serta DOE Visualization And Analytics Center for Enabling Technologies (VACET).</p>\n"
+}

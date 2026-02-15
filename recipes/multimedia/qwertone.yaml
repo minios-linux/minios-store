@@ -1,0 +1,38 @@
+id: "qwertone"
+name: Qwertone
+description: Turns your PC into musical instrument
+longDescription: |
+  <p>
+        Qwertone is a very simple music synthesizer that relies on usual QWERTY keyboard for input.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qwertone
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/gitlab/azymohliad.Qwertone/0ff2709fcb7744db9e6e992729b55955/screenshots/image-1_orig.png
+    thumbnailUrl: com/gitlab/azymohliad.Qwertone/0ff2709fcb7744db9e6e992729b55955/screenshots/image-1_624x426@1.png
+    width: 800
+    height: 547
+iconSources:
+  - url: com/gitlab/azymohliad.Qwertone/0ff2709fcb7744db9e6e992729b55955/icons/128x128/qwertone_com.gitlab.azymohliad.Qwertone.png
+    width: 128
+    height: 128
+developer: Andrii Zymohliad
+homepage: "https://gitlab.com/azymohliad/qwertone"
+enabled: true
+order: 99

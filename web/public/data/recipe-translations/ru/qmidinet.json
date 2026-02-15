@@ -1,0 +1,5 @@
+{
+  "name": "QmidiNet",
+  "description": "Сетевой шлюз MIDI через UDP/IP Multicast",
+  "longDescription": "<p>QmidiNet — это приложение-сетевой шлюз для передачи и приёма MIDI-данных (ALSA Sequencer и/или JACK MIDI) по сети с использованием UDP/IP multicast. Вдохновлено multimidicast (http://llg.cubic.org/tools) и совместимо с ipMIDI для Windows (http://nerds.de).</p>\n"
+}

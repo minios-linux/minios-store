@@ -1,0 +1,5 @@
+{
+  "name": "Zipper",
+  "description": "Gestionnaire d’archives pour GNUstep",
+  "longDescription": "<p>Zipper est un outil permettant d’extraire et de visualiser des fichiers d’archive sous GNUstep. Ses fonctionnalités incluent :</p>\n<p> • Décompression des archives Tar (.tar.gz, .tar.bz2, .tar.xz), LHA (.lha, .lzx), RAR (.rar), ZIP (.zip), 7z (.7z, .7za), ZOO (.zoo), ACE (.ace) et ARJ (.arj)<br /> • Création d’archives (.tar.gz, .tar.bz2, .tar.xz, .lha, .zip, .7z/.7za et .zoo)<br /> • Service GNUstep « Créer une archive »</p>\n"
+}

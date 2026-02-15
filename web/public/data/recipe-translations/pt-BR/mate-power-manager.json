@@ -1,0 +1,5 @@
+{
+  "name": "Gerenciamento de Energia",
+  "description": "Configure o gerenciamento de energia",
+  "longDescription": "<p>O MATE Power Manager é um daemon de sessão para o ambiente MATE que gerencia eventos do sistema ou da área de trabalho relacionados à energia, executando as ações apropriadas. Sua filosofia é ocultar completamente essas tarefas complexas, exibindo apenas as configurações importantes para o usuário.</p>\n<p>O gerenciador de energia do MATE exibe e administra o status da bateria, eventos de conexão de energia, brilho da tela, economia de energia do processador, placa de vídeo e disco rígido, além de poder acionar suspensão, hibernação ou desligamento, tudo integrado aos demais componentes do ambiente MATE.</p>\n"
+}

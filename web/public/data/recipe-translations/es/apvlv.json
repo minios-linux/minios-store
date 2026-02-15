@@ -1,0 +1,5 @@
+{
+  "name": "apvlv",
+  "description": "Un visor de documentos minimalista",
+  "longDescription": "<p>apvlv (Alf's PDF Viewer Like Vim) es un visor de PDF/EPUB/TXT/FB2 pequeño y rápido que utiliza poppler para el renderizado. Su interfaz está orientada a usuarios que prefieren el comportamiento de vim; por ejemplo, se puede abrir un archivo PDF con ':o nombre_de_archivo'. apvlv también permite trabajar con pestañas, así que puedes abrir varios archivos al mismo tiempo en un solo programa.</p>\n"
+}

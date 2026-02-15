@@ -1,0 +1,5 @@
+{
+  "name": "Ettercap",
+  "description": "Sniffer/analisis/interseptor/logger Jaringan Serbaguna",
+  "longDescription": "<p>Ettercap mendukung diseksi aktif dan pasif pada berbagai protokol (termasuk yang terenkripsi) serta menawarkan berbagai fitur untuk analisis jaringan dan host. Injeksi data ke koneksi yang sudah berjalan serta pemfilteran (mengganti atau membuang paket) secara real-time juga dimungkinkan, dengan menjaga sinkronisasi koneksi.</p>\n<p>Berbagai mode sniffing telah diimplementasikan untuk menjadikan Ettercap sebagai paket sniffing yang lengkap dan kuat. Sniffing dapat dilakukan dalam empat mode: Berbasis IP, Berbasis MAC, Berbasis ARP (full-duplex), dan Berbasis PublicARP (half-duplex). Ettercap juga mampu mendeteksi LAN yang menggunakan switch, serta menggunakan fingerprinting OS (aktif maupun pasif) untuk memetakan topologi jaringan LAN.</p>\n"
+}

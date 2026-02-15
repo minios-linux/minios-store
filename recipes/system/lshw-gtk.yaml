@@ -1,0 +1,38 @@
+id: lshw-gtk
+name: Hardware Lister
+description: Provides information on hardware
+longDescription: |
+  <p>A small tool to provide detailed information on the hardware configuration of the machine. It can report exact memory configuration, firmware version, mainboard configuration, CPU version and speed, cache configuration, bus speed, etc. on DMI-capable x86 systems, on some PowerPC machines (PowerMac G4 is known to work) and AMD64.</p>
+  <p>This package provides lshw-gtk (the GTK+ version)</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lshw-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: lshw-gtk_lshw-gtk.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

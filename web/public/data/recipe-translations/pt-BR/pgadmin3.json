@@ -1,0 +1,5 @@
+{
+  "name": "pgAdmin III",
+  "description": "Ferramenta de Administração do PostgreSQL",
+  "longDescription": "<p>O pgAdmin III é uma aplicação para modelagem e gerenciamento de bancos de dados PostgreSQL. Pode ser utilizado para administrar PostgreSQL versão 7.3 ou superior e foi testado até o PostgreSQL 10.</p>\n<p>O pgAdmin III foi desenvolvido para atender usuários de todos os níveis, desde a execução de consultas SQL simples até o desenvolvimento de bancos de dados complexos. Sua interface gráfica suporta todos os recursos do PostgreSQL e facilita a administração. O programa inclui editor SQL com realce de sintaxe, editor de código no servidor, agendador de tarefas SQL/batch/shell, suporte para o mecanismo de replicação Slony-I e muito mais. As conexões podem ser feitas por TCP/IP ou Unix Domain Sockets (em plataformas *nix), com possibilidade de criptografia SSL para maior segurança. Não é necessário instalar drivers adicionais para comunicar-se com o servidor de banco de dados.</p>\n"
+}

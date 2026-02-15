@@ -1,0 +1,46 @@
+id: "claws-mail"
+name: Claws Mail
+description: Lightweight and Fast GTK+ based Mail Client
+longDescription: |
+  <p>Claws Mail is a powerful and full-featured mail client formerly called Sylpheed-Claws. It is also extensible using loadable plugins, which can provide support for additional features, like other storage formats, feed reader, calendar management, mail filtering, etc.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - claws-mail
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - lightweight
+  - fast
+  - gui
+  - extensible
+  - plugin
+  - pop
+  - pop3
+  - imap
+  - imap4
+  - nntp
+iconSources:
+  - url: c/cl/claws-mail.desktop/3b4c965446298807c4c3af5e01722716/icons/128x128/claws-mail_claws-mail.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

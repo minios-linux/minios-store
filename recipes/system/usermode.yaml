@@ -1,0 +1,38 @@
+id: "usermode"
+name: Disk Management
+description: Mount and unmount filesystems
+longDescription: |
+  <p>The usermode package contains several graphical tools for users: userinfo, usermount and userpasswd.  Userinfo allows users to change their finger information.  Usermount lets users mount, unmount, and format filesystems.  Userpasswd allows users to change their passwords.</p>
+  <p>Install the usermode package if you would like to provide users with graphical tools for certain account management tasks.</p>
+  
+categoryId: system
+icon: HardDrive
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - usermode
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: usermode_disks.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

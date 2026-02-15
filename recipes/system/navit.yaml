@@ -1,0 +1,46 @@
+id: "navit"
+name: Navit
+description: The open source vector based navigation program with routing engine
+longDescription: |
+  <p>Navit is a car navigation system with routing engine.</p>
+  <p>Its modular design is capable of using vector maps of various formats for routing and rendering of the displayed map. It&apos;s even possible to use multiple maps at a time.</p>
+  <p>The GTK+ or SDL user interfaces are designed to work well with touch screen displays. Points of Interest of various formats are displayed on the map.</p>
+  <p>The current vehicle position is either read from gpsd or directly from NMEA GPS sensors.</p>
+  <p>The routing engine not only calculates an optimal route to your destination, but also generates directions and even speaks to you using speech-dispatcher.</p>
+  <p>The Debian packaging for navit doesn&apos;t provide any map. To see, where you can get maps from, see &lt;http://wiki.navit-project.org/index.php/Main_Page#Maps&gt;.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - navit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gps
+  - navigation
+  - maps
+iconSources:
+  - url: n/na/navit.desktop/5ffdb8ddceed6f581f4ffa31d58771f0/icons/128x128/navit_navit.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Ebumeter",
+  "description": "Medidor de sonoridad según EBU-R128 para JACK",
+  "longDescription": "<p>Estas herramientas ayudan a controlar la sonoridad de material de audio orientado principalmente a la radiodifusión, aunque también pueden ser útiles en otras situaciones.</p>\n<p>ebumeter y ebur128 permiten medir la sonoridad Momentánea (400 ms), a Corto Plazo (3 s) e Integrada (desde el inicio hasta detenerse). Se pueden utilizar con archivos de audio y señales a través de JACK.</p>\n<p>Este paquete contiene dos programas:   * ebumeter - medidor interactivo que funciona mediante jackd   * ebur128 - aplicación de línea de comandos para medir archivos de audio</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Touchscreen kalibrieren",
+  "description": "Das Kalibrierungswerkzeug für Touchscreens ausführen",
+  "longDescription": "<p>xinput-calibrator ist ein Tool zur Kalibrierung von Touchscreens unter X.Org. Zu den Funktionen gehören:  – funktioniert mit jedem Xorg-Treiber (verwendet Xinput für Achsenwerte);  – gibt die Kalibrierung als Xorg.conf, HAL-Policy und udev-Regel aus;  – unterstützt erweiterte Treiberoptionen, wie die dynamische Kalibrierung von Evdev;  – verfügt über eine sehr intuitive grafische Benutzeroberfläche (normale X-Client-Anwendung);</p>\n"
+}

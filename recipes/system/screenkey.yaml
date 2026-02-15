@@ -1,0 +1,42 @@
+id: "screenkey"
+name: Screenkey
+description: Screencast your keys
+longDescription: |
+  <p>Screenkey is a screencast tool to display your keys inspired by Screenflick for Mac OS and based initially on key-mon project.</p>
+  <p>It’s useful to create screencasts and is also a powerful teaching tool.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - screenkey
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/thregr/screenkey/6cd61dc76468f0406450de4c4e1ad46a/screenshots/image-1_orig.png
+    thumbnailUrl: org/thregr/screenkey/6cd61dc76468f0406450de4c4e1ad46a/screenshots/image-1_624x468.png
+    width: 640
+    height: 480
+iconSources:
+  - url: org/thregr/screenkey/6cd61dc76468f0406450de4c4e1ad46a/icons/128x128/screenkey_preferences-desktop-keyboard-shortcuts.png
+    width: 128
+    height: 128
+homepage: "https://www.thregr.org/~wavexx/software/screenkey/"
+enabled: true
+order: 99

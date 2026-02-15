@@ -1,0 +1,5 @@
+{
+  "name": "Postgres Forms (pfm)",
+  "description": "Interface gráfica para o banco de dados PostgreSQL",
+  "longDescription": "<p>O Postgres Forms (pfm) é um aplicativo cliente com interface gráfica para o servidor de banco de dados PostgreSQL. Ele permite ao usuário projetar formulários para adicionar, modificar ou excluir registros das tabelas do banco de dados;</p>\n<p>  - criar vínculos (relacionamentos um-para-muitos) entre formulários para navegação no banco de dados;</p>\n<p>  - projetar e gerar relatórios baseados nos dados de uma tabela ou visão;</p>\n<p>  - editar e executar comandos SQL.</p>\n<p>Postgres Forms é implementado em Tcl/Tk, mas não é necessário que o usuário programe nada em Tcl/Tk. Basta utilizar SQL para criar tabelas, visões, formulários, vínculos e relatórios.</p>\n<p>O Postgres Forms não tenta ocultar o SQL subjacente. Pelo contrário, na maioria dos casos, exibe tanto os comandos SQL enviados ao servidor PostgreSQL quanto os resultados retornados.</p>\n<p>O servidor PostgreSQL pode ser remoto ou local.</p>\n"
+}

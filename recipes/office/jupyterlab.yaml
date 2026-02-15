@@ -1,0 +1,26 @@
+id: jupyterlab
+name: JupyterLab
+description: Run JupyterLab
+longDescription: |
+  <p>JupyterLab is the next-generation user interface for Project Jupyter offering all the familiar building blocks of the classic Jupyter Notebook (notebook, terminal, text editor, file browser, rich outputs, etc.) in a flexible and powerful user interface.</p>
+  <p>This package provides Node.js modules for JupyterLab.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jupyterlab
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - python
+iconSources:
+  - url: j/ju/jupyterlab.desktop/cae870f421ccb5835733be863ac2a58d/icons/128x128/jupyterlab_jupyterlab.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

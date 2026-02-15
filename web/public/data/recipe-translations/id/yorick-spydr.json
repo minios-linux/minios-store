@@ -1,0 +1,5 @@
+{
+  "name": "Spydr",
+  "description": "Tampilan dan analisis sederhana gambar FITS",
+  "longDescription": "<p>Spydr (dibaca seperti 'spider') adalah penampil gambar FITS. Aplikasi ini dapat dijalankan secara mandiri namun paling optimal jika diintegrasikan dalam alur kerja analisis data berbasis Yorick (Yorick adalah bahasa pemrograman interpretatif yang dikhususkan untuk komputasi numerik dan grafik ilmiah). Spydr menyediakan alat untuk memperbesar gambar, membuat potongan, histogram, fitting Gaussian/Moffat, fitting PSF (termasuk FWHM dan Strehl). Dapat digunakan untuk gambar tunggal, rangkaian gambar, maupun data cube.</p>\n"
+}

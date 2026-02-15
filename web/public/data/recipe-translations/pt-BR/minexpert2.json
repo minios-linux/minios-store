@@ -1,0 +1,5 @@
+{
+  "name": "Software de espectrometria de massas",
+  "description": "Visualize, analise e explore dados de espectrometria de massas MS^n",
+  "longDescription": "<p>\n\n\t\t\t\tminexpert é um programa utilizado para visualizar e explorar dados espectrais de massas MS^n, como espectros de massas.\n\n\t\t\t</p>\n<p>O programa oferece os seguintes recursos:</p>\n<ul>\n  <li>Abrir qualquer quantidade de arquivos de dados de espectrometria de massas no formato mzML;</li>\n  <li>O programa calcula o cromatograma TIC e o mapa de cores mz=ft(dt) quando os dados são de experimentos de espectrometria de massas com mobilidade iônica;</li>\n  <li>Qualquer número de integrações (combinações) pode ser realizado em qualquer direção;</li>\n  <li>A navegação pelos dados é intuitiva, flexível e potente;</li>\n  <li>Cálculos de clusters isotópicos com configurações detalhadas;</li>\n  <li>A grande maioria das funções do mineXpert2 pode ser automatizada via JavaScript.</li>\n</ul>\n"
+}

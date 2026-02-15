@@ -1,0 +1,27 @@
+id: nitroxcalc
+name: nitroxcalc
+description: Graphical nitrox calculator for SCUBA divers
+longDescription: |
+  <p>Nitrox is an oxygen enriched mixture used by SCUBA divers.</p>
+  <p>When using it, the maximum reacheable depth decreases and the equivalent depth changes, increasing the bottom time.</p>
+  <p>This tool is used to quickly calculate those values, depending on the nitrogen mixsture used.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nitroxcalc
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - application
+iconSources:
+  - url: n/ni/nitroxcalc.desktop/6ca486d5e6efec0e775333fa4213c306/icons/128x128/nitroxcalc_nitroxcalc.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

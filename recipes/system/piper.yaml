@@ -1,0 +1,62 @@
+id: "piper"
+name: Piper
+description: Configurable mouse configuration utility
+longDescription: |
+  <p>
+        Piper is a graphical user interface to configure gaming mice.
+        Configuration options include changing the resolution (DPI) of the
+        mouse, adding and removing profiles, setting LED colors and changing
+        button behaviors.
+      </p>
+  <p>
+        Piper requires libratbag’s ratbagd, the daemon to actually communicate with the
+        mice. Piper is merely a front end to ratbagd, ratbagd must be
+        installed and running when Piper is launched.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - piper
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gaming
+  - configuration
+  - mouse
+  - mice
+screenshotSources:
+  - url: org/freedesktop/Piper/6ab50cb059d8e04e39e757d778931009/screenshots/image-1_orig.png
+    thumbnailUrl: org/freedesktop/Piper/6ab50cb059d8e04e39e757d778931009/screenshots/image-1_624x351@1.png
+    width: 960
+    height: 540
+  - url: org/freedesktop/Piper/6ab50cb059d8e04e39e757d778931009/screenshots/image-2_orig.png
+    thumbnailUrl: org/freedesktop/Piper/6ab50cb059d8e04e39e757d778931009/screenshots/image-2_624x351@1.png
+    width: 960
+    height: 540
+  - url: org/freedesktop/Piper/6ab50cb059d8e04e39e757d778931009/screenshots/image-3_orig.png
+    thumbnailUrl: org/freedesktop/Piper/6ab50cb059d8e04e39e757d778931009/screenshots/image-3_624x351@1.png
+    width: 960
+    height: 540
+iconSources:
+  - url: org/freedesktop/Piper/6ab50cb059d8e04e39e757d778931009/icons/128x128/piper_org.freedesktop.Piper.png
+    width: 128
+    height: 128
+homepage: "https://github.com/libratbag/piper/"
+enabled: true
+order: 99

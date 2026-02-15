@@ -1,0 +1,5 @@
+{
+  "name": "gEDA PCB",
+  "description": "Membuat dan mengedit tata letak papan sirkuit cetak (PCB)",
+  "longDescription": "<p>PCB adalah editor interaktif untuk papan sirkuit cetak (PCB) yang tersedia untuk sistem Unix, Linux, Windows, dan Mac.</p>\n<p>PCB dilengkapi fitur rats nest dan impor skematik/netlist, pemeriksaan aturan desain (DRC), serta mampu menghasilkan output standar industri seperti RS-274X (Gerber), NC drill, IPC-D-356 netlist, dan data centroid (X-Y data) untuk kebutuhan fabrikasi serta perakitan papan, juga gambar fotorealistik dan tampilan ulasan desain.</p>\n<p>PCB menawarkan fitur tingkat lanjut seperti autorouter, topological router, dan berbagai pengoptimal jejak yang dapat menghemat waktu proses tata letak secara signifikan.</p>\n<p>Untuk kebutuhan khusus, PCB menyediakan API plug-in untuk menambahkan fungsionalitas baru yang dapat digunakan langsung dari GUI maupun melalui skrip.</p>\n"
+}

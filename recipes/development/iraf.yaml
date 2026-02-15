@@ -1,0 +1,42 @@
+id: iraf
+name: IRAF
+description: Image Reduction and Analysis Facility
+longDescription: |
+  <p>IRAF is the &quot;Image Reduction and Analysis Facility&quot;. The main IRAF distribution includes a good selection of programs for general image processing and graphics.</p>
+  <p>Other external or layered packages are available for applications such as data acquisition or handling data from other observatories and wavelength regimes such as the Hubble Space Telescope (optical), EUVE (extreme ultra-violet), or ROSAT and AXAF (X-ray). These external packages are distributed separately from the main IRAF distribution but can be easily installed. The IRAF system also the programmable Command Language scripting facility.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - iraf
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - astronomy
+screenshotSources:
+  - url: c/co/community.iraf.core/c797fb517417f1b720ff9d5f4357b819/screenshots/image-1_orig.png
+    thumbnailUrl: c/co/community.iraf.core/c797fb517417f1b720ff9d5f4357b819/screenshots/image-1_624x488@1.png
+    width: 656
+    height: 514
+iconSources:
+  - cached: iraf_iraf.png
+    width: 64
+    height: 64
+homepage: "https://iraf-community.github.io"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "KDiff3",
+  "description": "Ein Werkzeug zum Vergleichen und Zusammenführen von Dateien und Verzeichnissen",
+  "longDescription": "<p>KDiff3 ist ein Werkzeug zum Vergleichen und Zusammenführen von Dateien und Verzeichnissen, das folgende Funktionen bietet:</p>\n<ul>\n  <li>vergleicht und führt zwei oder drei Textdateien oder Verzeichnisse zusammen,</li>\n  <li>zeigt Unterschiede zeilen- und zeichenweise(!) an,</li>\n  <li>bietet eine automatische Zusammenführungsfunktion,</li>\n  <li>verfügt über einen Editor zur komfortablen Lösung von Merge-Konflikten,</li>\n  <li>bietet Netzwerktransparenz über KIO,</li>\n  <li>besitzt Optionen zum Hervorheben oder Ausblenden von Änderungen bei Leerzeichen oder Kommentaren,</li>\n  <li>unterstützt Unicode, UTF-8 und andere Dateikodierungen,</li>\n  <li>druckt Unterschiede aus,</li>\n  <li>unterstützt das Zusammenführen von Versionskontroll-Schlüsselwörtern und Historien.</li>\n</ul>\n"
+}

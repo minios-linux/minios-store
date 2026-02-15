@@ -1,0 +1,5 @@
+{
+  "name": "Gnubiff",
+  "description": "Gnubiff est un programme de notification de courriels.",
+  "longDescription": "<p>gnubiff surveille l’arrivée de nouveaux courriels dans un fichier, un dossier au format qmail ou MH, ou via un serveur IMAP4, POP3 ou APOP. Il peut afficher les en-têtes (nombre, expéditeur, objet et date) à la réception de nouveaux messages.</p>\n<p>Bien que gnubiff soit initialement conçu comme une applet pour le tableau de bord GNOME, il peut également fonctionner sous forme d’icône indépendante sur le bureau dans d’autres environnements.</p>\n"
+}

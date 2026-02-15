@@ -1,0 +1,26 @@
+id: gespeaker
+name: Gespeaker
+description: A GTK frontend for espeak
+longDescription: |
+  <p>Gespeaker is a GTK+ frontend for eSpeak and mbrola. It allows one to play a text in many languages with settings for voice, pitch, volume, speed and word gap.</p>
+  <p>Since version 0.6 it can use mbrola package and voices to obtain a more realistic text reading experience.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gespeaker
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gespeaker_gespeaker.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

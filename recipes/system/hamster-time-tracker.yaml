@@ -1,0 +1,58 @@
+id: "hamster-time-tracker"
+name: Hamster
+description: Your personal time keeping tool
+longDescription: |
+  <p>
+        Hamster is time tracking for individuals. It helps you to keep track of how
+        much time you have spent during the day on activities you choose to track.
+      </p>
+  <p>
+        Whenever you change from doing one task to other, you change your current
+        activity in Hamster. After a while you can see how many hours you have spent on
+        what. Maybe print it out, or export to some suitable format, if time reporting
+        is a request of your employer.
+      </p>
+  <p>Features:</p>
+  <ul>
+    <li>Fast and easy data entry with autocompletion of recent activities</li>
+    <li>Flexible grouping with @categories and #tags</li>
+    <li>Day, week, month or custom views with tallies by groups</li>
+    <li>Generation of html reports (can be customized)</li>
+    <li>Data export in text, xml and tsv formats</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hamster-time-tracker
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/gnome/Hamster/b5b0252f48b31de407eba7423aaddaf0/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Hamster/b5b0252f48b31de407eba7423aaddaf0/screenshots/image-1_624x495@1.png
+    width: 719
+    height: 571
+  - url: org/gnome/Hamster/b5b0252f48b31de407eba7423aaddaf0/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Hamster/b5b0252f48b31de407eba7423aaddaf0/screenshots/image-2_624x491@1.png
+    width: 717
+    height: 565
+iconSources:
+  - url: org/gnome/Hamster/b5b0252f48b31de407eba7423aaddaf0/icons/128x128/hamster-time-tracker_org.gnome.Hamster.GUI.png
+    width: 128
+    height: 128
+homepage: "https://github.com/projecthamster/hamster/wiki"
+enabled: true
+order: 99

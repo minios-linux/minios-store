@@ -1,0 +1,5 @@
+{
+  "name": "Btrfs Assistant",
+  "description": "Herramienta de gestión GUI para facilitar la administración de sistemas de archivos Btrfs",
+  "longDescription": "<p>Btrfs Assistant es una herramienta de gestión con interfaz gráfica que simplifica la administración de sistemas de archivos Btrfs.</p><p>Sus principales características son:</p><ul><li>Vista clara y detallada de los metadatos de Btrfs</li><li>Visualización sencilla de subvolúmenes con o sin instantáneas de Snapper/Timeshift</li><li>Ejecución y monitoreo de operaciones de scrub y balanceo</li><li>Eliminación de subvolúmenes con un solo clic</li><li>Interfaz de gestión para Snapper con funcionalidad mejorada de restauración</li><li>Interfaz para el mantenimiento de Btrfs</li></ul>"
+}

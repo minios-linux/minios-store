@@ -1,0 +1,5 @@
+{
+  "name": "Gjots2 Jotter",
+  "description": "Menyimpan dan mengatur catatan acak Anda",
+  "longDescription": "<p>gjots2 adalah aplikasi jotter (pengolah outline) dan pencatat catatan yang cukup sederhana untuk desktop Anda.</p>\n<p>Anda dapat menggunakan gjots2 untuk mengorganisir catatan menjadi struktur pohon, menambahkan pemikiran dan berbagai hal lainnya sesuai kebutuhan. Anda juga dapat mengekspor catatan menjadi format HTML, XML, postscript, pdf, man, dan lainnya (lihat panduan online untuk contoh konversi ke HTML).</p>\n<p>Beberapa orang menggunakannya untuk catatan, data pribadi, resep, dokumen DocBook XML, bahkan PIN dan kata sandi (dapat dienkripsi menggunakan ccrypt(1), openssl(1), atau gpg(1)).</p>\n<p>Aplikasi ini mirip dengan kjots di KDE, namun menggunakan library GTK-2.</p>\n"
+}

@@ -1,0 +1,35 @@
+id: "oregano"
+name: Oregano
+description: "Schematic, capture and simulation of electronic circuits"
+longDescription: |
+  <p>Oregano is a GNOME application for schematic capture and printing of electronic circuits. It can simulate the circuits using Gnucap, ng-spice or Berkeley spice.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - oregano
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: o/or/oregano.desktop/14d335376336248dabd0271123be8ef1/icons/128x128/oregano_oregano.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

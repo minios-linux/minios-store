@@ -1,0 +1,30 @@
+id: litecoin-qt
+name: Litecoin
+description: Litecoin P2P Cryptocurrency
+longDescription: |
+  <p>Litecoin is a free open source peer-to-peer electronic cash system that is completely decentralized, without the need for a central server or trusted parties.  Users hold the crypto keys to their own money and transact directly with each other, with the help of a P2P network to check for double-spending. Litecoin is a fork of Bitcoin.</p>
+  <p>By default connects to an IRC network to discover other peers.</p>
+  <p>Full transaction history is stored locally at each client. This requires 5+ GB of space, slowly growing.</p>
+  <p>This package provides Litecoin-Qt, a GUI for Litecoin based on Qt.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - litecoin-qt
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: litecoin-qt_litecoin.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

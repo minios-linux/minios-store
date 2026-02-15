@@ -1,0 +1,5 @@
+{
+  "name": "GrimRipper",
+  "description": "Ripper di CD audio, codificatore e recupero dei metadati.",
+  "longDescription": "<p>\n      GrimRipper è un'interfaccia grafica per il ripping di CD audio. Recupera i metadati dei CD da database online e comprime le tracce audio.\n    </p>\n<p>Codec supportati: WAV, MP3, Ogg Vorbis, FLAC, Opus, Wavpack, Musepack, AAC e file audio Monkey's.</p>\n<p>Funzionalità:</p>\n<ul>\n  <li>Utilizza CDDB per nominare e taggare ogni traccia</li>\n  <li>Crea playlist M3U</li>\n  <li>Può codificare in più formati durante la stessa sessione</li>\n  <li>Ripping e codifica simultanei</li>\n  <li>Non richiede un ambiente desktop specifico</li>\n</ul>\n"
+}

@@ -1,0 +1,43 @@
+id: "dxf2gcode"
+name: dxf2gcode converter
+description: 2D dxf drawings to CNC machine compatible G-Code converter
+longDescription: |
+  <p>This program reads 2D mechanical drawings of parts to be fabricated and produces G-code tool movement instructions for running on automatic machine tools (CNC machines) such as milling machines and lathes.</p>
+  <p>This is a graphical CAM (Computer Aided Manufacturing) program. It accepts input in DXF, PDF, or Postscript format.  It supports milling, drilling, and turning operations, as well as work-holding tabs.</p>
+  
+categoryId: graphics
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dxf2gcode
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - cam
+  - cnc
+  - dxf
+  - g-code
+screenshotSources:
+  - url: net/sourceforge/dxf2gcode/0d20e06fea4fa3a47486c8c3c86e51a0/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/dxf2gcode/0d20e06fea4fa3a47486c8c3c86e51a0/screenshots/image-1_624x487@1.png
+    width: 816
+    height: 638
+  - url: net/sourceforge/dxf2gcode/0d20e06fea4fa3a47486c8c3c86e51a0/screenshots/image-2_orig.png
+    thumbnailUrl: net/sourceforge/dxf2gcode/0d20e06fea4fa3a47486c8c3c86e51a0/screenshots/image-2_624x500@1.png
+    width: 845
+    height: 678
+iconSources:
+  - url: net/sourceforge/dxf2gcode/0d20e06fea4fa3a47486c8c3c86e51a0/icons/128x128/dxf2gcode_dxf2gcode.png
+    width: 128
+    height: 128
+homepage: "https://sourceforge.net/projects/dxf2gcode/"
+enabled: true
+order: 99

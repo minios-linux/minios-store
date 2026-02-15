@@ -1,0 +1,26 @@
+id: wicd-gtk
+name: Wicd Network Manager
+description: Start the Wicd client without system tray icon
+longDescription: |
+  <p>Wicd is a general-purpose network configuration server which aims to provide a simple but flexible interface for connecting to networks. Its features include:  * wide variety of settings;  * ability to connect to (and maintain profiles for) both wired and    wireless networks;  * support for many encryption schemes, including WEP, WPA, WPA2 and    custom schemes;  * wireless-tools compatibility.</p>
+  <p>This package provides the GTK+ client, which has no GNOME dependencies, making it easy to use in Xfce, Fluxbox, Openbox, Enlightenment, ... It also supports a tray icon showing network activity and signal strength.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wicd-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: w/wi/wicd.desktop/F019C454A04D34DF1D66689B4935BAC9/icons/128x128/wicd-gtk_wicd-gtk.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

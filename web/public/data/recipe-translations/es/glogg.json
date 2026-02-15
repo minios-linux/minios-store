@@ -1,0 +1,5 @@
+{
+  "name": "glogg",
+  "description": "Un explorador de registros inteligente e interactivo.",
+  "longDescription": "<p>glogg es una aplicación multiplataforma con interfaz gráfica que permite examinar y buscar en archivos de registro extensos o complejos. Está orientada a programadores y administradores de sistemas, y puede considerarse una combinación gráfica e interactiva de grep y less.</p>\n<p>Entre sus funciones principales se incluyen:  * Uso de expresiones regulares egrep para buscar o filtrar el registro.  * Visualización interactiva de los resultados en una segunda ventana filtrada.  * Coloreado del registro y de los resultados de búsqueda.  * Lectura directa del archivo en disco, sin cargarlo completamente en memoria.  * Manejo eficiente de archivos grandes (&gt;4 GiB).  * Compatibilidad con archivos codificados en UTF-8 e ISO-8859-1.  * Seguimiento en tiempo real de registros mientras se escriben en disco.  * Posibilidad de insertar marcas en líneas interesantes del registro.  * Soporte para atajos de teclado tipo less/vim para navegar por el archivo.</p>\n"
+}

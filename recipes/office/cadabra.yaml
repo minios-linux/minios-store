@@ -1,0 +1,33 @@
+id: cadabra
+name: Cadabra
+description: Computer algebra system for field theory problems
+longDescription: |
+  <p>Cadabra is a computer algebra system designed specifically for the solution of problems encountered in field theory. It has extensive functionality for tensor polynomial simplification including multi-term symmetries, fermions and anti-commuting variables, Clifford algebras and Fierz transformations, implicit coordinate dependence, multiple index types and many more. The input format is a subset of TeX.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cadabra
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: cadabra_cadabra.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

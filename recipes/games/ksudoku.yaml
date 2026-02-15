@@ -1,0 +1,45 @@
+id: "ksudoku"
+name: KSudoku
+description: Complete a numeric puzzle with the numbers from one to nine
+longDescription: |
+  <p>KSudoku is a free version of the popular logic game Sudoku developed by the KDE community.
+        The game is to fill a nine by nine grid with the numbers from one to nine filling
+        the rows, columns and three by three squares without repeating a value on them.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ksudoku
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/ksudoku/b8e2c0f958c4e1368ca99e6bc4f1aaa7/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ksudoku/b8e2c0f958c4e1368ca99e6bc4f1aaa7/screenshots/image-1_624x581@1.png
+    width: 836
+    height: 779
+iconSources:
+  - url: org/kde/ksudoku/b8e2c0f958c4e1368ca99e6bc4f1aaa7/icons/128x128/ksudoku_ksudoku.png
+    width: 128
+    height: 128
+homepage: "https://games.kde.org/game.php?game=ksudoku"
+enabled: true
+order: 99

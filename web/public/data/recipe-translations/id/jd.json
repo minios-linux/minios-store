@@ -1,0 +1,5 @@
+{
+  "name": "JD 2ch browser",
+  "description": "JD adalah peramban 2ch berbasis gtkmm2.",
+  "longDescription": "<p>JD menawarkan pengalaman menjelajah yang nyaman pada sistem papan buletin bergaya 2ch. Fitur-fiturnya meliputi:</p>\n<p> - login otomatis,  - melihat/mengirim pesan,  - melihat gambar,  - gesture mouse,  - daftar abaikan,  - mode \"play-by-play\".</p>\n<p>Aplikasi ini juga dapat secara signifikan mengurangi beban pada server dengan melewati program CGI dan langsung mengambil file data thread ke hard drive lokal Anda.</p>\n<p>Situs forum web bergaya \"2ch\" berasal dari 2channel, salah satu forum internet paling populer di Jepang. Situs-situs seperti ini umumnya hanya tersedia dalam bahasa Jepang. Misalnya:</p>\n<p> - 2channel http://www.2ch.net  - Shitaraba http://rentalbbs.shitaraba.com/  - Machi-BBS http://www.machi.to/</p>\n"
+}

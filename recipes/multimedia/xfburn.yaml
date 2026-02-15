@@ -1,0 +1,43 @@
+id: "xfburn"
+name: Xfburn
+description: CD and DVD burning application
+longDescription: |
+  <p>Xfburn is a tool to help burning CDs and DVDs. It fits well in the Xfce Desktop Environment but can be used anywhere.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfburn
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/xfce/xfburn/4af023ab317cade52fd94950d990b741/screenshots/image-1_orig.png
+    thumbnailUrl: org/xfce/xfburn/4af023ab317cade52fd94950d990b741/screenshots/image-1_624x371.png
+    width: 800
+    height: 476
+iconSources:
+  - url: org/xfce/xfburn/ae70409c22d846adb3127ff04cac053c/icons/128x128/xfburn_stock_xfburn.png
+    width: 128
+    height: 128
+homepage: "https://docs.xfce.org/apps/xfburn/start"
+enabled: true
+order: 99

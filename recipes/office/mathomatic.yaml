@@ -1,0 +1,39 @@
+id: mathomatic
+name: Mathomatic
+description: Do symbolic mathematics and quick calculations
+longDescription: |
+  <p>Mathomatic implements most of the rules of algebra for the mathematical operators +, -, *, /, % (modulus), and power (including roots).</p>
+  <p>Mathomatic can symbolically:</p>
+  <p> * combine and solve equations,  * completely simplify and compare expressions and equations,  * do simple calculus transformations and series,  * do standard, complex number, modular, and polynomial arithmetic,  * generate optimized C, Java, and Python language code from    simplified equations,  * plot expressions with gnuplot in two or three dimensions,  * do quick calculations, colorize expressions, etc.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mathomatic
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: mathomatic_mathomatic.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

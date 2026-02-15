@@ -1,0 +1,39 @@
+id: configure-debian
+name: Configure-Debian
+description: Reconfigure Your Packages
+longDescription: |
+  <p>configure-debian is a program which presents a list of packages which use Debconf, Debian&apos;s configuration management system.</p>
+  <p>Debconf provides first-time installation wizards that run when a package is installed. You may reconfigure these packages at a later time, if you wish, and configure-debian makes that very easy.</p>
+  <p>configure-debian splits the package lists into the subsections which make up the Debian archive, such as x11, base, gnome, or kde.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - configure-debian
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: configure-debian_configure-debian-48x48.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "xzgv Image Viewer",
+  "description": "Penampil gambar ringan",
+  "longDescription": "<p>xzgv adalah aplikasi penampil gambar untuk X yang dilengkapi dengan pemilih file berbasis thumbnail. Mendukung sebagian besar format file, dan thumbnail yang digunakan kompatibel dengan xv, zgv, dan Gimp. Program ini juga dapat dijalankan dengan perintah ‘xzgv file(s)’ untuk melewati pemilih file secara langsung.</p>\n<p>xzgv berbeda dengan penampil gambar lain di X karena menggunakan satu jendela untuk pemilih file dan penampil gambar. Tidak seperti xv, xzgv memungkinkan metode scroll dan penyesuaian ke ukuran jendela untuk menampilkan gambar besar, serta tidak pernah mengubah rasio aspek gambar.</p>\n<p>Penampil ini juga mendukung kontrol keyboard secara lengkap; jika Anda lebih suka navigasi lewat keyboard, program ini sangat direkomendasikan. Namun, penggunaan mouse juga tetap didukung dengan baik.</p>\n<p>Perlu diketahui, program ini dikembangkan oleh penulis aplikasi \"zgv\" berbasis svgalib, dan menawarkan fitur serupa.</p>\n<p>Situs Web: http://sourceforge.net/projects/xzgv</p>\n"
+}

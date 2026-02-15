@@ -1,0 +1,41 @@
+id: "therion-viewer"
+name: Therion loch viewer
+description: View therion surveys in 3D
+longDescription: |
+  <p>Therion is cave-survey drawing and modelling software. This package contains the 3D model viewer for therion models produced by version 0.4 or later. It can also display Survex .3d and Compass .plt files.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - therion-viewer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - surveying
+  - map
+  - mapping
+iconSources:
+  - url: t/th/therion-viewer.desktop/f97572fe17ea235413b7573f07e5f7df/icons/128x128/therion-viewer_therion.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

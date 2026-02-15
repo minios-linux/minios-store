@@ -1,0 +1,38 @@
+id: "qlipper"
+name: Qlipper
+description: Clipboard history tool
+longDescription: |
+  <p>A Lightweight and cross-platform clipboard history applet. It provides the following features:</p>
+  <p> - saves clipboard history entries and restores them  - lightweight  - systray docking app  - few requirements  - can be used in GNOME and Windows (and more)</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qlipper
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: q/ql/qlipper.desktop/3dd944b401ac0f45bbdce3502b3486f5/icons/128x128/qlipper_qlipper.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

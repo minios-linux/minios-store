@@ -1,0 +1,5 @@
+{
+  "name": "DSDA-Doom",
+  "description": "klon peningkatan dari game tembak-menembak klasik Doom",
+  "longDescription": "<p>Ini adalah fork dari prboom+ dengan banyak fitur baru, termasuk:</p>\n<p> * Dukungan untuk Heretic, Hexen, MBF21, dan Doom-in-Hexen  * Konsol dalam game dan scripting  * Dukungan penuh untuk pengontrol  * Mode cahaya berbasis palet untuk opengl  * Fitur debugging untuk pengujian  * Mode ketat untuk speedrunning  * Beragam peningkatan kenyamanan  * Alat canggih untuk TAS (Tool-Assisted Speedrun)  * Fitur rewind</p>\n<p>DSDA-Doom memerlukan data game agar dapat dijalankan. Data game gratis tersedia di paket freedoom. Data game komersial dapat dikemas menggunakan game-data-packager. DSDA-Doom mendukung semua varian Doom, termasuk The Ultimate Doom, Doom 2, dan Final Doom serta Chex(R) Quest, HacX, Freedoom: Phase 1 dan Phase 2, serta FreeDM.</p>\n<p>Selain itu, DSDA-Doom juga mendukung Heretic dan Hexen.</p>\n"
+}

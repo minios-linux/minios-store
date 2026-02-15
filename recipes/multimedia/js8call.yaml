@@ -1,0 +1,34 @@
+id: js8call
+name: js8call
+description: Amateur Radio Weak Signal Operating
+longDescription: |
+  <p>JS8Call is using the JS8 Digital Mode for providing weak signal keyboard to keyboard messaging to Amateur Radio Operators.</p>
+  <p>JS8Call is an experiment to test the feasibility of a digital mode with the robustness of FT8, combined with a messaging and network protocol layer for weak signal communication on HF, using a keyboard messaging style interface. It is not designed for any specific purpose other than connecting amateur radio operators who are operating under weak signal conditions. JS8Call is heavily inspired by WSJT-X, Fldigi, and FSQCall and would not exist without the hard work and dedication of the many developers in the amateur radio community.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - js8call
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: js8call_js8call_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

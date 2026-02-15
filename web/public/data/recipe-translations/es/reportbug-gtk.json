@@ -1,0 +1,5 @@
+{
+  "name": "Reportbug",
+  "description": "Reporta errores al BTS de Debian",
+  "longDescription": "<p>reportbug es una herramienta diseñada para facilitar el reporte de errores en Debian y distribuciones derivadas. Entre sus características se incluyen:</p>\n<p> * Integración con los lectores de correo mutt y mh/nmh.  * Acceso a informes de errores existentes para identificar fácilmente si un problema ya ha sido reportado.  * Comprobación automática de versiones más recientes de los paquetes.  * Verificación opcional de la integridad de los paquetes mediante debsums.  * Soporte para el seguimiento de informes pendientes.  * Integración opcional con PGP/GnuPG.</p>\n<p>reportbug está pensado para usarse en sistemas que tengan un agente de transporte de correo instalado, como exim o sendmail; sin embargo, puedes editar el archivo de configuración y enviar los reportes usando cualquier servidor de correo disponible.</p>\n<p>Este paquete incluye un archivo de escritorio e icono, y cuenta con dependencias para permitir el funcionamiento del modo UI basado en GTK+ de reportbug.</p>\n"
+}

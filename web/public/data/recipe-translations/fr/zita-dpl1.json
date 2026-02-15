@@ -1,0 +1,5 @@
+{
+  "name": "Zita-Dpl1",
+  "description": "Un limiteur numérique de crête avec anticipation, utilisant des algorithmes spéciaux pour une réponse rapide sans distorsion excessive des basses fréquences.",
+  "longDescription": "<p>DPL1 est un limiteur numérique de crête avec anticipation, idéal pour éviter la saturation en fin de chaîne lors du mastering ou du mixage. Il peut aussi s'utiliser comme effet sur des pistes d’instruments individuelles.</p>\n<p>La latence est de 1,2 ms, arrondie au multiple de 8, 16 ou 32 échantillons le plus proche, selon la fréquence d’échantillonnage. Cela correspond à 56 échantillons à 44,1 kHz, 64 échantillons à 48 kHz, et le double pour 88,2 ou 96 kHz.</p>\n<p>Dans la plupart des cas, il suffit d’utiliser -k nombre_de_canaux, de 1 à 16. La même réduction de gain est appliquée à tous les canaux.</p>\n"
+}

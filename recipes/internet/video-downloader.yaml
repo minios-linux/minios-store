@@ -1,0 +1,52 @@
+id: video-downloader
+name: Video Downloader
+description: Download web videos
+longDescription: |
+  <p>
+        Download videos from websites with an easy-to-use interface.
+        Provides the following features:
+      </p>
+  <ul>
+    <li>Convert videos to MP3</li>
+    <li>Supports password-protected and private videos</li>
+    <li>Download single videos or whole playlists</li>
+    <li>Automatically selects a video format based on your quality demands</li>
+  </ul>
+  <p>
+        Based on yt-dlp.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - video-downloader
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - youtube
+  - download
+screenshotSources:
+  - url: com/github/unrud.VideoDownloader/474270e7338a68ab271e6405315b55cf/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/unrud.VideoDownloader/474270e7338a68ab271e6405315b55cf/screenshots/image-1_624x468@1.png
+    width: 722
+    height: 542
+  - url: com/github/unrud.VideoDownloader/474270e7338a68ab271e6405315b55cf/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/unrud.VideoDownloader/474270e7338a68ab271e6405315b55cf/screenshots/image-2_624x468@1.png
+    width: 722
+    height: 542
+  - url: com/github/unrud.VideoDownloader/474270e7338a68ab271e6405315b55cf/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/unrud.VideoDownloader/474270e7338a68ab271e6405315b55cf/screenshots/image-3_624x468@1.png
+    width: 722
+    height: 542
+iconSources:
+  - url: com/github/unrud.VideoDownloader/474270e7338a68ab271e6405315b55cf/icons/128x128/video-downloader_com.github.unrud.VideoDownloader.png
+    width: 128
+    height: 128
+homepage: "https://github.com/Unrud/video-downloader"
+enabled: true
+order: 99

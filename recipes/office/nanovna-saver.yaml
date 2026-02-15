@@ -1,0 +1,28 @@
+id: nanovna-saver
+name: NanoVNASaver
+description: "Tool for reading, displaying and saving data from the NanoVNA"
+longDescription: |
+  <p>The NanoVNA device is a vector network analyzer and antenna analyzer, useful to test or instrument various kinds of radio networks.</p>
+  <p>NanoVNA-saver imports Touchstone files from the NanoVNA, sweeps frequency spans in segments to gain more than 101 data points, and generally displays and analyzes the resulting data.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nanovna-saver
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - radio
+  - frequency
+  - analysis
+iconSources:
+  - cached: nanovna-saver_NanoVNASaver_48x48.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

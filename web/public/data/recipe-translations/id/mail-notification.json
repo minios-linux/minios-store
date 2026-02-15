@@ -1,0 +1,5 @@
+{
+  "name": "Mail Notification",
+  "description": "Konfigurasi Mail Notification",
+  "longDescription": "<p>mail-notification bekerja dengan tray sistem yang mendukung spesifikasi Freedesktop.org System Tray Specification, seperti GNOME Panel Notification Area, xfce4 Notification Area, dan KDE System Tray.</p>\n<p>Fitur Mail Notification meliputi:   * dukungan banyak kotak surat   * kompatibel dengan mbox, MH, Maildir, Sylpheed, POP3, IMAP, Gmail, dan Evolution   * dukungan kotak surat produk Mozilla (Mozilla, SeaMonkey, Thunderbird, ...)   * dukungan autentikasi SASL   * dukungan autentikasi APOP   * dukungan SSL/TLS   * deteksi otomatis format mailbox   * notifikasi instan (tergantung pengaturan Anda)   * sesuai standar HIG 2.0</p>\n<p>Catatan: Dukungan Evolution tersedia melalui mail-notification-evolution.</p>\n"
+}

@@ -1,0 +1,38 @@
+id: "transcend"
+name: Transcend
+description: "retro-style, abstract 2D shooter"
+longDescription: |
+  <p>Transcend can best be described as retro-style, abstract 2-D shooter. The graphics are geometrical, and the pace is sometimes frenzied.</p>
+  <p>Two features set Transcend apart from other games. First, its dynamic graphical engine, which can smoothly morph from one complex shape to another, produces striking displays. Combining these dynamic shapes with subtle randomizations makes each play through a Transcend level visually different from the last. The second novel feature is Transcend&apos;s musical power-up system. As you play through a level, you are simultaneously assembling an abstract visual collage and arranging a unique piece of music. Transcend merges video games with pure art---it can be viewed either as a game or as a multimedia sculpture.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - transcend
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/tr/transcend.desktop/c37aa4a0230f25737b814df2476d6c7a/icons/128x128/transcend_transcend.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

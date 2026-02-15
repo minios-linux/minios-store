@@ -1,0 +1,5 @@
+{
+  "name": "Gimmix",
+  "description": "O Gimmix é um cliente gráfico para o Music Player Daemon (MPD), escrito em C.",
+  "longDescription": "<p>O Gimmix é um cliente gráfico para o MPD (Music Player Daemon) desenvolvido com GTK+2. É muito simples e fácil de usar, mas oferece diversos recursos para aprimorar sua experiência de áudio.</p>\n<p>Recursos:<br> * Interface simples e limpa.<br> * Navegador de biblioteca.<br> * Busca na biblioteca (por artista, álbum, nome do arquivo, etc).<br> * Gerenciamento de playlists do MPD.<br> * Suporte à edição de tags ID3v2.<br> * Ícone na bandeja do sistema.<br> * Controle do Gimmix via teclado.<br> * Notificações (exibe a música atual na bandeja do sistema).<br> * Baixo consumo de memória.</p>\n"
+}

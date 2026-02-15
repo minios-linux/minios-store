@@ -1,0 +1,5 @@
+{
+  "name": "FSearch",
+  "description": "Une application graphique de recherche de fichiers",
+  "longDescription": "<p>\n            FSearch vous permet de retrouver fichiers et dossiers de manière rapide et efficace.\n            Il suffit de taper quelques lettres pour voir les résultats s'afficher presque instantanément.\n        </p>\n<p>\n            L'application offre de nombreuses fonctionnalités pour rendre la recherche aussi puissante et pratique que possible, telles que :\n        </p>\n<ul>\n  <li>Recherche insensible à la casse (par exemple, \"fsearch\" trouvera aussi \"FSearch\")</li>\n  <li>Prise en charge des expressions régulières</li>\n  <li>Support des jokers (wildcards)</li>\n  <li>Filtres de recherche (ex : limiter la recherche aux fichiers audio)</li>\n  <li>Exclusion de certains fichiers et dossiers</li>\n  <li>Tri rapide par nom, chemin, taille, date de modification ou extension</li>\n</ul>\n<p>\n            Remarque : En raison de l'isolation Flatpak, FSearch ne peut pas accéder à l'ensemble des fichiers du système.\n        </p>\n"
+}

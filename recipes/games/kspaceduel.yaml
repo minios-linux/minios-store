@@ -1,0 +1,44 @@
+id: "kspaceduel"
+name: KSpaceDuel
+description: Space Arcade Game
+longDescription: |
+  <p>In KSpaceDuel each of two possible players control a satellite spaceship orbiting the sun.
+        As the game progresses players have to eliminate the opponent&apos;s spacecraft with bullets or mines.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kspaceduel
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kspaceduel/fc679314bfeb5fa6f43765d01783f164/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kspaceduel/fc679314bfeb5fa6f43765d01783f164/screenshots/image-1_624x548@1.png
+    width: 906
+    height: 797
+iconSources:
+  - url: org/kde/kspaceduel/fc679314bfeb5fa6f43765d01783f164/icons/128x128/kspaceduel_kspaceduel.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/applications/games/org.kde.kspaceduel"
+enabled: true
+order: 99

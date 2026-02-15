@@ -1,0 +1,70 @@
+id: "pybik"
+name: Pybik
+description: Rubik's cube game
+longDescription: |
+  <p>Pybik is a 3D puzzle game about the cube invented by Ernő Rubik.</p>
+  <ul>
+    <li>Various 3D puzzles, such as cubes, towers, prisms, tetrahedra, octahedra, dodecahedra and many more</li>
+    <li>Solvers for some puzzles</li>
+    <li>Pretty patterns</li>
+    <li>Editor for move sequences</li>
+    <li>Custom colors and images on the surface of the puzzles</li>
+  </ul>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pybik
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - rubik
+  - cube
+  - puzzle
+  - magic
+screenshotSources:
+  - url: net/launchpad/pybik/a7186450e917588e52c86234be6cb5a3/screenshots/image-1_orig.png
+    thumbnailUrl: net/launchpad/pybik/a7186450e917588e52c86234be6cb5a3/screenshots/image-1_624x350.png
+    width: 754
+    height: 423
+  - url: net/launchpad/pybik/a7186450e917588e52c86234be6cb5a3/screenshots/image-2_orig.png
+    thumbnailUrl: net/launchpad/pybik/a7186450e917588e52c86234be6cb5a3/screenshots/image-2_624x350.png
+    width: 754
+    height: 423
+  - url: net/launchpad/pybik/a7186450e917588e52c86234be6cb5a3/screenshots/image-3_orig.png
+    thumbnailUrl: net/launchpad/pybik/a7186450e917588e52c86234be6cb5a3/screenshots/image-3_624x350.png
+    width: 754
+    height: 423
+  - url: net/launchpad/pybik/a7186450e917588e52c86234be6cb5a3/screenshots/image-4_orig.png
+    thumbnailUrl: net/launchpad/pybik/a7186450e917588e52c86234be6cb5a3/screenshots/image-4_624x350.png
+    width: 754
+    height: 423
+  - url: net/launchpad/pybik/a7186450e917588e52c86234be6cb5a3/screenshots/image-5_orig.png
+    thumbnailUrl: net/launchpad/pybik/a7186450e917588e52c86234be6cb5a3/screenshots/image-5_624x350.png
+    width: 754
+    height: 423
+iconSources:
+  - url: net/launchpad/pybik/a7186450e917588e52c86234be6cb5a3/icons/128x128/pybik_pybik.png
+    width: 128
+    height: 128
+developer: B. Clausius
+homepage: "https://launchpad.net/pybik/"
+enabled: true
+order: 99

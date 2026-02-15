@@ -1,0 +1,41 @@
+id: "socnetv"
+name: Social Network Visualizer
+description: Social Network Analysis and Visualization software application
+longDescription: |
+  <p>Social Network Visualizer (SocNetV) is a cross-platform, user-friendly free software tool for social network analysis and visualization. With SocNetV you can draw social networks with a few clicks on a virtual canvas, load field data from a file in a supported format (GraphML, GraphViz, Adjacency, EdgeList, GML, Pajek, UCINET, etc) or crawl the internet to create a social network of connected webpages. You can edit actors and ties through point-and-click, analyse graph and social network properties, produce beautiful HTML reports and embed visualization layouts to the network.
+  </p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - socnetv
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - network analysis,social network analysis,visualizer
+screenshotSources:
+  - url: org/socnetv/socnetv.desktop/6421ad8995e0bd1ebed6dab7870a7e35/screenshots/image-1_orig.png
+    thumbnailUrl: org/socnetv/socnetv.desktop/6421ad8995e0bd1ebed6dab7870a7e35/screenshots/image-1_624x408.png
+    width: 1200
+    height: 786
+iconSources:
+  - cached: socnetv_socnetv.png
+    width: 64
+    height: 64
+developer: Dimitris V. Kalamaras
+homepage: "https://socnetv.org"
+enabled: true
+order: 99

@@ -1,0 +1,37 @@
+id: beads
+name: Beads
+description: 2-DE gel spot detection
+longDescription: |
+  <p>BEADS is a program for spot detection on 2-D gel images. It is based on an analogy with beads flowing uphill on the surface of the gel image and on the analysis of their paths (Langella &amp; Zivy, 2008).</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - beads
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: beads_beads_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

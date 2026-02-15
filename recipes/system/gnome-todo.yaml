@@ -1,0 +1,58 @@
+id: gnome-todo
+name: To Do
+description: Task manager for GNOME
+longDescription: |
+  <p>GNOME To Do is a task management application designed to integrate with GNOME. It
+        is extensible through plugins and supports custom task providers.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-todo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - task
+  - productivity
+  - todo
+screenshotSources:
+  - url: org/gnome/Todo.desktop/27880DAC26F50F7D2A50E1676BEFB8F5/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Todo.desktop/27880DAC26F50F7D2A50E1676BEFB8F5/screenshots/image-1_624x351.png
+    width: 1200
+    height: 675
+  - url: org/gnome/Todo.desktop/27880DAC26F50F7D2A50E1676BEFB8F5/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Todo.desktop/27880DAC26F50F7D2A50E1676BEFB8F5/screenshots/image-3_624x351.png
+    width: 1200
+    height: 675
+  - url: org/gnome/Todo.desktop/27880DAC26F50F7D2A50E1676BEFB8F5/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Todo.desktop/27880DAC26F50F7D2A50E1676BEFB8F5/screenshots/image-4_624x351.png
+    width: 1200
+    height: 675
+  - url: org/gnome/Todo.desktop/27880DAC26F50F7D2A50E1676BEFB8F5/screenshots/image-5_orig.png
+    thumbnailUrl: org/gnome/Todo.desktop/27880DAC26F50F7D2A50E1676BEFB8F5/screenshots/image-5_624x351.png
+    width: 1200
+    height: 675
+  - url: org/gnome/Todo.desktop/27880DAC26F50F7D2A50E1676BEFB8F5/screenshots/image-6_orig.png
+    thumbnailUrl: org/gnome/Todo.desktop/27880DAC26F50F7D2A50E1676BEFB8F5/screenshots/image-6_624x351.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: org/gnome/Todo.desktop/27880DAC26F50F7D2A50E1676BEFB8F5/icons/128x128/gnome-todo_org.gnome.Todo.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Todo"
+enabled: true
+order: 99

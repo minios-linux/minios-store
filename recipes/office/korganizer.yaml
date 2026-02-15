@@ -1,0 +1,56 @@
+id: "korganizer"
+name: KOrganizer
+description: KOrganizer is a calendar and scheduling application
+longDescription: |
+  <p>KOrganizer is the calendar and scheduling component of the Kontact suite.
+        You can write journal entries, schedule appointments, events, and to-dos.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Support for multiple calendars and todo lists</li>
+    <li>Storage model</li>
+    <li>Undo and Redo</li>
+    <li>Todo integration with agenda view</li>
+    <li>Attachments for events and todos</li>
+    <li>Quick todo and event entries</li>
+    <li>Plugin for Jewish calendar dates</li>
+    <li>Print support</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - korganizer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/korganizer.desktop/3addb4321728de09771a0cce4b1a876b/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/korganizer.desktop/3addb4321728de09771a0cce4b1a876b/screenshots/image-1_624x489@1.png
+    width: 1128
+    height: 885
+iconSources:
+  - url: org/kde/korganizer.desktop/3addb4321728de09771a0cce4b1a876b/icons/128x128/korganizer_korganizer.png
+    width: 128
+    height: 128
+developer: The KDE Community
+homepage: "https://www.kde.org/applications/office/korganizer/"
+enabled: true
+order: 99

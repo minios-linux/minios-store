@@ -1,0 +1,35 @@
+id: im-config
+name: Input Method
+description: Set Keyboard Input Method
+longDescription: |
+  <p>im-config package provides the framework to configure and to switch the input method on X Window System. This input method is the essential mechanism for Japanese, Chinese and Korean (CJK) languages to enter their non-ASCII native characters.</p>
+  <p>Many modern input methods such as IBus support not only one of these CJK languages but support almost all languages simultaneously by dynamically switching keyboard modes with GUI helper program.</p>
+  <p>By installing this package, the most desirable input method and its backend conversion engine are automatically configured with both the X Window System Input Method (XIM), GTK+ input method module, Qt input method module, and clutter input method module.</p>
+  <p>You can further customize your input method with &apos;im-config&apos; command.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - im-config
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - keyboard
+  - input
+iconSources:
+  - url: i/im/im-config.desktop/CD8F9CB9A37925EFA653477A396A4D01/icons/128x128/im-config_input-keyboard.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

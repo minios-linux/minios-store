@@ -1,0 +1,36 @@
+id: nvtop
+name: nvtop
+description: "GPU process monitor for AMD, Intel and NVIDIA"
+longDescription: |
+  <p>Nvtop stands for Neat Videocard TOP, a (h)top like task monitor for AMD, Intel and NVIDIA GPUs. It can handle multiple GPUs and print information about them in a htop familiar way.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nvtop
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/syllo.nvtop/61b95f504e0166fb91cefe519b6c96f9/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/syllo.nvtop/61b95f504e0166fb91cefe519b6c96f9/screenshots/image-1_624x241@1.png
+    width: 1402
+    height: 542
+  - url: io/github/syllo.nvtop/61b95f504e0166fb91cefe519b6c96f9/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/syllo.nvtop/61b95f504e0166fb91cefe519b6c96f9/screenshots/image-2_624x312@1.png
+    width: 722
+    height: 362
+iconSources:
+  - cached: nvtop_nvtop.png
+    width: 64
+    height: 64
+developer: Maxime Schmitt
+homepage: "https://github.com/Syllo/nvtop"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Gpredict",
+  "description": "Rastreamento de satélites",
+  "longDescription": "<p>O Gpredict é um programa de rastreamento e previsão de órbitas de satélites em tempo real para o desktop Linux. Ele utiliza os algoritmos de propagação SGP4/SDP4 junto com os conjuntos de elementos de duas linhas (TLE) do NORAD.</p>\n<p>Alguns recursos principais do Gpredict incluem:</p>\n<p> * Rastreamento de um grande número de satélites, limitado apenas pela memória física e pelo poder de processamento do computador  * Exibição dos dados de rastreamento em listas, mapas, gráficos polares e qualquer combinação desses formatos  * Possibilidade de abrir vários módulos simultaneamente, tanto em abas quanto em janelas separadas. Os módulos também podem funcionar em modo tela cheia  * Suporte a múltiplas estações de rastreamento terrestres  * Previsão de próximas passagens  * Operação em tempo real, tempo simulado (avançar ou retroceder rapidamente) e controle manual de tempo  * Informações detalhadas tanto nos modos em tempo real quanto fora dele  * Sintonia Doppler de rádios via Hamlib rigctld  * Controle de rotador de antena via Hamlib rotctld</p>\n"
+}

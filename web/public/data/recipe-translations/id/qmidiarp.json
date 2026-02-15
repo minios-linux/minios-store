@@ -1,0 +1,5 @@
+{
+  "name": "QMidiArp",
+  "description": "Arpeggiator MIDI, Step Sequencer, dan LFO",
+  "longDescription": "<p>QMidiArp adalah arpeggiator MIDI tingkat lanjut, step sequencer yang dapat diprogram, dan LFO untuk Linux. Aplikasi ini mampu menampung banyak modul arpeggiator, sequencer, atau LFO yang berjalan secara paralel.</p>\n<p>Arpeggiator menghasilkan urutan nada berdasarkan not yang dikirim ke port input-nya, yang umumnya terhubung ke keyboard atau sequencer lain. Modul step sequencer memungkinkan Anda membuat urutan nada sederhana yang linier, monofonik, dan dapat ditransposisi secara global, mirip dengan sequencer analog generasi awal. Modul LFO MIDI menghasilkan data kontrol MIDI dengan bentuk gelombang, resolusi waktu, amplitudo, dan durasi yang dapat diatur.</p>\n<p>Fitur Unggulan:</p>\n<ul>\n  <li>Dukungan backend JACK atau ALSA MIDI</li>\n  <li>Kontrol dapat dipelajari melalui MIDI</li>\n  <li>Sinkronisasi dengan JACK Transport atau MIDI Clock</li>\n  <li>Dukungan Non Session Manager (NSM)</li>\n  <li>Modul tersedia sebagai Plugin LV2</li>\n</ul>\n"
+}

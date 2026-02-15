@@ -1,0 +1,5 @@
+{
+  "name": "DClock",
+  "description": "Jam digital yang dapat dikonfigurasi",
+  "longDescription": "<p>Fitur utama DClock adalah fleksibilitas tinggi dalam tampilan jam digitalnya. Anda bahkan bisa menampilkan output dari perintah \"date\", misalnya \"Rabu, 3 Jan\". DClock juga mendukung pengaturan alarm.</p>\n<p>Jika ingin mengaktifkan suara alarm dan nada setiap jam (bukan hanya bunyi beep), Anda perlu menginstal paket sox.</p>\n"
+}

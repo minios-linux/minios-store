@@ -1,0 +1,5 @@
+{
+  "name": "gWakeOnLan",
+  "description": "Una herramienta GTK+ para encender equipos apagados mediante la función Wake On LAN.",
+  "longDescription": "<p>gWakeOnLan es una utilidad GTK+ que permite encender computadoras apagadas a través de la función Wake on LAN. Soporta tanto modos locales como por Internet.</p>\n<p>Los equipos a encender deben estar apagados con la función Wake on LAN (paquete mágico) habilitada.</p>\n"
+}

@@ -1,0 +1,45 @@
+id: "nomacs"
+name: nomacs
+description: View and edit images
+longDescription: |
+  <p>Nomacs is a fast image viewer with additional image editing functionality.
+        When viewing images, it features fast thumbnail previews, a zoomable grid
+        display of thumbnails, a chromeless view, and display of metadata and
+        image details with a histogram.
+        It also has the ability to edit images, including cropping, resizing,
+        rotating and color correction.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nomacs
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: n/no/nomacs.desktop/31ACE0C9E047F2378EA81275EB7A0B77/screenshots/image-1_orig.png
+    thumbnailUrl: n/no/nomacs.desktop/31ACE0C9E047F2378EA81275EB7A0B77/screenshots/image-1_624x351.png
+    width: 800
+    height: 450
+iconSources:
+  - url: org/nomacs/ImageLounge/3dfc698ca249fce982b368dad68f2600/icons/128x128/nomacs_org.nomacs.ImageLounge.png
+    width: 128
+    height: 128
+developer: Markus Diem
+homepage: "http://nomacs.org"
+enabled: true
+order: 99

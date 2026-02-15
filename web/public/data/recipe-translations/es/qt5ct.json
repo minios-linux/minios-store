@@ -1,0 +1,5 @@
+{
+  "name": "Qt5 Settings",
+  "description": "Herramienta de configuración de Qt5",
+  "longDescription": "<p>Esta utilidad permite a los usuarios configurar parámetros de Qt5 (tema, tipografía, iconos, etc.) en entornos de escritorio o gestores de ventanas sin integración nativa de Qt.</p>\n<p>Qt5ct solo estará activo en entornos distintos a Plasma. La configuración predeterminada incluye una opción para deshabilitar su ejecución en Plasma.</p>\n<p>Qt5ct puede usar temas como gtk para Qt5, KDE Breeze, Fusion, QtCurve y muchos más. Cada estilo puede personalizarse aún más modificando el esquema de colores.</p>\n"
+}

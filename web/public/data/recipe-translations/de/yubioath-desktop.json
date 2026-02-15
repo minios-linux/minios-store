@@ -1,0 +1,5 @@
+{
+  "name": "Yubico Authenticator",
+  "description": "Grafische Oberfläche zur Anzeige von OATH-Codes mit einem YubiKey.",
+  "longDescription": "<p>Der Yubico Authenticator ist ein grafisches Desktop-Tool zur Generierung von Open AuTHentication (OATH) Einmalpasswörtern nach dem HOTP- oder TOTP-Verfahren. Die gemeinsamen Geheimnisse werden dabei mithilfe eines YubiKeys geschützt.</p>\n"
+}

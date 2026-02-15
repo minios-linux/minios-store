@@ -1,0 +1,46 @@
+id: "mgba-qt"
+name: mGBA
+description: Nintendo Game Boy Advance Emulator
+longDescription: |
+  <p>mGBA is a new emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.</p>
+  <p>This package provides the Qt GUI frontend for mGBA.</p>
+  <p>Game Boy Advance is a registered trademark of Nintendo of America Inc. mGBA is not affiliated with or endorsed by any of the companies mentioned.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mgba-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - emulator
+  - nintendo
+  - advance
+  - gba
+  - game boy advance
+iconSources:
+  - url: io/mgba/mGBA.desktop/5ffc1a34a6fdf2904efdb5379122ba0d/icons/128x128/mgba-qt_io.mgba.mGBA.png
+    width: 128
+    height: 128
+homepage: "https://mgba.io/"
+enabled: true
+order: 99

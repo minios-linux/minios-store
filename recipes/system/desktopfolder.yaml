@@ -1,0 +1,61 @@
+id: "desktopfolder"
+name: Desktop Folder
+description: Bring your desktop back to life
+longDescription: |
+  <p>Organize your desktop with panels that hold your things.</p>
+  <ul>
+    <li>Access files, folders and apps from your desktop</li>
+    <li>Drop files, folders, links and .desktop launchers inside panels</li>
+    <li>Resize, position and color panels</li>
+    <li>Display photos and keep notes on your desktop</li>
+    <li>Reveal the desktop with ⌘-D</li>
+  </ul>
+  <p>Open it like any other app after installing. Desktop Folder will launch automatically when you next log in.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - desktopfolder
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - desktop
+  - folder
+  - file
+  - organize
+screenshotSources:
+  - url: com/github/spheras.desktopfolder/1f3cc8ce3d4d95f212ffa7559be712dd/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/spheras.desktopfolder/1f3cc8ce3d4d95f212ffa7559be712dd/screenshots/image-1_624x351.png
+    width: 1024
+    height: 576
+  - url: com/github/spheras.desktopfolder/1f3cc8ce3d4d95f212ffa7559be712dd/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/spheras.desktopfolder/1f3cc8ce3d4d95f212ffa7559be712dd/screenshots/image-2_624x351.png
+    width: 1024
+    height: 576
+  - url: com/github/spheras.desktopfolder/1f3cc8ce3d4d95f212ffa7559be712dd/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/spheras.desktopfolder/1f3cc8ce3d4d95f212ffa7559be712dd/screenshots/image-3_624x351.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: com/github/spheras.desktopfolder/1f3cc8ce3d4d95f212ffa7559be712dd/icons/128x128/desktopfolder_com.github.spheras.desktopfolder.png
+    width: 128
+    height: 128
+developer: DesktopFolder Developers
+homepage: "https://github.com/spheras/desktopfolder"
+enabled: true
+order: 99

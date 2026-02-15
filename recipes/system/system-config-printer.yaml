@@ -1,0 +1,48 @@
+id: "system-config-printer"
+name: Print Settings
+description: Configure printer queues
+longDescription: |
+  <p>With system-config-printer you can add, edit and delete printer queues. It allows you to choose the connection method and the printer driver.</p>
+  <p>For each queue, you can adjust the default page size and other driver options, as well as seeing ink/toner levels and status messages.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - system-config-printer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: s/sy/system-config-printer.desktop/b9a9b22520291c23fef09a301da1f108/screenshots/image-1_orig.png
+    thumbnailUrl: s/sy/system-config-printer.desktop/b9a9b22520291c23fef09a301da1f108/screenshots/image-1_624x351@1.png
+    width: 624
+    height: 351
+  - url: s/sy/system-config-printer.desktop/b9a9b22520291c23fef09a301da1f108/screenshots/image-2_orig.png
+    thumbnailUrl: s/sy/system-config-printer.desktop/b9a9b22520291c23fef09a301da1f108/screenshots/image-2_624x351@1.png
+    width: 752
+    height: 423
+iconSources:
+  - url: s/sy/system-config-printer.desktop/b9a9b22520291c23fef09a301da1f108/icons/128x128/system-config-printer_printer.png
+    width: 128
+    height: 128
+homepage: "https://github.com/zdohnal/system-config-printer/"
+enabled: true
+order: 99

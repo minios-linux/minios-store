@@ -1,0 +1,52 @@
+id: "filelight"
+name: Filelight
+description: Filelight creates an interactive map of concentric segmented-rings that helps visualize disk usage on your computer
+longDescription: |
+  <p>Filelight is an application to visualize the disk usage on your computer</p>
+  <p>Features:</p>
+  <ul>
+    <li>Scan local, remote or removable disks</li>
+    <li>Configurable color schemes</li>
+    <li>File system navigation by mouse clicks</li>
+    <li>Information about files and directories on hovering</li>
+    <li>Files and directories can be copied or removed directly from the context menu</li>
+    <li>Integration into Konqueror and Krusader</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - filelight
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/filelight.desktop/e79ab58906cd31009d6f872d9964bb8d/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/filelight.desktop/e79ab58906cd31009d6f872d9964bb8d/screenshots/image-1_624x521@1.png
+    width: 1002
+    height: 838
+iconSources:
+  - url: org/kde/filelight.desktop/e79ab58906cd31009d6f872d9964bb8d/icons/128x128/filelight_filelight.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/applications/en/utilities/org.kde.filelight"
+enabled: true
+order: 99

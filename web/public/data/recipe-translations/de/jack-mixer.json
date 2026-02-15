@@ -1,0 +1,5 @@
+{
+  "name": "Jack Mixer",
+  "description": "Eine Mehrkanal-Audio-Mixersoftware für das JACK Audio Connection Kit",
+  "longDescription": "<p>Jack Mixer bietet eine GTK+-Benutzeroberfläche zum Mischen von JACK-Audioströmen. Die Anwendung orientiert sich am Look eines Hardware-Audiomischpults. Lautstärke, Balance, Stummschaltung u.v.m. lassen sich komfortabel über die Oberfläche oder per MIDI steuern.</p>\n<p>Dieses Paket installiert die Anwendung für Python 3.</p>\n"
+}

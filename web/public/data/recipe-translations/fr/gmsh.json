@@ -1,0 +1,5 @@
+{
+  "name": "Gmsh Mesh Generator",
+  "description": "Générateur de maillages éléments finis 3D",
+  "longDescription": "<p>Gmsh est un générateur de maillages éléments finis en 3D doté d’un moteur CAO intégré et d’un post-processeur. Son objectif est de fournir un outil de maillage rapide, léger et convivial, avec une saisie paramétrique et des fonctions de visualisation avancées. Gmsh s’articule autour de quatre modules : géométrie, maillage, solveur et post-traitement. La définition des données d’entrée pour ces modules se fait soit de manière interactive via l’interface graphique, soit par des fichiers texte ASCII en utilisant le langage de script propre à Gmsh.</p>\n<p>Consultez le manuel de référence de Gmsh pour un aperçu plus complet de ses fonctionnalités.</p>\n"
+}

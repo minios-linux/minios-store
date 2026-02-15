@@ -1,0 +1,59 @@
+id: "evince"
+name: Evince
+description: Document viewer for popular document formats
+longDescription: |
+  <p>A document viewer for the GNOME desktop. You can view, search or annotate documents in many different formats.</p>
+  <p>Evince supports documents in: PDF, PS, EPS, XPS, DjVu, TIFF, DVI (with SyncTeX), and Comic Books archives (CBR, CBT, CBZ, CB7).</p>
+  
+categoryId: graphics
+icon: BookOpen
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - evince
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pdf
+  - ps
+  - postscript
+  - dvi
+  - xps
+  - djvu
+  - tiff
+  - document
+  - presentation
+  - viewer
+screenshotSources:
+  - url: org/gnome/Evince/eb499612c71a1213481b7cbf55225499/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Evince/eb499612c71a1213481b7cbf55225499/screenshots/image-1_624x340@1.png
+    width: 1388
+    height: 758
+  - url: org/gnome/Evince/eb499612c71a1213481b7cbf55225499/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Evince/eb499612c71a1213481b7cbf55225499/screenshots/image-2_624x340@1.png
+    width: 1387
+    height: 757
+iconSources:
+  - url: org/gnome/Evince/eb499612c71a1213481b7cbf55225499/icons/128x128/evince_org.gnome.Evince.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Evince"
+enabled: true
+order: 99

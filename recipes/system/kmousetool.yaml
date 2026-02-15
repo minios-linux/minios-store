@@ -1,0 +1,43 @@
+id: "kmousetool"
+name: KMouseTool
+description: Automatic Mouse Click
+longDescription: |
+  <p>KMouseTool clicks the mouse for you, so you don&apos;t have to. KMouseTool works with any mouse or pointing device.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kmousetool
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kmousetool/2eb202e24339b45795458bac25a4536f/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kmousetool/2eb202e24339b45795458bac25a4536f/screenshots/image-1_624x485@1.png
+    width: 723
+    height: 562
+iconSources:
+  - url: org/kde/kmousetool/2eb202e24339b45795458bac25a4536f/icons/128x128/kmousetool_kmousetool.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org/applications/utilities/kmousetool/"
+enabled: true
+order: 99

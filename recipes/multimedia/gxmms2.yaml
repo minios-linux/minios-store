@@ -1,0 +1,31 @@
+id: gxmms2
+name: gxmms2
+description: Play music
+longDescription: |
+  <p>gxmms2 is a GTK2-based XMMS2 client, written in C. Its main window is small and simple. It includes a playlist editor with a medialib search and an artist browser and a file information dialog.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gxmms2
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: gxmms2_xmms2.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

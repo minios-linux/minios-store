@@ -1,0 +1,5 @@
+{
+  "name": "Engrampa Archive Manager",
+  "description": "Cree y modifique archivos comprimidos",
+  "longDescription": "<p>Engrampa es un gestor de archivos comprimidos para el entorno MATE. Permite:</p>\n<p> * Crear y modificar archivos comprimidos.  * Ver el contenido de un archivo comprimido.  * Ver un archivo contenido dentro de un comprimido.  * Extraer archivos del archivo comprimido.</p>\n<p>Engrampa es compatible con los siguientes formatos:  * Archivos Tar (.tar), incluyendo aquellos comprimidos con    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),    lzma (.tar.lzma) y xz (.tar.xz)  * Archivos Zip (.zip)  * Archivos Jar (.jar, .ear, .war)  * Archivos 7z (.7z)  * Imágenes de CD iso9660 (.iso)  * Archivos Lha (.lzh)  * Archivos individuales comprimidos con gzip (.gz), bzip (.bz), bzip2 (.bz2),    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) y xz (.xz)</p>\n<p>Engrampa no realiza las operaciones de compresión directamente, sino que utiliza herramientas estándar del sistema.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Fragments",
+  "description": "Gerencie torrents",
+  "longDescription": "<p>\n      Um cliente BitTorrent fácil de usar. O Fragments pode ser utilizado para transferir arquivos via o protocolo peer-to-peer BitTorrent, como vídeos, músicas ou imagens de instalação para distribuições Linux.\n    </p>\n<ul>\n  <li>Visão geral de todos os torrents agrupados por status</li>\n  <li>Organize a ordem dos downloads com uma fila de espera</li>\n  <li>Detecção automática de links torrent ou magnet da área de transferência</li>\n  <li>Gerencie e acesse arquivos individuais de um torrent</li>\n  <li>Conecte-se a sessões remotas do Fragments ou Transmission</li>\n</ul>\n<p>\n      O Fragments utiliza o projeto Transmission BitTorrent internamente.\n    </p>\n"
+}

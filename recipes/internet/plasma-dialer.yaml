@@ -1,0 +1,50 @@
+id: "plasma-dialer"
+name: Phone
+description: Send and receive phone calls
+longDescription: |
+  <p>The Phone app lets you easily send and receive phone calls from your smartphone.</p>
+  <p>Features:</p>
+  <ul>
+    <li>See your call history and easily call the same number again</li>
+    <li>Manage your contacts that have a phone number set</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plasma-dialer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - telephone
+  - call
+  - phone
+  - dial
+  - dialer
+  - pstn
+screenshotSources:
+  - url: org/kde/plasma.dialer/8613f09b90541353a46d41fe2a6d5be5/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/plasma.dialer/8613f09b90541353a46d41fe2a6d5be5/screenshots/image-1_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/plasma.dialer/8613f09b90541353a46d41fe2a6d5be5/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/plasma.dialer/8613f09b90541353a46d41fe2a6d5be5/screenshots/image-2_624x1248@1.png
+    width: 720
+    height: 1440
+iconSources:
+  - url: org/kde/plasma.dialer/8613f09b90541353a46d41fe2a6d5be5/icons/128x128/plasma-dialer_dialer.png
+    width: 128
+    height: 128
+developer: KDE Community
+homepage: "https://apps.kde.org/phone.dialer"
+enabled: true
+order: 99

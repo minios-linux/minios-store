@@ -1,0 +1,5 @@
+{
+  "name": "QasConfig",
+  "description": "Browser della configurazione ALSA",
+  "longDescription": "<p>QasTools è una raccolta di applicazioni desktop per il sistema audio ALSA su Linux.</p>\n<p>Le applicazioni incluse sono:  - QasConfig – browser per l’albero di configurazione di ALSA  - QasHctl – mixer per l’interfaccia di controllo avanzata di ALSA  - QasMixer – mixer desktop con funzionalità simili ad alsamixer</p>\n<p>La configurazione di ALSA è organizzata in una struttura ad albero creata dai file /etc/asound.conf e ~/.asoundrc. QasConfig è un browser semplice per questa configurazione, utile per analizzare e diagnosticare la configurazione di ALSA.</p>\n"
+}

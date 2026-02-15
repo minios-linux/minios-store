@@ -1,0 +1,5 @@
+{
+  "name": "Energieverwaltung",
+  "description": "Energieeinstellungen konfigurieren",
+  "longDescription": "<p>Der MATE Power Manager ist ein Sitzungsdienst für die MATE-Desktopumgebung, der System- oder Desktop-Ereignisse rund um die Energieverwaltung überwacht und entsprechende Aktionen auslöst. Sein Konzept ist es, diese komplexen Aufgaben vollständig im Hintergrund abzuwickeln und dem Nutzer nur relevante Einstellungen anzuzeigen.</p>\n<p>Der MATE Power Manager zeigt den Akku-Status an, behandelt Netzteil-Ereignisse, regelt die Bildschirmhelligkeit sowie die Energieeinstellungen von CPU, Grafikkarte und Festplatte und kann systemweite Aktionen wie Suspend-to-RAM, Ruhezustand oder Herunterfahren auslösen – alles nahtlos in andere Komponenten des MATE-Desktops integriert.</p>\n"
+}

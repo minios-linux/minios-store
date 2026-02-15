@@ -1,0 +1,36 @@
+id: orbital-eunuchs-sniper
+name: Orbital Eunuchs Sniper
+description: Anti-terrorist Satellite Sniping Game
+longDescription: |
+  <p>Orbital Eunuchs Sniper is an overhead shooting game. You (the Eunuch on the orbital laser platform) are tasked with protecting the VIPs (blue) from the terrorists (red)!</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - orbital-eunuchs-sniper
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - game
+  - arcade
+  - terrorist
+  - sniper
+iconSources:
+  - cached: orbital-eunuchs-sniper_orbital-eunuchs-sniper.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

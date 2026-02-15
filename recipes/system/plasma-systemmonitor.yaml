@@ -1,0 +1,39 @@
+id: "plasma-systemmonitor"
+name: Plasma System Monitor
+description: An application for monitoring system resources
+longDescription: |
+  <p>Plasma System Monitor provides an interface for monitoring system sensors, process information and other system resources.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plasma-systemmonitor
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - task
+  - manager
+  - process
+  - cpu
+  - memory
+screenshotSources:
+  - url: org/kde/plasma-systemmonitor/20f4b04d7bc50455f5f24bbb5dbbba7d/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/plasma-systemmonitor/20f4b04d7bc50455f5f24bbb5dbbba7d/screenshots/image-1_624x474@1.png
+    width: 1130
+    height: 859
+iconSources:
+  - url: org/kde/plasma-systemmonitor/20f4b04d7bc50455f5f24bbb5dbbba7d/icons/128x128/plasma-systemmonitor_utilities-system-monitor.png
+    width: 128
+    height: 128
+homepage: "https://invent.kde.org/plasma/plasma-systemmonitor"
+enabled: true
+order: 99

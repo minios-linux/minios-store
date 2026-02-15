@@ -1,0 +1,5 @@
+{
+  "name": "Geany",
+  "description": "Un IDE veloce e leggero basato su GTK+",
+  "longDescription": "<p>Geany è un ambiente di sviluppo integrato piccolo e leggero. È stato creato per offrire un IDE rapido e poco ingombrante, con pochissime dipendenze da altri pacchetti. Utilizza esclusivamente il toolkit GTK2, quindi sono necessarie solo le librerie runtime GTK2 per eseguire Geany.</p>\n<p>Le funzionalità principali di Geany includono:  - evidenziazione della sintassi  - completamento del codice  - completamento automatico di costrutti come if, for e while, XML e HTML  - suggerimenti sui parametri (call tips)  - folding (comprimere/espandere blocchi di codice)  - supporto per molti tipi di file come C, Java, PHP, HTML, Python, Perl, Pascal  - lista dei simboli  - terminale integrato</p>\n"
+}

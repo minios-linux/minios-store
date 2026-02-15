@@ -1,0 +1,33 @@
+id: "thunar-volman"
+name: Removable Drives and Media
+description: Configure management of removable drives and media
+longDescription: |
+  <p>The Thunar Volume Manager is an extension for the Thunar file manager, which enables automatic management of removable drives and media.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - thunar-volman
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: t/th/thunar-volman-settings.desktop/b752391481f653e5741fcaa536e99829/icons/128x128/thunar-volman_org.xfce.volman.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

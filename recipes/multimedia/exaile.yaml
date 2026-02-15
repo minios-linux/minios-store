@@ -1,0 +1,53 @@
+id: "exaile"
+name: Exaile
+description: "Listen to, explore, or manage your audio collection"
+longDescription: |
+  <p>
+     Exaile is a music player with a simple interface and powerful music
+     management capabilities. Features include automatic fetching of album art,
+     lyrics fetching, streaming internet radio, tabbed playlists, smart
+     playlists with extensive filtering/search capabilities, and much more.
+    </p>
+  <p>
+     Exaile is written using python and GTK+ and is easily extensible via
+     plugins. There are over 50 plugins distributed with Exaile that include
+     advanced track tagging, last.fm scrobbling, support for portable media
+     players, podcasts, internet radio such as icecast and Soma.FM,
+     ReplayGain, output via a secondary output device (great for DJs!), and
+     much more.
+    </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - exaile
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - player
+  - library
+  - collection
+  - mp3
+  - ogg
+  - flac
+  - mp4
+screenshotSources:
+  - url: e/ex/exaile.desktop/f9087b774088d3e48985b58d1bb1d890/screenshots/image-1_orig.png
+    thumbnailUrl: e/ex/exaile.desktop/f9087b774088d3e48985b58d1bb1d890/screenshots/image-1_624x468.png
+    width: 800
+    height: 600
+iconSources:
+  - url: e/ex/exaile.desktop/d94f6f0d75a77cdb25b416e93e218ad3/icons/128x128/exaile_exaile.png
+    width: 128
+    height: 128
+homepage: "https://www.exaile.org"
+enabled: true
+order: 99

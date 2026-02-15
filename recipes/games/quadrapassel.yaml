@@ -1,0 +1,47 @@
+id: "quadrapassel"
+name: Quadrapassel
+description: Fit falling blocks together
+longDescription: |
+  <p>Quadrapassel is a derivative of a classic Russian falling-block game. Reposition and rotate the blocks as they fall, and attempt to fit them together. When you form a complete horizontal row of blocks, the row will disappear and you score points. The game is over when the blocks get stacked too high. As your score gets higher, you level up and the blocks fall faster.</p>
+  <p>If you&apos;re looking for a challenge, Quadrapassel allows you to increase the initial speed of the blocks, or begin the game with partial blocks on some of the rows. Or, instead of allowing the blocks to fall randomly, it can select blocks that will be hard for you to place.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - quadrapassel
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tetris
+screenshotSources:
+  - url: org/gnome/Quadrapassel/4970af3f06be7f9dee5439f22341789f/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Quadrapassel/4970af3f06be7f9dee5439f22341789f/screenshots/image-1_624x399@1.png
+    width: 700
+    height: 448
+iconSources:
+  - url: org/gnome/Quadrapassel/4970af3f06be7f9dee5439f22341789f/icons/128x128/quadrapassel_org.gnome.Quadrapassel.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Quadrapassel"
+enabled: true
+order: 99

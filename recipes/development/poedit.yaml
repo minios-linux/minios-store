@@ -1,0 +1,52 @@
+id: "poedit"
+name: Poedit
+description: Translations editor for gettext
+longDescription: |
+  <p>Translations editor for gettext (PO files). It helps with translating
+              applications or WordPress themes and plugins into other languages, as
+              well as with developing localizable applications.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - poedit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - translate
+  - translation
+  - po
+  - gettext
+  - xliff
+screenshotSources:
+  - url: net/poedit/Poedit/29be14b383184409607876e0768c1ccc/screenshots/image-1_orig.png
+    thumbnailUrl: net/poedit/Poedit/29be14b383184409607876e0768c1ccc/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: net/poedit/Poedit/29be14b383184409607876e0768c1ccc/icons/128x128/poedit_net.poedit.Poedit.png
+    width: 128
+    height: 128
+developer: Václav Slavík
+homepage: "https://poedit.net"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "TkCon",
+  "description": "Console aprimorado para desenvolvimento em Tcl/Tk",
+  "longDescription": "<p>O TkCon é um shell e console para Tcl, ideal para experimentação interativa com programas em Tcl e Tk.</p>\n<p>Recursos: Histórico de comandos  Expansão de caminhos (estilo Unix) / Proc / nomes de variáveis  Suporte a múltiplos consoles, cada um com seu próprio estado (por múltiplos interpretadores)  Captura de stdout e stderr na janela do console (puts sobrescrito)  Tratamento de erros dinâmico (clique no erro para ver o stack trace)  Correspondência elétrica de caracteres (como no Emacs)  Realce elétrico de proc  Comunicação entre consoles e outros interpretadores Tk   (incluindo não-Tcl)</p>\n"
+}

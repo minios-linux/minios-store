@@ -1,0 +1,60 @@
+id: "gnome-sudoku"
+name: GNOME Sudoku
+description: Test your logic skills in this number grid puzzle
+longDescription: |
+  <p>Play the popular Japanese logic game. GNOME Sudoku is a must-install for
+        Sudoku lovers, with a simple, unobtrusive interface that makes playing
+        Sudoku fun for players of any skill level.</p>
+  <p>Each game is assigned a difficulty similar to those given by newspapers
+        and websites, so your game will be as easy or as difficult as you want it
+        to be.</p>
+  <p>If you like to play on paper, you can print games out. You can choose how
+        many games you want to print per page and what difficulty of games you
+        want to print: as a result, GNOME Sudoku can act a renewable Sudoku book
+        for you.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-sudoku
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - magic
+  - square
+screenshotSources:
+  - url: org/gnome/Sudoku/f7bae2b2794b496f88105213c6c0821b/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Sudoku/f7bae2b2794b496f88105213c6c0821b/screenshots/image-1_624x672@1.png
+    width: 650
+    height: 700
+  - url: org/gnome/Sudoku/f7bae2b2794b496f88105213c6c0821b/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Sudoku/f7bae2b2794b496f88105213c6c0821b/screenshots/image-2_624x672@1.png
+    width: 650
+    height: 700
+iconSources:
+  - url: org/gnome/Sudoku/f7bae2b2794b496f88105213c6c0821b/icons/128x128/gnome-sudoku_org.gnome.Sudoku.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Sudoku"
+enabled: true
+order: 99

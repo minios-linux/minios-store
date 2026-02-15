@@ -1,0 +1,38 @@
+id: "olive-editor"
+name: Olive
+description: Non-linear video editor
+longDescription: |
+  <p>Olive est un éditeur vidéo non linéaire libre visant à fournir une alternative complète aux logiciels de montage vidéo professionnels haut de gamme.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - olive-editor
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/olivevideoeditor/Olive/27c762f62c48816c8feae1a8813bbcfe/screenshots/image-1_orig.png
+    thumbnailUrl: org/olivevideoeditor/Olive/27c762f62c48816c8feae1a8813bbcfe/screenshots/image-1_624x351.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: org/olivevideoeditor/Olive/27c762f62c48816c8feae1a8813bbcfe/icons/128x128/olive-editor_org.olivevideoeditor.Olive.png
+    width: 128
+    height: 128
+developer: Olive Team
+homepage: "https://www.olivevideoeditor.org"
+enabled: true
+order: 99

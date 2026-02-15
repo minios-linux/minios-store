@@ -1,0 +1,40 @@
+id: "orage"
+name: Orage Globaltime
+description: Show clocks from different countries
+longDescription: |
+  <p>This package contains a calendar for the Xfce4 desktop environment. It integrates itself nicely into the desktop environment, is highly configurable and supports alerts based on dates. If you are looking for a good graphical calendar, you will probably want to try out orage. It stores its data in iCal format.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - orage
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/xfce/orage/e2ce11a89572cff7fb6d361ddf519a24/screenshots/image-1_orig.png
+    thumbnailUrl: org/xfce/orage/e2ce11a89572cff7fb6d361ddf519a24/screenshots/image-1_224x215@1.png
+    width: 303
+    height: 291
+iconSources:
+  - url: org/xfce/orage/e2ce11a89572cff7fb6d361ddf519a24/icons/128x128/orage_org.xfce.orage.png
+    width: 128
+    height: 128
+developer: Orage Team
+homepage: "https://xfce.org"
+enabled: true
+order: 99

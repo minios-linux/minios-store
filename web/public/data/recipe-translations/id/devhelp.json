@@ -1,0 +1,5 @@
+{
+  "name": "Devhelp",
+  "description": "Alat pengembang untuk menjelajah dan mencari dokumentasi API",
+  "longDescription": "<p>Devhelp adalah alat bantu pengembang untuk menjelajah dan mencari dokumentasi API.<br>Memudahkan navigasi pustaka serta pencarian berdasarkan fungsi, struktur, atau makro.</p>\n<p>Dokumentasi harus terpasang secara lokal, sehingga Devhelp dapat digunakan tanpa koneksi internet.</p>\n<p>Devhelp terintegrasi secara native dengan GTK-Doc, sehingga pustaka GTK+ dan GNOME sangat didukung. Platform pengembangan lain juga dapat digunakan selama dokumentasi API tersedia dalam format HTML serta memiliki berkas indeks *.devhelp2.</p>\n<p>Devhelp terintegrasi dengan aplikasi lain seperti Glade, Builder, atau Anjuta, dan tersedia plugin untuk berbagai editor teks (gedit, Vim, Emacs, Geany, …).</p>\n"
+}

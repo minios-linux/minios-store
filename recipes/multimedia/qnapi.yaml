@@ -1,0 +1,32 @@
+id: "qnapi"
+name: QNapi
+description: Program for downloading video subtitles
+longDescription: |
+  <p>QNapi is a graphical downloader of subtitles from napiprojekt.pl and opensubtitles.org sites. Subtitles may be fetched in many different languages.</p>
+  <p>QNapi&apos;s capabilities are similar to napiproject.pl&apos;s original client. New subtitles may be added to both, napiprojekt.pl and opensubtitles.org databases. Also bugs may be reported against existing subtitles.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qnapi
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: q/qn/qnapi.desktop/9f3a55483f511ad756d52cae4e6b781d/icons/128x128/qnapi_qnapi.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

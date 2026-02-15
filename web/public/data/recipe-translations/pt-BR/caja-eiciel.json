@@ -1,0 +1,5 @@
+{
+  "name": "MATE Eiciel",
+  "description": "Ferramenta para manipular entradas ACL",
+  "longDescription": "<p>O MATE Eiciel é uma ferramenta independente e também um plugin do Caja para editar graficamente as Listas de Controle de Acesso (ACL) dos seus arquivos. As ACLs permitem definir permissões mais detalhadas do que as permissões tradicionais do Unix para usuário, grupo e outros (permissões UGO). Baseado no Eiciel de Roger Ferrer.</p><p>O MATE Eiciel também permite editar os atributos estendidos de arquivos e diretórios, caso o sistema de arquivos ofereça suporte.</p><p>Nem todos os sistemas de arquivos suportam ACLs e atributos estendidos. E mesmo naqueles que suportam, esses recursos precisam ser habilitados (pelo administrador do sistema) antes de usar o MATE Eiciel.</p>"
+}

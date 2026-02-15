@@ -1,0 +1,5 @@
+{
+  "name": "Dicompyler",
+  "description": "Plateforme de recherche en radiothérapie",
+  "longDescription": "<p>Dicompyler est une plateforme de recherche en radiothérapie extensible et entièrement open source, basée sur la norme DICOM. Elle fait également office de visualiseur DICOM RT multiplateforme.</p>\n<p>Fonctionnalités :  * Importation d’images CT, de structures DICOM RT, de fichiers de dose et de plan RT  * Système de plugins extensible avec modules inclus :     - Visualisateur d’images 2D avec superposition des doses et des structures     - Visualisation des histogrammes dose-volume (DVH) avec analyse des paramètres     - Explorateur d’arborescence des données DICOM     - Outil d’anonymisation des patients</p>\n"
+}

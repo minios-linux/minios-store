@@ -1,0 +1,5 @@
+{
+  "name": "Raspberry Pi Imager",
+  "description": "Utility per la scrittura di immagini Raspberry Pi",
+  "longDescription": "<p>\n      Raspberry Pi Imager scarica un file .JSON dal sito ufficiale Raspberry Pi\n      contenente la lista aggiornata di tutte le opzioni di download disponibili, assicurando sempre l’installazione della versione più recente.\n    </p>\n<p>\n      Dopo aver selezionato un sistema operativo tra le opzioni disponibili,\n      l’utility legge il file necessario direttamente dal sito Raspberry Pi e lo scrive subito sulla scheda SD. Questo velocizza notevolmente il processo rispetto alla procedura standard che prevede il download dal sito, il salvataggio su disco e successivamente la scrittura dalla memoria locale sulla SD.\n    </p>\n<p>\n      Durante questa procedura, Raspberry Pi Imager crea anche una cache dell’immagine del sistema operativo scaricata, salvandone una copia locale sul computer: in questo modo è possibile programmare ulteriori schede SD senza dover riscaricare il file.\n    </p>\n"
+}

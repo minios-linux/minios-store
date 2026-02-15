@@ -1,0 +1,39 @@
+id: libcamitk-dev
+name: CamiTK-wizard
+description: CamiTK extension wizard
+longDescription: |
+  <p>Helps researchers and clinicians to easily and rapidly collaborate in order to prototype CAMI applications, that feature medical images, surgical navigation and biomechanical simulations.</p>
+  <p>This package contains development files needed to build CamiTK applications. This package also provides the CamiTK wizard application to create new extensions.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libcamitk-dev
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - camitk
+  - extension
+  - cep
+  - plugin
+iconSources:
+  - cached: libcamitk-dev_camitk-wizard.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

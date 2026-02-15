@@ -1,0 +1,5 @@
+{
+  "name": "vokoscreen",
+  "description": "Bildschirmaufnahme",
+  "longDescription": "<p>Mit vokoscreen können Sie Lehrvideos, Live-Aufnahmen des Browsers, Installationen, Videokonferenzen und mehr aufzeichnen. Es ist möglich, nur ein Video oder Video mit Ton (über ALSA oder PulseAudio) aufzunehmen.</p>\n<p>Das Programm ist sehr einfach gehalten und bietet eine minimalistische Benutzeroberfläche. Zusätzlich kann Ihre Webcam gleichzeitig aufgenommen werden, wodurch sich vokoscreen besonders für Screencasting eignet. Ebenso wird die direkte Aufnahme von IEEE1394-Digitalkameras unterstützt.</p>\n<p>vokoscreen nutzt die Funktionen von ffmpeg und speichert Aufnahmen in verschiedenen Formaten, wie AVI, MP4, FLV und MKV für Video sowie MP3 für Audio.</p>\n"
+}

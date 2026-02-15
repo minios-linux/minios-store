@@ -1,0 +1,31 @@
+id: ebumeter
+name: Ebumeter
+description: Loudness meter according to EBU-R128 for JACK
+longDescription: |
+  <p>These tools help controlling loudness of audio material aimed primarily for broadcasting, but they can be useful in other situation.</p>
+  <p>ebumeter and ebur128 allow users to measure Momentary (400 ms), Short term (3s) and Integrated Loudness (from start to stop). They can be used on audio files and signals through JACK.</p>
+  <p>This package contains two programs:   * ebumeter - interactive meter working via jackd   * ebur128 - the command line app to measure sound files</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ebumeter
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - jackd,meter,loudness,measurement
+iconSources:
+  - url: e/eb/ebumeter.desktop/13060ec31afefb73fbe5124a3e5b0883/icons/128x128/ebumeter_ebumeter.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,26 @@
+id: gladish
+name: gladish
+description: LADI Session Handler
+longDescription: |
+  <p>LADI Session Handler or simply ladish is a session management system for JACK applications on GNU/Linux. Its aim is to allow you to have many different audio programs running at once, to save their setup, close them down and then easily reload the setup at some other time.</p>
+  <p>This package provides a graphical interface to ladish.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gladish
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gl/gladish.desktop/63241DB9BF4F351E7DA5398DCBBDA025/icons/128x128/gladish_gladish.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

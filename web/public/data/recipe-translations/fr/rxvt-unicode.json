@@ -1,0 +1,5 @@
+{
+  "name": "Rxvt Color Unicode Terminal",
+  "description": "Utilisez la ligne de commande",
+  "longDescription": "<p>rxvt-unicode est un remplacement moderne du terminal xterm, compatible Unicode et couleurs, qui consomme nettement moins de mémoire qu’un xterm classique ou de nombreux autres émulateurs de terminaux prenant en charge l’Unicode.</p>\n<p>Il permet d’utiliser plusieurs polices simultanément, notamment les polices Xft, et exploite une architecture client-serveur pour réduire la consommation de mémoire lors de l’ouverture de plusieurs fenêtres.</p>\n<p>Ce paquet est configuré pour supporter 256 couleurs, avec la variable TERM définie à « rxvt-unicode-256color ». Assurez-vous que ce terminfo est installé sur tout système distant auquel vous vous connectez !</p>\n"
+}

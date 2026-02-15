@@ -1,0 +1,75 @@
+id: "vokoscreen-ng"
+name: vokoscreen-ng
+description: easy to use screencast creator
+longDescription: |
+  <p>
+        vokoscreenNG can be used to record videos from computers screen, webcams,  external cameras, etc. This graphical
+  tool can produce educational videos,  live recordings of browser navigation, tutorials of installations, record  videoconferences, etc. You can capture an alone video or video and sound.
+      </p>
+  <p>
+        This program can save files in some formats and use some codecs for video  and audio:
+      </p>
+  <p>
+        - Video: x264, openh264, H.264 (Intel GPU), MPEG-2 (Intel GPU) and VP8.
+      </p>
+  <p>
+        - Audio: vorbis, flac, opus, mp3 and aac.
+      </p>
+  <p>
+        - File: mkv, webm, avi, mp4 and mov.
+      </p>
+  <p>
+        NOTE: for now openh264 and acc are not available in Debian.
+      </p>
+  <p>
+        vokoscreenNG is a modern full replacement for vokoscreen, both written by  Volker Kohaupt. The main difference is
+  that vokoscreen uses ffmpeg as base,  while vokoscreenNG has been rewritten from scratch and is based in GStreamer.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vokoscreen-ng
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - player
+  - capture
+  - audio
+  - video
+  - screencast
+  - gstreamer
+screenshotSources:
+  - url: de/volkoh/linuxecke.vokoscreen_ng/b3822194cfde7f66cdb28d4af41eb08a/screenshots/image-1_orig.png
+    thumbnailUrl: de/volkoh/linuxecke.vokoscreen_ng/b3822194cfde7f66cdb28d4af41eb08a/screenshots/image-1_624x410@1.png
+    width: 897
+    height: 590
+  - url: de/volkoh/linuxecke.vokoscreen_ng/b3822194cfde7f66cdb28d4af41eb08a/screenshots/image-2_orig.png
+    thumbnailUrl: de/volkoh/linuxecke.vokoscreen_ng/b3822194cfde7f66cdb28d4af41eb08a/screenshots/image-2_624x410@1.png
+    width: 897
+    height: 590
+  - url: de/volkoh/linuxecke.vokoscreen_ng/b3822194cfde7f66cdb28d4af41eb08a/screenshots/image-3_orig.png
+    thumbnailUrl: de/volkoh/linuxecke.vokoscreen_ng/b3822194cfde7f66cdb28d4af41eb08a/screenshots/image-3_624x410@1.png
+    width: 897
+    height: 590
+iconSources:
+  - url: de/volkoh/linuxecke.vokoscreen_ng/b3822194cfde7f66cdb28d4af41eb08a/icons/128x128/vokoscreen-ng_vokoscreenNG.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

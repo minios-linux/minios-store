@@ -1,0 +1,5 @@
+{
+  "name": "Do'SSi Zo'la",
+  "description": "Juego de Isola con gráficos atractivos",
+  "longDescription": "<p>Do'SSi Zo'la es una implementación en SDL del juego de mesa Isola, que ofrece animaciones atractivas y resulta especialmente llamativo para niños.</p>\n<p>El objetivo del juego básico de Isola es bloquear al oponente destruyendo las casillas que lo rodean. En cada turno, cada jugador debe primero moverse a una casilla adyacente a su posición actual, y luego destruir la casilla que elija. El primer jugador que no pueda moverse, pierde.</p>\n<p>Do'SSi Zo'la incluye varias variantes de las reglas estándar.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "silx data viewer",
+  "description": "Anzeige von HDF5-, EDF- und SPEC-Daten",
+  "longDescription": "<p>Das silx-Projekt bietet eine Sammlung von Python-Paketen zur Entwicklung von Anwendungen für Datenauswertung, -reduktion und -analyse an Synchrotronstrahlungsanlagen. Es ermöglicht das Lesen und Schreiben verschiedener Dateiformate, stellt Routinen zur Datenreduktion sowie eine Reihe von Qt-Widgets zum Durchsuchen und Visualisieren von Daten bereit.</p>\n<p>Die aktuelle Version bietet:</p>\n<p> * Unterstützung für das HDF5-Dateiformat (inklusive SPEC-Format)  * Histogramme  * Fit-Funktionen  * 1D- und 2D-Visualisierung mit mehreren Backends (matplotlib oder OpenGL)  * Bildanzeige-Widget mit zugehörigen Werkzeugen (siehe Changelog)  * Einheitlicher Browser für HDF5-, SPEC- und Bildformate zur Inspektion und Visualisierung n-dimensionaler Datensätze  * Einheitlicher Viewer („silx view Dateiname“) für HDF5-, SPEC- und Bildformate  * OpenGL-basiertes Widget zur Anzeige von 3D-Skalarfeldern inklusive Isoflächen und Schnittebenen.</p>\n<p>Verwendet wird die Python-3-Version des Pakets.</p>\n"
+}

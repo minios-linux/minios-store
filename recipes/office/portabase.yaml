@@ -1,0 +1,24 @@
+id: portabase
+name: PortaBase
+description: An easy-to-use personal database application
+longDescription: |
+  <p>PortaBase is a program for conveniently managing one-table database files. It can be used as a shopping list, media inventory, TODO list, address book, photo album and more. It is available for many platforms, including Linux, Mac OS X, Windows, and Maemo. Features include:</p>
+  <p> * String, Integer, Decimal, Boolean, Note (multi-line text), Date, Time,    Calculation, Sequence, Image, and Enum column types;  * custom data views (subsets of the columns in any order);  * filter the displayed rows using sets of conditions;  * sort the rows by any combination of columns, each in ascending or    descending order;  * add, delete, rearrange, and rename columns at any time;  * view summary statistics for columns (total, average, min, max, etc.);  * import data from CSV, XML, and MobileDB files;  * export data to CSV, HTML and XML files;  * command-line format conversions (to and from XML, from MobileDB,    to HTML);  * optional data file encryption.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - portabase
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: portabase_portabase.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

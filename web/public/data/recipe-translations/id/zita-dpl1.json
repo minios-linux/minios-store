@@ -1,0 +1,5 @@
+{
+  "name": "Zita-Dpl1",
+  "description": "Limiter level puncak digital dengan look-ahead yang menggunakan algoritma khusus untuk respons cepat tanpa distorsi frekuensi rendah yang berlebihan.",
+  "longDescription": "<p>DPL1 adalah limiter puncak digital dengan fitur look-ahead, tipe alat yang biasanya digunakan sebagai langkah akhir untuk menghindari clipping saat mastering atau mixing. Alat ini juga bisa digunakan sebagai efek pada track instrumen individual.</p>\n<p>Latensi sebesar 1,2 ms dan dibulatkan ke kelipatan 8, 16, atau 32 sampel tergantung frekuensi sampling. Ini setara dengan 56 sampel pada 44,1 kHz, 64 sampel pada 48 kHz, dan dua kali lipat nilai tersebut untuk 88,2 atau 96 kHz.</p>\n<p>Umumnya Anda hanya perlu menggunakan opsi -k number_of_channels, yang bisa bernilai 1 hingga 16. Pengurangan gain yang sama diterapkan ke semua kanal.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "DesktopNova",
+  "description": "Altera automaticamente a imagem de fundo da sua área de trabalho",
+  "longDescription": "<p>O DesktopNova muda a imagem do fundo da área de trabalho após um intervalo configurável. Ele pode selecionar imagens de arquivos individuais e pastas (com ou sem subpastas). Possui também uma função de inicialização automática.</p>\n<p>Este pacote inclui a interface gráfica e o serviço em segundo plano.</p>\n<p>É necessário pelo menos um módulo adicional. Sem um módulo, este pacote não funcionará como esperado! Veja os pacotes desktopnova-module-*.</p>\n<p>Existe também um ícone extra para a bandeja do sistema. Veja o pacote desktopnova-tray.</p>\n"
+}

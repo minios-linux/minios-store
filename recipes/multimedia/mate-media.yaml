@@ -1,0 +1,36 @@
+id: mate-media
+name: Sound
+description: Change sound volume and sound events
+longDescription: |
+  <p>MATE media utilities are the audio mixer and the volume control applet.</p>
+  <p>This package utilizes the libmatemixer library which provides support for ALSA and Pulseaudio as audio backends.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mate-media
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - mate
+  - volume
+  - control
+  - mixer
+  - settings
+  - sound
+  - events
+iconSources:
+  - url: m/ma/mate-volume-control.desktop/637FB81E22E052465241040703EB5AD2/icons/128x128/mate-media_multimedia-volume-control.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

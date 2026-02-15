@@ -1,0 +1,5 @@
+{
+  "name": "GConjugue",
+  "description": "Mengkonjugasi kata kerja bahasa Portugis",
+  "longDescription": "<p>Program grafis untuk mengkonjugasi kata kerja bahasa Portugis seperti yang digunakan di Brasil.</p>\n<p>Jika ekspresi yang dimasukkan bukan kata kerja, GConjugue akan mencoba mencarinya di antara bentuk kata kerja yang sudah dikenal. Program ini juga memiliki opsi untuk mengkonjugasi kata kerja seperti kebiasaan orang Brasil pada umumnya. Memang, penutur Brasil dari berbagai daerah sering kali menyimpang dari tata bahasa baku, tetapi hasil konjugasi yang ditampilkan tetap membantu penutur asing memahami ucapan orang Brasil.</p>\n<p>Program ini merupakan antarmuka grafis untuk alat konsol bernama conjugue (paket brazilian-conjugate). Sebagai alternatif, Anda dapat menggunakan conjugar, versi berbasis teks dari gconjugue.</p>\n"
+}

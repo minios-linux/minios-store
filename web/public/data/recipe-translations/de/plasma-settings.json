@@ -1,0 +1,5 @@
+{
+  "name": "Einstellungen",
+  "description": "Einstellungen für Plasma",
+  "longDescription": "<p>Dieses Paket enthält Konfigurationsmodule für die Plasma Mobile-Umgebung und ermöglicht es, verschiedene Einstellungen wie Audio, Bluetooth, Monitor, Standardanwendungen, Bildschirmtastatur, Benachrichtigungen, Zeit und Datum, Lokalisierung, Netzwerkmodem und weitere Plasma-Komponenten über eine grafische Oberfläche anzupassen.</p>\n<p>Die Anwendung basiert auf den grafischen Qt-Bibliotheken und den KDE Frameworks. Insbesondere nutzt sie Kirigami, sodass die Benutzeroberfläche auf verschieden großen Bildschirmen funktioniert. Sie ist jedoch für Touch-Geräte optimiert; Desktop-Nutzende sollten stattdessen das Paket 'systemsettings' installieren.</p>\n"
+}

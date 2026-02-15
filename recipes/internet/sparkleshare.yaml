@@ -1,0 +1,48 @@
+id: sparkleshare
+name: SparkleShare
+description: Magic self hosted Git file sync
+longDescription: |
+  <p>SparkleShare is a file sharing and collaboration app. It works just like Dropbox, and you can run it on your own server.</p>
+  <p>SparkleShare is based on the popular version control system Git. It even supports the popular extension Git LFS to deal well with large files. So if you are already using Git repositories in your company, SparkleShare will integrate seamlessly.</p>
+  <p>Note: if you&apos;re using GNOME Shell as your desktop environment on a distribution other than Ubuntu, install the AppIndicator Support extension to show the SparkleShare status icon. If for whatever reason you need the legacy status icon, start SparkleShare with --status-icon=gtk.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sparkleshare
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/sparkleshare/SparkleShare/392C1F6BEC183333A14E63D03AFD6E65/screenshots/image-1_orig.png
+    thumbnailUrl: org/sparkleshare/SparkleShare/392C1F6BEC183333A14E63D03AFD6E65/screenshots/image-1_624x351.png
+    width: 2400
+    height: 1350
+  - url: org/sparkleshare/SparkleShare/392C1F6BEC183333A14E63D03AFD6E65/screenshots/image-2_orig.png
+    thumbnailUrl: org/sparkleshare/SparkleShare/392C1F6BEC183333A14E63D03AFD6E65/screenshots/image-2_624x351.png
+    width: 2400
+    height: 1350
+  - url: org/sparkleshare/SparkleShare/392C1F6BEC183333A14E63D03AFD6E65/screenshots/image-3_orig.png
+    thumbnailUrl: org/sparkleshare/SparkleShare/392C1F6BEC183333A14E63D03AFD6E65/screenshots/image-3_624x351.png
+    width: 2400
+    height: 1350
+iconSources:
+  - url: org/sparkleshare/SparkleShare/392C1F6BEC183333A14E63D03AFD6E65/icons/128x128/sparkleshare_org.sparkleshare.SparkleShare.png
+    width: 128
+    height: 128
+developer: Hylke Bons
+homepage: "https://www.sparkleshare.org/"
+enabled: true
+order: 99

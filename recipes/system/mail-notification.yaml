@@ -1,0 +1,25 @@
+id: mail-notification
+name: Mail Notification
+description: Configure Mail Notification
+longDescription: |
+  <p>mail-notification works with system trays implementing the freedesktop.org System Tray Specification, such as the GNOME Panel Notification Area, the xfce4 Notification Area and the KDE System Tray.</p>
+  <p> Mail Notification features include:   * multiple mailbox support   * mbox, MH, Maildir, Sylpheed, POP3, IMAP, Gmail and Evolution support   * Mozilla products (Mozilla, SeaMonkey, Thunderbird, ...) mailbox support   * SASL authentication support   * APOP authentication support   * SSL/TLS support   * automatic detection of mailbox format   * immediate notification (depends on your settings)   * HIG 2.0 compliance</p>
+  <p> Note: Evolution support is available with mail-notification-evolution.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mail-notification
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: mail-notification_mail-notification.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

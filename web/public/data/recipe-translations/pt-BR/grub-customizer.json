@@ -1,0 +1,5 @@
+{
+  "name": "Grub Customizer",
+  "description": "Personalize o carregador de boot (GRUB2 ou BURG)",
+  "longDescription": "<p>O Grub Customizer é uma interface gráfica para configurar o GRUB2 e o BURG. Permite alterar configurações e entradas de menu de forma simples.</p>\n<p>Principais recursos do Grub Customizer:   * Mover, remover ou renomear entradas do menu (permanecem atualizáveis pelo update-grub).   * Editar o conteúdo das entradas ou criar novas (internamente edita o arquivo 40_custom).   * Oferece reinstalação do carregador de boot no MBR.   * Permite configurar o sistema operacional padrão, parâmetros do kernel, imagem de fundo, cores do texto, entre outros.   * Possibilita trocar o sistema operacional instalado executando em um live CD/DVD ou a partir de uma distribuição no pendrive.</p>\n<p>O Grub Customizer é útil para personalização e recuperação do sistema em qualquer distribuição Linux.</p>\n"
+}

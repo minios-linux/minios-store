@@ -1,0 +1,62 @@
+id: "retroarch"
+name: RetroArch
+description: "Frontend for emulators, game engines and media players"
+longDescription: |
+  <p>RetroArch is an open source, multi-platform frontend for the libretro API. It can be used as a modular multi emulator system, game engine, media player and 3D technical demonstration. These features are available through libretro cores.</p>
+  <p>It provides three built-in GUI: RGUI, XMB and GLUI.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - retroarch
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - multi
+  - engine
+  - emulator
+  - xmb
+screenshotSources:
+  - url: com/libretro/RetroArch/d8f943b99b678e4ea0c8135149b606ee/screenshots/image-1_orig.png
+    thumbnailUrl: com/libretro/RetroArch/d8f943b99b678e4ea0c8135149b606ee/screenshots/image-1_624x336@1.png
+    width: 768
+    height: 414
+  - url: com/libretro/RetroArch/d8f943b99b678e4ea0c8135149b606ee/screenshots/image-2_orig.png
+    thumbnailUrl: com/libretro/RetroArch/d8f943b99b678e4ea0c8135149b606ee/screenshots/image-2_624x546@1.png
+    width: 768
+    height: 672
+  - url: com/libretro/RetroArch/d8f943b99b678e4ea0c8135149b606ee/screenshots/image-3_orig.png
+    thumbnailUrl: com/libretro/RetroArch/d8f943b99b678e4ea0c8135149b606ee/screenshots/image-3_624x467@1.png
+    width: 768
+    height: 575
+  - url: com/libretro/RetroArch/d8f943b99b678e4ea0c8135149b606ee/screenshots/image-4_orig.png
+    thumbnailUrl: com/libretro/RetroArch/d8f943b99b678e4ea0c8135149b606ee/screenshots/image-4_624x390@1.png
+    width: 768
+    height: 480
+iconSources:
+  - url: com/libretro/RetroArch/d8f943b99b678e4ea0c8135149b606ee/icons/128x128/retroarch_com.libretro.RetroArch.png
+    width: 128
+    height: 128
+developer: libretro
+homepage: "https://www.retroarch.com"
+enabled: true
+order: 99

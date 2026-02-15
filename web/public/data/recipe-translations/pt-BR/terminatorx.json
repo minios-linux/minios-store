@@ -1,0 +1,5 @@
+{
+  "name": "terminatorX",
+  "description": "terminatorX é um sintetizador de áudio em tempo real",
+  "longDescription": "<p>O terminatorX permite carregar amostras de áudio em vários formatos (*.wav, *.au, *.ogg, *.mp3, etc.) em toca-discos virtuais para reprodução sincronizada. O usuário pode controlar esses toca-discos utilizando mouse e teclado para \"riscá-los\", como DJs de hip hop fazem com discos de vinil.</p><p>Possui efeitos em tempo real (tanto integrados quanto via plugins LADSPA), sequenciador e interface MIDI — tudo acessível por uma interface gráfica gtk+ fácil de usar. O áudio pode ser reproduzido diretamente pelo hardware usando os backends ALSA e OSS, ou via daemon de roteamento de áudio utilizando os backends JACK e PulseAudio.</p>"
+}

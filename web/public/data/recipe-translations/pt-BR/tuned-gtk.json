@@ -1,0 +1,5 @@
+{
+  "name": "tuned-gui",
+  "description": "Interface gráfica GTK para controlar o daemon Tuned e oferece um editor simples de perfis",
+  "longDescription": "<p>O pacote tuned contém um daemon que ajusta dinamicamente as configurações do sistema. Ele realiza esse ajuste monitorando periodicamente o uso de diversos componentes do sistema. Com base nessas informações, os componentes são colocados em modos de economia de energia mais altos ou mais baixos para se adaptar ao uso atual. Atualmente, apenas dispositivos de rede ethernet e discos rígidos ATA são suportados.</p>\n<p>Este pacote inclui a interface gráfica GTK+ que permite controlar o tuned e oferece um editor simples de perfis.</p>\n"
+}

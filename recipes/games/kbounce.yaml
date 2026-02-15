@@ -1,0 +1,44 @@
+id: "kbounce"
+name: KBounce
+description: Ball Bouncing Game
+longDescription: |
+  <p>KBounce is a game where the player builds walls to confine a number of bouncing balls.</p>
+  <p>This package is part of the KDE games module.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kbounce
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kbounce/25be37d1994a67f292b9f0d905f68c16/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kbounce/25be37d1994a67f292b9f0d905f68c16/screenshots/image-1_624x532@1.png
+    width: 903
+    height: 770
+iconSources:
+  - url: org/kde/kbounce/25be37d1994a67f292b9f0d905f68c16/icons/128x128/kbounce_kbounce.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/applications/games/org.kde.kbounce"
+enabled: true
+order: 99

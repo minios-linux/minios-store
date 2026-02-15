@@ -1,0 +1,22 @@
+id: mozillavpn
+name: MozillaVPN
+description: "A fast, secure and easy to use VPN. Built by the makers of Firefox."
+longDescription: |
+  <p>Built by the makers of Firefox. Read more on https://vpn.mozilla.org</p>
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mozillavpn
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: m/mo/mozillavpn.desktop/b84b97c58c2c85a4a9695cb5d1c0dc8a/icons/128x128/mozillavpn_mozillavpn.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

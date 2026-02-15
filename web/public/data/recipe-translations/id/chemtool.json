@@ -1,0 +1,5 @@
+{
+  "name": "Chemtool",
+  "description": "Program untuk menggambar molekul (2D)",
+  "longDescription": "<p>Chemtool adalah editor struktur kimia 2D berbasis GTK+ untuk X11. Program ini mendukung berbagai gaya ikatan, hampir semua bentuk teks yang dibutuhkan untuk pengetikan kimia, serta garis lengkung, busur, dan panah melengkung.</p>\n<p>Gambar yang dihasilkan dapat diekspor ke format MOL dan PDB, SVG atau XFig untuk anotasi lanjutan, sebagai gambar PiCTeX, bitmap, atau file Postscript (beberapa di antaranya melalui program pendamping XFig, fig2dev).</p>\n<p>Paket ini juga menyertakan program bantu, cht, untuk menghitung rumus sum dan berat molekul (tepat) dari file gambar Chemtool. Cht dapat dijalankan langsung melalui Chemtool maupun lewat terminal.</p>\n"
+}

@@ -1,0 +1,43 @@
+id: "rocs"
+name: Rocs
+description: Rocs Graph Theory
+longDescription: |
+  <p>Rocs is a Graph Theory IDE for designing and analyzing graph algorithms. It provides an easy to use visual editor for creating graphs, a scripting engine to execute algorithms, and several helper tools for simulations and experiments. Algorithms are specified in JavaScript.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rocs
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/rocs.desktop/4e9fdd7825cb6c3e51859b08965f46a2/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/rocs.desktop/4e9fdd7825cb6c3e51859b08965f46a2/screenshots/image-1_624x366@1.png
+    width: 1906
+    height: 1120
+iconSources:
+  - url: org/kde/rocs.desktop/4e9fdd7825cb6c3e51859b08965f46a2/icons/128x128/rocs_rocs.png
+    width: 128
+    height: 128
+homepage: "https://edu.kde.org/applications/all/rocs"
+enabled: true
+order: 99

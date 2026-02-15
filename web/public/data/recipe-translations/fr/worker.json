@@ -1,0 +1,5 @@
+{
+  "name": "Worker",
+  "description": "Gestionnaire de fichiers pour X.",
+  "longDescription": "<p>Worker est un gestionnaire de fichiers semblable à DirOpus de l’Amiga. Il peut être contrôlé à la souris ou au clavier. Il n’y a aucune limite au nombre ou au type de fonctions attribuées aux boutons. Les fichiers sont reconnus à la fois par leur extension et leur contenu, ce dernier étant identifié par la détection d’octets communs dans les fichiers exemples que vous indiquez. Le glisser-déposer est pris en charge.</p>\n<p>Si xli ou imagemagick est installé, il permet un aperçu rapide des images dans le panneau opposé. Si x11-utils est installé, xmessage est utilisé pour afficher certains messages d’information.</p>\n"
+}

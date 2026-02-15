@@ -1,0 +1,38 @@
+id: avahi-ui-utils
+name: Avahi VNC Server Browser
+description: Browse for Zeroconf-enabled VNC Servers
+longDescription: |
+  <p>Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It allows programs to publish and discover services and hosts running on a local network with no specific configuration. For example you can plug into a network and instantly find printers to print to, files to look at and people to talk to.</p>
+  <p>This package contains some small GTK+ utilities to discover ssh and vnc servers.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - avahi-ui-utils
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: avahi-ui-utils_network-wired.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

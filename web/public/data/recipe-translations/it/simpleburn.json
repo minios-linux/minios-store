@@ -1,0 +1,5 @@
+{
+  "name": "SimpleBurn",
+  "description": "Utility per masterizzazione ed estrazione CD/DVD",
+  "longDescription": "<p>Le funzionalità includono:  - Estrazione e masterizzazione di immagini ISO su CD / DVD,  - Estrazione e masterizzazione di CD audio,  - Masterizzazione di cartelle dati su CD / DVD,  - Cancellazione di CD / DVD riscrivibili,  - Copia di CD / DVD,  - Ripping di DVD video,  - Lingue supportate: cs, de, en, es, fr, hu, it, pl, sv, ru,  - Supporto per diversi metodi di rilevamento dei dispositivi e dei supporti (Udev, HAL o LibCDIO),  - Compatibilità con diverse suite di masterizzazione (CDRTools, CDRKit, LibBurnia + CDParanoia / LibCDIO + CDRDAO).</p>\n<p>SimpleBurn è un software libero sotto licenza Cecill-2.</p>\n"
+}

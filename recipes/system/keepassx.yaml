@@ -1,0 +1,32 @@
+id: keepassx
+name: KeePassX
+description: Cross Platform Password Manager
+longDescription: |
+  <p>KeePassX is a free/open-source password manager or safe which helps you to manage your passwords in a secure way. You can put all your passwords in one database, which is locked with one master key or a key-disk. So you only have to remember one single master password or insert the key-disk to unlock the whole database. The databases are encrypted using the algorithms AES or Twofish.</p>
+  <p>In contrast to KeePassXC (package keepassxc), the development pace of KeePassX has slowed down. It has less features, and uses an outdated version of the Qt widget. If you do not know whether you should install keepassx or keepassxc, install keepassx instead!</p>
+  
+categoryId: system
+icon: Lock
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - keepassx
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: k/ke/keepassx.desktop/9964B7ACE990FF3F1AE400C2B00CAB7B/icons/128x128/keepassx_keepassx.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

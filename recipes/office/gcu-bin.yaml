@@ -1,0 +1,41 @@
+id: "gcu-bin"
+name: GChemTable
+description: A Mendeleiev table of the chemical elements
+longDescription: |
+  <p>The GNOME Chemistry Utils provide C++ classes and Gtk+-2 widgets related to chemistry. They will be used in future versions of both gcrystal and gchempaint.</p>
+  <p>This package provides 4 applications:</p>
+  <p> * a molecular structures viewer (GChem3D)  * a molar mass calculator (GChemCalc)  * a periodic table of the elements (GChemTable)  * a spectra viewer (GSpectrum)</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gcu-bin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - chemistry
+  - mendeleiev
+  - periodic table
+iconSources:
+  - url: g/gc/gchemcalc-0.14.desktop/c6efb55fe519173a065d875128ff4cde/icons/128x128/gcu-bin_gchemcalc.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

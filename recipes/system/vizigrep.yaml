@@ -1,0 +1,31 @@
+id: vizigrep
+name: vizigrep
+description: Search text files
+longDescription: |
+  <p>Vizigrep is a graphical user interface for performing fast and powerful searches inside a group of files.  Simply tell Vizigrep which folder you want to search and what you want to search for and it will quickly find all occurrences of your search string within the files and folders you have selected.  The search results are annotated to show you the lines containing your search term and color coding is used to help you quickly lock your eyes on to what you are searching for. If simple search strings are not powerful enough Vizigrep also understands regular expressions.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vizigrep
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - vizigrep
+  - grep
+  - search
+iconSources:
+  - cached: vizigrep_vizigrep.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

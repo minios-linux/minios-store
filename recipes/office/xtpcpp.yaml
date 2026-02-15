@@ -1,0 +1,29 @@
+id: xtpcpp
+name: X!TandemPipeline C++
+description: Protein inference tool
+longDescription: |
+  <p>The program allows one to perform the following tasks:  -Reads X!Tandem xml results files  -Reads MASCOT dat results files  -Reads TPP pepXML results files  -Reads PSI mzIdentML results files  -Run X!Tandem analyzes through a graphical user interface  -Implements various filters based on statistical values  -Powerful original grouping algorithm to filter redundancy  -Phosphopeptide mode to handle phosphoproteomics datasets  -Edit, search and sort the data graphically  -XIC chromatogram browser (eXtracted Ion Current)  -Comparisons of theoretical isotope patterns to measured MS1 XIC areas  -Export data directly to Microsoft Office 2010 and LibreOffice (ods export)  -Handle huge datasets very quickly  -Perform peptide quantification through MassChroQml export</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xtpcpp
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - mass spectrometry
+  - protein inference
+  - peptide
+iconSources:
+  - cached: xtpcpp_xtpcpp.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

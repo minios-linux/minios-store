@@ -1,0 +1,5 @@
+{
+  "name": "GCX Astro-Image Processor",
+  "description": "Memproses citra astronomi dan mengendalikan CCD",
+  "longDescription": "<p>Gcx adalah alat pemrosesan citra dan reduksi data astronomi dengan antarmuka grafis yang mudah digunakan. Aplikasi ini menyediakan rangkaian lengkap fungsi reduksi data untuk fotometri CCD, termasuk fitting WCS pada frame, identifikasi bintang otomatis, fotometri aperture untuk target dan bintang standar, pencarian solusi fotometri ansambel satu frame, fitting koefisien warna multi-frame, fitting koefisien ekstingsi, dan fotometri seluruh langit; serta fitur pemrosesan citra astronomi umum (bias, dark, flat, penyelarasan dan penumpukan frame). Gcx juga dapat digunakan sebagai penampil berkas FITS.</p>\n<p>Program ini dapat mengendalikan kamera CCD dan teleskop, serta mendukung penyusunan skrip observasi otomatis. Kamera dikendalikan melalui server khusus perangkat keras, dan gcx terhubung ke server tersebut melalui soket TCP. Gcx menghasilkan file FITS dengan informasi header yang lengkap.</p>\n"
+}

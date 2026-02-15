@@ -1,0 +1,70 @@
+id: "naev"
+name: Naev
+description: 2D action/rpg space trading combat game
+longDescription: |
+  <p>Naev is a 2D space trading and combat game, taking inspiration from the Escape Velocity series, among others.</p>
+  <p>You pilot a space ship from a top-down perspective, and are more or less free to do what you want. As the genre name implies, you’re able to trade and engage in combat at will. Beyond that, there’s an ever-growing number of storyline missions, equipment, and ships; Even the galaxy itself grows larger with each release. For the literarily-inclined, there are large amounts of lore accompanying everything from planets to equipment.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - naev
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - 2d
+  - action
+  - rpg
+  - space
+  - trading
+  - combat
+  - game
+screenshotSources:
+  - url: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-1_orig.png
+    thumbnailUrl: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-1_624x468.png
+    width: 1024
+    height: 768
+  - url: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-2_orig.png
+    thumbnailUrl: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-2_624x520.png
+    width: 1152
+    height: 960
+  - url: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-3_orig.png
+    thumbnailUrl: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-3_624x468.png
+    width: 1280
+    height: 960
+  - url: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-4_orig.png
+    thumbnailUrl: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-4_624x468.png
+    width: 640
+    height: 480
+  - url: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-5_orig.png
+    thumbnailUrl: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-5_624x468.png
+    width: 1024
+    height: 768
+  - url: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-6_orig.png
+    thumbnailUrl: org/naev/naev/31ee10509dd16aa70da971b3894fd407/screenshots/image-6_624x468.png
+    width: 1024
+    height: 768
+iconSources:
+  - url: org/naev/naev/31ee10509dd16aa70da971b3894fd407/icons/128x128/naev_naev.png
+    width: 128
+    height: 128
+homepage: "http://naev.org"
+enabled: true
+order: 99

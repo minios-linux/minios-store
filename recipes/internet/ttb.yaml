@@ -1,0 +1,23 @@
+id: ttb
+name: TTB Teletekst Browser
+description: Teletekst Browser
+longDescription: |
+  <p>Teletekst Browser (ttb) is a small browser for the Teletekst system as used in The Netherlands, and provides a convenient way to stay up to date with news, sports, weather, stock exchange and what not.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ttb
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ttb_ttb.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

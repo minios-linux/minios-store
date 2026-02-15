@@ -1,0 +1,50 @@
+id: "kbibtex"
+name: KBibTeX
+description: KDE-based editor for bibliographic files
+longDescription: |
+  <p>An application to manage bibliography databases in the BibTeX format. KBibTeX can be used as a standalone program, but can also be embedded into other KDE applications (e.g. as bibliography editor into Kile).</p>
+  <p>KBibTeX can query online resources (e.g. Google scholar) via customizable search URLs. It is also able to import complete datasets from NCBI Pubmed. It also supports tagging references with keywords and manages references to local files.</p>
+  <p>BibTeX files can be exported into HTML, XML, PDF, PS and RTF format using a number of citation styles.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kbibtex
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - bibtex
+  - bibliography
+  - editor
+  - latex
+screenshotSources:
+  - url: org/kde/kbibtex.desktop/af2486b15e77c33526ca6ca866e842d3/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kbibtex.desktop/af2486b15e77c33526ca6ca866e842d3/screenshots/image-1_624x426@1.png
+    width: 1659
+    height: 1133
+iconSources:
+  - url: org/kde/kbibtex.desktop/af2486b15e77c33526ca6ca866e842d3/icons/128x128/kbibtex_kbibtex.png
+    width: 128
+    height: 128
+homepage: "https://userbase.kde.org/KBibTeX"
+enabled: true
+order: 99

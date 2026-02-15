@@ -1,0 +1,33 @@
+id: acm
+name: ACM
+description: turn-based space empire and galactic conquest computer game (client)
+longDescription: |
+  <p>A multiplayer aerial combat simulation. Players engage in air to air combat against one another using heat seeking missiles and cannons.</p>
+  <p>Main features include:  * Simulation with 6 degrees of freedom.  * Structural limit to the vertical positive/negative load.  * Classic instruments, navigation and head-up display (HUD).  * Several aircraft models implemented, both civil and military.  * Two scenes provided, with many runways and radio stations.</p>
+  <p>acm runs under the X window system.  This version of acm is implemented as a distributed simulation.  It communicates information via the IEEE Distributed Interactive Simulation protocol.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - acm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - aerial
+  - comabt
+  - simulation
+iconSources:
+  - url: a/ac/acm.desktop/57E42F7E8A2CF896F9423218E32670AB/icons/128x128/acm_acm.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

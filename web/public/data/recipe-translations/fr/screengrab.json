@@ -1,0 +1,5 @@
+{
+  "name": "ScreenGrab",
+  "description": "Outil de capture d’écran en Qt",
+  "longDescription": "<p>\n      Puissant utilitaire de capture d’écran basé sur Qt.\n      Capturez l’écran, une fenêtre ou une zone définie.\n      Fonctions principales :\n    </p>\n<ul>\n  <li>Délai de capture</li>\n  <li>Édition directe dans d’autres applications</li>\n  <li>Enregistrement automatique ; insertion de la date et de l’heure dans le nom du fichier</li>\n  <li>Ajustement aux bords via clic droit</li>\n  <li>Raccourcis personnalisés</li>\n</ul>\n"
+}

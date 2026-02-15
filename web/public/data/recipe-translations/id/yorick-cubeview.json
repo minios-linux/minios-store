@@ -1,0 +1,5 @@
+{
+  "name": "Cubeview",
+  "description": "Penampil data FITS 3D untuk spektro-imaging",
+  "longDescription": "<p>Cubeview adalah penampil data 3D yang tersimpan dalam berkas FITS, format file yang banyak digunakan di komunitas astronomi. Aplikasi ini dioptimalkan untuk menampilkan data spektro-imaging, namun juga dapat digunakan untuk visualisasi dasar pada berkas FITS yang berisi array 3D.</p>\n<p>Cubeview memiliki antarmuka grafis mandiri yang mengikuti tampilan GTK+. Karena ditulis dengan Yorick, aplikasi ini mendukung scripting secara alami. Sistem hooks memungkinkan aksi kustom dijalankan otomatis saat peristiwa tertentu terjadi.</p>\n"
+}

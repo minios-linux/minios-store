@@ -1,0 +1,5 @@
+{
+  "name": "GNU TeXmacs",
+  "description": "Um editor científico estruturado WYSIWYG",
+  "longDescription": "<p>O GNU TeXmacs é um editor científico de textos gratuito, inspirado tanto no sistema de composição tipográfica TeX quanto no editor GNU Emacs.</p>\n<p>O editor permite criar documentos estruturados em um ambiente WYSIWYG (o que você vê é o que obtém) com uma interface amigável. Novos estilos podem ser criados pelo usuário. O programa possui algoritmos de tipografia de alta qualidade e utiliza fontes TeX, ajudando a produzir documentos com aparência profissional.</p>\n<p>A alta qualidade da tipografia também se mantém em fórmulas geradas automaticamente, tornando o TeXmacs adequado como interface para Sistemas de Álgebra Computacional (CAS), como SageMath, Maxima, PARI/GP. O TeXmacs ainda suporta a linguagem de extensão Guile/Scheme, permitindo customizar a interface e desenvolver suas próprias extensões para o editor.</p>\n<p>Este pacote contém os arquivos dependentes de arquitetura.</p>\n"
+}

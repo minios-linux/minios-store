@@ -1,0 +1,5 @@
+{
+  "name": "FSearch",
+  "description": "Aplicativo gráfico de busca de arquivos",
+  "longDescription": "<p>O FSearch facilita a busca por arquivos e pastas de forma rápida e descomplicada. Basta digitar algumas letras e os resultados aparecem quase instantaneamente.</p><p>O programa oferece diversos recursos que tornam as buscas mais eficientes e poderosas, como:</p><ul><li>Ignorar maiúsculas e minúsculas (por exemplo, buscar por \"fsearch\" também vai encontrar \"FSearch\")</li><li>Suporte a expressões regulares</li><li>Suporte a curingas</li><li>Filtros de pesquisa (por exemplo, pesquisar apenas arquivos de áudio)</li><li>Exclusão de arquivos e pastas específicas</li><li>Ordenação rápida por nome, caminho, tamanho, data de modificação e extensão</li></ul><p>Observação: Devido ao sandbox do Flatpak, o FSearch pode não localizar todos os arquivos do seu sistema.</p>"
+}

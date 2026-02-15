@@ -1,0 +1,5 @@
+{
+  "name": "GOPchop",
+  "description": "Éditeur MPEG2 précis au niveau GOP",
+  "longDescription": "<p>gopchop permet de couper et de fusionner des flux vidéo MPEG2. Il utilise une méthode de découpe qui ne nécessite pas de réencodage, ce qui le rend rapide et évite les artefacts ainsi que la perte de qualité liés au réencodage. Cependant, les coupes sont limitées aux trames I ou aux frontières des groupes d’images (GOP). Ces images apparaissent suffisamment fréquemment, souvent lors des transitions de scènes, ce qui rend la méthode de gopchop adaptée à de nombreux usages.</p>\n<p>L’utilisation typique consiste à retirer manuellement les publicités de programmes télévisés enregistrés.</p>\n<p>Une autre utilisation courante consiste à diviser des fichiers .VOB issus de copies de DVD double couche afin de pouvoir réorganiser le contenu pour que chaque moitié tienne sur un DVD enregistrable simple couche.</p>\n"
+}

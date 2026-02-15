@@ -1,0 +1,5 @@
+{
+  "name": "Remote Viewer",
+  "description": "Accede a máquinas virtuales de forma remota",
+  "longDescription": "<p>Remote Viewer ofrece una interfaz gráfica para visualizar el sistema operativo invitado. Actualmente, es compatible con máquinas virtuales que utilizan los protocolos VNC o SPICE. En el futuro, se podrán añadir más protocolos según la demanda de los usuarios. El visor puede conectarse tanto a sistemas operativos invitados alojados localmente como de forma remota, con la opción de emplear cifrado SSL/TLS.</p>\n"
+}

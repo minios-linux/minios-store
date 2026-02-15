@@ -1,0 +1,54 @@
+id: "gnome-shell-extension-manager"
+name: Extension Manager
+description: "Browse, install, and manage GNOME Shell Extensions."
+longDescription: |
+  <p>A utility for browsing and installing GNOME Shell Extensions.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Browse extensions.gnome.org right inside the app</li>
+    <li>Manage the extensions you already have installed</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-shell-extension-manager
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - extensions
+  - shell
+screenshotSources:
+  - url: com/mattjakeman/ExtensionManager/aca57d2208f09623d0e7a3d7c62b36fc/screenshots/image-1_orig.png
+    thumbnailUrl: com/mattjakeman/ExtensionManager/aca57d2208f09623d0e7a3d7c62b36fc/screenshots/image-1_624x488@1.png
+    width: 922
+    height: 722
+  - url: com/mattjakeman/ExtensionManager/aca57d2208f09623d0e7a3d7c62b36fc/screenshots/image-2_orig.png
+    thumbnailUrl: com/mattjakeman/ExtensionManager/aca57d2208f09623d0e7a3d7c62b36fc/screenshots/image-2_624x488@1.png
+    width: 922
+    height: 722
+  - url: com/mattjakeman/ExtensionManager/aca57d2208f09623d0e7a3d7c62b36fc/screenshots/image-3_orig.png
+    thumbnailUrl: com/mattjakeman/ExtensionManager/aca57d2208f09623d0e7a3d7c62b36fc/screenshots/image-3_624x488@1.png
+    width: 922
+    height: 722
+  - url: com/mattjakeman/ExtensionManager/aca57d2208f09623d0e7a3d7c62b36fc/screenshots/image-4_orig.png
+    thumbnailUrl: com/mattjakeman/ExtensionManager/aca57d2208f09623d0e7a3d7c62b36fc/screenshots/image-4_624x488@1.png
+    width: 922
+    height: 722
+iconSources:
+  - url: com/mattjakeman/ExtensionManager/aca57d2208f09623d0e7a3d7c62b36fc/icons/128x128/gnome-shell-extension-manager_com.mattjakeman.ExtensionManager.png
+    width: 128
+    height: 128
+developer: Matthew Jakeman
+homepage: "https://github.com/mjakeman/extension-manager"
+enabled: true
+order: 99

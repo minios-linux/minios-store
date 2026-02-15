@@ -1,0 +1,5 @@
+{
+  "name": "JabRef",
+  "description": "Éditeur graphique de bibliographies BibTeX",
+  "longDescription": "<p>JabRef est une application Java graphique pour la gestion et l’édition de bases de données BibTeX (.bib). JabRef vous permet d’organiser vos entrées en groupes logiques qui peuvent se chevaucher, et d’afficher en un clic uniquement un groupe, une intersection ou une union de plusieurs groupes. L’interface principale est entièrement personnalisable : vous choisissez les informations affichées et pouvez trier selon n’importe quel champ BibTeX standard. JabRef génère automatiquement les clés BibTeX pour vos références et propose un lien direct vers les fichiers PDF ou les sources web de chaque entrée.</p>\n<p>JabRef prend en charge l’import et l’export vers de nombreux formats, avec la possibilité de définir des filtres d’export personnalisés. Il peut également être utilisé en ligne de commande pour convertir entre n’importe quels formats pris en charge.</p>\n"
+}

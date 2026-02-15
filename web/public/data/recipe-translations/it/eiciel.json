@@ -1,0 +1,5 @@
+{
+  "name": "Eiciel",
+  "description": "Strumento per la gestione delle voci ACL",
+  "longDescription": "<p>Eiciel è uno strumento autonomo e un plugin per Nautilus che permette di modificare graficamente le Access Control Lists (ACL) dei tuoi file. Le ACL consentono di impostare permessi più dettagliati rispetto ai tradizionali permessi Unix di utente, gruppo e altri (permessi UGO).</p>\n<p>Eiciel permette anche di modificare gli attributi estesi di file e cartelle, se il filesystem lo supporta.</p>\n<p>Non tutti i filesystem supportano ACL e attributi estesi. Inoltre, anche su quelli compatibili, queste funzioni devono essere abilitate (dall'amministratore di sistema) prima di utilizzare Eiciel.</p>\n"
+}

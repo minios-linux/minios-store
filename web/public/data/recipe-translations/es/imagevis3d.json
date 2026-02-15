@@ -1,0 +1,5 @@
+{
+  "name": "ImageVis3D",
+  "description": "Aplicación de renderizado volumétrico de escritorio para grandes volúmenes de datos",
+  "longDescription": "<p>ImageVis3D es una aplicación de renderizado volumétrico especialmente diseñada para visualizar grandes volúmenes de datos. Para lograrlo, divide el conjunto de datos en múltiples niveles de detalle (LoD), y cada nivel a su vez se descompone en varios bloques (unidades atómicas de renderizado). La interacción se realiza en el nivel más grueso de detalle, el cual puede mostrarse de manera instantánea en casi cualquier sistema moderno. Tras un breve lapso configurable, ImageVis3D va renderizando sucesivamente niveles de mayor detalle, hasta que los datos sean visibles en su resolución original.</p>\n<p>El desarrollo de ImageVis3D es patrocinado por el Center for Integrative Biomedical Computing (CIBC) de NIH/NCRR y por el Visualization And Analytics Center for Enabling Technologies (VACET) del DOE.</p>\n"
+}

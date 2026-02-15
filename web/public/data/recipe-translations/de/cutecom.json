@@ -1,0 +1,5 @@
+{
+  "name": "CuteCom",
+  "description": "Ein grafisches Seriellen-Terminal",
+  "longDescription": "<p>CuteCom ist ein grafisches Seriellen-Terminal, ähnlich wie minicom. Es richtet sich hauptsächlich an Hardwareentwickler oder andere Anwender, die ein Terminal zur Kommunikation mit ihren Geräten benötigen. Zu den Funktionen gehören eine zeilenorientierte statt zeichenorientierter Bedienoberfläche, Unterstützung für Xmodem, Ymodem und Zmodem (benötigt das lrzsz-Paket) sowie hexadezimale Ein- und Ausgabe, neben weiteren Features. Es wurde mit der Qt-Bibliothek entwickelt, ursprünglich von Trolltech (www.trolltech.com).</p>\n"
+}

@@ -1,0 +1,32 @@
+id: mate-notification-daemon
+name: Popup Notifications
+description: Set your popup notification preferences
+longDescription: |
+  <p>mate-notification-daemon displays passive popup notifications, as per the Desktop Notifications Specification.</p>
+  <p>The Desktop Notifications Specification provides a standard way of doing passive popup notifications on the Linux desktop. These are designed to notify the user of something without interrupting their work with a dialog box that they must close.  Passive popups can automatically disappear after a short period of time, as per the Desktop Notifications spec.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mate-notification-daemon
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - mate
+  - notification
+  - theme
+iconSources:
+  - url: m/ma/mate-notification-properties.desktop/5EB6C7FFE5DDF87FECCDAA75C3C5BDE7/icons/128x128/mate-notification-daemon_mate-notification-properties.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

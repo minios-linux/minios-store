@@ -1,0 +1,43 @@
+id: "cen64-qt"
+name: CEN64-Qt
+description: A customizable cross-platform frontend for CEN64
+longDescription: |
+  <p>CEN64-Qt is a cross-platform graphical frontend for the CEN64 emulator. Since CEN64 itself provides a simple command line interface only, anyone who wants to use this particular emulator with a little more convenience has to resort to additional software which is where this package jumps in.</p>
+  <p>The frontend lists all available ROMs after adding them to the inventory with the option to download additional information from external game databases on the web. File paths for the necessary IPL files can be conveniently configured from the settings menu as well as the paths where games save a stored and recovered from.</p>
+  <p>Additional features include a log viewer for the emulator, a configurable view for the ROM listing as well as a quick access menu to select the preferred input device for the emulator such as different gamepads and a keyboard.</p>
+  <p>Naturally, all settings are automatically saved and restored such that they only need to be configured once.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cen64-qt
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64]
+    - name: buster
+      architectures: [amd64]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - emulator
+  - cen64
+  - nintendo
+  - 64
+iconSources:
+  - url: c/ce/cen64-qt.desktop/51a697781a80203716fc304b769b9450/icons/128x128/cen64-qt_cen64-qt.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

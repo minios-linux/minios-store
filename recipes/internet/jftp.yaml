@@ -1,0 +1,46 @@
+id: jftp
+name: JFTP
+description: "Java GUI client for FTP, SMB, SFTP and NFS"
+longDescription: |
+  <p>JFtp is a graphical Java network and file transfer client. It supports FTP using its own FTP API and various other protocols like SMB, SFTP, NFS, HTTP, and file I/O using third party APIs. It includes many advanced features such as recursive directory up/download, browsing FTP servers while transferring files, FTP resuming and queueing, browsing the LAN for Windows shares, and more. Multiple connections can open at a time in a Mozilla-style tabbed browsing environment.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jftp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ftp
+  - smb
+  - sftp
+  - nfs
+  - file
+  - transfer
+  - browser
+  - network
+iconSources:
+  - cached: jftp_jftp.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

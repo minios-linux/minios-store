@@ -1,0 +1,56 @@
+id: "gmult"
+name: Multiplication Puzzle
+description: Figure out which letters are which numbers
+longDescription: |
+  <p>Multiplication Puzzle is a simple GTK+ 2 game that emulates the multiplication game found in Emacs.  Basically, a multiplication problem is shown with all digits replaced by letters.  Your job is to guess which letter represents which number.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gmult
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: net/launchpad/gmult/f14b63e26fcf43c530e7f1e675afe53a/screenshots/image-1_orig.png
+    thumbnailUrl: net/launchpad/gmult/f14b63e26fcf43c530e7f1e675afe53a/screenshots/image-1_624x438@1.png
+    width: 742
+    height: 522
+  - url: net/launchpad/gmult/f14b63e26fcf43c530e7f1e675afe53a/screenshots/image-2_orig.png
+    thumbnailUrl: net/launchpad/gmult/f14b63e26fcf43c530e7f1e675afe53a/screenshots/image-2_624x438@1.png
+    width: 742
+    height: 522
+  - url: net/launchpad/gmult/f14b63e26fcf43c530e7f1e675afe53a/screenshots/image-3_orig.png
+    thumbnailUrl: net/launchpad/gmult/f14b63e26fcf43c530e7f1e675afe53a/screenshots/image-3_624x438@1.png
+    width: 742
+    height: 522
+  - url: net/launchpad/gmult/f14b63e26fcf43c530e7f1e675afe53a/screenshots/image-4_orig.png
+    thumbnailUrl: net/launchpad/gmult/f14b63e26fcf43c530e7f1e675afe53a/screenshots/image-4_624x438@1.png
+    width: 742
+    height: 522
+iconSources:
+  - url: net/launchpad/gmult/f14b63e26fcf43c530e7f1e675afe53a/icons/128x128/gmult_net.launchpad.gmult.png
+    width: 128
+    height: 128
+developer: Michael Terry
+homepage: "https://launchpad.net/gmult"
+enabled: true
+order: 99

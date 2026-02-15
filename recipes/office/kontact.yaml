@@ -1,0 +1,63 @@
+id: "kontact"
+name: Kontact
+description: An integrated solution to your personal information management
+longDescription: |
+  <p>Kontact is the integrated solution to your personal information management (PIM) needs.
+        It combines well-known KDE applications like KMail, KOrganizer and KAddressBook into a single interface to provide
+  easy access to mail,
+        scheduling, address book and other PIM functionality.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kontact
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kontact.desktop/e4a883398420cdd8ecc7377586cbac0d/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kontact.desktop/e4a883398420cdd8ecc7377586cbac0d/screenshots/image-1_624x351@1.png
+    width: 1280
+    height: 720
+  - url: org/kde/kontact.desktop/e4a883398420cdd8ecc7377586cbac0d/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kontact.desktop/e4a883398420cdd8ecc7377586cbac0d/screenshots/image-2_624x351@1.png
+    width: 1280
+    height: 720
+  - url: org/kde/kontact.desktop/e4a883398420cdd8ecc7377586cbac0d/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kontact.desktop/e4a883398420cdd8ecc7377586cbac0d/screenshots/image-3_624x403@1.png
+    width: 1607
+    height: 1039
+  - url: org/kde/kontact.desktop/e4a883398420cdd8ecc7377586cbac0d/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/kontact.desktop/e4a883398420cdd8ecc7377586cbac0d/screenshots/image-4_624x351@1.png
+    width: 1280
+    height: 720
+  - url: org/kde/kontact.desktop/e4a883398420cdd8ecc7377586cbac0d/screenshots/image-5_orig.png
+    thumbnailUrl: org/kde/kontact.desktop/e4a883398420cdd8ecc7377586cbac0d/screenshots/image-5_624x351@1.png
+    width: 1280
+    height: 720
+iconSources:
+  - url: org/kde/kontact.desktop/e4a883398420cdd8ecc7377586cbac0d/icons/128x128/kontact_kontact.png
+    width: 128
+    height: 128
+developer: The KDE Community
+homepage: "http://www.kontact.org/"
+enabled: true
+order: 99

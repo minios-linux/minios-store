@@ -1,0 +1,23 @@
+id: ltris
+name: LTris2
+description: A tetris clone with nice graphics.
+longDescription: |
+  <p>LTris is a very polished tetris clone, which offers three types of games. The classic mode, a figures mode, where different figures appear every level, and a multiplayer mode. LTris is highly configurable through its menu system.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ltris
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: l/lt/ltris2.desktop/d3dba11583afc01ccf9b1245e7ef88fe/icons/128x128/ltris_ltris2.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

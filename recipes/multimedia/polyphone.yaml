@@ -1,0 +1,62 @@
+id: "polyphone"
+name: Polyphone
+description: Create your own instruments to play your favorite music
+longDescription: |
+  <p>
+       Polyphone is a soundfont editor for quickly designing musical instruments.
+     </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - polyphone
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - sf2
+  - sf3
+  - sfz
+  - sfark
+  - soundfonts
+  - editor
+  - instrument
+  - audio
+  - sound
+  - sampler
+screenshotSources:
+  - url: com/polyphone_soundfonts/polyphone/0cf84ada9a5528de5df9749d83a17db5/screenshots/image-1_orig.png
+    thumbnailUrl: com/polyphone_soundfonts/polyphone/0cf84ada9a5528de5df9749d83a17db5/screenshots/image-1_224x129.png
+    width: 400
+    height: 232
+  - url: com/polyphone_soundfonts/polyphone/0cf84ada9a5528de5df9749d83a17db5/screenshots/image-2_orig.png
+    thumbnailUrl: com/polyphone_soundfonts/polyphone/0cf84ada9a5528de5df9749d83a17db5/screenshots/image-2_224x129.png
+    width: 400
+    height: 232
+  - url: com/polyphone_soundfonts/polyphone/0cf84ada9a5528de5df9749d83a17db5/screenshots/image-3_orig.png
+    thumbnailUrl: com/polyphone_soundfonts/polyphone/0cf84ada9a5528de5df9749d83a17db5/screenshots/image-3_224x129.png
+    width: 400
+    height: 232
+  - url: com/polyphone_soundfonts/polyphone/0cf84ada9a5528de5df9749d83a17db5/screenshots/image-4_orig.png
+    thumbnailUrl: com/polyphone_soundfonts/polyphone/0cf84ada9a5528de5df9749d83a17db5/screenshots/image-4_224x129.png
+    width: 400
+    height: 232
+iconSources:
+  - url: com/polyphone_soundfonts/polyphone/0cf84ada9a5528de5df9749d83a17db5/icons/128x128/polyphone_polyphone.png
+    width: 128
+    height: 128
+homepage: "https://www.polyphone-soundfonts.com/"
+enabled: true
+order: 99

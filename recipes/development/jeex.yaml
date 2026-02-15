@@ -1,0 +1,30 @@
+id: jeex
+name: Jeex
+description: Hexadecimal Editor for Linux
+longDescription: |
+  <p>Jeex is a simple hexadecimal editor which allows user to create, open and edit files in hexadecimal, binary, octal and ASCII. The features include insert, delete, copy-and-paste, search and many others.</p>
+  <p>It also shows several information about the opened file, like file mode bits, ownership, last access and modification timestamps.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jeex
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: jeex_jeex.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

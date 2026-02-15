@@ -1,0 +1,5 @@
+{
+  "name": "GTKMan Manual Page Viewer",
+  "description": "Un visualiseur de pages de manuel simple basé sur GTK+3",
+  "longDescription": "<p>GTKMan est un visualiseur de pages de manuel GTK3, écrit en Python. Les pages de manuel sont consultées en indiquant leur nom, et éventuellement la section, comme avec la commande man d’origine. Les pages sont affichées en texte brut avec la police monospace système par défaut.</p>\n"
+}

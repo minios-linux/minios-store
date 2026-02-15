@@ -1,0 +1,5 @@
+{
+  "name": "ddrescueview",
+  "description": "Visor gráfico para archivos de mapa de GNU ddrescue",
+  "longDescription": "<p>Esta herramienta permite a los usuarios examinar visualmente los archivos de mapa de ddrescue mediante una aplicación gráfica fácil de usar. La ventana principal muestra una cuadrícula de bloques, donde el color de cada bloque representa los diferentes tipos que contiene. Muchos usuarios reconocerán este tipo de visualización por su similitud con los programas de desfragmentación.</p>\n<p>Características:  * Muestra el mapa de ddrescue en un gráfico de bloques a color  * Permite examinar cada bloque en la imagen y ver una lista detallada de las entradas contenidas  * Para seguir el progreso del rescate, ddrescueview puede volver a leer el archivo de mapa automáticamente  * Las unidades se pueden mostrar con prefijos decimales (KB, MB...) o binarios (KiB, MiB...)</p>\n"
+}

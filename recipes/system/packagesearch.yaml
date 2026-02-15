@@ -1,0 +1,33 @@
+id: packagesearch
+name: Debian Package Search
+description: Search for packages and view package information
+longDescription: |
+  <p>This tool is aimed to help you search the packages you need. It should make the task of searching a pleasant experience.</p>
+  <p>Search can be done by  * pattern  * tags (based on the debtags system)  * files  * installed status  * orphaned packages Additionally a lot of information about the packages is displayed, including screenshots and the files within a package.</p>
+  <p>It is possible to install or remove packages.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - packagesearch
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: packagesearch_packagesearch.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

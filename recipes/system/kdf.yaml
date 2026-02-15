@@ -1,0 +1,45 @@
+id: "kdf"
+name: KDiskFree
+description: Displays information about hard disks and other storage devices
+longDescription: |
+  <p>KDiskFree displays information about hard disks and other storage devices, including the amount of free space available. It can also mount and unmount storage devices and view them in the file manager.</p>
+  <p>KwikDisk is an icon for the system tray that provides convenient access to the features of KDiskFree.</p>
+  <p>This package is part of the KDE Applications utilities module.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kdf
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kdf/0f38ea9defda20efdc43f6949c9a0601/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kdf/0f38ea9defda20efdc43f6949c9a0601/screenshots/image-1_624x373@1.png
+    width: 1067
+    height: 638
+iconSources:
+  - url: org/kde/kdf/0f38ea9defda20efdc43f6949c9a0601/icons/128x128/kdf_kdf.png
+    width: 128
+    height: 128
+homepage: "https://utils.kde.org/projects/kdf/"
+enabled: true
+order: 99

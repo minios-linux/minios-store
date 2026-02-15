@@ -1,0 +1,5 @@
+{
+  "name": "CellWriter",
+  "description": "Panel de entrada manuscrita por cuadrículas con reconocimiento de escritura",
+  "longDescription": "<p>CellWriter es un panel de entrada manuscrita basado en cuadrículas. A medida que escribes caracteres en las celdas, tu escritura se reconoce instantáneamente a nivel de carácter. Al pulsar 'Enter' en el panel, la entrada se envía a la aplicación que tengas activa como si hubieras escrito desde el teclado.</p>\n<p>  * Dependiente del usuario: aprende tu caligrafía para un reconocimiento confiable   * Algoritmos de preprocesamiento corrigen el ruido del digitalizador, orden de trazos distinto, dirección y número de trazos   * Soporte Unicode para escribir en tu idioma nativo</p>\n"
+}

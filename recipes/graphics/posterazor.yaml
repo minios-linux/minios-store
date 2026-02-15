@@ -1,0 +1,79 @@
+id: "posterazor"
+name: PosteRazor
+description: Splits an image across multiple pages for assembly into a poster
+longDescription: |
+  <p>
+        The PosteRazor splits an image to form a multi-page PDF document. When printed, the sheets can be arranged to form
+  a large poster of the original picture.
+      </p>
+  <p>
+        It relies upon libfreeimage and libxpm supporting many file types such BMP, GIF, ICO, JPG, PNG, TIFF, XPM among
+  others.
+      </p>
+  <p>
+        Also, PosteRazor can handle the following image color types: Monochrome, Grayscale, 4 Bit palette, 8 Bit palette,
+  24 Bit RGB, 48 Bit RGB (only via TIFF and PNG), 32 Bit CMYK (only via TIFF). 32 Bit RGBA images can be loaded, but are transformed to 24 Bit RGB by "merging" them with a white background.
+      </p>
+  <p>
+        It supports dimension units like m, mm, cm, inch, ft, pt(72th inch) and it prints the PDF output file in A4, A3,
+  Legal, Letter or Tabloid layout.
+      </p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - posterazor
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - poster
+  - picture
+  - split image
+  - raster
+  - multipage
+screenshotSources:
+  - url: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-1_orig.png
+    thumbnailUrl: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-1_624x488.png
+    width: 668
+    height: 523
+  - url: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-2_orig.png
+    thumbnailUrl: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-2_624x488.png
+    width: 668
+    height: 523
+  - url: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-3_orig.png
+    thumbnailUrl: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-3_624x488.png
+    width: 668
+    height: 523
+  - url: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-4_orig.png
+    thumbnailUrl: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-4_624x488.png
+    width: 668
+    height: 523
+  - url: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-5_orig.png
+    thumbnailUrl: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-5_624x488.png
+    width: 668
+    height: 523
+  - url: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-6_orig.png
+    thumbnailUrl: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/screenshots/image-6_624x487.png
+    width: 669
+    height: 523
+iconSources:
+  - url: io/sourceforge/posterazor.desktop/7f002c61cfb0928dfd50cab2add9c4a5/icons/128x128/posterazor_posterazor.png
+    width: 128
+    height: 128
+developer: Alessandro Portale
+homepage: "https://posterazor.sourceforge.io"
+enabled: true
+order: 99

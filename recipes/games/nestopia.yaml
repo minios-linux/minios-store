@@ -1,0 +1,50 @@
+id: "nestopia"
+name: Nestopia
+description: Accurate NES emulator
+longDescription: |
+  <p>Nestopia is a cycle-accurate NES/Famicom emulator.
+         It has a high compatibility rate and support for
+         many peripherals and input devices.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Save states</li>
+    <li>Movie recording</li>
+    <li>Game rewinding</li>
+    <li>GUI or command line interface</li>
+    <li>Emulation of NTSC, PAL, and Dendy systems</li>
+    <li>Support for NES Zapper games</li>
+    <li>Support for Famicom Disk System games</li>
+  </ul>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nestopia
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: n/ne/nestopia.desktop/3bf5a8a611a40a2d05551e1fe00a5c52/icons/128x128/nestopia_nestopia.png
+    width: 128
+    height: 128
+homepage: "http://0ldsk00l.ca/nestopia/"
+enabled: true
+order: 99

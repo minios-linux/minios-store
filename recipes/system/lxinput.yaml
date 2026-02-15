@@ -1,0 +1,35 @@
+id: "lxinput"
+name: Keyboard and Mouse
+description: "Configure keyboard, mouse, and other input devices"
+longDescription: |
+  <p>LXInput is a GUI application for the Lightweight X11 Desktop Environment (LXDE).</p>
+  <p>It configures keyboard and mouse settings:</p>
+  <p> * Delay and Interval for character repeat  * Enable/Disable beeps of keyboard input error  * Swap left and right mouse buttons  * Mouse acceleration and sensitivity</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxinput
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: lxinput_input-keyboard.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,32 @@
+id: "eyes17"
+name: EYES17 Manual
+description: EYES17 User Manual
+longDescription: |
+  <p>This package provides high level interfaces for making science experiments with an ExpEYES-17 box.</p>
+  <p>ExpEYES-17 is from the PHOENIX project of Inter-University Accelerator Centre, New Delhi. It is a hardware &amp; software framework for developing science experiments, demonstrations and projects and learn science and engineering by exploration. Capable of doing real time measurements and analysing the data in different ways. When compared with previous ExpEYES boxes (Expeyes, Expeyes-Junior), ExpEYES-17 is richer in various features: multiple soft input ranges, more flexible wave generator, better time resolution, better voltage resolution, supports seamlessly cheap I2C sensors.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - eyes17
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: eyes17_eyes17-logo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

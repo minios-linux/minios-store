@@ -1,0 +1,5 @@
+{
+  "name": "Gerenciamento de Disco",
+  "description": "Montar e desmontar sistemas de arquivos",
+  "longDescription": "<p>O pacote usermode inclui várias ferramentas gráficas para o usuário: userinfo, usermount e userpasswd. O userinfo permite que os usuários alterem suas informações de identificação. O usermount possibilita montar, desmontar e formatar sistemas de arquivos. O userpasswd permite que os usuários alterem suas senhas.</p>\n<p>Instale o pacote usermode se quiser oferecer ferramentas gráficas para determinadas tarefas de gerenciamento de contas de usuários.</p>\n"
+}

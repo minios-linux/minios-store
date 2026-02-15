@@ -1,0 +1,93 @@
+id: "gajim"
+name: Gajim
+description: A GTK+ XMPP client
+longDescription: |
+  <p>Gajim aims to be an easy to use and fully-featured XMPP client. 
+      With Gajim you can chat through various XMPP services of your choice 
+      (e.g. Jabber.org) as well as transports (e.g. Facebook, IRC).</p>
+  <p>Just chat with your friends or family, easily share pictures and 
+      thoughts or discuss the news with your groups.</p>
+  <p>Gajim integrates well with your other devices: just chat and see what&apos;s
+      been said on your mobile device.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Never miss a message, keep all your chat clients synchronized</li>
+    <li>Invite friends to group chats or join one</li>
+    <li>Easily send pictures, videos or other files to friends and groups</li>
+    <li>Chat securely with End-to-End encryption via OMEMO or PGP</li>
+    <li>Use your favorite emoticons, set your own profile picture</li>
+    <li>Keep and manage all your chat history</li>
+    <li>Organize your chats with tabs</li>
+    <li>Automatic spell-checking for your messages</li>
+    <li>Connect to other Messengers via Transports (Facebook, IRC, ...)</li>
+    <li>Lookup things on Wikipedia, dictionaries or other search engines directly from the chat window</li>
+    <li>Set your activity, tune, and mood to show your friends how you are feeling</li>
+    <li>Support for multiple accounts</li>
+    <li>Group multiple contacts from one friend to a single Meta-Contact</li>
+    <li>XML console to see what&apos;s happening on the protocol layer</li>
+    <li>Serverless messaging (Bonjour/Zeroconf), BOSH</li>
+    <li>Support for service discovery including nodes and search for users</li>
+    <li>Even more features via plugins</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gajim
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - chat
+  - messaging
+  - im
+  - xmpp
+  - bonjour
+  - voip
+screenshotSources:
+  - url: org/gajim/Gajim/0d7ba9a540d0c4ca9d3e5794a85542a8/screenshots/image-1_orig.png
+    thumbnailUrl: org/gajim/Gajim/0d7ba9a540d0c4ca9d3e5794a85542a8/screenshots/image-1_624x413@1.png
+    width: 1002
+    height: 664
+  - url: org/gajim/Gajim/0d7ba9a540d0c4ca9d3e5794a85542a8/screenshots/image-2_orig.png
+    thumbnailUrl: org/gajim/Gajim/0d7ba9a540d0c4ca9d3e5794a85542a8/screenshots/image-2_624x413@1.png
+    width: 1002
+    height: 664
+  - url: org/gajim/Gajim/0d7ba9a540d0c4ca9d3e5794a85542a8/screenshots/image-3_orig.png
+    thumbnailUrl: org/gajim/Gajim/0d7ba9a540d0c4ca9d3e5794a85542a8/screenshots/image-3_624x363@1.png
+    width: 1141
+    height: 664
+  - url: org/gajim/Gajim/0d7ba9a540d0c4ca9d3e5794a85542a8/screenshots/image-4_orig.png
+    thumbnailUrl: org/gajim/Gajim/0d7ba9a540d0c4ca9d3e5794a85542a8/screenshots/image-4_624x355@1.png
+    width: 1164
+    height: 664
+  - url: org/gajim/Gajim/0d7ba9a540d0c4ca9d3e5794a85542a8/screenshots/image-5_orig.png
+    thumbnailUrl: org/gajim/Gajim/0d7ba9a540d0c4ca9d3e5794a85542a8/screenshots/image-5_624x375@1.png
+    width: 885
+    height: 532
+iconSources:
+  - url: org/gajim/Gajim/0d7ba9a540d0c4ca9d3e5794a85542a8/icons/128x128/gajim_org.gajim.Gajim.png
+    width: 128
+    height: 128
+developer: Gajim Team
+homepage: "https://gajim.org/"
+enabled: true
+order: 99

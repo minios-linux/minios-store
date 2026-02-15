@@ -1,0 +1,5 @@
+{
+  "name": "PulseAudio Volume Control",
+  "description": "Regola il livello del volume",
+  "longDescription": "<p>Porting Qt di pavucontrol, il controllo del volume per il server audio PulseAudio. Permette di gestire tutti i controlli offerti da PulseAudio e alcune impostazioni aggiuntive.</p>\n<p>Il software fa parte del progetto LXQt, ma può essere utilizzato anche con altri ambienti desktop.</p>\n<p>Questo pacchetto contiene i file dell'applicazione.</p>\n"
+}

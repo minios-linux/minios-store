@@ -1,0 +1,5 @@
+{
+  "name": "PyQSO",
+  "description": "Ferramenta de Registro de Contatos",
+  "longDescription": "<p>O PyQSO é uma ferramenta de registro para radioamadores. Ele oferece uma interface gráfica simples para que os usuários possam gerenciar informações sobre os contatos/QSOs realizados com outros operadores via rádio. Todas as informações são armazenadas em um banco de dados SQL leve. Outros recursos importantes incluem:</p>\n<p> * Interface personalizável (ex: exibir apenas indicativo e frequência).  * Importação e exportação de logs no formato ADIF.  * Consulta automática de indicativos e preenchimento de dados utilizando a base do qrz.com.  * Ordenação dos logs por campos individuais.  * Impressão física dos logs ou geração de PDF.  * Conexão com clusters DX via Telnet.  * Acompanhamento do progresso para o diploma DXCC.  * Plotagem da linha cinzenta (grey line).  * Filtros por indicativo (ex: exibir apenas contatos com indicativos iniciando por “M6”).  * Remoção de QSOs duplicados.  * Suporte básico à biblioteca Hamlib.</p>\n"
+}

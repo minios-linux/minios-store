@@ -1,0 +1,34 @@
+id: sludge-devkit
+name: SLUDGE Floor Maker
+description: Edit SLUDGE floor plans
+longDescription: |
+  <p>SLUDGE is an open source adventure game engine. It combines a scripting language with IDE tools.</p>
+  <p>This package contains the development kit needed to create SLUDGE games.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sludge-devkit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: s/sl/sludge-floormaker.desktop/96D99B77999A95267C32D6CA9DA11715/icons/128x128/sludge-devkit_sludge-floormaker.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "shp2pgsql-gui",
+  "description": "Importiert Shape-Dateien in PostGIS-Datenbanken",
+  "longDescription": "<p>PostGIS erweitert die objektrelationale Datenbank PostgreSQL um die Unterstützung für geografische Objekte. Im Wesentlichen macht PostGIS den PostgreSQL-Server &quot;geodatenfähig&quot; und ermöglicht dessen Einsatz als räumliche Backend-Datenbank für Geoinformationssysteme (GIS), ähnlich wie ESRIs SDE oder die Spatial-Erweiterung von Oracle. PostGIS folgt der OpenGIS-Spezifikation &quot;Simple Features Specification for SQL&quot;.</p>\n<p>Dieses Paket enthält shp2pgsql-gui, das grafische Werkzeug zum Laden von Shape-Dateien in PostGIS.</p>\n"
+}

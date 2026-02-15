@@ -1,0 +1,5 @@
+{
+  "name": "plan",
+  "description": "Desktop-Kalender",
+  "longDescription": "<p>Plan ist ein Terminplaner auf Basis von X/Motif. Er zeigt einen Monatskalender ähnlich wie xcal, jedoch ist jede Tagesbox groß genug, um Termine in kleiner Schrift darzustellen. Durch Klicken auf eine Tagesbox können die Termine des jeweiligen Tages angezeigt und bearbeitet werden. Termine werden mit folgenden Angaben eingetragen (alles außer der Uhrzeit ist optional):</p>\n<p> - das Datum, die Uhrzeit und die Dauer des Termins,  - eine optionale Textnachricht, die angezeigt wird,  - ein optionales Skript, das ausgeführt wird,  - Früh- und Spät-Warnhinweise vor dem Alarmzeitpunkt,  - Wiederholungen: [n-ter] Wochentag, Tage im Monat, alle n Tage, jährlich,  - optionale schnelle Termineingabe über die Kommandozeile,  - flexible Möglichkeiten, Feiertage und Urlaube zu spezifizieren,  - umfangreiche kontextbezogene Hilfe,  - Multiuser-Funktionalität über den netplan-Server, bereitgestellt durch das netplan-Paket.</p>\n"
+}

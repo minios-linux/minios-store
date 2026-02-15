@@ -1,0 +1,38 @@
+id: "fusion-icon"
+name: Compiz Fusion Icon
+description: Start and manage Compiz
+longDescription: |
+  <p>This package provides a tray icon that allows you to easily enable,
+     disable and restart Compiz, and change the currently used window
+     manager and/or window decorator.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fusion-icon
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: f/fu/fusion-icon.desktop/ca6188a441332d55c3726ec9c54172aa/icons/128x128/fusion-icon_fusion-icon.png
+    width: 128
+    height: 128
+homepage: "https://github.com/compiz-reloaded/fusion-icon"
+enabled: true
+order: 99

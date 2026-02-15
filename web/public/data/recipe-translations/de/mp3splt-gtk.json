@@ -1,0 +1,5 @@
+{
+  "name": "Mp3splt-gtk audio splitter",
+  "description": "Teilen von MP3- und OGG-Dateien ohne Dekodierung",
+  "longDescription": "<p>Dieses Paket stellt eine grafische Oberfläche zum Aufteilen von Audiodateien an definierten Start- und Endpositionen bereit, ohne dass eine Dekodierung erforderlich ist. Beim Aufteilen eines Albums können Schnittpunkte und Dateinamen manuell gewählt oder aus CDDB- oder CUE-Dateien übernommen werden. Das Schneiden anhand von Stille sowie die Übernahme von Daten aus Mp3Wrap oder AlbumWrap wird ebenfalls unterstützt. Für MP3-Dateien werden sowohl ID3v1- als auch ID3v2-Tags unterstützt. Eine Kommandozeilenschnittstelle ist im Paket mp3splt enthalten.</p>\n"
+}

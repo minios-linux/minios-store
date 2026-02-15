@@ -1,0 +1,42 @@
+id: "spim"
+name: xSPIM
+description: Graphical MIPS32 Assembly language emulator
+longDescription: |
+  <p>Emulates a MIPS R2000/R3000 processor in software. Useful for students who are taught MIPS R2000/R3000 assembly.</p>
+  <p>SPIM S20 is a software simulator that runs assembly language programs for the MIPS R2000/R3000 RISC computers.  SPIM can read and immediately run files containing assembly language statements.  SPIM is a self-contained system for running these programs and contains a debugger and interface to the operating system.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - spim
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - emulator
+  - mips
+  - None
+iconSources:
+  - cached: spim_xspim.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

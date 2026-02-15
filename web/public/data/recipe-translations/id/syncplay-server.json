@@ -1,0 +1,5 @@
+{
+  "name": "Syncplay server",
+  "description": "Menyinkronkan pemutaran video melalui jaringan",
+  "longDescription": "<p>Untuk mengetahui apa itu Syncplay, bacalah deskripsi paket 'syncplay'.</p>\n<p>Paket ini menginstal program server Syncplay. Instal paket ini jika Anda ingin membuat server Syncplay sendiri yang akan diakses oleh teman dan keluarga Anda.</p>\n<p>Perlu dicatat bahwa komputer yang menjalankan server Syncplay harus dapat diakses dari Internet. Untuk mengaktifkan enkripsi, Anda memerlukan domain dan sertifikat yang valid. Paket ini menyediakan skrip hook untuk paket certbot yang direkomendasikan guna mempermudah konfigurasi terenkripsi. Integrasi dengan paket dehydrated atau acme-tiny memerlukan konfigurasi manual.</p>\n"
+}

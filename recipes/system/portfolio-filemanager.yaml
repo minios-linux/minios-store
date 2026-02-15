@@ -1,0 +1,60 @@
+id: "portfolio-filemanager"
+name: Portfolio
+description: Manage files on the go
+longDescription: |
+  <p>
+        A minimalist file manager for those who want to use Linux mobile devices.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - portfolio-filemanager
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - folder
+  - manager
+  - explore
+  - disk
+  - filesystem
+screenshotSources:
+  - url: dev/tchx84/Portfolio/c0695d49255cf23cb68db4005fa9099b/screenshots/image-1_orig.png
+    thumbnailUrl: dev/tchx84/Portfolio/c0695d49255cf23cb68db4005fa9099b/screenshots/image-1_224x382@1.png
+    width: 482
+    height: 822
+  - url: dev/tchx84/Portfolio/c0695d49255cf23cb68db4005fa9099b/screenshots/image-2_orig.png
+    thumbnailUrl: dev/tchx84/Portfolio/c0695d49255cf23cb68db4005fa9099b/screenshots/image-2_224x382@1.png
+    width: 482
+    height: 822
+  - url: dev/tchx84/Portfolio/c0695d49255cf23cb68db4005fa9099b/screenshots/image-3_orig.png
+    thumbnailUrl: dev/tchx84/Portfolio/c0695d49255cf23cb68db4005fa9099b/screenshots/image-3_224x382@1.png
+    width: 482
+    height: 822
+  - url: dev/tchx84/Portfolio/c0695d49255cf23cb68db4005fa9099b/screenshots/image-4_orig.png
+    thumbnailUrl: dev/tchx84/Portfolio/c0695d49255cf23cb68db4005fa9099b/screenshots/image-4_224x382@1.png
+    width: 482
+    height: 822
+  - url: dev/tchx84/Portfolio/c0695d49255cf23cb68db4005fa9099b/screenshots/image-5_orig.png
+    thumbnailUrl: dev/tchx84/Portfolio/c0695d49255cf23cb68db4005fa9099b/screenshots/image-5_224x382@1.png
+    width: 482
+    height: 822
+iconSources:
+  - url: dev/tchx84/Portfolio/c0695d49255cf23cb68db4005fa9099b/icons/128x128/portfolio-filemanager_dev.tchx84.Portfolio.png
+    width: 128
+    height: 128
+developer: Martin Abente Lahaye
+homepage: "https://github.com/tchx84/Portfolio"
+enabled: true
+order: 99

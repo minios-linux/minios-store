@@ -1,0 +1,5 @@
+{
+  "name": "GkDebconf",
+  "description": "Hilfsprogramm zur Neukonfiguration von Paketen",
+  "longDescription": "<p>Dieses Programm unterstützt bei der Verwendung des Werkzeugs „dpkg-reconfigure“. Es handelt sich im Wesentlichen um ein grafisches Frontend, das die Auswahl und Neukonfiguration von Paketen mit Debconf und dessen Frontends erleichtert. Es stellt ein übersichtliches Menü zur Verfügung, in dem alle mit Debconf rekonfigurierbaren Pakete sowie die verfügbaren Frontends angezeigt werden.</p>\n"
+}

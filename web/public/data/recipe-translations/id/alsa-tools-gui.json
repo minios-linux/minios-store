@@ -1,0 +1,5 @@
+{
+  "name": "Envy24 Control",
+  "description": "Utilitas mixer dan kontrol GUI untuk kartu suara berbasis Envy24",
+  "longDescription": "<p>Kumpulan utilitas ALSA berbasis GUI untuk perangkat keras suara tertentu:</p>\n<p> echomixer - alat kontrol untuk kartu suara Echoaudio  envy24control - alat kontrol untuk kartu suara berbasis Envy24 (ice1712)  hdajackretask - mengatur ulang jack pada perangkat keras HDA Intel  hdspconf - program GUI untuk mengontrol pengaturan Alsa Hammerfall HDSP  hdspmixer - alat untuk mengontrol fitur routing lanjutan pada              RME Hammerfall DSP  rmedigicontrol - alat kontrol untuk kartu suara RME Digi32 dan RME Digi96</p>\n"
+}

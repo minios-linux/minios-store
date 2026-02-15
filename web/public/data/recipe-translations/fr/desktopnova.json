@@ -1,0 +1,5 @@
+{
+  "name": "DesktopNova",
+  "description": "Change automatiquement votre image de fond d’écran",
+  "longDescription": "<p>DesktopNova permet de modifier automatiquement le fond d’écran du bureau après un intervalle configurable. Il peut sélectionner les images à partir de fichiers individuels ou de dossiers (avec ou sans sous-dossiers). Une fonction de lancement automatique est également incluse.</p>\n<p>Ce paquet contient l’interface graphique ainsi que le service d’arrière-plan.</p>\n<p>Au moins un module est requis. Sans module, ce paquet ne fonctionnera pas correctement ! Voir les paquets desktopnova-module-*.</p>\n<p>Une icône de notification complémentaire est aussi disponible. Voir le paquet desktopnova-tray.</p>\n"
+}

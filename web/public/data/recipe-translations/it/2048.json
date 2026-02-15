@@ -1,0 +1,5 @@
+{
+  "name": "2048",
+  "description": "Somma i valori delle tessere scorrendo fino a raggiungere 2048",
+  "longDescription": "<p>2048 è un gioco rompicapo matematico in cui devi far scorrere le tessere su una griglia 4x4 nelle quattro possibili direzioni. Le tessere adiacenti con lo stesso valore si uniscono formando una tessera con la somma dei loro valori. Si inizia con alcune tessere di valore 2 e, dopo ogni movimento, nuove tessere appaiono casualmente. L'obiettivo del gioco è ottenere una tessera di valore 2048 prima che la griglia si riempia completamente.</p>\n"
+}

@@ -1,0 +1,40 @@
+id: greed
+name: Greed
+description: curses-based clone of the DOS free-ware game Greed
+longDescription: |
+  <p>This is a curses-based clone of the DOS free-ware game Greed. The goal of this game is to try to eat as much as possible of the board before munching yourself into a corner.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - greed
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - terminal
+  - text
+  - logic
+  - game
+iconSources:
+  - cached: greed_greed.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

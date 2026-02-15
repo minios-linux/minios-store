@@ -1,0 +1,30 @@
+id: xfwm4
+name: Window Manager Tweaks
+description: Fine-tune window behaviour and effects
+longDescription: |
+  <p>This package contains xfwm4 which is the window manager for Xfce4.  It is designed to run with the rest of Xfce4 but makes a capable window manager for GNOME or KDE.</p>
+  <p>Install xfwm4 if you want a small, resource saving window manager which complies to the standards defined at http://www.freedesktop.org/. Without xfce4 installed this only gives you a window manager not the full environment.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfwm4
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - url: x/xf/xfce-wmtweaks-settings.desktop/2FBD11680E394740C725EC78DB336E3E/icons/128x128/xfwm4_wmtweaks.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

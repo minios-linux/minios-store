@@ -1,0 +1,44 @@
+id: caneda
+name: Caneda
+description: "Schematic capture, circuit design and simulation"
+longDescription: |
+  <p>Caneda is an open source Electronic Design Automation (EDA) application focused on easy of use and portability. It&apos;s goal is to handle the complete design process from schematic capture, through simulation and into circuit layout and PCB.</p>
+  <p>The software aims to support all kinds of circuit simulation types, e.g. DC, AC, S-parameter and harmonic balance analysis.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - caneda
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - electronic
+  - electronics
+  - schematic
+  - circuits
+  - simulation
+iconSources:
+  - cached: caneda_caneda.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

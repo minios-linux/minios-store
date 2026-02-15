@@ -1,0 +1,58 @@
+id: "tuba"
+name: Tuba
+description: Browse the Fediverse
+longDescription: |
+  <p>
+        Explore the federated social web with Tuba for GNOME. Stay connected to your favorite communities, family and friends
+  with support for popular Fediverse platforms like Mastodon, GoToSocial, Akkoma &amp; more!
+      </p>
+  <p>
+        The Fediverse is a decentralized social network that consists of multiple interconnected platforms and communities,
+  allowing users to communicate and share content across different networks and servers. It promotes user privacy and data ownership, and offers an alternative to centralized social media platforms.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tuba
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - toot
+  - mastodon
+  - fediverse
+  - gotosocial
+  - pleroma
+  - akkoma
+screenshotSources:
+  - url: dev/geopjr/Tuba/f1a382b910bbafd1444957fd51f9741f/screenshots/image-1_orig.png
+    thumbnailUrl: dev/geopjr/Tuba/f1a382b910bbafd1444957fd51f9741f/screenshots/image-1_624x457@1.png
+    width: 1122
+    height: 822
+  - url: dev/geopjr/Tuba/f1a382b910bbafd1444957fd51f9741f/screenshots/image-2_orig.png
+    thumbnailUrl: dev/geopjr/Tuba/f1a382b910bbafd1444957fd51f9741f/screenshots/image-2_224x360@1.png
+    width: 482
+    height: 776
+  - url: dev/geopjr/Tuba/f1a382b910bbafd1444957fd51f9741f/screenshots/image-3_orig.png
+    thumbnailUrl: dev/geopjr/Tuba/f1a382b910bbafd1444957fd51f9741f/screenshots/image-3_624x535@1.png
+    width: 842
+    height: 722
+  - url: dev/geopjr/Tuba/f1a382b910bbafd1444957fd51f9741f/screenshots/image-4_orig.png
+    thumbnailUrl: dev/geopjr/Tuba/f1a382b910bbafd1444957fd51f9741f/screenshots/image-4_624x393@1.png
+    width: 1146
+    height: 722
+iconSources:
+  - url: dev/geopjr/Tuba/f1a382b910bbafd1444957fd51f9741f/icons/128x128/tuba_dev.geopjr.Tuba.png
+    width: 128
+    height: 128
+developer: 'Evangelos "GeopJr" Paterakis'
+homepage: "https://tuba.geopjr.dev/"
+enabled: true
+order: 99

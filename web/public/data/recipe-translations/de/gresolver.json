@@ -1,0 +1,5 @@
+{
+  "name": "DNS-Abfragewerkzeug",
+  "description": "Erweiterte DNS-Abfragen durchführen",
+  "longDescription": "<p>GResolver ist ein grafisches GTK+-Tool für DNS-Abfragen. Es ermöglicht Systemadministratoren, schnell und einfach die gängigsten DNS-Abfragen durchzuführen, ohne komplizierte dig- oder nslookup-Befehle eingeben zu müssen.</p>\n<p>GResolver unterstützt alle wichtigen Resource Record-Typen, darunter AAAA, AXFR, MX und TXT. Bei PTR-Abfragen wird aus punktierten IPv4-Adressen automatisch die passende in-addr.arpa-Adresse erzeugt. Für die am häufigsten genutzten Optionen stehen Kontrollkästchen zur Verfügung.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "gExtractWinIcons",
+  "description": "Ekstrak kursor dan ikon dari file resource kompatibel MS Windows",
+  "longDescription": "<p>gExtractWinIcons dapat mengekstrak kursor dan ikon dari file resource yang kompatibel dengan MS Windows (seperti .exe, .dll, .ocx, .cpl).</p>\n<p>Ikon, kursor, dan gambar PNG dapat diekstrak dari file resource dengan resolusi dan kedalaman warna yang berbeda-beda. File ikon yang diekstrak juga dapat digunakan sebagai ikon situs web \"favicon.ico\".</p>\n"
+}

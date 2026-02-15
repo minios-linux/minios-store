@@ -1,0 +1,5 @@
+{
+  "name": "KontrolPack",
+  "description": "Exécuteur de commandes shell à distance et gestionnaire de réseau local (LAN)",
+  "longDescription": "<p>L'objectif de KontrolPack est d'améliorer l'interopérabilité entre systèmes en connectant des ordinateurs distants, quel que soit leur système d'exploitation. Il permet :</p>\n<p> - D'exécuter des commandes shell à distance.<br> - De partager des fichiers entre machines distantes.<br> - De gérer votre réseau local (LAN).<br> - D'obtenir une vue d'ensemble des postes sur votre LAN.<br> - D'échanger des messages légers au format XML entre client et serveur.<br> - De gérer chaque client via un onglet personnalisé.<br> - D'envoyer des commandes simultanément à tous les ordinateurs du réseau local.<br> - Multi-plateforme (GNU/Linux, Mac OSX, MS Windows).</p>\n"
+}

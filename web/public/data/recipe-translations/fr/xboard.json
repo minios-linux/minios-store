@@ -1,0 +1,5 @@
+{
+  "name": "XBoard",
+  "description": "Jeu d’échecs",
+  "longDescription": "<p>XBoard est un échiquier graphique servant d’interface utilisateur pour des programmes d’échecs, pour le serveur Internet Chess Server ou pour des parties d’échecs par correspondance électronique. Il prend en charge toutes les grandes variantes d’échecs, comme les échecs internationaux, le xiangqi et le shogi. XBoard peut également être utilisé seul comme visionneuse de parties d’échecs enregistrées.</p>\n<p>XBoard utilise par défaut la police Helvetica (disponible dans les paquets xfonts-75dpi et xfonts-100dpi). D’autres polices peuvent être spécifiées via une option en ligne de commande ou une ressource X.</p>\n"
+}

@@ -1,0 +1,42 @@
+id: "lxterminal"
+name: LXTerminal
+description: Use the command line
+longDescription: |
+  <p>LXTerminal is a VTE-based terminal emulator for the Lightweight X11 Desktop Environment (LXDE).</p>
+  <p>It supports multiple tabs and has only minimal dependencies thus being completely desktop-independent. In order to reduce memory usage and increase the performance, all instances of the terminal are sharing a single process.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxterminal
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - console
+  - command line
+  - execute
+iconSources:
+  - url: l/lx/lxterminal.desktop/2b635280dcffde58b15f2d0c12e151ff/icons/128x128/lxterminal_lxterminal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

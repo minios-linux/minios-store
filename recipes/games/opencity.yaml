@@ -1,0 +1,45 @@
+id: opencity
+name: OpenCity
+description: a 3D city simulator game
+longDescription: |
+  <p>OpenCity is 3D city construction simulator. You can build some zones of housing, trading and industry, electric plant and roads. Besides you can also raise or lower the terrain. OpenCity is similar in spirit to other city construction games, heading towards a classic SimCity feeling, although with some additional features. It is not intended to be a clone of any famous city simulator.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - opencity
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - simulator
+  - strategy
+  - city
+  - buildings
+  - plants
+  - roads
+  - industry
+iconSources:
+  - cached: opencity_opencity.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

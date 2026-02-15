@@ -1,0 +1,5 @@
+{
+  "name": "Psensor",
+  "description": "Psensor è un monitor grafico della temperatura per Linux",
+  "longDescription": "<p>Psensor è un'applicazione GTK+ per monitorare i sensori hardware, incluse temperature e velocità delle ventole.</p>\n<p>Visualizza un grafico per ciascun sensore e avverte l'utente tramite notifiche desktop e Application Indicator quando una temperatura supera la soglia.</p>\n<p>Può monitorare:  * la temperatura della scheda madre e della CPU (tramite lm-sensors);  * la temperatura delle GPU Nvidia (tramite XNVCtrl);  * la temperatura degli hard disk (tramite hddtemp o libreria atasmart);  * la velocità di rotazione delle ventole (tramite lm-sensors);  * i sensori di un computer remoto (tramite psensor-server).</p>\n"
+}

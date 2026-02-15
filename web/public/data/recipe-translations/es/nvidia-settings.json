@@ -1,0 +1,5 @@
+{
+  "name": "NVIDIA X Server Settings",
+  "description": "Configura los ajustes del servidor X de NVIDIA",
+  "longDescription": "<p>La utilidad nvidia-settings es una herramienta para configurar el controlador gráfico de NVIDIA en Linux. Funciona comunicándose con el controlador X de NVIDIA, consultando y actualizando el estado según corresponda. Esta comunicación se realiza mediante la extensión NV-CONTROL de X.</p>\n<p>Valores como el brillo y la gamma, atributos de XVideo, temperatura y configuraciones de OpenGL pueden consultarse y ajustarse a través de nvidia-settings.</p>\n"
+}

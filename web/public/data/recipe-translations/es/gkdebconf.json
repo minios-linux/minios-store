@@ -1,0 +1,5 @@
+{
+  "name": "GkDebconf",
+  "description": "Asistente para reconfigurar paquetes",
+  "longDescription": "<p>Este programa facilita el uso de la herramienta \"dpkg-reconfigure\". Es, básicamente, una interfaz gráfica que simplifica el proceso mostrando un menú sencillo de los paquetes que pueden reconfigurarse con Debconf y los frontends disponibles para la reconfiguración.</p>\n"
+}

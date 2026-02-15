@@ -1,0 +1,37 @@
+id: fldigi
+name: Flarq
+description: Amateur Radio Data Transfer with ARQ
+longDescription: |
+  <p>Fldigi is a modem program which supports most of the digital modes used by hamradio operators today. You can also use the program for calibrating your sound card to WWV or doing a frequency measurement test. The program also comes with a CW decoder. Fldigi is written with the help of the Fast Light Toolkit X GUI.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fldigi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: fldigi_flarq.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

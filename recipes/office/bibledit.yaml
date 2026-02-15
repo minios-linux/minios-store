@@ -1,0 +1,47 @@
+id: "bibledit"
+name: Bibledit
+description: Bible Editor
+longDescription: |
+  <p>A tool for the Bible translator. Translate Bibles. Edit Bibles. Proofread Bibles. Publish Bibles. Synchronize your data through Bibledit Cloud.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bibledit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/bibledit/bibledit/45db045f404ab8614c7e119d0368e671/screenshots/image-1_orig.png
+    thumbnailUrl: org/bibledit/bibledit/45db045f404ab8614c7e119d0368e671/screenshots/image-1_624x486.png
+    width: 1612
+    height: 1256
+  - url: org/bibledit/bibledit/45db045f404ab8614c7e119d0368e671/screenshots/image-2_orig.png
+    thumbnailUrl: org/bibledit/bibledit/45db045f404ab8614c7e119d0368e671/screenshots/image-2_624x492.png
+    width: 1600
+    height: 1262
+iconSources:
+  - cached: bibledit_bbe512x512.png
+    width: 64
+    height: 64
+homepage: "https://bibledit.org"
+enabled: true
+order: 99

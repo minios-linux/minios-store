@@ -1,0 +1,5 @@
+{
+  "name": "stlink",
+  "description": "Программатор STM32 discovery для Linux",
+  "longDescription": "<p>Утилиты для прошивки микроконтроллеров STMicroelectronics STM32VL и STM32L. Поддерживаются транспортные уровни STLINKv1 и STLINKv2.</p>\n<p>В пакет входит графическая утилита для stlink.</p>\n"
+}

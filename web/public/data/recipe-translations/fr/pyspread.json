@@ -1,0 +1,5 @@
+{
+  "name": "pyspread",
+  "description": "Un tableur basé sur Python",
+  "longDescription": "<p>Pyspread est une application de tableur multiplateforme en Python. Au lieu des formules classiques, on saisit dans les cellules des expressions Python. Chaque expression retourne un objet Python qui peut être utilisé dans d'autres cellules. Ces objets peuvent représenter n'importe quoi, y compris des listes ou des matrices.</p>\n"
+}

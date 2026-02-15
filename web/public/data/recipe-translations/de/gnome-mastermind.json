@@ -1,0 +1,5 @@
+{
+  "name": "Mastermind",
+  "description": "Knacke den verborgenen Code!",
+  "longDescription": "<p>Das Ziel dieses Brettspiels ist es, einen Code anhand subtiler Hinweise zu knacken. Das Spiel wird von zwei Spielern gespielt: dem Codemaster (Computer) und dem Codeknacker. Der Computer erstellt eine Kombination aus 4 Farben. Der Codeknacker muss dieses Muster (sowohl Reihenfolge als auch Farben) mit möglichst wenigen Versuchen erraten. Bei jedem Zug probiert der Codeknacker ein Muster, woraufhin der Computer Rückmeldung durch das Setzen von Stiften im Auswertungsraster gibt. Ein weißer Stift zeigt eine korrekte Farbe an, aber an falscher Position; ein farbiger Stift bedeutet, dass sowohl Farbe als auch Position richtig gewählt wurden.</p>\n"
+}

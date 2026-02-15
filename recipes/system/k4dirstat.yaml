@@ -1,0 +1,39 @@
+id: "k4dirstat"
+name: K4DirStat
+description: Directory statistics and disk usage
+longDescription: |
+  <p>K4DirStat (KDE Directory Statistics) is a small utility program that sums up disk usage for directory trees, very much like the Unix &apos;du&apos; command. It displays the disk space used up by a directory tree, both numerically and graphically.  It is network transparent (i.e., you can use it to sum up FTP servers), and comes with predefined and user configurable cleanup actions.  You can directly open a directory branch in Konqueror or the shell of your choice, compress it to a .tar.bz2 archive, or define your own cleanup actions.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - k4dirstat
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - disk usage, file system, cleanup
+iconSources:
+  - url: k/k4/k4dirstat.desktop/3300737c69e498815c62b23f95261c1f/icons/128x128/k4dirstat_k4dirstat.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

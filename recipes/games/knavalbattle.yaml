@@ -1,0 +1,45 @@
+id: "knavalbattle"
+name: Naval Battle
+description: Battle Ship Game
+longDescription: |
+  <p>Naval Battle is a ship sinking game. Ships are placed on a board which
+        represents the sea. Players try to hit each others ships in turns without knowing
+        where they are placed. The first player to destroy all ships wins the game.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - knavalbattle
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/knavalbattle/9ca25b553f0dbde0c983f70aea6b7360/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/knavalbattle/9ca25b553f0dbde0c983f70aea6b7360/screenshots/image-1_624x538@1.png
+    width: 1410
+    height: 1217
+iconSources:
+  - url: org/kde/knavalbattle/9ca25b553f0dbde0c983f70aea6b7360/icons/128x128/knavalbattle_knavalbattle.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/knavalbattle"
+enabled: true
+order: 99

@@ -1,0 +1,27 @@
+id: gadmin-openvpn-client
+name: GADMIN-OPENVPN-Client
+description: OpenVPN Client administration
+longDescription: |
+  <p>gadmin-openvpn-client is a GTK+-based administration tool for the OpenVPN client. It allows one to manage multiple configuration profiles, easily (de)activate connections and view client-related logs.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gadmin-openvpn-client
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+tags:
+  - openvpn
+  - vpn
+  - configuration
+iconSources:
+  - cached: gadmin-openvpn-client_gadmin-openvpn-client.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

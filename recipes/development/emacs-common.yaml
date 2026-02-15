@@ -1,0 +1,29 @@
+id: "emacs-common"
+name: Emacs (Client)
+description: Edit text
+longDescription: |
+  <p>GNU Emacs is the extensible self-documenting text editor. This package contains the architecture independent infrastructure that&apos;s shared by emacs-gtk, emacs-lucid, and emacs-nox.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - emacs-common
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - emacsclient
+iconSources:
+  - url: e/em/emacsclient.desktop/779b2179baf44adec8d05a13c47c26de/icons/128x128/emacs-common_emacs.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

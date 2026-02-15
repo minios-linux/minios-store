@@ -1,0 +1,5 @@
+{
+  "name": "guitarix",
+  "description": "Simulasi amplifier mono yang sederhana",
+  "longDescription": "<p>Guitarix adalah amplifier gitar rock untuk Jack Audio Connection Kit dengan satu input dan dua output. Aplikasi ini menyediakan satu port input JACK dan dua port output JACK. Dirancang untuk menghasilkan suara gitar trash/metal/rock/blues yang menarik. Tersedia kontrol untuk bass, treble, gain, kompresor, pemilih tabung, distorsi, flanger, freeverb, crybaby (wah), dan lainnya.</p>\n<p>Guitarix hadir dengan antarmuka GTK+ serta tersedia sebagai plugin Ladspa dan LV2.</p>\n"
+}

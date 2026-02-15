@@ -1,0 +1,5 @@
+{
+  "name": "IpQalc",
+  "description": "Calculadora gráfica de sub-redes IPv4",
+  "longDescription": "<p>\n      Pequena utilidade para cálculos de endereços IP, incluindo endereços de broadcast e de rede, além de máscara curinga Cisco.\nA partir de um endereço IPv4 fornecido, calcula broadcast, rede, máscara curinga Cisco e faixa de hosts. Também pode ser usada como ferramenta didática, apresentando os resultados em valores binários e hexadecimais.\n    </p>\n"
+}

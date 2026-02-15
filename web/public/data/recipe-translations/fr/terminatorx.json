@@ -1,0 +1,5 @@
+{
+  "name": "terminatorX",
+  "description": "terminatorX est un synthétiseur audio en temps réel",
+  "longDescription": "<p>terminatorX permet de charger des échantillons audio dans de nombreux formats (*.wav, *.au, *.ogg, *.mp3, etc.) sur des platines virtuelles pour une lecture synchronisée. L'utilisateur peut manipuler ces platines à la souris ou au clavier afin de « scratcher » comme le font les DJ hip-hop sur des disques vinyles.</p><p>Il propose des effets en temps réel (intégrés ou via les plugins LADSPA), un séquenceur et une interface MIDI — le tout accessible grâce à une interface graphique gtk+ intuitive. Le son peut être diffusé directement via le matériel grâce aux backends ALSA et OSS, ou bien par un serveur audio à l’aide de JACK ou PulseAudio.</p>"
+}

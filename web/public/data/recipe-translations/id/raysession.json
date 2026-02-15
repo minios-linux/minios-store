@@ -1,0 +1,5 @@
+{
+  "name": "RaySession",
+  "description": "Manajer Sesi Audio",
+  "longDescription": "<p>Ray Session adalah manajer sesi untuk program audio di GNU/Linux seperti Ardour, Carla, QTractor, Non-Timeline, dan lainnya.</p>\n<p>Ray Session menggunakan API yang sama seperti Non Session Manager, sehingga aplikasi yang kompatibel dengan NSM juga dapat digunakan dengan Ray Session. Seperti Non Session Manager, prinsip kerjanya adalah memuat beberapa program audio secara bersamaan dan memungkinkan Anda untuk menyimpan atau menutup semua dokumen sekaligus.</p>\n<p>Ray Session juga menawarkan fitur tambahan:</p>\n<p> - Template pabrik untuk aplikasi yang kompatibel dengan NSM dan LASH  - Kemungkinan menyimpan client mana pun sebagai template  - Simpan sesi sebagai template  - Penamaan file yang lebih rapi  - Mengingat status apakah client telah dijalankan atau belum  - Dapat membatalkan sesi kapan saja  - Mengubah folder utama sesi melalui antarmuka GUI  - Memungkinkan KILL client jika proses keluar terlalu lama  - Tombol buka folder sesi (menggunakan file manager bawaan)</p>\n<p>Ray Session dikembangkan oleh houston4444, menggunakan Python3 dan Qt5.</p>\n"
+}

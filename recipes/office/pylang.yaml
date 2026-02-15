@@ -1,0 +1,27 @@
+id: pylang
+name: Practice Languages
+description: "Complete the right sentence with random words in English, Spanish..."
+longDescription: |
+  <p>Practice languages by random words generated, where you must compose the right sentence in English and Spanish.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pylang
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - language practice
+iconSources:
+  - cached: pylang_pylang.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

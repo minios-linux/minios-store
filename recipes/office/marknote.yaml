@@ -1,0 +1,32 @@
+id: marknote
+name: Marknote
+description: Write down your thoughts
+longDescription: |
+  <p>Marknote lets you create rich text notes and easily organise them into notebooks. You can personalise your notebooks by choosing an icon and accent color for each one, making it easy to distinguish between them and keep your notes at your fingertips. Your notes are saved as Markdown files in your Documents folder, making it easy to use your notes outside of Marknote as well as inside the app.</p>
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - marknote
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - markdown
+  - kirigami
+  - qt
+screenshotSources:
+  - url: org/kde/marknote/181e551960953d2c2d55b99fde78df6c/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/marknote/181e551960953d2c2d55b99fde78df6c/screenshots/image-1_624x399@1.png
+    width: 1325
+    height: 849
+iconSources:
+  - url: org/kde/marknote/181e551960953d2c2d55b99fde78df6c/icons/128x128/marknote_org.kde.marknote.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/marknote"
+enabled: true
+order: 99

@@ -1,0 +1,25 @@
+id: geda-xgsch2pcb
+name: gEDA Schematic -> PCB Project
+description: Create and edit electronics projects with xgsch2pcb
+longDescription: |
+  <p>``xgsch2pcb`` provides an intuitive, user-friendly graphical interface to the ``gsch2pcb`` command-line tool, part of the gEDA suite, which is used to generate and update a PCB layout.  It works with schematics created by ``gschem``, part of the gEDA suite, and layouts created by ``pcb``, a PCB layout system commonly used with gEDA.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - geda-xgsch2pcb
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/ge/geda-xgsch2pcb.desktop/4044AA1A5FDD5DB12D7A32E82061FDC7/icons/128x128/geda-xgsch2pcb_geda-xgsch2pcb.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

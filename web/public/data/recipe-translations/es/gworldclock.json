@@ -1,0 +1,5 @@
+{
+  "name": "gworldclock",
+  "description": "Consulta la hora en otras zonas horarias",
+  "longDescription": "<p>Este programa muestra la hora y la fecha de zonas horarias específicas utilizando una interfaz basada en GTK+. También ofrece una función de \"encuentro\" que permite sincronizar las zonas a una hora distinta de la actual. Esto puede ayudarte a organizar reuniones a través de diferentes zonas horarias.</p>\n<p>Las zonas horarias pueden introducirse manualmente en formato TZ o seleccionarse de una lista generada a partir de /usr/share/zoneinfo/zone.tab. La lista de zonas se mantiene en un formato compatible con el script de shell tzwatch.</p>\n"
+}

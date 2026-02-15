@@ -1,0 +1,38 @@
+id: nethack-console
+name: NetHack (No GUI)
+description: Dungeon crawl game - console version
+longDescription: |
+  <p>NetHack is a wonderfully silly, yet quite addictive, Dungeons &amp; Dragons-style adventure game. You play a character from one of many classes (such as wizard, ranger, or tourist), fighting your way down to retrieve the Amulet of Yendor (try saying THAT one backwards!) for your god. On the way, you might encounter a quantum mechanic or two, or perhaps King Arthur, or - if you&apos;re REALLY lucky - the Ravenous Bugblatter Beast of Traal.</p>
+  <p>You should install a front-end for NetHack if you wish to play the game.  Each of them includes the original non-graphical version, and they can all be installed at the same time:  - nethack-console: no graphics, just plain NetHack;  - nethack-x11    : original X11/Athena-based graphical version;  - nethack-lisp   : Lisp window version.</p>
+  <p>This package provides the plain console version of NetHack.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nethack-console
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - adventure
+  - roguelike
+  - maze
+  - dungeon
+iconSources:
+  - cached: nethack-console_nethack.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

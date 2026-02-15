@@ -1,0 +1,5 @@
+{
+  "name": "GChemTable",
+  "description": "Una tabla periódica de los elementos químicos",
+  "longDescription": "<p>GNOME Chemistry Utils ofrece clases en C++ y widgets Gtk+-2 relacionados con la química. Se utilizarán en versiones futuras de gcrystal y gchempaint.</p>\n<p>Este paquete incluye 4 aplicaciones:</p>\n<p> * un visor de estructuras moleculares (GChem3D)  * una calculadora de masa molar (GChemCalc)  * una tabla periódica de los elementos (GChemTable)  * un visor de espectros (GSpectrum)</p>\n"
+}

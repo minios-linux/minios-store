@@ -1,0 +1,5 @@
+{
+  "name": "KontrolPack",
+  "description": "Executor de comandos remotos via shell e gerenciador de LAN",
+  "longDescription": "<p>O KontrolPack tem como objetivo melhorar a interoperabilidade entre sistemas ao conectar computadores remotos, independentemente do sistema operacional. Ele pode ser utilizado para:</p>\n<p> - Executar comandos remotos via shell;  - Compartilhar arquivos entre computadores remotos;  - Gerenciar sua rede LAN (Rede Local);  - Obter uma visão geral das estações de trabalho na sua LAN;  - Trocar mensagens leves baseadas em XML entre cliente e servidor;  - Gerenciar cada cliente com uma aba personalizada;  - Enviar comandos simultaneamente para todos os computadores da LAN;  - Cross-platform (GNU/Linux, Mac OSX, MS Windows).</p>\n"
+}

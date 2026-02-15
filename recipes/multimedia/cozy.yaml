@@ -1,0 +1,56 @@
+id: cozy
+name: Cozy
+description: Listen to audio books
+longDescription: |
+  <p>Do you like audio books? Then lets get cozy!</p>
+  <p>Cozy is a audio book player. Here are some of the features:</p>
+  <ul>
+    <li>Import all your audio books into Cozy to browse them comfortably</li>
+    <li>Listen to your DRM free mp3, m4b, m4a (aac, ALAC, …), flac, ogg and wav audio books</li>
+    <li>Remembers your playback position</li>
+    <li>Sleep timer</li>
+    <li>Playback speed control for each book individually</li>
+    <li>Search your library</li>
+    <li>Multiple storage location support</li>
+    <li>Offline Mode! This allows you to keep an audio book on your internal storage if you store your audio books on an
+  external or network drive. Perfect to listen to on the go!</li>
+    <li>Drag and Drop to import new audio books</li>
+    <li>Sort your audio books by author, reader and name</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cozy
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - audiobook
+  - player
+  - mp3
+screenshotSources:
+  - url: com/github/geigi.cozy/5d1f4190749dea58817870da20e16fe6/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/geigi.cozy/5d1f4190749dea58817870da20e16fe6/screenshots/image-1_624x439@1.png
+    width: 2420
+    height: 1706
+  - url: com/github/geigi.cozy/5d1f4190749dea58817870da20e16fe6/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/geigi.cozy/5d1f4190749dea58817870da20e16fe6/screenshots/image-2_624x439@1.png
+    width: 2420
+    height: 1706
+  - url: com/github/geigi.cozy/5d1f4190749dea58817870da20e16fe6/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/geigi.cozy/5d1f4190749dea58817870da20e16fe6/screenshots/image-3_624x439@1.png
+    width: 2420
+    height: 1706
+iconSources:
+  - url: com/github/geigi.cozy/5d1f4190749dea58817870da20e16fe6/icons/128x128/cozy_com.github.geigi.cozy.png
+    width: 128
+    height: 128
+homepage: "https://cozy.sh"
+enabled: true
+order: 99

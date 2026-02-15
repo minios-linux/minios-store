@@ -1,0 +1,24 @@
+id: ydpdict
+name: YDP Dictionary
+description: Collins (EN-PL) and/or Langenscheidt (DE-PL) dictionary
+longDescription: |
+  <p>This is an ncurses interface to the Collins English-Polish/Polish-English and/or Langenscheidt German-Polish/Polish-German dictionaries distributed by Young Digital Planet. It can also play the pronunciation samples if the CD is available.</p>
+  <p>This package is only the interface, it does not contain the dictionary files itself. To use it, you need a copy of a dictionary from YDP.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ydpdict
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: y/yd/ydpdict.desktop/4035e112317a866451df67a061667224/icons/128x128/ydpdict_ydpdict.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

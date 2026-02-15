@@ -1,0 +1,5 @@
+{
+  "name": "Yokadi",
+  "description": "Gestionnaire de listes de tâches orienté ligne de commande",
+  "longDescription": "<p>Yokadi est un outil de gestion de listes de tâches basé sur la ligne de commande et propulsé par SQLite. Il vous aide à organiser tout ce que vous avez à faire et à ne rien oublier. Son objectif est d’être simple, intuitif et très efficace.</p>\n<p>Dans Yokadi, vous gérez des projets contenant des tâches. Au minimum, une tâche possède un titre, mais elle peut aussi avoir une description, une date d’échéance, un niveau d’urgence ou des mots-clés. Les mots-clés peuvent être n’importe quel terme facilitant la recherche et le tri de vos tâches.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "ukopp",
+  "description": "Sauvegarde complète et incrémentielle avec vérification des supports",
+  "longDescription": "<p>Ukopp permet de copier ou de sauvegarder des fichiers d’un disque vers un autre support, tel qu’une clé USB ou un disque dur externe. Il ne copie que les fichiers nouveaux ou modifiés depuis la dernière sauvegarde, ce qui le rend très rapide. Une interface graphique offre une navigation dans le système de fichiers pour inclure ou exclure des fichiers ou des dossiers à n’importe quel niveau. Ces sélections peuvent être enregistrées dans un fichier de tâche pour une utilisation répétée. Les nouveaux fichiers présents dans les dossiers inclus sont automatiquement pris en charge. Il est possible, en option, de conserver les versions précédentes des fichiers sauvegardés au lieu de les écraser. La restauration sélective de fichiers s’effectue également par une interface graphique. Les droits et permissions sont restaurés, même si le support de destination utilise un système de fichiers Microsoft.</p>\n"
+}

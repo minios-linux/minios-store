@@ -1,0 +1,47 @@
+id: progvis
+name: Progvis
+description: Program visualization tool for concurrent C/C++ programs
+longDescription: |
+  <p>
+        Progvis is a program visualization tool for concurrent programs written in a subset of C (and
+        parts of C++). The detailed visualization of many details of C programs makes it useful to
+        visualize sequential programs as well.
+      </p>
+  <p>Features of Progvis include:</p>
+  <ul>
+    <li>Visualization of C and C++ programs</li>
+    <li>Exploring different interleavings to find errors</li>
+    <li>Automatic detection of many common errors in small programs</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - progvis
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/storm_lang/progvis/a20d64b6ac1662916c8f14e14ff09ef6/screenshots/image-1_orig.png
+    thumbnailUrl: org/storm_lang/progvis/a20d64b6ac1662916c8f14e14ff09ef6/screenshots/image-1_624x403.png
+    width: 1138
+    height: 736
+  - url: org/storm_lang/progvis/a20d64b6ac1662916c8f14e14ff09ef6/screenshots/image-2_orig.png
+    thumbnailUrl: org/storm_lang/progvis/a20d64b6ac1662916c8f14e14ff09ef6/screenshots/image-2_624x403.png
+    width: 1138
+    height: 736
+iconSources:
+  - url: org/storm_lang/progvis/a20d64b6ac1662916c8f14e14ff09ef6/icons/128x128/progvis_org.storm_lang.progvis.png
+    width: 128
+    height: 128
+homepage: "https://storm-lang.org/progvis.php"
+enabled: true
+order: 99

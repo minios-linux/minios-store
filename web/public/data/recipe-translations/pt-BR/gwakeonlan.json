@@ -1,0 +1,5 @@
+{
+  "name": "gWakeOnLan",
+  "description": "Uma ferramenta GTK+ para ligar computadores desligados usando o recurso Wake On LAN.",
+  "longDescription": "<p>gWakeOnLan é uma aplicação GTK+ que permite ligar computadores desligados através do recurso Wake on LAN, suportando modos local e via internet.</p>\n<p>Os computadores a serem ligados precisam ter o pacote mágico do Wake on LAN ativado antes de serem desligados.</p>\n"
+}

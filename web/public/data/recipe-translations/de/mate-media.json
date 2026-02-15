@@ -1,0 +1,5 @@
+{
+  "name": "Sound",
+  "description": "Lautstärke und Soundereignisse anpassen",
+  "longDescription": "<p>Die MATE-Medienwerkzeuge umfassen den Audiomixer und das Lautstärkeregelungs-Applet.</p>\n<p>Dieses Paket verwendet die libmatemixer-Bibliothek, die Unterstützung für ALSA und Pulseaudio als Audio-Backends bietet.</p>\n"
+}

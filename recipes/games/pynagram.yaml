@@ -1,0 +1,26 @@
+id: pynagram
+name: Pynagram
+description: Unjumble letters
+longDescription: |
+  <p>Pynagram is a simple word game in which the player is presented with seven letters in a random order. Every word that is &quot;solved&quot; from the jumbled letters earns the player points. If the player solves one or more seven letter words, the score is carried over into the next game.</p>
+  <p>Pynagram was inspired from Anagramarama.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pynagram
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/py/pynagram.desktop/EB756E9F397CD7FC0B79F144D4CB285B/icons/128x128/pynagram_pynagram.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "AT&T Korn Shell (ksh93)",
+  "description": "Shell Korn",
+  "longDescription": "<p>Ksh es un intérprete de órdenes (shell) de UNIX diseñado tanto para uso interactivo como para scripts. Su lenguaje de comandos es un superconjunto del lenguaje del shell sh(1).</p>\n<p>La versión de 1993 añade numerosas funciones nuevas, principalmente orientadas a scripting, respecto a la versión de 1988 que suele distribuirse con variantes comerciales de UNIX. Por ejemplo, incluye alcance léxico, variables compuestas, arreglos asociativos, referencias con nombre y soporte para operaciones matemáticas en punto flotante.</p>\n<p>La herramienta shcomp puede usarse para compilar scripts de ksh en un formato binario.</p>\n"
+}

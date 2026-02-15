@@ -1,0 +1,23 @@
+id: gresistor
+name: gResistor
+description: Resistor color code calculator
+longDescription: |
+  <p>To allow for identification, resistors are usually marked with colored bands. Often refered to as color codes, these markings are indicative of their resistance, tolerance and temperature coefficient. gResistor helps you translate resistor color codes into a readable value. All you have to do is watch the colors on the resistor and then enter them in the program. As you enter colours you&apos;ll see that the resistor value is changing accordingly.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gresistor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gresistor_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Furius ISO Mount",
+  "description": "Kelola berkas gambar ISO, IMG, BIN, MDF, dan NRG",
+  "longDescription": "<p>Furius ISO Mount adalah aplikasi sederhana untuk me-mount berkas gambar ISO, IMG, BIN, MDF, dan NRG tanpa perlu membakarnya ke disk.</p>\n<p>Fitur-fitur yang disediakan antara lain:  - Otomatis me-mount berkas gambar ISO, IMG, BIN, MDF, dan NRG  - Secara otomatis membuat titik mount di direktori home Anda  - Otomatis unmount berkas gambar  - Menghapus direktori mount secara otomatis untuk mengembalikan direktori home ke keadaan semula  - Menyimpan riwayat 10 file gambar terakhir yang di-mount  - Mendukung mount beberapa gambar secara bersamaan  - Membakar berkas ISO dan IMG ke disk optik  - Menghasilkan checksum Md5 dan SHA1  - Mengambil ulang gambar yang sebelumnya belum di-unmount  - Membuat file log berisi seluruh perintah yang dibutuhkan untuk mount dan unmount gambar secara manual</p>\n"
+}

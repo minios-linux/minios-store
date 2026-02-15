@@ -1,0 +1,33 @@
+id: simpleburn
+name: SimpleBurn
+description: CD/DVD burning and extraction utility
+longDescription: |
+  <p>Features are:  - CD / DVD ISO image extraction and burning,  - audio CD extraction and burning,  - data directory burning on CD / DVD,  - rewritable CD / DVD blanking,  - CD / DVD copy,  - video DVD ripping,  - languages: cs, de, en, es, fr, hu, it, pl, sv, ru,  - multiple media and devices detection methods supported (Udev, HAL or    LibCDIO),  - multiple burning suite supported (CDRTools, CDRKit, LibBurnia +    CDParanoia / LibCDIO + CDRDAO).</p>
+  <p>SimpleBurn is free software licensed under the Cecill-2 license.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - simpleburn
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - disc
+  - cdrom
+  - dvd
+  - burn
+  - audio
+  - video
+iconSources:
+  - cached: simpleburn_simpleburn.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

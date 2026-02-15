@@ -1,0 +1,54 @@
+id: "ymuse"
+name: Ymuse
+description: "Easy, functional, and snappy GTK client for Music Player Daemon"
+longDescription: |
+  <p>Ymuse is an easy, functional, and snappy GTK front-end (client) application for Music Player Daemon.</p>
+  <p>Application features:</p>
+  <ul>
+    <li>Connection to a local or remote MPD server via TCP or Unix domain socket, auto(re)connect function.</li>
+    <li>Displaying, sorting, and shuffling the play queue. Track removal.</li>
+    <li>Filtering the play queue on a substring.</li>
+    <li>Saving the play queue as a playlist (new or existing).</li>
+    <li>MPD library browse and search functions.</li>
+    <li>Browsing, adding, and renaming playlists.</li>
+    <li>Own stream (a.k.a. Internet radio) list, which can be edited.</li>
+    <li>Visible queue columns selection.</li>
+    <li>Player title setting using Go template syntax.</li>
+    <li>Toggling various MPD modes (random, repeat, consume).</li>
+    <li>Seeking the current track to an arbitrary location.</li>
+    <li>Light and dark desktop theme support.</li>
+    <li>Internationalisation support.</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ymuse
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mpd
+  - music player daemon
+  - audio
+  - sound
+  - gtk
+screenshotSources:
+  - url: com/yktoo/ymuse/6f102a252e03ac98203b7c58a1c6b2d9/screenshots/image-1_orig.png
+    thumbnailUrl: com/yktoo/ymuse/6f102a252e03ac98203b7c58a1c6b2d9/screenshots/image-1_624x418@1.png
+    width: 1139
+    height: 763
+iconSources:
+  - url: com/yktoo/ymuse/6f102a252e03ac98203b7c58a1c6b2d9/icons/128x128/ymuse_com.yktoo.ymuse.png
+    width: 128
+    height: 128
+developer: Dmitry Kann
+homepage: "https://yktoo.com/en/software/ymuse/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "mpv Media Player",
+  "description": "Memutar film dan lagu",
+  "longDescription": "<p>mpv adalah pemutar film yang berbasis pada MPlayer dan mplayer2. Aplikasi ini mendukung berbagai format file video, codec audio maupun video, serta beragam jenis subtitle.</p>\n<p>Perubahan dari mplayer2 ke mpv meliputi:  * Penghapusan banyak kode yang tidak dibutuhkan untuk mendorong pengembangan  * Tampilan OSD yang lebih baik  * Output terminal yang lebih bersih  * Peningkatan output OpenGL  * Fitur encoding (pengganti mencoder)  * Dukungan Wayland  * Dapat memutar URL dari situs streaming populer  * Peningkatan fitur tangkapan layar (screenshot)  * ... Lihat mpv(1) untuk info lebih lanjut tentang perbedaan antara MPlayer, mplayer2, dan mpv.</p>\n"
+}

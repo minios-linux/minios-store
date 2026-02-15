@@ -1,0 +1,35 @@
+id: "package-update-indicator"
+name: Package Update Indicator Preferences
+description: Edit the Preferences for Package Update Indicator
+longDescription: |
+  <p>This small utility which regularly checks for software updates and notifies the user about available updates using desktop notifications and either a status notifier icon or a system tray icon.</p>
+  <p>It is primarily intended for desktops which do not already have this functionality built-in, such as Xfce.</p>
+  
+categoryId: system
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - package-update-indicator
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - updates
+  - preferences
+iconSources:
+  - url: org/guido-berhoerster/code.package-update-indicator.preferences/c71b87e63991e86a174e85262b847a54/icons/128x128/package-update-indicator_preferences-other.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

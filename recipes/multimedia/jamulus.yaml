@@ -1,0 +1,38 @@
+id: "jamulus"
+name: Jamulus
+description: Jam Session
+longDescription: |
+  <p>Jamulus, a low-latency audio client and server, enables musicians to perform real-time “jam” sessions over the internet. It is available across multiple platforms, so participants of any field can communicate without specialist setup requirements. This is not restricted to music, of course; other use (perhaps conferencing?) is also possible.</p>
+  <p>One participant starts Jamulus in server mode, ideally on a dedicated server (virtual) machine; all participants start the (graphical) client which transmits audio to the server, receiving back a mixed stream. Use of a metronome is recommended.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jamulus
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - jam
+  - live
+  - online
+  - music
+  - conference
+iconSources:
+  - url: j/ja/jamulus.desktop/f6dace1a46e5546cdc1cfc5ae24e03cb/icons/128x128/jamulus_io.jamulus.jamulus.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

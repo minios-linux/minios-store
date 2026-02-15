@@ -1,0 +1,5 @@
+{
+  "name": "LazPaint",
+  "description": "Editor di immagini avanzato compatibile con più formati",
+  "longDescription": "<p>Supporta la lettura di file a livelli (lzp, ora, pdn, oXo, psd flat), immagini multiple (gif, ico, tiff), file raster (bmp, jpeg, pcx, png, tga, webp, xpm, xwd), immagini raw (dng, cr2, nef, arw...), vettoriali (svg) e 3D (obj). Include strumenti di disegno, forme vettoriali, ombreggiatura Phong, regolazioni curve, filtri, rendering texture, e scripting Python. Utilizza il toolkit Gtk2.</p>\n"
+}

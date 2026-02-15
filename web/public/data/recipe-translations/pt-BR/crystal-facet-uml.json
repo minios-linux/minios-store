@@ -1,0 +1,5 @@
+{
+  "name": "crystal-facet-uml",
+  "description": "crystal-facet-uml cria diagramas para documentar arquitetura de sistemas e softwares",
+  "longDescription": "<p>\n      Como arquiteto de software, você cria um conjunto de diagramas que descrevem\n      casos de uso, requisitos, visões estruturais, comportamentais e de implantação.\n    </p>\n<p>\n      O crystal-facet-uml mantém os nomes dos elementos e suas hierarquias consistentes.\n      Ele exporta diagramas nos formatos svg, pdf, ps e png,\n      para serem usados em sistemas de processamento de texto como DocBook, html e LaTeX.\n      O crystal-facet-uml também exporta o modelo no formato xmi.\n    </p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Gamazons",
+  "description": "Juego de Amazons",
+  "longDescription": "<p>Amazons es un juego que se juega en un tablero de ajedrez de 10x10. Cada jugador tiene cuatro piezas (amazonas) que se mueven como la reina en el ajedrez (en línea recta en cualquier dirección). En lugar de capturar piezas como en el ajedrez, la partida se decide por quién realiza el último movimiento.</p>\n<p>Cada turno consta de dos partes. Primero, una amazona se desplaza a una nueva casilla y luego dispara una flecha a otra casilla (la flecha se dispara en línea recta en cualquier dirección desde donde la amazona aterrizó). La casilla donde cae la flecha se convierte en un bloqueo permanente para el resto del juego. Nadie puede pasar por encima ni disparar a través de ella. En cada turno, una amazona debe moverse y disparar una flecha, por lo que en cada turno hay una casilla menos disponible en el tablero. Intenta bloquear a tu oponente o asegurar una buena parte del tablero para ti mismo.</p>\n"
+}

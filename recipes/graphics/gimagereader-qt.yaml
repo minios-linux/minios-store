@@ -1,0 +1,48 @@
+id: gimagereader-qt
+name: gImageReader
+description: A graphical (qt6) frontend to tesseract-ocr
+longDescription: |
+  <p>gImageReader is a simple optical character recognition (OCR) application which acts as a frontend to the tesseract OCR engine. Features include:</p>
+  <ul>
+    <li>Import PDF documents and images from disk, scanning devices, clipboard and screenshots</li>
+    <li>Process multiple images and documents in one go</li>
+    <li>Define, manually or automatically, the recognition area</li>
+    <li>Recognize and export as plain text or as hOCR documents</li>
+    <li>Recognize text next to images</li>
+    <li>Post-processing recognized text, including spell checking</li>
+    <li>Generate PDF/ODT documents from hOCR documents</li>
+  </ul>
+  <ul>
+  </ul>
+  <ul>
+  </ul>
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gimagereader-qt
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - ocr
+  - optical
+  - recognition
+  - tesseract
+  - pdf
+  - qt6
+screenshotSources:
+  - url: g/gi/gimagereader-qt6.desktop/85dabe888bcd267acad0eeb6eb2c4383/screenshots/image-1_orig.png
+    thumbnailUrl: g/gi/gimagereader-qt6.desktop/85dabe888bcd267acad0eeb6eb2c4383/screenshots/image-1_624x350@1.png
+    width: 1503
+    height: 845
+iconSources:
+  - url: g/gi/gimagereader-qt6.desktop/85dabe888bcd267acad0eeb6eb2c4383/icons/128x128/gimagereader-qt_gimagereader.png
+    width: 128
+    height: 128
+homepage: "https://github.com/manisandro/gImageReader"
+enabled: true
+order: 99

@@ -1,0 +1,34 @@
+id: tuxcmd
+name: Tux Commander
+description: A two panel file manager
+longDescription: |
+  <p>Tux Commander is a windowed file manager with 2 panels side by side similar to popular Total Commander or Midnight Commander file managers.</p>
+  <p>General features:  * Two directory panels side by side (vertical)  * Tabbed interface, buttons for quick access to favorite    places  * Configurable mounter bar for quick access to removable    media and network shares  * Multilingual user interface  * Extendable via plugin system  * Extension-based file type actions (associations)</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tuxcmd
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: t/tu/tuxcmd.desktop/293F0B3D7A36E3B1FE108CA98AE4378D/icons/128x128/tuxcmd_tuxcmd.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

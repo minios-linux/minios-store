@@ -1,0 +1,5 @@
+{
+  "name": "RasMol (versi klasik)",
+  "description": "Melihat makromolekul dan menyiapkan gambar berkualitas publikasi",
+  "longDescription": "<p>RasMol adalah program grafis molekuler yang dirancang untuk visualisasi protein, asam nukleat, dan molekul kecil. Program ini ditujukan untuk memperlihatkan, mengedukasi, dan menghasilkan gambar berkualitas publikasi.</p>\n<p>Program ini membaca berkas koordinat molekul dan menampilkan molekul secara interaktif di layar dengan berbagai skema warna dan representasi molekul. Representasi yang tersedia mencakup wireframe dengan kedalaman, stik 'Dreiding', bola ruang penuh (CPK), bola dan stik, pita biomolekul padat serta untai, label atom, dan permukaan titik.</p>\n<p>Format berkas masukan yang didukung antara lain Protein Data Bank (PDB), format Alchemy dan Sybyl Mol2 milik Tripos Associates, format Mol dari Molecular Design Limited (MDL), format XYZ (XMol) dari Minnesota Supercomputer Center (MSC), format CHARMm, format CIF, dan mmCIF.</p>\n<p>Paket ini memasang dua versi RasMol: rasmol-gtk dengan antarmuka modern berbasis GTK dan rasmol-classic yang menggunakan GUI Xlib lama.</p>\n"
+}

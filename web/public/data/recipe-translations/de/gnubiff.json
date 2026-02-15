@@ -1,0 +1,5 @@
+{
+  "name": "Gnubiff",
+  "description": "Gnubiff ist ein Programm zur E-Mail-Benachrichtigung.",
+  "longDescription": "<p>gnubiff prüft auf neue E-Mails in einer Datei, in einem qmail- oder MH-Verzeichnis oder über einen IMAP4-, POP3- bzw. APOP-Server. Bei neuem Eingang zeigt es Kopfzeilen wie Anzahl, Absender, Betreff und Datum der Nachrichten an.</p>\n<p>gnubiff ist zwar ursprünglich als GNOME-Panel-Applet konzipiert, läuft aber auch als eigenständiges Symbol auf dem Desktop in anderen Umgebungen.</p>\n"
+}

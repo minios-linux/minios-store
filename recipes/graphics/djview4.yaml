@@ -1,0 +1,37 @@
+id: "djview4"
+name: DjView4
+description: Viewer for DjVu documents
+longDescription: |
+  <p>DjVu viewer djview.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - djview4
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/dj/djvulibre-djview4.desktop/1fcdc1ba467d2b6bcb4824c9f709d013/icons/128x128/djview4_djvulibre-djview4.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

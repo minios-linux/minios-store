@@ -1,0 +1,5 @@
+{
+  "name": "Spek",
+  "description": "Visualiza espectrogramas de tus archivos de audio",
+  "longDescription": "<p>Spek te ayuda a analizar tus archivos de audio mostrando su espectrograma. Es compatible con todos los formatos populares de archivos de audio, tanto con pérdida como sin pérdida.</p>\n<p>Características:</p>\n<p> * Procesamiento de señal ultrarrápido, utiliza múltiples hilos para acelerar aún más el análisis  * Muestra el nombre del códec y los parámetros de la señal de audio  * Permite guardar el espectrograma como archivo de imagen  * Soporta arrastrar y soltar; se asocia con formatos comunes de archivos de audio  * Relojes de tiempo, frecuencia y densidad espectral con ajuste automático  * Rango de densidad espectral ajustable</p>\n"
+}

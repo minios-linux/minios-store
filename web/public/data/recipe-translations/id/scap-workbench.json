@@ -1,0 +1,5 @@
+{
+  "name": "SCAP Workbench",
+  "description": "Alat GUI untuk pemindaian SCAP serta penyesuaian konten SCAP",
+  "longDescription": "<p>Tujuan utama aplikasi ini adalah untuk menurunkan hambatan awal dalam penggunaan SCAP.<br>Karena itu, cakupan fiturnya sangat spesifik — SCAP Workbench hanya melakukan pemindaian pada satu mesin dan hanya menggunakan XCCDF/SDS (tanpa evaluasi OVAL langsung).<br>Asumsinya, aplikasi ini sudah cukup bagi pengguna yang hanya ingin memindai beberapa mesin saja, sementara pengguna dengan jumlah mesin yang sangat banyak dapat menggunakan scap-workbench untuk menguji atau menyesuaikan konten mereka sebelum menerapkannya dengan alat yang lebih canggih (dan lebih rumit) seperti spacewalk.</p><p>Fitur utama:</p><ul><li>Dukungan XCCDF 1.1 dan 1.2</li><li>Dukungan Source Data Stream 1.2</li><li>Dukungan file penyesuaian XCCDF 1.2</li><li>Evaluasi mesin lokal</li><li>Evaluasi mesin jarak jauh (menggunakan ssh)</li><li>Dukungan penyesuaian terbatas — memilih dan membatalkan pilihan</li><li>Penyimpanan hasil sebagai XCCDF 1.1 atau 1.2 (tergantung input) atau ARF 1.1</li></ul>"
+}

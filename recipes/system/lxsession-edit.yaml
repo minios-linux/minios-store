@@ -1,0 +1,32 @@
+id: "lxsession-edit"
+name: Desktop Session Settings
+description: Manage applications loaded in desktop session
+longDescription: |
+  <p>LXSession-Edit is a simple session editor GUI for autostarting applications which follows autostart specs from FreeDesktop.Org.</p>
+  <p>This package can be used without lxsession package as well.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxsession-edit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: lxsession-edit_preferences-desktop.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

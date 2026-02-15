@@ -1,0 +1,31 @@
+id: projectcenter-app
+name: ProjectCenter
+description: The Official GNUstep IDE
+longDescription: |
+  <p>ProjectCenter is an integrated development environment (IDE) for GNUstep systems.  It is a clone of the ProjectBuilder application for NextStep, which became popular for its ease of use and speed of development.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - projectcenter.app
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ide
+  - development
+  - programming
+iconSources:
+  - cached: projectcenter.app_app-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

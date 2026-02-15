@@ -1,0 +1,44 @@
+id: "puzzle-jigsaw"
+name: puzzle-jigsaw
+description: Tile puzzle game
+longDescription: |
+  <p>
+        puzzle-jigsaw is a tile puzzle that requires the assembly of often oddly shaped interlocking and mosaiced pieces.
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - puzzle-jigsaw
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - puzzle
+  - jigsaw
+  - logic
+  - game
+screenshotSources:
+  - url: org/bitbucket/puzzle-jigsaw/048b1fe795ae52a77a0b55426fda4c39/screenshots/image-1_orig.png
+    thumbnailUrl: org/bitbucket/puzzle-jigsaw/048b1fe795ae52a77a0b55426fda4c39/screenshots/image-1_624x483@1.png
+    width: 1040
+    height: 806
+iconSources:
+  - url: org/bitbucket/puzzle-jigsaw/048b1fe795ae52a77a0b55426fda4c39/icons/128x128/puzzle-jigsaw_puzzle-jigsaw.png
+    width: 128
+    height: 128
+homepage: "https://bitbucket.org/admsasha/puzzle-jigsaw"
+enabled: true
+order: 99

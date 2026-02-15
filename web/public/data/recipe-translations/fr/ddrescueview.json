@@ -1,0 +1,5 @@
+{
+  "name": "ddrescueview",
+  "description": "Visionneuse graphique pour fichiers de carte GNU ddrescue",
+  "longDescription": "<p>Ce petit outil permet à l’utilisateur d’examiner graphiquement les fichiers de carte générés par ddrescue dans une interface conviviale. La fenêtre principale affiche une grille où chaque bloc est coloré selon le type de données qu’il contient. Beaucoup connaissent ce type de visualisation grâce aux logiciels de défragmentation.</p>\n<p>Fonctionnalités :  * Affichage d’une carte ddrescue sous forme de blocs colorés  * Analyse détaillée de chaque bloc, accès à la liste des entrées du fichier de carte  * Suivi du processus de récupération grâce à une actualisation automatique du fichier map  * Affichage des unités avec préfixes décimaux (KB, MB...) ou binaires (KiB, MiB...)</p>\n"
+}

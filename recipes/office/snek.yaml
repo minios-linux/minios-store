@@ -1,0 +1,37 @@
+id: snek
+name: Snek Development Environment
+description: Edit and test Snek programs for Arduino
+longDescription: |
+  <p>Snek is a small python-like language designed for embedded computers. It can run on systems as small as an Arduino Duemilanove board, which is an ATmega 328 processor with 32kB of flash and 2kB of ram. This package includes binaries and installation tools for many targets along with the snekde integrated development environment.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - snek
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - arduino
+  - snek
+  - python
+iconSources:
+  - cached: snek_snek.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

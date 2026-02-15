@@ -1,0 +1,30 @@
+id: "gpac"
+name: MP4Client
+description: GPAC Media Player
+longDescription: |
+  <p>GPAC stands for GPAC Project on Advanced Content (a recursive acronym). It is an Open Source multimedia framework for research and academic purposes. The project covers different aspects of multimedia, with a focus on presentation technologies (graphics, animation and interactivity).</p>
+  <p>This package contains the following utilities:   - MP4Client (content packaging)   - MP4Box</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpac
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - media player
+iconSources:
+  - url: g/gp/gpac.desktop/de9d23356ab3c4ea7cbc26c115b44ae8/icons/128x128/gpac_gpac.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

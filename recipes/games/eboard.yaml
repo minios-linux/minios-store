@@ -1,0 +1,27 @@
+id: eboard
+name: eboard
+description: A graphical chessboard program
+longDescription: |
+  <p>eboard is a graphical chess program which can function as an interface to Internet chess servers such as FICS and to chess engines such as Crafty.</p>
+  <p>eboard has a themeable and freely resizable board, a tabbed or multi-window display, and supports multiple simultaneous boards.</p>
+  <p>This package contains a chess interface, which means that you can play against another human on the same computer, or play on an Internet server.  If you would like to play against a computer, you should install a chess engine such as gnuchess in addition.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - eboard
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: eboard_eboard.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

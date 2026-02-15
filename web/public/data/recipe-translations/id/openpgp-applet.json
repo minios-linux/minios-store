@@ -1,0 +1,5 @@
+{
+  "name": "OpenPGP Applet",
+  "description": "Enkripsi, Dekripsi, dan Tanda Tangan teks menggunakan clipboard",
+  "longDescription": "<p>OpenPGP Applet adalah antarmuka grafis untuk GnuPG.</p>\n<p>Aplikasi ini memungkinkan enkripsi dan dekripsi konten clipboard, baik menggunakan kriptografi kunci publik ataupun sandi simetris dengan kata sandi. Mendukung juga pembuatan dan verifikasi tanda tangan teks jelas.</p>\n<p>Catatan: OpenPGP Applet tidak menangani input kata sandi secara langsung. Karena tidak menyediakan interaksi terminal kecuali dijalankan eksplisit dari terminal, aplikasi ini biasanya mengandalkan GnuPG agent yang diatur untuk menggunakan dialog input kata sandi, seperti pinentry-gnome3.</p>\n"
+}

@@ -1,0 +1,46 @@
+id: "bomber"
+name: Bomber
+description: Arcade Bombing Game
+longDescription: |
+  <p>Bomber is a single player arcade game. The player is invading various cities in a plane that is decreasing in height.</p>
+  <p>The goal of the game is to destroy all the buildings and advance to the next level. Each level gets a bit harder by increasing
+        the speed of the plane and the height of the buildings.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bomber
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/bomber/8424d725165540c70a7f6e7f89ad6f7d/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/bomber/8424d725165540c70a7f6e7f89ad6f7d/screenshots/image-1_624x489@1.png
+    width: 907
+    height: 712
+iconSources:
+  - url: org/kde/bomber/8424d725165540c70a7f6e7f89ad6f7d/icons/128x128/bomber_bomber.png
+    width: 128
+    height: 128
+developer: The KDE Community
+homepage: "https://www.kde.org/applications/games/bomber/"
+enabled: true
+order: 99

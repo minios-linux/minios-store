@@ -1,0 +1,45 @@
+id: "neverball"
+name: Neverball
+description: A 3D arcade game with a ball
+longDescription: |
+  <p>In the grand tradition of Marble Madness and Super Monkey Ball, Neverball has you guide a rolling ball through dangerous territory. Balance on narrow bridges, navigate mazes, ride moving platforms, and dodge pushers and shovers to get to the goal. Race against the clock to collect coins to earn extra balls.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - neverball
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - arcade
+  - floor
+  - ball
+  - 3d
+  - platform
+  - levels
+  - maps
+iconSources:
+  - url: n/ne/neverball.desktop/c4250465f717cfb3435c00091c3baba6/icons/128x128/neverball_neverball.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

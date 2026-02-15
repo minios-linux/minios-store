@@ -1,0 +1,5 @@
+{
+  "name": "Brasero",
+  "description": "CDs und DVDs erstellen und kopieren",
+  "longDescription": "<p>Brasero ist eine einfache Anwendung zum Brennen, Kopieren und Löschen von CDs und DVDs – egal ob Audio-, Video- oder Datenträger. Zu den Funktionen gehören unter anderem:  * Brennen in Echtzeit  * Multisession-Unterstützung  * Direkte Konvertierung von Musik-Playlists in alle von GStreamer unterstützten Formate</p>\n<p>Dieses Paket enthält die eigenständige App.</p>\n<p>Folgende Pakete, sofern installiert, erweitern Brasero um zusätzliche Funktionen:  * cdrdao zum Brennen von kombinierten Daten-/Audio-CDs und für 1:1-Kopien  * GStreamer-Backends zur Unterstützung weiterer Audioformate  * vcdimager zum Erstellen von VCDs oder SVCDs  * libdvdcss2 zum Kopieren verschlüsselter DVDs  * tracker zur Suche nach Video-, Audio-, Bild- und Dokumentdateien</p>\n"
+}

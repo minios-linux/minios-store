@@ -1,0 +1,5 @@
+{
+  "name": "Hardware Lister",
+  "description": "Fournit des informations sur le matériel",
+  "longDescription": "<p>Un petit utilitaire permettant d’obtenir des informations détaillées sur la configuration matérielle de la machine. Il peut afficher la configuration exacte de la mémoire, la version du firmware, la configuration de la carte mère, la version et la fréquence du CPU, la taille du cache, la vitesse du bus, etc. sur les systèmes x86 compatibles DMI, certains modèles PowerPC (par exemple le PowerMac G4) et AMD64.</p>\n<p>Ce paquet fournit lshw-gtk (version basée sur GTK+)</p>\n"
+}

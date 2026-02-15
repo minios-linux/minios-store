@@ -1,0 +1,41 @@
+id: "altos"
+name: TeleGPS
+description: View and log data from TeleGPS tracking devices
+longDescription: |
+  <p>Firmware and utilities needed to support high power model rocketry products from Altus Metrum, including TeleMetrum, TeleMini, and TeleDongle.</p>
+  <p>See http://altusmetrum.org/ for more information.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - altos
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - telemetry
+  - gps
+iconSources:
+  - cached: altos_altusmetrum-altosui.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Mp3splt-gtk audio splitter",
+  "description": "Memisah file mp3 dan ogg tanpa decoding",
+  "longDescription": "<p>Paket ini menyediakan antarmuka grafis untuk membagi file audio pada posisi waktu mulai dan akhir tertentu tanpa melakukan decoding. Jika ingin membagi album, Anda dapat memilih titik pemisah dan nama file secara manual atau membacanya dari file CDDB atau cue. Pemisahan berdasarkan jeda hening serta data dari Mp3Wrap atau AlbumWrap juga didukung. Untuk file mp3, baik tag ID3v1 maupun ID3v2 didukung. Antarmuka baris perintah tersedia di paket mp3splt.</p>\n"
+}

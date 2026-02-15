@@ -1,0 +1,30 @@
+id: "hdhomerun-config-gui"
+name: HDHomeRun Config
+description: A GUI for configuration of HDHomeRun devices
+longDescription: |
+  <p>This package supports the Silicon Dust HDHomeRun. The HDHomeRun is a networked, two tuner digital TV tuner compatible with MythTV, SageTV, and VLC.</p>
+  <p>This utility can be used for:  * Discovering your tuner location and name  * Gathering tuner settings  * Setting tuner setting  * Performing scans  * Performing firmware upgrades</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hdhomerun-config-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: h/hd/hdhr.desktop/9bab78949ef39a3f1fa6db3ce28c2475/icons/128x128/hdhomerun-config-gui_hdhr.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

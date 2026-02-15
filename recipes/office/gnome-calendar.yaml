@@ -1,0 +1,59 @@
+id: "gnome-calendar"
+name: Calendar
+description: Calendar for GNOME
+longDescription: |
+  <p>GNOME Calendar is a simple and beautiful calendar application designed to perfectly fit the GNOME
+        desktop. By reusing the components which the GNOME desktop is built on, Calendar nicely integrates
+        with the GNOME ecosystem.</p>
+  <p>We aim to find the perfect balance between nicely crafted features and user-centred usability. No
+        excess, nothing missing. You’ll feel comfortable using Calendar, like you’ve been using it for ages!</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-calendar
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calendar
+  - event
+  - reminder
+screenshotSources:
+  - url: org/gnome/Calendar/28dea3bd92ae657aa1bea111811599d1/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Calendar/28dea3bd92ae657aa1bea111811599d1/screenshots/image-1_624x415@1.png
+    width: 1244
+    height: 828
+  - url: org/gnome/Calendar/28dea3bd92ae657aa1bea111811599d1/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Calendar/28dea3bd92ae657aa1bea111811599d1/screenshots/image-2_624x415@1.png
+    width: 1244
+    height: 828
+  - url: org/gnome/Calendar/28dea3bd92ae657aa1bea111811599d1/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Calendar/28dea3bd92ae657aa1bea111811599d1/screenshots/image-3_224x243@1.png
+    width: 572
+    height: 622
+iconSources:
+  - url: org/gnome/Calendar/28dea3bd92ae657aa1bea111811599d1/icons/128x128/gnome-calendar_org.gnome.Calendar.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Calendar"
+enabled: true
+order: 99

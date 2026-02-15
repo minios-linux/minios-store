@@ -1,0 +1,38 @@
+id: "laby"
+name: Laby
+description: Learn how to program with ants and spider webs
+longDescription: |
+  <p>Laby is a small program to learn how to program with ants and spider webs. You have to move an ant out of a labyrinth, avoid spider webs, move rocks, etc.</p>
+  <p>Using Laby, you can learn OCaml, C, C++, Java, Prolog, Ruby, Pascal, JavaScript, Python, Lua, Vala and Scheme. Other bindings can easily be added to support new programming languages.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - laby
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: l/la/laby.desktop/fd9c5a48230bd29dbcfe7b7a21f90434/icons/128x128/laby_laby.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

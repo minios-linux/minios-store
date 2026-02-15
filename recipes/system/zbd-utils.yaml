@@ -1,0 +1,42 @@
+id: zbd-utils
+name: gzbd
+description: Manage Zoned Block Devices
+longDescription: |
+  <p>zbd is a command line utility to report, open, close, reset and finish zones of a device.</p>
+  <p>gzbd is similar to zbd but using a graphical user interface.</p>
+  <p>gzbd-viewer is a graphical user interface showing the condition and state of zones of a zoned block device.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zbd-utils
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - disk
+  - drive
+  - harddisk
+  - hdd
+  - disc
+  - smr
+  - smr
+  - ssd
+  - zns
+  - zns
+iconSources:
+  - cached: zbd-utils_gzbd.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

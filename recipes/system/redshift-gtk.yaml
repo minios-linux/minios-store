@@ -1,0 +1,46 @@
+id: "redshift-gtk"
+name: Redshift
+description: Color temperature adjustment tool
+longDescription: |
+  <p>Redshift adjusts the color temperature of your screen according to your surroundings. This may help your eyes hurt less if you are working in front of the screen at night.</p>
+  <p>The color temperature is set according to the position of the sun. A different color temperature is set during night and daytime. During twilight and early morning, the color temperature transitions smoothly from night to daytime temperature to allow your eyes to slowly adapt.</p>
+  <p>This program provides a status icon that allows the user to control Redshift.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - redshift-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: r/re/redshift-gtk.desktop/1C92562BDB5F3C77E17962D15FA2AC62/screenshots/image-1_orig.png
+    thumbnailUrl: r/re/redshift-gtk.desktop/1C92562BDB5F3C77E17962D15FA2AC62/screenshots/image-1_624x347.png
+    width: 750
+    height: 418
+iconSources:
+  - url: dk/jonls/redshift.gtk/01f3021534daab5497c1b45286ec2f2b/icons/128x128/redshift-gtk_redshift.png
+    width: 128
+    height: 128
+developer: Jon Lund Steffensen
+homepage: "http://jonls.dk/redshift/"
+enabled: true
+order: 99

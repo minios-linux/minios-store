@@ -1,0 +1,29 @@
+id: mrrescue
+name: Mr Rescue
+description: Arcade 2d action game
+longDescription: |
+  <p>Mr. Rescue is an arcade styled 2d action game centered around evacuating civilians from burning buildings. The game features fast paced fire extinguishing action, intense boss battles, a catchy soundtrack and lots of throwing people around in pseudo-randomly generated buildings.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mrrescue
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+iconSources:
+  - cached: mrrescue_love-app.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

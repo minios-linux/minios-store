@@ -1,0 +1,5 @@
+{
+  "name": "Taiwan Invoice ReCalculator",
+  "description": "Effectue le calcul inverse des factures taïwanaises",
+  "longDescription": "<p>À Taïwan, le client reçoit généralement le prix toutes taxes comprises. Cependant, la facture doit indiquer le montant hors taxe ainsi que la TVA. Ce programme facilite le calcul inverse, en convertissant le prix TTC en prix HT et montant de la taxe. Il ajuste automatiquement le montant HT si nécessaire.</p>\n"
+}

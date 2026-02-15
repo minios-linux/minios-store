@@ -1,0 +1,5 @@
+{
+  "name": "KeePassX",
+  "description": "Plattformunabhängiger Passwortmanager",
+  "longDescription": "<p>KeePassX ist ein kostenloser, quelloffener Passwortmanager, mit dem Sie Ihre Passwörter sicher verwalten können. Alle Passwörter werden in einer einzigen Datenbank abgelegt, die mit einem Hauptschlüssel oder einer Schlüsseldatei geschützt ist. Sie müssen sich also nur noch ein einziges Master-Passwort merken oder eine Schlüsseldatei einbinden, um Zugriff auf die gesamte Datenbank zu erhalten. Die Datenbank wird wahlweise mit den Algorithmen AES oder Twofish verschlüsselt.</p>\n<p>Im Gegensatz zu KeePassXC (Paket keepassxc) ist die Entwicklung von KeePassX deutlich langsamer geworden. KeePassX bietet weniger Funktionen und verwendet eine veraltete Qt-Bibliothek. Wenn Sie unsicher sind, ob Sie keepassx oder keepassxc installieren sollten, wählen Sie am besten keepassx!</p>\n"
+}

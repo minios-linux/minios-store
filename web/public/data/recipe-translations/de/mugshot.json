@@ -1,0 +1,5 @@
+{
+  "name": "Mugshot",
+  "description": "Leichte Benutzerkonfiguration",
+  "longDescription": "<p>Mit Mugshot können Benutzer ihre persönlichen Kontaktdaten einfach aktualisieren. Folgende Funktionen stehen zur Verfügung:</p>\n<ul>\n  <li>Festlegen des Kontofotos für den Anmeldebildschirm und optionales Synchronisieren mit dem Pidgin-Buddy-Icon</li>\n  <li>Anpassen der Kontoinformationen in /etc/passwd (zur Nutzung mit dem Befehl finger) und optionales Synchronisieren mit den Kontaktdaten in LibreOffice</li> </ul>\n"
+}

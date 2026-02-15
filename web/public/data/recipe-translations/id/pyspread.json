@@ -1,0 +1,5 @@
+{
+  "name": "pyspread",
+  "description": "Spreadsheet berbasis Python",
+  "longDescription": "<p>Pyspread adalah aplikasi spreadsheet lintas platform yang berbasis Python. Alih-alih menggunakan rumus spreadsheet tradisional, Anda memasukkan ekspresi Python ke dalam sel spreadsheet. Setiap ekspresi akan menghasilkan objek Python yang dapat diakses dari sel lain. Objek-objek ini dapat berupa apa saja, termasuk daftar (list) atau matriks.</p>\n"
+}

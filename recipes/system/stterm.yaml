@@ -1,0 +1,29 @@
+id: stterm
+name: st
+description: Simple terminal emulator
+longDescription: |
+  <p>st is a terminal emulator from the suckless project with a focus on simplicity, clarity and frugality. The project&apos;s philosophy is about keeping things simple, minimal and usable.</p>
+  <p>st supports most VT10X escape sequences, serial lines, XIM, utmp via utmp(1), clipboard handling, mouse and keyboard shortcuts, UTF-8, wide characters, resize, 256 colors, true colors, antialiased fonts (using fontconfig), fallback fonts, and line drawing. It does *not* provide a scrollback buffer: users are encouraged to use a terminal multiplexter.</p>
+  <p>This Debian package is called &apos;stterm&apos; for historical reasons.</p>
+categoryId: system
+icon: Terminal
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - stterm
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+tags:
+  - shell
+  - prompt
+  - command
+  - commandline
+iconSources:
+  - url: s/st/st.desktop/bf0a5d21a9284159eb3151b116ccc28f/icons/128x128/stterm_terminal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

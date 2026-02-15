@@ -1,0 +1,30 @@
+id: invesalius
+name: InVesalius
+description: 3D medical imaging reconstruction software.
+longDescription: |
+  <p>InVesalius generates 3D medical imaging reconstructions based on a sequence of 2D DICOM files acquired with CT or MRI equipments. InVesalius is internationalized (currently available in English, Portuguese, French, Spanish, Turkish, Italian, Czesh, Japanese, Catalan, Korean, Romanian and German) and provides several tools:  * DICOM support including: (a) ACR-NEMA version 1 and 2; (b) DICOM    version 3.0 (including various encodings of JPEG -lossless and lossy-, RLE)  * Image manipulation features (zoom, pan, rotation, brightness/contrast,    etc)  * Segmentation based on 2D slices  * Pre-defined threshold ranges according to tissue of interest  * Segmentation based on watershed  * Region growing segmentation  * Edition tools (similar to Paint Brush) based on 2D slices  * Semi-automatic segmentation based on Watershed  * 3D surface creation  * 3D surface connectivity tools  * 3D surface exportation (including: binary STL, OBJ, VRML, Inventor)  * High-quality volume rendering projection  * Pre-defined volume rendering presets  * Volume rendering crop plane  * Picture exportation (including: BMP, TIFF, JPG, PostScript, POV-Ray)  * Minimum, Maximum or Mean Intensity Projection, Maximum Intensity Difference    Accumulation and Contour based visualizations</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - invesalius
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - medical imaging
+  - segmentation
+  - computed tomography
+  - magnetic resonance imaging
+iconSources:
+  - cached: invesalius_invesalius.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

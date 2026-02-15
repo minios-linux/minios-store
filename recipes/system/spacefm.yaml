@@ -1,0 +1,36 @@
+id: "spacefm"
+name: SpaceFM
+description: Browse the file system
+longDescription: |
+  <p>SpaceFM is a multi-panel tabbed file and desktop manager for Linux with built-in VFS, udev or HAL-based device manager, customizable menu system and bash integration.</p>
+  <p>A descendant of PCManFM, SpaceFM&apos;s aims are to be bugfixed, efficient (mainly C), hugely customisable (change and add to the GUI as you go with Design Mode), powerful without scaring off newer users (due to customisation), independent of particular distributions and desktop environments, and device management featureful enough to replace the various udisks-based *kits when used alongside udevil.</p>
+  <p>Other highlights include optional desktop management, smart queuing of file operations, user plugins and the ability to carry out specific commands as root.</p>
+  <p>Please install spacefm-gtk3 instead if you want to stick with GTK+3.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - spacefm
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - file
+  - manager
+  - file-manager
+iconSources:
+  - cached: spacefm_spacefm-find.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

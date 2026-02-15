@@ -1,0 +1,42 @@
+id: "texworks"
+name: TeXworks
+description: "A simple environment for editing, typesetting, and previewing TeX documents"
+longDescription: |
+  <p>An environment for authoring TeX (LaTeX, ConTeXt, etc) documents, with a Unicode-based, TeX-aware editor, integrated PDF viewer, and a clean, simple interface accessible to casual and non-technical users.</p>
+  <p>TeXworks is inspired by Dick Koch&apos;s award-winning TeXShop program for Mac OS X, which has made quality typesetting through TeX accessible to a wider community of users, without a technical or intimidating face. The goal of TeXworks is to deliver a similarly integrated, easy-to-use environment for users on other platforms, especially GNU/Linux and Windows.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - texworks
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/tug/texworks/a71774c88cd71ec605766f4a98e58fd8/screenshots/image-1_orig.png
+    thumbnailUrl: org/tug/texworks/a71774c88cd71ec605766f4a98e58fd8/screenshots/image-1_624x390@1.png
+    width: 1280
+    height: 800
+iconSources:
+  - url: org/tug/texworks/a71774c88cd71ec605766f4a98e58fd8/icons/128x128/texworks_TeXworks.png
+    width: 128
+    height: 128
+homepage: "http://www.tug.org/texworks/"
+enabled: true
+order: 99

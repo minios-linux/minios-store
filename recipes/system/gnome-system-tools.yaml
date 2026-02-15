@@ -1,0 +1,34 @@
+id: "gnome-system-tools"
+name: Time and Date
+description: "Change system time, date, and timezone"
+longDescription: |
+  <p>The GNOME System Tools are a fully integrated set of tools aimed to make easy the job that means the computer administration on an UNIX or Linux system. They&apos;re thought to help from the new Linux or UNIX user to the system administrators.</p>
+  <p>Its main advantages are:  * An user-friendly interface to carry out the main administration tasks.  * The use of a common user interface in every system.  * A common structure that makes easy the development of new system tools. Nowadays there are tools for managing:  - Users and groups  - Date and time  - Network options  - Services  - Shares (NFS and Samba)</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-system-tools
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: t/ti/time.desktop/742A5BB40EE94296A7D849999F3772A2/icons/128x128/gnome-system-tools_time-admin.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

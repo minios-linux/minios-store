@@ -1,0 +1,24 @@
+id: open3d-viewer
+name: Open3D
+description: Viewer for triangle meshes and point clouds
+longDescription: |
+  <p>Open3D is an open-source library that supports rapid development of software that deals with 3D data. The Open3D frontend exposes a set of carefully selected data structures and algorithms in both C++ and Python. The backend is highly optimized and is set up for parallelization.</p>
+  <p>This package provides the stand-alone viewer for data visualization.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - open3d-viewer
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: o/op/open3d.desktop/ebe9b7b4f5c4f5aef2f3a18f39cf113c/icons/128x128/open3d-viewer_Open3D.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

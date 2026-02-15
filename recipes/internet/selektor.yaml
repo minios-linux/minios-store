@@ -1,0 +1,40 @@
+id: selektor
+name: SelekTOR
+description: Tor Exit Node Selection and Proxying
+longDescription: |
+  <p>SelekTOR is a GUI frontend for the network Tor client. Used for security and anonymization purposes or to bypass some firewall. Simplifies the process of selecting Tor exit nodes and manages selective URL pattern based on routing via system proxying.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - selektor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - network
+  - tor
+iconSources:
+  - cached: selektor_selektor.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "eBook speaker",
+  "description": "Lettore di eBook vocale",
+  "longDescription": "<p>Questo pacchetto offre un lettore di eBook da linea di comando che legge testi elettronici tramite sintesi vocale. Dispone di un'interfaccia semplice, adatta anche ai terminali Braille.</p>\n<p>Attualmente sono supportati i seguenti formati (per alcuni sono necessari pacchetti aggiuntivi suggeriti):  AportisDoc  testo ASCII (anche email)  Broadband eBooks (BBeB)  Composite Document File (Microsoft Office Word)  DAISY3 DTBook  dati ebook EPUB  immagini GIF  GutenPalm zTXT  catalogo messaggi GNU gettext  documenti HTML  testo ISO-8859  immagini JPEG  Microsoft Reader eBook Data  Microsoft Windows HtmlHelp Data  Microsoft Word 2007+  Mobipocket E-book  MS Windows HtmlHelp Data  dati Netpbm PPM  OpenDocument Text  PDF  PeanutPress PalmOS  immagini PNG  script POSIX shell  documenti PostScript  Rich Text Format  testo troff o preprocessor (es. pagine man di Linux)  testo Unicode UTF-8 (anche email)  WordPerfect  documenti XML</p>\n"
+}

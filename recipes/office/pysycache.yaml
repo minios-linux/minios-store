@@ -1,0 +1,27 @@
+id: pysycache
+name: Pysycache Admin
+description: Configuration of PySyCache
+longDescription: |
+  <p>A collection of activities based on simple objects, photographies, numbers and letters with their sounds in different languages. The activities make children practice on clicking, double-clicking, drag and drop, moving and identify the mouse buttons. From its website many packages can be downloaded to add new photos and text to the activities.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pysycache
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pysycache_pysycache.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "XTide Tide Predictor",
+  "description": "Visualizza previsioni di maree e correnti",
+  "longDescription": "<p>XTide è un pacchetto che fornisce previsioni di maree e correnti in diversi formati. Puoi generare grafici, elenchi testuali, calendari oppure aggiungere un orologio delle maree sul desktop.</p>\n<p>XTide funziona con il sistema X Window, terminali testuali o tramite web. Questo è reso possibile da tre programmi distinti: l'interfaccia interattiva (xtide), l'interfaccia non interattiva o a riga di comando (tide) e l'interfaccia web (xttpd).</p>\n<p>L'algoritmo utilizzato da XTide per prevedere le maree è lo stesso impiegato dal National Ocean Service degli Stati Uniti ed è decisamente più accurato rispetto ai semplici orologi delle maree che si trovano nei negozi di gadget. Tuttavia, per una previsione precisa sono necessari dati specifici per ciascuna località: il pacchetto contiene un set di dati d'esempio per una sola località per consentirti di provare il programma, ma per un utilizzo reale occorrono i dati forniti dal pacchetto xtide-data (o scaricabili dal sito FTP di XTide).</p>\n"
+}

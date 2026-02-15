@@ -1,0 +1,5 @@
+{
+  "name": "AT1",
+  "description": "Correggi l’intonazione di una voce stonata",
+  "longDescription": "<p>AT1 è un ‘autotuner’, normalmente utilizzato per correggere l’intonazione di una voce che canta (leggermente) stonata. Rispetto ad ‘Autotalent’ offre un algoritmo di stima della tonalità migliorato e un ricampionamento molto più pulito.</p>\n<p>AT1 non include la correzione dei formanti, quindi dovrebbe essere usato solo per correggere piccoli errori e non per trasporre realmente una canzone. La tonalità ‘attesa’ può essere controllata tramite Midi (solo via Jack) o essere impostata su una serie fissa di note. AT1 può probabilmente essere utilizzato anche su alcuni strumenti, ma è progettato principalmente per coprire l’estensione vocale. È inoltre utile come accordatore rapido e semplice per chitarra.</p>\n"
+}

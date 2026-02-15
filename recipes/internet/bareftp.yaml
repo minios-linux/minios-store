@@ -1,0 +1,23 @@
+id: bareftp
+name: bareFTP
+description: "Transfer files using the FTP, FTPS or SFTP protocol"
+longDescription: |
+  <p>bareFTP is a simple ftp client for the GNOME desktop. It supports the FTP, FTPS and SSH (SFTP) protocols. It also supports: resume and append, active and passive mode, browse during file transfers, boomarks and drag and drop.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bareftp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: bareftp_bareftp.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

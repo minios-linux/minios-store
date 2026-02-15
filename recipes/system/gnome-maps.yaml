@@ -1,0 +1,80 @@
+id: "gnome-maps"
+name: GNOME Maps
+description: Find places around the world
+longDescription: |
+  <p>Maps gives you quick access to maps all across the world. It allows you
+        to quickly find the place you’re looking for by searching for a city or
+        street, or locate a place to meet a friend.</p>
+  <p>Maps uses the collaborative OpenStreetMap database, made by hundreds of
+        thousands of people across the globe.</p>
+  <p>You can even search for specific types of locations, such as “Pubs near
+        Main Street, Boston” or “Hotels near Alexanderplatz, Berlin”.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-maps
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - maps
+screenshotSources:
+  - url: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-1_624x378@1.png
+    width: 2390
+    height: 1450
+  - url: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-2_624x378@1.png
+    width: 2390
+    height: 1450
+  - url: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-3_624x378@1.png
+    width: 2390
+    height: 1450
+  - url: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-4_624x378@1.png
+    width: 2390
+    height: 1450
+  - url: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-5_orig.png
+    thumbnailUrl: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-5_624x378@1.png
+    width: 2390
+    height: 1450
+  - url: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-6_orig.png
+    thumbnailUrl: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-6_624x378@1.png
+    width: 2390
+    height: 1450
+  - url: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-7_orig.png
+    thumbnailUrl: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-7_624x378@1.png
+    width: 2390
+    height: 1450
+  - url: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-8_orig.png
+    thumbnailUrl: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/screenshots/image-8_624x378@1.png
+    width: 2390
+    height: 1450
+iconSources:
+  - url: org/gnome/Maps/63d52848806b75256730e5a3d0c474ac/icons/128x128/gnome-maps_org.gnome.Maps.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "http://wiki.gnome.org/Apps/Maps"
+enabled: true
+order: 99

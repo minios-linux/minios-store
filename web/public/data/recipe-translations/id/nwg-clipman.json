@@ -1,0 +1,5 @@
+{
+  "name": "Manajer papan klip",
+  "description": "Alat pencarian dan pengelolaan riwayat clipboard",
+  "longDescription": "<p>nwg-clipman adalah antarmuka GUI berbasis GTK3 untuk cliphist milik Senan Kelly. Aplikasi ini memungkinkan akses ke item yang pernah disalin sebelumnya serta pengelolaan riwayat clipboard melalui jendela yang dibuka di gtk-layer-shell. Program ini dirancang untuk digunakan bersama sway, Hyprland, dan compositor Wayland lain berbasis wlroots.</p>\n<p>Fitur  - Pratinjau riwayat gambar &amp; teks;  - Pencarian riwayat clipboard dengan frasa teks;  - Menghapus item riwayat terpilih;  - Mengosongkan riwayat clipboard.</p>\n<p>Program ini merupakan bagian dari proyek nwg-shell.</p>\n"
+}

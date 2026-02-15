@@ -1,0 +1,57 @@
+id: "heaptrack-gui"
+name: Heaptrack
+description: A heap memory profiler for Linux
+longDescription: |
+  <p>Heaptrack traces all memory allocations and annotates these events with stack traces. Dedicated analysis tools then allow you to interpret the heap memory profile to:</p>
+  <ul>
+    <li>find hotspots that need to be optimized to reduce the memory footprint of your application</li>
+    <li>find memory leaks, i.e. locations that allocate memory which is never deallocated</li>
+    <li>find allocation hotspots, i.e. code locations that trigger a lot of memory allocation calls</li>
+    <li>find temporary allocations, which are allocations that are directly followed by their deallocation</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - heaptrack-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/heaptrack.desktop/e11b7ec1fcdc365a1648978b57a8b269/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/heaptrack.desktop/e11b7ec1fcdc365a1648978b57a8b269/screenshots/image-1_624x522@1.png
+    width: 1087
+    height: 910
+  - url: org/kde/heaptrack.desktop/e11b7ec1fcdc365a1648978b57a8b269/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/heaptrack.desktop/e11b7ec1fcdc365a1648978b57a8b269/screenshots/image-2_624x450@1.png
+    width: 1462
+    height: 1055
+  - url: org/kde/heaptrack.desktop/e11b7ec1fcdc365a1648978b57a8b269/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/heaptrack.desktop/e11b7ec1fcdc365a1648978b57a8b269/screenshots/image-3_624x450@1.png
+    width: 1462
+    height: 1055
+iconSources:
+  - url: org/kde/heaptrack.desktop/e11b7ec1fcdc365a1648978b57a8b269/icons/128x128/heaptrack-gui_heaptrack.png
+    width: 128
+    height: 128
+homepage: "https://phabricator.kde.org/dashboard/view/28/"
+enabled: true
+order: 99

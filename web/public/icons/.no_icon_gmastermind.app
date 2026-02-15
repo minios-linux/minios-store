@@ -1,0 +1,1 @@
+gmastermind.app_app-icon.png

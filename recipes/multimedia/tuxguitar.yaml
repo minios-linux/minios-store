@@ -1,0 +1,30 @@
+id: "tuxguitar"
+name: TuxGuitar
+description: "Edit, playback guitar tablatures"
+longDescription: |
+  <p>TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT. It can open GuitarPro, PowerTab and TablEdit files.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tuxguitar
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - guitar pro
+  - midi
+iconSources:
+  - cached: tuxguitar_tuxguitar.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

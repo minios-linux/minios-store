@@ -1,0 +1,27 @@
+id: wstroke
+name: WStroke config
+description: Configure mouse gestures used with Wayfire
+longDescription: |
+  <p>Mouse gestures are shapes drawn on the screen while holding down one of the buttons (typically the right or middle button). This plugin allows associating such gestures with various actions. Based on Easystroke that provides similar functionality on X11.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wstroke
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gestures
+  - input
+  - wayfire
+iconSources:
+  - url: w/ws/wstroke-config.desktop/ddb5f824859741fda0681de062f3d6f4/icons/128x128/wstroke_wstroke.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

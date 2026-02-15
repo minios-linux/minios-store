@@ -1,0 +1,5 @@
+{
+  "name": "Terminal de porta serial",
+  "description": "Comunique-se com a porta serial",
+  "longDescription": "<p>gtkterm é um terminal simples baseado em GTK+ utilizado para comunicação com a porta serial.</p>\n<p>Principais recursos:</p>\n<p> * Janela de terminal para porta serial  * Configuração da porta serial (velocidade, paridade, bits, bits de parada, controle de fluxo)  * Utiliza a API termios  * Permite enviar arquivos (somente dados RAW, sem protocolo)  * Atraso de fim de linha ao enviar arquivos  * Espera de caractere especial antes da próxima linha ao enviar arquivos  * Permite alternar manualmente os sinais de controle (DTR, CTS)  * Também lê o estado dos sinais de controle (RTS, CD, DSR, RI)</p>\n<p> Autor:   Julien Schmitt &lt;julien@jls-info.com&gt;</p>\n"
+}

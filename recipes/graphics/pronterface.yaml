@@ -1,0 +1,46 @@
+id: pronterface
+name: Pronterface
+description: 3D printer host software
+longDescription: |
+  <p>Pronterface is a graphical user interface for desktop 3D printers, such as RepRap. It lets you view Gcode, connect to printer and send the Gcode to it. It's feature rich yet minimalist application.</p>
+  <p>It allows you not only to send Gcode form file, but also control the printer manually or send Gcode commands directly trough input field.</p>
+  <p>It integrates with slicing tools, so if you load an STL 3D model to it, it will slice and load it automatically.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pronterface
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+tags:
+  - 3d
+  - 3dprinting
+  - host
+  - python
+screenshotSources:
+  - url: com/github/kliment.printrun.pronterface/9f008ab74402a83049d975aede6575e8/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/kliment.printrun.pronterface/9f008ab74402a83049d975aede6575e8/screenshots/image-1_624x350.png
+    width: 1061
+    height: 596
+  - url: com/github/kliment.printrun.pronterface/9f008ab74402a83049d975aede6575e8/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/kliment.printrun.pronterface/9f008ab74402a83049d975aede6575e8/screenshots/image-2_224x247.png
+    width: 566
+    height: 626
+iconSources:
+  - cached: pronterface_pronterface.png
+    width: 64
+    height: 64
+homepage: "https://github.com/kliment/Printrun"
+enabled: true
+order: 99

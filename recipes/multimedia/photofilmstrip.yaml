@@ -1,0 +1,49 @@
+id: "photofilmstrip"
+name: PhotoFilmStrip
+description: Create animated slideshows
+longDescription: |
+  <p>This creates movies out of your pictures in just three steps. First select your photos, customize the motion path and render the video. There are several output possibilities for VCD, SVCD, DVD up to FULL-HD and even 4k.</p>
+  <p>The effect of the slideshow is known as &quot;Ken Burns&quot;. Comments of the pictures are generated into a subtitle file. Furthermore audio files can be specified to setup the background music for the slide show.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - photofilmstrip
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - album
+  - gallery
+  - image
+  - images
+  - photo
+  - photographs
+  - photos
+  - picture
+  - pictures
+  - photography
+iconSources:
+  - url: p/ph/photofilmstrip.desktop/cf4eeff9e7097da5f06590fc805670a8/icons/128x128/photofilmstrip_photofilmstrip.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

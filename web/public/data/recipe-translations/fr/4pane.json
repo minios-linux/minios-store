@@ -1,0 +1,5 @@
+{
+  "name": "4Pane",
+  "description": "Un gestionnaire de fichiers à quatre volets",
+  "longDescription": "<p>4Pane est un gestionnaire de fichiers à double volets jumelés : les répertoires et les fichiers sont affichés dans des volets séparés. Par défaut, deux paires de ces volets sont visibles simultanément, ce qui facilite le glisser-déposer ou le copier-coller.</p>\n<p>En plus des fonctions classiques d’un gestionnaire de fichiers, 4Pane propose la prise en charge de nfs, sshfs et samba, la gestion des archives avec navigation virtuelle, le renommage multiple de fichiers, des outils personnalisables par l’utilisateur, un terminal intégré, ainsi qu’un accès par interface graphique à grep, find et locate. Presque toutes les actions, y compris les suppressions, peuvent être annulées ou rétablies.</p>\n<p>4Pane vise à être hautement configurable, rapide et complet, sans surcharge inutile.</p>\n"
+}

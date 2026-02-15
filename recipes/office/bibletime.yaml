@@ -1,0 +1,51 @@
+id: "bibletime"
+name: BibleTime
+description: An easy to use bible study tool
+longDescription: |
+  <p>BibleTime is a free and easy to use bible study tool. It uses the Qt and SWORD software libraries. BibleTime provides easy handling of digitized texts (Bibles, commentaries and lexicons) and powerful features to work with these texts (search in texts, write own notes, save, print etc.) in the SWORD module format.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bibletime
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - bible
+  - study
+  - religion
+  - literature
+  - education
+screenshotSources:
+  - url: info/bibletime/BibleTime.desktop/1ccc33fa8cc77194065c6688837888a1/screenshots/image-1_orig.png
+    thumbnailUrl: info/bibletime/BibleTime.desktop/1ccc33fa8cc77194065c6688837888a1/screenshots/image-1_624x403@1.png
+    width: 1922
+    height: 1244
+  - url: info/bibletime/BibleTime.desktop/1ccc33fa8cc77194065c6688837888a1/screenshots/image-2_orig.png
+    thumbnailUrl: info/bibletime/BibleTime.desktop/1ccc33fa8cc77194065c6688837888a1/screenshots/image-2_624x641@1.png
+    width: 1154
+    height: 1186
+iconSources:
+  - url: info/bibletime/BibleTime.desktop/1ccc33fa8cc77194065c6688837888a1/icons/128x128/bibletime_info.bibletime.BibleTime.png
+    width: 128
+    height: 128
+homepage: "http://bibletime.info/"
+enabled: true
+order: 99

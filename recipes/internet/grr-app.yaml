@@ -1,0 +1,27 @@
+id: grr-app
+name: Grr Feed Reader
+description: Günther's RSS Reader
+longDescription: |
+  <p>Grr (Günther&apos;s RSS Reader) is a reader for RSS news feeds.  It has the following features:</p>
+  <p> * Parsing RSS feeds (including Atom).  * Fetching feeds from the web.  * Showing headlines.  * Showing the article&apos;s descriptions.  * Categories for feeds.  * Articles can be rated.  * Simple HTML rendering on GNUstep.  * Serializing obtained feed information to hard disk.  * Managing (adding, removing) feeds.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - grr.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - rss
+  - feeds
+iconSources:
+  - cached: grr.app_Grr.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

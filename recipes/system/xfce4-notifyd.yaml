@@ -1,0 +1,28 @@
+id: xfce4-notifyd
+name: Notifications
+description: Customize how notifications appear on your screen
+longDescription: |
+  <p>Xfce4-notifyd is a simple, visually-appealing notification daemon for Xfce that implements the Freedesktop.org Desktop Notifications Specification.</p>
+  <p>Features:  * Themable using the GTK+ theming mechanism  * Visually appealing: rounded corners, shaped windows  * Supports transparency and fade effects</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-notifyd
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: x/xf/xfce4-notifyd-config.desktop/FE5E7A56DA4E4756FCD689CDAF364563/icons/128x128/xfce4-notifyd_xfce4-notifyd.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

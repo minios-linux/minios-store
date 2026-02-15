@@ -1,0 +1,33 @@
+id: osdlyrics
+name: OSD Lyrics
+description: Download and show lyrics for your favorite media player
+longDescription: |
+  <p>OSD Lyrics is a standalone desktop application to view lyrics. It is compatible with various media players. It shows lyrics on your desktop in the style similar to KaraOK. It also provides the feature to download lyrics from the Internet automatically.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - osdlyrics
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: osdlyrics_osdlyrics.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

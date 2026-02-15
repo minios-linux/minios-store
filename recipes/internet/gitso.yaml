@@ -1,0 +1,44 @@
+id: gitso
+name: Gitso
+description: Connect to others using VNC protocol
+longDescription: |
+  <p>Gitso is a cross-platform (Linux, OS X and Windows) graphical program to easily connect one person to another person&apos;s screen, keyboard and mouse. This makes it straight-forward to get help or give technical support.</p>
+  <p>In a simple two-step process, the person giving support first sets up port forwarding and firewalling on his end, if necessary, and starts Gitso to listen for incoming connections on port 5500. Then, the person looking for help uses Gitso to connect to the supporter&apos;s address (IP or domain name), making their screen remotely visible and allowing the supporter to use their keyboard and mouse.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gitso
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - remote assistance
+  - reverse vnc
+  - vnc
+  - support
+  - help
+  - screen
+  - network
+iconSources:
+  - cached: gitso_gitso.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

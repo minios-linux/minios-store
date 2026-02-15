@@ -1,0 +1,5 @@
+{
+  "name": "KSystemLog",
+  "description": "Visualizador de logs do sistema",
+  "longDescription": "<p>O KSystemLog exibe todos os logs do seu sistema, organizados por categorias como Geral (log padrão do sistema, Autenticação, Kernel, X.org etc.) e Serviços opcionais (Apache, CUPS, entre outros). Conta com diversos recursos para facilitar a leitura dos arquivos de log: * Realce de linhas conforme o nível de severidade * Visualização em abas, permitindo abrir vários logs simultaneamente * Atualização automática com novas entradas * Informações detalhadas de cada linha do log</p>\n<p>Este pacote faz parte do módulo de administração do KDE.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "ddcui",
+  "description": "Kelola pengaturan monitor",
+  "longDescription": "<p>Berkomunikasi dengan Virtual Control Panel (VCP) monitor untuk menanyakan atau mengubah pengaturan monitor, seperti kecerahan, red gain, dan total jam penggunaan daya. Umumnya, pengaturan dan informasi yang biasanya diakses melalui On Screen Display (OSD) pada monitor bisa lebih mudah diakses lewat aplikasi ini.</p><p>ddcui biasanya berkomunikasi dengan monitor menggunakan protokol DDC/CI pada perangkat /dev/i2c yang disediakan oleh driver video. Sebagai alternatif, ddcui juga mendukung monitor yang menggunakan USB untuk komunikasi VCP.</p><p>Program versi command line yang terkait adalah ddcutil.</p>"
+}

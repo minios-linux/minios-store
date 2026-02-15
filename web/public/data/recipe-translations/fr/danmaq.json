@@ -1,0 +1,5 @@
+{
+  "name": "danmaQ",
+  "description": "Affichez des commentaires danmaku à l'écran",
+  "longDescription": "<p>DanmaQ est un client danmaku pour bureau. Il permet d'afficher des chaînes de commentaires danmaku à l'écran.</p>\n<p>Le « danmaku », terme d'origine japonaise, désigne une méthode de diffusion instantanée de commentaires sur Internet. Il est apparu au Japon et s’est largement répandu dans la culture informatique de l’Asie de l’Est. Le principe : les utilisateurs rédigent des messages qui sont envoyés à un serveur danmaku. Le serveur diffuse ensuite ces commentaires en temps réel aux clients connectés, où ils s’affichent directement sur l’écran. Les messages défilent alors avec des effets visuels dynamiques.</p>\n<p>Ce paquet fournit un client danmaku développé avec Qt5.</p>\n"
+}

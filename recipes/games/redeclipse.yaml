@@ -1,0 +1,63 @@
+id: "redeclipse"
+name: Red Eclipse
+description: First-person shooter with agile gameplay and built-in editor
+longDescription: |
+  <p>Red Eclipse is a fun-filled new take on the first person arena shooter,
+        built as a total conversion of Cube Engine 2, which lends itself toward
+        a balanced gameplay, with a general theme of agility in a variety of
+        environments.</p>
+  <ul>
+    <li>Cross-platform multiplayer</li>
+    <li>Features parkour, impulse boosts, dashing, and other tricks</li>
+    <li>Favourite gamemodes with an array of mutators and variables</li>
+    <li>Builtin editor lets you create your own maps cooperatively online</li>
+  </ul>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - redeclipse
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - fps,action,multiplayer,play,arena,mapeditor
+screenshotSources:
+  - url: r/re/redeclipse.desktop/ad79fe177ef67470c6513aafe2fdacc7/screenshots/image-1_orig.png
+    thumbnailUrl: r/re/redeclipse.desktop/ad79fe177ef67470c6513aafe2fdacc7/screenshots/image-1_624x351.png
+    width: 1280
+    height: 720
+  - url: r/re/redeclipse.desktop/ad79fe177ef67470c6513aafe2fdacc7/screenshots/image-2_orig.png
+    thumbnailUrl: r/re/redeclipse.desktop/ad79fe177ef67470c6513aafe2fdacc7/screenshots/image-2_624x351.png
+    width: 1280
+    height: 720
+  - url: r/re/redeclipse.desktop/ad79fe177ef67470c6513aafe2fdacc7/screenshots/image-3_orig.png
+    thumbnailUrl: r/re/redeclipse.desktop/ad79fe177ef67470c6513aafe2fdacc7/screenshots/image-3_624x351.png
+    width: 3840
+    height: 2160
+iconSources:
+  - url: r/re/redeclipse.desktop/ad79fe177ef67470c6513aafe2fdacc7/icons/128x128/redeclipse_redeclipse.png
+    width: 128
+    height: 128
+developer: Red Eclipse Team
+homepage: "http://redeclipse.net/"
+enabled: true
+order: 99

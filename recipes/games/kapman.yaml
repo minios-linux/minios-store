@@ -1,0 +1,47 @@
+id: "kapman"
+name: Kapman
+description: Pac-Man Clone
+longDescription: |
+  <p>Kapman is a clone of the well known game Pac-Man.</p>
+  <p>You must run through the maze to eat all pills without being captured by a ghost.
+        By eating an energizer, Kapman gets the ability to eat ghosts for a few seconds.
+        When a stage is cleared of pills and energizer the player is taken to the next stage with slightly
+        increased game speed.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kapman
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kapman/a577c3a0e5668e7e3a4c1554ee490126/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kapman/a577c3a0e5668e7e3a4c1554ee490126/screenshots/image-1_624x759@1.png
+    width: 738
+    height: 898
+iconSources:
+  - url: org/kde/kapman/a577c3a0e5668e7e3a4c1554ee490126/icons/128x128/kapman_kapman.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kapman/"
+enabled: true
+order: 99

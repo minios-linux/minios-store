@@ -1,0 +1,28 @@
+id: ho22bus
+name: HoDict
+description: Ho22bus's Dict
+longDescription: |
+  <p>This application is for second language learners to memorize words. It is user-friendly and light-weighted.</p>
+  <p>Features included:  * New words collection  * Multi-dictionary support  * Games to help memorizing</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ho22bus
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: ho22bus_hodict.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

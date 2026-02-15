@@ -1,0 +1,32 @@
+id: phpliteadmin
+name: phpLiteAdmin
+description: Web-based admin tool for SQLite databases
+longDescription: |
+  <p>phpLiteAdmin is a web-based SQLite database admin tool written in PHP with support for SQLite3 and SQLite2 (not in Debian). Following in the spirit of the flat-file system used by SQLite, phpLiteAdmin consists of a single source file, phpliteadmin.php, that is dropped into a directory on a server and then visited in a browser. The available operations, feature set, interface, and user experience is comparable to that of phpMyAdmin.</p>
+  <p>In this package, you will find phpliteadmin.php already configured to work with Apache2. This package provides the main features of the script.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - phpliteadmin
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - db
+iconSources:
+  - url: p/ph/phpliteadmin.desktop/66c942389f02ee90d6ede3a4bfb750e4/icons/128x128/phpliteadmin_phpliteadmin.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

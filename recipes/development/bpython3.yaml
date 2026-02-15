@@ -1,0 +1,31 @@
+id: bpython3
+name: bpython3
+description: A fancy interface to the python interpreter!
+longDescription: |
+  <p>bpython is a fancy interface to the Python interpreter, and has the following features:</p>
+  <p>  * In-line syntax highlighting.   * Readline-like autocomplete with suggestions displayed as you type   * Expected parameter list for any Python function. Uses pydoc to attempt to     divine params for C functions.   * &quot;Rewind&quot; function to pop the last line of code from memory and re-evaluate.     Note: this is only really useful when laying out classes and functions,     since a true &quot;undo&quot; function is impossible, so be careful when using this.   * Send the code you&apos;ve entered off to a pastebin and display the pastebin URL     for copying, etc.   * Save the code you&apos;ve entered to a file.   * Auto-indentation.   * Anti-Crash Mode.</p>
+  <p>This package contains bpython for Python 3.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bpython3
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - python
+  - repl
+  - interpreter
+iconSources:
+  - cached: bpython3_bpython3.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

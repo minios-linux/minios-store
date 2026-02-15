@@ -1,0 +1,44 @@
+id: "pioneers"
+name: Pioneers
+description: Play a game of Pioneers
+longDescription: |
+  <p>Pioneers is a computer implementation of the Settlers of Catan board game. It can be played over the internet.</p>
+  <p>The game includes a server, a client, a computer player, an editor and (in a separate package) a metaserver (for locating running servers).</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pioneers
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - board
+  - play
+  - pioneers
+  - settlers
+iconSources:
+  - url: p/pi/pioneers-editor.desktop/830ff470764ff0e41e8796595785fad1/icons/128x128/pioneers_pioneers-editor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

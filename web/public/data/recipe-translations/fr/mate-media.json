@@ -1,0 +1,5 @@
+{
+  "name": "Son",
+  "description": "Modifiez le volume et les événements sonores",
+  "longDescription": "<p>Les outils multimédias MATE incluent le mélangeur audio et l'applet de contrôle du volume.</p>\n<p>Ce paquet utilise la bibliothèque libmatemixer, qui gère ALSA et Pulseaudio comme systèmes audio sous-jacents.</p>\n"
+}

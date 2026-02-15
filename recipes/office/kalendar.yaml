@@ -1,0 +1,49 @@
+id: kalendar
+name: Kalendar
+description: Manage your tasks and events with speed and ease
+longDescription: |
+  <p>Kalendar is a calendar application that allows you to manage your tasks and events. Kalendar supports both local calendars as well as a multitude of online calendars: Nextcloud, Google® Calendar, Outlook®, Caldav, and many more.</p>
+  <p>Kalendar gives you many ways to interact with your events. The month view provides an overview of the entire month; the week view presents a detailed hour-by-hour overview of your week; and the schedule view lists all of your upcoming events so that you can easily and quickly plan ahead.</p>
+  <p>A tasks view is also available, making it possible for you to manage your tasks and subtasks with Kalendar's powerful tree view and its customisable filtering capabilities.</p>
+  <p>Kalendar was built with the idea to be usable on desktop, on mobile and everything in between.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kalendar
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kalendar/4a519f94afe2e190e74df40e774b6807/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kalendar/4a519f94afe2e190e74df40e774b6807/screenshots/image-1_624x360.png
+    width: 1523
+    height: 879
+  - url: org/kde/kalendar/4a519f94afe2e190e74df40e774b6807/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kalendar/4a519f94afe2e190e74df40e774b6807/screenshots/image-2_624x360.png
+    width: 1523
+    height: 879
+  - url: org/kde/kalendar/4a519f94afe2e190e74df40e774b6807/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kalendar/4a519f94afe2e190e74df40e774b6807/screenshots/image-3_624x428.png
+    width: 1279
+    height: 879
+  - url: org/kde/kalendar/4a519f94afe2e190e74df40e774b6807/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/kalendar/4a519f94afe2e190e74df40e774b6807/screenshots/image-4_624x384.png
+    width: 1442
+    height: 889
+  - url: org/kde/kalendar/4a519f94afe2e190e74df40e774b6807/screenshots/image-5_orig.png
+    thumbnailUrl: org/kde/kalendar/4a519f94afe2e190e74df40e774b6807/screenshots/image-5_224x411.png
+    width: 360
+    height: 661
+iconSources:
+  - url: org/kde/kalendar/4a519f94afe2e190e74df40e774b6807/icons/128x128/kalendar_org.kde.kalendar.png
+    width: 128
+    height: 128
+developer: "KDE Community, Clau Cambra and Carl Schwan"
+homepage: "https://apps.kde.org/kalendar/"
+enabled: true
+order: 99

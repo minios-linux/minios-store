@@ -1,0 +1,29 @@
+id: "pycode-browser"
+name: PythonBook
+description: PythonBook
+longDescription: |
+  <p>pycode-browser is part of the project PHOENIX, i. e. Phyiscs with Home-made Equipment &amp; Innovative Experiments, developed at Inter University Accelerator Centre, New Delhi. It allows students to browse Python source code easily, and to understand what this code means.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pycode-browser
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: p/py/pycode-browser.desktop/f4b51e9d05de9ed37face258dc5e9ce6/icons/128x128/pycode-browser_gnome-word.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

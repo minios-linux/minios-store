@@ -1,0 +1,37 @@
+id: monteverdi
+name: Monteverdi
+description: Remote sensing image processing application based on OrfeoToolbox
+longDescription: |
+  <p>ORFEO Toolbox (OTB) is distributed as an open source library of image processing algorithms. OTB is based on the medical image processing library ITK and offers particular functionalities for remote sensing image processing in general and for high spatial resolution images in particular.</p>
+  <p>This package contains the monteverdi and mapla graphical applications.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - monteverdi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - otb
+  - orfeo
+  - toolbox
+  - osgeo
+iconSources:
+  - url: m/mo/monteverdi.desktop/094944FF15029BB41428EB699ECFD669/icons/128x128/monteverdi_monteverdi.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

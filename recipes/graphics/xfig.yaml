@@ -1,0 +1,50 @@
+id: xfig
+name: xfig
+description: Facility for Interactive Generation of figures under X11
+longDescription: |
+  <p>XFig is a menu-driven tool that allows the user to draw and manipulate objects interactively in an X window.  The resulting pictures can be saved.  If the fig2dev program is installed, which is contained in the fig2dev package, the pictures can be printed on postscript printers or converted to a variety of other formats (e.g. to allow inclusion in LaTeX documents or web pages).</p>
+  <p>This package contains the xfig program itself.</p>
+  <p>You should think about installing the fig2dev package to export the graphics to several common formats.  You should also think about installing xfig-doc, which contains the documentation and xfig-libs, which contains several clip art libraries.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfig
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - vector
+  - graphics
+  - figure
+  - drawing
+screenshotSources:
+  - url: org/xfig/xfig/e3e8aed6d1bcb8dab8146b807d568381/screenshots/image-1_orig.png
+    thumbnailUrl: org/xfig/xfig/e3e8aed6d1bcb8dab8146b807d568381/screenshots/image-1_624x533@1.png
+    width: 700
+    height: 598
+iconSources:
+  - cached: xfig_xfig.png
+    width: 64
+    height: 64
+homepage: "https://sourceforge.net/projects/mcj/"
+enabled: true
+order: 99

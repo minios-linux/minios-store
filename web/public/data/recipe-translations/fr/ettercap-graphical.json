@@ -1,0 +1,5 @@
+{
+  "name": "Ettercap",
+  "description": "Analyseur, espion, intercepteur et enregistreur réseau polyvalent",
+  "longDescription": "<p>Ettercap prend en charge l’analyse active et passive de nombreux protocoles (y compris certains chiffrés) et propose de nombreuses fonctionnalités pour l’analyse des réseaux et des hôtes.<br>Il permet également l’injection de données dans une connexion établie ainsi que le filtrage en direct (substitution ou abandon de paquets) tout en maintenant la synchronisation de la connexion.</p><p>De nombreux modes d’espionnage sont disponibles, offrant une suite de diagnostics réseau puissante et complète. Il est possible d’espionner selon quatre modes : basé sur l’IP, basé sur la MAC, basé sur l’ARP (full-duplex) et basé sur PublicARP (half-duplex).<br>Ettercap peut aussi détecter une LAN commutée et utiliser l’empreinte système (active ou passive) pour cartographier la topologie du réseau local.</p>"
+}

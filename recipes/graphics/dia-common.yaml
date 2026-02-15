@@ -1,0 +1,32 @@
+id: dia-common
+name: Dia
+description: Edit your Diagrams
+longDescription: |
+  <p>Dia is an editor for diagrams, graphs, charts etc. There is support for UML static structure diagrams (class diagrams), Entity-Relationship diagrams, network diagrams and much more. Diagrams can be exported to postscript and many other formats.</p>
+  <p>This package contains the architecture independent files.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dia-common
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/di/dia.desktop/0B8A49DC7D786177762096F9337B58ED/icons/128x128/dia-common_dia.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

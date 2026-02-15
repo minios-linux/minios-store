@@ -1,0 +1,5 @@
+{
+  "name": "Grub Customizer",
+  "description": "Personnalisez le gestionnaire de démarrage (GRUB2 ou BURG)",
+  "longDescription": "<p>Grub Customizer est une interface graphique permettant de configurer GRUB2 et BURG. Il facilite la modification des paramètres et des entrées de menu.</p>\n<p>Fonctionnalités principales :   * Déplacer, supprimer ou renommer les entrées de menu (elles restent mises à jour par update-grub).   * Modifier le contenu des entrées de menu ou en créer de nouvelles (modifie en interne le fichier 40_custom).   * Réinstaller le gestionnaire de démarrage dans le MBR.   * Définir des paramètres comme le système d'exploitation par défaut, les paramètres du noyau, l'image d'arrière-plan, les couleurs du texte, etc.   * Permet de changer le système d'exploitation installé en l'exécutant depuis un Live CD/DVD ou depuis un OS sur clé USB.</p>\n<p>Grub Customizer est utile pour personnaliser et restaurer le gestionnaire de démarrage sur n'importe quelle distribution Linux.</p>\n"
+}

@@ -1,0 +1,36 @@
+id: squeak-vm
+name: Squeak
+description: Programming system and content development tool
+longDescription: |
+  <p>Squeak is a full-featured implementation of the Smalltalk programming language and environment based on (and largely compatible with) the original Smalltalk-80 system.</p>
+  <p>This package contains just the Unix Squeak virtual machine.  You will likely need also an image file containing a &quot;snapshot&quot; of a live Squeak session - e.g. one of the Debian packages etoys or scratch.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - squeak-vm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: squeak-vm_squeak.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

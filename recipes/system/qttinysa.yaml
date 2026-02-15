@@ -1,0 +1,29 @@
+id: qttinysa
+name: QtTinySA
+description: TinySA Ultra Command GUI
+longDescription: |
+  <p>A Python &apos;TinySA Ultra&apos; (and original &apos;TinySA&apos;) GUI program using Qt5 and PyQt5, which replicates some of the on-screen commands of the TinySA.</p>
+  <p>Generator control is not implemented.</p>
+  <p>Working features are LNA, selectable Scan Points, Band selection, Averaging, Colour Traces, 3D Plots, exportable graphs.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qttinysa
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - editor
+  - notes
+  - note-taking
+iconSources:
+  - cached: qttinysa_tinySAsmall.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

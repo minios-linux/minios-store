@@ -1,0 +1,5 @@
+{
+  "name": "DiffPDF",
+  "description": "Comparer deux fichiers PDF",
+  "longDescription": "<p>DiffPDF permet de comparer deux fichiers PDF. Par défaut, la comparaison porte sur le texte de chaque paire de pages, mais il est également possible de comparer l’apparence des pages (par exemple, lorsqu’un schéma a été modifié ou qu’un paragraphe a été reformaté). Il est aussi possible de comparer des pages ou des plages de pages spécifiques. Par exemple, si vous disposez de deux versions d’un fichier PDF, l’une avec les pages 1 à 12 et l’autre avec les pages 1 à 13 suite à l’ajout d’une page en position 4, vous pouvez comparer en indiquant les plages de pages 1-12 pour le premier document et 1-3, 5-13 pour le second. Ainsi, DiffPDF comparera les pages par paires : (1, 1), (2, 2), (3, 3), (4, 5), (5, 6), etc., jusqu’à (12, 13).</p>\n"
+}

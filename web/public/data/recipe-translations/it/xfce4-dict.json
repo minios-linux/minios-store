@@ -1,0 +1,5 @@
+{
+  "name": "Dictionary",
+  "description": "Un client per interrogare diversi dizionari.",
+  "longDescription": "<p>Questo programma permette di cercare parole o frasi su vari servizi di dizionario e mostrare i risultati. Attualmente puoi interrogare un server Dict (RFC 2229), qualsiasi servizio di dizionario online aprendo un browser web oppure cercare termini tramite i programmi aspell/ispell.</p>\n<p>xfce4-dict include un'applicazione autonoma chiamata “xfce4-dict” e un plugin per il pannello di Xfce.</p>\n"
+}

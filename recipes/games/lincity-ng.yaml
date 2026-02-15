@@ -1,0 +1,46 @@
+id: "lincity-ng"
+name: Lincity-NG
+description: "Plan and build a city and take care of transport, economics, electricity and others."
+longDescription: |
+  <p>LinCity-NG is a City Simulation Game. It is a polished and improved version of the old LinCity game: You are required to build and maintain a city. You must feed, house, provide jobs and goods for your residents. You can build a sustainable economy with the help of renewable energy and recycling, or you can go for broke and build rockets to escape from a pollution ridden and resource starved planet, it&apos;s up to you. Due to the finite resources available in any one place, this is not a game that you can leave for long periods of time. This game is similar to the commercial simulation game with a similar name.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lincity-ng
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - simulation
+  - city
+  - strategy
+  - 3d
+  - economics
+  - transport
+  - buildings
+iconSources:
+  - url: l/li/lincity-ng.desktop/1caa53cdd601a2723a3d67335e1c1f72/icons/128x128/lincity-ng_lincity-ng.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

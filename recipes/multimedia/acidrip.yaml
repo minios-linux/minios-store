@@ -1,0 +1,26 @@
+id: acidrip
+name: AcidRip DVD Ripper
+description: DVD Ripper
+longDescription: |
+  <p>A DVD ripper and encoder, with a simple interface, based on MPlayer and MEncoder.</p>
+  <p>Also provides advanced features and automates the process in a number of ways:  * Parses DVD into contents tree  * Finds longest title  * Calculates video bitrate for given filesize  * Finds black bands and crops them  * Gives suggestions for improved performance</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - acidrip
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+iconSources:
+  - cached: acidrip_acidrip.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

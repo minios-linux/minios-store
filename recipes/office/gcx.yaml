@@ -1,0 +1,34 @@
+id: gcx
+name: GCX Astro-Image Processor
+description: Process astronomical images and control CCDs
+longDescription: |
+  <p>Gcx is an astronomical image processing and data reduction tool, with an easy to use graphical user interface. It provides a complete set of data reduction functions for CCD photometry, with frame WCS fitting, automatic star identification, aperture photometry of target and standard stars, single-frame ensemble photometry solution finding, multi-frame color coefficient fitting, extinction coefficient fitting, and all-sky photometry; as well as general-purpose astronomical image processing functions (bias, dark, flat, frame alignment and stacking); It can function as a FITS viewer.</p>
+  <p>The program can control CCD cameras and telescopes, and implement automatic observation scripting. Cameras are controlled through a hardware-specific server, to which gcx connects through a TCP socket. It generates FITS files with comprehensive header information.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gcx
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: gcx_gcx.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

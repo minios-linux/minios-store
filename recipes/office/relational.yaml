@@ -1,0 +1,47 @@
+id: relational
+name: Relational
+description: Learn and experiment relational algebra
+longDescription: |
+  <p>Relational is primarily a tool to provide a workspace for experimenting with relational algebra, an offshoot of first-order logic.</p>
+  <p>This package provides a graphical user interface that can be used to execute relational queries.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - relational
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - database
+  - relational
+  - algebra
+  - educational
+  - learn
+  - educativo
+  - relazionale
+  - impara
+iconSources:
+  - cached: relational_relational.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

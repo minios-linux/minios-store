@@ -1,0 +1,5 @@
+{
+  "name": "Heaptrack",
+  "description": "Um profiler de memória heap para Linux",
+  "longDescription": "<p>O Heaptrack rastreia todas as alocações de memória e anota esses eventos com rastreamentos de pilha. Ferramentas dedicadas de análise permitem interpretar o perfil de memória heap para:</p>\n<ul>\n  <li>identificar pontos críticos que precisam ser otimizados para reduzir o consumo de memória da sua aplicação</li>\n  <li>localizar vazamentos de memória, ou seja, pontos que alocam memória e nunca a liberam</li>\n  <li>encontrar hotspots de alocação, ou seja, trechos de código que realizam muitas chamadas de alocação de memória</li>\n  <li>detectar alocações temporárias, ou seja, alocações seguidas imediatamente por sua desalocação</li>\n</ul>\n"
+}

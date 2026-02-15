@@ -1,0 +1,58 @@
+id: "kdiff3"
+name: KDiff3
+description: A File And Directory Comparison And Merge Tool
+longDescription: |
+  <p>KDiff3 is a file and directory diff and merge tool which</p>
+  <ul>
+    <li>compares and merges two or three text input files or directories,</li>
+    <li>shows the differences line by line and character by character(!),</li>
+    <li>provides an automatic merge-facility,</li>
+    <li>has an editor for comfortable solving of merge-conflicts,</li>
+    <li>provides network transparency via KIO,</li>
+    <li>has options to highlight or hide changes in white-space or comments,</li>
+    <li>supports Unicode, UTF-8 and other file encodings,</li>
+    <li>prints differences,</li>
+    <li>supports version control keyword and history merging.</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kdiff3
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kdiff3.desktop/eef5496ad7e701eff213008904e7d533/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kdiff3.desktop/eef5496ad7e701eff213008904e7d533/screenshots/image-1_624x459@1.png
+    width: 1194
+    height: 880
+  - url: org/kde/kdiff3.desktop/eef5496ad7e701eff213008904e7d533/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kdiff3.desktop/eef5496ad7e701eff213008904e7d533/screenshots/image-2_624x459@1.png
+    width: 1194
+    height: 880
+iconSources:
+  - url: org/kde/kdiff3.desktop/eef5496ad7e701eff213008904e7d533/icons/128x128/kdiff3_kdiff3.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.com/tfischer/kdiff3"
+enabled: true
+order: 99

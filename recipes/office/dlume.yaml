@@ -1,0 +1,33 @@
+id: dlume
+name: Dlume
+description: Simple and easy to use addressbook
+longDescription: |
+  <p>Dlume is a simple, gtk2-based addressbook. You can easily add, edit and delete records to/from an XML-format database. The Quick-search feature allows you find required entry in comfortable way. Export to CSV and HTML formats is also available. Interface design was borrowed and improved from Paddress &lt;https://paddress.sourceforge.net&gt;.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dlume
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - phonebook
+iconSources:
+  - cached: dlume_dlume.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

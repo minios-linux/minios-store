@@ -1,0 +1,43 @@
+id: "drumstick-tools"
+name: Drumstick Virtual Piano
+description: Drumstick Virtual Piano
+longDescription: |
+  <p>This library is a C++ wrapper around the ALSA library sequencer interface, using Qt4 objects, idioms and style. ALSA sequencer provides software support for MIDI technology on Linux. Complementary classes for SMF and WRK file processing are also included.</p>
+  <p>This package provides utilities shipped with the library:  - drumstick-buildsmf: Standard MIDI File creation from scratch.  - drumstick-dumpgrid: Simple Qt drum sequencer.  - drumstick-dumpmid: Write ALSA MIDI events to STDOUT.  - drumstick-dumpsmf: Write MIDI events from a MIDI file to STDOUT.  - drumstick-dumpwrk: Write MIDI events from a Cakewalk WRK file to STDOUT.  - drumstick-guiplayer: Simple Qt MIDI file player.  - drumstick-metronome: Headless MIDI metronome.  - drumstick-playsmf: Headless MIDI file player.  - drumstick-sysinfo: Display information about ALSA MIDI.  - drumstick-timertest: Test performance of the ALSA timer.  - drumstick-vpiano: Virtual Piano Keyboard GUI application.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - drumstick-tools
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: net/sourceforge/drumstick-guiplayer/2268f33ac3455b4ec2db91405281103d/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/drumstick-guiplayer/2268f33ac3455b4ec2db91405281103d/screenshots/image-1_224x172@1.png
+    width: 494
+    height: 381
+iconSources:
+  - url: net/sourceforge/drumstick-guiplayer/2268f33ac3455b4ec2db91405281103d/icons/128x128/drumstick-tools_drumstick.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

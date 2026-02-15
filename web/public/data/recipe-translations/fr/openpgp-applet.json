@@ -1,0 +1,5 @@
+{
+  "name": "OpenPGP Applet",
+  "description": "Chiffrez, déchiffrez et signez du texte depuis ou vers le presse-papiers",
+  "longDescription": "<p>OpenPGP Applet est une interface graphique pour GnuPG.</p>\n<p>Elle permet de chiffrer et déchiffrer le contenu du presse-papiers soit par cryptographie à clé publique, soit par chiffrement symétrique à l’aide d’une phrase de passe. La création et la vérification de signatures en texte clair sont également prises en charge.</p>\n<p>Remarque : OpenPGP Applet ne gère pas la saisie de la phrase de passe. Comme il n’offre pas d’interaction en terminal sauf si vous le lancez explicitement ainsi, il dépend en pratique de l’agent GnuPG pour l’utilisation d’une boîte de dialogue de saisie de phrase de passe, telle que pinentry-gnome3.</p>\n"
+}

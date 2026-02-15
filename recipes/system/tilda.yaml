@@ -1,0 +1,61 @@
+id: "tilda"
+name: Tilda
+description: A configurable drop-down terminal
+longDescription: |
+  <p>Tilda is a highly-configurable terminal emulator. The specialty of Tilda is that it does not behave like a normal window but instead it can be pulled up and down from the top of the screen with a hotkey.</p>
+  <p>Tilda provides support for tabs (tabbed terminals), transparency, appearance adjustments, configurable hotkeys for various functions, and other options that affect the behavior of Tilda.
+        The screenshots show some of the options that Tilda provides.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tilda
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: t/ti/tilda.desktop/B6AA141A1CC753E6FF9CAA4B5644C186/screenshots/image-1_orig.png
+    thumbnailUrl: t/ti/tilda.desktop/B6AA141A1CC753E6FF9CAA4B5644C186/screenshots/image-1_624x350.png
+    width: 1362
+    height: 766
+  - url: t/ti/tilda.desktop/B6AA141A1CC753E6FF9CAA4B5644C186/screenshots/image-2_orig.png
+    thumbnailUrl: t/ti/tilda.desktop/B6AA141A1CC753E6FF9CAA4B5644C186/screenshots/image-2_624x350.png
+    width: 1362
+    height: 766
+  - url: t/ti/tilda.desktop/B6AA141A1CC753E6FF9CAA4B5644C186/screenshots/image-3_orig.png
+    thumbnailUrl: t/ti/tilda.desktop/B6AA141A1CC753E6FF9CAA4B5644C186/screenshots/image-3_624x350.png
+    width: 1362
+    height: 766
+  - url: t/ti/tilda.desktop/B6AA141A1CC753E6FF9CAA4B5644C186/screenshots/image-4_orig.png
+    thumbnailUrl: t/ti/tilda.desktop/B6AA141A1CC753E6FF9CAA4B5644C186/screenshots/image-4_624x350.png
+    width: 1362
+    height: 766
+  - url: t/ti/tilda.desktop/B6AA141A1CC753E6FF9CAA4B5644C186/screenshots/image-5_orig.png
+    thumbnailUrl: t/ti/tilda.desktop/B6AA141A1CC753E6FF9CAA4B5644C186/screenshots/image-5_624x350.png
+    width: 1362
+    height: 766
+iconSources:
+  - cached: tilda_tilda.png
+    width: 64
+    height: 64
+homepage: "https://github.com/lanoxx/tilda"
+enabled: true
+order: 99

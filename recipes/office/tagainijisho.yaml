@@ -1,0 +1,27 @@
+id: tagainijisho
+name: Tagaini Jisho
+description: A free Japanese dictionary and study assistant
+longDescription: |
+  <p>Tagaini Jisho is a free, open-source Japanese dictionary and kanji lookup tool.</p>
+  <p>It aims at becoming your Japanese study assistant by allowing you to quickly search for entries and mark those that you wish to study, along with tags and personal notes. It also let you train entries you are studying and follows your progression in remembering them. Finally, it makes it easy to review entries you did not remember by listing them on screen or printing them on a small booklet.</p>
+  <p>Tagaini Jisho also features complete stroke order animations for more than 6000 kanji, flashcard-like training, production of paper material for studying, and extended search options for vocabulary and kanjis including part-of-speech and JLPT levels.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tagainijisho
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/ta/tagainijisho.desktop/4DE979B6EF531B996C8843CD7C55479B/icons/128x128/tagainijisho_tagainijisho.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

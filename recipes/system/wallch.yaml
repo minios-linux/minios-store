@@ -1,0 +1,30 @@
+id: wallch
+name: Wallch
+description: Change desktop wallpapers automatically
+longDescription: |
+  <p>Wallch is a wallpaper changer for keeping your desktop fresh and new. It supports the following Desktop Environments: Gnome (with or without Unity integration), LXDE, XFCE and Mate.</p>
+  <p>Some random features:  - Live Website - set as wallpaper any webpage you wish  - Live Earth - a live picture of the earth  - Picture Of The Day - taken from wikipedia, changing daily  - Wallpaper Clocks - wallpapers that tell you the time  - Folder Monitoring</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wallch
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: wallch_wallch.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

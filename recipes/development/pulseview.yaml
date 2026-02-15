@@ -1,0 +1,49 @@
+id: "pulseview"
+name: PulseView
+description: "Logic analyzer, oscilloscope and MSO GUI"
+longDescription: |
+  <p>PulseView is a Qt based logic analyzer, oscilloscope and MSO GUI for sigrok.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Fast O(log N) signal rendering at all zoom levels</li>
+    <li>Protocol decoder support</li>
+    <li>Trace groups support</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pulseview
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/sigrok/PulseView.desktop/23a1085416069f1ca0c96e97609273fd/screenshots/image-1_orig.png
+    thumbnailUrl: org/sigrok/PulseView.desktop/23a1085416069f1ca0c96e97609273fd/screenshots/image-1_624x204.png
+    width: 1336
+    height: 438
+iconSources:
+  - url: org/sigrok/PulseView.desktop/23a1085416069f1ca0c96e97609273fd/icons/128x128/pulseview_pulseview.png
+    width: 128
+    height: 128
+homepage: "http://sigrok.org/wiki/PulseView"
+enabled: true
+order: 99

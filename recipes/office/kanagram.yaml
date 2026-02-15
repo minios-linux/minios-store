@@ -1,0 +1,43 @@
+id: "kanagram"
+name: Kanagram
+description: Letter Order Game
+longDescription: |
+  <p>Kanagram is a game based on anagrams of words: the puzzle is solved when the letters of the scrambled word are put back in the correct order. There is no limit on either time taken, or the amount of attempts to solve the word. It features several included word lists, a hints-and-cheats help system, a word list editor, and allows for updating and distributing wordlists via KNewStuff. The interface is scalable and appropriate for children.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kanagram
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kanagram.desktop/1859e01a95a8215675666aa0e11798a0/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kanagram.desktop/1859e01a95a8215675666aa0e11798a0/screenshots/image-1_624x493@1.png
+    width: 834
+    height: 659
+iconSources:
+  - url: org/kde/kanagram.desktop/1859e01a95a8215675666aa0e11798a0/icons/128x128/kanagram_kanagram.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/kanagram/"
+enabled: true
+order: 99

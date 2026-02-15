@@ -1,0 +1,5 @@
+{
+  "name": "µMPS3",
+  "description": "Simulador de máquina virtual baseado no processador MIPS R2/3000",
+  "longDescription": "<p>O µMPS é uma arquitetura de sistema computacional educacional com um emulador dedicado, projetado desde o início para alcançar o equilíbrio ideal entre simplicidade, elegância e realismo. Isso torna o µMPS especialmente indicado para uso em atividades educacionais, como disciplinas universitárias de sistemas operacionais ou arquitetura de computadores.</p>\n<p>O processador µMPS implementa o conjunto de instruções MIPS I e, por isso, possui compatibilidade direta com compiladores MIPS existentes. A arquitetura detalha um conjunto completo de dispositivos de E/S (terminais, discos, dispositivos flash, impressoras e adaptadores de rede), todos com uma interface de programação clara e consistente. A revisão anterior da arquitetura (µMPS2) adiciona suporte a multiprocessamento.</p>\n<p>O emulador oferece recursos de depuração integrados e uma interface gráfica amigável. Além do próprio emulador, diversos utilitários de apoio são fornecidos, facilitando o início no desenvolvimento de programas para o µMPS.</p>\n"
+}

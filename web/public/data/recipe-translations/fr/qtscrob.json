@@ -1,0 +1,5 @@
+{
+  "name": "QTScrobbler",
+  "description": "QTScrobbler est un outil pour soumettre des fichiers .scrobbler.log de lecteurs portables vers Last.fm",
+  "longDescription": "<p>QTScrobbler est une interface graphique qui lit les informations de lecture depuis des iPods, des appareils MTP (appelés aussi Plays for Sure) ou des dispositifs Rockbox (firmware audio open source) et les soumet à un service audioscrobbler comme « last.fm » ou « libre.fm ».</p>\n<p>Il s'agit de la version graphique de l’outil. Pour une version en ligne de commande, consultez le paquet « scrobbler ».</p>\n"
+}

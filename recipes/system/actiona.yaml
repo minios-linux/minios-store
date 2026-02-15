@@ -1,0 +1,51 @@
+id: actiona
+name: Actiona
+description: Automate tasks
+longDescription: |
+  <p>Actiona is an application that allows you to execute many actions on your computer such as emulating mouse clicks, key presses, showing message boxes, editing text files, etc. Tasks can be created using a simple editor or using the EcmaScript (JavaScript) programming language for more customization. Actiona is cross-platform.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - actiona
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - automate
+  - bot
+  - macro
+  - script
+  - action
+  - asrc
+  - acod
+screenshotSources:
+  - url: t/to/tools.actiona.actiona/f908303b96b2c6c5e83312127f6442f0/screenshots/image-1_orig.png
+    thumbnailUrl: t/to/tools.actiona.actiona/f908303b96b2c6c5e83312127f6442f0/screenshots/image-1_624x353@1.png
+    width: 1460
+    height: 828
+iconSources:
+  - cached: actiona_actiona.png
+    width: 64
+    height: 64
+homepage: "https://actiona.tools"
+enabled: true
+order: 99

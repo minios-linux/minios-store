@@ -1,0 +1,5 @@
+{
+  "name": "vprerex",
+  "description": "Edite diagramas de pré-requisitos de disciplinas",
+  "longDescription": "<p>O vprerex oferece uma interface Qt para o prerex, integrando o editor prerex a um visualizador de PDF. Isso permite transmitir as coordenadas das caixas de disciplinas, setas e pontos de fundo de volta ao prerex por meio da área de transferência.</p>\n<p>O prerex é um editor para criar diagramas de pré-requisitos de disciplinas visualmente organizados utilizando o pacote TikZ do LaTeX.</p>\n<p>Esses diagramas ajudam estudantes a identificar facilmente quais pré-requisitos, co-requisitos e recomendações precisam cumprir para determinada disciplina e seus respectivos horários. Os diagramas também destacam as disciplinas obrigatórias de cada curso.</p>\n<p>O prerex é utilizado por departamentos de diversas universidades, incluindo Queen's University e Suffolk University.</p>\n"
+}

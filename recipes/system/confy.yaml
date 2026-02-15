@@ -1,0 +1,54 @@
+id: "confy"
+name: Confy
+description: Conference schedules viewer
+longDescription: |
+  <p>
+        Confy lets you browse conference schedules.
+      </p>
+  <p>
+        Browse talks by day, track or room.
+        Select the talks you are interested in and receive notification when they are about to start.
+        View when two or more talks you are interested in overlap.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - confy
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - conference
+  - organize
+screenshotSources:
+  - url: net/kirgroup/confy/c824a543e0adc349fa88e1f11c21ba65/screenshots/image-1_orig.png
+    thumbnailUrl: net/kirgroup/confy/c824a543e0adc349fa88e1f11c21ba65/screenshots/image-1_624x471@1.png
+    width: 1102
+    height: 833
+  - url: net/kirgroup/confy/c824a543e0adc349fa88e1f11c21ba65/screenshots/image-2_orig.png
+    thumbnailUrl: net/kirgroup/confy/c824a543e0adc349fa88e1f11c21ba65/screenshots/image-2_624x376@1.png
+    width: 1322
+    height: 797
+  - url: net/kirgroup/confy/c824a543e0adc349fa88e1f11c21ba65/screenshots/image-3_orig.png
+    thumbnailUrl: net/kirgroup/confy/c824a543e0adc349fa88e1f11c21ba65/screenshots/image-3_224x360@1.png
+    width: 482
+    height: 776
+iconSources:
+  - url: net/kirgroup/confy/c824a543e0adc349fa88e1f11c21ba65/icons/128x128/confy_net.kirgroup.confy.png
+    width: 128
+    height: 128
+developer: Fabio Comuni
+homepage: "https://confy.kirgroup.net"
+enabled: true
+order: 99

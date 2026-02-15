@@ -1,0 +1,39 @@
+id: "pekka-kana-2"
+name: Pekka Kana 2
+description: 2D Oldschool platform game where you control a rooster named Pekka
+longDescription: |
+  <p>Your mission in Pekka Kana 2 is to save Pekka&apos;s chicken friends from an evil crow.</p>
+  <p>The simple goal in each level is to find the exit sign, which is usually not that simple as it sounds because of enemies, traps, and quirky puzzles.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pekka-kana-2
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - adventure
+  - action
+  - platforms
+iconSources:
+  - cached: pekka-kana-2_pekka.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

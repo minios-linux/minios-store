@@ -1,0 +1,5 @@
+{
+  "name": "Envy24 Control",
+  "description": "Utilitário mixer e de controle gráfico para placas de som baseadas em Envy24",
+  "longDescription": "<p>Um conjunto de utilitários gráficos ALSA para hardware de som específico:</p>\n<p> echomixer – ferramenta de controle para placas de som Echoaudio  envy24control – ferramenta de controle para placas de som baseadas em Envy24 (ice1712)  hdajackretask – permite reconfigurar as entradas/saídas em hardware HDA Intel  hdspconf – programa gráfico para controlar as configurações ALSA do Hammerfall HDSP.  hdspmixer – ferramenta para controle avançado de roteamento do RME Hammerfall DSP.  rmedigicontrol – ferramenta de controle para placas RME Digi32 e RME Digi96</p>\n"
+}

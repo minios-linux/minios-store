@@ -1,0 +1,45 @@
+id: "policycoreutils-gui"
+name: SELinux Policy Management Tool
+description: Generate SELinux policy modules
+longDescription: |
+  <p>Security-enhanced Linux is a patch of the Linux® kernel and a number of utilities with enhanced security functionality designed to add mandatory access controls to Linux.  The Security-enhanced Linux kernel contains new architectural components originally developed to improve the security of the Flask operating system. These architectural components provide general support for the enforcement of many kinds of mandatory access control policies, including those based on the concepts of Type Enforcement®, Role-based Access Control, and Multi-level Security.</p>
+  <p>This package contains the system-config-selinux and the selinux-polgengui utilities.</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - policycoreutils-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - policy
+  - security
+  - selinux
+  - avc
+  - permission
+  - mac
+iconSources:
+  - url: s/se/sepolicy.desktop/658bca32ef2b764f663e2544ce08e059/icons/128x128/policycoreutils-gui_sepolicy.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,26 @@
+id: projectm-pulseaudio
+name: projectM PulseAudio Visualization
+description: Visualization of PulseAudio streams with projectM
+longDescription: |
+  <p>projectM is an iterative music visualization library which uses OpenGL for hardware acceleration. It is compatible with Milkdrop presets.</p>
+  <p>This package contains an application to visualize PulseAudio streams.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - projectm-pulseaudio
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: projectm-pulseaudio_prjm16-transparent.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

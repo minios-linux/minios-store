@@ -1,0 +1,32 @@
+id: fretsonfire-game
+name: Frets on Fire
+description: Rock out with your keyboard
+longDescription: |
+  <p>A game of musical skill and fast fingers. The aim of the game is to play guitar with the keyboard as accurately as possible.</p>
+  <p>This is the package containing the game executable code. You will need working sound and a 3D capable graphics card.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fretsonfire-game
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - music
+  - rock
+  - keyboard
+iconSources:
+  - cached: fretsonfire-game_fretsonfire.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

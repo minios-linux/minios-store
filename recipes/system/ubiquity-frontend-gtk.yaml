@@ -1,0 +1,31 @@
+id: ubiquity-frontend-gtk
+name: Install RELEASE
+description: Install this system permanently to your hard disk
+longDescription: |
+  <p>Bu paket, Ubiquity canlı CD yükleyicisi için GTK+ tabanlı kullanıcı ön ucunu sağlar.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ubiquity-frontend-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - ubiquity
+iconSources:
+  - cached: ubiquity-frontend-gtk_ubiquity.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

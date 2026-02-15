@@ -1,0 +1,35 @@
+id: "epoptes"
+name: Epoptes
+description: Epoptes computer lab administration tool
+longDescription: |
+  <p>Epoptes is an open source computer lab management and monitoring tool. It allows for screen broadcasting and monitoring, remote command execution, message sending, imposing restrictions like screen locking or sound muting the clients and much more!</p>
+  <p>Contains the server daemon and a GUI for controlling client PCs.</p>
+  <p>It supports LTSP installations, but it also works without LTSP.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - epoptes
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: e/ep/epoptes.desktop/3bf87014462fff294f2b26a71242f8f3/icons/128x128/epoptes_epoptes.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

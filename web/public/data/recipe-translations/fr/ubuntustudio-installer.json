@@ -1,0 +1,5 @@
+{
+  "name": "Ubuntu Studio Meta Installer",
+  "description": "Permet d'installer les métapaquets logiciels Ubuntu Studio",
+  "longDescription": "<p>Prend une liste de paquets en ligne de commande et permet à l'utilisateur de choisir ceux à installer. Le fichier desktop doit définir la liste des paquets. Plusieurs fichiers desktop peuvent permettre à chaque catégorie du menu d'offrir des logiciels additionnels à installer.</p>\n"
+}

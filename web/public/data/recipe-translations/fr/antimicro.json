@@ -1,0 +1,5 @@
+{
+  "name": "AntiMicroX",
+  "description": "Programme graphique permettant d’associer les boutons d’une manette à des touches clavier, la souris, des scripts et des macros",
+  "longDescription": "<p>\n     AntiMicroX est un programme graphique permettant d’associer les boutons/joysticks d'une manette aux touches du clavier, à la souris, à des scripts et à des macros.\n     Il peut également être utilisé pour générer des configurations SLD2 (pratique pour faire correspondre des manettes atypiques à des modèles génériques comme la xbox360).\n    </p>\n<p>\n    Il permet d’attribuer les boutons d’une manette/joystick à :\n    </p>\n<ul>\n  <li>des touches clavier</li>\n  <li>des clics ou mouvements de souris</li>\n  <li>des scripts ou le lancement d’applications</li>\n  <li>des macros constituées des éléments ci-dessus</li>\n</ul>\n<p>\n     AntiMicroX s’inspire de QJoyPad.\n    </p>\n"
+}

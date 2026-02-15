@@ -1,0 +1,33 @@
+id: cinnamon-control-center
+name: Graphics Tablet
+description: Set button mappings and adjust stylus sensitivity for graphics tablets
+longDescription: |
+  <p>This package contains configuration applets for the Cinnamon desktop, allowing to set the date and time, regional settings, network configuration, screen resolution, and other Cinnamon parameters.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cinnamon-control-center
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - tablet
+  - wacom
+  - stylus
+  - eraser
+  - mouse
+iconSources:
+  - url: c/ci/cinnamon-wacom-panel.desktop/982E9A26B04D0437B68F5D374E51F7B2/icons/128x128/cinnamon-control-center_cs-tablet.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

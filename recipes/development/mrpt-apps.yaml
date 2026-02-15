@@ -1,0 +1,49 @@
+id: "mrpt-apps"
+name: Reactive Navigation Demo
+description: Robotics Simulation
+longDescription: |
+  <p>The Mobile Robot Programming Toolkit (MRPT) is an extensive, cross-platform, and open source C++ library aimed to help robotics researchers to design and implement algorithms in the fields of Simultaneous Localization and Mapping (SLAM), computer vision, and motion planning (obstacle avoidance).</p>
+  <p>This package provides a set of console and GUI applications:</p>
+  <p> - rawlog-grabber: Record datasets from robotic sensors.  - RawLogViewer: Robotic dataset viewer and manipulator.  - ReactiveNavigationDemo: Obstacle avoidance GUI demo.  - SceneViewer3D: GUI viewer of MRPT 3D scenes.  - camera-calib: Interactive camera calibration tool.  - icp-slam  - kf-slam  - graph-slam  - 2d-slam-demo: GUI didactic robotic SLAM demo.  - map-partition  - observations2map: Converts simplemaps into metric maps.  - pf-localization: Particle filter localization (Monte Carlo localization).  - ro-localization  - rbpf-slam: Rao-Blackwellized Particle Filter for SLAM.  - simul-landmarks  - simul-beacons  - simul-gridmap  - GridmapNavSimul  - grid-matching  - rawlog-edit  - navlog-viewer: GUI viewer of navigation logs.  - features-matching: Computer vision demo.  - kinect-icp-slam: Example 3D mapping with Xbox Kinect  - kinect-view: Example 3D mapping with Xbox Kinect  - robotic-arm-kinematics: GUI for design of robot arms with                            Denavit-Hartenberg parameters.  - velodyne-view: Live display/grabbing of Velodyne scanners.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mrpt-apps
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mrpt
+  - navigation
+  - reactive
+  - robotics
+  - robot
+screenshotSources:
+  - url: org/mrpt/_2dslamdemo.desktop/15a3f95f0e76c36b08f3dcd4d7f2a833/screenshots/image-1_orig.png
+    thumbnailUrl: org/mrpt/_2dslamdemo.desktop/15a3f95f0e76c36b08f3dcd4d7f2a833/screenshots/image-1_624x356@1.png
+    width: 1535
+    height: 876
+iconSources:
+  - cached: mrpt-apps_2d-slam-demo.png
+    width: 64
+    height: 64
+homepage: "https://www.mrpt.org/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Gamazons",
+  "description": "Gioco Gamazons",
+  "longDescription": "<p>Amazons è un gioco che si svolge su una scacchiera 10x10. Ogni giocatore ha quattro pezzi (amazoni) che si muovono come le regine negli scacchi (cioè in linea retta in qualsiasi direzione). A differenza degli scacchi, non si catturano pezzi: il vincitore è colui che effettua l’ultima mossa.</p>\n<p>Ogni turno è composto da due fasi. Prima, un'amazone si sposta su una nuova casella e poi scaglia una freccia in un'altra casella (la freccia si muove in linea retta come il pezzo). La casella colpita dalla freccia diventa un blocco permanente: nessun pezzo può passarci sopra o oltre. Ad ogni turno, un'amazone deve sia muoversi che tirare una freccia, quindi a ogni turno lo spazio disponibile diminuisce. Cerca di bloccare l’avversario o di assicurarti un’ampia area della scacchiera per te.</p>\n"
+}

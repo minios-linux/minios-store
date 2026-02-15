@@ -1,0 +1,61 @@
+id: "gnome-font-viewer"
+name: GNOME Fonts
+description: View fonts on your system
+longDescription: |
+  <p>GNOME Fonts shows you the fonts installed on your computer for your use as
+        thumbnails.
+        Selecting any thumbnails shows the full view of how the font would look under
+        various sizes.</p>
+  <p>GNOME Fonts also supports installing new font files downloaded in the .ttf
+        and other formats.
+        Fonts may be installed only for your use or made available to all users on the computer.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-font-viewer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - fonts
+  - fontface
+screenshotSources:
+  - url: org/gnome/font-viewer/1427332d05eb69ccd716bc9b5e6516b8/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/font-viewer/1427332d05eb69ccd716bc9b5e6516b8/screenshots/image-1_624x488@1.png
+    width: 922
+    height: 722
+  - url: org/gnome/font-viewer/1427332d05eb69ccd716bc9b5e6516b8/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/font-viewer/1427332d05eb69ccd716bc9b5e6516b8/screenshots/image-2_624x488@1.png
+    width: 922
+    height: 722
+  - url: org/gnome/font-viewer/1427332d05eb69ccd716bc9b5e6516b8/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/font-viewer/1427332d05eb69ccd716bc9b5e6516b8/screenshots/image-3_624x488@1.png
+    width: 922
+    height: 722
+iconSources:
+  - url: org/gnome/font-viewer/1427332d05eb69ccd716bc9b5e6516b8/icons/128x128/gnome-font-viewer_org.gnome.font-viewer.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "http://www.gnome.org/gnome-3/"
+enabled: true
+order: 99

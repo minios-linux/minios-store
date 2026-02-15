@@ -1,0 +1,5 @@
+{
+  "name": "fwupd",
+  "description": "Mettre à jour le microprogramme des périphériques sous Linux",
+  "longDescription": "<p>Ce projet vise à rendre la mise à jour du microprogramme (firmware) sous Linux automatique, sûre et fiable.<br>Vous pouvez utiliser soit un gestionnaire de logiciels avec interface graphique comme GNOME Logiciels pour afficher et appliquer les mises à jour, soit l’outil en ligne de commande ou l’interface D-Bus directement.</p><p>fwupd fonctionne comme un simple démon permettant aux logiciels de session de mettre à jour le firmware des périphériques de votre machine locale.<br>Principalement conçu pour les environnements de bureau, le projet est également compatible avec les téléphones, tablettes et serveurs sans interface graphique.</p>"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "QjackCtl",
+  "description": "Qt-Oberfläche für den JACK Audio Connection Kit",
+  "longDescription": "<p>Qt-Benutzeroberfläche für den JACK Audio Connection Kit: Ein einfaches Qt-Programm zur Steuerung des JACK-Servers. Entwickelt in C++ auf Basis des Qt-Frameworks für X11, überwiegend unter Verwendung von Qt Designer. Bietet einen unkomplizierten Dialog zur Konfiguration diverser JACK-Server-Parameter, die zwischen Sitzungen gespeichert werden, sowie eine Steuerungsmöglichkeit für den Status des Audi-Servers. Im Laufe der Zeit wurde diese grundlegende Oberfläche um eine erweiterte Patchbay und umfassende Verbindungssteuerung ergänzt.</p>\n"
+}

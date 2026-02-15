@@ -1,0 +1,49 @@
+id: "marsshooter"
+name: M.A.R.S.
+description: M.A.R.S. - a ridiculous shooter
+longDescription: |
+  <p>M.A.R.S is a two-dimensional space shooter game with excellent 2D-graphics, a stunning amount of particles and shader support. It offers single- and multiplayer gameplay, many impressive weapons and specials and customizable ships.</p>
+  <p>In the year 3547 civilizations across the galaxy have settled their own planets, living in peace and harmony with its environment. But outside the placid habitats, the GREAT WAR is raging. As a famous fighter on your way to never ending honor and prosperity, you have to protect your planet from the imminent doom of your jealous neighbours!</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - marsshooter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ships
+  - space
+  - shooter
+  - 2d
+  - opengl
+  - sfml
+  - shader
+  - particle
+  - effects
+  - multiplayer
+iconSources:
+  - url: m/ma/marsshooter.desktop/7ff9c59e70e68a6738c7bbeb996f0672/icons/128x128/marsshooter_marsshooter.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

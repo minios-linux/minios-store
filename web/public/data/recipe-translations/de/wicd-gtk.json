@@ -1,0 +1,5 @@
+{
+  "name": "Wicd Network Manager",
+  "description": "Starte den Wicd-Client ohne System-Tray-Symbol",
+  "longDescription": "<p>Wicd ist ein universeller Netzwerk-Manager, der eine einfache, aber flexible Oberfläche für die Verbindung zu Netzwerken bereitstellt. Zu den Funktionen gehören:  * Vielzahl an Einstellungsmöglichkeiten;  * Verbindung und Profilverwaltung für kabelgebundene sowie drahtlose Netzwerke;  * Unterstützung zahlreicher Verschlüsselungsschemata wie WEP, WPA, WPA2 und benutzerdefinierter Methoden;  * Kompatibilität mit wireless-tools.</p>\n<p>Dieses Paket enthält den GTK+-Client, der keine GNOME-Abhängigkeiten benötigt und somit problemlos mit Xfce, Fluxbox, Openbox, Enlightenment usw. eingesetzt werden kann. Zudem wird ein Tray-Symbol unterstützt, das Netzwerkaktivität und Signalstärke anzeigt.</p>\n"
+}

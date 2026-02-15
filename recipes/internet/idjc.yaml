@@ -1,0 +1,41 @@
+id: "idjc"
+name: Internet DJ Console
+description: Be a DJ on the Internet
+longDescription: |
+  <p>A powerful yet easy to use source-client for people interested in streaming
+      live radio shows over the Internet using Shoutcast or Icecast servers.</p>
+  <p>Up to 9 simultaneous streams. 12 mono or 6 stereo general purpose audio inputs.
+      3 media players. An effects rack. The audio routing flexibility of Jack Audio Connection Kit.
+      IRC announcements. Ampache music database support.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - idjc
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shoutcast
+  - icecast
+  - internet
+  - radio
+  - podcast
+screenshotSources:
+  - url: io/sourceforge/idjc/095a448c20e5850be6f408ea5c8316fc/screenshots/image-1_orig.png
+    thumbnailUrl: io/sourceforge/idjc/095a448c20e5850be6f408ea5c8316fc/screenshots/image-1_624x376@1.png
+    width: 1088
+    height: 657
+iconSources:
+  - cached: idjc_idjc.png
+    width: 64
+    height: 64
+homepage: "http://idjc.sourceforge.net"
+enabled: true
+order: 99

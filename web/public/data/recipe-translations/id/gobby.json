@@ -1,0 +1,5 @@
+{
+  "name": "Gobby",
+  "description": "Edit file teks secara kolaboratif",
+  "longDescription": "<p>Gobby adalah editor yang memungkinkan Anda mengedit dokumen teks dan file sumber kode secara kolaboratif melalui jaringan. Semua pengguna dapat bekerja pada file yang sama secara bersamaan tanpa perlu menguncinya. Setiap bagian yang ditulis oleh pengguna lain akan disorot dengan warna berbeda, dan Gobby mendukung penyorotan sintaks untuk berbagai bahasa pemrograman serta markup.</p>\n<p>Gobby dapat dijalankan baik di Windows maupun platform mirip Unix, dan menggunakan toolkit Gtk+. Server khusus tersedia melalui paket infinoted.</p>\n"
+}

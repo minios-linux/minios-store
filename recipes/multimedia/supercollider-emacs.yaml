@@ -1,0 +1,38 @@
+id: supercollider-emacs
+name: SuperCollider Emacs (scel)
+description: Emacs environment for SuperCollider
+longDescription: |
+  <p>SuperCollider is an environment and programming language for real time audio synthesis and algorithmic composition. It provides an interpreted object-oriented language which functions as a network client to a state of the art, realtime sound synthesis server.</p>
+  <p>This package provides the SuperCollider mode for Emacs.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - supercollider-emacs
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: supercollider-emacs_supercollider.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

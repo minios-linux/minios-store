@@ -1,0 +1,5 @@
+{
+  "name": "KeePassX",
+  "description": "Gerenciador de senhas multiplataforma",
+  "longDescription": "<p>O KeePassX é um gerenciador de senhas livre e de código aberto que ajuda você a administrar suas senhas de forma segura. Todas as suas senhas podem ser armazenadas em um único banco de dados, protegido por uma senha mestra única ou por um disco-chave. Assim, você só precisa lembrar de uma única senha mestra ou inserir o disco-chave para desbloquear todo o banco de dados. Os bancos de dados são criptografados usando os algoritmos AES ou Twofish.</p>\n<p>Em comparação ao KeePassXC (pacote keepassxc), o desenvolvimento do KeePassX está mais lento, oferece menos recursos e utiliza uma versão desatualizada do Qt Widget. Se você não tem certeza se deve instalar o keepassx ou o keepassxc, instale o keepassx!</p>\n"
+}

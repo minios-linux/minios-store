@@ -1,0 +1,5 @@
+{
+  "name": "Deluge",
+  "description": "Mengunduh dan berbagi file melalui BitTorrent",
+  "longDescription": "<p>Deluge adalah klien BitTorrent lintas platform dengan fitur lengkap, multi-antarmuka, yang menggunakan libtorrent-rasterbar pada backend-nya, serta menyediakan berbagai antarmuka pengguna: GTK+, web, dan konsol.</p>\n<p>Deluge dirancang dengan model client-server, di mana proses daemon menangani seluruh aktivitas BitTorrent. Daemon Deluge dapat dijalankan di mesin tanpa antarmuka grafis, sementara antarmuka pengguna dapat terhubung dari platform mana saja secara remote.</p>\n<p>Anda dapat menginstal paket ini untuk menggunakan antarmuka pengguna Deluge GTK+ sebagai thin client dan terhubung ke daemon secara remote. Lihat: &lt;URL:http://dev.deluge-torrent.org/wiki/UserGuide/ThinClient&gt;</p>\n"
+}

@@ -1,0 +1,24 @@
+id: holdingnuts
+name: HoldingNuts
+description: An open source poker client and server
+longDescription: |
+  <p>HoldingNuts is an open source multi-platform poker client and server. You can play the popular Texas Hold&apos;em variant with people all over the world, meet your friends, run your own games and even setup your own poker network.</p>
+  <p>This package provides the client.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - holdingnuts
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: holdingnuts_holdingnuts.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

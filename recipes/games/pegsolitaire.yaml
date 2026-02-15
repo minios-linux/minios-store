@@ -1,0 +1,55 @@
+id: "pegsolitaire"
+name: Peg Solitaire
+description: Play an educational puzzle game similar to Hi-Q
+longDescription: |
+  <p>Peg Solitaire is a board game for one player involving movement of pegs on
+        a board with holes. The game fills the entire board with pegs except for
+        the central hole. The objective is, making valid moves, to empty the entire
+        board except for a solitary peg in the central hole.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pegsolitaire
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - solitaire
+  - peg
+  - brainvita
+  - solo
+  - noble
+  - puzzle
+  - logic
+  - board
+screenshotSources:
+  - url: com/github/jnumm.pegsolitaire/bc2c03e294d6243aac6929b54988cec4/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/jnumm.pegsolitaire/bc2c03e294d6243aac6929b54988cec4/screenshots/image-1_624x351.png
+    width: 624
+    height: 351
+iconSources:
+  - url: com/github/jnumm.pegsolitaire/bc2c03e294d6243aac6929b54988cec4/icons/128x128/pegsolitaire_pegsolitaire.png
+    width: 128
+    height: 128
+homepage: "https://github.com/jnumm/pegsolitaire"
+enabled: true
+order: 99

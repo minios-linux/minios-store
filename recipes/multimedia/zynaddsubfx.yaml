@@ -1,0 +1,44 @@
+id: zynaddsubfx
+name: ZynAddSubFX - Jack
+description: A powerful realtime software synthesizer
+longDescription: |
+  <p>A real-time software synthesizer for Linux and Windows with many features, including polyphony, multi-timbral and microtonal capabilities. It includes randomness of some parameters, which makes warm sounds, like analogue synthesizers. It has system/insertion effects too, and much more.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zynaddsubfx
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - jack
+  - midi
+  - synth
+  - synthesizer
+iconSources:
+  - cached: zynaddsubfx_zynaddsubfx.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

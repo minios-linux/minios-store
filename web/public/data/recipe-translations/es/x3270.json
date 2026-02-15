@@ -1,0 +1,5 @@
+{
+  "name": "x3270",
+  "description": "Emulador de terminal IBM 3270",
+  "longDescription": "<p>x3270 abre una conexión telnet a un host mainframe IBM en una ventana X11. También puede conectarse a un IBM AS/400 como terminal 5250 utilizando la emulación 3270 del AS/400. La ventana creada por x3270 puede emplear su propia tipografía para mostrar caracteres, siendo una representación bastante precisa de un IBM 3278 o 3279.</p>\n<p>x3270 es similar a tn3270(1) y c3270(1), excepto que está basado en X y no en curses.</p>\n<p>x3270 implementa los RFC 2355 (TN3270E), 1576 (TN3270) y 1646 (selección de nombre LU), y permite la transferencia de archivos IND$FILE.</p>\n<p>Necesitará instalar las fuentes de x3270 localmente o en su servidor de fuentes, ya que son necesarias para el funcionamiento.</p>\n"
+}

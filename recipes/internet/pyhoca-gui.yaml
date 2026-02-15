@@ -1,0 +1,44 @@
+id: "pyhoca-gui"
+name: PyHoca-GUI
+description: Python X2Go Client Applet
+longDescription: |
+  <p>X2Go is a server based computing environment with    - session resuming    - low bandwidth support    - sesion brokerage support    - client-side mass storage mounting support    - client-side printing support    - audio support    - authentication by smartcard and USB stick</p>
+  <p>PyHoca-GUI is a slim X2Go client that docks to the desktop&apos;s notification area and allows multiple X2Go session handling.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pyhoca-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - x2go
+  - remote
+  - desktop
+  - published
+  - applications
+  - administration
+  - applet
+iconSources:
+  - cached: pyhoca-gui_pyhoca_x2go-logo-ubuntu.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

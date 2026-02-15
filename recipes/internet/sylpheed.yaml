@@ -1,0 +1,48 @@
+id: "sylpheed"
+name: Sylpheed
+description: E-Mail client
+longDescription: |
+  <p>Sylpheed is an e-mail client which aims for:  * Quick response  * Graceful, and sophisticated interface  * Easy configuration, intuitive operation  * Abundant features The appearance and interface are similar to some popular e-mail clients for Windows, such as Outlook Express or so. The interface is also designed to emulate the mailers on Emacsen, and almost all commands are accessible with the keyboard.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sylpheed
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - lightweight
+  - user-friendly
+  - keyboard-oriented
+  - mh
+  - imap
+  - pop3
+  - nntp
+  - japanese
+  - plugins
+  - gpg
+iconSources:
+  - url: s/sy/sylpheed.desktop/e85f6134ae1110b0610a251ea4c09ec3/icons/128x128/sylpheed_sylpheed.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

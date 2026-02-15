@@ -1,0 +1,5 @@
+{
+  "name": "gscan2pdf",
+  "description": "Interface graphique pour créer des PDF ou DjVu à partir de documents numérisés",
+  "longDescription": "<p>Scannez plusieurs pages en seulement deux clics, puis enregistrez tout ou seulement une sélection sous forme de fichier PDF ou DjVu, avec métadonnées si nécessaire.</p><p>gscan2pdf prend en charge les scanners standards ou dotés d’un chargeur de documents (ADF) via SANE grâce à libimage-sane-perl, scanimage ou scanadf, et permet la numérisation de plusieurs pages d’un coup. Il offre une vue miniature des pages numérisées et permet des opérations simples comme le rognage, la rotation ou la suppression de pages.</p><p>La reconnaissance optique de caractères (OCR) peut être utilisée pour extraire le texte des scans et l'intégrer dans le PDF ou DjVu obtenu.</p><p>Le document final peut être enregistré au format PDF, DjVu, TIFF multipage ou en tant qu’image page par page.</p>"
+}

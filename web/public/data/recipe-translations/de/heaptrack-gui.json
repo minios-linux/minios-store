@@ -1,0 +1,5 @@
+{
+  "name": "Heaptrack",
+  "description": "Ein Heap-Speicher-Profiler für Linux",
+  "longDescription": "<p>Heaptrack verfolgt alle Speicherallokationen und versieht diese Ereignisse mit Stack-Traces. Spezialisierte Analysewerkzeuge ermöglichen es anschließend, das Heap-Speicherprofil zu interpretieren, um:</p>\n<ul>\n  <li>Hotspots zu finden, die optimiert werden müssen, um den Speicherbedarf Ihrer Anwendung zu reduzieren</li>\n  <li>Speicherlecks zu finden, d. h. Stellen, an denen Speicher belegt, aber nie wieder freigegeben wird</li>\n  <li>Allokations-Hotspots zu finden, also Codestellen, die eine Vielzahl von Speicherallokations-Aufrufen auslösen</li>\n  <li>temporäre Allokationen zu finden, also Zuweisungen, auf die direkt deren Freigabe folgt</li>\n</ul>\n"
+}

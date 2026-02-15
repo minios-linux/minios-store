@@ -1,0 +1,39 @@
+id: bookletimposer
+name: bookletimposer
+description: Impose PDF documents to create booklets
+longDescription: |
+  <p>pdfimposer is a Python module to achieve some basic imposition on PDF documents, especially designed to work on booklets.</p>
+  <p>BookletImposer is a commandline and GTK+ interface to pdfimposer.</p>
+  <p>The bookletimposer package ships both.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bookletimposer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: bookletimposer_bookletimposer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

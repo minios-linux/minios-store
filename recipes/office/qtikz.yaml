@@ -1,0 +1,39 @@
+id: qtikz
+name: QtikZ
+description: Program for creating TikZ (from the LaTeX pgf package) diagrams
+longDescription: |
+  <p>QtikZ is a small application to assist in the creation of diagrams and drawings using the TikZ macros from the LaTeX package &quot;pgf&quot;. It consists of a text editor pane in which the TikZ code for the drawing is edited and a preview pane showing the drawing as rendered by LaTeX. The preview pane can be updated in real-time. Common drawing tools, options and styles are available from the menus to assist the coding process.</p>
+  <p>This package contains the Qt version of the program.</p>
+  <p>TikZ is a user-friendly syntax layer for the PGF (portable graphics format) TeX macro package. Pictures can be created within a LaTeX document and included in the output using the most important TeX backend drivers including pdftex and dvips.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtikz
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qtikz_qtikz-128.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

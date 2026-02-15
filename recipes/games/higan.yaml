@@ -1,0 +1,38 @@
+id: higan
+name: higan
+description: Emulator
+longDescription: |
+  <p>higan is an emulator for systems from Nintendo (SNES, NES, Gameboy, Gameboy Color, Gameboy Advance), Sega (Master System, Game Gear), NEC (PC Engine, SuperGrafx) and Bandai (WonderSwan, WonderSwan Color). It was formerly called bsnes and the SNES emulation is especially complete and polished.</p>
+  <p>higan strives to provide the most faithful hardware emulation possible. It focuses on accuracy and clean code, rather than speed and special features. It is meant as a reference emulator to document how the underlying hardware works. As a result the minimum system requirements are high.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - higan
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - emulator
+  - nintendo
+  - snes
+  - nes
+  - gameboy
+  - famicom
+  - super
+iconSources:
+  - cached: higan_higan.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

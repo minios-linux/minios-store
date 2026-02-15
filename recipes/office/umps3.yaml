@@ -1,0 +1,49 @@
+id: "umps3"
+name: µMPS3
+description: Virtual machine simulator based around the MIPS R2/3000 microprocessor
+longDescription: |
+  <p>µMPS is an educational computer system architecture and an accompanying emulator designed from the ground up to achieve the right trade-off between simplicity and elegance on one side, and realism on the other. This makes µMPS ideally suited for use in education, such as hands-on operating systems or computer architecture university courses.</p>
+  <p>The µMPS processor implements the MIPS I instruction set, and can therefore be supported out of the box by existing MIPS compilers. The architecture details a complete set of I/O devices (terminals, disks, flash devices, printers, and network adapters) that feature a clean, consistent, programming interface. The previous revision of the µMPS architecture (µMPS2) brings multiprocessor support.</p>
+  <p>The emulator comes with built-in debugging features and an easy to use graphical user interface. Apart from the emulator itself, several support utilities are provided that can get you quickly started in developing programs for µMPS.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - umps3
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - umps
+  - umps3
+screenshotSources:
+  - url: org/virtualsquare/umps3/1efaeda1d5e27527a99c82d9c62640c2/screenshots/image-1_orig.png
+    thumbnailUrl: org/virtualsquare/umps3/1efaeda1d5e27527a99c82d9c62640c2/screenshots/image-1_624x451.png
+    width: 1026
+    height: 743
+  - url: org/virtualsquare/umps3/1efaeda1d5e27527a99c82d9c62640c2/screenshots/image-2_orig.png
+    thumbnailUrl: org/virtualsquare/umps3/1efaeda1d5e27527a99c82d9c62640c2/screenshots/image-2_624x452.png
+    width: 1024
+    height: 743
+  - url: org/virtualsquare/umps3/1efaeda1d5e27527a99c82d9c62640c2/screenshots/image-3_orig.png
+    thumbnailUrl: org/virtualsquare/umps3/1efaeda1d5e27527a99c82d9c62640c2/screenshots/image-3_624x452.png
+    width: 1024
+    height: 743
+iconSources:
+  - cached: umps3_org.virtualsquare.umps3.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

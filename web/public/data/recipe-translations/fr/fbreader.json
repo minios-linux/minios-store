@@ -1,0 +1,5 @@
+{
+  "name": "Lecteur de livres électroniques",
+  "description": "FBReader, lecteur de livres numériques",
+  "longDescription": "<p>FBReader est un lecteur de livres électroniques.</p>\n<p>Fonctionnalités principales :  * prend en charge plusieurs formats ouverts d'e-books : fb2, html, chm, plucker,    palmdoc, ztxt, tcr (texte Psion), rtf, oeb, openreader, mobipocket sans DRM, texte brut, epub, eReader  * lit directement depuis les archives tar, zip, gzip, bzip2 (plusieurs livres peuvent être regroupés dans une seule archive)  * propose une vue structurée de votre bibliothèque numérique  * détecte automatiquement les encodages  * génère automatiquement une table des matières  * mémorise le dernier livre ouvert et la dernière position de lecture pour chaque livre entre les sessions  * césure automatique (modèles inclus pour plusieurs langues)  * recherche et téléchargement de livres depuis www.feedbooks.com et www.litres.ru  * prise en charge partielle du CSS pour les fichiers epub</p>\n"
+}

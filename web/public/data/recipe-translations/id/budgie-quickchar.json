@@ -1,0 +1,5 @@
+{
+  "name": "Budgie Quickchar",
+  "description": "Temukan dan pilih karakter lokal yang setara dengan karakter ASCII secara cepat",
+  "longDescription": "<p>\n      Budgie Quickchar adalah aplikasi mini untuk menemukan karakter lokal dengan cepat:\n    </p>\n<ul>\n  <li>Tekan Super+Alt+C untuk memunculkan jendela (Memerlukan budgie-extras dan budgie-extras-daemon)</li>\n  <li>Ketik sebuah karakter, lalu semua karakter turunannya akan ditampilkan.</li>\n  <li>Klik salah satu (atau navigasikan dengan tab ke karakter yang diinginkan dan tekan Return) untuk menempelkan karakter ke dokumen</li>\n  <li>Tekan kembali untuk mengubah visibilitas, atau tekan Escape untuk menyembunyikan</li>\n</ul>\n<p>\n    Aplikasi ini dibuat khusus untuk budgie-desktop namun juga dapat digunakan di semua desktop berbasis X11.\n    </p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "GNUjump",
+  "description": "Springe den Turm hinauf, um zu überleben",
+  "longDescription": "<p>Ziel dieses Spiels ist es, immer auf die nächste Plattform zu springen, damit du nicht herunterfällst. Je höher du im fallenden Turm kommst, desto schneller stürzen die Böden ab. Versuche, länger zu überleben als alle anderen – oder, im Einzelspielermodus, so hoch wie möglich zu kommen.</p>\n<p>Momentan heißt das Spiel noch sdljump (und wird im Menü so angezeigt), aber der Paketname wurde nach einer Umbenennung durch das Upstream-Projekt geändert. Die neue Version des Spiels wird ebenfalls unter dem Namen gnujump geführt.</p>\n<p>Das Spiel ist ein Klon von xjump und bietet alle dessen Funktionen sowie zusätzliche Features:  * Mehrspielermodus (bis zu vier Spieler, kein Netzwerkmodus)  * Flüssige Grafikdarstellung möglich (alternativ auch im klassischen xjump-Stil)  * Verschiedene Themen verfügbar  * Optionales Rendering per OpenGL  * Musik und Soundeffekte  * Aufzeichnung (und Wiedergabe) von Spielsitzungen</p>\n"
+}

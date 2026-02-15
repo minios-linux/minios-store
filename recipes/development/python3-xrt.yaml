@@ -1,0 +1,28 @@
+id: python3-xrt
+name: XRay Tracer
+description: "Modeling of synchrotron sources, beamlines and beamline elements."
+longDescription: |
+  <p>XRayTracer is a python software library for ray tracing and wave propagation in x-ray regime. It is primarily meant for modeling synchrotron sources, beamlines and beamline elements. Includes a GUI for creating a beamline and interactively viewing it in 3D.</p>
+  <p>This package installs the library for Python 3.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - python3-xrt
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: python3-xrt_logo-xrtQt.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

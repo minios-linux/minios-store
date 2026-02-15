@@ -1,0 +1,37 @@
+id: "caveexpress"
+name: CaveExpress
+description: "Cave Express is a classic 2D platformer with physics-based gameplay and dozens of levels.�Master your pedal-powered flying machine to pick up packages from your cave-dwelling clients and drop them off at the collection point.�But beware! Mighty mastodons, terrifying pterodactyls and others would rather see you extinct."
+longDescription: |
+  <p>CaveExpress is a classic 2D platformer with physics-based gameplay and dozens of levels. Master your pedal-powered flying machine to pick up packages from your cave-dwelling clients and drop them off at the collection point.</p>
+  <p>But beware! Mighty mastodons, terrifying pterodactyls and others would rather see you extinct.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - caveexpress
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dinosaur
+  - delivery
+  - platform
+  - taxi
+iconSources:
+  - url: c/ca/caveexpress.desktop/0301c73320f769699da043cefd257fec/icons/128x128/caveexpress_caveexpress-icon.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

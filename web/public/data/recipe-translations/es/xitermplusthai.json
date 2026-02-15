@@ -1,0 +1,5 @@
+{
+  "name": "Thai X terminal",
+  "description": "Terminal X que soporta tailandés (codificación TIS-620)",
+  "longDescription": "<p>xiterm+thai es un emulador de terminal X con soporte para el idioma tailandés. Incluye soporte integrado para ingreso de teclado en tailandés. También puedes utilizar la extensión XKB de X11 para introducir caracteres tailandeses.</p>\n<p>Se requiere una fuente tailandesa TIS-620, como alguna de xfonts-thai-nectec, para mostrar caracteres en tailandés.</p>\n"
+}

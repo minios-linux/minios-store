@@ -1,0 +1,5 @@
+{
+  "name": "AT1",
+  "description": "Mengoreksi nada vokal yang fals",
+  "longDescription": "<p>AT1 adalah sebuah 'autotuner' yang biasa digunakan untuk mengoreksi nada vokal yang sedikit fals. Dibandingkan dengan 'Autotalent', AT1 menawarkan algoritma estimasi nada yang lebih baik dan proses resampling yang jauh lebih bersih.</p>\n<p>AT1 tidak menyediakan koreksi formant, sehingga sebaiknya hanya digunakan untuk perbaikan minor, bukan untuk mentransposisi lagu secara penuh. Nada yang diharapkan dapat diatur melalui Midi (hanya via Jack) atau dengan set not tetap. AT1 kemungkinan juga dapat digunakan pada beberapa instrumen, namun utamanya dirancang untuk rentang vokal. Aplikasi ini juga dapat dijadikan sebagai tuner gitar cepat dan sederhana.</p>\n"
+}

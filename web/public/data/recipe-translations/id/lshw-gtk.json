@@ -1,0 +1,5 @@
+{
+  "name": "Hardware Lister",
+  "description": "Menyediakan informasi perangkat keras",
+  "longDescription": "<p>Alat ringan untuk menampilkan informasi rinci tentang konfigurasi perangkat keras di mesin Anda. Dapat melaporkan konfigurasi memori, versi firmware, konfigurasi mainboard, versi dan kecepatan CPU, konfigurasi cache, kecepatan bus, dan sebagainya pada sistem x86 yang mendukung DMI, beberapa mesin PowerPC (PowerMac G4 terbukti kompatibel), serta AMD64.</p>\n<p>Paket ini menyediakan lshw-gtk (versi berbasis GTK+)</p>\n"
+}

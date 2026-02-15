@@ -1,0 +1,37 @@
+id: arianna
+name: Arianna
+description: EBook reader
+longDescription: |
+  <p>An ebook reader and library management app supporting ".epub" files. Arianna discovers your books automatically, and sorts them by categories, genres and authors.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - arianna
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/arianna/e78167c85e6213977f27e93a2ece2360/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/arianna/e78167c85e6213977f27e93a2ece2360/screenshots/image-1_624x439@1.png
+    width: 1361
+    height: 959
+  - url: org/kde/arianna/e78167c85e6213977f27e93a2ece2360/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/arianna/e78167c85e6213977f27e93a2ece2360/screenshots/image-2_624x455@1.png
+    width: 1400
+    height: 1021
+  - url: org/kde/arianna/e78167c85e6213977f27e93a2ece2360/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/arianna/e78167c85e6213977f27e93a2ece2360/screenshots/image-3_624x465@1.png
+    width: 1300
+    height: 969
+iconSources:
+  - url: org/kde/arianna/e78167c85e6213977f27e93a2ece2360/icons/128x128/arianna_org.kde.arianna.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/arianna/"
+enabled: true
+order: 99

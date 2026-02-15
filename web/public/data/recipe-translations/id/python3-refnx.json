@@ -1,0 +1,5 @@
+{
+  "name": "refnx",
+  "description": "Analisis reflektometri neutron dan sinar-X dengan Python",
+  "longDescription": "<p>Paket Python yang fleksibel dan kuat untuk analisis curve fitting yang lebih umum, khususnya data reflektometri neutron dan sinar-X.</p>\n<p>refnx menggunakan beberapa algoritme scipy.optimize untuk pencocokan data dan estimasi ketidakpastian parameter. Selain algoritme scipy, refnx juga memanfaatkan emcee Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler untuk estimasi parameter Bayesian.</p>\n"
+}

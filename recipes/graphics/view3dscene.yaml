@@ -1,0 +1,44 @@
+id: "view3dscene"
+name: view3dscene
+description: "View 3D models in various formats, play with VRML / X3D worlds"
+longDescription: |
+  <p>view3dscene is a viewer for many 3D model formats:  - X3D  - VRML (1.0 and 2.0, aka VRML 97)  - Collada  - OpenInventor  - 3DS  - MD3  - Wavefront OBJ  - Videoscape GEO  - KAnim (Castle Game Engine animations)</p>
+  <p>Various navigation modes are available, like Examine, Walk (with gravity), Fly. Collision detection is done. Models can be animated and interactive. Many graphic effects are possible, thanks to using Castle Game Engine underneath.</p>
+  <p>view3dscene may also be used to convert many 3D model formats to X3D (in classic and XML encoding). This package includes also a command-line tovrmlx3d program, that performs the same conversions as view3dscene, but doesn&apos;t use X or OpenGL (so it&apos;s nice to use in scripts to convert 3D models in batch mode).</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - view3dscene
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - browser
+  - vrml
+  - x3d
+  - collada
+  - md3
+  - spine
+iconSources:
+  - url: v/vi/view3dscene.desktop/47f384d51ff7a9a78af2f46ab389f4aa/icons/128x128/view3dscene_view3dscene.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

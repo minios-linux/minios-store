@@ -1,0 +1,5 @@
+{
+  "name": "mpv Media Player",
+  "description": "Lisez des films et de la musique",
+  "longDescription": "<p>mpv est un lecteur multimédia basé sur MPlayer et mplayer2. Il prend en charge une grande variété de formats de fichiers vidéo, de codecs audio et vidéo, ainsi que de types de sous-titres.</p>\n<p>Les évolutions de mplayer2 à mpv incluent :  * Suppression de nombreux codes inutiles pour encourager l'implication des développeurs  * Rendu OSD amélioré  * Sortie terminale épurée  * Sortie OpenGL optimisée  * Fonctionnalités d’encodage (remplaçant mencoder)  * Prise en charge de Wayland  * Lecture des liens de sites de streaming populaires  * Amélioration de la gestion des captures d’écran  * ... Consultez mpv(1) pour plus d’informations sur les différences entre MPlayer, mplayer2 et mpv.</p>\n"
+}

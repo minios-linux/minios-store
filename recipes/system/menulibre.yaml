@@ -1,0 +1,81 @@
+id: "menulibre"
+name: Menu Editor
+description: Add or remove applications from the menu
+longDescription: |
+  <p>An advanced menu editor that provides modern features in a clean, easy-to-use interface. All without GNOME dependencies, so even lightweight systems can benefit from the sanity that MenuLibre offers. MenuLibre is your one-stop shop for menus in Linux, whether you use GNOME, LXDE, Xfce, or Unity.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - menulibre
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - configuration
+  - menu
+  - user
+screenshotSources:
+  - url: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-1_orig.png
+    thumbnailUrl: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-1_624x312.png
+    width: 1040
+    height: 520
+  - url: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-2_orig.png
+    thumbnailUrl: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-2_624x555.png
+    width: 702
+    height: 625
+  - url: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-3_orig.png
+    thumbnailUrl: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-3_624x555.png
+    width: 702
+    height: 625
+  - url: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-4_orig.png
+    thumbnailUrl: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-4_624x555.png
+    width: 702
+    height: 625
+  - url: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-5_orig.png
+    thumbnailUrl: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-5_624x555.png
+    width: 702
+    height: 625
+  - url: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-6_orig.png
+    thumbnailUrl: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-6_624x555.png
+    width: 702
+    height: 625
+  - url: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-7_orig.png
+    thumbnailUrl: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-7_624x555.png
+    width: 702
+    height: 625
+  - url: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-8_orig.png
+    thumbnailUrl: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-8_624x555.png
+    width: 702
+    height: 625
+  - url: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-9_orig.png
+    thumbnailUrl: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-9_624x490.png
+    width: 642
+    height: 505
+  - url: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-10_orig.png
+    thumbnailUrl: m/me/menulibre.desktop/a9377db02a0fd46e2e4833ecec7603e2/screenshots/image-10_624x510.png
+    width: 642
+    height: 525
+iconSources:
+  - url: m/me/menulibre.desktop/25fd86d163f8b0810d658d585d0124b5/icons/128x128/menulibre_menulibre.png
+    width: 128
+    height: 128
+homepage: "https://github.com/bluesabre/menulibre"
+enabled: true
+order: 99

@@ -1,0 +1,37 @@
+id: vonsh
+name: Vonsh
+description: SDL-based snake-like game
+longDescription: |
+  <p>Player has to pick up foodstuffs appearing randomly on the board, and avoid colliding with obstacles and the line itself. With each picked up food item, line grows in length, new obstacles appear, and difficulty explodes ;). Game is based on libSDL.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vonsh
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - arcade
+  - snake
+iconSources:
+  - cached: vonsh_vonsh.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

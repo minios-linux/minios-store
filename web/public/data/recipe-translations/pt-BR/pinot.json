@@ -1,0 +1,5 @@
+{
+  "name": "Pinot Metasearch Tool",
+  "description": "Pesquise na Web e em seus documentos",
+  "longDescription": "<p>O Pinot oferece um serviço D-Bus que vasculha, indexa e monitora seus documentos quanto a alterações. Esse serviço pode ser acessado tanto por uma interface de linha de comando quanto por uma interface gráfica em GTK, permitindo consultar o índice criado pelo serviço, pesquisar nos seus mecanismos de busca favoritos da Web e exibir e analisar os resultados.</p>\n<p>O Pinot também fornece uma interface Xesam, acessível por meio da Xesam Query Language e Xesam User Language.</p>\n<p>Para indexar arquivos rpm, instale os pacotes rpm e file.</p>\n"
+}

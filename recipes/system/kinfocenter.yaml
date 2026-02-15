@@ -1,0 +1,52 @@
+id: "kinfocenter"
+name: Info Center
+description: Centralized and convenient overview of system information
+longDescription: |
+  <p>The kinfocenter provides you with a centralized and convenient overview of your system and desktop environment.</p>
+  <p>The information center is made up of multiple modules.  Each module is a separate application, but the information center organizes all of these programs into a convenient location.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kinfocenter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kinfocenter/1c1a37844c43efa6df994f7577e80cdc/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kinfocenter/1c1a37844c43efa6df994f7577e80cdc/screenshots/image-1_624x396@1.png
+    width: 1211
+    height: 769
+  - url: org/kde/kinfocenter/1c1a37844c43efa6df994f7577e80cdc/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kinfocenter/1c1a37844c43efa6df994f7577e80cdc/screenshots/image-2_624x396@1.png
+    width: 1211
+    height: 769
+  - url: org/kde/kinfocenter/1c1a37844c43efa6df994f7577e80cdc/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kinfocenter/1c1a37844c43efa6df994f7577e80cdc/screenshots/image-3_624x396@1.png
+    width: 1211
+    height: 769
+iconSources:
+  - url: org/kde/kinfocenter/1c1a37844c43efa6df994f7577e80cdc/icons/128x128/kinfocenter_hwinfo.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/plasma-desktop"
+enabled: true
+order: 99

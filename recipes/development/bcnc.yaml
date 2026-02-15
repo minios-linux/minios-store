@@ -1,0 +1,30 @@
+id: bcnc
+name: bCNC
+description: bCNC Controller
+longDescription: |
+  <p>GrblHAL (formerly GRBL) CNC command sender, autoleveler, g-code editor, digitizer, CAM and swiss army knife for all your CNC needs.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bcnc
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - cnc
+  - pcb
+iconSources:
+  - cached: bcnc_bCNC.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

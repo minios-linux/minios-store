@@ -1,0 +1,5 @@
+{
+  "name": "Budgie Desktop Settings",
+  "description": "Cambia la apariencia y el comportamiento del escritorio",
+  "longDescription": "<p>Budgie-Desktop es un entorno de escritorio basado en GTK+ que se centra en la simplicidad y la elegancia. Ofrece una interfaz tradicional con metáfora de escritorio, utilizando un sistema de paneles y menús personalizables. Budgie-Desktop está escrito desde cero utilizando varios subsistemas de GNOME como GNOME-Session y Mutter.</p>\n<p>Este es el paquete base para budgie-desktop. Contiene: archivo de autoinicio de GNOME Network Manager específico para Budgie, plugins para budgie-desktop, traducciones e iconos para budgie-desktop, ejecutables de budgie-desktop, esquemas GLib para budgie-desktop y archivo de sesión para budgie-desktop.</p>\n"
+}

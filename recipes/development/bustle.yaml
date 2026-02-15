@@ -1,0 +1,63 @@
+id: "bustle"
+name: Bustle
+description: Draw sequence diagrams of D-Bus activity
+longDescription: |
+  <p>Bustle draws sequence diagrams of D-Bus activity.
+  		    It shows signal emissions, method calls and their
+  		    corresponding returns, with time stamps for each individual
+  		    event and the duration of each method call. This can help
+  		    you check for unwanted D-Bus traffic, and pinpoint why your
+  		    D-Bus-based application is not performing as well as you
+  		    like. It also provides statistics like signal frequencies
+  		    and average method call times.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bustle
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - debug
+  - profile
+  - d-bus
+  - dbus
+  - sequence
+  - monitor
+screenshotSources:
+  - url: org/freedesktop/Bustle/d60940082284904327f0376092eec170/screenshots/image-1_orig.png
+    thumbnailUrl: org/freedesktop/Bustle/d60940082284904327f0376092eec170/screenshots/image-1_624x421@1.png
+    width: 991
+    height: 669
+  - url: org/freedesktop/Bustle/d60940082284904327f0376092eec170/screenshots/image-2_orig.png
+    thumbnailUrl: org/freedesktop/Bustle/d60940082284904327f0376092eec170/screenshots/image-2_624x427@1.png
+    width: 1062
+    height: 728
+  - url: org/freedesktop/Bustle/d60940082284904327f0376092eec170/screenshots/image-3_orig.png
+    thumbnailUrl: org/freedesktop/Bustle/d60940082284904327f0376092eec170/screenshots/image-3_624x487@1.png
+    width: 970
+    height: 758
+iconSources:
+  - url: org/freedesktop/Bustle/d60940082284904327f0376092eec170/icons/128x128/bustle_org.freedesktop.Bustle.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.freedesktop.org/bustle/bustle#readme"
+enabled: true
+order: 99

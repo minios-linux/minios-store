@@ -1,0 +1,45 @@
+id: "kgpg"
+name: KGpg
+description: Encryption Tool
+longDescription: |
+  <p>KGpg is a simple interface for GnuPG, a powerful encryption utility.
+        It can help you set up and manage your keys, import and export keys, view key signatures, trust status and expiry
+  dates.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kgpg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kgpg.desktop/b1e826b0d0f182e6a649ff720cb3f88e/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kgpg.desktop/b1e826b0d0f182e6a649ff720cb3f88e/screenshots/image-1_624x392@1.png
+    width: 994
+    height: 625
+iconSources:
+  - url: org/kde/kgpg.desktop/b1e826b0d0f182e6a649ff720cb3f88e/icons/128x128/kgpg_kgpg.png
+    width: 128
+    height: 128
+homepage: "https://utils.kde.org/projects/kgpg/"
+enabled: true
+order: 99

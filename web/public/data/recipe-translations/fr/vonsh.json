@@ -1,0 +1,5 @@
+{
+  "name": "Vonsh",
+  "description": "Jeu de serpent basé sur SDL",
+  "longDescription": "<p>Le joueur doit ramasser des aliments apparaissant aléatoirement sur le plateau, tout en évitant les obstacles et sa propre ligne. À chaque aliment récupéré, la ligne s'allonge, de nouveaux obstacles apparaissent et la difficulté augmente rapidement. Le jeu est développé avec la bibliothèque libSDL.</p>\n"
+}

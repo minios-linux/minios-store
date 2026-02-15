@@ -1,0 +1,34 @@
+id: gpomme
+name: pommed GTK client configuration GUI
+description: A graphical client for pommed (configuration GUI)
+longDescription: |
+  <p>pommed handles the hotkeys found on the Apple MacBook Pro, MacBook Air, MacBook, PowerBook and iBook laptops and adjusts the LCD backlight, sound volume, keyboard backlight or ejects the CD-ROM drive accordingly.</p>
+  <p>gpomme is a graphical client for pommed. It listens for signals sent by pommed on D-Bus and displays the action taken by pommed along with the current state associated to this action.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpomme
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: g/gp/gpomme-c.desktop/24A42C3E070BDAB8122402B18A0FCC88/icons/128x128/gpomme_gpomme.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

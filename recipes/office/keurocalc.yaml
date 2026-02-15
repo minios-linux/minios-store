@@ -1,0 +1,48 @@
+id: "keurocalc"
+name: KEuroCalc
+description: Currency converter and calculator
+longDescription: |
+  <p>
+       KEuroCalc is a universal currency converter and calculator.
+      </p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - keurocalc
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - converter
+  - euro
+  - money
+  - cash
+  - calculator
+screenshotSources:
+  - url: org/kde/keurocalc/7564b9d3f62df2a6c7bf5c0d78474a1a/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/keurocalc/7564b9d3f62df2a6c7bf5c0d78474a1a/screenshots/image-1_624x389.png
+    width: 647
+    height: 404
+iconSources:
+  - cached: keurocalc_keurocalc.png
+    width: 64
+    height: 64
+developer: The KDE Community
+homepage: "https://www.kde.org/applications/office/keurocalc/"
+enabled: true
+order: 99

@@ -1,0 +1,43 @@
+id: "qpwgraph"
+name: qpwgraph
+description: A PipeWire Graph Qt GUI Interface
+longDescription: |
+  <p>qpwgraph is a graph manager dedicated to PipeWire (https://pipewire.org),
+    using the Qt C++ framework (https://qt.io), based and pretty much like the
+    same of QjackCtl (https://qjackctl.sourceforge.io).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qpwgraph
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audiovideo
+  - audio
+  - video
+  - midi
+  - jack
+  - qt
+screenshotSources:
+  - url: org/rncbc/qpwgraph/90a42d7a8a2711f766f7e8cb77f5e6e0/screenshots/image-1_orig.png
+    thumbnailUrl: org/rncbc/qpwgraph/90a42d7a8a2711f766f7e8cb77f5e6e0/screenshots/image-1_624x468@1.png
+    width: 640
+    height: 480
+iconSources:
+  - url: org/rncbc/qpwgraph/90a42d7a8a2711f766f7e8cb77f5e6e0/icons/128x128/qpwgraph_org.rncbc.qpwgraph.png
+    width: 128
+    height: 128
+developer: rncbc aka. Rui Nuno Capela
+homepage: "https://gitlab.freedesktop.org/rncbc/qpwgraph"
+enabled: true
+order: 99

@@ -1,0 +1,34 @@
+id: youker-assistant
+name: kylin-assistant
+description: System Auxiliar Tools
+longDescription: |
+  <p>Kylin Assistant is a tool designed to help Ubuntu and Ubuntu Kylin desktop users manage and maintain many aspects of their working environment conveniently in a single application, providing a consistent user experience.</p>
+  <p>Features currently included:  * Detecting and displaying general system information  * Unity and Mate user interface customization  * System garbage cleaning</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - youker-assistant
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - settings
+  - cleaning
+  - customization
+iconSources:
+  - cached: youker-assistant_kylin-assistant.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

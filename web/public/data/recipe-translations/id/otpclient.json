@@ -1,0 +1,5 @@
+{
+  "name": "OTPClient",
+  "description": "Aplikasi GTK+ untuk mengelola token TOTP dan HOTP dengan enkripsi bawaan.",
+  "longDescription": "<p>\n      Aplikasi GTK yang mudah digunakan untuk mengelola token TOTP dan HOTP dengan aman.\nSeluruh data disimpan terenkripsi di disk menggunakan AES256-GCM, dan kata sandi utama dihasilkan menggunakan PBKDF2 dengan 100 ribu iterasi dan algoritma hash SHA512.\nMendukung impor/ekspor cadangan ke dan dari andOTP serta impor cadangan dari Authenticator+.\n    </p>\n"
+}

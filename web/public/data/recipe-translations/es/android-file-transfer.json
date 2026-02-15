@@ -1,0 +1,5 @@
+{
+  "name": "Android File Transfer",
+  "description": "Cliente MTP interactivo con interfaz gráfica Qt4/Qt5",
+  "longDescription": "<p>- Interfaz Qt sencilla con cuadros de progreso.<br>- Envoltorio FUSE (si prefieres montar tu dispositivo), compatible con lecturas/escrituras parciales, lo que permite acceso instantáneo a tus archivos.<br>- Sin límites de tamaño de archivo.<br>- Renombra automáticamente la carátula del álbum para que sea visible en el reproductor multimedia.<br>- Sin dependencias adicionales (ej. libptp/libmtp).<br>- Disponible como librería estática/compartida.<br>- Herramienta CLI simple.</p>\n"
+}

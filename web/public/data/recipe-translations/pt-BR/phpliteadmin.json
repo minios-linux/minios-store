@@ -1,0 +1,5 @@
+{
+  "name": "phpLiteAdmin",
+  "description": "Ferramenta web de administração para bancos de dados SQLite",
+  "longDescription": "<p>O phpLiteAdmin é uma ferramenta web para administração de bancos de dados SQLite desenvolvida em PHP, com suporte para SQLite3 e SQLite2 (esse último não disponível no Debian). Seguindo a filosofia de simplicidade do SQLite, o phpLiteAdmin é composto por um único arquivo-fonte, o phpliteadmin.php, que pode ser colocado diretamente em uma pasta do servidor e acessado via navegador. Os recursos disponíveis, o conjunto de funcionalidades, a interface e a experiência de uso são semelhantes ao que se encontra no phpMyAdmin.</p>\n<p>Neste pacote, você encontrará o phpliteadmin.php já configurado para funcionar com o Apache2. Este pacote disponibiliza os principais recursos do script.</p>\n"
+}

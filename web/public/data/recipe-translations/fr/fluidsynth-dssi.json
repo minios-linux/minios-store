@@ -1,0 +1,5 @@
+{
+  "name": "Fluidsynth DSSI",
+  "description": "Synthétiseur logiciel utilisant des SoundFonts",
+  "longDescription": "<p>Le paquet FluidSynth-DSSI contient FluidSynth-DSSI, un adaptateur pour le synthétiseur logiciel FluidSynth spécialisé dans la lecture de SoundFonts, permettant son utilisation comme greffon DSSI.</p>\n<p>DSSI est une API pour les greffons de traitement audio, principalement utilisée pour les synthétiseurs logiciels avec interface utilisateur.</p>\n"
+}

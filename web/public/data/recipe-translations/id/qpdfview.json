@@ -1,0 +1,5 @@
+{
+  "name": "qpdfview",
+  "description": "penampil dokumen bertab",
+  "longDescription": "<p>qpdfview adalah penampil dokumen bertab yang sederhana, menggunakan pustaka Poppler untuk merender PDF dan CUPS untuk pencetakan, serta menyediakan antarmuka grafis berbasis Qt yang jelas dan simpel. Dukungan untuk format DjVu dan PostScript dapat ditambahkan melalui plugin.</p>\n<p>Fitur-fitur utama qpdfview meliputi:</p>\n<ul>\n  <li>Panel outline, properti, dan thumbnail</li>\n  <li>Skala, rotasi, dan penyesuaian tampilan</li>\n  <li>Mode layar penuh dan presentasi</li>\n  <li>Tata letak berkelanjutan dan multi-halaman</li>\n  <li>Pengaturan per-file yang tersimpan permanen</li>\n  <li>Pintasan keyboard yang dapat dikonfigurasi</li>\n  <li>Toolbar yang dapat dikonfigurasi</li>\n  <li>Dukungan dokumen DjVu dan PostScript melalui plugin</li>\n  <li>Pencarian teks (hanya PDF dan DjVu)</li>\n  <li>Dukungan SyncTeX (hanya PDF)</li>\n  <li>Dukungan anotasi sebagian (hanya PDF, Poppler versi 0.20.1 atau lebih baru)</li>\n  <li>Dukungan formulir sebagian (hanya PDF)</li>\n</ul>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Navit",
+  "description": "Programme de navigation open source basé sur des cartes vectorielles avec moteur d’itinéraire",
+  "longDescription": "<p>Navit est un système de navigation automobile doté d’un moteur d'itinéraire.</p>\n<p>Son architecture modulaire permet d’utiliser des cartes vectorielles de différents formats pour le calcul d’itinéraires et l’affichage des cartes. Il est même possible d’utiliser plusieurs cartes simultanément.</p>\n<p>Les interfaces utilisateur GTK+ ou SDL sont conçues pour une utilisation optimale sur écrans tactiles. Les points d’intérêt de divers formats sont affichés sur la carte.</p>\n<p>La position actuelle du véhicule est récupérée soit via gpsd, soit directement depuis un capteur GPS NMEA.</p>\n<p>Le moteur d’itinéraire ne se contente pas de calculer la route optimale vers votre destination, il fournit également des instructions détaillées, pouvant être énoncées via speech-dispatcher.</p>\n<p>Le paquet Debian de Navit n’inclut aucune carte. Pour savoir où obtenir des cartes, consultez &lt;http://wiki.navit-project.org/index.php/Main_Page#Maps&gt;.</p>\n"
+}

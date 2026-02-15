@@ -1,0 +1,5 @@
+{
+  "name": "Raspberry Pi Imager",
+  "description": "Utilitas pencitraan Raspberry Pi",
+  "longDescription": "<p>\n      Raspberry Pi Imager mengunduh file .JSON dari situs web Raspberry Pi\n      yang berisi daftar semua opsi unduhan terbaru, sehingga memastikan Anda\n      selalu menginstal versi yang paling mutakhir.\n    </p>\n<p>\n      Setelah Anda memilih sistem operasi dari pilihan yang tersedia,\n      utilitas ini membaca file terkait langsung dari situs Raspberry Pi dan\n      menulisnya langsung ke kartu SD. Proses ini jauh lebih cepat dibandingkan\n      metode standar yang harus mengunduh dari web, menyimpan ke hard disk,\n      lalu menulisnya kembali dari hard disk ke kartu SD.\n    </p>\n<p>\n      Selama proses ini, Raspberry Pi Imager juga melakukan cache terhadap\n      citra sistem operasi yang diunduh—artinya, file tersebut disimpan\n      secara lokal di komputer Anda sehingga Anda dapat memprogram kartu SD\n      tambahan tanpa perlu mengunduh ulang file tersebut.\n    </p>\n"
+}

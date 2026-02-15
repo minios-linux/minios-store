@@ -1,0 +1,5 @@
+{
+  "name": "gscan2pdf",
+  "description": "Interfaccia grafica per creare PDF o DjVu da documenti scannerizzati",
+  "longDescription": "<p>Bastano solo due clic per acquisire più pagine e salvarle tutte, o solo una selezione, come file PDF o DjVu con eventuali metadati.</p>\n<p>gscan2pdf controlla scanner tradizionali o a foglio continuo (ADF) tramite SANE via libimage-sane-perl, scanimage o scanadf, e permette la scansione multipagina. Offre una visualizzazione delle miniature delle pagine acquisite e consente operazioni semplici come ritaglio, rotazione ed eliminazione delle pagine.</p>\n<p>È possibile utilizzare l'OCR per riconoscere il testo negli scansioni ed incorporarli nel PDF o DjVu risultante.</p>\n<p>Il documento finale può essere salvato come PDF, DjVu, TIFF multipagina o file immagine singolo.</p>\n"
+}

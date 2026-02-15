@@ -1,0 +1,52 @@
+id: "skanlite"
+name: Skanlite
+description: Image Scanning Application
+longDescription: |
+  <p>Skanlite is a simple image scanning application to scan and save images.
+     Skanlite is based on libksane, an interface for SANE library to control image scanners.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Save dialog for every image scanned or saving the images immediately in a specified folder with auto-generated names
+  and format</li>
+    <li>Support for networks scanners</li>
+    <li>Preview with selection feature for the final scan</li>
+    <li>Scanning multiple selections of an image</li>
+  </ul>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - skanlite
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/skanlite.desktop/330d7651426575d6882bdb93ee4a8af6/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/skanlite.desktop/330d7651426575d6882bdb93ee4a8af6/screenshots/image-1_624x478@1.png
+    width: 1191
+    height: 914
+iconSources:
+  - url: org/kde/skanlite.desktop/330d7651426575d6882bdb93ee4a8af6/icons/128x128/skanlite_org.kde.skanlite.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org/applications/graphics/skanlite/"
+enabled: true
+order: 99

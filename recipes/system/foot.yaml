@@ -1,0 +1,37 @@
+id: "foot"
+name: Foot Server
+description: A wayland native terminal emulator
+longDescription: |
+  <p>The fast, lightweight and minimalistic Wayland terminal emulator. Features</p>
+  <p> * Fast  * Lightweight, in dependencies, on-disk and in-memory  * Wayland native  * DE agnostic  * User configurable font fallback  * On-the-fly DPI font size adjustment  * Scrollback search  * Color emoji support  * Server/daemon mode  * Multi-seat  * Synchronized Updates support  * Sixel image support</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - foot
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shell
+  - prompt
+  - command
+  - commandline
+iconSources:
+  - url: f/fo/foot-server.desktop/e6e76aaacdc72c00f18fda0622507aec/icons/128x128/foot_foot.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

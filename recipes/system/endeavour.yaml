@@ -1,0 +1,45 @@
+id: "endeavour"
+name: Endeavour
+description: Manage your tasks
+longDescription: |
+  <p>
+        Endeavour is a task management application designed for simplicity. Save and order your todos.
+        Manage multiple todo lists. And more
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - endeavour
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - task
+  - productivity
+  - todo
+screenshotSources:
+  - url: org/gnome/Todo/c2fcba02441006ae8d24b29ad6668cd4/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Todo/c2fcba02441006ae8d24b29ad6668cd4/screenshots/image-1_624x379@1.png
+    width: 1920
+    height: 1168
+  - url: org/gnome/Todo/c2fcba02441006ae8d24b29ad6668cd4/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Todo/c2fcba02441006ae8d24b29ad6668cd4/screenshots/image-2_624x379@1.png
+    width: 1920
+    height: 1168
+iconSources:
+  - url: org/gnome/Todo/c2fcba02441006ae8d24b29ad6668cd4/icons/128x128/endeavour_org.gnome.Todo.png
+    width: 128
+    height: 128
+developer: Jamie Murphy
+homepage: "https://wiki.gnome.org/Apps/Todo"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "GAdmin-Rsync",
+  "description": "Interfaz gráfica sencilla para el servidor rsync",
+  "longDescription": "<p>gadmin-rsync es una interfaz gráfica fácil de usar basada en GTK+ para gestionar servidores rsync.</p>\n<p>Características:  - Permite crear varios conjuntos de copias de seguridad programables para ejecutarse en horarios específicos mediante cron.  - Cada conjunto puede incluir múltiples respaldos de datos, locales o remotos.  - Las copias de seguridad ejecutadas automáticamente mediante cron generan archivos de registro para cada respaldo dentro de sus conjuntos.  - Los archivos de registro adoptan el nombre del conjunto de respaldo correspondiente.  - Se pueden ejecutar conjuntos de copia de seguridad manualmente y ver el progreso en la pestaña correspondiente.  - Las copias remotas son automáticas, diferenciales y cifradas.  - Se crean claves para cada host, las cuales se suben e instalan en los equipos remotos utilizando ssh-keygen/scp y ssh.  - Facilita la programación de sincronizaciones remotas.</p>\n"
+}

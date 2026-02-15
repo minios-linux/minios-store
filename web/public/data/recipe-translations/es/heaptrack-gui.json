@@ -1,0 +1,5 @@
+{
+  "name": "Heaptrack",
+  "description": "Un perfilador de memoria heap para Linux",
+  "longDescription": "<p>Heaptrack rastrea todas las asignaciones de memoria y las anota con trazas de pila. Herramientas de análisis dedicadas te permiten interpretar el perfil de memoria heap para:</p>\n<ul>\n  <li>encontrar puntos críticos que deben optimizarse para reducir el uso de memoria de tu aplicación</li>\n  <li>detectar fugas de memoria, es decir, lugares donde se asigna memoria que nunca se libera</li>\n  <li>identificar puntos críticos de asignación, es decir, ubicaciones en el código que generan muchas llamadas de asignación de memoria</li>\n  <li>localizar asignaciones temporales, que son asignaciones seguidas inmediatamente por su liberación</li>\n</ul>\n"
+}

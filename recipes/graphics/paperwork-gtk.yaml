@@ -1,0 +1,85 @@
+id: "paperwork-gtk"
+name: Paperwork
+description: Personal document manager
+longDescription: |
+  <p>
+        Sorting documents is a machine's job. Paperwork is an easy-to-use
+        application which allows you to find in all your documents
+        when you need them. Type a few keywords in the search bar and the list of
+        papers will shrink to only the relevant content.
+      </p>
+  <p>
+        This is where the magic happens: Paperwork uses automatically optical
+        character recognition (OCR) to convert your papers into searchable documents.
+      </p>
+  <p>Main features are:</p>
+  <ul>
+    <li>Scanner support</li>
+    <li>PDF support</li>
+    <li>Automatic detection of page orientation</li>
+    <li>OCR</li>
+    <li>Document labels</li>
+    <li>Automatic guessing of the labels to apply on new documents</li>
+    <li>Search</li>
+    <li>Keyword suggestions</li>
+    <li>Quick edit of scans</li>
+  </ul>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - paperwork-gtk
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - document
+  - scanner
+  - ocr
+screenshotSources:
+  - url: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-1_orig.png
+    thumbnailUrl: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-1_624x364@1.png
+    width: 1047
+    height: 611
+  - url: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-2_orig.png
+    thumbnailUrl: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-2_624x364@1.png
+    width: 1047
+    height: 611
+  - url: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-3_orig.png
+    thumbnailUrl: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-3_624x364@1.png
+    width: 1047
+    height: 611
+  - url: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-4_orig.png
+    thumbnailUrl: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-4_624x364@1.png
+    width: 1047
+    height: 611
+  - url: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-5_orig.png
+    thumbnailUrl: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-5_624x390@1.png
+    width: 1079
+    height: 676
+  - url: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-6_orig.png
+    thumbnailUrl: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/screenshots/image-6_624x364@1.png
+    width: 1047
+    height: 611
+iconSources:
+  - url: work/openpaper/Paperwork.desktop/7490b24aade5de326af87489488b9ebf/icons/128x128/paperwork-gtk_work.openpaper.Paperwork.png
+    width: 128
+    height: 128
+developer: Openpaper.work
+homepage: "https://openpaper.work/"
+enabled: true
+order: 99

@@ -1,0 +1,50 @@
+id: "doublecmd-common"
+name: Double Commander
+description: Double Commander is a cross platform open source file manager with two panels side by side.
+longDescription: |
+  <p>Double Commander is a cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.</p>
+  <p>Support for RAR archives can be enabled by installing the libunrar-dev package from non-free.</p>
+  <p>This package contains common files.</p>
+  
+categoryId: system
+icon: FolderOpen
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - doublecmd-common
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - folder
+  - manager
+  - explore
+  - disk
+  - filesystem
+  - orthodox
+  - copy
+  - queue
+  - queuing
+  - operations
+iconSources:
+  - url: d/do/doublecmd.desktop/34872a84168fc4daa601049149590f7c/icons/128x128/doublecmd-common_doublecmd.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Applications au démarrage",
+  "description": "Définissez les applications à lancer lors de votre connexion",
+  "longDescription": "<p>Ce paquet propose une session pouvant être lancée depuis un gestionnaire d’affichage tel que MDM. Il charge automatiquement toutes les applications nécessaires pour une session utilisateur complète.</p>\n<p>Le gestionnaire de session permet également d’enregistrer une session en cours et de la restaurer ultérieurement.</p>\n<p>Cette version est configurée pour démarrer l’environnement UKUI, basé sur le panneau UKUI.</p>\n"
+}

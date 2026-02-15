@@ -1,0 +1,5 @@
+{
+  "name": "ClamTk",
+  "description": "Faça varreduras contra ameaças...",
+  "longDescription": "<p>ClamTk é uma interface gráfica para o antivírus Clam.</p>\n<p>Foi desenvolvido para ser um verificador antivírus sob demanda, leve e fácil de usar para sistemas Linux.</p>\n<p>Inclui integração com o menu de contexto do KDE Plasma (gerenciador de arquivos Dolphin) e também com Nemo e Thunar via \"enviar para\". Para o GNOME (gerenciador de arquivos Nautilus), o suporte ao menu de contexto está disponível em um pacote separado: clamtk-gnome, devido a dependências adicionais necessárias.</p>\n"
+}

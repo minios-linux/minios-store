@@ -1,0 +1,71 @@
+id: "libreoffice-writer"
+name: LibreOffice Writer
+description: Word processor part of the LibreOffice productivity suite
+longDescription: |
+  <p>Writer is the word processor inside LibreOffice productivity suite.
+  Use it for everything, from dashing off a quick letter to producing an entire
+  book with tables of contents, embedded illustrations, bibliographies and diagrams.
+  The while-you-type auto-completion, auto-formatting and automatic spell-checking
+  make difficult tasks easy (but are easy to disable if you prefer).
+  Writer is powerful enough to tackle desktop publishing tasks such as creating
+  multi-column newsletters and brochures. The only limit is your imagination.</p>
+  <p>Based on the what-you-see-is-what-you-get principle, Writer allows you to apply
+  various styles and formatting effects to your document and view the results
+  immediately.</p>
+  <p>LibreOffice supports opening and saving into a wide variety of formats, so you
+  can easily share documents with users of other popular office suites without
+  worrying about compatibility.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libreoffice-writer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - letter
+  - fax
+  - document
+  - opendocument text
+  - microsoft word
+  - microsoft works
+  - lotus wordpro
+  - openoffice writer
+  - cv
+screenshotSources:
+  - url: l/li/libreoffice-writer.desktop/2dfef5ba3a28396fb2752c186f0286e6/screenshots/image-1_orig.png
+    thumbnailUrl: l/li/libreoffice-writer.desktop/2dfef5ba3a28396fb2752c186f0286e6/screenshots/image-1_624x390@1.png
+    width: 1129
+    height: 707
+  - url: l/li/libreoffice-writer.desktop/2dfef5ba3a28396fb2752c186f0286e6/screenshots/image-2_orig.png
+    thumbnailUrl: l/li/libreoffice-writer.desktop/2dfef5ba3a28396fb2752c186f0286e6/screenshots/image-2_624x391@1.png
+    width: 1135
+    height: 713
+iconSources:
+  - url: l/li/libreoffice-writer.desktop/2dfef5ba3a28396fb2752c186f0286e6/icons/128x128/libreoffice-writer_libreoffice-writer.png
+    width: 128
+    height: 128
+developer: The Document Foundation
+homepage: "http://www.libreoffice.org/discover/writer/"
+enabled: true
+order: 99

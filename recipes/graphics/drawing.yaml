@@ -1,0 +1,62 @@
+id: "drawing"
+name: Drawing
+description: A drawing application for the GNOME desktop
+longDescription: |
+  <p>"Drawing" is a basic image editor, supporting PNG, JPEG and BMP file types.</p>
+  <p>
+        It allows you to draw or edit pictures with tools such as pencil, line or
+        arc (with various options), selection (cut/copy/paste/drag/…), shapes
+        (rectangle, circle, polygon, …), text insertion, resizing, cropping,
+        rotating, …
+      </p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - drawing
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - paint
+  - sketch
+  - pencil
+screenshotSources:
+  - url: com/github/maoschanz.drawing/873316a30489e342c7e332870a627385/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/maoschanz.drawing/873316a30489e342c7e332870a627385/screenshots/image-1_624x392.png
+    width: 952
+    height: 599
+  - url: com/github/maoschanz.drawing/873316a30489e342c7e332870a627385/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/maoschanz.drawing/873316a30489e342c7e332870a627385/screenshots/image-2_624x392.png
+    width: 952
+    height: 599
+  - url: com/github/maoschanz.drawing/873316a30489e342c7e332870a627385/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/maoschanz.drawing/873316a30489e342c7e332870a627385/screenshots/image-3_624x392.png
+    width: 952
+    height: 599
+  - url: com/github/maoschanz.drawing/873316a30489e342c7e332870a627385/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/maoschanz.drawing/873316a30489e342c7e332870a627385/screenshots/image-4_624x392.png
+    width: 952
+    height: 599
+iconSources:
+  - url: com/github/maoschanz.drawing/873316a30489e342c7e332870a627385/icons/128x128/drawing_com.github.maoschanz.drawing.png
+    width: 128
+    height: 128
+developer: Romain F. T.
+homepage: "https://maoschanz.github.io/drawing"
+enabled: true
+order: 99

@@ -1,0 +1,25 @@
+id: luckyluks
+name: luckyLUKS
+description: GUI for creating and unlocking LUKS/TrueCrypt volumes from container files
+longDescription: |
+  <p>This program is a Linux GUI for creating and (un-)locking encrypted volumes from container files. Unlocked containers leave an icon in the systray as a reminder to close them eventually. Supports cryptsetup/LUKS and Truecrypt container files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - luckyluks
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - cached: luckyluks_dialog-password.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

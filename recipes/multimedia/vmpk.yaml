@@ -1,0 +1,44 @@
+id: "vmpk"
+name: VMPK
+description: Virtual MIDI Piano Keyboard
+longDescription: |
+  <p>Virtual MIDI Piano Keyboard is a MIDI events generator and receiver. It doesn&apos;t produce any sound by itself, but can be used to drive a MIDI synthesizer (either hardware or software, internal or external). You can use the computer&apos;s keyboard to play MIDI notes, and also the mouse. You can use the Virtual MIDI Piano Keyboard to display the played MIDI notes from another instrument or MIDI file player.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vmpk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: net/sourceforge/VMPK/bd3cc4c89664b9c76bd6b3413b05de43/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/VMPK/bd3cc4c89664b9c76bd6b3413b05de43/screenshots/image-1_624x247@1.png
+    width: 1055
+    height: 418
+iconSources:
+  - url: net/sourceforge/VMPK/bd3cc4c89664b9c76bd6b3413b05de43/icons/128x128/vmpk_vmpk.png
+    width: 128
+    height: 128
+developer: Pedro López-Cabanillas
+homepage: "https://vmpk.sourceforge.io/"
+enabled: true
+order: 99

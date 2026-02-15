@@ -1,0 +1,38 @@
+id: foo-yc20
+name: Foo YC20
+description: Organ synthesizer
+longDescription: |
+  <p>The YC-20 is a divide-down combo organ designed in the late 60&apos;s. This emulation faithfully copies the features, sounds and flaws of the original organ.</p>
+  <p>Features:    - 61 keys    - Two main voice sections    - Switchable bass section    - Generator + matrix mixer =&gt; no polyphony restrictions    - A realism control to add flaws found in the real organ</p>
+  <p>Flaws:    - Takes quite a bit of CPU power    - No touch vibrato</p>
+  <p>The emulation is written in Faust and uses Jack for audio and MIDI.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - foo-yc20
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: foo-yc20_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

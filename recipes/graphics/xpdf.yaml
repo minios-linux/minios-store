@@ -1,0 +1,38 @@
+id: "xpdf"
+name: xpdf
+description: View PDF files
+longDescription: |
+  <p>xpdf is a light-weight open source viewer for Portable Document Format (PDF) files (also called &apos;Adobe Acrobat&apos; or &apos;Acrobat&apos; files).  This is just the xpdf viewer client; various command-line pdf tools are now provided via the poppler-utils package.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xpdf
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - viewer
+  - graphics
+iconSources:
+  - url: x/xp/xpdf.desktop/e16bdc2fa2e351ece02c4dfee61c574f/icons/128x128/xpdf_xpdf.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "gnoMint X.509 CA Manager",
+  "description": "Kelola sertifikat X.509 dan CA dengan mudah melalui antarmuka grafis",
+  "longDescription": "<p>gnoMint adalah alat untuk membuat dan mengelola otoritas sertifikat (CA) dengan mudah. Aplikasi ini menyediakan visualisasi detail dari seluruh informasi yang terkait dengan CA, seperti sertifikat X.509, CSR, dan CRL.</p>\n<p>Saat ini, gnoMint mampu mengelola CA yang menerbitkan sertifikat untuk autentikasi pengguna atau perangkat di VPN (IPSec atau protokol lain), mengamankan komunikasi HTTP dengan SSL/TLS, melakukan autentikasi dan enkripsi komunikasi HTTP melalui sertifikat Web-client, serta menandatangani atau mengenkripsi pesan email.</p>\n"
+}

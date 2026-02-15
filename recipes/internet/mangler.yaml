@@ -1,0 +1,37 @@
+id: mangler
+name: Mangler
+description: Voice chat on Ventrilo 3.x servers
+longDescription: |
+  <p>Mangler is an open source VOIP client capable of connecting to Ventrilo 3.x servers. It is capable of performing almost all standard user functionality found in a Windows Ventrilo client.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mangler
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: mangler_mangler_logo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

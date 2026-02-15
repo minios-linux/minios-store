@@ -1,0 +1,58 @@
+id: "atomes"
+name: Atomes
+description: An atomistic toolbox
+longDescription: |
+  <p>Atomes: a toolbox to analyze, to visualize  and to create/edit three-dimensional atomistic models. It offers a workspace that allows to have many projects opened simultaneously. The different projects in the workspace can exchange data:  analysis results, atomic coordinates...</p>
+  <p>Atomes also provides an advanced input preparation system  for further calculations using well known molecular dynamics codes:</p>
+  <ul>
+    <li>Classical MD: DLPOLY and LAMMPS</li>
+    <li>ab-initio MD: CPMD and CP2K</li>
+    <li>QM-MM MD: CPMD and CP2K</li>
+  </ul>
+  <p>To prepare the input files for these calculations is likely to be the key, and most complicated step towards MD simulations. Atomes offers a user-friendly assistant to help and guide the scientist step by step to achieve this crucial step.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - atomes
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - chemistry
+  - physics
+  - atom
+  - molecule
+  - crystal
+  - coordination
+  - polyhedra
+  - measure
+  - volume
+  - builder
+screenshotSources:
+  - url: fr/ipcms/atomes/852bc538b7a8885a8bfe38f481dbd708/screenshots/image-2_orig.png
+    thumbnailUrl: fr/ipcms/atomes/852bc538b7a8885a8bfe38f481dbd708/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: fr/ipcms/atomes/852bc538b7a8885a8bfe38f481dbd708/screenshots/image-3_orig.png
+    thumbnailUrl: fr/ipcms/atomes/852bc538b7a8885a8bfe38f481dbd708/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+  - url: fr/ipcms/atomes/852bc538b7a8885a8bfe38f481dbd708/screenshots/image-4_orig.png
+    thumbnailUrl: fr/ipcms/atomes/852bc538b7a8885a8bfe38f481dbd708/screenshots/image-4_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - cached: atomes_atomes.png
+    width: 64
+    height: 64
+developer: Dr. Sébastien Le Roux
+homepage: "https://atomes.ipcms.fr/"
+enabled: true
+order: 99

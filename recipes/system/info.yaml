@@ -1,0 +1,30 @@
+id: "info"
+name: TeXInfo
+description: The viewer for TexInfo documents
+longDescription: |
+  <p>The Info file format is an easily-parsable representation for online documents. This program allows you to view Info documents, like the ones stored in /usr/share/info.</p>
+  <p>Much of the software in Debian comes with its online documentation in the form of Info files, so it is most likely you will want to install it.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - info
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: i/in/info.desktop/daacc7adc0cefdd7e8c8cdf815e9a95c/icons/128x128/info_dialog-information.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

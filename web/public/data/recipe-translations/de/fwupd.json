@@ -1,0 +1,5 @@
+{
+  "name": "fwupd",
+  "description": "Geräte-Firmware unter Linux aktualisieren",
+  "longDescription": "<p>Dieses Projekt verfolgt das Ziel, Firmware-Updates unter Linux automatisch, sicher und zuverlässig bereitzustellen.<br>Sie können Updates entweder über eine grafische Softwareverwaltung wie GNOME Software, das Kommandozeilen-Tool oder direkt über die D-Bus-Schnittstelle verwalten und anwenden.</p><p>Der fwupd-Daemon ermöglicht es, Firmware von Geräten auf Ihrem lokalen System zu aktualisieren.<br>Er wurde speziell für Desktop-Systeme entwickelt, ist aber auch auf Telefonen, Tablets sowie auf Headless-Servern nutzbar.</p>"
+}

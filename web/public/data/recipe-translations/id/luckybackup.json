@@ -1,0 +1,5 @@
+{
+  "name": "luckyBackup (super user)",
+  "description": "Backup & sinkronisasi data Anda dengan kekuatan rsync",
+  "longDescription": "<p>luckyBackup adalah aplikasi yang mencadangkan dan/atau menyinkronisasi berbagai direktori dengan memanfaatkan kekuatan rsync. Fitur utamanya meliputi: backup, keamanan data, sinkronisasi, opsi pengecualian/penyertaan, dukungan opsi rsync kustom, koneksi jarak jauh, pemulihan dan mode dry-run, penjadwalan, profil, serta mode baris perintah.</p>\n<p>Aplikasi ini mudah digunakan, cepat (hanya mentransfer perubahan, bukan seluruh data), aman (memeriksa semua direktori yang dimasukkan sebelum melakukan manipulasi data), andal, dan sepenuhnya dapat disesuaikan.</p>\n"
+}

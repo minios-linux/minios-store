@@ -1,0 +1,30 @@
+id: helpviewer-app
+name: HelpViewer
+description: GNUstep Help Viewer
+longDescription: |
+  <p>HelpViewer is an online help viewer for GNUstep programs.  It can render files in the XLP format, although this format has been deprecated and only several packages still use it.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - helpviewer.app
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - documentation
+  - manual
+iconSources:
+  - cached: helpviewer.app_app-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

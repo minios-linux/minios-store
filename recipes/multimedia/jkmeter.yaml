@@ -1,0 +1,36 @@
+id: "jkmeter"
+name: Jkmeter
+description: Audio level meter for JACK
+longDescription: |
+  <p>A jkmeter displays both the true RMS level and the digital peak level. But can display stereo correlation too.</p>
+  <p>Jkmeter is based on the ideas of mastering guru Bob Katz. See &lt;https://www.digido.com/bob-katz/index.php&gt; and follow the links on &apos;level practices&apos;. This is the type of meter you want for live recording, mixing and mastering</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jkmeter
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - jackd,measurement,meter,stereo,rms,peak
+iconSources:
+  - url: j/jk/jkmeter.desktop/c55cae04004efa53ccbbfe1df350d154/icons/128x128/jkmeter_jkmeter.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Snd (CLI+JACK)",
+  "description": "Editor audio (con supporto ALSA, senza interfaccia grafica) ispirato a Emacs",
+  "longDescription": "<p>Snd è un potente editor di file audio personalizzabile ed estendibile tramite il linguaggio di programmazione Scheme.</p>\n<p>Questo pacchetto contiene una versione di snd compilata con supporto sia per JACK che per ALSA, ma senza supporto per X.</p>\n"
+}

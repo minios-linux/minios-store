@@ -1,0 +1,5 @@
+{
+  "name": "Worker",
+  "description": "Dateimanager für X.",
+  "longDescription": "<p>Worker ist ein Dateimanager ähnlich wie DirOpus auf dem Amiga. Er lässt sich sowohl mit der Maus als auch über die Tastatur steuern. Es gibt keine Einschränkungen hinsichtlich der Anzahl oder Art der Button-Funktionen. Dateien werden sowohl anhand der Endung als auch anhand ihres Inhalts erkannt – letzteres durch das Erkennen typischer Byte-Muster in bereitgestellten Beispieldateien. Drag &amp; Drop wird unterstützt.</p>\n<p>Wenn xli oder ImageMagick installiert ist, werden Bilder im gegenüberliegenden Fenster schnell als Vorschau angezeigt. Ist x11-utils installiert, zeigt xmessage bestimmte Informationsmeldungen an.</p>\n"
+}

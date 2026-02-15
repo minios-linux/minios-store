@@ -1,0 +1,5 @@
+{
+  "name": "Network animator",
+  "description": "Animatore di rete basato su Qt4 compatibile con ns-3",
+  "longDescription": "<p>NetAnim attualmente visualizza la simulazione tramite un file di traccia XML raccolto durante la simulazione.</p>\n<p>L'utilizzo di NetAnim avviene in due fasi: - Generare il file di traccia XML durante la simulazione usando \"ns3::AnimationInterface\" nel codice sorgente di ns-3 - Caricare il file XML generato nella fase 1 con l'animatore offline (NetAnim).</p>\n"
+}

@@ -1,0 +1,48 @@
+id: "kigo"
+name: Kigo
+description: Go Board Game
+longDescription: |
+  <p>Kigo is an open-source implementation of the popular Go game.
+        Go is a strategic board game for two players. It is also known as igo (Japanese),
+        weiqi or wei ch&apos;i (Chinese) or baduk (Korean). Go is noted for being rich in
+        strategic complexity despite its simple rules. The game is played by two players
+        who alternately place black and white stones (playing pieces, now usually made of
+        glass or plastic) on the vacant intersections of a grid of 19x19 lines (9x9 or 13x13 for easier games).</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kigo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kigo/c8e18b6a87243d682c28d357025d5e40/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kigo/c8e18b6a87243d682c28d357025d5e40/screenshots/image-1_624x541@1.png
+    width: 834
+    height: 724
+iconSources:
+  - url: org/kde/kigo/c8e18b6a87243d682c28d357025d5e40/icons/128x128/kigo_kigo.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kigo"
+enabled: true
+order: 99

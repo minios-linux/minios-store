@@ -1,0 +1,71 @@
+id: "cmst"
+name: cmst
+description: A Qt based GUI front end for the connman connection manager with systemtray icon
+longDescription: |
+  <p>Qt GUI for Connman with system tray icon. The program provides graphical user interface to control the connman daemon.
+        The connman daemon must be started as you normally would, this program just interfaces with that daemon.
+        You can see what technologies and services connman has found, and for wifi services an agent is registered to assist
+  in
+        obtaining the information from you necessary to logon the wifi service.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cmst
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - network
+  - wireless
+  - wi-fi
+  - wifi
+  - ip
+  - lan
+  - proxy
+  - wan
+  - broadband
+  - bluetooth
+screenshotSources:
+  - url: c/cm/cmst.desktop/0440215b4f1accb4c2e5fe0ad76dc7df/screenshots/image-1_orig.png
+    thumbnailUrl: c/cm/cmst.desktop/0440215b4f1accb4c2e5fe0ad76dc7df/screenshots/image-1_624x556.png
+    width: 684
+    height: 610
+  - url: c/cm/cmst.desktop/0440215b4f1accb4c2e5fe0ad76dc7df/screenshots/image-2_orig.png
+    thumbnailUrl: c/cm/cmst.desktop/0440215b4f1accb4c2e5fe0ad76dc7df/screenshots/image-2_624x509.png
+    width: 682
+    height: 557
+  - url: c/cm/cmst.desktop/0440215b4f1accb4c2e5fe0ad76dc7df/screenshots/image-3_orig.png
+    thumbnailUrl: c/cm/cmst.desktop/0440215b4f1accb4c2e5fe0ad76dc7df/screenshots/image-3_624x509.png
+    width: 682
+    height: 557
+  - url: c/cm/cmst.desktop/0440215b4f1accb4c2e5fe0ad76dc7df/screenshots/image-4_orig.png
+    thumbnailUrl: c/cm/cmst.desktop/0440215b4f1accb4c2e5fe0ad76dc7df/screenshots/image-4_624x576.png
+    width: 645
+    height: 596
+iconSources:
+  - cached: cmst_preferences-system-network.png
+    width: 64
+    height: 64
+developer: Andrew J. Bibb
+homepage: "https://github.com/andrew-bibb/cmst"
+enabled: true
+order: 99

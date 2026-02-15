@@ -1,0 +1,37 @@
+id: gnome-system-log
+name: System Log
+description: View or monitor system log files
+longDescription: |
+  <p>This program displays system log files in a friendly way and allows one to filter or search expressions in them.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-system-log
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - logs
+  - debug
+  - error
+iconSources:
+  - url: g/gn/gnome-system-log.desktop/225580A3FD9CD7878A972E6F4760294C/icons/128x128/gnome-system-log_logview.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

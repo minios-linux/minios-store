@@ -1,0 +1,5 @@
+{
+  "name": "zyGrib GRIB-Datei-Betrachter",
+  "description": "Betrachter für meteorologische Dateien",
+  "longDescription": "<p>Diese Anwendung, entwickelt mit dem Qt-Toolkit, ermöglicht:  * Visualisierung von Wetterdaten aus Dateien im GRIB-Format 1  * Automatischer Download von GRIB-Daten  * Automatischer Download von IAC (fleetcode)-Daten</p>\n"
+}

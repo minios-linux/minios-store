@@ -1,0 +1,29 @@
+id: deepin-boot-maker
+name: Deepin Boot Maker
+description: A tool to create boot media
+longDescription: |
+  <p>It&apos;s designed to support deepin system iso, it can works for Debian and ubuntu iso too.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deepin-boot-maker
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/de/deepin-boot-maker.desktop/20dab2139659b77968cb9733fd4e07a5/icons/128x128/deepin-boot-maker_deepin-boot-maker.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

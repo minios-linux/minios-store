@@ -1,0 +1,5 @@
+{
+  "name": "Dialect",
+  "description": "Traduza entre idiomas",
+  "longDescription": "<p>\n      Um aplicativo de tradução para o GNOME.\n    </p>\n<p>\n      Recursos:\n    </p>\n<ul>\n  <li>Tradução baseada no Google Tradutor</li>\n  <li>Tradução usando a API do LibreTranslate, permitindo o uso de qualquer instância pública</li>\n  <li>Tradução via API do Lingva Translate</li>\n  <li>Conversão de texto em fala</li>\n  <li>Histórico de traduções</li>\n  <li>Detecção automática de idioma</li>\n  <li>Botões para copiar e colar do clipboard</li>\n</ul>\n"
+}

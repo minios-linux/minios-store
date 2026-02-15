@@ -1,0 +1,5 @@
+{
+  "name": "color-picker",
+  "description": "Potente selector de color en pantalla basado en Qt",
+  "longDescription": "<p>Selector y editor de colores para diseñadores web y artistas digitales. Con Color Picker,\n      \tidentificar, guardar y editar colores es rápido y sencillo.</p>\n<p>Funciones principales de Color Picker:</p>\n<p>* Soporte para cinco formatos de código de color: HTML, HexRGBA, RGB, HSB/HSV, CMYK y sus variantes.\n          Conversión entre códigos de color HTML, HEX y RGB al color correspondiente.</p>\n<p>* Selector de color para manejo sencillo y mayor precisión.</p>\n<p>* Lista de colores para guardar y reutilizar muestras seleccionadas.</p>\n<p>* Vista previa de color</p>\n<p>* Generador progresivo de patrones de color</p>\n<p>* Compatible con tres temas: Tema del sistema, Tema Claro (Flat Light) y Tema Oscuro.</p>\n"
+}

@@ -1,0 +1,67 @@
+id: "deja-dup"
+name: Déjà Dup Backup Tool
+description: Keep your important documents safe from disaster
+longDescription: |
+  <p>Déjà Dup is a simple backup tool. It hides the complexity of backing up the Right Way (encrypted, off-site, and regular) and uses duplicity as the backend.</p>
+  <ul>
+    <li>Support for local, remote, or cloud backup locations such as Google Drive and Nextcloud</li>
+    <li>Securely encrypts and compresses your data</li>
+    <li>Incrementally backs up, letting you restore from any particular backup</li>
+    <li>Schedules regular backups</li>
+    <li>Integrates well into your GNOME desktop</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deja-dup
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - déjà
+  - deja
+  - dup
+screenshotSources:
+  - url: org/gnome/DejaDup/9205835601fb0b6a6c1393e713ee5325/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/DejaDup/9205835601fb0b6a6c1393e713ee5325/screenshots/image-1_624x472@1.png
+    width: 822
+    height: 622
+  - url: org/gnome/DejaDup/9205835601fb0b6a6c1393e713ee5325/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/DejaDup/9205835601fb0b6a6c1393e713ee5325/screenshots/image-2_624x472@1.png
+    width: 822
+    height: 622
+  - url: org/gnome/DejaDup/9205835601fb0b6a6c1393e713ee5325/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/DejaDup/9205835601fb0b6a6c1393e713ee5325/screenshots/image-3_624x502@1.png
+    width: 772
+    height: 622
+  - url: org/gnome/DejaDup/9205835601fb0b6a6c1393e713ee5325/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/DejaDup/9205835601fb0b6a6c1393e713ee5325/screenshots/image-4_624x502@1.png
+    width: 772
+    height: 622
+iconSources:
+  - url: org/gnome/DejaDup/9205835601fb0b6a6c1393e713ee5325/icons/128x128/deja-dup_org.gnome.DejaDup.png
+    width: 128
+    height: 128
+developer: Michael Terry
+homepage: "https://wiki.gnome.org/Apps/DejaDup"
+enabled: true
+order: 99

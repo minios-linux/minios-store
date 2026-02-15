@@ -1,0 +1,5 @@
+{
+  "name": "Atomes",
+  "description": "Una toolbox atomistica",
+  "longDescription": "<p>Atomes: una toolbox per analizzare, visualizzare e creare/modificare modelli atomistici tridimensionali. Offre uno spazio di lavoro che permette di gestire più progetti aperti contemporaneamente. I diversi progetti all'interno dello spazio di lavoro possono scambiarsi dati come risultati di analisi e coordinate atomiche…</p>\n<p>Atomes fornisce anche un sistema avanzato per la preparazione degli input necessari a calcoli con noti codici di dinamica molecolare:</p>\n<ul>\n  <li>MD classica: DLPOLY e LAMMPS</li>\n  <li>MD ab-initio: CPMD e CP2K</li>\n  <li>MD QM-MM: CPMD e CP2K</li>\n</ul>\n<p>Preparare i file di input per questi calcoli è spesso la fase chiave e più complessa nelle simulazioni di dinamica molecolare. Atomes offre un assistente intuitivo che guida passo passo il ricercatore nell'esecuzione di questo passaggio fondamentale.</p>\n"
+}

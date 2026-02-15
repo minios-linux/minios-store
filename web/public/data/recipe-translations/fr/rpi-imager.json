@@ -1,0 +1,5 @@
+{
+  "name": "Raspberry Pi Imager",
+  "description": "Utilitaire d’écriture d’images pour Raspberry Pi",
+  "longDescription": "<p>\n      Raspberry Pi Imager télécharge un fichier .JSON depuis le site officiel de Raspberry Pi contenant la liste de toutes les options de téléchargement actuelles, vous garantissant ainsi d’installer la version la plus récente.\n    </p>\n<p>\n      Après avoir sélectionné un système d’exploitation parmi les options disponibles, l’utilitaire récupère directement le fichier correspondant depuis le site de Raspberry Pi et l’écrit directement sur la carte SD. Ce procédé accélère considérablement l’opération par rapport à la méthode classique qui consiste à télécharger le fichier, l’enregistrer sur le disque dur, puis, dans une étape séparée, le copier sur la carte SD.\n    </p>\n<p>\n      Durant ce processus, Raspberry Pi Imager met également en cache l’image système téléchargée — autrement dit, il sauvegarde une copie locale sur votre ordinateur, ce qui vous permet de programmer d’autres cartes SD sans avoir à re-télécharger le fichier.\n    </p>\n"
+}

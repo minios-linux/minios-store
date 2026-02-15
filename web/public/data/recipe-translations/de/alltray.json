@@ -1,0 +1,5 @@
+{
+  "name": "AllTray",
+  "description": "Beliebige Anwendung im Benachrichtigungsbereich/System-Tray andocken.",
+  "longDescription": "<p>Mit AllTray können Sie beliebige Anwendungen, die kein eigenes Tray-Symbol besitzen (wie Evolution, Thunderbird oder Terminal-Programme), in den System-Tray verschieben. Besonders praktisch: Ein Klick auf den „Schließen“-Button minimiert die Anwendung stattdessen in den Tray. Unterstützt werden GNOME, KDE, Xfce 4*, Fluxbox* und WindowMaker* (* Drag-and-Drop wird nicht unterstützt. Aktivieren Sie dies mit der Option „-nm“).</p>\n"
+}

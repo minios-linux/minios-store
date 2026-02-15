@@ -1,0 +1,27 @@
+id: openjdk-11-jre
+name: OpenJDK Java 11 Policy Tool
+description: OpenJDK Java 11 Policy Tool
+longDescription: |
+  <p>Full Java runtime environment - needed for executing Java GUI and Webstart programs, using Hotspot JIT.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openjdk-11-jre
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - java
+  - security
+  - policytool
+iconSources:
+  - cached: openjdk-11-jre_openjdk-11.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

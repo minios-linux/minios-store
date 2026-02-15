@@ -1,0 +1,53 @@
+id: "kolf"
+name: Kolf
+description: Miniature Golf
+longDescription: |
+  <p>Kolf is a miniature golf game. The game is played from an overhead view, with a
+        hort bar representing the golf club. Kolf features many different types of objects,
+        such water hazards, slopes, sand traps, and black holes (warps), among others.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Single and Multi-player (up to ten players) modes</li>
+    <li>High scores table</li>
+    <li>Dynamic courses</li>
+    <li>Third-party courses</li>
+    <li>Course editor</li>
+  </ul>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kolf
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kolf/2338b973988142e7308a712359f97963/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kolf/2338b973988142e7308a712359f97963/screenshots/image-1_624x730@1.png
+    width: 739
+    height: 865
+iconSources:
+  - url: org/kde/kolf/2338b973988142e7308a712359f97963/icons/128x128/kolf_kolf.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/applications/games/org.kde.kolf"
+enabled: true
+order: 99

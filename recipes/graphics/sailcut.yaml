@@ -1,0 +1,36 @@
+id: sailcut
+name: Sailcut CAD
+description: Sail Design Application
+longDescription: |
+  <p>
+        Sailcut CAD is a sail design and plotting software which allows you to design and visualise your own sails and compute
+  the accurate development of all panels in flat sheets.  You can export the sails you create to DXF, plaintext or Carlson plotter files.
+      </p>
+  <p>
+        Sailcut CAD's user interface is available in English, French, Dutch, German, Italian, Norwegian, Portuguese, Danish
+  and Russian.
+      </p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sailcut
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - design
+  - cad
+  - diagrams
+  - graphics
+iconSources:
+  - url: org/sailcut/cad/5a8decf2c266e5d6b688462916e1e5f5/icons/128x128/sailcut_sailcut.png
+    width: 128
+    height: 128
+homepage: "https://www.sailcut.com"
+enabled: true
+order: 99

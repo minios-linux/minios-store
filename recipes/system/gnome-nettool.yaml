@@ -1,0 +1,42 @@
+id: "gnome-nettool"
+name: Network Tools
+description: View information about your network
+longDescription: |
+  <p>GNOME Nettool is a network information tool which provides user interfaces for some of the most common command line network tools including:    * ifconfig    * ping    * netstat    * traceroute    * port scanning    * DNS lookup    * finger    * whois</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-nettool
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - network
+  - monitor
+  - remote
+iconSources:
+  - url: g/gn/gnome-nettool.desktop/d1660d196478aa9703fc1d15e6fc4d3f/icons/128x128/gnome-nettool_gnome-nettool.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+enabled: true
+order: 99

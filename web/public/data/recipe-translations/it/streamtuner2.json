@@ -1,0 +1,5 @@
+{
+  "name": "streamtuner2",
+  "description": "Ascolta stazioni musicali shoutcast/xiph/live365",
+  "longDescription": "<p>streamtuner2 è un browser per directory di stazioni radio. Può recuperare elenchi da SHOUTcast, Xiph.org, Live365, Jamendo, DMOZ, basic.ch, Punkcast. Mostra le stazioni per categoria o genere musicale. Utilizza i lettori audio già installati nel sistema e delega la registrazione a streamripper.</p>\n<p>Imita l’originale streamtuner 0.99.99, ma è più semplice da estendere grazie al fatto che è scritto interamente in Python. È già stabile e pronto all’uso.</p>\n"
+}

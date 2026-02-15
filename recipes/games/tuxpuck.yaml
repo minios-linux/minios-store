@@ -1,0 +1,43 @@
+id: tuxpuck
+name: TuxPuck
+description: Play Shufflepuck with Tux
+longDescription: |
+  <p>TuxPuck is an air hockey game and clone of the Amiga/Atari ST game Shufflepuck Café. The player moves a bat around a table and tries to knock the puck past the opponent&apos;s defense. After either party has reached 15 points, the match is over.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tuxpuck
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tux
+  - puck
+  - cafe
+  - shufflepuck
+  - arcana
+iconSources:
+  - cached: tuxpuck_tuxpuck.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

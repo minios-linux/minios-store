@@ -1,0 +1,5 @@
+{
+  "name": "Megapixels",
+  "description": "Eine GNOME-Kameraanwendung für Mobilgeräte",
+  "longDescription": "<p>\n\t\t\tMegapixels ist eine Kameraanwendung, die für Smartphones und Tablets entwickelt wurde.\n\t\t\tSie nutzt die v4l2- und media-request-APIs zur Einrichtung von Kamerapipelines auf\n\t\t\tARM-Hardware und verwendet die RAW-Datenmodi der Sensoren, um Bilder in bestmöglicher Qualität zu liefern.\n\t\t</p>\n"
+}

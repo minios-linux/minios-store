@@ -1,0 +1,41 @@
+id: "vvmplayer"
+name: VVM Player
+description: Visual Voicemail Player
+longDescription: |
+  <p>
+        Visual Voicemail Player is a GUI app that plays and deletes Visual voicemails
+        retreived by Visual Voicemail Daemon (vvmd).
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vvmplayer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - network
+screenshotSources:
+  - url: org/kop316/vvmplayer/b79408d88aad9461375ad8e48b6482dc/screenshots/image-1_orig.png
+    thumbnailUrl: org/kop316/vvmplayer/b79408d88aad9461375ad8e48b6482dc/screenshots/image-1_624x1248.png
+    width: 720
+    height: 1440
+iconSources:
+  - url: org/kop316/vvmplayer/b79408d88aad9461375ad8e48b6482dc/icons/128x128/vvmplayer_org.kop316.vvmplayer.png
+    width: 128
+    height: 128
+developer: Chris Talbot
+homepage: "https://gitlab.com/kop316/vvmplayer"
+enabled: true
+order: 99

@@ -1,0 +1,44 @@
+id: "quaternion"
+name: Quaternion
+description: Qt5-based client for Matrix networks
+longDescription: |
+  <p>Quaternion is a cross-platform desktop IM client for the Matrix protocol.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - quaternion
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/github/quaternion.desktop/a64ad37901fccc555d0a5fd7507dbff7/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/quaternion.desktop/a64ad37901fccc555d0a5fd7507dbff7/screenshots/image-1_624x392.png
+    width: 1427
+    height: 898
+iconSources:
+  - url: com/github/quaternion.desktop/d8894735e5d2b1fff05d2d8d92b819b5/icons/128x128/quaternion_quaternion.png
+    width: 128
+    height: 128
+developer: Kitsune Ral et al.
+homepage: "https://github.com/QMatrixClient/Quaternion"
+enabled: true
+order: 99

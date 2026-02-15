@@ -1,0 +1,34 @@
+id: "gupnp-tools"
+name: UPnP AV Control Point
+description: Browse and control UPnP multimedia devices
+longDescription: |
+  <p>GUPnP is an object-oriented open source framework for creating UPnP devices and control points, written in C using GObject and libsoup. The GUPnP API is intended to be easy to use, efficient and flexible.</p>
+  <p>GUPnP Tools are free replacements of Intel UPnP tools that use GUPnP. They provides the following client and server side tools which enable one to easily test and debug one&apos;s UPnP devices and control points:  * Universal Control Point: a tool that enables one to discover UPnP devices    and services, retrieve information about them, subscribe to events and    invoke actions.  * Network Light: a virtual light bulb that allows control points to switch    it on and off, change its dimming level and query its current status.  * AV Control Point: a simple media player UI that enables one to discover and    play multimedia content available on the network.  * MediaServer upload: upload files to MediaServers  * Upload: a simple commandline utility that uploads files to known    MediaServers. Use Universal Control Point for discovering the MediaServers.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gupnp-tools
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gu/gupnp-network-light.desktop/56079fa01ee6d796039ed63dfec7f7cc/icons/128x128/gupnp-tools_network-light.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

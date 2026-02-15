@@ -1,0 +1,5 @@
+{
+  "name": "QtPass",
+  "description": "Interface graphique pour le gestionnaire de mots de passe standard Unix",
+  "longDescription": "<p>QtPass est une interface graphique multiplateforme pour pass, le gestionnaire de mots de passe standard sous Unix.</p>\n<p>Fonctionnalités&nbsp;:</p>\n<ul>\n  <li>Utilise pass ou git et gpg2 directement</li>\n  <li>Fonctionne sur Linux, BSD, OS X et Windows</li>\n  <li>Exploite les widgets et l’iconographie natives quand c'est possible</li>\n  <li>Lecture des coffres de mots de passe pass</li>\n  <li>Déchiffrement et affichage des mots de passe et informations associées</li>\n  <li>Modification et ajout de mots de passe et d’informations</li>\n  <li>Mise à jour vers et depuis un dépôt git</li>\n  <li>Sélection d’utilisateurs par dossier pour le chiffrement à plusieurs destinataires</li>\n  <li>Options de configuration des moteurs et des chemins exécutables/dossiers</li>\n  <li>Copie du mot de passe dans le presse-papier</li>\n  <li>Options configurables de protection contre les regards indiscrets</li>\n  <li>Prise en charge expérimentale de WebDAV</li>\n</ul>\n"
+}

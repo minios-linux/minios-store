@@ -1,0 +1,5 @@
+{
+  "name": "neomutt",
+  "description": "Semplice client email testuale (Mail User Agent)",
+  "longDescription": "<p>Neomutt offre tutte le funzionalità presenti in Mutt, inclusi il supporto a POP e IMAP, la crittografia SSL e l'autenticazione SASL, la gestione delle conversazioni (threading) e il supporto GPG. In più, neomutt integra:  * Notmuch: uno strumento di indicizzazione email che offre funzionalità avanzate come ricerca full-text, ricostruzione delle conversazioni e funzionalità aggiuntive.  * Evidenziazione dei titoli degli allegati tramite regex, come per i corpi dei messaggi.  * Regole personalizzate per il tema dell'indice dei messaggi.  * Supporto NNTP.  * Barra di avanzamento visiva per operazioni lente.  * Cartella cestino.</p>\n"
+}

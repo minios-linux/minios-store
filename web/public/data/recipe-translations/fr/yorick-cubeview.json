@@ -1,0 +1,5 @@
+{
+  "name": "Cubeview",
+  "description": "Visualiseur 3D de données FITS pour la spectro-imagerie",
+  "longDescription": "<p>Cubeview est un visualiseur de données 3D au format FITS, un format de fichier largement utilisé par les astronomes. Il est spécialisé dans l'affichage des données de spectro-imagerie, mais peut également être utilisé pour une visualisation basique de tout fichier FITS contenant un tableau 3D.</p>\n<p>Cubeview propose une interface graphique autonome conforme à l'ergonomie GTK+. Écrit en Yorick, il est naturellement scriptable. Un système de hooks permet d’automatiser des actions personnalisées lors de certains événements.</p>\n"
+}

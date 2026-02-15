@@ -1,0 +1,36 @@
+id: alsa-tools-gui
+name: Envy24 Control
+description: Mixer and GUI control utility for Envy24-based sound cards
+longDescription: |
+  <p>A collection of GUI based ALSA utilities for specific sound hardware:</p>
+  <p> echomixer - control tool for Echoaudio soundcards  envy24control - control tool for Envy24 (ice1712) based soundcards  hdajackretask - retask jacks on HDA Intel hardware  hdspconf - GUI program to control the Hammerfall HDSP Alsa Settings.  hdspmixer - tool to control the advanced routing features of the              RME Hammerfall DSP.  rmedigicontrol - control tool for RME Digi32 and RME Digi96 soundcards</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - alsa-tools-gui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: alsa-tools-gui_envy24control.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

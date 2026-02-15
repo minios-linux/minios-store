@@ -1,0 +1,29 @@
+id: edenmath-app
+name: EdenMath
+description: A Scientific Calculator
+longDescription: |
+  <p>EdenMath is a scientific calculator. It does standard arithmetic, probability, and trigonometric functions.</p>
+  <p>This is a GNUstep port of the original MacOS X application: http://www.edenwaith.com/products/edenmath/</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - edenmath.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calculation
+  - arithmetic
+  - scientific
+  - financial
+iconSources:
+  - cached: edenmath.app_EdenMath.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

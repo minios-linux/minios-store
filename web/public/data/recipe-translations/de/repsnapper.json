@@ -1,0 +1,5 @@
+{
+  "name": "repsnapper",
+  "description": "Steuert Ihren 3D-Kunststoffdrucker",
+  "longDescription": "<p>Ein RepRap ist ein 3D-Drucker: eine Maschine, die 3-dimensionale Kunststoffobjekte aus einem Computermodell drucken kann. Repsnapper kann STL-Dateien, die mit den meisten 3D-Konstruktionsprogrammen wie Blender erstellt werden, in GCode umwandeln, den der RepRap versteht. Außerdem lassen sich die Ergebnisse direkt an den RepRap senden.</p>\n"
+}

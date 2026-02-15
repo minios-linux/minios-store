@@ -1,0 +1,44 @@
+id: "kbreakout"
+name: KBreakOut
+description: Classic arcade game
+longDescription: |
+  <p>kbreakout is a game similar to the classics breakout and xboing, featuring a number of added graphical enhancements and effects.  You control a paddle at the bottom of the playing-field, and must destroy bricks at the top by bouncing balls against them.</p>
+  <p>This package is part of the KDE games module.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kbreakout
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kbreakout/6b5d2bc4a0376daa0a139595071f5d2f/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kbreakout/6b5d2bc4a0376daa0a139595071f5d2f/screenshots/image-1_624x466@1.png
+    width: 883
+    height: 660
+iconSources:
+  - url: org/kde/kbreakout/6b5d2bc4a0376daa0a139595071f5d2f/icons/128x128/kbreakout_kbreakout.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/applications/games/org.kde.kbreakout"
+enabled: true
+order: 99

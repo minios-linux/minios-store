@@ -1,0 +1,31 @@
+id: edfbrowser
+name: EDFbrowser
+description: A viewer/toolbox for timeseries storage files
+longDescription: |
+  <p>EDFbrowser is a viewer for medical timeseries storage files containing data such as EEG, EMG, and ECG signals.  It supports EDF(+) and BDF(+) file formats. Apart from viewing the files, it also supports some editing operations and can convert the biomedical files to other formats.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - edfbrowser
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: edfbrowser_edf.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

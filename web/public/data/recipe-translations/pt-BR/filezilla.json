@@ -1,0 +1,5 @@
+{
+  "name": "FileZilla",
+  "description": "Faça download e upload de arquivos via FTP, FTPS e SFTP",
+  "longDescription": "<p>O FileZilla é um cliente FTP completo com uma interface gráfica intuitiva e fácil de usar.</p>\n<p>Desenvolvido em C++ utilizando a biblioteca wxWidgets.</p>\n<p>Principais recursos do FileZilla:   * Suporte aos protocolos FTP, FTP sobre SSL/TLS (FTPS) e SSH File Transfer Protocol (SFTP)   * Compatibilidade com IPv6   * Disponível em mais de 40 idiomas   * Retomada de transferências e suporte a arquivos grandes (&gt;4GB)   * Gerenciador de Sites e fila de transferências de fácil utilização   * Favoritos   * Suporte a arrastar e soltar (drag &amp; drop)   * Limite de velocidade   * Filtros de nomes de arquivos   * Comparação de diretórios   * Assistente de configuração de rede   * Edição remota de arquivos   * Conexão persistente (keep-alive)   * Suporte a proxy HTTP/1.1, SOCKS5 e FTP   * Registro de logs em arquivo   * Navegação sincronizada de diretórios   * Busca de arquivos remotos   * Interface com abas para múltiplas conexões simultâneas</p>\n"
+}

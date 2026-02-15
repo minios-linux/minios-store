@@ -1,0 +1,45 @@
+id: "kuiviewer"
+name: KUIViewer
+description: A quick viewer for Qt Designer UI File
+longDescription: |
+  <p>KUIViewer is a utility to display and check user interface (.ui) files created in Qt Designer.  The interfaces can be shown in a variety of different widget styles to ensure that they display correctly in any environment.</p>
+  <p>The Qt Designer itself is in the package qttools5-dev-tools.</p>
+  <p>This package is part of the KDE Software Development Kit module.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kuiviewer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kuiviewer/304bda309523abb16ce73d8898be0bf2/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kuiviewer/304bda309523abb16ce73d8898be0bf2/screenshots/image-1_624x616@1.png
+    width: 739
+    height: 730
+iconSources:
+  - url: org/kde/kuiviewer/304bda309523abb16ce73d8898be0bf2/icons/128x128/kuiviewer_kuiviewer.png
+    width: 128
+    height: 128
+homepage: "https://userbase.kde.org/KUIViewer"
+enabled: true
+order: 99

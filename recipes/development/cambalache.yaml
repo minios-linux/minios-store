@@ -1,0 +1,52 @@
+id: cambalache
+name: Cambalache
+description: Create GTK 4 user interfaces
+longDescription: |
+  <p>
+        Cambalache is a RAD tool that enables the creation of user interfaces
+        for Gtk 4/3 applications.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cambalache
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gtk
+  - libadwaita
+  - libhandy
+  - gui designer
+  - ui maker
+  - user interface
+  - ui builder
+screenshotSources:
+  - url: ar/xjuan/Cambalache/1a1f41b88a886652a050d7084e3c2af0/screenshots/image-1_orig.png
+    thumbnailUrl: ar/xjuan/Cambalache/1a1f41b88a886652a050d7084e3c2af0/screenshots/image-1_624x389@1.png
+    width: 1228
+    height: 767
+  - url: ar/xjuan/Cambalache/1a1f41b88a886652a050d7084e3c2af0/screenshots/image-2_orig.png
+    thumbnailUrl: ar/xjuan/Cambalache/1a1f41b88a886652a050d7084e3c2af0/screenshots/image-2_624x373@1.png
+    width: 1282
+    height: 767
+  - url: ar/xjuan/Cambalache/1a1f41b88a886652a050d7084e3c2af0/screenshots/image-3_orig.png
+    thumbnailUrl: ar/xjuan/Cambalache/1a1f41b88a886652a050d7084e3c2af0/screenshots/image-3_624x354@1.png
+    width: 1350
+    height: 767
+  - url: ar/xjuan/Cambalache/1a1f41b88a886652a050d7084e3c2af0/screenshots/image-4_orig.png
+    thumbnailUrl: ar/xjuan/Cambalache/1a1f41b88a886652a050d7084e3c2af0/screenshots/image-4_624x373@1.png
+    width: 1282
+    height: 767
+iconSources:
+  - url: ar/xjuan/Cambalache/1a1f41b88a886652a050d7084e3c2af0/icons/128x128/cambalache_ar.xjuan.Cambalache.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.gnome.org/jpu/cambalache"
+enabled: true
+order: 99

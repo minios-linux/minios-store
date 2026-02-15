@@ -1,0 +1,5 @@
+{
+  "name": "GtkHash",
+  "description": "Berechnung von Prüfsummen und Hashwerten",
+  "longDescription": "<p>GtkHash ist eine Anwendung zur Berechnung von Datei-Prüfsummen und Hashwerten. Sie bietet eine benutzerfreundliche grafische Oberfläche als Alternative zu Kommandozeilentools wie md5sum.</p>\n<p>Unterstützte Hash-Algorithmen sind MD5, SHA1, SHA256, SHA512 und CRC32.</p>\n"
+}

@@ -1,0 +1,40 @@
+id: "ddrescueview"
+name: ddrescueview
+description: Graphical viewer for GNU ddrescue map files
+longDescription: |
+  <p>This small tool allows the user to graphically examine ddrescue&apos;s map files in a user friendly GUI application. The Main window displays a block grid with each block&apos;s color representing the block types it contains. Many people know this type of view from defragmentation programs.</p>
+  <p>Features:  * Display ddrescue map in a colored block graphic  * Examine each block in the image, see a detailed list of    map entries contained  * To keep track of the rescue process, ddrescueview can automatically    re-read the mapfile  * Units can be displayed with decimal (KB, MB...) or    binary (KiB, MiB...) prefixes</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ddrescueview
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ddrescue
+  - gddrescue
+  - rescue
+  - recovery
+  - log
+  - logfile
+  - mapfile
+iconSources:
+  - url: d/dd/ddrescueview.desktop/3d288c901d14e53904754edd6d0debd0/icons/128x128/ddrescueview_ddrescueview.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "XSane",
+  "description": "Ein Programm zur Arbeit mit Scannern. Kann als Scan-, Kopier-, OCR- und Fax-Werkzeug verwendet werden.",
+  "longDescription": "<p>xsane kann eigenständig oder als Plugin im Bildbearbeitungsprogramm GIMP ausgeführt werden. Im Standalone-Modus kann xsane Bilder in verschiedenen Bildformaten speichern, als Frontend für ein Faxprogramm dienen oder Bilder direkt an einen Drucker senden.</p>\n<p>SANE steht für „Scanner Access Now Easy“ und ist eine Programmierschnittstelle (API), die standardisierten Zugriff auf alle Rasterbild-Scanner-Hardware bietet (Flachbettscanner, Handscanner, Video- und Digitalkameras, Framegrabber etc.). Der SANE-Standard ist frei verfügbar und seine Weiterentwicklung ist offen für alle. Der aktuelle Quellcode unterstützt mehrere Betriebssysteme wie GNU/Linux, OS/2, Win32 und verschiedene Unices und steht unter der GNU General Public License (auch kommerzielle Anwendungen und Backends sind willkommen).</p>\n"
+}

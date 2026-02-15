@@ -1,0 +1,31 @@
+id: "syncplay-server"
+name: Syncplay server
+description: Synchronize video playback over network
+longDescription: |
+  <p>To learn what Syncplay is read the description of package &apos;syncplay&apos;.</p>
+  <p>This package installs the Syncplay server program. Install this package when you plan to set up your own Syncplay server that your friends and family connect to.</p>
+  <p>Note that the computer that runs the Syncplay server must be reachable from the Internet. To enable encryption, you need a domain and a valid certificate. The package provides a hook script for the recommended certbot package to simplify encrypted configurations. Integration with the suggested packages dehydrated or acme-tiny requires manual configuration.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - syncplay-server
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/sy/syncplay-server.desktop/a3a99e1111922cb35800bcd7749fc73b/icons/128x128/syncplay-server_syncplay.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

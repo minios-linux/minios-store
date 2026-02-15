@@ -1,0 +1,35 @@
+id: "gogglesmm"
+name: Goggles Music Manager
+description: Play and organize your music collection
+longDescription: |
+  <p>Goggles Music Manager is a music collection manager and player that automatically categorizes your music files based on genre, artist, album, and song. It supports gapless playback and features easy tag editing.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gogglesmm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: g/go/gogglesmm.desktop/48f2e0ff7f5be34cd94bb2b0cdb93d82/screenshots/image-1_orig.png
+    thumbnailUrl: g/go/gogglesmm.desktop/48f2e0ff7f5be34cd94bb2b0cdb93d82/screenshots/image-1_624x351@1.png
+    width: 1280
+    height: 720
+iconSources:
+  - url: g/go/gogglesmm.desktop/48f2e0ff7f5be34cd94bb2b0cdb93d82/icons/128x128/gogglesmm_gogglesmm.png
+    width: 128
+    height: 128
+homepage: "https://gogglesmm.github.io/"
+enabled: true
+order: 99

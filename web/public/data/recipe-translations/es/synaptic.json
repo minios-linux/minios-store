@@ -1,0 +1,5 @@
+{
+  "name": "Synaptic Package Manager",
+  "description": "Instala, elimina y actualiza paquetes de software",
+  "longDescription": "<p>Synaptic es una herramienta gráfica de gestión de paquetes basada en GTK+ y APT. Synaptic te permite instalar, actualizar y eliminar paquetes de software de forma sencilla e intuitiva.</p>\n<p>Además de estas funciones básicas, ofrece las siguientes características:  * Buscar y filtrar la lista de paquetes disponibles  * Realizar actualizaciones inteligentes del sistema  * Reparar dependencias de paquetes rotas  * Editar la lista de repositorios utilizados (sources.list)  * Descargar el registro de cambios más reciente de un paquete  * Configurar paquetes mediante el sistema debconf  * Navegar por toda la documentación disponible relacionada con un paquete (requiere dwww)</p>\n"
+}

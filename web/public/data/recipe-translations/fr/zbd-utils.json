@@ -1,0 +1,5 @@
+{
+  "name": "gzbd",
+  "description": "Gérer les périphériques de stockage par zones",
+  "longDescription": "<p>zbd est un utilitaire en ligne de commande permettant de rapporter, ouvrir, fermer, réinitialiser et finaliser les zones d’un périphérique.</p>\n<p>gzbd propose des fonctionnalités similaires à zbd, mais via une interface graphique.</p>\n<p>gzbd-viewer est une interface graphique affichant l’état et le statut des zones d’un périphérique de stockage zoné.</p>\n"
+}

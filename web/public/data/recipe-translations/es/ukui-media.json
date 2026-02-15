@@ -1,0 +1,5 @@
+{
+  "name": "Sonido",
+  "description": "Ajusta el volumen y los eventos de sonido",
+  "longDescription": "<p>Las utilidades multimedia de UKUI incluyen el mezclador de audio y el applet de control de volumen.</p>\n<p>Este paquete emplea la biblioteca libmatemixer, que ofrece compatibilidad con ALSA y Pulseaudio como sistemas de audio.</p>\n"
+}

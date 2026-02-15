@@ -1,0 +1,5 @@
+{
+  "name": "gworldclock",
+  "description": "Affichez l’heure dans d’autres fuseaux horaires",
+  "longDescription": "<p>Ce programme affiche l’heure et la date pour les fuseaux horaires spécifiés via une interface GTK+. Il propose également une fonction « rendez-vous », permettant de synchroniser les fuseaux sur une heure différente de l’heure actuelle. Ceci facilite l’organisation de réunions entre plusieurs zones horaires.</p>\n<p>Les fuseaux horaires peuvent être saisis manuellement au format TZ ou sélectionnés dans une liste basée sur /usr/share/zoneinfo/zone.tab. La liste des zones est conservée dans un format compatible avec le script shell tzwatch.</p>\n"
+}

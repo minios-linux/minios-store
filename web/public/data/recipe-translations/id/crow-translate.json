@@ -1,0 +1,5 @@
+{
+  "name": "Crow Translate",
+  "description": "Penerjemah yang sederhana dan ringan",
+  "longDescription": "<p>\n      Crow Translate adalah aplikasi penerjemah yang sederhana dan ringan, dikembangkan dengan C++ / Qt,\n      yang memungkinkan Anda menerjemahkan dan membacakan teks menggunakan API dari Google, Yandex, Bing,\n      LibreTranslate, serta Lingva Translate.\n    </p>\n<p>Fitur:</p>\n<ul>\n  <li>Menerjemahkan dan membacakan teks dari layar atau hasil seleksi</li>\n  <li>Mendukung 125 bahasa berbeda</li>\n  <li>Konsumsi memori sangat rendah (~20MB)</li>\n  <li>Shortcut sangat fleksibel dan dapat dikustomisasi</li>\n  <li>Ada antarmuka baris perintah (CLI) dengan banyak opsi</li>\n  <li>Mendukung API D-Bus</li>\n  <li>Tersedia untuk Linux dan Windows</li>\n</ul>\n"
+}

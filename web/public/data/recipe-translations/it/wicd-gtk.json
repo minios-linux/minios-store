@@ -1,0 +1,5 @@
+{
+  "name": "Wicd Network Manager",
+  "description": "Avvia il client Wicd senza l’icona nella system tray",
+  "longDescription": "<p>Wicd è un gestore di configurazione di rete generico che offre un’interfaccia semplice ma flessibile per la connessione alle reti. Le sue funzionalità includono:  * ampia gamma di impostazioni;  * possibilità di connettersi e mantenere profili sia per reti cablate che wireless;  * supporto per numerosi protocolli di cifratura, tra cui WEP, WPA, WPA2 e schemi personalizzati;  * compatibilità con wireless-tools.</p>\n<p>Questo pacchetto fornisce il client GTK+, privo di dipendenze GNOME, rendendolo ideale per l’uso in Xfce, Fluxbox, Openbox, Enlightenment e altri. Supporta inoltre un’icona nella tray che mostra attività di rete e forza del segnale.</p>\n"
+}

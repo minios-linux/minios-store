@@ -1,0 +1,38 @@
+id: "din"
+name: DIN Is Noise
+description: A musical instrument
+longDescription: |
+  <p>din is a musical instrument and audio synthesizer. It allows one to use Bezier curves to draw and sculpt waveforms, create gating and modulation patterns and create delay feedback and volume patterns. It&apos;s possible to create and edit an unlimited number of drones, sculpt their waveform and visually modulate them.</p>
+  <p>din uses JACK to output audio, it supports MIDI, OSC and an IRC bot for input. din can be extended and customised with Tcl scripts too.</p>
+  
+categoryId: multimedia
+icon: Cpu
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - din
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/di/din.desktop/4d1e0c8216ed07a2a0b6c5d5a762966a/icons/128x128/din_din.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

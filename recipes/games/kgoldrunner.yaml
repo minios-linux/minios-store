@@ -1,0 +1,56 @@
+id: "kgoldrunner"
+name: KGoldrunner
+description: "Hunt Gold, Dodge Enemies and Solve Puzzles"
+longDescription: |
+  <p>KGoldrunner is an action game where the hero runs through a maze, climbs stairs, dig holes and
+        dodges enemies in order to collect all the gold nuggets and escape to the next level.
+        Your enemies are also after the gold. Worse still, they are after you!.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Themeable</li>
+    <li>Hundreds of levels</li>
+    <li>Level-editor</li>
+    <li>Two modes for the enemies: classical and KGoldrunner-mode, in KGoldrunner-mode they are
+            more intelligent, in the classical mode it is easier to fool them</li>
+    <li>Very very difficult levels</li>
+    <li>Keyboard or mouse control</li>
+    <li>Savable games</li>
+  </ul>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kgoldrunner
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kgoldrunner/38af5603189a595a317351c127275b5c/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kgoldrunner/38af5603189a595a317351c127275b5c/screenshots/image-1_624x536@1.png
+    width: 824
+    height: 708
+iconSources:
+  - url: org/kde/kgoldrunner/38af5603189a595a317351c127275b5c/icons/128x128/kgoldrunner_kgoldrunner.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/de/kgoldrunner"
+enabled: true
+order: 99

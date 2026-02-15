@@ -1,0 +1,29 @@
+id: sagcad
+name: SagCAD
+description: Draw and create
+longDescription: |
+  <p>Easy to use 2D Computer Aided Drafting and Modelling application with the following features:  * 2D CAD  * Opening/Saving/Creating of files  * Undo/Redo  * Font use Qcad cxf Font  * Cut/Copy/Paste  * SGY/DXF/IGES/NC output  * SGY/DXF/NC input  * ps(PostScript) file output  * CAM  * Ellipse and polyline</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sagcad
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: sagcad_sagcad.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

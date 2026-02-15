@@ -1,0 +1,35 @@
+id: cuyo
+name: Cuyo
+description: Play a tetris like game with many levels
+longDescription: |
+  <p>Cuyo, named after a Spanish relative adjective, shares with tetris that things fall down and how to navigate them. When enough &quot;of the same type&quot; come &quot;together&quot;, they explode. The goal of each level is to blow special &quot;stones&quot; away, you start with. But what &quot;of the same type&quot; and &quot;together&quot; means, varies with the levels.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cuyo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: cuyo_cuyo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

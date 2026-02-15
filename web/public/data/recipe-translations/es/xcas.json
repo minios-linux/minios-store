@@ -1,0 +1,5 @@
+{
+  "name": "Xcas",
+  "description": "La navaja suiza para las matemáticas",
+  "longDescription": "<p>Giac es un sistema de álgebra computacional (CAS) que sigue la línea de desarrollo de los CAS para calculadoras HP. Cuenta con una implementación rápida de algoritmos para operaciones polinómicas y ofrece un modo de compatibilidad con Maple, Mupad y calculadoras TI.</p>\n<p>Este paquete incluye los programas de usuario de giac: xcas, icas y pgiac, además del programa cas_help para ofrecer ayuda orientada al usuario.</p>\n"
+}

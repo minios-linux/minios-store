@@ -1,0 +1,27 @@
+id: tinyeartrainer
+name: Tiny Ear Trainer
+description: A tool to train your ears to hear relative pitch
+longDescription: |
+  <p>Tiny Ear Trainer is a tiny piece of software that helps you to recognize musical intervals.</p>
+  <p>Implemented features include associating colors to intervals and learning mode which plays interval together with color and name. Harmonic and melodic intervals are supported. It uses fluidsynth/soundfonts for playback. You may want to know that GNU Solfege is a far more powerful alternative to Tiny Ear Trainer.</p>
+  <p>Tiny Ear Trainer works with JACK Audio Connection Kit.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tinyeartrainer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: tinyeartrainer_tinyeartrainer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

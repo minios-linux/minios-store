@@ -1,0 +1,42 @@
+id: gnomint
+name: gnoMint X.509 CA Manager
+description: "Manage X.509 certificates and CAs, easily and graphically"
+longDescription: |
+  <p>gnoMint is a tool for easily creating and managing certification authorities. It provides fancy visualization of all the pieces of information that pertain to a CA, such as X.509 certificates, CSRs, and CRLs.</p>
+  <p>gnoMint is currently capable of managing a CA that emits certificates that are able to authenticate people or machines in VPNs (IPSec or other protocols), secure HTTP communications with SSL/TLS, authenticate and cipher HTTP communications through Web-client certificates, and sign or crypt email messages.</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnomint
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - certificate
+  - x.509
+  - encryption
+iconSources:
+  - cached: gnomint_gnomint.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

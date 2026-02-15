@@ -1,0 +1,32 @@
+id: kalk
+name: Calculator
+description: A feature rich calculator
+longDescription: |
+  <p>Kalk is a convergent calculator for Plasma.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kalk
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calculator
+  - kalk
+screenshotSources:
+  - url: org/kde/kalk/a471467a2bdef97e8e8ecbbb4a4bc66b/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kalk/a471467a2bdef97e8e8ecbbb4a4bc66b/screenshots/image-1_224x315@1.png
+    width: 432
+    height: 609
+iconSources:
+  - url: org/kde/kalk/a471467a2bdef97e8e8ecbbb4a4bc66b/icons/128x128/kalk_org.kde.kalk.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kalk/"
+enabled: true
+order: 99

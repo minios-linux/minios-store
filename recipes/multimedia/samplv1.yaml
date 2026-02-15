@@ -1,0 +1,55 @@
+id: "samplv1"
+name: samplv1
+description: samplv1 is an old school polyphonic sampler
+longDescription: |
+  <p>samplv1 is an old-school all-digital polyphonic sampler synthesizer with stereo effects.</p>
+  <p>Although other samplers like specimen provide more features, one could find samplv1 much easier and accessible. Plus, it is provided in both forms of a JACK stand-alone client and a LV2 plugin.</p>
+  <p>This package provides the standalone app.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - samplv1
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - midi
+  - alsa
+  - jack
+  - synthesizer
+  - sampler
+  - lv2
+  - qt
+screenshotSources:
+  - url: org/rncbc/samplv1/3573fa8685adc1cd17614b357c0e8962/screenshots/image-1_orig.png
+    thumbnailUrl: org/rncbc/samplv1/3573fa8685adc1cd17614b357c0e8962/screenshots/image-1_624x313@1.png
+    width: 1178
+    height: 592
+iconSources:
+  - url: org/rncbc/samplv1/3573fa8685adc1cd17614b357c0e8962/icons/128x128/samplv1_org.rncbc.samplv1.png
+    width: 128
+    height: 128
+developer: rncbc aka. Rui Nuno Capela
+homepage: "https://samplv1.sourceforge.io"
+enabled: true
+order: 99

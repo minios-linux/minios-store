@@ -1,0 +1,5 @@
+{
+  "name": "NitroShare",
+  "description": "Aplikasi Transfer Berkas Jaringan",
+  "longDescription": "<p>NitroShare dirancang untuk memudahkan proses pemindahan berkas ke perangkat lain tanpa hambatan.</p>\n<p>NitroShare menggunakan protokol berbasis JSON yang netral terhadap platform dan arsitektur guna mentransfer berkas secara efisien. Untuk keamanan tambahan, transfer dapat dienkripsi menggunakan TLS.</p>\n<p>Deteksi perangkat secara otomatis di jaringan lokal dilakukan melalui broadcast IPv4, sehingga berkas maupun seluruh direktori dapat langsung dikirim ke perangkat lain yang juga menjalankan NitroShare.</p>\n<p>Tersedia HTTP API yang memungkinkan aplikasi lain di bawah akun yang sama untuk memulai proses transfer.</p>\n"
+}

@@ -1,0 +1,29 @@
+id: xdiagnose
+name: xdiagnose
+description: X.org Diagnostic and Repair Utility
+longDescription: |
+  <p>This package is a friendly GUI application for diagnosing several common X.org problems on Ubuntu.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xdiagnose
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: xdiagnose_xdiagnose.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

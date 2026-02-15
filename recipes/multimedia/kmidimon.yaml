@@ -1,0 +1,25 @@
+id: kmidimon
+name: KMidimon
+description: ALSA Sequencer MIDI monitor
+longDescription: |
+  <p>KMidimon can monitor a MIDI data stream, in order to diagnose a malfunctioning piece of equipment or to examine the contents of a MIDI sequence during playback.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kmidimon
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: k/km/kmidimon.desktop/0D91FA370D689D411B3606F1AFAABED8/icons/128x128/kmidimon_kmidimon.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

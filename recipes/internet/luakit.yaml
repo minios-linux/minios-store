@@ -1,0 +1,37 @@
+id: luakit
+name: Luakit
+description: "Fast, small, webkit based micro-browser extensible by Lua"
+longDescription: |
+  <p>Luakit is a highly-configurable browser framework based on WebKitGTK+. It is very fast and extensible by Lua.  It is primarily targeted at power users, developers and any people with too much time on their hands who want to have fine-grained control over their web browser&apos;s behaviour and interface.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - luakit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: luakit_luakit.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

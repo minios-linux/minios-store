@@ -1,0 +1,31 @@
+id: alien-arena
+name: Alien Arena
+description: A standalone 3D first person online deathmatch shooter
+longDescription: |
+  <p>ALIEN ARENA is a standalone 3D first person online death-match shooter crafted from the original source code of Quake II and Quake III, released by id Software under the GPL license. With features including 32-bit graphics, a new particle engine and effects, light blooms, reflective water, hi-resolution textures and skins, and hi-poly models and stain maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today&apos;s top games.</p>
+  <p>This package installs the SDL client for Alien Arena.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - alien-arena
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - aliens
+  - fps
+  - shooter
+  - multiplayer
+iconSources:
+  - url: a/al/alien-arena.desktop/a0ac53395431b1f91245e46c968e3d59/icons/128x128/alien-arena_alien-arena.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,37 @@
+id: jed
+name: Jed
+description: Edit text files
+longDescription: |
+  <p>Jed is a small, fast and powerful text editor, yet starts faster than bash.</p>
+  <p>Completely customizable with prepared emulation modes for Emacs, CUA (similar to KDE/Gnome/OpenOffice), Borland-IDE, Brief, and EDT. Extensible in the S-Lang scripting language (with a syntax resembling C).</p>
+  <p>Editing functions: folding support, rectangular cut/paste, regular expression search/replace, incremental searches, search/replace across multiple files, multiple windows, multiple buffers, ...</p>
+  <p>Tools: directory editor (dired), info (browse GNU info files), mail, rmail, ispell, shell mode, ...</p>
+  <p>Special modes (syntax highlight, indention, compile, ...) for Basic, C, C++, DCL, FORTRAN, IDL, Java, nroff, Pascal, Perl, PHP, PostScript, Python, sh.  Modes for markup languages include HTML and (La)TeX (with AUC-TeX style editing and BibTeX)</p>
+  <p>Additional tools and modes can be found in the jed-extra package.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jed
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+iconSources:
+  - url: j/je/jed.desktop/62d90a5a640cfc198192801dcaee5b09/icons/128x128/jed_jed.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

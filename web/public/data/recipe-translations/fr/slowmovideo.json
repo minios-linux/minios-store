@@ -1,0 +1,5 @@
+{
+  "name": "slowmoUI",
+  "description": "Vidéo au ralenti",
+  "longDescription": "<p>Ce logiciel ne se contente pas de lire vos vidéos à 0,01x. Il permet de ralentir ou d’accélérer vos séquences de manière fluide, avec l’option d’ajouter un flou de mouvement.</p>\n<p>Comment fonctionne le ralenti ? slowmoVideo analyse le déplacement des pixels dans la vidéo (ce que l’on appelle le flux optique) et utilise ces informations pour générer des images supplémentaires.</p>\n<p>Les vidéos dans n’importe quel format pris en charge par ffmpeg peuvent être chargées. Il est aussi possible d’utiliser des séquences d’images, idéal si vous avez réalisé un timelapse avec trop peu d’images — slowmoVideo pourra alors les interpoler. Au lieu d’un simple facteur de ralenti constant, slowmoVideo utilise des courbes qui permettent d’accélérer, de ralentir ou d’inverser le temps aussi librement que vous le souhaitez. Le flou de mouvement est paramétrable à volonté.</p>\n"
+}

@@ -1,0 +1,33 @@
+id: rockhopper
+name: rockhoppergui
+description: System for analyzing bacterial RNA-seq data
+longDescription: |
+  <p>Rockhopper is a comprehensive and user-friendly system for computational analysis of bacterial RNA-seq data. As input, Rockhopper takes RNA sequencing reads output by high-throughput sequencing technology (FASTQ, QSEQ, FASTA, SAM, or BAM files). Rockhopper supports the following tasks:
+  Reference based transcript assembly (when one or more reference genomes are available)Aligning reads to genomesAssembling transcriptsIdentifying transcript boundaries and novel transcripts such as small RNAsDe novo transcript assembly (when reference genomes are unavailable)Normalizing data from different experimentsQuantifying transcript abundanceTesting for differential gene expressionCharacterizing operon structuresVisualizing results in a genome browser</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rockhopper
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - genomics
+  - bacterial
+  - rna
+  - visualization
+iconSources:
+  - cached: rockhopper_rockhopper.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

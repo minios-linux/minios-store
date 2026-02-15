@@ -1,0 +1,26 @@
+id: plasma-workspace
+name: Klipper
+description: A cut & paste history utility
+longDescription: |
+  <p>Plasma Workspace for KF5. Workspaces provide support for KDE Plasma Widgets, integrated search, hardware management and a high degree of customizability.</p>
+  <p>THIS WILL REMOVE YOUR KDE Plasma 4.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plasma-workspace
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: org/kde/klipper/979564F90AF5EB2CC124C56342DDDC16/icons/128x128/plasma-workspace_klipper.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

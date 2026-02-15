@@ -1,0 +1,57 @@
+id: "apper"
+name: Apper
+description: KDE application and package management tool
+longDescription: |
+  <p>Apper is a graphical management tool for packages and applications
+        provided by a Linux distribution.</p>
+  <p>It allows installing new software as well as keeping the system up to
+        date by installing updates.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Distribution-agnostic management of software packages</li>
+    <li>Application management for users unexperienced with packages</li>
+    <li>Editor for software sources and PackageKit settings</li>
+    <li>System software updates notifier and installer</li>
+    <li>Close integration with the KDE Plasma desktop</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - apper
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/apper/af1b8278bcf067c865836a33b07b9c08/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/apper/af1b8278bcf067c865836a33b07b9c08/screenshots/image-1_624x450.png
+    width: 807
+    height: 583
+  - url: org/kde/apper/af1b8278bcf067c865836a33b07b9c08/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/apper/af1b8278bcf067c865836a33b07b9c08/screenshots/image-2_624x474.png
+    width: 817
+    height: 621
+iconSources:
+  - url: org/kde/apper/af1b8278bcf067c865836a33b07b9c08/icons/128x128/apper_system-software-install.png
+    width: 128
+    height: 128
+developer: The KDE Community
+homepage: "https://www.kde.org/applications/system/apper/"
+enabled: true
+order: 99

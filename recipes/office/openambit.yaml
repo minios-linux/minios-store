@@ -1,0 +1,29 @@
+id: openambit
+name: Openambit
+description: Open source synchronization for Suunto Ambit series
+longDescription: |
+  <p>This package provides software that helps communicating with Suunto Ambit outdoor watches.</p>
+  <p>OpenAmbit offers the following features:  - Read logs from device and save them in XML files;  - Upload logs to movescount.com;  - Update orbital data (for faster GPS sync) to the device.</p>
+  <p>It doesn&apos;t have the following features (but may include them in future releases):  - Sync user settings from movescount to device;  - Sync apps, routes etc from movescount to device.</p>
+  <p>The application is divided in 2 parts, libambit which is a basic C-library that does the device-communication, and the openambit GUI application that writes the logs to XML files and synchronize with movescount. The movescount parts is completely optional, and needs to be manually enabled in the UI.</p>
+  <p>This package provides the GUI interface.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openambit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: openambit_openambit.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

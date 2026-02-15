@@ -1,0 +1,5 @@
+{
+  "name": "DesktopNova",
+  "description": "Cambia automáticamente la imagen de fondo de escritorio",
+  "longDescription": "<p>DesktopNova cambia la imagen de fondo del escritorio después de un intervalo configurable. Puede seleccionar imágenes desde archivos individuales y carpetas (con o sin subcarpetas). También incluye una función de inicio automático.</p>\n<p>Este paquete contiene la interfaz gráfica de usuario y el demonio de fondo.</p>\n<p>Se necesita al menos un módulo. ¡Sin un módulo este paquete no funcionará correctamente! Consulta los paquetes desktopnova-module-*.</p>\n<p>También hay un icono adicional para la bandeja disponible. Consulta el paquete desktopnova-tray.</p>\n"
+}

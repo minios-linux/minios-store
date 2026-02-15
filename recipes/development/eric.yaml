@@ -1,0 +1,63 @@
+id: eric
+name: eric6
+description: Integrated Development Environment for Python
+longDescription: |
+  <p>Eric is a full featured Python editor and IDE, written
+      in Python. It is based on the cross platform Qt GUI toolkit, integrating
+      the highly flexible QScintilla editor control. It is designed to be
+      usable as everdays&apos; quick and dirty editor as well as being usable as a
+      professional project management tool integrating many advanced features
+      Python offers the professional coder. Eric includes a plug-in system, which
+      allows easy extension of the IDE functionality with plug-ins downloadable
+      from the net.</p>
+  
+categoryId: development
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - eric
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: e/er/eric6.desktop/1A0E1BA8FB522D8DD96FEF4A7C87FA9B/screenshots/image-1_orig.png
+    thumbnailUrl: e/er/eric6.desktop/1A0E1BA8FB522D8DD96FEF4A7C87FA9B/screenshots/image-1_624x453.png
+    width: 1931
+    height: 1404
+  - url: e/er/eric6.desktop/1A0E1BA8FB522D8DD96FEF4A7C87FA9B/screenshots/image-2_orig.png
+    thumbnailUrl: e/er/eric6.desktop/1A0E1BA8FB522D8DD96FEF4A7C87FA9B/screenshots/image-2_624x452.png
+    width: 1936
+    height: 1404
+  - url: e/er/eric6.desktop/1A0E1BA8FB522D8DD96FEF4A7C87FA9B/screenshots/image-3_orig.png
+    thumbnailUrl: e/er/eric6.desktop/1A0E1BA8FB522D8DD96FEF4A7C87FA9B/screenshots/image-3_624x659.png
+    width: 1330
+    height: 1405
+  - url: e/er/eric6.desktop/1A0E1BA8FB522D8DD96FEF4A7C87FA9B/screenshots/image-4_orig.png
+    thumbnailUrl: e/er/eric6.desktop/1A0E1BA8FB522D8DD96FEF4A7C87FA9B/screenshots/image-4_624x546.png
+    width: 1431
+    height: 1254
+iconSources:
+  - cached: eric_eric.png
+    width: 64
+    height: 64
+developer: Detlev Offenbach
+homepage: "https://eric-ide.python-projects.org"
+enabled: true
+order: 99

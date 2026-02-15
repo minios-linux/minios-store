@@ -1,0 +1,24 @@
+id: linuxdcpp
+name: LinuxDC++
+description: A file-sharing client for the Direct Connect network
+longDescription: |
+  <p>Direct connect is a peer-to-peer (P2P) file-sharing protocol. Clients connect to a central hub where they can view a list of clients or users connected to them. Users can search for files and download them from other clients, as well as chat with other users.</p>
+  <p>The most popular Windows client implementing this protocol currently is DC++. LinuxDC++ is a Linux port of DC++. Though it is primarily aimed at Linux, it has been shown to work on other Unix-based operating systems as well.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - linuxdcpp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: linuxdcpp_linuxdcpp.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

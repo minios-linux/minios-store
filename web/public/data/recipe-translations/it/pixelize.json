@@ -1,0 +1,5 @@
+{
+  "name": "Pixelize",
+  "description": "Crea un’immagine composta da molte piccole immagini",
+  "longDescription": "<p>Pixelize è un programma che utilizza molte immagini ridotte per cercare di riprodurre, nel modo più fedele possibile, un’altra immagine.</p>\n<p>Il funzionamento di Pixelize consiste nel suddividere l’immagine che si desidera ricreare in una griglia di aree rettangolari più piccole. Ogni area viene analizzata e sostituita con un’immagine scelta da un ampio database di immagini. Pixelize cerca di selezionare le immagini che corrispondono maggiormente a ciascuna area.</p>\n"
+}

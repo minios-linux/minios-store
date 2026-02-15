@@ -1,0 +1,5 @@
+{
+  "name": "Kluppe",
+  "description": "reprodutor e gravador de loops de áudio",
+  "longDescription": "<p>O Kluppe é desenvolvido em C e utiliza JACK, GTK e sndfile. Entre as funcionalidades estão:</p>\n<p> - múltiplos buffers de arquivos, diversas faixas de 'loopers'  - acesso direto (GUI) a todos os loopers  - portas de saída combinadas e individuais para JACK  - diferentes modos de reprodução, incluindo \"granular\"</p>\n<p>Kluppe é a palavra austríaca para 'prendedor' e soa ainda mais inusitado quando repetida em loop.</p>\n"
+}

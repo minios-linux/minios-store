@@ -1,0 +1,36 @@
+id: lynkeos-app
+name: Lynkeos Image Processor
+description: Filtering of astronomical images
+longDescription: |
+  <p>Lynkeos is an application dedicated to the processing of astronomical (mainly planetary) images taken with a webcam through a telescope. By stacking the best images, the signal to noise ratio is increased and details lost in the noise of individual images become visible in the resulting image.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lynkeos.app
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - image
+  - astronomy
+iconSources:
+  - cached: lynkeos.app_Lynkeos_128x128x32.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

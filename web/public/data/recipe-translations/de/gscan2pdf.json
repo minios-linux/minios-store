@@ -1,0 +1,5 @@
+{
+  "name": "gscan2pdf",
+  "description": "Grafische Oberfläche zum Erstellen von PDF- oder DjVu-Dateien aus gescannten Dokumenten",
+  "longDescription": "<p>Mit nur zwei Klicks können mehrere Seiten gescannt und anschließend alle oder ausgewählte Seiten als PDF- oder DjVu-Datei gespeichert werden, inklusive Metadaten, falls gewünscht.</p>\n<p>gscan2pdf steuert Flachbett- und Einzugsscanner (ADF) über SANE mit libimage-sane-perl, scanimage oder scanadf und ermöglicht das Scannen mehrerer Seiten in einem Durchgang. Die Vorschau zeigt Miniaturansichten der gescannten Seiten und bietet einfache Bearbeitungsfunktionen wie Zuschneiden, Drehen und Löschen von Seiten.</p>\n<p>Über eine OCR-Funktion kann der Text in den Scans erkannt und direkt im PDF- oder DjVu-Dokument eingebettet werden.</p>\n<p>Das Ergebnis kann als PDF, DjVu, mehrseitige TIFF-Datei oder als einzelne Bilddatei gespeichert werden.</p>\n"
+}

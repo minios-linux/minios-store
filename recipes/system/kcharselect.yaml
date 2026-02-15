@@ -1,0 +1,44 @@
+id: "kcharselect"
+name: KCharSelect
+description: Browse all unicode characters
+longDescription: |
+  <p>KCharSelect is a utility for finding special characters which are not available on the keyboard.  It can search for characters by Unicode number, display characters in any font, and copy characters to the clipboard so they can be pasted into documents.</p>
+  <p>This package is part of the KDE utilities module.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kcharselect
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kcharselect/ef278c9ee6b71d4d0b29f867b24ca0df/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kcharselect/ef278c9ee6b71d4d0b29f867b24ca0df/screenshots/image-1_624x506@1.png
+    width: 1077
+    height: 875
+iconSources:
+  - url: org/kde/kcharselect/ef278c9ee6b71d4d0b29f867b24ca0df/icons/128x128/kcharselect_accessories-character-map.png
+    width: 128
+    height: 128
+homepage: "https://utils.kde.org/projects/kcharselect/"
+enabled: true
+order: 99

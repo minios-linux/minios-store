@@ -1,0 +1,5 @@
+{
+  "name": "Mailnag",
+  "description": "Erweiterbarer E-Mail-Benachrichtigungsdienst",
+  "longDescription": "<p>\n      Mailnag ist ein Daemon-Programm, das POP3- und IMAP-Server auf neue E-Mails überwacht.\n      Beim Eintreffen einer Nachricht können über Plugins verschiedene Aktionen ausgeführt werden.\n      Mailnag bietet eine Reihe von plattformunabhängigen Standard-Plugins für\n      visuelle und akustische Benachrichtigungen, das Ausführen von Skripten usw. und lässt sich\n      unkompliziert durch zusätzliche Plugins erweitern.\n    </p>\n"
+}

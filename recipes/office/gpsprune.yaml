@@ -1,0 +1,48 @@
+id: "gpsprune"
+name: GpsPrune
+description: "Visualize, edit and prune GPS tracks"
+longDescription: |
+  <p>GpsPrune is an application for viewing, editing and converting coordinate data from GPS systems. It&apos;s a tool for preparing GPS data before you go on a trip, and for playing with your collected GPS data after you get home again.</p>
+  <p>It can load data from arbitrary text-based formats (for example, any tab-separated or comma-separated file) or XML, or directly from a GPS receiver. It can display the data (as map view using OpenStreetMap images and as altitude profile), edit this data (for example delete points and ranges, sort waypoints, compress tracks), and save the data (in various text-based formats). It can also export data as a GPX file, or as KML/KMZ for import into Google Earth, or send it to a GPS receiver.</p>
+  <p>Some example uses of GpsPrune include cleaning up tracks by deleting wayward points - either recorded by error or by unintended detours. It can also be used to compare and combine tracks, convert to and from various formats, compress tracks, export data to Google Earth, or to analyse data to calculate distances, altitudes and so on.</p>
+  <p>Furthermore, GpsPrune is able to display the tracks in 3d format and lets you spin the model round to look at it from various directions. You can also export the model in POV format so that you can render a nice picture using Povray. You can also create charts of altitudes or speeds. It can also load Jpegs and read their coordinates from the EXIF tags, and export thumbnails of these photos to Kmz format so that they appear as popups in Google Earth. If your photos don&apos;t have coordinates yet, GpsPrune can be used to connect them (either manually or automatically using the photo timestamps) to data points, and write these coordinates into the EXIF tags.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpsprune
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gps
+  - gpx
+  - kml
+  - kmz
+  - tracks
+  - waypoints
+  - routes
+iconSources:
+  - url: g/gp/gpsprune.desktop/d42677e854cba2dc9c4d45f25444f5c4/icons/128x128/gpsprune_gpsprune.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

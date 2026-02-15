@@ -1,0 +1,49 @@
+id: "lugaru"
+name: Lugaru HD
+description: Third person ninja rabbit fighting game
+longDescription: |
+  <p>Lugaru (pronounced Loo-GAH-roo) is a cross-platform third-person action game. 
+       The main character, Turner, is an anthropomorphic rebel bunny rabbit with impressive combat skills.</p>
+  <p>In his quest to find those responsible for slaughtering his village, 
+       he uncovers a far-reaching conspiracy involving the corrupt leaders
+       of the rabbit republic and the starving wolves from a nearby den. 
+       Turner takes it upon himself to fight against their plot and save 
+       his fellow rabbits from slavery.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lugaru
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: l/lu/lugaru.desktop/2ac83f45d0c28c9f10aa1594bdc97270/screenshots/image-1_orig.png
+    thumbnailUrl: l/lu/lugaru.desktop/2ac83f45d0c28c9f10aa1594bdc97270/screenshots/image-1_624x301.png
+    width: 864
+    height: 417
+iconSources:
+  - url: l/lu/lugaru.desktop/2ac83f45d0c28c9f10aa1594bdc97270/icons/128x128/lugaru_lugaru.png
+    width: 128
+    height: 128
+homepage: "https://osslugaru.gitlab.io/"
+enabled: true
+order: 99

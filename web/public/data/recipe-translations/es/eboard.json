@@ -1,0 +1,5 @@
+{
+  "name": "eboard",
+  "description": "Programa gráfico de ajedrez",
+  "longDescription": "<p>eboard es un programa gráfico de ajedrez que puede funcionar como interfaz para servidores de ajedrez en Internet, como FICS, y para motores de ajedrez como Crafty.</p>\n<p>eboard ofrece un tablero personalizable y redimensionable, visualización por pestañas o en múltiples ventanas, y admite varios tableros simultáneos.</p>\n<p>Este paquete proporciona una interfaz de ajedrez, lo que te permite jugar contra otra persona en el mismo equipo, o jugar en un servidor de Internet. Si deseas jugar contra la computadora, debes instalar adicionalmente un motor de ajedrez como gnuchess.</p>\n"
+}

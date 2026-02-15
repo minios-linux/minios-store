@@ -1,0 +1,1 @@
+fortunate.app_Fortunate.png

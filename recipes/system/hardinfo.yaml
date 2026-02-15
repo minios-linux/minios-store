@@ -1,0 +1,46 @@
+id: hardinfo
+name: System Profiler and Benchmark
+description: Displays system information
+longDescription: |
+  <p>HardInfo is a small application that displays information about your hardware and operating system. Currently it knows about PCI, ISA PnP, USB, IDE, SCSI, Serial and parallel port devices.</p>
+  
+categoryId: system
+icon: Cpu
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hardinfo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - linux
+  - kernel
+  - system
+  - hardware
+  - cpu
+  - processor
+  - capabilities
+  - frequency
+  - memory
+  - ram
+iconSources:
+  - cached: hardinfo_logo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

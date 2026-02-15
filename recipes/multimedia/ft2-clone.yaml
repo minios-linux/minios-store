@@ -1,0 +1,32 @@
+id: ft2-clone
+name: Fasttracker II
+description: Fasttracker II clone for modern computers
+longDescription: |
+  <p>Multi-platform clone of the classic music making software FastTracker II. It can load XM, MOD, S3M, STM module files.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ft2-clone
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tracker
+  - music
+iconSources:
+  - cached: ft2-clone_fasttracker2.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

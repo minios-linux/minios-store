@@ -1,0 +1,5 @@
+{
+  "name": "Kluppe",
+  "description": "reproductor y grabador de bucles de audio",
+  "longDescription": "<p>Kluppe está desarrollado en C y utiliza JACK, GTK y SNDFILE. Sus características incluyen:</p>\n<p> - múltiples búferes de archivos, varias pistas 'looper'  - acceso directo (GUI) a todos los loopers  - salidas combinadas y por bucle para JACK  - diferentes modos de reproducción, incluido el modo \"granular\"</p>\n<p>Kluppe es la palabra austriaca para clip y suena aún más curioso si la repites en bucle.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Aplicar Actualización Completa",
+  "description": "Buscar y aplicar actualización completa",
+  "longDescription": "<p>Verifica si hay actualizaciones disponibles. Si las hay, abre notifier.py, que es una ventana que notifica sobre paquetes disponibles para actualizar. Si decides actualizar, realiza una actualización completa (no segura) usando el binario upgrader. Upgrader también puede ejecutarse de forma independiente, permitiendo elegir si se realiza una actualización de caché antes y el tipo de actualización (segura o completa). También existe un archivo .desktop para ejecutar upgrader con actualización de caché y actualización completa.</p>\n"
+}

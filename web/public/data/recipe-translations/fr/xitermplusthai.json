@@ -1,0 +1,5 @@
+{
+  "name": "Thai X terminal",
+  "description": "Terminal X prenant en charge le thaï (encodage TIS-620)",
+  "longDescription": "<p>xiterm+thai est un émulateur de terminal X offrant la prise en charge de la langue thaïlandaise. Il intègre un support natif pour la saisie au clavier en thaï. Il est également possible d’utiliser l’extension XKB de X11 pour entrer des caractères thaïlandais.</p>\n<p>Une police thaï TIS-620, telle que celle fournie par xfonts-thai-nectec, est nécessaire pour afficher les caractères thaïlandais.</p>\n"
+}

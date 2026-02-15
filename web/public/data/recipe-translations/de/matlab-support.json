@@ -1,0 +1,5 @@
+{
+  "name": "MATLAB",
+  "description": "Umgebung für wissenschaftliches Rechnen",
+  "longDescription": "<p>Dieses Paket stellt kein MATLAB selbst bereit. Stattdessen wird eine vorhandene MATLAB-Installation so konfiguriert, dass sie sich besser in ein Debian-System einfügt.</p>\n<p>Es erstellt aktuell den Symlink /usr/bin/matlab über das Alternativen-System, hilft bei der Behebung von Inkompatibilitäten zwischen den gemeinsam mit MATLAB gelieferten und den Systembibliotheken und stellt ein Hilfsprogramm für andere Pakete zum Kompilieren von MEX-Erweiterungen zur Verfügung.</p>\n<p>Installieren Sie dieses Paket, wenn Sie möchten, dass sich Ihre MATLAB-Installation wie ein normales Debian-Paket verhält. Weitere Pakete können hiervon abhängig sein, wenn sie MATLAB-Code installieren – etwa um MEX-Erweiterungen zu kompilieren.</p>\n"
+}

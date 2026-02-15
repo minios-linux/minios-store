@@ -1,0 +1,257 @@
+# Translations for minios-store.
+# Copyright (C) 2026 MiniOS Linux
+# This file is distributed under the same license as the minios-store package.
+msgid ""
+msgstr ""
+"Project-Id-Version: minios-store 1.0.0\n"
+"Report-Msgid-Bugs-To: support@minios.dev\n"
+"POT-Creation-Date: 2026-02-14 20:35+0000\n"
+"PO-Revision-Date: 2026-02-14 20:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /home/live/minios-store/client/minios_store/gui.py:101
+msgid "MiniOS Store Installer"
+msgstr "MiniOS Store Installer"
+
+#: /home/live/minios-store/client/minios_store/gui.py:219
+msgid "Preparing..."
+msgstr "Menyiapkan..."
+
+#: /home/live/minios-store/client/minios_store/gui.py:266
+msgid "Cancel Installation"
+msgstr "Batalkan Instalasi"
+
+#: /home/live/minios-store/client/minios_store/gui.py:275
+msgid "Done"
+msgstr "Selesai"
+
+#: /home/live/minios-store/client/minios_store/gui.py:282
+msgid "Open Folder"
+msgstr "Buka Folder"
+
+#: /home/live/minios-store/client/minios_store/gui.py:293
+msgid "System install"
+msgstr "Instalasi sistem"
+
+#: /home/live/minios-store/client/minios_store/gui.py:295
+msgid "Separate modules"
+msgstr "Modul terpisah"
+
+#: /home/live/minios-store/client/minios_store/gui.py:296
+msgid "Single module"
+msgstr "Modul tunggal"
+
+#: /home/live/minios-store/client/minios_store/gui.py:324
+msgid "Starting installation..."
+msgstr "Memulai instalasi..."
+
+#: /home/live/minios-store/client/minios_store/gui.py:326
+#, python-format
+msgid "Mode: %s | Packaging: %s"
+msgstr "Mode: %s | Packaging: %s"
+
+#: /home/live/minios-store/client/minios_store/gui.py:330
+#, python-format
+msgid "Packages: %s"
+msgstr "Paket: %s"
+
+#: /home/live/minios-store/client/minios_store/gui.py:333
+#, python-format
+msgid "Target: %s"
+msgstr "Target: %s"
+
+#: /home/live/minios-store/client/minios_store/gui.py:335
+msgid "Warning: using fallback directory"
+msgstr "Peringatan: menggunakan direktori cadangan"
+
+#: /home/live/minios-store/client/minios_store/gui.py:339
+msgid "Installing..."
+msgstr "Menginstal..."
+
+#: /home/live/minios-store/client/minios_store/gui.py:384
+#, python-format
+msgid "Installing %d package(s)..."
+msgstr "Menginstal %d paket..."
+
+#: /home/live/minios-store/client/minios_store/gui.py:416
+msgid "Unknown error"
+msgstr "Kesalahan tidak diketahui"
+
+#: /home/live/minios-store/client/minios_store/gui.py:417
+#, python-format
+msgid "Error: %s"
+msgstr "Kesalahan: %s"
+
+#: /home/live/minios-store/client/minios_store/gui.py:426
+#, python-format
+msgid "Successfully installed: %s"
+msgstr "Berhasil diinstal: %s"
+
+#: /home/live/minios-store/client/minios_store/gui.py:432
+#, python-format
+msgid "Module: %s"
+msgstr "Modul: %s"
+
+#: /home/live/minios-store/client/minios_store/gui.py:436
+#, python-format
+msgid "Location: %s"
+msgstr "Lokasi: %s"
+
+#: /home/live/minios-store/client/minios_store/gui.py:438
+msgid "Installation complete"
+msgstr "Instalasi selesai"
+
+#: /home/live/minios-store/client/minios_store/gui.py:445
+#, python-format
+msgid "Failed: %s"
+msgstr "Gagal: %s"
+
+#: /home/live/minios-store/client/minios_store/gui.py:447
+#: /home/live/minios-store/client/minios_store/gui.py:457
+msgid "Installation failed"
+msgstr "Instalasi gagal"
+
+#: /home/live/minios-store/client/minios_store/gui.py:456
+#, python-format
+msgid "Fatal error: %s"
+msgstr "Kesalahan fatal: %s"
+
+#: /home/live/minios-store/client/minios_store/gui.py:470
+#: /home/live/minios-store/client/minios_store/gui.py:471
+msgid "Cancelling..."
+msgstr "Membatalkan..."
+
+#: /home/live/minios-store/client/minios_store/gui.py:545
+msgid "Root Privileges Required"
+msgstr "Hak akses root diperlukan"
+
+#: /home/live/minios-store/client/minios_store/gui.py:548
+msgid ""
+"This installer must be run as root.\n"
+"Use the MiniOS Store URI handler or run with pkexec."
+msgstr ""
+"Installer ini harus dijalankan sebagai root.\n"
+"Gunakan URI handler MiniOS Store atau jalankan dengan pkexec."
+
+#: /home/live/minios-store/client/minios_store/gui.py:555
+msgid "Error: root privileges required. Run via pkexec or the URI handler."
+msgstr "Kesalahan: hak akses root diperlukan. Jalankan melalui pkexec atau URI handler."
+
+#: /home/live/minios-store/client/minios_store/installer.py:119
+msgid "Installation cancelled by user"
+msgstr "Instalasi dibatalkan oleh pengguna"
+
+#: /home/live/minios-store/client/minios_store/installer.py:123
+#, python-format
+msgid "Command failed (exit %d): %s"
+msgstr "Perintah gagal (exit %d): %s"
+
+#: /home/live/minios-store/client/minios_store/installer.py:140
+#, python-format
+msgid "Failed to execute %s: %s"
+msgstr "Gagal mengeksekusi %s: %s"
+
+#: /home/live/minios-store/client/minios_store/installer.py:179
+#: /home/live/minios-store/client/minios_store/installer.py:368
+msgid "No packages specified for apt method"
+msgstr "Tidak ada paket yang ditentukan untuk metode apt"
+
+#: /home/live/minios-store/client/minios_store/installer.py:205
+#: /home/live/minios-store/client/minios_store/installer.py:352
+#, python-format
+msgid "Module file not found after apt2sb: %s"
+msgstr "File modul tidak ditemukan setelah apt2sb: %s"
+
+#: /home/live/minios-store/client/minios_store/installer.py:226
+#: /home/live/minios-store/client/minios_store/installer.py:399
+msgid "No script specified for script method"
+msgstr "Tidak ada skrip yang ditentukan untuk metode script"
+
+#: /home/live/minios-store/client/minios_store/installer.py:269
+#, python-format
+msgid "Module file not found after script2sb: %s"
+msgstr "File modul tidak ditemukan setelah script2sb: %s"
+
+#: /home/live/minios-store/client/minios_store/installer.py:292
+#: /home/live/minios-store/client/minios_store/installer.py:433
+msgid "No debUrl specified for deb method"
+msgstr "Tidak ada debUrl yang ditentukan untuk metode deb"
+
+#: /home/live/minios-store/client/minios_store/installer.py:321
+#: /home/live/minios-store/client/minios_store/installer.py:460
+#, python-format
+msgid "Failed to download %s: %s"
+msgstr "Gagal mengunduh %s: %s"
+
+#: /home/live/minios-store/client/minios_store/installer.py:506
+#: /home/live/minios-store/client/minios_store/installer.py:528
+#, python-format
+msgid "Unknown install method: %s"
+msgstr "Metode instalasi tidak dikenal: %s"
+
+#: /home/live/minios-store/client/minios_store/installer.py:589
+#, python-format
+msgid "Building module for %s"
+msgstr "Membangun modul untuk %s"
+
+#: /home/live/minios-store/client/minios_store/installer.py:599
+msgid "Module ready"
+msgstr "Modul siap"
+
+#: /home/live/minios-store/client/minios_store/installer.py:620
+#, python-format
+msgid "Installing %s"
+msgstr "Menginstal %s"
+
+#: /home/live/minios-store/client/minios_store/installer.py:630
+msgid "Installed to system"
+msgstr "Terinstal ke sistem"
+
+#: /home/live/minios-store/client/minios_store/installer.py:761
+#, python-format
+msgid "%d modules"
+msgstr "%d modul"
+
+#: /home/live/minios-store/client/minios_store/installer.py:821
+#, python-format
+msgid "Installed to system: %s"
+msgstr "Terinstal ke sistem: %s"
+
+#: /home/live/minios-store/client/minios_store/installer.py:833
+#: /home/live/minios-store/client/minios_store/installer.py:922
+#: /home/live/minios-store/client/minios_store/installer.py:1064
+#: /home/live/minios-store/client/minios_store/installer.py:1143
+msgid "Installation cancelled"
+msgstr "Instalasi dibatalkan"
+
+#: /home/live/minios-store/client/minios_store/installer.py:851
+#: /home/live/minios-store/client/minios_store/installer.py:940
+#, python-format
+msgid "Failed to install %s: %s"
+msgstr "Gagal menginstal %s: %s"
+
+#: /home/live/minios-store/client/minios_store/installer.py:912
+#: /home/live/minios-store/client/minios_store/installer.py:1055
+#: /home/live/minios-store/client/minios_store/installer.py:1134
+#, python-format
+msgid "Module built: %s"
+msgstr "Modul berhasil dibuat: %s"
+
+#: /home/live/minios-store/client/minios_store/installer.py:969
+msgid "Combined module"
+msgstr "Modul gabungan"
+
+#: /home/live/minios-store/client/minios_store/installer.py:977
+#, python-format
+msgid "Building single module for %d recipe(s)"
+msgstr "Membangun modul tunggal untuk %d resep"
+
+#: /home/live/minios-store/client/minios_store/installer.py:1008
+msgid "No packages specified"
+msgstr "Tidak ada paket yang ditentukan"

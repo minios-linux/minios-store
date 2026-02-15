@@ -1,0 +1,5 @@
+{
+  "name": "Light Video",
+  "description": "Pemutar video sederhana berbasis GTK4 untuk ponsel",
+  "longDescription": "<p>\n      Pemutar video minimalis berbasis GTK4 dan gstreamer untuk ponsel seperti Librem 5 yang dirancang untuk penggunaan baterai seminimal mungkin.\n    </p>\n<p>\n      Fitur yang didukung:\n    </p>\n<ul>\n  <li>Mencegah perangkat masuk mode tidur/idle saat memutar video</li>\n  <li>Memberhentikan pemutaran video saat layar dinonaktifkan (misalnya tombol daya ditekan)</li>\n  <li>Dapat didaftarkan sebagai pemutar video default di GNOME Control Center</li>\n  <li>Indikator apakah akselerasi perangkat keras sedang digunakan</li>\n</ul>\n"
+}

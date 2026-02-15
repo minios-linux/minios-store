@@ -1,0 +1,5 @@
+{
+  "name": "ResidualVM",
+  "description": "Interprete per diversi giochi 3D",
+  "longDescription": "<p>ResidualVM è un interprete multipiattaforma per giochi 3D che permette di giocare alle avventure 3D basate su Lua di LucasArts (a condizione di possedere già i relativi file di gioco):</p>\n<p> * Grim Fandango  * Myst III  * Fuga da Monkey Island (ancora non funzionante)</p>\n<p>ResidualVM utilizza OpenGL per l'accelerazione hardware della grafica 3D. È incluso anche un renderer software per le macchine prive di supporto OpenGL hardware.</p>\n"
+}

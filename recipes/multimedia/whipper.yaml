@@ -1,0 +1,32 @@
+id: whipper
+name: whipper
+description: A CD-DA ripper prioritising accuracy over speed
+longDescription: |
+  <p>
+        whipper is a command-line CD-DA ripper that focuses on making accurate
+        rips over fast ones.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - whipper
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+developer: The Whipper Team
+homepage: "https://github.com/whipper-team/whipper"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Ebumeter",
+  "description": "Misuratore di loudness conforme a EBU-R128 per JACK",
+  "longDescription": "<p>Questi strumenti aiutano a controllare la loudness del materiale audio destinato principalmente alla trasmissione radiotelevisiva, ma possono essere utili anche in altri contesti.</p>\n<p>ebumeter ed ebur128 permettono di misurare la Loudness Momentanea (400 ms), a Breve Termine (3s) e Integrata (dall'inizio alla fine). Possono essere utilizzati sia su file audio che su segnali tramite JACK.</p>\n<p>Questo pacchetto include due programmi:   * ebumeter - misuratore interattivo che funziona con jackd   * ebur128 - applicazione da linea di comando per misurare file audio</p>\n"
+}

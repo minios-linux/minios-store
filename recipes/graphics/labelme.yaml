@@ -1,0 +1,29 @@
+id: labelme
+name: Labelme
+description: Image Polygonal Annotation with Python
+longDescription: |
+  <p>This is a graphical image annotation tool inspired by http://labelme.csail.mit.edu. It is written in Python and uses Qt for its graphical interface.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - labelme
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: labelme_labelme.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

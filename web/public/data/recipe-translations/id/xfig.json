@@ -1,0 +1,5 @@
+{
+  "name": "xfig",
+  "description": "Fasilitas untuk Pembuatan Gambar Interaktif di bawah X11",
+  "longDescription": "<p>XFig adalah alat berbasis menu yang memungkinkan pengguna menggambar dan memanipulasi objek secara interaktif di jendela X. Gambar yang dihasilkan dapat disimpan. Jika program fig2dev terpasang (tersedia di paket fig2dev), gambar tersebut dapat dicetak pada printer postscript atau dikonversi ke berbagai format lain (misal untuk disisipkan dalam dokumen LaTeX atau halaman web).</p>\n<p>Paket ini berisi program xfig itu sendiri.</p>\n<p>Sebaiknya Anda juga menginstal paket fig2dev untuk mengekspor grafis ke beberapa format umum. Anda juga disarankan untuk menginstal xfig-doc yang berisi dokumentasi, serta xfig-libs yang menyediakan berbagai perpustakaan clip art.</p>\n"
+}

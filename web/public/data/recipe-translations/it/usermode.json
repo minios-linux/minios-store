@@ -1,0 +1,5 @@
+{
+  "name": "Gestione Dischi",
+  "description": "Monta e smonta filesystem",
+  "longDescription": "<p>Il pacchetto usermode include diversi strumenti grafici per l'utente: userinfo, usermount e userpasswd. Userinfo consente agli utenti di modificare le informazioni personali (finger). Usermount permette di montare, smontare e formattare filesystem tramite interfaccia grafica. Userpasswd consente agli utenti di cambiare la propria password.</p>\n<p>Installa il pacchetto usermode se vuoi offrire agli utenti strumenti grafici per alcune attività di gestione dell'account.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "shp2pgsql-gui",
+  "description": "Импортировать шейп-файлы в базы данных PostGIS",
+  "longDescription": "<p>PostGIS добавляет поддержку географических объектов в объектно-реляционную базу данных PostgreSQL. Фактически, PostGIS «пространственно расширяет» сервер PostgreSQL, позволяя использовать его как серверную пространственную базу данных для геоинформационных систем (ГИС), аналогично SDE от ESRI или расширению Spatial для Oracle. PostGIS соответствует спецификации OpenGIS «Simple Features Specification for SQL».</p>\n<p>Этот пакет содержит графическую утилиту загрузки shape-файлов для PostGIS — shp2pgsql-gui.</p>\n"
+}

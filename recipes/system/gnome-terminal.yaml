@@ -1,0 +1,46 @@
+id: "gnome-terminal"
+name: Terminal
+description: Use the command line
+longDescription: |
+  <p>GNOME Terminal is a terminal emulator application for accessing a UNIX shell environment which can be used to run programs available on your system.</p>
+  <p>It supports several profiles, multiple tabs and implements several keyboard shortcuts.</p>
+  
+categoryId: system
+icon: Terminal
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-terminal
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shell
+  - prompt
+  - command
+  - commandline
+  - cmd
+screenshotSources:
+  - url: org/gnome/Terminal.desktop/95c1912b0a6bccff701a181d0da7c376/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Terminal.desktop/95c1912b0a6bccff701a181d0da7c376/screenshots/image-1_624x462@1.png
+    width: 668
+    height: 495
+iconSources:
+  - url: org/gnome/Terminal.desktop/95c1912b0a6bccff701a181d0da7c376/icons/128x128/gnome-terminal_org.gnome.Terminal.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Terminal"
+enabled: true
+order: 99

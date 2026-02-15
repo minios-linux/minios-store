@@ -1,0 +1,22 @@
+id: ethtool
+name: ethtool
+description: display or change Ethernet device settings
+longDescription: |
+  <p>ethtool can be used to query and change settings such as speed,
+      auto- negotiation and checksum offload on many network devices,
+      especially Ethernet devices.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ethtool
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+homepage: "https://www.kernel.org/pub/software/network/ethtool/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Paramètres de fréquence CPU",
+  "description": "Ajustez la fréquence du processeur",
+  "longDescription": "<p>Un utilitaire graphique permettant de modifier les fréquences et le gouverneur du processeur.</p>\n<p>\n            Cet outil permet de changer la fréquence de fonctionnement du CPU pour chaque cœur individuellement.\n            Le programme détecte les cœurs inactifs et n'affiche que ceux qui sont disponibles.\n            De plus, si un cœur ne prend pas en charge la gestion de fréquence, il n'est pas affiché.\n            Il est également possible d'appliquer les mêmes paramètres à tous les cœurs simultanément.\n        </p>\n<p>\n            Pour appliquer les paramètres, l'utilisateur doit être local et actif, ainsi que faire partie du groupe sudo.\n            Les utilisateurs locaux et actifs qui ne font pas partie de ce groupe devront s'authentifier en tant qu'administrateur pour appliquer les modifications.\n        </p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Déjà Dup Backup Tool",
+  "description": "Lindungi dokumen penting Anda dari bencana",
+  "longDescription": "<p>Déjà Dup adalah alat pencadangan yang sederhana. Aplikasi ini menyembunyikan kerumitan proses pencadangan yang benar (terenkripsi, di luar perangkat, dan terjadwal rutin) serta menggunakan duplicity sebagai backend.</p>\n<ul>\n  <li>Mendukung lokasi cadangan lokal, jarak jauh, atau cloud seperti Google Drive dan Nextcloud</li>\n  <li>Mengenkripsi dan mengompresi data Anda secara aman</li>\n  <li>Mencadangkan secara bertahap, sehingga Anda bisa memulihkan dari cadangan mana pun</li>\n  <li>Menjadwalkan pencadangan rutin secara otomatis</li>\n  <li>Terintegrasi dengan baik pada desktop GNOME Anda</li>\n</ul>\n"
+}

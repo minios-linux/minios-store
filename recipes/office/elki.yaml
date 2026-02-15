@@ -1,0 +1,26 @@
+id: elki
+name: ELKI
+description: Data mining algorithm development framework
+longDescription: |
+  <p>ELKI: &quot;Environment for Developing KDD-Applications Supported by Index-Structures&quot; is a development framework for data mining algorithms written in Java.  It includes a large variety of popular data mining algorithms, distance functions and index structures.</p>
+  <p>Its focus is particularly on clustering and outlier detection methods, in contrast to many other data mining toolkits that focus on classification. Additionally, it includes support for index structures to improve algorithm performance such as R*-Tree and M-Tree.</p>
+  <p>The modular architecture is meant to allow adding custom components such as distance functions or algorithms, while being able to reuse the other parts for evaluation.</p>
+  <p>This package contains the compiled ELKI version, and launcher scripts.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - elki
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: elki_elki-icon.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

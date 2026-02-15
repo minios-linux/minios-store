@@ -1,0 +1,5 @@
+{
+  "name": "tuned-gui",
+  "description": "Antarmuka GTK untuk mengendalikan Tuned daemon dan menyediakan editor profil sederhana",
+  "longDescription": "<p>Paket Tuned berisi sebuah daemon yang secara dinamis mengoptimalkan pengaturan sistem. Daemon ini memantau penggunaan berbagai komponen sistem secara berkala, lalu menyesuaikan mode penghematan daya—meningkatkan atau menurunkan sesuai kebutuhan. Saat ini hanya perangkat jaringan ethernet dan harddisk ATA yang didukung.</p>\n<p>Paket ini menyediakan GUI berbasis GTK+ untuk mengelola Tuned beserta editor profil yang sederhana.</p>\n"
+}

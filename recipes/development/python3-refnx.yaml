@@ -1,0 +1,30 @@
+id: python3-refnx
+name: refnx
+description: Neutron and X-ray reflectometry analysis in Python
+longDescription: |
+  <p>Flexible, powerful, Python package for generalised curvefitting analysis, specifically neutron and X-ray reflectometry data.</p>
+  <p>It uses several scipy.optimize algorithms for fitting data, and estimating parameter uncertainties. As well as the scipy algorithms refnx uses the emcee Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler for Bayesian parameter estimation.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - python3-refnx
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - reflectometry
+  - analysis
+  - neutron
+  - x-ray
+  - surface
+iconSources:
+  - url: r/re/refnx.desktop/1d059d599c0b277f0aa8129867cb76f4/icons/128x128/python3-refnx_refnx.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

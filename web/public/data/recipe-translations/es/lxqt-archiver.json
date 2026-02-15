@@ -1,0 +1,5 @@
+{
+  "name": "LXQt File Archiver",
+  "description": "Archivador de archivos",
+  "longDescription": "<p>LXQt Archiver es un gestor de archivos comprimidos para el entorno LXQt. Permite:  * Crear y modificar archivos comprimidos.  * Ver el contenido de un archivo comprimido.  * Visualizar archivos contenidos dentro de un archivo comprimido.  * Extraer archivos del archivo comprimido.</p>\n<p>LXQt Archiver es compatible con los siguientes formatos:  * Archivos Tar (.tar), incluyendo los comprimidos con    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),    lzma (.tar.lzma) y xz (.tar.xz)  * Archivos Zip (.zip)  * Archivos Jar (.jar, .ear, .war)  * Archivos 7z (.7z)  * Imágenes de CD iso9660 (.iso)  * Archivos Lha (.lzh)  * Archivos individuales comprimidos con gzip (.gz), bzip (.bz), bzip2 (.bz2),    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) y xz (.xz)</p>\n<p>LXQt Archiver no realiza las operaciones de compresión por sí mismo, sino que utiliza las herramientas estándar del sistema para ello.</p>\n<p>Este paquete contiene el archivador de LXQt.</p>\n"
+}

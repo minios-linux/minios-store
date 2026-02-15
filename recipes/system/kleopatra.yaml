@@ -1,0 +1,48 @@
+id: "kleopatra"
+name: Kleopatra
+description: Certificate Manager and Unified Crypto GUI
+longDescription: |
+  <p>Kleopatra is a certificate manager and a universal crypto GUI.
+        It supports managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving certificates from LDAP servers.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kleopatra
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kleopatra.desktop/5ac9d636f4345fc4860bbe58a23738b5/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kleopatra.desktop/5ac9d636f4345fc4860bbe58a23738b5/screenshots/image-1_624x460@1.png
+    width: 1064
+    height: 785
+  - url: org/kde/kleopatra.desktop/5ac9d636f4345fc4860bbe58a23738b5/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kleopatra.desktop/5ac9d636f4345fc4860bbe58a23738b5/screenshots/image-2_624x634@1.png
+    width: 738
+    height: 751
+iconSources:
+  - url: org/kde/kleopatra.desktop/5ac9d636f4345fc4860bbe58a23738b5/icons/128x128/kleopatra_kleopatra.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kleopatra/"
+enabled: true
+order: 99

@@ -1,0 +1,38 @@
+id: "fcitx-ui-qimpanel"
+name: fcitx-qimpanel-configtool
+description: fcitx皮肤配置向导-UbuntuKylin
+longDescription: |
+  <p>Fcitx is a input method framework with extension support, which provides an interface for entering characters of different scripts in applications using a variety of mapping systems.</p>
+  <p>This package provides the Qt IMPanel user interface developed by Ubuntu Kylin Team.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fcitx-ui-qimpanel
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: f/fc/fcitx-qimpanel-configtool.desktop/56aeaacf03277213207dca55ae6c2c61/icons/128x128/fcitx-ui-qimpanel_fcitx.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

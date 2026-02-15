@@ -1,0 +1,27 @@
+id: gtkperf
+name: GtkPerf
+description: Test GTK+ performance
+longDescription: |
+  <p>GtkPerf is an application designed to test GTK+ performance. The point is to create common testing platform to run predefined GTK+ widgets (opening comboboxes, toggling buttons, scrolling text) and this way define the speed of device/platform.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtkperf
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: gtkperf_duck.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

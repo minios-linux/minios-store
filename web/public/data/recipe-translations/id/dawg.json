@@ -1,0 +1,5 @@
+{
+  "name": "Dawg",
+  "description": "Simulator Evolusi Urutan",
+  "longDescription": "<p>DNA Assembly with Gaps (Dawg) adalah aplikasi yang dirancang untuk mensimulasikan evolusi urutan DNA rekombinan secara kontinu berdasarkan model time reversible umum dengan heterogenitas laju gamma dan invarian, serta model baru pembentukan gap yang bergantung pada panjang urutan. Aplikasi ini menerima file pohon filogenetik dalam format Newick dan dapat mengembalikan urutan dari setiap node, memungkinkan pengguna merekam riwayat evolusi secara akurat sesuai kebutuhan. Dawg juga mencatat riwayat gap pada setiap garis keturunan untuk menghasilkan alignment (penyelarasan) sebenarnya pada output. Tersedia banyak opsi agar pengguna dapat menyesuaikan simulasi dan hasil sesuai kebutuhan.</p>\n"
+}

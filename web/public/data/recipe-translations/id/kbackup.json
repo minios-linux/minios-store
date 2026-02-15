@@ -1,0 +1,5 @@
+{
+  "name": "KBackup",
+  "description": "Buat cadangan sebagai file .tar ke folder lokal atau URL jarak jauh",
+  "longDescription": "<p>KBackup adalah aplikasi yang memungkinkan Anda mencadangkan data dengan cara yang sederhana dan mudah digunakan</p>\n<p>Fitur:</p>\n<ul>\n  <li>Menggunakan file profil untuk mendefinisikan folder dan file yang ingin disertakan atau dikecualikan dalam cadangan</li>\n  <li>Target cadangan dapat berupa perangkat yang ter-mount secara lokal seperti ZIP drive, USB drive, dan sebagainya, atau URL jarak jauh mana pun</li>\n  <li>Mendukung pencadangan otomatis tanpa memerlukan antarmuka grafis</li>\n</ul>\n"
+}

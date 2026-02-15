@@ -1,0 +1,5 @@
+{
+  "name": "Gabedit QC-GUI",
+  "description": "interfaz gráfica para paquetes de química computacional",
+  "longDescription": "<p>Gabedit es una interfaz gráfica para paquetes de química computacional como:</p>\n<p> - MPQC  - GAMESS-US  - Gaussian  - Molcas  - Molpro  - Q-Chem</p>\n<p>Estos programas de química teórica pueden ejecutarse localmente o en un servidor remoto (con soporte para FTP, RSH y SSH). Gabedit permite visualizar una variedad de resultados de cálculos, incluyendo la mayoría de los formatos de archivo molecular más comunes. El avanzado \"Constructor de Moléculas\" permite dibujar moléculas rápidamente y examinarlas en 3D. Los gráficos pueden exportarse a varios formatos, incluyendo animaciones.</p>\n"
+}

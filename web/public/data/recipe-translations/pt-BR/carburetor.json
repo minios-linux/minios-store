@@ -1,0 +1,5 @@
+{
+  "name": "Carburetor",
+  "description": "Aplicativo de roteamento Onion",
+  "longDescription": "<p>\n      Um aplicativo gráfico de configurações para o Tractor, que utiliza a biblioteca Python Stem para fornecer conexão por meio do proxy Onion. Ele configura automaticamente o proxy na sessão do usuário, evitando a necessidade de configurar o TOR manualmente no sistema.\n    </p>\n"
+}

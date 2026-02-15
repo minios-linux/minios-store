@@ -1,0 +1,5 @@
+{
+  "name": "Trimage image compressor",
+  "description": "Una herramienta multiplataforma para optimizar archivos PNG y JPG.",
+  "longDescription": "<p>Trimage es una interfaz gráfica y de línea de comandos multiplataforma para optimizar archivos de imagen utilizando optipng, advpng, pngcrush y jpegoptim, según el tipo de archivo (actualmente se soportan archivos PNG y JPG). Todas las imágenes se comprimen sin pérdida utilizando los niveles de compresión más altos disponibles. Trimage te ofrece varias opciones de entrada para adaptarse a tu flujo de trabajo: un cuadro de diálogo de archivos tradicional, arrastrar y soltar, y diversas opciones desde la línea de comandos.</p>\n"
+}

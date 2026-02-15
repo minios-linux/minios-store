@@ -1,0 +1,33 @@
+id: graphmonkey
+name: Graphmonkey
+description: Draw mathematical graphs/curves
+longDescription: |
+  <p>GraphMonkey is a GTK#-based graphic calculator. It uses a simple interface to draw curves.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - graphmonkey
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - cached: graphmonkey_graphmonkey.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

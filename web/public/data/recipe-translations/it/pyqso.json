@@ -1,0 +1,5 @@
+{
+  "name": "PyQSO",
+  "description": "Strumento per la gestione dei log dei contatti",
+  "longDescription": "<p>PyQSO è uno strumento di logging pensato per radioamatori. Offre un'interfaccia grafica semplice che consente di gestire facilmente le informazioni sui collegamenti/QSO effettuati con altri operatori. Tutti i dati sono memorizzati in un database SQL leggero. Altre funzionalità principali includono:</p>\n<p> * Interfaccia personalizzabile (es. visualizzazione di soli campi come nominativo e frequenza).  * Importazione ed esportazione dei log in formato ADIF.  * Ricerca automatica dei nominativi e completamento dei campi tramite il database qrz.com.  * Ordinamento dei log per campo.  * Stampa dei log su carta o su PDF.  * Collegamento ai DX cluster via Telnet.  * Tracciamento dei progressi per l’award DXCC.  * Visualizzazione della linea grigia.  * Filtri per nominativo (es. mostrare solo i contatti con nominativi che iniziano per \"M6\").  * Rimozione dei QSO duplicati.  * Supporto base alla libreria Hamlib.</p>\n"
+}

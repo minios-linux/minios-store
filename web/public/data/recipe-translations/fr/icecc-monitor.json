@@ -1,0 +1,5 @@
+{
+  "name": "Icemon",
+  "description": "Un superviseur pour un réseau de compilation Icecream",
+  "longDescription": "<p>icecc-monitor est une application de surveillance pour icecc (un compilateur distribué). Elle offre une vue d'ensemble du réseau de compilation distribué, indiquant où s'exécutent les tâches ainsi que des détails sur les travaux et les nœuds (statistiques et informations globales).</p>\n<p>Consultez le paquet « icecc » pour plus d'informations.</p>\n"
+}

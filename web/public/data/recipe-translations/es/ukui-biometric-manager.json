@@ -1,0 +1,5 @@
+{
+  "name": "Administrador biométrico",
+  "description": "Herramienta para gestionar controladores de dispositivos biométricos y activar/desactivar la autenticación biométrica.",
+  "longDescription": "<p>Este paquete es una herramienta para administrar los controladores de dispositivos biométricos y las características de los usuarios, así como gestionar si la autenticación biométrica está habilitada. El servicio es proporcionado por <code>biometric-authentication.service</code> en el paquete <code>biometric-auth</code>.</p>\n"
+}

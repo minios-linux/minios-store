@@ -1,0 +1,23 @@
+id: image-analyzer
+name: Image Analyzer
+description: Utility for CD/DVD image analysis and manipulation
+longDescription: |
+  <p>Image Analyzer is a Gtk3-based utility for CD/DVD image analysis and manipulation, with following functionality:  - disc image layout visualization  - reading of sector data from image  - analysis of error correction and detection codes in sector main and    subchannel data  - retrieval of disc (DVD) structures, if available  - visualization of disc topology (DPM) data, if available  - image format conversion  - logging facilities for debugging</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - image-analyzer
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: image-analyzer_image-analyzer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

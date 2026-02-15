@@ -1,0 +1,5 @@
+{
+  "name": "OCRFeeder",
+  "description": "Suite OCR lengkap.",
+  "longDescription": "<p>OCRFeeder adalah sistem analisis tata letak dokumen dan pengenalan karakter optik (OCR).</p>\n<p>Diberikan gambar, aplikasi ini secara otomatis akan mengidentifikasi isi dokumen, membedakan antara grafik dan teks, lalu melakukan OCR pada bagian teks. Output utamanya adalah format ODT, namun mendukung berbagai format lainnya.</p>\n<p>Aplikasi ini memiliki antarmuka grafis GTK+ yang lengkap, memungkinkan pengguna mengoreksi karakter yang tidak dikenali, mengatur atau memperbaiki batas area, mengelola gaya paragraf, membersihkan gambar input, mengimpor PDF, menyimpan dan memuat proyek, serta mengekspor semuanya ke berbagai format.</p>\n"
+}

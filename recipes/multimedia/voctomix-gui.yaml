@@ -1,0 +1,41 @@
+id: "voctomix-gui"
+name: VoctoGUI
+description: Voctomix graphical user interface
+longDescription: |
+  <p>The Voctomix Project by the C3Voc (the Chaos Communication Congress&apos; Video Operation Crew) is their software implementation of a Live-Video-Mixer.</p>
+  <p>This package contains the GUI component, Voctogui, a GUI implementation in GTK+ controlling the core&apos;s functionality.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - voctomix-gui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - stream
+  - video
+  - audio
+  - mixer
+iconSources:
+  - url: v/vo/voctogui.desktop/f9b809e3fee67770793639bdac48d143/icons/128x128/voctomix-gui_voctogui.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "comptty",
+  "description": "Amateurfunk-Kommunikation",
+  "longDescription": "<p>Comptty dient zum Vergleichen von zwei RTTY-Streams. Die Vergleichsfunktion verwendet eine lineare Programmiertechnik. Es werden die Gesamtanzahl der Fehler, die Zeichenfehlerrate (CER) und die Bitfehlerrate (BER) berechnet. Besonderes Augenmerk gilt SHIFT und UNSHIFT, um Fehler bei diesen Zeichen korrekt zu berücksichtigen.</p>\n"
+}

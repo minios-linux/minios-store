@@ -1,0 +1,38 @@
+id: "lierolibre"
+name: lierolibre
+description: Earthworm action game
+longDescription: |
+  <p>lierolibre is an old-school earthworm action game. It is a direct fork of Liero (OpenLiero).</p>
+  <p>Features:  * 2 worms, 40 weapons, great playability, two game modes: Kill&apos;em All and Game    of Tag, plus AI-players without true intelligence!  * Dat nostalgia  * Extensions via a hidden F1 menu    + Replays    + Game controller support    + Powerlevel palettes  * Ability to write game variables to plain text files  * Ability to load game variables from both EXE and plain text files  * New freely licensed audio  * Scripts to extract and repack graphics, sounds and levels</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lierolibre
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: l/li/lierolibre.desktop/2c4f0974839e51f058e2888d9eea665b/icons/128x128/lierolibre_lierolibre.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

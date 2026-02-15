@@ -1,0 +1,23 @@
+id: webservice-office-zoho
+name: Zoho Webservice Spreadsheet
+description: "Perform calculation, analyze information and manage lists in spreadsheets using Zoho web services."
+longDescription: |
+  <p>Zoho Webservice Docs Viewer. Allows documents to be viewed online using Zoho&apos;s web services API.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - webservice-office-zoho
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: webservice-office-zoho_webservice-office-zoho-sheet.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

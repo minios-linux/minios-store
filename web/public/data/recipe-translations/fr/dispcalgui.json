@@ -1,0 +1,5 @@
+{
+  "name": "VRML vers X3D",
+  "description": "Convertit les fichiers VRML en X3D intégré dans du HTML",
+  "longDescription": "<p>Permet d’étalonner et de caractériser les affichages à l’aide d’un capteur matériel, piloté par le système de gestion des couleurs open source Argyll CMS. Prend en charge les configurations multi-écrans et propose de nombreux réglages comme le point blanc, la luminance, le niveau de noir, la courbe de réponse tonale personnalisables, ainsi que la création de profils ICC (matrice ou table de correspondance) avec mappage du gamut en option. Les étalonnages et profils peuvent être vérifiés par des mesures, et les profils installés pour être exploités par les applications compatibles avec la gestion des couleurs. L’installation peut se faire via Argyll CMS, Oyranos et/ou GNOME Color Manager si disponibles, pour une intégration flexible.</p>\n"
+}

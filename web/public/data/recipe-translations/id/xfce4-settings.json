@@ -1,0 +1,5 @@
+{
+  "name": "Aksesibilitas",
+  "description": "Meningkatkan aksesibilitas keyboard dan mouse",
+  "longDescription": "<p>xfce4-settings adalah antarmuka manajer pengaturan Xfce. Aplikasi ini menyediakan beberapa komponen untuk mengatur konfigurasi yang tidak bergantung pada aplikasi lain di dalam xfconf. Terdapat beberapa alat utama:  - xfce4-settings-manager (pengganti manajer mcs settings lama),       yang menjalankan berbagai dialog pengaturan yang tersedia  - xfce4-settings-editor, alat untuk mengedit SEMUA pengaturan di dalam xfconf, sebagai lawan grafis dari xfconf-query.  - xfsettingsd, sebuah daemon yang mengekspor XSettings ke aplikasi serta menyediakan fitur khusus seperti pintasan keyboard, notifikasi AccessX, dan pembaruan data keyboard serta penunjuk mouse.</p>\n"
+}

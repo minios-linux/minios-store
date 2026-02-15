@@ -1,0 +1,5 @@
+{
+  "name": "Btrfs Assistant",
+  "description": "Alat manajemen berbasis GUI untuk memudahkan pengelolaan filesystem Btrfs",
+  "longDescription": "<p>\n      Btrfs Assistant adalah alat manajemen berbasis GUI yang memudahkan pengelolaan filesystem Btrfs.\n    </p>\n<p>Fitur utama yang ditawarkan antara lain:</p>\n<ul>\n  <li>Tampilan ringkasan metadata Btrfs yang mudah dibaca</li>\n  <li>Visualisasi subvolume secara sederhana, dengan atau tanpa snapshot Snapper/Timeshift</li>\n  <li>Menjalankan serta memantau operasi scrub dan balance</li>\n  <li>Metode satu klik untuk menghapus subvolume</li>\n  <li>Antarmuka manajemen Snapper dengan fungsi pemulihan yang lebih baik</li>\n  <li>Antarmuka untuk Btrfs Maintenance</li>\n</ul>\n"
+}

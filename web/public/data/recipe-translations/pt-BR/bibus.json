@@ -1,0 +1,5 @@
+{
+  "name": "Bibus",
+  "description": "gerencie referências e citações em suas publicações",
+  "longDescription": "<p>O Bibus é um gerenciador bibliográfico desenvolvido especialmente para integração com o LibreOffice/OpenOffice.org. Permite inserir citações e formatar índices bibliográficos diretamente em documentos abertos no OpenOffice.org Writer. Seus principais recursos incluem: * organização hierárquica das referências com chaves definidas pelo usuário * projetado para ambientes multiusuário (compartilhamento de bases entre usuários) * mecanismo de busca com consultas dinâmicas * acesso online ao PubMed * importação de registros dos formatos PubMed (Medline), EndNote/Refer, RIS e BibTeX.</p>\n<p>Por padrão, o Bibus utiliza um banco de dados SQLite para armazenamento (através do módulo SQLite3 do Python &gt;2.5). Também há suporte a bancos de dados MySQL. Para utilizar o MySQL, certifique-se de ter o pacote python-mysqldb instalado.</p>\n"
+}

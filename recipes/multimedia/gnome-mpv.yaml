@@ -1,0 +1,49 @@
+id: gnome-mpv
+name: GNOME MPV
+description: GTK+ frontend for mpv
+longDescription: |
+  <p>GNOME MPV is a simple GTK+ frontend for mpv, which is a very powerful media
+     player capable of playing virtually all video and audio formats. The design
+     of GNOME MPV is based on GNOME HIG, though it is not dependent on any GNOME
+     libraries. GNOME MPV also offers an option to disable client-side decorations
+     (CSD) for better compatibility with non-GNOME systems.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Drag and drop playlist</li>
+    <li>Loading external mpv configuration files</li>
+    <li>MPRIS2 D-Bus interface</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-mpv
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/GnomeMpv.desktop/46A12EC0CB291E8C2A6FF7008C23F02E/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/GnomeMpv.desktop/46A12EC0CB291E8C2A6FF7008C23F02E/screenshots/image-1_624x429.png
+    width: 640
+    height: 441
+  - url: io/github/GnomeMpv.desktop/46A12EC0CB291E8C2A6FF7008C23F02E/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/GnomeMpv.desktop/46A12EC0CB291E8C2A6FF7008C23F02E/screenshots/image-2_624x447.png
+    width: 640
+    height: 459
+  - url: io/github/GnomeMpv.desktop/46A12EC0CB291E8C2A6FF7008C23F02E/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/GnomeMpv.desktop/46A12EC0CB291E8C2A6FF7008C23F02E/screenshots/image-3_624x337.png
+    width: 816
+    height: 441
+iconSources:
+  - url: io/github/GnomeMpv.desktop/46A12EC0CB291E8C2A6FF7008C23F02E/icons/128x128/gnome-mpv_io.github.GnomeMpv.png
+    width: 128
+    height: 128
+homepage: "http://gnome-mpv.github.io"
+enabled: true
+order: 99

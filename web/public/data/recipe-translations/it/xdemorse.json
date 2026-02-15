@@ -1,0 +1,5 @@
+{
+  "name": "xdemorse",
+  "description": "Interfaccia grafica per decodificare segnali Morse in testo",
+  "longDescription": "<p>Applicazione X/GTK+ per la decodifica dei segnali in codice Morse in testo. xdemorse rileva i \"punti\" e le \"linee\" che compongono un carattere Morse tramite la scheda audio del computer, che può essere connessa a un ricevitore radio sintonizzato su una trasmissione CW in Morse o a un generatore di toni.</p>\n<p>Il segnale in ingresso viene elaborato tramite un algoritmo rilevatore di toni Goertzel che produce uscite \"mark\" o \"space\" (segnale/assenza di segnale) e il flusso risultante di \"elementi\" Morse viene decodificato in caratteri ASCII per la visualizzazione nel lettore di testo.</p>\n<p>xdemorse mostra una certa tolleranza verso errori dell’operatore (cosiddetti \"bad fist\") relativi alla deviazione dagli standard di durata degli elementi Morse. È presente anche una visualizzazione \"Waterfall\" (spettro audio) generata tramite una FFT a interi sull'audio ricevuto.</p>\n<p>Questo programma include il supporto CAT integrato esclusivamente per Yaesu FT847 o FT857 ed Elecraft K2 o K3.</p>\n"
+}

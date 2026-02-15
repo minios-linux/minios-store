@@ -1,0 +1,5 @@
+{
+  "name": "JuK",
+  "description": "Lettore musicale",
+  "longDescription": "<p>JuK è un jukebox audio che supporta raccolte di file audio MP3, Ogg Vorbis e FLAC. Permette di modificare i \"tag\" dei tuoi file audio e di gestire la tua collezione e le playlist, concentrandosi in particolare sulla gestione della musica.</p>\n<p>Funzionalità:</p>\n<ul>\n  <li>Gestione di collezioni e più playlist definite dall’utente</li>\n  <li>Scansione di cartelle per importare automaticamente playlist e file musicali all’avvio</li>\n  <li>Playlist di ricerca dinamiche, aggiornate automaticamente al variare delle informazioni nella collezione</li>\n  <li>Modalità ad albero dove vengono generate automaticamente playlist per album, artisti e generi</li>\n  <li>Cronologia delle playlist per indicare quali brani sono stati riprodotti e quando</li>\n  <li>Ricerca rapida per filtrare gli elementi visibili</li>\n  <li>Riconoscimento automatico delle informazioni dai nomi dei file</li>\n  <li>Rinomina file in base ai tag dei brani</li>\n  <li>Lettura e modifica dei tag per molti formati, inclusi ID3v1, ID3v2 e Ogg Vorbis</li>\n</ul>\n"
+}

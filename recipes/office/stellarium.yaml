@@ -1,0 +1,66 @@
+id: "stellarium"
+name: Stellarium
+description: Desktop Planetarium
+longDescription: |
+  <p>Stellarium renders 3D photo-realistic skies in real time with OpenGL. It displays stars, constellations, planets and nebulae, and has many other features including multiple panoramic landscapes, fog, light pollution simulation and a built-in scripting engine.</p>
+  <p>Stellarium comes with a star catalogue of about 600 thousand stars and it is possible to download extra catalogues with up to 210 million stars.</p>
+  <p>Stellarium has multiple sky cultures - see the constellations from the traditions of Polynesian, Inuit, Navajo, Korean, Lakota, Egyptian and Chinese astronomers, as well as the traditional Western constellations.</p>
+  <p>It is also possible to visit other planets in the solar system - see what the sky looked like to the Apollo astronauts, or what the rings of Saturn looks like from Titan.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - stellarium
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - astronomy
+  - planetarium
+screenshotSources:
+  - url: org/stellarium/Stellarium/c390277bac779d0ac5c7530a811d7a2a/screenshots/image-1_orig.png
+    thumbnailUrl: org/stellarium/Stellarium/c390277bac779d0ac5c7530a811d7a2a/screenshots/image-1_624x466@1.png
+    width: 670
+    height: 501
+  - url: org/stellarium/Stellarium/c390277bac779d0ac5c7530a811d7a2a/screenshots/image-2_orig.png
+    thumbnailUrl: org/stellarium/Stellarium/c390277bac779d0ac5c7530a811d7a2a/screenshots/image-2_624x466@1.png
+    width: 670
+    height: 501
+  - url: org/stellarium/Stellarium/c390277bac779d0ac5c7530a811d7a2a/screenshots/image-3_orig.png
+    thumbnailUrl: org/stellarium/Stellarium/c390277bac779d0ac5c7530a811d7a2a/screenshots/image-3_624x466@1.png
+    width: 670
+    height: 501
+  - url: org/stellarium/Stellarium/c390277bac779d0ac5c7530a811d7a2a/screenshots/image-4_orig.png
+    thumbnailUrl: org/stellarium/Stellarium/c390277bac779d0ac5c7530a811d7a2a/screenshots/image-4_624x468@1.png
+    width: 670
+    height: 503
+  - url: org/stellarium/Stellarium/c390277bac779d0ac5c7530a811d7a2a/screenshots/image-5_orig.png
+    thumbnailUrl: org/stellarium/Stellarium/c390277bac779d0ac5c7530a811d7a2a/screenshots/image-5_624x466@1.png
+    width: 670
+    height: 501
+iconSources:
+  - url: org/stellarium/Stellarium/c390277bac779d0ac5c7530a811d7a2a/icons/128x128/stellarium_stellarium.png
+    width: 128
+    height: 128
+developer: Stellarium team
+homepage: "https://www.stellarium.org/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "eboard",
+  "description": "Program papan catur grafis",
+  "longDescription": "<p>eboard adalah program catur grafis yang dapat berfungsi sebagai antarmuka ke server catur Internet seperti FICS dan ke engine catur seperti Crafty.</p>\n<p>eboard memiliki papan yang bisa diubah tema dan ukurannya secara bebas, tampilan tab atau multi-jendela, serta mendukung banyak papan secara bersamaan.</p>\n<p>Paket ini berisi antarmuka catur, sehingga Anda dapat bermain melawan manusia lain di komputer yang sama atau bermain melalui server Internet. Jika ingin bermain melawan komputer, Anda perlu menginstal engine catur tambahan seperti gnuchess.</p>\n"
+}

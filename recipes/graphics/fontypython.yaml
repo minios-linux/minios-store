@@ -1,0 +1,27 @@
+id: fontypython
+name: Fonty Python Font Manager
+description: View and temporarily install all kinds of fonts.
+longDescription: |
+  <p>You can quickly view and filter arbitrary TTF, TTC, OTF or Type1 font files and then gather them together into &apos;pogs&apos; which can be installed or removed as needed. In this way you control which fonts are installed on a per-project basis. It is written in Python and WxWidgets.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fontypython
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - fonts
+  - viewer
+  - graphics
+iconSources:
+  - cached: fontypython_fontypython.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

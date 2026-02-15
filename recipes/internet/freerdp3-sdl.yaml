@@ -1,0 +1,27 @@
+id: freerdp3-sdl
+name: sdl-freerdp3
+description: Connect to RDP servers for remote work or administration
+longDescription: |
+  <p>FreeRDP is a libre client/server implementation of the Remote Desktop Protocol (RDP).</p>
+  <p>This package contains the SDL based client.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freerdp3-sdl
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - remote desktop
+  - rdp
+iconSources:
+  - url: s/sd/sdl-freerdp3.desktop/91211756b9995d5999c9b14bf49132c2/icons/128x128/freerdp3-sdl_FreeRDP.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,31 @@
+id: lostirc
+name: LostIRC
+description: Chat on IRC-networks
+longDescription: |
+  <p>LostIRC is a simple, yet very useful IRC-client. It has features such as tab-autocompletion, multiple server support, automatic joining of servers/channels and DCC sending which should cover the needs of most people. The client is 100% keyboard-controllable, and uses the gtkmm GUI library.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lostirc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: lostirc_lostirc.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,57 @@
+id: "gamehub"
+name: GameHub
+description: All your games in one place
+longDescription: |
+  <p>Manage your Steam, GOG and Humble Bundle games in one place.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gamehub
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - game
+  - hub
+  - steam
+  - gog
+  - humble
+  - humblebundle
+screenshotSources:
+  - url: com/github/tkashkin.gamehub/346540e5cd0e910aa0ddddeb68594f58/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/tkashkin.gamehub/346540e5cd0e910aa0ddddeb68594f58/screenshots/image-1_624x370.png
+    width: 1358
+    height: 806
+  - url: com/github/tkashkin.gamehub/346540e5cd0e910aa0ddddeb68594f58/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/tkashkin.gamehub/346540e5cd0e910aa0ddddeb68594f58/screenshots/image-2_624x369.png
+    width: 1358
+    height: 805
+  - url: com/github/tkashkin.gamehub/346540e5cd0e910aa0ddddeb68594f58/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/tkashkin.gamehub/346540e5cd0e910aa0ddddeb68594f58/screenshots/image-3_624x368.png
+    width: 1358
+    height: 801
+  - url: com/github/tkashkin.gamehub/346540e5cd0e910aa0ddddeb68594f58/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/tkashkin.gamehub/346540e5cd0e910aa0ddddeb68594f58/screenshots/image-4_624x707.png
+    width: 743
+    height: 842
+  - url: com/github/tkashkin.gamehub/346540e5cd0e910aa0ddddeb68594f58/screenshots/image-5_orig.png
+    thumbnailUrl: com/github/tkashkin.gamehub/346540e5cd0e910aa0ddddeb68594f58/screenshots/image-5_624x614.png
+    width: 798
+    height: 786
+iconSources:
+  - url: com/github/tkashkin.gamehub/346540e5cd0e910aa0ddddeb68594f58/icons/128x128/gamehub_com.github.tkashkin.gamehub.png
+    width: 128
+    height: 128
+developer: Anatoliy Kashkin
+homepage: "https://tkashkin.tk/projects/gamehub"
+enabled: true
+order: 99

@@ -1,0 +1,28 @@
+id: opendict
+name: Dictionary OpenDict
+description: Lookup words in a local or Internet dictionary
+longDescription: |
+  <p>OpenDict is free cross-platform dictionary program. It works with DICT, Slowo and Mova dictionaries. It also supports plug-in dictionaries that may be created for almost any data source. OpenDict is a client for DICT servers.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - opendict
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - dictonary
+  - words
+iconSources:
+  - url: o/op/opendict.desktop/EE6F33541AC000E6A0AD2ECCA7DE0438/icons/128x128/opendict_opendict.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

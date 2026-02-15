@@ -1,0 +1,5 @@
+{
+  "name": "refnx",
+  "description": "Analisi di riflettometria neutronica e ai raggi X in Python",
+  "longDescription": "<p>Pacchetto Python flessibile e potente per l'analisi di curve fitting generalizzata, specificamente per dati di riflettometria neutronica e ai raggi X.</p>\n<p>Utilizza diversi algoritmi di ottimizzazione di scipy per adattare i dati e stimare l'incertezza dei parametri. Oltre agli algoritmi di scipy, refnx impiega l'ensemble sampler Affine Invariant Markov chain Monte Carlo (MCMC) di emcee per la stima bayesiana dei parametri.</p>\n"
+}

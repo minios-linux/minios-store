@@ -1,0 +1,47 @@
+id: "lxrandr"
+name: Monitor Settings
+description: Change screen resolution and configure external monitors
+longDescription: |
+  <p>LXRandR is a GUI application for the Lightweight X11 Desktop Environment (LXDE).</p>
+  <p>This is a very basic monitor config tool utilizing the X extension called RandR. It can let you change the screen resolution on the fly. Besides, when you run lxrandr with external monitor connected, its GUI will change, and show you some quick options to get your projector or external monitor working correctly.</p>
+  <p>This tool doesn&apos;t aim to be a full randr frontend. If you need the full power of RandR, get xrandr (console) or grandr (GUI) and read some tutorials.</p>
+  <p>LXRandR only gives you some easy and quick options which are intuitive. It&apos;s very suitable for laptop users who frequently uses projectors or external monitor and just want to get their work done without reading a lot of &quot;geek-centered&quot; manuals or command line tutorials.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxrandr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - screen
+  - display
+  - tv
+  - extend
+  - projector
+  - xrandr
+  - refresh rate
+  - position
+  - enable
+  - disable
+iconSources:
+  - url: l/lx/lxrandr.desktop/6321e34e98fd02e8e5d70d734709ea1f/icons/128x128/lxrandr_video-display.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

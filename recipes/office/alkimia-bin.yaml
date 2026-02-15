@@ -1,0 +1,28 @@
+id: "alkimia-bin"
+name: Online Quotes Editor
+description: Editor for online price quotes used by finance applications
+longDescription: |
+  <p>Libalkimia is a library with common classes and functionality used by finance applications for KDE. Currently it supports a common class to represent monetary values with arbitrary precision.</p>
+  <p>Commandline binaries for the library.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - alkimia-bin
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: org/kde/onlinequoteseditor5/a912f6d48eef82348684f5fe04e45642/icons/128x128/alkimia-bin_onlinequoteseditor5.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

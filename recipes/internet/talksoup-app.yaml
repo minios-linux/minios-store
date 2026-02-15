@@ -1,0 +1,29 @@
+id: talksoup-app
+name: TalkSoup
+description: IRC Client for GNUstep
+longDescription: |
+  <p>TalkSoup is a GNUstep IRC client built on the extensibility of the Objective-C language. The entire IRC client is implemented by plugins, so one can pick and choose what they want to use.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - talksoup.app
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - irc
+  - messaging
+  - chat
+iconSources:
+  - cached: talksoup.app_TalkSoup.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

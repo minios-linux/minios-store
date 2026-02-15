@@ -1,0 +1,5 @@
+{
+  "name": "Petri-Foo",
+  "description": "Sampler de Áudio",
+  "longDescription": "<p>Um sampler controlado por MIDI simples, mas muito útil, para ALSA/JACK, que oferece: * 64 notas de polifonia, distribuídas em até 64 patches. * Escalonamento de pitch rápido e de alta qualidade, envelopes de volume ADSR lineares. * Filtro passa-baixa com ressonância; diversos modos de reprodução independentes de direção. * Editor de amostras com zoom para configurar pontos de loop e reprodução.</p>\n<p>Petri-Foo é um fork do projeto Specimen Sampler.</p>\n"
+}

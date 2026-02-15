@@ -1,0 +1,28 @@
+id: efax-gtk
+name: Efax-gtk
+description: GUI front end for the efax fax program
+longDescription: |
+  <p>efax-gtk is a GTK+ front end for the efax program. It can be used to send and receive faxes with a fax modem, and to view, print and manage faxes received.</p>
+  <p>It also has a socket interface to provide a &quot;virtual printer&quot; for sending faxes from word processors and similar programs, and can automatically e-mail a received fax to a designated user, and automatically print a received fax.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - efax-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: efax-gtk_efax-gtk.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

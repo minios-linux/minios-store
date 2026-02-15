@@ -1,0 +1,5 @@
+{
+  "name": "Déjà Dup Backup Tool",
+  "description": "Protege tus documentos importantes contra desastres",
+  "longDescription": "<p>Déjà Dup es una herramienta sencilla de copias de seguridad. Oculta la complejidad de hacer respaldos correctamente (cifrado, fuera del equipo y de forma regular) y utiliza duplicity como motor principal.</p>\n<ul>\n  <li>Soporte para ubicaciones de respaldo locales, remotas o en la nube, como Google Drive y Nextcloud</li>\n  <li>Cifra y comprime tus datos de forma segura</li>\n  <li>Realiza copias de seguridad incrementales, permitiendo restaurar desde cualquier respaldo anterior</li>\n  <li>Programa copias de seguridad automáticas y periódicas</li>\n  <li>Se integra perfectamente con tu escritorio GNOME</li>\n</ul>\n"
+}

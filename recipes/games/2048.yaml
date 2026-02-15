@@ -1,0 +1,30 @@
+id: "2048"
+name: 2048
+description: Add values sliding tiles until you reach 2048
+longDescription: |
+  <p>The 2048 game is a mathematics based puzzle game where you have to slide tiles in a 4x4 board in any of the four possible directions. Touching tiles with the same value are then merged into tiles with the added value of the merged ones. You start with a couple of 2-valued tiles and new tiles appear randomly after sliding. The target of the game is to reach a tile with a value of 2048 before the board is full.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - 2048
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - 2d
+  - math
+  - colour
+  - single-player
+iconSources:
+  - cached: 2048_2048.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

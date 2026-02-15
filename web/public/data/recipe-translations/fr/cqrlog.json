@@ -1,0 +1,5 @@
+{
+  "name": "CQRLOG",
+  "description": "Programme avancé de journalisation pour radioamateurs",
+  "longDescription": "<p>CQRLOG est un journal de bord avancé pour radioamateurs, basé sur une base de données MySQL embarquée. Il offre le contrôle radio grâce aux bibliothèques hamlib (prise en charge de plus de 140 types et modèles de radios), la connexion au cluster DX, l'accès à l'annuaire HamQTH/QRZ (accès XML), un indicateur de zone grise, la gestion interne des QSL et un algorithme de résolution de pays très précis, développé par OK1RR. CQRLOG est conçu pour la journalisation quotidienne des contacts HF, CW &amp; SSB et met l'accent sur la simplicité d'utilisation et de maintenance.</p>\n"
+}

@@ -1,0 +1,35 @@
+id: mikutter
+name: mikutter
+description: Twitter Client
+longDescription: |
+  <p>Mikutter is a multi-pane Twitter client with several advanced features:  * different tweet views (flat list, threaded list, searches);  * user profile and activity views;  * lists of followers and followings (friends);  * plugin extensibility.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mikutter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - twitter
+iconSources:
+  - cached: mikutter_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

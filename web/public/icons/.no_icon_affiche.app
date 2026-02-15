@@ -1,0 +1,1 @@
+affiche.app_app-icon.png

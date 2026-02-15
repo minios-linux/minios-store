@@ -1,0 +1,5 @@
+{
+  "name": "Worker",
+  "description": "Gerenciador de arquivos para X.",
+  "longDescription": "<p>O Worker é um gerenciador de arquivos semelhante ao DirOpus do Amiga. Pode ser controlado tanto pelo mouse quanto pelo teclado. Não há restrição quanto ao número ou tipo de funções dos botões. Os arquivos são reconhecidos tanto pela extensão quanto pelo conteúdo, identificando padrões comuns nos arquivos de exemplo apresentados. Suporta funcionalidade de arrastar e soltar (Drag &amp; Drop).</p>\n<p>Se o xli ou o imagemagick estiverem instalados, o Worker exibe rapidamente pré-visualizações de imagens no painel oposto. Se o x11-utils estiver instalado, o xmessage é utilizado para mostrar mensagens informativas.</p>\n"
+}

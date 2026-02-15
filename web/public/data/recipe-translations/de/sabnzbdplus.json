@@ -1,0 +1,5 @@
+{
+  "name": "SABnzbd+",
+  "description": "Downloads aus dem Usenet",
+  "longDescription": "<p>SABnzbd+ ist ein webbasiertes Binary-Newsgrabber-Tool, das in Python geschrieben wurde und den beliebten NZB-Dateiformat unterstützt. Es vereinfacht das Herunterladen aus dem Usenet erheblich dank einer benutzerfreundlichen, webbasierten und vollständig anpassbaren Oberfläche sowie fortschrittlicher integrierter Nachbearbeitungsoptionen, einschließlich automatischer Überprüfung, Reparatur, Extraktion und Bereinigung der heruntergeladenen Beiträge.</p>\n<p>Unterstützt werden mehrere Server, sichere (SSL-)Verbindungen, IPv6, Zeitplanung, das Anhalten und Fortsetzen von Downloads, Warteschlangenverwaltung, RSS-Feeds, automatische Sortierung, eine Download-Historie, E-Mail-Benachrichtigungen und benutzerdefinierte Nachbearbeitungsskripte. Eine umfassende API ermöglicht die Integration mit Anwendungen von Drittanbietern.</p>\n<p>Dieses Paket enthält das Programm selbst sowie alle Oberflächentemplates.</p>\n"
+}

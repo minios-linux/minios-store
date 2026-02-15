@@ -1,0 +1,69 @@
+id: "vorta"
+name: Vorta
+description: Backup client
+longDescription: |
+  <p>
+        Vorta is a backup client for macOS and Linux desktops.
+        It integrates the mighty BorgBackup with your desktop environment
+        to protect your data from disk failure, ransomware and theft.
+      </p>
+  <p>
+        Why is this great?
+      </p>
+  <ul>
+    <li>Encrypted, deduplicated and compressed backups using Borg as backend.</li>
+    <li>No vendor lock-in – back up to local drives, your own server or BorgBase, a hosting service for Borg backups.</li>
+    <li>Open source – free to use, modify, improve and audit.</li>
+    <li>Flexible profiles to group source folders, backup destinations and schedules.</li>
+    <li>One place to view all point-in-time archives and restore individual files.</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vorta
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - borg
+screenshotSources:
+  - url: com/borgbase/Vorta/02ba7f1cec77e3eb33d27ded86a2f8d5/screenshots/image-1_orig.png
+    thumbnailUrl: com/borgbase/Vorta/02ba7f1cec77e3eb33d27ded86a2f8d5/screenshots/image-1_624x475@1.png
+    width: 840
+    height: 640
+  - url: com/borgbase/Vorta/02ba7f1cec77e3eb33d27ded86a2f8d5/screenshots/image-2_orig.png
+    thumbnailUrl: com/borgbase/Vorta/02ba7f1cec77e3eb33d27ded86a2f8d5/screenshots/image-2_624x475@1.png
+    width: 840
+    height: 640
+  - url: com/borgbase/Vorta/02ba7f1cec77e3eb33d27ded86a2f8d5/screenshots/image-3_orig.png
+    thumbnailUrl: com/borgbase/Vorta/02ba7f1cec77e3eb33d27ded86a2f8d5/screenshots/image-3_624x475@1.png
+    width: 840
+    height: 640
+  - url: com/borgbase/Vorta/02ba7f1cec77e3eb33d27ded86a2f8d5/screenshots/image-4_orig.png
+    thumbnailUrl: com/borgbase/Vorta/02ba7f1cec77e3eb33d27ded86a2f8d5/screenshots/image-4_624x475@1.png
+    width: 840
+    height: 640
+  - url: com/borgbase/Vorta/02ba7f1cec77e3eb33d27ded86a2f8d5/screenshots/image-5_orig.png
+    thumbnailUrl: com/borgbase/Vorta/02ba7f1cec77e3eb33d27ded86a2f8d5/screenshots/image-5_624x475@1.png
+    width: 840
+    height: 640
+iconSources:
+  - url: com/borgbase/Vorta/02ba7f1cec77e3eb33d27ded86a2f8d5/icons/128x128/vorta_com.borgbase.Vorta.png
+    width: 128
+    height: 128
+homepage: "https://vorta.borgbase.com/"
+enabled: true
+order: 99

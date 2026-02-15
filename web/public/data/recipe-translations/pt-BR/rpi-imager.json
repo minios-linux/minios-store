@@ -1,0 +1,5 @@
+{
+  "name": "Raspberry Pi Imager",
+  "description": "Utilitário de gravação para Raspberry Pi",
+  "longDescription": "<p>O Raspberry Pi Imager faz o download de um arquivo .JSON do site oficial do Raspberry Pi com uma lista de todas as opções de sistemas disponíveis, garantindo que você sempre instale a versão mais atualizada.</p><p>Após escolher um sistema operacional entre as opções, o utilitário acessa o arquivo correspondente diretamente do site do Raspberry Pi e grava a imagem no cartão SD. Isso torna o processo muito mais rápido em comparação ao procedimento tradicional de baixar o arquivo, salvar no disco rígido do computador e, só depois, gravar no cartão SD.</p><p>Durante todo esse processo, o Raspberry Pi Imager também armazena em cache a imagem do sistema operacional baixada — ou seja, salva uma cópia local no seu computador, permitindo que você programe outros cartões SD sem precisar baixar novamente o arquivo.</p>"
+}

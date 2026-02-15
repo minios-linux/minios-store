@@ -1,0 +1,1 @@
+gomoku.app_app-icon.png

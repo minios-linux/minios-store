@@ -1,0 +1,5 @@
+{
+  "name": "pympress",
+  "description": "Pembaca PDF minimalis namun canggih untuk presentasi layar ganda",
+  "longDescription": "<p>Pympress adalah aplikasi pembaca PDF ringan yang ditulis dengan Python, menggunakan Poppler untuk rendering PDF dan GTK+ sebagai antarmuka grafis.</p>\n<p>Aplikasi ini dirancang khusus sebagai pembaca layar ganda untuk presentasi dan seminar, dengan dua tampilan: *Jendela Konten* untuk proyektor, dan *Jendela Presenter* di laptop Anda.</p>\n<p>Fitur yang ditawarkan antara lain:   - mendukung pemutaran video tersemat   - anotasi teks tampil di jendela presenter   - dukungan bawaan untuk fitur *notes on second screen* pada Beamer!</p>\n"
+}

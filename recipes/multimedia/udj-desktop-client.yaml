@@ -1,0 +1,23 @@
+id: udj-desktop-client
+name: UDJ Desktop Client
+description: Social music player
+longDescription: |
+  <p>UDJ allows you and your friends to collaboratively select which music is playing, in real time. Guests are able to view your playlist from their smartphones. They can also search your music library from their phones and add songs to the playlist. If they see a song added by someone else that they like, they can choose to vote it up. The song will then move up in the queue and be played sooner. Alternatively, if they see a song they don&apos;t like they can vote it down and it will move down in the queue.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - udj-desktop-client
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: udj-desktop-client_udj-desktop-client.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

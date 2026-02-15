@@ -1,0 +1,32 @@
+id: jupyter-notebook
+name: Jupyter Notebook
+description: Run Jupyter Notebook
+longDescription: |
+  <p>The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text. The Notebook has support for multiple programming languages, sharing, and interactive widgets.</p>
+  <p>This package provides the jupyter subcommands &quot;notebook&quot;, &quot;nbextension&quot;, &quot;serverextension&quot; and &quot;bundlerextension&quot;.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jupyter-notebook
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - python
+iconSources:
+  - url: j/ju/jupyter-notebook.desktop/14bcfeb5165d054f15139ac57da3a37a/icons/128x128/jupyter-notebook_notebook.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

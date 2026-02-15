@@ -1,0 +1,68 @@
+id: "totem"
+name: Videos
+description: Play movies
+longDescription: |
+  <p>Videos, also known as Totem, is the official movie player of the GNOME
+        desktop environment.
+        It features a searchable list of local videos, and DVDs, as well as local
+        network video shares (using UPnP/DLNA) and video highlights from a number
+        of web sites.</p>
+  <p>Totem comes with added functionality such as: subtitle downloader,
+        and support for recording DVDs.</p>
+  <ul>
+    <li>Video thumbnailer for the file manager</li>
+    <li>Files properties tab</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - totem
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - video
+  - movie
+  - film
+  - clip
+  - series
+  - player
+  - dvd
+  - tv
+  - disc
+screenshotSources:
+  - url: org/gnome/Totem.desktop/0475d629d66e92cf48c4ee9da0e34102/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Totem.desktop/0475d629d66e92cf48c4ee9da0e34102/screenshots/image-1_624x393@1.png
+    width: 1043
+    height: 657
+  - url: org/gnome/Totem.desktop/0475d629d66e92cf48c4ee9da0e34102/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Totem.desktop/0475d629d66e92cf48c4ee9da0e34102/screenshots/image-2_624x393@1.png
+    width: 1043
+    height: 657
+iconSources:
+  - url: org/gnome/Totem.desktop/0475d629d66e92cf48c4ee9da0e34102/icons/128x128/totem_org.gnome.Totem.png
+    width: 128
+    height: 128
+developer: The GNOME developers
+homepage: "https://wiki.gnome.org/Apps/Videos"
+enabled: true
+order: 99

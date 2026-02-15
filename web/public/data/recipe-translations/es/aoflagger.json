@@ -1,0 +1,5 @@
+{
+  "name": "AOFlagger GUI",
+  "description": "Visualiza datos de radio y algoritmos de RFI",
+  "longDescription": "<p>AOFlagger es una herramienta capaz de detectar y eliminar interferencias de radiofrecuencia (RFI) en observaciones radioastronómicas. El código está altamente optimizado para velocidad y precisión. Se utiliza de forma predeterminada en el radiotelescopio LOFAR y, por lo tanto, está en una etapa de producción. El software puede operar de manera completamente automatizada, pero también dispone de una interfaz gráfica para analizar resultados y ajustar la estrategia. El formato de archivo de entrada preferido es Casa Measurement Set (MS).</p>\n<p>Además del sistema de marcado, el software incluye utilidades para visualizar datos de manera eficiente en distintos formatos, como gráficos de tiempo-frecuencia y espectros de potencia. Proporciona los programas aoflagger, rfigui, aoqplot, aoquality, entre otros.</p>\n"
+}

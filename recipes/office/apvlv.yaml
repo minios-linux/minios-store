@@ -1,0 +1,28 @@
+id: "apvlv"
+name: apvlv
+description: A minimalistic document viewer
+longDescription: |
+  <p>apvlv (Alf&apos;s PDF Viewer Like Vim) is a small and fast PDF/EPUB/TXT/FB2 viewer, that uses poppler for rendering. Its interface aims to users who like vim behaviour. For example opening a PDF file can be done with &apos;:o filename&apos;. apvlv can also work with tabs, so you can open multiple files at the same time in one program.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - apvlv
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - vim
+  - pdf
+iconSources:
+  - url: a/ap/apvlv.desktop/560991eb1601e64beaf02f4ba29a1ab0/icons/128x128/apvlv_x-office-document.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

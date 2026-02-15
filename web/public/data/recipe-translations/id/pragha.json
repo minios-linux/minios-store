@@ -1,0 +1,5 @@
+{
+  "name": "Pragha Music Player",
+  "description": "Kelola dan dengarkan musik",
+  "longDescription": "<p>\n      Pragha adalah pemutar musik ringan untuk GNU/Linux, berbasis Gtk, sqlite, dan\n      sepenuhnya ditulis dalam C. Dirancang agar cepat, ringan, namun tetap lengkap tanpa mengganggu pekerjaan harian Anda.\n    </p>\n<p>Fitur:</p>\n<ul>\n  <li>Integrasi penuh dengan GTK+3, tetap mandiri tanpa bergantung pada GNOME atau XFCE</li>\n  <li>Desain dua panel terinspirasi dari Amarok 1.4: perpustakaan dan daftar putar saat ini</li>\n  <li>Perpustakaan musik dengan berbagai tampilan, berdasarkan tag atau struktur folder</li>\n  <li>Cari, filter, dan antrekan lagu pada daftar putar saat ini</li>\n  <li>Memutar dan mengedit tag file mp3, m4a, ogg, flac, asf, wma, dan ape (dengan codec yang sesuai)</li>\n  <li>Manajemen daftar putar: ekspor ke M3U dan baca M3U, PLS, XSPF, serta WAX</li>\n  <li>Memutar CD audio dan mendeteksi info CD melalui CDDB</li>\n  <li>Kendali pemutaran melalui command line dan MPRIS2</li>\n  <li>Notifikasi desktop native menggunakan libnotify</li>\n</ul>\n"
+}

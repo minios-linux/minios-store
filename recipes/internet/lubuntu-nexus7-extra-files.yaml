@@ -1,0 +1,23 @@
+id: lubuntu-nexus7-extra-files
+name: identi.ca
+description: Launching identi.ca
+longDescription: |
+  <p>This package contents extra files for the nexus7 session.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lubuntu-nexus7-extra-files
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: lubuntu-nexus7-extra-files_internet-web-browser.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

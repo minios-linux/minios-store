@@ -1,0 +1,5 @@
+{
+  "name": "PhotoCollage",
+  "description": "Outil graphique pour créer des posters de collage photo",
+  "longDescription": "<p>PhotoCollage vous permet de réaliser des posters de collage photo. Il assemble les photographies que vous lui fournissez pour générer un grand poster. Les photos sont automatiquement disposées pour remplir toute la surface, puis vous pouvez modifier la disposition finale, les dimensions, la bordure ou échanger des photos dans la grille générée. L’image finale peut alors être enregistrée dans n’importe quelle taille.</p><p>L’algorithme génère des dispositions aléatoires qui placent les photos en optimisant l’espace disponible. Il essaie de remplir toute la surface tout en maintenant chaque photo aussi grande que possible.</p><p>PhotoCollage offre des fonctionnalités similaires à de nombreux sites commerciaux, mais gratuitement et avec un code open source.</p>\n"
+}

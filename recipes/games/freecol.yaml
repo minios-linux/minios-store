@@ -1,0 +1,66 @@
+id: "freecol"
+name: FreeCol
+description: open source remake of the old Colonization
+longDescription: |
+  <p>
+              The FreeCol team aims to create an Open Source version of Colonization (released under the GPL).
+              At first we'll try to make an exact clone of Colonization.
+              The visuals will be brought up to date with more recent standards but will remain clean, simple and functional.
+              Certain new 'features' will be implemented but the gameplay and the rules will be exactly the same as the
+  original game.
+              Examples of modern features are: an isometric map and multiplayer support.
+          </p>
+  <p>
+              This clone will be developed incrementally and result in FreeCol 1.0.0 which will be an almost exact Colonization
+  clone.
+              Incremental development basically means that we'll add features one at a time.
+              This allows us to have a running program at all times and also to release an unfinished but working game once
+  in a while.
+          </p>
+  <p>
+              Once FreeCol 1.0.0 is finished we'll start working towards FreeCol 2.0.0.
+              FreeCol 2 will go beyond the original Colonization and will have many new features, it will be an implementation
+  of our (and our users') image of what Colonization 2 would have been.
+          </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freecol
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - strategy
+  - colonization
+  - civilization
+  - turn-based
+  - isometric
+screenshotSources:
+  - url: f/fr/freecol.desktop/4159c2b85279445dac2cfd18609f1d7f/screenshots/image-1_orig.png
+    thumbnailUrl: f/fr/freecol.desktop/4159c2b85279445dac2cfd18609f1d7f/screenshots/image-1_624x528@1.png
+    width: 843
+    height: 714
+iconSources:
+  - cached: freecol_freecol.png
+    width: 64
+    height: 64
+homepage: "http://www.freecol.org/"
+enabled: true
+order: 99

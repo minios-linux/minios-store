@@ -1,0 +1,5 @@
+{
+  "name": "QtPass",
+  "description": "Interfaz gráfica para el almacén de contraseñas estándar de Unix",
+  "longDescription": "<p>QtPass es una interfaz gráfica multiplataforma para pass, el gestor de contraseñas estándar de Unix.</p>\n<p>Características:</p>\n<ul>\n  <li>Uso directo de pass, git y gpg2</li>\n  <li>Compatible con Linux, BSD, OS X y Windows</li>\n  <li>Utiliza widgets e iconografía nativos siempre que es posible</li>\n  <li>Lectura de almacenes de contraseñas de pass</li>\n  <li>Desencripta y muestra contraseñas e información relacionada</li>\n  <li>Edita y añade contraseñas e información</li>\n  <li>Actualización bidireccional con un repositorio git</li>\n  <li>Selección de usuario por carpeta para cifrado a múltiples destinatarios</li>\n  <li>Opciones de configuración para backends y ubicaciones de ejecutables/carpeta</li>\n  <li>Copiado de contraseñas al portapapeles</li>\n  <li>Opciones configurables de protección contra visualización por terceros (shoulder surfing)</li>\n  <li>Soporte experimental para WebDAV</li>\n</ul>\n"
+}

@@ -1,0 +1,42 @@
+id: tint
+name: TINT
+description: Tetris clone for the terminal
+longDescription: |
+  <p>TINT Is Not Tetris(tm) ...at least the name isn&apos;t.</p>
+  <p>As the title suggests, this is a clone of the original tetris game written by Alexey Pajitnov, Dmitry Pavlovsky, and Vadim Gerasimov.</p>
+  <p>The game is as close to the original as possible, but there are a few differences. Nevertheless, it&apos;s probably the closest to the original that you&apos;ll ever find in the UNIX world...</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tint
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - 2d
+  - curses
+  - colour
+  - single-player
+iconSources:
+  - cached: tint_tint.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

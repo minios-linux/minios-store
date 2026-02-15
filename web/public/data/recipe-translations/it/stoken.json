@@ -1,0 +1,5 @@
+{
+  "name": "Software Token",
+  "description": "Token software compatibile con RSA SecurID",
+  "longDescription": "<p>stoken è un token software che genera password monouso compatibili con token RSA SecurID a 128 bit (AES). I token SecurID sono spesso utilizzati per autenticare gli utenti a risorse di rete protette e VPN, poiché le OTP offrono maggiore resistenza rispetto alle password statiche contro numerosi tipi di attacchi.</p>\n<p>stoken si propone come un'alternativa libera e adatta a Linux ai software proprietari RSA SecurID Software Authenticator.</p>\n<p>Questo pacchetto include programmi indipendenti a riga di comando e interfaccia grafica GTK+ che permettono di importare i seed dei token, generare codici token e utilizzare varie funzioni di utilità e test.</p>\n"
+}

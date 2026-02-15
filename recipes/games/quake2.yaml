@@ -1,0 +1,39 @@
+id: "quake2"
+name: "Quake 2 MP2: Ground Zero"
+description: Mission Pack 2 for the classic first person shooter
+longDescription: |
+  <p>Quake II is a classic first-person shooter game by id Software, released in 1997. This package contains a launcher script and menu entry to play Quake II with any suitable engine.</p>
+  <p>To make this package useful, you will need to create and install some non-distributable packages by using the game-data-packager package: either quake2-full-data or quake2-demo-data. Creating quake2-full-data requires data files from a Quake II installation or CD-ROM.</p>
+  <p>game-data-packager (&gt;= 39) can also produce packages for the official mission packs The Reckoning (developed by Xatrix Entertainment) and Ground Zero (developed by Rogue Entertainment). Additional menu entries should appear automatically if those expansions are installed.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - quake2
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - first person shooter
+  - fps
+  - 3d
+  - deathmatch
+  - rogue entertainment
+  - mission pack 2
+  - quake ii
+iconSources:
+  - url: q/qu/quake2-zaero.desktop/b589a8bc881203a31fffe5760731fc1b/icons/128x128/quake2_quake2.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

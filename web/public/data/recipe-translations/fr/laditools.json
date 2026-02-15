@@ -1,0 +1,5 @@
+{
+  "name": "LADI Log File Viewer",
+  "description": "Afficher ou surveiller les fichiers journaux LADI",
+  "longDescription": "<p>LADI Tools est un ensemble d’outils visant à atteindre les objectifs du projet LADI, qui consistent à améliorer l’intégration au bureau et le flux de travail des utilisateurs du système audio Linux basé sur JACK et ladish. Ces outils tirent parti des interfaces D-Bus récemment ajoutées à JACK et ladish afin de simplifier la configuration et l’utilisation de ces deux excellents programmes.</p>\n<p>Les outils suivants sont inclus :  * g15ladi             - moniteur JACK pour claviers g15  * ladi-control-center - outil graphique permettant de configurer JACK  * ladi-player         - application pratique façon VLC pour contrôler JACK et gérer les studios  * ladi-system-log     - visionneuse de journaux pour JACK, ladish et a2jmidid  * ladi-system-tray    - indicateur système pour démarrer, arrêter et surveiller JACK, ainsi que lancer certaines applications liées à JACK</p>\n<p>Ce paquet inclut un ensemble d’outils de base pour contrôler et surveiller le système LADI, c’est-à-dire JACK et ladish dans un environnement D-Bus.</p>\n"
+}

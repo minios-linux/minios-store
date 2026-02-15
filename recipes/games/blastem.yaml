@@ -1,0 +1,46 @@
+id: blastem
+name: BlastEm
+description: The fast and accurate Genesis emulator
+longDescription: |
+  <p>BlastEm is a highly precise multi-system emulator that emulates the Sega Genesis/Mega Drive, Master System and Game Gear.</p>
+  <p>Despite this high accuracy, even the most demanding software runs at full speed on modest hardware.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - blastem
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - emulator
+  - console
+  - games
+  - rom
+  - sega
+  - genesis
+  - megadrive
+  - mastersystem
+  - gamegear
+iconSources:
+  - cached: blastem_blastem.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

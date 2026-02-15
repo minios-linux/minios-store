@@ -1,0 +1,5 @@
+{
+  "name": "qpdfview",
+  "description": "visor de documentos con pestañas",
+  "longDescription": "<p>qpdfview es un visor de documentos sencillo con pestañas que utiliza la biblioteca Poppler para el renderizado de PDF y CUPS para impresión, y ofrece una interfaz gráfica clara y simple basada en Qt. El soporte para los formatos DjVu y PostScript se puede añadir mediante complementos.</p>\n<p>Las funcionalidades actuales incluyen:</p>\n<ul>\n  <li>Paneles de esquema, propiedades y miniaturas</li>\n  <li>Escalado, rotación y ajuste</li>\n  <li>Vistas a pantalla completa y de presentación</li>\n  <li>Distribuciones de página continua y multipágina</li>\n  <li>Configuración persistente por archivo</li>\n  <li>Atajos de teclado configurables</li>\n  <li>Barras de herramientas configurables</li>\n  <li>Soporte para documentos DjVu y PostScript mediante complementos</li>\n  <li>Búsqueda de texto (solo PDF y DjVu)</li>\n  <li>Soporte para SyncTeX (solo PDF)</li>\n  <li>Soporte parcial de anotaciones (solo PDF, Poppler versión 0.20.1 o superior)</li>\n  <li>Soporte parcial de formularios (solo PDF)</li>\n</ul>\n"
+}

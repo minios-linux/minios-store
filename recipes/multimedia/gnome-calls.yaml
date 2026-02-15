@@ -1,0 +1,49 @@
+id: "gnome-calls"
+name: Calls
+description: A phone dialer and call handler
+longDescription: |
+  <p>Calls is a simple, elegant phone dialer and call handler built using GTK+ 3.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-calls
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - telephone
+  - call
+  - phone
+  - dial
+  - dialer
+  - pstn
+screenshotSources:
+  - url: org/gnome/Calls/8832cff0e5ebf7935210c795aaab4a0b/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Calls/8832cff0e5ebf7935210c795aaab4a0b/screenshots/image-1_624x1123@1.png
+    width: 720
+    height: 1296
+  - url: org/gnome/Calls/8832cff0e5ebf7935210c795aaab4a0b/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Calls/8832cff0e5ebf7935210c795aaab4a0b/screenshots/image-2_624x1123@1.png
+    width: 720
+    height: 1296
+iconSources:
+  - url: org/gnome/Calls/8832cff0e5ebf7935210c795aaab4a0b/icons/128x128/gnome-calls_org.gnome.Calls.png
+    width: 128
+    height: 128
+developer: Bob Ham
+homepage: "https://source.puri.sm/Librem5/calls"
+enabled: true
+order: 99

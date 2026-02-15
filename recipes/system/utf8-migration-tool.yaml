@@ -1,0 +1,25 @@
+id: utf8-migration-tool
+name: UTF-8 Migration Tool
+description: UTF-8 Migration Wizard
+longDescription: |
+  <p>This wizard upgrades legacy system locales to their UTF-8 equivalent. It also informs users whenever files in their home directory still utilize legacy encodings.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - utf8-migration-tool
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - utf-8
+iconSources:
+  - cached: utf8-migration-tool_applications-system.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

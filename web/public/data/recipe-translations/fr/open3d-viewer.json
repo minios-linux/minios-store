@@ -1,0 +1,5 @@
+{
+  "name": "Open3D",
+  "description": "Visionneuse pour maillages triangulaires et nuages de points",
+  "longDescription": "<p>Open3D est une bibliothèque open source qui facilite le développement rapide de logiciels traitant des données 3D. L’interface Open3D propose un ensemble structuré de structures de données et d’algorithmes disponibles en C++ et Python. Le backend est hautement optimisé et conçu pour la parallélisation.</p>\n<p>Ce paquet fournit la visionneuse autonome pour la visualisation de données.</p>\n"
+}

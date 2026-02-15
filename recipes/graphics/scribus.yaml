@@ -1,0 +1,58 @@
+id: "scribus"
+name: Scribus
+description: Open Source Page Layout and Desktop Publishing (DTP)
+longDescription: |
+  <p>Scribus is a open source page layout program which
+  produces commercial grade output in PDF and Postscript, primarily,
+  though not exclusively, for Linux.</p>
+  <p>While the goals of the program are ease of use and simple
+  easy-to-understand tools, Scribus support for professional
+  publishing features, such as CMYK and spot colors, easy PDF creation,
+  Encapsulated Postscript import and export and creation of color
+  separations.</p>
+  
+categoryId: graphics
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - scribus
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: s/sc/scribus.desktop/c32401b07ed8edb5444172038058e709/screenshots/image-1_orig.png
+    thumbnailUrl: s/sc/scribus.desktop/c32401b07ed8edb5444172038058e709/screenshots/image-1_624x441@1.png
+    width: 1000
+    height: 708
+  - url: s/sc/scribus.desktop/c32401b07ed8edb5444172038058e709/screenshots/image-2_orig.png
+    thumbnailUrl: s/sc/scribus.desktop/c32401b07ed8edb5444172038058e709/screenshots/image-2_624x438@1.png
+    width: 1000
+    height: 702
+  - url: s/sc/scribus.desktop/c32401b07ed8edb5444172038058e709/screenshots/image-3_orig.png
+    thumbnailUrl: s/sc/scribus.desktop/c32401b07ed8edb5444172038058e709/screenshots/image-3_624x473@1.png
+    width: 629
+    height: 477
+iconSources:
+  - url: s/sc/scribus.desktop/c32401b07ed8edb5444172038058e709/icons/128x128/scribus_scribus.png
+    width: 128
+    height: 128
+homepage: "http://www.scribus.net/"
+enabled: true
+order: 99

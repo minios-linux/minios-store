@@ -1,0 +1,5 @@
+{
+  "name": "Winpdb",
+  "description": "Débogueur Python multiplateforme",
+  "longDescription": "<p>Winpdb prend en charge le débogage d’applications basées sur les threads et curses, la modification d’espaces de noms et le débogage embarqué. En tant que débogueur distant, il utilise des connexions réseau (chiffrées) pour se connecter au programme à déboguer (généralement exécuté sur la même machine).</p>\n<p>Winpdb est l’interface graphique, basée sur wx, de rpdb2, également inclus dans ce paquet. rpdb2 fonctionne en mode texte et peut utiliser des sessions screen si aucun émulateur de terminal X n’est disponible.</p>\n<p>Winpdb est jusqu’à 20 fois plus rapide que pdb.</p>\n"
+}

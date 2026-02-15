@@ -1,0 +1,58 @@
+id: "scilab"
+name: Scilab
+description: Scientific software package for numerical computations
+longDescription: |
+  <p>Scilab is a matrix-based scientific software package. Scilab contains hundreds of built-in mathematical functions, rich data structures (including polynomials, rationals, linear systems, lists, etc...) and comes with a number of specific toolboxes for control, signal processing, ...</p>
+  <p>This package also provides Xcos, a graphical editor to design hybrid dynamical systems models. Models can be designed, loaded, saved, compiled and simulated. Stable and efficient solution for industrial and academics needs, Xcos provides functionalities for modeling of mechanical systems (automotive, aeronautics...), hydraulic circuits (dam, pipe modeling...), control systems, etc. Modelica capabilities are also provided.</p>
+  <p>For a minimum version of scilab, install package &quot;scilab-cli&quot;.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - scilab
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - science
+  - math
+  - numerical
+  - simulation
+screenshotSources:
+  - url: org/scilab/xcos/5505d6da296971f377684282bb98c5c1/screenshots/image-1_orig.png
+    thumbnailUrl: org/scilab/xcos/5505d6da296971f377684282bb98c5c1/screenshots/image-1_224x175@1.png
+    width: 536
+    height: 421
+  - url: org/scilab/xcos/5505d6da296971f377684282bb98c5c1/screenshots/image-2_orig.png
+    thumbnailUrl: org/scilab/xcos/5505d6da296971f377684282bb98c5c1/screenshots/image-2_224x157@1.png
+    width: 600
+    height: 422
+  - url: org/scilab/xcos/5505d6da296971f377684282bb98c5c1/screenshots/image-3_orig.png
+    thumbnailUrl: org/scilab/xcos/5505d6da296971f377684282bb98c5c1/screenshots/image-3_224x157@1.png
+    width: 600
+    height: 422
+iconSources:
+  - url: org/scilab/xcos/5505d6da296971f377684282bb98c5c1/icons/128x128/scilab_xcos.png
+    width: 128
+    height: 128
+homepage: "https://www.scilab.org/"
+enabled: true
+order: 99

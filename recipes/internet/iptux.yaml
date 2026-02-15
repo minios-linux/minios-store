@@ -1,0 +1,51 @@
+id: "iptux"
+name: iptux
+description: LAN communication software
+longDescription: |
+  <p>iptux is an “IP Messenger” client for Linux.</p>
+  <p>It can:  - auto-detect other clients on the intranet.  - send message to other clients.  - send file to other clients.</p>
+  <p>It is (supposedly) compatible with 飞鸽传书 (Feige) and 飞秋 (FeiQ) from China, and with the original “IP Messenger” clients from Japan as listed on http://ipmsg.org/ including g2ipmsg and xipmsg in Debian.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - iptux
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - iptux
+screenshotSources:
+  - url: io/github/iptux_src.iptux/88d35e8ac6f46a1fcdcc69e5aa51bf39/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/iptux_src.iptux/88d35e8ac6f46a1fcdcc69e5aa51bf39/screenshots/image-1_224x364@1.png
+    width: 316
+    height: 514
+  - url: io/github/iptux_src.iptux/88d35e8ac6f46a1fcdcc69e5aa51bf39/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/iptux_src.iptux/88d35e8ac6f46a1fcdcc69e5aa51bf39/screenshots/image-2_624x580@1.png
+    width: 746
+    height: 694
+iconSources:
+  - url: io/github/iptux_src.iptux/88d35e8ac6f46a1fcdcc69e5aa51bf39/icons/128x128/iptux_io.github.iptux_src.iptux.png
+    width: 128
+    height: 128
+homepage: "https://github.com/iptux-src/iptux"
+enabled: true
+order: 99

@@ -1,0 +1,39 @@
+id: pax-britannica
+name: Pax Britannica
+description: Multi-player real-time strategy game
+longDescription: |
+  <p>Pax Britannica is a one-button real-time strategy game by No Fun Games. Up to four players battle it out underwater, struggling to be the last one standing!</p>
+  <p>Each player uses one button to spawn ships that fight automatically using the latest in artificial aquatelligence technology. Gamepads are also supported.  The player who keeps their factory ship alive wins!</p>
+  <p>This package contains the game binary.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pax-britannica
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pax-britannica_pax-britannica.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

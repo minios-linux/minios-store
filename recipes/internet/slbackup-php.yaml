@@ -1,0 +1,41 @@
+id: "slbackup-php"
+name: slbackup-php
+description: Webpage for configuring slbackup
+longDescription: |
+  <p>Slbackup-php provides the necessary functions to maintain a slbackup repository.</p>
+  <p>Features:  - scheduling of slbackup execution;  - editing of the configuration file;  - verifying SSH keys and successful backups;  - restoring from backups;  - removing old backups from the repository.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - slbackup-php
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - backup
+  - education
+  - rdiff
+  - skolelinux
+iconSources:
+  - cached: slbackup-php_web-browser.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

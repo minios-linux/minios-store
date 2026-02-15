@@ -1,0 +1,5 @@
+{
+  "name": "bpython",
+  "description": "Antarmuka canggih untuk interpreter Python!",
+  "longDescription": "<p>bpython adalah antarmuka canggih untuk interpreter Python, dengan fitur-fitur berikut:</p>\n<p>  * Penyorotan sintaks secara langsung.   * Autolengkap mirip readline dengan saran yang muncul saat Anda mengetik   * Daftar parameter yang diharapkan untuk setiap fungsi Python. Menggunakan pydoc untuk mencoba menebak parameter pada fungsi C.   * Fungsi \"Rewind\" untuk menghapus baris kode terakhir dari memori dan mengevaluasinya ulang. Perlu dicatat: fitur ini hanya bermanfaat saat menyusun kelas dan fungsi, karena \"undo\" yang sesungguhnya tidak memungkinkan, jadi harap berhati-hati saat menggunakannya.   * Mengirim kode yang Anda masukkan ke pastebin dan menampilkan URL pastebin untuk dicopy, dan sebagainya.   * Menyimpan kode yang telah Anda input ke file.   * Auto-indentation.   * Mode Anti-Crash.</p>\n<p>Paket ini berisi bpython untuk Python 2.</p>\n"
+}

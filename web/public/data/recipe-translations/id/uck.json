@@ -1,0 +1,5 @@
+{
+  "name": "Ubuntu Customization Kit",
+  "description": "Kustomisasi CD Ubuntu Desktop dengan mudah",
+  "longDescription": "<p>UCK adalah alat yang membantu Anda menyesuaikan CD Live resmi Ubuntu (termasuk Kubuntu/Xubuntu dan Edubuntu) sesuai kebutuhan Anda. Anda dapat menambahkan paket apa pun ke sistem live, misalnya paket bahasa, aplikasi, dan sebagainya.</p>\n<p>Fitur:  * Membuat LiveCD bootable dengan bahasa yang sudah ditentukan berdasarkan CD Ubuntu/Kubuntu asli menggunakan panduan grafis.  * Membangun LiveCD dengan fitur khusus melalui skrip. Anda dapat menyesuaikan filesystem root (misal menginstal/menghapus paket), isi ISO (menambah/menghapus dokumen, mengubah nama), dan initrd (menambah modul boot, mengubah urutan boot).</p>\n"
+}

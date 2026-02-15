@@ -1,0 +1,56 @@
+id: "quitcount"
+name: QuitCount
+description: Shows savings since having quit smoking
+longDescription: |
+  <p>QuitCount is a simple counter that shows what you saved since you
+        quit smoking.</p>
+  <p>Once you tell it the date you quit, how much you smoked, and how
+        much it cost, it&apos;ll tell you how many cigarettes you didn&apos;t smoke
+        since, and how much it makes in terms of money, tar, and life
+        expectancy.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - quitcount
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - smoking
+  - cessation
+  - self-help
+screenshotSources:
+  - url: q/qu/quitcount.desktop/2c2bc41358ef60ef1ea80ed2af710f0a/screenshots/image-1_orig.png
+    thumbnailUrl: q/qu/quitcount.desktop/2c2bc41358ef60ef1ea80ed2af710f0a/screenshots/image-1_624x351@1.png
+    width: 624
+    height: 351
+  - url: q/qu/quitcount.desktop/2c2bc41358ef60ef1ea80ed2af710f0a/screenshots/image-2_orig.png
+    thumbnailUrl: q/qu/quitcount.desktop/2c2bc41358ef60ef1ea80ed2af710f0a/screenshots/image-2_624x351@1.png
+    width: 736
+    height: 414
+iconSources:
+  - url: q/qu/quitcount.desktop/2c2bc41358ef60ef1ea80ed2af710f0a/icons/128x128/quitcount_quitcount.png
+    width: 128
+    height: 128
+homepage: "http://quitcount.sourceforge.net/"
+enabled: true
+order: 99

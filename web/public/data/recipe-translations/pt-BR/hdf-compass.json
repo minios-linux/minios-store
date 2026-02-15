@@ -1,0 +1,5 @@
+{
+  "name": "HDFCompass",
+  "description": "Visualizador para HDF5 e formatos relacionados",
+  "longDescription": "<p>O HDFCompass é um visualizador experimental para arquivos HDF5 e formatos relacionados, desenvolvido para complementar outras aplicações mais complexas como o HDFView. O foco principal está em um design limpo e minimalista, além de oferecer máxima extensibilidade por meio de um sistema de plugins para novos formatos.</p>\n<p>Este pacote fornece o aplicativo HDFCompass.</p>\n"
+}

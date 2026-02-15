@@ -1,0 +1,25 @@
+id: swayimg
+name: Swayimg
+description: Image viewer for Sway/Wayland
+longDescription: |
+  <p>The program uses Sway IPC to determine the geometry of the currently focused container. This data is used to calculate the position and size of the new &quot;overlay&quot; window that will be used to draw the image. In the next step, swayimg adds two Sway rules for the self window: &quot;floating enable&quot; and &quot;move position&quot;. Then it creates a new Wayland window and draws the image from the specified file.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - swayimg
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: swayimg_swayimg.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

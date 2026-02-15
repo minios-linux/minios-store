@@ -1,0 +1,5 @@
+{
+  "name": "Konqueror",
+  "description": "Gestionnaire de fichiers et navigateur web KDE",
+  "longDescription": "<p>Konqueror est le navigateur web de KDE et un outil polyvalent pour toute gestion ou prévisualisation de fichiers.</p>\n<p>Fonctionnalités :</p>\n<ul>\n  <li>Navigation web utilisant KHTML ou KDEWebKit comme moteurs de rendu</li>\n  <li>Gestion de fichiers avec la plupart des fonctionnalités de Dolphin (y compris gestion de versions, menus de service et interface utilisateur de base)</li>\n  <li>Gestion de fichiers sur serveurs ftp et sftp</li>\n  <li>Client FTP complet (possibilité de diviser les vues pour afficher les dossiers locaux et distants ainsi que leurs aperçus dans la même fenêtre)</li>\n  <li>Applications intégrées pour l’aperçu de fichiers (ex. Okular et Calligra pour les documents, Gwenview pour les images, KTextEditor pour les fichiers texte)</li>\n  <li>Prise en charge de différents plugins : menus de service, KParts (applications intégrées), KIO (accès aux fichiers via des protocoles spéciaux comme http ou ftp) et plugins KPart (comme le bloqueur de publicité...)</li> </ul>\n"
+}

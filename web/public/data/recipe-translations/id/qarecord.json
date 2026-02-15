@@ -1,0 +1,5 @@
+{
+  "name": "QARecord",
+  "description": "Alat perekam audio yang sederhana namun andal",
+  "longDescription": "<p>QARecord adalah alat perekam yang sederhana namun andal. Aplikasi ini mendukung perekaman stereo maupun multikanal, kompatibel dengan antarmuka ALSA dan JACK, serta dapat beroperasi dalam mode 16 bit maupun 32 bit. Dengan penggunaan ringbuffer berukuran besar untuk data tangkapan, risiko buffer overrun dapat dihindari. QARecord memiliki antarmuka grafis berbasis Qt lengkap dengan indikator puncak audio secara visual.</p>\n"
+}

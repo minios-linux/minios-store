@@ -1,0 +1,37 @@
+id: flrig
+name: Flrig
+description: Amateur Radio Communications
+longDescription: |
+  <p>Flrig is a graphical ham radio transceiver control program designed to be used either stand-alone or as an adjunct to fldigi.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flrig
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: flrig_flrig.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,42 @@
+id: "gamine"
+name: Gamine
+description: Educational game for young children
+longDescription: |
+  <p>Gamine is a game designed for 2 years old children who are not able to use a keyboard.</p>
+  <p>The child uses the mouse to draw coloured dots and lines on the screen.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gamine
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - children
+  - kids
+  - mouse
+iconSources:
+  - url: g/ga/gamine.desktop/736a10f4b6d512e67b6642352a741187/icons/128x128/gamine_gamine.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

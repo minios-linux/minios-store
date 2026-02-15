@@ -1,0 +1,5 @@
+{
+  "name": "Process Viewer",
+  "description": "Antarmuka grafis untuk melihat proses yang ditulis dengan Rust",
+  "longDescription": "<p>\n      Process Viewer menampilkan status terkini dari proses-proses\n      yang berjalan (penggunaan CPU dan memori) serta kondisi sistem Anda\n      (penggunaan setiap inti prosesor, RAM, dan suhu komponen jika\n      informasi tersebut tersedia).\n    </p>\n"
+}

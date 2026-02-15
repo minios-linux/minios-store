@@ -1,0 +1,28 @@
+id: lxqt-globalkeys
+name: Shortcut Keys
+description: Configure shortcut keys in LXQt
+longDescription: |
+  <p>LXQt globalkey is providing tools to set global keyboard shortcuts in LXQt sessions, that is shortcuts which apply to the LXQt session as a whole and are not limited to distinct applications.</p>
+  <p>This package contain the program files for LXQt globalskeys.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxqt-globalkeys
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: l/lx/lxqt-config-globalkeyshortcuts.desktop/0EEFCC011145822EDDA6182CEAD06DF0/icons/128x128/lxqt-globalkeys_preferences-desktop-keyboard.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

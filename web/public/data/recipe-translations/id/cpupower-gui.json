@@ -1,0 +1,5 @@
+{
+  "name": "Pengaturan frekuensi CPU",
+  "description": "Sesuaikan frekuensi CPU",
+  "longDescription": "<p>Utilitas grafis untuk mengubah frekuensi CPU dan governor.</p>\n<p>\n            Utilitas ini memungkinkan Anda mengatur frekuensi operasi CPU untuk setiap inti secara terpisah.\n            Program ini dapat mendeteksi inti yang sedang offline dan hanya menampilkan inti yang tersedia.\n            Selain itu, jika suatu inti tidak mendukung skala frekuensi, maka tidak akan ditampilkan.\n            Tersedia juga opsi untuk menerapkan pengaturan yang sama ke semua inti sekaligus.\n        </p>\n<p>\n            Untuk menerapkan pengaturan, pengguna harus merupakan pengguna lokal dan aktif serta tergabung dalam grup sudo.\n            Pengguna lokal dan aktif yang tidak berada di grup ini harus melakukan otentikasi sebagai admin untuk dapat menerapkan pengaturan.\n        </p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Displays",
+  "description": "Konfiguration von wlroots-Anzeigen",
+  "longDescription": "<p>wdisplays ist eine grafische Anwendung zur Konfiguration von Monitoren in Wayland-Compositors. Teile des Codes stammen aus kanshi. Das Programm funktioniert mit jedem Compositor, der das wlr-output-management-unstable-v1-Protokoll unterstützt, einschließlich sway. Ziel dieses Projekts ist es, eine präzise Einstellung der Anzeigeoptionen für Kiosksysteme, Digital Signage und anspruchsvolle Multi-Monitor-Umgebungen zu ermöglichen.</p>\n"
+}

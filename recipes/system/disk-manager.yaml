@@ -1,0 +1,23 @@
+id: disk-manager
+name: Disk Manager
+description: Manage filesystem configuration
+longDescription: |
+  <p>Disk-Manager is a simple filesystem configurator that allows you to:  * Automatically detect new partitions at startup.  * Fully manage configuration of filesystem.  * Enable/disable write support for NTFS (needs ntfs-3g installed).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - disk-manager
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/di/disk-manager.desktop/DB5C8CAB1A482A895A5BEA7BF4143757/icons/128x128/disk-manager_disk-manager.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

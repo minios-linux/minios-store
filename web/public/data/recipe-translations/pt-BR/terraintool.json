@@ -1,0 +1,5 @@
+{
+  "name": "Gerador de Malha de Superfície Terraintool",
+  "description": "Gere malhas de superfície para softwares de topografia de cavernas",
+  "longDescription": "<p>Esta ferramenta gera malhas de terreno para softwares de topografia de cavernas a partir de conjuntos de dados de altitude online. Utiliza os dados da NASA SRTM e do sistema europeu ASTER. Os dados relevantes são baixados e extraídos, geolocalizados para o sistema de coordenadas desejado, reamostrados em uma grade de malha, é adicionado um deslocamento para a grade local se necessário, o resultado é exibido e salvo no formato survex (.svx). O programa é escrito em Java.</p>\n"
+}

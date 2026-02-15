@@ -1,0 +1,43 @@
+id: "plasma-sdk"
+name: Cuttlefish
+description: Icon Previewer for Artists and Developers
+longDescription: |
+  <p>Cuttlefish allows artists and developers to preview and pick icons. Cuttlefish attempts to render the icons exactly as they would look drawn in the application. It allows to filter based on category and name. Cuttlefish is not a general-purpose tool, but geared towards artists&apos; and developers&apos; use-cases.
+          Cuttlefish also provides a plugin for Kate and KDevelop to be used as icon picker.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plasma-sdk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/cuttlefish.desktop/F23B1EF0850A129A0AE1BD38E52AE2D2/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/cuttlefish.desktop/F23B1EF0850A129A0AE1BD38E52AE2D2/screenshots/image-1_624x353.png
+    width: 1880
+    height: 1066
+iconSources:
+  - url: org/kde/plasma.themeexplorer/53e6874e6472570ee2e6d064cf37e4bd/icons/128x128/plasma-sdk_preferences-desktop-theme.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

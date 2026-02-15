@@ -1,0 +1,5 @@
+{
+  "name": "QtTinySA",
+  "description": "Interface graphique de commande TinySA Ultra",
+  "longDescription": "<p>Un programme GUI Python pour « TinySA Ultra » (et le « TinySA » d'origine) utilisant Qt5 et PyQt5, qui reproduit certaines commandes à l'écran du TinySA.</p>\n<p>La gestion du générateur n'est pas implémentée.</p>\n<p>Fonctionnalités prises en charge : LNA, points d'analyse sélectionnables, sélection de bande, moyennage, tracés en couleur, graphiques 3D, graphiques exportables.</p>\n"
+}

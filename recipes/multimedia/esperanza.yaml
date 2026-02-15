@@ -1,0 +1,23 @@
+id: esperanza
+name: Esperanza
+description: XMMS2 client which aims to be as feature-full and easy-to-use as possible
+longDescription: |
+  <p>Esperanza is a XMMS2 client written with C++ / Qt4 and aims to be cross-platform goodness for everyone. It has a simple interface with a single playlist and let you search the media lib or add files from other sources easily. It also presents album art.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - esperanza
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: esperanza_xmms2.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

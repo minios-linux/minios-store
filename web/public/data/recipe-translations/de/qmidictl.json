@@ -1,0 +1,5 @@
+{
+  "name": "QmidiCtl",
+  "description": "Ein MIDI-Fernsteuerungsprogramm über UDP/IP-Multicast",
+  "longDescription": "<p>QmidiCtl ist eine Anwendung zur fernsteuerung von MIDI, die MIDI-Daten über das Netzwerk mittels UDP/IP-Multicast überträgt. Inspiriert von multimidicast (http://llg.cubic.org/tools) und entwickelt für Kompatibilität mit ipMIDI für Windows (http://nerds.de).</p>\n"
+}

@@ -1,0 +1,32 @@
+id: "emerald"
+name: Emerald Theme Manager
+description: Configure Emerald themes
+longDescription: |
+  <p>Emerald is a window decorator for the Compiz window manager, using a custom theme format (*.emerald). It is highly customizable and supports different theme engines, with transparency and precise placement of borders and window title elements.</p>
+  <p>This package provides a decorator for compiz and a themer application.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - emerald
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: e/em/emerald-theme-manager.desktop/09f7c1d1b427e650985308ff6afcaa7a/icons/128x128/emerald_emerald-theme-manager.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

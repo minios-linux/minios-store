@@ -1,0 +1,5 @@
+{
+  "name": "Swayimg",
+  "description": "Penampil gambar untuk Sway/Wayland",
+  "longDescription": "<p>Program ini menggunakan Sway IPC untuk menentukan geometri kontainer yang sedang difokuskan. Data ini digunakan untuk menghitung posisi dan ukuran jendela \"overlay\" baru yang akan digunakan untuk menampilkan gambar. Selanjutnya, swayimg menambahkan dua aturan Sway untuk jendelanya sendiri: \"floating enable\" dan \"move position\". Setelah itu, aplikasi membuat jendela Wayland baru dan menampilkan gambar dari berkas yang dipilih.</p>\n"
+}

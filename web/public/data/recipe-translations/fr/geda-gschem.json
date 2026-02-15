@@ -1,0 +1,5 @@
+{
+  "name": "gEDA Schematic Editor",
+  "description": "Créez et modifiez des schémas électriques et des symboles avec gschem",
+  "longDescription": "<p>Le projet gEDA développe et maintient une suite complète d’outils GPL pour la Conception Assistée par Ordinateur (CAO) en électronique. Ces outils sont utilisés pour la conception de circuits électriques, la capture de schémas, la simulation, le prototypage et la production. Actuellement, le projet gEDA propose une suite logicielle mature et libre pour la conception électronique, comprenant la capture de schémas, la gestion des attributs, la génération de nomenclatures (BOM), la création de netlists dans plus de 20 formats, la simulation analogique et numérique, ainsi que l’implantation de circuits imprimés (PCB).</p>\n<p>Ce paquet contient gschem, l’éditeur de schémas.</p>\n"
+}

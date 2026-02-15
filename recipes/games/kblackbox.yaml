@@ -1,0 +1,44 @@
+id: "kblackbox"
+name: KBlackbox
+description: Blackbox Logic Game
+longDescription: |
+  <p>KBlackbox is a game of hide and seek played on a grid of boxes where the computer has hidden several balls.
+        The position of the hidden balls can be deduced by shooting beams into the box.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kblackbox
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kblackbox/1e7efe5d75dbd0c4ca5cd4df80540648/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kblackbox/1e7efe5d75dbd0c4ca5cd4df80540648/screenshots/image-1_624x499@1.png
+    width: 674
+    height: 539
+iconSources:
+  - url: org/kde/kblackbox/1e7efe5d75dbd0c4ca5cd4df80540648/icons/128x128/kblackbox_kblackbox.png
+    width: 128
+    height: 128
+homepage: "http://games.kde.org/game.php?game=kblackbox"
+enabled: true
+order: 99

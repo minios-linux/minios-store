@@ -1,0 +1,23 @@
+id: xul-ext-iceweasel-branding
+name: Iceweasel
+description: Browse the World Wide Web
+longDescription: |
+  <p>This package preserves and restores the look and feel of Iceweasel, the Debian- rebranded version of Firefox distributed before Firefox came back to Debian. Most files were just copied from the original Iceweasel package, including the famous about:iceweasel page of historic value.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xul-ext-iceweasel-branding
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: xul-ext-iceweasel-branding_iceweasel.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

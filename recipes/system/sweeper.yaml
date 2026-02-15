@@ -1,0 +1,44 @@
+id: "sweeper"
+name: Sweeper
+description: System cleaning utility
+longDescription: |
+  <p>Sweeper helps to clean unwanted traces the user leaves on the system. It
+        can remove cookies and clean out caches, for example.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sweeper
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/sweeper/48ff97327c69b2fd415851143e717c3f/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/sweeper/48ff97327c69b2fd415851143e717c3f/screenshots/image-1_624x505@1.png
+    width: 731
+    height: 592
+iconSources:
+  - url: org/kde/sweeper/48ff97327c69b2fd415851143e717c3f/icons/128x128/sweeper_sweeper.png
+    width: 128
+    height: 128
+homepage: "http://utils.kde.org/projects/sweeper/"
+enabled: true
+order: 99

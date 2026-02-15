@@ -1,0 +1,42 @@
+id: bastet
+name: Bastard Tetris
+description: Go mad with this Tetris clone
+longDescription: |
+  <p>Bastet (&quot;bastard Tetris&quot;) is a free clone of Tetris which tries to compute how useful blocks are and gives you the worst possible brick. Playing bastet can be a painful experience, especially if you usually make &quot;canyons&quot; and wait for the long I-shaped block.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bastet
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - tetris
+  - console
+  - terminal
+  - ncurses
+  - bastard
+  - algorithm
+iconSources:
+  - cached: bastet_bastet.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

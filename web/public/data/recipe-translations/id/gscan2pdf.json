@@ -1,0 +1,5 @@
+{
+  "name": "gscan2pdf",
+  "description": "Antarmuka grafis untuk membuat PDF atau DjVu dari dokumen hasil pemindaian",
+  "longDescription": "<p>Hanya diperlukan dua klik untuk memindai beberapa halaman dan kemudian menyimpan semuanya atau sebagian sebagai file PDF atau DjVu, beserta metadata jika dibutuhkan.</p>\n<p>gscan2pdf dapat mengontrol pemindai biasa maupun pemindai dengan pengumpan otomatis (ADF) melalui SANE menggunakan libimage-sane-perl, scanimage, atau scanadf, serta dapat memindai banyak halaman sekaligus. Aplikasi ini menampilkan tampilan miniatur dari halaman yang dipindai, dan memungkinkan operasi sederhana seperti memotong, memutar, dan menghapus halaman.</p>\n<p>Fitur OCR bisa digunakan untuk mengenali teks dari hasil pemindaian, dan hasilnya dapat disisipkan ke dalam file PDF atau DjVu.</p>\n<p>Dokumen akhir dapat disimpan sebagai PDF, DjVu, file TIFF multipage, atau file gambar satu halaman.</p>\n"
+}

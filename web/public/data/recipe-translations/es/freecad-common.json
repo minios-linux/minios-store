@@ -1,0 +1,5 @@
+{
+  "name": "FreeCAD",
+  "description": "Modelador Paramétrico Basado en Funciones",
+  "longDescription": "<p>FreeCAD es un entorno CAx de código abierto basado en OpenCasCade, Qt y Python. Ofrece funciones clave como grabación de macros, áreas de trabajo especializadas, capacidad para ejecutarse como servidor y extensiones de aplicación cargables dinámicamente. Está diseñado para ser independiente de la plataforma.</p>\n<p>Actualmente, FreeCAD puede importar y visualizar modelos CAD en formatos IGES, STEP y BRep, así como mallas en STL, BMS, AST y OBJ de Wavefront. Las funciones de edición y modelado son actualmente algo limitadas.</p>\n<p>Este paquete contiene los archivos y recursos comunes de FreeCAD.</p>\n"
+}

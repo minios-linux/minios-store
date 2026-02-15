@@ -1,0 +1,5 @@
+{
+  "name": "Notmuch (antarmuka emacs)",
+  "description": "Klien email berbasis Emacs",
+  "longDescription": "<p>Notmuch adalah sistem untuk mengindeks, mencari, membaca, dan memberi tag pada koleksi pesan email dalam format maildir atau mh. Notmuch menggunakan pustaka Xapian untuk menghadirkan pencarian teks penuh yang cepat dengan sintaks pencarian yang sangat mudah digunakan.</p>\n<p>Paket ini berisi antarmuka baris perintah notmuch</p>\n"
+}

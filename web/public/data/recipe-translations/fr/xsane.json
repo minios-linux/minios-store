@@ -1,0 +1,5 @@
+{
+  "name": "XSane",
+  "description": "Un programme pour gérer les scanners. Peut servir d’outil de numérisation, photocopieuse, OCR, ou fax.",
+  "longDescription": "<p>XSane peut être utilisé en tant qu’application autonome ou intégré à GIMP, le logiciel de retouche d’images. En mode autonome, XSane permet d’enregistrer des images dans de nombreux formats, d’agir en tant qu’interface pour un programme de fax, ou d’envoyer une image directement vers une imprimante.</p>\n<p>SANE signifie « Scanner Access Now Easy » ; c’est une interface de programmation (API) qui offre un accès standardisé à tout type de scanner d’images matricielles (scanner à plat, à main, appareils photo ou vidéo, cartes d’acquisition, etc.). La norme SANE est libre et son développement ouvert à tous. Le code source actuel fonctionne sur plusieurs systèmes d’exploitation, notamment GNU/Linux, OS/2, Win32 et divers Unix, et est distribué sous licence GNU GPL (les applications et pilotes commerciaux sont également les bienvenus).</p>\n"
+}

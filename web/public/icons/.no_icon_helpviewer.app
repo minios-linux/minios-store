@@ -1,0 +1,1 @@
+helpviewer.app_app-icon.png

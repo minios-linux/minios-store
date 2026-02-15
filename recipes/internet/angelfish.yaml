@@ -1,0 +1,54 @@
+id: "angelfish"
+name: Angelfish Web Browser
+description: Webbrowser for mobile devices
+longDescription: |
+  <p>Angelfish is a modern mobile webbrowser</p>
+  <p>It supports typical browser features, such as</p>
+  <ul>
+    <li>bookmarks</li>
+    <li>history</li>
+    <li>tabs</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - angelfish
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/angelfish/a88ad42aca642117143178cf090e4c2e/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/angelfish/a88ad42aca642117143178cf090e4c2e/screenshots/image-1_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/angelfish/a88ad42aca642117143178cf090e4c2e/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/angelfish/a88ad42aca642117143178cf090e4c2e/screenshots/image-2_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/angelfish/a88ad42aca642117143178cf090e4c2e/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/angelfish/a88ad42aca642117143178cf090e4c2e/screenshots/image-3_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/angelfish/a88ad42aca642117143178cf090e4c2e/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/angelfish/a88ad42aca642117143178cf090e4c2e/screenshots/image-4_624x421@1.png
+    width: 1430
+    height: 966
+iconSources:
+  - url: org/kde/angelfish/a88ad42aca642117143178cf090e4c2e/icons/128x128/angelfish_org.kde.angelfish.png
+    width: 128
+    height: 128
+developer: KDE Community
+homepage: "https://invent.kde.org/plasma-mobile/angelfish"
+enabled: true
+order: 99

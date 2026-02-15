@@ -1,0 +1,5 @@
+{
+  "name": "Ettercap",
+  "description": "Vielseitiger Netzwerk-Sniffer, -Analysator, -Interceptor und -Logger",
+  "longDescription": "<p>Ettercap unterstützt die aktive und passive Analyse zahlreicher Protokolle (auch verschlüsselter) und bietet zahlreiche Funktionen zur Analyse von Netzwerken und Hosts.<br> Daten können in bestehende Verbindungen eingefügt und diese in Echtzeit gefiltert werden (Pakete ersetzen oder verwerfen), wobei die Verbindung synchron bleibt.</p><p>Es sind verschiedene Sniffing-Modi verfügbar, wodurch Ettercap eine leistungsfähige und umfassende Lösung für Netzwerküberwachung bietet. Es kann in vier Modi geschnüffelt werden: IP-basiert, MAC-basiert, ARP-basiert (Vollduplex) und PublicARP-basiert (Halbduplex).<br> Ettercap erkennt zudem Switched-LANs und kann mittels OS-Fingerprinting (aktiv oder passiv) die Netzwerktopologie ermitteln.</p>"
+}

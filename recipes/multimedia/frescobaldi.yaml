@@ -1,0 +1,73 @@
+id: "frescobaldi"
+name: Frescobaldi
+description: LilyPond Music Editor
+longDescription: |
+  <p>Frescobaldi is a LilyPond sheet music editor.  It aims to be powerful, yet lightweight and easy to use.  Frescobaldi is Free Software, freely available under the GNU General Public License.</p>
+  <p>Features:</p>
+  <p> * Powerful text editor with syntax highlighting and automatic completion  * Music view with advanced Point &amp; Click  * MIDI player to proof-listen LilyPond-generated MIDI files  * MIDI capturing to enter music  * Powerful Score Wizard to quickly setup a music score  * Snippet Manager to store and apply text snippets, templates or scripts  * Use multiple versions of LilyPond, automatically selects the correct version  * Built-in LilyPond documentation browser and built-in Frescobaldi User Guide  * Smart layout-control functions like coloring specific objects in the PDF  * MusicXML, MIDI and ABC import  * Modern user interface with configurable colors, fonts and keyboard shortcuts  * Translated into Dutch, English, French, German, Italian, Czech, Russian,    Spanish, Galician, Turkish, Polish, Brazillian Portuguese and Ukrainian.</p>
+  <p>Music functions:</p>
+  <p> * Transpose music  * Change music from relative to absolute and vice versa  * Change the language used for note names  * Change the rhythm (double, halve, add/remove dots, copy, paste) etc.  * Hyphenate lyrics using word-processor hyphenation dictionaries  * Add spanners, dynamics, articulation easily using the Quick Insert panel  * Update LilyPond syntax using convert-ly, with display of differences</p>
+  <p>In order to use lyric hyphenation, please install your languages&apos; appropriate hyphenation packages, e.g. hyphen-fr for French, hyphen-ca for Catalan, etc.</p>
+  <p>Frescobaldi is designed to run on all major operating systems (Linux, macOS and MS Windows).  It is named after Girolamo Frescobaldi (1583-1643), an Italian composer of keyboard music in the late Renaissance and early Baroque period.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - frescobaldi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - lilypond
+  - editor
+  - sheet music
+screenshotSources:
+  - url: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-1_orig.png
+    thumbnailUrl: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-1_624x351@1.png
+    width: 1200
+    height: 675
+  - url: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-2_orig.png
+    thumbnailUrl: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-2_624x351@1.png
+    width: 1194
+    height: 672
+  - url: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-3_orig.png
+    thumbnailUrl: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-3_624x351@1.png
+    width: 1200
+    height: 675
+  - url: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-4_orig.png
+    thumbnailUrl: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-4_624x350@1.png
+    width: 811
+    height: 456
+  - url: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-5_orig.png
+    thumbnailUrl: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-5_624x350@1.png
+    width: 1014
+    height: 570
+  - url: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-6_orig.png
+    thumbnailUrl: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/screenshots/image-6_624x351@1.png
+    width: 1200
+    height: 675
+iconSources:
+  - url: org/frescobaldi/Frescobaldi/21dc4f15c33cbe8283f78caf279b7f4a/icons/128x128/frescobaldi_org.frescobaldi.Frescobaldi.png
+    width: 128
+    height: 128
+homepage: "http://frescobaldi.org/"
+enabled: true
+order: 99

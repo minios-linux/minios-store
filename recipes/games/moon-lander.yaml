@@ -1,0 +1,32 @@
+id: moon-lander
+name: Moon Lander
+description: Land on the Moon
+longDescription: |
+  <p>Moonlander is a fun and enjoyable modern graphical version (with sound) of the classic moonlander game.  The objective is to land your rocketship safely using a limited amount of fuel while fighting gravity.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - moon-lander
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - arcade
+iconSources:
+  - cached: moon-lander_moon-lander.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

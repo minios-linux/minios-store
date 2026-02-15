@@ -1,0 +1,5 @@
+{
+  "name": "Wireshark",
+  "description": "Analyseur de protocoles réseau",
+  "longDescription": "<p>\n\tWireshark vous permet d’examiner les données des protocoles stockées dans des fichiers ou capturées en temps réel à partir de réseaux filaires ou sans fil (WiFi ou Bluetooth), de périphériques USB et de nombreuses autres sources. Il prend en charge des dizaines de formats de fichiers de capture et reconnaît plus d’un millier de protocoles.\n    </p>\n<p>\n\tIl offre de nombreuses fonctionnalités avancées, notamment un langage de filtrage d’affichage puissant et la possibilité de réassembler plusieurs paquets d’un protocole afin, par exemple, d’examiner un flux TCP complet, d’enregistrer le contenu d’un fichier transféré via HTTP ou CIFS, ou de rejouer un flux audio RTP.\n    </p>\n"
+}

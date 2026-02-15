@@ -1,0 +1,38 @@
+id: hime
+name: hime Setup
+description: Setup utility for hime input method
+longDescription: |
+  <p>HIME Input Method Editor is a input method platform, which is forked from the famous gcin input method.</p>
+  <p>To use HIME, the correspondence immodule packages also need to be installed. They are:</p>
+  <p> * hime-gtk2-immodule for GTK2  * hime-gtk3-immodule for GTK3  * hime-qt5-immodule for Qt5</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hime
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - hime
+  - input method
+iconSources:
+  - cached: hime_hime.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

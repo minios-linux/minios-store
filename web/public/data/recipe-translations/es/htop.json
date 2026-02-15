@@ -1,0 +1,5 @@
+{
+  "name": "Htop",
+  "description": "Visualiza los procesos del sistema",
+  "longDescription": "<p>Htop es un visor de procesos basado en ncurses, similar a top, pero permite desplazarse vertical y horizontalmente para ver todos los procesos y sus líneas de comando completas.</p>\n<p>Las tareas relacionadas con los procesos (terminar, cambiar prioridad) pueden realizarse sin ingresar los PID.</p>\n"
+}

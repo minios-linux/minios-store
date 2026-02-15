@@ -1,0 +1,39 @@
+id: input-pad
+name: Input Pad
+description: On-screen Input Pad to Send Characters with Mouse
+longDescription: |
+  <p>The input pad is a tool to send a character to text applications when the corresponging button is pressed. It provides the GTK+ based GUI and can send characters when the GTK+ buttons are pressed.</p>
+  <p>This package contains a standalone application.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - input-pad
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - keyboard
+  - input
+iconSources:
+  - cached: input-pad_input-pad.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

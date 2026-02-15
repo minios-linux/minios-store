@@ -1,0 +1,29 @@
+id: openstereogram
+name: OpenSterogram
+description: Create 3D autostereograms
+longDescription: |
+  <p>A desktop application written in Java to generate autosterograms, made popular through the book &quot;Magic Eye.&quot; Users create images which appear to pop out in 3D when looked at cross-eyed or wall-eyed (parallel vision).</p>
+  
+categoryId: office
+icon: Image
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openstereogram
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: openstereogram_openstereogram.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

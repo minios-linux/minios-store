@@ -1,0 +1,23 @@
+id: shadowsocks-qt5
+name: Shadowsocks-Qt5
+description: Shadowsocks GUI client
+longDescription: |
+  <p>Shadowsocks-Qt5 is a native and cross-platform shadowsocks client with GUI, tray icon support and many advanced features. It can communicate with servers using shadowsocks protocol to bypass firewalls and encrypt data transmission.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - shadowsocks-qt5
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/sh/shadowsocks-qt5.desktop/0922CDE0D55C3FB71A61D4B4DC576D7D/icons/128x128/shadowsocks-qt5_shadowsocks-qt5.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

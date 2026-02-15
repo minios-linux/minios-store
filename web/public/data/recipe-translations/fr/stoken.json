@@ -1,0 +1,5 @@
+{
+  "name": "Logiciel Token",
+  "description": "Jeton logiciel compatible RSA SecurID",
+  "longDescription": "<p>stoken est un jeton logiciel qui génère des mots de passe à usage unique compatibles avec les jetons RSA SecurID 128 bits (AES). Les jetons SecurID sont couramment utilisés pour authentifier les utilisateurs finaux auprès de ressources réseau protégées et de VPN, car les OTP offrent une meilleure résistance à de nombreuses attaques associées aux mots de passe statiques.</p>\n<p>stoken vise à fournir une alternative libre et adaptée à Linux aux authentificateurs logiciels propriétaires RSA SecurID.</p>\n<p>Ce paquet contient des programmes autonomes en ligne de commande ainsi qu'une interface graphique GTK+ permettant d'importer des graines de jetons, de générer des codes de jeton et proposant diverses fonctions utilitaires et de test.</p>\n"
+}

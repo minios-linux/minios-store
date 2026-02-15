@@ -1,0 +1,37 @@
+id: protontricks
+name: Protontricks
+description: A simple wrapper that does winetricks things for Proton enabled games
+longDescription: |
+  <p>This is a wrapper script that allows you to easily run Winetricks commands for Steam Play/Proton games among other common Wine features,
+         such as launching external Windows executables. This is often useful when a game requires closed-source runtime
+  libraries or applications
+         that are not included with Proton.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - protontricks
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+tags:
+  - steam
+  - proton
+  - wine
+  - winetricks
+screenshotSources:
+  - url: com/github/Matoking.protontricks/6271b3251232c532cef5582464cdcb54/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/Matoking.protontricks/6271b3251232c532cef5582464cdcb54/screenshots/image-1_624x351.png
+    width: 832
+    height: 468
+iconSources:
+  - url: com/github/Matoking.protontricks/6271b3251232c532cef5582464cdcb54/icons/128x128/protontricks_wine.png
+    width: 128
+    height: 128
+homepage: "https://github.com/Matoking/protontricks"
+enabled: true
+order: 99

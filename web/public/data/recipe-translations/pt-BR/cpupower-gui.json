@@ -1,0 +1,5 @@
+{
+  "name": "Configurações de frequência da CPU",
+  "description": "Ajuste a frequência do processador",
+  "longDescription": "<p>Uma ferramenta gráfica para alterar as frequências e o governador da CPU.</p>\n<p>\n            Este utilitário permite modificar a frequência de operação do processador para cada núcleo separadamente.\n            O programa detecta núcleos offline e exibe apenas os disponíveis.\n            Além disso, caso algum núcleo não seja compatível com a variação de frequência, ele não será exibido.\n            Também há uma opção para aplicar as mesmas configurações a todos os núcleos simultaneamente.\n        </p>\n<p>\n            Para aplicar as configurações, o usuário precisa ser local e estar ativo, além de pertencer ao grupo sudo.\n            Usuários locais e ativos que não fazem parte desse grupo devem se autenticar como administradores para aplicar as configurações.\n        </p>\n"
+}

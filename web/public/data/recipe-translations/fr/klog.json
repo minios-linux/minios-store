@@ -1,0 +1,5 @@
+{
+  "name": "KLog",
+  "description": "Le logiciel gratuit et multiplateforme de journalisation radioamateur",
+  "longDescription": "<p>Ce paquet propose un programme de journalisation pour radioamateurs. L’application prend en charge l’enregistrement des opérations HF, VHF et satellites, et offre de nombreuses fonctionnalités comme la gestion des QSL, DXCC, IOTA, WAZ et diplômes. KLog utilise par défaut le format de fichier ADIF. Ce logiciel intègre également un client DX-Cluster directement dans l’interface principale et s’interface avec WSJT-X. KLog fonctionne sous Linux, OSX et Windows.</p>\n"
+}

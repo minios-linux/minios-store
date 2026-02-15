@@ -1,0 +1,5 @@
+{
+  "name": "jstest-gtk",
+  "description": "Herramienta para prueba y configuración de joysticks",
+  "longDescription": "<p>jstest-gtk es un sencillo comprobador gráfico para joysticks. Muestra una lista de los dispositivos conectados y, para cada uno, permite visualizar qué botones y ejes están activos, reasignar ejes y botones, y calibrar el dispositivo.</p>\n<p>Aunque tu joystick funcione correctamente, puede ser útil utilizarlo, ya que la calibración permite eliminar zonas muertas excesivas predefinidas que muchos joysticks aplican y que pueden generar problemas notables en algunos juegos.</p>\n<p>Si instalas el paquete joystick además de este, podrás guardar tus calibraciones y asignaciones para que se restauren automáticamente.</p>\n"
+}

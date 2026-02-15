@@ -1,0 +1,5 @@
+{
+  "name": "Mailnag",
+  "description": "Daemon de notificações de e-mail extensível",
+  "longDescription": "<p>\n      O Mailnag é um serviço em segundo plano que verifica servidores POP3 e IMAP para detectar novos e-mails.\n      Ao receber uma nova mensagem, executa várias ações fornecidas por plugins.\n      O Mailnag inclui plugins padrão independentes de ambiente gráfico para notificações visuais e sonoras, execução de scripts etc.,\n      além de permitir fácil extensão com plugins adicionais.\n    </p>\n"
+}

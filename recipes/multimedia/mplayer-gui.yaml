@@ -1,0 +1,50 @@
+id: "mplayer-gui"
+name: MPlayer
+description: Play movies and songs
+longDescription: |
+  <p>MPlayer plays most MPEG, VOB, AVI, Ogg/OGM, VIVO, ASF/WMA/WMV, QT/MOV/MP4, FLI, RM, NuppelVideo, yuv4mpeg, FILM, RoQ, PVA files, supported by many native, XAnim, RealPlayer, and Win32 DLL codecs. It can also play VideoCD, SVCD, DVD, 3ivx, RealMedia, and DivX movies.</p>
+  <p>Another big feature of MPlayer is the wide range of supported output drivers. It works with X11, Xv, DGA, OpenGL, SVGAlib, fbdev, DirectFB, but also SDL.</p>
+  <p>This package includes the GUI variant of MPlayer.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mplayer-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - player
+  - capture
+  - audio
+  - music
+  - song
+  - video
+  - movie
+  - film
+  - clip
+  - dvd
+iconSources:
+  - url: m/mp/mplayer.desktop/d9726055d3ad53de33ff5d65db67c454/icons/128x128/mplayer-gui_mplayer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

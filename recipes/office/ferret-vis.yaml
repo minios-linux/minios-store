@@ -1,0 +1,38 @@
+id: ferret-vis
+name: Ferret Visualisation
+description: Weather data analysis and visualization
+longDescription: |
+  <p>Ferret is an interactive computer visualization and analysis environment designed to meet the needs of oceanographers and meteorologists analyzing large and complex gridded data sets. It can transparently access extensive remote Internet data bases using OPeNDAP (formerly known as DODS)</p>
+  <p>Ferret has a Mathematica-like flexibility, geophysical formatting, &quot;intelligent&quot; connection to its data base, memory management for very large calculations, and symmetrical processing in 4 dimensions. It can work on both gridded and non-gridded datasets.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ferret-vis
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ferret-vis_ferret-vis.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

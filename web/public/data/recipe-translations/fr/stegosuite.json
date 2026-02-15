@@ -1,0 +1,5 @@
+{
+  "name": "Stegosuite",
+  "description": "Outil de stéganographie pour dissimuler des informations dans des images",
+  "longDescription": "<p>Stegosuite est un outil graphique de stéganographie permettant de dissimuler facilement des informations dans des fichiers image. Il offre la possibilité d’intégrer des messages texte et plusieurs fichiers de tout type. De plus, les données intégrées sont chiffrées avec l’algorithme AES. Les formats actuellement pris en charge sont BMP, GIF, JPG et PNG.</p>"
+}

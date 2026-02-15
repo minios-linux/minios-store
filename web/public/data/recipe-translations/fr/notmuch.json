@@ -1,0 +1,5 @@
+{
+  "name": "Notmuch (interface emacs)",
+  "description": "Client de messagerie basé sur Emacs",
+  "longDescription": "<p>Notmuch est un système d’indexation, de recherche, de lecture et de catégorisation de grandes collections de messages électroniques au format maildir ou mh. Il utilise la bibliothèque Xapian pour offrir une recherche en texte intégral rapide avec une syntaxe de recherche très pratique.</p>\n<p>Ce paquet contient l’interface en ligne de commande de Notmuch.</p>\n"
+}

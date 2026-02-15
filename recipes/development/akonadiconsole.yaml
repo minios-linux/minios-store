@@ -1,0 +1,27 @@
+id: akonadiconsole
+name: Akonadi Console
+description: Akonadi Management and Debugging Console
+longDescription: |
+  <p>Akonadi Console is a useful utility that can be used to explore or manage Akonadi. Since this utility exposes Akonadi internals, it is very useful for debugging but may also prove handy in other cases.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - akonadiconsole
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: org/kde/akonadiconsole/177633BC3D383B28915FE08FACE491A0/icons/128x128/akonadiconsole_akonadiconsole.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

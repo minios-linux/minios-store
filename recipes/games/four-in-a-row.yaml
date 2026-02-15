@@ -1,0 +1,53 @@
+id: "four-in-a-row"
+name: Four-in-a-row
+description: Make lines of the same color to win
+longDescription: |
+  <p>A family classic, the objective of Four-in-a-row is to build a line of four
+        of your marbles while trying to stop your opponent (human or computer) from
+        building a line of his or her own. A line can be horizontal, vertical or
+        diagonal. The first player to connect four in a row is the winner!</p>
+  <p>Four-in-a-row features multiple difficulty levels. If you&apos;re having trouble,
+        you can always ask for a hint.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - four-in-a-row
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - strategy
+  - logic
+screenshotSources:
+  - url: org/gnome/Four-in-a-row/232f611776aff006c4893324fc814b60/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Four-in-a-row/232f611776aff006c4893324fc814b60/screenshots/image-1_624x398@1.png
+    width: 700
+    height: 447
+iconSources:
+  - url: org/gnome/Four-in-a-row/232f611776aff006c4893324fc814b60/icons/128x128/four-in-a-row_org.gnome.Four-in-a-row.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Four-in-a-row"
+enabled: true
+order: 99

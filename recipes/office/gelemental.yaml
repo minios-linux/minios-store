@@ -1,0 +1,39 @@
+id: "gelemental"
+name: Periodic Table
+description: View the periodic table of elements
+longDescription: |
+  <p>gElemental is a GTK+ periodic table viewer that provides detailed information about chemical elements.</p>
+  <p>It features a table view which allows the elements to be coloured thematically by several properties, a sortable list view and an element properties dialog, displaying a variety of information, including historical, thermodynamic, electrochemical, and crystallographic properties.</p>
+  <p>This package contains the main application.</p>
+  
+categoryId: office
+icon: MessageCircle
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gelemental
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/ge/gelemental.desktop/a17b23a537c8de4cb63001eb3e91a8e8/icons/128x128/gelemental_gelemental.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

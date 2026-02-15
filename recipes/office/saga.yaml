@@ -1,0 +1,53 @@
+id: "saga"
+name: SAGA
+description: System for Automated Geoscientific Analyses
+longDescription: |
+  <p>SAGA is a Geographic Information System (GIS) software with 
+              immense capabilities for geodata processing and analysis. 
+              Due to the modular organization of the geoprocessing tools, they can 
+              be accessed either through the graphical user interface or 
+              via the command line application.</p>
+  <p>Furthermore, SAGA provides an effective Application Programming Interface 
+              which makes it easy to implement new tools and functionality.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - saga
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gis
+  - spatial
+  - geospatial
+screenshotSources:
+  - url: org/saga_gis/saga_gui.desktop/4cd80dc5d85f9811bbaec40cf13b197a/screenshots/image-1_orig.png
+    thumbnailUrl: org/saga_gis/saga_gui.desktop/4cd80dc5d85f9811bbaec40cf13b197a/screenshots/image-1_624x351@1.png
+    width: 1280
+    height: 720
+iconSources:
+  - url: org/saga_gis/saga_gui.desktop/4cd80dc5d85f9811bbaec40cf13b197a/icons/128x128/saga_saga.png
+    width: 128
+    height: 128
+homepage: "http://www.saga-gis.org"
+enabled: true
+order: 99

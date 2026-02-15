@@ -1,0 +1,5 @@
+{
+  "name": "Studio Controls",
+  "description": "Atur Audio, Video, dan Grafik",
+  "longDescription": "<p>Studio Controls adalah aplikasi kecil yang memungkinkan mengaktifkan atau menonaktifkan hak istimewa realtime untuk pengguna serta mengontrol jackdbus. Aplikasi ini memungkinkan jackdbus dijalankan sejak awal sesi. Studio Controls juga akan mendeteksi perangkat audio USB yang terpasang setelah sesi dimulai dan secara opsional dapat menghubungkannya ke jackdbus sebagai klien atau mengalihkannya sebagai master jackdbus.</p>\n"
+}

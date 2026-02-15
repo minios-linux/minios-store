@@ -1,0 +1,5 @@
+{
+  "name": "Interface gráfica de configuração do pommed (GTK)",
+  "description": "Cliente gráfico para o pommed (interface de configuração)",
+  "longDescription": "<p>O pommed gerencia as teclas de atalho presentes nos notebooks Apple MacBook Pro, MacBook Air, MacBook, PowerBook e iBook, ajustando o brilho da tela LCD, volume do som, iluminação do teclado ou ejetando o drive de CD-ROM conforme necessário.</p><p>O gpomme é um cliente gráfico para o pommed. Ele escuta sinais enviados pelo pommed via D-Bus e exibe a ação realizada juntamente com o estado atual associado a essa ação.</p>\n"
+}

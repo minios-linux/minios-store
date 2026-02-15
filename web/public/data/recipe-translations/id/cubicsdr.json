@@ -1,0 +1,5 @@
+{
+  "name": "CubicSDR",
+  "description": "Aplikasi Radio Software-Defined",
+  "longDescription": "<p>CubicSDR adalah aplikasi lintas platform untuk Software-Defined Radio (SDR) yang memungkinkan Anda menjelajahi spektrum radio dan mendemodulasi berbagai sinyal yang ditemukan. Saat ini sudah mendukung beberapa skema demodulasi analog umum seperti AM dan FM, serta akan mendukung mode digital di masa mendatang.</p>\n<p>CubicSDR menggunakan SoapySDR untuk mengakses perangkat keras SDR sehingga kompatibel dengan semua perangkat yang didukung modul SoapySDR.</p>\n"
+}

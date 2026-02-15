@@ -1,0 +1,5 @@
+{
+  "name": "Xdx",
+  "description": "Client DX-cluster pour radioamateurs",
+  "longDescription": "<p>Xdx est un client permettant de se connecter à un cluster DX. Les messages DX sont affichés sous forme de liste, tandis que les annonces apparaissent dans une zone de texte dédiée.</p>\n<p>En plus des fonctionnalités classiques, si hamlib est installé, il est possible de piloter la radio et de régler la fréquence simplement en double-cliquant sur un spot DX (via rigctl).</p>\n"
+}

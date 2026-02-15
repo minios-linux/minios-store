@@ -1,0 +1,5 @@
+{
+  "name": "KAddressBook",
+  "description": "Un gestore di rubriche",
+  "longDescription": "<p>KAddressBook memorizza tutti i dettagli personali di familiari, amici e altri contatti.</p>\n<p>Funzionalità:</p>\n<ul>\n  <li>Importa ed esporta secondo quasi tutti gli standard di rubriche</li>\n  <li>Legge file in formato .vcf e può importare ed esportare vCard e file in formato csv</li>\n  <li>Supporta l'utilizzo di server LDAP multipli</li>\n  <li>Filtri configurabili e potenti funzioni di ricerca</li>\n  <li>Integrazione con altri componenti di Kontact, ad esempio l'esportazione dei promemoria compleanno su KOrganizer</li>\n  <li>Compatibile con l'integrazione in ambienti groupware</li>\n  <li>Basato su Akonadi</li>\n</ul>\n"
+}

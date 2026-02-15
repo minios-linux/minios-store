@@ -1,0 +1,5 @@
+{
+  "name": "p4vasp",
+  "description": "suíte de visualização para VASP",
+  "longDescription": "<p>O p4VASP é uma suíte de visualização para o Vienna Ab-initio Simulation Package (VASP). Possui uma estrutura de interface gráfica extensível que permite visualizar estruturas de materiais, densidade de estados, bandas e muito mais.</p>\n<p>Oferece uma biblioteca Python que simplifica significativamente a manipulação dos dados de entrada e saída do VASP em scripts Python. O p4vasp também inclui várias rotinas e objetos úteis, por exemplo, para criação de gráficos 2D, armazenamento de dados (xml, DOM) ou biblioteca de matrizes simples.</p>\n"
+}

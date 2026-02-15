@@ -1,0 +1,33 @@
+id: "cadabra2"
+name: Cadabra 2
+description: Computer algebra system for field theory problems
+longDescription: |
+  <p>This is a computer algebra system designed specifically for the solution of problems encountered in field theory. It has extensive functionality for tensor polynomial simplification including multi-term symmetries, fermions and anti-commuting variables, Clifford algebras and Fierz transformations, implicit coordinate dependence, multiple index types and many more. The input format is a subset of TeX.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cadabra2
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - computer algebra
+  - physics
+  - mathematics
+iconSources:
+  - url: c/ca/cadabra2-gtk.desktop/ead84d6d30abe4d8a03ea0605f52bb04/icons/128x128/cadabra2_cadabra2-gtk.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

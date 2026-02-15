@@ -1,0 +1,31 @@
+id: backintime-qt4
+name: Back In Time
+description: Simple backup system
+longDescription: |
+  <p>Back In Time is a framework for rsync and cron for the purpose of taking snapshots and backups of specified folders. It minimizes disk space use by taking a snapshot only if the directory has been changed, and hard links for unmodified files if it has. The user can schedule regular backups using cron.</p>
+  <p>This is the graphical interface for Back In Time.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - backintime-qt4
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - automatic
+  - snapshot
+  - restore
+  - rsync
+iconSources:
+  - url: b/ba/backintime-qt4.desktop/ED6D0A29A92F355FE43A5FB6095C906C/icons/128x128/backintime-qt4_document-save.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

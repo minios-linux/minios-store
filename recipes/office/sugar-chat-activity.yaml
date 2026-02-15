@@ -1,0 +1,37 @@
+id: sugar-chat-activity
+name: Chat
+description: Text chat
+longDescription: |
+  <p>Sugar Learning Platform promotes collaborative learning through Sugar Activities that encourage critical thinking, the heart of a quality education.  Designed from the ground up especially for children, Sugar offers an alternative to traditional “office-desktop” software.</p>
+  <p>Learner applications in Sugar are called Activities.  They are software packages that automatically save your work - producing specific instances of the Activity that can be resumed at a later time.  Many Activities support learner collaboration, where multiple learners may be invited to join a collective Activity session.</p>
+  <p>The Chat activity provides a simple interface for collaborative discussion, be it between two individuals or among a group as large as an entire classroom.  Use Neighborhood View to invite particular people to Chat, or share for a public conversation.  It uses Sugar collaboration mechanism for launching and joining chats so you can use it even without internet.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sugar-chat-activity
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: sugar-chat-activity_activity-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

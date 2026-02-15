@@ -1,0 +1,5 @@
+{
+  "name": "Fwknop-gui",
+  "description": "mengirim paket SPA",
+  "longDescription": "<p>FireWall KNock OPerator (Fwknop) mengimplementasikan skema otorisasi bernama Single Packet Authorization (SPA), yang didasarkan pada Netfilter dan libpcap.</p>\n<p>Aplikasi ini terutama digunakan untuk melindungi layanan seperti OpenSSH dengan lapisan keamanan tambahan, sehingga eksploitasi kerentanan (baik 0-day maupun kode yang belum ditambal) menjadi jauh lebih sulit.</p>\n<p>Fwknop GUI adalah antarmuka grafis yang terintegrasi dengan klien Fwknop dan menyediakan kemampuan untuk mengirim paket SPA ke server Fwknop jarak jauh, sekaligus menjadi frontend untuk membuat dan mengelola konfigurasi klien pada beberapa server Fwknop.</p>\n<p>Fwknop GUI mendukung ekspor data konfigurasi yang telah disimpan ke format kode QR yang dapat dibaca oleh klien Android, serta ke format .fwknoprc yang dapat digunakan oleh klien command line.</p>\n"
+}

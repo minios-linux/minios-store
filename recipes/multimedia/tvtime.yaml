@@ -1,0 +1,66 @@
+id: tvtime
+name: TVtime Television Viewer
+description: High quality video deinterlacer
+longDescription: |
+  <p>TVtime is a high quality television application for use with analog
+        video capture cards on Linux systems. TVtime processes the input from a
+        capture card and displays it on a computer monitor or projector.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Smooth motion: Experience the full framerate of the video signal. Every field is deinterlaced to a unique frame
+  for television quality and beyond.</li>
+    <li>Quality picture: Highest quality picture of any Linux TV viewer. Uses the best deinterlacers from DScaler for the
+  ultimate experience.</li>
+    <li>Slick On-Screen-Display: Gorgeously rendered text composited in realtime on the live video signal.</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tvtime
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tvtime
+  - video
+  - tv
+  - viewer
+  - v4l
+  - v4l2
+  - video4linux
+  - deinterlacer
+screenshotSources:
+  - url: t/tv/tvtime.desktop/A69FC4D72B64CABD061469B5B700AC4B/screenshots/image-1_orig.png
+    thumbnailUrl: t/tv/tvtime.desktop/A69FC4D72B64CABD061469B5B700AC4B/screenshots/image-1_224x168.png
+    width: 512
+    height: 384
+  - url: t/tv/tvtime.desktop/A69FC4D72B64CABD061469B5B700AC4B/screenshots/image-2_orig.png
+    thumbnailUrl: t/tv/tvtime.desktop/A69FC4D72B64CABD061469B5B700AC4B/screenshots/image-2_224x168.png
+    width: 512
+    height: 384
+iconSources:
+  - cached: tvtime_tvtime.png
+    width: 64
+    height: 64
+homepage: "http://tvtime.sourceforge.net/"
+enabled: true
+order: 99

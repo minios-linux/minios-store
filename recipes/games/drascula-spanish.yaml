@@ -1,0 +1,49 @@
+id: "drascula-spanish"
+name: "Drascula: The Vampire Strikes Back (Español)"
+description: classic 2D point and click adventure game
+longDescription: |
+  <p>Drascula: The Vampire Strikes Back is a classic humorous 2D point and click adventure game, first released by Alcachofa Soft S.L. in 1996.</p>
+  <p>In Drascula you play the role of John Hacker, a British estate agent, that gets to meet a gorgeous blond girl who is kidnapped by the notorious vampire Count Drascula and embark on a fun yet dangerous quest to rescue her.</p>
+  <p>Unfortunately Hacker is not aware of Drascula&apos;s real ambitions:</p>
+  <p>DOMINATING the World and demonstrating that he is even more evil than his brother Vlad.</p>
+  <p>This is the Spanish version of Drascula: The Vampire Strikes Back. It also features voice output and subtitles in Spanish.</p>
+  <p>Please install the drascula-music package to enjoy the background music of the game. There are furthermore additional language packages available with subtitles in German, French and Italian.</p>
+  <p>Note that this package only contains game-data. The game engine is provided by ScummVM.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - drascula-spanish
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - adventure
+  - roleplaying
+  - 2d
+  - fantasy
+iconSources:
+  - url: d/dr/drascula-spanish.desktop/9c0640d32699e21e847d390f9a265d8c/icons/128x128/drascula-spanish_drascula.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

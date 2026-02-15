@@ -1,0 +1,85 @@
+id: "converseen"
+name: Converseen
+description: A batch image processor
+longDescription: |
+  <p>Converseen is a free cross-platform batch image processor that allows you to convert, 
+          resize, rotate and flip an infinite number of images with a mouse click.
+          Moreover, Converseen is able to transform an entire PDF file into a bunch of images 
+          with the characteristics you prefer: you can choose one of the 100+ formats, 
+          you can set the size, resolution and the filename.</p>
+  <p>What can I do with Converseen.</p>
+  <ul>
+    <li>Carry out a single or a multiple conversion</li>
+    <li>Resize one or multiple images</li>
+    <li>Compress images for your web pages</li>
+    <li>Rotate and flip images</li>
+    <li>Rename a bunch of images using a progressive number or a prefix/suffix</li>
+    <li>Selecting a resampling filter to resize images</li>
+    <li>Convert an entire PDF to a bunch of images</li>
+    <li>Extract an image from a Windows icon file (*ico)</li>
+  </ul>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - converseen
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - graphic
+  - image
+  - batch
+  - processor
+  - converter
+  - resizer
+  - compressor
+  - picture
+  - qt
+screenshotSources:
+  - url: net/fasterland/converseen/f44a7c468940dc4929b2f934a005685f/screenshots/image-1_orig.png
+    thumbnailUrl: net/fasterland/converseen/f44a7c468940dc4929b2f934a005685f/screenshots/image-1_624x357@1.png
+    width: 1570
+    height: 900
+  - url: net/fasterland/converseen/f44a7c468940dc4929b2f934a005685f/screenshots/image-2_orig.png
+    thumbnailUrl: net/fasterland/converseen/f44a7c468940dc4929b2f934a005685f/screenshots/image-2_624x357@1.png
+    width: 1570
+    height: 900
+  - url: net/fasterland/converseen/f44a7c468940dc4929b2f934a005685f/screenshots/image-3_orig.png
+    thumbnailUrl: net/fasterland/converseen/f44a7c468940dc4929b2f934a005685f/screenshots/image-3_624x357@1.png
+    width: 1570
+    height: 900
+  - url: net/fasterland/converseen/f44a7c468940dc4929b2f934a005685f/screenshots/image-4_orig.png
+    thumbnailUrl: net/fasterland/converseen/f44a7c468940dc4929b2f934a005685f/screenshots/image-4_624x357@1.png
+    width: 1570
+    height: 900
+  - url: net/fasterland/converseen/f44a7c468940dc4929b2f934a005685f/screenshots/image-5_orig.png
+    thumbnailUrl: net/fasterland/converseen/f44a7c468940dc4929b2f934a005685f/screenshots/image-5_624x357@1.png
+    width: 1570
+    height: 900
+iconSources:
+  - url: net/fasterland/converseen/f44a7c468940dc4929b2f934a005685f/icons/128x128/converseen_converseen.png
+    width: 128
+    height: 128
+developer: Francesco Mondello
+homepage: "http://converseen.fasterland.net/"
+enabled: true
+order: 99

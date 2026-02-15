@@ -1,0 +1,41 @@
+id: flamerobin
+name: FlameRobin
+description: Administration Tool for Firebird DBMS
+longDescription: |
+  <p>FlameRobin is a graphical database administration tool for Firebird database management system.</p>
+  <p>Its goals are:   - to be lightweight (small footprint, fast execution)   - cross-platform (Linux, Windows for start, others planned too)   - dependent only on other open source software</p>
+  <p>You need to setup firebird server on local or remote machine before using FlameRobin. See package firebird3.0-server.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flamerobin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - firebird
+iconSources:
+  - cached: flamerobin_flamerobin.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

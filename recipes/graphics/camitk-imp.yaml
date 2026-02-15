@@ -1,0 +1,41 @@
+id: camitk-imp
+name: CamiTK imp
+description: Prototyping Computer Assisted Medical Intervention Applications
+longDescription: |
+  <p>CamiTK helps researchers and clinicians to easily and rapidly collaborate in order to prototype CAMI applications, that feature medical images, surgical navigation and biomechanical simulations.</p>
+  <p>camitk-imp is the CamiTK workbench application where you can test all available extensions for prototyping. It provides an easy and interactive access to all available data and algorithm parameters, including the one you build yourself using the CamiTK SDK.</p>
+  <p>For example, camitk-imp can visualize medical images from a lot of different (standard) formats, offers image processing and segmentation algorithms to reconstruct a mesh geometry and run a biomechanical simulation.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - camitk-imp
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - camitk
+  - 3d
+  - medical image
+  - fem
+  - surgery
+iconSources:
+  - cached: camitk-imp_camitk-imp.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,25 @@
+id: ubuntustudio-controls
+name: Ubuntu Studio Controls
+description: Administer realtime privilege for users
+longDescription: |
+  <p>enables/disables realtime privilege for users</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ubuntustudio-controls
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ubuntustudio-controls_ubuntustudio-controls.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,36 @@
+id: caja
+name: File Management
+description: Change the behaviour and appearance of file manager windows
+longDescription: |
+  <p>Caja is the official file manager for the MATE desktop. It allows one to browse directories, preview files and launch applications associated with them. It is also responsible for handling the icons on the MATE desktop. It works on local and remote filesystems.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - caja
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - file
+  - manager
+  - change
+  - properties
+  - behaviour
+  - appearance
+  - windows
+  - mate
+iconSources:
+  - url: c/ca/caja-file-management-properties.desktop/930AF5D7F56D48320E978D7AFD318B5B/icons/128x128/caja_system-file-manager.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

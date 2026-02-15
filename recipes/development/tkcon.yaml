@@ -1,0 +1,42 @@
+id: "tkcon"
+name: TkCon
+description: Enhanced console for developing in Tcl/Tk
+longDescription: |
+  <p>TkCon is a Tcl shell and console, making it ideal for experimenting with Tcl and Tk programs interactively.</p>
+  <p>Features:  Command history  Path (Unix style) / Proc / Variable name expansion  Multiple consoles, each with its own state (via multiple interpreters)  Captures stdout and stderr to console window (puts overridden)  Hot errors (click on error result to see stack trace)  Electric character matching (a la emacs)  Electric proc highlighting  Communication between consoles and other Tk interpreters   (including non-Tcl ones)</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tkcon
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tcl
+  - shell
+  - prompt
+  - command
+  - commandline
+iconSources:
+  - url: t/tk/tkcon-console.desktop/9360eb821f1dc3d61356f2d46a422551/icons/128x128/tkcon_tkcon-small.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,25 @@
+id: gnome-ppp
+name: GNOME PPP
+description: GNOME Dialup Tool
+longDescription: |
+  <p>GNOME PPP is an easy to use graphical dialup connection configuring and dialing tool with system tray icon support.</p>
+  <p>It uses GNOME/GTK+ for its graphical interface and integrates well in GNOME desktop environment, but it can be used in other environments.</p>
+  <p>It also uses WvDial dialer as its backend, providing simple configuration via config files. You can also use plain wvdial if you don&apos;t have X running.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-ppp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gnome-ppp_gnome-ppp.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

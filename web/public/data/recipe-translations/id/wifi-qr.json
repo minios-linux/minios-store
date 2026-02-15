@@ -1,0 +1,5 @@
+{
+  "name": "WiFi QR",
+  "description": "Berbagi WiFi dengan Kode QR",
+  "longDescription": "<p>Ponsel Android Xiaomi mulai menggunakan QR untuk berbagi WiFi. Aplikasi ini memudahkan membuat dan memindai kode QR untuk berbagi akses WiFi, baik dari Android ke PC, PC ke perangkat mobile, maupun sebaliknya. Antarmuka menggunakan Zenity, pemindaian QR dengan zbar dan qrencode, serta pengelolaan jaringan lewat nmcli dari Network-Manager. Untuk keamanan, mendukung WPA, WPA2, WEP, jaringan terbuka, dan juga dapat berbagi ke jaringan tersembunyi. Kode QR tidak dapat digunakan untuk jaringan LDAP dan VPN. Android dapat dengan mudah membuat QR WiFi, namun fitur ini tidak selalu didukung di iOS.</p>\n"
+}

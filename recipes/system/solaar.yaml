@@ -1,0 +1,59 @@
+id: "solaar"
+name: Solaar
+description: Manage Logitech Unifying peripherals
+longDescription: |
+  <p>Solaar is a Linux device manager for Logitech&apos;s Unifying
+      Receiver peripherals. It is able to pair/unpair devices to the
+      receiver, and for most devices read battery status.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - solaar
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - logitech
+  - unifying
+  - receiver
+  - mouse
+  - keyboard
+screenshotSources:
+  - url: io/github/pwr_solaar.solaar/de848c39a56febf266444afeb5dee322/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/pwr_solaar.solaar/de848c39a56febf266444afeb5dee322/screenshots/image-1_624x261@1.png
+    width: 1044
+    height: 437
+  - url: io/github/pwr_solaar.solaar/de848c39a56febf266444afeb5dee322/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/pwr_solaar.solaar/de848c39a56febf266444afeb5dee322/screenshots/image-2_624x451@1.png
+    width: 849
+    height: 614
+  - url: io/github/pwr_solaar.solaar/de848c39a56febf266444afeb5dee322/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/pwr_solaar.solaar/de848c39a56febf266444afeb5dee322/screenshots/image-3_224x84@1.png
+    width: 542
+    height: 204
+iconSources:
+  - url: io/github/pwr_solaar.solaar/de848c39a56febf266444afeb5dee322/icons/128x128/solaar_solaar.png
+    width: 128
+    height: 128
+homepage: "http://pwr.github.io/Solaar"
+enabled: true
+order: 99

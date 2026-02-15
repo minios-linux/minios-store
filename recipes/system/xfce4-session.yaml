@@ -1,0 +1,29 @@
+id: xfce4-session
+name: Log Out
+description: Log out of the Xfce Desktop
+longDescription: |
+  <p>xfce4-session is an X11-compliant &quot;session manager&quot; designed for use with the Xfce4 Desktop Environment. On log out, the session manager saves the state of all your running applications. When you log back in, the session manager restores the same applications with the same window positions.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-session
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: xfce4-session_system-log-out.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

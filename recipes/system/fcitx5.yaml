@@ -1,0 +1,43 @@
+id: "fcitx5"
+name: Fcitx 5
+description: Start Input Method
+longDescription: |
+  <p>Fcitx5 is the next generation of fcitx input method framework. It provides plasant and modern input experience with intuitive graphical configuration tools. The framework is highly extensible with support for GTK+ and Qt toolkits, DBus interfaces, a large variety of desktop environments and a developer-friendly API.</p>
+  <p>Some of its new features include support of both Wayland and Xorg and the ability to mimic IBus Input Method Framework in order to provide better compatibility across different Linux distributions and desktop environments.</p>
+  <p>This package provides core fcitx5 framework files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fcitx5
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/fcitx/Fcitx5/335b9ca03e2663a8fe2fa14e718d98bd/screenshots/image-1_orig.png
+    thumbnailUrl: org/fcitx/Fcitx5/335b9ca03e2663a8fe2fa14e718d98bd/screenshots/image-1_224x146@1.png
+    width: 336
+    height: 220
+iconSources:
+  - url: org/fcitx/Fcitx5/335b9ca03e2663a8fe2fa14e718d98bd/icons/128x128/fcitx5_fcitx.png
+    width: 128
+    height: 128
+homepage: "https://fcitx-im.org/"
+enabled: true
+order: 99

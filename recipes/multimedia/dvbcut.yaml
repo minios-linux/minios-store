@@ -1,0 +1,35 @@
+id: dvbcut
+name: DVBcut
+description: Trim and cut video MPEG2 transport streams into multiple export formats
+longDescription: |
+  <p>DVBcut is a Qt application that allows you to select certain parts of an MPEG transport stream (as received via Digital Video Broadcasting, DVB) and save these parts into a single MPEG output file. It follows a `keyhole surgery&apos;&apos; approach where the input video and audio data is mostly kept unchanged, and only very few frames at the beginning and/or end of the selected range are re-encoded in order to obtain a valid MPEG file.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dvbcut
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: dvbcut_dvbcut.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

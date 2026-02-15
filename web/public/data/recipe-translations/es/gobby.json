@@ -1,0 +1,5 @@
+{
+  "name": "Gobby",
+  "description": "Edita archivos de texto de forma colaborativa",
+  "longDescription": "<p>Gobby es un editor que permite editar documentos de texto y archivos de código fuente de manera colaborativa a través de una red. Todos los usuarios pueden trabajar en el archivo simultáneamente sin necesidad de bloquearlo. Las partes que distintos usuarios escriben se resaltan en diferentes colores y admite resaltado de sintaxis para varios lenguajes de programación y de marcado.</p>\n<p>Gobby es multiplataforma, disponible tanto para Windows como para sistemas tipo Unix, y utiliza la biblioteca Gtk+. Un servidor dedicado está disponible en el paquete infinoted.</p>\n"
+}

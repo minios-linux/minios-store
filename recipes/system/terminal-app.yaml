@@ -1,0 +1,37 @@
+id: terminal-app
+name: Terminal
+description: A terminal emulator for GNUstep
+longDescription: |
+  <p>This provides terminal emulation in a GNUstep environment. It gives colorized terminals with configurable fonts, and also allows users to configure shell utilities as GNUstep services.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - terminal.app
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shell
+  - prompt
+  - command
+  - commandline
+  - cmd
+iconSources:
+  - cached: terminal.app_Terminal.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

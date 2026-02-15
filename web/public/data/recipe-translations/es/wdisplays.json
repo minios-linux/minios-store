@@ -1,0 +1,5 @@
+{
+  "name": "Pantallas",
+  "description": "Configuración de pantallas wlroots",
+  "longDescription": "<p>wdisplays es una aplicación gráfica para configurar pantallas en compositores Wayland. Toma parte de su código de kanshi. Debería funcionar en cualquier compositor que implemente el protocolo wlr-output-management-unstable-v1, incluyendo sway. El objetivo de este proyecto es permitir un ajuste preciso de la configuración de pantallas en quioscos, señalización digital y otros entornos avanzados de configuración multimonitor.</p>\n"
+}

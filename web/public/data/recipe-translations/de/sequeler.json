@@ -1,0 +1,5 @@
+{
+  "name": "Sequeler",
+  "description": "Benutzerfreundlicher SQL-Client",
+  "longDescription": "<p>\n\t\t\tStellen Sie mühelos Verbindungen zu Ihren lokalen oder entfernten Datenbanken her\n\t\t</p>\n<p>\n\t\t\tVerwalten Sie Ihre Datenbankverbindungen in der Bibliothek, verbinden Sie sich über SSH-Tunnel, geben Sie SQL-Befehle direkt in der App ein und führen Sie diese aus – erledigen Sie alle Aufgaben, ohne das Terminal öffnen zu müssen.\n\t\t</p>\n<p>\n\t\t\tUnterstützte Datenbanken:\n\t\t</p>\n<ul>\n  <li>SQLite</li>\n  <li>MySQL</li>\n  <li>MariaDB</li>\n  <li>PostgreSQL</li>\n</ul>\n<p>\n\t\t\tFunktionen:\n\t\t</p>\n<ul>\n  <li>Verbindungen vor dem Speichern testen</li>\n  <li>Anzeige von Tabellenstruktur, Inhalten und Relationen</li>\n  <li>Erstellen mehrerer benutzerdefinierter SQL-Abfragen</li>\n  <li>Wechsel zwischen hellem und dunklem Modus</li>\n  <li>Praktische Tastenkombinationen zum Beenden (Strg+Q), Erstellen neuer Verbindungen (Strg+Umschalt+N) und Öffnen neuer Fenster (Strg+N)</li>\n</ul>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Prozessanzeige",
+  "description": "Eine Prozessanzeige mit grafischer Benutzeroberfläche in Rust",
+  "longDescription": "<p>\n      Prozessanzeige zeigt den aktuellen Status Ihrer Prozesse\n      (CPU- und Speicherverbrauch) sowie Systeminformationen an\n      (Auslastung jeder CPU-Kern, Arbeitsspeicher und die Temperatur\n      der Komponenten, sofern diese Daten verfügbar sind).\n    </p>\n"
+}

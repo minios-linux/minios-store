@@ -1,0 +1,5 @@
+{
+  "name": "Synaptic Package Manager",
+  "description": "Instal, hapus, dan perbarui paket perangkat lunak",
+  "longDescription": "<p>Synaptic adalah alat manajemen paket grafis berbasis GTK+ dan APT. Synaptic memudahkan Anda untuk menginstal, memperbarui, dan menghapus paket perangkat lunak secara antarmuka pengguna yang ramah.</p>\n<p>Selain fungsi dasar tersebut, Synaptic juga memiliki fitur-fitur berikut:  * Mencari dan memfilter daftar paket yang tersedia  * Melakukan pemutakhiran sistem secara cerdas  * Memperbaiki dependensi paket yang rusak  * Mengedit daftar repository yang digunakan (sources.list)  * Mengunduh changelog terbaru dari sebuah paket  * Mengonfigurasi paket melalui sistem debconf  * Menelusuri seluruh dokumentasi yang tersedia terkait paket (memerlukan dwww)</p>\n"
+}

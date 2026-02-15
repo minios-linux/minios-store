@@ -1,0 +1,5 @@
+{
+  "name": "Dialect",
+  "description": "Terjemahkan antar bahasa",
+  "longDescription": "<p>\n      Aplikasi penerjemah untuk GNOME.\n    </p>\n<p>\n      Fitur-fitur:\n    </p>\n<ul>\n  <li>Penerjemahan berbasis Google Translate</li>\n  <li>Penerjemahan menggunakan API LibreTranslate, dapat memakai berbagai instansi publik</li>\n  <li>Penerjemahan menggunakan Lingva Translate API</li>\n  <li>Teks ke ucapan</li>\n  <li>Riwayat penerjemahan</li>\n  <li>Deteksi bahasa otomatis</li>\n  <li>Tombol clipboard</li>\n</ul>\n"
+}

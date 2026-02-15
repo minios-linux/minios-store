@@ -1,0 +1,64 @@
+id: "meritous"
+name: Meritous
+description: Action-adventure dungeon crawl game
+longDescription: |
+  <p>Far below the surface of the planet is a secret. A place of limitless power. Those that seek to control such a utopia will soon bring an end to themselves. Seeking an end to the troubles that plague him, PSI user MERIT journeys into the hallowed Orcus Dome in search of answers.</p>
+  <p>Meritous is a action-adventure game with simple controls but a challenge to find a balance of power verses recovery time during real-time battles. Set in a procedurally generated world, the player can explore thousands of rooms in search of powerful artifacts, tools to help them, and to eventually free the Orcus Dome from evil.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - meritous
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - merit
+  - psi
+  - circuit
+  - orcus
+  - dome
+screenshotSources:
+  - url: net/asceai/meritous/beb3ba28c86e1c4c0132b0dcbc3addc3/screenshots/image-1_orig.png
+    thumbnailUrl: net/asceai/meritous/beb3ba28c86e1c4c0132b0dcbc3addc3/screenshots/image-1_624x351.png
+    width: 640
+    height: 360
+  - url: net/asceai/meritous/beb3ba28c86e1c4c0132b0dcbc3addc3/screenshots/image-2_orig.png
+    thumbnailUrl: net/asceai/meritous/beb3ba28c86e1c4c0132b0dcbc3addc3/screenshots/image-2_624x351.png
+    width: 640
+    height: 360
+  - url: net/asceai/meritous/beb3ba28c86e1c4c0132b0dcbc3addc3/screenshots/image-3_orig.png
+    thumbnailUrl: net/asceai/meritous/beb3ba28c86e1c4c0132b0dcbc3addc3/screenshots/image-3_624x468.png
+    width: 640
+    height: 480
+  - url: net/asceai/meritous/beb3ba28c86e1c4c0132b0dcbc3addc3/screenshots/image-4_orig.png
+    thumbnailUrl: net/asceai/meritous/beb3ba28c86e1c4c0132b0dcbc3addc3/screenshots/image-4_624x468.png
+    width: 640
+    height: 480
+  - url: net/asceai/meritous/beb3ba28c86e1c4c0132b0dcbc3addc3/screenshots/image-5_orig.png
+    thumbnailUrl: net/asceai/meritous/beb3ba28c86e1c4c0132b0dcbc3addc3/screenshots/image-5_624x468.png
+    width: 640
+    height: 480
+iconSources:
+  - url: net/asceai/meritous/beb3ba28c86e1c4c0132b0dcbc3addc3/icons/128x128/meritous_meritous.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.com/meritous"
+enabled: true
+order: 99

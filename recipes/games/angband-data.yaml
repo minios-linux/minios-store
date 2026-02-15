@@ -1,0 +1,45 @@
+id: "angband-data"
+name: Angband
+description: "Angband is a free, single-player dungeon exploration game."
+longDescription: |
+  <p>
+        A roguelike game where you explore a very deep 
+        dungeon, kill monsters, try to equip yourself with 
+        the best weapons and armor you can find, and finally 
+        face Morgoth - "The Dark Enemy".
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - angband-data
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - roguelike
+  - permadeath
+  - dnd
+  - moria
+screenshotSources:
+  - url: a/an/angband/e2d15bcfe14cf91aa51e0c134e12906d/screenshots/image-1_orig.png
+    thumbnailUrl: a/an/angband/e2d15bcfe14cf91aa51e0c134e12906d/screenshots/image-1_624x416@1.png
+    width: 765
+    height: 511
+  - url: a/an/angband/e2d15bcfe14cf91aa51e0c134e12906d/screenshots/image-2_orig.png
+    thumbnailUrl: a/an/angband/e2d15bcfe14cf91aa51e0c134e12906d/screenshots/image-2_624x416@1.png
+    width: 765
+    height: 511
+iconSources:
+  - url: a/an/angband/e2d15bcfe14cf91aa51e0c134e12906d/icons/128x128/angband-data_angband.png
+    width: 128
+    height: 128
+homepage: "https://angband.github.io/angband/"
+enabled: true
+order: 99

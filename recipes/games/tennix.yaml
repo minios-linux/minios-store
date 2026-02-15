@@ -1,0 +1,36 @@
+id: "tennix"
+name: Tennix!
+description: Play tennis against the computer or a friend
+longDescription: |
+  <p>Tennix is a funny tennis game in 2D. You can play against the computer or against another player using the keyboard. The game runs in-window at 640x480 resolution or fullscreen.</p>
+  <p>Refer to manpage tennix(6) for gameplay instructions and command-line options.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tennix
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/te/tennix.desktop/044b69967fe8025c17f3b750a6c37582/icons/128x128/tennix_tennix.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

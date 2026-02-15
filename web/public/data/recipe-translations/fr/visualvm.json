@@ -1,0 +1,5 @@
+{
+  "name": "VisualVM",
+  "description": "Outil complet de diagnostic Java",
+  "longDescription": "<p>VisualVM est un outil visuel regroupant plusieurs utilitaires en ligne de commande du JDK ainsi que des fonctionnalités de profilage légères. Conçu pour une utilisation aussi bien en production qu'en développement, il améliore l'analyse des performances et la supervision sur la plateforme Java SE.</p>\n<p>VisualVM s’adresse :<br> - aux développeurs d’applications : surveillance, profilage, captures de threads, exploration des vidages de mémoire ;<br> - aux administrateurs système : surveillance et gestion centralisées des applications Java sur tout le réseau ;<br> - aux utilisateurs d’applications Java : génération de rapports de bugs complets et détaillés.</p>\n"
+}

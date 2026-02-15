@@ -1,0 +1,53 @@
+id: "eog"
+name: Eye of GNOME
+description: Browse and rotate images
+longDescription: |
+  <p>The Eye of GNOME is the official image viewer for the GNOME desktop.
+        It integrates with the GTK+ look and feel of GNOME, and supports many image
+        formats for viewing single images or images in a collection.</p>
+  <p>The Eye of GNOME also allows to view the images in a fullscreen slideshow mode
+        or set an image as the desktop wallpaper.
+        It reads the camera tags to automatically rotate your images in the correct
+        portrait or landscape orientation.</p>
+  
+categoryId: graphics
+icon: Image
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - eog
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - picture
+  - slideshow
+  - graphics
+screenshotSources:
+  - url: org/gnome/eog.desktop/8a393edfbc76a1ea764249014ae4ebf4/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/eog.desktop/8a393edfbc76a1ea764249014ae4ebf4/screenshots/image-1_624x462@1.png
+    width: 856
+    height: 635
+iconSources:
+  - url: org/gnome/eog.desktop/8a393edfbc76a1ea764249014ae4ebf4/icons/128x128/eog_org.gnome.eog.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/EyeOfGnome"
+enabled: true
+order: 99

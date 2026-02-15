@@ -1,0 +1,24 @@
+id: stardict-common
+name: StarDict
+description: Lookup words
+longDescription: |
+  <p>StarDict is a cross-platform and international written in GTK+ 2.x. It has powerful features such as &quot;Glob-style pattern matching&quot;, &quot;Scan selection word&quot;, &quot;Fuzzy search&quot;, etc.</p>
+  <p>This package contains data files (pixmaps, icons, documentations) needed by the stardict package.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - stardict-common
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: stardict-common_stardict.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

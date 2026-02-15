@@ -1,0 +1,5 @@
+{
+  "name": "Htop",
+  "description": "Affiche les processus système",
+  "longDescription": "<p>Htop est un visualiseur de processus interactif en mode texte, similaire à top, mais offrant une interface ncurses permettant de faire défiler la liste verticalement et horizontalement pour voir tous les processus ainsi que leurs lignes de commande complètes.</p>\n<p>Les actions sur les processus (arrêt, modification de priorité) peuvent être effectuées sans saisir le PID manuellement.</p>\n"
+}

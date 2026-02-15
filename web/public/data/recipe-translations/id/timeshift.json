@@ -1,0 +1,5 @@
+{
+  "name": "Timeshift",
+  "description": "Utilitas Pemulihan Sistem",
+  "longDescription": "<p>Timeshift adalah utilitas pemulihan sistem yang membuat snapshot sistem secara berkala. Snapshot ini dapat dipulihkan kembali di lain waktu untuk membatalkan perubahan sistem. Mendukung pembuatan snapshot bertahap menggunakan rsync atau snapshot BTRFS dengan alat BTRFS.</p>\n"
+}

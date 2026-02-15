@@ -1,0 +1,5 @@
+{
+  "name": "Massif-Visualizer",
+  "description": "Ein Visualisierungsprogramm für Valgrind-Massif-Datendateien",
+  "longDescription": "<p>Massif Visualizer ist ein Werkzeug, das – wie der Name schon vermuten lässt – Massif-Daten visualisiert. Sie führen Ihre Anwendung in Valgrind mit --tool=massif aus und öffnen anschließend die erzeugte Datei massif.out.%pid im Visualizer. Auch Gzip- oder Bzip2-komprimierte Massif-Dateien können direkt geöffnet werden.</p>\n<p>Funktionen:</p>\n<ul>\n  <li>Interaktives Diagramm des Speicherverbrauchs im zeitlichen Verlauf.</li>\n  <li>Detaillierte Snapshot-Analyse mit Callgraph-Visualisierung (erfordert KGraphViewer).</li>\n  <li>Übersicht des Spitzen-Speicherverbrauchs aller allozierenden Funktionen.</li>\n</ul>\n"
+}

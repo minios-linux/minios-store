@@ -1,0 +1,35 @@
+id: wordwarvi
+name: Word War vi
+description: Side-scrolling shoot'em up arcade game
+longDescription: |
+  <p>Word War vi is your basic side-scrolling shoot &apos;em up &apos;80s style arcade game. You pilot your &quot;vi&quot;per craft through core memory, rescuing lost .swp files, avoiding OS defenses, and wiping out those memory hogging emacs processes.</p>
+  <p>Includes support for joysticks with force-feedback.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wordwarvi
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - vector-graphics
+  - hostages
+  - rescue
+  - editor-wars
+iconSources:
+  - cached: wordwarvi_wordwarvi_icon_128x128.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

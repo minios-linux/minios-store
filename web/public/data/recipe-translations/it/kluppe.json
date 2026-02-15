@@ -1,0 +1,5 @@
+{
+  "name": "Kluppe",
+  "description": "riproduttore e registratore di loop audio",
+  "longDescription": "<p>Kluppe è scritto in C e utilizza JACK, GTK e sndfile. Tra le funzionalità incluse:</p>\n<p> - buffer per file multipli, tracce multiple di 'loopers'  - accesso diretto (tramite interfaccia grafica) a tutti i loopers  - porte di uscita JACK combinate e per singolo loop  - diverse modalità di riproduzione, inclusa quella \"granulare\"</p>\n<p>Kluppe è la parola austriaca per 'clip' e suona ancora più strana se la metti in loop.</p>\n"
+}

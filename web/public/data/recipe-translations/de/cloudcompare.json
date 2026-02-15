@@ -1,0 +1,5 @@
+{
+  "name": "CloudCompare",
+  "description": "Software zur Verarbeitung von 3D-Punktwolken und -Meshes",
+  "longDescription": "<p>Dies ist eine Software zur Verarbeitung von 3D-Punktwolken und dreieckigen Meshes. Ursprünglich wurde sie entwickelt, um Vergleiche zwischen zwei 3D-Punktwolken (zum Beispiel von Laserscannern erzeugt) oder zwischen einer Punktwolke und einem Dreiecks-Mesh durchzuführen.</p>\n<p>CloudCompare verwendet eine spezielle Oktree-Struktur, die eine sehr hohe Performance bei genau diesen Aufgaben ermöglicht. Es ist zudem darauf ausgelegt, auch mit sehr großen Punktwolken umzugehen (in der Regel mehr als 10 Millionen Punkte, und bis zu 120 Millionen mit 2 GB Arbeitsspeicher).</p>\n"
+}

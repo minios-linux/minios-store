@@ -1,0 +1,5 @@
+{
+  "name": "Clapper",
+  "description": "Lettore multimediale GNOME semplice e moderno",
+  "longDescription": "<p>\n      Clapper è un lettore multimediale per GNOME sviluppato in GJS con il toolkit GTK4.\n      Il lettore utilizza GStreamer come backend multimediale e sfrutta l'accelerazione grafica\n      tramite OpenGL. Funziona nativamente sia su Xorg che su Wayland.\n      Supporta anche l'accelerazione hardware tramite VA-API su GPU AMD/Intel,\n      NVDEC su Nvidia e V4L2 su dispositivi mobili.\n    </p>\n<p>\n      L'interfaccia grafica è adattiva. In \"modalità finestra\",\n      Clapper utilizza principalmente i widget GTK non modificati per integrarsi perfettamente con l'aspetto del sistema operativo.\n      In \"modalità schermo intero\" tutti gli elementi dell'interfaccia diventano più scuri, grandi\n      e semi-trasparenti per migliorare il comfort visivo. È presente anche una \"modalità flottante\"\n      che mostra solo il video in sovraimpressione rispetto alle altre finestre, per un'esperienza simile a PiP.\n      Sono supportate anche transizioni ottimizzate per l'uso su dispositivi mobili.\n    </p>\n"
+}

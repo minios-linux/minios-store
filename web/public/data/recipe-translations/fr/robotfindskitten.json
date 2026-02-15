@@ -1,0 +1,5 @@
+{
+  "name": "robotfindskitten",
+  "description": "simulation zen où le robot cherche un chaton",
+  "longDescription": "<p>Dans cette simulation, vous incarnez un robot dont la mission est de terminer la partie en trouvant le chaton, selon votre destinée. Vous (le robot) êtes représenté par le caractère # et vous vous déplacez à l’aide des flèches du clavier pour explorer et toucher différents objets. Si l’objet trouvé est le chaton, une petite animation apparaît (elle était plus mignonne dans la version DOS) et la simulation se termine. Sinon, une brève description de l’objet touché s’affiche.</p>\n"
+}

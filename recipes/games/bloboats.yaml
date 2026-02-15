@@ -1,0 +1,46 @@
+id: "bloboats"
+name: Bloboats
+description: An arcade-like boat racing game
+longDescription: |
+  <p>Bloboats is an arcade-like boat racing game in the hybrid spirit of Mario-like platform jumpers and elasto mania / xmoto.</p>
+  <p>The objective of Bloboats is to reach MS Enterprise as fast as possible to save it from the hands of the terrible Tentacle Monsters of an Unknown Master and in the same time beat your friend and laugh at his or her puny time.</p>
+  <p>The journey starts from a place called Tutorial, somewhere in the United States, and somehow the player ends up in the famous HV-Arena of Helsinki. During the trip a number of MS Enterprises are saved, luckily, from the hands of the terrible Tentacle Monsters of an Unknown Master, who actually is your dad. Or then ain&apos;t. :-)</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bloboats
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - boat
+  - race
+  - water
+  - arcade
+  - jump
+  - game
+iconSources:
+  - url: b/bl/bloboats.desktop/566c17d76a42081ecac3e13f07f777f4/icons/128x128/bloboats_bloboats.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

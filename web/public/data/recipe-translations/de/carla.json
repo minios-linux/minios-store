@@ -1,0 +1,5 @@
+{
+  "name": "Carla Control",
+  "description": "Audio-Plugin-Host (OSC-Steuerung)",
+  "longDescription": "<p>Carla ist ein Audio-Plugin-Host, der zahlreiche Audiotreiber und Plugin-Formate unterstützt. Zu den Highlights gehören die Automatisierung von Parametern via MIDI-CC sowie die vollständige Kontrolle über OSC. Unterstützt werden aktuell die Plugin-Formate LADSPA, DSSI, LV2, VST2/3 und AU sowie SF2- und SFZ-Soundbanken.</p>\n<p>Dieses Paket enthält die Hauptanwendung.</p>\n"
+}

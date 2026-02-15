@@ -1,0 +1,44 @@
+id: "minetest"
+name: Minetest
+description: Multiplayer infinite-world block sandbox
+longDescription: |
+  <p>Minetest is a minecraft-inspired game written from scratch and licensed under the LGPL (version 2.1 or later). It supports both survival and creative modes along with multiplayer support, dynamic lighting, and an &quot;infinite&quot; map generator.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - minetest
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - sandbox
+  - world
+  - mining
+  - crafting
+  - blocks
+  - nodes
+  - multiplayer
+  - roleplaying
+iconSources:
+  - url: net/minetest/minetest/d6aea6dadad07ceee20be9ff0402628f/icons/128x128/minetest_minetest.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,33 @@
+id: p4vasp
+name: p4vasp
+description: visualization suite for VASP
+longDescription: |
+  <p>p4VASP is a visualization suite for the Vienna Ab-initio Simulation Package (VASP). It contains an extensible GUI framework, that can be used to view material structure, density of states, band-structure and more.</p>
+  <p>It provides a Python library, that greatly simplifies the process of manipulation of the VASP input and output data in Python scripts. P4vasp utilizes also many handy routines and objects e.g. for creating 2D graphs, data storage (xml,DOM) or simple matrix library.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - p4vasp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - atom
+  - material
+  - crystal
+  - band
+  - structure
+  - lattice
+iconSources:
+  - url: p/p4/p4vasp.desktop/D5A4C8FBB8627FFF82AD22C206BFD25E/icons/128x128/p4vasp_p4vasp.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

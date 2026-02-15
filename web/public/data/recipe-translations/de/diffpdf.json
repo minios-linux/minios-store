@@ -1,0 +1,5 @@
+{
+  "name": "DiffPDF",
+  "description": "Zwei PDF-Dateien vergleichen",
+  "longDescription": "<p>DiffPDF dient zum Vergleichen von zwei PDF-Dateien. Standardmäßig erfolgt der Vergleich anhand des Textes auf jedem Seitenpaar, aber auch ein Vergleich des Seitenlayouts ist möglich (z.B. wenn ein Diagramm geändert oder ein Absatz umformatiert wurde). Es ist ebenfalls möglich, gezielt bestimmte Seiten oder Seitenbereiche zu vergleichen. Sind beispielsweise zwei Versionen einer PDF-Datei vorhanden – eine mit den Seiten 1–12 und eine andere mit den Seiten 1–13, weil eine zusätzliche Seite als Seite 4 eingefügt wurde – können diese verglichen werden, indem für die erste Datei die Seiten 1–12 und für die zweite Datei die Seiten 1–3 und 5–13 angegeben werden. DiffPDF vergleicht die Seiten dann in den Paaren (1, 1), (2, 2), (3, 3), (4, 5), (5, 6) usw. bis (12, 13).</p>\n"
+}

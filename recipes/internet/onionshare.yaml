@@ -1,0 +1,49 @@
+id: "onionshare"
+name: OnionShare
+description: Securely and anonymously share a file of any size
+longDescription: |
+  <p>OnionShare lets you securely and anonymously share a file of any size with someone. It works
+              by starting a web server, making it accessible as a Tor hidden service, and generating an
+              unguessable URL to access and download the file.</p>
+  <p>It doesn&apos;t require setting up a server on the internet somewhere or using a third party
+              filesharing service. You host the file on your own computer and use a Tor hidden service to
+              make it temporarily accessible over the internet. The other user just needs to use Tor Browser
+              to download the file from you.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - onionshare
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tor
+  - anonymity
+  - privacy
+  - onion service
+  - file sharing
+  - file hosting
+screenshotSources:
+  - url: org/onionshare/OnionShare/559cd7f61d8502093bdfe07cd9ce163a/screenshots/image-1_orig.png
+    thumbnailUrl: org/onionshare/OnionShare/559cd7f61d8502093bdfe07cd9ce163a/screenshots/image-1_624x444@1.png
+    width: 1060
+    height: 755
+iconSources:
+  - url: org/onionshare/OnionShare/559cd7f61d8502093bdfe07cd9ce163a/icons/128x128/onionshare_org.onionshare.OnionShare.png
+    width: 128
+    height: 128
+developer: Micah Lee
+homepage: "https://onionshare.org/"
+enabled: true
+order: 99

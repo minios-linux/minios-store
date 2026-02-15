@@ -1,0 +1,5 @@
+{
+  "name": "Toxic",
+  "description": "Ein CLI-basierter Tox-Client",
+  "longDescription": "<p>Dies ist ein Instant-Messaging-Client auf Basis von Tox, der ursprünglich im Tox-Core-Repository entwickelt wurde und nun als eigenständige Anwendung verfügbar ist.</p>\n<p>Tox ist ein sicheres und dezentrales Skype-Äquivalent.</p>\n<p>Im Kern ist es ein Client, der mit seiner Kernbibliothek über ein eigenes Protokoll kommuniziert. Alle Verbindungen sind mit der von Experten geprüften NaCl-Kryptobibliothek verschlüsselt – und diese Verschlüsselung kann nicht deaktiviert werden.</p>\n<p>Tox basiert auf einem dezentralen Netzwerk, das für Chats Peer-to-Peer-Verbindungen (P2P) nutzt. Anders als andere Skype-Alternativen setzt Tox dabei weder auf föderierte noch zentrale Server oder Supernodes.</p>\n"
+}

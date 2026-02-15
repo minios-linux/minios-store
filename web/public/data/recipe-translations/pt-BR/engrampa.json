@@ -1,0 +1,5 @@
+{
+  "name": "Engrampa Archive Manager",
+  "description": "Crie e modifique arquivos compactados",
+  "longDescription": "<p>Engrampa é um gerenciador de arquivos compactados para o ambiente MATE. Ele permite que você:</p>\n<p> * Crie e altere arquivos compactados.  * Visualize o conteúdo de um arquivo compactado.  * Visualize arquivos dentro do arquivo compactado.  * Extraia arquivos do arquivo compactado.</p>\n<p>O Engrampa é compatível com os seguintes formatos:  * Arquivos Tar (.tar), incluindo os compactados com    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),    lzma (.tar.lzma) e xz (.tar.xz)  * Arquivos Zip (.zip)  * Arquivos Jar (.jar, .ear, .war)  * Arquivos 7z (.7z)  * Imagens de CD iso9660 (.iso)  * Arquivos Lha (.lzh)  * Arquivos individuais compactados com gzip (.gz), bzip (.bz), bzip2 (.bz2),    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) e xz (.xz)</p>\n<p>O Engrampa não executa as operações de compactação diretamente, mas depende de ferramentas padrão do sistema para isso.</p>\n"
+}

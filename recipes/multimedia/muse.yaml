@@ -1,0 +1,62 @@
+id: "muse"
+name: MusE
+description: The open source sequencer
+longDescription: |
+  <p>MusE is a MIDI/Audio sequencer with recording and editing capabilities. It can
+        perform audio effects like chorus/flanger in real-time via LASH and it supports
+        Jack and ALSA interfaces. MusE aims to be a complete multitrack virtual studio
+        for Linux.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - muse
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/muse_sequencer.Muse/82b3d8dce516184026d420fdb9ed9f3c/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/muse_sequencer.Muse/82b3d8dce516184026d420fdb9ed9f3c/screenshots/image-1_624x428@1.png
+    width: 2882
+    height: 1980
+  - url: io/github/muse_sequencer.Muse/82b3d8dce516184026d420fdb9ed9f3c/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/muse_sequencer.Muse/82b3d8dce516184026d420fdb9ed9f3c/screenshots/image-2_624x357@1.png
+    width: 1297
+    height: 744
+  - url: io/github/muse_sequencer.Muse/82b3d8dce516184026d420fdb9ed9f3c/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/muse_sequencer.Muse/82b3d8dce516184026d420fdb9ed9f3c/screenshots/image-3_624x388@1.png
+    width: 1196
+    height: 745
+  - url: io/github/muse_sequencer.Muse/82b3d8dce516184026d420fdb9ed9f3c/screenshots/image-4_orig.png
+    thumbnailUrl: io/github/muse_sequencer.Muse/82b3d8dce516184026d420fdb9ed9f3c/screenshots/image-4_624x431@1.png
+    width: 955
+    height: 661
+  - url: io/github/muse_sequencer.Muse/82b3d8dce516184026d420fdb9ed9f3c/screenshots/image-5_orig.png
+    thumbnailUrl: io/github/muse_sequencer.Muse/82b3d8dce516184026d420fdb9ed9f3c/screenshots/image-5_624x427@1.png
+    width: 845
+    height: 579
+iconSources:
+  - url: io/github/muse_sequencer.Muse/82b3d8dce516184026d420fdb9ed9f3c/icons/128x128/muse_muse.png
+    width: 128
+    height: 128
+homepage: "http://muse-sequencer.org/"
+enabled: true
+order: 99

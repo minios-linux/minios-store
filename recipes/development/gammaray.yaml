@@ -1,0 +1,77 @@
+id: "gammaray"
+name: GammaRay
+description: Qt-application inspection and manipulation tool
+longDescription: |
+  <p>GammaRay is a tool to poke around in a Qt-application and also to
+         manipulate the application to some extent. GammaRay uses various
+         DLL injection techniques to hook into an application at runtime and
+         provide access to a lot of interesting information.</p>
+  <p>GammaRay provides the following capabilities to help your Qt application development efforts:</p>
+  <ul>
+    <li>Browse the QObject tree with live updates</li>
+    <li>View, and to some extent, edit QObject static and dynamic properties</li>
+    <li>View and call slots of a QObject (similar to qdbusviewer)</li>
+    <li>View other QObject elements such as signals, enums and class info introspectively</li>
+    <li>List all QObject inbound and outbound signal/slot connections</li>
+    <li>Provide live widget preview. Useful for finding layout issues</li>
+    <li>View the content of any QAbstractItemModel (QAIM)</li>
+    <li>Browse the QAbstractProxyModel (QAPM) hierarchy</li>
+    <li>Browse the QGraphicsView (QGV) item tree of any QGV scene</li>
+    <li>... and much, much more</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gammaray
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - qt
+  - development
+  - runtime
+screenshotSources:
+  - url: g/ga/gammaray.desktop/e90b7d49aa0822a5a5f50b218d1cf630/screenshots/image-1_orig.png
+    thumbnailUrl: g/ga/gammaray.desktop/e90b7d49aa0822a5a5f50b218d1cf630/screenshots/image-1_224x122.png
+    width: 500
+    height: 273
+  - url: g/ga/gammaray.desktop/e90b7d49aa0822a5a5f50b218d1cf630/screenshots/image-2_orig.png
+    thumbnailUrl: g/ga/gammaray.desktop/e90b7d49aa0822a5a5f50b218d1cf630/screenshots/image-2_224x125.png
+    width: 500
+    height: 281
+  - url: g/ga/gammaray.desktop/e90b7d49aa0822a5a5f50b218d1cf630/screenshots/image-3_orig.png
+    thumbnailUrl: g/ga/gammaray.desktop/e90b7d49aa0822a5a5f50b218d1cf630/screenshots/image-3_224x125.png
+    width: 500
+    height: 281
+  - url: g/ga/gammaray.desktop/e90b7d49aa0822a5a5f50b218d1cf630/screenshots/image-4_orig.png
+    thumbnailUrl: g/ga/gammaray.desktop/e90b7d49aa0822a5a5f50b218d1cf630/screenshots/image-4_224x122.png
+    width: 500
+    height: 273
+iconSources:
+  - url: g/ga/gammaray.desktop/50a044c6bcfdf606960da44b38395e3c/icons/128x128/gammaray_GammaRay.png
+    width: 128
+    height: 128
+  - url: g/ga/gammaray.desktop/50a044c6bcfdf606960da44b38395e3c/icons/128x128@2/gammaray_GammaRay.png
+    width: 128
+    height: 128
+developer: Klaralvdalens Datakonsult AB (KDAB)
+homepage: "https://www.kdab.com/gammaray/"
+enabled: true
+order: 99

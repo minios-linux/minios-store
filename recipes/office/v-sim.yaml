@@ -1,0 +1,34 @@
+id: "v-sim"
+name: V_Sim
+description: "V_Sim visualizes atomic structures such as crystals, grain boundaries, molecules and so on."
+longDescription: |
+  <p>V_Sim visualizes atomic structures such as crystals, grain boundaries, molecules and so on (either in binary format, or in plain text format).</p>
+  <p>The rendering is done in pseudo-3D with spheres (atoms) or arrows (spins). The user can interact through many functions to choose the view, set the bindings, draw cutting planes, compute surfaces from scalar fields, duplicate nodes, measure geometry... Moreover V_Sim allows one to export the view as images in PNG, JPG, PDF (bitmap), SVG (scheme) and other formats. Some tools are also available to colorize atoms from data values or to animate on screen many position files.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - v-sim
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: v/v-/v-sim.desktop/43843a8f6f4d56b2eb021b1bd32a58ee/icons/128x128/v-sim_v_sim.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Accesibilidad",
+  "description": "Mejora la accesibilidad del teclado y el ratón",
+  "longDescription": "<p>xfce4-settings es la interfaz de gestión de configuraciones de Xfce. Incluye varios componentes para configurar ajustes independientes de las aplicaciones dentro de xfconf. Contiene varias herramientas:  - xfce4-settings-manager (que reemplaza al antiguo administrador de configuraciones mcs),    ejecuta los diferentes diálogos de ajustes disponibles  - xfce4-settings-editor, una herramienta gráfica para editar TODOS los ajustes en xfconf, contraparte visual de xfconf-query.  - xfsettingsd, un daemon que exporta XSettings a las aplicaciones y provee funciones especiales como atajos de teclado, notificaciones AccessX y actualización de datos del teclado y del puntero del ratón.</p>\n"
+}

@@ -1,0 +1,26 @@
+id: xcfa
+name: XCFA
+description: X Convert File Audio. Programme pour convertir les fichiers audio.
+longDescription: |
+  <p>XCFA is a tool to extract the contens of Audio-CDs and convert musical audio files conversion to FLAC, WAV, OGG, M4A, MPC, MP3, WavPack and many other formats.</p>
+  <p>Some features follow:  * Handling of frequency, track and bits.  * Handling of files shared volume before a recording.  * Web retrieval of Audio-CD information during treatment.  * Small cover creation for Audio-CDs.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xcfa
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: xcfa_xcfa.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

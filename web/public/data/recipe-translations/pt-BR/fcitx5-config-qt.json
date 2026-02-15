@@ -1,0 +1,5 @@
+{
+  "name": "Fcitx 5 Migration Wizard",
+  "description": "Inicie o assistente para importar dados de outros métodos de entrada, como o Fcitx 4.",
+  "longDescription": "<p>Esta é uma ferramenta de configuração para o Framework de Métodos de Entrada Fcitx v5.</p>\n<p>Ela também disponibiliza a ferramenta fcitx5-migrator, que auxilia na migração de dados do Fcitx4. Para migrar dados de pinyin e tabelas do Fcitx4, é necessário ter as ferramentas do pacote libime-bin instaladas.</p>\n"
+}

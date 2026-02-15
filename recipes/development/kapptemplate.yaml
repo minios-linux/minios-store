@@ -1,0 +1,53 @@
+id: "kapptemplate"
+name: KAppTemplate
+description: KDE Template Generator
+longDescription: |
+  <p>KAppTemplate is an application to start development quickly using existing templates providing basic
+        repeatedly written code and a proper structure.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Templates for C++, Ruby, Python and PHP</li>
+    <li>Categories</li>
+    <li>Templates for different build-systems and frameworks</li>
+    <li>Templates especially for KDE-development (plugins for Plasma, KOffice, KTextEditor, KRunner, Akonadi)</li>
+    <li>It is easy to create new templates using space holders and a simple CMake-command</li>
+    <li>Integrated into KDevelop</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kapptemplate
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kapptemplate.desktop/ccae6e8f802e6ec68dfb5785b37202d1/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kapptemplate.desktop/ccae6e8f802e6ec68dfb5785b37202d1/screenshots/image-1_624x509@1.png
+    width: 820
+    height: 669
+iconSources:
+  - url: org/kde/kapptemplate.desktop/ccae6e8f802e6ec68dfb5785b37202d1/icons/128x128/kapptemplate_kapptemplate.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kapptemplate"
+enabled: true
+order: 99

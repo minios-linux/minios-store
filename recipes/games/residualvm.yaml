@@ -1,0 +1,27 @@
+id: residualvm
+name: ResidualVM
+description: Interpreter for several 3D games
+longDescription: |
+  <p>ResidualVM is a cross-platform 3D game interpreter which allows you to play LucasArts&apos; Lua-based 3D adventures (provided you already have their data files):</p>
+  <p> * Grim Fandango  * Myst III  * Escape from Monkey Island (not working yet)</p>
+  <p>ResidualVM utilizes OpenGL for 3D graphics hardware acceleration. A software renderer is also included for machines without hardware OpenGL.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - residualvm
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: r/re/residualvm.desktop/CD9510FA6E4C28B080FB1F889484F0CF/icons/128x128/residualvm_residualvm.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,39 @@
+id: blobwars
+name: "Blob Wars : Metal Blob Solid"
+description: Mission and Objective based 2D Platform Game
+longDescription: |
+  <p>Blob Wars: Metal Blob Solid is a 2D platform game. It is the first in the Blob Wars series.</p>
+  <p>Since their world was invaded by an alien race, the Blobs have faced a lifetime of war. But now they have a chance to win the war once and for all.</p>
+  <p>In Blob Wars: Metal Blob Solid, you take on the role of a fearless Blob agent, Bob. Bob&apos;s mission is to infiltrate the various enemy bases around the Blobs&apos; homeworld and rescue as many MIAs as possible. But standing in his way are many vicious aliens, other Blobs who have been assimilated and the evil alien leader, Galdov.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - blobwars
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: blobwars_blobwars.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

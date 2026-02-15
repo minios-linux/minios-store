@@ -1,0 +1,5 @@
+{
+  "name": "eBook speaker",
+  "description": "Pembaca e-book dengan suara",
+  "longDescription": "<p>Paket ini menyediakan pembaca e-book berbasis command-line yang membacakan teks elektronik menggunakan sintesis suara. Memiliki antarmuka pengguna sederhana yang cocok untuk terminal Braille.</p>\n<p>Saat ini format berikut didukung (beberapa format memerlukan paket tambahan seperti yang disarankan paket ini): AportisDoc, teks email ASCII, teks ASCII, Broadband eBooks (BBeB), Composite Document File (Microsoft Office Word), DAISY3 DTBook, data eBook EPUB, data gambar GIF, GutenPalm zTXT, katalog pesan GNU gettext, dokumen HTML, teks ISO-8859, data gambar JPEG, data eBook Microsoft Reader, data Microsoft Windows HtmlHelp, Microsoft Word 2007+, E-book Mobipocket, Data Ms Windows HtmlHelp, data Netpbm PPM, OpenDocument Text, dokumen PDF, PeanutPress PalmOS, data gambar PNG, teks script POSIX shell, dokumen PostScript, Rich Text Format, teks troff atau preprocessor (misal: Linux man-pages), teks email Unicode UTF-8, teks Unicode UTF-8, WordPerfect, teks dokumen XML.</p>\n"
+}

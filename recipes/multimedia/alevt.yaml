@@ -1,0 +1,28 @@
+id: alevt
+name: AleVT
+description: View teletext pages
+longDescription: |
+  <p>AleVT is an X11 program for browsing and searching Teletext/Videotext pages received by a compatible decoder (bttv and DVB receivers).</p>
+  <p>Features include:</p>
+  <p>  * Multiple windows   * Page cache   * Regular expression searching   * Built-in manual</p>
+  <p>Additional command line utilities can</p>
+  <p>  * receive the time from Teletext/Videotext   * capture pages and write them to disk</p>
+  <p>Teletext/Videotext is used by TV channels to transmit textual information pages (it&apos;s transmitted via non-visible scan lines).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - alevt
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: alevt_alevt.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,52 @@
+id: "kalgebramobile"
+name: KAlgebra Mobile
+description: Pocket Math Expression Solver and Plotter
+longDescription: |
+  <p>KAlgebra is a algebraic graphing calculator with support for 3D graphing and MathML markup language. This is the version for small touch based interfaces</p>
+  <p>This package is part of the KDE education module.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kalgebramobile
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kalgebramobile/9e4bbebae9bc8baab8a5d1e32c877978/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kalgebramobile/9e4bbebae9bc8baab8a5d1e32c877978/screenshots/image-1_624x373@1.png
+    width: 1600
+    height: 958
+  - url: org/kde/kalgebramobile/9e4bbebae9bc8baab8a5d1e32c877978/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kalgebramobile/9e4bbebae9bc8baab8a5d1e32c877978/screenshots/image-2_624x430@1.png
+    width: 1390
+    height: 959
+  - url: org/kde/kalgebramobile/9e4bbebae9bc8baab8a5d1e32c877978/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kalgebramobile/9e4bbebae9bc8baab8a5d1e32c877978/screenshots/image-3_224x465@1.png
+    width: 360
+    height: 748
+iconSources:
+  - url: org/kde/kalgebramobile/9e4bbebae9bc8baab8a5d1e32c877978/icons/128x128/kalgebramobile_kalgebra.png
+    width: 128
+    height: 128
+homepage: "https://edu.kde.org/kalgebra/"
+enabled: true
+order: 99

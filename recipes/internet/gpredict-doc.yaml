@@ -1,0 +1,25 @@
+id: gpredict-doc
+name: Gpredict
+description: Satellite tracker
+longDescription: |
+  <p>Gpredict is a real time satellite tracking and orbit prediction program for the Linux desktop. It uses the SGP4/SDP4 propagation algorithms together with NORAD two-line element sets (TLE).</p>
+  <p>Some core features of Gpredict include:</p>
+  <p> * Tracking of a large number of satellites only limited by the physical    memory and processing power of the computer  * Display the tracking data in lists, maps, polar plots and any combination    of these  * Have many modules open at the same either in a notebook or in their own    windows. The modules can also run in full-screen mode  * You can use many ground stations  * Predict upcoming passes  * Gpredict can run in real-time, simulated real-time (fast forward and    backward), and manual time control  * Detailed information both the real time and non-real time modes  * Doppler tuning of radios via Hamlib rigctld  * Antenna rotator control via Hamlib rotctld</p>
+  <p>This package contains the documentation and other architecture-independent files.</p>
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpredict-doc
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: gpredict-doc_gpredict-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

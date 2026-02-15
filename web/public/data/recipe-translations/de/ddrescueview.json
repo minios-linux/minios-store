@@ -1,0 +1,5 @@
+{
+  "name": "ddrescueview",
+  "description": "Grafischer Betrachter für GNU ddrescue-Mapdateien",
+  "longDescription": "<p>Dieses kleine Tool ermöglicht es, die Mapdateien von ddrescue anschaulich in einer benutzerfreundlichen grafischen Oberfläche zu betrachten. Das Hauptfenster zeigt ein Blockraster, wobei die Farbe jedes Blocks den enthaltenen Blocktyp repräsentiert. Viele Nutzer kennen diese Darstellungsart aus Defragmentierungsprogrammen.</p>\n<p>Funktionen:  * Anzeige der ddrescue-Mapdatei als farbige Blockgrafik  * Untersuchung jedes Blocks im Image mit detaillierter Auflistung der enthaltenen Map-Einträge  * Zur Nachverfolgung des Rettungsvorgangs kann ddrescueview das Mapfile automatisch neu einlesen  * Darstellung der Einheiten wahlweise mit dezimalen (KB, MB...) oder binären (KiB, MiB...) Präfixen</p>\n"
+}

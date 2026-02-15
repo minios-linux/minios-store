@@ -1,0 +1,5 @@
+{
+  "name": "SigViewer",
+  "description": "SigViewer adalah aplikasi penampil biosinyal",
+  "longDescription": "<p>SigViewer adalah perangkat lunak untuk melihat dan memberi skor data sinyal biomedis. Aplikasi ini menggunakan pustaka biosig4c++ yang mendukung berbagai format data (termasuk EDF, BDF, GDF, BrainVision, BCI2000, CFWB, HL7aECG, SCP_ECG (EN1064), MFER, ACQ, CNT(Neuroscan), DEMG, EGI, EEG1100, FAMOS, SigmaPLpro, TMS32). Daftar lengkap format file yang didukung dapat dilihat di http://pub.ist.ac.at/~schloegl/biosig/TESTED.</p>\n<p>Selain menampilkan biosinyal, SigViewer juga mendukung pembuatan anotasi untuk menandai artefak atau kejadian tertentu.</p>\n"
+}

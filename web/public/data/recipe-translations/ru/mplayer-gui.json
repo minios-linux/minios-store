@@ -1,0 +1,5 @@
+{
+  "name": "MPlayer",
+  "description": "Воспроизведение фильмов и музыки",
+  "longDescription": "<p>MPlayer воспроизводит большинство файлов MPEG, VOB, AVI, Ogg/OGM, VIVO, ASF/WMA/WMV, QT/MOV/MP4, FLI, RM, NuppelVideo, yuv4mpeg, FILM, RoQ, PVA, поддерживаемых многочисленными собственными, XAnim, RealPlayer и Win32 DLL кодеками. Также поддерживается воспроизведение VideoCD, SVCD, DVD, 3ivx, RealMedia и DivX фильмов.</p>\n<p>Одной из ключевых особенностей MPlayer является широкий выбор поддерживаемых видеовыходов. Программа работает с X11, Xv, DGA, OpenGL, SVGAlib, fbdev, DirectFB, а также SDL.</p>\n<p>Данный пакет содержит вариант MPlayer с графическим интерфейсом.</p>\n"
+}

@@ -1,0 +1,60 @@
+id: "crystal-facet-uml"
+name: crystal-facet-uml
+description: crystal-facet-uml creates diagrams to document system and software architecture
+longDescription: |
+  <p>
+        As software architect, you create a set of diagrams describing
+        use-cases, requirements, structural views, behavioral and deployment views.
+      </p>
+  <p>
+        crystal-facet-uml keeps element names and element hierarchies consistent.
+        It exports diagrams in svg, pdf, ps and png formats
+        to be used in text processing systems like DocBook, html, LaTeX.
+        crystal-facet-uml exports the model to xmi format.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - crystal-facet-uml
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - uml
+  - diagram
+  - architecture
+  - sysml
+screenshotSources:
+  - url: de/andreaswarnke/crystal-facet-uml/b4423a1a8ed903e48c545b5674b3f890/screenshots/image-1_orig.png
+    thumbnailUrl: de/andreaswarnke/crystal-facet-uml/b4423a1a8ed903e48c545b5674b3f890/screenshots/image-1_624x351.png
+    width: 1120
+    height: 630
+  - url: de/andreaswarnke/crystal-facet-uml/b4423a1a8ed903e48c545b5674b3f890/screenshots/image-2_orig.png
+    thumbnailUrl: de/andreaswarnke/crystal-facet-uml/b4423a1a8ed903e48c545b5674b3f890/screenshots/image-2_624x351.png
+    width: 1120
+    height: 630
+  - url: de/andreaswarnke/crystal-facet-uml/b4423a1a8ed903e48c545b5674b3f890/screenshots/image-3_orig.png
+    thumbnailUrl: de/andreaswarnke/crystal-facet-uml/b4423a1a8ed903e48c545b5674b3f890/screenshots/image-3_624x351.png
+    width: 1120
+    height: 630
+iconSources:
+  - cached: crystal-facet-uml_crystal-facet-uml.png
+    width: 64
+    height: 64
+developer: Andreas Warnke
+homepage: "http://andreaswarnke.de/crystal_facet_uml/html/index.html"
+enabled: true
+order: 99

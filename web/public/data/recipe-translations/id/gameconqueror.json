@@ -1,0 +1,5 @@
+{
+  "name": "Game Conqueror",
+  "description": "Alat hacking game. Antarmuka grafis (GUI) untuk scanmem.",
+  "longDescription": "<p>scanmem adalah utilitas debugging interaktif sederhana yang digunakan untuk menemukan alamat variabel dalam proses yang sedang berjalan. Alat ini bisa digunakan untuk analisis atau modifikasi proses berbahaya di mesin yang sudah dikompromi, rekayasa balik, atau sebagai \"pokefinder\" untuk melakukan cheat pada video game. GameConqueror bertujuan memberikan antarmuka mirip CheatEngine untuk scanmem, mudah digunakan dan ramah pengguna.</p>\n<p>Fitur:</p>\n<ul>\n  <li>Mengunci beberapa variabel sekaligus</li>\n  <li>Penampil/Penyunting Memori</li>\n  <li>... masih banyak fitur lain yang akan ditambahkan</li>\n</ul>\n"
+}

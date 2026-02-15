@@ -1,0 +1,33 @@
+id: "welle-io"
+name: welle.io
+description: A DAB/DAB+ Software Radio
+longDescription: |
+  <p>This is an open source DAB and DAB+ software defined radio (SDR) with support for rtl-sdr (RTL2832U) and airspy. It supports high DPI and touch displays and it runs even on cheap computers like Raspberry Pi 2/3 and 100€ China Windows 10 tablets.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - welle.io
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: w/we/welle-io.desktop/bc0e29a51bd74dded154c4cfa8d56809/icons/128x128/welle.io_welle-io.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

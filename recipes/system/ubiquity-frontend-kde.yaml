@@ -1,0 +1,27 @@
+id: ubiquity-frontend-kde
+name: Install RELEASE
+description: Install this system permanently to your hard disk
+longDescription: |
+  <p>This package provides a KDE-based user interface frontend for the Ubiquity live CD installer.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ubiquity-frontend-kde
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - ubiquity
+iconSources:
+  - cached: ubiquity-frontend-kde_ubiquity-kde.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

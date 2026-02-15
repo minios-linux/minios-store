@@ -1,0 +1,5 @@
+{
+  "name": "dxf2gcode converter",
+  "description": "Konverter gambar dxf 2D ke G-Code kompatibel mesin CNC",
+  "longDescription": "<p>Program ini membaca gambar mekanik 2D dari komponen yang akan diproduksi dan menghasilkan instruksi pergerakan alat berupa G-code untuk dijalankan pada mesin otomatis (mesin CNC) seperti mesin milling dan bubut.</p>\n<p>Ini adalah program CAM (Computer Aided Manufacturing) berbasis grafis. Mendukung input format DXF, PDF, atau Postscript. Fitur meliputi operasi milling, drilling, turning, serta penambahan work-holding tab.</p>\n"
+}

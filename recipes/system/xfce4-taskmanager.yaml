@@ -1,0 +1,38 @@
+id: "xfce4-taskmanager"
+name: Task Manager
+description: Easy to use task manager
+longDescription: |
+  <p>A GUI application for monitoring and controlling running processes, written for Xfce. Its features include:</p>
+  <p> * support for Linux, OpenBSD, FreeBSD and OpenSolaris  * monitors the CPU and memory usage  * tree view columns can be reordered  * display window icons/names.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-taskmanager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: x/xf/xfce4-taskmanager.desktop/303bf06690c01d9290f7799b72d37b35/icons/128x128/xfce4-taskmanager_org.xfce.taskmanager.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

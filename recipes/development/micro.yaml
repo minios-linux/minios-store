@@ -1,0 +1,33 @@
+id: micro
+name: Micro
+description: Edit text files in a terminal
+longDescription: |
+  <p>micro is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.</p>
+  <p>As the name indicates, micro aims to be somewhat of a successor to the nano editor by being easy to install and use.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - micro
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+  - syntax
+  - terminal
+iconSources:
+  - cached: micro_micro-logo-mark.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

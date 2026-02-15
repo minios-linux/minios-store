@@ -1,0 +1,66 @@
+id: "texstudio"
+name: TeXstudio
+description: LaTeX editor
+longDescription: |
+  <p>TeXstudio is an integrated writing environment for creating LaTeX documents. It integrates editing, building and viewing into a single frontend.</p>
+  <p>Our goal is to make writing LaTeX as easy and comfortable as possible.
+        This is achieved through a rich feature set including:</p>
+  <ul>
+    <li>Easy source code navigation: Structure view, links, cursor history</li>
+    <li>Detailed syntax highlighting</li>
+    <li>Auto-completion</li>
+    <li>Live checking for spelling, grammar, citations, references, syntax and packages</li>
+    <li>Innovative table editing</li>
+    <li>Clear display of LaTeX errors and warnings (in editor and as list)</li>
+    <li>Integrated PDF viewer with (almost) word-level syncing</li>
+    <li>Live-updating inline preview for formulas and code segments</li>
+    <li>Scripting support</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - texstudio
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - editor
+  - latex
+  - pdflatex
+  - xelatex
+  - lualatex
+  - context
+  - bibtex
+  - tex
+screenshotSources:
+  - url: org/texstudio/TeXstudio/661485fb7b50e5e330452fe427bd7c85/screenshots/image-1_orig.png
+    thumbnailUrl: org/texstudio/TeXstudio/661485fb7b50e5e330452fe427bd7c85/screenshots/image-1_624x351@1.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: org/texstudio/TeXstudio/661485fb7b50e5e330452fe427bd7c85/icons/128x128/texstudio_texstudio.png
+    width: 128
+    height: 128
+developer: "Benito van der Zander, Jan Sundermeyer, Daniel Braun, Tim Hoffmann"
+homepage: "https://texstudio.org/"
+enabled: true
+order: 99

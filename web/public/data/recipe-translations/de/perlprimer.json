@@ -1,0 +1,5 @@
+{
+  "name": "PerlPrimer",
+  "description": "Grafische Gestaltung von Primern für PCR und Sequenzierung",
+  "longDescription": "<p>PerlPrimer ist eine kostenlose, quelloffene GUI-Anwendung, die in Perl geschrieben wurde und Primer für Standard-Polymerase-Kettenreaktion (PCR), Bisulfit-PCR, Echtzeit-PCR (QPCR) und Sequenzierung entwirft. Ziel ist es, den Primer-Design-Prozess zu automatisieren und zu vereinfachen.</p>\n<p>Bei Online-Betrieb arbeitet das Tool nahtlos mit dem Ensembl-Projekt zusammen, um tiefere Einblicke in die Genstruktur zu ermöglichen – etwa indem bei der Primer-Gestaltung die Lage von Exons und Introns berücksichtigt wird. Auch die Sequenzdaten können direkt abgerufen werden.</p>\n"
+}

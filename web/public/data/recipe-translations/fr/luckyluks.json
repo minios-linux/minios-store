@@ -1,0 +1,5 @@
+{
+  "name": "luckyLUKS",
+  "description": "Interface graphique pour créer et déverrouiller des volumes LUKS/TrueCrypt à partir de fichiers conteneurs",
+  "longDescription": "<p>Ce programme est une interface graphique Linux permettant de créer et d’ouvrir ou fermer des volumes chiffrés à partir de fichiers conteneurs. Les conteneurs ouverts restent accessibles via une icône dans la zone de notification, rappelant de les fermer après usage. Prend en charge les fichiers conteneurs cryptsetup/LUKS et TrueCrypt.</p>\n"
+}

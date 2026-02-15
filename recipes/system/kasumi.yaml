@@ -1,0 +1,29 @@
+id: kasumi
+name: Anthy Dictionary editor
+description: Edit Anthy dictionary.
+longDescription: |
+  <p>Kasumi is a personal dictionary management tool for Anthy. Anthy is a Japanese input method to convert Hiragana text to Kana Kanji mixed text.</p>
+  <p>Featuring add words, edit words, delete words, search words and so on.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kasumi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - japanese
+  - dictionary
+iconSources:
+  - cached: kasumi_kasumi.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

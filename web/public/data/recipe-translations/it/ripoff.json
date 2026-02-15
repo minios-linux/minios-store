@@ -1,0 +1,5 @@
+{
+  "name": "RipOff",
+  "description": "Estrai tracce audio dai tuoi CD",
+  "longDescription": "<p>RipOff è un estrattore di tracce da CD (CD Ripper) basato su GTK+ per Linux, dotato di un'interfaccia semplice, ricerca automatica dei dati CDDB e una struttura modulare con plugin per i vari formati di codifica.</p>\n<p>Questa versione non include il supporto MP3 integrato: per estrarre in formato mp3, è necessario installare il pacchetto ripoff-mp3-plugin.</p>\n<p>Questo pacchetto contiene l'eseguibile di RipOff.</p>\n"
+}

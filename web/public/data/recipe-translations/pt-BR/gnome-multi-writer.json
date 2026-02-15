@@ -1,0 +1,5 @@
+{
+  "name": "MultiWriter",
+  "description": "Grave uma imagem ISO em múltiplos dispositivos USB simultaneamente",
+  "longDescription": "<p>O GNOME MultiWriter permite gravar uma imagem ISO em vários dispositivos USB ao mesmo tempo.<br>São suportados dispositivos com capacidade entre 1GB e 32GB.</p><p>O MultiWriter é útil para testes de QA, criar imagens Live do GNOME para sprints de código, ou produzir centenas de pen drives LiveUSB para eventos e feiras.</p><p>Gravar em mais de 10 dispositivos ao mesmo tempo pode facilmente saturar o barramento USB, dependendo dos dispositivos de armazenamento.<br>Existem duas formas de gravar em mais dispositivos em paralelo:</p><ul><li>Utilize hubs USB 3.0, mesmo que os dispositivos sejam USB 2.0</li><li>Instale outra controladora raiz USB 2.0 PCIe</li></ul><p>O MultiWriter foi criado originalmente como parte do projeto ColorHug, mas tornou-se um aplicativo independente em 2015.</p>"
+}

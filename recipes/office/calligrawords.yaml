@@ -1,0 +1,52 @@
+id: "calligrawords"
+name: Calligra Words
+description: Word Processor
+longDescription: |
+  <p>Words is an intuitive word processor and desktop publisher application.
+        With it, you can create informative and attractive documents with pleasure and ease.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Frame-based editing</li>
+    <li>Allows embedding of Documents</li>
+    <li>Customization of user interface</li>
+    <li>Includes all features expected from a modern word processor</li>
+    <li>ODT (Open Document Text) support</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - calligrawords
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/calligra.words/685cb405beaccbd0a8fc2d672774d69a/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/calligra.words/685cb405beaccbd0a8fc2d672774d69a/screenshots/image-1_624x433@1.png
+    width: 1321
+    height: 917
+iconSources:
+  - url: org/kde/calligra.words/685cb405beaccbd0a8fc2d672774d69a/icons/128x128/calligrawords_org.kde.calligra.words.png
+    width: 128
+    height: 128
+homepage: "http://www.calligra.org/words/"
+enabled: true
+order: 99

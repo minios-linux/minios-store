@@ -1,0 +1,34 @@
+id: "awf-gtk3"
+name: awf-gtk3
+description: Theme preview application for GTK 3
+longDescription: |
+  <p>
+  			A widget factory is a theme preview application for GTK.
+  			It displays the various widget types provided by GTK in a single
+  			window allowing to see the visual effect of the applied theme.
+  		</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - awf-gtk3
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gtk
+iconSources:
+  - url: fr/luigifab/awfgtk3/df68c490fb97c1dcf686f1502bc873b2/icons/128x128/awf-gtk3_awf-gtk3.png
+    width: 128
+    height: 128
+homepage: "https://github.com/luigifab/awf-extended"
+enabled: true
+order: 99

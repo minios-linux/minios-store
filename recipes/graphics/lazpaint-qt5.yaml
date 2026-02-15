@@ -1,0 +1,33 @@
+id: "lazpaint-qt5"
+name: LazPaint
+description: LazPaint
+longDescription: |
+  <p>Can read layered files (lzp, ora, pdn, oXo, flat psd), multi-images (gif, ico, tiff), flat files (bmp, jpeg, pcx, png, tga, webp, xpm, xwd), raw images (dng, cr2, nef, arw...), vectorial (svg), 3D (obj). Has drawing tools, vector shapes, phong shading, curve adjustments, filters, render some textures, Python scripting. Uses Qt5 widgetset.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lazpaint-qt5
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - image
+  - editor
+  - raster
+  - vectorial
+  - paint
+  - layer
+  - photo
+iconSources:
+  - url: l/la/lazpaint.desktop/b91466938dde7a0f824656af14de9d41/icons/128x128/lazpaint-qt5_lazpaint.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

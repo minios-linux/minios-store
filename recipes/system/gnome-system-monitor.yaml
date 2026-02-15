@@ -1,0 +1,70 @@
+id: "gnome-system-monitor"
+name: GNOME System Monitor
+description: View and manage system resources
+longDescription: |
+  <p>System Monitor is a process viewer and system monitor with
+        an attractive, easy-to-use interface.</p>
+  <p>System Monitor can help you find out what applications are using the processor
+        or the memory of your computer, can manage the running applications, force
+        stop processes not responding, and change the state or priority of existing 
+        processes.</p>
+  <p>The resource graphs feature shows you a quick overview of what is going on with your
+        computer displaying recent network, memory and processor usage.</p>
+  
+categoryId: system
+icon: Gauge
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-system-monitor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - monitor
+  - system
+  - process
+  - cpu
+  - memory
+  - network
+  - history
+  - usage
+  - performance
+  - task
+screenshotSources:
+  - url: org/gnome/SystemMonitor/2228e549158d6ccf0ef0c1d9983f196c/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/SystemMonitor/2228e549158d6ccf0ef0c1d9983f196c/screenshots/image-1_624x439@1.png
+    width: 968
+    height: 682
+  - url: org/gnome/SystemMonitor/2228e549158d6ccf0ef0c1d9983f196c/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/SystemMonitor/2228e549158d6ccf0ef0c1d9983f196c/screenshots/image-2_624x439@1.png
+    width: 968
+    height: 682
+  - url: org/gnome/SystemMonitor/2228e549158d6ccf0ef0c1d9983f196c/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/SystemMonitor/2228e549158d6ccf0ef0c1d9983f196c/screenshots/image-3_624x439@1.png
+    width: 968
+    height: 682
+iconSources:
+  - url: org/gnome/SystemMonitor/2228e549158d6ccf0ef0c1d9983f196c/icons/128x128/gnome-system-monitor_org.gnome.SystemMonitor.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/SystemMonitor"
+enabled: true
+order: 99

@@ -1,0 +1,51 @@
+id: cqrlog
+name: CQRLOG
+description: Advanced logging program for hamradio operators
+longDescription: |
+  <p>CQRLOG is an advanced ham radio logger based on MySQL embedded database. Provides radio control based on hamlib libraries
+      (currently support of 140+ radio types and models), DX cluster connection, HamQTH/QRZ callbook (XML access), a grayliner,
+      internal QSL manager database support and a most accurate country resolution algorithm based on country tables developed
+      by OK1RR. CQRLOG is intended for daily general logging of HF, CW &amp; SSB contacts and strongly focused on easy operation
+      and maintenance.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cqrlog
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ham
+  - radio
+  - log
+screenshotSources:
+  - url: c/cq/cqrlog.desktop/bab6651a6017477e3c812286be475f00/screenshots/image-1_orig.png
+    thumbnailUrl: c/cq/cqrlog.desktop/bab6651a6017477e3c812286be475f00/screenshots/image-1_624x263.png
+    width: 2560
+    height: 1080
+iconSources:
+  - cached: cqrlog_cqrlog.png
+    width: 64
+    height: 64
+homepage: "https://www.cqrlog.com/"
+enabled: true
+order: 99

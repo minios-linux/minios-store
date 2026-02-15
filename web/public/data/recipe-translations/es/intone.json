@@ -1,0 +1,5 @@
+{
+  "name": "Intone",
+  "description": "Reproductor de música sencillo para dispositivos móviles",
+  "longDescription": "<p>Intone es una interfaz basada en Elementary para mplayer, escrita en C.</p>\n<p>Fue desarrollada para el Openmoko Freerunner, pero también funciona en otros sistemas. Además de las funciones habituales presentes en la mayoría de los reproductores de audio, Intone es compatible con auriculares A2DP (audio vía Bluetooth) e interactúa con FSO para la detección de llamadas (pausando la música durante una llamada).</p>\n"
+}

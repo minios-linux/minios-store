@@ -1,0 +1,5 @@
+{
+  "name": "KShutdown",
+  "description": "Una utilidad gráfica para apagar el sistema",
+  "longDescription": "<p>Ofrece 4 comandos principales:</p>\n<p> - Apagar (cerrar sesión y apagar el sistema),  - Reiniciar (cerrar sesión y reiniciar el sistema),  - Bloquear pantalla (bloquea la pantalla usando un protector de pantalla),  - Cerrar sesión (finaliza la sesión y desconecta al usuario).</p>\n<p>Incluye opciones de temporizador y retardo, soporte por línea de comandos, asistente y sonidos.</p>\n"
+}

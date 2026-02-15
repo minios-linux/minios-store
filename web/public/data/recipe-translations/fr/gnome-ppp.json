@@ -1,0 +1,5 @@
+{
+  "name": "GNOME PPP",
+  "description": "Outil de connexion commutée GNOME",
+  "longDescription": "<p>GNOME PPP est un outil graphique simple pour configurer et établir des connexions commutées, avec support de l’icône dans la zone de notification.</p>\n<p>Il utilise GNOME/GTK+ pour son interface graphique et s’intègre parfaitement à l’environnement de bureau GNOME, mais peut aussi être utilisé dans d’autres environnements.</p>\n<p>Il repose sur le composeur WvDial en arrière-plan, offrant une configuration simplifiée via des fichiers de configuration. Vous pouvez également utiliser WvDial en ligne de commande si vous n'avez pas d'environnement graphique.</p>\n"
+}

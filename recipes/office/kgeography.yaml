@@ -1,0 +1,42 @@
+id: "kgeography"
+name: KGeography
+description: A Geography Learning Program
+longDescription: |
+  <p>KGeography is an aid for learning about world geography.  You can use it to explore a map, show information about regions and features, and play quiz games to test your geography knowledge.</p>
+  <p>This package is part of the KDE education module.</p>
+  
+categoryId: office
+icon: Image
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kgeography
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kgeography.desktop/8af6b65b50a0b3c8ae149171d037f8f4/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kgeography.desktop/8af6b65b50a0b3c8ae149171d037f8f4/screenshots/image-1_624x571@1.png
+    width: 874
+    height: 800
+iconSources:
+  - url: org/kde/kgeography.desktop/8af6b65b50a0b3c8ae149171d037f8f4/icons/128x128/kgeography_kgeography.png
+    width: 128
+    height: 128
+homepage: "https://edu.kde.org/kgeography/"
+enabled: true
+order: 99

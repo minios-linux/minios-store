@@ -1,0 +1,36 @@
+id: "gxneur"
+name: gXNeur
+description: Automatic keyboard layout switcher
+longDescription: |
+  <p>gXNeur runs in system tray and shows XNeur&apos;s state. It also allows one to configure XNeur via GUI dialog.</p>
+  <p>XNeur is an in-place converter of text typed in with a wrong keyboard layout. See xneur package for more info.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gxneur
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gx/gxneur.desktop/cb706b1141b755ac12502dbdc144d1ea/icons/128x128/gxneur_gxneur.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

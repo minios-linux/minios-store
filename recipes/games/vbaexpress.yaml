@@ -1,0 +1,29 @@
+id: vbaexpress
+name: VBA Express
+description: VisualBoyAdvance Front-end
+longDescription: |
+  <p>Vbaexpress is a front-end for the VisualBoyAdvance Game Boy emulator. You can easily configure the emulator and start your games by clicking on some icons (rather than using a command line).</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vbaexpress
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: vbaexpress_vbaexpress.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,47 @@
+id: "cutemaze"
+name: CuteMaze
+description: Find targets in a maze
+longDescription: |
+  <p>CuteMaze is a simple, top-down game in which mazes are randomly generated using one of a choice of several different algorithms. You move the character through the maze while hunting for targets (cheese, by default)—the game is won once all of these targets have been picked up.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cutemaze
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - logic
+screenshotSources:
+  - url: c/cu/cutemaze.desktop/4cd96335fb09ed86c4cce9e1ad6ef34b/screenshots/image-1_orig.png
+    thumbnailUrl: c/cu/cutemaze.desktop/4cd96335fb09ed86c4cce9e1ad6ef34b/screenshots/image-1_224x288@1.png
+    width: 454
+    height: 584
+iconSources:
+  - url: c/cu/cutemaze.desktop/4cd96335fb09ed86c4cce9e1ad6ef34b/icons/128x128/cutemaze_cutemaze.png
+    width: 128
+    height: 128
+developer: Graeme Gott
+homepage: "https://gottcode.org/cutemaze/"
+enabled: true
+order: 99

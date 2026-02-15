@@ -1,0 +1,5 @@
+{
+  "name": "CellWriter",
+  "description": "Handschrift-Eingabefeld mit Rastererkennung",
+  "longDescription": "<p>CellWriter ist ein natürliches Handschrifteingabefeld im Rasterformat. Während Sie Zeichen in die Zellen schreiben, werden Ihre Eingaben sofort zeichenweise erkannt. Durch Drücken von &apos;Enter&apos; auf dem Panel wird Ihre Eingabe an die aktuell fokussierte Anwendung gesendet – als hätten Sie sie über die Tastatur eingegeben.</p>\n<p>  * Benutzerabhängig: Lernt Ihre Handschrift für zuverlässige Erkennung   * Korrigierende Vorverarbeitungsalgorithmen kompensieren Digitalisierungsrauschen, unterschiedliche Strichreihenfolgen, Richtungen und Strichanzahlen   * Unicode-Unterstützung ermöglicht das Schreiben in Ihrer Muttersprache</p>\n"
+}

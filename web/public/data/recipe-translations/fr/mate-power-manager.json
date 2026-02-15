@@ -1,0 +1,5 @@
+{
+  "name": "Gestion de l’alimentation",
+  "description": "Configurer la gestion de l’alimentation",
+  "longDescription": "<p>Le gestionnaire d’alimentation MATE est un démon de session pour l’environnement de bureau MATE qui gère les événements système ou de bureau liés à l’alimentation et déclenche les actions appropriées. Sa philosophie est de dissimuler complètement ces tâches complexes et de n’afficher à l’utilisateur que certains réglages importants.</p>\n<p>Le gestionnaire d’alimentation MATE affiche et gère l’état de la batterie, les branchements d’alimentation, la luminosité de l’écran, l’économie d’énergie du CPU, de la carte graphique et du disque dur, et peut déclencher la mise en veille, l’hibernation ou l’arrêt, le tout intégré aux autres composants du bureau MATE.</p>\n"
+}

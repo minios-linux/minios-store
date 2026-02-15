@@ -1,0 +1,56 @@
+id: "goobox"
+name: Goobox CD Player
+description: Play and extract CDs
+longDescription: |
+  <p>Goobox allows you to play CDs and save the tracks to disk as MP3, Ogg,
+        FLAC or WAV files.</p>
+  <p>Track titles and CD covers are set automatically using the
+        MusicBrainz web service.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - goobox
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - cd
+  - play
+  - extract
+  - compact
+  - disc
+screenshotSources:
+  - url: org/gnome/Goobox.desktop/225adeb23988833269052defb5770042/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Goobox.desktop/225adeb23988833269052defb5770042/screenshots/image-1_624x547.png
+    width: 624
+    height: 547
+  - url: org/gnome/Goobox.desktop/225adeb23988833269052defb5770042/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Goobox.desktop/225adeb23988833269052defb5770042/screenshots/image-2_224x161.png
+    width: 523
+    height: 376
+iconSources:
+  - url: org/gnome/Goobox.desktop/225adeb23988833269052defb5770042/icons/128x128/goobox_goobox.png
+    width: 128
+    height: 128
+homepage: "https://people.gnome.org/~paobac/goobox/index.html"
+enabled: true
+order: 99

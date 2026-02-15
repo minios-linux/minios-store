@@ -1,0 +1,39 @@
+id: "clazy"
+name: Clazy
+description: A Clang compiler plugin which emits warnings related to Qt best practices
+longDescription: |
+  <p>Clazy is a clang compiler plugin which emits warnings related to Qt best practices.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - clazy
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/clazy/df12ac0060466b17d43f96ab96076f88/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/clazy/df12ac0060466b17d43f96ab96076f88/screenshots/image-1_624x363@1.png
+    width: 857
+    height: 499
+iconSources:
+  - url: org/kde/clazy/df12ac0060466b17d43f96ab96076f88/icons/128x128/clazy_clazy.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org/"
+enabled: true
+order: 99

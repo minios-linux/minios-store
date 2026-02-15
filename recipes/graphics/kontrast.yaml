@@ -1,0 +1,38 @@
+id: "kontrast"
+name: Kontrast
+description: A Color Contrast Checker
+longDescription: |
+  <p>Kontrast is a color contrast checker and tells you if your color combinations are distinct enough to be readable and accessible.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kontrast
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kontrast/90f353e54e9260b279a45ef4085f07cf/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kontrast/90f353e54e9260b279a45ef4085f07cf/screenshots/image-1_624x525@1.png
+    width: 1029
+    height: 866
+iconSources:
+  - url: org/kde/kontrast/90f353e54e9260b279a45ef4085f07cf/icons/128x128/kontrast_org.kde.kontrast.png
+    width: 128
+    height: 128
+developer: Carl Schwan
+homepage: "https://kde.org/applications/en/kontrast"
+enabled: true
+order: 99

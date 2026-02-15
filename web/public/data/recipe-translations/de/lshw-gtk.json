@@ -1,0 +1,5 @@
+{
+  "name": "Hardware Lister",
+  "description": "Stellt Hardware-Informationen bereit",
+  "longDescription": "<p>Ein kompaktes Werkzeug, das detaillierte Informationen zur Hardwarekonfiguration des Systems liefert. Es zeigt unter anderem die genaue Speicherkonfiguration, Firmware-Version, Mainboard-Konfiguration, CPU-Typ und -Geschwindigkeit, Cache-Einstellungen sowie Bus-Geschwindigkeit an – auf DMI-fähigen x86-Systemen, einigen PowerPC-Maschinen (z. B. PowerMac G4) und AMD64.</p>\n<p>Dieses Paket enthält lshw-gtk (die GTK+-Version).</p>\n"
+}

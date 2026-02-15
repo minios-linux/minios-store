@@ -1,0 +1,60 @@
+id: "gscan2pdf"
+name: gscan2pdf
+description: GUI to produce PDFs or DjVus from scanned documents
+longDescription: |
+  <p>Only two clicks are required to scan several pages and then save all or a
+        selection as a PDF or DjVu file, including metadata if required.</p>
+  <p>gscan2pdf can control regular or sheet-fed (ADF) scanners with SANE via
+        libimage-sane-perl, scanimage or scanadf, and can scan multiple pages at once.
+        It presents a thumbnail view of scanned pages, and permits simple operations
+        such as cropping, rotating and deleting pages.</p>
+  <p>OCR can be used to recognise text in the scans, and the output
+        embedded in the PDF or DjVu.</p>
+  <p>The resulting document may be saved as a PDF, DjVu, multipage TIFF file, or
+        single page image file.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gscan2pdf
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - sane
+  - graphics
+  - scanning
+  - scan
+  - ocr
+  - pdf
+  - djvu
+screenshotSources:
+  - url: net/sourceforge/gscan2pdf/7de66dea8d3e5c6ddeaffe3565090017/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/gscan2pdf/7de66dea8d3e5c6ddeaffe3565090017/screenshots/image-1_624x487@1.png
+    width: 1280
+    height: 1001
+iconSources:
+  - cached: gscan2pdf_gscan2pdf.png
+    width: 64
+    height: 64
+homepage: "http://gscan2pdf.sourceforge.net/"
+enabled: true
+order: 99

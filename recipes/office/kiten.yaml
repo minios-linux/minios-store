@@ -1,0 +1,47 @@
+id: "kiten"
+name: Kiten
+description: Japanese Reference and Study Tool
+longDescription: |
+  <p>Kiten is a Japanese reference and study tool. It features an English to Japanese and Japanese to English dictionary, as well as a Kanji dictionary. For the Kanji dictionary there are multiple ways supported to look up characters.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kiten
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kiten.desktop/0936799d6813dad197aca2a76e8423a3/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kiten.desktop/0936799d6813dad197aca2a76e8423a3/screenshots/image-1_624x517@1.png
+    width: 770
+    height: 638
+  - url: org/kde/kiten.desktop/0936799d6813dad197aca2a76e8423a3/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kiten.desktop/0936799d6813dad197aca2a76e8423a3/screenshots/image-2_624x497@1.png
+    width: 799
+    height: 637
+iconSources:
+  - url: org/kde/kiten.desktop/0936799d6813dad197aca2a76e8423a3/icons/128x128/kiten_kiten.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/kiten/"
+enabled: true
+order: 99

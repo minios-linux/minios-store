@@ -1,0 +1,5 @@
+{
+  "name": "tuna",
+  "description": "Manajemen atribut Thread dan IRQ",
+  "longDescription": "<p>Menyediakan antarmuka untuk mengubah pengaturan scheduler dan IRQ, baik secara menyeluruh pada CPU maupun pada tingkat thread/IRQ tertentu. Memungkinkan isolasi CPU untuk digunakan oleh aplikasi spesifik serta memindahkan thread dan interrupt ke CPU lain dengan cara drag and drop. Operasi dapat dilakukan pada CPU socket dengan memahami topologi CPU.</p>\n<p>Dapat digunakan sebagai utilitas baris perintah tanpa perlu menginstal pustaka GUI.</p>\n"
+}

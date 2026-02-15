@@ -1,0 +1,5 @@
+{
+  "name": "emma",
+  "description": "Assistente gráfico para gerenciamento do MySQL",
+  "longDescription": "<p>emma é uma ferramenta gráfica para desenvolvedores e administradores de bancos de dados MySQL, sendo o sucessor do yamysqlfront.</p>\n<p>Principais recursos:   * Diálogos para criar/modificar bancos de dados MySQL, tabelas e índices associados   * Exibição de resultados agrupados em abas   * Editor SQL:     + Suporte a abas     + Realce de sintaxe integrado     + Autocompletar nomes de tabelas e campos     + Formatação automática de comandos SQL   * Exportação para arquivos CSV   * Suporte a múltiplas conexões MySQL simultâneas</p>\n"
+}

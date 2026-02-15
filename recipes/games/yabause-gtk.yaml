@@ -1,0 +1,26 @@
+id: yabause-gtk
+name: Yabause (Gtk port)
+description: Sega Saturn emulator
+longDescription: |
+  <p>Yabause is a Sega Saturn emulator. It has the following features:  * booting games from CD-ROM and ISO files  * booting games with either an emulated or original BIOS  * screenshot support  * savegame backups  * cheat system  * fullscreen playing  * multiple debugging options  * joystick support  * region select</p>
+  <p>This package contains the Gtk version of Yabause.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yabause-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: yabause-gtk_yabause.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

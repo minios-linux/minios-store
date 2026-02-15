@@ -1,0 +1,41 @@
+id: xzgv
+name: xzgv Image Viewer
+description: Lightweight image viewer
+longDescription: |
+  <p>xzgv is a picture viewer for X, with a thumbnail-based file selector. Most file formats are supported, and the thumbnails used are compatible with xv, zgv, and the Gimp. It can also be used with `xzgv file(s)&apos;, to effectively bypass the file selector.</p>
+  <p>xzgv differs from other picture viewers for X in that it uses one window for both the file selector and viewer, it (unlike xv) allows both scrolling and fit-to-window methods of viewing large pictures, and it (unlike xv and some others) doesn&apos;t ever mangle the picture&apos;s aspect ratio.</p>
+  <p>It also provides extensive keyboard support; if you prefer using the keyboard, this is almost certainly the best viewer for you. But it doesn&apos;t skimp on the mousey stuff, either.</p>
+  <p>Note that this program is written by the author of the svgalib-based &quot;zgv&quot;, and has similar features.</p>
+  <p>Home Page: http://sourceforge.net/projects/xzgv</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xzgv
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: xzgv_xzgv.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

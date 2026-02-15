@@ -1,0 +1,43 @@
+id: "deepin-terminal"
+name: Deepin Terminal
+description: Use the command line
+longDescription: |
+  <p>Deepin Terminal is an advanced terminal emulator with workspace, multiple windows, remote management, quake mode and other features. It sharpens your focus in the world of command line.</p>
+  <p>This package is part of DDE (Deepin Desktop Environment).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deepin-terminal
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shell
+  - prompt
+  - command
+  - commandline
+iconSources:
+  - url: d/de/deepin-terminal.desktop/1e4c360710d897412585e5e08fb54eb8/icons/128x128/deepin-terminal_deepin-terminal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

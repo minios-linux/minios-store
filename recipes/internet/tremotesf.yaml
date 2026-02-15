@@ -1,0 +1,50 @@
+id: tremotesf
+name: Tremotesf
+description: Remote GUI for Transmission BitTorrent client
+longDescription: |
+  <p>
+        Tremotesf is a remote GUI for Transmission BitTorrent client. You can fully control your transmission-daemon
+        instance, manage torrents, set Transmission settings, view server statistics.
+      </p>
+  <p>
+        You can add several servers profiles and switch between them (only one can be connected at a time).
+        Tremotesf has support of HTTPS, including self-signed certificates and client certificate authentication.
+        You can set mounted directories for servers and quickly open torrents' files and choose download directory
+        from file dialog.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tremotesf
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/equeim/Tremotesf/7905e78921a6c56e83a177b2d011358a/screenshots/image-1_orig.png
+    thumbnailUrl: org/equeim/Tremotesf/7905e78921a6c56e83a177b2d011358a/screenshots/image-1_624x351@1.png
+    width: 1344
+    height: 756
+  - url: org/equeim/Tremotesf/7905e78921a6c56e83a177b2d011358a/screenshots/image-2_orig.png
+    thumbnailUrl: org/equeim/Tremotesf/7905e78921a6c56e83a177b2d011358a/screenshots/image-2_624x351@1.png
+    width: 1344
+    height: 756
+  - url: org/equeim/Tremotesf/7905e78921a6c56e83a177b2d011358a/screenshots/image-3_orig.png
+    thumbnailUrl: org/equeim/Tremotesf/7905e78921a6c56e83a177b2d011358a/screenshots/image-3_624x351@1.png
+    width: 1344
+    height: 756
+  - url: org/equeim/Tremotesf/7905e78921a6c56e83a177b2d011358a/screenshots/image-4_orig.png
+    thumbnailUrl: org/equeim/Tremotesf/7905e78921a6c56e83a177b2d011358a/screenshots/image-4_624x351@1.png
+    width: 1344
+    height: 756
+iconSources:
+  - url: org/equeim/Tremotesf/7905e78921a6c56e83a177b2d011358a/icons/128x128/tremotesf_org.equeim.Tremotesf.png
+    width: 128
+    height: 128
+homepage: "https://github.com/equeim/tremotesf2"
+enabled: true
+order: 99

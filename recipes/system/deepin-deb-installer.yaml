@@ -1,0 +1,30 @@
+id: deepin-deb-installer
+name: Deepin Package Manager
+description: "Deepin Package Manager is used to help users install and remove local package, supports bulk install."
+longDescription: |
+  <p>Deepin Package Manager is a management tool for deb package, and is developed for users to easily install customized applications that are not categorized in Deepin Store. With an easy-to-use interface as well as functions like batch installation, version detection and auto-completion of dependencies, you can quickly get the software installed on deepin once you get the right deb package.</p>
+  <p>This package is part of DDE (Deepin Desktop Environment).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deepin-deb-installer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: d/de/deepin-deb-installer.desktop/A6985BFB7C86611DDE2B2CEA4890B90B/icons/128x128/deepin-deb-installer_deepin-deb-installer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

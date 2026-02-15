@@ -1,0 +1,36 @@
+id: kopete
+name: Kopete
+description: Instant Messenger
+longDescription: |
+  <p>Kopete is an instant messaging and chat application with support for a wide variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber.  Advanced features and additional protocols are available as plugins.</p>
+  <p>This package is part of the KDE networking module.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kopete
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kopete/466978E6C32C8676FEC7DCAE6D410DAF/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kopete/466978E6C32C8676FEC7DCAE6D410DAF/screenshots/image-1_224x272.png
+    width: 502
+    height: 610
+iconSources:
+  - url: k/ko/kopete.desktop/CB579EB030AB266EB959631055601417/icons/128x128/kopete_kopete.png
+    width: 128
+    height: 128
+homepage: "https://userbase.kde.org/Kopete"
+enabled: true
+order: 99

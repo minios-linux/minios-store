@@ -1,0 +1,49 @@
+id: "goverlay"
+name: GOverlay
+description: Graphical UI to help manage Vulkan / OpenGL overlays
+longDescription: |
+  <p>GOverlay can configure Vulkan / OpenGL overlays with a preview. Currently supported are MangoHud, vkBasalt and ReplaySorcery.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - goverlay
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mangohud
+  - vkbasalt
+  - replaysorcery
+screenshotSources:
+  - url: io/github/benjamimgois.goverlay/a7807f8540d3cc67f1c190198d374d02/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/benjamimgois.goverlay/a7807f8540d3cc67f1c190198d374d02/screenshots/image-1_624x388@1.png
+    width: 640
+    height: 398
+  - url: io/github/benjamimgois.goverlay/a7807f8540d3cc67f1c190198d374d02/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/benjamimgois.goverlay/a7807f8540d3cc67f1c190198d374d02/screenshots/image-2_624x390@1.png
+    width: 640
+    height: 401
+  - url: io/github/benjamimgois.goverlay/a7807f8540d3cc67f1c190198d374d02/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/benjamimgois.goverlay/a7807f8540d3cc67f1c190198d374d02/screenshots/image-3_624x390@1.png
+    width: 640
+    height: 401
+iconSources:
+  - url: io/github/benjamimgois.goverlay/a7807f8540d3cc67f1c190198d374d02/icons/128x128/goverlay_goverlay.png
+    width: 128
+    height: 128
+homepage: "https://github.com/benjamimgois/goverlay"
+enabled: true
+order: 99

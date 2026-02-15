@@ -1,0 +1,5 @@
+{
+  "name": "Envy24 Control",
+  "description": "Mixer- und GUI-Steuerungsprogramm für Envy24-basierte Soundkarten",
+  "longDescription": "<p>Eine Sammlung von grafischen ALSA-Tools für bestimmte Audiogeräte:</p>\n<p> echomixer – Steuerungsprogramm für Echoaudio-Soundkarten  envy24control – Steuerungstool für Envy24 (ice1712) basierte Soundkarten  hdajackretask – Umbelegung von Audioanschlüssen bei HDA Intel Hardware  hdspconf – GUI-Programm zur Verwaltung der Hammerfall HDSP ALSA-Einstellungen  hdspmixer – Tool zur Steuerung der erweiterten Routing-Funktionen der RME Hammerfall DSP  rmedigicontrol – Tool zur Steuerung der RME Digi32 und RME Digi96 Soundkarten</p>\n"
+}

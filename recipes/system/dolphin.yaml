@@ -1,0 +1,64 @@
+id: "dolphin"
+name: Dolphin
+description: File Manager
+longDescription: |
+  <p>Dolphin is a lightweight file manager. It has been designed with ease of use and simplicity in mind, while still allowing flexibility and customisation. This means that you can do your file management exactly the way you want to do it.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Navigation (or breadcrumb) bar for URLs, allowing you to quickly navigate through the hierarchy of files and folders.</li>
+    <li>Supports several different kinds of view styles and properties and allows you to configure the view exactly how
+  you want it.</li>
+    <li>Split view, allowing you to easily copy or move files between locations.</li>
+    <li>Additional information and shortcuts are available as dock-able panels, allowing you to move them around freely
+  and display exactly what you want.</li>
+    <li>Multiple tab support</li>
+    <li>Informational dialogues are displayed in an unobtrusive way.</li>
+    <li>Undo/redo support</li>
+    <li>Transparent network access through the KIO system.</li>
+  </ul>
+  
+categoryId: system
+icon: FolderOpen
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dolphin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/dolphin.desktop/fbd9d1b3c4d5d31b0bea5ec3f098f680/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/dolphin.desktop/fbd9d1b3c4d5d31b0bea5ec3f098f680/screenshots/image-1_624x406@1.png
+    width: 1502
+    height: 978
+  - url: org/kde/dolphin.desktop/fbd9d1b3c4d5d31b0bea5ec3f098f680/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/dolphin.desktop/fbd9d1b3c4d5d31b0bea5ec3f098f680/screenshots/image-2_624x440@1.png
+    width: 1398
+    height: 987
+  - url: org/kde/dolphin.desktop/fbd9d1b3c4d5d31b0bea5ec3f098f680/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/dolphin.desktop/fbd9d1b3c4d5d31b0bea5ec3f098f680/screenshots/image-3_624x504@1.png
+    width: 868
+    height: 702
+iconSources:
+  - url: org/kde/dolphin.desktop/fbd9d1b3c4d5d31b0bea5ec3f098f680/icons/128x128/dolphin_org.kde.dolphin.png
+    width: 128
+    height: 128
+homepage: "https://dolphin.kde.org/"
+enabled: true
+order: 99

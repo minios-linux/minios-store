@@ -1,0 +1,5 @@
+{
+  "name": "Atomes",
+  "description": "Une boîte à outils atomistique",
+  "longDescription": "<p>Atomes : une boîte à outils pour analyser, visualiser et créer/éditer des modèles atomistiques tridimensionnels. Elle offre un espace de travail permettant d’ouvrir plusieurs projets simultanément. Les différents projets de l’espace de travail peuvent échanger des données : résultats d’analyse, coordonnées atomiques, etc.</p>\n<p>Atomes propose également un système avancé de préparation des fichiers d’entrée pour les calculs utilisant des logiciels renommés de dynamique moléculaire :</p>\n<ul>\n  <li>MD classique : DLPOLY et LAMMPS</li>\n  <li>MD ab-initio : CPMD et CP2K</li>\n  <li>MD QM-MM : CPMD et CP2K</li>\n</ul>\n<p>La préparation des fichiers d’entrée pour ces calculs est souvent l’étape clé et la plus complexe pour lancer des simulations de dynamique moléculaire. Atomes propose un assistant convivial pour accompagner et guider le scientifique pas à pas dans cette étape cruciale.</p>\n"
+}

@@ -1,0 +1,70 @@
+id: "terminator"
+name: Terminator
+description: Multiple terminals in one window
+longDescription: |
+  <p>The robot future of terminals</p>
+  <p>A power-user tool for arranging terminals. It is inspired by programs such as gnome-multi-term, quadkonsole, etc. in that the main focus is arranging terminals in grids (tabs is the most common default method, which Terminator also supports).</p>
+  <p>Much of the behavior of Terminator is based on GNOME Terminal, and we are adding more features from that as time goes by, but we also want to extend out in different directions with useful features for sysadmins and other users.</p>
+  <p>Some highlights:</p>
+  <ul>
+    <li>Arrange terminals in a grid</li>
+    <li>Tabs</li>
+    <li>Drag and drop re-ordering of terminals</li>
+    <li>Lots of keyboard shortcuts</li>
+    <li>Save multiple layouts and profiles via GUI preferences editor</li>
+    <li>Simultaneous typing to arbitrary groups of terminals</li>
+  </ul>
+  <p>And lots more...</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - terminator
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - terminal
+  - shell
+  - prompt
+  - command
+  - commandline
+screenshotSources:
+  - url: t/te/terminator.desktop/075e72daf541b6a73efff31dc5a12864/screenshots/image-1_orig.png
+    thumbnailUrl: t/te/terminator.desktop/075e72daf541b6a73efff31dc5a12864/screenshots/image-1_624x360@1.png
+    width: 1280
+    height: 740
+  - url: t/te/terminator.desktop/075e72daf541b6a73efff31dc5a12864/screenshots/image-2_orig.png
+    thumbnailUrl: t/te/terminator.desktop/075e72daf541b6a73efff31dc5a12864/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: t/te/terminator.desktop/075e72daf541b6a73efff31dc5a12864/screenshots/image-3_orig.png
+    thumbnailUrl: t/te/terminator.desktop/075e72daf541b6a73efff31dc5a12864/screenshots/image-3_624x351@1.png
+    width: 1047
+    height: 589
+iconSources:
+  - url: t/te/terminator.desktop/075e72daf541b6a73efff31dc5a12864/icons/128x128/terminator_terminator.png
+    width: 128
+    height: 128
+developer: The Terminator Team
+homepage: "https://gnometerminator.blogspot.com/p/introduction.html"
+enabled: true
+order: 99

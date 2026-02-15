@@ -1,0 +1,36 @@
+id: "htmldoc"
+name: HTMLDOC
+description: HTML Conversion Software
+longDescription: |
+  <p>HTMLDOC is a program for writing documentation in HTML and producing indexed HTML, PostScript, or PDF output (with tables of contents). It supports most HTML 3.2 and some HTML 4.0 syntax, as well as GIF, JPEG, and PNG images.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - htmldoc
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - html
+  - pdf
+  - epub
+  - converter
+iconSources:
+  - url: h/ht/htmldoc.desktop/296008dba0f0a9f1989a4b345fd599a8/icons/128x128/htmldoc_htmldoc.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

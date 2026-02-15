@@ -1,0 +1,38 @@
+id: gmtp
+name: gMTP
+description: A simple MTP Client for MP3 Players
+longDescription: |
+  <p>gMTP is a simple and light-weight interface to the features provided by libmtp, which allows users to manage the files stored on any MTP music player supported by the libraries, including those with multiple storage devices (e.g. mobile phones).</p>
+  <p>It doesn&apos;t provide complex features such as playlist management, it just makes transferring files from and to devices easy, by allowing users to upload, download and remove files on the device with a fast and easy-to-use graphical interface.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gmtp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gmtp_gmtpicon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

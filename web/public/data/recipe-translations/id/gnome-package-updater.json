@@ -1,0 +1,5 @@
+{
+  "name": "GNOME Package Updater",
+  "description": "Memperbarui perangkat lunak yang terpasang di sistem",
+  "longDescription": "<p>\n      Package Updater memungkinkan Anda memperbarui paket-paket di sistem Anda tanpa perlu restart.\n      Anda dapat melihat detail setiap pembaruan dan memilih pembaruan mana yang ingin diterapkan.\n    </p>\n<p>\n      Package Updater menggunakan PackageKit dan dapat berfungsi di distribusi apa pun yang menggunakan\n      sistem manajemen paket bawaan.\n    </p>\n"
+}

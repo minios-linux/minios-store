@@ -1,0 +1,59 @@
+id: "pspp"
+name: GNU PSPP
+description: GNU PSPP is a program for statistical analysis of sampled data
+longDescription: |
+  <ul>
+    <li>Ele suporta mais de um bilhão de casos</li>
+    <li>Ele suporta mais de um bilhão de variáveis</li>
+    <li>Os arquivos de dados e sintaxe são compatíveis com SPSS</li>
+    <li>Um modo de terminal selecione ou GUI</li>
+    <li>Para escolher diferentes formatos de saída como texto, PostScript, PDF, HTML ou opendocument</li>
+    <li>Interoperar com: LibreOffice, OpenOffice, Gnumeric e outros softwares livres</li>
+    <li>Fácil importação de planilhas, arquivos de texto ou bancos de dados</li>
+    <li>Ele é capaz de abrir, editar e analisar dois ou mais arquivos de dados ao mesmo tempo</li>
+    <li>Uma interface de usuário suporta todos os conjuntos de caracteres comuns</li>
+    <li>A interface do usuário foi traduzido em vários idiomas</li>
+    <li>Não há taxas de licenciamento e sem período de expiração</li>
+    <li>Não há taxas de licenciamento e sem período de expiração</li>
+    <li>No &quot;acordos de licença de usuário final&quot; antiético</li>
+    <li>Um manual do usuário totalmente indexado</li>
+    <li>Liberdade garantida; É licenciado sob GPL v3+</li>
+    <li>Portátil; Ele funciona em muitas máquinas diferentes e muitos sistemas operacionais diferentes</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pspp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - statistics
+screenshotSources:
+  - url: org/gnu/pspp/7ec90243f74ad6dd9f3947baea8e37f3/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnu/pspp/7ec90243f74ad6dd9f3947baea8e37f3/screenshots/image-1_624x419@1.png
+    width: 1142
+    height: 768
+iconSources:
+  - url: org/gnu/pspp/7ec90243f74ad6dd9f3947baea8e37f3/icons/128x128/pspp_org.gnu.pspp.png
+    width: 128
+    height: 128
+developer: Free Software Foundation
+homepage: "http://www.gnu.org/software/pspp/"
+enabled: true
+order: 99

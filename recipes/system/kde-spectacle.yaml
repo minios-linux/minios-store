@@ -1,0 +1,51 @@
+id: "kde-spectacle"
+name: Spectacle
+description: Screenshot Capture Utility
+longDescription: |
+  <p>Spectacle is a simple application for capturing desktop screenshots. It can capture images of the entire desktop, a single monitor, the currently active window, the window currently under the mouse, or a rectangular region of the screen. The images can then be printed, sent to other applications for manipulation, or quickly be saved as-is.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Capture Entire Desktop</li>
+    <li>Capture Current Monitor</li>
+    <li>Capture Active Window</li>
+    <li>Capture Rectangular Region</li>
+    <li>Keyboard shortcuts for taking screenshots</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kde-spectacle
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/spectacle.desktop/c0e943f45b5642fdfa35756d87152fbc/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/spectacle.desktop/c0e943f45b5642fdfa35756d87152fbc/screenshots/image-1_624x439@1.png
+    width: 1009
+    height: 711
+iconSources:
+  - url: org/kde/spectacle.desktop/c0e943f45b5642fdfa35756d87152fbc/icons/128x128/kde-spectacle_spectacle.png
+    width: 128
+    height: 128
+homepage: "http://kde.org/applications/graphics/spectacle/"
+enabled: true
+order: 99

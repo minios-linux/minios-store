@@ -1,0 +1,33 @@
+id: ticketbooth
+name: Ticket Booth
+description: Keep track of your favorite shows
+longDescription: |
+  <p>Ticket Booth allows you to build your watchlist of movies and TV Shows, keep track of
+  			watched titles, and find information about the latest releases.</p>
+  <p> Ticket Booth does not allow you to watch or download content. This app uses the TMDB API
+  			but is not endorsed or certified by TMDB.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ticketbooth
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - movies
+  - shows
+  - tv
+  - series
+  - watch
+iconSources:
+  - url: me/iepure/Ticketbooth/4aba77fc778daa7199bfabcab012f725/icons/128x128/ticketbooth_me.iepure.Ticketbooth.png
+    width: 128
+    height: 128
+homepage: "https://github.com/aleiepure/ticketbooth"
+enabled: true
+order: 99

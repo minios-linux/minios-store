@@ -1,0 +1,5 @@
+{
+  "name": "µHOPE",
+  "description": "Sistema de programación para microcontroladores MicroHOPE",
+  "longDescription": "<p>Este paquete ofrece un conjunto de programas de ejemplo para controlar un microcontrolador ATmega32, junto con un tutorial que explica cómo compilarlos, subirlos al microcontrolador y realizar modificaciones simples o avanzadas. Está diseñado para utilizarse con la placa \"microhope\", que facilita la carga de código al microcontrolador mediante una conexión USB.</p>\n<p>Además de los ejemplos, incluye una biblioteca para manejar todos los periféricos disponibles en la placa \"microhope\": LED, pantalla LCD y ADC conectado a sensores.</p>\n<p>También se proporciona una interfaz gráfica de usuario.</p>\n"
+}

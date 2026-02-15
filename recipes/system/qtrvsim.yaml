@@ -1,0 +1,39 @@
+id: qtrvsim
+name: RISC-V CPU simulator
+description: RISC-V CPU simulator for education purposes
+longDescription: |
+  <p>
+        RISC-V processor architecture simulator for education purposes with pipeline and cache visualization.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtrvsim
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - emulator
+  - risc-v
+  - education
+screenshotSources:
+  - url: cz/cvut/edu.comparch.qtrvsim/26585e4ee1c1c65a092097936966274a/screenshots/image-1_orig.png
+    thumbnailUrl: cz/cvut/edu.comparch.qtrvsim/26585e4ee1c1c65a092097936966274a/screenshots/image-1_624x363@1.png
+    width: 1526
+    height: 888
+  - url: cz/cvut/edu.comparch.qtrvsim/26585e4ee1c1c65a092097936966274a/screenshots/image-2_orig.png
+    thumbnailUrl: cz/cvut/edu.comparch.qtrvsim/26585e4ee1c1c65a092097936966274a/screenshots/image-2_624x363@1.png
+    width: 1526
+    height: 888
+iconSources:
+  - url: cz/cvut/edu.comparch.qtrvsim/26585e4ee1c1c65a092097936966274a/icons/128x128/qtrvsim_qtrvsim_gui.png
+    width: 128
+    height: 128
+homepage: "https://github.com/cvut/qtrvsim"
+enabled: true
+order: 99

@@ -1,0 +1,78 @@
+id: "f3d"
+name: F3D
+description: A fast and minimalist 3D viewer
+longDescription: |
+  <p>
+              A VTK-based 3D viewer following the KISS principle, so it is minimalist,
+              efficient, has no GUI, has simple interaction mechanisms and is fully
+              controllable using arguments in the command line.
+          </p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - f3d
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - vtk
+  - animations
+  - fbx
+  - step
+  - stl
+  - dcm
+  - ex2
+  - gml
+  - obj
+  - 3ds
+screenshotSources:
+  - url: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-1_orig.png
+    thumbnailUrl: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-1_624x408@1.png
+    width: 1392
+    height: 911
+  - url: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-2_orig.png
+    thumbnailUrl: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-2_624x408@1.png
+    width: 1392
+    height: 911
+  - url: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-3_orig.png
+    thumbnailUrl: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-3_624x408@1.png
+    width: 1392
+    height: 911
+  - url: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-4_orig.png
+    thumbnailUrl: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-4_624x408@1.png
+    width: 1392
+    height: 911
+  - url: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-5_orig.png
+    thumbnailUrl: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-5_624x408@1.png
+    width: 1392
+    height: 911
+  - url: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-6_orig.png
+    thumbnailUrl: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-6_624x408@1.png
+    width: 1392
+    height: 911
+  - url: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-7_orig.png
+    thumbnailUrl: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-7_624x408@1.png
+    width: 1392
+    height: 911
+  - url: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-8_orig.png
+    thumbnailUrl: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/screenshots/image-8_624x408@1.png
+    width: 1392
+    height: 911
+iconSources:
+  - url: app/f3d/F3D/5d5182ba11446392db63d89127a0d993/icons/128x128/f3d_f3d.png
+    width: 128
+    height: 128
+homepage: "https://f3d-app.github.io/f3d/"
+enabled: true
+order: 99

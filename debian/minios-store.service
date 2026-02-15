@@ -1,0 +1,18 @@
+[Unit]
+Description=MiniOS Store WebSocket Daemon
+Documentation=https://store.minios.dev https://minios.dev
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/minios-store-daemon
+Restart=on-failure
+RestartSec=5
+
+# The daemon needs root for apt2sb/script2sb (which use mount/overlay/chroot)
+NoNewPrivileges=no
+ProtectSystem=false
+ProtectHome=false
+
+[Install]
+WantedBy=multi-user.target

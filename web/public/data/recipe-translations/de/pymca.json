@@ -1,0 +1,5 @@
+{
+  "name": "PyMca",
+  "description": "Analyse von Röntgenfluoreszenzdaten",
+  "longDescription": "<p>PyMca ist ein Paket aus Anwendungen und Python-Bibliotheken zur Analyse von Röntgenfluoreszenz-Spektren.</p>\n<p>Die in diesem Paket enthaltenen Anwendungen sind:</p>\n<p> * edfviewer – Anzeige und Inspektion von Dateien im ESRF Data Format  * elementsinfo – Anzeige elementspezifischer Röntgendaten  * mca2edf – Konvertiert Dateien vom SPEC MCA-Format ins EDF-Format  * peakidentifier – Anzeige von Röntgenfluoreszenz-Peaks in einem bestimmten Energiebereich  * pymcabatch – Stapelverarbeitung von Spektren  * pymcapostbatch – Nachbearbeitung der Ergebnisse der Stapelanalyse  * pymca – Interaktive Datenanalyse  * pymcaroitool – Werkzeug für Region-of-Interest (ROI)-Bildgebung</p>\n<p>Das PyMca-Toolkit kann Datendateien in den Formaten SPEC, ESRF Data File (EDF), OMNIC, HDF5, AIFIRA und SupaVisio lesen.</p>\n<p>Dies sind die Skripte des Pakets.</p>\n"
+}

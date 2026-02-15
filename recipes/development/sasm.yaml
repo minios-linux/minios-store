@@ -1,0 +1,35 @@
+id: sasm
+name: SASM
+description: "Simple crossplatform IDE for NASM, MASM, GAS and FASM assembly languages."
+longDescription: |
+  <p>This is a simple IDE for assembly languages. It has syntax highlighting and a debugger. The program works out of the box and is great for beginners to learn assembly language.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sasm
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: sasm_sasm.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

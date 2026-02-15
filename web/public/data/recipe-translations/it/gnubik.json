@@ -1,0 +1,5 @@
+{
+  "name": "Gnubik",
+  "description": "Un rompicapo 3D a forma di cubo magico",
+  "longDescription": "<p>GNUbik è un rompicapo interattivo e grafico per giocatore singolo. Questo programma libero visualizza un'immagine di un cubo, simile a quello inventato da Erno Rubik. Devi manipolare il cubo utilizzando il mouse. Quando ciascuna faccia mostra un solo colore, il rompicapo è risolto.</p>\n<p>Utilizza Gtk+ e/o X11 e Mesa / OpenGL.</p>\n"
+}

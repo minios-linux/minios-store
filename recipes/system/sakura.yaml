@@ -1,0 +1,39 @@
+id: sakura
+name: Sakura
+description: Use the command line
+longDescription: |
+  <p>Sakura is a terminal emulator based on GTK+ and VTE. It&apos;s a terminal emulator with few dependencies, so you don&apos;t need a full GNOME desktop installed to have a decent terminal emulator.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sakura
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - terminal
+iconSources:
+  - cached: sakura_terminal-tango.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

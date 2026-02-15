@@ -1,0 +1,61 @@
+id: "hoteldruid"
+name: HotelDruid
+description: Property management system for hotels
+longDescription: |
+  <p>HotelDruid is designed to make hotel rooms, bed and breakfast apartments,
+     or any other kind of daily rental easy to manage from a web browser.</p>
+  <p>Main features:</p>
+  <ul>
+    <li>automatic assignment of reservations to rooms by user-defined rules</li>
+    <li>creation of public web pages displaying room availability, etc.</li>
+    <li>saving, printing, and emailing of documents and invoices</li>
+    <li>electronic point of sale</li>
+    <li>management of groups and privileges for multi-user operation</li>
+    <li>generation of statistical reports</li>
+  </ul>
+  <p>It uses an SQLite database by default but can be configured for use
+     with MySQL or PostgreSQL.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hoteldruid
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - hotel
+  - hostel
+  - b&b
+screenshotSources:
+  - url: net/digitaldruids/hoteldruid_launcher.desktop/c7be46f669c829a80a937da01c891953/screenshots/image-1_orig.png
+    thumbnailUrl: net/digitaldruids/hoteldruid_launcher.desktop/c7be46f669c829a80a937da01c891953/screenshots/image-1_624x351.png
+    width: 640
+    height: 360
+  - url: net/digitaldruids/hoteldruid_launcher.desktop/c7be46f669c829a80a937da01c891953/screenshots/image-2_orig.png
+    thumbnailUrl: net/digitaldruids/hoteldruid_launcher.desktop/c7be46f669c829a80a937da01c891953/screenshots/image-2_624x351.png
+    width: 640
+    height: 360
+iconSources:
+  - cached: hoteldruid_hoteldruid.png
+    width: 64
+    height: 64
+homepage: "http://www.hoteldruid.com"
+enabled: true
+order: 99

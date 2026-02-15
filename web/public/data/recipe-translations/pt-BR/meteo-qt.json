@@ -1,0 +1,5 @@
+{
+  "name": "Meteo-qt",
+  "description": "Um aplicativo Qt na bandeja do sistema para informações meteorológicas",
+  "longDescription": "<p>O meteo-qt exibe informações do tempo em painéis da área de trabalho, notificações e em sua própria janela.</p>\n<p>Os dados meteorológicos são obtidos do OpenWeatherMap (http://openweathermap.org/). O aplicativo é desenvolvido em Python 3 e Qt 5.</p>\n"
+}

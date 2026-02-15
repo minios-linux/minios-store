@@ -1,0 +1,5 @@
+{
+  "name": "Burner",
+  "description": "CDs und DVDs erstellen und kopieren",
+  "longDescription": "<p>Burner ist eine einfache Anwendung zum Brennen, Kopieren und Löschen von CD- und DVD-Medien: Audio, Video oder Daten. Zu den wichtigsten Funktionen gehören unter anderem:  * Brennen direkt aus dem laufenden Betrieb (On-the-fly)  * Multisession-Unterstützung  * Umwandlung von Musik-Playlists in alle von GStreamer unterstützten Formate während des Brennens</p>\n<p>Dieses Paket enthält die eigenständige Anwendung.</p>\n<p>Die folgenden Pakete, falls installiert, erweitern Burner um zusätzliche Funktionen:  * cdrdao für das Brennen von kombinierten Daten-/Audio-CDs und für 1:1-Kopien  * GStreamer-Backends zur Unterstützung weiterer Audioformate  * vcdimager zur Erstellung von VCDs oder SVCDs  * libdvdcss2 zum Kopieren von verschlüsselten DVDs  * tracker zur Suche nach Video-, Audio-, Bild- und Dokumentdateien</p>\n"
+}

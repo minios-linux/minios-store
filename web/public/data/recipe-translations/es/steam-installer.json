@@ -1,0 +1,5 @@
+{
+  "name": "Steam (instalador)",
+  "description": "Lanzador para el servicio de distribución de software Steam",
+  "longDescription": "<p>Steam es un servicio de distribución de software que incluye una tienda en línea, instalación automática, actualizaciones automáticas, logros, funcionalidad de guardado y capturas de pantalla sincronizadas con SteamCloud, así como numerosas funciones sociales.</p>\n<p>Este paquete no oficial proporciona un script que descarga e instala el cliente de Steam y depende de bibliotecas de 32 y 64 bits y otros componentes necesarios para el cliente de Steam. La instalación real de Steam y todos los juegos de Steam se instalarán en el directorio personal de cada usuario que ejecute el script instalador.</p>\n<p>Dado que Steam requiere bibliotecas de 32 bits, antes de instalar este paquete es necesario ejecutar, como root:\n<code>dpkg --add-architecture i386; apt update</code></p>\n"
+}

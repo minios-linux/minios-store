@@ -1,0 +1,5 @@
+{
+  "name": "Zita-Dpl1",
+  "description": "Ein digitaler Look-Ahead-Peak-Limiter, der spezielle Algorithmen nutzt, um ein schnelles Ansprechverhalten ohne übermäßige Tiefenverzerrung zu ermöglichen.",
+  "longDescription": "<p>DPL1 ist ein digitaler Look-Ahead-Peak-Limiter, wie er typischerweise als letzter Schritt beim Mastering oder Mixing eingesetzt wird, um Clipping zu verhindern. Das Plugin kann auch als Effekt auf einzelnen Instrumentenspuren verwendet werden.</p>\n<p>Die Latenz beträgt 1,2 ms, aufgerundet auf das nächste Vielfache von 8, 16 oder 32 Samples – abhängig von der Abtastrate. Das entspricht 56 Samples bei 44,1 kHz, 64 Samples bei 48 kHz und dem Doppelten bei 88,2 bzw. 96 kHz.</p>\n<p>In den meisten Fällen reicht der Parameter -k mit der gewünschten Kanalanzahl (1 bis 16). Die Pegelreduktion wird auf alle Kanäle gleichermaßen angewendet.</p>\n"
+}

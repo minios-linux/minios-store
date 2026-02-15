@@ -1,0 +1,43 @@
+id: "xnec2c"
+name: Xnec2c
+description: Numerical Electromagnetics Code software
+longDescription: |
+  <p>The original nec2c is a non-interactive command-line application that reads standard NEC2 input files and produces an output file with data requested by &quot;commands&quot; in the input file.</p>
+  <p>In contrast xnec2c is a GUI interactive application that (in its current form) reads NEC2 input files but presents output data in graphical form, e.g. as wire frame drawings of the radiation pattern or near E/H field, graphs of maximum gain, input impedance, vswr etc against frequency and simple rendering of the antenna structure, including color code representation of currents or charge densities. These results are only calculated and drawn on user demand via menu items or buttons, e.g. xnec2c is interactive and does not execute NEC2 &quot;commands&quot; in batch style as the original does.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xnec2c
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - antenna
+  - design
+  - analysis
+  - radio
+iconSources:
+  - url: x/xn/xnec2c.desktop/e986a1e37a47f61eae0e51f54dc3285c/icons/128x128/xnec2c_xnec2c.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

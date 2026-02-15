@@ -1,0 +1,5 @@
+{
+  "name": "Sudoku",
+  "description": "permainan sudoku berbasis konsol",
+  "longDescription": "<p>Generator/pemecah teka-teki sudoku ini menawarkan:  * antarmuka berbasis karakter (curses);  * lintas platform (Minix, Unix, Windows) dengan kode sumber lengkap (ANSI C);  * memberikan petunjuk jika diminta;  * klasifikasi tingkat kesulitan papan (sangat mudah, mudah, sedang, sulit, atau sangat menantang);  * dapat menghasilkan papan sudoku baru;  * mudah untuk memasukkan papan dari koran, Internet, dan sumber lainnya;  * berbagai format keluaran (teks, csv, HTML, PostScript).</p>\n"
+}

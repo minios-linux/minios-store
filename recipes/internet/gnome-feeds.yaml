@@ -1,0 +1,78 @@
+id: "gnome-feeds"
+name: Feeds
+description: News reader for GNOME
+longDescription: |
+  <p>Feeds is a minimal RSS/Atom feed reader built with speed and simplicity in mind.</p>
+  <p>It offers a simple user interface that only shows the latest news from your subscriptions.</p>
+  <p>Articles are shown in a web view by default, with javascript disabled for a faster and less intrusive user experience. There's also a reader mode included, built from the one GNOME Web/Epiphany uses.</p>
+  <p>Feeds can be imported and exported via OPML.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-feeds
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - rss
+  - reader
+  - feed
+  - news
+screenshotSources:
+  - url: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-1_orig.png
+    thumbnailUrl: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-1_624x498@1.png
+    width: 978
+    height: 781
+  - url: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-2_orig.png
+    thumbnailUrl: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-2_624x498@1.png
+    width: 978
+    height: 781
+  - url: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-3_orig.png
+    thumbnailUrl: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-3_624x498@1.png
+    width: 978
+    height: 781
+  - url: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-4_orig.png
+    thumbnailUrl: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-4_624x498@1.png
+    width: 978
+    height: 781
+  - url: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-5_orig.png
+    thumbnailUrl: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-5_624x498@1.png
+    width: 978
+    height: 781
+  - url: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-6_orig.png
+    thumbnailUrl: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-6_624x498@1.png
+    width: 978
+    height: 781
+  - url: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-7_orig.png
+    thumbnailUrl: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-7_624x498@1.png
+    width: 978
+    height: 781
+  - url: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-8_orig.png
+    thumbnailUrl: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-8_624x238@1.png
+    width: 2536
+    height: 970
+  - url: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-9_orig.png
+    thumbnailUrl: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/screenshots/image-9_624x498@1.png
+    width: 978
+    height: 781
+iconSources:
+  - url: org/gabmus/gfeeds/099967dfbdfff6bd606eb673d6046148/icons/128x128/gnome-feeds_org.gabmus.gfeeds.png
+    width: 128
+    height: 128
+developer: Gabriele Musco
+homepage: "https://gabmus.gitlab.io/gnome-feeds/"
+enabled: true
+order: 99

@@ -1,0 +1,38 @@
+id: ximtool
+name: ximtool
+description: Interactive image display program for the X Window System
+longDescription: |
+  <p>
+        Ximtool provides an image display capability to remote client
+        applications for IRAF using the standard imtool/iis image
+        display protocol. The image display server allows a number of
+        image frame buffers to be created and displayed. The client can
+        read and write data in these frame buffers. Any frame or
+        combination of frames can be displayed. Various display options
+        are provided, e.g., zoom and pan, flip about either axis, frame
+        blink, windowing of the display, and colortable enhancement.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ximtool
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: c/co/community.iraf.ximtool/af7587a29c0812df40adcc623261284b/screenshots/image-1_orig.png
+    thumbnailUrl: c/co/community.iraf.ximtool/af7587a29c0812df40adcc623261284b/screenshots/image-1_224x262@1.png
+    width: 544
+    height: 638
+iconSources:
+  - url: c/co/community.iraf.ximtool/af7587a29c0812df40adcc623261284b/icons/128x128/ximtool_ximtool.png
+    width: 128
+    height: 128
+homepage: "https://iraf-community.github.io/x11iraf"
+enabled: true
+order: 99

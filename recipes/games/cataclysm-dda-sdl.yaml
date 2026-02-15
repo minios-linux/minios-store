@@ -1,0 +1,49 @@
+id: "cataclysm-dda-sdl"
+name: "Cataclysm: Dark Days Ahead"
+description: A turn-based survival game set in a post-apocalyptic world.
+longDescription: |
+  <p>Cataclysm: Dark Days Ahead is a roguelike set in a post-apocalyptic world. While some have described it as a
+              &quot;zombie game&quot;, there is far more to Cataclysm than that.</p>
+  <p>Struggle to survive in a harsh, persistent, procedurally generated world. Scavenge the remnants of a dead
+              civilization for food, equipment, or, if you are lucky, a vehicle with a full tank of gas to get you the
+              hell out of Dodge. Fight to defeat or escape from a wide variety of powerful monstrosities, from zombies
+              to giant insects to killer robots and things far stranger and deadlier, and against the others like
+              yourself, that want what you have...</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cataclysm-dda-sdl
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - zombie
+  - rogue
+  - roguelike
+  - tiles
+  - dda
+  - cdda
+iconSources:
+  - url: org/cataclysmdda/CataclysmDDA/9e79060c98f1ad1af0b5c96b644ea537/icons/128x128/cataclysm-dda-sdl_org.cataclysmdda.CataclysmDDA.png
+    width: 128
+    height: 128
+homepage: "http://www.cataclysmdda.com/"
+enabled: true
+order: 99

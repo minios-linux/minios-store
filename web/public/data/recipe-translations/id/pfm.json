@@ -1,0 +1,5 @@
+{
+  "name": "Postgres Forms (pfm)",
+  "description": "Antarmuka grafis untuk basis data PostgreSQL",
+  "longDescription": "<p>Postgres Forms (pfm) adalah aplikasi klien dengan antarmuka grafis untuk server basis data PostgreSQL. Aplikasi ini memungkinkan pengguna untuk:</p>\n<p>  - merancang formulir untuk menambah, mengubah, atau menghapus data pada tabel basis data;</p>\n<p>  - merancang tautan (relasi satu ke banyak) antar formulir untuk navigasi di dalam basis data;</p>\n<p>  - merancang dan membuat laporan berdasarkan data di tabel atau view;</p>\n<p>  - mengedit dan menjalankan perintah SQL.</p>\n<p>Postgres Forms dibuat dengan Tcl/Tk, namun pengguna tidak perlu melakukan pemrograman di Tcl/Tk. Pengguna hanya perlu menggunakan SQL untuk membuat tabel, view, serta merancang formulir, tautan, dan laporan.</p>\n<p>Postgres Forms tidak berusaha menyembunyikan SQL di baliknya. Sebaliknya, aplikasi ini biasanya menampilkan perintah SQL yang dikirimkan ke server PostgreSQL dan hasil yang diterima.</p>\n<p>Server PostgreSQL dapat dijalankan secara lokal ataupun remote.</p>\n"
+}

@@ -1,0 +1,37 @@
+id: slashtime
+name: Slashtime
+description: View the time at locations around the world
+longDescription: |
+  <p>A small program which displays the time in various places. It has a compact display of locations along with supporting information such as the date and the abbreviated code used to name that timezone.</p>
+  <p>Time data displayed will be as accurate as the system&apos;s zoneinfo data is used. Somewhat unusually, Slashtime shows the offset from the current location, not from UTC. When running you can change the center point by double-clicking on another city.</p>
+  <p>There is a meeting planner built into Slashtime. You can specify a date and time and see what the corresponding time in other locations will be.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - slashtime
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: slashtime_slashtime.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

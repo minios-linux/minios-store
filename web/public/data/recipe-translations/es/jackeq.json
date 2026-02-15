@@ -1,0 +1,5 @@
+{
+  "name": "JackEQ",
+  "description": "enruta y manipula audio desde/hacia múltiples fuentes",
+  "longDescription": "<p>jackEQ es una herramienta para enrutar y manipular audio desde y hacia múltiples fuentes de entrada y salida. Funciona sobre JACK Audio Connection Kit y utiliza LADSPA para su procesamiento digital de señal (DSP), específicamente el plugin DJ EQ swh creado por Steve Harris, uno de los autores principales de jackEQ.</p>\n<p>jackEQ está pensado para ofrecer una manera accesible de ajustar los agudos, medios y graves de la salida de cualquier aplicación compatible con JACK. Diseñado especialmente para actuaciones en vivo, está inspirado en varias consolas de mezclas para DJ que el autor principal ha utilizado.</p>\n<p>jackEQ permite lograr un sonido tan rico y potente como Jackie O, y tan perspicaz como Jackie Brown. jackEQ puede ser la primera entidad femenina en el mundo de JACK. ¿Es jackEQ más de lo que puedes manejar?</p>\n"
+}

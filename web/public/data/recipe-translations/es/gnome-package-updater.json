@@ -1,0 +1,5 @@
+{
+  "name": "Actualizador de paquetes GNOME",
+  "description": "Actualiza el software instalado en el sistema",
+  "longDescription": "<p>\n      El Actualizador de paquetes te permite actualizar los paquetes de tu sistema sin necesidad de reiniciar.\n      Puedes ver detalles de cada actualización y elegir cuáles aplicar.\n    </p>\n<p>\n      El Actualizador de paquetes utiliza PackageKit y funciona en cualquier distribución que use el sistema de gestión de paquetes nativo.\n    </p>\n"
+}

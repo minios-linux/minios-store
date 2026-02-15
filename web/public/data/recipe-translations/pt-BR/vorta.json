@@ -1,0 +1,5 @@
+{
+  "name": "Vorta",
+  "description": "Cliente de backup",
+  "longDescription": "<p>\n      O Vorta é um cliente de backup para desktops macOS e Linux.\n      Ele integra o poderoso BorgBackup ao ambiente de trabalho\n      para proteger seus dados contra falhas de disco, ransomware e roubo.\n    </p>\n<p>\n      Por que ele é excelente?\n    </p>\n<ul>\n  <li>Backups criptografados, deduplicados e compactados usando o Borg como backend.</li>\n  <li>Sem dependência de fornecedor – faça backup em discos locais, em seu próprio servidor ou no BorgBase, um serviço de hospedagem para backups Borg.</li>\n  <li>Código aberto – livre para usar, modificar, aprimorar e auditar.</li>\n  <li>Perfis flexíveis para agrupar pastas de origem, destinos de backup e agendamentos.</li>\n  <li>Um local para visualizar todos os arquivos de backup por ponto no tempo e restaurar arquivos individuais.</li>\n</ul>\n"
+}

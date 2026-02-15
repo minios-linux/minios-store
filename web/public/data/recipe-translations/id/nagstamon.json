@@ -1,0 +1,5 @@
+{
+  "name": "Nagstamon",
+  "description": "Monitor status Nagios",
+  "longDescription": "<p>Nagstamon adalah monitor status Nagios yang berjalan di system tray atau desktop (GNOME, KDE) sebagai status bar mengambang untuk memberi informasi secara real-time tentang status jaringan yang dipantau oleh Nagios dan turunannya. Aplikasi ini memungkinkan Anda terhubung ke beberapa server Nagios, Icinga, Opsview, Centreon, Op5Monitor, Check_MK Multisite, Thruk, Zabbix, dan Zenoss sekaligus. Penanganan kejadian dapat dilakukan secara instan ke host/layanan yang gagal.</p>\n"
+}

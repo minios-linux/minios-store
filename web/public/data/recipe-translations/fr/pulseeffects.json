@@ -1,0 +1,5 @@
+{
+  "name": "PulseEffects",
+  "description": "Effets audio pour les applications PulseAudio",
+  "longDescription": "<p>\n      PulseEffects est un ensemble d’outils avancés de manipulation audio. Il intègre notamment un égaliseur, un limiteur, un compresseur et un effet de réverbération, entre autres fonctionnalités. En complément, un analyseur de spectre est également inclus.\n    </p>\n<p>\n      PulseEffects fonctionne avec la plupart des applications grâce au serveur audio PulseAudio par défaut. Toutes les applications supportées s'affichent dans la fenêtre principale, où il est possible d’activer les effets individuellement pour chacune d’entre elles.\n    </p>\n<p>\n      En plus de traiter la sortie audio, PulseEffects peut appliquer des effets à un périphérique d’entrée, tel qu’un microphone. C’est particulièrement utile pour l’enregistrement audio, mais aussi lors de conversations vocales.\n    </p>\n<p>\n      Au lancement, PulseEffects mémorise automatiquement la configuration utilisée lors de la dernière session. Il est également possible d’enregistrer l’ensemble des paramètres dans des profils.\n    </p>\n"
+}

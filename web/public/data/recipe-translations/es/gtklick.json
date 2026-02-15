@@ -1,0 +1,5 @@
+{
+  "name": "gtklick",
+  "description": "Un metrónomo sencillo",
+  "longDescription": "<p>gtklick es un metrónomo simple con una interfaz GTK+ fácil de usar, compatible con el servidor de sonido JACK.</p>\n<p>Ofrece diferentes sonidos a elegir, compases y patrones de ritmo arbitrarios, entrenador de velocidad y la capacidad de guardar y restaurar perfiles. gtklick se implementa como una interfaz gráfica para klick y utiliza mensajes OSC para comunicarse con el backend.</p>\n<p>El uso de klick directamente desde la línea de comandos ofrece funciones adicionales como mapas de tempo y sincronización con el transporte JACK.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Winpdb",
+  "description": "Debugger Python lintas platform",
+  "longDescription": "<p>Winpdb mendukung debugging aplikasi berbasis threads dan curses, modifikasi namespace, serta debugging tertanam. Sebagai debugger jarak jauh, Winpdb memanfaatkan koneksi jaringan terenkripsi untuk terhubung ke aplikasi yang sedang didiagnosis (biasanya berjalan di mesin yang sama).</p>\n<p>Winpdb merupakan antarmuka grafis berbasis wx untuk rpdb2, yang juga disertakan dalam paket ini. rpdb2 berbasis teks dan dapat dijalankan menggunakan sesi screen jika tidak tersedia x-terminal-emulator.</p>\n<p>Winpdb hingga 20 kali lebih cepat daripada pdb.</p>\n"
+}

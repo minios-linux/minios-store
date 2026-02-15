@@ -1,0 +1,5 @@
+{
+  "name": "µMPS3",
+  "description": "Simulator mesin virtual berbasis prosesor MIPS R2/3000",
+  "longDescription": "<p>µMPS adalah arsitektur sistem komputer edukasi beserta emulator yang dirancang dari awal untuk mencapai keseimbangan antara kesederhanaan dan keanggunan di satu sisi, serta realisme di sisi lain. Ini membuat µMPS sangat cocok digunakan dalam pendidikan, seperti pada praktik sistem operasi atau mata kuliah arsitektur komputer di universitas.</p>\n<p>Prosesor µMPS mengimplementasikan himpunan instruksi MIPS I, sehingga dapat langsung didukung oleh compiler MIPS yang sudah ada. Arsitekturnya mencakup satu set perangkat I/O lengkap (terminal, disk, perangkat flash, printer, dan adaptor jaringan) yang menawarkan antarmuka pemrograman yang bersih dan konsisten. Revisi sebelumnya dari arsitektur µMPS (µMPS2) menambahkan dukungan multiprosesor.</p>\n<p>Emulator ini dilengkapi dengan fitur debugging bawaan dan antarmuka grafis yang mudah digunakan. Selain emulator utama, tersedia pula berbagai utilitas pendukung yang memudahkan Anda dalam mengembangkan program untuk µMPS.</p>\n"
+}

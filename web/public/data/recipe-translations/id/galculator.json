@@ -1,0 +1,5 @@
+{
+  "name": "galculator",
+  "description": "kalkulator aljabar dan RPN berbasis GTK 2 / GTK 3",
+  "longDescription": "<p>galculator adalah kalkulator berbasis GTK 2 / GTK 3 dengan notasi biasa atau notasi Polandia Terbalik (RPN), mode entri rumus, berbagai basis bilangan (DEC, HEX, OCT, BIN), serta satuan sudut yang berbeda (DEG, RAD, GRAD). Mendukung aritmetika floating point quad-presisi dan aritmetika biner 112-bit.</p>\n<p>Fitur utama galculator meliputi:</p>\n<ul>\n  <li>Mode aljabar, RPN (Reverse Polish Notation), entri rumus, dan mode paper</li>\n  <li>Basis bilangan desimal, heksadesimal, oktal, dan biner</li>\n  <li>Dukungan radian, derajat, dan gradian</li>\n  <li>Mode dasar dan ilmiah</li>\n  <li>Konstanta dan fungsi yang dapat didefinisikan pengguna</li>\n  <li>Fungsi trigonometri, pangkat, akar kuadrat, logaritma natural dan umum, fungsi invers, serta fungsi hiperbolik</li>\n  <li>Aritmetika biner dengan panjang bit dan tanda yang dapat dikonfigurasi</li>\n  <li>Aritmetika floating point quad-presisi</li>\n  <li>Aritmetika biner 112-bit</li>\n  <li>Dukungan copy dan paste</li>\n  <li>Tersedia dalam lebih dari 20 terjemahan bahasa</li>\n</ul>\n"
+}

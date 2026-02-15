@@ -1,0 +1,5 @@
+{
+  "name": "shp2pgsql-gui",
+  "description": "Importer des fichiers shapefile dans des bases PostGIS",
+  "longDescription": "<p>PostGIS ajoute la prise en charge des objets géographiques à la base de données relationnelle PostgreSQL. Concrètement, PostGIS \"spatialise\" le serveur PostgreSQL, permettant son utilisation comme base de données spatiale pour les systèmes d'information géographique (SIG), à l'instar de SDE d'ESRI ou de l'extension spatiale d'Oracle. PostGIS respecte la spécification \"Simple Features for SQL\" de l'OpenGIS.</p>\n<p>Ce paquet contient l’utilitaire graphique de chargement de fichiers de formes PostGIS, shp2pgsql-gui.</p>\n"
+}

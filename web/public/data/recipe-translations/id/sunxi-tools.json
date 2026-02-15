@@ -1,0 +1,5 @@
+{
+  "name": "sunxi-tools",
+  "description": "Alat untuk bekerja dengan prosesor ARM Allwinner (sunxi)",
+  "longDescription": "<p>Paket ini berisi berbagai alat untuk bekerja dengan perangkat yang berbasis prosesor Allwinner sunxi (A10/A13/A20/A31, dan sebagainya). Utilitas di dalamnya meliputi alat untuk:</p>\n<ul>\n  <li>berinteraksi dengan bootrom tingkat rendah prosesor (dikenal juga sebagai mode FEL).</li>\n  <li>melakukan boot melalui port USB OTG.</li>\n  <li>mengkompilasi dan dekompilasi deskripsi perangkat keras Allwinner berbasis biner (berkas FEX).</li>\n  <li>menampilkan informasi tentang header boot sunxi.</li>\n</ul>\n"
+}

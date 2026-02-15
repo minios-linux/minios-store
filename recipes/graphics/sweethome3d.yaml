@@ -1,0 +1,47 @@
+id: "sweethome3d"
+name: Sweet Home 3D
+description: Interior design Java application for quickly choosing and placing furniture on a house 2D plan drawn by the end-user with a 3D preview
+longDescription: |
+  <p>Sweet Home 3D is an interior design Java application for quickly choosing and placing furniture on a house 2D plan drawn by the end-user, with a 3D preview.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sweethome3d
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - interior
+  - design
+  - 2d
+  - 3d
+  - home
+  - house
+  - furniture
+  - java
+iconSources:
+  - url: com/sweethome3d/sweethome3d/e6195ae94032684f96a48abbf45a22b6/icons/128x128/sweethome3d_sweethome3d.png
+    width: 128
+    height: 128
+homepage: "https://sweethome3d.com/"
+enabled: true
+order: 99

@@ -1,0 +1,39 @@
+id: wmcalc
+name: wmcalc
+description: Calculator dockapp for Window Maker
+longDescription: |
+  <p>Wmcalc is a small calculator meant for the WindowMaker dock or Afterstep Wharf. It is a simple calculator with basic functions and memory slots, and can launch any external application for more complex calculations.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wmcalc
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calculator
+  - dockapp
+  - window maker
+iconSources:
+  - cached: wmcalc_wmcalc.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

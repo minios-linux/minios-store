@@ -1,0 +1,39 @@
+id: gigalomania
+name: Gigalomania
+description: 2D Real Time Strategy god game
+longDescription: |
+  <p>Gigalomania is an open source 2D Real Time Strategy god game. The gameplay consists of researching and developing new technology with which to conquer your enemies, from rocks and sticks to nuclear weapons and spaceships. You can advance through ten different ages, from the stone age to the future. There are 28 different maps to play through.</p>
+  <p>This package contains the main program.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gigalomania
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - strategy
+  - 2d rts
+iconSources:
+  - cached: gigalomania_gigalomania64.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

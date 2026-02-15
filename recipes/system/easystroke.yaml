@@ -1,0 +1,27 @@
+id: easystroke
+name: Easystroke Gesture Recognition
+description: Control your desktop using mouse gestures
+longDescription: |
+  <p>Easystroke is a gesture-recognition application for X11. It aims to be highly configurable while at the same time providing an intuitive user interface. It was designed with a Tablet PC in mind, but it also works well with a mouse.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - easystroke
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: easystroke_easystroke.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

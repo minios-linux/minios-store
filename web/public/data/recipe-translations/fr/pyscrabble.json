@@ -1,0 +1,5 @@
+{
+  "name": "PyScrabble",
+  "description": "Un jeu de lettres classique",
+  "longDescription": "<p>PyScrabble est une version en ligne et multijoueur du célèbre jeu de lettres, écrite en Python et proposant :</p>\n<p> * chat et messagerie privée (en ligne et hors ligne)  * classement des joueurs et statistiques du serveur  * utilisation d’ENABLE (Enhanced North American Benchmark LExicon) pour    la vérification des mots anglais  * parties chronométrées</p>\n<p>Les langues suivantes sont prises en charge :</p>\n<p> * anglais  * finnois  * français  * allemand  * serbe</p>\n<p>Ce paquet contient le programme client.</p>\n<p>Remarque : Scrabble est une marque déposée appartenant à Hasbro Inc aux États-Unis, et à J.W. Spear &amp; Sons Ltd., une filiale de Mattel Inc., dans le reste du monde. Ni l’auteur, ni Debian, ni ce jeu ne sont affiliés au Scrabble Crossword Game, à Hasbro, Spear &amp; Sons ou Mattel de quelque façon que ce soit.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Hugin Calibrate Lens",
+  "description": "Objektivverzeichnung analysieren",
+  "longDescription": "<p>Hugin ist ein Programm zum Zusammensetzen von Panoramafotos (Stitching). Im Kern ist Hugin eine grafische Benutzeroberfläche (GUI) für Panorama Tools. Das Zusammenfügen erfolgt durch mehrere sich überlappende Fotos vom selben Standort, wobei Kontrollpunkte verwendet werden, um die Bilder auszurichten und zu transformieren, sodass sie nahtlos zu einem größeren Bild kombiniert werden können. Hugin ermöglicht das einfache Setzen von Kontrollpunkten zwischen Bildern, die Optimierung der Bildtransformationen und vieles mehr.</p>\n<p>Dieses Paket enthält die folgenden grafischen Oberflächen, die die Kommandozeilentools aus dem Paket hugin-tools nutzen:  * hugin                – Hugin Panorama-Editor  * hugin_stitch_project – Hugin-Batch-Stitcher  * PTBatcherGUI         – Batch-Controller für den Stitching-Prozess  * calibrate_lens_gui   – Werkzeug zur Objektivkalibrierung.</p>\n"
+}

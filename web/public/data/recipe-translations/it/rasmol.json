@@ -1,0 +1,5 @@
+{
+  "name": "RasMol (classic version)",
+  "description": "Visualizza macromolecole e prepara immagini di qualità per pubblicazioni",
+  "longDescription": "<p>RasMol è un programma di grafica molecolare progettato per la visualizzazione di proteine, acidi nucleici e piccole molecole. Il software è pensato per la consultazione, l’insegnamento e la creazione di immagini di alta qualità per pubblicazioni.</p>\n<p>Il programma legge file di coordinate molecolari e visualizza interattivamente le molecole sullo schermo tramite varie modalità di colore e rappresentazione grafica. Le modalità disponibili includono reticolati con profondità, stick “Dreiding”, sfere spacefill (CPK), modelli a sfera e bastone, nastri biomolecolari solidi o a tratto, etichette per gli atomi e superfici a punti.</p>\n<p>I formati di input supportati includono Protein Data Bank (PDB), Tripos Associates Alchemy e Sybyl Mol2, Molecular Design Limited (MDL) Mol, Minnesota Supercomputer Center (MSC) XYZ (XMol), formato CHARMm, CIF e mmCIF.</p>\n<p>Questo pacchetto installa due versioni di RasMol: rasmol-gtk con interfaccia moderna basata su GTK e rasmol-classic con la classica GUI Xlib.</p>\n"
+}

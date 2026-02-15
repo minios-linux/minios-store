@@ -1,0 +1,31 @@
+id: usbguard-applet-qt
+name: USBGuard
+description: USBGuard Qt Applet
+longDescription: |
+  <p>The USBGuard software framework helps to protect your computer against rogue USB devices (a.k.a. BadUSB) by implementing basic whitelisting and blacklisting capabilities based on device attributes.</p>
+  <p>This package contains the qt-applet for controlling usbguard.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - usbguard-applet-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - usb
+  - usbguard
+  - applet
+  - qt
+iconSources:
+  - url: u/us/usbguard-applet-qt.desktop/2DC72A87D4DD28EDFAB29276A1360D5E/icons/128x128/usbguard-applet-qt_usbguard-icon.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

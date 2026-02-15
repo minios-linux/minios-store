@@ -1,0 +1,5 @@
+{
+  "name": "DVBcut",
+  "description": "Taglia e rifila flussi video MPEG2 in vari formati di esportazione",
+  "longDescription": "<p>DVBcut è un'applicazione Qt che consente di selezionare specifiche parti di un flusso di trasporto MPEG (ricevuto tramite Digital Video Broadcasting, DVB) e salvarle in un unico file MPEG di output. Adotta un approccio di “chirurgia mininvasiva” dove i dati video e audio originali vengono mantenuti quasi completamente inalterati, mentre solo pochissimi fotogrammi all'inizio e/o alla fine dell’intervallo selezionato vengono ricodificati per generare un file MPEG valido.</p>\n"
+}

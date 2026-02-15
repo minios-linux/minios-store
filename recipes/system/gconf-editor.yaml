@@ -1,0 +1,25 @@
+id: gconf-editor
+name: Configuration Editor
+description: Directly edit your entire configuration database
+longDescription: |
+  <p>GConf-Editor is a tool used for editing the GConf configuration database. This is not the recommended way of setting desktop preferences, but it might be useful when the proper configuration utility for some software provides no way of changing some option.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gconf-editor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: gconf-editor_gconf-editor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

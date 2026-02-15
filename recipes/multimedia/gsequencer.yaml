@@ -1,0 +1,55 @@
+id: "gsequencer"
+name: GSequencer
+description: Advanced Gtk+ Sequencer
+longDescription: |
+  <p>GSequencer provides you various tools to play, create, edit and mix your own music.
+      It features a step sequencer, piano roll, automation and wave-form editor.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gsequencer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sequencer
+  - notation
+  - editor
+  - midi
+  - synth
+  - mixing
+  - effects
+screenshotSources:
+  - url: org/nongnu/gsequencer.gsequencer/c5f8e4c58c36b9d41f1b018293aa3343/screenshots/image-1_orig.png
+    thumbnailUrl: org/nongnu/gsequencer.gsequencer/c5f8e4c58c36b9d41f1b018293aa3343/screenshots/image-1_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/nongnu/gsequencer.gsequencer/c5f8e4c58c36b9d41f1b018293aa3343/screenshots/image-2_orig.png
+    thumbnailUrl: org/nongnu/gsequencer.gsequencer/c5f8e4c58c36b9d41f1b018293aa3343/screenshots/image-2_624x351@1.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: org/nongnu/gsequencer.gsequencer/c5f8e4c58c36b9d41f1b018293aa3343/icons/128x128/gsequencer_gsequencer.png
+    width: 128
+    height: 128
+homepage: "http://nongnu.org/gsequencer"
+enabled: true
+order: 99

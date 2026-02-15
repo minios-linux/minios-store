@@ -1,0 +1,77 @@
+id: "musescore"
+name: MuseScore 2
+description: "Create, play and print sheet music"
+longDescription: |
+  <p>MuseScore is a free WYSIWYG music score typesetter for Linux, licenced under GNU GPL. Features:  - WYSIWYG, notes are entered on a &quot;virtual note sheet&quot;  - Unlimited score length  - Unlimited number of staves per system  - Up to four independent voices per staff  - easy and fast note entry with mouse, keyboard or midi  - integrated sequencer and FluidSynth software synthesizer  - import and export of MusicXml and standard midifiles (SMF)  - platform independent code for Linux, Windows and Mac  - Automatic part extraction and transposition  - Chord symbols  - Swing and shuffle playback  - and much more...</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - musescore
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - notation
+  - composition
+  - composing
+  - arranging
+  - making
+  - sheet music
+  - music notation software
+  - lead sheet
+  - leadsheet
+screenshotSources:
+  - url: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-1_orig.png
+    thumbnailUrl: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-1_624x496.png
+    width: 700
+    height: 557
+  - url: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-2_orig.png
+    thumbnailUrl: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-2_624x350.png
+    width: 1366
+    height: 768
+  - url: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-3_orig.png
+    thumbnailUrl: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-3_624x350.png
+    width: 1366
+    height: 768
+  - url: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-4_orig.png
+    thumbnailUrl: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-4_624x350.png
+    width: 1366
+    height: 768
+  - url: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-5_orig.png
+    thumbnailUrl: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-5_624x350.png
+    width: 1366
+    height: 768
+  - url: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-6_orig.png
+    thumbnailUrl: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-6_624x439.png
+    width: 878
+    height: 619
+  - url: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-7_orig.png
+    thumbnailUrl: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/screenshots/image-7_624x350.png
+    width: 1366
+    height: 768
+iconSources:
+  - url: org/musescore/MuseScore/4d2c931aba2f4076c2dc744cdf2a1048/icons/128x128/musescore_mscore.png
+    width: 128
+    height: 128
+developer: MuseScore BVBA
+homepage: "https://musescore.org"
+enabled: true
+order: 99

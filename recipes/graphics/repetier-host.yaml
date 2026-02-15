@@ -1,0 +1,23 @@
+id: repetier-host
+name: Repetier-Host
+description: Host controller for RepRap 3D printer
+longDescription: |
+  <p>Repetier-Host allows you to perform all the steps needed to 3D-print models. It supplies the following features:   - arranging model(s) on a virtual print plate   - slicing the model and computing paths for printer head   - checking the g-code for errors   - sending the g-code to printer   - monitoring the printer</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - repetier-host
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: repetier-host_repetier-logo-trans32_1_32x32x32.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

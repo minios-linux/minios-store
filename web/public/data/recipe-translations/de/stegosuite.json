@@ -1,0 +1,5 @@
+{
+  "name": "Stegosuite",
+  "description": "Steganografie-Tool zum Verstecken von Informationen in Bilddateien",
+  "longDescription": "<p>Stegosuite ist ein grafisches Steganografie-Programm, mit dem sich Informationen einfach in Bilddateien verbergen lassen. Es ermöglicht das Einbetten von Textnachrichten sowie beliebigen Dateien. Die eingebetteten Daten werden zusätzlich mit AES verschlüsselt. Unterstützte Dateiformate sind derzeit BMP, GIF, JPG und PNG.</p>"
+}

@@ -1,0 +1,38 @@
+id: "yokadi"
+name: Yokadi
+description: Command-line oriented TODO list manager
+longDescription: |
+  <p>Yokadi is a command-line oriented, SQLite powered, TODO list tool. It helps you organize all the things you have to do and you must not forget. It aims to be simple, intuitive and very efficient.</p>
+  <p>In Yokadi you manage projects, which contains tasks. At the minimum, a task has a title, but it can also have a description, a due date, an urgency or keywords. Keywords can be any word that help you to find and sort your tasks.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yokadi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - todo
+  - projectmanagement
+  - commandline
+iconSources:
+  - url: y/yo/yokadi.desktop/26e9383eee151ec3b59d7f3b58e42303/icons/128x128/yokadi_yokadi.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

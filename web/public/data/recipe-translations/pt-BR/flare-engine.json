@@ -1,0 +1,5 @@
+{
+  "name": "Flare",
+  "description": "Um jogo RPG de ação isométrico 2D para um jogador",
+  "longDescription": "<p>Flare (Free Libre Action Roleplaying Engine) é um motor de jogo simples desenvolvido para um tipo muito específico de jogo: RPG de ação 2D para um jogador. O Flare não é uma reimplementação de nenhum jogo ou motor existente. Trata-se de uma homenagem e uma exploração do gênero RPG de ação.</p>\n<p>O Flare utiliza formatos de arquivo simples (arquivos de configuração no estilo INI) para a maior parte dos dados do jogo, permitindo que qualquer pessoa modifique facilmente o conteúdo. Formatos abertos são preferenciais (png, ogg). O código do jogo é escrito em C++.</p>\n<p>Este pacote contém apenas o motor do jogo; é necessário instalar um pacote de jogos (como flare ou polymorph) para jogar.</p>\n"
+}

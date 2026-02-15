@@ -1,0 +1,5 @@
+{
+  "name": "KAppTemplate",
+  "description": "Générateur de modèles KDE",
+  "longDescription": "<p>KAppTemplate est une application conçue pour démarrer rapidement un développement en s’appuyant sur des modèles existants, offrant une structure adaptée et le code de base souvent réutilisé.</p>\n<p>Fonctionnalités :</p>\n<ul>\n  <li>Modèles pour C++, Ruby, Python et PHP</li>\n  <li>Classement par catégories</li>\n  <li>Modèles couvrant différents systèmes de build et frameworks</li>\n  <li>Modèles spécialisés pour le développement KDE (plugins pour Plasma, KOffice, KTextEditor, KRunner, Akonadi)</li>\n  <li>Création simple de nouveaux modèles grâce à des espaces réservés et une commande CMake intuitive</li>\n  <li>Intégration à KDevelop</li>\n</ul>\n"
+}

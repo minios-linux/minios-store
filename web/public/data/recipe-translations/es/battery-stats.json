@@ -1,0 +1,5 @@
+{
+  "name": "Gráfico de Nivel de Batería",
+  "description": "Gráfico de Nivel de Batería",
+  "longDescription": "<p>Este paquete incluye battery-stats-collector, un servicio que recopila periódicamente estadísticas sobre la carga de las baterías presentes.</p>\n<p>También proporciona un binario llamado battery-graph, que puede utilizarse para generar gráficos qplot sobre los patrones de carga y descarga de la batería a lo largo del tiempo.</p>\n<p>Nota: Requiere que APM o ACPI estén habilitados y funcionando en tu kernel.</p>\n"
+}

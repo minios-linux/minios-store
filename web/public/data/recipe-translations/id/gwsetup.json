@@ -1,0 +1,5 @@
+{
+  "name": "gwsetup",
+  "description": "Perangkat Lunak Genealogi Geneweb - Konfigurasi",
+  "longDescription": "<p>Geneweb memungkinkan Anda melacak data keturunan. Ini adalah sistem yang kuat untuk memelihara kumpulan data tentang sejarah keluarga Anda. Geneweb mendukung sebagian besar sistem tag GEDCOM untuk penyimpanan data, dan dapat digunakan baik sebagai sistem utama untuk mengarsipkan data genealogis Anda, maupun sebagai layanan web (melalui antarmuka CGI) untuk mempublikasikan data Anda agar dapat diakses orang lain.</p>\n<p>Gwsetup adalah program berbasis command-line yang juga dilengkapi dengan mini web server untuk membantu pengguna Geneweb dalam mengatur dan mengelola basis data genealogis yang akan digunakan bersama program utama Geneweb.</p>\n"
+}

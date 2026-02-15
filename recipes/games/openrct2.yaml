@@ -1,0 +1,64 @@
+id: "openrct2"
+name: OpenRCT2
+description: A construction and management simulation video game that simulates amusement park management
+longDescription: |
+  <p>
+        OpenRCT2 is an open-source re-implementation of RollerCoaster Tycoon 2 (RCT2).
+        The gameplay revolves around building and maintaining an amusement park containing
+        attractions, shops and facilities. The player must try to make a profit and maintain
+        a good park reputation whilst keeping the guests happy. OpenRCT2 allows for both
+        scenario and sandbox play. Scenarios require the player to complete a certain
+        objective in a set time limit whilst sandbox allows the player to build a more
+        flexible park with optionally no restrictions or finance.
+      </p>
+  <p>
+        OpenRCT2 features many changes compared to the original RollerCoaster Tycoon 2 game. A few of them are listed here.
+      </p>
+  <ul>
+    <li>User Interface theming.</li>
+    <li>Fast-forwarding gameplay.</li>
+    <li>Multiplayer support.</li>
+    <li>Multilingual. Improved translations.</li>
+    <li>OpenGL hardware rendering.</li>
+    <li>Various fixes and improvements for bugs in the original game.</li>
+    <li>Native support for Linux and macOS.</li>
+    <li>Added hacks and cheats.</li>
+    <li>Auto-saving and giant screenshots.</li>
+  </ul>
+  <p>
+        Original RollerCoaster Tycoon 2 or RollerCoaster Tycoon Classic game files are required in order to play OpenRCT2.
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openrct2
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - openrct2
+  - rct2
+  - rct
+  - roller
+  - coaster
+  - tycoon
+  - simulation
+screenshotSources:
+  - url: o/op/openrct2.desktop/6d585b63198a2efc47cf97dddfad698d/screenshots/image-1_orig.png
+    thumbnailUrl: o/op/openrct2.desktop/6d585b63198a2efc47cf97dddfad698d/screenshots/image-1_624x351@1.png
+    width: 1280
+    height: 720
+iconSources:
+  - url: o/op/openrct2.desktop/6d585b63198a2efc47cf97dddfad698d/icons/128x128/openrct2_openrct2.png
+    width: 128
+    height: 128
+homepage: "https://openrct2.io/"
+enabled: true
+order: 99

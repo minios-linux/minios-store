@@ -1,0 +1,31 @@
+id: playitslowly
+name: Play it Slowly
+description: A tool to play back a piece of music at a different speed or pitch
+longDescription: |
+  <p>Play it slowly is a piece of software to play back audio files at a different speed or pitch. It also allows you to loop over a certain part of a file.</p>
+  <p>It is intended to help you learn or transcribe songs. It can also play videos thanks to GStreamer.</p>
+  <p>Play it slowly works with both ALSA and the JACK Audio Connection Kit.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - playitslowly
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+iconSources:
+  - cached: playitslowly_playitslowly.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

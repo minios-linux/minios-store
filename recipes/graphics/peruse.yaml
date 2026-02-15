@@ -1,0 +1,55 @@
+id: "peruse"
+name: Peruse
+description: Comic Book Creation Tool
+longDescription: |
+  <p></p>
+  <p>Features:</p>
+  <ul>
+    <li>Comic Book Archive (cbz, cbr, cb7, cbt, cba)</li>
+  </ul>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - peruse
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/peruse.desktop/2c791bdb2b3421f7c48d9679e4b1a976/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/peruse.desktop/2c791bdb2b3421f7c48d9679e4b1a976/screenshots/image-1_624x530.png
+    width: 2475
+    height: 2106
+  - url: org/kde/peruse.desktop/2c791bdb2b3421f7c48d9679e4b1a976/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/peruse.desktop/2c791bdb2b3421f7c48d9679e4b1a976/screenshots/image-2_624x530.png
+    width: 2475
+    height: 2106
+  - url: org/kde/peruse.desktop/2c791bdb2b3421f7c48d9679e4b1a976/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/peruse.desktop/2c791bdb2b3421f7c48d9679e4b1a976/screenshots/image-3_624x530.png
+    width: 2475
+    height: 2106
+iconSources:
+  - url: org/kde/peruse.desktop/2c791bdb2b3421f7c48d9679e4b1a976/icons/128x128/peruse_peruse.png
+    width: 128
+    height: 128
+homepage: "https://peruse.kde.org/"
+enabled: true
+order: 99

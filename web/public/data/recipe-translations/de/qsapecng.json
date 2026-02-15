@@ -1,0 +1,5 @@
+{
+  "name": "QSapecNG",
+  "description": "Symbolischer Analysator für lineare Analogschaltungen",
+  "longDescription": "<p>Dieses Programm besteht aus zwei unabhängigen Teilen: der SapecNG-Framework-Engine und der GUI-Anwendung QSapecNG.</p>\n<p>QSapecNG ist ein plattformübergreifendes Open-Source-Projekt, das kontinuierlich von Studierenden und Forschenden des Department of Electronics and Telecommunications (DET) der Universität Florenz (Italien) weiterentwickelt wird. Es entstand als Fortführung von SapWin für Windows, um die Kompatibilität des Projekts auf andere Plattformen auszuweiten.</p>\n<p>Mit SapecNG/QSapecNG können Anwender Analogschaltungen zeichnen, lösen, analysieren sowie verwalten. Seit Version 2.0.0beta1 werden auch Sub-Schaltkreise vollständig unterstützt, die erstellt, gespeichert, wieder geöffnet und als Teil anderer Schaltungen hinzugefügt werden können.</p>\n<p>SapecNG/QSapecNG ist frei auf GitHub verfügbar &lt;https://github.com/skypjack/qsapecng&gt;. Eine frühere Version von SapecNG ist ebenfalls auf GitHub zu finden &lt;https://github.com/skypjack/sapecng&gt;.</p>\n"
+}

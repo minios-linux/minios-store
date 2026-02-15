@@ -1,0 +1,49 @@
+id: "gemrb"
+name: GemRB
+description: a portable opensource implementation of Bioware's Infinity Engine
+longDescription: |
+  <p>GemRB (Game Engine Made with preRendered Background) is a new implementation of the original Infinity Engine (the one of Baldur&apos;s Gate, Icewind Dale, Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some enhancements.</p>
+  <p>It means that you either need some of the original game&apos;s data somewhere on your harddisk, or you can try to use the data from the Dragonlance Total Conversion project.</p>
+  <p>The original game data has to be installed on a windows partition and mounted to your Linux/Unix filesystem, installed on windows and then copied to your filesystem, installed with WINE or extracted manually from the CDs using the tool `unshield&apos;.</p>
+  <p>Supported games: Baldur&apos;s Gate and Icewind Dale series, Planescape:Torment.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gemrb
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - roleplay
+  - rpg
+  - adventure
+  - game
+  - 2d
+  - isometric
+  - gemrb
+  - infinity engine
+  - black isle
+screenshotSources:
+  - url: org/gemrb/gemrb/31ab94a8b501775c4ef3ad698b29fac6/screenshots/image-1_orig.png
+    thumbnailUrl: org/gemrb/gemrb/31ab94a8b501775c4ef3ad698b29fac6/screenshots/image-1_624x468@1.png
+    width: 1024
+    height: 768
+  - url: org/gemrb/gemrb/31ab94a8b501775c4ef3ad698b29fac6/screenshots/image-2_orig.png
+    thumbnailUrl: org/gemrb/gemrb/31ab94a8b501775c4ef3ad698b29fac6/screenshots/image-2_624x492@1.png
+    width: 1108
+    height: 875
+iconSources:
+  - url: org/gemrb/gemrb/31ab94a8b501775c4ef3ad698b29fac6/icons/128x128/gemrb_gemrb.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

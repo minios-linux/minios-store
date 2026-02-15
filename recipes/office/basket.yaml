@@ -1,0 +1,38 @@
+id: "basket"
+name: BasKet Note Pads
+description: Taking care of your ideas.
+longDescription: |
+  <p>This application provides as many baskets (drawers) as you wish; Several kinds of objects (texts, URLs, images,...) can be drag-n-drop&apos;d into it.</p>
+  <p>Objects can be edited, copied, dragged... So, they can be arranged according to users&apos; taste. Moreover, Basket allows you to keep all objects you want in one place, keep data on hand, take notes...</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - basket
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: b/ba/basket.desktop/71bb7cd80e9baef8cdd90dd567854480/icons/128x128/basket_basket.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

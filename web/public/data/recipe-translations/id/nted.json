@@ -1,0 +1,5 @@
+{
+  "name": "NtEd",
+  "description": "Menyunting notasi musik",
+  "longDescription": "<p>NtEd adalah editor notasi musik berbasis GTK+. Aplikasi ini dirancang benar-benar WYSIWYG: apa yang Anda lihat di layar adalah hasil yang akan diperoleh pada keluaran cetak. NtEd mendukung hingga 4 suara per baris staf, not drum, 5 baris lirik, N-Tuplets, perubahan konteks, pengulangan dengan alternatif, pengaturan instrumen musik per staf, impor MIDI / MusicXML, serta ekspor ke PS / PDF / SVG / PNG / Lilypond / MIDI. Partitur dapat diputar melalui ALSA sequencer.</p>\n"
+}

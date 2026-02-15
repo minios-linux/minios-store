@@ -1,0 +1,5 @@
+{
+  "name": "X11VNC Server",
+  "description": "Partagez ce bureau via VNC",
+  "longDescription": "<p>x11vnc permet d'accéder et de contrôler à distance de véritables écrans X (c'est-à-dire un affichage relié à un moniteur, un clavier et une souris physiques) depuis n'importe quel client VNC. Il inclut le chiffrement et l'authentification SSL intégrés, la prise en charge des utilisateurs UNIX et des mots de passe, le redimensionnement côté serveur, la prise en charge HTTPS et VNC sur un seul port, la découverte de services mDNS, ainsi que le transfert de fichiers TightVNC et UltraVNC.</p>\n"
+}

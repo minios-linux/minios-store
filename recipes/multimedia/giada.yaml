@@ -1,0 +1,56 @@
+id: "giada"
+name: Giada
+description: Drum machine and loop sequencer
+longDescription: |
+  <p>free, minimal, hardcore audio tool for DJs, live performers and electronic musicians. Pick up your channel, fill it with samples or MIDI events and start the show by using this tiny piece of software as a loop machine, drum machine, sequencer, live sampler or yet as a plugin/effect host.</p>
+  <p>Giada aims to be a compact and portable virtual device for production use and live sets.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - giada
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - midi
+  - jackd
+  - alsa
+  - pulse
+  - audio
+  - sound
+  - loop
+screenshotSources:
+  - url: com/giadamusic/Giada/20668647bd1ba52ceda3c0822f450f50/screenshots/image-1_orig.png
+    thumbnailUrl: com/giadamusic/Giada/20668647bd1ba52ceda3c0822f450f50/screenshots/image-1_624x353.png
+    width: 1097
+    height: 622
+  - url: com/giadamusic/Giada/20668647bd1ba52ceda3c0822f450f50/screenshots/image-2_orig.png
+    thumbnailUrl: com/giadamusic/Giada/20668647bd1ba52ceda3c0822f450f50/screenshots/image-2_624x380.png
+    width: 750
+    height: 457
+  - url: com/giadamusic/Giada/20668647bd1ba52ceda3c0822f450f50/screenshots/image-3_orig.png
+    thumbnailUrl: com/giadamusic/Giada/20668647bd1ba52ceda3c0822f450f50/screenshots/image-3_624x438.png
+    width: 750
+    height: 527
+iconSources:
+  - url: com/giadamusic/Giada/20668647bd1ba52ceda3c0822f450f50/icons/128x128/giada_com.giadamusic.Giada.png
+    width: 128
+    height: 128
+homepage: "https://www.giadamusic.com/"
+enabled: true
+order: 99

@@ -1,0 +1,43 @@
+id: "lokalize"
+name: Lokalize
+description: Computer-aided translation system
+longDescription: |
+  <p>Lokalize is the localization tool for KDE software and other free and open source software. It is also a general computer-aided translation system (CAT) with which you can translate OpenDocument files (*.odt). Translate-Toolkit is used internally to extract text for translation from .odt to .xliff files and to merge translation back into .odt file.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lokalize
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/lokalize/af6c28566edde78f1dd7d4f8e2bcc206/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/lokalize/af6c28566edde78f1dd7d4f8e2bcc206/screenshots/image-1_624x473@1.png
+    width: 1159
+    height: 879
+iconSources:
+  - url: org/kde/lokalize/af6c28566edde78f1dd7d4f8e2bcc206/icons/128x128/lokalize_lokalize.png
+    width: 128
+    height: 128
+homepage: "https://userbase.kde.org/Lokalize"
+enabled: true
+order: 99

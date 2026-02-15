@@ -1,0 +1,43 @@
+id: "gnome-subtitles"
+name: Gnome Subtitles
+description: Video subtitling for the GNOME desktop
+longDescription: |
+  <p>Gnome Subtitles is a subtitle editor for the GNOME desktop environment. It allows to create, synchronize, convert and translate subtitles by using a friendly user interface with video preview.</p>
+  <p>A total of 22 subtitle formats are supported, including but not limited to: SubRip, MicroDVD, FAB Subtitler, MPlayer, Sub Station Alpha, MPSub and SubViewer.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-subtitles
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - subtitles
+  - video
+screenshotSources:
+  - url: org/gnome/GnomeSubtitles.desktop/79098f5833114cc866fef2e088440bdf/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/GnomeSubtitles.desktop/79098f5833114cc866fef2e088440bdf/screenshots/image-1_624x420.png
+    width: 1011
+    height: 682
+iconSources:
+  - url: org/gnome/GnomeSubtitles.desktop/79098f5833114cc866fef2e088440bdf/icons/128x128/gnome-subtitles_gnome-subtitles.png
+    width: 128
+    height: 128
+homepage: "http://gnomesubtitles.org"
+enabled: true
+order: 99

@@ -1,0 +1,42 @@
+id: plakativ
+name: Plakativ
+description: Create large posters by printing and gluing together smaller pages
+longDescription: |
+  <p>
+   This program is for situations when you want to create a large poster or
+   banner but do not have a printer that supports large sheets of paper. Plakativ
+   allows one to enlarge and split a PDF across multiple pages, creating another
+   PDF with pages of the desired printable size. After printing, the pages can be
+   cut and glued together to form a larger poster.
+      </p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plakativ
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pdf
+  - poster
+iconSources:
+  - cached: plakativ_plakativ.png
+    width: 64
+    height: 64
+developer: Johannes Schauer
+homepage: "https://gitlab.mister-muffin.de/josch/plakativ"
+enabled: true
+order: 99

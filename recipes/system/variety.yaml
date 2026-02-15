@@ -1,0 +1,57 @@
+id: "variety"
+name: Variety
+description: Wallpaper changer that automatically downloads wallpapers
+longDescription: |
+  <p>Variety changes the desktop wallpaper on a regular basis, 
+          using user-specified or automatically downloaded images.</p>
+  <p>Variety sits conveniently as an indicator in the panel 
+          and can be easily paused and resumed. The mouse wheel 
+          can be used to scroll wallpapers back and forth until 
+          you find the perfect one for your current mood.</p>
+  <p>Apart from displaying images from local folders, several 
+          different online sources can be used to fetch wallpapers 
+          according to user-specified criteria.</p>
+  <p>Variety can also automatically apply various fancy 
+          filters to the displayed images - charcoal painting, 
+          oil painting, heavy blurring, etc. - so that your 
+          desktop is always fresh and unique.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - variety
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - wallpaper
+  - changer
+  - change
+  - download
+  - downloader
+  - variety
+iconSources:
+  - url: v/va/variety.desktop/f34af0ec687f56772868ef0b8a9ca325/icons/128x128/variety_variety.png
+    width: 128
+    height: 128
+homepage: "https://launchpad.net/variety"
+enabled: true
+order: 99

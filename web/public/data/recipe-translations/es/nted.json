@@ -1,0 +1,5 @@
+{
+  "name": "NtEd",
+  "description": "Editor de partituras musicales",
+  "longDescription": "<p>NtEd es un editor de partituras basado en GTK+. Está diseñado para ser realmente WYSIWYG: lo que ves en pantalla es exactamente lo que obtendrás al imprimir. Soporta hasta 4 voces por pentagrama, notas de percusión, 5 líneas de letra, N-tuplas, cambios de contexto, repeticiones con alternativas, instrumentos musicales configurables por pentagrama, importación MIDI/MusicXML, y exportación a PS, PDF, SVG, PNG, Lilypond y MIDI. Las partituras pueden reproducirse a través del secuenciador ALSA.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "GMastermind",
+  "description": "Implementación de GNUstep del juego Mastermind",
+  "longDescription": "<p>Arrastra y suelta los colores desde la paleta o desde el tablero. El objetivo es descubrir la combinación oculta de cuatro colores. El juego puede jugarse en dos modos: con reposición, lo que permite que los colores se repitan, y sin reposición, donde cada color es único. El usuario selecciona una combinación de cuatro colores y la \"confirma\". El programa responde con una evaluación: una clavija negra para cada color en la posición correcta, y una blanca para cada color que está en la combinación pero en la posición incorrecta. El usuario dispone de un total de ocho intentos.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Worker",
+  "description": "Manajer berkas untuk X.",
+  "longDescription": "<p>Worker adalah manajer berkas yang mirip dengan DirOpus di Amiga. Dapat dikendalikan menggunakan mouse maupun keyboard. Tidak ada batasan jumlah atau tipe fungsi tombol. Berkas dikenali baik dari ekstensi maupun isinya, isi berkas dikenali dengan memeriksa byte umum dari contoh berkas yang Anda tunjukkan. Dukungan Drag & Drop tersedia.</p>\n<p>Jika xli atau imagemagick terpasang, gambar dapat dipratinjau dengan cepat di panel seberang. Jika x11-utils terpasang, xmessage akan digunakan untuk menampilkan pesan informasi.</p>\n"
+}

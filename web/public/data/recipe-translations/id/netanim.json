@@ -1,0 +1,5 @@
+{
+  "name": "Network animator",
+  "description": "Animator jaringan berbasis Qt4 yang kompatibel dengan ns-3",
+  "longDescription": "<p>NetAnim saat ini menganimasikan simulasi menggunakan file jejak XML yang dikumpulkan selama proses simulasi.</p>\n<p>Pemakaian NetAnim terdiri dari dua tahap:   - Hasilkan file jejak animasi XML saat simulasi     menggunakan \"ns3::AnimationInterface\" di kode sumber ns-3   - Muat file XML yang dihasilkan pada Langkah 1 menggunakan     animator offline (NetAnim).</p>\n"
+}

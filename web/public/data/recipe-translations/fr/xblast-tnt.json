@@ -1,0 +1,5 @@
+{
+  "name": "XBlast-TNT",
+  "description": "Jeu multijoueur d'explosions inspiré de Dynablaster/Bomberman",
+  "longDescription": "<p>XBlast est un jeu d'arcade multijoueur inspiré du célèbre Bomberman (Dynablaster).</p>\n<p>Caractéristiques :   - 2 à 6 joueurs   - 1 ou 2 joueurs par serveur X (jusqu'à 6 avec des joysticks)   - environ 1000 niveaux   - une vingtaine de modèles de joueurs   - graphismes couleur rendus avec PoV-Ray   - support serveur centralisé avec statistiques</p>\n<p>Pour héberger des parties, il faut installer le paquet xblast-tnt-levels ; le paquet xblast-tnt-sounds permet d'activer les sons. Le paquet xblast-tnt-musics contient des musiques d'ambiance, si vous le souhaitez.</p>\n"
+}

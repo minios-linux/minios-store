@@ -1,0 +1,5 @@
+{
+  "name": "Aeolus",
+  "description": "Emulador de órgano",
+  "longDescription": "<p>Aeolus es un emulador de órgano de tubos sintetizado (no por muestreo) diseñado para ofrecer una experiencia satisfactoria a organistas. Es un sintetizador de software optimizado específicamente para esta tarea, con posiblemente cientos de controles por cada registro, que permiten al usuario \"entonar\" su instrumento.</p>\n<p>Características principales del instrumento por defecto: tres teclados manuales y un pedal, cinco temperamentos diferentes, afinación variable, control MIDI por supuesto, salida estéreo, surround o Ambisonics, y controles de audio flexibles, incluyendo una gran reverberación de iglesia.</p>\n<p>Aeolus no consume muchos recursos del CPU y debería funcionar sin problemas en, por ejemplo, una máquina de 1GHz con 256Mb de RAM.</p>\n"
+}

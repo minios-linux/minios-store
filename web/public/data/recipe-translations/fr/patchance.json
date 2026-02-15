@@ -1,0 +1,5 @@
+{
+  "name": "Patchance",
+  "description": "Patchbay pour JACK",
+  "longDescription": "<p>Patchance est une interface graphique supplémentaire pour le patchbay JACK sous GNU/Linux, pouvant également être adaptée à Mac et Windows avec peu d'efforts. Il constitue une alternative directe à Catia ou Patchage.</p>\n<p>Fonctionnalités : - Détection stéréo pour regrouper les ports par nom, facilitant les connexions et la lisibilité - Enrouler/Dérouler les boîtes pour masquer ce dont vous n'avez pas besoin - Empêche le chevauchement des boîtes - Recherche d'une boîte par motif - Connexion par double-clic pour une utilisation plus aisée avec un touchpad - Connexion via le menu contextuel - Thèmes éditables (9 thèmes intégrés) - Affichage uniquement des ports Audio, MIDI ou CV - Contrôles de transport - Barre d’outils personnalisable - et bien d'autres encore...</p>\n"
+}

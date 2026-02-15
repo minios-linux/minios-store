@@ -1,0 +1,35 @@
+id: gfsview
+name: GfsView 2D
+description: View Gerris 2D simulations
+longDescription: |
+  <p>Gerris is a system for the solution of the partial differential equations describing fluid flow.</p>
+  <p>GfsView displays the results of 2D and 3D Gerris simulations. A brief summary of its main features:</p>
+  <p>   * Scalar and vector cross-sections.    * Isosurfaces.    * Streamlines.    * User-defined functions.    * Fast adaptive display (using the multiresolution data      representation of Gerris).    * Scriptable.    * Offline image generation.    * Quality PostScript, PDF and bitmap outputs.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gfsview
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: gfsview_application-gerris.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

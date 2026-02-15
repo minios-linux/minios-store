@@ -1,0 +1,5 @@
+{
+  "name": "gtk-gnutella",
+  "description": "Akses jaringan Gnutella dan G2 melalui servent ini",
+  "longDescription": "<p>gtk-gnutella memungkinkan Anda bergabung dengan jaringan Gnutella dan G2 untuk mencari, berbagi, dan mengunduh berkas.</p>\n<p>Setelah terhubung ke jaringan, ketik kata kunci di area pencarian untuk mencari berkas yang dibagikan di jaringan sesuai nama yang Anda masukkan. Anda kemudian dapat mengklik entri tersebut dan mencoba mengunduhnya.</p>\n<p>gtk-gnutella kompatibel dengan semua servent Gnutella dari vendor lain; aplikasi ini akan terhubung ke jaringan yang sama dan bertukar data dengan mulus.</p>\n<p>Fitur unggulan:</p>\n<ul>\n  <li>Dukungan TLS untuk koneksi Gnutella dan HTTP</li>\n  <li>Dukungan UPnP dan NAT-PMP untuk otomatisasi port forwarding</li>\n  <li>Distributed Hash Table (DHT) untuk menemukan lokasi alternatif dan push-proxy</li>\n  <li>Mesin pemfilteran yang canggih</li>\n</ul>\n"
+}

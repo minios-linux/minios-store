@@ -1,0 +1,5 @@
+{
+  "name": "eXaDrums",
+  "description": "Módulo de bateria para Linux.",
+  "longDescription": "<p>O eXaDrums é um módulo virtual de bateria que permite aos bateristas tocarem com kits de bateria personalizados.</p>\n<p>É fácil de usar e combina som estéreo de alta qualidade com baixa latência.</p>\n<p>Cada kit de bateria possui controles individuais de volume para cada pad.</p>\n<p>Um metrônomo integrado pode ser combinado com um treinador de ritmo para tornar as sessões de prática mais fáceis e eficientes.</p>\n<p>Os triggers podem ser ajustados para que a resposta seja o mais natural possível, e diferentes interfaces de sensores incluem um multi pad virtual (na tela) e sensores externos.</p>\n<p>Embora o eXaDrums possa ser utilizado como um módulo de bateria, ainda é um projeto experimental. Por isso, alguns recursos ainda não estão implementados e o gerenciamento de erros não está completo.</p>\n<p>Este pacote fornece a interface gráfica do usuário.</p>\n"
+}

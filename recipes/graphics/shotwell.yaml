@@ -1,0 +1,78 @@
+id: "shotwell"
+name: Shotwell
+description: Popular photo manager
+longDescription: |
+  <p>Shotwell is an easy-to-use, fast photo organizer designed for the GNOME desktop.
+        It allows you to import photos from your camera or disk, organize them by date and subject
+        matter, even ratings.  It also offers basic photo editing, like crop, red-eye correction,
+        color adjustments, and straighten.  Shotwell’s non-destructive photo editor does not alter
+        your master photos, making it easy to experiment and correct errors.</p>
+  <p>When ready, Shotwell can upload your photos to various web sites, such as Facebook, Flickr,
+        Picasa (Google Plus), and more.</p>
+  <p>Shotwell supports JPEG, PNG, TIFF, and a variety of RAW file formats.</p>
+  
+categoryId: graphics
+icon: Camera
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - shotwell
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - album
+  - camera
+  - cameras
+  - crop
+  - edit
+  - enhance
+  - export
+  - gallery
+  - image
+  - images
+screenshotSources:
+  - url: org/gnome/Shotwell.desktop/d7b635147406619fefd43e5a0c21e88d/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Shotwell.desktop/d7b635147406619fefd43e5a0c21e88d/screenshots/image-1_624x339@1.png
+    width: 1382
+    height: 752
+  - url: org/gnome/Shotwell.desktop/d7b635147406619fefd43e5a0c21e88d/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Shotwell.desktop/d7b635147406619fefd43e5a0c21e88d/screenshots/image-2_624x339@1.png
+    width: 1382
+    height: 752
+  - url: org/gnome/Shotwell.desktop/d7b635147406619fefd43e5a0c21e88d/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Shotwell.desktop/d7b635147406619fefd43e5a0c21e88d/screenshots/image-3_624x350@1.png
+    width: 1275
+    height: 717
+  - url: org/gnome/Shotwell.desktop/d7b635147406619fefd43e5a0c21e88d/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Shotwell.desktop/d7b635147406619fefd43e5a0c21e88d/screenshots/image-4_624x350@1.png
+    width: 1019
+    height: 573
+  - url: org/gnome/Shotwell.desktop/d7b635147406619fefd43e5a0c21e88d/screenshots/image-5_orig.png
+    thumbnailUrl: org/gnome/Shotwell.desktop/d7b635147406619fefd43e5a0c21e88d/screenshots/image-5_624x350@1.png
+    width: 1067
+    height: 600
+iconSources:
+  - url: org/gnome/Shotwell.desktop/d7b635147406619fefd43e5a0c21e88d/icons/128x128/shotwell_org.gnome.Shotwell.png
+    width: 128
+    height: 128
+developer: The Shotwell developers
+homepage: "https://wiki.gnome.org/Apps/Shotwell"
+enabled: true
+order: 99

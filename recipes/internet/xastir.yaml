@@ -1,0 +1,27 @@
+id: xastir
+name: Xastir
+description: X Amateur Station Tracking and Information Reporting
+longDescription: |
+  <p>Xastir is an APRS client for X. APRS is the Automatic Position Reporting System, a system where objects report their position (usually obtained from GPS) on the air; Xastir displays this information graphically.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xastir
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - aprs
+  - ax.25
+  - hamradio
+iconSources:
+  - cached: xastir_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

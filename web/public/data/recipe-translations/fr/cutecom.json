@@ -1,0 +1,5 @@
+{
+  "name": "CuteCom",
+  "description": "Un terminal série avec interface graphique",
+  "longDescription": "<p>CuteCom est un terminal série graphique, similaire à minicom. Il s'adresse principalement aux développeurs hardware ou à toute personne ayant besoin d'un terminal pour communiquer avec ses appareils. Il propose une interface orientée ligne plutôt que caractère par caractère, prend en charge les protocoles xmodem, ymodem et zmodem (le paquet lrzsz est requis), ainsi que la saisie et l’affichage en hexadécimal, entre autres fonctionnalités. L’application est développée avec la bibliothèque Qt, initialement créée par Trolltech (www.trolltech.com).</p>\n"
+}

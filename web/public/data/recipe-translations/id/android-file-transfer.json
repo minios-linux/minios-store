@@ -1,0 +1,5 @@
+{
+  "name": "Android File Transfer",
+  "description": "Klien MTP interaktif dengan antarmuka grafis Qt4/Qt5",
+  "longDescription": "<p>- Antarmuka Qt yang sederhana dengan dialog progres.<br>- Pembungkus FUSE (bagi yang ingin melakukan mount perangkat), mendukung baca/tulis parsial agar akses file langsung.<br>- Tanpa batasan ukuran file.<br>- Otomatis mengganti nama sampul album agar terlihat di pemutar media.<br>- Tanpa dependensi tambahan (misal: libptp/libmtp).<br>- Tersedia sebagai library statis/berbagi.<br>- Alat CLI yang sederhana.</p>\n"
+}

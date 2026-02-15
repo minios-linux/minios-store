@@ -1,0 +1,5 @@
+{
+  "name": "Tremotesf",
+  "description": "GUI jarak jauh untuk klien Transmission BitTorrent",
+  "longDescription": "<p>\n      Tremotesf adalah antarmuka grafis jarak jauh (remote GUI) untuk klien Transmission BitTorrent. Anda dapat sepenuhnya mengendalikan instance transmission-daemon,\n      mengelola torrent, mengatur preferensi Transmission, dan melihat statistik server.\n    </p>\n<p>\n      Anda dapat menambahkan beberapa profil server dan beralih di antara mereka (hanya satu yang dapat terhubung dalam satu waktu).\n      Tremotesf mendukung HTTPS, termasuk sertifikat self-signed dan autentikasi sertifikat klien.\n      Anda dapat menentukan direktori yang dipasang untuk server dan dengan cepat membuka file torrent serta memilih direktori unduhan\n      melalui dialog file.\n    </p>\n"
+}

@@ -1,0 +1,47 @@
+id: "kubrick"
+name: Kubrick
+description: 3-D Game based on Rubik's Cube
+longDescription: |
+  <p>Kubrick is a game based on the Rubik&apos;s Cube™ puzzle. The cube sizes range
+        from 2x2x2 up to 6x6x6, or you can play with irregular &quot;bricks&quot; such as 5x3x2
+        or &quot;mats&quot; such as 6x4x1 or 2x2x1. The game has a selection of puzzles at
+        several levels of difficulty, as well as demos of pretty patterns and
+        solution moves, or you can make up your own puzzles.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kubrick
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kubrick/1b86aa926028a4a55abb214146f5f250/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kubrick/1b86aa926028a4a55abb214146f5f250/screenshots/image-1_624x510@1.png
+    width: 835
+    height: 683
+iconSources:
+  - url: org/kde/kubrick/1b86aa926028a4a55abb214146f5f250/icons/128x128/kubrick_kubrick.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kubrick"
+enabled: true
+order: 99

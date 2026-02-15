@@ -1,0 +1,5 @@
+{
+  "name": "µHOPE",
+  "description": "Sistem pemrograman mikrokontroler MicroHOPE",
+  "longDescription": "<p>Paket ini menyediakan kumpulan program contoh untuk mengoperasikan mikrokontroler ATmega32, beserta tutorial yang menjelaskan cara mengompilasi, mengunggah ke mikrokontroler, serta membuat modifikasi sederhana hingga yang lebih kompleks. Paket ini dirancang untuk digunakan bersama papan \"microhope\", yang memudahkan pengunggahan kode ke mikrokontroler melalui koneksi USB.</p>\n<p>Selain contoh program, tersedia juga pustaka untuk mengendalikan semua periferal yang terdapat pada papan \"microhope\": LED, layar LCD, dan ADC yang terhubung ke sensor.</p>\n<p>Antarmuka Grafis Pengguna (GUI) juga disediakan.</p>\n"
+}

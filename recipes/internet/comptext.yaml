@@ -1,0 +1,40 @@
+id: comptext
+name: comptext
+description: Amateur Radio Communications
+longDescription: |
+  <p>Comptext is used to compare two text streams.  It&apos;s comparison function uses a linear-programming technique. It computes total number of errors, the character error rate (CER) and the bit error rate (BER).</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - comptext
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - hamradio
+  - text stream comparison
+iconSources:
+  - cached: comptext_comptext.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

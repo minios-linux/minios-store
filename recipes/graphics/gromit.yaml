@@ -1,0 +1,39 @@
+id: "gromit"
+name: gromit
+description: draw freehand screen annotations
+longDescription: |
+  <p>Gromit enables you to make annotations on your screen.</p>
+  <p>This is especially useful when making presentations, to highlight things or point out things of interest.</p>
+  <p>Gromit is XInput-Aware, so if you have a graphic tablet you can draw lines with different strength, color, erase things, etc.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gromit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gr/gromit.desktop/5d8b828c65824b60ba002eed35d9828b/icons/128x128/gromit_gromit.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

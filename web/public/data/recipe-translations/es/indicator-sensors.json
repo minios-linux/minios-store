@@ -1,0 +1,5 @@
+{
+  "name": "Hardware Sensors Indicator",
+  "description": "Muestra lecturas de sensores de temperatura, ventiladores y voltaje en el panel de tu escritorio",
+  "longDescription": "<p>\n      Hardware Sensors Indicator muestra lecturas de sensores de temperatura, ventiladores y voltaje\n      directamente en el panel de tu escritorio.\n    </p>\n<p>\n      Si utilizas GNOME Shell, se requiere una extensión para visualizar las lecturas de los sensores en el panel superior. Por ello, se recomienda instalar la extensión KStatusNotifierItem/AppIndicator Support\n      https://extensions.gnome.org/extension/615/appindicator-support/, o la extensión Hardware Sensors Indicator\n      https://extensions.gnome.org/extension/336/hardware-sensors-indicator/\n      para que las lecturas sean visibles.\n      </p>\n"
+}

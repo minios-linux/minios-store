@@ -1,0 +1,43 @@
+id: biloba
+name: Biloba
+description: Up to four player network capable turn based strategy board game
+longDescription: |
+  <p>Biloba is an abstract strategy board game for 1 to 4 players. At each turn the player moves pawns on an octagonal shaped board (but squared cells) trying to remove opponent&apos;s pawns from it.</p>
+  <p>Biloba includes an AI opponent for single player mode, and supports local or network play for 2 or more (up to 4) players.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - biloba
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - abstract
+  - strategy
+  - turn-based
+  - multiplayer
+iconSources:
+  - cached: biloba_biloba.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "MDFinder",
+  "description": "GNUstep Finder dan sistem pencarian desktop",
+  "longDescription": "<p>MDFinder adalah aplikasi untuk mencari berkas yang telah diindeks oleh sistem pengindeks GWMetadata, yaitu implementasi GNUstep dari Spotlight milik MacOS X. Pencarian dapat disimpan dan akan otomatis diperbarui jika berkas terkait berubah. Proses pengindeksan berjalan di latar belakang dan secara default tidak diaktifkan. Untuk mengaktifkan serta mengatur jalur pencarian, gunakan modul khusus di aplikasi SystemPreferences.</p>\n"
+}

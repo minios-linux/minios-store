@@ -1,0 +1,66 @@
+id: "foliate"
+name: Foliate
+description: A simple and modern eBook viewer
+longDescription: |
+  <p>Foliate is a simple and modern GTK eBook viewer.</p>
+  <p>Features include:</p>
+  <ul>
+    <li>Two-page view and scrolled view</li>
+    <li>Customize font and line-spacing</li>
+    <li>Light, sepia, dark, and invert mode</li>
+    <li>Reading progress slider with chapter marks</li>
+    <li>Bookmarks and annotations</li>
+    <li>Find in book</li>
+    <li>Quick dictionary lookup</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - foliate
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ebook
+  - book
+  - epub
+  - viewer
+  - reader
+screenshotSources:
+  - url: com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/screenshots/image-1_624x397@1.png
+    width: 2644
+    height: 1684
+  - url: com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/screenshots/image-2_624x397@1.png
+    width: 2644
+    height: 1684
+  - url: com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/screenshots/image-3_624x397@1.png
+    width: 2644
+    height: 1684
+  - url: com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/screenshots/image-4_624x397@1.png
+    width: 2644
+    height: 1684
+  - url: com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/screenshots/image-5_orig.png
+    thumbnailUrl: com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/screenshots/image-5_624x397@1.png
+    width: 2644
+    height: 1684
+iconSources:
+  - url: com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/icons/128x128/foliate_com.github.johnfactotum.Foliate.png
+    width: 128
+    height: 128
+developer: John Factotum
+homepage: "https://johnfactotum.github.io/foliate/"
+enabled: true
+order: 99

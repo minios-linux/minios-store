@@ -1,0 +1,5 @@
+{
+  "name": "guitarix",
+  "description": "Einfache Mono-Verstärkersimulation",
+  "longDescription": "<p>Guitarix ist ein Rock-Gitarrenverstärker für das Jack Audio Connection Kit mit einem Eingang und zwei Ausgängen. Es bietet einen JACK-Eingangsport und zwei JACK-Ausgangsports. Guitarix ist darauf ausgelegt, charakteristische Trash-, Metal-, Rock- und Blues-Gitarrensounds zu erzeugen. Regler für Bass, Höhen, Gain, Kompressor, Röhrenauswahl, Verzerrung, Flanger, Freeverb, Crybaby (Wah) usw. sind vorhanden.</p>\n<p>Guitarix wird mit einer GTK+-Oberfläche sowie als Ladspa- und LV2-Plugin ausgeliefert.</p>\n"
+}

@@ -1,0 +1,29 @@
+id: riseup-vpn
+name: Riseup-vpn
+description: Anonymous VPN
+longDescription: |
+  <p>Riseup offers Personal VPN service for censorship circumvention, location anonymization and traffic encryption. To make this possible, it sends all user&apos;s internet traffic through an encrypted connection to riseup.net, where it then goes out onto the public internet.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - riseup-vpn
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - vpn,leap
+iconSources:
+  - cached: riseup-vpn_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,29 @@
+id: qwinff
+name: QWinFF
+description: Convert between media file formats
+longDescription: |
+  <p>This is a free and open source media converter frontend to FFmpeg. FFmpeg is a powerful command-line utility to convert audio and video file into numerous formats. QWinFF features a rich set of presets to help users use FFmpeg easily without having to manually input command-line flags. Average users can convert multiple media files in just a few clicks, while advanced users can still adjust conversion parameters in detail.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qwinff
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qwinff_qwinff.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

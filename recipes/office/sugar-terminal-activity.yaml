@@ -1,0 +1,37 @@
+id: sugar-terminal-activity
+name: Terminal
+description: Here you have complete control over your computer. You are in charge!!
+longDescription: |
+  <p>Sugar Learning Platform promotes collaborative learning through Sugar Activities that encourage critical thinking, the heart of a quality education.  Designed from the ground up especially for children, Sugar offers an alternative to traditional “office-desktop” software.</p>
+  <p>Learner applications in Sugar are called Activities.  They are software packages that automatically save your work - producing specific instances of the Activity that can be resumed at a later time.  Many Activities support learner collaboration, where multiple learners may be invited to join a collective Activity session.</p>
+  <p>Terminal provides a Bash shell command line, with access to all of the usual cryptic Unix commands, which are generally considered beyond the capabilities of elementary-school children. However, there are always exceptions.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sugar-terminal-activity
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: sugar-terminal-activity_activity-terminal.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

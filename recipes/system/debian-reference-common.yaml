@@ -1,0 +1,47 @@
+id: debian-reference-common
+name: Debian Reference
+description: Debian Reference Guide
+longDescription: |
+  <p>This Debian Reference is intended to provide a broad overview of the Debian system as a post-installation user&apos;s guide. It covers many aspects of system administration through shell-command examples for non-developers.</p>
+  <p>This provides menu functionality and other common files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - debian-reference-common
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - user
+  - shell
+  - command
+  - documentation
+  - manual
+  - help
+  - guide
+  - debian
+iconSources:
+  - cached: debian-reference-common_debian-reference.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

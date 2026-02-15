@@ -1,0 +1,5 @@
+{
+  "name": "shp2pgsql-gui",
+  "description": "Impor shapefile ke dalam basis data PostGIS",
+  "longDescription": "<p>PostGIS menambahkan dukungan untuk objek geografis pada basis data objek-relasional PostgreSQL. Dengan demikian, PostGIS \"mengaktifkan fitur spasial\" pada server PostgreSQL, sehingga dapat digunakan sebagai basis data spasial backend untuk sistem informasi geografis (GIS), mirip seperti SDE dari ESRI atau ekstensi Spatial pada Oracle. PostGIS mengikuti standar OpenGIS \"Simple Features Specification for SQL\".</p>\n<p>Paket ini berisi alat grafis pemuat shapefile PostGIS, yaitu shp2pgsql-gui.</p>\n"
+}

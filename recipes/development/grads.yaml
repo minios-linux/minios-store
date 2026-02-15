@@ -1,0 +1,40 @@
+id: grads
+name: GraDS - Grid Analysis and Display System
+description: Weather data analysis and visualization
+longDescription: |
+  <p>The Grid Analysis and Display System (GrADS) is an interactive desktop tool that is used for easy access, manipulation, and visualization of earth science data. The format of the data may be either binary, GRIB, NetCDF, or HDF-SDS (Scientific Data Sets). GrADS has been implemented worldwide on a variety of commonly used operating systems and is freely distributed over the Internet.</p>
+  <p>GrADS uses a 4-Dimensional data environment: longitude, latitude, vertical level, and time. Data sets are placed within the 4-D space by use of a data descriptor file. GrADS interprets station data as well as gridded data, and the grids may be regular, non-linearly spaced, gaussian, or of variable resolution. Data from different data sets may be graphically overlaid, with correct spatial and time registration. Operations are executed interactively by entering FORTRAN-like expressions at the command line. A rich set of built-in functions are provided, but users may also add their own functions as external routines written in any programming language.</p>
+  <p>Data may be displayed using a variety of graphical techniques: line and bar graphs, scatter plots, smoothed contours, shaded contours, streamlines, wind vectors, grid boxes, shaded grid boxes, and station model plots. Graphics may be output in PostScript or image formats. GrADS provides geophysically intuitive defaults, but the user has the option to control all aspects of graphics output.</p>
+  <p>GrADS has a programmable interface (scripting language) that allows for sophisticated analysis and display applications. Use scripts to display buttons and dropmenus as well as graphics, and then take action based on user point-and-clicks. GrADS can be run in batch mode, and the scripting language facilitates using GrADS to do long overnight batch jobs.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - grads
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: grads_grads.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

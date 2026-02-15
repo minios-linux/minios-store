@@ -1,0 +1,37 @@
+id: klog
+name: KLog
+description: The free ham radio logging multiplatform program
+longDescription: |
+  <p>This package provides a ham radio logging program. This application supports logging for HF, VHF and sats operations. It supports many features like QSL, DXCC, IOTA, WAZ and awards. KLog produces ADIF as default file format. This application also includes a DX-Cluster client fully integrated into the main interface and is also integrated with WSJT-X. KLog can run in Linux, OSX &amp; Windows systems.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - klog
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - hamradio
+  - logger
+  - ham
+  - amateur
+  - log
+iconSources:
+  - cached: klog_klog.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

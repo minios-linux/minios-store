@@ -1,0 +1,26 @@
+id: vala-terminal
+name: Terminal
+description: Command Line Interface
+longDescription: |
+  <p>vala-terminal is terminal program based on libvte and written in Vala. It was designed with mobile devices in mind.</p>
+  <p>This package is part of the freesmartphone.org software stack and it is targeted for smartphones.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vala-terminal
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - terminal
+iconSources:
+  - cached: vala-terminal_vala-terminal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

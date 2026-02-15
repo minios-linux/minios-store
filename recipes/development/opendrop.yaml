@@ -1,0 +1,36 @@
+id: opendrop
+name: OpenDrop
+description: fully-featured pendant drop tensiometry software
+longDescription: |
+  <p>OpenDrop is a fully-featured pendant drop tensiometry software, allowing acquisition, analysis and fitting of pendant drop profiles to obtain surface and interfacial tension. OpenDrop also includes functionality for measuring sessile drop contact angles.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - opendrop
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - surface tension
+  - contact angle
+  - interfacial tension
+  - pendant drop
+iconSources:
+  - cached: opendrop_opendrop.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

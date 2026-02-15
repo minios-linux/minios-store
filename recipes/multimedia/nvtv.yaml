@@ -1,0 +1,31 @@
+id: nvtv
+name: Nvtv TV Out
+description: Control the TV output of NVidia video cards
+longDescription: |
+  <p>This is a program to control the TV encoder chips on NVidia cards under Linux, in order to get tv-out with a wide range of resolutions and sizes, including &quot;overscan&quot; modes. It does even work with the free nv drivers.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nvtv
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: nvtv_nvtv.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

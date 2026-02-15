@@ -1,0 +1,52 @@
+id: "pineapple-pictures"
+name: Pineapple Pictures
+description: Image Viewer
+longDescription: |
+  <p>Pineapple Pictures is a lightweight and easy to use image viewer, comes with a handy navigation thumbnail when zoom-in, and doesn't contains any image management support.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pineapple-pictures
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - picture
+  - image
+  - viewer
+  - jpg
+  - jpeg
+  - png
+screenshotSources:
+  - url: net/blumia/pineapple-pictures/ae919817c1b23357916716ee0f906945/screenshots/image-1_orig.png
+    thumbnailUrl: net/blumia/pineapple-pictures/ae919817c1b23357916716ee0f906945/screenshots/image-1_624x379@1.png
+    width: 1053
+    height: 640
+  - url: net/blumia/pineapple-pictures/ae919817c1b23357916716ee0f906945/screenshots/image-2_orig.png
+    thumbnailUrl: net/blumia/pineapple-pictures/ae919817c1b23357916716ee0f906945/screenshots/image-2_624x447@1.png
+    width: 771
+    height: 553
+  - url: net/blumia/pineapple-pictures/ae919817c1b23357916716ee0f906945/screenshots/image-3_orig.png
+    thumbnailUrl: net/blumia/pineapple-pictures/ae919817c1b23357916716ee0f906945/screenshots/image-3_624x447@1.png
+    width: 771
+    height: 553
+iconSources:
+  - url: net/blumia/pineapple-pictures/ae919817c1b23357916716ee0f906945/icons/128x128/pineapple-pictures_net.blumia.pineapple-pictures.png
+    width: 128
+    height: 128
+homepage: "https://github.com/BLumia/pineapple-pictures"
+enabled: true
+order: 99

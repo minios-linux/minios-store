@@ -1,0 +1,5 @@
+{
+  "name": "Ebumeter",
+  "description": "Pengukur tingkat kebisingan sesuai EBU-R128 untuk JACK",
+  "longDescription": "<p>Alat-alat ini membantu mengontrol tingkat kebisingan materi audio yang ditujukan terutama untuk penyiaran, namun juga berguna untuk kebutuhan lainnya.</p>\n<p>ebumeter dan ebur128 memungkinkan pengguna mengukur Loudness Momentary (400 ms), Short Term (3 detik), dan Integrated Loudness (dari awal hingga akhir). Aplikasi ini dapat digunakan untuk berkas audio maupun sinyal melalui JACK.</p>\n<p>Paket ini berisi dua program:   * ebumeter - pengukur interaktif yang bekerja melalui jackd   * ebur128 - aplikasi command line untuk mengukur berkas suara</p>\n"
+}

@@ -1,0 +1,30 @@
+id: deepin-screenshot
+name: Deepin Screenshot
+description: Screen capturing application
+longDescription: |
+  <p>Deepin screenshot is an andvanced tool to make screenshots on Linux desktop environment. It has a user-friendly UI which eases cropping and saving of screenshot.</p>
+  <p>This package is part of DDE (Deepin Desktop Environment).</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deepin-screenshot
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: d/de/deepin-screenshot.desktop/7CA80820D25BBFB662B8633AF9A32C87/icons/128x128/deepin-screenshot_deepin-screenshot.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

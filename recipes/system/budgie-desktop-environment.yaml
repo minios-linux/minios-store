@@ -1,0 +1,29 @@
+id: "budgie-desktop-environment"
+name: Plank Preferences
+description: Stupidly simple.
+longDescription: |
+  <p>Installs all Ubuntu Budgie packages, both essential dependencies as well as recommended packages and applications. Installs:   Ubuntu Budgie panel configuration   plank dock customisation   gsettings overrides</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - budgie-desktop-environment
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: n/ne/nemo.desktop/c62d8c203c89c82b066c697e5369ef22/icons/128x128/budgie-desktop-environment_org.gnome.Nautilus.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

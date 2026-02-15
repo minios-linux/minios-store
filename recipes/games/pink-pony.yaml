@@ -1,0 +1,38 @@
+id: pink-pony
+name: Pink Pony
+description: A Tron-like multiplayer racing game
+longDescription: |
+  <p>Pink Pony is a Tron­-like multiplayer racing­ game. You control little ponies that leave a trail of flowers everywhere they step. You have to evade these trails and force other ponies into them. The last pony standing wins the game.</p>
+  <p>OpenGL 2.0 is needed for Pink Pony to work.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pink-pony
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pink-pony_pink-pony.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

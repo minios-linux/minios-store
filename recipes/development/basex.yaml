@@ -1,0 +1,44 @@
+id: "basex"
+name: BaseX XML Database
+description: Visually query and analyse your XML data
+longDescription: |
+  <p>BaseX is a very fast and light-weight, yet powerful XML database and XPath/XQuery processor, including support for the latest W3C Full Text and Update Recommendations. It supports large XML instances and offers a highly interactive front-end (basexgui). Apart from two local standalone modes, BaseX offers a client/server architecture.</p>
+  <p>The package provides following commands:  * basex  ..........  Standalone local XML database. Command line interface.  * basexgui  .......  Standalone local XML database. Graphical user interface.  * basexserver  ....  BaseX XML Database Server.  * basexclient  ....  BaseX XML Database Client. BaseX XML database and XPath/XQuery processor</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - basex
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - database
+  - xquery
+  - xpath
+  - xml
+  - information processing
+iconSources:
+  - url: b/ba/basexgui.desktop/513c03090309cc81f2f9b0915710b84d/icons/128x128/basex_basex.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

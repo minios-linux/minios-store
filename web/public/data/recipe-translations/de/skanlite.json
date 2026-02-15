@@ -1,0 +1,5 @@
+{
+  "name": "Skanlite",
+  "description": "Bildscanner-Anwendung",
+  "longDescription": "<p>Skanlite ist eine einfache Anwendung zum Scannen und Speichern von Bildern.<br>Skanlite basiert auf libksane, einer Schnittstelle zur SANE-Bibliothek zur Steuerung von Bildscannern.</p><p>Funktionen:</p><ul><li>Speicher-Dialog für jedes gescannte Bild oder sofortiges Speichern in einem festgelegten Ordner mit automatisch generierten Namen und Formaten</li><li>Unterstützung von Netzwerkscannern</li><li>Vorschau mit Auswahlmöglichkeit für den finalen Scan</li><li>Scannen mehrerer Bildbereiche in einem Durchgang</li></ul>"
+}

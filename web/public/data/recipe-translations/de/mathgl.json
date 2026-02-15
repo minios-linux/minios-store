@@ -1,0 +1,5 @@
+{
+  "name": "mgllab",
+  "description": "Werkzeug zur Datenverarbeitung und -visualisierung",
+  "longDescription": "<p>Eine kostenlose, plattformübergreifende Bibliothek mit schnellen C++-Routinen zur Visualisierung von Daten in bis zu drei Dimensionen. Diagramme können in Bitmap- und Vektorformate wie EPS, SVG und IDTF exportiert werden. Es stehen einfache Fensteroberflächen auf Basis von GLUT, FLTK und/oder Qt zur Verfügung. MathGL lässt sich auch in der Konsole verwenden. Es existieren Schnittstellen zu verschiedenen Programmiersprachen, darunter C, Fortran, Pascal, Forth, Python und Octave.</p>\n<p>Dieses Paket enthält die MathGL-Tools und Beispiele.</p>\n"
+}

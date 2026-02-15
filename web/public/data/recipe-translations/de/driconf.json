@@ -1,0 +1,5 @@
+{
+  "name": "3D-Beschleunigung",
+  "description": "3D-Beschleunigungsoptionen ändern",
+  "longDescription": "<p>Driconf ist ein Konfigurations-Applet für die Direct Rendering Infrastructure (DRI). Damit lassen sich Leistungs- und Qualitätsoptionen von OpenGL-Treibern gezielt pro Treiber, Bildschirm und/oder Anwendung anpassen.</p>\n<p>Driconf ist in Python implementiert und nutzt die GTK+-Toolkit-Bindings sowie das Programm xdriinfo (aus dem Paket xdriinfo oder xbase-clients), um Konfigurationsdaten von OpenGL-Treibern auszulesen.</p>\n"
+}

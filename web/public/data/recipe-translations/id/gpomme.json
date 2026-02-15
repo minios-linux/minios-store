@@ -1,0 +1,5 @@
+{
+  "name": "Antarmuka Konfigurasi GTK pommed",
+  "description": "Klien grafis untuk pommed (antarmuka konfigurasi)",
+  "longDescription": "<p>pommed menangani tombol pintas (hotkey) pada laptop Apple MacBook Pro, MacBook Air, MacBook, PowerBook, dan iBook, serta mengatur tingkat kecerahan layar LCD, volume suara, lampu latar keyboard, atau mengeluarkan CD-ROM sesuai kebutuhan.</p>\n<p>gpomme adalah klien grafis untuk pommed. Aplikasi ini mendengarkan sinyal yang dikirim oleh pommed melalui D-Bus dan menampilkan aksi yang dilakukan pommed beserta status saat ini dari aksi tersebut.</p>\n"
+}

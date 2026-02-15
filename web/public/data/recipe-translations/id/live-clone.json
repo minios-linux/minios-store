@@ -1,0 +1,5 @@
+{
+  "name": "Live Clone",
+  "description": "Kloning media Live-Boot",
+  "longDescription": "<p>Aplikasi ini memungkinkan Anda membuat USB bootable dari citra iso-hybrid yang dihasilkan oleh Live-Build. Selain itu, aplikasi ini mengadaptasi partisi persistensi untuk memanfaatkan ruang kosong di USB tersebut.</p>\n<p>Dilengkapi juga dengan alat manajemen untuk USB live: ketika USB live digunakan secara rutin, sering kali terjadi ketidakkonsistenan di area persistensi yang dapat membuat USB tidak dapat digunakan. Disediakan alat untuk menyimpan data persistensi jika diperlukan, serta mengosongkan area persistensi agar USB dapat dipakai kembali.</p>\n<p>Aplikasi ini dapat mendeteksi jika dijalankan dari lingkungan Debian-Live, sehingga proses kloning otomatis dapat berjalan dengan mulus.</p>\n"
+}

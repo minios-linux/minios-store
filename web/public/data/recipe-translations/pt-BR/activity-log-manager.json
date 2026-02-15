@@ -1,0 +1,5 @@
+{
+  "name": "Segurança e Privacidade",
+  "description": "Gerenciador de Privacidade e Atividades",
+  "longDescription": "<p>Zeitgeist é um serviço que registra as atividades e eventos do usuário (arquivos abertos, sites visitados, conversas realizadas com outras pessoas etc.) e disponibiliza essas informações relevantes para outros aplicativos.</p>\n<p>Funciona como um registro abrangente de atividades e permite também identificar relações entre itens com base nos padrões de uso.</p>\n<p>Este pacote inclui o Gerenciador de Registro de Atividades, uma interface gráfica que possibilita controlar o que é registrado pelo Zeitgeist. Permite criar listas de bloqueio (blacklists) por diversos critérios (como tipo de aplicação ou arquivo), pausar temporariamente todo o registro de atividades e excluir eventos recentes.</p>\n"
+}

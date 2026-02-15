@@ -1,0 +1,48 @@
+id: "kaidan"
+name: Kaidan
+description: "Kaidan, a simple and user-friendly Jabber/XMPP client for every device and platform"
+longDescription: |
+  <p>Kaidan is a simple, user-friendly Jabber/XMPP client providing a modern user-interface using Kirigami and  QtQuick. The back-end of Kaidan is entirely written in C++ using the qxmpp XMPP client library and Qt 5.</p>
+  <p>Kaidan is not finished yet, so don’t expect it working as well as a finished client will do.</p>
+  <p>For a list of supported XEPs, have a look at the Wiki.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kaidan
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - chat
+  - messaging
+  - im
+  - jabber
+  - xmpp
+  - qt
+  - network
+screenshotSources:
+  - url: im/kaidan/kaidan/3a2413a70b50b274acd39145c7083733/screenshots/image-1_orig.png
+    thumbnailUrl: im/kaidan/kaidan/3a2413a70b50b274acd39145c7083733/screenshots/image-1_624x430@1.png
+    width: 1622
+    height: 1119
+iconSources:
+  - url: im/kaidan/kaidan/3a2413a70b50b274acd39145c7083733/icons/128x128/kaidan_kaidan.png
+    width: 128
+    height: 128
+developer: Kaidan Developers & Contributors
+homepage: "https://kaidan.im"
+enabled: true
+order: 99

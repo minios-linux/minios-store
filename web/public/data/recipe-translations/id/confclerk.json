@@ -1,0 +1,5 @@
+{
+  "name": "ConfClerk",
+  "description": "aplikasi jadwal konferensi offline",
+  "longDescription": "<p>\n    ConfClerk adalah aplikasi berbasis Qt yang menyediakan jadwal konferensi secara offline. Aplikasi ini menampilkan jadwal konferensi dalam berbagai tampilan, mendukung pencarian berdasarkan berbagai kategori (pembicara, topik, lokasi, dll.), serta memungkinkan Anda memilih acara favorit dan membuat jadwal pribadi.\n    </p>\n<p>\n    Saat ini, ConfClerk dapat mengimpor jadwal dalam format XML yang dibuat oleh sistem manajemen konferensi PentaBarf (atau frab) yang digunakan di antaranya oleh FOSDEM, DebConf, FrOSCon, Grazer LinuxTage, dan konferensi CCC.\n    </p>\n<p>\n    ConfClerk ditujukan untuk perangkat mobile namun juga berjalan di semua sistem yang mendukung Qt.\n  </p>\n"
+}

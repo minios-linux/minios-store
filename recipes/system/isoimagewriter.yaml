@@ -1,0 +1,29 @@
+id: isoimagewriter
+name: ISO Image Writer
+description: Write an ISO Image to a USB Disk
+longDescription: |
+  <p>Write an ISO Image to a USB Disk</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - isoimagewriter
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/isoimagewriter.desktop/a052116eefb8216006b82bff0585f4d4/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/isoimagewriter.desktop/a052116eefb8216006b82bff0585f4d4/screenshots/image-1_224x174@1.png
+    width: 551
+    height: 430
+iconSources:
+  - url: org/kde/isoimagewriter.desktop/a052116eefb8216006b82bff0585f4d4/icons/128x128/isoimagewriter_org.kde.isoimagewriter.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "MATLAB",
+  "description": "Lingkungan komputasi ilmiah",
+  "longDescription": "<p>Paket ini tidak menyediakan MATLAB. Sebagai gantinya, paket ini mengonfigurasi instalasi MATLAB yang sudah ada agar lebih terintegrasi dengan sistem Debian.</p>\n<p>Saat ini, paket ini menyediakan /usr/bin/matlab melalui sistem alternatives, menawarkan solusi untuk mengatasi ketidakcocokan antara pustaka (library) yang dibawa MATLAB dan pustaka sistem, serta menyediakan utilitas bantu yang dapat digunakan paket lain untuk mengompilasi ekstensi MEX.</p>\n<p>Pasang paket ini jika Anda ingin instalasi MATLAB Anda berperilaku seperti paket Debian biasa. Paket lain mungkin saja bergantung pada paket ini jika mereka menginstal kode MATLAB, misalnya untuk mengompilasi ekstensi MEX.</p>\n"
+}

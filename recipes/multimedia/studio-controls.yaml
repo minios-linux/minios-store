@@ -1,0 +1,29 @@
+id: studio-controls
+name: Studio Controls
+description: "Setup Audio, Video and Graphics"
+longDescription: |
+  <p>Studio Controls is a small application that enables/disables realtime privilege for users and controls jackdbus. It allows Jackdbus to be run from session start. It also will detect USB audio devices getting plugged in after session start and optionally connect them to jackdbus as a client or switch them in as jackdbus master.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - studio-controls
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - audio
+  - utility
+  - settings
+iconSources:
+  - url: com/github/ovenwerks.studio-controls/8be42f9011f31b98040ab2cff17fa952/icons/128x128/studio-controls_com.github.ovenwerks.studio-controls.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

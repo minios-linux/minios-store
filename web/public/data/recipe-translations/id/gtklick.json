@@ -1,0 +1,5 @@
+{
+  "name": "gtklick",
+  "description": "Metronom Sederhana",
+  "longDescription": "<p>gtklick adalah metronom sederhana dengan antarmuka GTK+ yang mudah digunakan, serta mendukung JACK sound server.</p>\n<p>Aplikasi ini memiliki berbagai pilihan suara, pengaturan ketukan dan pola beat yang fleksibel, pelatih kecepatan, serta kemampuan untuk menyimpan dan memulihkan profil. gtklick diimplementasikan sebagai frontend untuk klick dan menggunakan pesan OSC untuk berkomunikasi dengan backend.</p>\n<p>Menggunakan klick langsung melalui command line menawarkan fitur tambahan seperti peta tempo dan sinkronisasi dengan JACK transport.</p>\n"
+}

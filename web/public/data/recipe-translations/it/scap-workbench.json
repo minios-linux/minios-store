@@ -1,0 +1,5 @@
+{
+  "name": "SCAP Workbench",
+  "description": "Uno strumento GUI che funge da scanner SCAP e offre funzionalità di personalizzazione per i contenuti SCAP",
+  "longDescription": "<p>L'obiettivo principale di questa applicazione è abbassare la barriera iniziale all'uso di SCAP. Il suo ambito è quindi molto specifico: SCAP Workbench effettua la scansione di una sola macchina per volta e solo con XCCDF/SDS (senza valutazione OVAL diretta). L'idea è che questo sia sufficiente per chi deve analizzare poche macchine, mentre chi gestisce un numero elevato di sistemi potrà utilizzare scap-workbench per testare o ottimizzare i contenuti prima di distribuirli con strumenti più avanzati (e complessi) come spacewalk.</p> <p>Funzionalità principali:</p>\n<ul>\n  <li>Supporto XCCDF 1.1 e 1.2</li>\n  <li>Supporto Source Data Stream 1.2</li>\n  <li>Supporto file di personalizzazione XCCDF 1.2</li>\n  <li>Valutazione della macchina locale</li>\n  <li>Valutazione di macchine remote (tramite SSH)</li>\n  <li>Supporto di personalizzazione limitato: selezione e deselezione</li>\n  <li>Salvataggio dei risultati come XCCDF 1.1 o 1.2 (a seconda dell'input) o ARF 1.1</li>\n</ul>\n"
+}

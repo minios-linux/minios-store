@@ -1,0 +1,5 @@
+{
+  "name": "Glade",
+  "description": "Buat atau buka desain antarmuka pengguna untuk aplikasi GTK+",
+  "longDescription": "<p>Glade adalah alat RAD yang memudahkan dan mempercepat pengembangan antarmuka pengguna untuk toolkit GTK+ 3 serta lingkungan desktop GNOME.</p>\n<p>Antarmuka yang dirancang di Glade disimpan dalam format XML dan dapat dimuat secara dinamis oleh aplikasi melalui GtkBuilder, atau langsung digunakan untuk mendefinisikan kelas objek turunan GtkWidget menggunakan fitur template baru di GTK+.</p>\n<p>Dengan GtkBuilder, file XML dari Glade dapat dimanfaatkan di berbagai bahasa pemrograman seperti C, C++, C#, Vala, Java, Perl, Python, dan lainnya.</p>\n"
+}

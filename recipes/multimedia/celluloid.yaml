@@ -1,0 +1,71 @@
+id: "celluloid"
+name: Celluloid
+description: GTK+ frontend for mpv
+longDescription: |
+  <p>
+      Celluloid is a simple media player that can play virtually all video and
+      audio formats. It supports playlists and MPRIS2 media player controls. The
+      design of Celluloid follows the GNOME Human Interface Guidelines, but can
+      also be adapted for other systems that don't use client-side decorations
+      (CSD). It is based on the mpv library and GTK.
+    </p>
+  <p>Features:</p>
+  <ul>
+    <li>Drag and drop playlist</li>
+    <li>Loading external mpv configuration files</li>
+    <li>MPRIS2 D-Bus interface</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - celluloid
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - video
+  - movie
+  - film
+  - clip
+  - series
+  - player
+  - dvd
+  - tv
+  - disc
+  - album
+screenshotSources:
+  - url: io/github/celluloid_player.Celluloid/9fefd5669e54ce4118c17eda3459ce75/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/celluloid_player.Celluloid/9fefd5669e54ce4118c17eda3459ce75/screenshots/image-1_624x351@1.png
+    width: 1024
+    height: 576
+  - url: io/github/celluloid_player.Celluloid/9fefd5669e54ce4118c17eda3459ce75/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/celluloid_player.Celluloid/9fefd5669e54ce4118c17eda3459ce75/screenshots/image-2_624x351@1.png
+    width: 1024
+    height: 576
+  - url: io/github/celluloid_player.Celluloid/9fefd5669e54ce4118c17eda3459ce75/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/celluloid_player.Celluloid/9fefd5669e54ce4118c17eda3459ce75/screenshots/image-3_624x351@1.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: io/github/celluloid_player.Celluloid/9fefd5669e54ce4118c17eda3459ce75/icons/128x128/celluloid_io.github.celluloid_player.Celluloid.png
+    width: 128
+    height: 128
+developer: The Celluloid Developers
+homepage: "http://celluloid-player.github.io"
+enabled: true
+order: 99

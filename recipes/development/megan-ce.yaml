@@ -1,0 +1,39 @@
+id: megan-ce
+name: megan
+description: Interactive exploration and analysis of large-scale microbiome sequencing data
+longDescription: |
+  <p>
+        Megan-ce is a shotgun sequencer to analyze microbiome samples. It is a rewritte and extension of the widely-used
+  microbiome analysis tool MEGAN so as to facilitate the interactive analysis of the taxonomic and functional content of very large microbiome datasets. Other new features include a functional classifier called InterPro2GO, gene-centric read assembly, principal coordinate analysis of taxonomy and function, and support for metadata.
+      </p>
+  <p>
+        By integrating MEGAN CE with the high-throughput DNA-to-protein alignment tool DIAMOND a powerful and complete pipeline
+  for the analysis of metagenome shotgun sequences can be provided.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - megan-ce
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - genomics
+iconSources:
+  - cached: megan-ce_megan.png
+    width: 64
+    height: 64
+homepage: "https://github.com/husonlab/megan-ce"
+enabled: true
+order: 99

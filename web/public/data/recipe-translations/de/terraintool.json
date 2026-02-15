@@ -1,0 +1,5 @@
+{
+  "name": "Terraintool-Oberflächen-Mesh-Generator",
+  "description": "Erzeugt Oberflächen-Meshes für Höhlenvermessungssoftware",
+  "longDescription": "<p>Mit diesem Tool werden Geländemeshes für Höhlenvermessungsprogramme aus Online-Höhendaten generiert. Es nutzt die NASA-SRTM- und die europäischen ASTER-Datensätze. Die relevanten Daten werden heruntergeladen und ausgeschnitten, auf das gewünschte Koordinatensystem georeferenziert, zu einem Mesh-Raster umgewandelt, bei Bedarf um einen lokalen Versatz ergänzt, das Ergebnis angezeigt und im survex-Format (.svx) gespeichert. Das Programm ist in Java geschrieben.</p>\n"
+}

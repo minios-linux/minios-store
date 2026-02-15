@@ -1,0 +1,5 @@
+{
+  "name": "Spyder",
+  "description": "Environnement de développement Python scientifique",
+  "longDescription": "<p>Spyder est un environnement de développement Python libre et open source, offrant des fonctionnalités similaires à MATLAB dans un logiciel simple et léger.</p>\n<p>Il propose un environnement interactif avancé pour le langage Python avec des outils puissants d’édition, de test interactif, de débogage et d’introspection, ainsi qu’un environnement de calcul numérique grâce au support d’IPython (interpréteur Python interactif amélioré) et des bibliothèques populaires comme NumPy (algèbre linéaire), SciPy (traitement du signal et de l’image) ou matplotlib (visualisation interactive 2D/3D).</p>\n<p>Spyder peut également être utilisé comme bibliothèque fournissant des widgets de console puissants pour vos applications PyQt : par exemple, il est possible d’intégrer une console de débogage directement dans l’interface graphique de votre logiciel.</p>\n"
+}

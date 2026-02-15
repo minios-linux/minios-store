@@ -1,0 +1,47 @@
+id: "rosegarden"
+name: Rosegarden
+description: MIDI and Audio Sequencer and Notation Editor
+longDescription: |
+  <p>Rosegarden is a general-purpose music composition and editing environment that offers a mixture of features inspired by MIDI sequencers, DAWs, and score editors.  Rosegarden offers a variety of extensions that work in conjunction with LilyPond to produce beautiful scores that often require little or no manual editing, and it generally does a good job of rendering human MIDI performances as legible notation.</p>
+  <p>Rosegarden is ideal for the small scale home artist who wishes to use one tool to handle a music project from start to finish.  For example, you can record your musical idea with a MIDI keyboard, write out transposing parts for the members of a brass band, and record the band playing these parts all in the same document in the same application.  Rosegarden supports a variety of import and export formats, and works well in conjunction with other applications.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rosegarden
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - midi audio sequencer music notation score
+screenshotSources:
+  - url: com/rosegardenmusic/rosegarden/6eb3721d7b5aa55fa6ca6781b571d058/screenshots/image-1_orig.png
+    thumbnailUrl: com/rosegardenmusic/rosegarden/6eb3721d7b5aa55fa6ca6781b571d058/screenshots/image-1_624x381@1.png
+    width: 1128
+    height: 690
+iconSources:
+  - url: com/rosegardenmusic/rosegarden/6eb3721d7b5aa55fa6ca6781b571d058/icons/128x128/rosegarden_rosegarden.png
+    width: 128
+    height: 128
+developer: Rosegarden development team
+homepage: "http://www.rosegardenmusic.com/"
+enabled: true
+order: 99

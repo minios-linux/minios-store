@@ -1,0 +1,5 @@
+{
+  "name": "Accessibilité",
+  "description": "Améliore l’accessibilité du clavier et de la souris",
+  "longDescription": "<p>xfce4-settings est l’interface du gestionnaire de paramètres Xfce. Il propose plusieurs modules pour configurer des paramètres indépendants des applications via xfconf. Il comprend plusieurs outils :  - xfce4-settings-manager (qui remplace l’ancien gestionnaire de paramètres mcs),    qui lance les différents dialogues de configuration   - xfce4-settings-editor, un éditeur pour tous les paramètres dans xfconf,    c’est l’interface graphique de xfconf-query.  - xfsettingsd, un démon qui exporte les XSettings vers les applications, et    fournit des fonctions spécifiques comme les raccourcis clavier, les notifications AccessX    ainsi que la gestion avancée du clavier et du pointeur de souris.</p>\n"
+}

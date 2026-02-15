@@ -1,0 +1,89 @@
+id: "iotas"
+name: Iotas
+description: Simple note taking
+longDescription: |
+  <p>Iotas aims to provide distraction-free note taking via its mobile-first design.</p>
+  <p>Featuring</p>
+  <ul>
+    <li>Optional speedy sync with Nextcloud Notes</li>
+    <li>Offline note editing, syncing when back online</li>
+    <li>Category editing and filtering</li>
+    <li>Favorites</li>
+    <li>Spell checking</li>
+    <li>Search within the collection or individual notes</li>
+    <li>Focus mode and optional hiding of the editor header and formatting bars</li>
+    <li>In preview: export to PDF, ODT and HTML</li>
+    <li>A convergent design, seeing Iotas as at home on desktop as mobile</li>
+    <li>Search from GNOME Shell</li>
+    <li>Note backup and restoration (from CLI, for using without sync)</li>
+    <li>The ability to change font size and toggle monospace style</li>
+  </ul>
+  <p>Writing in markdown is supported but optional, providing</p>
+  <ul>
+    <li>Formatting via toolbar and shortcuts</li>
+    <li>Syntax highlighting with themes</li>
+    <li>A formatted view</li>
+    <li>The ability to check off task lists from the formatted view</li>
+  </ul>
+  <p>Slightly more technical details, for those into that type of thing</p>
+  <ul>
+    <li>Nextcloud Notes sync is via the REST API, not WebDAV, which makes it snappy</li>
+    <li>There's basic sync conflict detection</li>
+    <li>Notes are constantly saved</li>
+    <li>Large note collections are partially loaded to quicken startup</li>
+    <li>Notes are stored in SQLite, providing for fast search (FTS) without reinventing the wheel. Plain files can be retrieved
+  by making a backup (CLI).</li> </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - iotas
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - notes
+  - nextcloud
+  - minimal
+  - distraction
+  - editor
+  - focused
+  - text
+  - write
+  - markdown
+  - document
+screenshotSources:
+  - url: org/gnome/World.Iotas/f54b444de8656c4ecc926b002e38ad83/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/World.Iotas/f54b444de8656c4ecc926b002e38ad83/screenshots/image-1_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/gnome/World.Iotas/f54b444de8656c4ecc926b002e38ad83/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/World.Iotas/f54b444de8656c4ecc926b002e38ad83/screenshots/image-2_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/gnome/World.Iotas/f54b444de8656c4ecc926b002e38ad83/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/World.Iotas/f54b444de8656c4ecc926b002e38ad83/screenshots/image-3_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/gnome/World.Iotas/f54b444de8656c4ecc926b002e38ad83/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/World.Iotas/f54b444de8656c4ecc926b002e38ad83/screenshots/image-4_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/gnome/World.Iotas/f54b444de8656c4ecc926b002e38ad83/screenshots/image-5_orig.png
+    thumbnailUrl: org/gnome/World.Iotas/f54b444de8656c4ecc926b002e38ad83/screenshots/image-5_224x352@1.png
+    width: 522
+    height: 822
+iconSources:
+  - url: org/gnome/World.Iotas/f54b444de8656c4ecc926b002e38ad83/icons/128x128/iotas_org.gnome.World.Iotas.png
+    width: 128
+    height: 128
+developer: Chris Heywood
+homepage: "https://gitlab.gnome.org/World/iotas"
+enabled: true
+order: 99

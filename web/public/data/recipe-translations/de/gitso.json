@@ -1,0 +1,5 @@
+{
+  "name": "Gitso",
+  "description": "Verbindung zu anderen über das VNC-Protokoll herstellen",
+  "longDescription": "<p>Gitso ist ein plattformübergreifendes (Linux, OS X und Windows) grafisches Programm, mit dem sich ganz einfach der Bildschirm, die Tastatur und Maus einer anderen Person steuern lassen. So wird es besonders einfach, Unterstützung zu erhalten oder technischen Support zu leisten.</p>\n<p>In einem einfachen Zwei-Schritte-Prozess richtet die unterstützende Person bei Bedarf zunächst Portweiterleitung und Firewall an ihrem Ende ein und startet Gitso, um Verbindungen auf Port 5500 entgegenzunehmen. Danach verbindet sich die hilfesuchende Person mit Gitso zur Adresse (IP oder Domain) der unterstützenden Person, wodurch ihr Bildschirm freigegeben wird und die andere Person Tastatur und Maus fernsteuern kann.</p>\n"
+}

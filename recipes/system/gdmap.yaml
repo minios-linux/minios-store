@@ -1,0 +1,37 @@
+id: gdmap
+name: Graphical Disk Map
+description: Display disk space using tree maps
+longDescription: |
+  <p>GdMap is a tool which allows you to visualize disk space. Ever wondered why your hard disk is full or what directory and files take up most of the space? With GdMap these questions can be answered quickly. To display directory structures cushion treemaps are used which visualize a complete folder or even the whole hard drive with one picture.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gdmap
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gdmap_gdmap_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Guake Indicator",
+  "description": "Используйте для запуска guake-indicator — на системном трее появится новая иконка.",
+  "longDescription": "<p>Guake Indicator позволяет отправлять пользовательские команды через D-Bus System. Команды можно редактировать вручную в XML-файле по пути ~/.guake.indicator или создавать с помощью графического интерфейса редактирования меню guake-indicator.</p>\n<p>Guake Indicator закрепляется в «Системном трее» и отображает избранные команды, полученные из файла ~/.guake.indicator/guake-indicator.xml. Если guake-indicator.xml не существует, Guake Indicator создаст файл с конфигурацией по умолчанию и примерами команд.</p>\n"
+}

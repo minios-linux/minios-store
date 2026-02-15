@@ -1,0 +1,29 @@
+id: "hex-a-hop"
+name: Hex-a-hop
+description: Puzzle game based on hexagonal tiles
+longDescription: |
+  <p>Hex-a-hop is a great puzzle game in which a girl has to break all the green tiles in an hexagonal map and step onto a safe tile without getting trapped. As you progress through the game, more types of tiles are introduced which make things more difficult and interesting as you progress through the many levels. You can use the infinite undo feature to retrace your steps if you make a mistake. You can take as long as you like to complete each level.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hex-a-hop
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: h/he/hex-a-hop.desktop/abb9672f8dea5e2cd29befb6f408e255/icons/128x128/hex-a-hop_hex-a-hop.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

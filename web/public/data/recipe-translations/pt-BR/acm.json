@@ -1,0 +1,5 @@
+{
+  "name": "ACM",
+  "description": "jogo de conquista galáctica e império espacial por turnos (cliente)",
+  "longDescription": "<p>Uma simulação multiplayer de combate aéreo. Os jogadores participam de combates aéreos entre si usando mísseis teleguiados por calor e canhões.</p>\n<p>Principais recursos incluem:  * Simulação com 6 graus de liberdade.  * Limite estrutural para cargas verticais positivas/negativas.  * Instrumentos clássicos, navegação e head-up display (HUD).  * Diversos modelos de aeronaves implementados, civis e militares.  * Dois cenários disponíveis, com várias pistas e estações de rádio.</p>\n<p>O acm roda no sistema de janelas X. Esta versão do acm é implementada como uma simulação distribuída, comunicando-se via o protocolo IEEE Distributed Interactive Simulation.</p>\n"
+}

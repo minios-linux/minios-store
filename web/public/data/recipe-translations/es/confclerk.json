@@ -1,0 +1,5 @@
+{
+  "name": "ConfClerk",
+  "description": "aplicación de consulta de horarios de conferencias sin conexión",
+  "longDescription": "<p>\n    ConfClerk es una aplicación desarrollada en Qt que permite consultar los horarios de conferencias sin conexión. Ofrece vistas variadas del programa, permite búsquedas por diferentes criterios (ponente, tema, ubicación, etc.) y posibilita seleccionar eventos favoritos y crear tu propio horario personalizado.\n    </p>\n<p>\n    Actualmente, ConfClerk puede importar programas en formato XML generados por el sistema de gestión de conferencias PentaBarf (o frab), utilizado en eventos como FOSDEM, DebConf, FrOSCon, Grazer LinuxTage y los congresos del CCC.\n    </p>\n<p>\n    ConfClerk está orientada principalmente a dispositivos móviles, pero funciona en cualquier sistema con Qt.\n  </p>\n"
+}

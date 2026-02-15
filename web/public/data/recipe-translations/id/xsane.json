@@ -1,0 +1,5 @@
+{
+  "name": "XSane",
+  "description": "Program untuk bekerja dengan pemindai. Dapat digunakan sebagai alat pemindai, penyalin, OCR, dan faks.",
+  "longDescription": "<p>xsane dapat dijalankan sebagai program mandiri atau melalui program manipulasi gambar GIMP. Dalam mode mandiri, xsane dapat menyimpan gambar ke file dalam berbagai format, menjadi antarmuka untuk program faks, atau mengirim gambar ke printer.</p>\n<p>SANE adalah singkatan dari \"Scanner Access Now Easy\" dan merupakan antarmuka pemrograman aplikasi (API) yang menyediakan akses standar ke perangkat keras pemindai gambar raster apa pun (pemindai flatbed, pemindai genggam, kamera video dan foto, frame-grabber, dan sebagainya). Standar SANE bersifat bebas dan diskusinya serta pengembangannya terbuka untuk semua orang. Kode sumber saat ini mendukung berbagai sistem operasi, termasuk GNU/Linux, OS/2, Win32, dan berbagai Unix, serta tersedia di bawah GNU General Public License (aplikasi komersial dan backend juga didukung).</p>\n"
+}

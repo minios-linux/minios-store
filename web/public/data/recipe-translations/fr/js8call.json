@@ -1,0 +1,5 @@
+{
+  "name": "js8call",
+  "description": "Opérations radioamateur en signal faible",
+  "longDescription": "<p>JS8Call utilise le mode numérique JS8 pour offrir une messagerie clavier à clavier en conditions de signal faible aux opérateurs radioamateurs.</p>\n<p>JS8Call est une expérimentation visant à tester la faisabilité d’un mode numérique combinant la robustesse de FT8 avec une couche protocolaire de messagerie et de réseau pour la communication en signal faible sur HF, via une interface de messagerie type clavier. Il n’est destiné à aucun usage spécifique en dehors de la connexion entre radioamateurs opérant dans des conditions de signal faible. JS8Call s’inspire largement de WSJT-X, Fldigi et FSQCall et n’existerait pas sans le travail remarquable et l’engagement de nombreux développeurs de la communauté radioamateur.</p>\n"
+}

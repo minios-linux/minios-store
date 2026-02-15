@@ -1,0 +1,5 @@
+{
+  "name": "Pragha Music Player",
+  "description": "Gérez et écoutez votre musique",
+  "longDescription": "<p>Pragha est un lecteur de musique léger pour GNU/Linux, basé sur Gtk et sqlite, entièrement écrit en C, conçu pour être rapide, peu gourmand en ressources, tout en restant complet sans perturber votre flux de travail quotidien.</p><p>Fonctionnalités :</p><ul><li>Intégration complète avec GTK+3, tout en restant totalement indépendant de Gnome ou Xfce</li><li>Interface à deux panneaux inspirée d’Amarok 1.4 : bibliothèque et liste de lecture en cours</li><li>Bibliothèque avec multiples vues, par tags ou structure de dossiers</li><li>Recherche, filtrage et mise en file d’attente des morceaux dans la liste de lecture</li><li>Lecture et édition des tags pour les fichiers mp3, m4a, ogg, flac, asf, wma et ape (nécessite les codecs)</li><li>Gestion des listes de lecture : export en M3U, import de M3U, PLS, XSPF et WAX</li><li>Lecture de CD audio avec identification via CDDB</li><li>Contrôle de la lecture via la ligne de commande et MPRIS2</li><li>Notifications natives sur le bureau grâce à libnotify</li></ul>"
+}

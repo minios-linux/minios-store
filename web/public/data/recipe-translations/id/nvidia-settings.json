@@ -1,0 +1,5 @@
+{
+  "name": "NVIDIA X Server Settings",
+  "description": "Konfigurasi Pengaturan NVIDIA X Server",
+  "longDescription": "<p>nvidia-settings adalah utilitas untuk mengonfigurasi driver grafis NVIDIA di Linux. Utilitas ini berinteraksi langsung dengan driver NVIDIA X, memungkinkan Anda untuk memantau dan menyesuaikan berbagai parameter sesuai kebutuhan. Komunikasi ini menggunakan ekstensi NV-CONTROL pada X.</p>\n<p>Berbagai nilai seperti kecerahan, gamma, atribut XVideo, suhu, dan pengaturan OpenGL dapat dipantau dan diatur melalui nvidia-settings.</p>\n"
+}

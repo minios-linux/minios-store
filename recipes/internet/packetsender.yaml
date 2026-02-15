@@ -1,0 +1,102 @@
+id: "packetsender"
+name: PacketSender
+description: "Network utility for sending and receiving TCP, UDP, SSL packets"
+longDescription: |
+  <p>
+        Packet Sender is a utility that sends and receives TCP, UDP and SSL (encrypted  TCP) packets on the ports of your
+  choosing. It supports IPv4 and IPv6 and  provides a GUI for final users. However, is also possible use Packet Sender in  text mode via command line.    Some features:
+      </p>
+  <p>
+        * Can act as client/server to send and receive network traffic.
+      </p>
+  <p>
+        * A payload can be created in ASCII or hex.
+      </p>
+  <p>
+        * Command line mode is available for automation and scripting.
+      </p>
+  <p>
+        * Packet Sender cloud is a disposable resource to be used to publicly display and distribute packets (via an URL)
+  for collaboration, tutorials, end users, etc. Packet Sender may import public packet sets with public URL.    Some uses:
+      </p>
+  <p>
+        * Control network-based devices in ways beyond their original apps.
+      </p>
+  <p>
+        * Test automation (using command line tool and/or hotkeys).
+      </p>
+  <p>
+        * Test network APIs (using the built-in TCP, UDP, SSL clients).
+      </p>
+  <p>
+        * Malware analysis (using the built-in UDP, TCP, SSL servers).
+      </p>
+  <p>
+        * Troubleshoot secure connections (using SSL).
+      </p>
+  <p>
+        * Test network connectivity/firewalls (by having 2 Packet Senders talk to each other).
+      </p>
+  <p>
+        * Stress-test a device (using intense network generator tool).
+      </p>
+  <p>
+        * Tech support (by sending customers a portable Packet Sender with pre-defined settings and packets).
+      </p>
+  <p>
+        * Share/Save/Collaborate using the Packet Sender Cloud service.
+      </p>
+  <p>
+        Packet Sender is useful for network security, network teaching, pentesters  and to test firewall systems.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - packetsender
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - network
+  - traffic
+  - tcp
+  - udp
+  - ssl
+  - packet
+  - injection
+  - ipv4
+  - ipv6
+  - simulation
+screenshotSources:
+  - url: com/packetsender/packetsender/68e942df5c97a8ec8f97223a353d3046/screenshots/image-1_orig.png
+    thumbnailUrl: com/packetsender/packetsender/68e942df5c97a8ec8f97223a353d3046/screenshots/image-1_624x452@1.png
+    width: 1363
+    height: 988
+  - url: com/packetsender/packetsender/68e942df5c97a8ec8f97223a353d3046/screenshots/image-2_orig.png
+    thumbnailUrl: com/packetsender/packetsender/68e942df5c97a8ec8f97223a353d3046/screenshots/image-2_624x762@1.png
+    width: 744
+    height: 909
+  - url: com/packetsender/packetsender/68e942df5c97a8ec8f97223a353d3046/screenshots/image-3_orig.png
+    thumbnailUrl: com/packetsender/packetsender/68e942df5c97a8ec8f97223a353d3046/screenshots/image-3_224x118@1.png
+    width: 526
+    height: 279
+iconSources:
+  - url: com/packetsender/packetsender/68e942df5c97a8ec8f97223a353d3046/icons/128x128/packetsender_packetsender.png
+    width: 128
+    height: 128
+homepage: "https://packetsender.com/"
+enabled: true
+order: 99

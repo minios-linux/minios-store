@@ -1,0 +1,5 @@
+{
+  "name": "Vifm",
+  "description": "Manajer berkas berbasis ncurses seperti Vi[m]",
+  "longDescription": "<p>Vifm adalah manajer berkas yang memberikan pengalaman penggunaan mirip vi. Ia memiliki kombinasi tombol dan mode yang serupa (mis. normal, command line, visual). Antarmukanya menggunakan ncurses, sehingga vifm dapat dijalankan di lingkungan teks saja. Mendukung beragam fitur, beberapa di antaranya dikenal dari vi-editor:  - dukungan utf8  - pemetaan tombol pengguna (hampir seperti di vi)  - rentang pada perintah command-line  - perintah khusus pengguna (dengan dukungan rentang)  - register  - undo/redo operasi  - dukungan file system fuse  - trash  - ganti nama banyak berkas sekaligus  - dukungan pengubah nama file  - dukungan skema warna  - warna nama file sesuai tipe file  - kustomisasi skema warna per jalur  - bookmark  - operasi di background  - penampil berkas yang dapat dikustomisasi  - mode pratinjau seperti less  - filter dan pencarian berkas dengan regular expression  - tampilan satu atau dua panel Paket ini juga menyertakan plugin untuk menggunakan vifm sebagai pemilih file di vim.</p>\n"
+}

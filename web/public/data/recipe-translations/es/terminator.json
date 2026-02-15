@@ -1,0 +1,5 @@
+{
+  "name": "Terminator",
+  "description": "Varios terminales en una sola ventana",
+  "longDescription": "<p>El futuro robótico de los terminales</p>\n<p>Una herramienta avanzada para usuarios que permite organizar terminales. Se inspira en programas como gnome-multi-term, quadkonsole, etc., enfocándose principalmente en disponer terminales en cuadrículas (las pestañas son el método predeterminado más común, que Terminator también soporta).</p>\n<p>Gran parte del funcionamiento de Terminator se basa en GNOME Terminal y seguimos añadiendo más funciones de este, pero también queremos innovar en diferentes direcciones con funcionalidades útiles para administradores de sistemas y otros usuarios avanzados.</p>\n<p>Algunas características destacadas:</p>\n<ul>\n  <li>Organización de terminales en cuadrícula</li>\n  <li>Pestañas</li>\n  <li>Reordenamiento de terminales mediante arrastrar y soltar</li>\n  <li>Gran variedad de atajos de teclado</li>\n  <li>Guardar múltiples distribuciones y perfiles a través de un editor de preferencias gráfico</li>\n  <li>Escritura simultánea en grupos arbitrarios de terminales</li>\n</ul>\n<p>Y mucho más...</p>\n"
+}

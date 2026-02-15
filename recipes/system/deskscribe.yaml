@@ -1,0 +1,23 @@
+id: deskscribe
+name: DeskScribe
+description: Desktop user activity logging tool
+longDescription: |
+  <p>The deskscribe logging application runs as a system tray icon. From here, you can start and stop the logging, or quit the application. In the future, it will eventually be able to log key presses as well as capture the screen in video formats</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deskscribe
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: deskscribe_deskscribe.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

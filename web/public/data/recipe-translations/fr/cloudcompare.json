@@ -1,0 +1,5 @@
+{
+  "name": "CloudCompare",
+  "description": "Logiciel de traitement de nuages de points 3D et de maillages",
+  "longDescription": "<p>CloudCompare est un logiciel dédié au traitement des nuages de points 3D et des maillages triangulaires. Il a été initialement conçu pour comparer deux nuages de points 3D (comme ceux obtenus avec un scanner laser) ou un nuage de points et un maillage triangulaire.</p>\n<p>Son architecture basée sur une octree spécifique lui confère d’excellentes performances pour ce type d’opérations. Il est également conçu pour gérer des nuages de points volumineux (plus de 10 millions de points, et jusqu’à 120 millions avec 2 Go de mémoire).</p>\n"
+}

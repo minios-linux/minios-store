@@ -1,0 +1,43 @@
+id: "planetblupi"
+name: Planet Blupi
+description: Planet Blupi - A delirious spell-binding game
+longDescription: |
+  <p>Planet Blupi is a strategy and adventure game. It subtly blends action with thought-provoking challenges. Behind the quiet and gentle facade, you&apos;ll enjoy a fascinating diversion full of surprises.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - planetblupi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/blupi/planetblupi/2982b8151b7ad295e51c7ac504dce4f0/screenshots/image-1_orig.png
+    thumbnailUrl: org/blupi/planetblupi/2982b8151b7ad295e51c7ac504dce4f0/screenshots/image-1_624x468@1.png
+    width: 640
+    height: 480
+iconSources:
+  - url: org/blupi/planetblupi/2982b8151b7ad295e51c7ac504dce4f0/icons/128x128/planetblupi_blupi.png
+    width: 128
+    height: 128
+homepage: "https://blupi.org/"
+enabled: true
+order: 99

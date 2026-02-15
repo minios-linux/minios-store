@@ -1,0 +1,5 @@
+{
+  "name": "Jupyter Qt console",
+  "description": "Console Qt Jupyter",
+  "longDescription": "<p>IPython peut être utilisé comme un remplacement du shell Python standard, ou comme un véritable environnement de travail pour le calcul scientifique (à la manière de Matlab ou Mathematica) lorsqu’il est associé aux outils scientifiques et numériques standards de Python. Il prend en charge l’introspection dynamique des objets, les invites d’entrée/sortie numérotées, un système de macros, la journalisation et la restauration de session, un accès complet au shell système, des rapports détaillés et colorés des traces d’erreur, l’ajout automatique de parenthèses, de guillemets, et peut être intégré dans d’autres programmes Python.</p>\n<p>Ce paquet contient les exécutables de la console Qt pour l’interpréteur Python 3.</p>\n"
+}

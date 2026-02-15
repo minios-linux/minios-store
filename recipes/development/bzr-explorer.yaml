@@ -1,0 +1,26 @@
+id: bzr-explorer
+name: Bazaar Explorer
+description: GUI application for using Bazaar
+longDescription: |
+  <p>Bazaar Explorer is a desktop application providing an easy-to-use interface to the Bazaar version control system. It is designed to be simple enough for casual users of version control, yet powerful enough for experts to be productive.</p>
+  <p>It provides a high level interface to all commonly used features, launching &quot;applets&quot; from the QBzr plug-in to provide most of the functionality.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bzr-explorer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: bzr-explorer_bzr-explorer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

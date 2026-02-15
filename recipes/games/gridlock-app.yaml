@@ -1,0 +1,26 @@
+id: gridlock-app
+name: Gridlock
+description: Collection of grid-based board games for GNUstep
+longDescription: |
+  <p>Gridlock is a collection of grid-based board games for GNUstep, including Ataxx, Reversi, Gomoku, Connect Four, Breakthrough, Glass Bead, Hexapawn, Quad Wrangle, Cats and Dogs and Moray Eels. You can play against another person or computer opponents of varying difficulty, even over the network.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gridlock.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - board
+  - game
+iconSources:
+  - cached: gridlock.app_Gridlock.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

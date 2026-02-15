@@ -1,0 +1,5 @@
+{
+  "name": "Celluloid",
+  "description": "Antarmuka GTK+ untuk mpv",
+  "longDescription": "<p>\n    Celluloid adalah pemutar media sederhana yang mampu memutar hampir semua format video dan\n    audio. Aplikasi ini mendukung daftar putar (playlist) dan kontrol pemutar media menggunakan MPRIS2. \n    Desain Celluloid mengikuti Pedoman Antarmuka Manusia GNOME, namun juga dapat disesuaikan untuk sistem lain yang tidak menggunakan client-side decorations (CSD). Celluloid berbasis pustaka mpv dan GTK.\n  </p>\n<p>Fitur:</p>\n<ul>\n  <li>Playlist dengan drag-and-drop</li>\n  <li>Muat file konfigurasi mpv eksternal</li>\n  <li>Antarmuka D-Bus MPRIS2</li>\n</ul>\n"
+}

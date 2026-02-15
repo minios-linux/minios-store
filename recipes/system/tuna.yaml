@@ -1,0 +1,36 @@
+id: "tuna"
+name: tuna
+description: Thread and IRQ attribute management
+longDescription: |
+  <p>Provides interface for changing scheduler and IRQ tunables, at whole CPU and at per thread/IRQ level. Allows isolating CPUs for use by a specific application and moving threads and interrupts to a CPU by just dragging and dropping them. Operations can be done on CPU sockets, understanding CPU topology.</p>
+  <p>Can be used as a command line utility without requiring the GUI libraries to be installed.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tuna
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - realtime
+  - tuning
+  - performance
+  - irq
+  - interrupts
+iconSources:
+  - cached: tuna_gtk-preferences.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

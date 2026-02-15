@@ -1,0 +1,5 @@
+{
+  "name": "ConfClerk",
+  "description": "application de gestion des programmes de conférences hors ligne",
+  "longDescription": "<p>\n    ConfClerk est une application développée avec Qt permettant d'accéder aux programmes de conférences sans connexion Internet. Elle offre plusieurs vues du programme, prend en charge la recherche sur divers critères (intervenant, sujet, lieu, etc.) et permet de sélectionner vos événements favoris pour créer votre propre emploi du temps.\n    </p>\n<p>\n    Actuellement, ConfClerk peut importer des programmes au format XML issus du système de gestion de conférences PentaBarf (ou frab), utilisé notamment par FOSDEM, DebConf, FrOSCon, Grazer LinuxTage et les congrès du CCC.\n    </p>\n<p>\n    ConfClerk est principalement destinée aux appareils mobiles mais fonctionne sur tout système disposant de Qt.\n  </p>\n"
+}

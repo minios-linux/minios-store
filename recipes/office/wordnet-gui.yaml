@@ -1,0 +1,40 @@
+id: wordnet-gui
+name: WordNet
+description: electronic lexical database of English language
+longDescription: |
+  <p>WordNet(C) is an on-line lexical reference system whose design is inspired by current psycholinguistic theories of human lexical memory. English nouns, verbs, adjectives and adverbs are organized into synonym sets, each representing one underlying lexical concept. Different relations link the synonym sets.</p>
+  <p>WordNet was developed by the Cognitive Science Laboratory at Princeton University under the direction of Professor George A. Miller (Principal Investigator).</p>
+  <p>WordNet is considered to be the most important resource available to researchers in computational linguistics, text analysis, and many related areas.</p>
+  <p>This package contains a Tcl/Tk Gui to browse wordnet dictionary.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wordnet-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: wordnet-gui_wn.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

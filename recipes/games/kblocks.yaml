@@ -1,0 +1,45 @@
+id: "kblocks"
+name: KBlocks
+description: Falling Blocks Game
+longDescription: |
+  <p>KBlocks is the classic falling blocks game. The idea is to stack the falling blocks to create horizontal
+        lines without any gaps. When a line is completed it is removed, and more space is available in the play area.
+        When there is not enough space for blocks to fall, the game is over.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kblocks
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kblocks/d3f45ae7dd7ba30a04d44d55dcfb5178/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kblocks/d3f45ae7dd7ba30a04d44d55dcfb5178/screenshots/image-1_624x466@1.png
+    width: 909
+    height: 680
+iconSources:
+  - url: org/kde/kblocks/d3f45ae7dd7ba30a04d44d55dcfb5178/icons/128x128/kblocks_kblocks.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kblocks/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Plater",
+  "description": "Outil de disposition pour imprimante 3D",
+  "longDescription": "<p>Plater est un outil graphique simple permettant de préparer des plateaux pour imprimantes 3D de bureau, comme les modèles RepRap.</p>\n<p>Il vous permet de charger des modèles 3D et de les manipuler sur le plan XY. Plater peut aussi agencer automatiquement les fichiers pour les faire tenir dans l’espace disponible. Vous pouvez ensuite exporter le plateau préparé pour une utilisation ultérieure ou le charger directement dans Pronterface (si installé).</p>\n"
+}

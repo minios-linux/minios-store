@@ -1,0 +1,32 @@
+id: alligator
+name: Alligator
+description: RSS feed reader
+longDescription: |
+  <p>Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds</p>
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - alligator
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/alligator/ee20234aaf51d2110e023fbb0057b4a9/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/alligator/ee20234aaf51d2110e023fbb0057b4a9/screenshots/image-1_624x488@1.png
+    width: 2805
+    height: 2198
+  - url: org/kde/alligator/ee20234aaf51d2110e023fbb0057b4a9/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/alligator/ee20234aaf51d2110e023fbb0057b4a9/screenshots/image-2_624x1249@1.png
+    width: 719
+    height: 1440
+iconSources:
+  - url: org/kde/alligator/ee20234aaf51d2110e023fbb0057b4a9/icons/128x128/alligator_alligator.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/alligator"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "eboard",
+  "description": "Un programma scacchistico con interfaccia grafica",
+  "longDescription": "<p>eboard è un programma di scacchi con interfaccia grafica che può essere utilizzato come client per server scacchistici online come FICS e per motori di scacchi come Crafty.</p>\n<p>eboard offre una scacchiera ridimensionabile e tematizzabile, visualizzazione a schede o a finestre multiple, e supporta più scacchiere contemporaneamente.</p>\n<p>Questo pacchetto include solo l’interfaccia grafica: puoi giocare contro un altro utente sulla stessa macchina o collegarti a un server Internet per sfidare avversari online. Per giocare contro il computer, installa separatamente un motore di scacchi come gnuchess.</p>\n"
+}

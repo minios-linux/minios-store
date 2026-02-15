@@ -1,0 +1,50 @@
+id: "knotes"
+name: KNotes
+description: Sticky notes application
+longDescription: |
+  <p>KNotes is a program that lets you write the computer equivalent of sticky notes.
+        The notes are saved automatically when you exit the program, and they display when you open the program.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Write notes in your choice of font and background color</li>
+    <li>Use drag and drop to email your notes</li>
+    <li>Can be dragged into Calendar to book a time-slot</li>
+    <li>Notes can be printed</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - knotes
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/knotes.desktop/3b0e941a4acec4acddf3a69e4a2c66f6/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/knotes.desktop/3b0e941a4acec4acddf3a69e4a2c66f6/screenshots/image-1_224x213.png
+    width: 349
+    height: 332
+iconSources:
+  - url: org/kde/knotes.desktop/3b0e941a4acec4acddf3a69e4a2c66f6/icons/128x128/knotes_knotes.png
+    width: 128
+    height: 128
+developer: The KDE Community
+homepage: "https://kontact.kde.org/components/knotes.html"
+enabled: true
+order: 99

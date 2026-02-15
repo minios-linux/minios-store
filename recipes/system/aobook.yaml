@@ -1,0 +1,38 @@
+id: "aobook"
+name: aobook
+description: Aozora Bunko viewer
+longDescription: |
+  <p>Aozora Bunko (青空文庫, literally the &quot;Blue Sky Library&quot;, also known as the &quot;Open Air Library&quot;) is a Japanese digital library. This online collection encompasses several thousands of works of Japanese-language fiction and non-fiction, most of them are public domain books/works, and some are the authors wish to make freely available. See https://www.aozora.gr.jp/</p>
+  <p>aobook is a viwer for the books/works those are provided by Aozora Bunko.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - aobook
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - japanese
+  - viewer
+  - aozora
+iconSources:
+  - url: a/ao/aobook.desktop/f9cba729a637c5d6ae30fb5ee6036405/icons/128x128/aobook_aobook.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "xgpsspeed",
+  "description": "Visualizza la velocità GPS tramite il demone gpsd",
+  "longDescription": "<p>Il demone gpsd può monitorare uno o più dispositivi GPS collegati a un computer host, rendendo disponibili tutti i dati sulla posizione e sui movimenti dei sensori tramite la porta TCP 2947.</p>\n<p>Questo pacchetto include strumenti ausiliari e client di esempio per il monitoraggio, il testing, l'analisi della latenza, la configurazione dei dispositivi e la simulazione di gpsd.</p>\n"
+}

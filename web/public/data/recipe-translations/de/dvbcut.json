@@ -1,0 +1,5 @@
+{
+  "name": "DVBcut",
+  "description": "Schneidet und bearbeitet MPEG2-Transportstreams in verschiedene Exportformate",
+  "longDescription": "<p>DVBcut ist eine Qt-Anwendung, mit der Sie bestimmte Abschnitte eines MPEG-Transportstreams (wie er beim Digital Video Broadcasting, DVB, empfangen wird) auswählen und als einzelne MPEG-Ausgabedatei speichern können. Die Software verfolgt einen „Schlüsselloch-Chirurgie“-Ansatz: Das Video- und Audiodatenmaterial wird größtenteils unverändert übernommen, nur wenige Frames am Anfang und/oder Ende des gewählten Bereichs werden neu codiert, um eine gültige MPEG-Datei zu erzeugen.</p>\n"
+}

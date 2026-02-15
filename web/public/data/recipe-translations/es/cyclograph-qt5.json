@@ -1,0 +1,5 @@
+{
+  "name": "Cyclograph Qt",
+  "description": "Traza perfiles de pendiente para rutas en bicicleta.",
+  "longDescription": "<p>CycloGraph es una aplicación para generar perfiles de elevación de rutas. Su principal utilidad reside en la visualización gráfica de la dificultad de un trayecto, considerando la pendiente, el desnivel, etc. Estos gráficos se emplean habitualmente en competiciones de ciclismo, pero también son útiles para otros deportes como el senderismo o el running.</p>\n<p>Este paquete incluye la interfaz de CycloGraph basada en Qt 5.</p>\n"
+}

@@ -1,0 +1,60 @@
+id: "guitarix"
+name: guitarix
+description: Simple mono amplifier simulation
+longDescription: |
+  <p>Guitarix is a rock guitar amplifier for the Jack Audio Connection Kit with one input and two outputs. It provides one JACK input port and two JACK output ports. It is designed to produce nice trash/metal/rock/blues guitar sounds. Controls for bass, treble, gain, compressor, tube selector, distortion, flanger, freeverb, crybaby (wah), etc are available.</p>
+  <p>Guitarix comes with a GTK+ interface and as Ladspa and LV2 plugins.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - guitarix
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - guitar
+  - amplifier
+  - record
+  - midi
+  - jack
+screenshotSources:
+  - url: org/guitarix/guitarix/da23d6319e070402ecacc3bac3166e49/screenshots/image-1_orig.png
+    thumbnailUrl: org/guitarix/guitarix/da23d6319e070402ecacc3bac3166e49/screenshots/image-1_624x426@1.png
+    width: 767
+    height: 524
+  - url: org/guitarix/guitarix/da23d6319e070402ecacc3bac3166e49/screenshots/image-2_orig.png
+    thumbnailUrl: org/guitarix/guitarix/da23d6319e070402ecacc3bac3166e49/screenshots/image-2_624x404@1.png
+    width: 1382
+    height: 895
+  - url: org/guitarix/guitarix/da23d6319e070402ecacc3bac3166e49/screenshots/image-3_orig.png
+    thumbnailUrl: org/guitarix/guitarix/da23d6319e070402ecacc3bac3166e49/screenshots/image-3_624x544@1.png
+    width: 767
+    height: 669
+iconSources:
+  - cached: guitarix_gx_head.png
+    width: 64
+    height: 64
+homepage: "https://guitarix.org"
+enabled: true
+order: 99

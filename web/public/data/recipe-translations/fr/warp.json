@@ -1,0 +1,5 @@
+{
+  "name": "Warp",
+  "description": "Transfert de fichiers rapide et sécurisé",
+  "longDescription": "<p>\n      Warp permet d’envoyer des fichiers de manière sécurisée via Internet ou le réseau local en\n      échangeant un code composé de mots.\n    </p>\n<p>\n      La meilleure méthode de transfert est automatiquement sélectionnée grâce au protocole “Magic Wormhole”,\n      incluant le transfert local si possible.\n    </p>\n<p>Fonctionnalités</p>\n<ul>\n  <li>Envoyez des fichiers entre plusieurs appareils</li>\n  <li>Tous les transferts sont chiffrés</li>\n  <li>Transfert direct sur le réseau local lorsque c’est possible</li>\n  <li>Connexion Internet nécessaire</li>\n  <li>Prise en charge des QR codes</li>\n  <li>Compatible avec le client en ligne de commande Magic Wormhole et toutes les applications compatibles</li>\n</ul>\n"
+}

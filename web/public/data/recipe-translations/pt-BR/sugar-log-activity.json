@@ -1,0 +1,5 @@
+{
+  "name": "Log",
+  "description": "Uma atividade desenvolvida para quem deseja diagnosticar problemas complexos em programas no computador.",
+  "longDescription": "<p>A Plataforma de Aprendizagem Sugar promove o aprendizado colaborativo por meio de Atividades Sugar que incentivam o pensamento crítico, elemento central de uma educação de qualidade. Projetada desde o início especialmente para crianças, a Sugar oferece uma alternativa ao software tradicional de 'ambiente de escritório'.</p>\n<p>As aplicações do usuário na Sugar são chamadas de Atividades. Elas são pacotes de software que salvam seu trabalho automaticamente – criando instâncias específicas da Atividade que podem ser retomadas posteriormente. Muitas Atividades oferecem suporte à colaboração, permitindo que vários usuários participem de uma mesma sessão coletiva.</p>\n<p>Arquivos de log são criados ao executar Atividades e por outros processos relacionados à Sugar. Eles registram erros de software, entre outros dados, e podem ser úteis para diagnosticar problemas.</p>\n<p>Este pacote contém a Atividade Log para visualizar arquivos de log relacionados à Sugar.</p>\n"
+}

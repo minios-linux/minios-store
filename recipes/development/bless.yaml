@@ -1,0 +1,36 @@
+id: "bless"
+name: Bless Hex Editor
+description: Edit binary files
+longDescription: |
+  <p>Bless is a binary (hex) editor, a program that enables you to edit files as a sequence of bytes written for the GNOME Desktop. Main features are:</p>
+  <p>  * Efficient editing of large data files.   * Multilevel undo - redo operations.   * Customizable data views.   * Fast data rendering on screen.   * Multiple Tabs.   * Fast Find and Replace operations.   * Conversion Table.   * Advanced Copy/Paste capabilities.   * Multi-threaded search and save operations.   * Export to text and html (others with plugins).   * Extensibility with Plugins.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bless
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: bless_bless.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

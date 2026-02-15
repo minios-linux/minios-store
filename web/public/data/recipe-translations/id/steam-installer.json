@@ -1,0 +1,5 @@
+{
+  "name": "Steam (installer)",
+  "description": "Peluncur untuk layanan distribusi perangkat lunak Steam",
+  "longDescription": "<p>Steam adalah layanan distribusi perangkat lunak yang menyediakan toko daring, instalasi otomatis, pembaruan otomatis, pencapaian (achievements), sinkronisasi save game dan screenshot melalui SteamCloud, serta berbagai fitur sosial.</p>\n<p>Paket tidak resmi ini menyediakan skrip untuk mengunduh dan menginstal klien Steam, serta mengandalkan pustaka 32-bit dan 64-bit serta komponen lain yang dibutuhkan oleh klien Steam. Instalasi Steam beserta semua game Steam akan dipasang ke direktori home setiap pengguna yang menjalankan skrip installer ini.</p>\n<p>Karena Steam memerlukan pustaka 32-bit, sebelum memasang paket ini Anda perlu menjalankan sebagai root:\n<code>dpkg --add-architecture i386; apt update</code></p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Ferret Visualisation",
+  "description": "Analyse et visualisation de données météorologiques",
+  "longDescription": "<p>Ferret est un environnement interactif de visualisation et d’analyse, conçu pour répondre aux besoins des océanographes et météorologues travaillant sur des ensembles de données maillées volumineuses et complexes. Il permet d’accéder de manière transparente à de vastes bases de données distantes via Internet grâce à OPeNDAP (anciennement DODS).</p>\n<p>Ferret offre une flexibilité comparable à Mathematica, un formatage adapté aux sciences géophysiques, une connexion « intelligente » aux bases de données, une gestion optimisée de la mémoire pour les calculs de grande ampleur, ainsi qu’un traitement symétrique sur 4 dimensions. Il peut traiter à la fois des jeux de données maillés et non maillés.</p>\n"
+}

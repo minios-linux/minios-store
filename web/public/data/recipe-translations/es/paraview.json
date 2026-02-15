@@ -1,0 +1,5 @@
+{
+  "name": "ParaView Client",
+  "description": "ParaView permite visualizar conjuntos de datos de gran tamaño",
+  "longDescription": "<p>ParaView es una aplicación de código abierto y multiplataforma diseñada para visualizar conjuntos de datos que van desde pequeños hasta muy grandes. Los objetivos del proyecto ParaView incluyen lo siguiente:</p>\n<p>    * Desarrollar una aplicación de visualización de código abierto y multiplataforma.     * Soportar modelos de computación distribuida para procesar grandes volúmenes de datos.     * Crear una interfaz de usuario abierta, flexible e intuitiva.     * Desarrollar una arquitectura extensible basada en estándares abiertos.</p>\n<p>ParaView funciona en sistemas paralelos de memoria distribuida y compartida, así como en sistemas de un solo procesador, y ha sido probado con éxito en Windows, Mac OS X, Linux y varias estaciones de trabajo Unix, clústeres y supercomputadoras. Internamente, ParaView utiliza Visualization Toolkit como motor de procesamiento y renderizado de datos, y su interfaz de usuario está desarrollada con Qt.</p>\n"
+}

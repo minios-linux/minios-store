@@ -1,0 +1,34 @@
+id: imsprog
+name: IMSProg_database_update.desktop
+description: Chip database update script for IMSProg programmer
+longDescription: |
+  <p>IMSProg_database_update  - online chip database update from the external web-server. IMSProg_database_update uses the zenity graphical Gnome utility.   Once started,  it  copies  the  downloaded  database to the ~/.local/imsprog folder. The script then displays the number of of chips in the database before and after the upgrade.</p>
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - imsprog
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - programmer
+  - bios
+  - eeprom
+  - microwire
+  - ic
+  - chip
+  - microcircuit
+  - microchip
+  - ic
+  - integrated circuit
+iconSources:
+  - cached: imsprog_IMSProg_database_update.png
+    width: 64
+    height: 64
+homepage: "https://github.com/bigbigmdm/IMSProg/tree/main"
+enabled: true
+order: 99

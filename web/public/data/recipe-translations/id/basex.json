@@ -1,0 +1,5 @@
+{
+  "name": "BaseX XML Database",
+  "description": "Memungkinkan Anda melakukan query dan analisis data XML secara visual",
+  "longDescription": "<p>BaseX adalah database XML yang sangat cepat dan ringan, namun tetap kuat, serta dilengkapi pemroses XPath/XQuery, termasuk dukungan penuh untuk standar W3C Full Text dan Update terkini. Aplikasi ini mampu menangani data XML berukuran besar dan menawarkan antarmuka depan yang interaktif (basexgui). Selain dua mode mandiri lokal, BaseX juga menyediakan arsitektur client/server.</p>\n<p>Paket ini menyediakan perintah berikut:  * basex  ..........  Database XML lokal mandiri. Antarmuka baris perintah.  * basexgui  .......  Database XML lokal mandiri. Antarmuka grafis.  * basexserver  ....  Server Database XML BaseX.  * basexclient  ....  Klien Database XML BaseX. BaseX XML database dan pemroses XPath/XQuery</p>\n"
+}

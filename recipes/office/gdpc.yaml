@@ -1,0 +1,29 @@
+id: gdpc
+name: GDPC Molecular Dynamic Simulator
+description: Visualize molecular dynamic simulations
+longDescription: |
+  <p>gpdc is a graphical program for visualising output data from molecular dynamics simulations. It reads input in the standard xyz format, as well as other custom formats, and can output pictures of each frame in JPG or PNG format.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gdpc
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+iconSources:
+  - cached: gdpc_gdpc.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

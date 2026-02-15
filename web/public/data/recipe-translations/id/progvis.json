@@ -1,0 +1,5 @@
+{
+  "name": "Progvis",
+  "description": "Alat visualisasi program untuk program C/C++ konkuren",
+  "longDescription": "<p>\n      Progvis adalah alat visualisasi program untuk program konkuren yang ditulis dalam subset C (dan\n      sebagian C++). Visualisasi detail berbagai aspek program C membuatnya juga berguna untuk\n      memvisualisasikan program sekuensial.\n    </p>\n<p>Fitur-fitur Progvis meliputi:</p>\n<ul>\n  <li>Visualisasi program C dan C++</li>\n  <li>Mengeksplorasi berbagai interleaving untuk mencari kesalahan</li>\n  <li>Deteksi otomatis berbagai kesalahan umum pada program kecil</li>\n</ul>\n"
+}

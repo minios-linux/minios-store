@@ -1,0 +1,30 @@
+id: lomiri-gallery-app-common
+name: Gallery
+description: Browse your photographs
+longDescription: |
+  <p>This app is a core app for Ubuntu Touch&apos;s shell Lomiri. Ubuntu Touch is a mobile OS developed by the UBports Foundation. Lomiri is its operating environment optimized for touch based human-machine interaction, but also supports convergence (i.e. switching between tablet/phone and desktop mode).</p>
+  <p>This package provides the arch-indep files of Lomiri&apos;s Gallery App.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lomiri-gallery-app-common
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - photographs
+  - pictures
+  - albums
+iconSources:
+  - url: l/lo/lomiri-gallery-app.desktop/2b276c67b39fd3cc56c889b78216f895/icons/128x128/lomiri-gallery-app-common_gallery-app.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

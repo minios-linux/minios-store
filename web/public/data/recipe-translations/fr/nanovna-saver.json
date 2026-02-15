@@ -1,0 +1,5 @@
+{
+  "name": "NanoVNASaver",
+  "description": "Outil pour lire, afficher et enregistrer les données du NanoVNA",
+  "longDescription": "<p>Le NanoVNA est un analyseur de réseaux vectoriels et un analyseur d'antennes, utile pour tester ou instrumenter différents types de réseaux radio.</p>\n<p>NanoVNASaver importe les fichiers Touchstone du NanoVNA, balaie les plages de fréquences en segments pour obtenir plus de 101 points de données, et permet d'afficher et d'analyser facilement les résultats.</p>\n"
+}

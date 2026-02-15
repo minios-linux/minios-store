@@ -1,0 +1,5 @@
+{
+  "name": "OBS",
+  "description": "Logiciel libre et open source de streaming et d’enregistrement",
+  "longDescription": "<p>OBS Studio est conçu pour enregistrer et diffuser efficacement du contenu vidéo en direct. Il prend en charge la diffusion en direct RTP vers de nombreuses plateformes de streaming.</p>\n<p>Parmi ses fonctionnalités :  * Encodage H264 (x264) et AAC  * Nombre illimité de scènes et de sources  * Exportation des fichiers au format MP4 ou FLV  * Capture de jeux via GPU pour un streaming de jeux haute performance  * Rééchantillonnage bilinéaire ou lanczos3</p>\n<p>Attention : OBS Studio nécessite une carte graphique compatible OpenGL 3.2.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Bitmap to Component Converter",
+  "description": "Buat komponen dari bitmap untuk digunakan di KiCad",
+  "longDescription": "<p>KiCad adalah rangkaian program untuk pembuatan papan sirkuit cetak (PCB). Suite ini mencakup editor skematik, alat tata letak PCB, alat bantu, dan penampil 3D untuk menampilkan PCB yang sudah jadi dan terisi penuh.</p>\n<p>KiCad terdiri dari 5 komponen utama:</p>\n<p> * kicad - manajer proyek  * eeschema - editor skematik  * pcbnew - editor PCB  * gerbview - penampil GERBER  * cvpcb - pemilih footprint untuk komponen</p>\n<p>Pustaka:  * Baik eeschema maupun pcbnew memiliki manajer dan editor pustaka untuk komponen dan footprint mereka  * Anda dapat dengan mudah membuat, mengedit, menghapus, dan bertukar item pustaka  * File dokumentasi dapat dikaitkan dengan komponen, footprint, dan kata kunci, memungkinkan pencarian cepat berdasarkan fungsi  * Tersedia pustaka sangat besar untuk komponen skematik dan footprint  * Sebagian besar komponen memiliki model 3D yang sesuai</p>\n"
+}

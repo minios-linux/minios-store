@@ -1,0 +1,5 @@
+{
+  "name": "GShisen",
+  "description": "Juego de rompecabezas Shizen-sho para GNUstep",
+  "longDescription": "<p>El objetivo del juego es eliminar todas las fichas del tablero. Solo se pueden eliminar dos fichas iguales a la vez. Dos fichas pueden eliminarse únicamente si pueden conectarse con un máximo de tres líneas rectas. Las líneas pueden ser horizontales o verticales, pero no diagonales. Recuerda que las líneas pueden atravesar el borde vacío. Si te quedas atascado, puedes usar la función de Pista para encontrar dos fichas eliminables.</p>\n"
+}

@@ -1,0 +1,57 @@
+id: "choqok"
+name: Choqok
+description: Micro-blogging client
+longDescription: |
+  <p>
+        Choqok is a micro-blogging client which supports Twitter.com, GNU Social, Pump.io and Friendica services.
+      </p>
+  <p>Features:</p>
+  <ul>
+    <li>Supporting Twitter.com micro-blogging service</li>
+    <li>Supporting self hosted Pump.io services</li>
+    <li>Supporting self hosted GNU social service</li>
+    <li>Supporting self hosted Friendica services</li>
+    <li>Supporting User + His/Her Friends time-lines</li>
+    <li>Supporting @Reply time-lines</li>
+    <li>Support for send and receive direct messages</li>
+    <li>Support medium upload using external services (Flickr, Imageshack,...)</li>
+    <li>Supporting Multiple Accounts simultaneously</li>
+    <li>Supporting search APIs for all services</li>
+    <li>KWallet integration</li>
+    <li>Ability to make a quick tweet with global shortcuts (Ctrl+Meta+T)</li>
+    <li>Ability to notify user about new statuses text, with KNotification or Libnotify</li>
+    <li>Support for shortening urls with more than 30 characters (shorten on paste)</li>
+    <li>Support for configuring status lists appearance</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - choqok
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/choqok.desktop/C43FB7D43A7802FAC474B4B19D90DB3F/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/choqok.desktop/C43FB7D43A7802FAC474B4B19D90DB3F/screenshots/image-1_624x705.png
+    width: 747
+    height: 844
+iconSources:
+  - url: org/kde/choqok.desktop/C43FB7D43A7802FAC474B4B19D90DB3F/icons/128x128/choqok_choqok.png
+    width: 128
+    height: 128
+homepage: "https://choqok.kde.org/"
+enabled: true
+order: 99

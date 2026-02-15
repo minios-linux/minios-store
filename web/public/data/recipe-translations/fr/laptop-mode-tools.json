@@ -1,0 +1,5 @@
+{
+  "name": "Configuration de Laptop Mode Tools",
+  "description": "Activer/désactiver les paramètres de Laptop Mode Tools",
+  "longDescription": "<p>Le mode laptop est une fonctionnalité du noyau Linux qui permet à votre ordinateur portable d'économiser considérablement de l'énergie en autorisant le disque dur à s'arrêter plus longtemps. Ce paquet contient les scripts utilisateurs nécessaires pour activer le mode laptop.</p>\n<p>Il permet d'activer automatiquement le mode laptop lorsque l'ordinateur fonctionne sur batterie. Il prend également en charge diverses autres fonctionnalités de gestion de l'alimentation, comme le démarrage et l'arrêt de démons selon le mode d'alimentation, l'hibernation automatique lorsque le niveau de la batterie est trop faible, ainsi que l'ajustement de la mise en veille du terminal et de l'économie d'écran X11.</p>\n<p>laptop-mode-tools utilise la fonctionnalité Laptop Mode du noyau Linux et peut donc aussi être utilisé sur des ordinateurs de bureau et des serveurs pour économiser l'énergie.</p>\n"
+}

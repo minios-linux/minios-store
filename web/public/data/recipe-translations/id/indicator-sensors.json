@@ -1,0 +1,5 @@
+{
+  "name": "Hardware Sensors Indicator",
+  "description": "Menampilkan pembacaan sensor suhu, kipas, dan tegangan langsung di panel desktop Anda",
+  "longDescription": "<p>\n      Hardware Sensors Indicator menampilkan pembacaan sensor suhu, kipas, dan tegangan\n      langsung di panel desktop Anda.\n    </p>\n<p>\n      Jika menggunakan GNOME Shell, diperlukan ekstensi shell agar pembacaan sensor\n      dapat terlihat di panel atas. Disarankan untuk menginstal ekstensi KStatusNotifierItem/AppIndicator Support\n      https://extensions.gnome.org/extension/615/appindicator-support/, atau\n      Hardware Sensors Indicator\n      https://extensions.gnome.org/extension/336/hardware-sensors-indicator/\n      agar informasi sensor dapat terlihat.\n      </p>\n"
+}

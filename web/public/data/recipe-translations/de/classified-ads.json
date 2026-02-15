@@ -1,0 +1,5 @@
+{
+  "name": "Kleinanzeigen",
+  "description": "Kleinanzeigen – das Programm zum Aufgeben von Inseraten",
+  "longDescription": "<p>Kleinanzeigen ist ein Versuch, Funktionen bereitzustellen, die mit dem Verschwinden von Usenet-News verloren gegangen sind. Ziel ist es, das Problem fehlender News-Server zu lösen, indem keine zentralen Server mehr benötigt werden; die Datenspeicherung erfolgt direkt innerhalb der Client-Anwendungen der Nutzer. Zu den aktuellen Funktionen gehören:  * Online-Aufgabe von Inseraten mit Kategorisierung  * Antworten auf Inserate, öffentlich oder privat zum Betreiber  * Binäranhänge an Beiträge  * Bereitstellung grundlegender Betreiberinformationen  * Einfache Stichwortsuche im Inhalt  * Audioverhandlungen zwischen Betreibern  * Erweiterbare Oberfläche mittels Tcl-Skriptsprache  * Datenfreigabe zwischen Tcl-Programmen über eine verteilte Datenbank</p>\n"
+}

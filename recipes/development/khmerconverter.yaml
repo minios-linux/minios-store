@@ -1,0 +1,28 @@
+id: khmerconverter
+name: Khmer Converter
+description: Convert Khmer between Unicode and legacy Khmer encodings.
+longDescription: |
+  <p>khmerconverter converts files between Unicode and the legacy Khmer encodings based on fonts using the ASCII/ANSI range.</p>
+  <p>It currently supports plain text files, OpenDocument files (ODT) and HTML files encoded with UTF-8 and the ABC, ABC-ZWSP, Baidok, Fk, Khek, Limon and Truth legacy Khmer fonts.</p>
+  <p>Please install python-tk and tix to use the graphical interface (GUI).</p>
+  <p> Homepage: http://www.khmeros.info/drupal/?q=en/download/converter</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - khmerconverter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: khmerconverter_khmerconverter.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

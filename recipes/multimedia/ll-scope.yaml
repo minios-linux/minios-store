@@ -1,0 +1,23 @@
+id: ll-scope
+name: Oscilloscope
+description: An oscilloscope DSSI plugin
+longDescription: |
+  <p>The Oscilloscope is a DSSI plugin with a GUI that displays the audio input in an oscilloscope view. It can be useful when working with modular synths, to view the waveforms with at different places in the synth graph.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ll-scope
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ll-scope_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

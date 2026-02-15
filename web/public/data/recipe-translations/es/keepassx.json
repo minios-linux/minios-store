@@ -1,0 +1,5 @@
+{
+  "name": "KeePassX",
+  "description": "Gestor de contraseñas multiplataforma",
+  "longDescription": "<p>KeePassX es un gestor de contraseñas libre y de código abierto que te ayuda a administrar tus contraseñas de forma segura. Puedes almacenar todas tus contraseñas en una única base de datos, la cual se protege con una clave maestra o un disco de claves. Así, solo necesitas recordar una clave maestra o insertar el disco de claves para acceder a toda la base de datos. Las bases de datos se cifran utilizando los algoritmos AES o Twofish.</p>\n<p>A diferencia de KeePassXC (paquete keepassxc), el desarrollo de KeePassX ha disminuido su ritmo. Ofrece menos funciones y utiliza una versión obsoleta de la biblioteca de widgets Qt. Si no estás seguro de si instalar keepassx o keepassxc, instala keepassx en su lugar.</p>\n"
+}

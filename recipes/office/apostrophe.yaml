@@ -1,0 +1,67 @@
+id: "apostrophe"
+name: Apostrophe
+description: Edit Markdown in style
+longDescription: |
+  <p>Focus on your writing with a clean, distraction-free markdown editor.</p>
+  <p>Features:</p>
+  <ul>
+    <li>An UI tailored to comfortable writing</li>
+    <li>A distraction-free mode</li>
+    <li>Dark, light and sepia themes</li>
+    <li>Everything you expect from a text editor, such as spellchecking or document statistics</li>
+    <li>Live preview of what you write</li>
+    <li>Export to all kind of formats: PDF, Word/Libreoffice, LaTeX, or even HTML slideshows</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - apostrophe
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - uberwriter
+  - uberwriter
+  - apostrophe
+  - markdown
+  - editor
+  - text
+  - write
+screenshotSources:
+  - url: org/gnome/gitlab.somas.Apostrophe/bc975a33bf7821fa7f5855085f861f48/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/gitlab.somas.Apostrophe/bc975a33bf7821fa7f5855085f861f48/screenshots/image-1_624x401@1.png
+    width: 1122
+    height: 722
+  - url: org/gnome/gitlab.somas.Apostrophe/bc975a33bf7821fa7f5855085f861f48/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/gitlab.somas.Apostrophe/bc975a33bf7821fa7f5855085f861f48/screenshots/image-2_624x401@1.png
+    width: 1122
+    height: 722
+  - url: org/gnome/gitlab.somas.Apostrophe/bc975a33bf7821fa7f5855085f861f48/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/gitlab.somas.Apostrophe/bc975a33bf7821fa7f5855085f861f48/screenshots/image-3_624x411@1.png
+    width: 1165
+    height: 769
+  - url: org/gnome/gitlab.somas.Apostrophe/bc975a33bf7821fa7f5855085f861f48/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/gitlab.somas.Apostrophe/bc975a33bf7821fa7f5855085f861f48/screenshots/image-4_624x314@1.png
+    width: 1433
+    height: 722
+  - url: org/gnome/gitlab.somas.Apostrophe/bc975a33bf7821fa7f5855085f861f48/screenshots/image-5_orig.png
+    thumbnailUrl: org/gnome/gitlab.somas.Apostrophe/bc975a33bf7821fa7f5855085f861f48/screenshots/image-5_624x401@1.png
+    width: 1122
+    height: 722
+iconSources:
+  - url: org/gnome/gitlab.somas.Apostrophe/bc975a33bf7821fa7f5855085f861f48/icons/128x128/apostrophe_org.gnome.gitlab.somas.Apostrophe.png
+    width: 128
+    height: 128
+developer: "Manuel G., Wolf V."
+homepage: "https://apps.gnome.org/app/org.gnome.gitlab.somas.Apostrophe/"
+enabled: true
+order: 99

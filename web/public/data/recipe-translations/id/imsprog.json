@@ -1,0 +1,5 @@
+{
+  "name": "IMSProg_database_update.desktop",
+  "description": "Skrip pembaruan basis data chip untuk pemrogram IMSProg",
+  "longDescription": "<p>IMSProg_database_update - pembaruan basis data chip daring dari web-server eksternal. IMSProg_database_update menggunakan utilitas grafis Gnome Zenity. Setelah dijalankan, skrip ini menyalin basis data yang diunduh ke folder ~/.local/imsprog. Script kemudian menampilkan jumlah chip dalam basis data sebelum dan sesudah pemutakhiran.</p>\n"
+}

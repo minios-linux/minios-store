@@ -1,0 +1,58 @@
+id: "enigma"
+name: Enigma
+description: Uncover pairs of stones while navigating obstacles using a marble
+longDescription: |
+  <p>Enigma is a puzzle game similar to Oxyd on the Atari ST or Rock&apos;n&apos;Roll on the Amiga and good old Marble Madness. It also has Sokoban levels, and some interesting twists on the original sokoban concept.</p>
+  <p>In Enigma, your objective is to locate and uncover matching pairs of Oxyd stones. Simple as it sounds, this task is made more difficult by the fact that Oxyd stones tend to be hidden, inaccessible or protected by unexpected traps. Overcoming these obstacles often requires a lot of dexterity and wit (and can be quite addictive).</p>
+  <p>This package contains the game engine.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - enigma
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - marble
+  - puzzle
+  - logic
+  - level
+screenshotSources:
+  - url: e/en/enigma.desktop/ff9a9ac041e307d7ddf0e69392255458/screenshots/image-1_orig.png
+    thumbnailUrl: e/en/enigma.desktop/ff9a9ac041e307d7ddf0e69392255458/screenshots/image-1_624x468@1.png
+    width: 640
+    height: 480
+  - url: e/en/enigma.desktop/ff9a9ac041e307d7ddf0e69392255458/screenshots/image-2_orig.png
+    thumbnailUrl: e/en/enigma.desktop/ff9a9ac041e307d7ddf0e69392255458/screenshots/image-2_624x468@1.png
+    width: 640
+    height: 480
+  - url: e/en/enigma.desktop/ff9a9ac041e307d7ddf0e69392255458/screenshots/image-3_orig.png
+    thumbnailUrl: e/en/enigma.desktop/ff9a9ac041e307d7ddf0e69392255458/screenshots/image-3_624x468@1.png
+    width: 640
+    height: 480
+iconSources:
+  - cached: enigma_enigma.png
+    width: 64
+    height: 64
+homepage: "http://www.nongnu.org/enigma/"
+enabled: true
+order: 99

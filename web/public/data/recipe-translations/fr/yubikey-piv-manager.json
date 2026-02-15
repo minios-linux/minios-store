@@ -1,0 +1,5 @@
+{
+  "name": "YubiKey PIV Manager",
+  "description": "Outil de configuration de votre YubiKey compatible PIV",
+  "longDescription": "<p>Cet outil permet d’effectuer des tâches administratives sur une YubiKey compatible PIV. Il offre la gestion du code PIN, du PUK ainsi que de la clé de gestion. Il peut également générer et/ou importer des clés et des certificats. Il s’agit d’une interface graphique pour yubico-piv-tool, apportant des fonctionnalités supplémentaires.</p>\n"
+}

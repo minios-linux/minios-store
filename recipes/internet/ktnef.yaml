@@ -1,0 +1,30 @@
+id: ktnef
+name: KTnef
+description: A viewer/extractor for TNEF files
+longDescription: |
+  <p>The TNEF File Viewer allows one to handle easily mail attachments using the TNEF format. Those attachments are usually found in mails coming from Microsoft mail servers and embed the mail properties as well as the actual attachments.</p>
+  <p>An attachment in TNEF format is most often named winmail.dat or win.dat.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ktnef
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: ktnef_ktnef.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

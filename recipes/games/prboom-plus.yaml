@@ -1,0 +1,38 @@
+id: prboom-plus
+name: PrBoom+
+description: enhanced clone of the classic first-person shooter Doom
+longDescription: |
+  <p>PrBoom+ is an enhanced source port of the classic 3D first-person shooter game Doom, first released by id Software in 1993. It uses the Simple Direct Media layer (SDL) library and features an optional OpenGL renderer. It is based on PrBoom, MBF and LxDoom, which in turn are based on TeamTNT&apos;s Boom, a freely available port of Doom for DOS.</p>
+  <p>In addition to PrBoom&apos;s features, PrBoom+ offers uncapped framerate, variable gamespeed, re-record, walkcam, chasecam, full mouselook, FOV, and other features without loss of compatibility with the original Doom.</p>
+  <p>PrBoom+ requires game data to run. Free game data is available in the freedoom package. Commercial game data can be packaged using game-data-packager. PrBoom+ supports all flavors of Doom, including The Ultimate Doom, Doom 2 and Final Doom as well as Chex(R) Quest, HACX, FreeDoom and FreeDM.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - prboom-plus
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - first
+  - person
+  - shooter
+  - doom
+iconSources:
+  - url: p/pr/prboom-plus.desktop/B9C0C6C0DA24598B5A59D0C7D17F7009/icons/128x128/prboom-plus_prboom-plus.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

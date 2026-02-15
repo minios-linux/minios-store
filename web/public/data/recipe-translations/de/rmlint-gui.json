@@ -1,0 +1,5 @@
+{
+  "name": "Shredder Duplicate Finder",
+  "description": "Duplikate finden und löschen",
+  "longDescription": "<p>rmlint-gui (auch bekannt als Shredder) ist eine grafische Benutzeroberfläche für rmlint auf Basis von GTK+. Mit rmlint werden Speicherplatzverschwendung und weitere Fehler im Dateisystem erkannt und deren Beseitigung angeboten.</p>\n<p>Erkennt unter anderem:  * Doppelte Dateien und Verzeichnisse.  * Nicht-gestrippte Binärdateien.  * Defekte Symlinks.  * Leere Dateien.  * Rekursiv leere Verzeichnisse.  * Dateien mit ungültigen Benutzer- oder Gruppen-IDs.</p>\n<p>Hauptfunktionen:  * Extrem schnell.  * Flexible und einfach zu benutzende Kommandozeilenoptionen.  * Auswahl verschiedener Hash-Verfahren zur Duplikaterkennung.  * Möglichkeit zum exakten Byte-für-Byte-Vergleich (nur geringfügig langsamer).  * Zahlreiche Ausgabeoptionen.  * Speicherung des letzten Ausführungszeitpunkts, um beim nächsten Lauf nur neue Dateien zu prüfen.  * Viele Optionen zur Auswahl und Priorisierung der Originaldateien.  * Kann sehr große Datenmengen (Millionen Dateien) verarbeiten.</p>\n"
+}

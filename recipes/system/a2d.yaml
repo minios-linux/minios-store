@@ -1,0 +1,47 @@
+id: a2d
+name: a2d
+description: APRS to DAPNET portal
+longDescription: |
+  <p>
+        This portal serves as a bridge between the APRS
+        Automatic Packet Reporting System and the DAPNET
+        Decentralized Amateur Paging Network platform.
+        It allows APRS users to relay their APRS messages
+        and alerts to their DAPNET pager. This integration
+        enables seamless communication between two distinct
+        radio communication systems, enhancing the reach
+        and accessibility of critical information for
+        amateur radio enthusiasts.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - a2d
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - hamradio
+  - radio
+  - aprs
+  - dapnet
+  - pager
+  - pocsag
+  - message
+  - portal
+  - a2d
+  - webapp
+iconSources:
+  - cached: a2d_logo_a2d.png
+    width: 64
+    height: 64
+homepage: "https://github.com/ngc2023/a2d"
+enabled: true
+order: 99

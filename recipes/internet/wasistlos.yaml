@@ -1,0 +1,37 @@
+id: wasistlos
+name: WasIstLos
+description: Unofficial WhatsApp application
+longDescription: |
+  <p>WasIstLos is an unofficial WhatsApp desktop application written in C++.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wasistlos
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - chat
+  - im
+  - messaging
+  - messenger
+  - sms
+  - whatsapp
+  - whatsapp-desktop
+screenshotSources:
+  - url: com/github/xeco23.WasIstLos/4ec9ddaf73ca838de7394a3e9716c39d/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/xeco23.WasIstLos/4ec9ddaf73ca838de7394a3e9716c39d/screenshots/image-1_624x375@1.png
+    width: 1290
+    height: 776
+iconSources:
+  - url: com/github/xeco23.WasIstLos/4ec9ddaf73ca838de7394a3e9716c39d/icons/128x128/wasistlos_com.github.xeco23.WasIstLos.png
+    width: 128
+    height: 128
+homepage: "https://github.com/xeco23/WasIstLos"
+enabled: true
+order: 99

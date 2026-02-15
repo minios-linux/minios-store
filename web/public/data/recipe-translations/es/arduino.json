@@ -1,0 +1,5 @@
+{
+  "name": "Arduino IDE",
+  "description": "Plataforma de prototipado electrónico de código abierto",
+  "longDescription": "<p>Arduino es una plataforma de prototipado electrónico de código abierto basada en hardware y software flexibles y fáciles de usar. Está diseñada para artistas, diseñadores, aficionados y cualquier persona interesada en crear objetos o entornos interactivos.</p>\n<p>Este paquete instalará el entorno de desarrollo integrado que permite escribir programas, verificar código, compilar y cargarlo en la placa de desarrollo Arduino. También se instalarán ejemplos de código.</p>\n<p>Algunas librerías AVR básicas serán provistas por el paquete adicional dependiente arduino-core-avr. Se pueden instalar más librerías directamente desde el IDE utilizando el gestor de librerías, para lo cual se requiere acceso a internet.</p>\n"
+}

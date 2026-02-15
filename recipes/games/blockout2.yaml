@@ -1,0 +1,41 @@
+id: blockout2
+name: BlockOut II
+description: Play a 3D Tetris game
+longDescription: |
+  <p>BlockOut II is a free adaptation of the original BlockOut DOS game edited by California Dreams in 1989. BlockOut II has the same features than the original game with few graphic improvements. The score calculation is also nearly similar to the original game. BlockOut II has been designed by an addicted player for addicted players. BlockOut II is an open source project available for both Windows and Linux.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - blockout2
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tetris
+  - blocks
+  - logic
+iconSources:
+  - cached: blockout2_blockout2.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,37 @@
+id: terraintool
+name: Terraintool surface mesh generator
+description: Generate surface meshes for cave survey software
+longDescription: |
+  <p>This tool generates terrain meshes for cave survey tools from online terrain altitude datasets. It uses the NASA SRTM and European ASTER datasets. The relevant data is downloaded and excerpted, geolocated to the desired co-ordinate system, resampled to a mesh grid, an offset to local grid added if required, the result displayed, and saved in survex (.svx) format. It is written in java.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - terraintool
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: terraintool_terraintool.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

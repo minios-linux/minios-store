@@ -1,0 +1,43 @@
+id: "ceferino"
+name: Ceferino
+description: Save the cows!
+longDescription: |
+  <p>A game similar to &apos;Super Pang&apos;. You are attacked by little green balls which are bouncing around and which you have to destroy with your knife. Your knife however is limited to being thrown upwards, thus you have to get under the balls to destroy them. Even worse, if you destroy a large ball, it doesn&apos;t just vanish, but breaks apart into two smaller balls. Levels consist of little platforms connected by ladders, so you can go up and down or find cover if needed.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ceferino
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - super
+  - pang
+  - ball
+  - platforms
+  - knife
+iconSources:
+  - url: c/ce/ceferino.desktop/e6af888839b18dac740b45745c71ee56/icons/128x128/ceferino_ceferino.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

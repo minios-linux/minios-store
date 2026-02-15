@@ -1,0 +1,36 @@
+id: xsnow
+name: xsnow
+description: "Snow, Santa and birds on your desktop"
+longDescription: |
+  <p>Xsnow is a X Window application that will snow on the desktop background. Santa and his reindeer will complete your festive-season feeling. Xsnow runs in GNOME, KDE, FVWM and desktops that are derived from those.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xsnow
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - christmas
+  - santa
+  - snow
+  - xmas
+screenshotSources:
+  - url: x/xs/xsnow.desktop/81b38956f2cfdf169fecf6b10d9d0594/screenshots/image-1_orig.png
+    thumbnailUrl: x/xs/xsnow.desktop/81b38956f2cfdf169fecf6b10d9d0594/screenshots/image-1_624x351@1.png
+    width: 2560
+    height: 1440
+iconSources:
+  - cached: xsnow_xsnow.png
+    width: 64
+    height: 64
+homepage: "https://sourceforge.net/projects/xsnow/"
+enabled: true
+order: 99

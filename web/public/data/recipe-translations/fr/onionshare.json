@@ -1,0 +1,5 @@
+{
+  "name": "OnionShare",
+  "description": "Partagez des fichiers de toute taille de manière sécurisée et anonyme",
+  "longDescription": "<p>OnionShare vous permet de partager des fichiers de n'importe quelle taille de façon sécurisée et anonyme avec un tiers. Il fonctionne en lançant un serveur web accessible en tant que service caché Tor, puis en générant une URL impossible à deviner pour accéder et télécharger le fichier.</p><p>Vous n'avez pas besoin de configurer un serveur distant ni d'utiliser un service de partage de fichiers tiers. Vous hébergez le fichier directement sur votre ordinateur et utilisez un service caché Tor pour le rendre temporairement accessible sur Internet. L'utilisateur destinataire n'a qu'à utiliser le navigateur Tor pour télécharger le fichier depuis votre machine.</p>"
+}

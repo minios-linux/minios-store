@@ -1,0 +1,5 @@
+{
+  "name": "Wicd Network Manager",
+  "description": "Jalankan klien Wicd tanpa ikon system tray",
+  "longDescription": "<p>Wicd adalah server konfigurasi jaringan serbaguna yang dirancang untuk menyediakan antarmuka sederhana namun fleksibel dalam mengelola koneksi jaringan. Fitur utamanya meliputi:  * beragam pengaturan;  * kemampuan terhubung ke (dan menyimpan profil) jaringan kabel maupun nirkabel;  * dukungan berbagai skema enkripsi, termasuk WEP, WPA, WPA2, serta skema khusus;  * kompatibel dengan wireless-tools.</p>\n<p>Paket ini menyediakan klien GTK+ yang tidak memiliki dependensi GNOME, sehingga mudah digunakan di Xfce, Fluxbox, Openbox, Enlightenment, dan sebagainya. Klien ini juga mendukung ikon tray untuk menampilkan aktivitas jaringan dan kekuatan sinyal.</p>\n"
+}

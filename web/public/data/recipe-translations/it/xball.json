@@ -1,0 +1,5 @@
+{
+  "name": "XBall",
+  "description": "Simula palline rimbalzanti in una finestra",
+  "longDescription": "<p>\n    Questo programma simula palline rimbalzanti all'interno di una finestra. Puoi creare le palline in vari modi e impostare parametri come gravità, elasticità, attivare o meno le collisioni tra le palline, ecc.</p>\n<p>\n    Il software offre menu configurabili dall'utente e un widget DrawingArea utilizzabile insieme ad altri widget Athena.</p>\n<p>\n    Tutte le risorse sono incluse nel programma come risorse di fallback; non è quindi strettamente necessario installare il file app-defaults, a meno che non si usino i widget Athena, poiché in quel caso gli acceleratori da tastiera non funzioneranno senza il file app-defaults.</p>\n<p>\n    Per avviare le demo incluse, apri un terminale e digita 'run_demos'.</p>\n"
+}

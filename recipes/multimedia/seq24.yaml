@@ -1,0 +1,35 @@
+id: seq24
+name: Seq24
+description: MIDI Sequencer
+longDescription: |
+  <p>Seq24 was created to provide a very simple interface for editing and playing midi &apos;loops&apos;. It is a very minimal sequencer that excludes the bloated features of the large software sequencers and includes a small subset that proved to be useful for live performances.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - seq24
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: seq24_seq24.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,48 @@
+id: "nitrokey-app"
+name: Nitrokey App
+description: Manage your Nitrokey devices
+longDescription: |
+  <p>Nitrokey is an open source/open hardware USB key supporting secure encryption and signing.
+  	    This package installs the official application to manage the features of the different USB keys.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nitrokey-app
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - nitrokey
+  - openpgp
+  - smart card
+screenshotSources:
+  - url: com/nitrokey/nitrokey-app/58ca89c8fb158b118e018e1bc28c396f/screenshots/image-1_orig.png
+    width: 128
+    height: 128
+iconSources:
+  - url: com/nitrokey/nitrokey-app/58ca89c8fb158b118e018e1bc28c396f/icons/128x128/nitrokey-app_nitrokey-app.png
+    width: 128
+    height: 128
+developer: Nitrokey UG
+homepage: "https://www.nitrokey.com/"
+enabled: true
+order: 99

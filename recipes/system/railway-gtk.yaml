@@ -1,0 +1,53 @@
+id: railway-gtk
+name: Railway
+description: Find all your travel information
+longDescription: |
+  <p>
+        Railway lets you look up travel information across networks and borders
+        without having to navigate through different websites. Due to the adaptive
+        design, it is suitable to plan your trip in advance or mobile on the go:
+      </p>
+  <ul>
+    <li>
+          View your tripsʼ details including platforms and delays
+        </li>
+    <li>
+          Bookmark current and future trips as well as frequent search
+        </li>
+    <li>
+          Make use of advance search options like filtering by mode of transport
+        </li>
+  </ul>
+  <p>
+        And all that for networks from all around the world, but mostly from Europe.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - railway-gtk
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - train
+  - railway
+  - journey
+  - planner
+  - timetables
+screenshotSources:
+  - url: de/schmidhuberj/DieBahn/039425703eca9f769b04940a06dd341a/screenshots/image-1_orig.png
+    thumbnailUrl: de/schmidhuberj/DieBahn/039425703eca9f769b04940a06dd341a/screenshots/image-1_624x401@1.png
+    width: 1122
+    height: 722
+iconSources:
+  - url: de/schmidhuberj/DieBahn/039425703eca9f769b04940a06dd341a/icons/128x128/railway-gtk_de.schmidhuberj.DieBahn.png
+    width: 128
+    height: 128
+homepage: "https://mobile.schmidhuberj.de/railway"
+enabled: true
+order: 99

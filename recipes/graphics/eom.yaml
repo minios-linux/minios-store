@@ -1,0 +1,48 @@
+id: "eom"
+name: Eye of MATE Image Viewer
+description: Browse and rotate images
+longDescription: |
+  <p>eom or the Eye of MATE is a simple graphics viewer for the MATE desktop which uses the gdk-pixbuf library. It can deal with large images, and zoom and scroll with constant memory usage. Its goals are simplicity and standards compliance.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - eom
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - image
+  - viewer
+  - jpeg
+  - png
+  - tiff
+  - svg
+  - mate
+  - photos
+  - browse
+  - thumbnails
+iconSources:
+  - url: e/eo/eom.desktop/70a4cc2811905d5c37d9e48b9885ad88/icons/128x128/eom_eom.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

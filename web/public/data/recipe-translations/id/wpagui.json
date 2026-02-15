@@ -1,0 +1,5 @@
+{
+  "name": "wpa_gui",
+  "description": "Antarmuka grafis untuk wpa_supplicant",
+  "longDescription": "<p>wpa_gui menyediakan antarmuka berbasis Qt untuk memilih jaringan yang sudah dikonfigurasi. Aplikasi ini juga memungkinkan Anda menelusuri hasil pemindaian SSID 802.11, melihat riwayat pesan acara yang dihasilkan oleh wpa_supplicant, serta menambah atau mengedit jaringan wpa_supplicant.</p>\n"
+}

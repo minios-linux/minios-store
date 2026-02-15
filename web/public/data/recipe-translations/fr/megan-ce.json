@@ -1,0 +1,5 @@
+{
+  "name": "megan",
+  "description": "Exploration interactive et analyse de données de séquençage de microbiome à grande échelle",
+  "longDescription": "<p>\n      Megan-ce est un séquenceur shotgun permettant d’analyser des échantillons de microbiome. Il s’agit d’une réécriture et d’une extension de l’outil d’analyse de microbiome largement utilisé MEGAN, afin de faciliter l’analyse interactive du contenu taxonomique et fonctionnel de très grands ensembles de données de microbiome. Parmi les nouvelles fonctionnalités, on retrouve un classificateur fonctionnel nommé InterPro2GO, l’assemblage de lectures centré sur les gènes, l’analyse en coordonnées principales de la taxonomie et des fonctions, ainsi que la prise en charge des métadonnées.\n    </p>\n<p>\n      En intégrant MEGAN CE avec l’outil de correspondance ADN-protéine à haut débit DIAMOND, il est possible de disposer d’un pipeline puissant et complet pour l’analyse des séquences shotgun de métagénome.\n    </p>\n"
+}

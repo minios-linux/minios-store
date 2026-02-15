@@ -1,0 +1,5 @@
+{
+  "name": "Fragments",
+  "description": "Torrents verwalten",
+  "longDescription": "<p>\n      Eine einfach zu bedienende BitTorrent-Anwendung. Mit Fragments können Dateien über das BitTorrent-Peer-to-Peer-Protokoll übertragen werden, etwa Videos, Musik oder Installationsabbilder für Linux-Distributionen.\n    </p>\n<ul>\n  <li>Übersicht aller Torrents, gruppiert nach Status</li>\n  <li>Steuerung der Download-Reihenfolge per Warteschlange</li>\n  <li>Automatische Erkennung von Torrent- oder Magnet-Links aus der Zwischenablage</li>\n  <li>Verwalten und Zugriff auf einzelne Dateien eines Torrents</li>\n  <li>Verbindung zu entfernten Fragments- oder Transmission-Sitzungen</li>\n</ul>\n<p>\n      Fragments basiert intern auf dem Transmission BitTorrent-Projekt.\n    </p>\n"
+}

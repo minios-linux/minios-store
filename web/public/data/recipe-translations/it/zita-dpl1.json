@@ -1,0 +1,5 @@
+{
+  "name": "Zita-Dpl1",
+  "description": "Un limiter digitale di picco con look-ahead che utilizza algoritmi speciali per garantire una risposta rapida senza eccessiva distorsione alle basse frequenze.",
+  "longDescription": "<p>DPL1 è un limiter digitale di picco con look-ahead, ideale come ultimo step per evitare il clipping durante il mastering o il mixaggio. Può essere utilizzato anche come effetto sulle singole tracce degli strumenti.</p>\n<p>La latenza è di 1,2 ms arrotondata al multiplo più vicino di 8, 16 o 32 campioni a seconda della frequenza di campionamento. Questo equivale a 56 campioni a 44,1 kHz, 64 campioni a 48 kHz e il doppio di questi valori per 88,2 o 96 kHz.</p>\n<p>Nella maggior parte dei casi è sufficiente usare -k numero_canali, che può andare da 1 a 16. La stessa riduzione del gain viene applicata a tutti i canali.</p>\n"
+}

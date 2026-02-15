@@ -1,0 +1,23 @@
+id: scrcpy
+name: scrcpy (console)
+description: Display and control your Android device
+longDescription: |
+  <p>This application provides display and control of Android devices connected on USB (or over TCP/IP). It does not require any root access.</p>
+  <p>This package contains the client (desktop) binary.</p>
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - scrcpy
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: s/sc/scrcpy-console.desktop/bcb1a9711594fb345fb6e63c90dd9591/icons/128x128/scrcpy_scrcpy.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

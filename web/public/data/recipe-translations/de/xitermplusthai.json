@@ -1,0 +1,5 @@
+{
+  "name": "Thai X Terminal",
+  "description": "X-Terminal mit Unterstützung für Thai (TIS-620-Kodierung)",
+  "longDescription": "<p>xiterm+thai ist ein X-Terminal-Emulator mit Unterstützung für die thailändische Sprache. Er verfügt über eine integrierte Möglichkeit zur Eingabe über eine Thai-Tastatur. Alternativ können Sie zur Eingabe thailändischer Zeichen die X11 XKB-Erweiterung verwenden.</p>\n<p>Zur Anzeige thailändischer Zeichen wird eine Thai-Schriftart im TIS-620-Format benötigt, zum Beispiel aus dem Paket xfonts-thai-nectec.</p>\n"
+}

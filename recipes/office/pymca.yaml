@@ -1,0 +1,39 @@
+id: "pymca"
+name: PyMca
+description: Analyse X-ray Fluorescence data
+longDescription: |
+  <p>PyMca is set of applications and Python libraries for analysis of X-ray fluorescence spectra.</p>
+  <p>The applications included in this package are:</p>
+  <p> * edfviewer - Display and inspection of data files in ESRF Data Format  * elementsinfo - Displays element specific X-ray data  * mca2edf - Converts files from SPEC MCA format to EDF  * peakidentifier - Displays X-ray fluorescence peaks in a given energy range  * pymcabatch - Batch fitting of spectra  * pymcapostbatch - Post-processing of batch fitting results  * pymca - Interactive data-analysis  * pymcaroitool - Region-of-interest (ROI) imaging tool</p>
+  <p>The PyMca toolkit can read data files in SPEC, ESRF data file (EDF), OMNIC, HDF5, AIFIRA and SupaVisio formats.</p>
+  <p>This are the scripts of the package.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pymca
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/pe/peakidentifier.desktop/6ef54820dbee523f55adc2c652e12b20/icons/128x128/pymca_PyMca.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

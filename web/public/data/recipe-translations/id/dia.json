@@ -1,0 +1,5 @@
+{
+  "name": "Dia",
+  "description": "Dia adalah program untuk membuat diagram",
+  "longDescription": "<p>Dia adalah program pembuat diagram berbasis GTK+ untuk GNU/Linux, MacOS X, Unix, dan Windows, yang dirilis di bawah lisensi GPL.</p>\n<p>Dia terinspirasi dari aplikasi Windows komersial 'Visio', namun lebih difokuskan untuk pembuatan diagram informal dan penggunaan sehari-hari. Aplikasi ini dapat digunakan untuk menggambar berbagai jenis diagram. Saat ini, Dia memiliki objek khusus untuk membantu membuat diagram relasi entitas, diagram UML, flowchart, diagram jaringan, dan berbagai jenis diagram lainnya. Anda juga dapat menambah dukungan bentuk baru dengan menulis file XML sederhana, memakai subset SVG untuk menggambar bentuk tersebut.</p>\n<p>Dia dapat memuat dan menyimpan diagram dalam format XML khusus (secara default dikompres gzip untuk menghemat ruang), serta mengekspor diagram ke berbagai format, seperti EPS, SVG, XFIG, WMF, dan PNG. Selain itu, Dia juga mendukung pencetakan diagram, termasuk diagram yang terdiri dari beberapa halaman.</p>\n"
+}

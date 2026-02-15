@@ -1,0 +1,5 @@
+{
+  "name": "Spek",
+  "description": "Betrachte Spektrogramme deiner Audiodateien",
+  "longDescription": "<p>Spek unterstützt dich bei der Analyse deiner Audiodateien, indem es deren Spektrogramm anzeigt. Es werden alle gängigen verlustbehafteten und verlustfreien Audioformate unterstützt.</p>\n<p>Funktionen:</p>\n<p> * Ultraschnelle Signalverarbeitung durch Multithreading für noch schnellere Analysen  * Anzeige des Codec-Namens und der Audiosignalparameter  * Speichert Spektrogramme als Bilddatei  * Drag-and-Drop-Unterstützung; Zuordnung zu gängigen Audioformaten  * Automatische Anpassung der Zeit-, Frequenz- und spektralen Dichte-Skalen  * Einstellbarer Bereich für spektrale Dichte</p>\n"
+}

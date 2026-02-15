@@ -1,0 +1,33 @@
+id: kanyremote
+name: kanyremote
+description: Wi-Fi or Bluetooth remote control for KDE
+longDescription: |
+  <p>kAnyRemote package is KDE GUI frontend for anyRemote. (http://anyremote.sourceforge.net/). The overall goal of this project is to provide remote control service on Linux through Bluetooth, InfraRed, Wi-Fi or TCP/IP connection.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kanyremote
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+tags:
+  - anyremote
+  - bluetooth
+  - kde
+iconSources:
+  - cached: kanyremote_kanyremote.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

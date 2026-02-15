@@ -1,0 +1,41 @@
+id: surgescript
+name: SurgeScript
+description: A scripting language for games
+longDescription: |
+  <p>SurgeScript is a scripting language for games. Use it to unleash your creativity and build your own amazing interactive content! It's such a joy to use SurgeScript! Its features include:</p>
+  <ul>
+    <li>The state-machine pattern: objects are state machines, making it easy to create in-game entities</li>
+    <li>The composition approach: you may design complex objects and behaviors by means of composition</li>
+    <li>The hierarchy system: objects have a parent and may have children, in a tree-like structure</li>
+    <li>The game loop: it's defined implicitly</li>
+    <li>Automatic garbage collection, object tagging and more!</li>
+  </ul>
+  <p>SurgeScript is meant to be used in games and in interactive applications. It's easy to integrate it into existing code, it's easy to extend, it features a C-like syntax, and it's free and open-source software.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - surgescript
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: surgescript_surgescript.png
+    width: 64
+    height: 64
+developer: Alexandre Martins
+homepage: "https://github.com/alemart/surgescript"
+enabled: true
+order: 99

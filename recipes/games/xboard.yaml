@@ -1,0 +1,38 @@
+id: "xboard"
+name: Xboard
+description: Chess Game
+longDescription: |
+  <p>XBoard is a graphical chessboard that can serve as a user interface for chess programs, for the Internet Chess Server, or for electronic mail correspondence chess. It supports all major forms of chess, such as international chess, xiangqi and shogi. XBoard can also be used by itself as viewer for stored chess games.</p>
+  <p>XBoard uses the Helvetica font (located in the xfonts-75dpi and xfonts-100dpi packages) by default.  However, other fonts can be specified via a command line option or an X resource.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xboard
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: x/xb/xboard.desktop/6cebd348571f20a5378a99994cd2efd4/icons/128x128/xboard_xboard.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

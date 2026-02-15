@@ -1,0 +1,5 @@
+{
+  "name": "Kluppe",
+  "description": "Audio-Loop-Player und -Recorder",
+  "longDescription": "<p>Kluppe ist in C geschrieben und verwendet JACK, GTK und Sndfile. Zu den Funktionen gehören:</p>\n<p> - Mehrere Datei-Puffer, mehrere 'Looper'-Spuren  - Direkter (GUI-)Zugriff auf alle Looper  - Kombinierte und separate Ausgangsports für JACK  - Verschiedene Abspielmodi einschließlich „Granular“</p>\n<p>Kluppe ist das österreichische Wort für Klammer und klingt besonders verrückt, wenn man es immer wieder abspielt.</p>\n"
+}

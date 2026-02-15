@@ -1,0 +1,5 @@
+{
+  "name": "Progvis",
+  "description": "Werkzeug zur Programmanalyse für nebenläufige C/C++-Programme",
+  "longDescription": "<p>\n      Progvis ist ein Visualisierungstool für Programme, die mit einem Subset von C oder Teilen von C++ geschrieben wurden. Die detaillierte Darstellung vieler Aspekte von C-Programmen macht es auch für die Analyse sequentieller Programme nützlich.\n    </p>\n<p>Zu den Funktionen von Progvis gehören:</p>\n<ul>\n  <li>Visualisierung von C- und C++-Programmen</li>\n  <li>Untersuchen verschiedener Ablaufvarianten zur Fehlersuche</li>\n  <li>Automatische Erkennung vieler häufiger Fehler in kleinen Programmen</li>\n</ul>\n"
+}

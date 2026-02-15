@@ -1,0 +1,5 @@
+{
+  "name": "Smuxi",
+  "description": "Discutez avec d'autres personnes sur IRC",
+  "longDescription": "<p>Smuxi est un client IRC polyvalent, inspiré par irssi, convivial et multiplateforme, destiné aux utilisateurs avancés sous l'environnement GNOME.</p>\n<p>Smuxi adopte une architecture client-serveur : le cœur de l’application (le moteur) peut être installé sur un serveur relié en permanence à Internet ; un ou plusieurs frontaux se connectent ensuite à ce moteur. Cette architecture permet de rester connecté à IRC même lorsque tous les frontaux sont fermés. Le duo screen et irssi a servi de modèle pour cette conception.</p>\n<p>Smuxi prend également en charge le mode d’application unique classique, fonctionnant comme un client IRC traditionnel : aucune gestion séparée du moteur n’est nécessaire, et le moteur local est utilisé directement par le client local.</p>\n<p>Ce paquet contient l’interface GNOME de Smuxi, qui peut s’exécuter de manière autonome avec un moteur local ou se connecter à un moteur distant (serveur).</p>\n"
+}

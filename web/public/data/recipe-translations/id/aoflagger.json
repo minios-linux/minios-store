@@ -1,0 +1,5 @@
+{
+  "name": "AOFlagger GUI",
+  "description": "Visualisasi data radio & algoritma RFI",
+  "longDescription": "<p>AOFlagger adalah alat untuk mendeteksi dan menghilangkan interferensi frekuensi radio (RFI) pada pengamatan radio astronomi. Kode aplikasinya dioptimalkan secara tinggi untuk kecepatan dan akurasi. AOFlagger digunakan secara default oleh teleskop radio LOFAR, sehingga sudah pada tahap produksi. Perangkat lunak ini dapat dijalankan secara otomatis penuh, namun juga tersedia antarmuka grafis untuk menganalisis hasil dan mengatur strategi secara lebih detail. Format file input yang direkomendasikan adalah Casa Measurement Set (MS).</p>\n<p>Selain flagger, perangkat lunak ini juga menyediakan alat untuk memvisualisasikan data secara efisien dalam berbagai bentuk, seperti diagram waktu-frekuensi dan spektrum daya. Program yang disediakan antara lain: aoflagger, rfigui, aoqplot, aoquality, dan lainnya.</p>\n"
+}

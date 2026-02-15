@@ -1,0 +1,5 @@
+{
+  "name": "Terraintool surface mesh generator",
+  "description": "Membuat mesh permukaan untuk perangkat lunak survei gua",
+  "longDescription": "<p>Alat ini menghasilkan mesh medan untuk alat survei gua dari dataset ketinggian permukaan daring. Menggunakan dataset NASA SRTM dan ASTER Eropa. Data terkait akan diunduh dan diambil, diposisikan secara geografis ke sistem koordinat yang diinginkan, disampling ulang ke grid mesh, diberi offset ke grid lokal jika diperlukan, hasilnya ditampilkan, dan disimpan dalam format survex (.svx). Aplikasi ini ditulis dengan Java.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Snd (CLI+JACK)",
+  "description": "Konsolenbasierter Soundeditor (mit ALSA-Unterstützung, aber ohne grafische Oberfläche), inspiriert von Emacs",
+  "longDescription": "<p>Snd ist ein leistungsfähiger Audio-Datei-Editor, der sich mit der Programmiersprache Scheme individuell anpassen und erweitern lässt.</p>\n<p>Dieses Paket enthält eine Variante von Snd, die sowohl mit JACK- als auch mit ALSA-Unterstützung, jedoch ohne X11-Support kompiliert wurde.</p>\n"
+}

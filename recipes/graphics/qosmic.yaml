@@ -1,0 +1,39 @@
+id: qosmic
+name: qosmic
+description: Creating & rendering of fractal flame images
+longDescription: |
+  <p>
+        Graphical interface for creating, editing, and rendering  flam3 IFS fractal flame images, which can be saved as png files. 
+      </p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qosmic
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - gui qt5 fractals
+screenshotSources:
+  - url: io/github/bitsed.qosmic/0dc3f94cab1fc1412dc414ad8d5d189d/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/bitsed.qosmic/0dc3f94cab1fc1412dc414ad8d5d189d/screenshots/image-1_624x394.png
+    width: 1192
+    height: 754
+iconSources:
+  - url: io/github/bitsed.qosmic/1df8d901dfb1db72554ce22e7a499a7a/icons/128x128/qosmic_qosmic.png
+    width: 128
+    height: 128
+homepage: "https://github.com/bitsed/qosmic"
+enabled: true
+order: 99

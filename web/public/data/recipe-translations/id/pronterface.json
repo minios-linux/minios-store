@@ -1,0 +1,5 @@
+{
+  "name": "Pronterface",
+  "description": "Perangkat lunak host untuk printer 3D",
+  "longDescription": "<p>Pronterface adalah antarmuka pengguna grafis untuk printer 3D desktop, seperti RepRap. Aplikasi ini memungkinkan Anda menampilkan Gcode, terhubung ke printer, dan mengirimkan Gcode langsung ke perangkat. Pronterface kaya fitur namun tetap minimalis.</p>\n<p>Selain mengirim Gcode dari file, Anda juga dapat mengontrol printer secara manual atau mengirimkan perintah Gcode langsung melalui kolom input.</p>\n<p>Aplikasi ini terintegrasi dengan alat slicing, sehingga ketika Anda memuat model 3D STL, model tersebut akan otomatis diproses (slice) dan dimuat ke printer.</p>\n"
+}

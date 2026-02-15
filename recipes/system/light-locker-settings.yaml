@@ -1,0 +1,33 @@
+id: light-locker-settings
+name: Light Locker Settings
+description: Configure locking your session
+longDescription: |
+  <p>light-locker-settings is a simple configuration utility that allows you to configure your screensaver and locking settings.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - light-locker-settings
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - configuration
+  - screensaver
+  - user
+iconSources:
+  - cached: light-locker-settings_preferences-desktop-screensaver.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

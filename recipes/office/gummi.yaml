@@ -1,0 +1,40 @@
+id: gummi
+name: Gummi
+description: Simple LaTeX Editor
+longDescription: |
+  <p>Gummi is a LaTeX editor based on GTK+. The basic features are:  - Live preview pane for the compiled document,  - BibTeX integration,  - Helpers for tables and matrices,  - Exporting to PDF,  - Error checking,  - Syntax highlighting,  - Spellchecking,  - Document statistics,  - Persistent configuration.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gummi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - latex
+  - editor
+iconSources:
+  - cached: gummi_gummi.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

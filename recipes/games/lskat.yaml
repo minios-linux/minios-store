@@ -1,0 +1,44 @@
+id: "lskat"
+name: LSkat
+description: Card Game
+longDescription: |
+  <p>Lieutenant Skat (from German &quot;Offiziersskat&quot;) is a fun and engaging card game for two players,
+        where the second player is either live opponent, or a built in artificial intelligence.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lskat
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/lskat/4dd28e4f7f0fd2a8ddcdb65c09a75cb4/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/lskat/4dd28e4f7f0fd2a8ddcdb65c09a75cb4/screenshots/image-1_624x498@1.png
+    width: 902
+    height: 721
+iconSources:
+  - url: org/kde/lskat/4dd28e4f7f0fd2a8ddcdb65c09a75cb4/icons/128x128/lskat_lskat.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/lskat"
+enabled: true
+order: 99

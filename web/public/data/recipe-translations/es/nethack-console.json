@@ -1,0 +1,5 @@
+{
+  "name": "NetHack (Sin interfaz gráfica)",
+  "description": "Juego de exploración de mazmorras - versión de consola",
+  "longDescription": "<p>NetHack es un juego de aventuras al estilo Dungeons &amp; Dragons, conocido por su humor y su alta capacidad de adicción. Juegas como un personaje de una amplia variedad de clases (como mago, explorador o turista), abriéndote camino para recuperar el Amuleto de Yendor para tu deidad. En tu viaje, podrías encontrarte con un mecánico cuántico, el rey Arturo o —si tienes MUCHA suerte— la Criatura Voraz de Traal.</p>\n<p>Debes instalar una interfaz adicional si quieres jugar NetHack con gráficos. Cada una incluye la versión original sin gráficos, y todas se pueden instalar al mismo tiempo:  - nethack-console: sin gráficos, solo NetHack clásico;  - nethack-x11    : versión gráfica original basada en X11/Athena;  - nethack-lisp   : versión con ventanas Lisp.</p>\n<p>Este paquete proporciona exclusivamente la versión de consola de NetHack.</p>\n"
+}

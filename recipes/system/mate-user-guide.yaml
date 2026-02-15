@@ -1,0 +1,32 @@
+id: mate-user-guide
+name: Help
+description: Get help with MATE
+longDescription: |
+  <p>The MATE Desktop Environment is the continuation of GNOME 2. It provides an intuitive and attractive desktop environment using traditional metaphors for Linux and other Unix-like operating systems.</p>
+  <p>This package contains the user guide for MATE Desktop Environment and its main applications.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mate-user-guide
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - documentation
+  - information
+  - manual
+iconSources:
+  - url: m/ma/mate-user-guide.desktop/3F30ECCA8D8EEC4F4433E74CE1828A51/icons/128x128/mate-user-guide_help-browser.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,43 @@
+id: psi-plus-webkit
+name: Psi+ Webkit
+description: Communicate over the XMPP network
+longDescription: |
+  <p>This package contains WebKit version of Psi+. In comparing with basic Psi+ version it has few additional features: support of animated emoticons, support of (adium) themes in private chats and group chats, support of previewing of images and videos in private chats and group chats, etc..</p>
+  <p>Psi IM is a cross-platform powerful XMPP/Jabber client (Qt, C++) designed for the Jabber power users. Psi+ is a development branch of Psi client by &lt;psi-dev@conference.jabber.ru&gt; team.</p>
+  <p>Project Purpose: collection, refinement and writing new patches for transferring them to Psi IM upstream.</p>
+  <p>Full list of features you can found at: http://psi-plus.com/wiki/en:features</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - psi-plus-webkit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - xmpp
+  - jabber
+  - chat
+  - instantmessaging
+iconSources:
+  - cached: psi-plus-webkit_psi-plus.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

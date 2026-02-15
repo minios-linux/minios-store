@@ -1,0 +1,27 @@
+id: chess-app
+name: Chess
+description: GNUstep Chess game
+longDescription: |
+  <p>This is a GNUstep frontend for GNU Chess.  The game was originally written for NeXTSTEP and was later ported to GNUstep thus making it available on GNU/Linux and all other platforms GNUstep supports.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chess.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - board
+  - game
+  - chess
+iconSources:
+  - cached: chess.app_chess_128x128x32.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

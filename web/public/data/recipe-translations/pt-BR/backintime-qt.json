@@ -1,0 +1,5 @@
+{
+  "name": "Back In Time",
+  "description": "Sistema de backup simples",
+  "longDescription": "<p>Back In Time é uma ferramenta baseada em rsync e cron, projetada para criar snapshots e backups de pastas selecionadas. O programa economiza espaço em disco ao gerar um novo snapshot somente quando há alterações no diretório, utilizando links físicos para arquivos não modificados.</p>\n<p>O usuário pode agendar backups automáticos com o cron.</p>\n<p>Esta é a interface gráfica do Back In Time.</p>\n"
+}

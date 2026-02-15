@@ -1,0 +1,5 @@
+{
+  "name": "pyspread",
+  "description": "Una hoja de cálculo basada en Python",
+  "longDescription": "<p>Pyspread es una aplicación de hoja de cálculo multiplataforma basada en Python. En lugar de fórmulas tradicionales, se ingresan expresiones de Python en las celdas de la hoja. Cada expresión devuelve un objeto de Python que puede ser accedido desde otras celdas. Estos objetos pueden representar cualquier cosa, incluidas listas o matrices.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Configure-Debian",
+  "description": "Reconfigura tus paquetes",
+  "longDescription": "<p>configure-debian es un programa que presenta una lista de paquetes que utilizan Debconf, el sistema de gestión de configuración de Debian.</p>\n<p>Debconf ofrece asistentes de configuración inicial que se ejecutan al instalar un paquete. Puedes volver a reconfigurar estos paquetes posteriormente si lo deseas, y configure-debian facilita mucho este proceso.</p>\n<p>configure-debian divide las listas de paquetes en las subsecciones que conforman el archivo de Debian, como x11, base, gnome o kde.</p>\n"
+}

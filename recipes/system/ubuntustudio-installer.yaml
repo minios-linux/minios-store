@@ -1,0 +1,32 @@
+id: "ubuntustudio-installer"
+name: Ubuntu Studio Meta Installer
+description: Used to install Ubuntu Studio Software Metas
+longDescription: |
+  <p>Takes a list of packages on the command line and allows the user choose which package to install. The desktop file should determine the list of packages. More than one desktop file can allow each menu category to have extra software installable.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ubuntustudio-installer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - install
+  - apps
+iconSources:
+  - url: u/ub/ubuntustudio-audio-config.desktop/c4274a3672e0c361be2a99271eabfae1/icons/128x128/ubuntustudio-installer_ubuntustudio-audio-config.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

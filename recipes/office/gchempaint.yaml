@@ -1,0 +1,41 @@
+id: "gchempaint"
+name: GChemPaint
+description: Edit chemical 2D structures
+longDescription: |
+  <p>GChemPaint is an editor for 2D chemical structures with a multiple document interface. Drawn molecules can be searched at NIST Webbook and PubChem.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gchempaint
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - chemistry
+  - 2d
+  - editor
+  - display
+  - printer
+iconSources:
+  - url: g/gc/gchempaint-0.14.desktop/eceb568cf918856bc6a7d9028366b6c1/icons/128x128/gchempaint_gchempaint.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

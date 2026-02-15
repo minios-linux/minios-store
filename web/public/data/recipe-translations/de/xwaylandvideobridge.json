@@ -1,0 +1,5 @@
+{
+  "name": "Xwayland Video Bridge",
+  "description": "Stellt XDG Desktop Portal Screencast-Streams für X11-Anwendungen bereit",
+  "longDescription": "<p>Viele X11-Anwendungen nutzen X11-Mechanismen, um Inhalte anderer Programme und Bildschirme freizugeben. In den letzten Jahren wurden XDG Desktop Portals als moderner Standard für diese Funktion entwickelt und werden zunehmend von Anwendungen verwendet. Diese Anwendung stellt die über XDG Desktop Portals verfügbaren Streams auch für ältere X11-Anwendungen bereit, die das neue System noch nicht unterstützen.</p>\n"
+}

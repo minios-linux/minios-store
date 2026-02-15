@@ -1,0 +1,5 @@
+{
+  "name": "x3270",
+  "description": "Emulator Terminal IBM 3270",
+  "longDescription": "<p>x3270 membuka koneksi telnet ke host mainframe IBM dalam jendela X11. Aplikasi ini juga dapat terhubung ke IBM AS/400 sebagai terminal 5250 menggunakan emulasi 3270 dari AS/400. Jendela yang dibuat oleh x3270 dapat menggunakan font-nya sendiri untuk menampilkan karakter, sehingga memberikan representasi yang cukup akurat dari IBM 3278 atau 3279.</p>\n<p>x3270 mirip dengan tn3270(1) dan c3270(1), namun berbasis X, bukan berbasis curses.</p>\n<p>x3270 mengimplementasikan RFC 2355 (TN3270E), 1576 (TN3270), dan 1646 (pemilihan nama LU), serta mendukung transfer file IND$FILE.</p>\n<p>Anda perlu menginstal font x3270 secara lokal, atau pada font-server Anda — karena font tersebut wajib tersedia.</p>\n"
+}

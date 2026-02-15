@@ -1,0 +1,5 @@
+{
+  "name": "Fcitx 5",
+  "description": "Mulai Metode Input",
+  "longDescription": "<p>Fcitx5 adalah generasi terbaru dari kerangka kerja metode input fcitx. Aplikasi ini menawarkan pengalaman input yang modern dan nyaman dengan alat konfigurasi grafis yang intuitif. Framework ini sangat fleksibel dengan dukungan untuk toolkit GTK+ dan Qt, antarmuka DBus, berbagai lingkungan desktop, serta API yang ramah bagi pengembang.</p>\n<p>Beberapa fitur barunya mencakup dukungan untuk Wayland dan Xorg, serta kemampuan untuk meniru Framework Metode Input IBus guna memberikan kompatibilitas yang lebih baik lintas distribusi Linux dan lingkungan desktop yang berbeda.</p>\n<p>Paket ini menyediakan berkas-berkas inti dari framework fcitx5.</p>\n"
+}

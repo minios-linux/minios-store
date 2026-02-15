@@ -1,0 +1,5 @@
+{
+  "name": "fprint-demo",
+  "description": "Démo de numérisation d’empreintes digitales",
+  "longDescription": "<p>fprint-demo est une application GTK+ simple conçue pour démontrer et tester les fonctionnalités de libfprint.</p>\n<p>Elle permet à l’utilisateur d’enregistrer des empreintes digitales et, selon le modèle de scanner, d’afficher à la fois la représentation normale et binarisée, y compris les minuties détectées.</p>\n"
+}

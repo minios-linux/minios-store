@@ -1,0 +1,5 @@
+{
+  "name": "KTechlab",
+  "description": "IDE per microcontrollori ed elettronica",
+  "longDescription": "<p>KTechlab è un IDE per microcontrollori ed elettronica progettato per essere il più semplice possibile da usare e poco invasivo.</p>\n<p>Funzionalità principali:</p>\n<ul>\n  <li>Ampia gamma di componenti con caratteristiche modificabili</li>\n  <li>Editor visivo per la creazione di circuiti</li>\n  <li>Aiuto contestuale sui componenti</li>\n  <li>Due modalità di instradamento dei connettori: automatica e manuale</li>\n  <li>Diversi metodi per definire la logica PIC: codice assembly, Microbe (linguaggio ad alto livello proprietario), codice C e FlowCode visivo</li>\n  <li>Conversione tra i linguaggi di programmazione supportati</li>\n  <li>Debugger integrato</li>\n  <li>Simulazione con oscilloscopio e sonde</li>\n  <li>Caricamento del codice assembly su PIC tramite programmatore hardware</li>\n</ul>\n"
+}

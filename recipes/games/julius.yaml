@@ -1,0 +1,36 @@
+id: julius
+name: Julius
+description: Julius is an open source re-implementation of Caesar III
+longDescription: |
+  <p>Julius is an open source re-implementation of Caesar III.</p>
+  <p>Julius is a fully working open-source version of Caesar 3, with the same logic as the original, but with some UI enhancements, that is able to be played on multiple platforms. The same logic means that the saved games are 100% compatible, and any gameplay bugs present in the original Caesar 3 game will also be present in Julius.</p>
+  <ul>
+    <li>Support for widescreen resolutions</li>
+    <li>Windowed mode support for 32-bit desktops</li>
+    <li>Several small in-game quality of life improvements</li>
+  </ul>
+  <p>Julius requires the original assets (graphics, sounds, etc) from Caesar 3 to run. It optionally supports the high-quality MP3 files once provided on the Sierra website.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - julius
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/github/bvschaik.julius/33981adfaef8cc5af157dfdcb21dc5d1/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/bvschaik.julius/33981adfaef8cc5af157dfdcb21dc5d1/screenshots/image-1_624x390@1.png
+    width: 800
+    height: 500
+iconSources:
+  - url: com/github/bvschaik.julius/33981adfaef8cc5af157dfdcb21dc5d1/icons/128x128/julius_com.github.bvschaik.julius.png
+    width: 128
+    height: 128
+homepage: "https://github.com/bvschaik/julius"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Wine",
+  "description": "Ejecuta aplicaciones de Windows en Linux, BSD, Solaris y Mac OS X",
+  "longDescription": "<p>Wine (originalmente un acrónimo de \"Wine Is Not an Emulator\") es una capa de compatibilidad capaz de ejecutar aplicaciones de Windows en varios sistemas operativos compatibles con POSIX, como Linux, Mac OS X y BSD. En lugar de simular la lógica interna de Windows como lo haría una máquina virtual o un emulador, Wine traduce las llamadas a la API de Windows a llamadas POSIX en tiempo real, eliminando las penalizaciones de rendimiento y consumo de memoria de otros métodos y permitiendo que las aplicaciones de Windows se integren perfectamente en tu entorno de escritorio.</p>\n"
+}

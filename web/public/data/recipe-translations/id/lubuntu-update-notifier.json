@@ -1,0 +1,5 @@
+{
+  "name": "Terapkan Peningkatan Penuh",
+  "description": "Cari dan Terapkan Peningkatan Penuh",
+  "longDescription": "<p>memeriksa apakah ada pembaruan yang tersedia. Jika ada, program akan membuka notifier.py, yaitu jendela yang memberi tahu tentang paket-paket yang tersedia untuk diperbarui. Jika Anda memilih untuk melakukan upgrade, proses akan dijalankan sebagai peningkatan penuh (bukan safe-upgrade) menggunakan binary upgrader. Upgrader juga dapat dijalankan secara mandiri, Anda dapat memilih untuk menjalankan pembaruan cache terlebih dahulu dan menentukan apakah akan melakukan safe upgrade atau full upgrade. Tersedia juga file .desktop untuk memanggil upgrader dengan pembaruan cache serta peningkatan penuh.</p>\n"
+}

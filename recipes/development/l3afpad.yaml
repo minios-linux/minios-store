@@ -1,0 +1,32 @@
+id: l3afpad
+name: L3afpad
+description: Simple text editor
+longDescription: |
+  <p>simple GTK+ text editor that emphasizes simplicity. As development focuses on keeping weight down to a minimum, only the most essential features are implemented in the editor. L3afpad is simple to use, is easily compiled, requires few libraries, and starts up quickly.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - l3afpad
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+iconSources:
+  - url: l/l3/l3afpad.desktop/4f57d4117450a92e3f58f31ad659bc9c/icons/128x128/l3afpad_l3afpad.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

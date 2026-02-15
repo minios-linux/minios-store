@@ -1,0 +1,47 @@
+id: chordpro
+name: ChordPro
+description: Print songbooks (lyrics + chords)
+longDescription: |
+  <p>ChordPro will read a text file containing the lyrics of one or many
+  songs plus chord information. ChordPro will then generate a
+  photo-ready, professional looking, impress-your-friends sheet-music
+  suitable for printing on your nearest printer.</p>
+  <p>ChordPro is a rewrite of the Chordii program.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chordpro
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music,typesetting,lead sheet
+screenshotSources:
+  - url: org/chordpro/desktop/3c4ba0cd8581d0ea1291130338ca93ab/screenshots/image-1_orig.png
+    thumbnailUrl: org/chordpro/desktop/3c4ba0cd8581d0ea1291130338ca93ab/screenshots/image-1_624x350@1.png
+    width: 1555
+    height: 874
+  - url: org/chordpro/desktop/3c4ba0cd8581d0ea1291130338ca93ab/screenshots/image-2_orig.png
+    thumbnailUrl: org/chordpro/desktop/3c4ba0cd8581d0ea1291130338ca93ab/screenshots/image-2_624x350@1.png
+    width: 1556
+    height: 874
+  - url: org/chordpro/desktop/3c4ba0cd8581d0ea1291130338ca93ab/screenshots/image-3_orig.png
+    thumbnailUrl: org/chordpro/desktop/3c4ba0cd8581d0ea1291130338ca93ab/screenshots/image-3_624x350@1.png
+    width: 1554
+    height: 874
+  - url: org/chordpro/desktop/3c4ba0cd8581d0ea1291130338ca93ab/screenshots/image-4_orig.png
+    thumbnailUrl: org/chordpro/desktop/3c4ba0cd8581d0ea1291130338ca93ab/screenshots/image-4_624x419@1.png
+    width: 944
+    height: 635
+iconSources:
+  - url: org/chordpro/desktop/3c4ba0cd8581d0ea1291130338ca93ab/icons/128x128/chordpro_chordpro.png
+    width: 128
+    height: 128
+homepage: "https://www.chordpro.org/"
+enabled: true
+order: 99

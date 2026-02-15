@@ -1,0 +1,31 @@
+id: zita-dc1
+name: Zita-Dc1
+description: DC1 provides a dynamics compressor for use with JACK Audio Connection Kit.
+longDescription: |
+  <p>Dynamic range compression reduces the volume of loud sounds or amplifies quiet sounds thus reducing or compressing an audio signal&apos;s dynamic range. DC1 provides a dynamics compressor for use with JACK Audio Connection Kit. It can be used as master effect or as an effect on individual instrument tracks as well.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zita-dc1
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - jackd
+iconSources:
+  - url: z/zi/zita-dc1.desktop/c12a3cec27c5c02df72a1b251184a237/icons/128x128/zita-dc1_zita-dc1.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

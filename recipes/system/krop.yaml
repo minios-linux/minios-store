@@ -1,0 +1,38 @@
+id: krop
+name: krop
+description: A tool to crop PDF files
+longDescription: |
+  <p>Krop is a simple graphical tool to crop the pages of PDF files. A unique feature of krop is its ability to automatically split pages into subpages to fit the limited screen size of devices such as eReaders. This is particularly useful, if your eReader does not support convenient scrolling.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - krop
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - pdf
+  - crop
+  - rotate
+  - ereader
+iconSources:
+  - cached: krop_edit-cut.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

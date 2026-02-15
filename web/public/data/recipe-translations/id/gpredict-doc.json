@@ -1,0 +1,5 @@
+{
+  "name": "Gpredict",
+  "description": "Pelacak satelit",
+  "longDescription": "<p>Gpredict adalah program pelacak satelit dan prediksi orbit secara real-time untuk desktop Linux. Aplikasi ini menggunakan algoritma propagasi SGP4/SDP4 beserta kumpulan elemen dua baris (TLE) dari NORAD.</p>\n<p>Beberapa fitur utama Gpredict meliputi:</p>\n<p> * Melacak sejumlah besar satelit—jumlahnya hanya dibatasi oleh memori dan kekuatan pemrosesan komputer  * Menampilkan data pelacakan dalam bentuk daftar, peta, plot polar, atau kombinasi semuanya  * Mendukung banyak modul yang dapat dibuka bersamaan, baik pada notebook maupun jendela terpisah. Modul ini juga bisa dijalankan dalam mode layar penuh  * Dapat menggunakan banyak stasiun bumi (ground station)  * Prediksi lintasan satelit yang akan datang  * Gpredict dapat berjalan secara real-time, simulasi waktu nyata (maju dan mundur cepat), serta kontrol waktu manual  * Menampilkan informasi detail baik dalam mode real-time maupun non real-time  * Tuning Doppler radio melalui Hamlib rigctld  * Kontrol rotator antena melalui Hamlib rotctld</p>\n<p>Paket ini berisi dokumentasi dan file arsitektur-independen lainnya.</p>\n"
+}

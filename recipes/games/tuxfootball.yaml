@@ -1,0 +1,42 @@
+id: "tuxfootball"
+name: Tux Football
+description: "A fun arcade-style 2D football game, very reminsicent of Sensible Soccer and Kick Off"
+longDescription: |
+  <p>It&apos;s bringing old style gameplay from DOS times back to the desktop with up to date graphics! Its gameplay is similar to old classics such as Amco&apos;s Kick Off and Sensible Software&apos;s Sensible Soccer.</p>
+  <p>The gameplay is designed to be quick, responsive and fun. You are always in control of the player closest to the ball. The ball is controlled via two different kick buttons - one for pass, and one for shoot. Aftertouch can be applied to shots by quickly pressing and holding the direction you want the ball to bend towards. Pushing in the opposite direction to what you kicked the ball makes it raise into the air, pushing in the same direction as the ball makes it dip towards the ground.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tuxfootball
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - soccer
+  - football
+  - sport
+iconSources:
+  - url: t/tu/tuxfootball.desktop/7c5856a746b7f2377046efeca85c6f52/icons/128x128/tuxfootball_tuxfootball.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

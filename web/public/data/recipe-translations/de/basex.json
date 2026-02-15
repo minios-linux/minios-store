@@ -1,0 +1,5 @@
+{
+  "name": "BaseX XML-Datenbank",
+  "description": "XML-Daten visuell abfragen und analysieren",
+  "longDescription": "<p>BaseX ist eine sehr schnelle und leichtgewichtige, aber dennoch leistungsstarke XML-Datenbank sowie ein XPath/XQuery-Prozessor mit Unterstützung für die neuesten W3C Full Text- und Update-Empfehlungen. BaseX unterstützt große XML-Instanzen und bietet ein hochgradig interaktives Frontend (basexgui). Neben zwei lokalen Standalone-Modi bietet BaseX eine Client/Server-Architektur.</p>\n<p>Das Paket stellt folgende Befehle bereit:  * basex  ..........  Lokale Standalone-XML-Datenbank. Befehlszeilenschnittstelle.  * basexgui  .......  Lokale Standalone-XML-Datenbank. Grafische Benutzeroberfläche.  * basexserver  ....  BaseX XML-Datenbankserver.  * basexclient  ....  BaseX XML-Datenbank-Client. BaseX XML-Datenbank und XPath/XQuery-Prozessor</p>\n"
+}

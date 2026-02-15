@@ -1,0 +1,34 @@
+id: obconf-qt
+name: Openbox Settings
+description: Configure the Openbox window manager
+longDescription: |
+  <p>obconf-qt is an utility to configure openbox with a Qt interface.</p>
+  <p>This package contain the application files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - obconf-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: obconf-qt_obconf-qt.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

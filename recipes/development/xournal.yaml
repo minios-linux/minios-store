@@ -1,0 +1,37 @@
+id: "xournal"
+name: Xournal
+description: Take handwritten notes
+longDescription: |
+  <p>Xournal is a GTK+ application for notetaking, sketching and keeping a journal using a stylus. It can also be used to add annotations to PDF files.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xournal
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: x/xo/xournal.desktop/5f4463b058aee89295db709e40749f1a/icons/128x128/xournal_xournal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

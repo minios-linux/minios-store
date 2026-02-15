@@ -1,0 +1,43 @@
+id: "hdf-compass"
+name: HDFCompass
+description: Viewer program for HDF5 and related formats
+longDescription: |
+  <p>HDF Compass is an experimental viewer program for HDF5 and related formats, designed to complement other more complex applications like HDFView. Strong emphasis is placed on clean minimal design, and maximum extensibility through a plugin system for new formats.</p>
+  <p>This package provides the HDF Compass application.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hdf-compass
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - python
+  - hdf
+  - science
+  - viewer
+iconSources:
+  - url: h/hd/hdfcompass.desktop/ab03dcf3912c4deb4f8bb3c769ba0fca/icons/128x128/hdf-compass_HDFCompass.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,42 @@
+id: pcalendar
+name: Periodic Calendar
+description: Utility for tracking menstrual cycles and predicting fertility periods
+longDescription: |
+  <p>Periodic Calendar is a GUI application which assists in women menstrual cycles tracking and fertility periods prediction. This information can be used as supportive either for conception or contraception planning.</p>
+  <p>Periodic Calendar provides support for BBT and sympto-thermal methods which have the highest reliability in fertility periods prediction. User can choose any subset of the features to be used or even fall to the generic calendar method (which if used alone is very unreliable).</p>
+  <p>Authors of the Periodic Calendar still insist on not being an equal substitute to the fertility planning consultants or doctors. Before using this application please talk to your doctor or read a good book on the subject.</p>
+  <p>THE PREDICTIONS MADE BY THIS PROGRAM CAN BE NEVER BE CONSIDERED AS FINAL. THE METHODS USED ARE NOT 100% EFFECTIVE FOR ALL WOMEN.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pcalendar
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - menstrual cycle tracking
+iconSources:
+  - cached: pcalendar_pcalendar.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

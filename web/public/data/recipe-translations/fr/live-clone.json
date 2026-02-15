@@ -1,0 +1,5 @@
+{
+  "name": "Live Clone",
+  "description": "Clonage de supports Live-Boot",
+  "longDescription": "<p>Cette application permet de créer des clés USB amorçables à partir d'une image iso-hybride générée par Live-Build. Elle adapte également une partition de persistance afin d'utiliser l'espace libre disponible sur la clé USB.</p>\n<p>Elle propose aussi des outils de gestion pour les clés USB live : lors d'une utilisation quotidienne, des incohérences peuvent survenir dans la zone de persistance, rendant parfois la clé inutilisable. Des outils sont fournis pour sauvegarder les données de persistance si nécessaire, et pour réinitialiser la zone de persistance afin de réutiliser la clé USB.</p>\n<p>L'application détecte son exécution dans un environnement Debian-Live, permettant ainsi un clonage automatique transparent.</p>\n"
+}

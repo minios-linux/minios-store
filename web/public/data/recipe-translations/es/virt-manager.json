@@ -1,0 +1,5 @@
+{
+  "name": "Virtual Machine Manager",
+  "description": "Administra máquinas virtuales",
+  "longDescription": "<p>Ofrece una vista general de los dominios en ejecución y estadísticas en tiempo real sobre el rendimiento y el uso de recursos. La vista detallada presenta gráficos que muestran el rendimiento y la utilización a lo largo del tiempo. Permite crear nuevos dominios, así como configurar y ajustar la asignación de recursos y el hardware virtual de cada dominio. Además, incluye un visor VNC integrado que proporciona una consola gráfica completa al sistema invitado.</p>\n<p>NOTA: La interfaz gráfica sigue siendo experimental.</p>\n"
+}

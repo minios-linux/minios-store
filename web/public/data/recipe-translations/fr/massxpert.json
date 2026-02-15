@@ -1,0 +1,5 @@
+{
+  "name": "Logiciel de spectrométrie de masse",
+  "description": "Modélisez et simulez des données de spectrométrie de masse",
+  "longDescription": "<p>massxpert est un programme permettant de modéliser des chimies de polymères (comme les protéines ou les saccharides, par exemple) et d'utiliser ces modèles pour simuler des réactions chimiques ainsi que les données spectrales de masse obtenues sur les produits de réaction.</p><p>Le processus se résume ainsi :</p><ul><li>Définir une nouvelle chimie de polymère (par exemple, une protéine, incluse dans le paquet) ;</li><li>Éditer une séquence de polymère (dans cet exemple, une séquence protéique) ;</li><li>Lancer des simulations chimiques, comme la digestion de protéines, et rassembler toutes les données de masse relatives aux peptides obtenus ;</li><li>Sélectionner ensuite un peptide et effectuer une fragmentation en phase gazeuse ; collecter les données de masse correspondant à tous les fragments théoriquement attendus.</li></ul>"
+}

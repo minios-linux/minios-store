@@ -1,0 +1,44 @@
+id: "pasystray"
+name: PulseAudio System Tray
+description: An Applet for PulseAudio
+longDescription: |
+  <p>Pasystray enables control of various PulseAudio server settings from the X11 system tray. It can:    * adjust the volume of streams and sinks/sources    * transfer streams between sinks/sources    * switch the default sink/source    * set the default server (PULSE_SERVER)    * detect network PulseAudio services    * rename devices</p>
+  <p>The commands associated with the suggested dependencies (paman, paprefs, pavucontrol, and pavumeter) may be launched from the menu provided by pasystray. If a command is not available, that particular menu item is disabled. pulseaudio-module-zeroconf enables detection and management of network PulseAudio services.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pasystray
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pulseaudio
+  - tray
+  - system tray
+  - applet
+  - volume
+iconSources:
+  - url: p/pa/pasystray.desktop/d624c2092cd9752f5d06286d43cb03c6/icons/128x128/pasystray_pasystray.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

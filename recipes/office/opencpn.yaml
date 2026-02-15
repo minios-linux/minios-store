@@ -1,0 +1,42 @@
+id: "opencpn"
+name: OpenCPN
+description: Open source chart plotter / navigator
+longDescription: |
+  <p>Chart Plotter and Navigational software program for use underway or as a planning tool. Developed by a team of active sailors using real world conditions for program testing and refinement. By default supports raster and vector formats like BSB and S63. Support for many other formats are available in plugins. Other plugins provides support for e. g., AIS, radar and weather maps. Application has language support in 20+ languages.</p>
+  <p>This package contains programs, libraries and some support files.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - opencpn
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gps
+  - navigation
+  - chart
+screenshotSources:
+  - url: org/opencpn/OpenCPN/44846e9a7e6bff74e6e0827de5446066/screenshots/image-1_orig.png
+    thumbnailUrl: org/opencpn/OpenCPN/44846e9a7e6bff74e6e0827de5446066/screenshots/image-1_624x328@1.png
+    width: 1600
+    height: 842
+iconSources:
+  - url: org/opencpn/OpenCPN/44846e9a7e6bff74e6e0827de5446066/icons/128x128/opencpn_opencpn.png
+    width: 128
+    height: 128
+homepage: "https://opencpn.org/"
+enabled: true
+order: 99

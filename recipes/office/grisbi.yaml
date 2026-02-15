@@ -1,0 +1,48 @@
+id: "grisbi"
+name: Grisbi
+description: Personnal finances manager
+longDescription: |
+  <p>Grisbi is a personal accounting program. Grisbi can handle multiple accounts, currencies and users. It helps you manage your money using third party, expenditure and receipt categories, as well as budgetary lines, financial years, and other information that makes it adapted for both personal and associative accounting.</p>
+  <p>Grisbi can import accounts from QIF, OFX and Gnucash files. It can print reports using LaTeX or export them via HTML.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - grisbi
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - finance
+screenshotSources:
+  - url: org/grisbi/Grisbi/25936d03f60343219698be8e6895e2bd/screenshots/image-1_orig.png
+    thumbnailUrl: org/grisbi/Grisbi/25936d03f60343219698be8e6895e2bd/screenshots/image-1_624x435@1.png
+    width: 1039
+    height: 725
+  - url: org/grisbi/Grisbi/25936d03f60343219698be8e6895e2bd/screenshots/image-2_orig.png
+    thumbnailUrl: org/grisbi/Grisbi/25936d03f60343219698be8e6895e2bd/screenshots/image-2_624x435@1.png
+    width: 1039
+    height: 725
+  - url: org/grisbi/Grisbi/25936d03f60343219698be8e6895e2bd/screenshots/image-3_orig.png
+    thumbnailUrl: org/grisbi/Grisbi/25936d03f60343219698be8e6895e2bd/screenshots/image-3_624x435@1.png
+    width: 1039
+    height: 725
+iconSources:
+  - url: org/grisbi/Grisbi/25936d03f60343219698be8e6895e2bd/icons/128x128/grisbi_grisbi.png
+    width: 128
+    height: 128
+homepage: "https://grisbi.org/"
+enabled: true
+order: 99

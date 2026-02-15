@@ -1,0 +1,33 @@
+id: "open-adventure"
+name: Open Adventure
+description: "Colossal Cave Adventure, the 1995 430-point version"
+longDescription: |
+  <p>This is the last descendent of the original 1976 Colossal Cave Adventure worked on by the original authors -- Crowther &amp; Woods. It has sometimes been known as Adventure 2.5. The original PDP-10 name &apos;advent&apos; is used for the built program to avoid collision with the BSD Games version.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - open-adventure
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: a/ad/advent.desktop/35e23c84333466d44847e56959e29fc1/icons/128x128/open-adventure_advent.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

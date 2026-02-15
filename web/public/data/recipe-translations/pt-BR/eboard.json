@@ -1,0 +1,5 @@
+{
+  "name": "eboard",
+  "description": "Um programa gráfico de tabuleiro de xadrez",
+  "longDescription": "<p>O eboard é um programa gráfico de xadrez que pode funcionar como interface para servidores de xadrez online como o FICS e para motores de xadrez como o Crafty.</p>\n<p>O eboard possui um tabuleiro personalizável e redimensionável livremente, exibição em abas ou múltiplas janelas e suporta vários tabuleiros simultaneamente.</p>\n<p>Este pacote fornece uma interface de xadrez, permitindo jogar contra outro usuário no mesmo computador ou em um servidor na Internet. Para jogar contra o computador, instale também um motor de xadrez como o gnuchess.</p>\n"
+}

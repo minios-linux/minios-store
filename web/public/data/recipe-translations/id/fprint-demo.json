@@ -1,0 +1,5 @@
+{
+  "name": "fprint-demo",
+  "description": "Demo pemindaian sidik jari",
+  "longDescription": "<p>fprint-demo adalah aplikasi GTK+ sederhana untuk mendemonstrasikan dan menguji kemampuan libfprint.</p>\n<p>Aplikasi ini memungkinkan interaksi pengguna untuk mendaftarkan sidik jari dan, tergantung pada vendor pemindai, menampilkan representasi normal maupun binar, termasuk titik-titik minutiae yang terdeteksi.</p>\n"
+}

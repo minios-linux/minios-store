@@ -1,0 +1,5 @@
+{
+  "name": "Jameica",
+  "description": "Sistem run-time untuk aplikasi Java",
+  "longDescription": "<p>Lingkungan runtime untuk aplikasi Java yang diimplementasikan sebagai plugin.</p>\n<p>Jameica menangani berbagai tugas berulang, seperti:  * tampilan dan nuansa yang konsisten  * pemisahan data pengguna dan program yang ketat  * akses standar ke file konfigurasi  * elemen navigasi dan menu umum  * pertukaran data sinkron dan asinkron antar plugin  * mendukung model client-server melalui RMI, XML-RPC, atau SOAP  * penggunaan metode enkripsi yang lebih mudah (sistem dompet terintegrasi)  * dukungan headless untuk server  * pencatatan log</p>\n"
+}

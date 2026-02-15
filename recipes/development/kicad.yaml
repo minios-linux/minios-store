@@ -1,0 +1,56 @@
+id: "kicad"
+name: Bitmap to Component Converter
+description: Create a component from a bitmap for use with KiCad
+longDescription: |
+  <p>Kicad is a suite of programs for the creation of printed circuit boards. It includes a schematic editor, a PCB layout tool, support tools and a 3D viewer to display a finished &amp; fully populated PCB.</p>
+  <p>Kicad is made up of 5 main components:</p>
+  <p> * kicad - project manager  * eeschema - schematic editor  * pcbnew - PCB editor  * gerbview - GERBER viewer  * cvpcb - footprint selector for components</p>
+  <p>Libraries:  * Both eeschema and pcbnew have library managers and editors for their    components and footprints  * You can easily create, edit, delete and exchange library items  * Documentation files can be associated with components, footprints and key    words, allowing a fast search by function  * Very large libraries are available for schematic components and footprints  * Most components have corresponding 3D models</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kicad
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - bitmap
+  - converter
+screenshotSources:
+  - url: org/kicad/kicad/f84940d673a96e31d48a81d18d907f26/screenshots/image-1_orig.png
+    thumbnailUrl: org/kicad/kicad/f84940d673a96e31d48a81d18d907f26/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/kicad/kicad/f84940d673a96e31d48a81d18d907f26/screenshots/image-2_orig.png
+    thumbnailUrl: org/kicad/kicad/f84940d673a96e31d48a81d18d907f26/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/kicad/kicad/f84940d673a96e31d48a81d18d907f26/screenshots/image-3_orig.png
+    thumbnailUrl: org/kicad/kicad/f84940d673a96e31d48a81d18d907f26/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: org/kicad/kicad/f84940d673a96e31d48a81d18d907f26/icons/128x128/kicad_kicad.png
+    width: 128
+    height: 128
+developer: The KiCad Developers
+homepage: "https://www.kicad.org/"
+enabled: true
+order: 99

@@ -1,0 +1,38 @@
+id: budgie-previews
+name: Budgie Window Previews
+description: Alt Tab replacement that shows running apps with window images
+longDescription: |
+  <p>
+        This is an application created primarily for the budgie-desktop to show applications with
+        a preview when switching. The application itself can be used on most X11 based desktops.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - budgie-previews
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - windows
+  - tiling
+  - desktop
+screenshotSources:
+  - url: org/ubuntubudgie/previewscontrols/8ceeb0293113b0f5aefe2d26b4ac606e/screenshots/image-1_orig.png
+    thumbnailUrl: org/ubuntubudgie/previewscontrols/8ceeb0293113b0f5aefe2d26b4ac606e/screenshots/image-1_224x94@1.png
+    width: 400
+    height: 168
+iconSources:
+  - url: org/ubuntubudgie/previewscontrols/8ceeb0293113b0f5aefe2d26b4ac606e/icons/128x128/budgie-previews_org.ubuntubudgie.budgiewpreviews.png
+    width: 128
+    height: 128
+homepage: "https://github.com/UbuntuBudgie/budgie-extras"
+enabled: true
+order: 99

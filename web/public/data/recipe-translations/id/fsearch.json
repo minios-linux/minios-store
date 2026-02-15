@@ -1,0 +1,5 @@
+{
+  "name": "FSearch",
+  "description": "Aplikasi pencarian berkas berbasis grafis",
+  "longDescription": "<p>\n            FSearch memudahkan Anda mencari berkas dan folder dengan cepat dan efisien.\n            Cukup ketik beberapa huruf, hasil pencarian akan langsung muncul hampir seketika.\n        </p>\n<p>\n            Tersedia banyak fitur yang membuat proses pencarian semakin efektif dan powerful, seperti:\n        </p>\n<ul>\n  <li>Mengabaikan kapitalisasi huruf (misal, mencari \"fsearch\" juga akan menemukan \"FSearch\")</li>\n  <li>Dukungan ekspresi reguler (regular expressions)</li>\n  <li>Mendukung wildcard</li>\n  <li>Dukungan filter (misal, hanya mencari berkas audio)</li>\n  <li>Mengecualikan berkas atau folder tertentu</li>\n  <li>Penyortiran cepat berdasarkan nama, path, ukuran, waktu modifikasi, dan ekstensi</li>\n</ul>\n<p>\n            Catatan: Karena pembatasan sandbox Flatpak, FSearch tidak dapat menemukan semua berkas di sistem Anda.\n        </p>\n"
+}

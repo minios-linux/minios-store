@@ -1,0 +1,5 @@
+{
+  "name": "Gjots2 Jotter",
+  "description": "Enregistrez et organisez vos notes personnelles",
+  "longDescription": "<p>gjots2 est un organiseur simple (outline processor) permettant la prise de notes sur votre bureau.</p>\n<p>Vous pouvez utiliser gjots2 pour classer vos notes dans une structure arborescente, en ajoutant idées et informations diverses au fil du temps. Il permet d’exporter vos notes aux formats HTML, XML, PostScript, PDF, man, etc. (voir le manuel en ligne pour un exemple de conversion HTML).</p>\n<p>Certains l’utilisent pour des mémos, documents personnels, recettes, documents DocBook XML, voire pour stocker des codes PIN et mots de passe (chiffrés avec ccrypt(1), openssl(1) ou gpg(1)).</p>\n<p>C’est un peu l’équivalent du logiciel KDE kjots, mais basé sur la bibliothèque GTK-2.</p>\n"
+}

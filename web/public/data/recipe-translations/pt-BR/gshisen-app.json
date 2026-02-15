@@ -1,0 +1,5 @@
+{
+  "name": "GShisen",
+  "description": "Jogo de quebra-cabeça Shizen-sho para GNUstep",
+  "longDescription": "<p>O objetivo do jogo é remover todas as peças do tabuleiro. Apenas duas peças iguais podem ser removidas por vez. Duas peças só podem ser removidas se puderem ser conectadas por no máximo três linhas retas. As linhas podem ser horizontais ou verticais, mas nunca diagonais. Lembre-se de que as linhas podem atravessar a borda vazia. Se ficar preso, você pode usar o recurso Dica para encontrar duas peças possíveis para remoção.</p>\n"
+}

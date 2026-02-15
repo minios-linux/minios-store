@@ -1,0 +1,47 @@
+id: "openswitcher"
+name: Switcher control
+description: Control application for Blackmagic Design ATEM video switchers
+longDescription: |
+  <p>
+        Switcher is a re-implementation of the Switcher Control application
+        from Blackmagic Design for controlling the ATEM video mixers/switchers
+        like the popular Atem Mini.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openswitcher
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - atem
+  - blackmagic design
+  - bmd
+  - openswitcher
+  - openatem
+screenshotSources:
+  - url: nl/brixit/Switcher/ec819a915b05921eed07e06b773c4e85/screenshots/image-1_orig.png
+    thumbnailUrl: nl/brixit/Switcher/ec819a915b05921eed07e06b773c4e85/screenshots/image-1_624x359@1.png
+    width: 1652
+    height: 952
+  - url: nl/brixit/Switcher/ec819a915b05921eed07e06b773c4e85/screenshots/image-2_orig.png
+    thumbnailUrl: nl/brixit/Switcher/ec819a915b05921eed07e06b773c4e85/screenshots/image-2_624x359@1.png
+    width: 1652
+    height: 952
+iconSources:
+  - url: nl/brixit/Switcher/ec819a915b05921eed07e06b773c4e85/icons/128x128/openswitcher_nl.brixit.Switcher.png
+    width: 128
+    height: 128
+homepage: "https://sr.ht/~martijnbraam/pyatem"
+enabled: true
+order: 99

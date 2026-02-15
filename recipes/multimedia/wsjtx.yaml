@@ -1,0 +1,39 @@
+id: wsjtx
+name: wsjtx
+description: Amateur Radio Weak Signal Operating
+longDescription: |
+  <p>WSJT-X implements communication protocols or &quot;modes&quot; called FT8, JT4, JT9, JT65, QRA64, ISCAT, MSK144, and WSPR, as well as one called Echo for detecting and measuring your own radio signals reflected from the Moon. These modes were all designed for making reliable, confirmed QSOs under extreme weak-signal conditions.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wsjtx
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - radio
+iconSources:
+  - cached: wsjtx_wsjtx_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

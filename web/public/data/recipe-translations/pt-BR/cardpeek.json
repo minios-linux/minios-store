@@ -1,0 +1,5 @@
+{
+  "name": "Cardpeek",
+  "description": "Ferramenta para leitura de cartões inteligentes",
+  "longDescription": "<p>O objetivo do Cardpeek é permitir que os proprietários de smartcards compreendam melhor quais tipos de informações pessoais estão armazenadas nesses dispositivos. A ferramenta atualmente lê os conteúdos de:</p>\n<p> * Cartões EMV, incluindo dispositivos NFC  * Cartões de transporte público Navigo (com suporte parcial a MOBIB)  * Cartão de saúde francês \"Vitale 2\"  * Passaportes eletrônicos/biométricos em modo de segurança BAC</p>\n<p>Também pode ler os seguintes cartões, com interpretação limitada dos dados:  * Alguns cartões Mifare (como o cartão Thalys)  * Moneo, o cartão eletrônico francês  * Cartões SIM GSM</p>\n"
+}

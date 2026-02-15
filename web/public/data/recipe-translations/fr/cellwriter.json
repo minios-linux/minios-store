@@ -1,0 +1,5 @@
+{
+  "name": "CellWriter",
+  "description": "Panneau d'entrée manuscrite avec reconnaissance par grille",
+  "longDescription": "<p>CellWriter est un panneau d'entrée manuscrite fonctionnant par grille. Au fur et à mesure que vous écrivez des caractères dans les cellules, votre écriture est instantanément reconnue caractère par caractère. Lorsque vous appuyez sur « Entrée » dans le panneau, ce que vous avez saisi est envoyé à l’application active comme si vous l’aviez tapé au clavier.</p>\n<p>  * Apprentissage basé sur votre écriture, s’adapte à votre style pour une reconnaissance fiable   * Algorithmes de prétraitement pour corriger le bruit du numériseur, la variation de l’ordre, du sens et du nombre de traits   * Prise en charge Unicode pour écrire dans votre langue maternelle</p>\n"
+}

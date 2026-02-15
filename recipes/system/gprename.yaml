@@ -1,0 +1,32 @@
+id: gprename
+name: GPRename
+description: Rename files and directories in batch
+longDescription: |
+  <p>GPRename is a complete batch renamer for files and directories. It can easily replace, remove, insert, delete, and number consecutively files and directories using a graphical interface (GUI).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gprename
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - renamer
+  - utility
+iconSources:
+  - cached: gprename_gprename.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

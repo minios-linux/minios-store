@@ -1,0 +1,39 @@
+id: "klatexformula"
+name: KLatexFormula
+description: Generate images from LaTeX equations
+longDescription: |
+  <p>With klatexformula, just enter a formula and click &quot;Evaluate&quot; to get an image of a LaTeX formula. You can drag&amp;drop, copy or save the resulting image directly from the GUI, which makes klatexformula a very convenient tool for presentations. Klatexformula also provides also tools for equation prototyping in LaTeX and a user-library of used equations.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - klatexformula
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - latex equations
+iconSources:
+  - url: k/kl/klatexformula.desktop/e2292ff8d297a65673989b7357bd41bd/icons/128x128/klatexformula_klatexformula.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

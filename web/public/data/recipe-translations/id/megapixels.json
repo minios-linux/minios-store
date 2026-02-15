@@ -1,0 +1,5 @@
+{
+  "name": "Megapixels",
+  "description": "Aplikasi kamera GNOME untuk ponsel",
+  "longDescription": "<p>Megapixels adalah aplikasi kamera yang dirancang untuk ponsel dan tablet. Aplikasi ini mengimplementasikan v4l2 dan media-request API untuk mengatur pipeline kamera pada perangkat ARM, serta menggunakan mode data mentah dari sensor untuk menghasilkan foto dengan kualitas terbaik.</p>"
+}

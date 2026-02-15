@@ -1,0 +1,55 @@
+id: "kronometer"
+name: Kronometer
+description: Chronometer
+longDescription: |
+  <p>Kronometer is a stopwatch application. It features the basic stopwatch actions (pause/resume/reset/laps), as well as the ability to save the times and resume them later. Kronometer is part of the KDE Extragear collection, within the Utils sub-module.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Start/pause/resume the stopwatch widget</li>
+    <li>Laps recording: you can capture the stopwatch time when you want</li>
+    <li>Lap times sorting: you can easily find the shortest lap time or the longest one</li>
+    <li>Reset the stopwatch widget and the lap times</li>
+    <li>Time format settings: you can choose the stopwatch granularity</li>
+    <li>Times saving and resuming: you can save the stopwatch status and resume it later</li>
+    <li>Font customization: you can choose the fonts for each of the stopwatch digits</li>
+    <li>Color customization: you can choose the color for the stopwatch digits and the stopwatch background</li>
+    <li>Lap times export: you can export the lap times to a file using the JSON or CSV format</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kronometer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kronometer.desktop/35ef02f60a76b1fcb9f96af2694c94bb/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kronometer.desktop/35ef02f60a76b1fcb9f96af2694c94bb/screenshots/image-1_224x91.png
+    width: 594
+    height: 242
+iconSources:
+  - url: org/kde/kronometer.desktop/35ef02f60a76b1fcb9f96af2694c94bb/icons/128x128/kronometer_kronometer.png
+    width: 128
+    height: 128
+homepage: "https://userbase.kde.org/Kronometer"
+enabled: true
+order: 99

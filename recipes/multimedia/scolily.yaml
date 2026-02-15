@@ -1,0 +1,24 @@
+id: scolily
+name: Scolily Score Recorder
+description: Create scores on-the-fly by recording from mic
+longDescription: |
+  <p>Scolily record from any audio device handled by alsa, and then create a music score ( lilypond, ABC music and Midi files are currently supported ).</p>
+  <p>Homepage: https://scolily.codingteam.net/</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - scolily
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: scolily_scolily.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

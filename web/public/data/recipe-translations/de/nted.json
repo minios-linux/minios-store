@@ -1,0 +1,5 @@
+{
+  "name": "NtEd",
+  "description": "Bearbeiten von Musiknoten",
+  "longDescription": "<p>NtEd ist ein GTK+-Noteneditor mit echtem WYSIWYG-Prinzip – was auf dem Bildschirm angezeigt wird, entspricht exakt dem späteren Ausdruck. Unterstützt werden bis zu 4 Stimmen pro System, Schlagzeugnoten, 5 Liedtextzeilen, N-Tuplets, Kontextwechsel, Wiederholungen mit Alternativen sowie frei konfigurierbare Instrumente je System. Import von MIDI und MusicXML sowie Export in PS, PDF, SVG, PNG, Lilypond und MIDI ist möglich. Notenblätter können direkt über den ALSA-Sequencer abgespielt werden.</p>\n"
+}

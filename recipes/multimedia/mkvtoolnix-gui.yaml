@@ -1,0 +1,43 @@
+id: "mkvtoolnix-gui"
+name: MKVToolNix
+description: Matroska files creator and tools
+longDescription: |
+  <p>MKVToolNix is a set of tools to create, alter and inspect Matroska files
+        under Linux, other Unices and Windows.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mkvtoolnix-gui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/bunkus/mkvtoolnix-gui/50066de0c8c609a24451be00de3cf7db/screenshots/image-1_orig.png
+    thumbnailUrl: org/bunkus/mkvtoolnix-gui/50066de0c8c609a24451be00de3cf7db/screenshots/image-1_624x351@1.png
+    width: 1440
+    height: 810
+iconSources:
+  - url: org/bunkus/mkvtoolnix-gui/50066de0c8c609a24451be00de3cf7db/icons/128x128/mkvtoolnix-gui_mkvtoolnix-gui.png
+    width: 128
+    height: 128
+developer: Moritz Bunkus
+homepage: "https://mkvtoolnix.download"
+enabled: true
+order: 99

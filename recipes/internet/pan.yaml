@@ -1,0 +1,56 @@
+id: "pan"
+name: Pan Newsreader
+description: Read and post Usenet articles
+longDescription: |
+  <p>Pan is a Usenet newsreader that is good at both text and binaries. It
+      supports offline reading, scoring and killfiles, yEnc, NZB, PGP handling,
+      multiple servers, and secure connections.</p>
+  <p>It is also the only Unix newsreader to get a perfect score on the Good
+      Net-Keeping Seal of Approval evaluations.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pan
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - usenet
+  - news
+  - newsreader
+  - newsgroup
+  - article
+  - yenc
+  - nzb
+screenshotSources:
+  - url: org/gnome/pan/9fe7f9e91267672c3020eb2f162036ab/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/pan/9fe7f9e91267672c3020eb2f162036ab/screenshots/image-1_624x429@1.png
+    width: 1311
+    height: 902
+iconSources:
+  - url: org/gnome/pan/9fe7f9e91267672c3020eb2f162036ab/icons/128x128/pan_org.gnome.pan.png
+    width: 128
+    height: 128
+developer: Pan
+homepage: "http://pan.rebelbase.com/"
+enabled: true
+order: 99

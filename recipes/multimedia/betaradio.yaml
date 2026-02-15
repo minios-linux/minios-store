@@ -1,0 +1,34 @@
+id: "betaradio"
+name: BetaRadio Tuner
+description: An easy way to listen to internet radio of Taiwan.
+longDescription: |
+  <p>With this client you can listen to internet radio of Taiwan without opening a browser. It displays a icon on system tray that you can click and select the channel you want to listen to.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - betaradio
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - radio
+  - taiwan
+iconSources:
+  - cached: betaradio_betaradio.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

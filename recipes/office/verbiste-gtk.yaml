@@ -1,0 +1,40 @@
+id: "verbiste-gtk"
+name: Verbiste
+description: French conjugation system
+longDescription: |
+  <p>Verbiste is a program that gives the complete conjugation for French and Italian verbs. The knowledge base contains over 6800 verbs.</p>
+  <p>This package contains a GTK interface.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - verbiste-gtk
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - conjugation
+  - french
+  - spelling
+  - translation
+  - verb
+iconSources:
+  - url: v/ve/verbiste.desktop/d301e1c1ee3bc1c61b096c99f767d14c/icons/128x128/verbiste-gtk_verbiste.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

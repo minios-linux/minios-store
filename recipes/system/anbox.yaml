@@ -1,0 +1,29 @@
+id: anbox
+name: Anbox
+description: Android in a box
+longDescription: |
+  <p>Anbox is a container-based approach to boot a full Android system on a regular GNU/Linux system.</p>
+  <p>In other words: Anbox will let you run Android on your Linux system without the slowness of virtualization.</p>
+  <p>Anbox uses Linux namespaces (user, pid, uts, net, mount, ipc) to run a full Android system in a container and provide Android applications on any GNU/Linux-based platform.</p>
+  <p>The Android inside the container has no direct access to any hardware. All hardware access is going through the anbox daemon on the host. It reuses what Android implemented within the QEMU-based emulator for OpenGL ES accelerated rendering. The Android system inside the container uses different pipes to communicate with the host system and sends all hardware access commands through these.</p>
+  <p>This package needs Android kernel modules and rootfs image, see /usr/share/doc/anbox/README.Debian for information.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - anbox
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64]
+tags:
+  - android
+  - container
+iconSources:
+  - cached: anbox_anbox.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

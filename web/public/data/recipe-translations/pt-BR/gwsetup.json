@@ -1,0 +1,5 @@
+{
+  "name": "gwsetup",
+  "description": "Geneweb - configuração de software de genealogia",
+  "longDescription": "<p>O Geneweb permite gerenciar dados genealógicos. É um sistema avançado para manter registros sobre o histórico da sua família. Suporta grande parte do padrão GEDCOM para armazenamento de dados e pode ser utilizado tanto como sistema principal para arquivamento genealógico quanto como serviço web (através de interface CGI) para publicação dessas informações.</p>\n<p>O Gwsetup é um programa de linha de comando que inclui um mini servidor web, facilitando a configuração e manipulação de bancos de dados genealógicos para uso com o Geneweb.</p>\n"
+}

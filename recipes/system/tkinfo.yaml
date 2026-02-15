@@ -1,0 +1,49 @@
+id: "tkinfo"
+name: TKInfo
+description: Info File Broswer
+longDescription: |
+  <p>TKInfo is a very fast lightweight viewer for GNU info files, requiring no configuration. It is particularly effective for local browsing of large and/or interconnected sets of info files.</p>
+  <p>TkInfo can be used stand alone, or embedded within an application to provide integrated, on-line help.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tkinfo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - info
+  - gui
+  - viewer
+  - browser
+screenshotSources:
+  - url: de/uni_paderborn/math_.tkinfo/9879bcc39a5dfb385092935371326c0d/screenshots/image-1_orig.png
+    thumbnailUrl: de/uni_paderborn/math_.tkinfo/9879bcc39a5dfb385092935371326c0d/screenshots/image-1_624x505.png
+    width: 921
+    height: 746
+iconSources:
+  - cached: tkinfo_TkInfo.png
+    width: 64
+    height: 64
+homepage: "http://math-www.uni-paderborn.de/~axel/tkinfo/"
+enabled: true
+order: 99

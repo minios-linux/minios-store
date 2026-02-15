@@ -1,0 +1,5 @@
+{
+  "name": "Virtual Machine Manager",
+  "description": "Verwalten Sie virtuelle Maschinen",
+  "longDescription": "<p>Zeigt eine Übersichtsansicht aller laufenden Domänen sowie deren aktuelle Leistungs- und Ressourcennutzungsstatistiken. In einer Detailansicht werden Diagramme angezeigt, die die Performance und Auslastung im Zeitverlauf visualisieren. Darüber hinaus können neue Domänen erstellt sowie Ressourcen und virtuelle Hardware einer Domäne konfiguriert und angepasst werden. Ein integrierter VNC-Viewer ermöglicht schließlich vollen grafischen Zugriff auf die Gast-Domäne.</p>\n<p>HINWEIS: Die grafische Oberfläche gilt weiterhin als experimentell.</p>\n"
+}

@@ -1,0 +1,44 @@
+id: "moria"
+name: Moria
+description: single-played rogue-like with a regenerating dungeon
+longDescription: |
+  <p>A single player roguelike game with a regenerating dungeon, moria is the predecessor of angband with a full-screen, text-based, turn-based interface.  It features scrolling maps, and an infinite (constantly regenerated) dungeon.</p>
+  <p>Moria&apos;s dungeons are populated by monsters, some of which are inspired by J.R.R. Tolkien&apos;s books.  The goal of the game is to find and kill the Balrog, whereupon the player is crowned King.  Your player can be created from a combination of 8 races (human, half-elf, elf, halfling, gnome, dwarf, half-orc, half-troll) and 6 classes (warrior, mage, priest, rogue, ranger, paladin), and is measured by 6 attributes (strength, dexterity, intelligence, wisdom, constitution, and charisma).</p>
+  <p>Despite the package name, this is actually Umoria (Unix moria).</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - moria
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - moria
+  - roguelike
+  - maze
+  - dungeon
+iconSources:
+  - url: m/mo/moria.desktop/22fb7e1dec38ae6eb3b3ba372a7a5349/icons/128x128/moria_moria.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

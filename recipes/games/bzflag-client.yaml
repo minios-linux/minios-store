@@ -1,0 +1,46 @@
+id: bzflag-client
+name: BZFlag
+description: Battle enemy tanks
+longDescription: |
+  <p>BZFlag is a 3D multi-player multiplatform tank battle game that allows users to play against each other in a network environment. There are five teams: red, green, blue, purple and rogue (rogue tanks are black). Destroying a player on another team scores a win, while being destroyed or destroying a teammate scores a loss. Rogues have no teammates (not even other rogues), so they cannot shoot teammates and they do not have a team score.</p>
+  <p>There are two main styles of play: capture-the-flag and free-for-all. In capture-the-flag, each team (except rogues) has a team base and each team with at least one player has a team flag. The object is to capture an enemy team&apos;s flag by bringing it to your team&apos;s base. This destroys every player on the captured team, subtracts one from that team&apos;s score, and adds one to your team&apos;s score. In free-for-all, there are no team flags or team bases. The object is simply to get as high a score as possible.</p>
+  <p>This package installs the BZFlag client compatible with 2.4.x BZFlag servers.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bzflag-client
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - capture
+  - flag
+  - tank
+  - game
+  - multiplayer
+  - network
+iconSources:
+  - cached: bzflag-client_bzflag-48x48.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

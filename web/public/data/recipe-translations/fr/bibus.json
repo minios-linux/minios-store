@@ -1,0 +1,5 @@
+{
+  "name": "Bibus",
+  "description": "gérez les références et citations dans vos publications",
+  "longDescription": "<p>Bibus est une base de données bibliographiques conçue pour fonctionner avec LibreOffice/OpenOffice.org. Elle permet d’insérer directement des citations et de formater l’index bibliographique dans un document ouvert avec OpenOffice.org Writer. Ses principales fonctionnalités incluent :<ul><li>organisation hiérarchique des références avec des clés définies par l'utilisateur</li><li>adapté aux environnements multi-utilisateurs (partage de bases de données entre utilisateurs)</li><li>moteur de recherche avec requêtes en temps réel</li><li>accès en ligne à PubMed</li><li>importation de références PubMed (Medline), EndNote/Refer, RIS et BibTeX</li></ul></p><p>Bibus utilise par défaut une base de données SQLite pour le stockage (via le module SQLite3 disponible dans Python &gt;2.5), mais il prend également en charge les bases de données MySQL. Si vous souhaitez utiliser MySQL, assurez-vous que le paquet python-mysqldb est installé.</p>\n"
+}

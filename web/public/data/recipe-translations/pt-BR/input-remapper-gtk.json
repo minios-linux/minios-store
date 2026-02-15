@@ -1,0 +1,5 @@
+{
+  "name": "Input Remapper",
+  "description": "Interface gráfica para remapeamento específico de teclas de dispositivos",
+  "longDescription": "<p>O input-remapper permite que usuários mapeiem botões de todos os dispositivos de entrada (teclados, mouses, gamepads, etc.) tanto no X11 quanto no Wayland. Também suporta combinações de botões e macros programáveis.</p>\n<p>Este pacote inclui a interface gráfica para configurar os mapeamentos.</p>\n"
+}

@@ -1,0 +1,70 @@
+id: "supertux"
+name: SuperTux
+description: A jump-and-run game starring Tux the Penguin
+longDescription: |
+  <p>Run and jump through multiple worlds, fight off enemies by
+        jumping on them, bumping them from below or tossing objects at
+        them, grabbing power-ups and other stuff on the way.</p>
+  <p>In addition to the Story Mode, there is a large amount of
+        community contributed levels available as add-ons or in the
+        forums. Everyone can contribute such content by using the
+        integrated level editor.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - supertux
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - arcade
+  - platform
+screenshotSources:
+  - url: org/supertuxproject/SuperTux/1c7a716f3426b478401a43fa33102392/screenshots/image-1_orig.png
+    thumbnailUrl: org/supertuxproject/SuperTux/1c7a716f3426b478401a43fa33102392/screenshots/image-1_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/supertuxproject/SuperTux/1c7a716f3426b478401a43fa33102392/screenshots/image-2_orig.png
+    thumbnailUrl: org/supertuxproject/SuperTux/1c7a716f3426b478401a43fa33102392/screenshots/image-2_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/supertuxproject/SuperTux/1c7a716f3426b478401a43fa33102392/screenshots/image-3_orig.png
+    thumbnailUrl: org/supertuxproject/SuperTux/1c7a716f3426b478401a43fa33102392/screenshots/image-3_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/supertuxproject/SuperTux/1c7a716f3426b478401a43fa33102392/screenshots/image-4_orig.png
+    thumbnailUrl: org/supertuxproject/SuperTux/1c7a716f3426b478401a43fa33102392/screenshots/image-4_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/supertuxproject/SuperTux/1c7a716f3426b478401a43fa33102392/screenshots/image-5_orig.png
+    thumbnailUrl: org/supertuxproject/SuperTux/1c7a716f3426b478401a43fa33102392/screenshots/image-5_624x351.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: org/supertuxproject/SuperTux/1c7a716f3426b478401a43fa33102392/icons/128x128/supertux_supertux2.png
+    width: 128
+    height: 128
+developer: The SuperTux Team
+homepage: "http://supertux.lethargik.org/"
+enabled: true
+order: 99

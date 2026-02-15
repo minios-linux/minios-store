@@ -1,0 +1,30 @@
+id: "edubuntu-docs"
+name: About Edubuntu
+description: Learn more about Edubuntu
+longDescription: |
+  <p>This package holds the official Edubuntu-specific documentation, maintained by the Ubuntu Documentation Team. It includes the Edubuntu Handbook, About Edubuntu, and the School Advocacy Guide.</p>
+  <p>The guides can be viewed using Yelp, the GNOME help browser.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - edubuntu-docs
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: edubuntu-docs_edubuntu-logo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

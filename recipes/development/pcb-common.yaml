@@ -1,0 +1,55 @@
+id: "pcb-common"
+name: gEDA PCB
+description: Create and edit printed circuit board layouts
+longDescription: |
+  <p>PCB is an interactive printed circuit board editor for Unix, Linux, Windows, and Mac systems.</p>
+  <p>PCB includes a rats nest feature and schematic/netlist import, design rule checking, and can provide industry standard RS-274X (Gerber), NC drill, IPC-D-356 netlist and centroid data (X-Y data) output for use in the board fabrication and assembly process, as well as photorealistic and design review images.</p>
+  <p>PCB offers high end features such as an autorouter, a topological router and various trace optimizers which can tremendously reduce layout time.</p>
+  <p>For custom requirements, PCB offers a plug-in API for inserting new functionality and using that functionality from within the GUI as well as in scripts.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pcb-common
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - pcb
+  - circuit
+  - board
+  - layout
+  - editor
+  - gerber
+  - gcode
+  - layout
+  - eda
+  - electronics
+screenshotSources:
+  - url: p/pc/pcb.desktop/1fc0d84a996db8cc2e6e57bfe58fafba/screenshots/image-1_orig.png
+    thumbnailUrl: p/pc/pcb.desktop/1fc0d84a996db8cc2e6e57bfe58fafba/screenshots/image-1_624x433.png
+    width: 892
+    height: 619
+iconSources:
+  - url: p/pc/pcb.desktop/1fc0d84a996db8cc2e6e57bfe58fafba/icons/128x128/pcb-common_pcb.png
+    width: 128
+    height: 128
+homepage: "http://pcb.geda-project.org/"
+enabled: true
+order: 99

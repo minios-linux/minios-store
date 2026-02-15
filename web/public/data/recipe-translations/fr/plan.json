@@ -1,0 +1,5 @@
+{
+  "name": "plan",
+  "description": "Agenda de bureau",
+  "longDescription": "<p>Plan est un gestionnaire de planning basé sur X/Motif. Il affiche un calendrier mensuel similaire à xcal, mais chaque case de jour est suffisamment grande pour afficher les rendez-vous en petits caractères. En cliquant sur une case de jour, les rendez-vous de cette journée peuvent être listés et modifiés. Les rendez-vous sont saisis avec les informations suivantes (tout sauf l'heure est optionnel) :</p>\n<p> - la date, l'heure et la durée du rendez-vous,  - un message texte optionnel à afficher,  - un script optionnel à exécuter,  - des rappels anticipés ou différés précédant l'heure de l'alarme,  - répétitions : [n-ième] jours de la semaine, jours du mois, tous les n jours, annuellement,  - possibilité de saisir rapidement un rendez-vous par ligne de commande,  - méthodes flexibles pour définir les jours fériés et les vacances,  - aide contextuelle détaillée,  - gestion multi-utilisateur via le serveur netplan, fourni par le paquet netplan.</p>\n"
+}

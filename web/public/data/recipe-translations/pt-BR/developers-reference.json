@@ -1,0 +1,5 @@
+{
+  "name": "Developers Reference",
+  "description": "diretrizes e informações para desenvolvedores Debian",
+  "longDescription": "<p>Este pacote contém o Developers Reference do Debian, um conjunto de diretrizes e boas práticas estabelecidas pela e para a comunidade de desenvolvedores e mantenedores do Debian. Se você não mantém pacotes para o Debian, provavelmente não necessita deste pacote.</p>\n<p>Sumário:</p>\n<p>   * 1. Escopo deste documento    * 2. Candidatura para se tornar membro    * 3. Deveres do desenvolvedor Debian    * 4. Recursos para membros do Debian    * 5. Gerenciamento de pacotes    * 6. Melhores práticas de empacotamento    * 7. Além do empacotamento    * 8. Internacionalização e tradução    * 1. Visão geral das ferramentas de manutenção do Debian</p>\n<p>Este pacote contém a versão em inglês do Developers Reference. As traduções para francês, alemão, italiano, russo e japonês estão disponíveis nos pacotes developers-reference-fr, developers-reference-de, developers-reference-it, developers-reference-ru e developers-reference-ja.</p>\n"
+}

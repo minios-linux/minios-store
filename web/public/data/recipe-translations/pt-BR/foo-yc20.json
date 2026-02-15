@@ -1,0 +1,5 @@
+{
+  "name": "Foo YC20",
+  "description": "Sintetizador de órgão",
+  "longDescription": "<p>O YC-20 é um órgão combo com tecnologia divide-down projetado no final dos anos 60. Esta emulação reproduz fielmente os recursos, sons e imperfeições do órgão original.</p>\n<p>Recursos:    - 61 teclas    - Duas seções principais de vozes    - Seção de baixo comutável    - Gerador + mixer de matriz =&gt; sem restrições de polifonia    - Controle de realismo para adicionar imperfeições do instrumento real</p>\n<p>Limitações:    - Consome uma quantidade considerável de CPU    - Não possui vibrato por toque</p>\n<p>A emulação é desenvolvida em Faust e utiliza Jack para áudio e MIDI.</p>\n"
+}

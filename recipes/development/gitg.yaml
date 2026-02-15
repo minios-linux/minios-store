@@ -1,0 +1,66 @@
+id: "gitg"
+name: gitg
+description: Git repository browser
+longDescription: |
+  <p>gitg is a graphical user interface for git. It aims at being a small,
+        fast and convenient tool to visualize the history of git repositories.
+        Besides visualization, gitg also provides several utilities to manage your
+        repository and commit your work.</p>
+  <p>Goals</p>
+  <ul>
+    <li>Browse local git repositories</li>
+    <li>Clone local and remote git repositories</li>
+    <li>Commit files</li>
+    <li>Retrieve patch from a commit</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gitg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/gnome/gitg/098177eaaebc89b0f099a6c91ac289f2/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/gitg/098177eaaebc89b0f099a6c91ac289f2/screenshots/image-1_624x351.png
+    width: 1200
+    height: 675
+  - url: org/gnome/gitg/098177eaaebc89b0f099a6c91ac289f2/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/gitg/098177eaaebc89b0f099a6c91ac289f2/screenshots/image-2_624x351.png
+    width: 1200
+    height: 675
+  - url: org/gnome/gitg/098177eaaebc89b0f099a6c91ac289f2/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/gitg/098177eaaebc89b0f099a6c91ac289f2/screenshots/image-3_624x351.png
+    width: 1200
+    height: 675
+  - url: org/gnome/gitg/098177eaaebc89b0f099a6c91ac289f2/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/gitg/098177eaaebc89b0f099a6c91ac289f2/screenshots/image-4_624x351.png
+    width: 1200
+    height: 675
+iconSources:
+  - url: org/gnome/gitg/8f3ac281a11d64923fdab8f88e31e564/icons/128x128/gitg_org.gnome.gitg.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Gitg"
+enabled: true
+order: 99

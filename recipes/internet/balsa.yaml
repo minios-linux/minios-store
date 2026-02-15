@@ -1,0 +1,40 @@
+id: balsa
+name: Balsa
+description: Email utility
+longDescription: |
+  <p>Balsa is a highly configurable and robust mail client for the GNOME desktop. It supports both POP3 and IMAP servers as well as the mbox, maildir and mh local mailbox formats. Balsa also supports SMTP and/or the use of a local MTA such as Sendmail.</p>
+  <p>Some of Balsa&apos;s other features include:   * Allowing nested mailboxes   * Printing   * Spell Checking   * Multi-threaded mail retrieval   * MIME support (view images inline, save parts)   * GPE Palmtop, LDAP, LDIF and vCard address book support   * Multiple character sets for composing and reading messages   * File attachments on outgoing messages   * GPG/OpenPGP mail signing and encryption</p>
+  <p>Support for Kerberos and SSL has been enabled in this package.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - balsa
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: balsa_gnome-balsa2.png
+    width: 64
+    height: 64
+homepage: "https://pawsa.fedorapeople.org/balsa/"
+enabled: true
+order: 99

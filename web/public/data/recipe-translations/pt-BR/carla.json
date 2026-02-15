@@ -1,0 +1,5 @@
+{
+  "name": "Carla Control",
+  "description": "Hospedeiro de Plugins de Áudio (Controle por OSC)",
+  "longDescription": "<p>O Carla é um hospedeiro de plugins de áudio compatível com diversos drivers e formatos de plugins. Oferece recursos avançados, como automação de parâmetros via MIDI CC e controle total por OSC. Atualmente, suporta formatos de plugins LADSPA, DSSI, LV2, VST2/3 e AU, além de bancos de sons SF2 e SFZ.</p>\n<p>Este pacote contém o aplicativo principal.</p>\n"
+}

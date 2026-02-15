@@ -1,0 +1,64 @@
+id: "kid3-qt"
+name: Kid3
+description: Edit audio file metadata
+longDescription: |
+  <p>With Kid3, an audio tag editor, you can edit tags in MP3, Ogg/Vorbis,
+        DSF, FLAC, Opus, MPC, APE, MP4/AAC, MP2, Speex, TrueAudio, WavPack,
+        WMA, WAV, AIFF and tracker files.</p>
+  <p>All frames in the ID3 tags of MP3 files can be edited, and it is
+        possible to convert between ID3v1.1, ID3v2.3 and ID3v2.4. Synchronized
+        lyrics can be edited, imported and exported to LRC Karaoke files.</p>
+  <p>The tags of multiple files can be set together. It is possible to
+        generate tags from file names or the contents of other tag fields and to
+        generate file names from tags and rename directories from tags. Automatic
+        case conversion and string replacement help to keep tags consistent.</p>
+  <p>Album data can be imported from gnudb.org, TrackType.org, MusicBrainz,
+        Discogs, Amazon; automatic batch import is available for multiple
+        directories. It is also possible to export data and generate play lists.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kid3-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - audio
+  - id3
+  - tag
+  - editor
+  - id3v1
+  - id3v2
+  - mp3
+screenshotSources:
+  - url: org/kde/kid3-qt/f7fdd3f4f0055d04a479f6c0eecbfdb7/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kid3-qt/f7fdd3f4f0055d04a479f6c0eecbfdb7/screenshots/image-1_624x351@1.png
+    width: 1200
+    height: 675
+iconSources:
+  - url: org/kde/kid3-qt/f7fdd3f4f0055d04a479f6c0eecbfdb7/icons/128x128/kid3-qt_kid3-qt.png
+    width: 128
+    height: 128
+developer: Urs Fleisch
+homepage: "http://kid3.sourceforge.net/"
+enabled: true
+order: 99

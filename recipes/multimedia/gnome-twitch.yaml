@@ -1,0 +1,50 @@
+id: gnome-twitch
+name: GNOME Twitch
+description: Twitch desktop client
+longDescription: |
+  <p>Allows searching for and watching Twitch streams from the desktop.</p>
+  <p>Notable Features:</p>
+  <ul>
+    <li>Watch your favourite streams natively with fully accelerated video</li>
+    <li>Built in chat which can even be overlayed over the video</li>
+    <li>Easy favourites/follows management and receive notifications when they are online</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-twitch
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - stream
+  - video
+  - twitch
+  - live
+  - games
+screenshotSources:
+  - url: com/vinszent/GnomeTwitch.desktop/1C00057CDC6043CA5017E51186C38886/screenshots/image-1_orig.png
+    thumbnailUrl: com/vinszent/GnomeTwitch.desktop/1C00057CDC6043CA5017E51186C38886/screenshots/image-1_624x351.png
+    width: 1024
+    height: 576
+  - url: com/vinszent/GnomeTwitch.desktop/1C00057CDC6043CA5017E51186C38886/screenshots/image-2_orig.png
+    thumbnailUrl: com/vinszent/GnomeTwitch.desktop/1C00057CDC6043CA5017E51186C38886/screenshots/image-2_624x351.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: com/vinszent/GnomeTwitch.desktop/1C00057CDC6043CA5017E51186C38886/icons/128x128/gnome-twitch_com.vinszent.GnomeTwitch.png
+    width: 128
+    height: 128
+developer: GNOME Twitch
+homepage: "http://gnome-twitch.vinszent.com/"
+enabled: true
+order: 99

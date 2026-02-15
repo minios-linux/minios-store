@@ -1,0 +1,43 @@
+id: "kalgebra"
+name: KAlgebra
+description: Graph Calculator
+longDescription: |
+  <p>KAlgebra is an application that can replace your graphing calculator. It has numerical, logical, symbolic, and analysis features that let you calculate mathematical expressions on the console and graphically plot the results in 2D or 3D. KAlgebra is rooted in the Mathematical Markup Language (MathML); however, one does not need to know MathML to use KAlgebra.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kalgebra
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kalgebra/a8528187ba5d6cbee05f7c3ec58feea7/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kalgebra/a8528187ba5d6cbee05f7c3ec58feea7/screenshots/image-1_624x373@1.png
+    width: 1600
+    height: 958
+iconSources:
+  - url: org/kde/kalgebra/a8528187ba5d6cbee05f7c3ec58feea7/icons/128x128/kalgebra_kalgebra.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/kalgebra/"
+enabled: true
+order: 99

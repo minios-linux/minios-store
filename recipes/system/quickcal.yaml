@@ -1,0 +1,75 @@
+id: quickcal
+name: Quickcal
+description: Fast and Easy to use Calculator with support for Filing
+longDescription: |
+  <p>Quickcal accepts quick pasting of a large set of numbers, separated with 
+        newlines or spaces or tabs and performs arithmetic / statistical calculations
+        based on the button or keyboard shortcut pressed.</p>
+  <p>As in other calculators, basic math can be performed too, with the +,-,*,/,%,^
+        operators, in between numbers. Setting the scale allows for more decimals to
+        be displayed. Also, about 65 statistical calculations can be performed by
+        choosing an option from the more stats list box.</p>
+  <p>Filing and viewing support for history and tallying purpose, at the end of the
+        day, helpful for shopkeepers and others too.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Accepts Pasting of a Large Set of Numbers for Calculations</li>
+    <li>Keyboard Shortcuts for Buttons accelerate it further</li>
+    <li>No Need for typing Plus Signs for Summing Operations</li>
+    <li>Filing and Tallying possible at the End of Day or Shift</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - quickcal
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calculation
+  - arithmetic
+  - calculator
+  - statistical
+screenshotSources:
+  - url: org/gnome/quickcal.desktop/B7D79B43A6666D597EA67B35E980D241/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/quickcal.desktop/B7D79B43A6666D597EA67B35E980D241/screenshots/image-1_224x564.png
+    width: 238
+    height: 600
+  - url: org/gnome/quickcal.desktop/B7D79B43A6666D597EA67B35E980D241/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/quickcal.desktop/B7D79B43A6666D597EA67B35E980D241/screenshots/image-2_224x564.png
+    width: 238
+    height: 600
+  - url: org/gnome/quickcal.desktop/B7D79B43A6666D597EA67B35E980D241/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/quickcal.desktop/B7D79B43A6666D597EA67B35E980D241/screenshots/image-3_224x564.png
+    width: 238
+    height: 600
+  - url: org/gnome/quickcal.desktop/B7D79B43A6666D597EA67B35E980D241/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/quickcal.desktop/B7D79B43A6666D597EA67B35E980D241/screenshots/image-4_224x341.png
+    width: 393
+    height: 600
+iconSources:
+  - cached: quickcal_quickcal.png
+    width: 64
+    height: 64
+homepage: "https://git.fosscommunity.in/SRNathan/Quickcal_Calculator"
+enabled: true
+order: 99

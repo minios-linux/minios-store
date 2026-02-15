@@ -1,0 +1,44 @@
+id: "knetwalk"
+name: KNetWalk
+description: Strategy game
+longDescription: |
+  <p>KNetwalk is a puzzle game where the player arranges sections of wire to connect all the computers on the board.</p>
+  <p>This package is part of the KDE games module.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - knetwalk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/knetwalk/6e5efc272b5b446a64e63c2a11a8126a/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/knetwalk/6e5efc272b5b446a64e63c2a11a8126a/screenshots/image-1_624x496@1.png
+    width: 668
+    height: 532
+iconSources:
+  - url: org/kde/knetwalk/6e5efc272b5b446a64e63c2a11a8126a/icons/128x128/knetwalk_knetwalk.png
+    width: 128
+    height: 128
+homepage: "https://games.kde.org/game.php?game=knetwalk"
+enabled: true
+order: 99

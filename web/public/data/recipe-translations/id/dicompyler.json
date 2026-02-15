@@ -1,0 +1,5 @@
+{
+  "name": "Dicompyler",
+  "description": "Platform riset terapi radiasi",
+  "longDescription": "<p>Dicompyler adalah platform riset terapi radiasi yang sepenuhnya open source dan dapat dikembangkan, berbasis standar DICOM. Aplikasi ini juga berfungsi sebagai penampil (viewer) DICOM RT lintas platform.</p>\n<p>Fitur-fitur:  * Impor citra CT, set struktur DICOM RT, file dosis RT, dan rencana RT  * Sistem plugin yang dapat diperluas dengan plugin bawaan:     - Penampil gambar 2D dengan overlay dosis dan struktur     - Penampil histogram volume dosis (DVH) dengan analisis parameter DVH     - Penampil pohon data DICOM     - Fitur anonimisasi data pasien</p>\n"
+}

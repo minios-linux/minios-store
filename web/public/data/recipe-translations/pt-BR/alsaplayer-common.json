@@ -1,0 +1,5 @@
+{
+  "name": "Alsaplayer",
+  "description": "Reprodutor de áudio versátil para o Audio Linux Sound Architecture",
+  "longDescription": "<p>O Alsaplayer é um reprodutor PCM projetado especialmente para uso com ALSA, mas funciona muito bem também com OSS ou EsounD. Possui arquitetura fortemente baseada em threads, reduzindo travamentos durante a reprodução, oferece visualizações opcionais e até simultâneas, e suporta formatos como mp3, mp2, ogg, cdda, audiofs, entre outros.</p>\n<p>Este pacote contém o programa principal alsaplayer, sendo necessário ao menos um plugin de interface e um de saída. Por padrão, serão instalados a interface GTK+ e a saída alsa.</p>\n"
+}

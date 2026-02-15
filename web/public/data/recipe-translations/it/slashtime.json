@@ -1,0 +1,5 @@
+{
+  "name": "Slashtime",
+  "description": "Visualizza l'orario di località in tutto il mondo",
+  "longDescription": "<p>Un piccolo programma che mostra l'orario in diverse località. Offre una visualizzazione compatta delle città insieme a informazioni utili come la data e il codice abbreviato della zona oraria.</p>\n<p>I dati mostrati sono precisi quanto quelli forniti dal sistema tramite zoneinfo. In modo insolito, Slashtime indica lo scostamento rispetto alla posizione attuale, non rispetto all'UTC. Durante l'esecuzione, puoi cambiare il punto di riferimento facendo doppio clic su un'altra città.</p>\n<p>Slashtime include anche un pianificatore di riunioni: puoi specificare una data e un orario e vedere l'orario corrispondente nelle altre località.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Warp",
+  "description": "Transferencia de archivos rápida y segura",
+  "longDescription": "<p>\n      Warp te permite enviar archivos de forma segura a través de Internet o la red local intercambiando un código basado en palabras.\n    </p>\n<p>\n      El mejor método de transferencia se determina utilizando el protocolo “Magic Wormhole”, que incluye la transferencia por red local si es posible.\n    </p>\n<p>Características</p>\n<ul>\n  <li>Envía archivos entre varios dispositivos</li>\n  <li>Cada transferencia de archivo está cifrada</li>\n  <li>Transfiere archivos directamente por la red local cuando sea posible</li>\n  <li>Se requiere conexión a Internet</li>\n  <li>Soporte para códigos QR</li>\n  <li>Compatible con el cliente de línea de comandos Magic Wormhole y otras aplicaciones compatibles</li>\n</ul>\n"
+}

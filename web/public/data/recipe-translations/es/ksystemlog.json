@@ -1,0 +1,5 @@
+{
+  "name": "KSystemLog",
+  "description": "Visor de registros del sistema",
+  "longDescription": "<p>KSystemLog muestra todos los registros de tu sistema, agrupados por General (registro del sistema predeterminado, autenticación, núcleo, X.org, etc.) y Servicios opcionales (Apache, Cups, etc.). Incluye numerosas funciones para analizar tus archivos de registro de forma eficiente:  * Resaltado de líneas según su nivel de severidad  * Vista por pestañas para mostrar varios registros simultáneamente  * Actualización automática de nuevas líneas registradas  * Información detallada para cada línea del registro</p>\n<p>Este paquete forma parte del módulo de administración de KDE.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "gFTP",
+  "description": "Téléchargez et envoyez des fichiers via de multiples protocoles de transfert",
+  "longDescription": "<p>gFTP (version graphique) est un client FTP multithread fonctionnant sous X, développé avec GLib/GTK+.</p>\n<p>Fonctionnalités de gFTP :   * téléchargements simultanés,   * reprise des transferts interrompus,   * gestion des files d'attente de transferts,   * téléchargement de répertoires complets,   * prise en charge des proxys FTP et HTTP,   * mise en cache des dossiers distants,   * transferts passifs et actifs,   * glisser-déposer,   * menu de favoris,   * transferts de fichiers via SSH et SSH2,   * support des transferts FXP,   * bouton d'arrêt, et bien d'autres fonctionnalités.</p>\n<p>Auteur : Brian Masney &lt;masneyb@gftp.org&gt;</p>\n"
+}

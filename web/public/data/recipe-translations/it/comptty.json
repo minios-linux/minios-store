@@ -1,0 +1,5 @@
+{
+  "name": "comptty",
+  "description": "Comunicazioni Radioamatoriali",
+  "longDescription": "<p>Comptty viene utilizzato per confrontare due flussi RTTY. La funzione di confronto si basa su una tecnica di programmazione lineare e calcola il numero totale di errori, il tasso di errore sui caratteri (CER) e il tasso di errore sui bit (BER). Particolare attenzione viene riservata ai segnali SHIFT e UNSHIFT per considerare eventuali errori su quei caratteri.</p>\n"
+}

@@ -1,0 +1,24 @@
+id: picom-conf
+name: PicomConf
+description: Configure Picom window effects
+longDescription: |
+  <p>picom-conf is a configuration tool for the X composite manager picom. It is a fork of compton-conf.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - picom-conf
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/pi/picom_conf/37c17983208a163de64874283a8cf39c/icons/128x128/picom-conf_preferences-system.png
+    width: 128
+    height: 128
+homepage: "https://github.com/qtilities/picom-conf"
+enabled: true
+order: 99

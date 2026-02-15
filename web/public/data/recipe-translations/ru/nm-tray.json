@@ -1,0 +1,5 @@
+{
+  "name": "nm-tray",
+  "description": "Фронтенд для NetworkManager (значок в трее)",
+  "longDescription": "<p>nm-tray — это простой фронтенд для NetworkManager с информативной иконкой в области уведомлений (аналогично nm-applet). Приложение полностью написано с использованием Qt. Для взаимодействия с NetworkManager используется API KF5::NetworkManagerQt — напрямую через DBus.</p>\n<p>В пакет входят все необходимые файлы приложения.</p>\n"
+}

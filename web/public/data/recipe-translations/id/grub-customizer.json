@@ -1,0 +1,5 @@
+{
+  "name": "Grub Customizer",
+  "description": "Kustomisasi bootloader (GRUB2 atau BURG)",
+  "longDescription": "<p>Grub Customizer adalah antarmuka grafis untuk mengatur GRUB2 dan BURG. Anda dapat melakukan perubahan pada pengaturan dan entri menu dengan mudah.</p>\n<p>Fitur-fitur utama Grub Customizer antara lain: * Memindahkan, menghapus, atau mengganti nama entri menu (tetap dapat diperbarui melalui update-grub). * Mengedit isi entri menu atau membuat entri baru (secara internal mengedit file 40_custom). * Menyediakan instalasi ulang bootloader ke MBR. * Mengatur sistem operasi default, parameter kernel, gambar latar belakang, warna teks, dan lainnya. * Memungkinkan Anda mengganti sistem operasi yang terpasang dengan menjalankan dari Live CD/DVD atau OS di flash drive.</p>\n<p>Grub Customizer sangat berguna untuk kustomisasi dan pemulihan bootloader pada distribusi Linux apa pun.</p>\n"
+}

@@ -1,0 +1,47 @@
+id: "tiled"
+name: Tiled
+description: Tile Map Editor
+longDescription: |
+  <p>Tiled is a general purpose tile map editor. It&apos;s built to be easy to use, yet capable of catering to a host of varying game engines, whether your game is an RPG, platformer or Breakout clone. Tiled supports plugins to read and write map formats, in addition to its map format, to support map formats in use by engines.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tiled
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/mapeditor/Tiled.desktop/d74c36aa5a6eb8d1986c543dda0479e6/screenshots/image-1_orig.png
+    thumbnailUrl: org/mapeditor/Tiled.desktop/d74c36aa5a6eb8d1986c543dda0479e6/screenshots/image-1_624x468@1.png
+    width: 800
+    height: 600
+  - url: org/mapeditor/Tiled.desktop/d74c36aa5a6eb8d1986c543dda0479e6/screenshots/image-2_orig.png
+    thumbnailUrl: org/mapeditor/Tiled.desktop/d74c36aa5a6eb8d1986c543dda0479e6/screenshots/image-2_624x468@1.png
+    width: 800
+    height: 600
+iconSources:
+  - url: org/mapeditor/Tiled.desktop/d74c36aa5a6eb8d1986c543dda0479e6/icons/128x128/tiled_tiled.png
+    width: 128
+    height: 128
+homepage: "https://www.mapeditor.org/"
+enabled: true
+order: 99

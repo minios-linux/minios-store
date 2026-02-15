@@ -1,0 +1,26 @@
+id: xfce4-screensaver
+name: Screensaver
+description: Set your screensaver preferences
+longDescription: |
+  <p>Xfce Screensaver is a screen saver and locker that aims to have simple, sane, secure defaults and be well integrated with the Xfce desktop.</p>
+  <p>It is a port of MATE Screensaver, itself a port of GNOME Screensaver. It has been tightly integrated with the Xfce desktop, utilizing Xfce libraries and the Xfconf configuration backend.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-screensaver
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: x/xf/xfce4-screensaver-preferences.desktop/E3D69DA1D0E65F6AC273C64D60840572/icons/128x128/xfce4-screensaver_preferences-desktop-screensaver.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

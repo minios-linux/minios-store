@@ -1,0 +1,60 @@
+id: "keepassxc"
+name: KeePassXC
+description: Community-driven port of the Windows application “KeePass Password Safe”
+longDescription: |
+  <p>KeePassXC is an application for people with extremely high demands on secure
+              personal data management. It has a light interface, is cross-platform and
+              published under the terms of the GNU General Public License.</p>
+  
+categoryId: security
+icon: Lock
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - keepassxc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/keepassxc/KeePassXC.desktop/aa061850f45f9ffcdc6a090dfd9cbcfe/screenshots/image-1_orig.png
+    thumbnailUrl: org/keepassxc/KeePassXC.desktop/aa061850f45f9ffcdc6a090dfd9cbcfe/screenshots/image-1_224x163.png
+    width: 580
+    height: 423
+  - url: org/keepassxc/KeePassXC.desktop/aa061850f45f9ffcdc6a090dfd9cbcfe/screenshots/image-2_orig.png
+    thumbnailUrl: org/keepassxc/KeePassXC.desktop/aa061850f45f9ffcdc6a090dfd9cbcfe/screenshots/image-2_224x163.png
+    width: 580
+    height: 423
+  - url: org/keepassxc/KeePassXC.desktop/aa061850f45f9ffcdc6a090dfd9cbcfe/screenshots/image-3_orig.png
+    thumbnailUrl: org/keepassxc/KeePassXC.desktop/aa061850f45f9ffcdc6a090dfd9cbcfe/screenshots/image-3_224x164.png
+    width: 580
+    height: 427
+  - url: org/keepassxc/KeePassXC.desktop/aa061850f45f9ffcdc6a090dfd9cbcfe/screenshots/image-4_orig.png
+    thumbnailUrl: org/keepassxc/KeePassXC.desktop/aa061850f45f9ffcdc6a090dfd9cbcfe/screenshots/image-4_224x159.png
+    width: 622
+    height: 444
+  - url: org/keepassxc/KeePassXC.desktop/aa061850f45f9ffcdc6a090dfd9cbcfe/screenshots/image-5_orig.png
+    thumbnailUrl: org/keepassxc/KeePassXC.desktop/aa061850f45f9ffcdc6a090dfd9cbcfe/screenshots/image-5_224x163.png
+    width: 580
+    height: 423
+iconSources:
+  - url: org/keepassxc/KeePassXC.desktop/aa061850f45f9ffcdc6a090dfd9cbcfe/icons/128x128/keepassxc_keepassxc.png
+    width: 128
+    height: 128
+developer: KeePassXC Team
+homepage: "https://keepassxc.org"
+enabled: true
+order: 99

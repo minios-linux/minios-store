@@ -1,0 +1,35 @@
+id: "gtkpod"
+name: gtkpod
+description: "Manage music, video and photos on an Apple iPod"
+longDescription: |
+  <p>gtkpod is a platform independent GUI for Apple&apos;s iPod using GTK3. It allows you to upload songs and playlists to your iPod. It supports ID3 tag editing, multiple charsets for ID3 tags, detects duplicate songs, allows offline modification of the database with later synchronisation, and more.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtkpod
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: g/gt/gtkpod.desktop/af14b2183a9358033257d52f0973302c/icons/128x128/gtkpod_gtkpod.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

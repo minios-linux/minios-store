@@ -1,0 +1,60 @@
+id: "gnome-control-center"
+name: GNOME Control Center
+description: Utilities to configure the GNOME desktop
+longDescription: |
+  <p>The control center is GNOME’s main interface for configuration of various
+        aspects of your desktop.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-control-center
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - preferences
+  - settings
+screenshotSources:
+  - url: org/gnome/Settings.desktop/36394566ee236c64e029d5909f448610/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Settings.desktop/36394566ee236c64e029d5909f448610/screenshots/image-1_624x439@1.png
+    width: 1047
+    height: 738
+  - url: org/gnome/Settings.desktop/36394566ee236c64e029d5909f448610/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Settings.desktop/36394566ee236c64e029d5909f448610/screenshots/image-2_624x439@1.png
+    width: 1047
+    height: 738
+  - url: org/gnome/Settings.desktop/36394566ee236c64e029d5909f448610/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Settings.desktop/36394566ee236c64e029d5909f448610/screenshots/image-3_624x439@1.png
+    width: 1047
+    height: 738
+  - url: org/gnome/Settings.desktop/36394566ee236c64e029d5909f448610/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Settings.desktop/36394566ee236c64e029d5909f448610/screenshots/image-4_624x439@1.png
+    width: 1047
+    height: 738
+iconSources:
+  - url: org/gnome/Settings.desktop/36394566ee236c64e029d5909f448610/icons/128x128/gnome-control-center_org.gnome.Settings.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://apps.gnome.org/Settings/"
+enabled: true
+order: 99

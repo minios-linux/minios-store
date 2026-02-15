@@ -1,0 +1,42 @@
+id: "qbrew"
+name: QBrew
+description: Homebrewer's recipe calculator
+longDescription: |
+  <p>QBrew is a recipe calculator for homebrewed beers. It uses Qt for creating its graphical user interface and provides facilities for creating own beer recipes. It even has a manual describing how to brew your first beer yourself!</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qbrew
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - beer
+  - brewing
+  - recipe
+  - calculator
+iconSources:
+  - url: q/qb/qbrew.desktop/9666e3409f7bd60f35039025c517649d/icons/128x128/qbrew_qbrew.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

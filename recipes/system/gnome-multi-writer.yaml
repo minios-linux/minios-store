@@ -1,0 +1,70 @@
+id: "gnome-multi-writer"
+name: MultiWriter
+description: Write an ISO file to multiple USB devices at once
+longDescription: |
+  <p>GNOME MultiWriter can be used to write an ISO file to multiple USB devices
+        at once.
+        Supported drive sizes are between 1GB and 32GB.</p>
+  <p>MultiWriter may be useful for QA testing, to create a GNOME Live image
+        for a code sprint or to create hundreds of LiveUSB drives for a trade
+        show.</p>
+  <p>Writing a more than 10 devices simultaneously can easy saturate the USB
+        bus for most storage devices.
+        There are two ways to write more devices in parallel:</p>
+  <ul>
+    <li>Use USB 3.0 hubs, even if the storage devices are USB 2.0</li>
+    <li>Install another USB 2.0 PCIe root hub</li>
+  </ul>
+  <p>MultiWriter was originally written as part of the ColorHug project but
+        was split off as an independent application in 2015.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-multi-writer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - image
+  - writer
+  - iso
+  - usb
+screenshotSources:
+  - url: org/gnome/MultiWriter.desktop/e48711cbfe964cc233449563c3aa8857/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/MultiWriter.desktop/e48711cbfe964cc233449563c3aa8857/screenshots/image-1_624x351@1.png
+    width: 624
+    height: 351
+  - url: org/gnome/MultiWriter.desktop/e48711cbfe964cc233449563c3aa8857/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/MultiWriter.desktop/e48711cbfe964cc233449563c3aa8857/screenshots/image-2_624x351@1.png
+    width: 624
+    height: 351
+  - url: org/gnome/MultiWriter.desktop/e48711cbfe964cc233449563c3aa8857/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/MultiWriter.desktop/e48711cbfe964cc233449563c3aa8857/screenshots/image-3_624x351@1.png
+    width: 624
+    height: 351
+iconSources:
+  - url: org/gnome/MultiWriter.desktop/e48711cbfe964cc233449563c3aa8857/icons/128x128/gnome-multi-writer_org.gnome.MultiWriter.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/MultiWriter"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Terminal port série",
+  "description": "Communiquez avec le port série",
+  "longDescription": "<p>gtkterm est un terminal simple basé sur GTK+ permettant la communication avec un port série.</p>\n<p>Fonctionnalités :</p>\n<p> * Fenêtre de terminal pour port série  * Configuration du port série (vitesse, parité, bits, bits d'arrêt, contrôle de flux)  * Utilisation de l'API termios  * Envoi de fichiers possible (données brutes uniquement, sans protocole)  * Possibilité d’ajouter un délai de fin de ligne lors de l’envoi d’un fichier  * Attente d’un caractère spécial avant la ligne suivante lors de l’envoi d’un fichier  * Possibilité d’activer/désactiver manuellement les lignes de contrôle (DTR, CTS)  * Lecture de l'état des lignes de contrôle (RTS, CD, DSR, RI)</p>\n<p>Auteur :   Julien Schmitt &lt;julien@jls-info.com&gt;</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Topparser",
+  "description": "Convertit les données Pockettopo vers Therion",
+  "longDescription": "<p>Convertit un fichier .top issu de Pockettopo en une arborescence compatible avec Therion, en extrayant les données de centreline et de dessin vers des fichiers adaptés. Simplifie grandement le flux de travail pour les utilisateurs de Pockettopo et Therion. Peut également générer des fichiers de centreline au format Survex.</p>\n"
+}

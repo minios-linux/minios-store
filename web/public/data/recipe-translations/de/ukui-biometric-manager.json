@@ -1,0 +1,5 @@
+{
+  "name": "Biometric Manager",
+  "description": "Biometrie-Verwaltung",
+  "longDescription": "<p>Dieses Paket ist ein Tool zur Verwaltung der Treiber für biometrische Geräte sowie der Benutzereigenschaften. Zudem wird festgelegt, ob die biometrische Authentifizierung aktiviert ist. Der Dienst wird von biometric-authentication.service im Paket biometric-auth bereitgestellt.</p>\n"
+}

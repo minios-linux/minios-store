@@ -1,0 +1,29 @@
+id: xineliboutput-wlfe
+name: VDR X-Frontend
+description: VDR Xineliboutput Client - Wayland-Frontend
+longDescription: |
+  <p>This Wayland remote frontend plays back streams provided by vdr-plugin-xineliboutput.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xineliboutput-wlfe
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: xineliboutput-wlfe_xineliboutput-wlfe.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

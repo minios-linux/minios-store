@@ -1,0 +1,36 @@
+id: fceux
+name: Fceux
+description: Emulate NES ROMs
+longDescription: |
+  <p>FCE Ultra X [FCEUX] is an emulator of the original (8-bit) Nintendo Entertainment System (NES) released under the GNU General Public License (GPL).  It includes the following features (and many more):</p>
+  <p>      * fully customizable color palette rendering engine       * complete sound emulation (all five channels)       * support for up to four joystick controllers       * zapper emulation for the mouse       * GameGenie emulation       * accepts compressed (PKZIP, gzip) ROM images       * TCP/IP network play       * Lua scripting</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fceux
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: fceux_fceux1.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

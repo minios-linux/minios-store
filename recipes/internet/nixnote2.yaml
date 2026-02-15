@@ -1,0 +1,39 @@
+id: "nixnote2"
+name: NixNote2
+description: Use with Evernote to remember everything
+longDescription: |
+  <p>NixNote is a client for the Evernote service (www.evernote.com).  It will allow synchronization and editing of notes from your local system.</p>
+  <p>Once known as &quot;NeverNote&quot;, this software was rewritten in C++/Qt to provide a native user experience.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nixnote2
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - nixnote2
+  - text
+  - evernote
+  - note
+iconSources:
+  - url: n/ni/nixnote2.desktop/5a10c5b88972731a9adc420c47852756/icons/128x128/nixnote2_nixnote2.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

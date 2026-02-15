@@ -1,0 +1,26 @@
+id: leafpad
+name: Leafpad
+description: Simple text editor
+longDescription: |
+  <p>Leafpad is a simple GTK+ based text editor with user interface similar to Notepad. It aims to be lighter than Gedit and KWrite, and to be as useful as them.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - leafpad
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+iconSources:
+  - url: l/le/leafpad.desktop/83841F5F2597C6D6F9DEA162A8747C63/icons/128x128/leafpad_leafpad.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

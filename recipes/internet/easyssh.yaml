@@ -1,0 +1,47 @@
+id: "easyssh"
+name: EasySSH
+description: SSH Connection Manager
+longDescription: |
+  <p>A complete, efficient and easy-to-use manager. Create and edit connections, groups, customize the terminal, with multiple instances of the same connection.
+  </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - easyssh
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ssh
+  - internet
+  - network
+screenshotSources:
+  - url: com/github/muriloventuroso.easyssh/d5752f1b126718f2e9f4cc22404d6baa/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/muriloventuroso.easyssh/d5752f1b126718f2e9f4cc22404d6baa/screenshots/image-1_624x404@1.png
+    width: 1198
+    height: 776
+  - url: com/github/muriloventuroso.easyssh/d5752f1b126718f2e9f4cc22404d6baa/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/muriloventuroso.easyssh/d5752f1b126718f2e9f4cc22404d6baa/screenshots/image-2_624x404@1.png
+    width: 1198
+    height: 776
+iconSources:
+  - url: com/github/muriloventuroso.easyssh/d5752f1b126718f2e9f4cc22404d6baa/icons/128x128/easyssh_com.github.muriloventuroso.easyssh.png
+    width: 128
+    height: 128
+developer: Murilo Venturoso
+homepage: "https://github.com/muriloventuroso/easyssh"
+enabled: true
+order: 99

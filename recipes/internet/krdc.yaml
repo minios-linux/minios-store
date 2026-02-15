@@ -1,0 +1,43 @@
+id: "krdc"
+name: KRDC
+description: Connect with RDP or VNC to another computer
+longDescription: |
+  <p>KRDC is a client application that allows you to view or even control the desktop session on another machine that is running a compatible server. VNC and RDP is supported.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - krdc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/krdc.desktop/23e64ffdbfa1db647ffed8a529990292/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/krdc.desktop/23e64ffdbfa1db647ffed8a529990292/screenshots/image-1_624x418@1.png
+    width: 1080
+    height: 724
+iconSources:
+  - url: org/kde/krdc.desktop/23e64ffdbfa1db647ffed8a529990292/icons/128x128/krdc_krdc.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org/applications/internet/krdc/"
+enabled: true
+order: 99

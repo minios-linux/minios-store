@@ -1,0 +1,5 @@
+{
+  "name": "Configuración de impresión",
+  "description": "Configura las colas de impresión",
+  "longDescription": "<p>Con system-config-printer puedes añadir, editar y eliminar colas de impresión. Permite elegir el método de conexión y el controlador de la impresora.</p>\n<p>Para cada cola, puedes ajustar el tamaño de página predeterminado y otras opciones del controlador, además de ver los niveles de tinta/tóner y mensajes de estado.</p>\n"
+}

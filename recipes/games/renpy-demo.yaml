@@ -1,0 +1,41 @@
+id: "renpy-demo"
+name: Ren'Py Demo
+description: visual-novel game demo with Ren'Py
+longDescription: |
+  <p>Ren&apos;Py is a programming language and runtime, intended to ease the creation of visual-novel type games. It contains features that make it easy to display thoughts, dialogue, and menus; to display images to the user; to write game logic; and to support the saving and loading of games.</p>
+  <p>This package includes a full playable example showing the features of the framework.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - renpy-demo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - visual
+  - novel
+  - japanese
+  - demo
+iconSources:
+  - url: r/re/renpy-demo.desktop/8203b35860e8d4a1b68c89466b7b73a6/icons/128x128/renpy-demo_renpy-demo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

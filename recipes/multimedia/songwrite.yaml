@@ -1,0 +1,25 @@
+id: songwrite
+name: Songwrite
+description: guitar tablature editor and player
+longDescription: |
+  <p>Songwrite is a guitar tablature (fingering notation) editor and player, quite similar to TablEdit. In addition to tablatures, it also supports staff, lyrics and drums.</p>
+  <p>Printing support and playback are available through external programs.</p>
+  <p>Songwrite was formerly know as GTablature.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - songwrite
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: songwrite_songwrite_32x32.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "HydraPaper",
+  "description": "Gestor de fondos de pantalla con soporte para múltiples monitores",
+  "longDescription": "<p>HydraPaper es un gestor de fondos de pantalla diseñado específicamente para solucionar la falta de funcionalidad en muchos entornos de escritorio que no permiten establecer un fondo diferente en cada monitor en configuraciones multimonitor. Lo logra escalando y combinando distintos fondos en una sola imagen y configurándola como fondo extendido.</p>\n<p>Actualmente es compatible con varios entornos de escritorio, incluyendo GNOME, MATE, Cinnamon y Budgie. También ofrece soporte experimental para el gestor de ventanas sway.</p>\n"
+}

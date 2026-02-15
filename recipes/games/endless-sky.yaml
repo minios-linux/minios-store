@@ -1,0 +1,41 @@
+id: endless-sky
+name: Endless Sky
+description: Space exploration and combat game
+longDescription: |
+  <p>Endless sky is a 2D space exploration game with action, strategy, and role playing elements.</p>
+  <p>Explore other star systems. Earn money by trading, carrying passengers, or completing missions. Use your earnings to buy a better ship or to upgrade the weapons and engines on your current one. Blow up pirates. Take sides in a civil war. Or leave human space behind and hope to find some friendly aliens whose culture is more civilized than your own...</p>
+  <p>Endless Sky requires OpenGL 3.0 or higher.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - endless-sky
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - game
+  - simulator
+  - space
+  - sandbox
+  - rpg
+iconSources:
+  - url: e/en/endless-sky.desktop/0519AC5A06FBB71078DDC6D15A2E107A/icons/128x128/endless-sky_endless-sky.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Structure Synth",
+  "description": "Aplicativo para criação de estruturas 3D",
+  "longDescription": "<p>O Structure Synth é uma ferramenta para geração de estruturas 3D por meio da definição de gramáticas de desenho. Mesmo sistemas simples podem produzir estruturas surpreendentes e complexas. O Structure Synth oferece um ambiente gráfico com múltiplas abas, realce de sintaxe e visualização em OpenGL. A integração com renderizadores de terceiros (como Sunflow e POV-Ray) é possível através de um sistema flexível de exportação por templates.</p>\n<p>O Structure Synth foi desenvolvido por Mikael Hvidtfeldt Christensen. Foi inspirado pela sintaxe CFDG de Chris Coyne e pela interface gráfica Context Free Art de Mark Lentczner e John Horigan.</p>\n"
+}

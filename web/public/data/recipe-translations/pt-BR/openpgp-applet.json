@@ -1,0 +1,5 @@
+{
+  "name": "OpenPGP Applet",
+  "description": "Criptografe, descriptografe e assine textos usando a área de transferência",
+  "longDescription": "<p>O OpenPGP Applet é uma interface gráfica para o GnuPG.</p>\n<p>Permite criptografar e descriptografar o conteúdo da área de transferência, seja com criptografia de chave pública ou simétrica, utilizando uma senha. Também suporta a criação e verificação de assinaturas em texto simples.</p>\n<p>Atenção: O OpenPGP Applet não gerencia a entrada de senha. Como também não oferece interação via terminal, a menos que seja executado dessa forma, ele depende, na prática, de um agente GnuPG em execução e configurado para usar um diálogo de entrada de senha, como o pinentry-gnome3.</p>\n"
+}

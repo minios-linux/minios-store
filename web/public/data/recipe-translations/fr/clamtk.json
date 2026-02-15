@@ -1,0 +1,5 @@
+{
+  "name": "ClamTk",
+  "description": "Analysez votre système à la recherche de menaces…",
+  "longDescription": "<p>ClamTk est une interface graphique pour l'antivirus Clam.</p>\n<p>Conçu pour être un analyseur antivirus à la demande, léger et facile à utiliser, destiné aux systèmes Linux.</p>\n<p>Prend en charge l'intégration au menu contextuel pour l'environnement KDE Plasma (gestionnaire de fichiers Dolphin) ainsi que pour Nemo et Thunar via 'envoyer vers'. Pour GNOME (gestionnaire de fichiers Nautilus), le menu contextuel est disponible via le paquet séparé clamtk-gnome en raison de dépendances supplémentaires.</p>\n"
+}

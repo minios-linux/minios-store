@@ -1,0 +1,37 @@
+id: httraqt
+name: HTTraQt
+description: Web copier
+longDescription: |
+  <p>Program is intended for loading of Internet pages and/or their contents, equipped with flexible system of settings. HTTraQt - graphical user interface (GUI) for HTTrack library, developed in C++ and based on multiplatform Qt library.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - httraqt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: httraqt_httraqt.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

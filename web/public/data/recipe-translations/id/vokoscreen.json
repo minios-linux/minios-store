@@ -1,0 +1,5 @@
+{
+  "name": "vokoscreen",
+  "description": "aplikasi perekam layar",
+  "longDescription": "<p>vokoscreen dapat digunakan untuk merekam video edukasi, aktivitas langsung di browser, proses instalasi, konferensi video, dan sebagainya. Anda bisa merekam video saja atau video beserta suara (menggunakan ALSA atau PulseAudio).</p>\n<p>Program ini sangat sederhana dan memiliki antarmuka minimalis. vokoscreen juga dapat merekam wajah Anda melalui webcam secara bersamaan, sehingga sangat cocok untuk keperluan screencast. Selain itu, tersedia juga fitur untuk merekam langsung dari kamera digital IEEE1394.</p>\n<p>Aplikasi ini memanfaatkan fitur ffmpeg dan menyimpan hasil rekaman dalam beberapa format, seperti AVI, MP4, FLV, dan MKV untuk video dan MP3 untuk audio.</p>\n"
+}

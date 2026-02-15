@@ -1,0 +1,49 @@
+id: "leocad"
+name: LeoCAD
+description: Create virtual LEGO models
+longDescription: |
+  <p>LeoCAD is a CAD program that can be used to create virtual models with bricks similar to those found in many toys.</p>
+  <p>It has an easy to use interface and currently features over 2000 different pieces created by the LDraw community when installed with the ldraw-parts package.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - leocad
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - cad
+  - lego
+  - ldraw
+screenshotSources:
+  - url: org/leocad/LeoCAD/3191ad14e2ecf569c11f4b89e6737ccb/screenshots/image-1_orig.png
+    thumbnailUrl: org/leocad/LeoCAD/3191ad14e2ecf569c11f4b89e6737ccb/screenshots/image-1_624x420@1.png
+    width: 975
+    height: 657
+iconSources:
+  - url: org/leocad/LeoCAD/3191ad14e2ecf569c11f4b89e6737ccb/icons/128x128/leocad_leocad.png
+    width: 128
+    height: 128
+developer: LeoCAD.org
+homepage: "https://www.leocad.org/"
+enabled: true
+order: 99

@@ -1,0 +1,26 @@
+id: batmon-app
+name: Battery Monitor (batmon)
+description: Monitor battery status
+longDescription: |
+  <p>Battery Monitor is a battery monitor for laptops. It displays the current status of the battery (charge/discharge and energy level) as well as some information about the general health of the cell.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - batmon.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - battery
+  - laptop
+iconSources:
+  - cached: batmon.app_batmon-0.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Winpdb",
+  "description": "Plattformunabhängiger Python-Debugger",
+  "longDescription": "<p>Winpdb unterstützt das Debuggen von Thread- und Curses-basierten Anwendungen, die Modifikation von Namensräumen sowie Embedded Debugging. Als Remote-Debugger nutzt es (verschlüsselte) Netzwerkverbindungen, um eine Verbindung zum Debuggee herzustellen (der in der Regel auf derselben Maschine läuft).</p>\n<p>Winpdb ist das grafische, wx-basierte Frontend für rpdb2, das ebenfalls in diesem Paket enthalten ist. rpdb2 ist textbasiert und kann Screen-Sitzungen nutzen, falls kein X-Terminal-Emulator verfügbar ist.</p>\n<p>Winpdb ist bis zu 20-mal schneller als pdb.</p>\n"
+}

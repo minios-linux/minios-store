@@ -1,0 +1,5 @@
+{
+  "name": "Impostazioni frequenza CPU",
+  "description": "Regola la frequenza della CPU",
+  "longDescription": "<p>Un'utilità grafica per modificare le frequenze della CPU e il governor.</p>\n<p>\n            Questo strumento consente di cambiare la frequenza operativa della CPU per ogni core separatamente.\n            Il programma rileva i core offline e mostra solo quelli disponibili.\n            Inoltre, i core che non supportano la gestione della frequenza non vengono visualizzati.\n            È anche possibile applicare le stesse impostazioni a tutti i core contemporaneamente.\n        </p>\n<p>\n            Per applicare le modifiche, l'utente deve essere locale e attivo, nonché appartenere al gruppo sudo.\n            Gli utenti locali e attivi che non fanno parte di questo gruppo devono autenticarsi come amministratori per poter applicare le impostazioni.\n        </p>\n"
+}

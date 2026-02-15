@@ -1,0 +1,43 @@
+id: "kazam"
+name: Kazam
+description: Record a video or take a screenshot of your screen
+longDescription: |
+  <p>Kazam provides a well designed and easy to use interface for capturing screencasts and screenshots. It can record desktop video and multiple audio streams simultaneously with control over audio levels and the screen region being captured.</p>
+  <p>Support for H264 and VP8 codecs is built in.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kazam
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - screenshot
+  - screencast
+  - videorecord
+  - desktop recording
+iconSources:
+  - url: k/ka/kazam.desktop/c661e5d55198fb1201af3fb1c31ed508/icons/128x128/kazam_kazam.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,29 @@
+id: xfdesktop4
+name: Desktop
+description: Set desktop background and menu and icon behavior
+longDescription: |
+  <p>xfdesktop4 sets the background image, provides a right-click menu to launch applications and can optionally show files (including application launchers) or iconified windows. It includes gradient support for background color, saturation support for background image, real multiscreen and xinerama support.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfdesktop4
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: x/xf/xfce-backdrop-settings.desktop/8496AB4448A6759C5A859BC42336F3D5/icons/128x128/xfdesktop4_preferences-desktop-wallpaper.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

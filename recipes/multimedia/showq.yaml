@@ -1,0 +1,37 @@
+id: "showq"
+name: ShowQ
+description: MIDI controllable audio player
+longDescription: |
+  <p>Application that can play audio cues and trigger MIDI events primarily developed for theatre productions.</p>
+  <p>Features:  * 8 channels per_cue routing.  * Playback through ALSA or JACK.  * Load/Save cue list.  * Hot key for any cue.  * Application controllable by MIDI.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - showq
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - audio
+  - sound
+  - jackd
+  - alsa
+  - live
+  - show
+iconSources:
+  - url: s/sh/showq.desktop/966E0482E4EA6F46FC44C49DFF6915D5/icons/128x128/showq_showq.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

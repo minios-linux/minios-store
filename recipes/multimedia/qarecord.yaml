@@ -1,0 +1,23 @@
+id: qarecord
+name: QARecord
+description: Simple but solid audio recording tool
+longDescription: |
+  <p>QARecord is a simple but solid recording tool. It works well with stereo and multichannel recordings, supporting ALSA and JACK interfaces and in both 16 bit and 32 bit mode. By using a large ringbuffer for the captured data, buffer overruns are avoided. It has a Qt based GUI with graphical peak meters.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qarecord
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qarecord_qarecord_48.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

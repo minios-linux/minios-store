@@ -1,0 +1,40 @@
+id: artha
+name: Artha
+description: Handy thesaurus based on WordNet
+longDescription: |
+  <p>Artha is a off-line English thesaurus with distinct features like:   * hot-key press word look-up (select text on any window and press     a preset hot-key for look-up)   * regular expressions based search (broaden search using wild-cards     like *, ?, etc.)   * passive desktop notifications (of word definitions for     uninterrupted work-flow)   * spelling suggestions (when the exact spelling is vague/not known)</p>
+  <p>Once launched, it monitors for a preset hot-key combination. When some text is selected on any window and the hot-key is pressed, it pops-up with the word looked-up. Should the user prefer passive notifications, this can be done by enabling the notifications option.</p>
+  <p>When the term looked for is vague/not known, then either the search can be broadened with the use of regular expressions (*, ?, etc.) in the search string or spelling suggestions when a term is incorrect.</p>
+  <p>For regular expressions based search to work, wordnet-sense-index package is required.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - artha
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: artha_artha.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

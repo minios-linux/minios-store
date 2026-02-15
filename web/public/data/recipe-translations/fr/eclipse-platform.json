@@ -1,0 +1,5 @@
+{
+  "name": "Eclipse",
+  "description": "Environnement de développement intégré Eclipse",
+  "longDescription": "<p>La plateforme Eclipse est un environnement ouvert et extensible, conçu pour tout type de projet sans se limiter à un domaine précis. Elle offre une base solide pour créer et exécuter des outils de développement de logiciels intégrés. Eclipse permet aux développeurs d’outils de créer de manière indépendante des extensions qui s’intègrent parfaitement entre elles, au point qu'il est difficile de distinguer où commence ou se termine chaque outil.</p>\n<p>Ce paquet fournit la plateforme Eclipse, qui constitue le socle de tous les plug-ins de développement Eclipse, mais n’en inclut aucun par défaut. Les différents outils de développement sont disponibles dans d’autres paquets, par exemple&nbsp;:</p>\n<p> • eclipse-jdt Outils de développement Java<br /> • eclipse-pde Outils de développement de plug-ins<br /> • eclipse-cdt Outils de développement C/C++</p>\n"
+}

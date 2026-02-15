@@ -1,0 +1,38 @@
+id: xgterm
+name: xgterm
+description: X11 Terminal emulator to work with IRAF
+longDescription: |
+  <p>
+        XGterm provides a Tek 4012 compatible graphics terminal
+        emulation for IRAF, plus a datastream driven widget server
+        capability using the Object Manager to provide full access to
+        the underlying toolkit and widget set. The Gterm graphics window
+        operates almost identically to the xterm Tek window, however
+        there are extensions for implementing full-screen cursors,
+        imaging, area fills, colors, graphics erasure, a "status
+        line" and so on.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xgterm
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: c/co/community.iraf.xgterm/c6a2cb7d630e89cb2366f5da760de8b9/screenshots/image-1_orig.png
+    thumbnailUrl: c/co/community.iraf.xgterm/c6a2cb7d630e89cb2366f5da760de8b9/screenshots/image-1_624x405@1.png
+    width: 828
+    height: 538
+iconSources:
+  - url: c/co/community.iraf.xgterm/c6a2cb7d630e89cb2366f5da760de8b9/icons/128x128/xgterm_xgterm.png
+    width: 128
+    height: 128
+homepage: "https://iraf-community.github.io/x11iraf"
+enabled: true
+order: 99

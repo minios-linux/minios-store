@@ -1,0 +1,33 @@
+id: blupimania
+name: Blupimania
+description: Blupimania - A mind boggling (brain twisting) game of logic
+longDescription: |
+  <p>Blupi comes out of a hole holding on to a balloon. Unfortunately he let's it blow away.
+  			Blupi is lost, he turns to the left or the right and does various unpredictable things
+  			of his own. The object of the game is to help him find another balloon, so that he can
+  			move on to the next riddle. Blupimania offers the option of creating your own riddles in
+  			level 5.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - blupimania
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/blupi/blupimania/7fe5715a98ced5807d86eb9e2b9e0958/screenshots/image-1_orig.png
+    thumbnailUrl: org/blupi/blupimania/7fe5715a98ced5807d86eb9e2b9e0958/screenshots/image-1_624x348@1.png
+    width: 680
+    height: 380
+iconSources:
+  - url: org/blupi/blupimania/7fe5715a98ced5807d86eb9e2b9e0958/icons/128x128/blupimania_blupimania.png
+    width: 128
+    height: 128
+homepage: "https://blupi.org/"
+enabled: true
+order: 99

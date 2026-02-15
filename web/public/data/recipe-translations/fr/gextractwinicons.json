@@ -1,0 +1,5 @@
+{
+  "name": "gExtractWinIcons",
+  "description": "Extraire des curseurs et des icônes à partir de fichiers ressources compatibles MS Windows",
+  "longDescription": "<p>gExtractWinIcons permet d’extraire des curseurs et des icônes à partir de fichiers de ressources compatibles MS Windows (tels que .exe, .dll, .ocx, .cpl).</p>\n<p>Il est possible d’extraire à la fois des icônes, des curseurs et des images PNG de fichiers ressources avec différentes résolutions et profondeurs de couleurs. Les fichiers d’icônes extraits peuvent également être utilisés comme icône de site web « favicon.ico ».</p>\n"
+}

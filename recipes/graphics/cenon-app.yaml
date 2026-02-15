@@ -1,0 +1,31 @@
+id: cenon-app
+name: Cenon
+description: Vector graphics application for GNUstep
+longDescription: |
+  <p>Cenon is a graphical tool of a special kind. Build upon a modular graphical core, Cenon offers a wide variety of possibilities and applications - not only Desktop Publishing. The best of all, Cenon is free software, available with full source codes, and at home on many computer platforms.</p>
+  <p>Convert, import and export DXF, PostScript, Adobe Illustrator, DIN formats, HPGL, Gerber and PDF.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cenon.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - svg
+  - gerber
+  - graphics
+  - vector
+  - design
+  - publishing
+iconSources:
+  - cached: cenon.app_Cenon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

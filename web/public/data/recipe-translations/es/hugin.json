@@ -1,0 +1,5 @@
+{
+  "name": "Hugin Calibrate Lens",
+  "description": "Caracteriza la distorsión de lentes",
+  "longDescription": "<p>Hugin es un programa para crear panorámicas mediante el ensamblado de fotografías. Esencialmente, Hugin es una interfaz gráfica para Panorama Tools. El ensamblado se realiza utilizando varias fotos superpuestas tomadas desde la misma ubicación y asignando puntos de control para alinear y transformar las imágenes, logrando mezclarlas en una sola imagen de mayor tamaño. Hugin permite crear fácilmente puntos de control entre dos imágenes, optimizar las transformaciones de imagen y mucho más.</p>\n<p>Este paquete incluye las siguientes interfaces gráficas, que utilizan las herramientas de línea de comandos del paquete hugin-tools:  * hugin                - Creador de panorámicas Hugin.  * hugin_stitch_project - Ensamblador por lotes de Hugin.  * PTBatcherGUI         - Controlador de procesos por lotes para el ensamblado.  * calibrate_lens_gui   - Herramienta de calibración de lentes.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Toxic",
+  "description": "Un cliente Tox para la línea de comandos (CLI)",
+  "longDescription": "<p>Este es un cliente de mensajería instantánea basado en Tox que antes formaba parte del repositorio principal de Tox y ahora está disponible como una aplicación independiente.</p>\n<p>Tox es una alternativa segura y descentralizada a Skype.</p>\n<p>Básicamente, es un cliente que utiliza su biblioteca central para comunicarse a través de su propio protocolo. Todas las comunicaciones están cifradas mediante la biblioteca criptográfica NaCl, auditada por la comunidad, y este cifrado no se puede desactivar.</p>\n<p>Tox funciona sobre una red distribuida que utiliza conexiones P2P para los chats entre usuarios; a diferencia de otros reemplazos de Skype, no emplea servidores federados, servidores centrales ni supernodos.</p>\n"
+}

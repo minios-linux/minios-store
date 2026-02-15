@@ -1,0 +1,56 @@
+id: "gnome-characters"
+name: GNOME Characters
+description: Character map application
+longDescription: |
+  <p>Characters is a simple utility application to find and insert unusual characters.  It allows you to quickly find the character you are looking for by searching for keywords.</p>
+  <p>You can also browse characters by categories, such as Punctuation, Pictures, etc.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-characters
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - characters
+  - unicode
+  - punctuation
+  - math
+  - letters
+  - emoji
+  - emoticon
+screenshotSources:
+  - url: org/gnome/Characters/94340bb56b87ca4022f4dd9c0f35113a/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Characters/94340bb56b87ca4022f4dd9c0f35113a/screenshots/image-1_624x488@1.png
+    width: 922
+    height: 722
+  - url: org/gnome/Characters/94340bb56b87ca4022f4dd9c0f35113a/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Characters/94340bb56b87ca4022f4dd9c0f35113a/screenshots/image-2_624x488@1.png
+    width: 922
+    height: 722
+iconSources:
+  - url: org/gnome/Characters/94340bb56b87ca4022f4dd9c0f35113a/icons/128x128/gnome-characters_org.gnome.Characters.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Design/Apps/CharacterMap"
+enabled: true
+order: 99

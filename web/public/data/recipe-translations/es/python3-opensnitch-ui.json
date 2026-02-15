@@ -1,0 +1,5 @@
+{
+  "name": "OpenSnitch",
+  "description": "Cortafuegos interactivo de aplicaciones para GNU/Linux",
+  "longDescription": "<p>\n      Cada vez que un programa intente establecer una nueva conexión, se mostrará un aviso para que el usuario decida si permitirla o bloquearla.\n    </p>\n<p>\n      El usuario puede bloquear la conexión saliente según diferentes propiedades: puerto, UID, dirección IP de destino, programa o una combinación de estos. Estas reglas pueden ser permanentes, durar hasta que se reinicie la aplicación o aplicarse solo una vez.\n    </p>\n<p>\n      La interfaz gráfica permite visualizar las conexiones salientes en tiempo real, así como filtrarlas por proceso, usuario, host o puerto.\n    </p>\n<p>\n      OpenSnitch también puede funcionar como bloqueador de dominios a nivel de sistema, utilizando listas de dominios, direcciones IP o expresiones regulares.\n    </p>\n"
+}

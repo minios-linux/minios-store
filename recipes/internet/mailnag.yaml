@@ -1,0 +1,54 @@
+id: "mailnag"
+name: Mailnag
+description: An extensible mail notification daemon
+longDescription: |
+  <p>
+        Mailnag is a daemon program that checks POP3 and IMAP servers for new mail.
+        On mail arrival it performs various actions provided by plugins.
+        Mailnag comes with a set of desktop-independent default plugins for
+        visual/sound notifications, script execution etc. and can be extended
+        with additional plugins easily.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mailnag
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mail
+  - notify
+  - notification
+screenshotSources:
+  - url: com/github/pulb.mailnag/30cb7ee19c9eb99296acd94089d000bd/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/pulb.mailnag/30cb7ee19c9eb99296acd94089d000bd/screenshots/image-1_224x257@1.png
+    width: 357
+    height: 410
+  - url: com/github/pulb.mailnag/30cb7ee19c9eb99296acd94089d000bd/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/pulb.mailnag/30cb7ee19c9eb99296acd94089d000bd/screenshots/image-2_224x257@1.png
+    width: 357
+    height: 410
+  - url: com/github/pulb.mailnag/30cb7ee19c9eb99296acd94089d000bd/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/pulb.mailnag/30cb7ee19c9eb99296acd94089d000bd/screenshots/image-3_224x257@1.png
+    width: 357
+    height: 410
+iconSources:
+  - url: com/github/pulb.mailnag/30cb7ee19c9eb99296acd94089d000bd/icons/128x128/mailnag_mailnag.png
+    width: 128
+    height: 128
+developer: Patrick Ulbrich
+homepage: "https://www.github.com/pulb/mailnag/"
+enabled: true
+order: 99

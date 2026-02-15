@@ -1,0 +1,5 @@
+{
+  "name": "Gjots2 Jotter",
+  "description": "Almacena y organiza tus notas aleatorias",
+  "longDescription": "<p>gjots2 es una aplicación sencilla para tomar notas y procesar esquemas en tu escritorio.</p>\n<p>Puedes usar gjots2 para organizar tus apuntes en una estructura de árbol, añadiendo ideas y diversos contenidos a medida que avanzas. Permite exportar a HTML, XML, PostScript, PDF, man, etc. (consulta el manual en línea para ver un ejemplo de conversión a HTML).</p>\n<p>Algunas personas lo utilizan para notas, información personal, recetas, documentos DocBook XML e incluso PINs y contraseñas (cifrados con ccrypt(1), openssl(1) o gpg(1)).</p>\n<p>Es similar al programa kjots de KDE, pero utiliza la biblioteca GTK-2.</p>\n"
+}

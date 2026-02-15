@@ -1,0 +1,5 @@
+{
+  "name": "vokoscreen",
+  "description": "enregistreur d’écran",
+  "longDescription": "<p>vokoscreen permet d’enregistrer des vidéos pédagogiques, des démonstrations en direct du navigateur, des installations, des visioconférences, etc. Vous pouvez capturer uniquement la vidéo ou bien la vidéo avec le son (via ALSA ou PulseAudio).</p>\n<p>Le programme est très simple et propose une interface graphique minimaliste. Il permet également de filmer votre visage avec une webcam simultanément, une fonctionnalité idéale pour le screencasting. Une autre option est la capture directe depuis des caméras numériques IEEE1394.</p>\n<p>Ce logiciel utilise les fonctionnalités de ffmpeg et enregistre les captures dans plusieurs formats vidéo (AVI, MP4, FLV et MKV) ainsi qu’en MP3 pour l’audio.</p>\n"
+}

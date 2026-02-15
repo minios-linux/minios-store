@@ -1,0 +1,41 @@
+id: "xmahjongg"
+name: xmahjongg
+description: A colorful solitaire Mah Jongg game
+longDescription: |
+  <p>Xmahjongg is a simple implementation of the popular solitaire Mah Jongg game. The object is to remove all 144 tiles from the playing area by matching them two at a time. Xmahjongg is the classical version with little in the way of requirements and enough aesthetical and gameplay features to provide hours and hours of fun.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xmahjongg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tiles
+  - mahjongg
+  - solitaire
+iconSources:
+  - url: x/xm/xmahjongg.desktop/44f0267cd9e2b88a9da837b3684ffd8b/icons/128x128/xmahjongg_xmahjongg.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

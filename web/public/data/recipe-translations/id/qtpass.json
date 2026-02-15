@@ -1,0 +1,5 @@
+{
+  "name": "QtPass",
+  "description": "Antarmuka grafis untuk password store standar Unix",
+  "longDescription": "<p>QtPass adalah antarmuka grafis multiplatform untuk pass, pengelola kata sandi standar di Unix.</p>\n<p>Fitur:</p>\n<ul>\n  <li>Menggunakan pass atau git dan gpg2 secara langsung</li>\n  <li>Lintas platform: Linux, BSD, OS X, dan Windows</li>\n  <li>Menggunakan widget dan ikonasi native jika memungkinkan</li>\n  <li>Membaca password store pass</li>\n  <li>Mendekripsi dan menampilkan kata sandi beserta informasi terkait</li>\n  <li>Menyunting dan menambah kata sandi serta informasi</li>\n  <li>Pembaruan ke dan dari repository git</li>\n  <li>Pemilihan pengguna per-folder untuk enkripsi multi penerima</li>\n  <li>Opsi konfigurasi untuk backend dan lokasi executable/folder</li>\n  <li>Menyalin kata sandi ke clipboard</li>\n  <li>Opsi perlindungan shoulder surfing yang dapat dikonfigurasi</li>\n  <li>Dukungan WebDAV eksperimental</li>\n</ul>\n"
+}

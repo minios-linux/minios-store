@@ -1,0 +1,43 @@
+id: "viewnior"
+name: Viewnior
+description: Elegant Image Viewer
+longDescription: |
+  <p>This is Viewnior, an image viewer program. Created to be simple, fast and elegant. Its minimalistic interface provides more screenspace for your images. Among its features are:</p>
+  <p> * Fullscreen &amp; Slideshow  * Rotate, flip, crop, save, delete images  * Animation support  * Browse only selected images  * Navigation window  * Set image as wallpaper (under GNOME, Fluxbox and LXDE)  * Simple interface  * Configurable mouse actions</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - viewnior
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - image
+  - picture
+  - slideshow
+iconSources:
+  - url: v/vi/viewnior.desktop/1d45092e8d3096d234e328e78d2168fa/icons/128x128/viewnior_viewnior.png
+    width: 128
+    height: 128
+homepage: "https://siyanpanayotov.com/project/viewnior"
+enabled: true
+order: 99

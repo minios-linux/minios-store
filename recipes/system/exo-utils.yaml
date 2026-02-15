@@ -1,0 +1,23 @@
+id: exo-utils
+name: Terminal Emulator
+description: Use the command line
+longDescription: |
+  <p>This package contains the Xfce settings plugin and the utility files for libexo-2-0 which are:   - exo-csource   - exo-desktop-item-edit   - exo-open   - exo-preferred-applications</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - exo-utils
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - url: e/ex/exo-terminal-emulator.desktop/7BEAAE2F9EB4A1FD24145D3D7A1E2118/icons/128x128/exo-utils_utilities-terminal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,38 @@
+id: "phasex"
+name: PHASEX
+description: Phase Harmonic Advanced Synthesis EXperiment
+longDescription: |
+  <p>PHASEX is an experimental JACK audio / ALSA MIDI softsynth for Linux with a synth engine built around flexible phase modulation and flexible oscillator/LFO sourcing.</p>
+  <p>Modulations include AM, FM, offset PM, and wave select. PHASEX comes equipped with a 12db/octave filter with two distortion curves, a stereo crossover delay and chorus with phaser, ADSR envelopes for amplifier and filter, realtime audio input processing capabilities, velocity/aftertouch sensitivity, and more.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - phasex
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - synthesizer
+iconSources:
+  - url: p/ph/phasex.desktop/d6971d5751e4dd4b0a90955458ae6d9e/icons/128x128/phasex_phasex.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

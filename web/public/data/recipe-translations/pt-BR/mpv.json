@@ -1,0 +1,5 @@
+{
+  "name": "mpv Media Player",
+  "description": "Reproduza filmes e músicas",
+  "longDescription": "<p>O mpv é um reprodutor de mídia baseado no MPlayer e mplayer2. Ele suporta uma ampla variedade de formatos de arquivos de vídeo, codecs de áudio e vídeo e tipos de legendas.</p>\n<p>As mudanças do mplayer2 para o mpv incluem:  * Remoção de muito código desnecessário para incentivar o desenvolvimento  * Renderização OSD aprimorada  * Saída de terminal mais limpa  * Saída OpenGL melhorada  * Funcionalidade de codificação (substituto do mencoder)  * Suporte ao Wayland  * Suporte à reprodução de URLs de sites populares de streaming  * Melhoria nas capturas de tela  * ... Consulte mpv(1) para mais informações sobre as diferenças entre MPlayer, mplayer2 e mpv.</p>\n"
+}

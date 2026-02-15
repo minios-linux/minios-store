@@ -1,0 +1,32 @@
+id: keysmith
+name: Keysmith
+description: Two-factor code generator for Plasma Mobile and Desktop
+longDescription: |
+  <p>Keysmith generates tokens for your two-factor logins (2FA)</p>
+  <ul>
+    <li>Time and Hash-based OTP</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - keysmith
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/keysmith/83630bde1a4ef620b3c66a5c9a526641/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/keysmith/83630bde1a4ef620b3c66a5c9a526641/screenshots/image-1_224x380@1.png
+    width: 410
+    height: 696
+iconSources:
+  - url: org/kde/keysmith/83630bde1a4ef620b3c66a5c9a526641/icons/128x128/keysmith_org.kde.keysmith.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/keysmith/"
+enabled: true
+order: 99

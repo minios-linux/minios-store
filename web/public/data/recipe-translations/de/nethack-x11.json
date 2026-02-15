@@ -1,0 +1,5 @@
+{
+  "name": "X NetHack",
+  "description": "Dungeon-Crawl-Spiel – grafische Version",
+  "longDescription": "<p>NetHack ist ein wunderbar skurriles und zugleich sehr süchtig machendes Adventure-Spiel im Stil von Dungeons &amp; Dragons. Du übernimmst die Rolle einer von vielen Klassen (z. B. Zauberer, Waldläufer oder Tourist) und kämpfst dich auf der Suche nach dem Amulett von Yendor (versuch das mal rückwärts zu sagen!) für deinen Gott nach unten durch die Verliese. Unterwegs begegnest du vielleicht sogar einem Quantenmechaniker, König Artus oder – mit viel Glück – dem Gefräßigen Plapperkäfer von Traal.</p>\n<p>Um NetHack zu spielen, solltest du ein Frontend installieren. Jedes Frontend beinhaltet die klassische textbasierte Version, und alle können parallel installiert werden:  – nethack-console: keine Grafikoberfläche, reines Text-NetHack;  – nethack-x11: originale, X11/Athena-basierte Grafikversion;  – nethack-lisp: Lisp-Fensterversion.</p>\n<p>Dieses Paket bietet die Text- und die auf X11/Athena basierende grafische Version von NetHack.</p>\n"
+}

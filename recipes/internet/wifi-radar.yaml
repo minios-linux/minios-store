@@ -1,0 +1,26 @@
+id: wifi-radar
+name: WiFi Radar
+description: Tool for connecting to wireless networks
+longDescription: |
+  <p>WiFi Radar enables you to scan for available wireless networks and create profiles containing the network configuration options for your preferred networks.  You can drag and drop your preferred networks to arrange the profile priority.</p>
+  <p>You need to have root access to use this program.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wifi-radar
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: wifi-radar_wifi-radar.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

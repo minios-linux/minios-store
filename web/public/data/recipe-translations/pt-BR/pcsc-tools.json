@@ -1,0 +1,5 @@
+{
+  "name": "Gscriptor",
+  "description": "Envie comandos para smart cards",
+  "longDescription": "<p>Este pacote contém algumas ferramentas úteis para usuários de PC/SC. As ferramentas incluídas são:</p>\n<p>pcsc_scan(1): examina leitores de smart card disponíveis e exibe eventos detectados, como inserção (com ATR) e remoção do cartão;</p>\n<p>ATR_analysis(1): analisa o ATR (Answer To Reset) de um smart card;</p>\n<p>scriptor(1): script em Perl para enviar comandos a um smart card usando um arquivo em lote ou a entrada padrão (stdin);</p>\n<p>gscriptor(1): a mesma ideia do scriptor.pl(1), mas com interface gráfica em Perl-Gtk.</p>\n"
+}

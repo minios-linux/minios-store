@@ -1,0 +1,24 @@
+id: desktopnova-tray
+name: DesktopNova-Tray
+description: A Tray-Icon for DesktopNova
+longDescription: |
+  <p>DesktopNova changes the desktop background image after an adjustable time. It can choose the images from single files and folders (with or without subfolders). An autostart feature is also implemented.</p>
+  <p>This package installs a tray icon for DesktopNova.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - desktopnova-tray
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: desktopnova-tray_desktopnova.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

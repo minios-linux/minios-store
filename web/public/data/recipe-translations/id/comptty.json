@@ -1,0 +1,5 @@
+{
+  "name": "comptty",
+  "description": "Komunikasi Radio Amatir",
+  "longDescription": "<p>Comptty digunakan untuk membandingkan dua aliran RTTY. Fitur perbandingannya menggunakan teknik pemrograman linier. Aplikasi ini menghitung jumlah total kesalahan, tingkat kesalahan karakter (CER), dan tingkat kesalahan bit (BER). Penanganan khusus diberikan pada SHIFT dan UNSHIFT untuk memastikan kesalahan pada karakter tersebut tercatat dengan tepat.</p>\n"
+}

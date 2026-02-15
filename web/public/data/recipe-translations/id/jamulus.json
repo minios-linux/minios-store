@@ -1,0 +1,5 @@
+{
+  "name": "Jamulus",
+  "description": "Sesi Jamming",
+  "longDescription": "<p>Jamulus adalah aplikasi klien dan server audio dengan latensi rendah yang memungkinkan musisi melakukan sesi \"jamming\" secara real-time melalui internet. Tersedia di berbagai platform, sehingga siapa pun dapat berkomunikasi tanpa membutuhkan pengaturan khusus. Aplikasi ini tidak hanya untuk musik; penggunaannya dapat diperluas untuk keperluan lain, seperti konferensi.</p>\n<p>Salah satu peserta menjalankan Jamulus dalam mode server, idealnya di server (virtual) khusus; semua peserta lainnya menjalankan aplikasi klien (grafis) yang akan mengirimkan audio ke server dan menerima kembali audio hasil campuran. Penggunaan metronom sangat dianjurkan.</p>\n"
+}

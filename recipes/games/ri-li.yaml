@@ -1,0 +1,45 @@
+id: "ri-li"
+name: Ri-li
+description: a toy simulator game
+longDescription: |
+  <p>Ri-li is a game in which you drive a wooden toy steam locomotive across many levels and collect all the coaches to win.</p>
+  <p>It features:  * a colorful animated wooden steam locomotive;  * 50 game levels;  * 3 beautiful tunes and many sound effects;  * 14 languages (Arabic, Breton, Chinese, English, Esperanto, French,     German, Italian, Japanese, Portuguese, Russian, Slovak, Spanish, and     Swedish).</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ri-li
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - toy
+  - train
+  - wooden
+  - snake-like
+  - engine
+iconSources:
+  - url: io/github/petitlapin.Li-ri/394f0aefdf1ad7d93d7730d416c6f368/icons/128x128/ri-li_io.github.petitlapin.Li-ri.png
+    width: 128
+    height: 128
+homepage: "https://github.com/petitlapin/Li-Ri"
+enabled: true
+order: 99

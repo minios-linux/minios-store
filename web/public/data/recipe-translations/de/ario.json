@@ -1,0 +1,5 @@
+{
+  "name": "Ario",
+  "description": "Client-Anwendung für MPD",
+  "longDescription": "<p>Ario ist ein funktionsreicher Client für den Music Player Daemon (MPD). Die Oberfläche zum Durchstöbern der Bibliothek ist an Rhythmbox angelehnt, aber Ario legt Wert auf geringeren Ressourcenverbrauch und höhere Geschwindigkeit. Es nutzt GTK2, Avahi zur automatischen Erkennung von MPD-Servern und Curl zum Herunterladen externer Dateien wie Coverbilder oder Songtexte. Verschiedene Plugins stehen zur Verfügung, darunter Audioscrobbler/Last.fm-Integration und Unterstützung für Multimediatasten.</p>\n"
+}

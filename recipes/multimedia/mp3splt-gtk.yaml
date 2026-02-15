@@ -1,0 +1,37 @@
+id: mp3splt-gtk
+name: Mp3splt-gtk audio splitter
+description: Split mp3 and ogg files without decoding
+longDescription: |
+  <p>This package provides the graphical interface for splitting audio files at a given begin and end time position without decoding.  If splitting an album, you can select split points and filenames manually or read them from CDDB or cue files.  Splitting on silence and data from Mp3Wrap or AlbumWrap is also supported.  For mp3 files, both ID3v1 &amp; ID3v2 tags are supported.  A command line interface is provided in the mp3splt package.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mp3splt-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: mp3splt-gtk_mp3splt-gtk_ico.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

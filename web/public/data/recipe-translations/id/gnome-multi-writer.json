@@ -1,0 +1,5 @@
+{
+  "name": "MultiWriter",
+  "description": "Menulis file ISO ke beberapa perangkat USB sekaligus",
+  "longDescription": "<p>GNOME MultiWriter dapat digunakan untuk menulis file ISO ke beberapa perangkat USB secara bersamaan. Ukuran drive yang didukung antara 1GB hingga 32GB.</p><p>MultiWriter berguna untuk pengujian QA, membuat image GNOME Live untuk kegiatan code sprint, atau membuat ratusan LiveUSB untuk pameran.</p><p>Menulis ke lebih dari 10 perangkat secara simultan dapat dengan mudah memenuhi bandwidth USB pada sebagian besar perangkat penyimpanan. Ada dua cara untuk menulis ke lebih banyak perangkat secara paralel:</p><ul><li>Gunakan hub USB 3.0, meskipun perangkat penyimpanannya masih USB 2.0</li><li>Pasang PCIe root hub USB 2.0 tambahan</li></ul><p>MultiWriter awalnya dikembangkan sebagai bagian dari proyek ColorHug namun dipisahkan menjadi aplikasi mandiri pada tahun 2015.</p>"
+}

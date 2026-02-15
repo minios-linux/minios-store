@@ -1,0 +1,5 @@
+{
+  "name": "Paramètres d'impression",
+  "description": "Configurer les files d’attente d’imprimantes",
+  "longDescription": "<p>Avec system-config-printer, vous pouvez ajouter, modifier et supprimer des files d’attente d’imprimantes. Il permet de choisir la méthode de connexion et le pilote d’imprimante approprié.</p>\n<p>Pour chaque file, vous pouvez ajuster la taille de page par défaut et d’autres options du pilote, ainsi que consulter les niveaux d’encre/toner et les messages d’état.</p>\n"
+}

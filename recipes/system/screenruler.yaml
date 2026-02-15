@@ -1,0 +1,29 @@
+id: screenruler
+name: Screen Ruler
+description: Measure objects on your screen
+longDescription: |
+  <p>ScreenRuler will display a ruler on screen which allows you to measure the other objects that you&apos;ve there. It has the following features:  * Horizontal and vertical measurement in 6 different metrics:    pixels, centimetres, inches, picas, points, and as a percentage    of the ruler&apos;s length.  * Cusomizable colors and fonts.  * Keyboard control for precise positioning.  * Option for the ruler to stay always on top of other windows.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - screenruler
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: screenruler_screenruler.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

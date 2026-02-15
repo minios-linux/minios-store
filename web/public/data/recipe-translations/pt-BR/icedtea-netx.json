@@ -1,0 +1,5 @@
+{
+  "name": "IcedTea Web Control Panel",
+  "description": "Configure o IcedTea Web (javaws)",
+  "longDescription": "<p>O NetX oferece uma substituição direta para o javaws (Java Web Start). Como o projeto original do NetX foi descontinuado, o IcedTea Web mantém um fork do código original. No entanto, o icedtea-web evoluiu para um conjunto complexo de ferramentas, extensões e testes, restando atualmente poucas linhas em comum com a implementação original.</p>\n<p>O NetX do IcedTea atualmente oferece suporte à verificação de JARs assinados, armazenamento de certificados confiáveis, verificação do repositório de certificados do sistema e fornece os serviços especificados pela API JNLP.</p>\n"
+}

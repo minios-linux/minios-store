@@ -1,0 +1,36 @@
+id: "devede"
+name: DevedeNG
+description: "Allows to create video CDs and DVDs, suitable to be reproduced in home DVD players"
+longDescription: |
+  <p>DeVeDe is a program to create video DVDs, suitables for home players, from any number of video files, in any of the formats supported by Mplayer.</p>
+  <p>It allows user to create subtitles and even menus.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - devede
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/rastersoft/devedeng/45a7e7e2c5b7080187b1e142a2032064/screenshots/image-1_orig.png
+    thumbnailUrl: com/rastersoft/devedeng/45a7e7e2c5b7080187b1e142a2032064/screenshots/image-1_624x349@1.png
+    width: 1000
+    height: 560
+iconSources:
+  - url: com/rastersoft/devedeng/45a7e7e2c5b7080187b1e142a2032064/icons/128x128/devede_devedeng_icon.png
+    width: 128
+    height: 128
+homepage: "https://rastersoft.com/programas/devede.html"
+enabled: true
+order: 99

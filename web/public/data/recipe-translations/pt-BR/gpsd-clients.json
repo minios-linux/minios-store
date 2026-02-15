@@ -1,0 +1,5 @@
+{
+  "name": "xgpsspeed",
+  "description": "Exibe a velocidade do GPS a partir do daemon gpsd",
+  "longDescription": "<p>O serviço gpsd pode monitorar um ou mais dispositivos GPS conectados ao computador hospedeiro, tornando todos os dados de localização e movimento dos sensores disponíveis para consulta via porta TCP 2947.</p>\n<p>Este pacote inclui ferramentas auxiliares e clientes de exemplo para monitoramento, teste, análise de latência, configuração de dispositivos e simulação do gpsd.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Hashcheck",
+  "description": "Pemeriksa integritas ISO",
+  "longDescription": "<p>Menyediakan antarmuka grafis untuk memverifikasi citra ISO yang telah dimount. Citra ISO diharapkan sudah dimount di /lib/live/mount/medium</p>\n<p>Sangat berguna saat digunakan dalam lingkungan live</p>\n"
+}

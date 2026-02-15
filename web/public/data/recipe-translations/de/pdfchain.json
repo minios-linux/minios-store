@@ -1,0 +1,5 @@
+{
+  "name": "PDF Chain",
+  "description": "Eine grafische Benutzeroberfläche für das PDF Toolkit (PDFtk)",
+  "longDescription": "<p>Dieses Paket bietet Funktionen, mit denen sich PDF-Dateien einfach verwalten lassen. Im Wesentlichen können damit PDFs zusammengeführt, aufgeteilt, mit Hintergründen oder Stempeln versehen sowie Anhänge hinzugefügt werden. Zusätzlich stehen Werkzeuge für erweiterte Anforderungen zur Verfügung.</p>\n<p>Die Benutzeroberfläche basiert auf GTKmm, einer C++-Bibliothek für GTK+.</p>\n"
+}

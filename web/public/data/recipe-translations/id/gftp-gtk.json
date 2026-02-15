@@ -1,0 +1,5 @@
+{
+  "name": "gFTP",
+  "description": "Unduh dan unggah file menggunakan berbagai protokol transfer file",
+  "longDescription": "<p>gFTP versi grafis adalah klien FTP multithread yang berjalan di lingkungan X dan dikembangkan dengan GLib/GTK+.</p>\n<p>Fitur-fitur gFTP meliputi:   * unduhan simultan,   * melanjutkan transfer file yang terputus,   * antrean transfer file,   * mengunduh seluruh direktori,   * dukungan proxy FTP dan HTTP,   * cache direktori jarak jauh,   * transfer file mode pasif dan non-pasif,   * dukungan drag-n-drop,   * menu bookmark,   * dukungan transfer file via SSH dan SSH2,   * dukungan transfer FXP,   * tombol stop, dan masih banyak lagi fitur lainnya.</p>\n<p> Penulis:   Brian Masney &lt;masneyb@gftp.org&gt;</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "gEDA PCB",
+  "description": "Créez et éditez des circuits imprimés (PCB)",
+  "longDescription": "<p>PCB est un éditeur interactif de circuits imprimés pour les systèmes Unix, Linux, Windows et Mac.</p>\n<p>PCB comprend une fonctionnalité de « rats nest », l’import de schémas et de netlists, la vérification des règles de conception, et peut générer des sorties compatibles avec les standards industriels RS-274X (Gerber), NC drill, netlist IPC-D-356 et données de centrage (données X-Y) pour la fabrication et l’assemblage des cartes, ainsi que des images photoréalistes et de revue de conception.</p>\n<p>PCB propose des fonctionnalités avancées telles qu’un autorouteur, un routeur topologique et divers optimiseurs de pistes, permettant de réduire considérablement le temps de placement des composants et du routage.</p>\n<p>Pour les besoins spécifiques, PCB propose une API de plug-ins permettant d’ajouter de nouvelles fonctionnalités utilisables depuis l’interface graphique ou via des scripts.</p>\n"
+}

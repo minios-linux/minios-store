@@ -1,0 +1,38 @@
+id: juffed
+name: JuffEd text editor
+description: Advanced text editor
+longDescription: |
+  <p>JuffEd is a simple, cross-platform text editor written using the Qt toolkit and the QScintilla library. It supports most features found in modern text editors, including syntax highlighting, bracket matching, switching encodings, sessions, and a plugin API.</p>
+  <p>This package contains the JuffEd editor.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - juffed
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: juffed_juffed.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

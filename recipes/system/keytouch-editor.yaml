@@ -1,0 +1,25 @@
+id: keytouch-editor
+name: KeyTouch Editor
+description: Edit keyboard maps for keytouch
+longDescription: |
+  <p>KeyTouch Editor should be used to create configuration files for KeyTouch, a program to configure extra function keys in multimedia keyboards, in case your keyboard is not yet supported.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - keytouch-editor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: keytouch-editor_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

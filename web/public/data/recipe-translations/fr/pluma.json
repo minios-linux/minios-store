@@ -1,0 +1,5 @@
+{
+  "name": "Pluma",
+  "description": "Éditez des fichiers texte",
+  "longDescription": "<p>Pluma est un éditeur de texte qui prend en charge la plupart des fonctionnalités standard des éditeurs, tout en les enrichissant de capacités supplémentaires rarement présentes dans les éditeurs simples. Pluma est une application graphique permettant de modifier plusieurs fichiers texte dans une seule fenêtre (via des onglets ou une interface MDI).</p>\n<p>Pluma gère parfaitement le texte international grâce à l’utilisation de l’encodage Unicode UTF-8. Ses fonctionnalités principales incluent la coloration syntaxique du code source, l’auto-indentations, ainsi que l’impression et l’aperçu avant impression.</p>\n<p>Pluma est également extensible via son système de plugins, qui propose actuellement la vérification orthographique, la comparaison de fichiers, l’affichage des journaux de modifications CVS et le réglage des niveaux d’indentation.</p>\n"
+}

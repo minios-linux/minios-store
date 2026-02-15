@@ -1,0 +1,40 @@
+id: "dosbox"
+name: DOSBox Emulator
+description: Run old DOS applications
+longDescription: |
+  <p>DOSBox is a x86 emulator with Tandy/Hercules/CGA/EGA/VGA/SVGA graphics, sound and DOS. It&apos;s been designed to run old DOS games on platforms that don&apos;t support it.</p>
+  <p>The following legacy sound devices are emulated: PC Speaker, Creative CMS/Gameblaster, Tandy 3 voice, Adlib, Sound Blaster Pro/16, Disney Soundsource and a Gravis Ultrasound. MPU-401 is forwarded to the host.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dosbox
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dos emulator
+iconSources:
+  - url: d/do/dosbox.desktop/595b44dfc44b468b4e8a0007a30c0da5/icons/128x128/dosbox_dosbox.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

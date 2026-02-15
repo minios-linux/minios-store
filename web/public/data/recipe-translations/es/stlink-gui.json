@@ -1,0 +1,5 @@
+{
+  "name": "stlink",
+  "description": "Programador para la línea STM32 discovery en Linux",
+  "longDescription": "<p>Herramientas para flashear microcontroladores STM32VL y STM32L de STMicroelectronics. Se admiten los protocolos STLINKv1 y STLINKv2.</p>\n<p>Este paquete incluye una herramienta gráfica (GUI) para stlink.</p>\n"
+}

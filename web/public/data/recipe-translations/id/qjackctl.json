@@ -1,0 +1,5 @@
+{
+  "name": "QjackCtl",
+  "description": "Antarmuka GUI Qt untuk JACK Audio Connection Kit",
+  "longDescription": "<p>JACK Audio Connection Kit - Antarmuka GUI berbasis Qt: Aplikasi Qt sederhana untuk mengendalikan server JACK. Ditulis dalam C++ menggunakan framework Qt di lingkungan X11, sebagian besar dengan Qt Designer. Menyediakan dialog GUI sederhana untuk mengatur berbagai parameter server JACK, yang tersimpan otomatis di setiap sesi, serta kontrol status server audio. Seiring waktu, antarmuka utama ini menjadi semakin kaya dengan penambahan fitur patchbay dan kontrol koneksi yang lebih canggih.</p>\n"
+}

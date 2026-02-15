@@ -1,0 +1,40 @@
+id: "garden-of-coloured-lights"
+name: Garden of Coloured Lights
+description: Abstract vertical shooter with music elements
+longDescription: |
+  <p>The game is basically a vertical shooter with music elements. The enemies, in fact, are kind of musical. Linley has added a simple background tune, that gets mixed with the diffetent notes played when enemies shoot.</p>
+  <p>Part of what stands out about Garden of Coloured Lights are its graphics, that even though are kept quite simple, are also carefully taken care of. Every ship still has moving parts and mechanisms that open and close, and every level is different, even though all of them share a common theme.</p>
+  <p>Your ship comes equipped with 3 options, each with its own unique weapon. There are a few pre-designed schemes to play with, or you can create your own combination of weapons.</p>
+  <p>Garden of Coloured Lights was Linley Henzel&apos;s entry for the SHMUP-DEV Competition 2k7 Round 2.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - garden-of-coloured-lights
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: garden-of-coloured-lights_garden.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

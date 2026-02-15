@@ -1,0 +1,67 @@
+id: luanti
+name: Luanti
+description: Block-based multiplayer game platform
+longDescription: |
+  <p>
+              Luanti is a block-based sandbox game platform.
+          </p>
+  <p>
+              Players can create and destroy various types of blocks in a
+              three-dimensional open world. This allows forming structures in
+              every possible creation, on multiplayer servers or in singleplayer.
+          </p>
+  <p>
+              Luanti is designed to be simple, stable, and portable.
+              It is lightweight enough to run on fairly old hardware.
+          </p>
+  <p>
+              Luanti has many features, including:
+          </p>
+  <ul>
+    <li>Ability to walk around, dig, and build in a near-infinite voxel world</li>
+    <li>Crafting of items from raw materials</li>
+    <li>A simple modding API that supports many additions and modifications to the game</li>
+    <li>Multiplayer support via servers hosted by users</li>
+    <li>Beautiful lightning-fast map generator</li>
+  </ul>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - luanti
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - sandbox
+  - world
+  - mining
+  - crafting
+  - blocks
+  - nodes
+  - multiplayer
+  - roleplaying
+screenshotSources:
+  - url: net/minetest/minetest/230437196723b0607c5da6b7b72bcbb8/screenshots/image-1_orig.png
+    thumbnailUrl: net/minetest/minetest/230437196723b0607c5da6b7b72bcbb8/screenshots/image-1_624x329@1.png
+    width: 1920
+    height: 1015
+  - url: net/minetest/minetest/230437196723b0607c5da6b7b72bcbb8/screenshots/image-2_orig.png
+    thumbnailUrl: net/minetest/minetest/230437196723b0607c5da6b7b72bcbb8/screenshots/image-2_624x379@1.png
+    width: 1367
+    height: 832
+  - url: net/minetest/minetest/230437196723b0607c5da6b7b72bcbb8/screenshots/image-3_orig.png
+    thumbnailUrl: net/minetest/minetest/230437196723b0607c5da6b7b72bcbb8/screenshots/image-3_624x318@1.png
+    width: 1280
+    height: 653
+iconSources:
+  - url: net/minetest/minetest/230437196723b0607c5da6b7b72bcbb8/icons/128x128/luanti_luanti.png
+    width: 128
+    height: 128
+homepage: "https://www.minetest.net"
+enabled: true
+order: 99

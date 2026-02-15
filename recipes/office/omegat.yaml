@@ -1,0 +1,36 @@
+id: omegat
+name: OmegaT
+description: Computer-Assisted Translation tool
+longDescription: |
+  <p>OmegaT&apos;s main features are  - multiple source texts handling, retaining complex folder    hierarchies  - fuzzy matching with other segments in the source file(s)    or TMX files from previous projects  - easy glossary terms management  - flexible regex-based sentence segmenting (using an    SRX-like method)  - powerful regex-based searches along with the facility to    apply a filter to display search results in the editor  - ability to batch process documents from the command line  - extended project statistics  - easy-to-understand documentation and tutorial  - plugin architecture with separate Lucene stemmer    (recognition of inflected forms) and LanguageTool (style     and grammar checker) plugins  - integration with Hunspell for spelling checking  - simple API to access source/target/selection textual data</p>
+  <p>OmegaT supports 24 formats, including documentation formats such as OpenDocument, Open XML (MS Office 2007), DocBook and (x)HTML, and also localization formats such as Java properties and PO files. An Okapi plugin can further extend the supported formats, for example to include TTX (TradosTag).</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - omegat
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: omegat_OmegaT.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

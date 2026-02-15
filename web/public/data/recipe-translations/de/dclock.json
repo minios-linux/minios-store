@@ -1,0 +1,5 @@
+{
+  "name": "DClock",
+  "description": "Eine anpassbare Digitaluhr",
+  "longDescription": "<p>Das Hauptmerkmal von DClock ist seine große Flexibilität bei der Darstellung der Uhr. Sie können sogar die Ausgabe des Befehls &quot;date&quot; anzeigen lassen, beispielsweise &quot;Mittwoch, 3. Jan&quot;. DClock unterstützt zudem das Einstellen eines Alarms.</p>\n<p>Für die Aktivierung von Sound bei Alarmen und Stundensignalen (anstatt von Signal­tönen) wird das Paket sox benötigt.</p>\n"
+}

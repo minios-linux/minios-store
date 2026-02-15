@@ -1,0 +1,5 @@
+{
+  "name": "Firewall Builder",
+  "description": "Interface graphique pour l’administration de pare-feu",
+  "longDescription": "<p>Firewall Builder propose une interface graphique orientée objet ainsi qu’un ensemble de compilateurs de politiques pour différentes plateformes de pare-feu. Avec Firewall Builder, la politique de sécurité s’appuie sur un ensemble de règles, chacune étant composée d’objets abstraits représentant des éléments réels du réseau et des services (hôtes, routeurs, pare-feu, réseaux, protocoles). Firewall Builder permet à l’utilisateur de gérer une base de données d’objets et d’éditer les politiques facilement grâce au glisser-déposer.</p>\n<p>Il s’agit ici de la partie graphique (GUI) de fwbuilder</p>\n"
+}

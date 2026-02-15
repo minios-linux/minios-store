@@ -1,0 +1,45 @@
+id: "kdevelop"
+name: KDevelop
+description: "Featureful, plugin-extensible IDE for C/C++ and other programming languages"
+longDescription: |
+  <p>KDevelop is a Free and Open Source integrated development environment (IDE).</p>
+  <p>It provides editing, navigation and debugging features for several programming languages, as well as integration with multiple build systems and version-control systems, using a plugin-based architecture.</p>
+  <p>KDevelop has parser backends for C, C++ and Javascript/QML, with further external plugins supporting e.g. PHP or Python.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kdevelop
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kdevelop.desktop/ed898f137684db1a2bf734979743d5b3/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kdevelop.desktop/ed898f137684db1a2bf734979743d5b3/screenshots/image-1_624x464@1.png
+    width: 1298
+    height: 967
+iconSources:
+  - url: org/kde/kdevelop.desktop/ed898f137684db1a2bf734979743d5b3/icons/128x128/kdevelop_kdevelop.png
+    width: 128
+    height: 128
+homepage: "https://kdevelop.org"
+enabled: true
+order: 99

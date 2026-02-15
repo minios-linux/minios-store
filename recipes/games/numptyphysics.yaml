@@ -1,0 +1,24 @@
+id: numptyphysics
+name: NumptyPhysics
+description: A crayon-drawing based physics puzzle game
+longDescription: |
+  <p>Numpty Physics is a drawing puzzle game in the spirit (and style?) of Crayon Physics using the same excellent Box2D engine. It melds cute schoolbook-style graphics with a kind of realistic physics engine.</p>
+  <p>It includes a built-in editor so that you may build (and submit) your own levels.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - numptyphysics
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: n/nu/numptyphysics.desktop/e3264b95eaba4abe54dd83f9de7ee955/icons/128x128/numptyphysics_numptyphysics.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

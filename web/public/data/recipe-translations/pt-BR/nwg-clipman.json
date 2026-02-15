@@ -1,0 +1,5 @@
+{
+  "name": "Gerenciador de área de transferência",
+  "description": "Ferramenta para busca e gerenciamento do histórico da área de transferência",
+  "longDescription": "<p>nwg-clipman é uma interface gráfica em GTK3 para o cliphist, de Senan Kelly. Ele oferece acesso aos itens previamente copiados, além do gerenciamento do histórico da área de transferência a partir de uma janela aberta no gtk-layer-shell. O programa é destinado ao uso com sway, Hyprland e outros compositores Wayland baseados em wlroots.</p>\n<p>Recursos  - pré-visualização de itens do histórico (imagem e texto);  - busca no histórico da área de transferência por texto;  - exclusão de itens selecionados do histórico;  - limpeza completa do histórico da área de transferência.</p>\n<p>Este programa faz parte do projeto nwg-shell.</p>\n"
+}

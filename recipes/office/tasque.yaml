@@ -1,0 +1,31 @@
+id: tasque
+name: Tasque
+description: Easy quick task management
+longDescription: |
+  <p>Tasque is a simple task management app (TODO list) for the Linux Desktop. It supports syncing with the on-line service Remember the Milk or simply storing your tasks locally.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tasque
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/ta/tasque.desktop/AFECBF8E4EA342B81EA2EF2A1BDF813F/icons/128x128/tasque_tasque.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

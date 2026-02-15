@@ -1,0 +1,5 @@
+{
+  "name": "bpython",
+  "description": "Eine schicke Schnittstelle für den Python-Interpreter!",
+  "longDescription": "<p>bpython ist eine schicke Schnittstelle für den Python-Interpreter und bietet folgende Funktionen:</p>\n<p>  * In-line Syntax-Hervorhebung.   * Readline-ähnliche Autovervollständigung mit Vorschlägen während der Eingabe.   * Erwartete Parameterliste für jede Python-Funktion. Nutzt pydoc, um Parameter für C-Funktionen zu ermitteln.   * &quot;Rewind&quot;-Funktion, um die letzte Codezeile aus dem Speicher zu entfernen und neu auszuwerten. Hinweis: Dies ist nur beim Entwerfen von Klassen und Funktionen wirklich nützlich, da eine echte &quot;Undo&quot;-Funktion unmöglich ist; Vorsicht bei der Verwendung.   * Eingegebenen Code an einen Pastebin senden und die URL zum Kopieren anzeigen.   * Eingegebenen Code in einer Datei speichern.   * Automatische Einrückung.   * Anti-Absturz-Modus.</p>\n<p>Dieses Paket enthält bpython für Python 2.</p>\n"
+}

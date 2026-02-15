@@ -1,0 +1,5 @@
+{
+  "name": "UPnP Router Control",
+  "description": "Program sederhana untuk mengelola router yang mendukung UPnP IGD",
+  "longDescription": "<p>UPnP Router Control memungkinkan Anda melihat beberapa parameter router seperti kecepatan jaringan, IP eksternal, dan nama model perangkat. Program ini dapat mengelola port forwarding melalui antarmuka yang sederhana.</p>\n<p>UPnP Router Control mengambil informasi ini menggunakan protokol UPnP-IGD, jadi Anda harus mengaktifkannya di router agar dapat digunakan.</p>\n"
+}

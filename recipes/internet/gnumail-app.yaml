@@ -1,0 +1,24 @@
+id: gnumail-app
+name: GNUMail
+description: Mail client for GNUstep
+longDescription: |
+  <p>GNUMail is a clone of NeXT/Apple&apos;s Mail.app application. It uses the GNUstep development framework (or Apple Cocoa, which is based on the OpenStep specification provided by NeXT, Inc.).</p>
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnumail.app
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+tags:
+  - email
+iconSources:
+  - cached: gnumail.app_GNUMail.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

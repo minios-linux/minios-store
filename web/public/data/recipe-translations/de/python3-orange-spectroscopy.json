@@ -1,0 +1,5 @@
+{
+  "name": "Orange Spectroscopy/Quasar",
+  "description": "Spektroskopische Daten erkunden, analysieren und visualisieren",
+  "longDescription": "<p>Orange-Erweiterung für die Analyse von Spektraldaten. Bietet Funktionen zur Darstellung von Spektren und Hyperspektren, Interpolation, Vorverarbeitung (Schneiden, Glätten, Normalisieren) und Integration. Unterstützt gängige Spektrendateiformate.</p>\n<p>Funktionen -------- ### Daten laden und verarbeiten  * Spektroskopiedaten laden  * Spektren vorverarbeiten und interpolieren  * Spektren integrieren  * Spektren mitteln  * Durchführung der schnellen Fourier-Transformation</p>\n<p>### Visualisierung  * Serien von Spektren visuell erkunden  * Stellt 2D-Karten von Hyperspektren dar</p>\n"
+}

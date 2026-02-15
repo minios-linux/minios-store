@@ -1,0 +1,5 @@
+{
+  "name": "NetHack Qt",
+  "description": "Jeu d'exploration de donjons – version avec interface graphique",
+  "longDescription": "<p>NetHack est un jeu d'aventure captivant, plein d'humour, inspiré de Donjons &amp; Dragons. Vous incarnez un personnage parmi de nombreuses classes (comme magicien, rôdeur ou touriste) et devez descendre dans les profondeurs pour récupérer l'Amulette de Yendor au nom de votre dieu. En chemin, vous pourrez croiser un mécanicien quantique, le Roi Arthur, ou – si vous avez VRAIMENT de la chance – la Bête vorace de Traal.</p>\n<p>Pour jouer à NetHack, il est conseillé d'installer une interface graphique. Chacune d'entre elles inclut la version originale en mode texte et peut être installée en parallèle :  - nethack-console : version sans graphismes, interface texte ;  - nethack-x11     : version graphique basée sur X11/Athena ;  - nethack-qt      : version avec interface Qt.</p>\n<p>Ce paquet fournit les versions graphiques de NetHack basées sur Qt.</p>\n"
+}

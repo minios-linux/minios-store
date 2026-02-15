@@ -1,0 +1,27 @@
+id: linuxaudio-new-session-manager
+name: New Session Manager (Legacy GUI)
+description: Audio session manager (Legacy GUI)
+longDescription: |
+  <p>New Session Manager (NSM) is a tool to assist music production by grouping standalone programs into sessions. Your workflow becomes easy to manage, robust and fast by leveraging the full potential of cooperative applications.</p>
+  <p>You can create a session, or project, add programs to it and then use commands to save, start/stop, hide/show all programs at once, or individually. At a later date you can then re-open the session and continue where you left off.</p>
+  <p>All files belonging to the session will be saved in the same directory.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - linuxaudio-new-session-manager
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: org/jackaudio/nsm-legacy-gui/bcb58e9fc969f1b6f083deb357e56266/icons/128x128/linuxaudio-new-session-manager_nsm-legacy-gui.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

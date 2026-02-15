@@ -1,0 +1,5 @@
+{
+  "name": "Sunflow",
+  "description": "Motore di rendering fotorealistico",
+  "longDescription": "<p>Sunflow è un sistema di rendering open source per la sintesi di immagini fotorealistiche. Scritto in Java, si basa su un core di ray tracing flessibile e su un’architettura orientata agli oggetti, facilmente estendibile. È stato sviluppato come piattaforma per sperimentare algoritmi di illuminazione globale e nuovi modelli di shading delle superfici.</p>\n<p>Questo pacchetto include l’interfaccia grafica di Sunflow.</p>\n"
+}

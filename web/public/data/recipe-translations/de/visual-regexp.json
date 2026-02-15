@@ -1,0 +1,5 @@
+{
+  "name": "visual-regexp",
+  "description": "Grafisches Frontend zum Erstellen und Debuggen regulärer Perl-Ausdrücke",
+  "longDescription": "<p>\n      visual-regexp unterstützt beim Entwerfen, Debuggen und der allgemeinen Arbeit mit regulären Perl-Ausdrücken. Da es oft schwierig ist, auf Anhieb den passenden Ausdruck zu formulieren, visualisiert dieses Tool die Auswirkungen direkt an einem wählbaren Textbeispiel.\n    </p>\n<p>\n      Die Software ermöglicht die interaktive Fehlerbehebung, indem sie die Wirkung der Ausdrücke auf Beispieldaten visualisiert.\n    </p>\n<p>\n      Zudem kann visual-regexp zur Textmodifikation verwendet werden. Über das Menü lässt sich ein regulärer Ausdruck für das gewünschte Suchmuster definieren. Nach der Ersetzung kann der neue Text gespeichert werden. Dabei lässt sich auch das Format der Zeilenenden für spezifische Umgebungen festlegen oder erzwingen.\n    </p>\n<p>\n      Dieses in Tcl geschriebene Programm vereinfacht das Testen und die Konstruktion regulärer Ausdrücke erheblich.\n    </p>\n"
+}

@@ -1,0 +1,52 @@
+id: "ocrfeeder"
+name: OCRFeeder
+description: The complete OCR suite.
+longDescription: |
+  <p>OCRFeeder is a document layout analysis and optical character recognition system.</p>
+  <p>Given the images it will automatically outline its contents, distinguish between what&apos;s graphics and text and perform OCR over the latter. It generates multiple formats being its main one ODT.</p>
+  <p>It features a complete GTK+ graphical user interface that allows the users to correct any unrecognized characters, defined or correct bounding boxes, set paragraph styles, clean the input images, import PDFs, save and load the project, export everything to multiple formats, etc.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ocrfeeder
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/gnome/OCRFeeder/9dbea967e83bee7ec4f02181fc9dda32/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/OCRFeeder/9dbea967e83bee7ec4f02181fc9dda32/screenshots/image-1_624x375.png
+    width: 1326
+    height: 797
+  - url: org/gnome/OCRFeeder/9dbea967e83bee7ec4f02181fc9dda32/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/OCRFeeder/9dbea967e83bee7ec4f02181fc9dda32/screenshots/image-2_624x375.png
+    width: 1326
+    height: 797
+  - url: org/gnome/OCRFeeder/9dbea967e83bee7ec4f02181fc9dda32/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/OCRFeeder/9dbea967e83bee7ec4f02181fc9dda32/screenshots/image-3_624x389.png
+    width: 1007
+    height: 628
+iconSources:
+  - url: org/gnome/OCRFeeder/9dbea967e83bee7ec4f02181fc9dda32/icons/128x128/ocrfeeder_org.gnome.OCRFeeder.png
+    width: 128
+    height: 128
+developer: Joaquim Rocha
+homepage: "https://wiki.gnome.org/Apps/OCRFeeder"
+enabled: true
+order: 99

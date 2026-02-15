@@ -1,0 +1,5 @@
+{
+  "name": "LXI-Tools",
+  "description": "LXI-Tools adalah kumpulan perangkat open source untuk mengelola instrumen uji LXI yang terhubung ke jaringan.",
+  "longDescription": "<p>\n      Fitur-fiturnya meliputi deteksi otomatis instrumen uji, pengiriman perintah SCPI, pengambilan tangkapan layar dari instrumen yang didukung, pengujian performa pesan SCPI, serta scripting yang kuat untuk automasi. Tersedia baik dalam bentuk alat command-line maupun antarmuka grafis (GUI).\n    </p>\n"
+}

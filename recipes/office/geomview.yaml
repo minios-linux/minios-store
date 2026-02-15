@@ -1,0 +1,23 @@
+id: geomview
+name: Geomview
+description: Interactive geometry viewing program
+longDescription: |
+  <p>Geomview is interactive geometry software which is particularly appropriate for mathematics research and education. In particular, geomview can display things in hyperbolic and spherical space as well as Euclidean space.</p>
+  <p>Geomview allows multiple independently controllable objects and cameras.  It provides interactive control for motion, appearances (including lighting, shading, and materials), picking on an object, edge or vertex level, snapshots in SGI image file or Renderman RIB format, and adding or deleting objects is provided through direct mouse manipulation, control panels, and keyboard shortcuts.  External programs can drive desired aspects of the viewer (such as continually loading changing geometry or controlling the motion of certain objects) while allowing interactive control of everything else.</p>
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - geomview
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+iconSources:
+  - cached: geomview_geomview.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

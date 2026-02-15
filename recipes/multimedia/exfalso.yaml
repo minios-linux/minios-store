@@ -1,0 +1,48 @@
+id: "exfalso"
+name: Ex Falso
+description: Edit tags in your audio files
+longDescription: |
+  <p>Ex Falso is a tag editor with the same tag editing interface as
+          Quod Libet. It lets you display and edit any tags you want in the
+          file, for all the file formats it supports.</p>
+  <p>Supported file formats include Ogg Vorbis/Opus/Speex/FLAC, MP3,
+          FLAC, MOD/XM/IT, Musepack, Wavpack, MPEG-4 AAC, Monkeys Audio, WMA,
+          SPC, MIDI.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - exfalso
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: e/ex/exfalso/1673DADC280D9190D28488580C816152/screenshots/image-1_orig.png
+    thumbnailUrl: e/ex/exfalso/1673DADC280D9190D28488580C816152/screenshots/image-1_624x351.png
+    width: 800
+    height: 450
+iconSources:
+  - url: io/github/quodlibet.ExFalso/e1aa934e24297ac2cbaebb32599f5446/icons/128x128/exfalso_io.github.quodlibet.ExFalso.png
+    width: 128
+    height: 128
+homepage: "https://quodlibet.readthedocs.org"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "KPrinter4",
+  "description": "PostScript-Dokumente mit dem KDE-Druckdialog drucken",
+  "longDescription": "<p>KPrinter4 ist ein eigenständiges Druckwerkzeug, das an den KDE4-Druckdialog angelehnt ist. Es kann als Ersatz für /bin/lpr verwendet werden, um die Druckeinstellungen von Legacy-Anwendungen komfortabler zu steuern.</p>\n<p>Zu den Funktionen gehören:</p>\n<p> * Drucken von PostScript-Dokumenten über den KDE4-Druckdialog  * Skalierung und Positionierung von Dokumenten  * Posterdruck</p>\n<p>KPrinter4 ist der Nachfolger der auf KDE3 basierenden Anwendung kprinter.</p>\n"
+}

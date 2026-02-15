@@ -1,0 +1,5 @@
+{
+  "name": "Sysinfo",
+  "description": "Detaillierte Computer- und Systeminformationen anzeigen",
+  "longDescription": "<p>Sysinfo ist ein grafisches Werkzeug, das verschiedene Hardware- und Softwareinformationen über den aktuell verwendeten Computer anzeigt.</p>\n<p>Es erkennt Informationen zu:   – System (Linux-Distribution, GNOME-Version, Kernel, gcc, Xorg und Hostname);   – CPU (Hersteller, Modellname, Taktfrequenz, Level2-Cache, Bogomips, Modellnummern und Flags);   – Arbeitsspeicher (gesamter RAM, freier Speicher, Swap gesamt und frei, Cache, aktiver und inaktiver Speicher);   – Speichergeräte (IDE-Schnittstelle, alle IDE-Geräte, SCSI-Geräte);   – Hardware (Mainboard, Grafikkarte, Soundkarte, Netzwerkgeräte);   – NVIDIA-Grafikkarte: nur mit installiertem NVIDIA-Treiber.</p>\n"
+}

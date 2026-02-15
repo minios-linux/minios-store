@@ -1,0 +1,5 @@
+{
+  "name": "Gwyddion",
+  "description": "Visualización y análisis de datos SPM",
+  "longDescription": "<p>Gwyddion es un programa modular para la visualización y el análisis de datos de Microscopía de Sonda de Barrido (SPM). Está diseñado principalmente para el análisis de datos de perfiles de altura obtenidos mediante técnicas de microscopía como:  * Microscopía de Fuerza Atómica (AFM),  * Microscopía de Fuerza Magnética (MFM),  * Microscopía de Efecto Túnel (STM),  * Microscopía Óptica de Campo Cercano (SNOM o NSOM), entre otras. Sin embargo, también puede utilizarse para el análisis de campos de altura e imágenes en general.</p>\n<p>Este paquete incluye la aplicación principal y sus módulos, además de un generador de miniaturas para GNOME y Xfce que crea vistas previas de todos los tipos de archivos reconocidos por Gwyddion.</p>\n"
+}

@@ -1,0 +1,40 @@
+id: "gmrun"
+name: gmrun
+description: Featureful CLI-like GTK+ application launcher
+longDescription: |
+  <p>This is gmrun; a small fast, yet featureful application launcher for use under X11, which uses GTK+ widget toolkit. Some features include tab- completion of file names and programs, history, easy x-terminal-emulator launching, and URL handling.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gmrun
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - launch
+  - run
+iconSources:
+  - cached: gmrun_gmrun.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

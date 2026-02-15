@@ -1,0 +1,29 @@
+id: tickr
+name: Tickr - Feed Reader
+description: GTK-based highly graphically-customizable Feed Ticker
+longDescription: |
+  <p>Tickr is a GTK-based RSS/Atom Reader that displays feeds as a smooth scrolling line on your Desktop, as known from TV stations. Open feed links in your favourite Browser. Graphics are highly customizable.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tickr
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: tickr_tickr-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,34 @@
+id: texmacs-bin
+name: GNU TeXmacs
+description: A structured WYSIWYG scientific text editor
+longDescription: |
+  <p>GNU TeXmacs is a free scientific text editor, which was both inspired by the TeX typesetting program and the GNU Emacs editor.</p>
+  <p>The editor allows you to write structured documents via a WYSIWYG (what-you-see-is-what-you-get) and a user friendly interface. New styles may be created by the user. The program implements high-quality typesetting algorithms and TeX fonts, which help you to produce professionally looking documents.</p>
+  <p>The high typesetting quality still goes through for automatically generated formulas, which makes TeXmacs suitable as an interface for Computer Algebra Systems (CAS), e.g., SageMath, Maxima, PARI/GP. TeXmacs also supports the Guile/Scheme extension language, so that you may customize the interface and write your own extensions to the editor.</p>
+  <p>This package contains the architecture dependent files.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - texmacs-bin
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - notebook interface
+  - editor
+  - computer algebra system
+  - cas
+  - latex
+  - tex
+  - text
+iconSources:
+  - cached: texmacs-bin_TeXmacs.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

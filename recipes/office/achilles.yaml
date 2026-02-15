@@ -1,0 +1,31 @@
+id: achilles
+name: Achilles Life Simulator
+description: Watch a simulation of artificial life and evolution
+longDescription: |
+  <p>Achilles is an artificial life and evolution simulator that uses Hebbian neural networks and OpenGL/SDL to simulate life in a simplified environment. It is based on Larry Yaeger&apos;s PolyWorld.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - achilles
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: achilles_achilles.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

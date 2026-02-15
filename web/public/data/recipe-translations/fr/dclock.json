@@ -1,0 +1,5 @@
+{
+  "name": "DClock",
+  "description": "Une horloge numérique configurable",
+  "longDescription": "<p>La principale caractéristique de DClock est sa grande flexibilité d’affichage. Vous pouvez même y afficher le résultat de la commande « date », par exemple « mercredi 3 janvier ». DClock prend également en charge la programmation d’une alarme.</p>\n<p>Le paquet sox est nécessaire pour activer le son des alarmes et des signaux horaires (au lieu des bips).</p>\n"
+}

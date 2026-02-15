@@ -1,0 +1,5 @@
+{
+  "name": "nm-tray",
+  "description": "NetworkManager-Frontend (Tray-Symbol)",
+  "longDescription": "<p>nm-tray ist ein einfaches Frontend für den NetworkManager mit Statussymbol im System-Tray (ähnlich wie z.B. nm-applet). Es handelt sich um eine reine Qt-Anwendung. Die Interaktion mit dem NetworkManager erfolgt über das von KF5::NetworkManagerQt bereitgestellte API, also über einfache DBus-Kommunikation.</p>\n<p>Dieses Paket enthält die Anwendungsdateien.</p>\n"
+}

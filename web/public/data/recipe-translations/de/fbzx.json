@@ -1,0 +1,5 @@
+{
+  "name": "FBZX",
+  "description": "ZX-Spectrum-Emulator",
+  "longDescription": "<p>FBZX ist ein Emulator für den Sinclair ZX Spectrum. Zu seinen Hauptmerkmalen zählen:\n   eine präzise Emulation des originalen Spectrum (sowohl Issue 2 als auch Issue 3), des klassischen 128K, des Amstrad Plus 2, des Amstrad Plus 2A und des spanischen 128K. Dies umfasst die Emulation von Bildschirm, Tastatur und Ton (sowohl Lautsprecher als auch den AY-3-8912-Chip). Die Bildschirmemulation ist extrem exakt, sodass sogar Border-Effekte und Attribut-Effekte emuliert werden können. Unterstützt Z80-Snapshots (Laden und Speichern) sowie das Laden von .SNA-Snapshots. Unterstützt TAP- (Lesen und Schreiben) und TZX-Banddateien (nur Lesen) inklusive Laden in normaler und hoher Geschwindigkeit. Emuliert Joysticks der Typen Kempston, Cursor und Sinclair. Emuliert das Interface I und Microdrive sowie den ULAPlus. Basiert auf einem neuen, vollständig freien Z80-Emulator (Z80Free).</p>\n"
+}

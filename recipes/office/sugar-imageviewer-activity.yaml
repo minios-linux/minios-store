@@ -1,0 +1,37 @@
+id: sugar-imageviewer-activity
+name: Image Viewer
+description: "An easy way and fast way to see your images! You can also change the way your image looks with zoom, rotate, size change and so on."
+longDescription: |
+  <p>Sugar Learning Platform promotes collaborative learning through Sugar Activities that encourage critical thinking, the heart of a quality education.  Designed from the ground up especially for children, Sugar offers an alternative to traditional “office-desktop” software.</p>
+  <p>Learner applications in Sugar are called Activities.  They are software packages that automatically save your work - producing specific instances of the Activity that can be resumed at a later time.  Many Activities support learner collaboration, where multiple learners may be invited to join a collective Activity session.</p>
+  <p>The Image Viewer activity is a simple and fast image viewer tool.  It has features one would expect of a standard image viewer, like zoom, rotate, etc.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sugar-imageviewer-activity
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: sugar-imageviewer-activity_activity-imageviewer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

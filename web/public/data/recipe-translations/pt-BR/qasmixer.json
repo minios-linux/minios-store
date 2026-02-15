@@ -1,0 +1,5 @@
+{
+  "name": "QasMixer",
+  "description": "Aplicativo gráfico de mixer para o ALSA",
+  "longDescription": "<p>QasTools é uma coleção de aplicativos de desktop para o sistema de som ALSA no Linux.</p>\n<p>Os aplicativos incluídos são:  - QasConfig: navegador para a árvore de configuração do ALSA  - QasHctl: mixer para a Interface de Controle de Alto Nível do ALSA  - QasMixer: mixer de desktop com recursos semelhantes ao alsamixer</p>\n<p>O QasMixer é um mixer de desktop para a \"Simple Mixer Interface\" do ALSA e oferece funcionalidades semelhantes ao alsamixer. Também conta com um ícone na bandeja do sistema com funções básicas de controle de volume.</p>\n"
+}

@@ -1,0 +1,42 @@
+id: "jmeter"
+name: Apache JMeter
+description: Load testing application
+longDescription: |
+  <p>Apache JMeter is a 100% pure Java desktop application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.</p>
+  <p>This package contains the main application.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jmeter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - performance
+  - load
+  - testing
+iconSources:
+  - url: j/jm/jmeter.desktop/bb1ed66c6e30f5c7f3d3a0d9a23bd360/icons/128x128/jmeter_jmeter.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,36 @@
+id: showtime
+name: Showtime
+description: Watch without distraction
+longDescription: |
+  <p>Play your favorite movies and video files without hassle. Showtime features simple playback controls that fade out of your way when you're watching, fullscreen, adjustable playback speed, multiple language and subtitle tracks, and screenshots — everything you need for a straightforward viewing experience.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - showtime
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - video
+  - movie
+  - film
+  - clip
+  - player
+  - showtime
+screenshotSources:
+  - url: org/gnome/Showtime/97beb4da37beedbc376605a74bb37352/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Showtime/97beb4da37beedbc376605a74bb37352/screenshots/image-1_624x293@1.png
+    width: 2796
+    height: 1314
+iconSources:
+  - url: org/gnome/Showtime/97beb4da37beedbc376605a74bb37352/icons/128x128/showtime_org.gnome.Showtime.png
+    width: 128
+    height: 128
+homepage: "https://apps.gnome.org/Showtime/"
+enabled: true
+order: 99

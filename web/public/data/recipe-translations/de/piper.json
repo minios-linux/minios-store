@@ -1,0 +1,5 @@
+{
+  "name": "Piper",
+  "description": "Konfigurierbares Maus-Tool für individuelle Einstellungen",
+  "longDescription": "<p>\n      Piper bietet eine grafische Benutzeroberfläche zur Konfiguration von Gaming-Mäusen.\n      Zu den Einstellungsmöglichkeiten gehören die Anpassung der Auflösung (DPI),\n      das Anlegen und Löschen von Profilen, das Festlegen von LED-Farben\n      sowie das Ändern des Verhaltens der Maustasten.\n    </p>\n<p>\n      Piper benötigt ratbagd (libratbag-Daemon), um mit den Mäusen kommunizieren zu können.\n      Piper dient lediglich als Frontend für ratbagd, dieser Dienst muss installiert und beim Start von Piper aktiv sein.\n    </p>\n"
+}

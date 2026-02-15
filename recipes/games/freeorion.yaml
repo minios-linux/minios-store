@@ -1,0 +1,68 @@
+id: "freeorion"
+name: FreeOrion
+description: turn-based space empire and galactic conquest computer game (client)
+longDescription: |
+  <p>FreeOrion is a turn-based space empire and galactic conquest (4X) game being designed and built by the FreeOrion project. FreeOrion is inspired by the tradition of the Master of Orion games, but is not a clone or remake of that series or any other game.</p>
+  <p>The game is about the construction of a living, breathing universe in a grand campaign model. You can develop your own galactic empire and explore new star systems with your fleets as one of several unique human or alien species. Colonization of new worlds, researching new technology, managing your resources and defending your planets against the AI or other human players on a galactic scale are your main objectives.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freeorion
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - space
+  - strategy
+  - empire
+  - galaxy
+  - turn-based
+  - aliens
+  - species
+  - planets
+  - fleet
+  - research
+screenshotSources:
+  - url: org/freeorion/FreeOrion/0f615b14ab8c882149090dabfd3bacdb/screenshots/image-1_orig.png
+    thumbnailUrl: org/freeorion/FreeOrion/0f615b14ab8c882149090dabfd3bacdb/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/freeorion/FreeOrion/0f615b14ab8c882149090dabfd3bacdb/screenshots/image-2_orig.png
+    thumbnailUrl: org/freeorion/FreeOrion/0f615b14ab8c882149090dabfd3bacdb/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/freeorion/FreeOrion/0f615b14ab8c882149090dabfd3bacdb/screenshots/image-3_orig.png
+    thumbnailUrl: org/freeorion/FreeOrion/0f615b14ab8c882149090dabfd3bacdb/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/freeorion/FreeOrion/0f615b14ab8c882149090dabfd3bacdb/screenshots/image-4_orig.png
+    thumbnailUrl: org/freeorion/FreeOrion/0f615b14ab8c882149090dabfd3bacdb/screenshots/image-4_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: org/freeorion/FreeOrion/0f615b14ab8c882149090dabfd3bacdb/icons/128x128/freeorion_org.freeorion.FreeOrion.png
+    width: 128
+    height: 128
+developer: FreeOrion Project
+homepage: "http://www.freeorion.org"
+enabled: true
+order: 99

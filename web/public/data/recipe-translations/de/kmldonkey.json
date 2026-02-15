@@ -1,0 +1,5 @@
+{
+  "name": "KMLDonkey",
+  "description": "Ein MLDonkey-Frontend für KDE",
+  "longDescription": "<p>KMLDonkey ist eine fortschrittliche grafische Benutzeroberfläche (GUI) für den MLDonkey Peer-to-Peer-Kern.</p>\n<p>Funktionen:<br>  * Unterstützt die meisten P2P-Protokolle, die vom mldonkey-Backend verarbeitet werden (eDonkey/eMule, BitTorrent, Gnutella, Gnutella2, DirectConnect, FastTrack, SoulSeek, Audiogalaxy, OpenFT, FileTP)<br>  * Bietet viele Konfigurationsmöglichkeiten im mldonkey-Backend<br>  * Kann mehrere Threads gleichzeitig verarbeiten<br>  * Lässt sich mit Traffic-Shaping-Tools verwenden<br>  * Unterstützt verschiedene Sicherheitsoptionen</p>\n"
+}

@@ -1,0 +1,66 @@
+id: enter-tex
+name: Enter TeX
+description: TeX/LaTeX editor
+longDescription: |
+  <p>
+        Enter TeX is a TeX/LaTeX text editor. The application was previously named
+        LaTeXila and then GNOME LaTeX. Its development started in 2009.
+      </p>
+  <p>
+        Enter TeX permits to focus on the content and the structure of the
+        document.
+      </p>
+  <p>
+        To help the writing of the LaTeX markup, auto-completion is available as
+        well as menus and toolbars with the principal commands. New documents are
+        created from templates. There are buttons to compile, convert and view a
+        document in one click. And projects containing several .tex files are
+        managed easily.
+      </p>
+  <p>
+        A side panel contains three components: the document structure to easily
+        navigate in it; lists of symbols to insert them in a document; and a file
+        browser.
+      </p>
+  <p>
+        Enter TeX has also other features like the spell-checking, or jumping to
+        the associated position between the .tex file and the PDF.
+      </p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - enter-tex
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - tex
+  - latex
+  - editor
+  - documents
+screenshotSources:
+  - url: org/gnome/enter_tex.desktop/e0b8a85060de5cc4c3d0b2c3e9755ce2/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/enter_tex.desktop/e0b8a85060de5cc4c3d0b2c3e9755ce2/screenshots/image-1_624x444@1.png
+    width: 950
+    height: 677
+  - url: org/gnome/enter_tex.desktop/e0b8a85060de5cc4c3d0b2c3e9755ce2/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/enter_tex.desktop/e0b8a85060de5cc4c3d0b2c3e9755ce2/screenshots/image-2_624x441@1.png
+    width: 1150
+    height: 813
+  - url: org/gnome/enter_tex.desktop/e0b8a85060de5cc4c3d0b2c3e9755ce2/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/enter_tex.desktop/e0b8a85060de5cc4c3d0b2c3e9755ce2/screenshots/image-3_624x462@1.png
+    width: 1072
+    height: 795
+iconSources:
+  - url: org/gnome/enter_tex.desktop/e0b8a85060de5cc4c3d0b2c3e9755ce2/icons/128x128/enter-tex_org.gnome.enter_tex.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.gnome.org/swilmet/enter-tex"
+enabled: true
+order: 99

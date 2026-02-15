@@ -1,0 +1,43 @@
+id: goldendict-ng
+name: GoldenDict-ng
+description: Advanced dictionary lookup program
+longDescription: |
+  <p>
+        GoldenDict-ng is a advanced dictionary lookup program, supporting many
+        dictionary formats.
+      </p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - goldendict-ng
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dict
+  - dictionary
+screenshotSources:
+  - url: io/github/xiaoyifang.goldendict_ng/22d5794c2f1e64e613ff70070e7e27a9/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/xiaoyifang.goldendict_ng/22d5794c2f1e64e613ff70070e7e27a9/screenshots/image-1_624x509@1.png
+    width: 980
+    height: 800
+  - url: io/github/xiaoyifang.goldendict_ng/22d5794c2f1e64e613ff70070e7e27a9/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/xiaoyifang.goldendict_ng/22d5794c2f1e64e613ff70070e7e27a9/screenshots/image-2_624x510@1.png
+    width: 855
+    height: 699
+  - url: io/github/xiaoyifang.goldendict_ng/22d5794c2f1e64e613ff70070e7e27a9/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/xiaoyifang.goldendict_ng/22d5794c2f1e64e613ff70070e7e27a9/screenshots/image-3_624x563@1.png
+    width: 882
+    height: 797
+iconSources:
+  - cached: goldendict-ng_goldendict.png
+    width: 64
+    height: 64
+homepage: "https://xiaoyifang.github.io/goldendict-ng/"
+enabled: true
+order: 99

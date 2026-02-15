@@ -1,0 +1,5 @@
+{
+  "name": "Zita-Dpl1",
+  "description": "Limitador digital de picos com antecipação, utilizando algoritmos especiais para resposta rápida sem distorção excessiva em baixas frequências.",
+  "longDescription": "<p>DPL1 é um limitador digital de picos com antecipação, ideal como etapa final no processo de masterização ou mixagem para evitar saturação. Também pode ser utilizado como efeito em trilhas individuais de instrumentos.</p>\n<p>A latência é de 1,2 ms, arredondada para o múltiplo mais próximo de 8, 16 ou 32 amostras conforme a frequência de amostragem. Isso representa 56 amostras em 44,1 kHz, 64 amostras em 48 kHz, e o dobro desses valores para 88,2 ou 96 kHz.</p>\n<p>Na maioria dos casos, basta usar -k número_de_canais, que pode variar de 1 a 16. A mesma redução de ganho é aplicada a todos os canais.</p>\n"
+}

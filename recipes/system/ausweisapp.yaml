@@ -1,0 +1,30 @@
+id: ausweisapp
+name: AusweisApp
+description: Official authentication app for German ID card and residence permit
+longDescription: |
+  <p>The AusweisApp is a software, that you can install on your Computer/Smartphone/Tablet, to identify yourself online with your ID card or your electronic residence permit.
+         The App is available for the most used operating systems and works in all common browsers.</p>
+  <p>The AusweisApp offers you an intigrated self-assessment where you are able to view your data that is stored on the online ID.</p>
+  <p>In the app you will also find an overview with the available services, a running overview and you can manage your PIN there.</p>
+  <p>This app is on behalf of the Federal Office for Information Security.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ausweisapp
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - npa,eid,eat,personalausweis,aufenthaltstitel,identity,card
+iconSources:
+  - url: com/governikus/ausweisapp2/ec013a322d60b18324acfa7aa58affe8/icons/128x128/ausweisapp_AusweisApp.png
+    width: 128
+    height: 128
+homepage: "https://www.ausweisapp.bund.de/en"
+enabled: true
+order: 99

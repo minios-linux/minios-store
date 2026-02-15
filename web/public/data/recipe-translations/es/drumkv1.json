@@ -1,0 +1,5 @@
+{
+  "name": "drumkv1",
+  "description": "un sampler de batería al estilo clásico",
+  "longDescription": "<p>drumkv1 es un sintetizador sampler de batería al estilo clásico<br>con efectos estéreo.</p><p>Características: Cliente independiente puro para JACK con soporte para JACK-session y NSM, entrada MIDI tanto por JACK MIDI como por ALSA MIDI; también disponible como plugin de instrumento LV2.<br>URI: http://drumkv1.sourceforge.net/lv2</p>"
+}

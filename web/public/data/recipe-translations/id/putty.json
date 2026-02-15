@@ -1,0 +1,5 @@
+{
+  "name": "PuTTY SSH Client",
+  "description": "Terhubung ke server SSH dengan PuTTY",
+  "longDescription": "<p>Ini adalah port Unix dari klien SSH populer di Windows, PuTTY. Mendukung pengaturan terminal yang fleksibel, konfigurasi ulang sesi dengan Ctrl-klik kanan, berbagai protokol otentikasi X11, serta fitur-fitur lain yang tidak disediakan oleh ssh di xterm.</p>\n<p>Pageant adalah agen otentikasi SSH, dan alat untuk berkomunikasi dengan agen yang sudah berjalan.</p>\n"
+}

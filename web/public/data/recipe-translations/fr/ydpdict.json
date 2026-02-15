@@ -1,0 +1,5 @@
+{
+  "name": "YDP Dictionary",
+  "description": "Dictionnaire Collins (EN-PL) et/ou Langenscheidt (DE-PL)",
+  "longDescription": "<p>Il s'agit d'une interface ncurses pour les dictionnaires Collins anglais-polonais/polonais-anglais et/ou Langenscheidt allemand-polonais/polonais-allemand distribués par Young Digital Planet. Elle permet également d’écouter les enregistrements de prononciation si le CD est disponible.</p>\n<p>Ce paquet fournit uniquement l’interface : il ne contient pas les fichiers de dictionnaires eux-mêmes. Pour l’utiliser, vous devez posséder une copie d’un dictionnaire de YDP.</p>\n"
+}

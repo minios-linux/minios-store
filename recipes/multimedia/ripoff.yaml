@@ -1,0 +1,31 @@
+id: ripoff
+name: RipOff
+description: Rip audio from your CDs
+longDescription: |
+  <p>RipOff is a GTK+ based CD Ripper for Linux that sports a simple interface, CDDB lookups, and a plugin-based encoder architecture.</p>
+  <p>This version doesn&apos;t have MP3 support compiled in, you&apos;ll need to install the ripoff-mp3-plugin package to rip into mp3.</p>
+  <p>This package contains the ripoff executable.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ripoff
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: ripoff_ripoff.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

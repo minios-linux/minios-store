@@ -1,0 +1,5 @@
+{
+  "name": "X NetHack",
+  "description": "Game dungeon crawl - versi GUI",
+  "longDescription": "<p>NetHack adalah game petualangan bergaya Dungeons &amp; Dragons yang unik, kocak, dan sangat adiktif. Kamu berperan sebagai karakter dari berbagai kelas (seperti wizard, ranger, atau turis), berjuang menelusuri dungeon untuk mengambil Amulet of Yendor (coba sebutkan terbalik!) untuk dewa yang kamu sembah. Dalam perjalanan, kamu bisa saja bertemu quantum mechanic, Raja Arthur, atau — jika sangat beruntung — the Ravenous Bugblatter Beast of Traal.</p>\n<p>Kamu perlu menginstal front-end untuk NetHack jika ingin memainkan game ini. Setiap front-end sudah menyertakan versi asli yang tanpa grafis, dan semua bisa diinstal bersamaan:  - nethack-console: tanpa grafis, hanya NetHack murni;  - nethack-x11: versi grafis berbasis X11/Athena;  - nethack-lisp: versi window berbasis Lisp.</p>\n<p>Paket ini menyediakan versi NetHack berbasis teks dan grafis X11/Athena.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Bibus",
+  "description": "kelola referensi dan sitasi dalam publikasi Anda",
+  "longDescription": "<p>Bibus adalah basis data bibliografi yang dikembangkan khusus untuk integrasi dengan LibreOffice/OpenOffice.org. Aplikasi ini dapat langsung memasukkan kutipan dan memformat indeks bibliografi di dokumen OpenOffice.org Writer yang sedang dibuka. Fitur utamanya meliputi:  * organisasi referensi secara hierarkis dengan kunci yang dapat ditentukan pengguna  * dirancang untuk lingkungan multi-pengguna (berbagi basis data antar pengguna)  * mesin pencari dengan dukungan kueri langsung  * akses daring ke PubMed  * impor data PubMed (Medline), EndNote/Refer, RIS, serta BibTeX.</p>\n<p>Secara default, Bibus menggunakan basis data SQLite untuk penyimpanan (melalui modul SQLite3 yang tersedia di Python &gt;2.5). Namun, aplikasi ini juga mendukung basis data MySQL. Jika ingin menggunakan basis data MySQL, pastikan paket python-mysqldb telah terpasang.</p>\n"
+}

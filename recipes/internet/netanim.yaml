@@ -1,0 +1,26 @@
+id: netanim
+name: Network animator
+description: Network animator based on Qt4 working with ns-3
+longDescription: |
+  <p>NetAnim currently animates the simulation using an XML trace file collected during simulation.</p>
+  <p>Using NetAnim is a two-step process:   - Generate the animation XML trace file during simulation     using &quot;ns3::AnimationInterface&quot; in the ns-3 code base   - Load the XML trace file generated in Step 1 with the     offline animator (NetAnim).</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - netanim
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: n/ne/NetAnim.desktop/5648A6EF9F581E8928C359EBC1466E01/icons/128x128/netanim_NetAnim.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

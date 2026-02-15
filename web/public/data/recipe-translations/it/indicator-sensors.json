@@ -1,0 +1,5 @@
+{
+  "name": "Hardware Sensors Indicator",
+  "description": "Mostra le letture di temperatura, ventole e voltaggio direttamente nel pannello del desktop",
+  "longDescription": "<p>\n      Hardware Sensors Indicator mostra le letture di temperatura, ventole e voltaggio\n      direttamente nel pannello del tuo desktop.\n    </p>\n<p>\n      Su GNOME Shell è necessario installare un’estensione per visualizzare\n      i dati dei sensori nel pannello superiore. Si consiglia quindi di\n      installare anche l’estensione KStatusNotifierItem/AppIndicator Support\n      https://extensions.gnome.org/extension/615/appindicator-support/, oppure\n      l’estensione Hardware Sensors Indicator\n      https://extensions.gnome.org/extension/336/hardware-sensors-indicator/\n      per rendere visibili le letture dei sensori.\n      </p>\n"
+}

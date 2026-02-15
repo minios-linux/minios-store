@@ -1,0 +1,31 @@
+id: gcdmaster
+name: Gnome CD Master
+description: Gnome Audio CD editor and burner
+longDescription: |
+  <p>GNOME CD Master is a GUI frontend for creating audio CDs and burning them using cdrdao.</p>
+  <p>Features:  * Easy to use graphical interface  * Multiple project support  * Playing of Audio CD images  * Easy dump of CDs to disk  * CD to CD copy  * Composition of new Audio CDs from wav files  * Graphical insertion of Track Marks (to divide live recordings)  * Easy CD-TEXT modification</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gcdmaster
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - cdrom
+  - cd
+  - dvd
+  - disc
+  - burn
+  - audio
+iconSources:
+  - cached: gcdmaster_gcdmaster.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

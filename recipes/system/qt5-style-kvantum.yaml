@@ -1,0 +1,32 @@
+id: "qt5-style-kvantum"
+name: Kvantum Manager
+description: "A simple GUI for installing, selecting and manipulating Kvantum themes"
+longDescription: |
+  <p>Kvantum is an SVG-based theme engine for Qt4/Qt5, KDE and LXQt, with an emphasis on elegance, usability and practicality.</p>
+  <p>This package contain the application files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qt5-style-kvantum
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: k/kv/kvantummanager.desktop/2d656e3faa3c1a0d0171d811b345b863/icons/128x128/qt5-style-kvantum_kvantum.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

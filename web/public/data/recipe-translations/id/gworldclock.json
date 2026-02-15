@@ -1,0 +1,5 @@
+{
+  "name": "gworldclock",
+  "description": "Lihat waktu di zona waktu lainnya",
+  "longDescription": "<p>Program ini menampilkan waktu dan tanggal dari zona waktu tertentu menggunakan antarmuka GTK+. Fitur \"rendezvous\" memungkinkan zona waktu disinkronkan ke waktu selain waktu saat ini, memudahkan Anda mengatur rapat lintas zona waktu.</p>\n<p>Zona waktu dapat dimasukkan secara manual dalam format TZ atau dipilih dari daftar yang diambil dari /usr/share/zoneinfo/zone.tab. Daftar zona dijaga agar konsisten dengan format skrip shell tzwatch.</p>\n"
+}

@@ -1,0 +1,44 @@
+id: "foobillardplus"
+name: FooBillard++
+description: 3D OpenGL Billiard Game
+longDescription: |
+  <p>FooBillard++ is an advanced 3D OpenGL billiard game based on the original foobillard 3.0a sources from Florian Berger. You can play it with one or two players or against the computer.</p>
+  <p>The game features:</p>
+  <p> * Wood paneled table with gold covers and gold diamonds.  * Reflections on balls.  * Zoom in and out, rotation, different angles and bird&apos;s eye view.  * Different game modes: 8 or 9-ball, Snooker or Karambol.  * Tournaments. Compete against other players.  * Animated cue with strength and eccentric hit adjustment.  * Jump shots and snipping.  * Realistic gameplay and billiard sounds.  * Red-Green stereo.  * And much more.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - foobillardplus
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - billiard
+  - opengl
+  - game
+  - 3d
+iconSources:
+  - url: f/fo/foobillardplus.desktop/ada47536cb1029ec0a0310fa2da7ff7e/icons/128x128/foobillardplus_foobillardplus.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

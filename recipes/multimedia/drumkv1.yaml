@@ -1,0 +1,57 @@
+id: "drumkv1"
+name: drumkv1
+description: an old-school drumk-kit sampler
+longDescription: |
+  <p>drumkv1 is an old-school drum-kit sampler synthesizer
+    with stereo fx.</p>
+  <p>features:pure stand-alone JACK client with JACK-session, NSM and both JACK MIDI
+      and ALSA MIDI input support;LV2 instrument plugin.
+      URI: http\://drumkv1.sourceforge.net/lv2</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - drumkv1
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - midi
+  - alsa
+  - jack
+  - synthesizer
+  - sampler
+  - lv2
+  - qt
+screenshotSources:
+  - url: org/rncbc/drumkv1/4451abbbccf4a4c1c3b5e790d08afda5/screenshots/image-1_orig.png
+    thumbnailUrl: org/rncbc/drumkv1/4451abbbccf4a4c1c3b5e790d08afda5/screenshots/image-1_624x308@1.png
+    width: 1186
+    height: 587
+iconSources:
+  - url: org/rncbc/drumkv1/4451abbbccf4a4c1c3b5e790d08afda5/icons/128x128/drumkv1_org.rncbc.drumkv1.png
+    width: 128
+    height: 128
+developer: rncbc aka. Rui Nuno Capela
+homepage: "https://drumkv1.sourceforge.io"
+enabled: true
+order: 99

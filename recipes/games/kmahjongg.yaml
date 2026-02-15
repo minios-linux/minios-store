@@ -1,0 +1,43 @@
+id: "kmahjongg"
+name: KMahjongg
+description: Mahjong Solitaire
+longDescription: |
+  <p>KMahjongg is a fun board game created after the famous oriental game of Mahjong (from Chinese 麻將).</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kmahjongg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kmahjongg/9e1bbda0d11e25034f4f70537368c444/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kmahjongg/9e1bbda0d11e25034f4f70537368c444/screenshots/image-1_624x325@1.png
+    width: 990
+    height: 517
+iconSources:
+  - url: org/kde/kmahjongg/9e1bbda0d11e25034f4f70537368c444/icons/128x128/kmahjongg_kmahjongg.png
+    width: 128
+    height: 128
+homepage: "http://games.kde.org/game.php?game=kmahjongg"
+enabled: true
+order: 99

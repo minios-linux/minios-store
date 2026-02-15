@@ -1,0 +1,5 @@
+{
+  "name": "xawtv",
+  "description": "Aplikasi penampil TV analog",
+  "longDescription": "<p>\n      xawtv awalnya hanya merupakan aplikasi penampil TV analog untuk perangkat Bttv\n      (bt848, bt878) yang menggunakan Athena widgets, namun kemudian berkembang menjadi\n      rangkaian aplikasi X11 kecil untuk perangkat V4L.\n    </p>\n<p>\n      Paket xawtv mencakup beberapa utilitas command line konsol yang berguna:\n    </p>\n<ul>\n  <li>alevtd - daemon HTTP untuk teletext TV analog</li>\n  <li>radio -- aplikasi konsol untuk mendengarkan radio</li>\n  <li>scantv -- pemindai frekuensi TV analog</li>\n  <li>v4l-conf -- pengaturan mode video saat ini (ukuran dan kedalaman warna)</li>\n  <li>v4lctl -- digunakan untuk mengontrol perangkat V4L dan mengatur parameter gambar</li>\n  <li>webcam -- mengambil gambar dari webcam</li>\n</ul>\n"
+}

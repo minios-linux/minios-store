@@ -1,0 +1,40 @@
+id: xfce4-panel-profiles
+name: Xfce Panel Profiles
+description: Application to manage different panel layouts in Xfce
+longDescription: |
+  <p>
+        Multitude of panel layouts can be created using Xfce panel.
+        This tool enables managing different layouts with little effort.
+        Xfce4-panel-profiles makes it possible to backup, restore, import and export panel layouts.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-panel-profiles
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - configuration
+  - user
+screenshotSources:
+  - url: org/xfce/PanelProfiles/bbb423368d66f21a38c7facfe1ba4d98/screenshots/image-1_orig.png
+    thumbnailUrl: org/xfce/PanelProfiles/bbb423368d66f21a38c7facfe1ba4d98/screenshots/image-1_224x270@1.png
+    width: 360
+    height: 434
+iconSources:
+  - url: org/xfce/PanelProfiles/bbb423368d66f21a38c7facfe1ba4d98/icons/128x128/xfce4-panel-profiles_org.xfce.PanelProfiles.png
+    width: 128
+    height: 128
+homepage: "https://docs.xfce.org/apps/xfce4-panel-profiles/start"
+enabled: true
+order: 99

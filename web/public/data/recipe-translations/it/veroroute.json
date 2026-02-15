@@ -1,0 +1,5 @@
+{
+  "name": "VeroRoute",
+  "description": "Applicazione per la progettazione e il routing di Veroboard/Perfboard/PCB basata su Qt",
+  "longDescription": "<p>Software per realizzare schemi su Veroboard (stripboard), Perfboard e PCB semplici a 1 o 2 strati. Previene automaticamente i cortocircuiti e rileva le piste interrotte. Permette di importare la netlist da uno schema TinyCAD, gEDA o KiCad, oppure di specificarla graficamente. Esporta file Gerber per la produzione di PCB a 1 o 2 strati.</p>\n"
+}

@@ -1,0 +1,38 @@
+id: fwbuilder
+name: Firewall Builder
+description: Firewall administration tool GUI
+longDescription: |
+  <p>Firewall Builder consists of an object-oriented GUI and a set of policy compilers for various firewall platforms. In Firewall Builder, firewall policy is a set of rules, each rule consists of abstract objects which represent real network objects and services (hosts, routers, firewalls, networks, protocols). Firewall Builder helps the user maintain a database of objects and allows policy editing using simple drag-and-drop operations.</p>
+  <p>This is the GUI part of fwbuilder</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fwbuilder
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: fwbuilder_firewall_64.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

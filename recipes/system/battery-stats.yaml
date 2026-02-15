@@ -1,0 +1,42 @@
+id: battery-stats
+name: Battery Level Graph
+description: Battery Level Graph
+longDescription: |
+  <p>This package provides battery-stats-collector, a daemon which will periodically collect statistics about the charge of the batteries present.</p>
+  <p>It also proves a binary called battery-graph, which can be used to generate qplot graphs about the battery charge/discharge patterns over time</p>
+  <p>Note: This requires APM or ACPI to be enabled and working in your kernel.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - battery-stats
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - battery
+  - graph
+  - viewer
+  - stats
+iconSources:
+  - cached: battery-stats_battery-stats.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

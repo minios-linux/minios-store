@@ -1,0 +1,5 @@
+{
+  "name": "Eiciel",
+  "description": "Werkzeug zur Bearbeitung von ACL-Einträgen",
+  "longDescription": "<p>Eiciel ist ein eigenständiges Werkzeug und ein Nautilus-Plugin zum grafischen Bearbeiten von Access Control Lists (ACLs) für Ihre Dateien. Mit ACLs können feinere Zugriffsrechte gesetzt werden als mit den traditionellen Unix-Berechtigungen für Benutzer, Gruppe und Andere (UGO-Berechtigungen).</p>\n<p>Außerdem ermöglicht Eiciel das Bearbeiten von erweiterten Attributen (Extended Attributes) von Dateien und Verzeichnissen, sofern das Dateisystem dies unterstützt.</p>\n<p>Nicht alle Dateisysteme unterstützen ACLs und erweiterte Attribute. Selbst wenn dies möglich ist, müssen sie (vom Systemadministrator) aktiviert sein, bevor Eiciel verwendet werden kann.</p>\n"
+}

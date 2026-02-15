@@ -1,0 +1,5 @@
+{
+  "name": "pympress",
+  "description": "Leitor de PDF simples e potente desenvolvido para apresentações em dois monitores",
+  "longDescription": "<p>Pympress é um leitor de PDF leve, escrito em Python, que utiliza Poppler para renderização de PDFs e GTK+ para a interface gráfica.</p>\n<p>Foi criado especialmente para ser utilizado como leitor em apresentações e palestras, com dois monitores: a *Janela de Conteúdo* para o projetor e a *Janela do Apresentador* para seu notebook.</p>\n<p>Oferece diversos recursos avançados:   - suporte a vídeos incorporados   - exibição de anotações de texto na janela do apresentador   - compatibilidade nativa com as *notas na segunda tela* do beamer!</p>\n"
+}

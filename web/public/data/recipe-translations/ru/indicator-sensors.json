@@ -1,0 +1,5 @@
+{
+  "name": "Hardware Sensors Indicator",
+  "description": "Отображает данные датчиков температуры, вентилятора и напряжения в панели рабочего стола",
+  "longDescription": "<p>\n      Hardware Sensors Indicator отображает показания датчиков температуры, вентилятора\n      и напряжения прямо в панели вашего рабочего стола.\n    </p>\n<p>\n      Для пользователей GNOME Shell требуется соответствующее расширение для\n      отображения данных датчиков в верхней панели. Рекомендуется дополнительно установить\n      расширение KStatusNotifierItem/AppIndicator Support\n      https://extensions.gnome.org/extension/615/appindicator-support/ или\n      Hardware Sensors Indicator\n      https://extensions.gnome.org/extension/336/hardware-sensors-indicator/\n      чтобы видеть показания датчиков.\n      </p>\n"
+}

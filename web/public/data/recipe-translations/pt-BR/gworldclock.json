@@ -1,0 +1,5 @@
+{
+  "name": "gworldclock",
+  "description": "Veja o horário em outros fusos horários",
+  "longDescription": "<p>Este programa exibe a hora e a data de fusos horários específicos utilizando uma interface GTK+. Também oferece uma função de \"encontro\" que permite sincronizar os fusos para um horário diferente do atual. Isso facilita a organização de reuniões em diferentes fusos horários.</p>\n<p>Os fusos horários podem ser informados manualmente no formato TZ ou selecionados a partir de uma lista preparada com base em /usr/share/zoneinfo/zone.tab. A lista de zonas é mantida em um formato compatível com o script de shell tzwatch.</p>\n"
+}

@@ -1,0 +1,57 @@
+id: "pragha"
+name: Pragha Mucic Player
+description: Manage and listen to music
+longDescription: |
+  <p>
+        Pragha is a Lightweight Music Player for GNU/Linux, based on Gtk, sqlite, and
+        completely written in C, constructed to be fast, light, and simultaneously tries
+        to be complete without obstructing the daily work.
+      </p>
+  <p>Features:</p>
+  <ul>
+    <li>Full integration with GTK+3 support, but always completely independent of gnome or xfce</li>
+    <li>Two panel desing inspired on Amarok 1.4. Library and current playlist</li>
+    <li>Library with multiple views, according tags or folder structure</li>
+    <li>Search, filtering and queue songs on current playlist</li>
+    <li>Playing and edit tag of mp3, m4a, ogg, flac, asf, wma, and ape files. Of course you need codecs</li>
+    <li>Playlist management. Exporting M3U and read M3U, PLS, XSPF and WAX playlists</li>
+    <li>Play audio CDs and identifies this with CDDB</li>
+    <li>Playback control with command line and MPRIS2</li>
+    <li>Native desktop notifications with libnotify</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pragha
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/pragha-music-player/d74d9e0d49e6cfa6aaeadf4a32b1fc2b/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/pragha-music-player/d74d9e0d49e6cfa6aaeadf4a32b1fc2b/screenshots/image-1_624x350.png
+    width: 1366
+    height: 768
+  - url: io/github/pragha-music-player/d74d9e0d49e6cfa6aaeadf4a32b1fc2b/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/pragha-music-player/d74d9e0d49e6cfa6aaeadf4a32b1fc2b/screenshots/image-3_624x350.png
+    width: 1366
+    height: 768
+iconSources:
+  - url: p/pr/pragha.desktop/e609925b648c432d9ed7dd6a1b111cb0/icons/128x128/pragha_pragha.png
+    width: 128
+    height: 128
+homepage: "http://pragha-music-player.github.io"
+enabled: true
+order: 99

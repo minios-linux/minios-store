@@ -1,0 +1,5 @@
+{
+  "name": "gnoMint X.509 CA Manager",
+  "description": "Verwalten Sie X.509-Zertifikate und CAs einfach und grafisch",
+  "longDescription": "<p>gnoMint ist ein Tool zur einfachen Erstellung und Verwaltung von Zertifizierungsstellen (CAs). Es bietet eine übersichtliche Darstellung aller relevanten Informationen einer CA, wie X.509-Zertifikate, CSRs und Sperrlisten (CRLs).</p>\n<p>gnoMint kann aktuell Zertifizierungsstellen verwalten, die Zertifikate ausstellen, um Personen oder Maschinen in VPNs (IPSec oder andere Protokolle) zu authentifizieren, sichere HTTP-Verbindungen mit SSL/TLS zu ermöglichen, Web-Client-Zertifikate für HTTP-Kommunikation zu nutzen und E-Mails zu signieren oder zu verschlüsseln.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "EekBoek",
+  "description": "Programme de comptabilité pour petites et moyennes entreprises",
+  "longDescription": "<p>Ce paquet inclut ebwxshell, l’interface graphique (GUI) de EekBoek. Il propose un navigateur EekBoek, pratique pour consulter les données administratives. Il est particulièrement utile pour générer, imprimer et localiser des rapports. De plus, il offre une interface directe avec le Shell EekBoek. Enfin, un assistant est disponible pour faciliter la configuration de nouvelles comptabilités.</p>\n<p>Installez-le si vous souhaitez une interface conviviale pour exploiter les fonctions de rapports d’EekBoek ou si vous avez besoin d’aide à la configuration. En revanche, si vous préférez travailler en mode texte pur ou ne souhaitez pas installer les bibliothèques graphiques WX, il vaut mieux ne pas installer ce paquet.</p>\n"
+}

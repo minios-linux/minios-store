@@ -1,0 +1,5 @@
+{
+  "name": "OpenSTV Voting Software",
+  "description": "Menyelenggarakan pemilihan dengan metode Single Transferable Vote",
+  "longDescription": "<p>OpenSTV adalah perangkat lunak open-source untuk menerapkan Single Transferable Vote (STV) dan berbagai metode pemungutan suara lainnya seperti Instant Runoff Voting, Condorcet Voting, dan Approval Voting. OpenSTV merupakan satu-satunya perangkat lunak open-source yang mengimplementasikan Single Transferable Vote persis seperti yang digunakan oleh pemerintah, termasuk di Skotlandia dan Kota Cambridge, Massachusetts. Metode-metode ini telah diverifikasi secara menyeluruh terhadap perangkat lunak lain dan/atau hasil pemilu nyata.</p>\n<p>Organisasi dapat menggunakan OpenSTV untuk menyelenggarakan pemilihan mereka sendiri. Pertama, organisasi harus menentukan metode pemungutan suara yang akan digunakan. Kedua, proses pemilihan biasanya dilakukan menggunakan surat suara kertas. Ketiga, surat suara tersebut dimasukkan ke dalam program OpenSTV. Terakhir, Anda dapat menggunakan OpenSTV untuk menghitung suara dan menentukan pemenang pemilihan.</p>\n"
+}

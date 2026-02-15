@@ -1,0 +1,44 @@
+id: gtkcrypto
+name: GTKCrypto
+description: GTK+ application for encrypting files and computing hashes
+longDescription: |
+  <p>
+  GTKCrypto allows you to encrypt and sign files or text. Moreover, given a file, different types of hash can be computed and files can also be compared to check whether or not their content is the same.
+  Supported cipher algorithms: AES, Twofish, Serpent and Camellia, all using 256 bits key and operating in either CBC or CTR mode.
+  Supported hash algorithms: MD5, SHA-1, SHA-2, SHA-3, GOST, Whirlpool.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtkcrypto
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - aes
+  - twofish
+  - serpent
+  - md5
+  - sha2
+  - sha3
+  - gost
+screenshotSources:
+  - url: com/github/paolostivanin.GTKCrypto.desktop/915df6bee5cbf74f5285167007dd76dc/screenshots/image-1_orig.png
+    width: 201
+    height: 371
+iconSources:
+  - url: com/github/paolostivanin.GTKCrypto.desktop/915df6bee5cbf74f5285167007dd76dc/icons/128x128/gtkcrypto_com.github.paolostivanin.GTKCrypto.png
+    width: 128
+    height: 128
+homepage: "https://github.com/paolostivanin/GTKCrypto"
+enabled: true
+order: 99

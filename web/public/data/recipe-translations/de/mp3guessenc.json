@@ -1,0 +1,5 @@
+{
+  "name": "mp3guessenc",
+  "description": "Werkzeug zur Analyse von MPEG-Audiodateien",
+  "longDescription": "<p>\n      mp3guessenc erkennt zahlreiche Details im MPEG-Audiostream und gibt umfangreiche, nützliche Informationen aus. Unterstützte Streams sind MPEG 1, MPEG 2 sowie inoffiziell auch MPEG 2.5 – jeweils Layer I, Layer II und natürlich Layer III. Zusätzlich werden Xing-, Lame-, VBRI-Tags, Id3-Tags (Version 1.x und 2.x), APE-Tags (v1 und v2), Lyrics3-Tags (v1 und v2) sowie MusicMatch-Tags (jede Version) erkannt. So erhalten Sie einen tiefen Einblick in Ihre digitale Audiosammlung wie nie zuvor!\n    </p>\n"
+}

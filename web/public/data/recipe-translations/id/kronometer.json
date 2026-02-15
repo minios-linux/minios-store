@@ -1,0 +1,5 @@
+{
+  "name": "Kronometer",
+  "description": "Kronometer Stopwatch",
+  "longDescription": "<p>Kronometer adalah aplikasi stopwatch. Aplikasi ini menyediakan fungsi dasar stopwatch seperti jeda/lanjutkan/reset/lap, serta kemampuan untuk menyimpan waktu yang telah dicatat dan melanjutkannya kembali di lain waktu. Kronometer merupakan bagian dari koleksi KDE Extragear dalam submodul Utilitas.</p>\n<p>Fitur:</p>\n<ul>\n  <li>Mulai/jeda/lanjutkan stopwatch</li>\n  <li>Pencatatan lap: Anda dapat merekam waktu stopwatch kapan saja</li>\n  <li>Menyortir waktu lap: Mudah menemukan lap tercepat atau terlama</li>\n  <li>Reset stopwatch dan daftar lap</li>\n  <li>Pengaturan format waktu: Pilih tingkat ketelitian waktu pada stopwatch</li>\n  <li>Penyimpanan dan pemulihan waktu: Simpan status stopwatch dan lanjutkan di lain waktu</li>\n  <li>Kustomisasi font: Pilih jenis huruf untuk setiap digit stopwatch</li>\n  <li>Kustomisasi warna: Atur warna digit dan latar belakang stopwatch</li>\n  <li>Ekspor waktu lap: Ekspor daftar lap ke file dalam format JSON atau CSV</li>\n</ul>\n"
+}

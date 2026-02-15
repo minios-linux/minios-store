@@ -1,0 +1,42 @@
+id: "trabucco"
+name: Trabucco
+description: Launches applications and bookmarks
+longDescription: |
+  <p>Trabucco means trebuchet in Italian, which is a siege weapon, like a catapult. When KDE4 was released, katapult was replaced by krunner.</p>
+  <p>Trabucco aims at providing an experience similar to katapult, using modern freedesktop.org standards.</p>
+  <p>It shows only one action per search query, and it is very deterministic about it.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - trabucco
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - launcher
+  - application
+iconSources:
+  - url: t/tr/trabucco.desktop/4fc4f530284e8d280d92f11c35bd9c56/icons/128x128/trabucco_trabucco.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

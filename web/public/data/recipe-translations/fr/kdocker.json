@@ -1,0 +1,5 @@
+{
+  "name": "KDocker",
+  "description": "Exécutez une commande et ancrez la fenêtre",
+  "longDescription": "<p>KDocker vous permet d’ancrer n’importe quelle application dans la zone de notification du système. Cela signifie que vous pouvez ancrer OpenOffice, Firefox, Thunderbolt, Eclipse, ou tout autre logiciel ! Il suffit de pointer et cliquer. Fonctionne aussi bien sous KDE que GNOME (et devrait être compatible avec la plupart des gestionnaires de fenêtres modernes prenant en charge la spécification NET WM, comme XFCE par exemple).</p>\n<p>Il vous suffit de lancer KDocker, de sélectionner une application à l’aide de la souris, et celle-ci sera instantanément ancrée dans la zone de notification. L’application peut aussi être retirée de la barre des tâches.</p>\n"
+}

@@ -1,0 +1,29 @@
+id: herculesstudio
+name: HerculesStudio
+description: GUI front-end of hercules emulator
+longDescription: |
+  <p>Hercules Studio is a GUI front-end of the Hercules mainframe Emulator. With Hercules Studio, you can easily control and monitor the hercules virtual machine.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - herculesstudio
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: h/he/herculesstudio.desktop/43c364c9864c6f0768be078133b13a90/icons/128x128/herculesstudio_HerculesStudio.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

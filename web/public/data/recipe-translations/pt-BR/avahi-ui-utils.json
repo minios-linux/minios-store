@@ -1,0 +1,5 @@
+{
+  "name": "Avahi VNC Server Browser",
+  "description": "Procura por servidores VNC com suporte a Zeroconf",
+  "longDescription": "<p>Avahi é um framework totalmente LGPL para descoberta de serviços via Multicast DNS (mDNS). Ele permite que programas publiquem e localizem serviços e hosts na rede local sem necessidade de configuração específica. Por exemplo, você pode conectar-se a uma rede e encontrar impressoras, arquivos e outros dispositivos instantaneamente.</p>\n<p>Este pacote inclui pequenas utilitários GTK+ para descobrir servidores SSH e VNC disponíveis na rede.</p>\n"
+}

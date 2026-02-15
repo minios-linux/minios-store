@@ -1,0 +1,39 @@
+id: xpaint
+name: XPaint
+description: Xpaint painting application
+longDescription: |
+  <p>XPaint is suitable for producing simple graphics. It does offer some advanced features such as image processing functions and gradient fill.</p>
+  <p>In the C Script Editor of XPaint, the External editor in the File menu will invoke x-terminal-emulator -e sensible-editor.</p>
+  <p>The gv package will be needed for PDF/PS reading, netpbm will be needed for external conversion, lpr for printing.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xpaint
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: xpaint_xpaint.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

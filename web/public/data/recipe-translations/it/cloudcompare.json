@@ -1,0 +1,5 @@
+{
+  "name": "CloudCompare",
+  "description": "Software per l'elaborazione di nuvole di punti 3D e mesh",
+  "longDescription": "<p>CloudCompare è un software per l'elaborazione di nuvole di punti 3D e mesh triangolari. È stato originariamente progettato per confrontare due nuvole di punti 3D (come quelle ottenute tramite laser scanner) oppure una nuvola di punti con una mesh triangolare.</p>\n<p>Si basa su una particolare struttura ad octree che garantisce elevate prestazioni in queste operazioni. È inoltre pensato per gestire nuvole di punti di grandi dimensioni (tipicamente oltre 10 milioni di punti e fino a 120 milioni utilizzando 2 GB di memoria).</p>\n"
+}

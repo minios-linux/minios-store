@@ -1,0 +1,28 @@
+id: snd-gui-pulse
+name: Snd (GUI+PulseAudio)
+description: Sound editor (with PulseAudio support) that has been modeled after Emacs
+longDescription: |
+  <p>Snd is a powerful sound file editor that can be customized and extended using the Scheme programming language.</p>
+  <p>This package contains the files for the graphical user interface with PulseAudio support.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - snd-gui-pulse
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - editor
+iconSources:
+  - cached: snd-gui-pulse_snd.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

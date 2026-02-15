@@ -1,0 +1,5 @@
+{
+  "name": "Swayimg",
+  "description": "Bildbetrachter für Sway/Wayland",
+  "longDescription": "<p>Das Programm nutzt Sway IPC, um die Geometrie des aktuell fokussierten Containers zu ermitteln. Diese Informationen werden verwendet, um die Position und Größe des neuen „Overlay“-Fensters zur Darstellung des Bildes zu berechnen. Im nächsten Schritt fügt swayimg dem eigenen Fenster zwei Sway-Regeln hinzu: „floating enable“ und „move position“. Anschließend wird ein neues Wayland-Fenster erstellt und das angegebene Bild darin angezeigt.</p>\n"
+}

@@ -1,0 +1,47 @@
+id: "persepolis"
+name: Persepolis Download Manager
+description: Download Manager
+longDescription: |
+  <p>Persepolis is a graphical user interface on the Aria2 download manager.</p>
+  <p>Aria2 is a high speed download utility which is capable of making several connections to download files. It will boost the download in some cases, specially if you have a limited network connection.</p>
+  <p>Persepolis makes the usage of Aria2 easier by providing a graphical interface for it and in addition, it includes some extra functionalities like scheduled downloads.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - persepolis
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - internet
+  - www
+  - web
+screenshotSources:
+  - url: com/github/persepolisdm.persepolis/84412891274c41a83a3027091f1f2a27/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/persepolisdm.persepolis/84412891274c41a83a3027091f1f2a27/screenshots/image-1_624x351@1.png
+    width: 800
+    height: 450
+iconSources:
+  - url: com/github/persepolisdm.persepolis/84412891274c41a83a3027091f1f2a27/icons/128x128/persepolis_com.github.persepolisdm.persepolis.png
+    width: 128
+    height: 128
+homepage: "https://persepolisdm.github.io/"
+enabled: true
+order: 99

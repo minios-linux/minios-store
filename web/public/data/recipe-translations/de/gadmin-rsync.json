@@ -1,0 +1,5 @@
+{
+  "name": "GAdmin-Rsync",
+  "description": "GAdmin-Rsync ist eine benutzerfreundliche GTK+-Oberfläche für den rsync-Server.",
+  "longDescription": "<p>GAdmin-Rsync ist eine leicht zu bedienende GTK+-Oberfläche zur Verwaltung eines rsync-Servers.</p>\n<p>Funktionen:\n- Mehrere Backup-Sätze können zeitgesteuert über Cron ausgeführt werden.\n- Jeder Backup-Satz kann mehrere lokale oder entfernte Datensicherungen enthalten.\n- Backup-Sätze, die durch Cron gestartet werden, erzeugen für jede Datensicherung eigene Logdateien.\n- Die Sicherungsprotokolle tragen denselben Namen wie die jeweiligen Backup-Sätze.\n- Einzelne Backup-Sätze lassen sich manuell ausführen; der Fortschritt ist im Fortschritts-Tab einsehbar.\n- Remote-Backups sind vollautomatisch, differenziell und verschlüsselt.\n- Für jeden Host werden Schlüssel generiert, hochgeladen und per Kombination aus ssh-keygen/scp sowie ssh auf den Remote-Hosts eingerichtet.\n- Ermöglicht das zeitgesteuerte Synchronisieren entfernter Systeme.\n</p>\n"
+}

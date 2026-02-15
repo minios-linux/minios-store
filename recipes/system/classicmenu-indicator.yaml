@@ -1,0 +1,29 @@
+id: "classicmenu-indicator"
+name: ClassicMenu Indicator
+description: Indicator applet to show the Gnome Classic main menu
+longDescription: |
+  <p>classicmenu-indicator displays the main menu from Gnome2/Gnome Classic</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - classicmenu-indicator
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: c/cl/classicmenu-indicator.desktop/AEE3A6B649A43EDCB4DAEE0B3B78D397/icons/128x128/classicmenu-indicator_classicmenu-indicator-light.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

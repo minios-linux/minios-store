@@ -1,0 +1,5 @@
+{
+  "name": "AppStream Generator",
+  "description": "Generator metadata AppStream yang cepat",
+  "longDescription": "<p>AppStream adalah spesifikasi lintas distribusi untuk menyediakan metadata tentang komponen perangkat lunak.</p><p>Tool appstream-generator menghasilkan metadata AppStream dari repositori sebuah distribusi perangkat lunak. Saat ini mendukung format repositori/distribusi berikut: Debian, Ubuntu, Arch Linux, RPM-MD (Fedora, Mageia).</p><p>Generator ini akan menghasilkan file metadata koleksi AppStream dalam format YAML atau XML untuk didistribusikan ke pengguna, serta laporan HTML terperinci tentang komponen yang ditemukan dan laporan HTML serta JSON untuk masalah yang terdeteksi pada metadata yang dipindai. Tools ini membaca file .desktop maupun file metainfo, merender font, melakukan penskalaan gambar, caching screenshot, dan lain-lain untuk menghasilkan metadata berkualitas tinggi agar dapat digunakan oleh pusat perangkat lunak berbasis AppStream. Biasanya, appstream-generator diintegrasikan dengan workflow build & delivery perangkat lunak pada distribusi.</p>"
+}

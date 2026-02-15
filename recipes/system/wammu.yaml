@@ -1,0 +1,40 @@
+id: wammu
+name: Wammu
+description: Mobile Phone Manager
+longDescription: |
+  <p>Wammu is a mobile phone manager that uses Gammu as its backend. It works with any phone that Gammu supports, including many models from Nokia, Siemens, and Alcatel.</p>
+  <p>It has complete support (read, edit, delete, copy) for contacts, todo, and calendar. It can read, save, and send SMS. It includes an SMS composer for multi-part SMS messages, and it can display SMS messages that include pictures. Currently, only text and predefined bitmaps or sounds can be edited in the SMS composer. It can export messages to an IMAP4 server (or other email storage).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wammu
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - phone
+  - mobile
+  - sms
+  - contact
+  - calendar
+  - todo
+screenshotSources:
+  - url: w/wa/wammu.desktop/742C312095DA2D5D6CB1680D90199F96/screenshots/image-1_orig.png
+    thumbnailUrl: w/wa/wammu.desktop/742C312095DA2D5D6CB1680D90199F96/screenshots/image-1_624x437.png
+    width: 875
+    height: 613
+iconSources:
+  - cached: wammu_wammu.png
+    width: 64
+    height: 64
+developer: Michal Čihař
+homepage: "https://wammu.eu/wammu/"
+enabled: true
+order: 99

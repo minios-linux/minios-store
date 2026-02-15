@@ -1,0 +1,28 @@
+id: kmenuedit
+name: Menu Edit
+description: Edit how applications are presented in app launchers
+longDescription: |
+  <p>KDE Menu Edit lets you edit how your apps are presented in application launchers, such as Plasma's Application Launcher widget.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kmenuedit
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: kmenuedit_kmenuedit.png
+    width: 64
+    height: 64
+homepage: "https://kde.org/plasma-desktop"
+enabled: true
+order: 99

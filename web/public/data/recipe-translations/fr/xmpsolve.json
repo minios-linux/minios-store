@@ -1,0 +1,5 @@
+{
+  "name": "MPSolve",
+  "description": "Recherche des racines de polynômes",
+  "longDescription": "<p>MPSolve est un outil de calcul des racines de polynômes, capable de fournir des approximations à précision arbitraire avec des rayons d’inclusion garantis. Il exploite la structure des polynômes, comme la sparsité, et prend en charge les polynômes définis implicitement ou dans des bases non standard.</p>\n<p>Ce paquet contient la version graphique de MPSolve.</p>\n"
+}

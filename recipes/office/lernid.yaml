@@ -1,0 +1,25 @@
+id: lernid
+name: Lernid
+description: Participate in online learning events
+longDescription: |
+  <p>Lernid provides an interface for joining in Ubuntu learning events such as Ubuntu Open Week and Ubuntu Developer Week. The Lernid program presents session IRC windows for classroom and chat, and optionally presents slides, web pages, a terminal session, and the event schedule.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lernid
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - education
+iconSources:
+  - cached: lernid_lernid.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

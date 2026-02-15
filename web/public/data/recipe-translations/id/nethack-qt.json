@@ -1,0 +1,5 @@
+{
+  "name": "NetHack Qt",
+  "description": "Game dungeon crawl - versi antarmuka grafis (GUI)",
+  "longDescription": "<p>NetHack adalah permainan petualangan ala Dungeons &amp; Dragons yang kocak namun sangat adiktif. Anda memerankan karakter dari berbagai kelas (seperti wizard, ranger, atau tourist), berjuang menembus dungeon untuk mendapatkan Amulet of Yendor demi dewa Anda. Dalam perjalanan, Anda bisa saja bertemu quantum mechanic, Raja Arthur, atau—jika Anda sangat beruntung—Ravenous Bugblatter Beast of Traal.</p>\n<p>Untuk memainkan NetHack, Anda perlu menginstal front-end (antarmuka) NetHack. Masing-masing front-end mencakup versi NetHack asli tanpa grafis dan semuanya dapat diinstal bersamaan:  - nethack-console: tanpa grafis, hanya NetHack murni;  - nethack-x11: versi grafis berbasis X11/Athena;  - nethack-qt: versi antarmuka Qt.</p>\n<p>Paket ini menyediakan NetHack versi grafis berbasis Qt.</p>\n"
+}

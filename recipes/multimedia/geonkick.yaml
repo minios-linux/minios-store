@@ -1,0 +1,26 @@
+id: geonkick
+name: Geonkick
+description: Synthesizes elements of percussion
+longDescription: |
+  <p>Geonkick is a synthesizer that can synthesize elements of percussion. The most basic examples are: kick drums, snares, hit-hats, shakers, claps, steaks.</p>
+  <p>Available as an LV2 plugin and JACK standalone version.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - geonkick
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: g/ge/geonkick.desktop/09fb3be4e50d16598964b1dc60420f04/icons/128x128/geonkick_geonkick.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

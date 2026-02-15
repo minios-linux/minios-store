@@ -1,0 +1,33 @@
+id: "mustang-plug"
+name: mustang-plug
+description: Control Fender Mustang amplifiers
+longDescription: |
+  <p>PLUG was originally created as a Linux replacement for Fender
+      FUSE software for Fender Mustang guitar amplifier. Its Qt4-based
+      graphical interface allows one to control the amplifier and effect
+      stages of all Mustang amplifiers from I to V.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mustang-plug
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: mustang-plug_mustang-plug.png
+    width: 64
+    height: 64
+homepage: "https://github.com/philpem/printer-driver-ptouch"
+enabled: true
+order: 99

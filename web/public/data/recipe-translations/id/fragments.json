@@ -1,0 +1,5 @@
+{
+  "name": "Fragments",
+  "description": "Kelola torrent",
+  "longDescription": "<p>\n      Klien BitTorrent yang mudah digunakan. Fragments dapat digunakan untuk mentransfer file melalui protokol berbagi file peer-to-peer BitTorrent, seperti video, musik, atau berkas instalasi untuk distribusi Linux.\n    </p>\n<ul>\n  <li>Tampilan semua torrent yang dikelompokkan berdasarkan status</li>\n  <li>Penjadwalan urutan unduhan dengan antrian</li>\n  <li>Deteksi otomatis tautan torrent atau magnet dari clipboard</li>\n  <li>Kelola dan akses file individual dalam suatu torrent</li>\n  <li>Terhubung ke sesi Fragments atau Transmission jarak jauh</li>\n</ul>\n<p>\n      Fragments menggunakan proyek Transmission BitTorrent di belakang layar.\n    </p>\n"
+}

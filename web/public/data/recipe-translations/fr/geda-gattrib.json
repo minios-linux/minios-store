@@ -1,0 +1,5 @@
+{
+  "name": "gEDA Attribute Editor",
+  "description": "Gérez les attributs des composants avec gattrib",
+  "longDescription": "<p>Le projet gEDA propose et continue de développer une suite complète d’outils d’automatisation de la conception électronique sous licence GPL. Ces outils sont utilisés pour la conception de circuits électriques, la capture de schémas, la simulation, le prototypage et la production. Actuellement, gEDA offre un ensemble mature de logiciels libres pour la conception électronique, incluant la capture de schémas, la gestion des attributs, la génération de nomenclatures (BOM), la création de netlists dans plus de 20 formats, la simulation analogique et numérique, ainsi que le routage de circuits imprimés (PCB).</p>\n<p>Ce paquet contient gattrib, l’éditeur d’attributs.</p>\n"
+}

@@ -1,0 +1,28 @@
+id: wrapperfactory-app
+name: WrapperFactory
+description: Graphically create Unix application wrappers for GNUstep
+longDescription: |
+  <p>This provides an easy way to create GNUstep app-wrappers of non-GNUstep applications. It is the most useful in conjunction with GWorkspace environment.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wrapperfactory.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - wrapper
+  - app-wrapper
+  - starter
+  - launcher
+iconSources:
+  - cached: wrapperfactory.app_WrapperFactory.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,35 @@
+id: "lepton-eda"
+name: Lepton EDA Attribute Editor
+description: Manipulate component attributes with lepton-attrib
+longDescription: |
+  <p>The Lepton EDA suite provides schematic capture, netlisting, bill of materials generation, and many other features. It was forked from the gEDA/gaf suite in late 2016.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lepton-eda
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: l/le/lepton-schematic.desktop/e75fd6260dd8ffe3be46c0e75057f7db/icons/128x128/lepton-eda_lepton-schematic.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

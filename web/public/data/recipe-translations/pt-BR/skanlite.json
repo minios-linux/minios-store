@@ -1,0 +1,5 @@
+{
+  "name": "Skanlite",
+  "description": "Aplicativo para digitalização de imagens",
+  "longDescription": "<p>O Skanlite é um aplicativo simples para digitalização e salvamento de imagens.<br>Ele é baseado no libksane, uma interface para a biblioteca SANE usada no controle de scanners de imagem.</p>\n<p>Recursos:</p>\n<ul>\n  <li>Diálogo de salvamento para cada imagem digitalizada ou salvamento automático em uma pasta especificada com nomes e formatos gerados automaticamente</li>\n  <li>Suporte a scanners de rede</li>\n  <li>Pré-visualização com seleção da área para digitalização final</li>\n  <li>Digitalização de múltiplas seleções em uma única imagem</li>\n</ul>\n"
+}

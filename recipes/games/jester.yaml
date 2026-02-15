@@ -1,0 +1,42 @@
+id: "jester"
+name: Jester
+description: board game similar to Othello
+longDescription: |
+  <p>Simple two-player turn-based strategy game played on an 8x8 grid. Convert the opponent&apos;s pieces to your color by bracketing them between your pieces.  The game can be played head-to-head on a single screen or by a single player against the computer. Jester allows you to waste valuable time that could otherwise be spent playing Solitaire.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jester
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - board
+  - game
+  - othello
+  - x11
+iconSources:
+  - url: j/je/jester.desktop/afdb961d88b2e9dd14537d5f6c19498b/icons/128x128/jester_jester.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

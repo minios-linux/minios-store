@@ -1,0 +1,5 @@
+{
+  "name": "AntiMicroX",
+  "description": "Programa gráfico para asignar botones de gamepad a teclado, ratón, scripts y macros",
+  "longDescription": "<p>\n     AntiMicroX es un programa gráfico que permite asignar los botones y joysticks del gamepad \n     al teclado, ratón, scripts y macros. \n     También puede utilizarse para generar configuraciones de SDL2 (útil para mapear \n     gamepads atípicos en modelos genéricos como xbox360).\n</p>\n<p>\n    Permite asignar botones de gamepad o joystick a:\n</p>\n<ul>\n  <li>teclas del teclado</li>\n  <li>botones y movimientos del ratón</li>\n  <li>scripts y lanzamiento de aplicaciones</li>\n  <li>macros compuestas por los elementos mencionados anteriormente</li>\n</ul>\n<p>\n     AntiMicroX está inspirado en QJoyPad.\n</p>\n"
+}

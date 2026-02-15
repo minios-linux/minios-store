@@ -1,0 +1,5 @@
+{
+  "name": "TrustedQSL",
+  "description": "Signez les données QSO pour les télécharger sur LoTW",
+  "longDescription": "<p>Bibliothèques et utilitaires open source permettant d'utiliser des signatures numériques pour les informations QSL en radioamateur.</p>\n<p>Un QSL est une confirmation de contact entre deux stations radioamateurs. Le projet Logbook of the World (ARRL) est une base de données qui centralise les contacts entre stations radio (QSOs). Ce paquet fournit le programme « tqsl » pour gérer vos certificats numériques LoTW, ainsi que pour signer et téléverser vos fichiers de journal QSO.</p>\n"
+}

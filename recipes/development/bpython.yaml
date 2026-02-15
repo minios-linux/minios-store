@@ -1,0 +1,69 @@
+id: "bpython"
+name: bpython
+description: A fancy interface to the python interpreter!
+longDescription: |
+  <p>bpython is a fancy interface to the Python interpreter, and has the following features:</p>
+  <p>  * In-line syntax highlighting.   * Readline-like autocomplete with suggestions displayed as you type   * Expected parameter list for any Python function. Uses pydoc to attempt to     divine params for C functions.   * &quot;Rewind&quot; function to pop the last line of code from memory and re-evaluate.     Note: this is only really useful when laying out classes and functions,     since a true &quot;undo&quot; function is impossible, so be careful when using this.   * Send the code you&apos;ve entered off to a pastebin and display the pastebin URL     for copying, etc.   * Save the code you&apos;ve entered to a file.   * Auto-indentation.   * Anti-Crash Mode.</p>
+  <p>This package contains bpython for Python 2.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bpython
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - python
+  - repl
+  - interpreter
+screenshotSources:
+  - url: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-2_orig.png
+    thumbnailUrl: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-2_624x355@1.png
+    width: 828
+    height: 472
+  - url: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-3_orig.png
+    thumbnailUrl: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-3_624x401@1.png
+    width: 828
+    height: 533
+  - url: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-4_orig.png
+    thumbnailUrl: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-4_224x77@1.png
+    width: 780
+    height: 271
+  - url: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-5_orig.png
+    thumbnailUrl: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-5_624x401@1.png
+    width: 828
+    height: 533
+  - url: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-6_orig.png
+    thumbnailUrl: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-6_624x717@1.png
+    width: 780
+    height: 897
+  - url: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-7_orig.png
+    thumbnailUrl: org/bpython-interpreter/bpython/257fe192649b9651b797cb47e45f5f7c/screenshots/image-7_224x84@1.png
+    width: 733
+    height: 278
+iconSources:
+  - cached: bpython_bpython.png
+    width: 64
+    height: 64
+homepage: "https://www.bpython-interpreter.org/"
+enabled: true
+order: 99

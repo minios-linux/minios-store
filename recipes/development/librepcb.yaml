@@ -1,0 +1,63 @@
+id: librepcb
+name: LibrePCB
+description: Design Schematics and PCBs
+longDescription: |
+  <p>LibrePCB is a free electronic design automation (EDA) software for developing printed circuit boards (PCBs).</p>
+  <p>Key Features:</p>
+  <ul>
+    <li>Cross-platform (Unix/Linux, macOS, Windows)</li>
+    <li>All-in-one package (project management, library/schematic/board editors)</li>
+    <li>Intuitive, modern and easy-to-use graphical user interface</li>
+    <li>Very powerful library design with some innovative concepts</li>
+    <li>Human-readable file formats</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - librepcb
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - eda
+  - pcb
+  - pcbs
+  - electronics
+  - schematics
+screenshotSources:
+  - url: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-1_orig.png
+    thumbnailUrl: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-1_624x445@1.png
+    width: 1160
+    height: 828
+  - url: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-2_orig.png
+    thumbnailUrl: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-2_624x453@1.png
+    width: 1004
+    height: 730
+  - url: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-3_orig.png
+    thumbnailUrl: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-3_624x454@1.png
+    width: 1000
+    height: 729
+  - url: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-4_orig.png
+    thumbnailUrl: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-4_624x454@1.png
+    width: 999
+    height: 727
+  - url: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-5_orig.png
+    thumbnailUrl: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-5_624x367@1.png
+    width: 900
+    height: 530
+  - url: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-6_orig.png
+    thumbnailUrl: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/screenshots/image-6_624x387@1.png
+    width: 983
+    height: 610
+iconSources:
+  - url: org/librepcb/LibrePCB/712e47d6e405d1eacf444591e253eb34/icons/128x128/librepcb_org.librepcb.LibrePCB.png
+    width: 128
+    height: 128
+homepage: "https://librepcb.org"
+enabled: true
+order: 99

@@ -1,0 +1,33 @@
+id: postgis-gui
+name: shp2pgsql-gui
+description: Import shapefiles into PostGIS databases
+longDescription: |
+  <p>PostGIS adds support for geographic objects to the PostgreSQL object-relational database. In effect, PostGIS &quot;spatially enables&quot; the PostgreSQL server, allowing it to be used as a backend spatial database for geographic information systems (GIS), much like ESRI&apos;s SDE or Oracle&apos;s Spatial extension. PostGIS follows the OpenGIS &quot;Simple Features Specification for SQL&quot;.</p>
+  <p>This package contains the PostGIS graphical shape file loader, shp2pgsql-gui.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - postgis-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - spatial
+  - postgis
+  - postgresql
+  - gis
+iconSources:
+  - cached: postgis-gui_shp2pgsql-gui.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

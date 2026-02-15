@@ -1,0 +1,48 @@
+id: "silverjuke"
+name: Silverjuke
+description: Play and organize music in an easy-to-use jukebox style
+longDescription: |
+  <p>Silverjuke is an easy to use jukebox solution implemented in wxWidgets. Some of the features are:  * Wide range of supported audio formats (MP1, MP2, MP3, MPC, MP+,    Ogg-Vorbis, FLAC, Monkey&apos;s Audio, WavPack, WAV, AIFF, MOD),    more formats can be implemented using modules  * Internal sound processing with 32 bit (for crossfading, autovolume,    jingles, smart shuffle, VST effect plugings)  * Kiosk mode, supports touchscreens  * Track information can be edited (ID3-tags)  * Support for playlists (M3U, PLS, CUE)  * Fully skinnable  * Powerful search</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - silverjuke
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - player
+  - mp3
+  - audio
+  - cd
+  - podcast
+  - playlist
+  - karaoke
+  - kiosk mode
+  - musicbox
+  - party
+iconSources:
+  - url: s/si/silverjuke.desktop/182cbf6d45399d6d924abb6aabcb1355/icons/128x128/silverjuke_silverjuke.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

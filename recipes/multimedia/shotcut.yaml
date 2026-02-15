@@ -1,0 +1,76 @@
+id: "shotcut"
+name: Shotcut
+description: Video editor
+longDescription: |
+  <p>
+        Shotcut is a free and open-source cross-platform video editing application for
+        Windows, macOS, and Linux.
+      </p>
+  <p>
+        Shotcut supports many video, audio, and image formats via FFmpeg and screen,
+        webcam, and audio capture. It uses a time-line for non-linear video editing of
+        multiple tracks that may be composed of various file formats. Scrubbing and
+        transport control are assisted by OpenGL GPU-based processing and a number of
+        video and audio filters are available.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - shotcut
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - video
+  - audio
+  - editing
+  - suite
+  - mlt
+  - 4k
+  - video4linux
+  - blackmagic
+  - decklink
+screenshotSources:
+  - url: org/shotcut/Shotcut/42977a2dfb56a2b759256ac51616eb33/screenshots/image-1_orig.png
+    thumbnailUrl: org/shotcut/Shotcut/42977a2dfb56a2b759256ac51616eb33/screenshots/image-1_624x385@1.png
+    width: 1282
+    height: 792
+  - url: org/shotcut/Shotcut/42977a2dfb56a2b759256ac51616eb33/screenshots/image-2_orig.png
+    thumbnailUrl: org/shotcut/Shotcut/42977a2dfb56a2b759256ac51616eb33/screenshots/image-2_624x423@1.png
+    width: 736
+    height: 500
+  - url: org/shotcut/Shotcut/42977a2dfb56a2b759256ac51616eb33/screenshots/image-3_orig.png
+    thumbnailUrl: org/shotcut/Shotcut/42977a2dfb56a2b759256ac51616eb33/screenshots/image-3_624x522@1.png
+    width: 957
+    height: 801
+  - url: org/shotcut/Shotcut/42977a2dfb56a2b759256ac51616eb33/screenshots/image-4_orig.png
+    thumbnailUrl: org/shotcut/Shotcut/42977a2dfb56a2b759256ac51616eb33/screenshots/image-4_224x86@1.png
+    width: 765
+    height: 297
+  - url: org/shotcut/Shotcut/42977a2dfb56a2b759256ac51616eb33/screenshots/image-5_orig.png
+    thumbnailUrl: org/shotcut/Shotcut/42977a2dfb56a2b759256ac51616eb33/screenshots/image-5_624x325@1.png
+    width: 800
+    height: 417
+iconSources:
+  - url: org/shotcut/Shotcut/42977a2dfb56a2b759256ac51616eb33/icons/128x128/shotcut_org.shotcut.Shotcut.png
+    width: 128
+    height: 128
+developer: "Meltytech, LLC"
+homepage: "https://www.shotcut.org/"
+enabled: true
+order: 99

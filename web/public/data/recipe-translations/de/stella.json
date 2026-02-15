@@ -1,0 +1,5 @@
+{
+  "name": "Stella",
+  "description": "Ein plattformübergreifender Atari-2600-Emulator",
+  "longDescription": "<p>Stella ist ein portabler Emulator für die klassische Atari-2600-Videospielkonsole. Damit lassen sich die meisten Atari-2600-Spiele spielen.</p>\n<p>Zu den Funktionen von Stella gehören:  * Emulation von Atari-2600-Joysticks, Tastaturen, Paddle- und Lenkrad-Controllern mithilfe der Eingabegeräte des Host-Systems;  * Emulation von Trackballs, Joysticks, Booster-Griffs, Lenkrad-Controllern und der Amiga-Maus über die Maus des Host-Systems;  * Unterstützung echter Atari-2600-Controller mit Stelladaptor, 2600-daptor oder 2600-daptor II;  * Unterstützung echter Atari-7800-Controller mit dem 2600-daptor II;  * Unterstützung des Sprachteils eines echten AtariVox-Geräts;  * Unterstützung für Supercharger-Einzel- und Mehrfachlade-Spiele;  * Emulation von CRT-TV-Features wie Texturierung, Farbsäume, RF-Rauschen und Phosphor-Nachleuchten (benötigt OpenGL).</p>\n<p>Ein umfangreicher Debugger mit Distella-Disassembler ist enthalten.</p>\n<p>Hinweis: Dies ist nicht das STELLA-Modellierungs-, Simulations- und Analysetool von isee systems.</p>\n"
+}

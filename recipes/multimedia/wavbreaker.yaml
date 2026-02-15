@@ -1,0 +1,43 @@
+id: "wavbreaker"
+name: Wavbreaker File Splitter
+description: Split wave files into multiple chunks
+longDescription: |
+  <p>This application&apos;s purpose in life is to take a wave file and break it up into multiple wave files.  It makes a clean break at the correct position to burn the files to an audio cd without any dead air between the tracks.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wavbreaker
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: net/sourceforge/wavbreaker/eae0569241e47a69e6533a1a86155507/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/wavbreaker/eae0569241e47a69e6533a1a86155507/screenshots/image-1_624x531.png
+    width: 767
+    height: 653
+iconSources:
+  - url: net/sourceforge/wavbreaker/eae0569241e47a69e6533a1a86155507/icons/128x128/wavbreaker_net.sourceforge.wavbreaker.png
+    width: 128
+    height: 128
+homepage: "https://wavbreaker.sourceforge.io/"
+enabled: true
+order: 99

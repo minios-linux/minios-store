@@ -1,0 +1,5 @@
+{
+  "name": "KBackup",
+  "description": "Créez des sauvegardes au format .tar dans un dossier local ou vers une URL distante",
+  "longDescription": "<p>\n      KBackup est une application qui vous permet de sauvegarder facilement vos données grâce à une interface conviviale.\n    </p>\n<p>Fonctionnalités :</p>\n<ul>\n  <li>Utilisation de profils pour définir les dossiers et fichiers à inclure ou à exclure de la sauvegarde</li>\n  <li>La destination des sauvegardes peut être un périphérique local monté (clé USB, disque ZIP, etc.) ou une URL distante</li>\n  <li>Possibilité d'exécuter des sauvegardes automatisées sans interface graphique</li>\n</ul>\n"
+}

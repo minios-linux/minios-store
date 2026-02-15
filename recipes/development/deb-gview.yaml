@@ -1,0 +1,43 @@
+id: deb-gview
+name: deb-gview
+description: Gtk viewer for Debian package files
+longDescription: |
+  <p>
+        Old name: dpkg-view. Changed to avoid a conflict with the dpkg- namespace.
+        deb-gview is designed for Debian developers, Debian applicants / sponsorees and the simply curious.
+      </p>
+  <p>
+        By default, File|Open displays the list of packages in the apt cache: /var/cache/apt/archives/
+        deb-gview also loads .deb files directly from the command line. This can be used  with file managers like Nautilus
+  to open .deb files from a file viewer window. This is not enabled automatically, yet. e.g. to enable this in Nautilus, right click a .deb file, select Open and select "Debian Package Viewer" from the list. Nautilus will now use  deb-gview to open .deb files in future.
+      </p>
+  <p>
+        deb-gview (&gt;= 0.1.0) can also load the .deb files listed in a .changes file, each in a new window.
+        deb-gview (&gt;= 0.1.0) can load a .deb or a .udeb from a local filesystem or a remote repository.
+      </p>
+  <p>
+        deb-gview will remain a .deb viewer rather than being extended to cope with any .tar.gz
+      </p>
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deb-gview
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - deb
+  - debian
+  - view
+  - open
+iconSources:
+  - cached: deb-gview_deb-gview.png
+    width: 64
+    height: 64
+homepage: "https://salsa.debian.org/debian/deb-gview"
+enabled: true
+order: 99

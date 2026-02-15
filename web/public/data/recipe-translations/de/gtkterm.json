@@ -1,0 +1,5 @@
+{
+  "name": "Serielle Schnittstellen-Terminal",
+  "description": "Kommunikation über die serielle Schnittstelle",
+  "longDescription": "<p>gtkterm ist ein einfaches GTK+-Terminal zur Kommunikation über die serielle Schnittstelle.</p>\n<p>Funktionen:</p>\n<p> * Terminalfenster für serielle Schnittstellen  * Konfiguration von Port (Geschwindigkeit, Parität, Datenbits, Stoppbits, Flusskontrolle)  * Nutzung der termios-API  * Möglichkeit, Dateien zu senden (nur RAW-Daten, kein Protokoll)  * Zeilenende-Verzögerung beim Dateiversand  * Spezielles Zeichen als Auslöser für nächste Zeile beim Senden  * Manuelles Schalten von Steuerleitungen (DTR, CTS) möglich  * Auslesen des Status von Steuerleitungen (RTS, CD, DSR, RI)</p>\n<p> Autor:   Julien Schmitt &lt;julien@jls-info.com&gt;</p>\n"
+}

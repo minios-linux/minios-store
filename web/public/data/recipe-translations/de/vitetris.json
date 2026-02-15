@@ -1,0 +1,5 @@
+{
+  "name": "vitetris",
+  "description": "Tetris-Spiel für das Terminal",
+  "longDescription": "<p>Vitetris ist ein Tetris-Spiel, das direkt im Terminal gespielt wird. Es kann alleine oder zu zweit gespielt werden – entweder über das Netzwerk oder gemeinsam an einer Tastatur.</p>\n<p>Vitetris bietet mehr Funktionen und Optionen, als man von einem einfachen Textmodus-Spiel erwarten würde. Volle Eingabesteuerung, individuell anpassbares Erscheinungsbild und Netzwerkspiel, bei dem beide Spieler Schwierigkeitsgrad (Level und Höhe) unabhängig wählen können – solange man keinen Ton braucht (oder Tetris nicht grundsätzlich ablehnt), wird man nicht enttäuscht sein.</p>\n<p>Drehungen, Punktesystem, Level und Geschwindigkeit orientieren sich an den klassischen Nintendo-Tetris-Versionen, zusätzlich gibt es allerdings eine kurze Lock-Delay, die das Spielen auf höheren Levels ermöglicht. Ein dauerhaftes Verhindern des Setzens durch Ausnutzen der Lock-Delay ist jedoch nicht möglich.</p>\n"
+}

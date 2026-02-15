@@ -1,0 +1,35 @@
+id: "smtube"
+name: SMTube
+description: Browse and search videos from YouTube
+longDescription: |
+  <p>SMTube is a stand-alone graphical application which allows one to search and download Youtube videos. Although it is part of the SMPlayer project, it can be used with any multimedia player such as mpv, MPlayer, VLC, Totem or Dragon Player.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - smtube
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: s/sm/smtube.desktop/63e33ffdfbd54ccdca203b17729fc00c/icons/128x128/smtube_smtube.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

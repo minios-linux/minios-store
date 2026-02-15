@@ -1,0 +1,5 @@
+{
+  "name": "Live Clone",
+  "description": "Clonado de medios Live-Boot",
+  "longDescription": "<p>Esta aplicación permite crear memorias USB booteables a partir de una imagen iso-híbrida generada por Live-Build. Además, adapta automáticamente una partición de persistencia para aprovechar el espacio libre en la memoria USB.</p>\n<p>También incluye herramientas de gestión para memorias USB live: cuando estos dispositivos se usan a diario, pueden surgir inconsistencias en el área de persistencia que los vuelven inutilizables. Se proporcionan utilidades para respaldar los datos de persistencia cuando sea necesario, y para limpiar el área de persistencia y reutilizar la memoria USB.</p>\n<p>La aplicación detecta cuando se ejecuta desde un entorno Debian-Live, permitiendo el auto-clonado de manera transparente.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Volti",
+  "description": "Kontrol Volume Audio di Tray",
+  "longDescription": "<p>Volti adalah aplikasi GTK+ ringan untuk mengontrol volume audio langsung dari system tray atau area notifikasi.</p>\n<p>Fitur:  * tidak memerlukan PulseAudio, GStreamer, Phonon, dll. hanya membutuhkan ALSA  * aplikasi mixer internal, bisa memilih aplikasi mixer apa saja  * klik kiri membuka pengatur volume (slider)  * gulir roda mouse pada ikon tray untuk mengubah volume, besaran persentasenya dapat diatur  * klik tengah dapat dikonfigurasi untuk mematikan suara (mute) atau menampilkan mixer  * tooltip informatif dengan info kartu suara dan level volume  * mendukung tombol multimedia  * mendukung notifikasi desktop saat ada aksi pada tombol</p>\n"
+}

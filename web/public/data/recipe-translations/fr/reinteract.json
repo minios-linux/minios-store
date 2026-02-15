@@ -1,0 +1,5 @@
+{
+  "name": "Reinteract",
+  "description": "Shell interactif pour Python",
+  "longDescription": "<p>Reinteract est un outil d’expérimentation interactive avec Python, basé sur des « feuilles de calcul » contenant du code Python accompagné des résultats, affichés sous forme de texte ou de graphiques. Contrairement à un shell classique, il est possible de revenir modifier des instructions précédemment saisies et les résultats sont mis à jour en temps réel.</p>\n<p>Reinteract est particulièrement adapté à l’exploration du langage Python et à l’analyse de données avec NumPy et SciPy.</p>\n"
+}

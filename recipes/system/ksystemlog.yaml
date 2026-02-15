@@ -1,0 +1,44 @@
+id: "ksystemlog"
+name: KSystemLog
+description: System log viewer tool
+longDescription: |
+  <p>KSystemLog show all logs of your system, grouped by General (Default system log, Authentication, Kernel, X.org...), and optional Services (Apache, Cups, etc, ...). It includes many features to read nicely your log files:  * Colorize log lines depending on their severities  * Tabbed view to allow displaying several logs at the same time  * Auto display new lines logged  * Detailed information for each log lines</p>
+  <p>This package is part of the KDE administration module.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ksystemlog
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/ksystemlog/46a5703e3ac3d5858c026a6effe304a0/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ksystemlog/46a5703e3ac3d5858c026a6effe304a0/screenshots/image-1_624x564@1.png
+    width: 782
+    height: 708
+iconSources:
+  - url: org/kde/ksystemlog/46a5703e3ac3d5858c026a6effe304a0/icons/128x128/ksystemlog_utilities-log-viewer.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org"
+enabled: true
+order: 99

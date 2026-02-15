@@ -1,0 +1,47 @@
+id: kildclient
+name: KildClient
+description: Connect to MUDs (Multi User Dungeons)
+longDescription: |
+  <p>KildClient is a MUD Client written with the GTK+ windowing toolkit. It supports many common features of other clients, such as triggers, gags, aliases, macros, timers, and much more. But its main feature is the built-in Perl interpreter. You can at any moment execute Perl statements and functions to do things much more powerful than simply sending text the mud. Perl statements can also be run, for example, as the action of a trigger, allowing you to do complex things. Some built-in functions of KildClient allow interaction with the world, such as sending commands to it.</p>
+  <p>KildClient&apos;s ANSI support is extensive: it supports not only the common 16 colors, but also support underlined text (singly and doubly), text in italics, text striked through, reverse video and &quot;hidden&quot; text. It also supports vt100&apos;s line-drawing characters, and xterm&apos;s escape sequences for a 256-color mode. All these features make KildClient one of the clients with the most features for displaying the mud output.</p>
+  <p>Kildclient supports the MCCP (Mud Client Compression Protocol) protocol, versions 1 and 2, to reduce the necessary bandwidth.</p>
+  <p>KildClient allows connection through SOCKS4/5 and HTTP proxy servers.</p>
+  <p>KildClient supports the GMCP (also called ATCP2) and MSDP protocols for out-of-band communications between server and client.</p>
+  <p>This package contains the main program. Install the kildclient-doc package to access the HTML manual.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kildclient
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - connect
+  - play
+  - dungeon
+  - mush
+iconSources:
+  - cached: kildclient_kildclient.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Jamulus",
+  "description": "Sesión de Jam",
+  "longDescription": "<p>Jamulus es un cliente y servidor de audio de baja latencia que permite a músicos realizar sesiones de “jam” en tiempo real a través de internet. Está disponible para múltiples plataformas, por lo que participantes de cualquier ámbito pueden comunicarse sin requerir una configuración especializada. Por supuesto, su uso no se limita a la música; también es apto para otras aplicaciones, como conferencias.</p>\n<p>Un participante debe iniciar Jamulus en modo servidor, preferentemente en una máquina (virtual) dedicada; los demás utilizan el cliente (gráfico), que transmite el audio al servidor y recibe de vuelta una mezcla de las señales. Se recomienda el uso de un metrónomo.</p>\n"
+}

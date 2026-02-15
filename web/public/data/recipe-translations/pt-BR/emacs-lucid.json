@@ -1,0 +1,5 @@
+{
+  "name": "Emacs (Terminal)",
+  "description": "O GNU Emacs é um editor de texto extensível e personalizável — e muito mais",
+  "longDescription": "<p>O GNU Emacs é um editor de texto extensível e autodocumentável. Este pacote contém uma versão do Emacs com suporte a interface gráfica baseada no toolkit Lucid (em vez da interface GTK+ fornecida pelo pacote emacs-gtk). Até que alguns problemas conhecidos do GTK+ sejam corrigidos, esta versão pode ajudar a evitar travamentos do Emacs durante uma desconexão do emacsclient. Para mais informações, consulte https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=567934 e https://bugzilla.gnome.org/show_bug.cgi?id=85715.</p>\n"
+}

@@ -1,0 +1,1 @@
+camera.app_app-icon.png

@@ -1,0 +1,5 @@
+{
+  "name": "Configurações do Budgie Desktop",
+  "description": "Altere a aparência e o comportamento da área de trabalho",
+  "longDescription": "<p>O Budgie Desktop é um ambiente de área de trabalho baseado em GTK+ que prioriza simplicidade e elegância. Ele oferece uma interface tradicional baseada no conceito de área de trabalho, utilizando um sistema de painéis personalizáveis com menus. O Budgie Desktop é desenvolvido do zero, aproveitando vários subsistemas do GNOME, como GNOME-Session e Mutter.</p>\n<p>Este é o pacote base do budgie-desktop. Ele fornece: arquivo de inicialização automática do GNOME Network Manager especificamente para Budgie, plugins para o budgie-desktop, traduções e ícones, executáveis do budgie-desktop, esquemas GLib e o arquivo de sessão para o budgie-desktop.</p>\n"
+}

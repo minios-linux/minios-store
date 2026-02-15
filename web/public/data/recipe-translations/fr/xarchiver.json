@@ -1,0 +1,5 @@
+{
+  "name": "Xarchiver",
+  "description": "Gestionnaire d'archives léger basé sur GTK+",
+  "longDescription": "<p>Xarchiver est une interface légère et indépendante de l'environnement de bureau, utilisant GTK+, pour gérer les formats xz, 7z, lzma, arj, bzip2, gzip, rar, tar, zip, rpm, lz4, compress, zstd, lzip, lrzip, lzop, lha et deb. Il permet de créer des archives, d’y ajouter, d’extraire ou de supprimer des fichiers. La gestion des archives protégées par mot de passe est supportée pour les formats arj, 7z, rar, zip et lrzip.</p>\n"
+}

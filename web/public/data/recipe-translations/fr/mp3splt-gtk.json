@@ -1,0 +1,5 @@
+{
+  "name": "Mp3splt-gtk audio splitter",
+  "description": "Découpez des fichiers mp3 et ogg sans décompression",
+  "longDescription": "<p>Ce paquet fournit une interface graphique pour découper des fichiers audio à des positions de début et de fin spécifiques, sans avoir à les décompresser. Pour le découpage d'un album, vous pouvez sélectionner manuellement les points de séparation et les noms de fichiers, ou les importer depuis des fichiers CDDB ou cue. Le découpage sur les silences et la prise en charge des données provenant de Mp3Wrap ou AlbumWrap sont également supportés. Pour les fichiers mp3, les tags ID3v1 et ID3v2 sont gérés. Une interface en ligne de commande est disponible dans le paquet mp3splt.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Syncthing Tray",
+  "description": "Application de barre d'état pour Syncthing",
+  "longDescription": "<ul>\n  <li>Application de barre d'état basée sur Qt pour Syncthing</li>\n  <li>Offre un accès rapide aux fonctionnalités les plus utilisées sans remplacer l'interface web officielle</li>\n  <li>Affiche les notifications de Syncthing</li>\n  <li>Peut lire le fichier de configuration local de Syncthing pour une configuration rapide lors de la connexion à une instance locale</li>\n  <li>Affiche le statut de l'unité systemd Syncthing et permet de la démarrer ou l'arrêter</li>\n  <li>Accès direct à l'interface web officielle</li>\n  <li>Permet de basculer rapidement entre plusieurs instances Syncthing</li>\n</ul>\n"
+}

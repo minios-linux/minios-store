@@ -1,0 +1,5 @@
+{
+  "name": "Bustle",
+  "description": "Desenhe diagramas de sequência da atividade do D-Bus",
+  "longDescription": "<p>O Bustle permite desenhar diagramas de sequência da atividade do D-Bus. Ele exibe emissões de sinais, chamadas de métodos e seus respectivos retornos, com marcações de tempo para cada evento individual e a duração de cada chamada de método. Isso pode ajudar a identificar tráfego indesejado no D-Bus e apontar por que sua aplicação baseada em D-Bus não está com o desempenho esperado. Também oferece estatísticas como frequência de sinais e tempos médios de chamadas de métodos.</p>\n"
+}

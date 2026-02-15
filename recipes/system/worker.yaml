@@ -1,0 +1,50 @@
+id: worker
+name: Worker
+description: File manager for X.
+longDescription: |
+  <p>Worker is a file manager much like the Amiga&apos;s DirOpus.  It can be controlled with mouse or keyboard.  There is no restriction on the number or type of button functions.  Files are recognized by both extension and content, content by recognizing common bytes in the sample files you show it.  Drag &amp; Drop is supported.</p>
+  <p>If xli or imagemagick is installed, it quickly previews pictures in the opposite pane.  If x11-utils is installed, xmessage is used to display some informative messages.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - worker
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - folder
+  - manager
+  - explore
+  - disk
+  - filesystem
+screenshotSources:
+  - url: de/boomerangsworld/worker/0eb1d343eef8deecdaf707bc361b0abe/screenshots/image-1_orig.png
+    thumbnailUrl: de/boomerangsworld/worker/0eb1d343eef8deecdaf707bc361b0abe/screenshots/image-1_624x481.png
+    width: 900
+    height: 694
+iconSources:
+  - cached: worker_Worker.png
+    width: 64
+    height: 64
+homepage: "http://www.boomerangsworld.de/cms/worker/"
+enabled: true
+order: 99

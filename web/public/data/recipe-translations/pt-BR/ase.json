@@ -1,0 +1,5 @@
+{
+  "name": "ASE GUI",
+  "description": "Interface Gráfica para o Ambiente de Simulação Atômica",
+  "longDescription": "<p>O ASE (Atomic Simulation Environment) é um ambiente de simulação atômica desenvolvido em Python, projetado para configurar, controlar e analisar simulações atômicas. O ASE faz parte do CAMPOS, o projeto CAMP Open Source.</p>\n<p>O ASE oferece interfaces em Python para diversos códigos de estrutura eletrônica, incluindo Abinit, Asap, Dacapo, Elk, GPAW e SIESTA.</p>\n<p>Este pacote fornece os scripts executáveis.</p>\n"
+}

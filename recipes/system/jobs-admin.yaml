@@ -1,0 +1,24 @@
+id: jobs-admin
+name: System Jobs
+description: Manage system jobs present on your computer
+longDescription: |
+  <p>jobs-admin is a simple GTK+ utility that allows any administrator to easily configure jobs (services) present on their system. Jobs may be enabled and disabled, started and stopped, and can even provide tweakable settings about services.</p>
+  <p>jobs-admin uses jobservice as its backend over D-Bus.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jobs-admin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: jobs-admin_system-run.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

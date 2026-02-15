@@ -1,0 +1,37 @@
+id: "yudit"
+name: Yudit
+description: View and edit files
+longDescription: |
+  <p>yudit is a Unicode text editor for the X Window System. It does not need localized environment or Unicode fonts. It supports simultaneous processing of many languages, conversions for local character standards, bidirectional input, has its own input methods. The package includes conversion utilities, and it also has support for PostScript printing.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yudit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: y/yu/yudit.desktop/ec3fd69e66fc7aaed60b66456e989bb0/icons/128x128/yudit_yudit.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

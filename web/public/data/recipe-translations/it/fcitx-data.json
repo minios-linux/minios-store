@@ -1,0 +1,5 @@
+{
+  "name": "Fcitx",
+  "description": "Avvia metodo di input",
+  "longDescription": "<p>Fcitx è un framework per metodi di input con supporto alle estensioni, che offre un'interfaccia per l'inserimento di caratteri di diversi alfabeti nelle applicazioni tramite una varietà di sistemi di mappatura.</p>\n<p>Offre un'esperienza moderna e piacevole, con strumenti di configurazione grafica intuitivi e supporto per skin e tabelle di mappatura personalizzabili. È altamente modulare ed estensibile, compatibile con moduli IM GTK+ 2/3 e Qt4, interfacce grafiche basate su Fbterm, Xlib puro, GTK+ o KDE, e dispone di API pensate per gli sviluppatori.</p>\n<p>Questo pacchetto fornisce i file dati essenziali. Per ottenere un'esperienza di input completa si consiglia di installare invece il pacchetto \"fcitx\".</p>\n"
+}

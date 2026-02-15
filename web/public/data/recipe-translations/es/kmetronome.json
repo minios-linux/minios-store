@@ -1,0 +1,5 @@
+{
+  "name": "KMetronome",
+  "description": "Metrónomo MIDI de KDE utilizando secuenciador ALSA",
+  "longDescription": "<p>KMetronome es un metrónomo basado en MIDI que utiliza el secuenciador ALSA.</p>\n<p>Está dirigido a músicos y estudiantes de música. Al igual que los metrónomos físicos tradicionales, es una herramienta para mantener el ritmo durante la interpretación de instrumentos musicales.</p>\n<p>Utiliza MIDI para la generación de sonido en lugar de audio digital, lo que permite un bajo consumo de CPU y una temporización muy precisa gracias al secuenciador ALSA.</p>\n"
+}

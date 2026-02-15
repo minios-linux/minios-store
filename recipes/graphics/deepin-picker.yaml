@@ -1,0 +1,36 @@
+id: "deepin-picker"
+name: Deepin Picker
+description: Color picker
+longDescription: |
+  <p>Deepin Picker is a fast screen color picking tool developed by Deepin Technology. The RGB, RGBA, HEX, CMYK and HSV code can be obtained according color picked and auto saved to the clipboard.</p>
+  <p>This package is part of DDE (Deepin Desktop Environment).</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deepin-picker
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: d/de/deepin-picker.desktop/AE301DB63932CEEC3B264C641C80D2ED/icons/128x128/deepin-picker_deepin-picker.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,39 @@
+id: ddd
+name: Data Display Debugger
+description: Graphical debugger frontend
+longDescription: |
+  <p>The Data Display Debugger (DDD) is a popular graphical user interface to UNIX debuggers such as GDB, DBX, XDB, JDB and others. Besides typical front-end features such as viewing source texts and breakpoints, DDD provides an interactive graphical data display, where data structures are displayed as graphs. Using DDD, you can reason about your application by watching its data, not just by viewing it execute lines of source code.</p>
+  <p>Other DDD features include: debugging of programs written in Ada, Bash, C, C++, Chill, Fortran, Java, Modula, Pascal, Perl and Python; machine-level debugging; hypertext source navigation and lookup; breakpoint, backtrace, and history editors; preferences and settings editors; program execution in terminal emulator window; debugging on remote host; on-line manual; interactive help on the Motif user interface; GDB/DBX/XDB command-line interface with full editing, history, and completion capabilities.</p>
+  <p>This version is linked against Lesstif, an LGPL-ed implementation of Motif.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ddd
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ddd_ddd.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,40 @@
+id: "yuview"
+name: YUView
+description: "QT based, cross-platform YUV player with an advanced analytic toolset"
+longDescription: |
+  <p>
+        YUView is a Qt based YUV player with an advanced analytic toolset for Linux, Windows and Mac. At its core, YUView is a powerful YUV player that can open and show almost any YUV format. With its simple interface it is easy to navigate through sequences and inspect details and a side by side and comparison view can help to spot differences between two sequences. A sophisticated statistics renderer can overlay the video with supplemental information. More features include playlists, support for visual tests and presentations, support of compressed formats (through libde265 and FFmpeg), support for raw RGB files as well as image files and image sequences, and many more.  
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yuview
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: de/rwth_aachen/ient.YUView/ca7df68656c9040983dc65dcc151a61e/screenshots/image-1_orig.png
+    thumbnailUrl: de/rwth_aachen/ient.YUView/ca7df68656c9040983dc65dcc151a61e/screenshots/image-1_624x478@1.png
+    width: 1028
+    height: 789
+iconSources:
+  - url: de/rwth_aachen/ient.YUView/ca7df68656c9040983dc65dcc151a61e/icons/128x128/yuview_de.rwth_aachen.ient.YUView.png
+    width: 128
+    height: 128
+developer: "Lehrstuhl und Institut für Nachrichtentechnik, RWTH Aachen"
+homepage: "https://github.com/IENT/YUView"
+enabled: true
+order: 99

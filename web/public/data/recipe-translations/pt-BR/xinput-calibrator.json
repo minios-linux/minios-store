@@ -1,0 +1,5 @@
+{
+  "name": "Calibrar Tela Sensível ao Toque",
+  "description": "Execute a ferramenta de calibração para telas sensíveis ao toque",
+  "longDescription": "<p>O xinput-calibrator é uma ferramenta para calibrar telas sensíveis ao toque no X.Org. Seus recursos incluem: <ul><li>funciona com qualquer driver Xorg (usa Xinput para obter os valores dos eixos);</li><li>gera a calibração nos formatos Xorg.conf, política HAL e regra udev;</li><li>suporta opções avançadas de drivers, como calibração dinâmica do Evdev;</li><li>interface gráfica muito intuitiva (cliente X padrão);</li></ul></p>"
+}

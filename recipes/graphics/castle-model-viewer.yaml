@@ -1,0 +1,32 @@
+id: castle-model-viewer
+name: castle-model-viewer
+description: "View 3D and 2D models in various formats, including glTF, X3D, VRML and other formats supported by the Castle Game Engine"
+longDescription: |
+  <p>Castle Model Viewer (CMV) is a viewer for many 3D model formats:  - X3D  - VRML (1.0 and 2.0, aka VRML 97)  - Collada  - OpenInventor  - 3DS  - MD3  - Wavefront OBJ  - Videoscape GEO  - KAnim (Castle Game Engine animations)</p>
+  <p>Various navigation modes are available, like Examine, Walk (with gravity), Fly. Collision detection is done. Models can be animated and interactive. Many graphic effects are possible, thanks to using Castle Game Engine underneath.</p>
+  <p>CMV may also be used to convert many 3D model formats to X3D (in classic and XML encoding). This package includes also a command-line castle-model-converter program, that performs the same conversions as CMV, but doesn&apos;t use X or OpenGL (so it&apos;s nice to use in scripts to convert 3D models in batch mode).</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - castle-model-viewer
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - browser
+  - vrml
+  - x3d
+  - collada
+  - md3
+  - spine
+iconSources:
+  - url: c/ca/castle-model-viewer.desktop/963b908e42d799a6c5a4a0cd2a394826/icons/128x128/castle-model-viewer_castle-model-viewer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

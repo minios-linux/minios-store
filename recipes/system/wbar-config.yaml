@@ -1,0 +1,37 @@
+id: wbar-config
+name: Wbar-config
+description: GUI tool to configure Wbar
+longDescription: |
+  <p>Wbar-config is a lightweight and easy to use GUI application to customize wbar. Among other things it is capable of changing icon size and distance and to adjust the position of the launch bar on the screen. You can also tune different graphical effects like transparency, color filter, zoom and jump factor of wbar.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wbar-config
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - gtk
+  - launcher
+  - lightweight
+  - simple
+  - settings
+  - bar
+  - administration
+iconSources:
+  - url: w/wb/wbar-config.desktop/A2E9FF9539CBDA17C3DB6EC44C3A36AD/icons/128x128/wbar-config_wbar.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

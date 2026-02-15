@@ -1,0 +1,5 @@
+{
+  "name": "CubicSDR",
+  "description": "Aplicação de Rádio Definido por Software",
+  "longDescription": "<p>O CubicSDR é um aplicativo multiplataforma de Rádio Definido por Software (SDR) que permite explorar o espectro de rádio e demodular qualquer sinal encontrado. Atualmente, inclui diversos esquemas de demodulação analógica comuns, como AM e FM, e futuramente contará com suporte a modos digitais.</p>\n<p>O CubicSDR utiliza o SoapySDR para acessar dispositivos SDR, oferecendo compatibilidade com todo o hardware para o qual exista um módulo SoapySDR.</p>\n"
+}

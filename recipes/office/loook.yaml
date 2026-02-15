@@ -1,0 +1,31 @@
+id: loook
+name: Loook
+description: Search strings in ODF documents
+longDescription: |
+  <p>You can look for strings in all ODF text documents, spreadsheets, presentations, drawings and forms.  E.g. from OpenOffice.org, Libreoffice, Apache OpenOffice and other programs, creating ODF files.</p>
+  <p>Loook has a convenient graphical user interface.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - loook
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - office
+  - utility
+  - odf files
+  - search
+iconSources:
+  - cached: loook_loook.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

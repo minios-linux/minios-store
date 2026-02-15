@@ -1,0 +1,41 @@
+id: "vim-common"
+name: Vim
+description: Edit text files
+longDescription: |
+  <p>Vim is an almost compatible version of the UNIX editor Vi.</p>
+  <p>This package contains files shared by all non GUI-enabled vim variants available in Debian.  Examples of such shared files are: manpages and configuration files.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vim-common
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+iconSources:
+  - url: v/vi/vim.desktop/56f85edcf9063f71f53f776723034a46/icons/128x128/vim-common_gvim.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

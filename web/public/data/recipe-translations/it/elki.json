@@ -1,0 +1,5 @@
+{
+  "name": "ELKI",
+  "description": "Framework per lo sviluppo di algoritmi di data mining",
+  "longDescription": "<p>ELKI: \"Environment for Developing KDD-Applications Supported by Index-Structures\" è un framework per lo sviluppo di algoritmi di data mining scritto in Java. Include un'ampia gamma di algoritmi di data mining, funzioni di distanza e strutture di indicizzazione molto diffuse.</p>\n<p>Il suo focus è particolarmente orientato sui metodi di clustering e rilevamento degli outlier, a differenza di molti altri toolkit di data mining che si concentrano sulla classificazione. Offre inoltre il supporto a strutture di indicizzazione come R*-Tree e M-Tree per migliorare le prestazioni degli algoritmi.</p>\n<p>L'architettura modulare consente di aggiungere componenti personalizzati come funzioni di distanza o algoritmi, mantenendo la possibilità di riutilizzare le altre parti per le valutazioni.</p>\n<p>Questo pacchetto contiene la versione compilata di ELKI e gli script di avvio.</p>\n"
+}

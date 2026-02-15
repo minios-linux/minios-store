@@ -1,0 +1,51 @@
+id: "gucharmap"
+name: Character Map
+description: Insert special characters into documents
+longDescription: |
+  <p>GNOME Character Map is a Unicode character map program, part of GNOME desktop. This program allows characters to be displayed by unicode block or script type. It includes brief descriptions of related characters and occasionally meanings of the character in question.</p>
+  <p>Gucharmap can also be used to input or enter characters (by copy and paste). The search functionality allows the use of several search methods, including by unicode name or code point of the character.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gucharmap
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - font
+  - unicode
+screenshotSources:
+  - url: g/gu/gucharmap.desktop/d5d96ec9d3aeea788cbab7e1160e7cee/screenshots/image-1_orig.png
+    thumbnailUrl: g/gu/gucharmap.desktop/d5d96ec9d3aeea788cbab7e1160e7cee/screenshots/image-1_624x504@1.png
+    width: 962
+    height: 777
+  - url: g/gu/gucharmap.desktop/d5d96ec9d3aeea788cbab7e1160e7cee/screenshots/image-2_orig.png
+    thumbnailUrl: g/gu/gucharmap.desktop/d5d96ec9d3aeea788cbab7e1160e7cee/screenshots/image-2_624x504@1.png
+    width: 962
+    height: 777
+iconSources:
+  - url: g/gu/gucharmap.desktop/d5d96ec9d3aeea788cbab7e1160e7cee/icons/128x128/gucharmap_accessories-character-map.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Gucharmap"
+enabled: true
+order: 99

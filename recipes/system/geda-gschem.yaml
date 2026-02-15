@@ -1,0 +1,26 @@
+id: geda-gschem
+name: gEDA Schematic Editor
+description: Create and edit electrical schematics and symbols with gschem
+longDescription: |
+  <p>The gEDA project has produced and continues working on a full GPL&apos;d suite and toolkit of Electronic Design Automation tools. These tools are used for electrical circuit design, schematic capture, simulation, prototyping, and production. Currently, the gEDA project offers a mature suite of free software applications for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.</p>
+  <p>This package contains gschem, the schematic editor.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - geda-gschem
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/ge/geda-gschem.desktop/2CA015F19E57FFEB0FE30AD5D70CC213/icons/128x128/geda-gschem_geda-gschem.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

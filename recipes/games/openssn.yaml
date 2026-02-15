@@ -1,0 +1,37 @@
+id: openssn
+name: OpenSSN
+description: Command a submarine in a deep ocean environment
+longDescription: |
+  <p>OpenSSN is a submarine simulation (subsim) which tries to emulate the behaviour of modern submarines. The player is placed in command of a submarine and is able to move about in a deep ocean environment.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openssn
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: openssn_openssn.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

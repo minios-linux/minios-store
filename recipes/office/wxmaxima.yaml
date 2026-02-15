@@ -1,0 +1,64 @@
+id: "wxmaxima"
+name: wxMaxima
+description: "A graphical user interface for Maxima, a powerful computer algebra system"
+longDescription: |
+  <p>wxMaxima is a graphical user interface for the computer algebra system Maxima:
+        a program that solves mathematical problems by manipulating
+        equations (and outputting the resulting formula), instead of just
+        calculating a number. wxMaxima eases the use of Maxima by making
+        most of its commands available through a menu system and by
+        providing input dialogs for commands that require more than one
+        argument. It also implements its own display engine that outputs
+        mathematical symbols directly instead of depicting them with
+        ASCII characters.</p>
+  <p>wxMaxima also features 2D and 3D inline plots, simple animations,
+        mixing of text and mathematical calculations to create documents,
+        exporting of input and output to TeX, document structuring and a
+        browser for Maxima&apos;s manual including command index and full text
+        searching.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wxmaxima
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - maths
+  - cas
+  - algebra
+  - education
+  - engineering
+  - physics
+screenshotSources:
+  - url: io/github/wxmaxima_developers.wxMaxima/94faa558f6f6ee4ad8f428baa32fd7ec/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/wxmaxima_developers.wxMaxima/94faa558f6f6ee4ad8f428baa32fd7ec/screenshots/image-1_624x351@1.png
+    width: 1440
+    height: 810
+iconSources:
+  - url: io/github/wxmaxima_developers.wxMaxima/94faa558f6f6ee4ad8f428baa32fd7ec/icons/128x128/wxmaxima_io.github.wxmaxima_developers.wxMaxima.png
+    width: 128
+    height: 128
+developer: wxMaxima Team
+homepage: "https://wxMaxima-developers.github.io/wxmaxima/"
+enabled: true
+order: 99

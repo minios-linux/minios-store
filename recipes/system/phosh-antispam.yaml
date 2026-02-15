@@ -1,0 +1,71 @@
+id: "phosh-antispam"
+name: Anti-Spam
+description: A GTK template application
+longDescription: |
+  <p>
+        Anti-Spam is a simple GTK Application that can be used as a
+        template to begin your GTK Application development.  The
+        application is not by itself any much interesting.  Get the
+        source code and build your favorite application on top.
+  
+  
+        Both GTK3 and GTK4 are supported.  Use new-project.sh script
+        to create a new project.
+      </p>
+  <p>Features:</p>
+  <ul>
+    <li>Written in C programming language</li>
+    <li>[G]Object Oriented Design</li>
+    <li>Supports GTK3 and GTK4</li>
+    <li>Uses Meson build system</li>
+    <li>Flatpak support included</li>
+    <li>GitLab CI configuration included</li>
+    <li>Microsoft Windows support with MinGW and msitools</li>
+    <li>GtkBuilder .ui templates for UI</li>
+    <li>Application specific CSS</li>
+    <li>Keyboard shortcuts window</li>
+    <li>Handles commandline arguments</li>
+    <li>Tab completion for commandline</li>
+    <li>Internationalisation using gettext</li>
+    <li>Documentations for code using gtk-doc</li>
+    <li>Mallard based help for GNOME Help</li>
+    <li>Manpage in docbook XML format</li>
+    <li>GSettings integration</li>
+    <li>Symbolic and non-symbolic icons</li>
+    <li>Script to generate non-symbolic icons from symbolic ones</li>
+    <li>Uncrustify configuration and script</li>
+    <li>Meson based unit tests</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - phosh-antispam
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - utility
+  - gtk
+  - gnome
+screenshotSources:
+  - url: org/kop316/antispam/ecaae538622f77eba8e7264e4bc3a045/screenshots/image-1_orig.png
+    thumbnailUrl: org/kop316/antispam/ecaae538622f77eba8e7264e4bc3a045/screenshots/image-1_624x1248@1.png
+    width: 720
+    height: 1440
+iconSources:
+  - url: org/kop316/antispam/ecaae538622f77eba8e7264e4bc3a045/icons/128x128/phosh-antispam_org.kop316.antispam.png
+    width: 128
+    height: 128
+developer: Chris Talbot
+homepage: "https://gitlab.com/kop316/phosh-antispam"
+enabled: true
+order: 99

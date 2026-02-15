@@ -1,0 +1,5 @@
+{
+  "name": "Budgie Quickchar",
+  "description": "Finden und Einfügen landesspezifischer Zeichen für ASCII-Zeichen",
+  "longDescription": "<p>\n      Budgie Quickchar ist eine kleine Anwendung, um Sonderzeichen schnell zu finden und einzufügen:\n    </p>\n<ul>\n  <li>Mit Super+Alt+C das Fenster öffnen (benötigt budgie-extras und budgie-extras-daemon)</li>\n  <li>Geben Sie ein Zeichen ein, alle zugehörigen Varianten werden angezeigt.</li>\n  <li>Klicken Sie auf ein Zeichen (oder navigieren Sie mit Tab und drücken Sie Enter), um es in das Dokument einzufügen.</li>\n  <li>Nochmals drücken, um die Sichtbarkeit umzuschalten, oder Escape zum Ausblenden.</li>\n</ul>\n<p>\n    Diese Anwendung wurde hauptsächlich für Budgie Desktop entwickelt, funktioniert aber auch auf allen X11-basierten Desktops.\n    </p>\n"
+}

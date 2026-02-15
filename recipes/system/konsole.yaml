@@ -1,0 +1,52 @@
+id: "konsole"
+name: Konsole
+description: Terminal
+longDescription: |
+  <p>Konsole is an X terminal emulator, often referred to as a terminal or a shell. It emulates a command line interface in a text only window.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Tabs</li>
+    <li>Multiple profiles</li>
+    <li>Silence and Activity monitoring</li>
+    <li>Bookmark support</li>
+    <li>Searching</li>
+    <li>Saving output</li>
+  </ul>
+  
+categoryId: system
+icon: Terminal
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - konsole
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/konsole.desktop/8e798ac0eec230a840e360aa98ec2d32/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/konsole.desktop/8e798ac0eec230a840e360aa98ec2d32/screenshots/image-1_624x431@1.png
+    width: 1252
+    height: 865
+iconSources:
+  - url: org/kde/konsole.desktop/8e798ac0eec230a840e360aa98ec2d32/icons/128x128/konsole_utilities-terminal.png
+    width: 128
+    height: 128
+homepage: "https://konsole.kde.org/"
+enabled: true
+order: 99

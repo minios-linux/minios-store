@@ -1,0 +1,5 @@
+{
+  "name": "PyMca",
+  "description": "Analisi dati di fluorescenza a raggi X",
+  "longDescription": "<p>PyMca è un insieme di applicazioni e librerie Python per l'analisi di spettri di fluorescenza a raggi X.</p>\n<p>Le applicazioni incluse in questo pacchetto sono:</p>\n<p> * edfviewer - Visualizzazione e ispezione di file dati in formato ESRF Data Format  * elementsinfo - Mostra dati specifici degli elementi relativi ai raggi X  * mca2edf - Converte file dal formato SPEC MCA a EDF  * peakidentifier - Visualizza i picchi di fluorescenza X in un intervallo di energie specificato  * pymcabatch - Adattamento batch degli spettri  * pymcapostbatch - Post-processing dei risultati degli adattamenti batch  * pymca - Analisi dati interattiva  * pymcaroitool - Strumento di imaging per regioni di interesse (ROI)</p>\n<p>Il toolkit PyMca può leggere file dati nei formati SPEC, ESRF data file (EDF), OMNIC, HDF5, AIFIRA e SupaVisio.</p>\n<p>Questi sono gli script inclusi nel pacchetto.</p>\n"
+}

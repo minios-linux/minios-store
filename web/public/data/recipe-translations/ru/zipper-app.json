@@ -1,0 +1,5 @@
+{
+  "name": "Zipper",
+  "description": "Менеджер архивов для GNUstep",
+  "longDescription": "<p>Zipper — инструмент для просмотра и распаковки архивов в среде GNUstep. Возможности:</p>\n<p> • Распаковка архивов форматов Tar (.tar.gz, .tar.bz2, .tar.xz), LHA (.lha, .lzx), RAR (.rar), ZIP (.zip), 7z (.7z, .7za), ZOO (.zoo), ACE (.ace) и ARJ (.arj)<br> • Создание архивов (.tar.gz, .tar.bz2, .tar.xz, .lha, .zip, .7z/.7za, .zoo)<br> • Сервис GNUstep для «Создать архив»</p>\n"
+}

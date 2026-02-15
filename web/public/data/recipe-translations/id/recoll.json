@@ -1,0 +1,5 @@
+{
+  "name": "Recoll",
+  "description": "Cari dokumen dengan memasukkan kata kunci",
+  "longDescription": "<p>Paket ini adalah perangkat pencarian teks lengkap pribadi yang didukung oleh backend yang sangat kuat (Xapian), dan menyediakan antarmuka yang mudah digunakan namun kaya fitur.</p>\n<p>Fitur:  * Antarmuka GUI berbasis Qt  * Mendukung tipe dokumen berikut (dan versi kompresinya)   - Secara native: teks, html, file OpenOffice, maildir dan mailbox (email Mozilla dan IceDove) beserta lampirannya, file log pidgin   - Dengan bantuan eksternal: pdf (pdftotext), postscript (ghostscript), msword (antiword), excel, ppt (catdoc), rtf (unrtf)  * Fasilitas kueri yang kuat, dengan pencarian boolean, frasa, filter berdasarkan tipe file dan struktur direktori  * Dukungan berbagai charset, pemrosesan internal dan penyimpanan menggunakan Unicode UTF-8  * Stemming dilakukan saat pencarian (bahasa stemming dapat diubah setelah pengindeksan)  * Instalasi mudah. Tidak memerlukan database daemon, web server, atau bahasa pemrograman khusus  * Pengindeks yang bisa berjalan sebagai thread di dalam GUI atau program eksternal yang bisa dijalankan melalui cron</p>\n"
+}

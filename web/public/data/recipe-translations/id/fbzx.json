@@ -1,0 +1,5 @@
+{
+  "name": "FBZX",
+  "description": "Emulator ZX Spectrum",
+  "longDescription": "<p>FBZX adalah emulator Sinclair ZX Spectrum. Fitur utamanya meliputi:\n   emulasi akurat untuk Original Spectrum (baik issue 2 maupun issue 3), classic 128K, Amstrad Plus 2, Amstrad\nPlus 2A, dan Spanish 128K. Termasuk emulasi layar, keyboard, serta suara (baik speaker maupun chip AY-3-8912). Emulasi layar sangat akurat, sehingga dapat meniru efek border bahkan efek atribut. Mendukung snapshot Z80, baik pemuatan maupun penyimpanan, serta pemuatan snapshot .SNA. Mendukung file tape TAP (baca/tulis) dan TZX (baca saja), dengan dukungan loading kecepatan normal dan cepat. Mendukung emulasi joystick: kempston, cursor, dan sinclair. Juga mensimulasikan Interface I dan Microdrive. Mendukung ULAPlus. Berdasarkan emulator Z80 baru yang sepenuhnya gratis (Z80Free).</p>\n"
+}

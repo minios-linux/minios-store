@@ -1,0 +1,45 @@
+id: "mediathekview"
+name: MediathekView
+description: View streams from public German TV stations
+longDescription: |
+  <p>This application searches for various media center video content of the German television program (ARD, ZDF, Arte, 3Sat, MDR, ORF, SRF and many more). You can watch, download and even subscribe to an offered show.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mediathekview
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - stream
+  - television
+  - german
+  - public
+  - tv
+  - video
+  - audio
+iconSources:
+  - url: m/me/mediathekview.desktop/55314fa08abf44c791bdf2ecd6cc0d60/icons/128x128/mediathekview_MediathekView.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "QuteMol",
+  "description": "visualización interactiva de macromoléculas",
+  "longDescription": "<p>QuteMol es un sistema interactivo de visualización molecular de alta calidad. Aprovecha las capacidades actuales de las GPU mediante shaders OpenGL para ofrecer una variedad de efectos visuales innovadores. Las técnicas de visualización de QuteMol están orientadas a mejorar la claridad y facilitar la comprensión de la forma y estructura 3D de moléculas grandes o proteínas complejas.</p>\n<p>QuteMol utiliza técnicas avanzadas de OpenGL y puede no funcionar correctamente con todas las tarjetas gráficas y controladores.</p>\n<p>Entre las funciones que ofrece QuteMol se incluyen:</p>\n<p> * Oclusión ambiental en tiempo real  * Realce de siluetas según la profundidad  * Modos de visualización bola-y-varilla, espacio lleno y regaliz  * Capturas de pantalla de alta resolución con antialiasing para crear imágenes de calidad para publicaciones  * Generación automática de GIFs animados de moléculas girando para animaciones en páginas web  * Renderizado interactivo de macromoléculas (&gt;100k átomos)</p>\n<p>QuteMol lee archivos PDB como entrada.</p>\n"
+}

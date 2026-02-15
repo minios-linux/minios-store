@@ -1,0 +1,5 @@
+{
+  "name": "Heaptrack",
+  "description": "Profiler di memoria heap per Linux",
+  "longDescription": "<p>Heaptrack traccia tutte le allocazioni di memoria e annota questi eventi con i rispettivi stack trace. Gli strumenti di analisi dedicati ti permettono poi di interpretare il profilo della memoria heap per:</p>\n<ul>\n  <li>individuare i punti critici da ottimizzare per ridurre il consumo di memoria della tua applicazione</li>\n  <li>identificare memory leak, ovvero aree che allocano memoria che non viene mai liberata</li>\n  <li>rilevare hotspot di allocazione, ossia parti di codice che generano numerose richieste di memoria</li>\n  <li>trovare allocazioni temporanee, cioè quelle subito seguite dalla loro deallocazione</li>\n</ul>\n"
+}

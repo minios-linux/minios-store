@@ -1,0 +1,44 @@
+id: "fuse-emulator-gtk"
+name: Fuse (GTK+)
+description: Emulator of the 1980s ZX Spectrum home computer and its various clones
+longDescription: |
+  <p>Fuse is a Sinclair ZX Spectrum emulator. It supports several models (including 16K/48K/128K/+2/+2A/+3 and some clones), with quite faithful emulation of the display and sound.</p>
+  <p>Its features include:  * Accurate Spectrum 16K/48K/128K/+2/+2A/+3 emulation.  * Working Spectrum +3e and SE, Timex TC2048, TC2068 and TS2068,    Pentagon 128, &quot;512&quot; (Pentagon 128 with extra memory) and 1024 and    Scorpion ZS 256 emulation.  * Runs at true Speccy speed on any computer you&apos;re likely to try it    on.  * It can load Z80, SZX and SNA snapshots, TAP and TZX virtual-tape    files (including accelerated loading), MDR microdrive images and    DSK floppy disk images, among many others.  * Sound.  * Built-in debugger.  * Emulation of most of the common joysticks used on the Spectrum    (including Kempston, Sinclair and Cursor joysticks).  * Emulation of some of the printers you could attach to a Spectrum.  * Support for the RZX input recording file format, including    rollback and &apos;competition mode&apos;.  * Recording of movies to FMF files.  * Emulation of the Currah µSource, DivIDE, DivMMC, Interface 1,    Kempston mouse, Multiface One/128/3, Spectrum +3e, ZXATASP, ZXCF    and ZXMMC interfaces.  * Emulation of the Covox, Fuller audio box, Melodik and SpecDrum    audio interfaces.  * Emulation of the Beta 128, +D, Didaktik 80/40, DISCiPLE and Opus    Discovery disk interfaces.  * Emulation of the Spectranet and SpeccyBoot network interfaces.  * Support for the Recreated ZX Spectrum Bluetooth keyboard.</p>
+  <p>This package provides binaries for the GTK+ version of Fuse.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fuse-emulator-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - sinclair
+  - zx
+  - game
+  - retro
+iconSources:
+  - url: f/fu/fuse-gtk.desktop/71b29f051a957153ddcee2633d061a73/icons/128x128/fuse-emulator-gtk_fuse.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,26 @@
+id: plasma-settings
+name: Settings
+description: Settings for Plasma
+longDescription: |
+  <p>This package contains configuration modules for the Plasma mobile environment, allowing the user to modify in a graphical interface, various configurations related to audio, Bluetooth, monitor, default applications, virtual keyboard, notifications, time and date, localization, network modem, and other components of the Plasma environment.</p>
+  <p>It is based on Qt graphical libraries and KDE Frameworks. In particular, it relies on Kirigami so its user interface can fit a variety of display sizes. However, it has been optimized for touch devices, so desktop users should install the &apos;systemsettings&apos; package instead.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plasma-settings
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+tags:
+  - preferences
+  - settings
+iconSources:
+  - cached: plasma-settings_preferences-desktop.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

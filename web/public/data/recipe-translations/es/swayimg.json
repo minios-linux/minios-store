@@ -1,0 +1,5 @@
+{
+  "name": "Swayimg",
+  "description": "Visor de imágenes para Sway/Wayland",
+  "longDescription": "<p>El programa utiliza Sway IPC para determinar la geometría del contenedor actualmente enfocado. Estos datos se emplean para calcular la posición y el tamaño de la nueva ventana \"superpuesta\" que se usará para mostrar la imagen. Luego, swayimg añade dos reglas de Sway para su propia ventana: \"floating enable\" y \"move position\". Después, crea una nueva ventana en Wayland y muestra la imagen del archivo especificado.</p>\n"
+}

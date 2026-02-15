@@ -1,0 +1,72 @@
+id: "devhelp"
+name: Devhelp
+description: A developer tool for browsing and searching API documentation
+longDescription: |
+  <p>Devhelp is a developer tool for browsing and searching API documentation.
+        It provides an easy way to navigate through libraries and to search by
+        function, struct, or macro.</p>
+  <p>The documentation must be installed locally, so an internet connection is
+        not needed to use Devhelp.</p>
+  <p>Devhelp works natively with GTK-Doc, so the GTK+ and GNOME libraries are
+        well supported. But other development platforms can be supported as well,
+        as long as the API documentation is available in HTML and a *.devhelp2
+        index file is generated.</p>
+  <p>Devhelp integrates with other applications such as Glade, Builder or
+        Anjuta, and plugins are available for different text editors (gedit, Vim,
+        Emacs, Geany, …).</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - devhelp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - documentation
+  - information
+  - manual
+  - developer
+  - api
+screenshotSources:
+  - url: org/gnome/Devhelp.desktop/ef86f9b575590ef2856689f603d993de/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Devhelp.desktop/ef86f9b575590ef2856689f603d993de/screenshots/image-1_624x364@1.png
+    width: 1076
+    height: 628
+  - url: org/gnome/Devhelp.desktop/ef86f9b575590ef2856689f603d993de/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Devhelp.desktop/ef86f9b575590ef2856689f603d993de/screenshots/image-2_624x364@1.png
+    width: 1076
+    height: 628
+  - url: org/gnome/Devhelp.desktop/ef86f9b575590ef2856689f603d993de/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Devhelp.desktop/ef86f9b575590ef2856689f603d993de/screenshots/image-3_624x364@1.png
+    width: 1076
+    height: 628
+  - url: org/gnome/Devhelp.desktop/ef86f9b575590ef2856689f603d993de/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Devhelp.desktop/ef86f9b575590ef2856689f603d993de/screenshots/image-4_624x364@1.png
+    width: 1076
+    height: 628
+iconSources:
+  - url: org/gnome/Devhelp.desktop/ef86f9b575590ef2856689f603d993de/icons/128x128/devhelp_org.gnome.Devhelp.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Devhelp/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Snd (CLI+JACK)",
+  "description": "Editor suara (dengan dukungan ALSA, tanpa antarmuka grafis) yang dirancang menyerupai Emacs",
+  "longDescription": "<p>Snd adalah editor berkas suara yang fleksibel dan dapat dikustomisasi menggunakan bahasa pemrograman Scheme.</p>\n<p>Paket ini berisi versi snd yang dikompilasi dengan dukungan JACK dan ALSA, namun tanpa dukungan untuk X (antarmuka grafis).</p>\n"
+}

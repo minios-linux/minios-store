@@ -1,0 +1,5 @@
+{
+  "name": "Regina",
+  "description": "Software para topologia de baixa dimensão",
+  "longDescription": "<p>Regina é um pacote de software para topólogos de 3-variedades e 4-variedades, com foco em triangulações, superfícies normais e estruturas angulares.</p>\n<p>Para 3-variedades, inclui tarefas avançadas como reconhecimento de 3-esferas, decomposição em soma conexa e teste de Hakenness, além de oferecer um banco de dados completo de variedades do censo e incorporar o núcleo SnapPea para manipulação de variedades hiperbólicas. Para 4-variedades, disponibiliza diversas ferramentas combinatórias e algébricas, além de suporte para hipersuperfícies normais.</p>\n<p>O Regina conta com uma interface gráfica completa, além de bindings para Python e uma interface de programação em C++ de baixo nível.</p>\n<p>Este pacote inclui a interface gráfica e a interface de linha de comando em Python. O manual do usuário e a documentação da API estão disponíveis no pacote separado regina-normal-doc, enquanto as utilidades compatíveis com MPI para clusters de alto desempenho estão no pacote separado regina-normal-mpi.</p>\n"
+}

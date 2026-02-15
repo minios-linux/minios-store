@@ -1,0 +1,49 @@
+id: "josm"
+name: JOSM
+description: Java OpenStreetMap Editor
+longDescription: |
+  <p>JOSM is an extensible off-line editor for ​OpenStreetMap (OSM) written in ​Java.</p>
+  <p>It supports loading stand-alone GPX tracks and GPX track data from the OSM database as well as loading and 
+      editing existing nodes, ways, metadata tags and relations from the OSM database.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - josm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - openstreetmap
+  - osm
+screenshotSources:
+  - url: org/openstreetmap/josm/7df1321f113006b916f3bea7a9e212b8/screenshots/image-1_orig.png
+    thumbnailUrl: org/openstreetmap/josm/7df1321f113006b916f3bea7a9e212b8/screenshots/image-1_624x351@1.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: org/openstreetmap/josm/7df1321f113006b916f3bea7a9e212b8/icons/128x128/josm_org.openstreetmap.josm.png
+    width: 128
+    height: 128
+developer: JOSM developers
+homepage: "https://josm.openstreetmap.de"
+enabled: true
+order: 99

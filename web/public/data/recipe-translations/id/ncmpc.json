@@ -1,0 +1,5 @@
+{
+  "name": "ncmpc",
+  "description": "Klien Pemutar Musik Berbasis NCurses",
+  "longDescription": "<p>Paket ini berisi klien berbasis mode teks untuk MPD (Music Player Daemon). Aplikasinya dirancang agar menyediakan antarmuka berbasis keyboard yang konsisten untuk MPD, tanpa memboroskan sumber daya.</p>\n<p>Fitur:  - Dukungan penuh Unicode dan karakter lebar  - Penjelajah basis data musik, pencarian basis data, pustaka media  - Konfigurasi keluaran audio  - Lirik  - Dukungan LIRC  - Kustomisasi tombol pintas dan warna  - Konsumsi memori sangat kecil, lebih ringan dibanding klien MPD interaktif lain</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "needrestart-session",
+  "description": "Comprueba si hay procesos en la sesión de usuario actual que deben reiniciarse tras actualizaciones.",
+  "longDescription": "<p>needrestart verifica qué procesos requieren reinicio después de la actualización de bibliotecas. needrestart-session implementa una notificación para advertir a los usuarios sobre procesos obsoletos en sus sesiones tras las actualizaciones del sistema.</p>\n"
+}

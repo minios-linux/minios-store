@@ -1,0 +1,5 @@
+{
+  "name": "Gqrx",
+  "description": "Penerima radio software defined yang diimplementasikan menggunakan GNU Radio dan Qt GUI toolkit",
+  "longDescription": "<p>Gqrx mendukung banyak perangkat keras SDR yang tersedia, termasuk Funcube Dongle, rtl-sdr, HackRF, dan perangkat USRP.</p>\n<p>Menyediakan demodulator AM, SSB, FM-N dan FM-W (mono & stereo), serta mode FM Khusus untuk NOAA APT. Dilengkapi dengan tampilan grafik FFT dan spektrum waterfall.</p>\n<p>Aplikasi ini didukung oleh GNU Radio dan Qt GUI toolkit.</p>\n"
+}

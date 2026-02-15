@@ -1,0 +1,27 @@
+id: qmpdclient
+name: QMPDClient
+description: A nicer MPD client
+longDescription: |
+  <p>QMPDClient is a GUI client for MPD with Qt4 interface and such features as covers display, skins, tray notifications and last.fm track submission.</p>
+  <p>MPD (Music Player Daemon) is a server that allows remote access for playing audio files, streams and managing playlists. It can be used together with different clients, including this one, and clients are not required to be run on the same machine as the server.</p>
+  <p>The Music Player Daemon resides in the mpd package.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qmpdclient
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: q/qm/qmpdclient.desktop/0D4252D1381A1F37E729B6050AA757A4/icons/128x128/qmpdclient_qmpdclient.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,49 @@
+id: "gbrainy"
+name: gbrainy
+description: "gbrainy is a game to train memory, arithmetical and logical capabilities with many sorts of exercises of different difficulty levels"
+longDescription: |
+  <p>gbrainy is a game to train memory, arithmetical and logical capabilities with many sorts of exercises of different difficulty levels.</p>
+  <p>It should have something for all ages and purposes: kids whose parents want them to develop their capabilities, adults that want to keep their mind in form or just try it out for fun, older people that might need to do some memory exercises, etc.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gbrainy
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - game
+  - logic
+  - memory
+  - teaser
+  - brain
+screenshotSources:
+  - url: org/gnome/gbrainy.desktop/9c6ff5b7bb969664231cae7cf9a59eb5/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/gbrainy.desktop/9c6ff5b7bb969664231cae7cf9a59eb5/screenshots/image-1_624x559.png
+    width: 705
+    height: 632
+iconSources:
+  - url: org/gnome/gbrainy.desktop/9c6ff5b7bb969664231cae7cf9a59eb5/icons/128x128/gbrainy_gbrainy.png
+    width: 128
+    height: 128
+developer: Jordi Mas i Hernàndez
+homepage: "https://wiki.gnome.org/Apps/gbrainy"
+enabled: true
+order: 99

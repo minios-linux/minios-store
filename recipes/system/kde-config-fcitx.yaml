@@ -1,0 +1,32 @@
+id: kde-config-fcitx
+name: Keyboard layout viewer
+description: View keyboard layout
+longDescription: |
+  <p>This is a configuration module for System Settings for configuring the Free Chinese Input Toy of X.</p>
+  <p>It is designed to have similar functionalities to fcitx-config-gtk, with better KDE integration.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kde-config-fcitx
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: kde-config-fcitx_input-keyboard.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

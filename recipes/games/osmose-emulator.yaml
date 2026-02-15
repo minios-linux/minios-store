@@ -1,0 +1,47 @@
+id: osmose-emulator
+name: Osmose Emulator
+description: Sega Master System/Game Gear Console Emulator
+longDescription: |
+  <p>A multi-machine emulator for platforms of Sega consoles (Master System and Game Gear) and compatible for all games.</p>
+  <p>Simulates hardware extremely accurately which ensures that these classic games are represented exactly like they were on the real systems.</p>
+  <p>Osmose has a clean graphical user interface based on QT and a simplified setup process, and supports ROM archives in the SMS and GG formats.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - osmose-emulator
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - emulator
+  - console
+  - games
+  - rom
+  - sega
+  - master system
+  - game gear
+iconSources:
+  - cached: osmose-emulator_osmose-emulator.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

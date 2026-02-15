@@ -1,0 +1,32 @@
+id: gtamsanalyzer-app
+name: GTAMSAnalyzer
+description: Qualitative Research Software for GNUstep
+longDescription: |
+  <p>GTAMS Analyzer is a complete coding and analysis package, it is a port of TAMS Analyzer for MacOS X.  GTAMS stands for GNUstep Text Analysis Markup System, it is a convention for identifying themes in text.  The software offers a wide range of tools for applying themes to texts and identifying patterns of themes within and between texts.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtamsanalyzer.app
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - analysis
+iconSources:
+  - cached: gtamsanalyzer.app_app-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

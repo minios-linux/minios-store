@@ -1,0 +1,41 @@
+id: gl-117
+name: gl-117
+description: Play a flight simulator
+longDescription: |
+  <p>gl-117 is a 3D action flight simulator featuring 20 missions, different fighters, a random terrain generator, lighting effects, sound effects, music, and joystick support.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gl-117
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - fighter
+  - aircraft
+  - simulator
+iconSources:
+  - cached: gl-117_gl-117.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

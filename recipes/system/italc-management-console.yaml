@@ -1,0 +1,31 @@
+id: italc-management-console
+name: iTALC Management Console
+description: Administrate your iTALC installation
+longDescription: |
+  <p>iTALC makes it possible to access and guide the activities of students from the computer of the teacher. For example, with the help of iTALC a teacher can view the contents of students&apos; screens and see if any of them need help. If so, the teacher can access the student&apos;s desktop and provide support; the student can watch the teacher&apos;s actions and learn from them. Alternatively the teacher can switch into &quot;demo-mode&quot;, where all the students&apos; screens show the contents of the teacher&apos;s screen. Furthermore, actions like locking students&apos; screens, killing games, powering clients on or off, and much more can all be performed via iTALC.</p>
+  <p>This package contains the management console for iTALC, which helps to configure and manage iTALC installations.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - italc-management-console
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - education
+  - classroom
+  - teachers
+  - students
+  - remote control
+  - computer-labs
+iconSources:
+  - cached: italc-management-console_italc.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

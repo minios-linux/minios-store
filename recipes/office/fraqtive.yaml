@@ -1,0 +1,41 @@
+id: fraqtive
+name: Fraqtive
+description: Mandelbrot family fractal generator
+longDescription: |
+  <p>Fraqtive is a program for drawing Mandelbrot and Julia fractals. It uses a very fast algorithm and generates high quality, smooth images. It is fully interactive, allowing for real-time mouse navigation and dynamic generation of the Julia fractal preview. OpenGL-rendered 3D view of the fractals is also supported.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fraqtive
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mandelbrot
+  - fractal
+  - generator
+iconSources:
+  - cached: fraqtive_fraqtive.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

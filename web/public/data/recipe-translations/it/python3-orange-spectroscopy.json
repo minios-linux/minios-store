@@ -1,0 +1,5 @@
+{
+  "name": "Orange Spectroscopy/Quasar",
+  "description": "Esplora, analizza e visualizza i tuoi dati di spettroscopia",
+  "longDescription": "<p>Addon di Orange per l’analisi dei dati spettrali. Offre strumenti per la visualizzazione e l’elaborazione di spettri e iperspettri: grafici, interpolazione, preprocessamento (ritaglio, levigatura, normalizzazione) e integrazione. Compatibile con i formati di file spettrali più comuni.</p>\n<p>Funzionalità -------- ### Caricamento ed elaborazione dati  * Carica dati di spettroscopia  * Preprocessa e interpola spettri  * Integra spettri  * Calcola la media degli spettri  * Esegue la Trasformata di Fourier veloce (FFT)</p>\n<p>### Visualizzazione  * Esplora visivamente serie di spettri  * Mostra mappe 2D di iperspettri</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Herramienta de consultas DNS",
+  "description": "Realiza consultas DNS avanzadas",
+  "longDescription": "<p>GResolver es una herramienta gráfica basada en GTK+ para realizar consultas DNS. Permite a administradores de sistemas hacer las consultas DNS más comunes de manera rápida y sencilla, sin tener que escribir comandos extensos de dig o nslookup.</p>\n<p>GResolver es compatible con todos los tipos de registros principales, como AAAA, AXFR, MX y TXT, y genera automáticamente la dirección in-addr.arpa a partir de direcciones IP en formato decimal con puntos al realizar consultas PTR. Incluye casillas de verificación para controlar las opciones más habituales.</p>\n"
+}

@@ -1,0 +1,44 @@
+id: "darkradiant"
+name: DarkRadiant
+description: 3D level editor for Doom 3 and the Dark Mod
+longDescription: |
+  <p>DarkRadiant is a 3D map and level editor for games based on the idtech4 engines. The software is based on GtkRadiant and focuses on the games DOOM3 and The Dark Mod. Other games based on the same engine, like Quake 4, might be editable too, but are not explicitly supported.</p>
+  <p>Darkradiant can also be used to create free contents for the GPL&apos;ed version of the DOOM3 engine.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - darkradiant
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - doom
+  - doom3
+  - idtech
+  - level
+  - map
+  - the dark mod
+  - game development
+iconSources:
+  - url: d/da/darkradiant.desktop/1315b035e5992dd4dc0f67f212c3156c/icons/128x128/darkradiant_net.darkradiant.DarkRadiant.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

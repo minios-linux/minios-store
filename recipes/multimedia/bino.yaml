@@ -1,0 +1,32 @@
+id: bino
+name: Bino
+description: 3D Video Player
+longDescription: |
+  <p>
+        A video player with a focus on 3D and Virtual Reality. Bino can
+        play stereoscopic 3D and 360°/180° videos, and display them on 3D displays
+        and in Virtual Reality environments including SteamVR and CAVEs.
+      </p>
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bino
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/bino3d/bino/0df2cbf292119e03ba41dafce86be8c6/screenshots/image-1_orig.png
+    thumbnailUrl: org/bino3d/bino/0df2cbf292119e03ba41dafce86be8c6/screenshots/image-1_624x351@1.png
+    width: 800
+    height: 450
+iconSources:
+  - url: org/bino3d/bino/0df2cbf292119e03ba41dafce86be8c6/icons/128x128/bino_org.bino3d.bino.png
+    width: 128
+    height: 128
+homepage: "https://bino3d.org"
+enabled: true
+order: 99

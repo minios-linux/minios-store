@@ -1,0 +1,5 @@
+{
+  "name": "KTechlab",
+  "description": "IDE untuk mikrokontroler dan elektronika",
+  "longDescription": "<p>\n      KTechlab adalah IDE untuk mikrokontroler dan elektronika yang dirancang agar mudah digunakan serta tidak mengganggu alur kerja.\n    </p>\n<p>Fitur:</p>\n<ul>\n  <li>Beragam komponen dengan karakteristik yang dapat diubah</li>\n  <li>Editor sirkuit visual</li>\n  <li>Bantuan kontekstual untuk setiap komponen</li>\n  <li>Dua mode penyusunan jalur konektor: otomatis dan manual</li>\n  <li>Beberapa metode untuk mendefinisikan logika PIC: kode assembly, Microbe (bahasa pemrograman tingkat tinggi milik sendiri), kode C, dan FlowCode visual</li>\n  <li>Konversi antar bahasa pemrograman yang didukung</li>\n  <li>Debugger bawaan</li>\n  <li>Simulasi dengan osiloskop dan probe</li>\n  <li>Unggah kode assembly ke PIC menggunakan hardware programmer</li>\n</ul>\n"
+}

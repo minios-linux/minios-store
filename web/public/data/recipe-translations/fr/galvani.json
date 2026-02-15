@@ -1,0 +1,5 @@
+{
+  "name": "Galvani",
+  "description": "Lit les données d’un appareil avec affichage graphique et analyse",
+  "longDescription": "<p>Galvani lit les données d’un multimètre numérique ou de tout autre instrument de mesure via une interface série.<br/>Les données sont affichées graphiquement et peuvent être analysées de différentes manières (intégration des pics pour les chromatogrammes, analyse différentielle, etc.).<br/>Il est également possible de générer des données par simulation.</p>"
+}

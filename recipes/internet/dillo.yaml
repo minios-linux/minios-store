@@ -1,0 +1,39 @@
+id: dillo
+name: Dillo
+description: Lightweight browser
+longDescription: |
+  <p>Dillo 3 is a graphical multi-platform web browser known for its speed and small footprint. It is based on version 1.3 of the Fast and Light Toolkit (FLTK) in version 1.3</p>
+  <p>It aims to be small in resources, stable, developer-friendly, usable, very fast, and extensible.</p>
+  <p>To run the included dillo-install-hyphenation script the recommended perl packages need to be installed.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dillo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: dillo_dillo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

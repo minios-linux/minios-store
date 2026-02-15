@@ -1,0 +1,5 @@
+{
+  "name": "Reportbug",
+  "description": "Laporkan bug ke Debian BTS",
+  "longDescription": "<p>reportbug adalah alat yang dirancang untuk mempermudah pelaporan bug di Debian dan distribusi turunannya. Fitur-fiturnya antara lain:</p>\n<p> * Integrasi dengan pembaca email mutt dan mh/nmh.  * Akses ke laporan bug yang belum terselesaikan untuk memudahkan identifikasi apakah permasalahan sudah pernah dilaporkan.  * Pemeriksaan otomatis ketersediaan versi paket yang lebih baru.  * Verifikasi otomatis opsional untuk integritas paket menggunakan debsums.  * Dukungan tindak lanjut pada laporan bug yang sedang berjalan.  * Integrasi opsional dengan PGP/GnuPG.</p>\n<p>reportbug dirancang untuk digunakan pada sistem yang telah terpasang mail transport agent seperti exim atau sendmail; namun, Anda dapat mengedit file konfigurasi dan mengirim laporan dengan server email apa pun yang tersedia.</p>\n<p>Paket ini berisi file desktop dan ikon, serta ketergantungan agar mode UI GTK+ reportbug dapat berfungsi.</p>\n"
+}

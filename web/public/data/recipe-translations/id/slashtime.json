@@ -1,0 +1,5 @@
+{
+  "name": "Slashtime",
+  "description": "Lihat waktu di berbagai lokasi di seluruh dunia",
+  "longDescription": "<p>Program kecil yang menampilkan waktu di berbagai tempat. Tampilannya ringkas, menampilkan lokasi beserta informasi pendukung seperti tanggal dan kode singkatan zona waktu yang digunakan.</p>\n<p>Data waktu yang ditampilkan mengikuti akurasi data zoneinfo pada sistem. Berbeda dari kebanyakan aplikasi, Slashtime menunjukkan selisih waktu terhadap lokasi Anda saat ini, bukan terhadap UTC. Saat aplikasi berjalan, Anda dapat mengubah titik pusat lokasi dengan klik ganda pada kota lain.</p>\n<p>Slashtime juga memiliki fitur perencana rapat. Anda dapat menentukan tanggal dan waktu, lalu melihat waktu yang bersesuaian di lokasi lain.</p>\n"
+}

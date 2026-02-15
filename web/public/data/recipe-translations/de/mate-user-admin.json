@@ -1,0 +1,5 @@
+{
+  "name": "MATE Manager",
+  "description": "Verwaltung von lokalen Linux-Benutzern und -Gruppen",
+  "longDescription": "<p>\n   MATE Manager ist eine grafische Anwendung zur Verwaltung lokaler Benutzer und Gruppen.\n   Sie ermöglicht das Hinzufügen und Entfernen von Benutzern, das Ändern von Benutzernamen,\n   -typ, Sprache und Passwort sowie die Konfiguration des automatischen Logins.\n   Sie können die Anmeldeprotokolle der Nutzer einsehen.\n   In Verbindung mit dem group-service lassen sich Benutzergruppen verwalten,\n   darunter das Hinzufügen/Entfernen bestehender Gruppen und das Erstellen/Löschen neuer Gruppen.\n </p>\n"
+}

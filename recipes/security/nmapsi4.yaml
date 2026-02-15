@@ -1,0 +1,37 @@
+id: "nmapsi4"
+name: NmapSI4 - User mode
+description: Is a Qt4 interface for nmap scanner
+longDescription: |
+  <p>NmapSI4 is a complete Qt-based Gui with the design goal to provide a complete nmap interface for users, in order to manage all options of this power security net scanner.</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nmapsi4
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: n/nm/nmapsi4.desktop/4be45a845fdf3b2805aeb2be46fa41ad/icons/128x128/nmapsi4_nmapsi4.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

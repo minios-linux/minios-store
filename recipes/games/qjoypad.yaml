@@ -1,0 +1,33 @@
+id: qjoypad
+name: QJoyPad
+description: Maps joypad button and stick events to keyboard and mouse events.
+longDescription: |
+  <p>QJoyPad takes input from a gamepad or joystick and translates it into key strokes or mouse actions, letting you control any X-Windows program with your game controller.  This lets you play all those games that for some reason don&apos;t have joystick support with your joystick.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qjoypad
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qjoypad_qjoypad.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

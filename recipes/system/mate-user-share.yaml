@@ -1,0 +1,39 @@
+id: mate-user-share
+name: Personal File Sharing
+description: Preferences for sharing of files
+longDescription: |
+  <p>MATE user share is a small tool that binds together various free software projects to bring easy to use user-level file sharing to the masses.</p>
+  <p>The program is meant to run in the background when the user is logged in, and when file sharing is enabled a webdav server is started that shares the $HOME/Public folder. The share is then published to all computers on the local network using mDNS/rendezvous, so that it shows up in the Network location in GNOME.</p>
+  <p>The dav server used is Apache, so you need that installed. Avahi or Howl is used for mDNS support, so you need to have that installed and mDNSResolver running.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mate-user-share
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - mate
+  - personal
+  - file
+  - sharing
+  - preferences
+  - properties
+  - settings
+  - webdav
+  - obexftp
+iconSources:
+  - url: m/ma/mate-user-share-properties.desktop/A9E6F3863612ACACDB0BDF2F323067E5/icons/128x128/mate-user-share_folder-remote.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

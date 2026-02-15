@@ -1,0 +1,5 @@
+{
+  "name": "Mise à niveau complète",
+  "description": "Rechercher et appliquer la mise à niveau complète",
+  "longDescription": "<p>Vérifie si des mises à jour sont disponibles. Le cas échéant, il ouvre notifier.py, une fenêtre qui informe sur la disponibilité de mises à jour de paquets. Si vous choisissez de procéder, une mise à niveau complète (et non une safe-upgrade) est lancée via l'exécutable upgrader. Upgrader peut aussi être lancé seul, avec la possibilité d’exécuter une mise à jour du cache avant, puis de choisir entre une mise à niveau sûre ou complète. Un fichier .desktop permet également d’appeler upgrader avec mise à jour du cache et mise à niveau complète.</p>\n"
+}

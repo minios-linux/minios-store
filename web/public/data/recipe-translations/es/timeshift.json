@@ -1,0 +1,5 @@
+{
+  "name": "Timeshift",
+  "description": "Herramienta de restauración del sistema",
+  "longDescription": "<p>Timeshift es una herramienta de restauración del sistema que realiza capturas (snapshots) del sistema a intervalos regulares. Estas copias pueden restaurarse posteriormente para deshacer cambios realizados en el sistema. Crea snapshots incrementales usando rsync o snapshots de BTRFS mediante las herramientas de BTRFS.</p>\n"
+}

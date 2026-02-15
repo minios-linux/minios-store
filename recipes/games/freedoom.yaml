@@ -1,0 +1,65 @@
+id: "freedoom"
+name: "Freedoom: Phase 1"
+description: First-person shooter based on the Doom engine
+longDescription: |
+  <p>
+        Freedoom: Phase 1 contains four chapters, nine levels each, to
+        provide a smoothly-paced first person action game.  In it is a
+        wide variety of mazes and enemies to fight and challenge your
+        reflexes.
+      </p>
+  <p>
+        The Freedoom project aims to produce three base-game data files
+        (IWADs) for Doom-compatible engines.  With it comes the
+        capability to also play the wide range of mods created for Doom
+        by a vibrant community.  Freedoom: Phase 1 is fully compatible
+        with The Ultimate Doom mods.
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freedoom
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - first
+  - person
+  - shooter
+  - doom
+screenshotSources:
+  - url: io/github/freedoom.Phase2/0c6887902ddcf1cbf500536461ec7f12/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/freedoom.Phase2/0c6887902ddcf1cbf500536461ec7f12/screenshots/image-1_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: io/github/freedoom.Phase2/0c6887902ddcf1cbf500536461ec7f12/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/freedoom.Phase2/0c6887902ddcf1cbf500536461ec7f12/screenshots/image-2_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: io/github/freedoom.Phase2/0c6887902ddcf1cbf500536461ec7f12/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/freedoom.Phase2/0c6887902ddcf1cbf500536461ec7f12/screenshots/image-3_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: io/github/freedoom.Phase2/0c6887902ddcf1cbf500536461ec7f12/screenshots/image-4_orig.png
+    thumbnailUrl: io/github/freedoom.Phase2/0c6887902ddcf1cbf500536461ec7f12/screenshots/image-4_624x351@1.png
+    width: 1920
+    height: 1080
+iconSources:
+  - cached: freedoom_io.github.freedoom.Phase2.png
+    width: 64
+    height: 64
+developer: Freedoom Project
+homepage: "https://freedoom.github.io/"
+enabled: true
+order: 99

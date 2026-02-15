@@ -1,0 +1,5 @@
+{
+  "name": "GConjugue",
+  "description": "Conjuga verbos en portugués",
+  "longDescription": "<p>Programa gráfico para conjugar verbos en portugués de Brasil.</p>\n<p>Si la expresión ingresada no es un verbo, GConjugue intenta encontrarla entre las formas conjugadas de los verbos conocidos. También ofrece la opción de conjugar los verbos al estilo de los brasileños comunes. De hecho, los brasileños de diferentes regiones se desvían de la gramática normativa de distintas maneras, pero la conjugación mostrada ayudará a los extranjeros a comprender lo que dicen los hablantes en Brasil.</p>\n<p>Este programa es una interfaz gráfica para la herramienta de consola conjugue (paquete brazilian-conjugate). De forma alternativa, puede utilizar conjugar, la versión solo en texto de gconjugue.</p>\n"
+}

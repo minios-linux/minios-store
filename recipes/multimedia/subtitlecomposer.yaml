@@ -1,0 +1,42 @@
+id: "subtitlecomposer"
+name: Subtitle Composer
+description: KDE subtitle editor
+longDescription: |
+  <p>A text-based subtitles editor supporting basic operations (text, time and style edition), realtime previewing and spell checking. Other fancy features are delaying all subtitles in the current subtitle file, checking errors or creating translations.</p>
+  <p>Different backends (GStreamer, MPlayer, MPV, or Phonon) can be used to play the realtime video preview which helps to synchronize the subtitles.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - subtitlecomposer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/subtitlecomposer/06167fb379866d2ac3aaccb00a3392c4/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/subtitlecomposer/06167fb379866d2ac3aaccb00a3392c4/screenshots/image-1_624x413@1.png
+    width: 1438
+    height: 954
+iconSources:
+  - url: org/kde/subtitlecomposer/06167fb379866d2ac3aaccb00a3392c4/icons/128x128/subtitlecomposer_subtitlecomposer.png
+    width: 128
+    height: 128
+homepage: "https://github.com/maxrd2/subtitlecomposer"
+enabled: true
+order: 99

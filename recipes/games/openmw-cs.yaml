@@ -1,0 +1,34 @@
+id: openmw-cs
+name: OpenMW Content Editor
+description: A replacement for the Morrowind Construction Set.
+longDescription: |
+  <p>OpenCS is a replacement of the Bethesda Game Studios Elder Scrolls Construction Set which gives full control of the game&apos;s content and the ability to create new content.</p>
+  <p>While initialy to be used with Morrowind assets, it can be used to create TC and other content not depending on Morrowind.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openmw-cs
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - morrowind
+  - construction set
+  - creation kit editor
+  - set
+  - kit
+iconSources:
+  - cached: openmw-cs_openmw-cs.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

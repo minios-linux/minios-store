@@ -1,0 +1,5 @@
+{
+  "name": "luckyBackup (super user)",
+  "description": "Backup e sincronizza i tuoi dati sfruttando la potenza di rsync",
+  "longDescription": "<p>luckyBackup è un'applicazione che esegue backup e/o sincronizzazione di qualsiasi directory, sfruttando la potenza di rsync. Le sue principali funzionalità includono: backup, sicurezza, sincronizzazione, opzioni di esclusione/inclusione, supporto per opzioni rsync personalizzate, connessioni remote, operazioni di ripristino e simulazione (dry-run), programmazione pianificata, profili e modalità linea di comando.</p>\n<p>Facile da usare, rapido (trasferisce solo le modifiche apportate e non tutti i dati), sicuro (protegge i tuoi dati verificando tutte le directory selezionate prima di effettuare qualsiasi operazione sui dati), affidabile e completamente personalizzabile.</p>\n"
+}

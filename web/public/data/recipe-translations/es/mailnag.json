@@ -1,0 +1,5 @@
+{
+  "name": "Mailnag",
+  "description": "Un demonio extensible de notificación de correo",
+  "longDescription": "<p>\n      Mailnag es un programa demonio que verifica servidores POP3 e IMAP en busca de nuevos correos.\n      Al recibir mensajes, realiza diversas acciones proporcionadas por plugins.\n      Mailnag incluye un conjunto de plugins predeterminados independientes del entorno de escritorio para\n      notificaciones visuales y sonoras, ejecución de scripts, entre otros, y puede ampliarse\n      fácilmente con plugins adicionales.\n    </p>\n"
+}

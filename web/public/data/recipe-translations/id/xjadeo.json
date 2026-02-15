@@ -1,0 +1,5 @@
+{
+  "name": "Xjadeo",
+  "description": "Pemutar video sederhana yang disinkronkan melalui jack transport.",
+  "longDescription": "<p>Pemutar video sederhana yang menerima sinkronisasi dari jackd atau MTC. Aplikasi ini berguna dalam pembuatan soundtrack, pemantauan video, atau tugas lain yang membutuhkan penyelarasan frame video dengan kejadian audio.</p>\n<p>Misalnya, ketika jack-client (seperti Muse, Rosegarden, atau Ardour) berperan sebagai master timebase, xjadeo akan menampilkan video yang disinkronkan dengan JACK transport. xjadeo juga dapat membaca Midi Time Clock sebagai sumber sinkronisasi alternatif dan menyediakan opsi antarmuka QT-GUI.</p>\n<p>Secara default, xjadeo hanya membaca media yang seekable. Sebaiknya instal utilitas transcoding seperti mencoder atau transcode.</p>\n<p>Dokumentasi daring: http://xjadeo.sourceforge.net/main.html</p>\n"
+}

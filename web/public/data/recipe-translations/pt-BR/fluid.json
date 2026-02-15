@@ -1,0 +1,5 @@
+{
+  "name": "FLUID",
+  "description": "Editor de Interfaces Gráficas do FLTK",
+  "longDescription": "<p>Este pacote oferece o Fluid, um editor interativo para criação de interfaces gráficas com o FLTK, permitindo o desenvolvimento visual de GUIs baseadas em FLTK. Trabalha nativamente com arquivos .fl (textuais), mas também possui suporte básico para leitura de arquivos .fd gerados pelo fdesign (do pacote libforms-bin).</p><p>O Fast Light Toolkit (FLTK) é um toolkit multiplataforma para interfaces gráficas, originalmente baseado no libForms.</p>\n"
+}

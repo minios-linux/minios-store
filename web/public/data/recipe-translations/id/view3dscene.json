@@ -1,0 +1,5 @@
+{
+  "name": "view3dscene",
+  "description": "Melihat model 3D dalam berbagai format, menjelajahi dunia VRML / X3D",
+  "longDescription": "<p>view3dscene adalah aplikasi penampil beragam format model 3D:  - X3D  - VRML (1.0 dan 2.0, juga dikenal sebagai VRML 97)  - Collada  - OpenInventor  - 3DS  - MD3  - Wavefront OBJ  - Videoscape GEO  - KAnim (animasi Castle Game Engine)</p>\n<p>Terdapat berbagai mode navigasi seperti Examine, Walk (dengan gravitasi), dan Fly. Deteksi tabrakan didukung. Model dapat dianimasikan dan bersifat interaktif. Beragam efek grafis didukung berkat penggunaan Castle Game Engine di balik layar.</p>\n<p>view3dscene juga dapat digunakan untuk mengonversi banyak format model 3D ke X3D (classic dan XML encoding). Paket ini juga menyertakan tovrmlx3d, program command-line untuk konversi model 3D secara batch tanpa membutuhkan X atau OpenGL (cocok untuk penggunaan dalam skrip).</p>\n"
+}

@@ -1,0 +1,42 @@
+id: "klickety"
+name: KSame
+description: 'KSame is a game mode of the game Klickety, which is an adaptation of the "clickomania" game'
+longDescription: |
+  <p>
+        KSame is a simple, yet challenging color matching game modeled after once famous game of SameGame. The idea behind
+  KSame is to completely clear the game board filled with the multicolored marbles.
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - klickety
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/klickety/0d624f27dd6c1da5bb08210a94279557/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/klickety/0d624f27dd6c1da5bb08210a94279557/screenshots/image-1_624x504@1.png
+    width: 1079
+    height: 873
+iconSources:
+  - url: org/kde/klickety/0d624f27dd6c1da5bb08210a94279557/icons/128x128/klickety_klickety.png
+    width: 128
+    height: 128
+homepage: "https://games.kde.org/game.php?game=klickety"
+enabled: true
+order: 99

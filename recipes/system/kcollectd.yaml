@@ -1,0 +1,35 @@
+id: "kcollectd"
+name: KDE collectd database viewer
+description: Viewer for collectd databases
+longDescription: |
+  <p>This package provides a basic KDE application for viewing RRD files created by collectd, the system statistics storage daemon. It allows easy mouse-driven navigation through data collections and can be used as a virtual chart recorder.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kcollectd
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - collectd
+  - rrd
+  - monitor
+iconSources:
+  - url: net/aerusso/kcollectd/74b73a2b573c920435ba84c4c1e768f1/icons/128x128/kcollectd_kcollectd.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

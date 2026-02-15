@@ -1,0 +1,5 @@
+{
+  "name": "Visor de Procesos",
+  "description": "Una interfaz gráfica para visualizar procesos desarrollada en Rust",
+  "longDescription": "<p>\n      Visor de Procesos muestra el estado actual de tus procesos\n      (uso de CPU y memoria) y de tu sistema (uso de cada núcleo,\n      de la RAM y la temperatura de los componentes si esta información\n      está disponible).\n    </p>\n"
+}

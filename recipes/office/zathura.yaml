@@ -1,0 +1,69 @@
+id: "zathura"
+name: Zathura
+description: A minimalistic document viewer
+longDescription: |
+  <p>Zathura is a highly customizable and functional document viewer. It
+        provides a minimalistic and space saving interface as well as an easy
+        usage that mainly focuses on keyboard interaction. Zathura makes it
+        possible to completely view and navigate through documents without using a
+        mouse.</p>
+  <p>Zathura can be extended to support multiple document formats using
+        plugins. Other features include:
+        SyncTeX forward and backward synchronization support.Stöd för SyncTeX-framåt- och -bakåtsynkronisering.SyncTeX vooruit-
+  en achteruitsynchronisatie.Unterstützung für SyncTeX-Synchronisation.Podpora pro dopředné a zpětné seřízení SyncTeX.Quickmarks and bookmarks.Snabbmärken och bokmärken.Verwijzingen en bladwijzers.Markierungen und Lesezeichen.Rychlé značky a záložky.Automatic document reloading.Läs automatisk om dokument.Automatische documentherlading.Automatisches Neuladen von Dokumenten.Automatické znovunahrání dokumentu.</p>
+  
+categoryId: office
+icon: BookOpen
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zathura
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pdf
+  - ps
+  - postscript
+  - djvu
+  - document
+  - presentation
+  - viewer
+screenshotSources:
+  - url: org/pwmt/zathura/dbbca71ec88ea18830ab3adb3c733b75/screenshots/image-1_orig.png
+    thumbnailUrl: org/pwmt/zathura/dbbca71ec88ea18830ab3adb3c733b75/screenshots/image-1_624x468@1.png
+    width: 1024
+    height: 768
+  - url: org/pwmt/zathura/dbbca71ec88ea18830ab3adb3c733b75/screenshots/image-2_orig.png
+    thumbnailUrl: org/pwmt/zathura/dbbca71ec88ea18830ab3adb3c733b75/screenshots/image-2_624x468@1.png
+    width: 1024
+    height: 768
+  - url: org/pwmt/zathura/dbbca71ec88ea18830ab3adb3c733b75/screenshots/image-3_orig.png
+    thumbnailUrl: org/pwmt/zathura/dbbca71ec88ea18830ab3adb3c733b75/screenshots/image-3_624x468@1.png
+    width: 1024
+    height: 768
+  - url: org/pwmt/zathura/dbbca71ec88ea18830ab3adb3c733b75/screenshots/image-4_orig.png
+    thumbnailUrl: org/pwmt/zathura/dbbca71ec88ea18830ab3adb3c733b75/screenshots/image-4_624x468@1.png
+    width: 1024
+    height: 768
+iconSources:
+  - url: org/pwmt/zathura/dbbca71ec88ea18830ab3adb3c733b75/icons/128x128/zathura_org.pwmt.zathura.png
+    width: 128
+    height: 128
+homepage: "https://pwmt.org/projects/zathura"
+enabled: true
+order: 99

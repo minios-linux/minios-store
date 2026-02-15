@@ -1,0 +1,53 @@
+id: soundkonverter
+name: soundKonverter
+description: Audio file conversion tool
+longDescription: |
+  <p>soundKonverter is a frontend to various audio converters.</p>
+  <p>The key features are:</p>
+  <ul>
+    <li>Audio file conversion</li>
+    <li>Replay Gain calculation</li>
+    <li>CD ripping</li>
+  </ul>
+  <p>soundKonverter supports reading and writing tags and covers for many formats, so they are preserved when converting files.</p>
+  <p>It is extendable by plugins and supports many backends including:</p>
+  <ul>
+    <li>Audio file conversionBackends: faac, faad, ffmpeg, flac, lame, mplayer, neroaac, timidity, fluidsynth, vorbistools,
+  opustools, sox, twolame, flake, mac, shorten, wavpack and speexFormats: ogg vorbis, mp3, flac, wma, aac, ac3, opus, alac, mp2, als, amr nb, amr wb, ape, speex, m4a, mp1, musepack shorten, tta, wavpack, ra, midi, mod, 3gp, rm, avi, mkv, ogv, mpeg, mov, mp4, flv, wmv and rv</li>
+    <li>Replay Gain calculationBackends: aacgain, metaflac, mp3gain, vorbisgain, wvgain, mpcgainFormats: aac, mp3, flac,
+  ogg vorbis, wavpack, musepack</li>
+    <li>CD rippingBackends: cdparanoia</li>
+  </ul>
+  <p>If you try to convert a file that is not supported, soundKonverter will tell you which backend you need to install.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - soundkonverter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: soundkonverter_soundkonverter.png
+    width: 64
+    height: 64
+developer: Daniel Faust
+homepage: "https://github.com/dfaust/soundkonverter"
+enabled: true
+order: 99

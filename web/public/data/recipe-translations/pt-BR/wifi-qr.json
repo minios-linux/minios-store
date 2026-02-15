@@ -1,0 +1,5 @@
+{
+  "name": "WiFi QR",
+  "description": "Compartilhe Wi-Fi com Código QR",
+  "longDescription": "<p>Celulares Android da Xiaomi passaram a usar QR Code para compartilhar acesso ao Wi-Fi. A proposta é facilitar o uso do Bash, permitindo compartilhar do Android para o PC ou do PC para o celular. A interface utiliza Zenity, leitura de QR com zbar e qrencode, além do nmcli do Network-Manager para configurações de rede. Para segurança, é possível usar WPA, WPA2, WEP, Open e redes ocultas. O código QR não suporta redes LDAP nem VPN. Dispositivos Android geram QR de Wi-Fi facilmente, mas no iOS nem sempre é garantido.</p>\n"
+}

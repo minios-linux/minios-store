@@ -1,0 +1,25 @@
+id: renderdoc
+name: RenderDoc
+description: A stand-alone graphics API debugger
+longDescription: |
+  <p>RenderDoc is a free MIT licensed stand-alone graphics debugger that allows quick and easy single-frame capture and detailed introspection of any application using Vulkan, D3D11, OpenGL &amp; OpenGL ES or D3D12 across Windows 7 - 10, Linux, or Android.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - renderdoc
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: r/re/renderdoc.desktop/CF88F8DD33D203325A4F0E21C5788D42/icons/128x128/renderdoc_application-x-renderdoc-capture.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Spek",
+  "description": "Lihat spektrogram dari berkas audio Anda",
+  "longDescription": "<p>Spek membantu menganalisis berkas audio Anda dengan menampilkan spektrogramnya. Aplikasi ini mendukung semua format audio populer, baik lossy maupun lossless.</p>\n<p>Fitur:</p>\n<p> * Pemrosesan sinyal sangat cepat, menggunakan beberapa thread untuk mempercepat analisis  * Menampilkan nama codec dan parameter sinyal audio  * Dapat menyimpan spektrogram sebagai berkas gambar  * Dukungan drag-and-drop; dapat dikaitkan dengan format audio umum  * Penggaris waktu, frekuensi, dan densitas spektral menyesuaikan otomatis  * Rentang densitas spektral dapat diatur</p>\n"
+}

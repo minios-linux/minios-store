@@ -1,0 +1,5 @@
+{
+  "name": "neomutt",
+  "description": "Agente de e-mail em modo texto simples",
+  "longDescription": "<p>O Neomutt oferece todos os recursos do Mutt, incluindo suporte a POP e IMAP, criptografia SSL e autenticação SASL, encadeamento de mensagens e integração com GPG. Além disso, o Neomutt oferece:  * Notmuch: uma ferramenta de indexação de e-mails que traz recursos avançados como    pesquisa por texto completo, reconstrução de conversas e funcionalidades extras.  * Colorização de cabeçalhos de anexos usando regex, assim como nos corpos das mensagens.  * Regras personalizadas para temas na lista de e-mails.  * Suporte a NNTP.  * Barra de progresso visual para operações demoradas.  * Pasta de Lixeira.</p>\n"
+}

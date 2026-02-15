@@ -1,0 +1,47 @@
+id: pianobooster
+name: Piano Booster
+description: Learn the piano just by playing a game
+longDescription: |
+  <p>Piano Booster is a new way to learn the piano just by playing a game. It takes elements of the game Guitar Hero but now it uses a real piano keyboard and the game has been turned sideways so the notes scroll along a musical stave. So instead of pressing buttons on a fake guitar you end up learning to play a real musical instrument: the piano.</p>
+  <p>To run Piano Booster you need a MIDI Piano Keyboard and a MIDI interface for the PC. If you don&apos;t have a MIDI keyboard you can still try out PianoBooster, using the PC keyboard (&apos;x&apos; is middle C), but a MIDI piano is really recommended).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pianobooster
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - midi
+  - music
+  - piano
+  - education
+  - learning
+  - playing
+  - songs
+iconSources:
+  - cached: pianobooster_pianobooster.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

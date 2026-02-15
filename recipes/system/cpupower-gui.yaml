@@ -1,0 +1,59 @@
+id: "cpupower-gui"
+name: CPU frequency settings
+description: Adjust the frequency of the CPU
+longDescription: |
+  <p>A graphical utility for changing the CPU frequencies and governor.</p>
+  <p>
+              This utility can change the operating frequency of the CPU for each core separately.
+              The program can detect offline cores and only present the available ones.
+              Furthermore, if a core doesn't support frequency scaling is not shown.
+              There is also an option to apply the same settings to all cores simultaneously.
+          </p>
+  <p>
+              To apply the settings, the user must be local and active, as well as in group sudo.
+              Local and active users not in this group must  authenticate themselves as admin in order to apply the settings.
+          </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cpupower-gui
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - frequency
+  - limits
+screenshotSources:
+  - url: org/rnd2/cpupower_gui.desktop/a4204008620bd82fa77ca6ba80dff051/screenshots/image-1_orig.png
+    thumbnailUrl: org/rnd2/cpupower_gui.desktop/a4204008620bd82fa77ca6ba80dff051/screenshots/image-1_624x570@1.png
+    width: 704
+    height: 644
+  - url: org/rnd2/cpupower_gui.desktop/a4204008620bd82fa77ca6ba80dff051/screenshots/image-2_orig.png
+    thumbnailUrl: org/rnd2/cpupower_gui.desktop/a4204008620bd82fa77ca6ba80dff051/screenshots/image-2_624x570@1.png
+    width: 704
+    height: 644
+  - url: org/rnd2/cpupower_gui.desktop/a4204008620bd82fa77ca6ba80dff051/screenshots/image-3_orig.png
+    thumbnailUrl: org/rnd2/cpupower_gui.desktop/a4204008620bd82fa77ca6ba80dff051/screenshots/image-3_624x570@1.png
+    width: 704
+    height: 644
+iconSources:
+  - url: org/rnd2/cpupower_gui.desktop/a4204008620bd82fa77ca6ba80dff051/icons/128x128/cpupower-gui_org.rnd2.cpupower_gui.png
+    width: 128
+    height: 128
+developer: Evangelos Rigas
+homepage: "https://github.com/vagnum08/cpupower-gui"
+enabled: true
+order: 99

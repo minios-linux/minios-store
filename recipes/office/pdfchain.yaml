@@ -1,0 +1,38 @@
+id: "pdfchain"
+name: PDF Chain
+description: A graphical user interface for the PDF Toolkit (PDFtk)
+longDescription: |
+  <p>The package includes features designed to handle PDF files in a easy way. Basically it can merge, split, add backgrounds or stamps and add attachments. There are some tools for extended needs, too.</p>
+  <p>The GUI is written in GTKmm, a C++ library for GTK+.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pdfchain
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pdf,splitting,concatenating,form,converting,user-interface
+iconSources:
+  - url: p/pd/pdfchain.desktop/36cf4fe55a1c57dd7f6c1018b3a5ec2b/icons/128x128/pdfchain_pdfchain.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

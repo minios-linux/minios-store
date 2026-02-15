@@ -1,0 +1,29 @@
+id: python3-orange-spectroscopy
+name: Orange Spectroscopy/Quasar
+description: "Explore, analyze, and visualize your spectroscopy data"
+longDescription: |
+  <p>Orange add-on for spectral data analysis. Provides spectra and hyperspectra plotting, interpolation, preprocessing (cutting, smoothing, normalization), and integration. Supports common spectral file formats.</p>
+  <p>Features -------- ### Load and process data  * Load the spectroscopy data  * Preprocess and interpolate spectra  * Integrate spectra  * Average spectra  * Performs Fast Fourier Transform</p>
+  <p>### Visualisation  * Visually explore series of spectra  * Plots 2D map of hyperspectra</p>
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - python3-orange-spectroscopy
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+tags:
+  - machine learning
+  - scientific visualization
+  - statistical analysis
+  - spectroscopy
+iconSources:
+  - url: o/or/orange-spectroscopy.desktop/3dd553d2877b4f1cff959177e1552b06/icons/128x128/python3-orange-spectroscopy_orange-canvas.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

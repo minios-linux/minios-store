@@ -1,0 +1,42 @@
+id: "pdfarranger"
+name: PDF Arranger
+description: "PDF Merging, Rearranging, Splitting, Rotating and Cropping"
+longDescription: |
+  <p>PDF Arranger is a small application which allows one to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface.</p>
+  <p>PDF Arranger was formerly known as PDF-Shuffler.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pdfarranger
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/github/jeromerobert.pdfarranger/ca47f8d872b6da14e6540e3ea1c53d69/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/jeromerobert.pdfarranger/ca47f8d872b6da14e6540e3ea1c53d69/screenshots/image-1_624x404@1.png
+    width: 1164
+    height: 754
+iconSources:
+  - url: com/github/jeromerobert.pdfarranger/ca47f8d872b6da14e6540e3ea1c53d69/icons/128x128/pdfarranger_com.github.jeromerobert.pdfarranger.png
+    width: 128
+    height: 128
+homepage: "https://github.com/jeromerobert/pdfarranger"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "refnx",
+  "description": "Analyse de réflectométrie neutronique et X en Python",
+  "longDescription": "<p>refnx est un paquet Python flexible et puissant pour l'ajustement de courbes généralisé, destiné en particulier à l’analyse de données de réflectométrie neutronique et X.</p>\n<p>Il utilise plusieurs algorithmes d’optimisation de scipy pour ajuster les données et estimer l’incertitude des paramètres. En plus des algorithmes scipy, refnx intègre également l’échantillonneur emcee Affine Invariant Markov Chain Monte Carlo (MCMC) pour l’estimation bayésienne des paramètres.</p>\n"
+}

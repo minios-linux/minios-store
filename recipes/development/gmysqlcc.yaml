@@ -1,0 +1,23 @@
+id: gmysqlcc
+name: GMySQLcc
+description: Gtk+ MySQL Control Center
+longDescription: |
+  <p>GTK+ based client for MySQL which allows one to make queries and performs administrative jobs such as manage users, process, structures, data dumps and more.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gmysqlcc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gmysqlcc_gmysqlcc-32.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

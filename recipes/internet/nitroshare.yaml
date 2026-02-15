@@ -1,0 +1,29 @@
+id: nitroshare
+name: NitroShare
+description: Network File Transfer Application
+longDescription: |
+  <p>NitroShare is designed to make transferring any file to any device as painless as possible.</p>
+  <p>NitroShare uses a JSON-based protocol that is both platform and architecture-neutral to transfer files as efficiently as possible. For added security, transfers can be encrypted with TLS.</p>
+  <p>IPv4 broadcast is used for automatically discovering other devices on the local network running NitroShare. This enables files and entire directories to be instantly transferred to the other devices.</p>
+  <p>An HTTP API is provided that enables other applications running under the same account to initiate transfers.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nitroshare
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - network
+  - transfer
+iconSources:
+  - url: n/ni/nitroshare.desktop/2DB87839C9415A255097141CCFD27C5E/icons/128x128/nitroshare_nitroshare.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

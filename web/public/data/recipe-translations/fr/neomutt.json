@@ -1,0 +1,5 @@
+{
+  "name": "neomutt",
+  "description": "Agent de messagerie en mode texte simple",
+  "longDescription": "<p>Neomutt propose toutes les fonctionnalités de Mutt, notamment la prise en charge de POP et IMAP, le chiffrement SSL, l’authentification SASL, la gestion des fils de discussion et la compatibilité GPG. En plus, neomutt offre :  * Notmuch : un outil d’indexation des courriels qui permet la recherche en texte intégral, la reconstruction des discussions et d’autres fonctionnalités avancées.  * Coloration des en-têtes de pièces jointes via des expressions régulières, comme pour le corps des messages.  * Règles personnalisées pour le thème de la liste des messages.  * Prise en charge de NNTP.  * Barre de progression visuelle pour les opérations lentes.  * Dossier corbeille.</p>\n"
+}

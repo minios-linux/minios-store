@@ -1,0 +1,23 @@
+id: livemix
+name: LiveMix - Live Mixer
+description: Mix your music tracks live
+longDescription: |
+  <p>Based on Jack. Features:  - In, pre fader, post fader, sub-groups customisable channel.  - All-in is stereo-in internally.  - LADSPA effects.  - LASH support.  - MIDI support.  - PK &amp; pseudo VU meters.  - Simple GUI.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - livemix
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: livemix_livemix.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

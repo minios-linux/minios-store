@@ -1,0 +1,5 @@
+{
+  "name": "rockhoppergui",
+  "description": "Système d’analyse des données RNA-seq bactériennes",
+  "longDescription": "<p>Rockhopper est une solution complète et intuitive pour l’analyse computationnelle des données RNA-seq bactériennes. En entrée, Rockhopper accepte des lectures de séquençage ARN issues des technologies de haut débit (fichiers FASTQ, QSEQ, FASTA, SAM ou BAM). Rockhopper propose les fonctionnalités suivantes :<br>• Assemblage de transcrits basé sur la référence (avec un ou plusieurs génomes de référence disponibles)<br>• Alignement des lectures sur les génomes<br>• Assemblage des transcrits<br>• Identification des limites des transcrits et de nouveaux transcrits comme les petits ARN<br>• Assemblage de novo des transcrits (si les génomes de référence sont indisponibles)<br>• Normalisation des données issues de différentes expériences<br>• Quantification de l’abondance des transcrits<br>• Tests d’expression différentielle des gènes<br>• Caractérisation de la structure des opérons<br>• Visualisation des résultats dans un navigateur de génome</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "ncmpc",
+  "description": "NCurses Musikplayer-Client",
+  "longDescription": "<p>Dieses Paket enthält einen textbasierten Client für MPD, den Music Player Daemon. Ziel ist es, eine tastaturorientierte und konsistente Oberfläche für MPD bereitzustellen, ohne Ressourcen zu verschwenden.</p>\n<p>Funktionen:  - vollständige Unicode- und Wide-Character-Unterstützung  - Musikdatenbank-Browser, Datenbanksuche, Musikbibliothek  - Audioausgabekonfiguration  - Liedtexte  - LIRC-Unterstützung  - anpassbare Tastenbelegungen und Farben  - sehr geringer Speicherbedarf, kleiner als jeder andere interaktive MPD-Client</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "OnionShare",
+  "description": "Dateien jeder Größe sicher und anonym teilen",
+  "longDescription": "<p>Mit OnionShare können Sie Dateien beliebiger Größe sicher und anonym mit anderen teilen. Dabei wird ein Webserver gestartet, der als Tor-Hidden-Service dient und eine schwer zu erratende URL generiert, über die die Datei abgerufen und heruntergeladen werden kann.</p>\n<p>Es ist keine Einrichtung eines Servers im Internet oder die Nutzung eines externen Filesharing-Dienstes nötig. Sie hosten die Datei direkt auf Ihrem eigenen Rechner und machen sie über einen temporären Tor-Hidden-Service im Internet verfügbar. Der Empfänger benötigt lediglich den Tor Browser, um die Datei von Ihnen herunterzuladen.</p>\n"
+}

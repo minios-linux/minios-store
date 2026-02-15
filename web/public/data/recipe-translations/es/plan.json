@@ -1,0 +1,5 @@
+{
+  "name": "plan",
+  "description": "Calendario de escritorio",
+  "longDescription": "<p>Plan es un planificador de agendas basado en X/Motif. Muestra un calendario mensual similar a xcal, pero cada recuadro de día es lo suficientemente grande como para mostrar citas en letra pequeña. Al pulsar sobre un día, se pueden listar y editar las citas de esa fecha. Las citas se ingresan con la siguiente información (todo, excepto la hora, es opcional):</p>\n<p> - la fecha, hora y duración de la cita,  - un mensaje de texto opcional a mostrar,  - un script opcional para ejecutar,  - avisos anticipados o retardados que preceden la hora de alarma,  - repeticiones: [n-ésimo] día de la semana, días del mes, cada n días, anualmente,  - entrada rápida de citas por línea de comandos,  - formas flexibles de definir festivos y vacaciones,  - ayuda contextual extensa,  - capacidad multiusuario mediante el servidor netplan, que se instala con el paquete netplan.</p>\n"
+}

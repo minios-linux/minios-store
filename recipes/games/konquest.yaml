@@ -1,0 +1,45 @@
+id: "konquest"
+name: Konquest
+description: Galactic Strategy Game
+longDescription: |
+  <p>Konquest is a version of Gnu-Lactic Konquest. Players conquer other planets
+        by sending ships to them. The goal is to build an interstellar empire and ultimately
+        conquer all other player&apos;s planets.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - konquest
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/konquest/88af572fff7ede791803f65049013861/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/konquest/88af572fff7ede791803f65049013861/screenshots/image-1_624x584@1.png
+    width: 837
+    height: 784
+iconSources:
+  - url: org/kde/konquest/88af572fff7ede791803f65049013861/icons/128x128/konquest_konquest.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/konquest"
+enabled: true
+order: 99

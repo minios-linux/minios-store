@@ -1,0 +1,1 @@
+pikopixel.app_GNUstepAppIcon.png

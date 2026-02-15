@@ -1,0 +1,38 @@
+id: planets
+name: Planets
+description: A simple interactive program for playing with simulations of planetary systems
+longDescription: |
+  <p>Planets is a simple interactive program for playing with simulations of planetary systems. It is great for teaching gravitation on planet level.</p>
+  <p>The user interface is aimed at being simple enough for a fairly young kid to enjoy it, their is a special kid-mode for this purpose.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - planets
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: planets_planets.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

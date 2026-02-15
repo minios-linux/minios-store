@@ -1,0 +1,5 @@
+{
+  "name": "pgAdmin III",
+  "description": "Administrations-Tool für PostgreSQL",
+  "longDescription": "<p>pgAdmin III ist eine Anwendung für das Datenbankdesign und die Verwaltung von PostgreSQL-Datenbanken. Die Software kann zur Administration von PostgreSQL 7.3 und höher eingesetzt werden und wurde erfolgreich mit PostgreSQL 10 getestet.</p>\n<p>pgAdmin III deckt die Anforderungen verschiedenster Anwendergruppen ab – von der Erstellung einfacher SQL-Abfragen bis hin zur Entwicklung komplexer Datenbankstrukturen. Die grafische Benutzeroberfläche unterstützt sämtliche PostgreSQL-Funktionen und erleichtert die Verwaltung erheblich. Die Anwendung bietet zudem einen SQL-Editor mit Syntax-Hervorhebung, einen serverseitigen Code-Editor, einen Agenten für die Zeitplanung von SQL-, Batch- und Shell-Jobs, Unterstützung für die Slony-I-Replikation und vieles mehr. Serververbindungen können via TCP/IP oder Unix Domain Sockets (auf *nix-Systemen) hergestellt und zur Sicherheit SSL-verschlüsselt werden. Für die Kommunikation mit dem Datenbankserver sind keine zusätzlichen Treiber notwendig.</p>\n"
+}

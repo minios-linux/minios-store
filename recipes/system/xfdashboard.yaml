@@ -1,0 +1,50 @@
+id: "xfdashboard"
+name: xfdashboard
+description: Maybe a Gnome shell like dashboard for Xfce
+longDescription: |
+  <p>Xfdashboard provides a GNOME shell dashboard like interface for use with Xfce desktop.</p>
+  <p>It can be configured to run to any keyboard shortcut and when executed provides an overview of applications currently open enabling the user to switch between different applications. The search feature works like Xfce&apos;s app finder which makes it convenient to search for and start applications.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfdashboard
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - window management
+  - application management
+  - organize
+  - search tool
+  - search
+screenshotSources:
+  - url: x/xf/xfdashboard.desktop/E00CC45EFFF12AC971B8AB4C83BE83FF/screenshots/image-1_orig.png
+    thumbnailUrl: x/xf/xfdashboard.desktop/E00CC45EFFF12AC971B8AB4C83BE83FF/screenshots/image-1_624x351.png
+    width: 1080
+    height: 608
+  - url: x/xf/xfdashboard.desktop/E00CC45EFFF12AC971B8AB4C83BE83FF/screenshots/image-2_orig.png
+    thumbnailUrl: x/xf/xfdashboard.desktop/E00CC45EFFF12AC971B8AB4C83BE83FF/screenshots/image-2_624x390.png
+    width: 1080
+    height: 675
+  - url: x/xf/xfdashboard.desktop/E00CC45EFFF12AC971B8AB4C83BE83FF/screenshots/image-3_orig.png
+    thumbnailUrl: x/xf/xfdashboard.desktop/E00CC45EFFF12AC971B8AB4C83BE83FF/screenshots/image-3_624x390.png
+    width: 1080
+    height: 675
+iconSources:
+  - url: org/xfce/xfdashboard-settings/fd45b5e772e78104739e72acb684cf92/icons/128x128/xfdashboard_org.xfce.xfdashboard.png
+    width: 128
+    height: 128
+homepage: "http://goodies.xfce.org/projects/applications/xfdashboard/start/"
+enabled: true
+order: 99

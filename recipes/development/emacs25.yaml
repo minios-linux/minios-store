@@ -1,0 +1,26 @@
+id: emacs25
+name: GNU Emacs 25 (Terminal)
+description: "GNU Emacs is an extensible, customizable text editor - and more"
+longDescription: |
+  <p>GNU Emacs is the extensible self-documenting text editor.  This package contains a version of Emacs with a graphical user interface based on GTK+ (instead of the Lucid toolkit provided by the emacs25-lucid package).</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - emacs25
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+iconSources:
+  - url: e/em/emacs25-term.desktop/48FA82842D4E9BDE32245805E244E44A/icons/128x128/emacs25_emacs25.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

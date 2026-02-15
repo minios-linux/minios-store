@@ -1,0 +1,5 @@
+{
+  "name": "Massif-Visualizer",
+  "description": "Un visualiseur de fichiers de données Massif pour Valgrind",
+  "longDescription": "<p>Massif Visualizer est un outil qui, comme son nom l'indique, permet de visualiser les données générées par massif. Exécutez votre application avec Valgrind en utilisant l’option --tool=massif, puis ouvrez le fichier massif.out.%pid dans le visualiseur. Les fichiers massif compressés au format Gzip ou Bzip2 peuvent également être ouverts de manière transparente.</p>\n<p>Fonctionnalités :</p>\n<ul>\n  <li>Graphique interactif de la consommation mémoire au fil du temps.</li>\n  <li>Analyse détaillée des instantanés avec visualisation des arbres d’appels (nécessite KGraphViewer).</li>\n  <li>Résumé des pics de consommation mémoire pour toutes les fonctions allouatrices.</li>\n</ul>\n"
+}

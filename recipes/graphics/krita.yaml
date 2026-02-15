@@ -1,0 +1,80 @@
+id: "krita"
+name: Krita
+description: "Digital Painting, Creative Freedom"
+longDescription: |
+  <p>Krita is the full-featured digital art studio.</p>
+  <p>It is perfect for sketching and painting, and presents an end–to–end solution for creating digital painting files from scratch by masters.</p>
+  <p>Krita is a great choice for creating concept art, comics, textures for rendering and matte paintings. Krita supports many colorspaces like RGB and CMYK
+        at 8 and 16 bits integer channels, as well as 16 and 32 bits floating point channels.</p>
+  <p>Have fun painting with the advanced brush engines, amazing filters and many handy features that make Krita enormously productive.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - krita
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-1_624x338@1.png
+    width: 1920
+    height: 1043
+  - url: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-2_624x338@1.png
+    width: 1920
+    height: 1043
+  - url: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-3_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-4_624x338@1.png
+    width: 1920
+    height: 1043
+  - url: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-5_orig.png
+    thumbnailUrl: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-5_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-6_orig.png
+    thumbnailUrl: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-6_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-7_orig.png
+    thumbnailUrl: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-7_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-8_orig.png
+    thumbnailUrl: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-8_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-9_orig.png
+    thumbnailUrl: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/screenshots/image-9_624x351@1.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: org/kde/krita/7e82320c98b8c32eb2699efd9d1a7427/icons/128x128/krita_krita.png
+    width: 128
+    height: 128
+developer: Krita Foundation
+homepage: "https://www.krita.org/"
+enabled: true
+order: 99

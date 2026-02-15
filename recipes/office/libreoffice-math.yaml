@@ -1,0 +1,44 @@
+id: "libreoffice-math"
+name: LibreOffice Math
+description: Create and edit scientific formulas and equations by using Math.
+longDescription: |
+  <p>LibreOffice is a full-featured office productivity suite that provides a near drop-in replacement for Microsoft(R) Office.</p>
+  <p>This package contains the equation editor component for LibreOffice.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libreoffice-math
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - equation
+  - opendocument formula
+  - formula
+  - odf
+  - mathml
+iconSources:
+  - url: l/li/libreoffice-math.desktop/7668889d3ad04f5cb1327fa122a0c832/icons/128x128/libreoffice-math_libreoffice-math.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

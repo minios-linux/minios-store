@@ -1,0 +1,35 @@
+id: "budgie-control-center"
+name: Budgie Control Center
+description: Utility to configure desktop settings
+longDescription: |
+  <p>
+        Budgie Control Center is the primary interface for configuring your system.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - budgie-control-center
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - preferences
+  - settings
+iconSources:
+  - url: b/bu/budgie-control-center.desktop/af380bfa6c308da06efad08fd7cf7db3/icons/128x128/budgie-control-center_org.buddiesofbudgie.Settings.png
+    width: 128
+    height: 128
+developer: BuddiesOfBudgie
+enabled: true
+order: 99

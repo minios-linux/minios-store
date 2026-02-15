@@ -1,0 +1,43 @@
+id: "glogic"
+name: gLogic
+description: Logic circuit simulator
+longDescription: |
+  <p>gLogic is an educational graphical logic circuit simulator developed with Python and GTK+. This program simulates logic circuits containing basic components (e.g. NOT, AND, OR) and many advanced components like flip-flop.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - glogic
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - circuit simulator
+  - logic circuit
+  - education
+  - science
+  - electronics
+iconSources:
+  - url: g/gl/glogic.desktop/f3042e39f3916154058024bb6cb4e3c3/icons/128x128/glogic_glogic.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,33 @@
+id: sweep
+name: Sweep
+description: Sweep Sound Editor
+longDescription: |
+  <p>Sweep is an audio editor and live playback tool. It supports many music and voice formats including WAV, AIFF, Ogg Vorbis, Speex and MP3, with multichannel editing and LADSPA effects plugins.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sweep
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: sweep_sweep.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

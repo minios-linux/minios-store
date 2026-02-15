@@ -1,0 +1,5 @@
+{
+  "name": "Brasero",
+  "description": "Crea e copia CD e DVD",
+  "longDescription": "<p>Brasero è un'applicazione semplice per masterizzare, copiare e cancellare supporti CD e DVD: audio, video o dati. Include tra le sue funzionalità:  * Masterizzazione al volo  * Supporto multisessione  * Conversione al volo delle playlist musicali in tutti i formati supportati da    GStreamer</p>\n<p>Questo pacchetto contiene l'app standalone.</p>\n<p>I seguenti pacchetti, se installati, aggiungono funzionalità a Brasero:  * cdrdao per masterizzare CD dati/audio combinati e copia byte a byte  * Backend GStreamer per supportare ulteriori formati audio  * vcdimager per creare VCD o SVCD  * libdvdcss2 per copiare DVD protetti  * tracker per cercare file video, audio, immagini e documenti</p>\n"
+}

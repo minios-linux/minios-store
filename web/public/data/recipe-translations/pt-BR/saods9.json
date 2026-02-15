@@ -1,0 +1,5 @@
+{
+  "name": "SAOImage DS9",
+  "description": "Aplicativo de Visualização de Dados Astronômicos",
+  "longDescription": "<p>SAOImage DS9 é um aplicativo para visualização de imagens e dados astronômicos. O DS9 oferece suporte a imagens FITS e tabelas binárias, múltiplos frame buffers, manipulação de regiões e diversos algoritmos de escala e mapas de cores. Ele permite fácil integração com tarefas externas de análise e é altamente configurável e extensível via XPA e SAMP.</p>\n<p>Todas as versões e plataformas oferecem um conjunto consistente de recursos de interface gráfica e funcionalidades.</p>\n<p>O DS9 suporta recursos avançados como frame buffers 2D, 3D e RGB, imagens em mosaico, divisão em blocos, intermitência (blinking), marcações geométricas, manipulação de mapas de cores, escalonamento, zoom arbitrário, recorte, rotação, panorâmica e diversos sistemas de coordenadas.</p>\n<p>A interface gráfica do DS9 é configurável pelo usuário. Elementos como exibição de coordenadas, panorâmica, lupa, gráficos horizontais e verticais, barra de botões e barra de cores podem ser ajustados via menus ou linha de comando.</p>\n"
+}

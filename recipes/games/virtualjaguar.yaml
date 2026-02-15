@@ -1,0 +1,42 @@
+id: virtualjaguar
+name: Virtual Jaguar
+description: Cross-platform Atari Jaguar emulator
+longDescription: |
+  <p>Virtual Jaguar is a cross-platform emulator for Atari&apos;s infamous Jaguar console, the last video game system to be ever released by the now defunct company. The Jaguar was marketed as the first 64-bit video game system despite the fact that it was actually a 32-bit system at heart, just the blitter operated in 64-bit mode. The system was a commercial failure and eventually lead to Atari leaving the market for video game systems for good.</p>
+  <p>This emulator features an intuitive user interface and emulation of all of the major subsystems of the Atari Jaguar console. This includes full GPU and DSP emulation as well as emulation of the Atari Jaguar CD. Most of the commercial Atari games are supported, albeit some of them have some minor glitches when running in the emulator.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - virtualjaguar
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - emulator
+  - atari
+  - console
+iconSources:
+  - cached: virtualjaguar_vj.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

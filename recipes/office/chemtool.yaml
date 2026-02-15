@@ -1,0 +1,46 @@
+id: chemtool
+name: Chemtool
+description: The molecules drawing program (2D)
+longDescription: |
+  <p>Chemtool is a GTK+ based 2D chemical structure editor for X11. It supports many bond styles, most forms of text needed for chemical typesetting and splines/arcs/curved arrows.</p>
+  <p>Drawings can be exported to MOL and PDB format, SVG or XFig format for further annotation, as a PiCTeX drawing, as a bitmap or as Postscript files (several of these through XFig&apos;s companion program fig2dev).</p>
+  <p>The package also contains a helper program, cht, to calculate sum formula and (exact) molecular weight from a chemtool drawing file. Cht can either be called directly by Chemtool or on the console.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chemtool
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - formula
+  - structural formula
+  - chemistry
+  - chemical editor
+  - chemical formula
+  - science
+iconSources:
+  - cached: chemtool_chemtool.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

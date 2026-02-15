@@ -1,0 +1,5 @@
+{
+  "name": "GOPchop",
+  "description": "Editor MPEG2 akurat-GOP",
+  "longDescription": "<p>gopchop memotong dan menggabungkan stream video MPEG2. gopchop menggunakan metode pemotongan yang tidak memerlukan proses enkode ulang, sehingga prosesnya cepat dan tidak rentan terhadap artefak atau penurunan kualitas yang biasanya terjadi pada proses enkode ulang. Namun, pemotongan hanya dapat dilakukan pada batas I-frame atau group-of-picture (GOP). Frame ini cukup sering muncul, dan biasanya berada di transisi adegan, sehingga metode gopchop memadai untuk banyak kebutuhan.</p>\n<p>Penggunaan umumnya adalah untuk mengedit secara manual iklan dari rekaman acara televisi.</p>\n<p>Aplikasi lainnya adalah membagi file .VOB dari hasil ripping DVD dual-layer sehingga konten dapat disusun ulang agar masing-masing setengahnya dapat muat di satu DVD single-layer recordable.</p>\n"
+}

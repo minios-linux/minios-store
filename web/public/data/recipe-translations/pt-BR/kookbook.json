@@ -1,0 +1,5 @@
+{
+  "name": "Kookbook",
+  "description": "Aplicativo simples para gerenciar coleções de receitas",
+  "longDescription": "<p>O KookBook ajuda você a organizar sua coleção de receitas, permitindo navegar, buscar por título ou ingrediente e relembrar detalhes das suas criações culinárias.</p>\n<p>As receitas são escritas em markdown e salvas em arquivos de texto. Um livro de receitas, ou coleção, é uma estrutura de pastas que contém uma ou mais receitas. A estrutura de pastas pode ser usada para navegar e agrupar as receitas de diferentes maneiras.</p>\n<p>As receitas podem ser sincronizadas entre dispositivos ou compartilhadas com outros usuários por meio de ferramentas externas como repositórios git, Nextcloud ou muitos outros serviços.</p>\n<p>O pacote inclui tanto o programa para desktop \"kookbook\" quanto uma versão para telas sensíveis ao toque, \"kookbooktouch\".</p>\n<p>Também acompanha uma ferramenta de conversão que pode transformar um banco de dados do krecipes em um conjunto de arquivos markdown do kookbook. Para mais detalhes, consulte /usr/share/doc/kookbook/README.Debian</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "XPaint",
+  "description": "Aplikasi lukis XPaint",
+  "longDescription": "<p>XPaint cocok untuk membuat grafis sederhana. Aplikasi ini juga menyediakan beberapa fitur lanjutan seperti fungsi pemrosesan gambar dan pengisian gradien.</p><p>Pada C Script Editor di XPaint, menu Editor Eksternal pada File akan menjalankan perintah x-terminal-emulator -e sensible-editor.</p><p>Paket gv diperlukan untuk membaca PDF/PS, netpbm diperlukan untuk konversi eksternal, dan lpr untuk pencetakan.</p>\n"
+}

@@ -1,0 +1,33 @@
+id: solarwolf
+name: SolarWolf
+description: Collect the boxes and don't become mad
+longDescription: |
+  <p>Solarwolf is an action/arcade game written entirely in Python, featuring amazing graphics and cool music. It is originally based on the SolarFox game on the Atari 2600.</p>
+  <p>All this, yet the best feature of all is; it is a hecka lotta fun! The point of the game is to scramble through 60 levels of patterns, collecting all the boxes. The part that makes it tricky is avoiding the relentless hailstorm of fire coming at you from all directions.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - solarwolf
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pygame
+  - boxes
+  - space
+  - ship
+iconSources:
+  - cached: solarwolf_solarwolf.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

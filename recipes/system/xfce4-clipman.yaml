@@ -1,0 +1,42 @@
+id: "xfce4-clipman"
+name: Clipman
+description: Clipboard manager
+longDescription: |
+  <p>Clipman enables you to store and recall X selections, as well as GTK+ clipboard content. You can also define actions to be triggered by selecting some text pattern.</p>
+  <p>This package uses Xfce libraries but can be used without the Xfce panel and only requires a system tray (notification area).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-clipman
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: x/xf/xfce4-clipman.desktop/4369551f82a1ccf299f5a063cc6e91b4/screenshots/image-1_orig.png
+    thumbnailUrl: x/xf/xfce4-clipman.desktop/4369551f82a1ccf299f5a063cc6e91b4/screenshots/image-1_224x118.png
+    width: 370
+    height: 195
+iconSources:
+  - url: x/xf/xfce4-clipman.desktop/4369551f82a1ccf299f5a063cc6e91b4/icons/128x128/xfce4-clipman_xfce4-clipman-plugin.png
+    width: 128
+    height: 128
+homepage: "https://docs.xfce.org/panel-plugins/xfce4-clipman-plugin"
+enabled: true
+order: 99

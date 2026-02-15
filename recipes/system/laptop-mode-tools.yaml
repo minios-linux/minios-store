@@ -1,0 +1,39 @@
+id: laptop-mode-tools
+name: Laptop Mode Tools Configuration
+description: Enable/disable Laptop Mode Tools settings
+longDescription: |
+  <p>Laptop mode is a Linux kernel feature that allows your laptop to save considerable power, by allowing the hard drive to spin down for longer periods of time. This package contains the userland scripts that are needed to enable laptop mode.</p>
+  <p>It includes support for automatically enabling laptop mode when the computer is working on batteries. It also supports various other power management features, such as starting and stopping daemons depending on power mode, automatically hibernating if battery levels are too low, and adjusting terminal blanking and X11 screen blanking</p>
+  <p>laptop-mode-tools uses the Linux kernel&apos;s Laptop Mode feature and thus is also used on Desktops and Servers to conserve power</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - laptop-mode-tools
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - preferences
+iconSources:
+  - cached: laptop-mode-tools_laptop-mode-tools.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

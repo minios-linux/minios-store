@@ -1,0 +1,5 @@
+{
+  "name": "comptty",
+  "description": "Communications radioamateur",
+  "longDescription": "<p>Comptty permet de comparer deux flux RTTY. Sa fonction de comparaison utilise une méthode de programmation linéaire. Elle calcule le nombre total d’erreurs, le taux d’erreur de caractère (CER) et le taux d’erreur de bit (BER). Une attention particulière est portée aux séquences SHIFT et UNSHIFT pour tenir compte des erreurs survenant sur ces caractères.</p>\n"
+}

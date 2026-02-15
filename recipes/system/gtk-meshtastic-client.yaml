@@ -1,0 +1,32 @@
+id: gtk-meshtastic-client
+name: Meshtastic Client
+description: Graphically control meshtastic devices
+longDescription: |
+  <p>This is a GUI client to control a meshtastic device over Serial, Bluetooth,
+   or TCP/IP. It runs on top of the meshtastic Python API</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtk-meshtastic-client
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gtk
+screenshotSources:
+  - url: org/kop316/meshtastic/d7719f3d4906b1e272f86638022d8df2/screenshots/image-1_orig.png
+    thumbnailUrl: org/kop316/meshtastic/d7719f3d4906b1e272f86638022d8df2/screenshots/image-1_624x831@1.png
+    width: 1204
+    height: 1604
+iconSources:
+  - url: org/kop316/meshtastic/d7719f3d4906b1e272f86638022d8df2/icons/128x128/gtk-meshtastic-client_org.kop316.meshtastic.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.com/kop316/gtk-meshtastic-client"
+enabled: true
+order: 99

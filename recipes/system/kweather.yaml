@@ -1,0 +1,40 @@
+id: kweather
+name: Weather
+description: View real-time weather forecasts
+longDescription: |
+  <p>A convergent weather application for Plasma. Has flat and dynamic/animated views for showing forecasts and other information.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kweather
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kweather/95fb4eeb394b5c407461238b5a3dbfd9/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kweather/95fb4eeb394b5c407461238b5a3dbfd9/screenshots/image-1_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/kweather/95fb4eeb394b5c407461238b5a3dbfd9/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kweather/95fb4eeb394b5c407461238b5a3dbfd9/screenshots/image-2_624x573@1.png
+    width: 760
+    height: 699
+  - url: org/kde/kweather/95fb4eeb394b5c407461238b5a3dbfd9/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kweather/95fb4eeb394b5c407461238b5a3dbfd9/screenshots/image-3_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/kweather/95fb4eeb394b5c407461238b5a3dbfd9/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/kweather/95fb4eeb394b5c407461238b5a3dbfd9/screenshots/image-4_624x1248@1.png
+    width: 720
+    height: 1440
+iconSources:
+  - url: org/kde/kweather/95fb4eeb394b5c407461238b5a3dbfd9/icons/128x128/kweather_org.kde.kweather.png
+    width: 128
+    height: 128
+homepage: "https://invent.kde.org/utilities/kweather"
+enabled: true
+order: 99

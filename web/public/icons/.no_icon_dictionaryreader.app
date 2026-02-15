@@ -1,0 +1,1 @@
+dictionaryreader.app_dict.png

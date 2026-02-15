@@ -1,0 +1,32 @@
+id: "lightdm-settings"
+name: Login Window
+description: Configure the login window
+longDescription: |
+  <p>This package assists in settings configuration for the LightDM display manager.</p>
+  <p>This tool currently lets users configure slick-greeter.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lightdm-settings
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: l/li/lightdm-settings.desktop/d24a97e11fa7423eb85c7343738e1feb/icons/128x128/lightdm-settings_lightdm-settings.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

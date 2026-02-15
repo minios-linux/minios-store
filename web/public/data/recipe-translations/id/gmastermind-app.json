@@ -1,0 +1,5 @@
+{
+  "name": "GMastermind",
+  "description": "Implementasi GNUstep dari gim Mastermind",
+  "longDescription": "<p>Seret dan letakkan warna dari palet atau langsung dari papan permainan. Tujuan utama gim ini adalah menebak kombinasi tersembunyi dari empat warna. Gim dapat dimainkan dalam dua mode: dengan pengulangan (warna bisa berulang) dan tanpa pengulangan (setiap warna unik). Pengguna memilih kombinasi empat warna lalu \"commit\" pilihan tersebut. Program akan memberikan evaluasi—peg hitam untuk warna yang posisinya benar, dan peg putih untuk warna yang benar namun di posisi salah. Pengguna memiliki delapan kali kesempatan untuk menebak.</p>\n"
+}

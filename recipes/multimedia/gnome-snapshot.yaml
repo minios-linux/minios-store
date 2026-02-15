@@ -1,0 +1,41 @@
+id: gnome-snapshot
+name: Camera
+description: Take pictures and videos
+longDescription: |
+  <p>
+        Take pictures and videos on your computer, tablet, or phone.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-snapshot
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - picture
+  - photos
+  - camera
+  - webcam
+  - snapshot
+screenshotSources:
+  - url: org/gnome/Snapshot/ee9059e3808e888a5d06182587c571aa/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Snapshot/ee9059e3808e888a5d06182587c571aa/screenshots/image-1_224x285@1.png
+    width: 581
+    height: 741
+  - url: org/gnome/Snapshot/ee9059e3808e888a5d06182587c571aa/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Snapshot/ee9059e3808e888a5d06182587c571aa/screenshots/image-2_624x793@1.png
+    width: 809
+    height: 1029
+iconSources:
+  - url: org/gnome/Snapshot/ee9059e3808e888a5d06182587c571aa/icons/128x128/gnome-snapshot_org.gnome.Snapshot.png
+    width: 128
+    height: 128
+homepage: "https://apps.gnome.org/Snapshot/"
+enabled: true
+order: 99

@@ -1,0 +1,55 @@
+id: saldo
+name: Saldo
+description: Check your bank accounts
+longDescription: |
+  <p>
+        An easy way to access your online banking information. Show your balance and transaction based on FinTS online banking
+  information.
+      </p>
+  <p>
+        Note: This is a frontend for python-fints. Report non working bank access at python-fints github page.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - saldo
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - network
+  - online
+  - banking
+screenshotSources:
+  - url: org/tabos/saldo.desktop/04a1b7d6d42ab4e9d8b41db62fefada9/screenshots/image-1_orig.png
+    thumbnailUrl: org/tabos/saldo.desktop/04a1b7d6d42ab4e9d8b41db62fefada9/screenshots/image-1_624x414@1.png
+    width: 1146
+    height: 762
+  - url: org/tabos/saldo.desktop/04a1b7d6d42ab4e9d8b41db62fefada9/screenshots/image-2_orig.png
+    thumbnailUrl: org/tabos/saldo.desktop/04a1b7d6d42ab4e9d8b41db62fefada9/screenshots/image-2_624x338@1.png
+    width: 1310
+    height: 710
+  - url: org/tabos/saldo.desktop/04a1b7d6d42ab4e9d8b41db62fefada9/screenshots/image-3_orig.png
+    thumbnailUrl: org/tabos/saldo.desktop/04a1b7d6d42ab4e9d8b41db62fefada9/screenshots/image-3_624x414@1.png
+    width: 1146
+    height: 762
+  - url: org/tabos/saldo.desktop/04a1b7d6d42ab4e9d8b41db62fefada9/screenshots/image-4_orig.png
+    thumbnailUrl: org/tabos/saldo.desktop/04a1b7d6d42ab4e9d8b41db62fefada9/screenshots/image-4_624x414@1.png
+    width: 1146
+    height: 762
+  - url: org/tabos/saldo.desktop/04a1b7d6d42ab4e9d8b41db62fefada9/screenshots/image-5_orig.png
+    thumbnailUrl: org/tabos/saldo.desktop/04a1b7d6d42ab4e9d8b41db62fefada9/screenshots/image-5_224x289@1.png
+    width: 482
+    height: 622
+iconSources:
+  - url: org/tabos/saldo.desktop/04a1b7d6d42ab4e9d8b41db62fefada9/icons/128x128/saldo_org.tabos.saldo.png
+    width: 128
+    height: 128
+homepage: "https://www.tabos.org/projects/saldo/"
+enabled: true
+order: 99

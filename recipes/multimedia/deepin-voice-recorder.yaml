@@ -1,0 +1,32 @@
+id: deepin-voice-recorder
+name: Deepin Voice Recorder
+description: Record voice
+longDescription: |
+  <p>Deepin-voice-recorder is the default voice recorder for DDE (Deepin Desktop Environment). It has a beautiful and easy-to-use voice recording user interface with simple design. It supports voice recording, record playback, record list management and other functions.</p>
+  <p>This package is part of DDE (Deepin Desktop Environment).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deepin-voice-recorder
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: d/de/deepin-voice-recorder.desktop/649DCD594E48466B7147EC20423B4883/icons/128x128/deepin-voice-recorder_deepin-voice-recorder.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

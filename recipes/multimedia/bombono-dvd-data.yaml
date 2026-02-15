@@ -1,0 +1,24 @@
+id: bombono-dvd-data
+name: Bombono DVD
+description: DVD authoring program
+longDescription: |
+  <p>Bombono DVD is easy to use program for making DVD-Video. The main features of Bombono DVD are:  * excellent MPEG viewer: Timeline and Monitor  * real WYSIWYG Menu Editor with live thumbnails  * comfortable Drag-N-Drop support  * you can author to folder, make ISO-image or burn directly to DVD  * reauthoring: you can import video from DVD discs.</p>
+  <p>This package contains architecture-independent data files needed by bombono-dvd.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bombono-dvd-data
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: bombono-dvd-data_bombono-dvd.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

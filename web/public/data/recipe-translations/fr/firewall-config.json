@@ -1,0 +1,5 @@
+{
+  "name": "Pare-feu",
+  "description": "Configuration du pare-feu",
+  "longDescription": "<p>La Configuration du pare-feu offre un outil graphique pour administrer le pare-feu.</p>\n<p>Permet d’inspecter et de configurer :</p>\n<ul>\n  <li>La configuration du pare-feu en temps réel ou permanente</li>\n  <li>Les zones prédéfinies (niveaux de confiance pour les connexions réseau)</li>\n  <li>Les services prédéfinis (port/protocole, module d’assistance netfilter)</li>\n  <li>Le transfert de ports, le masquage d’adresse (masquerading), le blocage ICMP</li>\n  <li>Des règles avancées du pare-feu (Rich Language)</li>\n  <li>Des règles iptables via l’interface directe (Direct Interface)</li>\n</ul>\n"
+}

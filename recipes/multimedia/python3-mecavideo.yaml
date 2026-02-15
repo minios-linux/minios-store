@@ -1,0 +1,31 @@
+id: python3-mecavideo
+name: pyMecaVideo
+description: Interactive tool to track moving points in video framesets
+longDescription: |
+  <p>You can track the movement of one or many points in video frames and export the position measurements to standard analysis tools.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - python3-mecavideo
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: python3-mecavideo_pymecavideo-48.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Light Video",
+  "description": "Ein einfacher, auf GTK4 basierender Videoplayer für Mobiltelefone",
+  "longDescription": "<p>\n      Ein minimalistischer Videoplayer auf Basis von GTK4 und GStreamer für Mobiltelefone wie das Librem 5, der auf einen besonders geringen Stromverbrauch ausgelegt ist.\n    </p>\n<p>\n      Unterstützte Funktionen:\n    </p>\n<ul>\n  <li>Verhindert Energiesparmodus/Wartezustand während der Videowiedergabe</li>\n  <li>Stoppt Wiedergabe bei Display-Abschaltung (z. B. durch Power-Button)</li>\n  <li>Registrierung als Standard-Videoplayer im GNOME-Kontrollzentrum</li>\n  <li>Anzeige, ob Hardware-Beschleunigung verwendet wird</li>\n</ul>\n"
+}

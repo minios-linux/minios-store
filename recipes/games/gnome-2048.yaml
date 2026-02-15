@@ -1,0 +1,49 @@
+id: "gnome-2048"
+name: GNOME 2048
+description: Obtain the 2048 tile
+longDescription: |
+  <p>Play the highly addictive 2048 game. GNOME 2048 is a clone of the popular single-player puzzle game. Gameplay consists of joining numbers in a grid and obtain the 2048 tile.</p>
+  <p>Use your keyboard&apos;s arrow keys to slide all tiles in the desired direction. Be careful: all tiles slide to their farthest possible positions, you cannot slide just one tile or one row or column. Tiles with the same value are joined when slided one over the other.</p>
+  <p>With every new tile obtained you increase your score. If you think you can easily get the 2048 tile, do not let it stop you, the game does not end there, you can continue joining tiles and improving your score.</p>
+  <p>Originally created by Gabriele Cirulli, 2048 has gained much popularity due to it being highly addictive. Cirulli&apos;s 2048 is in turn a clone of the 1024 game and includes ideas from other clones.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-2048
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - puzzle
+screenshotSources:
+  - url: org/gnome/TwentyFortyEight/ff33fadaa7c0dff69bd6e4c6a7b9c8d5/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/TwentyFortyEight/ff33fadaa7c0dff69bd6e4c6a7b9c8d5/screenshots/image-1_624x668@1.png
+    width: 652
+    height: 699
+iconSources:
+  - url: org/gnome/TwentyFortyEight/ff33fadaa7c0dff69bd6e4c6a7b9c8d5/icons/128x128/gnome-2048_org.gnome.TwentyFortyEight.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/2048"
+enabled: true
+order: 99

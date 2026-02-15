@@ -1,0 +1,5 @@
+{
+  "name": "Balsa",
+  "description": "Cliente de correo electrónico",
+  "longDescription": "<p>Balsa es un cliente de correo para el entorno de escritorio GNOME, altamente configurable y robusto. Es compatible con servidores POP3 e IMAP, así como con los formatos de buzón locales mbox, maildir y mh. Balsa también admite SMTP y/o el uso de un MTA local como Sendmail.</p><p>Entre las características de Balsa se incluyen:   * Soporte para buzones anidados   * Impresión   * Revisión ortográfica   * Recuperación de correo en múltiples hilos   * Soporte MIME (ver imágenes integradas, guardar adjuntos)   * Libreta de direcciones compatible con GPE Palmtop, LDAP, LDIF y vCard   * Compatibilidad con múltiples juegos de caracteres para redactar y leer mensajes   * Archivos adjuntos en mensajes salientes   * Firma y cifrado de correos con GPG/OpenPGP</p><p>Este paquete incluye soporte para Kerberos y SSL.</p>\n"
+}

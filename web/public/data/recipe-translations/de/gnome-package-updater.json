@@ -1,0 +1,5 @@
+{
+  "name": "GNOME Paketaktualisierer",
+  "description": "Aktualisieren Sie installierte Software auf dem System",
+  "longDescription": "<p>\n      Mit dem Paketaktualisierer können Sie Pakete auf Ihrem System aktualisieren,\n      ohne einen Neustart durchführen zu müssen.\n      Sie erhalten eine Übersicht zu allen verfügbaren Updates und können gezielt auswählen,\n      welche Aktualisierungen installiert werden sollen.\n    </p>\n<p>\n      Der Paketaktualisierer nutzt PackageKit und funktioniert auf jeder Distribution,\n      die das native Paketmanagement verwendet.\n    </p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Gmsh Mesh Generator",
+  "description": "3D-Finite-Elemente-Netzgenerator",
+  "longDescription": "<p>Gmsh ist ein 3D-Finite-Elemente-Netzgenerator mit integriertem CAD-Modul und Nachbearbeitungstools. Das Ziel der Entwicklung ist es, ein schnelles, schlankes und benutzerfreundliches Werkzeug zur Netzerstellung mit parametrischer Eingabe und fortschrittlichen Visualisierungsfunktionen bereitzustellen. Gmsh basiert auf vier Modulen: Geometrie, Netz, Solver und Nachbearbeitung. Die Spezifikation der Eingaben für diese Module erfolgt entweder interaktiv über die grafische Benutzeroberfläche oder in ASCII-Textdateien mittels der eigenen Skriptsprache von Gmsh.</p>\n<p>Weitere Informationen und einen umfassenden Überblick über die Funktionen von Gmsh finden Sie im offiziellen Handbuch.</p>\n"
+}

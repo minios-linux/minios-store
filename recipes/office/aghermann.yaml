@@ -1,0 +1,39 @@
+id: "aghermann"
+name: Aghermann
+description: "Manage EEG recordings, view and score EDF files, and simulate Process S"
+longDescription: |
+  <p>Aghermann is a program designed around a common workflow in sleep-research, complete with scoring facility; cairo subpixel drawing on screen or to file; conventional PSD and EEG Micrcontinuity profiles; Independent Component Analysis; artifact detection; and Process S simulation following Achermann et al, 1993.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - aghermann
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - eeg,edf,simulation
+iconSources:
+  - url: e/ed/edfhed-gtk.desktop/6f9a92dd575c820dfd36ad56e17180d3/icons/128x128/aghermann_edfhed-gtk.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

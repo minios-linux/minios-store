@@ -1,0 +1,5 @@
+{
+  "name": "gscan2pdf",
+  "description": "Interface gráfica para criar PDFs ou DjVus a partir de documentos digitalizados",
+  "longDescription": "<p>Basta apenas dois cliques para digitalizar várias páginas e salvar todas ou uma seleção como um arquivo PDF ou DjVu, incluindo metadados se necessário.</p>\n<p>O gscan2pdf pode controlar scanners comuns ou alimentados por folhas (ADF) com SANE via libimage-sane-perl, scanimage ou scanadf, permitindo a digitalização de múltiplas páginas de uma vez. Ele apresenta uma visualização em miniatura das páginas digitalizadas e permite operações simples como recorte, rotação e exclusão de páginas.</p>\n<p>É possível utilizar OCR para reconhecer o texto das digitalizações, incorporando o resultado ao PDF ou DjVu.</p>\n<p>O documento final pode ser salvo como PDF, DjVu, arquivo TIFF multipágina, ou como imagens de página única.</p>\n"
+}

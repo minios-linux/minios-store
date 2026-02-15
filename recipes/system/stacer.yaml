@@ -1,0 +1,31 @@
+id: "stacer"
+name: Stacer
+description: Linux System Optimizer and Monitoring
+longDescription: |
+  <p>Monitor your system (CPU, memory, disk) in a graphical application (qt). Change and monitor your services. Summarizes basic system information and can show network download/upload speeds/totals.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - stacer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: s/st/stacer.desktop/e83b2331f7ccecbdb7d7313f4d24828e/icons/128x128/stacer_stacer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

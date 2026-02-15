@@ -1,0 +1,52 @@
+id: "ktechlab"
+name: KTechlab
+description: IDE for microcontrollers and electronics
+longDescription: |
+  <p>
+        KTechlab is an IDE for microcontrollers and electronics designed to be as easy to use and unintrusive as possible.
+      </p>
+  <p>Features:</p>
+  <ul>
+    <li>Wide range of components with editable characteristics</li>
+    <li>Visual editor for circuits</li>
+    <li>Context help for the components</li>
+    <li>Two modes of connector routing: automatic and manual</li>
+    <li>Several ways to define the PIC logic: assembly code, Microbe (own high level programming language) code, C code,
+  and visual FlowCode</li>
+    <li>Interconversion of the programming code between supported languages</li>
+    <li>Inbuilt debugger</li>
+    <li>Simulation with oscilloscope and probes</li>
+    <li>Uploading the assembly code to PIC using hardware programmer</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ktechlab
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/ktechlab.desktop/02de34e92d7babbaaf252320e94ad5d7/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ktechlab.desktop/02de34e92d7babbaaf252320e94ad5d7/screenshots/image-1_624x374@1.png
+    width: 1320
+    height: 792
+iconSources:
+  - url: org/kde/ktechlab.desktop/02de34e92d7babbaaf252320e94ad5d7/icons/128x128/ktechlab_ktechlab.png
+    width: 128
+    height: 128
+homepage: "https://userbase.kde.org/Special:myLanguage/KTechlab"
+enabled: true
+order: 99

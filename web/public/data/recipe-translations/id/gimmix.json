@@ -1,0 +1,5 @@
+{
+  "name": "Gimmix",
+  "description": "Gimmix adalah klien music player daemon (MPD) berbasis grafis yang ditulis dalam C.",
+  "longDescription": "<p>Gimmix adalah klien MPD grafis yang menggunakan GTK+2. Aplikasinya sangat sederhana dan mudah digunakan, namun menawarkan banyak fitur untuk meningkatkan pengalaman audio Anda.</p>\n<p>Fitur utama:  * Antarmuka sederhana dan bersih.  * Penjelajah pustaka musik.  * Pencarian pustaka (berdasarkan artis, album, nama file, dll).  * Manajemen playlist (mengatur playlist mpd).  * Dukungan pengeditan tag ID3v2.  * Dukungan ikon di system tray.  * Kontrol Gimmix lewat keyboard.  * Notifikasi (menampilkan lagu yang sedang diputar di system tray).  * Konsumsi memori rendah.</p>\n"
+}

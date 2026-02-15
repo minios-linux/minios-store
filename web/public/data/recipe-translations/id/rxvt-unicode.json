@@ -1,0 +1,5 @@
+{
+  "name": "Rxvt Color Unicode Terminal",
+  "description": "Gunakan baris perintah",
+  "longDescription": "<p>rxvt-unicode adalah pengganti xterm modern yang mendukung Unicode dan warna, menggunakan jauh lebih sedikit memori dibandingkan xterm konvensional dan banyak emulator terminal lain yang mendukung Unicode.</p>\n<p>Aplikasi ini mendukung penggunaan beberapa font secara bersamaan, termasuk font Xft, serta teknologi client-server untuk mengurangi konsumsi memori saat menjalankan banyak jendela terminal.</p>\n<p>Paket ini telah dikonfigurasi dengan dukungan 256 warna, dan variabel TERM diatur ke \"rxvt-unicode-256color\". Pastikan sistem lain yang Anda akses juga memiliki entri terminfo tersebut!</p>\n"
+}

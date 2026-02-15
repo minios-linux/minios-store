@@ -1,0 +1,55 @@
+id: "juk"
+name: JuK
+description: Music Player
+longDescription: |
+  <p>JuK is an audio jukebox application, supporting collections of MP3, Ogg Vorbis, and FLAC audio files. It allows you to edit the &quot;tags&quot; of your audio files, and manage your collection and playlists. It&apos;s main focus, in fact, is on music management.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Collection list and multiple user defined playlists</li>
+    <li>Ability to scan directories to automatically import playlists and music files on start up</li>
+    <li>Dynamic Search Playlists that are automatically updated as fields in the collection change</li>
+    <li>A Tree View mode where playlists are automatically generated for sets of albums, artists and genres</li>
+    <li>Playlist history to indicate which files have been played and when</li>
+    <li>Inline search for filtering the list of visible items</li>
+    <li>The ability to guess tag information based on the track&apos;s file name</li>
+    <li>File renamer that can rename files based on the tag content</li>
+    <li>Tag reading and editing support for many formats including ID3v1, ID3v2 and Ogg Vorbis</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - juk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/juk.desktop/83f53ebd765a1d96fa1defeb17a585a0/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/juk.desktop/83f53ebd765a1d96fa1defeb17a585a0/screenshots/image-1_624x340@1.png
+    width: 1920
+    height: 1048
+iconSources:
+  - url: org/kde/juk.desktop/83f53ebd765a1d96fa1defeb17a585a0/icons/128x128/juk_juk.png
+    width: 128
+    height: 128
+homepage: "http://juk.kde.org/"
+enabled: true
+order: 99

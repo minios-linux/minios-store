@@ -1,0 +1,5 @@
+{
+  "name": "Frama-C",
+  "description": "Framework para análise de código-fonte de softwares escritos em C",
+  "longDescription": "<p>O Frama-C é um framework dedicado à análise de código-fonte de softwares desenvolvidos em C.</p>\n<p>O Frama-C reúne diversas técnicas de análise estática em um único ambiente colaborativo. Sua abordagem colaborativa permite que diferentes analisadores estáticos aproveitem resultados já processados por outros analisadores dentro do framework. Dessa forma, o Frama-C fornece ferramentas sofisticadas, como fatiador de código (slicer) e análise de dependências.</p>\n<p>Ele pode ser utilizado para:   * Validar formalmente o código-fonte   * Identificar possíveis erros de execução   * Auditar ou revisar o código   * Fazer engenharia reversa para entender sua estrutura   * Gerar documentação formal</p>\n<p>Este pacote disponibiliza a interface gráfica do Frama-C e depende do frama-c-base.</p>\n"
+}

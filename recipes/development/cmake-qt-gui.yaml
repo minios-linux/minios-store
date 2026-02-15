@@ -1,0 +1,39 @@
+id: "cmake-qt-gui"
+name: CMake
+description: Cross-platform buildsystem
+longDescription: |
+  <p>CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice.</p>
+  <p>This package provides the CMake Qt4 based GUI. Project configuration settings may be specified interactively. Brief instructions are provided at the bottom of the window when the program is running. The main executable file for this GUI is &quot;cmake-gui&quot;.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cmake-qt-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: com/kitware/cmake_gui/262fd38107fe7d9b41781da068a6a803/icons/128x128/cmake-qt-gui_CMakeSetup.png
+    width: 128
+    height: 128
+homepage: "https://www.cmake.org"
+enabled: true
+order: 99

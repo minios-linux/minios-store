@@ -1,0 +1,5 @@
+{
+  "name": "Tor Browser Launcher Settings",
+  "description": "Pengaturan Tor Browser Launcher",
+  "longDescription": "<p>Tor Browser Launcher dirancang untuk mempermudah pengelolaan dan penggunaan Tor Browser Bundle (TBB) bagi pengguna GNU/Linux. torbrowser-launcher secara otomatis mengunduh versi TBB terbaru untuk Anda, dalam bahasa dan arsitektur yang sesuai. Aplikasi ini juga menambahkan pintasan \"Tor Browser\" ke menu sistem operasi Anda.</p>\n<p>Ketika pertama kali dijalankan, Tor Browser Launcher akan mengunduh TBB dari https://www.torproject.org/ dan mengekstraknya ke ~/.local/share/torbrowser, lalu menjalankannya. File cache dan konfigurasi akan disimpan di ~/.cache/torbrowser dan ~/.config/torbrowser. Pada penggunaan berikutnya setelah instalasi, aplikasi ini akan langsung menjalankan TBB terbaru yang telah diperbarui melalui fitur pembaruan milik Tor Browser sendiri.</p>\n"
+}

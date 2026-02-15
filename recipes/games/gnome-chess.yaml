@@ -1,0 +1,51 @@
+id: "gnome-chess"
+name: GNOME Chess
+description: Play the classic two-player board game of chess
+longDescription: |
+  <p>GNOME Chess is a simple chess game. You can play against your computer at
+        three different difficulty levels, or against a friend at your computer.</p>
+  <p>Computer chess enthusiasts will appreciate GNOME Chess’s compatibility with
+        nearly all modern computer chess engines, and its ability to detect several
+        popular engines automatically if installed.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-chess
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - strategy
+screenshotSources:
+  - url: org/gnome/Chess/6b90fb5296a5589d73c0aa305ffa0b12/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Chess/6b90fb5296a5589d73c0aa305ffa0b12/screenshots/image-1_624x510@1.png
+    width: 822
+    height: 672
+iconSources:
+  - url: org/gnome/Chess/6b90fb5296a5589d73c0aa305ffa0b12/icons/128x128/gnome-chess_org.gnome.Chess.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Chess"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "vprerex",
+  "description": "Editar diagramas de prerrequisitos de cursos",
+  "longDescription": "<p>vprerex ofrece una interfaz Qt para prerex, integrando el editor prerex con un visor de PDF. Esto permite transferir las coordenadas de los cuadros, flechas y puntos de fondo de los cursos nuevamente a prerex usando el portapapeles.</p>\n<p>prerex es un editor para crear diagramas de prerrequisitos de cursos visualmente atractivos utilizando el paquete TikZ de LaTeX.</p>\n<p>Los diagramas de prerrequisitos de cursos permiten a los estudiantes identificar fácilmente los prerrequisitos, correquisitos y recomendaciones que necesitan para cada asignatura y sus horarios. También resaltan las asignaturas requeridas para obtener un título.</p>\n<p>prerex es utilizado por departamentos en diversas universidades, incluyendo Queen's University y Suffolk University.</p>\n"
+}

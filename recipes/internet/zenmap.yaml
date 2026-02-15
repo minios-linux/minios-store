@@ -1,0 +1,33 @@
+id: "zenmap"
+name: Zenmap
+description: A cross-platform GUI for the Nmap Security Scanner.
+longDescription: |
+  <p>Zenmap is an Nmap frontend. It is meant to be useful for advanced users and to make Nmap easy to use by beginners. It was originally derived from Umit, an Nmap GUI created as part of the Google Summer of Code.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zenmap
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - network
+  - scan
+  - scanner
+  - ip
+  - security
+iconSources:
+  - url: z/ze/zenmap-root.desktop/30634f69ecfac9c428fc6f8ca7064de7/icons/128x128/zenmap_zenmap.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "G. JACK Clock",
+  "description": "Visualizza il timecode del trasporto JACK",
+  "longDescription": "<p>G. JACK Transport è un'applicazione standalone che offre accesso al meccanismo di trasporto di JACK (Jack Audio Connection Kit) tramite uno slider grafico dinamico.</p>\n<p>In altre parole: questo software permette di spostarsi all'interno di file audio/video mentre vengono riprodotti tramite il trasporto JACK. È pensato per tecnici del suono o video editor che lavorano con Ardour, Ecasound, Hydrogen, Xjadeo e simili.</p>\n<p>Inoltre include G. JACK Clock, un display \"Big Clock\" per il trasporto JACK.</p>\n"
+}

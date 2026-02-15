@@ -1,0 +1,34 @@
+id: mathgl
+name: mgllab
+description: Data handling and plotting tool
+longDescription: |
+  <p>A free cross-platform library of fast C++ routines for plotting data in up to 3 dimensions. It can export plots to bitmaps and vector EPS, SVG, IDTF files. There are simple window interfaces based on GLUT, FLTK and/or Qt. MathGL can also be used in the console. There are interfaces to a set of languages, such as, C, Fortran, Pascal, Forth, Python, Octave.</p>
+  <p>This package contains MathGL utilities and examples.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mathgl
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - visualization
+  - data
+  - array
+iconSources:
+  - cached: mathgl_udav.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

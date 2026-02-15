@@ -1,0 +1,5 @@
+{
+  "name": "QJackRcd",
+  "description": "Ein einfacher Jack-Recorder",
+  "longDescription": "<p>QJackRcd ist ein einfacher Stereo-Recorder für Jack mit Funktionen wie Stille-Erkennung zur automatischen Pause, Dateiaufteilung und Hintergrundverarbeitung. Er kann zusammen mit QJackCtl verwendet werden.</p>\n<p>Funktionen:  * Einfache QT-Oberfläche mit Anzeige des Festplattenverbrauchs und VU-Meter.  * Unterstützung für Jack und Jack-Transport beim Aufnehmen.  * Stille-Komprimierung mit automatischer Pause und optionaler Dateiaufteilung.  * Hintergrund-WAV-Verarbeitung für Formatumwandlung und Signalverarbeitung.  * Automatische Verbindung mit der zuerst gestarteten Jack-Quelle.</p>\n"
+}

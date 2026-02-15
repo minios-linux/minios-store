@@ -1,0 +1,39 @@
+id: "jugglinglab"
+name: JugglingLab
+description: Application for creating and animating juggling patterns
+longDescription: |
+  <p>Juggling Lab is an application written in Java for creating and animating juggling patterns.</p>
+  <p>Its main goals are to help people learn juggling patterns, and to assist in inventing new ones.</p>
+  <p>It generates and animates synchronous and asynchronous siteswaps and also multiplex siteswaps. Hand and body movement can be adjusted.</p>
+  <p>Part of the program is its siteswap generator, which allows one to generate siteswaps automatically by entering parameters like the number of objects, maximum height of throws and length of the pattern.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jugglinglab
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - juggling
+  - siteswap
+iconSources:
+  - url: j/ju/jugglinglab.desktop/bf4cbc5381ea37dbab43665af125fb4d/icons/128x128/jugglinglab_jugglinglab.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,49 @@
+id: "qalculate-gtk"
+name: Qalculate! (GTK+ UI)
+description: Powerful and easy to use calculator
+longDescription: |
+  <p>Qalculate! is a desktop calculator with support for units, algebra and a myriad of practical functions. All is accessible from a simple expression entry with convenient completion and efficient error handling, as well as from a number of tool windows and a traditional keypad.</p>
+  <p>The parsing of mathematical expressions and the display of the result can be customized in many ways to support your specific needs. The result can after the initial calculation be further manipulated using unit conversion, factorization, etc.</p>
+  <p>Previous expressions and results are kept in the history list and can also be stored in variables.</p>
+  <p>Functions, units and varibles can all be customised from within the application.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qalculate-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: q/qa/qalculate-gtk.desktop/ce67805ced9a6adc1d5d138dca24b8be/screenshots/image-1_orig.png
+    thumbnailUrl: q/qa/qalculate-gtk.desktop/ce67805ced9a6adc1d5d138dca24b8be/screenshots/image-1_624x633@1.png
+    width: 662
+    height: 672
+  - url: q/qa/qalculate-gtk.desktop/ce67805ced9a6adc1d5d138dca24b8be/screenshots/image-2_orig.png
+    thumbnailUrl: q/qa/qalculate-gtk.desktop/ce67805ced9a6adc1d5d138dca24b8be/screenshots/image-2_624x450@1.png
+    width: 804
+    height: 581
+iconSources:
+  - url: q/qa/qalculate-gtk.desktop/ce67805ced9a6adc1d5d138dca24b8be/icons/128x128/qalculate-gtk_qalculate.png
+    width: 128
+    height: 128
+developer: Hanna Knutsson
+homepage: "http://qalculate.github.io/"
+enabled: true
+order: 99

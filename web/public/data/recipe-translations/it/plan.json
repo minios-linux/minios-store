@@ -1,0 +1,5 @@
+{
+  "name": "plan",
+  "description": "Calendario da desktop",
+  "longDescription": "<p>Plan è un pianificatore di agenda basato su X/Motif. Visualizza un calendario mensile simile a xcal, ma ogni casella giornaliera è abbastanza grande da mostrare gli appuntamenti in caratteri piccoli. Premendo su una casella del giorno è possibile elencare e modificare gli appuntamenti per quella data. Gli appuntamenti vengono inseriti con le seguenti informazioni (tutto, tranne l'orario, è opzionale):</p>\n<p> - data, orario e durata dell'appuntamento,<br> - un messaggio di testo opzionale da visualizzare,<br> - uno script opzionale da eseguire,<br> - avvisi anticipati e posticipati che precedono l'orario dell'allarme,<br> - ripetizioni: [n-esimo] giorno della settimana, giorno del mese, ogni n giorni, annualmente,<br> - inserimento rapido degli appuntamenti tramite riga di comando opzionale,<br> - modalità flessibili per specificare festività e vacanze,<br> - aiuto contestuale esteso,<br> - supporto multiutente tramite il server netplan, fornito dal pacchetto netplan.</p>\n"
+}

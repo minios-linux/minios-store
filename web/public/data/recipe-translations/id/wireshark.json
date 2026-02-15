@@ -1,0 +1,5 @@
+{
+  "name": "Wireshark",
+  "description": "Penganalisis protokol jaringan",
+  "longDescription": "<p>\n\tWireshark memungkinkan Anda memeriksa data protokol yang disimpan dalam berkas atau secara langsung ketika ditangkap dari jaringan kabel maupun nirkabel (WiFi atau Bluetooth), perangkat USB, dan banyak sumber lainnya. Aplikasi ini mendukung puluhan format berkas tangkapan protokol dan mampu mengenali lebih dari seribu jenis protokol.\n    </p>\n<p>\n\tWireshark memiliki berbagai fitur canggih, termasuk bahasa filter tampilan yang fleksibel dan kemampuan untuk menggabungkan beberapa paket protokol agar, misalnya, Anda dapat melihat seluruh aliran TCP, menyimpan isi berkas yang ditransfer melalui HTTP atau CIFS, atau memutar ulang aliran audio RTP.\n    </p>\n"
+}

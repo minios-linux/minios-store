@@ -1,0 +1,38 @@
+id: "uefitool"
+name: UEFITool
+description: "Parse, extract and modify UEFI firmware images"
+longDescription: |
+  <p>UEFITool is a cross-platform C++/Qt program for parsing, extracting and modifying UEFI firmware images.</p>
+  <p>It supports parsing of full BIOS images starting with the flash descriptor or any binary files containing UEFI volumes.</p>
+  <p>This package contains the GUI utility, UEFITool. For the CLI versions, see uefitool-cli.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - uefitool
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - uefi
+  - editor
+iconSources:
+  - url: u/ue/uefitool.desktop/fa4674da440c1f6154315ab802ce7a8b/icons/128x128/uefitool_uefitool.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

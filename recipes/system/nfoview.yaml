@@ -1,0 +1,47 @@
+id: "nfoview"
+name: NFO Viewer
+description: Viewer for NFO files
+longDescription: |
+  <p>NFO Viewer is a simple viewer for NFO files, which are &quot;ASCII&quot;
+      art in the CP437 codepage. The advantages of using NFO Viewer
+      instead of a text editor are preset font and encoding settings,
+      automatic window size and clickable hyperlinks.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nfoview
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - information
+screenshotSources:
+  - url: io/otsaloma/nfoview.desktop/4032e9c2fd73a1a00977191914684fce/screenshots/image-1_orig.png
+    thumbnailUrl: io/otsaloma/nfoview.desktop/4032e9c2fd73a1a00977191914684fce/screenshots/image-1_624x428@1.png
+    width: 1392
+    height: 956
+iconSources:
+  - url: io/otsaloma/nfoview.desktop/4032e9c2fd73a1a00977191914684fce/icons/128x128/nfoview_io.otsaloma.nfoview.png
+    width: 128
+    height: 128
+developer: Osmo Salomaa
+homepage: "https://otsaloma.io/nfoview/"
+enabled: true
+order: 99

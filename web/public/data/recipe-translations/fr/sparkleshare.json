@@ -1,0 +1,5 @@
+{
+  "name": "SparkleShare",
+  "description": "Synchronisation de fichiers Git auto-hébergée et transparente",
+  "longDescription": "<p>SparkleShare est une application de partage et de collaboration de fichiers. Elle fonctionne comme Dropbox, mais peut être hébergée sur votre propre serveur.</p>\n<p>SparkleShare repose sur le système de gestion de versions Git largement utilisé. Elle prend aussi en charge l’extension populaire Git LFS, permettant une gestion efficace des gros fichiers. Si votre entreprise utilise déjà des dépôts Git, SparkleShare s’intègre naturellement dans votre environnement.</p>\n<p>Remarque : si vous utilisez GNOME Shell comme environnement de bureau sur une distribution autre qu’Ubuntu, installez l’extension « AppIndicator Support » pour afficher l’icône de statut SparkleShare. Si vous avez besoin de l’icône de statut héritée, lancez SparkleShare avec l’option --status-icon=gtk.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Firejail Configuration Wizard",
+  "description": "Wizard konfigurasi Firejail",
+  "longDescription": "<p>Firejail adalah program sandbox keamanan berbasis SUID yang mengurangi risiko pelanggaran keamanan dengan membatasi lingkungan eksekusi aplikasi yang tidak terpercaya menggunakan namespace Linux dan seccomp-bpf. Firejail memungkinkan sebuah proses dan seluruh turunannya memiliki tampilan privat terhadap sumber daya kernel yang bersifat global, seperti stack jaringan, tabel proses, dan tabel mount.</p>\n<p>Paket ini mencakup frontend Firetools berbasis Qt.</p>\n"
+}

@@ -1,0 +1,59 @@
+id: "kwordquiz"
+name: KWordQuiz
+description: Flash Card Trainer
+longDescription: |
+  <p>KWordQuiz is a general purpose flash card program. It can be used for vocabulary learning and many other subjects. It provides an editor and five different flashcard quiz modes. It uses the KVTML file format and contributed files can be downloaded from within the application.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kwordquiz
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kwordquiz.desktop/6eb3c760b6797adf7ea313d47fc35fff/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kwordquiz.desktop/6eb3c760b6797adf7ea313d47fc35fff/screenshots/image-1_624x575@1.png
+    width: 1010
+    height: 931
+  - url: org/kde/kwordquiz.desktop/6eb3c760b6797adf7ea313d47fc35fff/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kwordquiz.desktop/6eb3c760b6797adf7ea313d47fc35fff/screenshots/image-2_624x575@1.png
+    width: 1010
+    height: 931
+  - url: org/kde/kwordquiz.desktop/6eb3c760b6797adf7ea313d47fc35fff/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kwordquiz.desktop/6eb3c760b6797adf7ea313d47fc35fff/screenshots/image-3_624x575@1.png
+    width: 1010
+    height: 931
+  - url: org/kde/kwordquiz.desktop/6eb3c760b6797adf7ea313d47fc35fff/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/kwordquiz.desktop/6eb3c760b6797adf7ea313d47fc35fff/screenshots/image-4_624x671@1.png
+    width: 642
+    height: 691
+  - url: org/kde/kwordquiz.desktop/6eb3c760b6797adf7ea313d47fc35fff/screenshots/image-5_orig.png
+    thumbnailUrl: org/kde/kwordquiz.desktop/6eb3c760b6797adf7ea313d47fc35fff/screenshots/image-5_624x671@1.png
+    width: 642
+    height: 691
+iconSources:
+  - url: org/kde/kwordquiz.desktop/6eb3c760b6797adf7ea313d47fc35fff/icons/128x128/kwordquiz_org.kde.kwordquiz.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/kwordquiz/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Jupyter Qt console",
+  "description": "Qt-basierte Konsole für Jupyter",
+  "longDescription": "<p>IPython kann als Ersatz für die Standard-Python-Shell dienen oder in Kombination mit den wissenschaftlichen und numerischen Standard-Python-Tools als komplette Arbeitsumgebung für wissenschaftliches Rechnen (wie Matlab oder Mathematica) genutzt werden. Es unterstützt dynamische Objekt-Introspektion, nummerierte Ein-/Ausgabeaufforderungen, ein Makrosystem, Sitzungsprotokollierung und -wiederherstellung, vollständigen Zugriff auf die System-Shell, detaillierte und farbige Traceback-Berichte, automatische Klammersetzung sowie automatisches Quoting und lässt sich in andere Python-Programme einbetten.</p>\n<p>Dieses Paket enthält die qtconsole-Binärdateien für den Python-3-Interpreter.</p>\n"
+}

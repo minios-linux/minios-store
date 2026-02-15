@@ -1,0 +1,5 @@
+{
+  "name": "Jameica",
+  "description": "Sistema de ejecución para aplicaciones Java",
+  "longDescription": "<p>Entorno de ejecución para aplicaciones Java, implementadas como complementos (plugins).</p>\n<p>Jameica se encarga de tareas recurrentes, como:  * apariencia y funcionamiento consistentes  * estricta separación de datos de usuario y del programa  * acceso estandarizado a archivos de configuración  * navegación y menús comunes  * intercambio de datos sincrónico y asincrónico entre complementos  * soporte para modelo cliente-servidor vía RMI, XML-RPC o SOAP  * uso simplificado de métodos de cifrado (sistema de monedero integrado)  * soporte sin interfaz gráfica para servidores (headless)  * registro de logs</p>\n"
+}

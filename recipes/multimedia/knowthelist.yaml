@@ -1,0 +1,45 @@
+id: "knowthelist"
+name: Knowthelist
+description: Party Music Player
+longDescription: |
+  <p>Easy to use for all party guests.</p>
+  <p>Featuring:  - Quick search for tracks in collection.  - Two players with separate playlists.  - Mixer with fader, 3 channel EQ and gain.  - Auto fader and auto gain.  - Track analyser search for song start/end and gain setting.  - Auto DJ function with multiple filters for random play.  - Monitor player for pre listen tracks (via 2nd sound card e.g. USB).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - knowthelist
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - party
+  - player
+  - dj
+  - mix
+  - playlist
+iconSources:
+  - cached: knowthelist_knowthelist.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

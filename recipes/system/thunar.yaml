@@ -1,0 +1,44 @@
+id: "thunar"
+name: File Manager
+description: Configure the Thunar file manager
+longDescription: |
+  <p>Thunar is the file manager designed to be the default file manager for the Xfce desktop environment. It has been designed to be fast and easy to use.</p>
+  <p>Also included is an Xfce panel plugin which can manage the desktop trash.</p>
+  
+categoryId: system
+icon: FolderOpen
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - thunar
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: t/th/Thunar.desktop/33364B65B21D05262CD93A31B00931CB/screenshots/image-1_orig.png
+    thumbnailUrl: t/th/Thunar.desktop/33364B65B21D05262CD93A31B00931CB/screenshots/image-1_224x189.png
+    width: 564
+    height: 478
+iconSources:
+  - url: t/th/thunar-bulk-rename.desktop/803bfcc6e57dc0e11f20ce7dc3671703/icons/128x128/thunar_org.xfce.thunar.png
+    width: 128
+    height: 128
+homepage: "http://xfce.org/projects"
+enabled: true
+order: 99

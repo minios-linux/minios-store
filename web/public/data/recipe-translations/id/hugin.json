@@ -1,0 +1,5 @@
+{
+  "name": "Hugin Calibrate Lens",
+  "description": "Menganalisis distorsi lensa",
+  "longDescription": "<p>Hugin adalah program penyambungan foto panorama. Pada dasarnya, Hugin merupakan antarmuka grafis (GUI) untuk Panorama Tools. Penyambungan dilakukan dengan menggunakan beberapa foto yang saling tumpang tindih dan diambil dari lokasi yang sama, serta menggunakan titik kontrol untuk menyelaraskan dan mentransformasi foto-foto tersebut agar dapat digabungkan menjadi satu gambar yang lebih besar. Hugin memudahkan pembuatan titik kontrol antar gambar, optimasi transformasi gambar, dan banyak fitur lainnya.</p>\n<p>Paket ini mencakup antarmuka grafis berikut, yang menggunakan alat baris perintah dari paket hugin-tools:  * hugin                - Pembuat panorama Hugin.  * hugin_stitch_project - Penjahit batch Hugin.  * PTBatcherGUI         - Pengontrol batch untuk proses penyambungan.  * calibrate_lens_gui   - Alat kalibrasi lensa.</p>\n"
+}

@@ -1,0 +1,35 @@
+id: geophar
+name: Geophar
+description: Swiss-army knife for math enthusiasts
+longDescription: |
+  <p>this application contains every tool you would like to find when preparing math courses, exercises or their keys. Features: - symbolic calculus - tables of variations, LaTeX syntax - dynamic geometry - probability trees - graphs - function plotting - histograms, etc.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - geophar
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: geophar_geophar.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

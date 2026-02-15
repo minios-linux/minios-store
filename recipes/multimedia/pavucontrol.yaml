@@ -1,0 +1,57 @@
+id: "pavucontrol"
+name: PulseAudio Volume Control
+description: Adjust the volume level
+longDescription: |
+  <p>PulseAudio Volume Control (pavucontrol) is a simple GTK+ based volume control tool (mixer) for the PulseAudio sound server. In contrast to classic mixer tools this one allows you to control both the volume of hardware devices and of each playback stream separately. It also allows you to redirect a playback stream to another output device without interrupting playback.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pavucontrol
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/pulseaudio/pavucontrol/d24da4514e2828a526cdce9e3900e811/screenshots/image-1_orig.png
+    thumbnailUrl: org/pulseaudio/pavucontrol/d24da4514e2828a526cdce9e3900e811/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/pulseaudio/pavucontrol/d24da4514e2828a526cdce9e3900e811/screenshots/image-2_orig.png
+    thumbnailUrl: org/pulseaudio/pavucontrol/d24da4514e2828a526cdce9e3900e811/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/pulseaudio/pavucontrol/d24da4514e2828a526cdce9e3900e811/screenshots/image-3_orig.png
+    thumbnailUrl: org/pulseaudio/pavucontrol/d24da4514e2828a526cdce9e3900e811/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/pulseaudio/pavucontrol/d24da4514e2828a526cdce9e3900e811/screenshots/image-4_orig.png
+    thumbnailUrl: org/pulseaudio/pavucontrol/d24da4514e2828a526cdce9e3900e811/screenshots/image-4_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/pulseaudio/pavucontrol/d24da4514e2828a526cdce9e3900e811/screenshots/image-5_orig.png
+    thumbnailUrl: org/pulseaudio/pavucontrol/d24da4514e2828a526cdce9e3900e811/screenshots/image-5_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: org/pulseaudio/pavucontrol/d24da4514e2828a526cdce9e3900e811/icons/128x128/pavucontrol_multimedia-volume-control.png
+    width: 128
+    height: 128
+homepage: "https://freedesktop.org/software/pulseaudio/pavucontrol/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Liguidsoap",
+  "description": "Antarmuka GTK sederhana untuk liquidsoap guna mengonfigurasi streaming secara interaktif.",
+  "longDescription": "<p>Liguidsoap adalah antarmuka grafis (GUI) untuk mengontrol liquidsoap dengan pyGTK.</p>\n<p>Aplikasi ini memungkinkan Anda berinteraksi dengan:  * output  * playlist  * antrean  * mixing table</p>\n<p>Liguidsoap dapat mengelola instance liquidsoap yang sedang berjalan atau menjalankan instance-nya sendiri.</p>\n"
+}

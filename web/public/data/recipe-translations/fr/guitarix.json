@@ -1,0 +1,5 @@
+{
+  "name": "guitarix",
+  "description": "Simulation d’amplificateur mono simple",
+  "longDescription": "<p>Guitarix est un amplificateur de guitare rock pour le Jack Audio Connection Kit, doté d’une entrée et de deux sorties. Il propose un port d’entrée JACK et deux ports de sortie JACK. Conçu pour produire des sons de guitare trash, metal, rock et blues, il offre des réglages pour les basses, les aigus, le gain, le compresseur, le sélecteur de lampes, la distorsion, le flanger, la réverbération (freeverb), le crybaby (wah), etc.</p>\n<p>Guitarix dispose d’une interface GTK+ et est également disponible sous forme de plugins Ladspa et LV2.</p>\n"
+}

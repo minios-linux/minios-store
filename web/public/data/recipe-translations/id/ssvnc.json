@@ -1,0 +1,5 @@
+{
+  "name": "SSL/SSH VNC Viewer",
+  "description": "SSVNC - akses desktop VNC jarak jauh",
+  "longDescription": "<p>VNC merupakan singkatan dari Virtual Network Computing. Ini adalah sistem tampilan jarak jauh yang memungkinkan Anda melihat lingkungan desktop komputer tidak hanya pada mesin tempat ia berjalan, tetapi juga dari mana saja di Internet dan dari berbagai arsitektur perangkat keras.</p>\n<p>SSVNC memiliki dua fungsi utama:</p>\n<p>* Versi pengembangan dari klien TightVNC dengan dukungan lebih banyak encoding dan mode warna, dukungan ekstensi x11vnc dan UltraVNC, penyesuaian ukuran layar dinamis, menu popup yang ditingkatkan, dan fitur lainnya.</p>\n<p>* Antarmuka grafis (GUI) yang memudahkan pengaturan tunneling SSL (menggunakan stunnel) atau SSH untuk terhubung ke server VNC, serta meneruskan port untuk audio (esound/aRts), SMB, CUPS, dan sebagainya.</p>\n"
+}

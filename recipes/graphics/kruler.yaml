@@ -1,0 +1,42 @@
+id: "kruler"
+name: KRuler
+description: Screen Ruler
+longDescription: |
+  <p>KRuler is an on-screen ruler for measuring pixels. Position the 0 at your starting point and measure the precise pixel distance between the starting point and your cursor.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kruler
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kruler.desktop/ecfedbe98a4b12d963fc46ce160d6c16/screenshots/image-1_orig.png
+    width: 632
+    height: 96
+iconSources:
+  - url: org/kde/kruler.desktop/ecfedbe98a4b12d963fc46ce160d6c16/icons/128x128/kruler_kruler.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org/applications/graphics/kruler/"
+enabled: true
+order: 99

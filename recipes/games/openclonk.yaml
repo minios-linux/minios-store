@@ -1,0 +1,36 @@
+id: "openclonk"
+name: OpenClonk
+description: "An action-packed game of strategy, tactics, and skill."
+longDescription: |
+  <p>OpenClonk is a free multiplayer action game where you control clonks, small but witty and nimble humanoid beings. The game is mainly about mining, settling and fast-paced melees. OpenClonk is also not just a game but also a versatile 2D game engine that offers countless possibilities to make own mods.</p>
+  <p>This package contains the OpenClonk engine.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openclonk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: o/op/openclonk.desktop/daaa1632e5238e9311c601ad1bc7f77c/icons/128x128/openclonk_openclonk.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

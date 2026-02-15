@@ -1,0 +1,33 @@
+id: openrefine
+name: OpenRefine
+description: powerful tool for working with messy data
+longDescription: |
+  <p>OpenRefine is a power tool for working with messy data. Use it to improve data consistency, link it to data registries like Wikidata, augment it with data from other sources, transform it into different formats for other tools to consume, and contribute it back to the original sources. OpenRefine is not a web service but a desktop app that runs on your own computer, so you can process sensitive data with privacy.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openrefine
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - marc
+  - text
+  - csv
+  - wikidata
+  - odf
+iconSources:
+  - url: org/openrefine/openrefine/8ab74f7b9a00feef97615e2be3a4a7b4/icons/128x128/openrefine_openrefine.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

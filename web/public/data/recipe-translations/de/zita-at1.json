@@ -1,0 +1,5 @@
+{
+  "name": "AT1",
+  "description": "Korrigiert die Tonhöhe einer verstimmten Gesangsstimme",
+  "longDescription": "<p>AT1 ist ein sogenannter „Autotuner“, der üblicherweise verwendet wird, um die Tonhöhe einer (leicht) verstimmten Gesangsstimme zu korrigieren. Im Vergleich zu „Autotalent“ bietet es einen verbesserten Algorithmus zur Tonhöhenerkennung und eine deutlich sauberere Neusampling-Qualität.</p>\n<p>AT1 beinhaltet keine Formantkorrektur und sollte deshalb nur zur Ausbesserung kleiner Tonfehler verwendet werden – nicht zum eigentlichen Transponieren eines Songs. Die erwartete Tonhöhe lässt sich entweder per MIDI (nur mit Jack) oder durch eine feste Notenauswahl steuern. AT1 kann möglicherweise auch für manche Instrumente eingesetzt werden, ist aber in erster Linie für den Gesangsbereich konzipiert. Zudem kann es als schnelle und unkomplizierte Gitarren-Stimmhilfe genutzt werden.</p>\n"
+}

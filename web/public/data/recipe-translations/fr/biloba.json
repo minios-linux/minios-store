@@ -1,0 +1,5 @@
+{
+  "name": "Biloba",
+  "description": "Jeu de stratégie au tour par tour pour jusqu'à quatre joueurs en réseau",
+  "longDescription": "<p>Biloba est un jeu de stratégie abstrait pour 1 à 4 joueurs. À chaque tour, le joueur déplace des pions sur un plateau octogonal (composé de cases carrées) dans le but d'éliminer les pions adverses.</p>\n<p>Biloba propose une intelligence artificielle pour le mode solo et prend en charge le jeu local ou en réseau pour 2 à 4 joueurs.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "SAOImage DS9",
+  "description": "Aplikasi Visualisasi Data Astronomi",
+  "longDescription": "<p>SAOImage DS9 adalah aplikasi untuk pemrosesan citra dan visualisasi data astronomi. DS9 mendukung file gambar dan tabel biner berformat FITS, buffer frame berganda, manipulasi region, serta berbagai algoritma skala dan colormap. Aplikasi ini memungkinkan integrasi mudah dengan tugas analisis eksternal, serta sangat fleksibel dan dapat diperluas melalui XPA dan SAMP.</p>\n<p>Semua versi dan platform mendukung set fitur dan antarmuka GUI yang konsisten.</p>\n<p>DS9 menawarkan fitur tingkat lanjut seperti buffer frame 2-D, 3-D, dan RGB, gambar mosaik, tiling, blinking, penanda geometris, manipulasi colormap, scaling, zoom bebas, crop, rotasi, pan, dan berbagai sistem koordinat.</p>\n<p>Antarmuka GUI DS9 dapat dikonfigurasi sesuai kebutuhan pengguna. Elemen GUI seperti tampilan koordinat, panner, pembesar, grafik horizontal dan vertikal, tombol navigasi, dan color bar dapat disesuaikan melalui menu maupun baris perintah.</p>\n"
+}

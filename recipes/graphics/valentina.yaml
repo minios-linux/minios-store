@@ -1,0 +1,35 @@
+id: "valentina"
+name: Valentina
+description: Creating pattern of clothes
+longDescription: |
+  <p>Valentina is a pattern drafting software tool for small-batch and custom-sized clothing manufacturing.</p>
+  <p>Valentina allows designers to create and model patterns of clothing, using either standard sizing tables or an individual’s set of measurements. It blends new technologies with traditional methods to create a unique pattern making tool.</p>
+  <p>The &quot;tape&quot; executable is provided as &quot;valentina-tape&quot;.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - valentina
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: v/va/valentina.desktop/38cde1eddaed7ec95460164132ddb4ed/icons/128x128/valentina_valentina.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,44 @@
+id: "hatari"
+name: Hatari
+description: Run old Atari ST/STE/TT/Falcon software
+longDescription: |
+  <p>Hatari is an emulator for the Atari ST line of computers.</p>
+  <p>The Atari ST was a 16/32 bit computer system which was first released by Atari in 1985. Using the Motorola 68000 CPU, it was a very popular computer having quite a lot of CPU power at that time.</p>
+  <p>Unlike many other Atari ST emulators which try to give you a good environment for running GEM applications, Hatari tries to emulate the hardware of a ST as close as possible so that it is able to run most of the old ST games and demos.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hatari
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - emulator
+  - atari
+  - atari st
+  - atari falcon
+iconSources:
+  - url: h/ha/hatari.desktop/8f34476a20648ad12b12b094a7f4bbb5/icons/128x128/hatari_hatari.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

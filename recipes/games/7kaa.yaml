@@ -1,0 +1,48 @@
+id: 7kaa
+name: Seven Kingdoms
+description: "Seven Kingdoms: Ancient Adversaries"
+longDescription: |
+  <p>Seven Kingdoms, designed by Trevor Chan, brings a unique blend of Real-Time Strategy with the addition of trade, diplomacy, and espionage.</p>
+  <p>The game enables players to compete against up to six other kingdoms allowing players to conquer opponents by defeating them in war (with troops or machines), capturing their buildings with spies, or offering opponents money for their kingdom.</p>
+  <p>In 2009, Enlight Software released the game under the GPL license. 7kfans project is updating the game and provides a community for fans. A free Seven Kingdoms will help continue the legacy.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - 7kaa
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - strategy
+  - ancient
+  - kingdoms
+  - real-time
+  - trade
+  - diplomacy
+  - espionage
+iconSources:
+  - cached: 7kaa_7kaa.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

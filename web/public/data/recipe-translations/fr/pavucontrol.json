@@ -1,0 +1,5 @@
+{
+  "name": "PulseAudio Volume Control",
+  "description": "Ajustez le niveau sonore",
+  "longDescription": "<p>PulseAudio Volume Control (pavucontrol) est un outil simple de gestion du volume basé sur GTK+ pour le serveur audio PulseAudio. Contrairement aux mélangeurs classiques, il permet de contrôler individuellement le volume des périphériques matériels ainsi que de chaque flux audio en cours de lecture. Il offre également la possibilité de rediriger un flux vers une autre sortie sans interrompre la lecture.</p>\n"
+}

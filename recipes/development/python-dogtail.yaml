@@ -1,0 +1,25 @@
+id: python-dogtail
+name: AT-SPI Browser
+description: Browse your Assistive Technology-enabled desktop
+longDescription: |
+  <p>dogtail is a GUI test tool and automation framework written in Python. It uses Accessibility (a11y) technologies to communicate with desktop applications. dogtail scripts are written in Python.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - python-dogtail
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/sn/sniff.desktop/3A43AF54C5C37A8EA3EC088B23F43181/icons/128x128/python-dogtail_dogtail-head.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Plover",
+  "description": "entrada estenográfica e tradução",
+  "longDescription": "<p>Plover é um aplicativo Python leve e eficiente que roda em segundo plano e atua como um tradutor, interpretando movimentos de estenografia e emulando teclas normalmente, de forma que os programas utilizados nem percebem o uso de estenografia.</p>\n<p>O Plover é utilizado atualmente por centenas de pessoas, incluindo estenógrafos profissionais, transcritores, programadores e entusiastas. Ele oferece suporte a:</p>\n<p> - Teclados convencionais e máquinas de estenografia dedicadas  - Teclas multimídia para controlar mídia, ajustar volume, etc.  - Teoria bem desenvolvida baseada na StenEd, com mais de 50.000 novas combinações de toques.  - Compatibilidade com dicionários nos formatos JSON e RTF/CRE  - Ferramentas de treinamento integradas para auxiliar no aprendizado</p>\n"
+}

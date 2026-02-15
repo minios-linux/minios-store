@@ -1,0 +1,26 @@
+id: dictionaryreader-app
+name: Dictionary Reader
+description: A Dict client for GNUstep
+longDescription: |
+  <p>DictionaryReader is a dictionary application that queries Dict servers in the internet to let you look up words. It&apos;s aimed to be lightweight and easy to use.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dictionaryreader.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dictionary
+  - vocabulary
+iconSources:
+  - cached: dictionaryreader.app_dict.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

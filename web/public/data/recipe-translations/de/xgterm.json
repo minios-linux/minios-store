@@ -1,0 +1,5 @@
+{
+  "name": "xgterm",
+  "description": "X11-Terminal-Emulator für die Arbeit mit IRAF",
+  "longDescription": "<p>\n      XGterm bietet eine Tek-4012-kompatible Grafikterminal-Emulation für IRAF sowie eine datenstromgesteuerte Widget-Server-Funktionalität, die den Object Manager nutzt, um vollen Zugriff auf das zugrunde liegende Toolkit und das Widget-Set zu ermöglichen. Das Gterm-Grafikfenster funktioniert fast identisch mit dem xterm-Tek-Fenster; es gibt jedoch Erweiterungen für die Implementierung von Vollbild-Cursorn, Bildgebung, Flächenfüllungen, Farben, Grafiklöschung, einer „Statuszeile“ und so weiter.\n    </p>\n"
+}

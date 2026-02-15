@@ -1,0 +1,5 @@
+{
+  "name": "ukopp",
+  "description": "Backup completo e incremental com verificação de mídias",
+  "longDescription": "<p>O Ukopp é utilizado para copiar ou fazer backup de arquivos do disco para outro disco ou dispositivo similar, como um pen drive USB. Ele copia apenas os arquivos novos ou modificados desde o último backup, tornando o processo bastante rápido. Uma interface gráfica permite navegar pelo sistema de arquivos para incluir ou excluir arquivos ou diretórios em qualquer nível. Essas seleções podem ser salvas em um arquivo de tarefas para uso recorrente. Novos arquivos nas pastas incluídas são automaticamente considerados. Opcionalmente, versões anteriores dos arquivos de backup podem ser mantidas, em vez de sobrescritas. Arquivos podem ser restaurados seletivamente via interface gráfica. Propriedades como donos e permissões também são restauradas, mesmo se o dispositivo de destino utilizar um sistema de arquivos da Microsoft.</p>\n"
+}

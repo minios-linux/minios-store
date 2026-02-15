@@ -1,0 +1,5 @@
+{
+  "name": "Gerenciador de eventos e tarefas",
+  "description": "Gerencie eventos e tarefas usando arquivos de texto simples",
+  "longDescription": "<p>Exemplos:</p>\n<ul>\n  <li>Uma reunião de vendas (um evento) [i]niciando em sete dias a partir de hoje às 9:00 e [t]erminando após uma hora, com um [a]larme padrão 5 minutos antes do início:<br>   * reunião de vendas @s +7 9a @e 1h @a 5</li>\n  <li>Cortar o cabelo (uma tarefa) no dia 24 do mês atual e então [r]eativamente em [i]ntervalos de (14) dias e, [a]o concluir, (r)ecomeçar a partir da data de conclusão:<br>    - cortar cabelo @s 24 @r d &amp;i 14 @o r</li>\n  <li>Dia da eleição presidencial (uma ocasião) a cada quatro anos na primeira terça-feira após uma segunda-feira de novembro:<br>    ^ Dia da Eleição Presidencial @s 2012-11-06<br>@r y &amp;i 4 &amp;M 11 &amp;m 2, 3, 4, 5, 6, 7, 8 &amp;w TU</li>\n</ul>\n"
+}

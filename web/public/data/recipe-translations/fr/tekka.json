@@ -1,0 +1,5 @@
+{
+  "name": "tekka IRC Client",
+  "description": "Discutez sur IRC",
+  "longDescription": "<p>La suite sushi IRC se compose d'un démon central et de plusieurs clients, qui communiquent via DBus. Le démon fournit des méthodes et signaux DBus afin d’abstraire le protocole IRC. Les clients peuvent utiliser ces méthodes et signaux pour interagir facilement avec IRC.</p>\n<p>tekka est un client basé sur GTK pour maki, écrit en Python. Il utilise Glade pour décrire l’interface, prend en charge les plugins et s’efforce de respecter les directives GNOME Human Interface (HIG).</p>\n"
+}

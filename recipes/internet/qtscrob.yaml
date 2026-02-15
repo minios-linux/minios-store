@@ -1,0 +1,41 @@
+id: "qtscrob"
+name: QTScrobbler
+description: QTScrobbler is tool for submitting .scrobbler.log from portable players to Last.fm
+longDescription: |
+  <p>qtscrob is a GUI tool which reads playback information from iPods, MTP (aka Plays for Sure) or Rockbox (open source audio player firmware) devices and submits them to an audioscrobbler service, such as &quot;last.fm&quot; or &quot;libre.fm&quot;.</p>
+  <p>This is the graphical version of the tool. For a CLI version, see the &apos;scrobbler&apos; package.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtscrob
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - scrobbler
+  - last.fm
+iconSources:
+  - url: q/qt/qtscrob.desktop/66ad455fc2c507f68f1a1e92ca263782/icons/128x128/qtscrob_qtscrob.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

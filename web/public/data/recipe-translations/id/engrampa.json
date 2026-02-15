@@ -1,0 +1,5 @@
+{
+  "name": "Engrampa Archive Manager",
+  "description": "Membuat dan mengelola arsip",
+  "longDescription": "<p>Engrampa adalah manajer arsip untuk lingkungan MATE. Aplikasi ini memungkinkan Anda untuk:</p>\n<p> * Membuat dan mengedit arsip.  * Melihat isi arsip.  * Melihat file di dalam arsip.  * Mengekstrak file dari arsip.</p>\n<p>Engrampa mendukung format berikut:  * Arsip Tar (.tar), termasuk yang terkompresi dengan    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),    lzma (.tar.lzma) dan xz (.tar.xz)  * Arsip Zip (.zip)  * Arsip Jar (.jar, .ear, .war)  * Arsip 7z (.7z)  * Citra CD iso9660 (.iso)  * Arsip Lha (.lzh)  * File tunggal yang dikompresi dengan gzip (.gz), bzip (.bz), bzip2 (.bz2),    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma), dan xz (.xz)</p>\n<p>Engrampa tidak melakukan operasi arsip secara mandiri, melainkan menggunakan alat standar untuk proses tersebut.</p>\n"
+}

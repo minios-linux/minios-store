@@ -1,0 +1,5 @@
+{
+  "name": "Hugin Calibrate Lens",
+  "description": "Caratterizza la distorsione della lente",
+  "longDescription": "<p>Hugin è un programma per l'unione panoramica di foto. In sostanza, Hugin è un'interfaccia grafica (GUI) per Panorama Tools. L'unione avviene utilizzando diverse foto sovrapposte scattate dalla stessa posizione e sfruttando punti di controllo per allineare e trasformare le immagini affinché possano essere fuse in una panoramica più ampia. Hugin consente di creare facilmente punti di controllo tra due immagini, ottimizzare le trasformazioni e molto altro ancora.</p>\n<p>Questo pacchetto include le seguenti interfacce grafiche, che utilizzano gli strumenti da linea di comando forniti dal pacchetto hugin-tools:  * hugin                - Creatore di panoramiche Hugin.  * hugin_stitch_project - Stitcher batch di Hugin.  * PTBatcherGUI         - Controller batch per il processo di unione.  * calibrate_lens_gui   - Strumento di calibrazione delle lenti.</p>\n"
+}

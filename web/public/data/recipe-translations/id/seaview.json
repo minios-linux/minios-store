@@ -1,0 +1,5 @@
+{
+  "name": "SeaView",
+  "description": "Mengedit multiple sequence alignment dan mencetaknya dalam format PostScript.",
+  "longDescription": "<p>SeaView dapat membaca dan menulis berbagai format file (NEXUS, MSF, CLUSTAL, FASTA, PHYLIP, MASE, Newick) untuk sekuens DNA dan protein, serta pohon filogenetik. Alignment dapat diedit secara manual. Aplikasi ini dapat menjalankan program Muscle atau Clustal Omega untuk multiple sequence alignment, dan juga memungkinkan penggunaan algoritma alignment eksternal yang dapat membaca serta menulis file berformat FASTA. SeaView dapat menghitung pohon filogenetik dengan metode parsimoni menggunakan algoritma dnapars/protpars dari PHYLIP, metode jarak dengan algoritma NJ atau BioNJ pada berbagai jarak evolusi, atau dengan maximum likelihood menggunakan PhyML 3.0. SeaView dapat menampilkan pohon filogenetik di layar atau menyimpannya sebagai file PostScript, serta memungkinkan pengunduhan sekuens dari EMBL/GenBank/UniProt lewat Internet.</p>\n"
+}

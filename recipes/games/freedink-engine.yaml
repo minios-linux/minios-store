@@ -1,0 +1,66 @@
+id: "freedink-engine"
+name: FreeDinkedit
+description: Editor for the Dink Smallwood adventure & role-playing game
+longDescription: |
+  <p>Dink Smallwood is an adventure/role-playing game, similar to classic Zelda, made by RTsoft. Besides twisted humor, it includes the actual game editor, allowing players to create hundreds of new adventures called Dink Modules or D-Mods for short.</p>
+  <p>GNU FreeDink is a new and portable version of the game engine, which runs the original game as well as its D-Mods, with close compatibility, under multiple platforms.</p>
+  <p>This package contains the game engine alone.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freedink-engine
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - smallwood
+  - duck
+  - pillbug
+  - editor
+screenshotSources:
+  - url: f/fr/freedink.desktop/98768e9033ebaa166d739fa1e1cc09ca/screenshots/image-1_orig.png
+    thumbnailUrl: f/fr/freedink.desktop/98768e9033ebaa166d739fa1e1cc09ca/screenshots/image-1_624x351.png
+    width: 624
+    height: 351
+  - url: f/fr/freedink.desktop/98768e9033ebaa166d739fa1e1cc09ca/screenshots/image-2_orig.png
+    thumbnailUrl: f/fr/freedink.desktop/98768e9033ebaa166d739fa1e1cc09ca/screenshots/image-2_624x351.png
+    width: 624
+    height: 351
+  - url: f/fr/freedink.desktop/98768e9033ebaa166d739fa1e1cc09ca/screenshots/image-3_orig.png
+    thumbnailUrl: f/fr/freedink.desktop/98768e9033ebaa166d739fa1e1cc09ca/screenshots/image-3_624x351.png
+    width: 624
+    height: 351
+  - url: f/fr/freedink.desktop/98768e9033ebaa166d739fa1e1cc09ca/screenshots/image-4_orig.png
+    thumbnailUrl: f/fr/freedink.desktop/98768e9033ebaa166d739fa1e1cc09ca/screenshots/image-4_624x351.png
+    width: 640
+    height: 360
+  - url: f/fr/freedink.desktop/98768e9033ebaa166d739fa1e1cc09ca/screenshots/image-5_orig.png
+    thumbnailUrl: f/fr/freedink.desktop/98768e9033ebaa166d739fa1e1cc09ca/screenshots/image-5_624x468.png
+    width: 640
+    height: 480
+iconSources:
+  - url: f/fr/freedink.desktop/98768e9033ebaa166d739fa1e1cc09ca/icons/128x128/freedink-engine_freedink.png
+    width: 128
+    height: 128
+homepage: "https://www.gnu.org/software/freedink/"
+enabled: true
+order: 99

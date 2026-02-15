@@ -1,0 +1,85 @@
+id: "picard"
+name: Picard
+description: MusicBrainz's music tagger
+longDescription: |
+  <p>Do you need to clean up your music library? Picard is an open-source
+        cross-platform music tagger by MusicBrainz. It has the ability to
+        identify audio files even without any existing metadata.</p>
+  <p>A variety of plugins are available and you can even write your own.
+        Picard supports a wide range of audio formats and can also lookup an
+        entire CD for you.</p>
+  <p>Tagging audio files has never been easier.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Multiple formats: Picard supports all popular music formats,
+          including MP3, FLAC, OGG, M4A, WMA, WAV, and more.</li>
+    <li>AcoustID: Picard uses AcoustID audio fingerprints, allowing files
+          to be identified by the actual music, even if they have no metadata.</li>
+    <li>Comprehensive database: Picard uses the open and
+          community-maintained MusicBrainz database to provide accurate
+          information about millions of music releases.</li>
+    <li>CD lookups: Picard can lookup entire music CDs with a click.</li>
+    <li>Plugin support: If you need a particular feature, you can choose
+          from a selection of available plugins or write your own.</li>
+    <li>Scripting: A flexible but easy to learn scripting language allows
+          you to exactly specify how your music files will be named and how the
+          tags will look like.</li>
+    <li>Open Source: Picard is licensed under the GNU General Public License 2.0
+          or later, and is hosted on GitHub where it is actively
+          developed by some awesome developers.</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - picard
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/musicbrainz/Picard/3faed76f05629aea2d9feeaa74d9e35e/screenshots/image-1_orig.png
+    thumbnailUrl: org/musicbrainz/Picard/3faed76f05629aea2d9feeaa74d9e35e/screenshots/image-1_624x481@1.png
+    width: 1085
+    height: 837
+  - url: org/musicbrainz/Picard/3faed76f05629aea2d9feeaa74d9e35e/screenshots/image-2_orig.png
+    thumbnailUrl: org/musicbrainz/Picard/3faed76f05629aea2d9feeaa74d9e35e/screenshots/image-2_224x229@1.png
+    width: 611
+    height: 626
+  - url: org/musicbrainz/Picard/3faed76f05629aea2d9feeaa74d9e35e/screenshots/image-3_orig.png
+    thumbnailUrl: org/musicbrainz/Picard/3faed76f05629aea2d9feeaa74d9e35e/screenshots/image-3_224x229@1.png
+    width: 611
+    height: 626
+  - url: org/musicbrainz/Picard/3faed76f05629aea2d9feeaa74d9e35e/screenshots/image-4_orig.png
+    thumbnailUrl: org/musicbrainz/Picard/3faed76f05629aea2d9feeaa74d9e35e/screenshots/image-4_624x481@1.png
+    width: 1085
+    height: 837
+  - url: org/musicbrainz/Picard/3faed76f05629aea2d9feeaa74d9e35e/screenshots/image-5_orig.png
+    thumbnailUrl: org/musicbrainz/Picard/3faed76f05629aea2d9feeaa74d9e35e/screenshots/image-5_624x437@1.png
+    width: 665
+    height: 466
+iconSources:
+  - url: org/musicbrainz/Picard/3faed76f05629aea2d9feeaa74d9e35e/icons/128x128/picard_org.musicbrainz.Picard.png
+    width: 128
+    height: 128
+developer: MetaBrainz Foundation
+homepage: "https://picard.musicbrainz.org/"
+enabled: true
+order: 99

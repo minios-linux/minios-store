@@ -1,0 +1,51 @@
+id: "gtranscribe"
+name: gTranscribe
+description: A simple GTK+ tool focussed on easy transcription of spoken words
+longDescription: |
+  <p>gTranscribe is a simple GTK+ tool to transcribe audio files and other
+        sources. The playback speed can be adjusted without changing the pitch
+        of the voice. It supports spell checking and resuming at the last
+        transcribed position.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtranscribe
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - speech
+  - transcription
+screenshotSources:
+  - url: org/innir/gtranscribe.desktop/43B68D8A82B65DB886FF5FB404B03D69/screenshots/image-1_orig.png
+    thumbnailUrl: org/innir/gtranscribe.desktop/43B68D8A82B65DB886FF5FB404B03D69/screenshots/image-1_224x259.png
+    width: 507
+    height: 587
+iconSources:
+  - url: org/innir/gtranscribe.desktop/f00cec637d349479f5c5d3bdb82ca4b3/icons/128x128/gtranscribe_gtranscribe.png
+    width: 128
+    height: 128
+developer: Philip Rinn
+homepage: "https://github.com/innir/gtranscribe"
+enabled: true
+order: 99

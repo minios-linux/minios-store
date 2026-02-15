@@ -1,0 +1,5 @@
+{
+  "name": "QasHctl",
+  "description": "ALSA HCTL-Mixer",
+  "longDescription": "<p>QasTools ist eine Sammlung von Desktop-Anwendungen für das Linux-Soundsystem ALSA.</p>\n<p>Folgende Anwendungen sind enthalten:  - QasConfig – Browser für den ALSA-Konfigurationsbaum  - QasHctl – Mixer für ALSAs High-Level-Control-Interface  - QasMixer – Desktop-Mixer mit Funktionen ähnlich wie alsamixer</p>\n<p>QasHctl ist eine Mixer-Anwendung für das „High Level Control Interface“ von ALSA. Diese Schnittstelle ermöglicht eine komplexere Steuerung als das „Simple Mixer Interface“, das von alsamixer und QasMixer verwendet wird.</p>\n"
+}

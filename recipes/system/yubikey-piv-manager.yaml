@@ -1,0 +1,27 @@
+id: yubikey-piv-manager
+name: YubiKey PIV Manager
+description: Tool for configuring your PIV-enabled YubiKey
+longDescription: |
+  <p>This tool is used for performing administrative tasks on a PIV-enabled YubiKey. It allows management of PIN, PUK, as well as the Management Key, and can be used to generate and/or import keys and certificates. This is a GUI that wraps yubico-piv-tool, and provides some additional functionality.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yubikey-piv-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - yubikey
+  - piv
+  - manager
+iconSources:
+  - cached: yubikey-piv-manager_pivman.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

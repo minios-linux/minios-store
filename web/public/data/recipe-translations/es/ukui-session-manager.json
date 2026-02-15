@@ -1,0 +1,5 @@
+{
+  "name": "Aplicaciones al inicio",
+  "description": "Elige qué aplicaciones se inician al iniciar sesión",
+  "longDescription": "<p>Este paquete contiene una sesión que puede iniciarse desde un gestor de pantalla como MDM. Cargará todas las aplicaciones necesarias para una sesión de usuario completa.</p>\n<p>El gestor de sesiones también permite guardar una sesión en ejecución y restaurarla posteriormente.</p>\n<p>Esta versión está configurada para iniciar el escritorio UKUI, basado en el panel de UKUI.</p>\n"
+}

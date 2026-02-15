@@ -1,0 +1,34 @@
+id: zint-qt
+name: Zint Barcode Studio
+description: GUI for the creation of barcodes
+longDescription: |
+  <p>Zint is a barcode encoding and image generating library. It currently features support for over 50 symbologies including Australian Post 4-state codes (redirect, reply-paid, routing, standard customer), Aztec Code (ISO 24778), Aztec Runes, Channel code, Codabar, Code 11, Code 128 (ISO 15417), Code 16k, Code 2 of 5 (Data Logic, IATA, Industrial, Interleaved, Matrix), Code 32 (Italian Pharmacode), Code 39 (ISO 16388), Code 39 Extended, Code 49, Code 93, Code One, Databar (Expanded, Expanded Stacked, Limited, Stacked Omnidirectional), Data Matrix (ISO 16022), Deutsche Post (Identicode, Leitcode), Dutch Post KIX, EAN-14, European Article Number (EAN), Facing Identification Mark (FIM), Flattermarken, Grid Matrix, ITF-14, International Standard Book Number (ISBN), Japanese Postal Barcode, Korean Postal Barcode, LOGMARS, Maxicode (ISO 16023), MicroPDF417 (ISO 24728), Micro QR Code, MSI Plessey, NVE-18, PDF417 (ISO 15438), Pharmacode (2-track, Zentralnummer (PZN)), PLANET, Postnet, QR Code (ISO 18004), Royal Mail 4-state Barcode, Telepen, Telepen Numeric, UK Plessey, Universal Product Code (UPC-A, UPC-E), USPS Intelligent Mail as well as HIBC.</p>
+  <p>Also included are Unicode translation for symbologies which support Latin-1 and Kanji character sets, full GS1 data support including verification and automated insertion of FNC1 characters and support for encoding binary data including NULL (ASCII 0) characters.</p>
+  <p>This package contains Zint Barcode Studio, a QT frontend for the Zint barcode encoding library.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zint-qt
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - barcode
+  - studio
+iconSources:
+  - cached: zint-qt_zint-qt.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

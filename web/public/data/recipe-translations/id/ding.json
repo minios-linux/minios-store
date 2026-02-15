@@ -1,0 +1,5 @@
+{
+  "name": "Ding",
+  "description": "Ding: Kamus Bahasa Inggris-Jerman",
+  "longDescription": "<p>Ini adalah \"Ding\" — sebuah program pencari kosakata untuk Unix,<br>* DIctionary Nice Grep,<br>* antarmuka berbasis Tk untuk [ae]grep, (hun|a|i)spell, dict, dan lain-lain,<br>* Ding {n} :: benda</p>\n<p>Paket ini membutuhkan tre-agrep(1), agrep(1), atau egrep(1) sebagai backend. (tre-)agrep lebih disarankan karena mendukung pencarian tolerant terhadap kesalahan.</p>\n<p>Anda harus memasang daftar kata kamus terjemahan dengan format satu kata/frasa dalam dua bahasa pada tiap baris, dipisahkan oleh semacam pemisah. Konfigurasi standar Ding menggunakan kamus Jerman-Inggris (tersedia di paket trans-de-en), namun Anda dapat menggunakan daftar kata terjemahan apa pun selama satu entri per baris.</p>\n"
+}

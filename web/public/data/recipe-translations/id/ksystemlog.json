@@ -1,0 +1,5 @@
+{
+  "name": "KSystemLog",
+  "description": "Alat penampil log sistem",
+  "longDescription": "<p>KSystemLog menampilkan semua log pada sistem Anda, dikelompokkan berdasarkan Umum (Log sistem bawaan, Autentikasi, Kernel, X.org, dan lainnya), serta layanan opsional (Apache, Cups, dan sebagainya). Aplikasi ini menawarkan berbagai fitur untuk memudahkan pembacaan file log Anda:  * Baris log diberi warna sesuai tingkat keparahannya  * Tampilan tab untuk membuka beberapa log secara bersamaan  * Otomatis menampilkan baris log terbaru  * Informasi detail pada setiap baris log</p>\n<p>Paket ini merupakan bagian dari modul administrasi KDE.</p>\n"
+}

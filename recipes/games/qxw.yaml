@@ -1,0 +1,42 @@
+id: "qxw"
+name: Qxw
+description: Construct crossword puzzles
+longDescription: |
+  <p>Qxw is a program to help you create and publish crosswords, from the simplest blocked grid to sophisticated thematic puzzles. It can make rectangular-, hexagonal- or circular-format grids with blocks, bars or both. It has an automatic grid-filling facility that can handle a wide range of answer treatments and you can even add your own answer treatment methods. Grids can be filled using letters, digits, or a mixture of both. Qxw can produce output in a range of formats ready for publication.</p>
+  <p>Qxw is written in C and has a GUI based on GTK+.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qxw
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - puzzle
+  - grid
+  - construction
+  - wordgame
+  - word
+iconSources:
+  - url: q/qx/qxw.desktop/2831badabbbd8fc084b3ffcfd51a69b5/icons/128x128/qxw_qxw.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

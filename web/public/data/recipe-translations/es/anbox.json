@@ -1,0 +1,5 @@
+{
+  "name": "Anbox",
+  "description": "Android en una caja",
+  "longDescription": "<p>Anbox es una solución basada en contenedores que permite iniciar un sistema Android completo sobre un sistema GNU/Linux habitual.</p>\n<p>En otras palabras: Anbox te permitirá ejecutar Android en tu sistema Linux sin la lentitud de la virtualización tradicional.</p>\n<p>Anbox utiliza namespaces de Linux (user, pid, uts, net, mount, ipc) para ejecutar un sistema Android completo dentro de un contenedor y poder ofrecer aplicaciones Android en cualquier plataforma basada en GNU/Linux.</p>\n<p>El Android dentro del contenedor no tiene acceso directo al hardware. Todo el acceso al hardware pasa por el demonio de anbox en el sistema anfitrión. Reutiliza lo implementado por Android en el emulador basado en QEMU para el renderizado acelerado de OpenGL ES. El sistema Android en el contenedor utiliza diferentes canales para comunicarse con el sistema anfitrión y envía todos los comandos de acceso a hardware a través de estos.</p>\n<p>Este paquete requiere módulos de kernel Android e imagen rootfs. Consulta /usr/share/doc/anbox/README.Debian para más información.</p>\n"
+}

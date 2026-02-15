@@ -1,0 +1,5 @@
+{
+  "name": "Gestionnaire de Disques",
+  "description": "Gérez la configuration des systèmes de fichiers",
+  "longDescription": "<p>Disk-Manager est un configurateur de systèmes de fichiers simple qui permet de :  * Détecter automatiquement les nouvelles partitions au démarrage.  * Gérer entièrement la configuration des systèmes de fichiers.  * Activer/désactiver le support en écriture pour NTFS (ntfs-3g requis).</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Transmission Remote",
+  "description": "Kelola Transmission BitTorrent client dari jarak jauh",
+  "longDescription": "<p>Transmission Remote Gtk memungkinkan Anda mengelola Transmission BitTorrent client dari jarak jauh melalui antarmuka RPC-nya.<br> Aplikasi ini menawarkan fitur lengkap: menambah, memulai, menghentikan, menghapus, memverifikasi, dan memperbarui torrent.<br> Anda juga dapat mengatur preferensi untuk setiap torrent (batas peer, prioritas berkas, pengaturan tracker, dll.) dan Transmission secara keseluruhan (batas global, direktori unduhan, preferensi konektivitas, dll.).<br> Transmission Remote Gtk juga dapat berperan sebagai penangkap .torrent, secara otomatis terbuka saat Anda mengunduh torrent melalui browser web.</p>\n"
+}

@@ -1,0 +1,46 @@
+id: "kdocker"
+name: KDocker
+description: Run command and dock window
+longDescription: |
+  <p>KDocker will help you dock any application in the system tray. This means you can dock openoffice, firefox, thunderbolt, eclipse, anything! Just point and click. Works for both KDE and GNOME (In fact it should work for most modern window managers that support NET WM Specification. I believe it works for XFCE, for instance)</p>
+  <p>All you need to do is start KDocker and select an application using the mouse and lo! the application gets docked into the system tray. The application can also be made to disappear from the task bar.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kdocker
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - system,tray,tools
+screenshotSources:
+  - url: k/kd/kdocker.desktop/e4000c5a2916eacbc148887c6be45740/screenshots/image-1_orig.png
+    thumbnailUrl: k/kd/kdocker.desktop/e4000c5a2916eacbc148887c6be45740/screenshots/image-1_224x111.png
+    width: 392
+    height: 195
+iconSources:
+  - url: com/github/user_none.kdocker/29ff2bd3d3bfbfedc4706ac67dbfcb51/icons/128x128/kdocker_kdocker.png
+    width: 128
+    height: 128
+homepage: "http://kdocker.com"
+enabled: true
+order: 99

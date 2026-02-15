@@ -1,0 +1,5 @@
+{
+  "name": "Pragha Mucic Player",
+  "description": "Gerencie e ouça músicas",
+  "longDescription": "<p>Pragha é um reprodutor de música leve para GNU/Linux, baseado em Gtk, sqlite e completamente escrito em C, projetado para ser rápido, leve e, ao mesmo tempo, buscar ser completo sem atrapalhar o uso diário.</p><p>Recursos:</p><ul><li>Integração total com GTK+3, mantendo-se sempre independente do Gnome ou XFCE</li><li>Interface de dois painéis inspirada no Amarok 1.4: biblioteca e lista de reprodução atual</li><li>Biblioteca com várias visualizações, por tags ou estrutura de pastas</li><li>Busca, filtragem e enfileiramento de músicas na lista atual</li><li>Reprodução e edição de tags de arquivos mp3, m4a, ogg, flac, asf, wma e ape (codecs necessários)</li><li>Gerenciamento de playlists: exporta M3U e lê playlists M3U, PLS, XSPF e WAX</li><li>Reprodução de CDs de áudio com identificação via CDDB</li><li>Controle de reprodução via linha de comando e MPRIS2</li><li>Notificações nativas com libnotify</li></ul>"
+}

@@ -1,0 +1,52 @@
+id: "featherpad"
+name: FeatherPad
+description: Lightweight Qt5 text editor
+longDescription: |
+  <p>FeatherPad is a lightweight Qt5 plain-text editor for Linux. It is independent of any desktop environment and comes with all features one would expect in a modern editor.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - featherpad
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+  - plaintext
+screenshotSources:
+  - url: com/github/FeatherPad/8326a944b507b6c0eb4a852c052f36db/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/FeatherPad/8326a944b507b6c0eb4a852c052f36db/screenshots/image-1_624x480@1.png
+    width: 750
+    height: 578
+  - url: com/github/FeatherPad/8326a944b507b6c0eb4a852c052f36db/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/FeatherPad/8326a944b507b6c0eb4a852c052f36db/screenshots/image-2_624x480@1.png
+    width: 750
+    height: 578
+iconSources:
+  - url: com/github/FeatherPad/8326a944b507b6c0eb4a852c052f36db/icons/128x128/featherpad_featherpad.png
+    width: 128
+    height: 128
+developer: "Pedram Pourang, a.k.a. Tsu Jan"
+homepage: "https://github.com/tsujan/FeatherPad"
+enabled: true
+order: 99

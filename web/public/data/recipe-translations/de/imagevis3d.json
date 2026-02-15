@@ -1,0 +1,5 @@
+{
+  "name": "ImageVis3D",
+  "description": "Desktop-Volumen-Rendering-Anwendung für große Datensätze",
+  "longDescription": "<p>ImageVis3D ist eine Volumen-Rendering-Anwendung, die speziell für das Rendern großer Datensätze entwickelt wurde. Dies wird erreicht, indem der Datensatz in mehrere Detailstufen (LoD) aufgeteilt wird, wobei jede Stufe wiederum in sogenannte Bricks (atomare Rendering-Einheiten) untergliedert ist. Die Interaktion erfolgt auf der gröbsten LoD, die auf nahezu allen modernen Systemen sofort dargestellt werden kann. Nach einer konfigurierbaren Verzögerung rendert ImageVis3D schrittweise feinere Detailstufen, bis die Daten in ihrer nativen Auflösung sichtbar sind.</p>\n<p>Die Entwicklung von ImageVis3D wird vom NIH/NCRR Center for Integrative Biomedical Computing (CIBC) und dem DOE Visualization And Analytics Center for Enabling Technologies (VACET) gefördert.</p>\n"
+}

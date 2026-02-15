@@ -1,0 +1,35 @@
+id: "moserial"
+name: moserial Terminal
+description: Serial terminal
+longDescription: |
+  <p>Moserial is a serial terminal used for interacting with serial consoles and embedded devices. It supports the view of incoming and outgoing data in both ASCII and hexadecimal formats with the option to log this data. It also supports sending and receiving of x, y, and z-modem files, and has profiles to easily switch between configurations for different devices you are communicating with.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - moserial
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: m/mo/moserial.desktop/7161F9FC85448F18AC10BE3313DFF45C/screenshots/image-1_orig.png
+    thumbnailUrl: m/mo/moserial.desktop/7161F9FC85448F18AC10BE3313DFF45C/screenshots/image-1_624x491.png
+    width: 959
+    height: 755
+iconSources:
+  - cached: moserial_moserial.png
+    width: 64
+    height: 64
+homepage: "https://wiki.gnome.org/moserial/"
+enabled: true
+order: 99

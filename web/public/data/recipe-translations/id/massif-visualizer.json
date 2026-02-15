@@ -1,0 +1,5 @@
+{
+  "name": "Massif-Visualizer",
+  "description": "Visualizer untuk file data Massif Valgrind",
+  "longDescription": "<p>Massif Visualizer adalah alat yang memvisualisasikan data massif. Jalankan aplikasi Anda di Valgrind dengan --tool=massif, lalu buka file massif.out.%pid yang dihasilkan di visualizer ini. File massif yang sudah dikompresi dengan Gzip atau Bzip2 juga dapat dibuka secara langsung.</p><p>Fitur:</p><ul><li>Grafik interaktif penggunaan memori dari waktu ke waktu.</li><li>Analisis snapshot detail dengan visualisasi callgraph (memerlukan KGraphViewer).</li><li>Ringkasan puncak penggunaan memori dari semua fungsi yang melakukan alokasi.</li></ul>"
+}

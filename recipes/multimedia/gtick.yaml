@@ -1,0 +1,48 @@
+id: "gtick"
+name: GTick
+description: Metronome application
+longDescription: |
+  <p>GTick is an acoustical and graphical metronome application (usually used to
+     support musicians at practising an instrument). It features a scale from 30 to
+     250 beats per minute and 2/4, 3/4, 4/4 and other meters. You need a sound
+     device for using it.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtick
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: g/gt/gtick.desktop/b5c63e10aa186ff08f0fb7a4d7bab5b0/screenshots/image-1_orig.png
+    thumbnailUrl: g/gt/gtick.desktop/b5c63e10aa186ff08f0fb7a4d7bab5b0/screenshots/image-1_224x167.png
+    width: 455
+    height: 340
+  - url: g/gt/gtick.desktop/b5c63e10aa186ff08f0fb7a4d7bab5b0/screenshots/image-2_orig.png
+    thumbnailUrl: g/gt/gtick.desktop/b5c63e10aa186ff08f0fb7a4d7bab5b0/screenshots/image-2_224x317.png
+    width: 455
+    height: 644
+iconSources:
+  - cached: gtick_gtick.png
+    width: 64
+    height: 64
+homepage: "http://www.antcom.de/gtick/"
+enabled: true
+order: 99

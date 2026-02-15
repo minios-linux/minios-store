@@ -1,0 +1,39 @@
+id: tomatoes
+name: I Have No Tomatoes
+description: How many tomatoes can you smash in ten short minutes?
+longDescription: |
+  <p>I Have No Tomatoes is an extreme leisure time activity idea of which culminates in the following question: How many tomatoes can you smash in ten short minutes? If you have the time to spare, this game has the vegetables just waiting to be eliminated!</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tomatoes
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+iconSources:
+  - cached: tomatoes_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

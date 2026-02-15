@@ -1,0 +1,5 @@
+{
+  "name": "repsnapper",
+  "description": "Pilotez votre imprimante 3D plastique",
+  "longDescription": "<p>Un RepRap est une imprimante 3D : une machine capable de fabriquer des objets en plastique en trois dimensions à partir d’un modèle informatique. Repsnapper permet de convertir des fichiers STL, générés par la plupart des logiciels de modélisation 3D comme Blender, en GCode compréhensible par le RepRap. Il peut également envoyer le résultat directement à l'imprimante RepRap.</p>\n"
+}

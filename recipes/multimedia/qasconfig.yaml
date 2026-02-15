@@ -1,0 +1,41 @@
+id: "qasconfig"
+name: QasConfig
+description: ALSA configuration browser
+longDescription: |
+  <p>QasTools is a collection of desktop applications for the Linux sound system ALSA.</p>
+  <p>The applications included are:  - QasConfig - browser for the ALSA configuration tree  - QasHctl - mixer for ALSA&apos;s High level Control Interface  - QasMixer - desktop mixer with features similar to alsamixer</p>
+  <p>ALSA&apos;s configuration resides in a tree structure which gets built from the contents of the files /etc/asound.conf and ~/.asoundrc. QasConfig is a simple browser for this configuration tree and can help to analyze and debug an ALSA setup.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qasconfig
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - alsa
+  - audio
+  - configuration
+  - qt
+iconSources:
+  - url: org/qastools/qasconfig/eb8a61926485ec3b5dfebb9bc0fed55e/icons/128x128/qasconfig_qasconfig.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.com/sebholt/qastools"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Okteta",
+  "description": "Editor hexadecimal",
+  "longDescription": "<p>Okteta é um editor simples para dados brutos de arquivos.</p>\n<p>Recursos:</p>\n<ul>\n  <li>Valores e caracteres exibidos em duas colunas (formato tradicional dos editores hexadecimais) ou em linhas com o valor acima do caractere</li>\n  <li>Edição e navegação semelhantes a um editor de texto</li>\n  <li>Visualizações de dados personalizáveis, com perfis carregáveis e salváveis</li>\n  <li>Ferramentas acopláveis em todos os lados ou flutuantes</li>\n  <li>Codificações numéricas: Hexadecimal, Decimal, Octal, Binário</li>\n  <li>Codificações de caracteres: Todas as codificações de 8 bits fornecidas pelo Qt, EBCDIC</li>\n  <li>Renderização rápida dos dados na tela</li>\n  <li>Múltiplos arquivos abertos simultaneamente</li>\n  <li>Suporte a desfazer/refazer</li>\n  <li>Ferramenta de estruturas para análise e edição com base em definições de estruturas criadas pelo usuário</li>\n  <li>E muito mais...</li>\n</ul>\n"
+}

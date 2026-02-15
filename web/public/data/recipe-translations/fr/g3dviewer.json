@@ -1,0 +1,5 @@
+{
+  "name": "G3DViewer",
+  "description": "Visionneuse de modèles 3D",
+  "longDescription": "<p>G3DViewer est une visionneuse de fichiers 3D pour GTK+ prenant en charge divers formats grâce au système de modules LibG3D. Les modèles peuvent être examinés et rendus à l'aide d'OpenGL. Les options d'affichage incluent le mode fil de fer, les ombres, la vue isométrique, les effets de lumière spéculaire et les textures.</p>\n<p>Consultez « libg3d-plugin* » pour la liste des formats pris en charge.</p>\n"
+}

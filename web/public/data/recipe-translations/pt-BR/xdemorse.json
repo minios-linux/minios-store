@@ -1,0 +1,5 @@
+{
+  "name": "xdemorse",
+  "description": "Interface gráfica para decodificar sinais Morse em texto",
+  "longDescription": "<p>Aplicativo X/GTK+ para decodificação de sinais de código Morse em texto. O xdemorse detecta os \"pontos\" e \"traços\" que compõem um caractere Morse através da placa de som do computador, que pode ser conectada a um receptor de rádio sintonizado em transmissão CW ou a um gerador de tons.</p>\n<p>O sinal de entrada é processado por um algoritmo detector de tons Goertzel, que gera saídas \"mark\" ou \"space\" (sinal/ausência de sinal), e a sequência resultante de \"elementos\" Morse é decodificada em caracteres ASCII exibidos no visualizador de texto.</p>\n<p>O xdemorse possui certo grau de tolerância a erros do operador (\"fist\" impreciso) quanto à variação da duração dos elementos do código Morse. Apresenta também um visor \"Waterfall\" (espectro de áudio) obtido por FFT de aritmética inteira a partir da saída de áudio do receptor.</p>\n<p>Este programa possui suporte CAT integrado, porém somente para os rádios Yaesu FT847 ou FT857 e Elecraft K2 ou K3.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "UXVile",
+  "description": "Emacs al estilo VI",
+  "longDescription": "<p>vile es un editor de texto altamente compatible con vi en cuanto a la experiencia de uso. Además, ofrece funcionalidades ampliadas en varias áreas, incluyendo edición y visualización de múltiples archivos, resaltado de sintaxis, reasignación de teclas, un intérprete embebido opcional de perl, y soporte real para el sistema de ventanas X.</p>\n<p>Este paquete incluye el binario para X11. Los archivos de soporte necesarios están en vile-common. Los filtros para resaltado de código fuente se encuentran en vile-filters. Un binario para modo carácter está disponible en el paquete vile.</p>\n"
+}

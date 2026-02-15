@@ -1,0 +1,5 @@
+{
+  "name": "Plover",
+  "description": "saisie sténotypique et traduction",
+  "longDescription": "<p>Plover est une application Python légère et discrète qui s'exécute en arrière-plan pour traduire les mouvements de sténotypie et émuler des frappes clavier, de sorte que les logiciels utilisés ne détectent même pas l'usage d'une sténotype.</p>\n<p>Plover est aujourd'hui utilisé par des centaines de personnes, allant des sténographes professionnels, transcripteurs, développeurs, jusqu'aux passionnés. Il prend en charge :</p>\n<p> - Claviers classiques et véritables machines à sténotyper  - Gestion des touches multimédias pour contrôler la lecture, le volume, etc.  - S'appuie sur une théorie issue de StenEd, enrichie de plus de 50 000 nouveaux raccourcis  - Compatibilité avec les dictionnaires JSON et RTF/CRE  - Outils intégrés pour l'apprentissage et l'entraînement</p>\n"
+}

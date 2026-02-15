@@ -1,0 +1,28 @@
+id: ukui-power-manager
+name: Power Statistics
+description: Observe power management
+longDescription: |
+  <p>UKUI Power Manager is a session daemon for the UKUI desktop that takes care of system or desktop events related to power, and triggers actions accordingly. Its philosophy is to completely hide these complex tasks and only show some settings important to the user.</p>
+  <p>The UKUI power manager displays and manages battery status, power plug events, display brightness, CPU, graphics card and hard disk drive power saving, and can trigger suspend-to-RAM, hibernate or shutdown events, all integrated to other components of the UKUI desktop.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ukui-power-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: u/uk/ukui-power-statistics.desktop/9D67733783F78A4E64FCD6B87FF889D0/icons/128x128/ukui-power-manager_ukui-power-statistics.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

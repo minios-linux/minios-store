@@ -1,0 +1,5 @@
+{
+  "name": "mpv Media Player",
+  "description": "Filme und Musik abspielen",
+  "longDescription": "<p>mpv ist ein Medienplayer, der auf MPlayer und mplayer2 basiert. Er unterstützt eine Vielzahl von Videoformaten, Audio- und Videocodecs sowie Untertiteltypen.</p>\n<p>Die Änderungen von mplayer2 zu mpv beinhalten:  * Entfernung von überflüssigem Code zur Förderung der Weiterentwicklung  * Verbesserte OSD-Darstellung  * Übersichtlichere Terminalausgaben  * Verbesserte OpenGL-Ausgabe  * Unterstützung für Encoding-Funktionen (als Ersatz für mencoder)  * Wayland-Unterstützung  * Unterstützung zum Abspielen von URLs beliebter Streaming-Plattformen  * Verbesserte Screenshot-Funktionalität  * ... Weitere Informationen zu den Unterschieden zwischen MPlayer, mplayer2 und mpv finden Sie in mpv(1).</p>\n"
+}

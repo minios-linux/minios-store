@@ -1,0 +1,33 @@
+id: "utox"
+name: uTox
+description: A lightweight Tox client
+longDescription: |
+  <p>µTox is the lightweight client with minimal dependencies; it not only looks pretty, it runs fast! µTox is available for Windows, OS X, and Linux (Android support is experimental), with full support for chat, file transfers, audio/video calling, and desktop sharing (both as video and inline screenshots). It also supports text group chats with audio groups pending the next Toxcore update.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - utox
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: u/ut/utox.desktop/305ea4523f6a8a327272f1384218f38e/icons/128x128/utox_utox.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

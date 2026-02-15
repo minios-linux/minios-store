@@ -1,0 +1,5 @@
+{
+  "name": "terminatorX",
+  "description": "terminatorX adalah synthesizer audio waktu nyata",
+  "longDescription": "<p>terminatorX memudahkan pemuatan data audio sampel dalam berbagai format (*.wav, *.au, *.ogg, *.mp3, dll.) ke dalam turntable virtual untuk pemutaran yang sinkron. Pengguna dapat mengoperasikan turntable ini menggunakan input mouse dan keyboard untuk melakukan \"scratch\" seperti DJ hiphop pada piringan hitam.</p>\n<p>Aplikasi ini menawarkan efek waktu nyata (baik bawaan maupun plugin LADSPA), sequencer, dan antarmuka MIDI — semuanya dapat diakses melalui antarmuka gtk+ yang mudah digunakan. Audio dapat diputar langsung ke perangkat keras melalui backend ALSA dan OSS, atau melalui daemon routing audio dengan backend JACK dan PulseAudio.</p>\n"
+}

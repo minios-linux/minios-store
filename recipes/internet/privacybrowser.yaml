@@ -1,0 +1,39 @@
+id: "privacybrowser"
+name: Privacy Browser
+description: A web browser that respects your privacy
+longDescription: |
+  <p>
+              Privacy Browser is a web browser based on Qt WebEngine with a focus on privacy and security.
+              Features like JavaScript and cookies are disabled by default but are easy to automatically enable on-the-fly
+  or by domain.
+          </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - privacybrowser
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - http
+  - https
+screenshotSources:
+  - url: com/stoutner/privacybrowser/4bb2fc0e6b23401ab1a607ab36220ee5/screenshots/image-1_orig.png
+    thumbnailUrl: com/stoutner/privacybrowser/4bb2fc0e6b23401ab1a607ab36220ee5/screenshots/image-1_624x485@1.png
+    width: 1154
+    height: 898
+iconSources:
+  - url: com/stoutner/privacybrowser/4bb2fc0e6b23401ab1a607ab36220ee5/icons/128x128/privacybrowser_privacybrowser.png
+    width: 128
+    height: 128
+developer: Soren Stoutner
+homepage: "https://www.stoutner.com/privacy-browser-pc/"
+enabled: true
+order: 99

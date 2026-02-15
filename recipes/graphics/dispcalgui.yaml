@@ -1,0 +1,23 @@
+id: dispcalgui
+name: VRML to X3D
+description: Converts VRML files to X3D embedded in HTML
+longDescription: |
+  <p>Calibrates and characterizes display devices using a hardware sensor, driven by the open source color management system Argyll CMS. Supports multi-display setups and a variety of available settings like customizable whitepoint, luminance, black level, tone response curve as well as the creation of matrix and look-up-table ICC profiles with optional gamut mapping. Calibrations and profiles can be verified through measurements, and profiles can be installed to make them available to color management aware applications. Profile installation can utilize Argyll CMS, Oyranos and/or GNOME Color Manager if available, for flexible integration.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dispcalgui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: dispcalgui_displaycal-vrml-to-x3d-converter.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

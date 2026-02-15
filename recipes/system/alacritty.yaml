@@ -1,0 +1,33 @@
+id: "alacritty"
+name: Alacritty
+description: "A fast, cross-platform, OpenGL terminal emulator"
+longDescription: |
+  <p>Alacritty is a modern terminal emulator that comes with sensible defaults, but allows for extensive configuration. By integrating with other applications, rather than reimplementing their functionality, it manages to provide a flexible set of features with high performance.</p>
+  
+categoryId: system
+icon: Terminal
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - alacritty
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/alacritty/Alacritty/02475195232237ea8638e885db5a7d24/screenshots/image-1_orig.png
+    thumbnailUrl: org/alacritty/Alacritty/02475195232237ea8638e885db5a7d24/screenshots/image-1_624x335@1.png
+    width: 1172
+    height: 631
+iconSources:
+  - url: org/alacritty/Alacritty/02475195232237ea8638e885db5a7d24/icons/128x128/alacritty_Alacritty.png
+    width: 128
+    height: 128
+homepage: "https://github.com/alacritty/alacritty"
+enabled: true
+order: 99

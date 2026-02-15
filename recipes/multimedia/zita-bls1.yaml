@@ -1,0 +1,37 @@
+id: "zita-bls1"
+name: Zita-bls1
+description: converter of binaural signals into a convential stereo signals
+longDescription: |
+  <p>zita-bls1 - The Blumlein Shuffler convert binaural stereo signals into a form suitable for reproduction using a convential stereo speaker pair.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zita-bls1
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - jackd,binaural,converter
+iconSources:
+  - url: z/zi/zita-bls1.desktop/aaf3097265f3d21f119618ea2b1be106/icons/128x128/zita-bls1_zita-bls1.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

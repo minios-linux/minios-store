@@ -1,0 +1,44 @@
+id: "ktuberling"
+name: Potato Guy
+description: A simple constructor game suitable for children and adults alike
+longDescription: |
+  <p>KTuberling a simple constructor game suitable for children and adults alike. The idea of the game is based around a once popular doll making concept.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ktuberling
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/ktuberling/adc2a072ad7d634d351b80f2cfcd3ee1/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ktuberling/adc2a072ad7d634d351b80f2cfcd3ee1/screenshots/image-1_624x495@1.png
+    width: 668
+    height: 530
+iconSources:
+  - url: org/kde/ktuberling/adc2a072ad7d634d351b80f2cfcd3ee1/icons/128x128/ktuberling_ktuberling.png
+    width: 128
+    height: 128
+developer: The KTuberling Developers
+homepage: "https://www.kde.org/applications/games/ktuberling/"
+enabled: true
+order: 99

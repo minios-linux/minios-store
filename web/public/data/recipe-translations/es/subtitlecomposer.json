@@ -1,0 +1,5 @@
+{
+  "name": "Subtitle Composer",
+  "description": "Editor de subtítulos para KDE",
+  "longDescription": "<p>Un editor de subtítulos basado en texto que permite operaciones básicas como edición de texto, tiempo y estilos, además de previsualización en tiempo real y corrección ortográfica. Incluye funciones avanzadas como retrasar todos los subtítulos en un archivo, comprobar errores o crear traducciones.</p>\n<p>Admite distintos motores de reproducción (GStreamer, MPlayer, MPV o Phonon) para mostrar vistas previas de video en tiempo real y facilitar la sincronización de subtítulos.</p>\n"
+}

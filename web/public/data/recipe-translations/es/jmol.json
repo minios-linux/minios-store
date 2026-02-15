@@ -1,0 +1,5 @@
+{
+  "name": "Jmol",
+  "description": "Visor molecular en Java para estructuras químicas tridimensionales",
+  "longDescription": "<p>\n      Jmol es un visor molecular desarrollado en Java para estructuras químicas tridimensionales. Permite leer diversos tipos de archivos y resultados de programas de química cuántica, así como animar archivos multi-frame y modos normales calculados por estos programas. Incluye herramientas para químicos, cristalógrafos, especialistas en materiales y biomoléculas. Jmol es útil para estudiantes, docentes e investigadores en química y bioquímica.\n    </p>\n<p>\n      Los formatos de archivo compatibles con Jmol incluyen PDB, XYZ, CIF, CML, MDL Molfile, Gaussian, GAMESS, MOPAC, ABINIT, ACES-II, Dalton y VASP.\n    </p>\n"
+}

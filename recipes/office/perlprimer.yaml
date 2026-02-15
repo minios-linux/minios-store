@@ -1,0 +1,41 @@
+id: perlprimer
+name: PerlPrimer
+description: Graphical design of primers for PCR and sequencing
+longDescription: |
+  <p>PerlPrimer is a free, open-source GUI application written in Perl that designs primers for standard Polymerase Chain Reaction (PCR), bisulphite PCR, real-time PCR (QPCR) and sequencing. It aims to automate and simplify the process of primer design.</p>
+  <p>If operated online, the tool nicely communicates with the Ensembl project for further insights into the gene structure, i.e., allowing for taking the location of exons and introns into account for the design of the primers.  The sequences themselves can be retrieved, too.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - perlprimer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pcr
+  - oligonucleotide
+iconSources:
+  - cached: perlprimer_perlprimer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,47 @@
+id: "accerciser"
+name: Accerciser
+description: Give your application an accessibility workout
+longDescription: |
+  <p>It uses AT-SPI to inspect and control widgets, allowing you to check if an application is providing correct information to assistive technologies and automated test frameworks. Accerciser has a simple plugin framework which you can use to create custom views of accessibility information.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - accerciser
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - accessibility
+  - development
+  - test
+screenshotSources:
+  - url: org/gtk/accerciser/be7123405019d060216b2858801fb118/screenshots/image-1_orig.png
+    thumbnailUrl: org/gtk/accerciser/be7123405019d060216b2858801fb118/screenshots/image-1_624x363@1.png
+    width: 994
+    height: 579
+iconSources:
+  - url: org/gtk/accerciser/be7123405019d060216b2858801fb118/icons/128x128/accerciser_accerciser.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/action/show/Apps/Accerciser"
+enabled: true
+order: 99

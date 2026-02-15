@@ -1,0 +1,5 @@
+{
+  "name": "gbemol",
+  "description": "Client MPD",
+  "longDescription": "<p>gbemol ti permette di utilizzare MPD tramite un'interfaccia intuitiva. Le funzionalità includono un browser della libreria musicale semplice e orientato ai tag, una playlist a due modalità, supporto per le copertine degli album (solo tag APIC, per ora), integrazione con l'icona nell'area di notifica, e informazioni su brani, album e artisti.</p>\n<p>Music Player Daemon è un server che consente l'accesso remoto per la riproduzione di file audio, streaming e gestione delle playlist. Il demone viene controllato tramite un client che non deve necessariamente essere eseguito sullo stesso computer su cui gira mpd.</p>\n"
+}

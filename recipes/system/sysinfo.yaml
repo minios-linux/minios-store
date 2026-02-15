@@ -1,0 +1,24 @@
+id: sysinfo
+name: Sysinfo
+description: Display detailed computer/system information
+longDescription: |
+  <p>sysinfo is a graphical tool that is able to display some hardware and software information about the computer it is run on.</p>
+  <p>It is able to recognize information about:   - System (Linux distribution release, versions of GNOME, kernel, gcc and     Xorg and hostname);   - CPU (vendor identification, model name, frequency, level2 cache, bogomips,     model numbers and flags);   - Memory (total system RAM, free memory, swap space total and free, cached,     active, inactive memory);   - Storage (IDE interface, all IDE devices, SCSI devices);   - Hardware (motherboard, graphic card, sound card, network devices);   - NVIDIA graphic card: only with NVIDIA display driver installed.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sysinfo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: sysinfo_computer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

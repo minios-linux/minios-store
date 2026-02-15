@@ -1,0 +1,5 @@
+{
+  "name": "GCX Astro-Image Processor",
+  "description": "Processa imagens astronômicas e controla CCDs",
+  "longDescription": "<p>Gcx é uma ferramenta para processamento e redução de dados de imagens astronômicas, com uma interface gráfica fácil de usar. Oferece um conjunto completo de funções para redução de dados em fotometria CCD, incluindo ajuste de WCS na imagem, identificação automática de estrelas, fotometria por abertura de estrelas-alvo e de referência, solução de fotometria por conjunto único em um quadro, ajuste de coeficientes de cor em múltiplos quadros, ajuste de coeficientes de extinção e fotometria de céu inteiro; além de funções gerais para processamento de imagens astronômicas (bias, dark, flat, alinhamento e empilhamento de quadros). Também pode ser utilizado como um visualizador de arquivos FITS.</p>\n<p>O programa permite controlar câmeras CCD e telescópios, além de executar rotinas automáticas de observação via scripts. As câmeras são controladas por meio de um servidor específico de hardware, ao qual o gcx se conecta por socket TCP. Gera arquivos FITS com informações de cabeçalho completas.</p>\n"
+}

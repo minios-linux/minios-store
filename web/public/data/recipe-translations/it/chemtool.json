@@ -1,0 +1,5 @@
+{
+  "name": "Chemtool",
+  "description": "Programma per disegnare molecole (2D)",
+  "longDescription": "<p>Chemtool è un editor di strutture chimiche 2D basato su GTK+ per X11. Supporta numerosi stili di legame, la maggior parte delle notazioni testuali necessarie per il disegno chimico, oltre a spline, archi e frecce curve.</p>\n<p>I disegni possono essere esportati nei formati MOL e PDB, SVG o XFig per ulteriori annotazioni, come disegno PiCTeX, bitmap o file Postscript (alcuni di questi tramite il programma fig2dev, compagno di XFig).</p>\n<p>Il pacchetto include anche un programma di supporto, cht, per calcolare la formula sommaria e il peso molecolare (esatto) da un file di disegno Chemtool. Cht può essere richiamato direttamente da Chemtool o dal terminale.</p>\n"
+}

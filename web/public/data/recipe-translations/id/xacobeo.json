@@ -1,0 +1,5 @@
+{
+  "name": "Xacobeo",
+  "description": "Membangun dan menjalankan kueri XPath",
+  "longDescription": "<p>Xacobeo menyediakan antarmuka grafis pengguna (GUI) yang sederhana untuk menjalankan kueri XPath dan melihat hasilnya.</p>\n<p>GUI ini dirancang untuk menyajikan semua elemen yang dibutuhkan agar pengguna dapat menulis, menguji, dan menjalankan kueri XPath dengan mudah. Aplikasi ini menampilkan Document Object Model (DOM) serta namespace yang digunakan. Program akan mendaftarkan namespace secara otomatis dan setiap elemen ditampilkan beserta namespace terkait. Semua fitur ini dibuat agar Anda dapat menjalankan kueri XPath secepat mungkin tanpa kerepotan dengan namespace dokumen, sambil langsung melihat pada namespace mana setiap elemen berada.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "gladish",
+  "description": "Gestor de sesiones LADI",
+  "longDescription": "<p>LADI Session Handler, o simplemente ladish, es un sistema de gestión de sesiones para aplicaciones JACK en GNU/Linux. Su objetivo es permitirte ejecutar múltiples programas de audio simultáneamente, guardar su configuración, cerrarlos y luego recargar fácilmente el entorno en otro momento.</p>\n<p>Este paquete proporciona una interfaz gráfica para ladish.</p>\n"
+}

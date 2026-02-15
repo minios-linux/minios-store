@@ -1,0 +1,24 @@
+id: code-of-conduct-signing-assistant
+name: Code of Conduct Signing Assistant
+description: Sign the Code of Conduct easily.
+longDescription: |
+  <p>Code of Conduct Signing Assistant is an open source program that helps you sign the Ubuntu Code of Conduct easily!</p>
+  <p>No more worries about PGP keys or decrypting mail: just follow the steps the Code of Conduct Signing Assistant guides you through and in the end you have signed the Ubuntu Code of Conduct!</p>
+  
+categoryId: system
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - code-of-conduct-signing-assistant
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: code-of-conduct-signing-assistant_codeOfConductSigningAssistant.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

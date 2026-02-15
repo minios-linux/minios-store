@@ -1,0 +1,5 @@
+{
+  "name": "Snapper GUI",
+  "description": "Antarmuka grafis untuk manajer snapshot snapper",
+  "longDescription": "<p>Snapper-gui adalah antarmuka grafis untuk snapper, alat manajemen snapshot sistem file di Linux. Aplikasi ini memungkinkan perbandingan snapshot serta mengembalikan perubahan antar snapshot. Singkatnya, baik pengguna root maupun non-root dapat melihat versi lama dari file dan membatalkan perubahan dengan mudah.</p>\n<p>Saat ini mendukung btrfs, ext4, dan volume LVM thin-provisioned.</p>\n"
+}

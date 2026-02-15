@@ -1,0 +1,39 @@
+id: "openarena"
+name: OpenArena
+description: "A fast-paced 3D first-person shooter, similar to id Software Inc.'s Quake III Arena"
+longDescription: |
+  <p>OpenArena is an open-source content package for ioQuake3 licensed under the GPL, effectively creating a free stand-alone game. Though OpenArena is a free replacement for id Software Inc.&apos;s Quake 3 Arena, it is NOT compatible with the proprietary game!</p>
+  <p>OpenArena might be considered unsuitable for children.</p>
+  <p>This package installs the OpenArena client.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openarena
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: o/op/openarena.desktop/19fff0257746487c16081cc4b90a2d02/icons/128x128/openarena_openarena128.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

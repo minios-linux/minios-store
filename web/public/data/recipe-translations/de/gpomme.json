@@ -1,0 +1,5 @@
+{
+  "name": "pommed GTK-Client Konfigurationsoberfläche",
+  "description": "Ein grafischer Client für pommed (Konfigurationsoberfläche)",
+  "longDescription": "<p>pommed verarbeitet die Sondertasten der Apple MacBook Pro, MacBook Air, MacBook, PowerBook und iBook Laptops und steuert damit die LCD-Hintergrundbeleuchtung, Lautstärke, Tastaturbeleuchtung oder öffnet das CD-ROM-Laufwerk.</p>\n<p>gpomme ist ein grafischer Client für pommed. Er empfängt die über D-Bus von pommed gesendeten Signale und zeigt die von pommed ausgeführten Aktionen sowie deren aktuellen Status an.</p>\n"
+}

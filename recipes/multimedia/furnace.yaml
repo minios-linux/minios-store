@@ -1,0 +1,26 @@
+id: furnace
+name: Furnace
+description: Open-source chiptune tracker
+longDescription: |
+  <p>This is a chiptune tracker compatible with DefleMask modules (.dmf). It supports the following systems:  - Sega Genesis  - Sega Master System  - Game Boy  - PC Engine  - NES  - Commodore 64  - Yamaha YM2151 (plus PCM)  - Neo Geo  - AY-3-8910 (ZX Spectrum, Atari ST, etc.)  - Microchip AY8930  - Philips SAA1099  - Amiga  - TIA (Atari 2600/7800)</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - furnace
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: f/fu/furnace.desktop/8345925893fddb8c2d68e4cea3be3b67/icons/128x128/furnace_furnace.png
+    width: 128
+    height: 128
+  - url: f/fu/furnace.desktop/8345925893fddb8c2d68e4cea3be3b67/icons/128x128@2/furnace_furnace.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,38 @@
+id: "xitermplusthai"
+name: Thai X terminal
+description: X Terminal that supports Thai (TIS-620 encoding)
+longDescription: |
+  <p>xiterm+thai is an X terminal emulator program with Thai language support. It has built-in Thai keyboard input support. You could also use the X11 XKB extension to input Thai characters.</p>
+  <p>A Thai TIS-620 font, such as one from xfonts-thai-nectec is needed to display Thai characters.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xiterm+thai
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: xiterm+thai_xiterm+thai.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

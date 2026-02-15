@@ -1,0 +1,54 @@
+id: "yelp"
+name: GNOME Help
+description: Help viewer for GNOME
+longDescription: |
+  <p>Yelp is the GNOME help viewer. It is the default Mallard viewer, but it
+        can also display DocBook, info, man, and HTML documentation.</p>
+  <p>It makes it easy to find the documentation you need, with interactive
+        search and bookmarks.</p>
+  <p>It also has an editor mode, which shows editorial comments and revision
+        statuses when editing Mallard documents.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yelp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - documentation
+  - information
+  - manual
+  - help
+screenshotSources:
+  - url: y/ye/yelp.desktop/5f04f19dbe33782cb4f95d9e631f7fcd/screenshots/image-1_orig.png
+    thumbnailUrl: y/ye/yelp.desktop/5f04f19dbe33782cb4f95d9e631f7fcd/screenshots/image-1_624x449@1.png
+    width: 849
+    height: 612
+iconSources:
+  - url: y/ye/yelp.desktop/5f04f19dbe33782cb4f95d9e631f7fcd/icons/128x128/yelp_org.gnome.Yelp.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Yelp"
+enabled: true
+order: 99

@@ -1,0 +1,43 @@
+id: "mupen64plus-qt"
+name: Mupen64Plus-Qt
+description: A customizable launcher for Mupen64plus
+longDescription: |
+  <p>Mupen64Plus-Qt is a customizable launcher for the standard console UI frontend of Mupen64Plus. It supports downloading game information and cover images from thegamesdb.net.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mupen64plus-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - emulator
+  - mupen
+  - mupen64plus
+  - nintendo
+  - 64
+iconSources:
+  - url: m/mu/mupen64plus-qt.desktop/b84e0c3e5a26fdcaaa7f5b058bb1bed8/icons/128x128/mupen64plus-qt_mupen64plus-qt.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

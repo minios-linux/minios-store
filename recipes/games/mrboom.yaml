@@ -1,0 +1,40 @@
+id: "mrboom"
+name: Mr.Boom
+description: 8 player Bomberman clone
+longDescription: |
+  <p>This is an SDL2 version of the original 1999 version of Mr. Boom. The goal of the game is to bomb away your enemies and other players.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mrboom
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - bomberman
+  - bomb
+  - multiplayer
+  - dynablaster
+iconSources:
+  - url: m/mr/mrboom.desktop/fdb2567df58db70e611f857ab6db86e4/icons/128x128/mrboom_mrboom.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

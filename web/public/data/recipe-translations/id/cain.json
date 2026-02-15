@@ -1,0 +1,5 @@
+{
+  "name": "Cain",
+  "description": "simulasi reaksi kimia",
+  "longDescription": "<p>Cain melakukan simulasi stokastik dan deterministik untuk reaksi kimia. Aplikasi ini dapat menjalankan banyak proses simulasi secara paralel untuk memanfaatkan komputer multi-core. Model, metode, dan output simulasi (populasi dan jumlah reaksi) disimpan dalam format XML. Selain itu, model SBML dapat diimpor dan diekspor. Model dan metode dapat dibaca dari file input atau diedit langsung di dalam program.</p>\n<p>Antarmuka pengguna grafis (GUI) Cain dibuat dengan Python menggunakan toolkit wxPython. Sebagian besar solver diimplementasikan sebagai program baris perintah (command line), ditulis dalam C++, dan dijalankan oleh Cain. Ini memudahkan pelaksanaan batch job serta menambah solver baru. Cain menyediakan berbagai solver, antara lain:  * Metode langsung Gillespie.  * Metode reaksi pertama Gillespie.  * Metode reaksi selanjutnya Gibson dan Bruck.  * Tau-leaping.  * Hybrid direct/tau-leaping.  * Integrasi ODE.</p>\n<p>Paket ini menyediakan file-file Cain yang independen dari arsitektur.</p>\n"
+}

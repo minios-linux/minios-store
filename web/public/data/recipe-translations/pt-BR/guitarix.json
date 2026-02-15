@@ -1,0 +1,5 @@
+{
+  "name": "guitarix",
+  "description": "Simulação simples de amplificador mono",
+  "longDescription": "<p>O Guitarix é um amplificador de guitarra rock para o Jack Audio Connection Kit, com uma entrada e duas saídas. Ele oferece uma porta de entrada JACK e duas portas de saída JACK. É projetado para produzir timbres marcantes de guitarra trash, metal, rock e blues. Conta com controles de baixo, agudos, ganho, compressor, seletor de válvula, distorção, flanger, reverb, wah-wah (crybaby), entre outros.</p>\n<p>O Guitarix possui interface gráfica em GTK+ e está disponível como plugins Ladspa e LV2.</p>\n"
+}

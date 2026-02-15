@@ -1,0 +1,51 @@
+id: "ksquares"
+name: KSquares
+description: Connect the dots to create squares
+longDescription: |
+  <p>KSquares is a game modeled after the well known pen and paper based game of Dots and Boxes. Each player takes it in turns to draw a line between two adjacent dots on the board. The objective is to complete more squares than your opponents.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ksquares
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/ksquares/9b9caf37e45155314a4108f284624fdf/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ksquares/9b9caf37e45155314a4108f284624fdf/screenshots/image-1_624x351@1.png
+    width: 1024
+    height: 576
+  - url: org/kde/ksquares/9b9caf37e45155314a4108f284624fdf/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/ksquares/9b9caf37e45155314a4108f284624fdf/screenshots/image-2_624x351@1.png
+    width: 1024
+    height: 576
+  - url: org/kde/ksquares/9b9caf37e45155314a4108f284624fdf/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/ksquares/9b9caf37e45155314a4108f284624fdf/screenshots/image-3_624x351@1.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: org/kde/ksquares/9b9caf37e45155314a4108f284624fdf/icons/128x128/ksquares_ksquares.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org"
+enabled: true
+order: 99

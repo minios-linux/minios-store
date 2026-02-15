@@ -1,0 +1,5 @@
+{
+  "name": "PulseView",
+  "description": "Interfaz gráfica para analizador lógico, osciloscopio y MSO",
+  "longDescription": "<p>PulseView es una interfaz gráfica basada en Qt para analizador lógico, osciloscopio y MSO diseñada para sigrok.</p>\n<p>Características:</p>\n<ul>\n  <li>Visualización de señales rápida con rendimiento O(log N) en todos los niveles de zoom</li>\n  <li>Soporte para decodificadores de protocolos</li>\n  <li>Gestión de grupos de trazas</li>\n</ul>\n"
+}

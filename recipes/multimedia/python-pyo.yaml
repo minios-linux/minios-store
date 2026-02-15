@@ -1,0 +1,28 @@
+id: python-pyo
+name: E-Pyo
+description: Sound synthesis and audio signal processing environment
+longDescription: |
+  <p>pyo is a Python module containing classes for a wide variety of audio signal processing types. With pyo, user will be able to include signal processing chains directly in Python scripts or projects, and to manipulate them in real time through the interpreter. Tools in pyo module offer primitives, like mathematical operations on audio signal, basic signal processing (filters, delays, synthesis generators, etc.), but also complex algorithms to create sound granulation and others creative audio manipulations.</p>
+  <p>pyo supports OSC protocol (Open Sound Control), to ease communications between softwares, and MIDI protocol, for generating sound events and controlling process parameters.</p>
+  <p>pyo allows creation of sophisticated signal processing chains with all the benefits of a mature, and wildly used, general programming language.</p>
+  <p>This package installs the library for Python 2.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - python-pyo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: python-pyo_E-Pyo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

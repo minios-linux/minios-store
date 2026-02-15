@@ -1,0 +1,41 @@
+id: "neovim-runtime"
+name: Neovim
+description: Edit text files
+longDescription: |
+  <p>Neovim is a fork of Vim focused on modern code and features, rather than running in legacy environments.</p>
+  <p>This package contains the architecture independent runtime files used by neovim.  Examples of such files are: documentation, rules for language-specific highlighting and indentation, color schemes, and standard plugins.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - neovim-runtime
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+iconSources:
+  - url: n/nv/nvim.desktop/80528a7616fb19e23eeff502478969c3/icons/128x128/neovim-runtime_nvim.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

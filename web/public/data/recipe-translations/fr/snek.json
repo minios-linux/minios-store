@@ -1,0 +1,5 @@
+{
+  "name": "Environnement de développement Snek",
+  "description": "Éditez et testez des programmes Snek pour Arduino",
+  "longDescription": "<p>Snek est un petit langage inspiré de Python, conçu pour les ordinateurs embarqués. Il peut fonctionner sur des systèmes aussi compacts qu'une carte Arduino Duemilanove, dotée d'un processeur ATmega 328 avec 32 kB de mémoire flash et 2 kB de RAM. Ce paquet inclut les exécutables et outils d'installation pour de nombreuses cibles, ainsi que l’IDE snekde (environnement de développement intégré).</p>\n"
+}

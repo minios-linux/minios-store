@@ -1,0 +1,29 @@
+id: qhimdtransfer
+name: QHiMDTransfer
+description: Transfer software for Sony HiMD Walkman
+longDescription: |
+  <p>qhimdtransfer is a simple graphical user interface application for accessing MiniDisc devices. Currently, qhimdtransfer supports HiMD devices only through libhimd. Support for NetMD devices through libnetmd is being planned and implemented by upstream for the next releases.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qhimdtransfer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: qhimdtransfer_qhimdtransfer_32.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

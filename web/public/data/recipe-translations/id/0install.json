@@ -1,0 +1,5 @@
+{
+  "name": "0install",
+  "description": "Jalankan atau kelola program Zero Install",
+  "longDescription": "<p>Zero Install adalah sistem instalasi perangkat lunak terdesentralisasi lintas distribusi yang tersedia di bawah lisensi LGPL. Sistem ini memungkinkan pengembang perangkat lunak untuk mendistribusikan program langsung dari situs web mereka sendiri, sekaligus mendukung fitur-fitur yang umum ditemukan pada repositori terpusat seperti pustaka bersama (shared libraries), pembaruan otomatis, dan tanda tangan digital. 0install dirancang untuk melengkapi, bukan menggantikan, manajemen paket pada sistem operasi. Paket 0install tidak akan mengganggu paket yang disediakan distribusi.</p>\n<p>Paket ini juga menyertakan antarmuka GTK untuk 0install. Jika Anda menggunakan sistem tanpa antarmuka grafis (headless), sebaiknya instal paket 0install-core saja untuk menghindari dependensi GUI.</p>\n"
+}

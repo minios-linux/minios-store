@@ -1,0 +1,58 @@
+id: "linssid"
+name: LinSSID
+description: Find local wireless attach points
+longDescription: |
+  <p>LinSSID is a graphical program that displays locally receivable 802.11 wireless attach points and ad hoc networks.</p>
+  <p>A table is displayed with various parameters such as MAC address, channel, and signal strength. Graphs are also displayed with signal strength by channel and signal strength over time.</p>
+  <p>LinSSID is graphically and functionally similar to inSSIDer (for Microsoft Windows) and Wifi Analyzer (for Android).</p>
+  <p>LinSSID can be used to measure the local performance or to search for an interference free channel to be set in a wireless router (access point or AP). The wireless established link won&apos;t be affected by these operations because LinSSID needn&apos;t set the monitor mode in network interface.</p>
+  <p>Some features:</p>
+  <p>  - Table of locally receivable attach points with many columns of different     information and sortable and movable columns.   - Adjustable speed, real-time update.   - Graphs of signal strength by channel and over time.   - AP bandwidth displayed.   - Works on both 2.4 GHz and 5 GHz channels.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - linssid
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - network
+  - wireless
+  - wifi
+  - monitor
+  - channel
+  - power
+screenshotSources:
+  - url: net/sf/linssid/f12dfbba14747611afe18fb44dca36f8/screenshots/image-1_orig.png
+    thumbnailUrl: net/sf/linssid/f12dfbba14747611afe18fb44dca36f8/screenshots/image-1_624x456.png
+    width: 1116
+    height: 817
+  - url: net/sf/linssid/f12dfbba14747611afe18fb44dca36f8/screenshots/image-2_orig.png
+    thumbnailUrl: net/sf/linssid/f12dfbba14747611afe18fb44dca36f8/screenshots/image-2_624x456.png
+    width: 1117
+    height: 818
+iconSources:
+  - cached: linssid_linssid.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

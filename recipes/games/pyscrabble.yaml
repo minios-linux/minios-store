@@ -1,0 +1,28 @@
+id: pyscrabble
+name: PyScrabble
+description: A classical game of words
+longDescription: |
+  <p>PyScrabble is an online, multiplayer implementation of the popular word game written in Python and featuring:</p>
+  <p> * chat and private messaging (online as well as offline)  * player rankings and server statistics  * use of ENABLE (Enhanced North American Benchmark LExicon) for    English word lookup  * timed games</p>
+  <p>The following languages are supported:</p>
+  <p> * English  * Finnish  * French  * German  * Serbian</p>
+  <p>This package contains the client program.</p>
+  <p>Notice: Scrabble is a registered trademark belonging to Hasbro Inc in the US, and to J.W. Spear &amp; Sons Ltd., a subsidiary of Mattel Inc., throughout the rest of the world. Neither the author, Debian, nor this game are affiliated with the Scrabble Crossword Game, Hasbro, Spear &amp; Sons or Mattel in any fashion.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pyscrabble
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pyscrabble_pyscrabble.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

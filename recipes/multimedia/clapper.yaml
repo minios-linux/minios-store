@@ -1,0 +1,75 @@
+id: "clapper"
+name: Clapper
+description: Simple and modern GNOME media player
+longDescription: |
+  <p>
+        Clapper is a GNOME media player built using GJS with GTK4 toolkit.
+        The media player is using GStreamer as a media backend and renders
+        everything via OpenGL. Player works natively on both Xorg and Wayland.
+        It also supports hardware acceleration through VA-API on AMD/Intel GPUs,
+        NVDEC on Nvidia and V4L2 on mobile devices.
+      </p>
+  <p>
+        The media player has an adaptive GUI. When viewing videos in "Windowed Mode",
+        Clapper will use mostly unmodified GTK widgets to match your OS look nicely.
+        When player enters "Fullscreen Mode" all GUI elements will become darker, bigger
+        and semi-transparent for your viewing comfort. It also has a "Floating Mode" which
+        displays only video on top of all other windows for a PiP-like viewing experience.
+        Mobile friendly transitions are also supported.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - clapper
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - video
+  - movie
+  - film
+  - clip
+  - series
+  - player
+  - playlist
+  - dvd
+  - tv
+  - disc
+screenshotSources:
+  - url: com/github/rafostar.Clapper/4c1bd491da0fed7b4f08f86e9467af4e/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/rafostar.Clapper/4c1bd491da0fed7b4f08f86e9467af4e/screenshots/image-1_624x370@1.png
+    width: 1104
+    height: 656
+  - url: com/github/rafostar.Clapper/4c1bd491da0fed7b4f08f86e9467af4e/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/rafostar.Clapper/4c1bd491da0fed7b4f08f86e9467af4e/screenshots/image-2_624x370@1.png
+    width: 1104
+    height: 656
+  - url: com/github/rafostar.Clapper/4c1bd491da0fed7b4f08f86e9467af4e/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/rafostar.Clapper/4c1bd491da0fed7b4f08f86e9467af4e/screenshots/image-3_624x370@1.png
+    width: 1104
+    height: 656
+  - url: com/github/rafostar.Clapper/4c1bd491da0fed7b4f08f86e9467af4e/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/rafostar.Clapper/4c1bd491da0fed7b4f08f86e9467af4e/screenshots/image-4_624x370@1.png
+    width: 1104
+    height: 656
+  - url: com/github/rafostar.Clapper/4c1bd491da0fed7b4f08f86e9467af4e/screenshots/image-5_orig.png
+    thumbnailUrl: com/github/rafostar.Clapper/4c1bd491da0fed7b4f08f86e9467af4e/screenshots/image-5_224x407@1.png
+    width: 440
+    height: 800
+iconSources:
+  - url: com/github/rafostar.Clapper/4c1bd491da0fed7b4f08f86e9467af4e/icons/128x128/clapper_com.github.rafostar.Clapper.png
+    width: 128
+    height: 128
+developer: Rafał Dzięgiel
+homepage: "https://rafostar.github.io/clapper"
+enabled: true
+order: 99

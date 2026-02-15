@@ -1,0 +1,5 @@
+{
+  "name": "KeySync",
+  "description": "Synchronisez tous les liens de confiance OTR entre plusieurs applications de messagerie",
+  "longDescription": "<p>De nombreuses applications de messagerie prennent en charge le chiffrement OTR pour authentifier les messages. Beaucoup utilisent plusieurs apps de messagerie, par exemple une sur le bureau et une autre sur mobile, ou encore une sous Mac OS X et une autre sous GNU/Linux ou Windows. Les liens de confiance sont stockés localement dans chaque application, dans un format spécifique. Passer de l'une à l'autre signifie devoir gérer vos relations de confiance dans chaque app utilisée.</p>\n<p>KeySync résout ce problème en permettant de synchroniser votre identité OTR et vos liens de confiance entre plusieurs applications. Il fonctionne actuellement avec ChatSecure sur Android, ainsi qu'avec Pidgin, Adium et Jitsi sur ordinateur. Ce projet vise à convertir les différents formats de fichiers OTR entre eux. Actuellement, KeySync se concentre sur les deux principales implémentations OTR : libotr et otr4j, mais il est suffisamment modulaire pour permettre l'ajout du support d'autres implémentations OTR.</p>\n"
+}

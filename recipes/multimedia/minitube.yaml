@@ -1,0 +1,56 @@
+id: "minitube"
+name: Minitube
+description: Watch YouTube videos
+longDescription: |
+  <p>Minitube is a native YouTube client. With it you can watch YouTube videos in a new way: you type a keyword, Minitube gives you an endless video stream.</p>
+  <p>Minitube does not require the Flash Player.</p>
+  <p>Minitube is not about cloning the original YouTube web interface, it aims to create a new TV-like experience.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - minitube
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/tordini/flavio.minitube/1ba950baaa920ba3c0c897837f904d70/screenshots/image-1_orig.png
+    thumbnailUrl: org/tordini/flavio.minitube/1ba950baaa920ba3c0c897837f904d70/screenshots/image-1_624x285.png
+    width: 1552
+    height: 710
+  - url: org/tordini/flavio.minitube/1ba950baaa920ba3c0c897837f904d70/screenshots/image-2_orig.png
+    thumbnailUrl: org/tordini/flavio.minitube/1ba950baaa920ba3c0c897837f904d70/screenshots/image-2_624x285.png
+    width: 1552
+    height: 710
+  - url: org/tordini/flavio.minitube/1ba950baaa920ba3c0c897837f904d70/screenshots/image-3_orig.png
+    thumbnailUrl: org/tordini/flavio.minitube/1ba950baaa920ba3c0c897837f904d70/screenshots/image-3_624x285.png
+    width: 1552
+    height: 710
+  - url: org/tordini/flavio.minitube/1ba950baaa920ba3c0c897837f904d70/screenshots/image-4_orig.png
+    thumbnailUrl: org/tordini/flavio.minitube/1ba950baaa920ba3c0c897837f904d70/screenshots/image-4_624x285.png
+    width: 1552
+    height: 710
+iconSources:
+  - url: org/tordini/flavio.minitube/1ba950baaa920ba3c0c897837f904d70/icons/128x128/minitube_minitube.png
+    width: 128
+    height: 128
+developer: Flavio Tordini
+homepage: "http://flavio.tordini.org/minitube"
+enabled: true
+order: 99

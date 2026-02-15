@@ -1,0 +1,75 @@
+id: "yoshimi"
+name: Yoshimi
+description: A Software Synthesizer for Linux
+longDescription: |
+  <p>Yoshimi is a MIDI software synthesizer for Linux. It synthesizes in real time, can run polyphonic and/or monophonic in multiple simultaneous patches in one or more MIDI channels and has broad microtonal capability. It includes extensive addititive, subtractive, and PAD synth capabilities which can be run simultaneously within the same patch. It also has comprehensive effects capabilities.</p>
+  <p>Originally based on the 2.4.0 version of ZynAddSubFX (Copyright 2002-2009 Nasca Octavian Paul), development of Yoshimi has continued for quite a while now in its own direction. Originally these included major optimizations for audio and MIDI performance. More recently there has been progressive development of user-level access to all controls, including command line access. Since V1.5.0 there is full Midi Learn capability. Refinement continues, both visually and within the code.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yoshimi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - synthesiser
+  - softsynth
+  - microtonal
+  - multichannel
+  - midi
+  - alsa
+  - jack
+  - realtime
+  - standalone
+screenshotSources:
+  - url: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-1_624x808@1.png
+    width: 695
+    height: 900
+  - url: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-2_orig.png
+    thumbnailUrl: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-2_224x75@1.png
+    width: 944
+    height: 317
+  - url: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-3_orig.png
+    thumbnailUrl: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-3_624x514@1.png
+    width: 1004
+    height: 828
+  - url: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-4_orig.png
+    thumbnailUrl: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-4_624x414@1.png
+    width: 939
+    height: 624
+  - url: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-5_orig.png
+    thumbnailUrl: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-5_624x492@1.png
+    width: 744
+    height: 587
+  - url: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-6_orig.png
+    thumbnailUrl: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/screenshots/image-6_224x85@1.png
+    width: 828
+    height: 316
+iconSources:
+  - url: net/sourceforge/projects.yoshimi_2247/87cebd9d4495086e450e0491c2c6929f/icons/128x128/yoshimi_yoshimi.png
+    width: 128
+    height: 128
+homepage: "https://sourceforge.net/projects/yoshimi/"
+enabled: true
+order: 99

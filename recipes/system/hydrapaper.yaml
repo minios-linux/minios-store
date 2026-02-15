@@ -1,0 +1,63 @@
+id: "hydrapaper"
+name: HydraPaper
+description: Wallpaper manager with multi monitor support
+longDescription: |
+  <p>HydraPaper is a wallpaper manager, specifically designed to work around the lack of functionality of many desktop environments to set a different wallpaper for each monitor in a multi monitor setup. It accomplishes this by scaling and merging different wallpapers into a single one and setting it as spanned.</p>
+  <p>It currently supports various desktop environments, including GNOME, MATE, Cinnamon and Budgie. Experimental support is included for the sway window manager.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hydrapaper
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - wallpaper
+  - background
+  - monitor
+screenshotSources:
+  - url: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-1_orig.png
+    thumbnailUrl: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-1_624x458@1.png
+    width: 1111
+    height: 817
+  - url: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-2_orig.png
+    thumbnailUrl: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-2_624x423@1.png
+    width: 1156
+    height: 785
+  - url: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-3_orig.png
+    thumbnailUrl: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-3_624x458@1.png
+    width: 1111
+    height: 817
+  - url: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-4_orig.png
+    thumbnailUrl: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-4_624x453@1.png
+    width: 1079
+    height: 785
+  - url: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-5_orig.png
+    thumbnailUrl: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-5_624x339@1.png
+    width: 1384
+    height: 752
+  - url: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-6_orig.png
+    thumbnailUrl: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/screenshots/image-6_624x453@1.png
+    width: 1079
+    height: 785
+iconSources:
+  - url: org/gabmus/hydrapaper/b3cbb6cae9681aa6b111e297756c692c/icons/128x128/hydrapaper_org.gabmus.hydrapaper.png
+    width: 128
+    height: 128
+developer: Gabriele Musco
+homepage: "https://hydrapaper.gabmus.org"
+enabled: true
+order: 99

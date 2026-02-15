@@ -1,0 +1,5 @@
+{
+  "name": "IpQalc",
+  "description": "Calculatrice graphique de sous-réseaux IPv4",
+  "longDescription": "<p>\n      Petit utilitaire pour effectuer des calculs d'adresses IP, y compris les adresses de diffusion et de réseau, ainsi que le masque joker Cisco.<br>\nÀ partir d'une adresse IPv4 donnée, il calcule l'adresse de diffusion, l'adresse du réseau, le masque joker Cisco et l'étendue des hôtes. Il peut également servir d’outil pédagogique et présente les résultats en valeurs binaires et hexadécimales.\n    </p>\n"
+}

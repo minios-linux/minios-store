@@ -1,0 +1,5 @@
+{
+  "name": "QTerm",
+  "description": "Klien BBS berbasis pustaka Qt di Linux",
+  "longDescription": "<p>QTerm adalah klien BBS untuk lingkungan X Window System. Mendukung protokol telnet, ssh1, dan ssh2. Fitur lainnya termasuk dukungan zmodem, deteksi URL, serta aksi dengan mouse.</p>\n<p>QTerm juga dapat mendeteksi lokasi berdasarkan alamat IP, namun membutuhkan konfigurasi tambahan. Silakan lihat README.Debian untuk petunjuk lebih lanjut.</p>\n"
+}

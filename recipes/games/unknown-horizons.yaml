@@ -1,0 +1,35 @@
+id: "unknown-horizons"
+name: Unknown Horizons
+description: A 2D real time strategy simulation with an emphasis on economy and city building
+longDescription: |
+  <p>Unknown Horizons is a 2D realtime strategy simulation with an emphasis on economy and city building. Expand your small settlement to a strong and wealthy colony, collect taxes and supply your inhabitants with valuable goods. Increase your power with a well balanced economy and with strategic trade and diplomacy.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - unknown-horizons
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: u/un/unknown-horizons.desktop/aaa9b064f10ef28dbbdcf91fdd5e5b1a/icons/128x128/unknown-horizons_unknown-horizons.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

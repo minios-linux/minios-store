@@ -1,0 +1,61 @@
+id: "font-viewer"
+name: Font Viewer
+description: A font viewer application for Gtk+ Desktop Environments
+longDescription: |
+  <p>
+              Font Viewer allows previewing font files prior to installation.
+              It features several ways to preview font files along with a
+              character map and displays font properties and license details.
+          </p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - font-viewer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - graphics
+  - viewer
+  - gnome
+  - gtk
+  - publishing
+screenshotSources:
+  - url: com/github/FontManager.FontViewer/047d990678205a982dc7e35685dbd2c1/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/FontManager.FontViewer/047d990678205a982dc7e35685dbd2c1/screenshots/image-1_624x481@1.png
+    width: 767
+    height: 592
+  - url: com/github/FontManager.FontViewer/047d990678205a982dc7e35685dbd2c1/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/FontManager.FontViewer/047d990678205a982dc7e35685dbd2c1/screenshots/image-2_624x481@1.png
+    width: 767
+    height: 592
+  - url: com/github/FontManager.FontViewer/047d990678205a982dc7e35685dbd2c1/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/FontManager.FontViewer/047d990678205a982dc7e35685dbd2c1/screenshots/image-3_624x481@1.png
+    width: 767
+    height: 592
+  - url: com/github/FontManager.FontViewer/047d990678205a982dc7e35685dbd2c1/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/FontManager.FontViewer/047d990678205a982dc7e35685dbd2c1/screenshots/image-4_624x481@1.png
+    width: 767
+    height: 592
+iconSources:
+  - url: com/github/FontManager.FontViewer/047d990678205a982dc7e35685dbd2c1/icons/128x128/font-viewer_com.github.FontManager.FontManager.png
+    width: 128
+    height: 128
+homepage: "http://fontmanager.github.io/"
+enabled: true
+order: 99

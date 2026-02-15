@@ -1,0 +1,5 @@
+{
+  "name": "QmidiNet",
+  "description": "Gerbang Jaringan MIDI melalui UDP/IP Multicast",
+  "longDescription": "<p>QmidiNet adalah aplikasi gerbang jaringan MIDI yang mengirim dan menerima data MIDI (ALSA Sequencer dan/atau JACK MIDI) melalui jaringan dengan menggunakan UDP/IP multicast. Aplikasi ini terinspirasi dari multimidicast (http://llg.cubic.org/tools) dan dirancang agar kompatibel dengan ipMIDI untuk Windows (http://nerds.de).</p>\n"
+}

@@ -1,0 +1,31 @@
+id: "jargoninformatique"
+name: Jargon Informatique
+description: French computering dictionary
+longDescription: |
+  <p>Front End for the French computing dictionary Jargon Informatique.</p>
+  <p>This computing dictionary contains more than 10 000 words! Its user-friendly interface lets you easily find the words you want.</p>
+  <p>Homepage: http://jargon.tuxfamily.org</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jargoninformatique
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: jargoninformatique_jargoninformatique.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

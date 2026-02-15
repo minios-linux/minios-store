@@ -1,0 +1,5 @@
+{
+  "name": "Orange Spectroscopy/Quasar",
+  "description": "Explorez, analysez et visualisez vos données de spectroscopie",
+  "longDescription": "<p>Extension Orange pour l'analyse de données spectrales. Offre des fonctionnalités de tracé de spectres et d’hyperspectres, d’interpolation, de prétraitement (découpage, lissage, normalisation) et d’intégration. Prend en charge les formats de fichiers spectraux courants.</p>\n<p>Fonctionnalités -------- ### Chargement et traitement des données  * Importez les données de spectroscopie  * Prétraitez et interpolez les spectres  * Intégrez les spectres  * Moyennez les spectres  * Effectuez la transformation de Fourier rapide</p>\n<p>### Visualisation  * Explorez visuellement des séries de spectres  * Trace des cartes 2D d’hyperspectres</p>\n"
+}

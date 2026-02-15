@@ -1,0 +1,30 @@
+id: chroma
+name: Chroma
+description: 'Puzzle game similar to "XOR"'
+longDescription: |
+  <p>Chroma is an abstract puzzle game. A variety of colourful shapes are arranged in a series of increasingly complex patterns, forming fiendish traps that must be disarmed and mysterious puzzles that must be manipulated in order to give up their subtle secrets. Initially so straightforward that anyone can pick it up and begin to play, yet gradually becoming difficult enough to tax even the brightest of minds. Have you got what it takes to solve Chroma?</p>
+  <p>A terminal-based version of this game is available in the &apos;chroma-curses&apos; package.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chroma
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: chroma_chroma.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

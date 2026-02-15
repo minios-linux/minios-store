@@ -1,0 +1,24 @@
+id: e17-data
+name: Enlightenment File Manager
+description: File Manager provided by Enlightenment
+longDescription: |
+  <p>Enlightenment is an advanced window manager for X11. Unique features include: a fully animated background, nice drop shadows around windows, backed by an extremely clean and optimized foundation of APIs.</p>
+  <p>These are the architecture independent runtime support files for the Enlightenment DR17 Window Manager.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - e17-data
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: e17-data_system-file-manager.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

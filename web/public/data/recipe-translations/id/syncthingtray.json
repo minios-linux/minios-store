@@ -1,0 +1,5 @@
+{
+  "name": "Syncthing Tray",
+  "description": "Aplikasi tray untuk Syncthing",
+  "longDescription": "<ul>\n  <li>Aplikasi tray berbasis Qt untuk Syncthing</li>\n  <li>Menyediakan akses cepat ke fitur-fitur yang paling sering digunakan, namun tidak dimaksudkan untuk menggantikan antarmuka web resmi</li>\n  <li>Menampilkan notifikasi Syncthing</li>\n  <li>Dapat membaca file konfigurasi Syncthing lokal untuk penyiapan cepat saat hanya terhubung ke instance lokal</li>\n  <li>Dapat menampilkan status unit systemd Syncthing serta memungkinkan untuk memulai dan menghentikannya</li>\n  <li>Menyediakan akses cepat ke antarmuka web resmi</li>\n  <li>Memungkinkan beralih dengan cepat antar beberapa instance Syncthing</li>\n</ul>\n"
+}

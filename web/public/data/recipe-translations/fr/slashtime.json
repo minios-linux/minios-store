@@ -1,0 +1,5 @@
+{
+  "name": "Slashtime",
+  "description": "Affichez l'heure dans le monde entier",
+  "longDescription": "<p>Un petit programme qui affiche l’heure dans différents endroits du globe. Il propose une interface compacte présentant les emplacements accompagnés d’informations comme la date et le code abrégé de chaque fuseau horaire.</p>\n<p>Les données horaires affichées sont aussi précises que les informations zoneinfo de votre système. Contrairement à l’habitude, Slashtime montre le décalage par rapport à votre position actuelle, et non par rapport à l’UTC. Pendant son utilisation, vous pouvez changer le point de référence en double-cliquant sur une autre ville.</p>\n<p>Slashtime intègre également un planificateur de réunions : choisissez une date et une heure pour voir automatiquement l’heure correspondante dans les autres lieux.</p>\n"
+}

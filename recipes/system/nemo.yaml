@@ -1,0 +1,38 @@
+id: "nemo"
+name: Files
+description: Access and organize files
+longDescription: |
+  <p>Nemo is the official file manager for the Cinnamon desktop. It allows one to browse directories, preview files and launch applications associated with them. It is also responsible for handling the icons on the Cinnamon desktop. It works on local and remote filesystems.</p>
+  <p>Several icon themes and components for viewing different kinds of files are available in separate packages.</p>
+  
+categoryId: system
+icon: FolderOpen
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nemo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: n/ne/nemo.desktop/8604eebbd32721ebb88ba38cdeb1694a/icons/128x128/nemo_system-file-manager.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

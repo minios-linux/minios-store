@@ -1,0 +1,53 @@
+id: "iagno"
+name: Iagno
+description: Dominate the board in a classic version of Reversi
+longDescription: |
+  <p>Iagno is a computer version of the game Reversi, a two-player strategy
+        board game. The game is played with tiles that are dark on one side and
+        light on the other.</p>
+  <p>The object of Iagno is to flip as many of your opponent’s tiles to your
+        color as possible while preventing your opponent from flipping your tiles
+        to his color. This is done by trapping your opponent’s tiles between two
+        tiles of your own color.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - iagno
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - reversi
+  - othello
+screenshotSources:
+  - url: org/gnome/Reversi/eb345613d634b996212f115064e03f36/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Reversi/eb345613d634b996212f115064e03f36/screenshots/image-1_624x398@1.png
+    width: 700
+    height: 447
+iconSources:
+  - url: org/gnome/Reversi/eb345613d634b996212f115064e03f36/icons/128x128/iagno_org.gnome.Reversi.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Iagno"
+enabled: true
+order: 99

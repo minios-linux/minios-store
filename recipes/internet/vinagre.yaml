@@ -1,0 +1,46 @@
+id: "vinagre"
+name: Remote Desktop Viewer
+description: Access remote desktops
+longDescription: |
+  <p>Vinagre shows remote Windows, Mac OS X and Linux desktops.</p>
+  <p>It uses the VNC, RDP and SPICE protocols, and can even be used to connect to SSH servers.</p>
+  
+categoryId: internet
+icon: Monitor
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vinagre
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - vnc
+  - rdp
+  - ssh
+screenshotSources:
+  - url: v/vi/vinagre.desktop/7224C51B27773EFD953F58BCB179E5BD/screenshots/image-1_orig.png
+    thumbnailUrl: v/vi/vinagre.desktop/7224C51B27773EFD953F58BCB179E5BD/screenshots/image-1_624x350.png
+    width: 1366
+    height: 768
+iconSources:
+  - url: v/vi/vinagre.desktop/7224C51B27773EFD953F58BCB179E5BD/icons/128x128/vinagre_preferences-desktop-remote-desktop.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Vinagre"
+enabled: true
+order: 99

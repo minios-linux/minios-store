@@ -1,0 +1,5 @@
+{
+  "name": "Firewall Builder",
+  "description": "Antarmuka grafis untuk administrasi firewall",
+  "longDescription": "<p>Firewall Builder menyediakan antarmuka grafis berorientasi objek dan serangkaian kompiler kebijakan untuk berbagai platform firewall. Di Firewall Builder, kebijakan firewall adalah kumpulan aturan, di mana setiap aturan terdiri dari objek-objek abstrak yang merepresentasikan objek jaringan dan layanan nyata (host, router, firewall, jaringan, protokol). Firewall Builder membantu pengguna mengelola basis data objek dan memungkinkan pengeditan kebijakan dengan operasi drag-and-drop yang sederhana.</p>\n<p>Ini adalah bagian antarmuka grafis (GUI) dari fwbuilder</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "NetHack Qt",
+  "description": "Jogo de exploração de masmorras - versão GUI",
+  "longDescription": "<p>NetHack é um jogo de aventura no estilo Dungeons & Dragons, conhecido pelo seu humor peculiar e altamente viciante. Você assume o papel de um personagem de várias classes disponíveis (como mago, patrulheiro ou turista), enfrentando desafios para recuperar o Amuleto de Yendor para seu deus. Ao longo do caminho, você pode encontrar desde um mecânico quântico até o Rei Arthur, ou — se tiver muita sorte — a Fera Devoradora de Tudo de Traal.</p>\n<p>Para jogar NetHack, é recomendável instalar uma interface gráfica. Cada uma delas inclui a versão original não gráfica, podendo ser instaladas simultaneamente:  - nethack-console: sem gráficos, apenas NetHack clássico;  - nethack-x11    : versão gráfica baseada em X11/Athena;  - nethack-qt     : versão com interface Qt.</p>\n<p>Este pacote oferece a versão gráfica do NetHack baseada em Qt.</p>\n"
+}

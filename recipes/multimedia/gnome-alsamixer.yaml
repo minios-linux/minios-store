@@ -1,0 +1,31 @@
+id: gnome-alsamixer
+name: GNOME ALSA Mixer
+description: ALSA sound mixer for GNOME
+longDescription: |
+  <p>A &quot;volume control&quot; application. You can use it to adjust the volume of different sound sources of your sound card.</p>
+  <p>It has a nice graphical user interface and a lot of features:</p>
+  <p> - access to all of your computers sound cards and audio sources  - possibility to give them custom names  - only display the mixer controls you need  - access to all the extra features some sound cards offer, like    3d enhancement, microphone gain boost...  - and more</p>
+  <p>This application uses the ALSA sound API, you cannot use it if you use the (older) OSS drivers for your sound card(s). In return, it gives you access to all the functionality ALSA provides with the &quot;alsamixer&quot; program, found in the &quot;alsa-utils&quot; package.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-alsamixer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - mixer
+  - music
+iconSources:
+  - cached: gnome-alsamixer_gnome-alsamixer-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

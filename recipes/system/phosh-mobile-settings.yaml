@@ -1,0 +1,48 @@
+id: "phosh-mobile-settings"
+name: Phosh Mobile Settings
+description: Advanced settings for Mobile devices using Phosh
+longDescription: |
+  <p>
+        This app allows you to configure some aspects of Phosh that would otherwise
+        require command line usage.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - phosh-mobile-settings
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mobile
+  - preferences
+  - mobilesettings
+screenshotSources:
+  - url: mobi/phosh/MobileSettings.desktop/cd7eaccc9e535adf89f5549b777125c7/screenshots/image-1_orig.png
+    thumbnailUrl: mobi/phosh/MobileSettings.desktop/cd7eaccc9e535adf89f5549b777125c7/screenshots/image-1_224x448@1.png
+    width: 360
+    height: 720
+  - url: mobi/phosh/MobileSettings.desktop/cd7eaccc9e535adf89f5549b777125c7/screenshots/image-2_orig.png
+    thumbnailUrl: mobi/phosh/MobileSettings.desktop/cd7eaccc9e535adf89f5549b777125c7/screenshots/image-2_224x448@1.png
+    width: 360
+    height: 720
+  - url: mobi/phosh/MobileSettings.desktop/cd7eaccc9e535adf89f5549b777125c7/screenshots/image-3_orig.png
+    thumbnailUrl: mobi/phosh/MobileSettings.desktop/cd7eaccc9e535adf89f5549b777125c7/screenshots/image-3_224x448@1.png
+    width: 360
+    height: 720
+iconSources:
+  - url: mobi/phosh/MobileSettings.desktop/cd7eaccc9e535adf89f5549b777125c7/icons/128x128/phosh-mobile-settings_mobi.phosh.MobileSettings.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.gnome.org//guidog/phosh-mobile-settings"
+enabled: true
+order: 99

@@ -1,0 +1,32 @@
+id: xbubble-data
+name: XBubble
+description: Puzzle Bubble clone
+longDescription: |
+  <p>This package contains the data files for XBubble.</p>
+  <p>XBubble is a Puzzle Bubble / Bust-A-Move clone.</p>
+  <p>Your goal is to remove all the bubbles from the game board. To do this you must aim and shoot bubbles. When you manage to match 3 or more bubbles of the same color, they burst and disappear. All bubbles which hang free now, will fall down and disappear, too.</p>
+  <p>XBubble features single player mode, two player mode and player vs. computer (five difficulty levels of the AI) and has nice graphics, but no sound.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xbubble-data
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - bubble
+  - puzzle
+  - arcade
+  - fun
+  - shooting
+iconSources:
+  - url: x/xb/xbubble.desktop/574e66afed1ee21eb41360c060f515d3/icons/128x128/xbubble-data_xbubble.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

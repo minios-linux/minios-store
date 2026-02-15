@@ -1,0 +1,61 @@
+id: gnome-gmail
+name: GNOME GMail
+description: Integrate GMail with your desktop
+longDescription: |
+  <p>GNOME GMail integrates the GMail web interface into the GNOME environment. Once installed, GMail becomes a choice as the default Mail Reader in the GNOME Preferred Applications administration application. When selected, a GMail web page will be used whenever an email service is requested.</p>
+  <p>File attachments are supported, as well as the setting of Subject, Cc, Bcc, etc.</p>
+  <p>Logout, or launch GNOME GMail, to complete the configuration.</p>
+  <p>To demonstrate, select &quot;Send To...&quot; on a file in the File Browser.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-gmail
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+tags:
+  - email
+  - mail
+  - google
+screenshotSources:
+  - url: g/gn/gnome-gmail.desktop/4D1DFA04AF8B77CA9F2CD4CDC1E432B8/screenshots/image-1_orig.png
+    thumbnailUrl: g/gn/gnome-gmail.desktop/4D1DFA04AF8B77CA9F2CD4CDC1E432B8/screenshots/image-1_624x468.png
+    width: 1024
+    height: 768
+  - url: g/gn/gnome-gmail.desktop/4D1DFA04AF8B77CA9F2CD4CDC1E432B8/screenshots/image-2_orig.png
+    thumbnailUrl: g/gn/gnome-gmail.desktop/4D1DFA04AF8B77CA9F2CD4CDC1E432B8/screenshots/image-2_624x468.png
+    width: 1024
+    height: 768
+  - url: g/gn/gnome-gmail.desktop/4D1DFA04AF8B77CA9F2CD4CDC1E432B8/screenshots/image-3_orig.png
+    thumbnailUrl: g/gn/gnome-gmail.desktop/4D1DFA04AF8B77CA9F2CD4CDC1E432B8/screenshots/image-3_624x467.png
+    width: 800
+    height: 600
+  - url: g/gn/gnome-gmail.desktop/4D1DFA04AF8B77CA9F2CD4CDC1E432B8/screenshots/image-4_orig.png
+    thumbnailUrl: g/gn/gnome-gmail.desktop/4D1DFA04AF8B77CA9F2CD4CDC1E432B8/screenshots/image-4_624x468.png
+    width: 1024
+    height: 768
+  - url: g/gn/gnome-gmail.desktop/4D1DFA04AF8B77CA9F2CD4CDC1E432B8/screenshots/image-5_orig.png
+    thumbnailUrl: g/gn/gnome-gmail.desktop/4D1DFA04AF8B77CA9F2CD4CDC1E432B8/screenshots/image-5_624x468.png
+    width: 1024
+    height: 768
+iconSources:
+  - url: g/gn/gnome-gmail.desktop/4D1DFA04AF8B77CA9F2CD4CDC1E432B8/icons/128x128/gnome-gmail_gnome-gmail.png
+    width: 128
+    height: 128
+developer: David Steele
+homepage: "https://davesteele.github.io/gnome-gmail/"
+enabled: true
+order: 99

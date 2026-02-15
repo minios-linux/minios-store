@@ -1,0 +1,32 @@
+id: wordgrinder-x11
+name: WordGrinder
+description: Word processor for processing words
+longDescription: |
+  <p>WordGrinder is a simple, Unicode-aware word processor. It supports basic paragraph styles, character styles, just enough screen markup to be useful, and is driven via an easy to use menu interface.</p>
+  <p>This version runs on X.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wordgrinder-x11
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: wordgrinder-x11_wordgrinder.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

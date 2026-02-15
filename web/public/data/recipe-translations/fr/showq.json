@@ -1,0 +1,5 @@
+{
+  "name": "ShowQ",
+  "description": "Lecteur audio contrôlable via MIDI",
+  "longDescription": "<p>Application permettant de lire des séquences audio et de déclencher des événements MIDI, principalement conçue pour les productions théâtrales.</p>\n<p>Fonctionnalités :  * Routage sur 8 canaux par séquence.  * Lecture via ALSA ou JACK.  * Chargement/enregistrement de listes de séquences.  * Raccourci clavier pour chaque séquence.  * Contrôle de l’application par MIDI.</p>\n"
+}

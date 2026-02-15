@@ -1,0 +1,38 @@
+id: eiskaltdcpp-web
+name: EiskaltDC++ Web UI
+description: Simple launcher of EiskaltDC++ Web UI
+longDescription: |
+  <p>This package contains Web UI for eiskaltdcpp-daemon. It may be used locally on PC or via network depending on user needs.</p>
+  <p>EiskaltDC++ is a cross-platform program that uses the Direct Connect and Advanced Direct Connect protocols. It is compatible with DC++, AirDC++, FlylinkDC++ and other DC clients. EiskaltDC++ also interoperates with all common DC hub software.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - eiskaltdcpp-web
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - filesharing
+  - p2p
+  - directconnect
+  - adc
+  - dht
+iconSources:
+  - cached: eiskaltdcpp-web_eiskaltdcpp-web.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "PHASEX",
+  "description": "Experimento Avançado de Síntese Harmônica por Fase",
+  "longDescription": "<p>O PHASEX é um sintetizador virtual experimental para Linux, compatível com JACK e ALSA MIDI, cuja engine de síntese é baseada em modulação de fase flexível e diversas fontes de oscilador/LFO.</p>\n<p>Oferece modulações como AM, FM, PM com offset e seleção de ondas. O PHASEX traz um filtro de 12dB/oitava com dois tipos de distorção, delay estéreo com crossover, chorus com phaser, envelopes ADSR para amplificador e filtro, processamento de entrada de áudio em tempo real, sensibilidade a velocidade/aftertouch e muito mais.</p>\n"
+}

@@ -1,0 +1,47 @@
+id: "gtimelog"
+name: Time Log
+description: Unobtrusively keep track of your time
+longDescription: |
+  <p>GTimeLog is a small GNOME app for keeping track of your time. Its main goal is to be as unobtrusive as possible.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtimelog
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - time
+  - tracking
+  - logging
+screenshotSources:
+  - url: org/gtimelog/GTimeLog/af2136425e67f68f101686db93aabdc9/screenshots/image-1_orig.png
+    thumbnailUrl: org/gtimelog/GTimeLog/af2136425e67f68f101686db93aabdc9/screenshots/image-1_624x405@1.png
+    width: 878
+    height: 571
+iconSources:
+  - url: org/gtimelog/GTimeLog/af2136425e67f68f101686db93aabdc9/icons/128x128/gtimelog_gtimelog.png
+    width: 128
+    height: 128
+homepage: "https://gtimelog.org/"
+enabled: true
+order: 99

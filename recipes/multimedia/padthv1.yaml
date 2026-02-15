@@ -1,0 +1,53 @@
+id: "padthv1"
+name: padthv1
+description: padthv1 is an old school polyphonic additive synthesizer
+longDescription: |
+  <p>padthv1 is an old-school polyphonic additive synthesizer with stereo effects. It is provided in both forms of a LV2 plugin and a pure stand-alone JACK client with JACK-session and both JACK MIDI and ALSA MIDI input support.</p>
+  <p>This package provides the standalone app.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - padthv1
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - midi
+  - alsa
+  - jack
+  - synthesizer
+  - lv2
+  - qt
+screenshotSources:
+  - url: org/rncbc/padthv1/e53986c48bd04283ee3366c71192f1f0/screenshots/image-1_orig.png
+    thumbnailUrl: org/rncbc/padthv1/e53986c48bd04283ee3366c71192f1f0/screenshots/image-1_624x363@1.png
+    width: 1174
+    height: 683
+iconSources:
+  - url: org/rncbc/padthv1/e53986c48bd04283ee3366c71192f1f0/icons/128x128/padthv1_org.rncbc.padthv1.png
+    width: 128
+    height: 128
+developer: rncbc aka. Rui Nuno Capela
+homepage: "https://padthv1.sourceforge.io"
+enabled: true
+order: 99

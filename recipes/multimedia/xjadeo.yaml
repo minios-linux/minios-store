@@ -1,0 +1,45 @@
+id: "xjadeo"
+name: Xjadeo
+description: A simple video player that gets sync from jack transport.
+longDescription: |
+  <p>Simple video player that receives sync from jackd or MTC. It has applications in soundtrack creation, video monitoring or any task that requires to associate movie frames with audio events.</p>
+  <p>For instance when a jack-client (like Muse, Rosegarden or Ardour) acts as a timebase master, xjadeo will display the video synchronized to JACK transport. xjadeo is capable to read Midi Time Clock as an alternate sync source and comes along with an optional QT-GUI.</p>
+  <p>xjadeo reads only seekable media by default. Installing a transcoding utility like mencoder or transcode is highly recommended.</p>
+  <p>On-line documentation: http://xjadeo.sourceforge.net/main.html</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xjadeo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - video
+  - sound
+  - jackd
+  - synchronization
+iconSources:
+  - url: x/xj/xjadeo.desktop/1cef0ba3f1f6d6457c432fd8a19b77d9/icons/128x128/xjadeo_qjadeo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

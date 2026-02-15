@@ -1,0 +1,5 @@
+{
+  "name": "AppStream Generator",
+  "description": "Un générateur rapide de métadonnées AppStream",
+  "longDescription": "<p>AppStream est une spécification inter-distributions visant à fournir des métadonnées sur les composants logiciels.</p>\n<p>Le logiciel appstream-generator permet de générer des métadonnées AppStream à partir des dépôts d'une distribution logicielle.\n      Il prend actuellement en charge les formats de dépôts suivants : Debian, Ubuntu, Arch Linux, RPM-MD (Fedora, Mageia).</p> <p>Le générateur produit des fichiers de métadonnées AppStream au format YAML ou XML, destinés à être diffusés aux utilisateurs, ainsi qu’un rapport HTML détaillé sur les composants détectés et des rapports HTML et JSON sur les problèmes identifiés dans les métadonnées analysées. Il lit les fichiers .desktop et metainfo, gère les polices, redimensionne les images, met en cache les captures d’écran, etc., afin de produire des métadonnées de haute qualité pour les centres logiciels utilisant AppStream.\n      En général, appstream-generator s’intègre au système de construction et de livraison logicielle de la distribution.</p>\n"
+}

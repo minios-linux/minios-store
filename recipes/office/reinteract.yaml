@@ -1,0 +1,24 @@
+id: reinteract
+name: Reinteract
+description: Interactive Python shell
+longDescription: |
+  <p>Reinteract is a tool for interactive experimentation with Python oriented around &quot;worksheets&quot; containing Python code combined with the results of that code, formatted as text or graphical plots. Unlike a traditional shell, you can go back and edit previously entered statements, and the results will update.</p>
+  <p>Amongst other things, Reinteract is suitable for experimentation with the Python language and for data analysis using NumPy and SciPy.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - reinteract
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: reinteract_reinteract.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,32 @@
+id: "nm-tray"
+name: nm-tray
+description: NetworkManager frontend (tray icon)
+longDescription: |
+  <p>nm-tray is a simple NetworkManager front end with information icon residing in system tray (like e.g. nm-applet). It&apos;s a pure Qt application. For interaction with NetworkManager it uses API provided by KF5::NetworkManagerQt -&gt; plain DBus communication.</p>
+  <p>This package contain the application files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nm-tray
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: n/nm/nm-tray.desktop/7a7d69686cab2fe8102a4467d3a2e083/icons/128x128/nm-tray_network-transmit.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

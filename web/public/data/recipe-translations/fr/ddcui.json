@@ -1,0 +1,5 @@
+{
+  "name": "ddcui",
+  "description": "Gérez les paramètres de votre moniteur",
+  "longDescription": "<p>Communique avec le panneau de contrôle virtuel (VCP) d’un moniteur afin d’interroger ou de modifier ses paramètres, tels que la luminosité, le gain du rouge ou le compteur d’heures d’allumage. En général, les réglages et informations accessibles via le menu à l’écran du moniteur (OSD) sont plus facilement accessibles avec cette application.</p><p>ddcui communique normalement avec le moniteur via le protocole DDC/CI sur un périphérique /dev/i2c exposé par le pilote vidéo. Alternativement, ddcui prend en charge les moniteurs qui utilisent l’USB pour communiquer en VCP.</p><p>Le programme en ligne de commande correspondant est ddcutil.</p>"
+}

@@ -1,0 +1,38 @@
+id: "aoflagger"
+name: AOFlagger GUI
+description: Visualize radio data & RFI algorithms
+longDescription: |
+  <p>The AOFlagger is a tool that can find and remove radio-frequency interference (RFI) in radio astronomical observations. The code has been highly optimized for speed and accuracy. It is used by default for the LOFAR radio telescope and thus is in productional stage. The software can run in a fully automated way, but a graphical interface is provided to analyse results and tweak the strategy. The preferred input file format is the Casa Measurement Set (MS) format.</p>
+  <p>Besides the flagger, the software consists of tools to efficiently visualize data in different ways, such as plotting time-frequency diagrams and power spectra. It provides the programs aoflagger, rfigui, aoqplot, aoquality and more.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - aoflagger
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: a/ao/aoqplot.desktop/fdc572dc51aa6b166cd00f237ff8a58b/icons/128x128/aoflagger_aoqplot.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

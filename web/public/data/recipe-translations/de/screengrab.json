@@ -1,0 +1,5 @@
+{
+  "name": "ScreenGrab",
+  "description": "Screenshot-Tool auf Qt-Basis",
+  "longDescription": "<p>\n      Leistungsstarkes Bildschirmaufnahme-Tool mit Qt-Oberfläche.<br>\n      Erfassen Sie den gesamten Bildschirm, ein bestimmtes Fenster oder einen ausgewählten Bereich.<br>\n      Funktionen:\n    </p>\n<ul>\n  <li>Aufnahme mit Zeitverzögerung</li>\n  <li>Direktes Bearbeiten in anderen Anwendungen</li>\n  <li>Automatisches Speichern mit Datums- und Zeitstempel im Dateinamen</li>\n  <li>An Fensterkanten anpassen per Rechtsklick</li>\n  <li>Benutzerdefinierte Tastenkombinationen</li>\n</ul>\n"
+}

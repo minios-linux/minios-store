@@ -1,0 +1,41 @@
+id: "geany"
+name: Geany
+description: A fast and lightweight IDE using GTK+
+longDescription: |
+  <p>Geany is a small and lightweight integrated development environment. It was developed to provide a small and fast IDE, which has only a few dependencies from other packages. It is using only the GTK2 toolkit and therefore you need only the GTK2 runtime libraries to run Geany.</p>
+  <p>The basic features of Geany are:  - syntax highlighting  - code completion  - auto completion of constructs like if, for and while, XML and HTML  - call tips  - folding  - many supported filetypes like C, Java, PHP, HTML, Python, Perl, Pascal  - symbol lists  - embedded terminal emulation</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - geany
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+iconSources:
+  - url: g/ge/geany.desktop/51e4f3e0e98ad4c6fcdf27e1883b238d/icons/128x128/geany_geany.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

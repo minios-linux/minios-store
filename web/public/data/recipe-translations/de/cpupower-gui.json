@@ -1,0 +1,5 @@
+{
+  "name": "CPU-Frequenz-Einstellungen",
+  "description": "Anpassen der CPU-Frequenz",
+  "longDescription": "<p>Ein grafisches Tool zur Änderung der CPU-Frequenzen und des Governors.</p>\n<p>\n            Mit diesem Dienstprogramm kann die Betriebsfrequenz jedes CPU-Kerns einzeln angepasst werden.\n            Das Programm erkennt deaktivierte Kerne und zeigt nur die verfügbaren an.\n            Außerdem werden Kerne ohne Unterstützung für Frequenzskalierung nicht angezeigt.\n            Es besteht die Möglichkeit, die Einstellungen auf alle Kerne gleichzeitig anzuwenden.\n        </p>\n<p>\n            Um die Einstellungen zu übernehmen, muss der Benutzer lokal angemeldet und aktiv sein sowie zur Gruppe sudo gehören.\n            Lokale und aktive Benutzer, die nicht dieser Gruppe angehören, müssen sich als Administrator authentifizieren, um die Änderungen durchzuführen.\n        </p>\n"
+}

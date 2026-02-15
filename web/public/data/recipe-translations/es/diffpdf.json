@@ -1,0 +1,5 @@
+{
+  "name": "DiffPDF",
+  "description": "Compara dos archivos PDF",
+  "longDescription": "<p>DiffPDF se utiliza para comparar dos archivos PDF. Por defecto, la comparación se basa en el texto de cada par de páginas, pero también es posible comparar la apariencia visual de las páginas (por ejemplo, si se modifica un diagrama o se reformatea un párrafo). Además, permite comparar páginas o rangos de páginas específicos. Por ejemplo, si hay dos versiones de un PDF, una con páginas 1-12 y otra con páginas 1-13 porque se añadió una página extra como la 4, se pueden comparar especificando los rangos de páginas: 1-12 para el primero y 1-3, 5-13 para el segundo. Esto hará que DiffPDF compare los pares de páginas (1, 1), (2, 2), (3, 3), (4, 5), (5, 6), y así sucesivamente, hasta (12, 13).</p>\n"
+}

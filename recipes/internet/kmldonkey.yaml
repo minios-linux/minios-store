@@ -1,0 +1,26 @@
+id: kmldonkey
+name: KMLDonkey
+description: An MLDonkey frontend for KDE
+longDescription: |
+  <p>KMLDonkey is an advanced GUI frontend for the MLDonkey peer-to-peer core.</p>
+  <p>Features:  * Supports most of the P2P protocols handled by the mldonkey backend    (eDonkey/eMule, BitTorrent, Gnutella, Gnutella2, DirectConnect, FastTrack,    SoulSeek, Audiogalaxy, OpenFT, FileTP)  * Supports a lot of configuration options in the mldonkey backend  * Can handle multiple threads simultaneously  * Can be used with traffic-shaping tools  * Can handle several security options</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kmldonkey
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: k/km/kmldonkey.desktop/015FBAE073FC782F39801598F66278DD/icons/128x128/kmldonkey_kmldonkey.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

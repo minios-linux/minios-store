@@ -1,0 +1,33 @@
+id: ugene
+name: Unipro UGENE
+description: Integrated Bioinformatics Suite
+longDescription: |
+  <p>Unipro UGENE is a cross-platform visual environment for DNA and protein sequence analysis. UGENE integrates the most important bioinformatics computational algorithms and provides an easy-to-use GUI for performing complex analysis of the genomic data. One of the main features of UGENE is a designer for custom bioinformatics workflows.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ugene
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64]
+    - name: buster
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: net/ugene/ugene/dda15e320a30bff532b42de7110da675/screenshots/image-1_orig.png
+    thumbnailUrl: net/ugene/ugene/dda15e320a30bff532b42de7110da675/screenshots/image-1_624x446@1.png
+    width: 866
+    height: 620
+iconSources:
+  - cached: ugene_ugene.png
+    width: 64
+    height: 64
+homepage: "https://ugene.net"
+enabled: true
+order: 99

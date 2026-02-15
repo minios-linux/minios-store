@@ -1,0 +1,5 @@
+{
+  "name": "CellWriter",
+  "description": "Panel input tulisan tangan berbasis grid untuk pengenalan karakter",
+  "longDescription": "<p>CellWriter adalah panel input tulisan tangan berbasis grid yang mengenali karakter secara alami. Saat Anda menulis karakter di setiap sel, tulisan Anda langsung dikenali secara otomatis per karakter. Ketika Anda menekan 'Enter' pada panel, input yang dimasukkan akan dikirim ke aplikasi yang sedang aktif seperti mengetik lewat keyboard.</p>\n<p>  * Bergantung pada penulis, belajar pola tulisan tangan Anda agar pengenalan lebih akurat   * Algoritma pra-pemrosesan memperbaiki akibat noise digitizer, urutan goresan berbeda, arah, dan jumlah goresan   * Dukungan Unicode memungkinkan Anda menulis dalam bahasa asli Anda</p>\n"
+}

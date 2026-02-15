@@ -1,0 +1,60 @@
+id: "nheko"
+name: nheko
+description: Desktop client for Matrix
+longDescription: |
+  <p>Nheko is a Qt-based chat client for Matrix, an open, federated communications protocol.  The motivation behind the project is to provide a native desktop app for Matrix that feels more like a mainstream chat app and less like an IRC client.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nheko
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: im/nheko/Nheko/dd5e68f86fbf34d4ced851ac33e9133b/screenshots/image-1_orig.png
+    thumbnailUrl: im/nheko/Nheko/dd5e68f86fbf34d4ced851ac33e9133b/screenshots/image-1_624x476@1.png
+    width: 1080
+    height: 825
+  - url: im/nheko/Nheko/dd5e68f86fbf34d4ced851ac33e9133b/screenshots/image-2_orig.png
+    thumbnailUrl: im/nheko/Nheko/dd5e68f86fbf34d4ced851ac33e9133b/screenshots/image-2_624x476@1.png
+    width: 1080
+    height: 825
+  - url: im/nheko/Nheko/dd5e68f86fbf34d4ced851ac33e9133b/screenshots/image-3_orig.png
+    thumbnailUrl: im/nheko/Nheko/dd5e68f86fbf34d4ced851ac33e9133b/screenshots/image-3_624x476@1.png
+    width: 1080
+    height: 825
+  - url: im/nheko/Nheko/dd5e68f86fbf34d4ced851ac33e9133b/screenshots/image-4_orig.png
+    thumbnailUrl: im/nheko/Nheko/dd5e68f86fbf34d4ced851ac33e9133b/screenshots/image-4_624x476@1.png
+    width: 1080
+    height: 825
+  - url: im/nheko/Nheko/dd5e68f86fbf34d4ced851ac33e9133b/screenshots/image-5_orig.png
+    thumbnailUrl: im/nheko/Nheko/dd5e68f86fbf34d4ced851ac33e9133b/screenshots/image-5_224x394@1.png
+    width: 394
+    height: 694
+iconSources:
+  - url: im/nheko/Nheko/dd5e68f86fbf34d4ced851ac33e9133b/icons/128x128/nheko_nheko.png
+    width: 128
+    height: 128
+developer: Nheko Reborn
+homepage: "https://github.com/Nheko-Reborn/nheko"
+enabled: true
+order: 99

@@ -1,0 +1,60 @@
+id: "scilab-cli"
+name: Scilab CLI
+description: Scientific software package for numerical computations
+longDescription: |
+  <p>Scilab is a matrix-based scientific software package. Scilab contains hundreds of built-in mathematical functions, rich data structures (including polynomials, rationals, linear systems, lists, etc...) and comes with a number of specific toolboxes for control, signal processing, ...</p>
+  <p>This package provides Scilab as Command Line Interpreter (CLI). This package provides Scilab as a computing engine or script interpreter. Please install the package &quot;scilab&quot; to have all features.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - scilab-cli
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - science
+  - math
+  - numerical
+screenshotSources:
+  - url: s/sc/scilab-cli.desktop/3315b1f16252c87bab17410be7de84b2/screenshots/image-1_orig.png
+    thumbnailUrl: s/sc/scilab-cli.desktop/3315b1f16252c87bab17410be7de84b2/screenshots/image-1_624x351.png
+    width: 1200
+    height: 675
+  - url: s/sc/scilab-cli.desktop/3315b1f16252c87bab17410be7de84b2/screenshots/image-2_orig.png
+    thumbnailUrl: s/sc/scilab-cli.desktop/3315b1f16252c87bab17410be7de84b2/screenshots/image-2_624x351.png
+    width: 1200
+    height: 675
+  - url: s/sc/scilab-cli.desktop/3315b1f16252c87bab17410be7de84b2/screenshots/image-3_orig.png
+    thumbnailUrl: s/sc/scilab-cli.desktop/3315b1f16252c87bab17410be7de84b2/screenshots/image-3_624x351.png
+    width: 1200
+    height: 675
+  - url: s/sc/scilab-cli.desktop/3315b1f16252c87bab17410be7de84b2/screenshots/image-4_orig.png
+    thumbnailUrl: s/sc/scilab-cli.desktop/3315b1f16252c87bab17410be7de84b2/screenshots/image-4_624x351.png
+    width: 1200
+    height: 675
+iconSources:
+  - url: org/scilab/scilab_cli/d37368c6f371297121d307f4f8432d08/icons/128x128/scilab-cli_scilab.png
+    width: 128
+    height: 128
+homepage: "http://www.scilab.org"
+enabled: true
+order: 99

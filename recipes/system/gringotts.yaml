@@ -1,0 +1,40 @@
+id: gringotts
+name: Gringotts
+description: An electronic strongbox
+longDescription: |
+  <p>Gringotts is a small utility that allows you to store and organize sensitive data (passwords, credit card numbers, PINs etc.) in an easy-to-read, easy-to-access, and protected form.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gringotts
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - secure password
+  - data storage manager
+  - encrypt
+  - grg
+iconSources:
+  - cached: gringotts_gringotts.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

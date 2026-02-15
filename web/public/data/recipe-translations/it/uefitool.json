@@ -1,0 +1,5 @@
+{
+  "name": "UEFITool",
+  "description": "Analizza, estrae e modifica immagini firmware UEFI",
+  "longDescription": "<p>UEFITool è un programma multipiattaforma sviluppato in C++/Qt per analizzare, estrarre e modificare immagini firmware UEFI.</p>\n<p>Supporta l’analisi di immagini BIOS complete a partire dal flash descriptor o di qualsiasi file binario che contenga volumi UEFI.</p>\n<p>Questo pacchetto include l’interfaccia grafica UEFITool. Per le versioni CLI, vedi uefitool-cli.</p>\n"
+}

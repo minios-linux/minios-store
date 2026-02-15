@@ -1,0 +1,55 @@
+id: "audacity"
+name: Audacity
+description: Record and edit audio files
+longDescription: |
+  <p>Audacity is a multi-track audio editor for Linux/Unix, MacOS and Windows.  It is designed for easy recording, playing and editing of digital audio.  Audacity features digital effects and spectrum analysis tools.  Editing is very fast and provides unlimited undo/redo.</p>
+  <p>Supported file formats include Ogg Vorbis, MP2, MP3, WAV, AIFF, and AU.</p>
+  
+categoryId: multimedia
+icon: Music
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - audacity
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - alsa
+  - jack
+  - editor
+screenshotSources:
+  - url: org/audacityteam/Audacity/561b073b96ab3a6734f5d86227f0f34d/screenshots/image-1_orig.png
+    thumbnailUrl: org/audacityteam/Audacity/561b073b96ab3a6734f5d86227f0f34d/screenshots/image-1_624x396.png
+    width: 939
+    height: 596
+  - url: org/audacityteam/Audacity/561b073b96ab3a6734f5d86227f0f34d/screenshots/image-2_orig.png
+    thumbnailUrl: org/audacityteam/Audacity/561b073b96ab3a6734f5d86227f0f34d/screenshots/image-2_624x474.png
+    width: 928
+    height: 706
+iconSources:
+  - url: org/audacityteam/Audacity/d15a8b75ff88a1a6ac2908ebb3155039/icons/128x128/audacity_audacity.png
+    width: 128
+    height: 128
+developer: Muse Group
+homepage: "https://www.audacityteam.org/"
+enabled: true
+order: 99

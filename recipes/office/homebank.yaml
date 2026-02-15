@@ -1,0 +1,43 @@
+id: "homebank"
+name: HomeBank
+description: "Free, easy, personal accounting for everyone"
+longDescription: |
+  <p>HomeBank is a fast, simple and easy to use program to manage your personal accounting. It has a lot of features such as easy analysis with  graphical charts (statistics, budget, overdrawn, car cost), useful reports (&quot;Where your money goes&quot;, &quot;Trend Time Report&quot; ), multi-accounts  support, budget management, reminder, import from  OFX/QFX-CSV files, visual status of operations. It is based on GTK2.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - homebank
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - finance
+  - accounting
+  - budget
+  - personal
+  - money
+iconSources:
+  - url: h/ho/homebank.desktop/1e14410a37bff35e94d255c831c0c290/icons/128x128/homebank_homebank.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

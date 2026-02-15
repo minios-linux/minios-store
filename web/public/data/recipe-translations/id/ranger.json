@@ -1,0 +1,5 @@
+{
+  "name": "ranger",
+  "description": "Meluncurkan manajer berkas ranger",
+  "longDescription": "<p>Ranger adalah manajer berkas berbasis konsol dengan pengikatan tombol gaya VI. Aplikasi ini menyediakan antarmuka curses yang minimalis dan nyaman, menampilkan hierarki direktori secara visual. Ranger dilengkapi dengan \"rifle\", peluncur berkas yang secara otomatis menentukan program terbaik untuk setiap tipe berkas.</p>\n<p>Tujuan Desain  * Manajer berkas yang mudah dipelihara dengan bahasa tingkat tinggi  * Berpindah direktori dan menelusuri sistem berkas dengan cepat  * Tetap kecil namun fungsional, fokus melakukan satu hal dengan baik  * Berbasis konsol, terintegrasi mulus dengan shell Unix</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Frama-C",
+  "description": "Cadre pour l'analyse du code source des logiciels écrits en C",
+  "longDescription": "<p>Frama-C est une plateforme dédiée à l'analyse du code source des logiciels développés en C.</p>\n<p>Frama-C regroupe plusieurs techniques d'analyse statique dans un environnement collaboratif unique. Cette approche collaborative permet aux analyseurs statiques d'exploiter les résultats déjà calculés par d'autres outils du cadre. Grâce à cette synergie, Frama-C offre des outils avancés comme un découpeur de code (slicer) et une analyse des dépendances.</p>\n<p>Vous pouvez l'utiliser pour&nbsp;:   * Valider formellement le code source   * Rechercher d'éventuelles erreurs d'exécution   * Auditer ou relire le code   * Faire de l'ingénierie inverse pour en comprendre la structure   * Générer une documentation formelle</p>\n<p>Ce paquet fournit l'interface graphique utilisateur de Frama-C et dépend de frama-c-base.</p>\n"
+}

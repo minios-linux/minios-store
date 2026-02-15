@@ -1,0 +1,55 @@
+id: "steam-installer"
+name: Steam (installer)
+description: Launcher for the Steam software distribution service
+longDescription: |
+  <p>Steam is a software distribution service with an online store, automated
+        installation, automatic updates, achievements, SteamCloud synchronized
+        savegame and screenshot functionality, and many social features.</p>
+  <p>This unofficial package provides a script that downloads and installs
+        the Steam client, and depends on 32-bit and 64-bit libraries and
+        other components that are required by the Steam client. The actual
+        Steam installation and all Steam games will be installed into the
+        home directory of each user who runs the installer script.</p>
+  <p>Because Steam requires 32-bit libraries, before installing this package
+        it will be necessary to run, as root:
+        <code>dpkg --add-architecture i386; apt update</code></p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - steam-installer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - games
+  - installer
+  - steam-installer
+  - valve
+screenshotSources:
+  - url: com/valvesoftware/Steam.desktop/5c65d61f5a92f63956f93bccb599b982/screenshots/image-1_orig.png
+    thumbnailUrl: com/valvesoftware/Steam.desktop/5c65d61f5a92f63956f93bccb599b982/screenshots/image-1_624x533@1.png
+    width: 1200
+    height: 1026
+  - url: com/valvesoftware/Steam.desktop/5c65d61f5a92f63956f93bccb599b982/screenshots/image-2_orig.png
+    thumbnailUrl: com/valvesoftware/Steam.desktop/5c65d61f5a92f63956f93bccb599b982/screenshots/image-2_624x302@1.png
+    width: 1200
+    height: 582
+  - url: com/valvesoftware/Steam.desktop/5c65d61f5a92f63956f93bccb599b982/screenshots/image-3_orig.png
+    thumbnailUrl: com/valvesoftware/Steam.desktop/5c65d61f5a92f63956f93bccb599b982/screenshots/image-3_624x278@1.png
+    width: 1200
+    height: 535
+iconSources:
+  - url: com/valvesoftware/Steam.desktop/5c65d61f5a92f63956f93bccb599b982/icons/128x128/steam-installer_steam.png
+    width: 128
+    height: 128
+developer: Valve Corporation
+homepage: "https://store.steampowered.com"
+enabled: true
+order: 99

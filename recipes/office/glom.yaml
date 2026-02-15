@@ -1,0 +1,41 @@
+id: "glom"
+name: Glom
+description: A user-friendly database environment
+longDescription: |
+  <p>With Glom you can design table definitions and the relationships between them, plus arrange the fields on the screen. You can edit and search the data in those tables, and specify field values in terms of other fields. It&apos;s as easy as it should be.</p>
+  <p>The design is loosely based on FileMaker Pro, with the added advantage of separation between interface and data. Its simple framework should be enough to implement most database applications. Without Glom these systems normally consist of lots of repetitive, unmaintainable code.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - glom
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - database
+  - ui
+  - tables
+  - postgresql
+  - forms
+iconSources:
+  - url: g/gl/glom.desktop/f1ddb5e715793f3c33bd1b12e24b59bd/icons/128x128/glom_glom.png
+    width: 128
+    height: 128
+homepage: "http://www.glom.org/"
+enabled: true
+order: 99

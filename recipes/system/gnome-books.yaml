@@ -1,0 +1,58 @@
+id: gnome-books
+name: Books
+description: An e-book manager application for GNOME
+longDescription: |
+  <p>A simple application to access and organize your e-books on
+        GNOME. It is meant to be a simple and elegant replacement for using a
+        file manager to deal with e-books.</p>
+  <p>It lets you:</p>
+  <ul>
+    <li>View recent e-books</li>
+    <li>Search through e-books</li>
+    <li>View e-books (PDF and comics) fullscreen</li>
+    <li>Print e-books</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-books
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - books
+  - comics
+  - epub
+  - pdf
+screenshotSources:
+  - url: org/gnome/Books.desktop/1F0D69AFBCBC4A451EAF2E0E14A17FFA/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Books.desktop/1F0D69AFBCBC4A451EAF2E0E14A17FFA/screenshots/image-1_624x351.png
+    width: 1600
+    height: 900
+  - url: org/gnome/Books.desktop/1F0D69AFBCBC4A451EAF2E0E14A17FFA/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Books.desktop/1F0D69AFBCBC4A451EAF2E0E14A17FFA/screenshots/image-2_624x351.png
+    width: 1600
+    height: 900
+  - url: org/gnome/Books.desktop/1F0D69AFBCBC4A451EAF2E0E14A17FFA/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Books.desktop/1F0D69AFBCBC4A451EAF2E0E14A17FFA/screenshots/image-3_624x351.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: org/gnome/Books.desktop/1F0D69AFBCBC4A451EAF2E0E14A17FFA/icons/128x128/gnome-books_org.gnome.Books.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Books"
+enabled: true
+order: 99

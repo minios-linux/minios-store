@@ -1,0 +1,43 @@
+id: "kmines"
+name: KMines
+description: Minesweeper-like Game
+longDescription: |
+  <p>KMines is a classic Minesweeper game. The idea is to uncover all the squares without blowing up any mines. When a mine is blown up, the game is over.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kmines
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kmines/f80f7e5ad8b46d3e8a10294b10b165fe/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kmines/f80f7e5ad8b46d3e8a10294b10b165fe/screenshots/image-1_624x479@1.png
+    width: 979
+    height: 753
+iconSources:
+  - url: org/kde/kmines/f80f7e5ad8b46d3e8a10294b10b165fe/icons/128x128/kmines_kmines.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org"
+enabled: true
+order: 99

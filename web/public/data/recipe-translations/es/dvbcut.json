@@ -1,0 +1,5 @@
+{
+  "name": "DVBcut",
+  "description": "Recorta y divide secuencias de vídeo MPEG2 en varios formatos de exportación",
+  "longDescription": "<p>DVBcut es una aplicación Qt que te permite seleccionar segmentos específicos de una secuencia de transporte MPEG (como las recibidas a través de Digital Video Broadcasting, DVB) y guardar esas partes en un único archivo de salida MPEG. Utiliza un enfoque de \"cirugía mínima\", donde los datos de vídeo y audio originales se mantienen casi intactos, y solo se recodifican algunos fotogramas al inicio y/o al final del rango seleccionado para obtener un archivo MPEG válido.</p>\n"
+}

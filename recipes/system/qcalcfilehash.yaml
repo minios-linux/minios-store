@@ -1,0 +1,49 @@
+id: "qcalcfilehash"
+name: QCalcFileHash
+description: Graphical utility for computing hash sums
+longDescription: |
+  <p>
+         QCalcFileHash is a graphical utility for calculation and verification of a wide range of hash sums like SHA1, SHA-224,
+  SHA-256, SHA-384, SHA-512, MD5, CRC32, CRC8. It can be used on command line as well.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qcalcfilehash
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - hash
+  - sha1
+  - sha224
+  - sha256
+  - sha384
+  - sha512
+  - md5
+  - crc32
+  - crc8
+screenshotSources:
+  - url: org/bitbucket/qcalcfilehash/14317b97cf086e337390c6f4961cfd06/screenshots/image-1_orig.png
+    thumbnailUrl: org/bitbucket/qcalcfilehash/14317b97cf086e337390c6f4961cfd06/screenshots/image-1_224x143.png
+    width: 516
+    height: 330
+iconSources:
+  - cached: qcalcfilehash_qcalcfilehash.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

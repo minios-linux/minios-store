@@ -1,0 +1,5 @@
+{
+  "name": "SimpleScreenRecorder",
+  "description": "Perekam layar kaya fitur yang mendukung X11 dan OpenGL",
+  "longDescription": "<p>SimpleScreenRecorder adalah perekam layar kaya fitur yang mendukung X11 dan OpenGL. Aplikasi ini memiliki antarmuka grafis berbasis Qt. Anda dapat merekam seluruh layar, sebagian layar, atau aplikasi OpenGL secara langsung. Proses perekaman dapat dihentikan sementara dan dilanjutkan kapan saja. Mendukung berbagai format file dan codec.</p>\n<p>Fitur utama:</p>\n<ul>\n  <li>Menyinkronkan audio dan video dengan baik.</li>\n  <li>Menurunkan frame rate video jika komputer Anda terlalu lambat.</li>\n  <li>Sepenuhnya multithreaded: penundaan kecil di salah satu komponen tidak akan memblokir komponen lain, menghasilkan video yang lebih mulus dan performa lebih baik pada komputer multi-prosesor.</li>\n  <li>Dapat melakukan live streaming (eksperimental).</li>\n</ul>\n"
+}

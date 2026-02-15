@@ -1,0 +1,23 @@
+id: komparator
+name: Komparator4
+description: A KDE Directory Synchronization Application
+longDescription: |
+  <p>Komparator is an application that searches and synchronizes two directories. It discovers duplicate, newer or missing files and empty folders. It works on local and network or kioslave protocol folders.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - komparator
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: komparator_komparator4.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

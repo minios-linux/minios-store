@@ -1,0 +1,42 @@
+id: "usbview"
+name: USBView
+description: View USB devices attached to system
+longDescription: |
+  <p>USBView is a small GTK+ application to show what the device tree of the USB bus looks like. It shows a graphical representation of the devices that are currently plugged in, showing the topology of the USB bus. It also displays information on each individual device on the bus.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - usbview
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - usb
+  - devices
+  - connected
+  - removable
+iconSources:
+  - url: com/kroah/usbview/0601dc5ab886dbb0bf852e16b5f87470/icons/128x128/usbview_usbview.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "QasHctl",
+  "description": "Микшер HCTL для ALSA",
+  "longDescription": "<p>QasTools — это набор настольных приложений для звуковой системы ALSA в Linux.</p><p>В комплект включены:  — QasConfig — просмотр конфигурационного дерева ALSA  — QasHctl — микшер для High level Control Interface ALSA  — QasMixer — настольный микшер с функциональностью, похожей на alsamixer</p><p>QasHctl — это приложение-микшер для интерфейса ALSA «High level Control Interface», который обеспечивает более продвинутые возможности управления по сравнению с «Simple Mixer Interface», используемым в alsamixer и QasMixer.</p>\n"
+}

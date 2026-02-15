@@ -1,0 +1,43 @@
+id: "gnome-text-editor"
+name: Text Editor
+description: Edit text files
+longDescription: |
+  <p>GNOME Text Editor is a simple text editor focused on a pleasing default experience.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-text-editor
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - write
+  - notepad
+screenshotSources:
+  - url: org/gnome/TextEditor/0b85630139bf0634d0dd79658b131302/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/TextEditor/0b85630139bf0634d0dd79658b131302/screenshots/image-1_624x478@1.png
+    width: 1074
+    height: 824
+  - url: org/gnome/TextEditor/0b85630139bf0634d0dd79658b131302/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/TextEditor/0b85630139bf0634d0dd79658b131302/screenshots/image-2_624x478@1.png
+    width: 1074
+    height: 824
+iconSources:
+  - url: org/gnome/TextEditor/0b85630139bf0634d0dd79658b131302/icons/128x128/gnome-text-editor_org.gnome.TextEditor.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://gitlab.gnome.org/GNOME/gnome-text-editor"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Alsaplayer",
+  "description": "Pemutar audio serbaguna untuk Audio Linux Sound Architecture",
+  "longDescription": "<p>Alsaplayer adalah pemutar PCM yang dirancang khusus untuk digunakan dengan ALSA, namun juga berjalan baik dengan OSS atau EsounD. Aplikasi ini menggunakan threading secara intensif untuk mengurangi jeda, menyediakan tampilan visual opsional bahkan dapat berjalan bersamaan, serta mendukung pemutaran mp3, mp2, ogg, cdda, audiofs, dan banyak format lainnya.</p>\n<p>Paket ini berisi program utama alsaplayer, dan membutuhkan satu plugin antarmuka serta satu plugin output. Secara default, antarmuka GTK+ dan output alsa akan terpasang.</p>\n"
+}

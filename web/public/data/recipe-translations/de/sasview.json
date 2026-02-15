@@ -1,0 +1,5 @@
+{
+  "name": "SasView",
+  "description": "Analyse von Kleinwinkelstreuung",
+  "longDescription": "<p>SasView ist ein Softwarepaket zur Analyse von Kleinwinkelstreuung (SAS), das ursprünglich im Rahmen des NSF DANSE-Projekts unter dem Namen SansView entwickelt wurde und heute von einer internationalen Kooperation verschiedener Forschungseinrichtungen verwaltet wird.</p>\n<p>SasView ist eine Software zur Analyse von Kleinwinkelstreuungsdaten (SAS).</p>\n<p>Sie passt analytische Funktionen, die verschiedene Arten der Materialmikrostruktur beschreiben, an experimentelle Daten an, um Form, Größe und den Ordnungsgrad zu bestimmen.</p>\n<p>SasView enthält zudem Werkzeuge zur Berechnung von Streulängendichten, Spaltgrößen, Auflösung, Schichtdicken/Netzebenenabständen (d-spacings), der (Porod-)Invariante (&apos;Gesamtstreuung&apos;) sowie Abstandsverteilungsfunktionen.</p>\n<p>Dieses Paket installiert das ausführbare sasview-Skript.</p>\n"
+}

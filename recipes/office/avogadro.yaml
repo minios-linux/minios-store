@@ -1,0 +1,71 @@
+id: "avogadro"
+name: Avogadro
+description: Molecular Graphics and Modelling System
+longDescription: |
+  <p>Avogadro is a molecular graphics and modelling system targeted at molecules and biomolecules.  It can visualize properties like molecular orbitals or electrostatic potentials and features an intuitive molecular builder.</p>
+  <p>Features include:  * Molecular modeller with automatic force-field based geometry optimization  * Molecular Mechanics including constraints and conformer searches  * Visualization of molecular orbitals and general isosurfaces  * Visualization of vibrations and plotting of vibrational spectra  * Support for crystallographic unit cells  * Input generation for the Gaussian, GAMESS and MOLPRO quantum chemistry    packages  * Flexible plugin architecture and Python scripting</p>
+  <p>File formats Avogadro can read include PDB, XYZ, CML, CIF, Molden, as well as Gaussian, GAMESS and MOLPRO output.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - avogadro
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-1_orig.png
+    thumbnailUrl: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-1_624x449@1.png
+    width: 1097
+    height: 791
+  - url: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-2_orig.png
+    thumbnailUrl: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-2_624x503@1.png
+    width: 1246
+    height: 1006
+  - url: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-3_orig.png
+    thumbnailUrl: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-3_224x179@1.png
+    width: 500
+    height: 400
+  - url: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-4_orig.png
+    thumbnailUrl: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-4_624x499@1.png
+    width: 1860
+    height: 1488
+  - url: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-5_orig.png
+    thumbnailUrl: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-5_624x499@1.png
+    width: 625
+    height: 500
+  - url: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-6_orig.png
+    thumbnailUrl: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-6_224x179@1.png
+    width: 500
+    height: 400
+  - url: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-7_orig.png
+    thumbnailUrl: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-7_224x179@1.png
+    width: 565
+    height: 452
+  - url: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-8_orig.png
+    thumbnailUrl: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-8_624x499@1.png
+    width: 1500
+    height: 1200
+  - url: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-9_orig.png
+    thumbnailUrl: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-9_224x179@1.png
+    width: 500
+    height: 400
+  - url: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-10_orig.png
+    thumbnailUrl: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/screenshots/image-10_224x179@1.png
+    width: 500
+    height: 400
+iconSources:
+  - url: org/openchemistry/Avogadro2/e2e6540244f3eae9f755a7d86d9bc7cf/icons/128x128/avogadro_org.openchemistry.Avogadro2.png
+    width: 128
+    height: 128
+homepage: "https://two.avogadro.cc/"
+enabled: true
+order: 99

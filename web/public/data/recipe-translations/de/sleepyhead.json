@@ -1,0 +1,5 @@
+{
+  "name": "SleepyHead",
+  "description": "SleepyHead wurde für die Überprüfung und Analyse von Daten entwickelt, die von CPAP-Geräten und ähnlichen Systemen zur Behandlung von Schlafapnoe erzeugt werden.",
+  "longDescription": "<p>SleepyHead ist ein freies, plattformübergreifendes Analysewerkzeug zur Untersuchung von Daten aus CPAP-Geräten (Continuous Positive Airway Pressure) und verwandter Hardware, die in der Therapie von Schlafapnoe und anderen Schlafstörungen eingesetzt wird.</p>\n<p>SleepyHead unterstützt datenfähige CPAP-Modelle der folgenden Serien:  - ResMed S9  - AirSense 10  - AirCurve 10  - Philips Respironics System One  - Fisher &amp; Paykel ICON &amp; ICON+  - DeVilbiss IntelliPAP</p>\n<p>Die Software unterstützt die komplette Contec CMS50-Serie von Oximetern, sowohl eigenständig als auch mit CPAP-Daten synchronisiert (hierfür muss ein separater Treiber für Contec-Hardware installiert werden). Zudem werden Oximeter-Erweiterungen von ResMed und PR System One sowie der Dateiimport von ChoiceMMed MD300W1-Oximetern unterstützt.</p>\n"
+}

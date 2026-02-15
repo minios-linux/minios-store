@@ -1,0 +1,56 @@
+id: "trackballs"
+name: Trackballs
+description: Guide a marble through a maze and avoid obstacles
+longDescription: |
+  <p>Trackballs is a simple game similar to the classical game Marble Madness on the Amiga in the 80&apos;s. By steering a marble ball through a labyrinth filled with vicious hammers, pools of acid and other obstacles the player collects points. When the ball reaches the destination it continues at the next, more difficult level - unless the time runs out.</p>
+  <p>This game is not intended to be a replica of Marble Madness but rather inspired by it. The game is also highly configurable by using a scripting extension (Guile) and it provides a simple editor by which new levels can easily be created.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - trackballs
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - marble
+  - maze
+  - obstacle
+screenshotSources:
+  - url: t/tr/trackballs.desktop/3989c21070466b73826edc4e19df229a/screenshots/image-1_orig.png
+    thumbnailUrl: t/tr/trackballs.desktop/3989c21070466b73826edc4e19df229a/screenshots/image-1_624x351.png
+    width: 1280
+    height: 720
+  - url: t/tr/trackballs.desktop/3989c21070466b73826edc4e19df229a/screenshots/image-2_orig.png
+    thumbnailUrl: t/tr/trackballs.desktop/3989c21070466b73826edc4e19df229a/screenshots/image-2_624x351.png
+    width: 1280
+    height: 720
+  - url: t/tr/trackballs.desktop/3989c21070466b73826edc4e19df229a/screenshots/image-3_orig.png
+    thumbnailUrl: t/tr/trackballs.desktop/3989c21070466b73826edc4e19df229a/screenshots/image-3_624x351.png
+    width: 1280
+    height: 720
+iconSources:
+  - url: t/tr/trackballs.desktop/3989c21070466b73826edc4e19df229a/icons/128x128/trackballs_trackballs.png
+    width: 128
+    height: 128
+homepage: "https://trackballs.github.io/"
+enabled: true
+order: 99

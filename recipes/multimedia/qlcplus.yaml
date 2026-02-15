@@ -1,0 +1,53 @@
+id: "qlcplus"
+name: Q Light Controller Plus
+description: This is a software to control DMX or analog lighting systems
+longDescription: |
+  <p>
+     QLC+ is free and cross-platform software to control DMX or analog lighting
+     systems like moving heads, dimmers, scanners etc. This project is a fork of
+     the great QLC project written by Heikki Junnila that aims to continue the
+     development of QLC and to introduce new features. The primary goal is to
+     bring QLC+ at the level of other commercial lighting control software.
+    </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qlcplus
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - qlc
+  - light
+  - controller
+  - dmx
+  - analog
+  - midi
+  - artnet
+  - e131
+  - osc
+screenshotSources:
+  - url: org/qlcplus/QLCPlusFixtureEditor/efe772f1d29caa40ce6230f681d451d0/screenshots/image-1_orig.png
+    thumbnailUrl: org/qlcplus/QLCPlusFixtureEditor/efe772f1d29caa40ce6230f681d451d0/screenshots/image-1_624x410.png
+    width: 1093
+    height: 719
+iconSources:
+  - cached: qlcplus_qlcplus-fixtureeditor.png
+    width: 64
+    height: 64
+homepage: "https://www.qlcplus.org/"
+enabled: true
+order: 99

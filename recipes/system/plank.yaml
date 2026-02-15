@@ -1,0 +1,58 @@
+id: "plank"
+name: Plank
+description: Stupidly simple.
+longDescription: |
+  <p>Plank is meant to be the simplest dock on the planet. The goal is to provide just what a dock needs and absolutely nothing more.</p>
+  <p>It is, however, a library which can be extended to create other dock programs with more advanced features. Thus, Plank is the underlying technology for Docky (starting in version 3.0.0) and aims to provide all the core features while Docky extends it to add fancier things like Docklets, painters, settings dialogs, etc.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plank
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dock
+  - launch
+  - panel
+  - start
+screenshotSources:
+  - url: p/pl/plank.desktop/889300124ff33319c9611a71cdc12815/screenshots/image-1_orig.png
+    thumbnailUrl: p/pl/plank.desktop/889300124ff33319c9611a71cdc12815/screenshots/image-1_224x51.png
+    width: 940
+    height: 217
+  - url: p/pl/plank.desktop/889300124ff33319c9611a71cdc12815/screenshots/image-2_orig.png
+    thumbnailUrl: p/pl/plank.desktop/889300124ff33319c9611a71cdc12815/screenshots/image-2_624x351.png
+    width: 635
+    height: 358
+  - url: p/pl/plank.desktop/889300124ff33319c9611a71cdc12815/screenshots/image-3_orig.png
+    thumbnailUrl: p/pl/plank.desktop/889300124ff33319c9611a71cdc12815/screenshots/image-3_624x351.png
+    width: 635
+    height: 358
+iconSources:
+  - url: p/pl/plank.desktop/889300124ff33319c9611a71cdc12815/icons/128x128/plank_plank.png
+    width: 128
+    height: 128
+developer: The Plank Developers
+homepage: "https://launchpad.net/plank"
+enabled: true
+order: 99

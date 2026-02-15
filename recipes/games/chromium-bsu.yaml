@@ -1,0 +1,41 @@
+id: chromium-bsu
+name: Chromium B.S.U.
+description: Scrolling space shooter
+longDescription: |
+  <p>Chromium is a top down fast paced high action scrolling space shooter.</p>
+  <p>In this game you are the captain of the cargo ship Chromium B.S.U. and are responsible for delivering supplies to the troops on the front line. Your ship has a small fleet of robotic fighters which you control from the relative safety of the Chromium vessel.</p>
+  
+categoryId: games
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chromium-bsu
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shooter
+  - space
+iconSources:
+  - cached: chromium-bsu_chromium-bsu.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

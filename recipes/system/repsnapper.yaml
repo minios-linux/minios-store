@@ -1,0 +1,33 @@
+id: repsnapper
+name: repsnapper
+description: Controls your 3D plastic printer
+longDescription: |
+  <p>A RepRap is a 3D printer: a machine which can print 3-dimensional plastic objects from a computer model. Repsnapper can convert STL, which can be created with most 3D drawing programs like Blender, into GCode, which the RepRap can understand. It can also be used to send the result to the RepRap.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - repsnapper
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: r/re/repsnapper.desktop/E8CDE411B39878D5397A753B07323105/icons/128x128/repsnapper_repsnapper.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

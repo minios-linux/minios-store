@@ -1,0 +1,5 @@
+{
+  "name": "Asunder CD Ripper",
+  "description": "Une application pour extraire les pistes d'un CD audio aux formats WAV, MP3, OGG, FLAC et/ou Wavpack.",
+  "longDescription": "<p>Asunder est un extracteur et encodeur de CD audio avec une interface graphique. Il permet de sauvegarder les pistes de vos CD audio. Principales fonctionnalités :</p>\n<p> * Prend en charge les fichiers audio WAV, MP3, Ogg Vorbis, FLAC et Wavpack  * Utilise CDDB pour nommer et taguer chaque piste  * Peut encoder vers plusieurs formats en une seule session  * Crée des listes de lecture M3U  * Permet que chaque piste soit associée à un artiste différent  * Ne nécessite pas d'environnement de bureau particulier (seulement GTK+)</p>\n"
+}

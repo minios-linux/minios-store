@@ -1,0 +1,43 @@
+id: "artikulate"
+name: Artikulate
+description: Artikulate Pronunciation Trainer
+longDescription: |
+  <p>Artikulate is a pronunciation trainer that helps improving and perfecting a learner&apos;s pronunciation skills for a foreign language. It provides courses with native speaker recordings for several training languages. The learner downloads those courses, selects a category of phrases to train, then starts with recording her/his own voice when speaking the phrases and comparing the results to the native speaker&apos;s recordings by listening to both. By adjusting and repeating the own pronunciation, the learner can improve his/her skill.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - artikulate
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/artikulate.desktop/893b27e82cd3ce1423f917c32c549c84/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/artikulate.desktop/893b27e82cd3ce1423f917c32c549c84/screenshots/image-1_624x495@1.png
+    width: 848
+    height: 673
+iconSources:
+  - url: org/kde/artikulate.desktop/893b27e82cd3ce1423f917c32c549c84/icons/128x128/artikulate_artikulate.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/artikulate/"
+enabled: true
+order: 99

@@ -1,0 +1,24 @@
+id: fotoxx-common
+name: Fotocx
+description: Edit photos and manage collection
+longDescription: |
+  <p>Navigate a large image collection with a thumbnail browser. View and edit image files (RAW, jpeg, png, tiff ...). Editing is done in 24 bits/color, output is 8 or 16 bits/color. Fotoxx has extensive tools for edit, repair, and special effects. Fotoxx is fast and interactive: view full image as it changes. Undo and redo within and across edit functions. File versioning: save and recall multiple edit stages. Select image features or areas to edit separately from background. Copy and paste area selections within and across images. Composite functions: HDR, HDF, panorama, stack, image/text montage. Metadata edit and report: tags, captions, dates, locations ... Search images based on any metadata and folder/file names or parts. Albums: select images and arranged order with drag and drop. Slide Show with animated transitions and pan/zoom. Scalable world map with image markers - click marker for gallery. Batch functions: convert, resize, upright, move, revise metatata. User Guide (English) describes all functions in great detail.</p>
+  <p>This package contains architecture independent files such as icons, pixmaps, documentation, and translations.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fotoxx-common
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: fotoxx-common_fotocx.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

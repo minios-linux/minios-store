@@ -1,0 +1,5 @@
+{
+  "name": "gImageReader",
+  "description": "Uma interface gráfica (GTK) para o tesseract-ocr",
+  "longDescription": "<p>gImageReader é um aplicativo fácil de usar para reconhecimento de texto em imagens, utilizando o mecanismo OCR do tesseract. Os principais recursos incluem:</p>\n<ul>\n  <li>Importação de documentos PDF e imagens do computador, scanners, área de transferência e capturas de tela</li>\n  <li>Processamento de múltiplas imagens e documentos simultaneamente</li>\n  <li>Definição manual ou automática da área a ser reconhecida</li>\n  <li>Reconhecimento para texto simples ou documentos hOCR</li>\n  <li>Visualização do texto reconhecido ao lado da imagem original</li>\n  <li>Pós-processamento do texto reconhecido, incluindo verificação ortográfica</li>\n  <li>Geração de arquivos PDF/ODT a partir de documentos hOCR</li>\n</ul>\n"
+}

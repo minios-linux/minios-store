@@ -1,0 +1,59 @@
+id: "cockpit"
+name: Cockpit
+description: Web Console for Linux servers
+longDescription: |
+  <p>
+        Cockpit is a server manager that makes it easy to administer your Linux
+        servers via a web browser.
+        Jumping between the terminal and the web tool is no problem.
+        A service started via Cockpit can be stopped via the terminal.
+        Likewise, if an error occurs in the terminal, it can be seen in the
+        Cockpit journal interface.
+      </p>
+  <p>
+        Cockpit is perfect for new sysadmins, allowing them to easily perform
+        simple tasks such as storage administration, inspecting journals and
+        starting and stopping services.
+        You can monitor and administer several servers at the same time.
+        Just add them with a single click and your machines will look after its
+        buddies.
+      </p>
+  <p>
+        Once Cockpit is installed, enable it with "systemctl enable --now cockpit.socket".
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cockpit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/cockpit_project/cockpit/19e1708d8f31ff103f25967268d34037/screenshots/image-1_orig.png
+    thumbnailUrl: org/cockpit_project/cockpit/19e1708d8f31ff103f25967268d34037/screenshots/image-1_624x357.png
+    width: 1225
+    height: 702
+  - url: org/cockpit_project/cockpit/19e1708d8f31ff103f25967268d34037/screenshots/image-2_orig.png
+    thumbnailUrl: org/cockpit_project/cockpit/19e1708d8f31ff103f25967268d34037/screenshots/image-2_624x358.png
+    width: 1225
+    height: 703
+iconSources:
+  - url: org/cockpit_project/cockpit/5415171d801fb66be0cda3aa25bdf329/icons/128x128/cockpit_cockpit.png
+    width: 128
+    height: 128
+homepage: "https://cockpit-project.org/"
+enabled: true
+order: 99

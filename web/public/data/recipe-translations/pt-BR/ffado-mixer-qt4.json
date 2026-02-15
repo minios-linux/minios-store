@@ -1,0 +1,5 @@
+{
+  "name": "FFADO Mixer",
+  "description": "Mixer de áudio para dispositivos FireWire",
+  "longDescription": "<p>O FFADO é um driver Linux para dispositivos de áudio FireWire (IEEE1394).</p>\n<p>A biblioteca FFADO permite detectar e configurar esses dispositivos, além de fornecer uma API para aplicativos de streaming.</p>\n<p>Este pacote inclui os aplicativos de mixer e controle que se comunicam com o ffado-dbus-server.</p>\n<p>Apesar do nome do pacote, a interface gráfica foi atualizada.</p>\n"
+}

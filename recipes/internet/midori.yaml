@@ -1,0 +1,29 @@
+id: midori
+name: Midori
+description: Browse the Web
+longDescription: |
+  <p>Midori is a lightweight web browser based on WebKit.</p>
+  <p>Its features include:</p>
+  <p> * Full integration with GTK+2.  * Fast rendering with WebKit.  * Tabs, windows and session management.  * Flexibly configurable Web Search.  * User scripts and user styles support.  * Straightforward bookmark management.  * Customizable and extensible interface.  * Support for extensions (written in C).  * Custom context menu actions.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - midori
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: org/midori_browser/Midori/C6F1B63C4753756504261BB34B812B3C/icons/128x128/midori_midori.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

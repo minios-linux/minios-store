@@ -1,0 +1,5 @@
+{
+  "name": "OpenSnitch",
+  "description": "Pare-feu applicatif interactif pour GNU/Linux",
+  "longDescription": "<p>\n      À chaque tentative de connexion d’un programme, une notification invite l’utilisateur à autoriser ou refuser l’accès.\n    </p>\n<p>\n      L’utilisateur peut bloquer les connexions sortantes selon différents critères : port, UID, IP de destination, programme, ou toute combinaison. Les règles peuvent être permanentes, valides jusqu’au redémarrage de l’application, ou appliquées une seule fois.\n    </p>\n<p>\n      L’interface graphique permet de visualiser en temps réel les connexions sortantes et de filtrer par processus, utilisateur, hôte ou port.\n    </p>\n<p>\n      OpenSnitch peut également servir de bloqueur de domaines à l’échelle du système, à l’aide de listes de domaines, d’adresses IP ou d’expressions régulières.\n    </p>\n"
+}

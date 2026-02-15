@@ -1,0 +1,24 @@
+id: chinese-calendar
+name: chinese-calendar
+description: Chinese lunar calendar
+longDescription: |
+  <p>This indicator is used to show a Chinese lunar calendar which is tailored for Chinese users. The calendar can show festivals and the 24 solar terms, year and month is also selectable.</p>
+  <p>This calendar is a default application in the Ubuntu Kylin flavour.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chinese-calendar
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: chinese-calendar_chinesecalendar-64.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

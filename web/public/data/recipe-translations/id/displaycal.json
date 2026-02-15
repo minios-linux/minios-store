@@ -1,0 +1,5 @@
+{
+  "name": "Scripting Client",
+  "description": "Kendalikan DisplayCAL menggunakan perintah scripting sederhana",
+  "longDescription": "<p>Mengkalibrasi dan mengkarakterisasi perangkat layar menggunakan sensor perangkat keras, didukung oleh sistem manajemen warna open source Argyll CMS. Mendukung pengaturan multi-layar serta berbagai opsi seperti penyesuaian whitepoint, luminansi, level hitam, kurva respons nada, serta pembuatan profil ICC berbasis matriks dan tabel pencarian (LUT) dengan opsi pemetaan gamut. Kalibrasi dan profil dapat diverifikasi melalui pengukuran, dan profil dapat diinstal agar tersedia untuk aplikasi yang mendukung manajemen warna. Instalasi profil dapat memanfaatkan Argyll CMS, Oyranos, dan/atau GNOME Color Manager jika tersedia, untuk integrasi yang fleksibel.</p>\n"
+}

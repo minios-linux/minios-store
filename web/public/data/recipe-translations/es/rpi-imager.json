@@ -1,0 +1,5 @@
+{
+  "name": "Raspberry Pi Imager",
+  "description": "Herramienta de grabación de imágenes para Raspberry Pi",
+  "longDescription": "<p>\n      Raspberry Pi Imager descarga un archivo .JSON desde el sitio web de Raspberry Pi con una lista de todas las opciones de descarga actuales, asegurando que siempre instales la versión más actualizada.\n    </p>\n<p>\n      Una vez que eliges un sistema operativo entre las opciones disponibles, la utilidad lee el archivo correspondiente directamente desde el portal de Raspberry Pi y lo escribe directamente en la tarjeta SD. Esto agiliza notablemente el proceso en comparación con el método estándar de descargar desde la web, guardar el archivo en el disco duro y, después, copiarlo desde el disco a la tarjeta SD en un paso adicional.\n    </p>\n<p>\n      Durante todo este proceso, Raspberry Pi Imager también almacena en caché la imagen del sistema operativo descargada; es decir, guarda una copia local en tu ordenador para que puedas grabar imágenes en tarjetas SD adicionales sin volver a descargar el archivo.\n    </p>\n"
+}

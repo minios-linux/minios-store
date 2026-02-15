@@ -1,0 +1,5 @@
+{
+  "name": "Metview",
+  "description": "Meteorologische Daten verarbeiten und visualisieren",
+  "longDescription": "<p>Metview wurde als flexibles, modulares und erweiterbares System entwickelt, um den sich wandelnden Anforderungen der Anwender gerecht zu werden. Das System basiert auf den ECMWF-Standards für Grafik (Magics) und Datenzugriff (MARS), kann aber auch lokal gespeicherte Daten verarbeiten. Die Benutzeroberfläche nutzt Motif und Qt. Metview ist ein vollständig verteiltes System, bei dem Module auf verschiedenen Workstations und Servern laufen können.</p>\n<p>Metview ist ein gemeinsames Projekt vom ECMWF und INPE/CPTEC, Brasilien. Zudem wurde ECMWF von einem Mitarbeiter von Météo-France unterstützt.</p>\n"
+}

@@ -1,0 +1,25 @@
+id: freemat
+name: FreeMat
+description: A free environment for rapid engineering and scientific prototyping and data processing
+longDescription: |
+  <p>FreeMat is a free environment for rapid engineering and scientific prototyping and data processing. It is similar to commercial systems such as MATLAB from Mathworks, and IDL from Research Systems, but is Open Source. FreeMat is available under the GPL license.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freemat
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: freemat_freemat.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

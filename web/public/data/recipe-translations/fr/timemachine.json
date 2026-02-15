@@ -1,0 +1,5 @@
+{
+  "name": "JACK Timemachine",
+  "description": "Enregistreur audio JACK pour usage spontané et conservatoire",
+  "longDescription": "<p>Timemachine enregistre les 10 dernières secondes d'audio <i>avant</i> l'appui sur le bouton ainsi que tout ce qui suit jusqu'au prochain appui dans un fichier WAV.</p>\n<p>L’idée est de pouvoir improviser dans votre studio et, dès qu’un son intéressant surgit, d’appuyer sur « enregistrer » pour le capturer, sans avoir à le recréer.</p>\n<p>Il utilise le kit de connexion audio JACK, une API permettant aux applications audio de communiquer entre elles et de partager l’audio en temps réel.</p>\n"
+}

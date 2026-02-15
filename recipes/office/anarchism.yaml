@@ -1,0 +1,37 @@
+id: "anarchism"
+name: An Anarchist FAQ
+description: Exhaustive exploration of Anarchist theory and practice
+longDescription: |
+  <p>The Anarchist FAQ is an excellent source of information regarding Anarchist (libertarian socialist) theory and practice. It covers all major topics, from the basics of Anarchism to very specific discussions of politics, social organization, and economics.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - anarchism
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - documentation,theory,politics,philosophy
+iconSources:
+  - url: a/an/anarchism.desktop/bf8e8544a5e2c797a816d7132bd276ec/icons/128x128/anarchism_anarchism.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

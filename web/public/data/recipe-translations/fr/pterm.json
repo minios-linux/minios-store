@@ -1,0 +1,5 @@
+{
+  "name": "PuTTY Terminal Emulator",
+  "description": "Démarrer une session terminal PuTTY",
+  "longDescription": "<p>Cet émulateur de terminal X est basé sur le célèbre client SSH pour Windows, PuTTY. Il prend en charge les séquences d’échappement xterm, ainsi que certaines séquences de console Linux pour la configuration de la palette de couleurs et des séquences DECterm pour le contrôle de la barre de titre. Avec une police adaptée, il gère aussi le codage UTF-8 d’Unicode. Il propose également des fonctions pratiques comme la sélection rectangulaire ou le mode pavé numérique NetHack.</p>\n"
+}

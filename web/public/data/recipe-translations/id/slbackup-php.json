@@ -1,0 +1,5 @@
+{
+  "name": "slbackup-php",
+  "description": "Antarmuka web untuk mengkonfigurasi slbackup",
+  "longDescription": "<p>Slbackup-php menyediakan fungsi-fungsi yang diperlukan untuk mengelola repositori slbackup.</p>\n<p>Fitur:  - penjadwalan eksekusi slbackup;  - pengeditan file konfigurasi;  - verifikasi kunci SSH dan backup yang berhasil;  - pemulihan dari backup;  - penghapusan backup lama dari repositori.</p>\n"
+}

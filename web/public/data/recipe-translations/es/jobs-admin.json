@@ -1,0 +1,5 @@
+{
+  "name": "Tareas del sistema",
+  "description": "Administra las tareas del sistema presentes en tu equipo",
+  "longDescription": "<p>jobs-admin es una sencilla utilidad GTK+ que permite a cualquier administrador configurar fácilmente las tareas (servicios) presentes en su sistema. Se pueden habilitar y deshabilitar tareas, iniciar y detener servicios, e incluso ajustar configuraciones específicas de cada servicio.</p>\n<p>jobs-admin utiliza jobservice como backend a través de D-Bus.</p>\n"
+}

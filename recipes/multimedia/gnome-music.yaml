@@ -1,0 +1,60 @@
+id: "gnome-music"
+name: GNOME Music
+description: Play and organize your music collection
+longDescription: |
+  <p>An easy way to play your music. Automatically discover music on your computer, the local network and internet services.</p>
+  <p>Find tracks in your local collection, get music from DLNA servers or try something new with the Jamendo and Magnatune services.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-music
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - player
+screenshotSources:
+  - url: org/gnome/Music/f6b525f9e5c21a54670d1c82c7fa46e5/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Music/f6b525f9e5c21a54670d1c82c7fa46e5/screenshots/image-1_624x531@1.png
+    width: 1152
+    height: 982
+  - url: org/gnome/Music/f6b525f9e5c21a54670d1c82c7fa46e5/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Music/f6b525f9e5c21a54670d1c82c7fa46e5/screenshots/image-2_624x531@1.png
+    width: 1152
+    height: 982
+  - url: org/gnome/Music/f6b525f9e5c21a54670d1c82c7fa46e5/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Music/f6b525f9e5c21a54670d1c82c7fa46e5/screenshots/image-3_624x531@1.png
+    width: 1152
+    height: 982
+  - url: org/gnome/Music/f6b525f9e5c21a54670d1c82c7fa46e5/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Music/f6b525f9e5c21a54670d1c82c7fa46e5/screenshots/image-4_624x531@1.png
+    width: 1152
+    height: 982
+iconSources:
+  - url: org/gnome/Music/f6b525f9e5c21a54670d1c82c7fa46e5/icons/128x128/gnome-music_org.gnome.Music.png
+    width: 128
+    height: 128
+developer: The GNOME Music developers
+homepage: "https://wiki.gnome.org/Apps/Music"
+enabled: true
+order: 99

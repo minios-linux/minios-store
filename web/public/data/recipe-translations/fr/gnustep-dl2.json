@@ -1,0 +1,5 @@
+{
+  "name": "DBModeler",
+  "description": "Modéliseur d’accès aux bases de données",
+  "longDescription": "<p>La GNUstep Database Library Version 2 est requise par les applications GNUstep qui communiquent avec des bases de données. Il s'agit d'une implémentation du framework Enterprise Objects (EOF) v3.0 d’Apple (d’origine NeXT) ainsi que de l’interface WebObjects 4.5 d’Apple.</p>\n<p>Ce paquet inclut l’application EOModelEditor, les outils eoutil/gdlgsdoc et la palette GDL2 pour Gorm.</p>\n"
+}

@@ -1,0 +1,37 @@
+id: "chewing-editor"
+name: Chewing Editor
+description: Chewing Userphrase Editor
+longDescription: |
+  <p>chewing-editor is a cross platform user dictionary editor for the chewing input method. It provides an easy way to customize user dictionary so that chewing input method can take advantage of the user dictionary and provide a better input experience.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chewing-editor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: c/ch/chewing-editor.desktop/4bf41ca666b6bbeb08f014c5b473ef41/icons/128x128/chewing-editor_chewing-editor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,23 @@
+id: tomboy
+name: Tomboy Notes
+description: "Take notes, link ideas, and stay organized"
+longDescription: |
+  <p>Tomboy is a desktop note-taking application which is simple and easy to use. It lets you organise your notes intelligently by allowing you to easily link ideas together with Wiki style interconnects.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tomboy
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/to/tomboy.desktop/01EA6DCA44105FC530EBA6BAB9F2BC9F/icons/128x128/tomboy_tomboy.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

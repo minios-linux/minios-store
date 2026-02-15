@@ -1,0 +1,45 @@
+id: klevernotes
+name: KleverNotes
+description: Take and manage your notes
+longDescription: |
+  <p>KleverNotes is a note taking and management application for your mobile and desktop devices. It uses markdown and allow you to preview your content.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - klevernotes
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - markdown
+  - kirigami
+  - qt
+screenshotSources:
+  - url: org/kde/klevernotes/005605e26b2fe494a9c8a17eaf535cc3/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/klevernotes/005605e26b2fe494a9c8a17eaf535cc3/screenshots/image-1_624x410@1.png
+    width: 1475
+    height: 971
+  - url: org/kde/klevernotes/005605e26b2fe494a9c8a17eaf535cc3/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/klevernotes/005605e26b2fe494a9c8a17eaf535cc3/screenshots/image-2_224x369@1.png
+    width: 604
+    height: 995
+  - url: org/kde/klevernotes/005605e26b2fe494a9c8a17eaf535cc3/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/klevernotes/005605e26b2fe494a9c8a17eaf535cc3/screenshots/image-3_624x405@1.png
+    width: 1289
+    height: 838
+  - url: org/kde/klevernotes/005605e26b2fe494a9c8a17eaf535cc3/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/klevernotes/005605e26b2fe494a9c8a17eaf535cc3/screenshots/image-4_624x405@1.png
+    width: 1289
+    height: 838
+iconSources:
+  - url: org/kde/klevernotes/005605e26b2fe494a9c8a17eaf535cc3/icons/128x128/klevernotes_org.kde.klevernotes.png
+    width: 128
+    height: 128
+homepage: "https://invent.kde.org/office/klevernotes"
+enabled: true
+order: 99

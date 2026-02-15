@@ -1,0 +1,5 @@
+{
+  "name": "Timeshift",
+  "description": "Outil de restauration système",
+  "longDescription": "<p>Timeshift est un utilitaire de restauration système qui crée des instantanés à intervalles réguliers. Ces sauvegardes peuvent être restaurées ultérieurement pour annuler des modifications du système. Timeshift prend en charge les instantanés incrémentiels avec rsync ou les instantanés BTRFS à l'aide des outils BTRFS.</p>\n"
+}

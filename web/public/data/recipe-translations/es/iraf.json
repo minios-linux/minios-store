@@ -1,0 +1,5 @@
+{
+  "name": "IRAF",
+  "description": "Entorno para reducción y análisis de imágenes",
+  "longDescription": "<p>IRAF es el \"Entorno para Reducción y Análisis de Imágenes\". La distribución principal de IRAF incluye una amplia selección de programas para procesamiento general de imágenes y gráficos.</p>\n<p>Existen otros paquetes externos o complementarios disponibles para aplicaciones como adquisición de datos o manejo de datos de otros observatorios y rangos de longitud de onda, como el Telescopio Espacial Hubble (óptico), EUVE (ultravioleta extremo), o ROSAT y AXAF (rayos X). Estos paquetes externos se distribuyen por separado del paquete principal de IRAF, pero pueden instalarse fácilmente. El sistema IRAF también incluye un lenguaje de comandos programable para la creación de scripts.</p>\n"
+}

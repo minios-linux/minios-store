@@ -1,0 +1,27 @@
+id: gresolver
+name: DNS Query Tool
+description: Perform advanced DNS queries
+longDescription: |
+  <p>GResolver is a GTK+ graphical tool for DNS queries. It allows system administrators to quickly and easily make the most common DNS queries without constructing lengthy dig commands or nslookup.</p>
+  <p>GResolver supports all the main resource record types, including AAAA, AXFR, MX and TXT, and the appropriate in-addr.arpa address is constructed from dotted-quad IP addresses when doing PTR queries. There are checkboxes for controlling the most commonly-used options.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gresolver
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - dns
+  - domain
+iconSources:
+  - cached: gresolver_gresolver.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

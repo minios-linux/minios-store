@@ -1,0 +1,5 @@
+{
+  "name": "Xwayland Video Bridge",
+  "description": "Menyediakan streaming screencast XDG Desktop Portals untuk aplikasi X11",
+  "longDescription": "<p>Banyak aplikasi X11 masih menggunakan mekanisme X11 untuk membagikan konten aplikasi dan tampilan lainnya. Dalam beberapa tahun terakhir, kami telah menghadirkan XDG Desktop Portals sebagai mekanisme standar untuk kebutuhan ini, dan kini aplikasi diharapkan menggunakan sistem tersebut. Aplikasi ini menyediakan aliran (stream) dari XDG Desktop Portals untuk aplikasi X11 lawas yang belum mendukung sistem baru tersebut.</p>\n"
+}

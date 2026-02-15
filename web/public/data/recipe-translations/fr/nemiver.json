@@ -1,0 +1,5 @@
+{
+  "name": "Nemiver",
+  "description": "Déboguer des applications",
+  "longDescription": "<p>Nemiver est un projet visant à fournir un débogueur graphique autonome s'intégrant dans l'environnement de bureau GNOME. Il s'appuie sur le célèbre GNU Debugger (gdb) pour le débogage des programmes en C/C++.</p>\n<p>Nemiver est construit sur un système de modules permettant d'offrir plusieurs perspectives. Actuellement, seule la perspective de débogage est disponible, mais le système peut être étendu avec des perspectives dédiées à valgrind ou à des outils de profilage tels qu'oprofile.</p>\n"
+}

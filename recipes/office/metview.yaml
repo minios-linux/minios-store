@@ -1,0 +1,26 @@
+id: metview
+name: Metview
+description: Process and visualise meteorological data
+longDescription: |
+  <p>Metview has been designed as a flexible, modular and extendible system able to accommodate the evolving needs of the user. The system is based on the ECMWF standards for graphics (Magics) and data access (MARS) but can also access locally stored data. The user interface is based on Motif and Qt. Metview is a fully distributed system where modules can run on different workstations and servers.</p>
+  <p>Metview is a cooperative project between ECMWF and INPE/CPTEC, Brazil. ECMWF has also been assisted by a staff member of Météo-France.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - metview
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: metview_metview.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

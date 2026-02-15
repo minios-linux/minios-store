@@ -1,0 +1,5 @@
+{
+  "name": "KDiff3",
+  "description": "Un outil de comparaison et de fusion de fichiers et répertoires",
+  "longDescription": "<p>KDiff3 est un outil de différenciation et de fusion de fichiers et de répertoires qui :</p>\n<ul>\n  <li>compare et fusionne deux ou trois fichiers texte ou dossiers,</li>\n  <li>affiche les différences ligne par ligne et caractère par caractère (!),</li>\n  <li>offre une fonctionnalité de fusion automatique,</li>\n  <li>inclut un éditeur pour résoudre aisément les conflits de fusion,</li>\n  <li>apporte la transparence réseau via KIO,</li>\n  <li>permet de surligner ou masquer les modifications dans les espaces ou les commentaires,</li>\n  <li>prend en charge Unicode, UTF-8, et d’autres encodages de fichiers,</li>\n  <li>imprime les différences,</li>\n  <li>gère la fusion des mots-clés de contrôle de version et de l’historique.</li>\n</ul>\n"
+}

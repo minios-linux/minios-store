@@ -1,0 +1,5 @@
+{
+  "name": "Mastermind",
+  "description": "¡Rompe el código oculto!",
+  "longDescription": "<p>El objetivo de este juego de mesa es descifrar un código utilizando pistas sutiles. El juego se desarrolla entre dos jugadores: el creador del código (la computadora) y el descifrador. La computadora genera una combinación de 4 colores, y el descifrador debe adivinar el patrón (tanto el orden como los colores) en el menor número de intentos posible. En cada turno, el descifrador prueba una combinación y la computadora ofrece retroalimentación colocando clavijas en la cuadrícula de puntuación. Una clavija blanca indica un color correcto en la posición incorrecta; una clavija de color significa que tanto el color como la posición han sido adivinados correctamente.</p>\n"
+}

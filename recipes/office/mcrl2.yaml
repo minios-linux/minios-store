@@ -1,0 +1,26 @@
+id: mcrl2
+name: mCRL2
+description: Graphical front end for mCRL2 toolset
+longDescription: |
+  <p>mCRL2 stands for micro Common Representation Language 2.  It is a specification language that can be used to specify and analyse the behaviour of distributed systems and protocols and is the successor to muCRL.  Using its accompanying toolset, systems can be analysed and verified automatically.</p>
+  <p>This toolset supports a collection of tools for linearisation, simulation, state-space exploration and generation and tools to optimise and analyse specifications.  Moreover, state spaces can be manipulated, visualised and analysed.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mcrl2
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: m/mc/mcrl2-gui.desktop/96EE79419E4898B108323C37607370F0/icons/128x128/mcrl2_mcrl2-green.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

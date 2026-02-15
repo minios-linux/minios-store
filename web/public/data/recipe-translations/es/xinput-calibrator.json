@@ -1,0 +1,5 @@
+{
+  "name": "Calibrar pantalla táctil",
+  "description": "Ejecuta la herramienta de calibración para pantallas táctiles",
+  "longDescription": "<p>xinput-calibrator es una herramienta para calibrar pantallas táctiles en X.Org. Sus características incluyen:  - funciona con cualquier controlador de Xorg (usa Xinput para obtener los valores de los ejes);  - genera la calibración como Xorg.conf, política HAL y regla udev;  - admite opciones avanzadas de controladores, como la calibración dinámica de Evdev;  - ofrece una interfaz gráfica muy intuitiva (cliente X estándar);</p>\n"
+}

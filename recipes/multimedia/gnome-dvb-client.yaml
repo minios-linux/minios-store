@@ -1,0 +1,36 @@
+id: "gnome-dvb-client"
+name: Digital TV Setup
+description: Setup digital TV
+longDescription: |
+  <p>GNOME DVB Daemon is a GStreamer based daemon to setup your DVB devices, record and/or watch TV shows and browse EPG.</p>
+  <p>This package contains the Python GTK+ client, which speaks to the daemon via DBUS.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-dvb-client
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: g/gn/gnome-dvb-setup.desktop/d2e2e019553ff8a4505f014172bfc132/icons/128x128/gnome-dvb-client_gnome-dvb-setup.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

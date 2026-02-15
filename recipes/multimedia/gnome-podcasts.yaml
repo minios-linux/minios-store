@@ -1,0 +1,49 @@
+id: gnome-podcasts
+name: Podcasts
+description: Listen to your favorite shows
+longDescription: |
+  <p>
+        Play, update, and manage your podcasts from a lightweight interface that seamlessly integrates with GNOME.
+        Podcasts can play various audio formats and remember where you stopped listening.
+        You can subscribe to shows via RSS/Atom, iTunes, and Soundcloud links. Subscriptions from other apps can be imported
+  via OPML files.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-podcasts
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - podcast
+  - rss
+screenshotSources:
+  - url: org/gnome/Podcasts/aaa7d174b48032eadbda9027420a666b/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Podcasts/aaa7d174b48032eadbda9027420a666b/screenshots/image-1_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/gnome/Podcasts/aaa7d174b48032eadbda9027420a666b/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Podcasts/aaa7d174b48032eadbda9027420a666b/screenshots/image-2_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/gnome/Podcasts/aaa7d174b48032eadbda9027420a666b/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Podcasts/aaa7d174b48032eadbda9027420a666b/screenshots/image-3_624x457@1.png
+    width: 1122
+    height: 822
+  - url: org/gnome/Podcasts/aaa7d174b48032eadbda9027420a666b/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Podcasts/aaa7d174b48032eadbda9027420a666b/screenshots/image-4_624x457@1.png
+    width: 1122
+    height: 822
+iconSources:
+  - url: org/gnome/Podcasts/aaa7d174b48032eadbda9027420a666b/icons/128x128/gnome-podcasts_org.gnome.Podcasts.png
+    width: 128
+    height: 128
+homepage: "https://apps.gnome.org/Podcasts/"
+enabled: true
+order: 99

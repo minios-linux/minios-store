@@ -1,0 +1,5 @@
+{
+  "name": "sunxi-tools",
+  "description": "Outils pour travailler avec les processeurs ARM Allwinner (sunxi)",
+  "longDescription": "<p>Ce paquet comprend divers outils permettant d’interagir avec des appareils reposant sur les processeurs Allwinner sunxi (A10/A13/A20/A31, etc.). Parmi les utilitaires inclus :</p>\n<ul>\n  <li>interagir avec le bootrom bas niveau des processeurs (mode FEL).</li>\n  <li>démarrer via le port USB OTG.</li>\n  <li>compiler et décompiler les descriptions matérielles binaires Allwinner (fichiers FEX).</li>\n  <li>afficher des informations sur les en-têtes d’amorçage sunxi.</li>\n</ul>\n"
+}

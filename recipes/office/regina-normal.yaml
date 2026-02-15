@@ -1,0 +1,56 @@
+id: "regina-normal"
+name: Regina
+description: Software for low-dimensional topology
+longDescription: |
+  <p>Regina is a software package for 3-manifold and 4-manifold topologists, with a focus on triangulations, normal surfaces and angle structures.</p>
+  <p>For 3-manifolds, it includes high-level tasks such as 3-sphere recognition, connected sum decomposition and Hakenness testing, comes with a rich database of census manifolds, and incorporates the SnapPea kernel for working with hyperbolic manifolds.  For 4-manifolds, it offers a range of combinatorial and algebraic tools, plus support for normal hypersurfaces.</p>
+  <p>Regina comes with a full graphical user interface, as well as Python bindings and a low-level C++ programming interface.</p>
+  <p>This package includes the graphical user interface and the command-line Python interface.  The users&apos; handbook and the API documentation are in the separate package regina-normal-doc, and the MPI-enabled utilities for high-performance clusters are in the separate package regina-normal-mpi.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - regina-normal
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: r/re/regina.desktop/86f8d0b977cd45541ac8f7313cb934d5/screenshots/image-1_orig.png
+    thumbnailUrl: r/re/regina.desktop/86f8d0b977cd45541ac8f7313cb934d5/screenshots/image-1_624x351.png
+    width: 1920
+    height: 1080
+  - url: r/re/regina.desktop/86f8d0b977cd45541ac8f7313cb934d5/screenshots/image-2_orig.png
+    thumbnailUrl: r/re/regina.desktop/86f8d0b977cd45541ac8f7313cb934d5/screenshots/image-2_624x351.png
+    width: 1920
+    height: 1080
+  - url: r/re/regina.desktop/86f8d0b977cd45541ac8f7313cb934d5/screenshots/image-3_orig.png
+    thumbnailUrl: r/re/regina.desktop/86f8d0b977cd45541ac8f7313cb934d5/screenshots/image-3_624x351.png
+    width: 1920
+    height: 1080
+  - url: r/re/regina.desktop/86f8d0b977cd45541ac8f7313cb934d5/screenshots/image-4_orig.png
+    thumbnailUrl: r/re/regina.desktop/86f8d0b977cd45541ac8f7313cb934d5/screenshots/image-4_624x351.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: r/re/regina.desktop/86f8d0b977cd45541ac8f7313cb934d5/icons/128x128/regina-normal_regina.png
+    width: 128
+    height: 128
+homepage: "https://regina-normal.github.io/"
+enabled: true
+order: 99

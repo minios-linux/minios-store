@@ -1,0 +1,5 @@
+{
+  "name": "usbrelay",
+  "description": "Steuerung von USB-gesteuerten Relais, basierend auf hidapi",
+  "longDescription": "<p>\n      Ein kleines Dienstprogramm zur Steuerung von USB-HID-basierten Relais, die für Heimautomatisierung oder andere Schaltanwendungen genutzt werden können. Die Geräte sind bei verschiedenen Anbietern erhältlich und können bis zu 10A bei 250VAC schalten.\n    </p>\n<p>\n      Ein typischer Anwendungsfall sind per USB steuerbare Netzschalter. Damit lässt sich beispielsweise die Stromversorgung einer externen Festplatte für Backups gezielt steuern.\n    </p>\n"
+}

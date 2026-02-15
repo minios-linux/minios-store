@@ -1,0 +1,69 @@
+id: "gnome-authenticator"
+name: Authenticator
+description: A Two-Factor Authentication application
+longDescription: |
+  <p>Simple application that generates a two-factor authentication code, created for GNOME.</p>
+  <p>Features:</p>
+  <ul>
+    <li>QR code scanner</li>
+    <li>Beautiful UI</li>
+    <li>Huge database of more than 560 supported services</li>
+    <li>Keep your PIN tokens secure by locking the application with a password</li>
+    <li>Automatically fetch an image for services using their favicon</li>
+    <li>The possibility to add new services</li>
+    <li>Dark theme and night light</li>
+  </ul>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-authenticator
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gnome
+  - gtk
+  - verification
+  - 2fa
+  - authentication
+  - twofactor
+screenshotSources:
+  - url: com/belmoussaoui/Authenticator/9d9b5df421f1f0cd51547f9dbfa2786d/screenshots/image-1_orig.png
+    thumbnailUrl: com/belmoussaoui/Authenticator/9d9b5df421f1f0cd51547f9dbfa2786d/screenshots/image-1_624x630@1.png
+    width: 812
+    height: 821
+  - url: com/belmoussaoui/Authenticator/9d9b5df421f1f0cd51547f9dbfa2786d/screenshots/image-2_orig.png
+    thumbnailUrl: com/belmoussaoui/Authenticator/9d9b5df421f1f0cd51547f9dbfa2786d/screenshots/image-2_624x584@1.png
+    width: 942
+    height: 882
+  - url: com/belmoussaoui/Authenticator/9d9b5df421f1f0cd51547f9dbfa2786d/screenshots/image-3_orig.png
+    thumbnailUrl: com/belmoussaoui/Authenticator/9d9b5df421f1f0cd51547f9dbfa2786d/screenshots/image-3_624x584@1.png
+    width: 942
+    height: 882
+  - url: com/belmoussaoui/Authenticator/9d9b5df421f1f0cd51547f9dbfa2786d/screenshots/image-4_orig.png
+    thumbnailUrl: com/belmoussaoui/Authenticator/9d9b5df421f1f0cd51547f9dbfa2786d/screenshots/image-4_624x637@1.png
+    width: 816
+    height: 834
+  - url: com/belmoussaoui/Authenticator/9d9b5df421f1f0cd51547f9dbfa2786d/screenshots/image-5_orig.png
+    thumbnailUrl: com/belmoussaoui/Authenticator/9d9b5df421f1f0cd51547f9dbfa2786d/screenshots/image-5_624x692@1.png
+    width: 672
+    height: 746
+iconSources:
+  - url: com/belmoussaoui/Authenticator/9d9b5df421f1f0cd51547f9dbfa2786d/icons/128x128/gnome-authenticator_com.belmoussaoui.Authenticator.png
+    width: 128
+    height: 128
+developer: Bilal Elmoussaoui
+homepage: "https://gitlab.gnome.org/World/Authenticator"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Tutka MIDI Tracker",
+  "description": "Componha músicas usando MIDI",
+  "longDescription": "<p>Este é um sequenciador MIDI, onde as músicas são compostas por blocos. Cada bloco representa um período no tempo. Esses blocos podem ser tocados em qualquer ordem para formar uma música completa. Os blocos são compostos por trilhas onde as notas são inseridas. Todas as trilhas de um bloco são tocadas simultaneamente. Apenas uma nota pode ser reproduzida por trilha de cada vez. Os blocos podem variar em duração e podem ter diferentes quantidades de trilhas.</p>\n<p>Cada nota é executada por um instrumento, que pode ter propriedades como nome, canal MIDI, volume padrão, tempo de sustentação e outros atributos. Também é possível aplicar efeitos às notas. No Tutka, os efeitos incluem volume, aftertouch, bending de pitch, atrasos de nota, ajuste de tempo e mais. Controladores MIDI também podem ser utilizados.</p>\n<p>Utiliza um formato de arquivo personalizado baseado em XML para armazenar músicas. Músicas no formato MMD2 do OctaMED SoundStudio também podem ser carregadas e salvas.</p>\n"
+}

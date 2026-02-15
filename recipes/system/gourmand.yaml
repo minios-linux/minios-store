@@ -1,0 +1,33 @@
+id: gourmand
+name: Gourmand
+description: "Organize recipes, create shopping lists, calculate nutritional information, and more."
+longDescription: |
+  <p>Gourmand is a recipe-organizer that allows you to collect, search, organize, and browse your recipes. Gourmand can also generate shopping lists and calculate nutritional information.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gourmand
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: io/github/GourmandRecipeManager.Gourmand.desktop/8b41b96bf8bbb396cc242a0fce3532d3/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/GourmandRecipeManager.Gourmand.desktop/8b41b96bf8bbb396cc242a0fce3532d3/screenshots/image-1_624x421.png
+    width: 1195
+    height: 808
+iconSources:
+  - url: io/github/GourmandRecipeManager.Gourmand.desktop/8b41b96bf8bbb396cc242a0fce3532d3/icons/128x128/gourmand_io.github.GourmandRecipeManager.Gourmand.png
+    width: 128
+    height: 128
+homepage: "https://github.com/GourmandRecipeManager/gourmand"
+enabled: true
+order: 99

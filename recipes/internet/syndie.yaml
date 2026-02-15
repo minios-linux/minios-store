@@ -1,0 +1,30 @@
+id: syndie
+name: Syndie - Secure Distributed Forums (alternative UI)
+description: Distributed forum/blog reader
+longDescription: |
+  <p>Syndie is a cross-platform system for operating distributed forums, offering a secure and consistent interface to various anonymous and non-anonymous content networks.</p>
+  <p>Syndie operates like blogs, newsgroups, and forums.  Authors can post messages privately or publicly.  Messages are pushed and pulled to and from archive servers, which are hosted in a variety of anonymous and non-anonymous networks including I2P, Tor, and Freenet.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - syndie
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: s/sy/syndie-desktop.desktop/9BA27FE8F735CB831CCCB32AEB49B3D1/icons/128x128/syndie_syndie.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

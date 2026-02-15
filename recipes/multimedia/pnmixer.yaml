@@ -1,0 +1,43 @@
+id: "pnmixer"
+name: PNMixer
+description: An audio mixer for the system tray
+longDescription: |
+  <p>PNMixer is a simple mixer application designed to run in your system tray. It integrates nicely into desktop environments that don&apos;t have a panel that supports applets and therefore can&apos;t run a mixer applet. In particular it&apos;s been used quite a lot with fbpanel and tint2, but should run fine in any system tray.</p>
+  <p>PNMixer is designed to work on systems that use ALSA for sound management. Any other sound driver like OSS or FFADO, or sound server like PulseAudio or Jack, are currently not supported (patches welcome).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pnmixer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - alsa
+  - audio
+  - mixer
+  - sound
+iconSources:
+  - url: p/pn/pnmixer.desktop/c8fabf49cfe01e479c73fa61efeb40b3/icons/128x128/pnmixer_pnmixer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Nifti2Dicom",
+  "description": "Converti immagini 3D NIfTI in serie DICOM 2D",
+  "longDescription": "<p>Nifti2Dicom è uno strumento di conversione che trasforma file NIfTI 3D (e altri formati supportati da ITK, inclusi Analyze, MetaImage, Nrrd e VTK) in DICOM. A differenza di altri strumenti di conversione, consente di importare un file DICOM per acquisire i tag relativi al paziente e allo studio, permettendo inoltre la modifica del numero di accesso e di altri tag DICOM, così da generare un DICOM valido e importabile in un sistema PACS.</p>\n<p>Questo pacchetto include l’interfaccia grafica Qt4.</p>\n"
+}

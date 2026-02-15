@@ -1,0 +1,5 @@
+{
+  "name": "Ebumeter",
+  "description": "Analyseur de niveau sonore conforme EBU-R128 pour JACK",
+  "longDescription": "<p>Ces outils permettent de contrôler le niveau sonore des contenus audio, principalement destinés à la diffusion, mais ils sont également utiles dans d'autres contextes.</p>\n<p>ebumeter et ebur128 permettent de mesurer le Loudness momentané (400 ms), à court terme (3 s) et intégré (du début à la fin). Ils s'appliquent aussi bien aux fichiers audio qu'aux signaux transmis via JACK.</p>\n<p>Ce paquet comprend deux programmes :<br> • ebumeter – analyseur interactif fonctionnant avec jackd<br> • ebur128 – utilitaire en ligne de commande pour mesurer des fichiers audio</p>\n"
+}

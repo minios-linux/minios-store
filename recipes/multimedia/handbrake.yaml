@@ -1,0 +1,65 @@
+id: "handbrake"
+name: HandBrake
+description: Video Transcoder
+longDescription: |
+  <p>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</p>
+  <p>Reasons you&apos;ll love Handbrake:</p>
+  <ul>
+    <li>Convert video from nearly any format</li>
+    <li>Free and Open Source</li>
+    <li>Multi-Platform (Windows, Mac and Linux)</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - handbrake
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: fr/handbrake/ghb/efcc6278c5000a4cc82e0ca0f252aaa2/screenshots/image-1_orig.png
+    thumbnailUrl: fr/handbrake/ghb/efcc6278c5000a4cc82e0ca0f252aaa2/screenshots/image-1_624x351@1.png
+    width: 624
+    height: 351
+  - url: fr/handbrake/ghb/efcc6278c5000a4cc82e0ca0f252aaa2/screenshots/image-2_orig.png
+    thumbnailUrl: fr/handbrake/ghb/efcc6278c5000a4cc82e0ca0f252aaa2/screenshots/image-2_624x351@1.png
+    width: 624
+    height: 351
+  - url: fr/handbrake/ghb/efcc6278c5000a4cc82e0ca0f252aaa2/screenshots/image-3_orig.png
+    thumbnailUrl: fr/handbrake/ghb/efcc6278c5000a4cc82e0ca0f252aaa2/screenshots/image-3_624x351@1.png
+    width: 624
+    height: 351
+  - url: fr/handbrake/ghb/efcc6278c5000a4cc82e0ca0f252aaa2/screenshots/image-4_orig.png
+    thumbnailUrl: fr/handbrake/ghb/efcc6278c5000a4cc82e0ca0f252aaa2/screenshots/image-4_624x351@1.png
+    width: 624
+    height: 351
+  - url: fr/handbrake/ghb/efcc6278c5000a4cc82e0ca0f252aaa2/screenshots/image-5_orig.png
+    thumbnailUrl: fr/handbrake/ghb/efcc6278c5000a4cc82e0ca0f252aaa2/screenshots/image-5_624x351@1.png
+    width: 624
+    height: 351
+iconSources:
+  - url: fr/handbrake/ghb/efcc6278c5000a4cc82e0ca0f252aaa2/icons/128x128/handbrake_fr.handbrake.ghb.png
+    width: 128
+    height: 128
+homepage: "https://handbrake.fr/"
+enabled: true
+order: 99

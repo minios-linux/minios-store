@@ -1,0 +1,26 @@
+id: tekka
+name: tekka IRC Client
+description: Chat on IRC
+longDescription: |
+  <p>The sushi IRC suite consists of a central daemon and several clients, which communicate via DBus. DBus methods and signals are provided by the daemon to abstract the IRC protocol. Clients can use these methods and signals to easily interact with IRC.</p>
+  <p>tekka is a GTK-driven client for maki and is written in Python. It uses Glade to describe the interface, supports plugins and tries to stick to the GNOME Human Interface (HIG) guidelines.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tekka
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/te/tekka.desktop/E86D4724D4F6808C3CADBB870EC93A6E/icons/128x128/tekka_tekka.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

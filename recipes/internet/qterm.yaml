@@ -1,0 +1,38 @@
+id: "qterm"
+name: QTerm
+description: BBS client based on Qt library in linux
+longDescription: |
+  <p>QTerm is a BBS client for X Window System. It supports telnet, ssh1 and ssh2 protocols. It also supports zmodem, URL detect, mouse action.</p>
+  <p>It also supports detecting location from ip address, but you need do some extra work, see README.Debian.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qterm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: q/qt/qterm.desktop/f12058d8fb79b9995d41b781d5e50375/icons/128x128/qterm_qterm.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

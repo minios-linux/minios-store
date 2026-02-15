@@ -1,0 +1,38 @@
+id: krank
+name: Krank
+description: a little casual game
+longDescription: |
+  <p>krank is a game of dexterity, being somewhere between Breakout and billiard, where the aim of each level is to shove floating stones towards compatible static stones. You control a short chain of stones with your mouse to achieve that.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - krank
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - logic
+  - dexterity
+  - stones
+  - mouse
+iconSources:
+  - cached: krank_krank.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,44 @@
+id: "kpat"
+name: KPatience
+description: Solitaire card game
+longDescription: |
+  <p>KPatience is a collection of fourteen solitaire card games, including Klondike, Spider, and FreeCell.</p>
+  <p>This package is part of the KDE games module.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kpat
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kpat/0fba78129cd2faaf501ae921b704e93a/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kpat/0fba78129cd2faaf501ae921b704e93a/screenshots/image-1_624x478@1.png
+    width: 1270
+    height: 974
+iconSources:
+  - url: org/kde/kpat/0fba78129cd2faaf501ae921b704e93a/icons/128x128/kpat_kpat.png
+    width: 128
+    height: 128
+homepage: "https://games.kde.org/game.php?game=kpat"
+enabled: true
+order: 99

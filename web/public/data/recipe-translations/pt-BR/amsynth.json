@@ -1,0 +1,5 @@
+{
+  "name": "amsynth",
+  "description": "Sintetizador digital subtrativo com dois osciladores",
+  "longDescription": "<p>O amSynth oferece:    * dois osciladores de áudio analógicos, com:          o onda senoidal          o onda dente de serra/triangular com formato ajustável          o onda quadrada/pulso com largura de pulso ajustável          o geração de ruído          o onda \"aleatória\" (ruído com sample & hold)          o sincronização de osciladores          o, claro, controle de desafinação e faixa    * seção de mixer com modulação em anel    * filtro analógico low-pass          o curva de 24dB/oitava          o envelope ADSR dedicado          o controle de corte (cutoff) e ressonância          o acompanhamento de pitch do teclado    * amplificador com envelope ADSR dedicado    * LFO de modulação          o modulação de até 58Hz          o roteável para todas as seções (pitch, filtro, amplificador)    * Efeitos          o Reverb estéreo de alta qualidade (freeverb)          o Distorção/crunch    * Navegação e manipulação de presets facilitada    * Opera de forma independente como cliente de áudio/MIDI via OSS ou ALSA</p>\n"
+}

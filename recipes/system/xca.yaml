@@ -1,0 +1,43 @@
+id: "xca"
+name: XCA
+description: A graphical user interface for handling and issuing X.509 compliant Certificates
+longDescription: |
+  <p>XCA creates and manages Certificate authorities and helps the user to create and manage keys, certificates, certificate sign requests, certificate revocation lists etc.</p>
+  <p>All data is saved in an encrypted, portable database, and can be exported in various standard formats. XCA is also available for MacOS X and Windows systems.</p>
+  <p>For a good workflow, certificate templates can be defined to make the creation of new certificates an easy task.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xca
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: de/hohnstaedt/xca/bc992b004373f80859515e9712c42784/screenshots/image-1_orig.png
+    thumbnailUrl: de/hohnstaedt/xca/bc992b004373f80859515e9712c42784/screenshots/image-1_624x395@1.png
+    width: 1057
+    height: 670
+  - url: de/hohnstaedt/xca/bc992b004373f80859515e9712c42784/screenshots/image-2_orig.png
+    thumbnailUrl: de/hohnstaedt/xca/bc992b004373f80859515e9712c42784/screenshots/image-2_624x547@1.png
+    width: 755
+    height: 663
+iconSources:
+  - url: de/hohnstaedt/xca/bc992b004373f80859515e9712c42784/icons/128x128/xca_de.hohnstaedt.xca.png
+    width: 128
+    height: 128
+homepage: "https://www.hohnstaedt.de/xca/"
+enabled: true
+order: 99

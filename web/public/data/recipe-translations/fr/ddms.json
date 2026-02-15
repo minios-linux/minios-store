@@ -1,0 +1,5 @@
+{
+  "name": "Dalvik Debug Monitor Server",
+  "description": "Débogueur pour applications Android",
+  "longDescription": "<p>Android Studio comprend un outil de débogage appelé Dalvik Debug Monitor Server (DDMS), qui offre des services de redirection de ports, la capture d'écran de l’appareil, des informations sur les threads et le tas mémoire, l’accès à logcat, ainsi que des données sur les processus, l’état du réseau et de la radio, l’émulation d’appels entrants et de SMS, la simulation de données de localisation, et bien plus encore.</p>\n<p>Voir aussi : &lt;https://developer.android.com/studio/profile/ddms.html&gt;</p>\n<p>Ce paquet fournit le lanceur autonome de DDMS. Cependant, il est obsolète, veuillez utiliser Android Device Monitor à la place.</p>\n"
+}

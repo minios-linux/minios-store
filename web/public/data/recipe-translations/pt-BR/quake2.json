@@ -1,0 +1,5 @@
+{
+  "name": "Quake 2 MP2: Ground Zero",
+  "description": "Pacote de Missão 2 para o clássico jogo de tiro em primeira pessoa",
+  "longDescription": "<p>Quake II é um jogo de tiro em primeira pessoa clássico da id Software, lançado em 1997. Este pacote inclui um script de inicialização e um atalho de menu para jogar Quake II com qualquer engine compatível.</p>\n<p>Para tornar este pacote utilizável, você precisará criar e instalar alguns pacotes não distribuíveis usando o game-data-packager: pode ser o quake2-full-data ou quake2-demo-data. Para criar o quake2-full-data, são necessários os arquivos de dados de uma instalação do Quake II ou do CD-ROM original.</p>\n<p>O game-data-packager (>= 39) também pode gerar pacotes para as expansões oficiais The Reckoning (desenvolvida pela Xatrix Entertainment) e Ground Zero (desenvolvida pela Rogue Entertainment). Atalhos de menu adicionais devem aparecer automaticamente caso essas expansões estejam instaladas.</p>\n"
+}

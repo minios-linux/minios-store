@@ -1,0 +1,39 @@
+id: "subtitleeditor"
+name: Subtitle Editor
+description: A subtitle editor based on GStreamer and Gtk+
+longDescription: |
+  <p>Subtitle Editor is a GTK+3 tool to edit subtitles.  It can be used for new subtitles or as a tool to transform, edit, correct and refine existing subtitles.</p>
+  <p>This program also shows sound waves, which makes it easier to synchronise subtitles to voices.</p>
+  <p>This package has these features</p>
+  <p> o Multiple document interface.  o Internationalization support.  o Video player integrated in the main window (based on GStreamer).  o Can play preview with external video player (using MPlayer or other).  o Style Editor.  o Move subtitle.  o Scale.  o Split and joint subtitle.  o Edit text and adjust time (start, end).  o Generate Waveform from Video.</p>
+  <p>Supported formats:</p>
+  <p> o Sub Station Alpha.  o Advanced Sub Station Alpha.  o SubRip.  o MicroDVD.  o MPL2.  o MPsub (MPlayer subtitle).  o SubViewer 2.0.  o Plain-Text.  o Adobe Encore DVD.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - subtitleeditor
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - subtitles
+  - subtitle
+  - captions
+  - video
+iconSources:
+  - url: org/kitone/subtitleeditor/c06827703c3834a7bd2a1f230f28851c/icons/128x128/subtitleeditor_subtitleeditor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,40 @@
+id: "rssguard"
+name: RSS Guard
+description: Simple (yet powerful) feed reader
+longDescription: |
+  <p>
+        RSS Guard is simple (yet powerful) feed reader. It is able to fetch the most known feed formats, including RSS/RDF
+  and ATOM. RSS Guard is developed on top of the Qt library.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rssguard
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/github/rssguard.desktop/ace995b14da568ee8bea2e5674845c32/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/rssguard.desktop/ace995b14da568ee8bea2e5674845c32/screenshots/image-1_624x374.png
+    width: 1156
+    height: 693
+iconSources:
+  - url: com/github/rssguard.desktop/ace995b14da568ee8bea2e5674845c32/icons/128x128/rssguard_rssguard.png
+    width: 128
+    height: 128
+homepage: "https://github.com/martinrotter/rssguard"
+enabled: true
+order: 99

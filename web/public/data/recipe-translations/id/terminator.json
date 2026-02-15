@@ -1,0 +1,5 @@
+{
+  "name": "Terminator",
+  "description": "Beberapa terminal dalam satu jendela",
+  "longDescription": "<p>Masa depan terminal, bergaya robot</p>\n<p>Alat untuk pengguna tingkat lanjut dalam mengatur terminal. Terinspirasi oleh program seperti gnome-multi-term, quadkonsole, dan lainnya, dengan fokus utama mengatur terminal dalam grid (tab adalah metode bawaan paling umum, yang juga didukung oleh Terminator).</p>\n<p>Perilaku Terminator banyak mengadopsi GNOME Terminal, dan fitur-fitur baru terus ditambahkan, namun juga dikembangkan dengan berbagai fitur bermanfaat untuk sysadmin dan pengguna lainnya.</p>\n<p>Fitur utama:</p>\n<ul>\n  <li>Atur terminal dalam grid</li>\n  <li>Dukungan tab</li>\n  <li>Drag and drop untuk mengurutkan ulang terminal</li>\n  <li>Banyak pintasan keyboard</li>\n  <li>Simpan banyak layout dan profil melalui editor preferensi GUI</li>\n  <li>Ketik serentak ke beberapa grup terminal</li>\n</ul>\n<p>Dan masih banyak lagi...</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Spatialite GUI",
+  "description": "Kelola basis data Spatialite",
+  "longDescription": "<p>spatialite-gui adalah Antarmuka Pengguna Grafis (GUI) untuk SpatiaLite.</p>\n<p>SpatiaLite merupakan ekstensi SQLite yang memungkinkan dukungan data spasial (geometri) sesuai dengan spesifikasi OpenGis, baik dalam format WKT maupun WKB.</p>\n<p>Spatialite juga mencakup Virtualshape dan Virtualtext untuk memungkinkan akses file shapefile dan file csv/teks sebagai tabel virtual.</p>\n"
+}

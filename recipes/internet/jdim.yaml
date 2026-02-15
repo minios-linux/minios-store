@@ -1,0 +1,56 @@
+id: "jdim"
+name: JDim 2ch browser
+description: JDim is a 2ch browser based on gtkmm.
+longDescription: |
+  <p>JDim (JD improved) offers a comfortable browsing experience on 2ch-style bulletin board systems. Its features include:</p>
+  <p> - automated login,  - message viewing/posting,  - image viewing,  - mouse gestures,  - ignore lists,  - &quot;play-by-play&quot; mode.</p>
+  <p>It can also significantly reduce the load on servers by bypassing CGI programs and directly retrieving thread data files to your local hard drives.</p>
+  <p>&quot;2ch-style&quot; web forum sites have their origins in 2channel, which was a very popular Internet forum in Japan. Such sites are often available only in the Japanese language.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jdim
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/github/jdimproved.jdim/ff3c9216164a8e11b69b3bc8cf306ca9/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/jdimproved.jdim/ff3c9216164a8e11b69b3bc8cf306ca9/screenshots/image-1_624x351@1.png
+    width: 1280
+    height: 720
+  - url: com/github/jdimproved.jdim/ff3c9216164a8e11b69b3bc8cf306ca9/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/jdimproved.jdim/ff3c9216164a8e11b69b3bc8cf306ca9/screenshots/image-2_624x351@1.png
+    width: 1280
+    height: 720
+  - url: com/github/jdimproved.jdim/ff3c9216164a8e11b69b3bc8cf306ca9/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/jdimproved.jdim/ff3c9216164a8e11b69b3bc8cf306ca9/screenshots/image-3_624x349@1.png
+    width: 1280
+    height: 716
+  - url: com/github/jdimproved.jdim/ff3c9216164a8e11b69b3bc8cf306ca9/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/jdimproved.jdim/ff3c9216164a8e11b69b3bc8cf306ca9/screenshots/image-4_624x351@1.png
+    width: 1280
+    height: 720
+iconSources:
+  - url: com/github/jdimproved.jdim/ff3c9216164a8e11b69b3bc8cf306ca9/icons/128x128/jdim_jdim.png
+    width: 128
+    height: 128
+homepage: "https://github.com/JDimproved/JDim"
+enabled: true
+order: 99

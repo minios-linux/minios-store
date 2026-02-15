@@ -1,0 +1,26 @@
+id: desktopnova
+name: DesktopNova
+description: Changes your background image automatically
+longDescription: |
+  <p>DesktopNova changes the desktop background image after an adjustable time. It can choose the images from single files and folders (with or without subfolders). An autostart feature is also implemented.</p>
+  <p>This package contains the graphical user interface and background daemon.</p>
+  <p>There is at least one module needed. Without a module this package will not work as expected! See packages desktopnova-module-*.</p>
+  <p>There is also an additional tray icon available. See package desktopnova-tray.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - desktopnova
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: desktopnova_desktopnova.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

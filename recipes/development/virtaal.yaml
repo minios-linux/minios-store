@@ -1,0 +1,23 @@
+id: virtaal
+name: Virtaal
+description: A translation tool to help a human translator translate files into other languages
+longDescription: |
+  <p>Virtaal is a graphical localisation editor that is designed to offer the translator an uncluttered interface for translating text. Virtaal supports a wide variety of common formats including PO and XLIFF files (and everything else that the translate-toolkit package supports).</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - virtaal
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+iconSources:
+  - cached: virtaal_virtaal.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

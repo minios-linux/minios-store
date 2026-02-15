@@ -1,0 +1,5 @@
+{
+  "name": "Firewall",
+  "description": "Firewall-Konfiguration",
+  "longDescription": "<p>Die Firewall-Konfiguration bietet ein grafisches Werkzeug zur Verwaltung der Firewall.</p>\n<p>Ermöglicht das Überprüfen und Festlegen von:</p>\n<ul>\n  <li>Laufzeit- und permanente Firewall-Einstellungen</li>\n  <li>Vordefinierten Zonen (Vertrauensstufen für Netzwerkverbindungen)</li>\n  <li>Vordefinierten Diensten (Port/Protokoll, Netfilter-Hilfsmodule)</li>\n  <li>Portweiterleitung, Masquerading, ICMP-Blockierung</li>\n  <li>Komplexen Firewall-Regeln (Rich Language)</li>\n  <li>Iptables-Regeln (Direct Interface)</li>\n</ul>\n"
+}

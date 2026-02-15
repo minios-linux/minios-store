@@ -1,0 +1,68 @@
+id: "ktorrent"
+name: KTorrent
+description: BitTorrent Client
+longDescription: |
+  <p>KTorrent is a BitTorrent application by KDE which allows you to download files using
+        the BitTorrent protocol. It enables you to run multiple torrents at the same time and
+        comes with extended features to make it a full-featured client for BitTorrent.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Queuing of torrents</li>
+    <li>Global and per torrent speed limits</li>
+    <li>Previewing of certain file types, build in (video and audio)</li>
+    <li>Importing of partially or fully downloaded files</li>
+    <li>File prioritization for multi-file torrents</li>
+    <li>Selective downloading for multi-file torrents</li>
+    <li>Kick/ban peers with an additional IP Filter dialog for list/edit purposes</li>
+    <li>UDP tracker support</li>
+    <li>Support for private trackers and torrents</li>
+    <li>Support for µTorrent&apos;s peer exchange</li>
+    <li>Support for protocol encryption (compatible with Azureus)</li>
+    <li>Support for creating trackerless torrents</li>
+    <li>Support for distributed hash tables (DHT, the Mainline version)</li>
+    <li>Support for UPnP to automatically forward ports on a LAN with dynamic assigned hosts</li>
+    <li>Support for webseeds</li>
+    <li>Scripting support via Kross, and interprocess control via D-Bus interface</li>
+    <li>System tray integration</li>
+    <li>Tracker authentication support</li>
+    <li>Connection through a proxy</li>
+  </ul>
+  <p>In addition to the built-in functionalities, there are some plugins available for KTorrent.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ktorrent
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/ktorrent.desktop/aeef93d358f78183eb591bf331881651/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ktorrent.desktop/aeef93d358f78183eb591bf331881651/screenshots/image-1_624x432@1.png
+    width: 1321
+    height: 916
+iconSources:
+  - url: org/kde/ktorrent.desktop/aeef93d358f78183eb591bf331881651/icons/128x128/ktorrent_ktorrent.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/applications/internet/ktorrent/"
+enabled: true
+order: 99

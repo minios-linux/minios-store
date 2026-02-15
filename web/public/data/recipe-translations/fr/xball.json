@@ -1,0 +1,5 @@
+{
+  "name": "XBall",
+  "description": "Simule des balles rebondissantes dans une fenêtre",
+  "longDescription": "<p>\n    Ce programme simule des balles rebondissantes dans une fenêtre. Vous pouvez créer les balles de différentes manières, configurer la gravité, l’élasticité, définir si les balles se percutent ou non, etc.</p>\n<p>\n    Le logiciel propose des menus personnalisables par l’utilisateur ainsi qu’un widget DrawingArea compatible avec les autres widgets Athena.</p>\n<p>\n    Toutes les ressources nécessaires sont intégrées dans le programme comme ressources de secours ; il n’est donc pas strictement nécessaire d’installer le fichier app-defaults, sauf lors de l’utilisation des widgets Athena, auquel cas les raccourcis clavier ne fonctionneront pas sans ce fichier.</p>\n<p>\n    Pour exécuter les démonstrations incluses, ouvrez un terminal et tapez « run_demos ».</p>\n"
+}

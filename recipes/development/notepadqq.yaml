@@ -1,0 +1,44 @@
+id: notepadqq
+name: Notepadqq
+description: An advanced text editor
+longDescription: |
+  <p>Notepadqq is an advanced text editor designed to make life easier for developers.</p>
+  <p>It includes real-time syntax highlighting for over one hundred languages, regular expression searches, and text manipulation with multiple cursors.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - notepadqq
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+  - plaintext
+  - write
+screenshotSources:
+  - url: n/no/notepadqq.desktop/8bae7d99085e04db8dc6c4fac7630b5d/screenshots/image-1_orig.png
+    thumbnailUrl: n/no/notepadqq.desktop/8bae7d99085e04db8dc6c4fac7630b5d/screenshots/image-1_624x380.png
+    width: 757
+    height: 462
+iconSources:
+  - url: n/no/notepadqq.desktop/8bae7d99085e04db8dc6c4fac7630b5d/icons/128x128/notepadqq_notepadqq.png
+    width: 128
+    height: 128
+developer: The Notepadqq Team
+homepage: "https://notepadqq.com"
+enabled: true
+order: 99

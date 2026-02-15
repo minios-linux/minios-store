@@ -1,0 +1,42 @@
+id: "raincat"
+name: Raincat
+description: 2D puzzle game featuring a fuzzy little cat
+longDescription: |
+  <p>Raincat is a 2d puzzle game similar to the Incredible Machine and Lemmings series. Your goal is simple: guide the cat safe and dry to the end of each level. Just mind the rain, puddles, and loose fire hydrants in your path!</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - raincat
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - cat
+  - lemmings
+  - puzzle
+  - kids
+iconSources:
+  - url: r/ra/raincat.desktop/a8d2b17655116d626533cbea0dab17a3/icons/128x128/raincat_raincat.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Shredder Duplicate Finder",
+  "description": "Temukan dan hapus file duplikat",
+  "longDescription": "<p>rmlint-gui (dikenal juga sebagai Shredder) adalah antarmuka grafis berbasis GTK+ untuk rmlint. Aplikasi ini menggunakan rmlint untuk menemukan pemborosan ruang dan berbagai masalah lain pada sistem file Anda, serta menawarkan opsi untuk menghapusnya.</p>\n<p>Aplikasi ini mampu menemukan:  * File & direktori duplikat.  * Binary yang belum diperkecil (non-stripped).  * Symlink rusak.  * File kosong.  * Direktori kosong yang bersarang.  * File dengan ID user atau grup yang rusak.</p>\n<p>Fitur Utama:  * Sangat cepat.  * Opsi command-line yang fleksibel dan mudah.  * Pilihan beberapa jenis hash untuk deteksi duplikat berbasis hash.  * Opsi perbandingan byte-per-byte yang akurat (hanya sedikit lebih lambat).  * Banyak opsi output.  * Opsi menyimpan waktu pemindaian terakhir; pemindaian berikutnya hanya untuk file baru.  * Banyak pilihan untuk pemilihan/prioritas file asli.  * Dapat menangani kumpulan file sangat besar (jutaan file).</p>\n"
+}

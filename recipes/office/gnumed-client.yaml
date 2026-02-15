@@ -1,0 +1,62 @@
+id: "gnumed-client"
+name: GNUmed EMR
+description: An Electronic Medical Record for community care
+longDescription: |
+  <p>GNUmed enables doctors to keep a medically sound record
+  	on their patients&apos; health. It does not currently provide
+  	functionality for stock keeping. Clinical features are
+  	well-tested by real doctors in the field.</p>
+  <p>While the GNUmed team has taken the utmost care to make
+  	sure the medical records are safe at all times you still
+  	need to make sure you are taking appropriate steps to
+  	backup medical data to a safe place at appropriate intervals.
+  	Do not forget to test your recovery procedures, too !</p>
+  <p>Protect your data! GNUmed itself comes without
+  	any warranty whatsoever. You have been warned.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnumed-client
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - phr
+  - pmr
+  - ehr
+  - pms
+  - patient record
+  - medical record
+  - patient chart
+  - practice management system
+  - medical practice
+  - surgery
+screenshotSources:
+  - url: de/gnumed/client/c55cb5eb62dfc019f50a146feabd2d1e/screenshots/image-1_orig.png
+    thumbnailUrl: de/gnumed/client/c55cb5eb62dfc019f50a146feabd2d1e/screenshots/image-1_624x389.png
+    width: 800
+    height: 499
+iconSources:
+  - url: de/gnumed/client/c55cb5eb62dfc019f50a146feabd2d1e/icons/128x128/gnumed-client_gm_icon-serpent_and_gnu.png
+    width: 128
+    height: 128
+homepage: "http://www.gnumed.de"
+enabled: true
+order: 99

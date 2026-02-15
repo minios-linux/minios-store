@@ -1,0 +1,5 @@
+{
+  "name": "gitg",
+  "description": "Visor de repositorios Git",
+  "longDescription": "<p>gitg es una interfaz gráfica para Git. Su objetivo es ser una herramienta ligera, rápida y cómoda para visualizar el historial de repositorios Git. Además de la visualización, gitg ofrece varias utilidades para gestionar tu repositorio y realizar commits de tu trabajo.</p>\n<p>Funciones principales</p>\n<ul>\n  <li>Navegar por repositorios Git locales</li>\n  <li>Clonar repositorios Git locales y remotos</li>\n  <li>Realizar commits de archivos</li>\n  <li>Obtener un parche desde un commit</li>\n</ul>\n"
+}

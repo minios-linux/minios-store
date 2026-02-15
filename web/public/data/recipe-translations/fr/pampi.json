@@ -1,0 +1,5 @@
+{
+  "name": "Pampi",
+  "description": "créez des présentations avec Markdown, Pandoc, Impress",
+  "longDescription": "<p>PAMPI est un logiciel libre permettant de créer facilement des présentations.</p>\n<p>Les présentations sont rédigées dans des fichiers texte,  - ce qui facilite leur modification  - la syntaxe des fichiers (Markdown) est simple à apprendre  - de nombreux exemples de Markdown utilisable sont disponibles sur https://enacit1.epfl.ch/markdown-pandoc  Ils sont convertis en pages web (fichiers HTML)  - consultables avec un navigateur  - publiables en ligne, ou transportables sur une clé USB, etc. L’interface de PAMPI affiche le fichier Markdown à gauche et le rendu à droite.</p>\n<p>Chaque étape d’une présentation peut être positionnée librement dans un espace 3D  - il suffit d’indiquer ses coordonnées  - un facteur de zoom peut être précisé  - il est également possible de définir des rotations Les formules mathématiques peuvent être créées avec KaTeX.</p>\n<p>De nombreux exemples sont disponibles ici : https://en.wikibooks.org/wiki/LaTeX/Mathematics.</p>\n"
+}

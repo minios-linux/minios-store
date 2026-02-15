@@ -1,0 +1,5 @@
+{
+  "name": "XTide Tide Predictor",
+  "description": "Anzeige von Gezeiten- und Strömungsvorhersagen",
+  "longDescription": "<p>XTide ist ein Paket, das Gezeiten- und Strömungsprognosen in verschiedensten Formaten bereitstellt. Es können Diagramme, tabellarische Übersichten und Kalender generiert werden oder eine Gezeitenuhr als Desktop-Anzeige eingebunden werden.</p>\n<p>XTide funktioniert sowohl mit dem X Window System, als auch an reinen Text-Terminals oder über das Web. Dafür gibt es drei verschiedene Programme: die interaktive Oberfläche (xtide), die nicht-interaktive bzw. Kommandozeilenschnittstelle (tide) und die Weboberfläche (xttpd).</p>\n<p>Der von XTide verwendete Algorithmus zur Gezeiten-Vorhersage wird auch vom National Ocean Service in den USA eingesetzt und ist deutlich präziser als einfache Gezeitenuhren aus dem Handel. Für eine exakte Vorhersage werden jedoch Standortdaten für jeden Gezeitenort benötigt – dieses Paket enthält eine Beispieldatensammlung für einen Ort zu Testzwecken. Für die praktische Nutzung werden die umfangreicheren Daten aus dem xtide-data-Paket benötigt (oder als Download von der XTide-FTP-Seite).</p>\n"
+}

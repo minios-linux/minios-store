@@ -1,0 +1,5 @@
+{
+  "name": "DNS Query Tool",
+  "description": "Lakukan kueri DNS lanjutan",
+  "longDescription": "<p>GResolver adalah alat grafis berbasis GTK+ untuk melakukan kueri DNS. Aplikasi ini memudahkan administrator sistem dalam menjalankan kueri DNS yang umum tanpa harus menulis perintah dig atau nslookup yang panjang.</p>\n<p>GResolver mendukung semua tipe resource record utama, termasuk AAAA, AXFR, MX, dan TXT. Untuk kueri PTR, alamat in-addr.arpa akan otomatis dibuat dari alamat IP dotted-quad. Tersedia juga kotak centang untuk mengatur opsi-opsi yang paling sering digunakan.</p>\n"
+}

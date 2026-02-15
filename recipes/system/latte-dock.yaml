@@ -1,0 +1,57 @@
+id: "latte-dock"
+name: Latte
+description: Dock for the masses
+longDescription: |
+  <p>Latte is a dock based on plasma frameworks that provides an elegant and intuitive experience for your tasks and plasmoids. It animates its contents by using parabolic zoom effect and tries to be there only when it is needed.</p>
+  <p>&quot;Art In Coffee&quot;</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - latte-dock
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/latte-dock.desktop/92D8989D5893081081D6A5A416FD0FE2/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/latte-dock.desktop/92D8989D5893081081D6A5A416FD0FE2/screenshots/image-1_224x46.png
+    width: 1253
+    height: 261
+  - url: org/kde/latte-dock.desktop/92D8989D5893081081D6A5A416FD0FE2/screenshots/image-2_orig.png
+    width: 991
+    height: 105
+  - url: org/kde/latte-dock.desktop/92D8989D5893081081D6A5A416FD0FE2/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/latte-dock.desktop/92D8989D5893081081D6A5A416FD0FE2/screenshots/image-3_624x239.png
+    width: 1780
+    height: 683
+  - url: org/kde/latte-dock.desktop/92D8989D5893081081D6A5A416FD0FE2/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/latte-dock.desktop/92D8989D5893081081D6A5A416FD0FE2/screenshots/image-4_624x470.png
+    width: 1206
+    height: 910
+  - url: org/kde/latte-dock.desktop/92D8989D5893081081D6A5A416FD0FE2/screenshots/image-5_orig.png
+    width: 1919
+    height: 81
+iconSources:
+  - url: org/kde/latte-dock/857cd1241c7a08bf9a893e2c78f6df5c/icons/128x128/latte-dock_latte-dock.png
+    width: 128
+    height: 128
+developer: "Michail Vourlakos, Johan Smith Agudelo Rodriguez"
+homepage: "https://github.com/psifidotos/Latte-Dock"
+enabled: true
+order: 99

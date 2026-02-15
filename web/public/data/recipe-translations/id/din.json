@@ -1,0 +1,5 @@
+{
+  "name": "DIN Is Noise",
+  "description": "Instrumen musik digital",
+  "longDescription": "<p>DIN adalah instrumen musik digital dan sintetis audio. Aplikasi ini memungkinkan pengguna menggunakan kurva Bezier untuk membuat dan mengatur bentuk gelombang suara, pola gating dan modulasi, serta pola umpan balik delay dan volume. Anda dapat membuat dan mengedit jumlah drone tanpa batas, memodifikasi bentuk gelombangnya, dan melakukan modulasi secara visual.</p>\n<p>DIN menggunakan JACK untuk keluaran audio, serta mendukung input MIDI, OSC, dan bot IRC. DIN juga dapat diperluas dan dikustomisasi menggunakan skrip Tcl.</p>\n"
+}

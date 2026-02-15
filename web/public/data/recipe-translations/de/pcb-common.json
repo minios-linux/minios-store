@@ -1,0 +1,5 @@
+{
+  "name": "gEDA PCB",
+  "description": "Erstellen und Bearbeiten von Leiterplatten-Layouts",
+  "longDescription": "<p>PCB ist ein interaktiver Editor für Leiterplatten-Layouts für Unix-, Linux-, Windows- und Mac-Systeme.</p>\n<p>PCB umfasst eine Ratsnest-Funktion, Importmöglichkeiten für Schaltpläne und Netzlisten sowie eine Design-Regel-Prüfung (DRC). Die Software bietet Ausgabeformate nach Industriestandard wie RS-274X (Gerber), NC-Bohrdaten, IPC-D-356-Netzlisten und Zentroiddaten (X-Y-Daten) für die Leiterplattenfertigung und -bestückung sowie fotorealistische Ansichten zur Designprüfung.</p>\n<p>PCB bietet High-End-Funktionen wie einen Autorouter, einen topologischen Router und verschiedene Leiterbahnen-Optimierer, die die Layoutzeit erheblich verkürzen können.</p>\n<p>Für individuelle Anforderungen bietet PCB eine Plugin-API zum Erweitern des Funktionsumfangs, der sowohl über die grafische Benutzeroberfläche als auch über Skripte genutzt werden kann.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "KBackup",
+  "description": "Crie backups em arquivos .tar para uma pasta local ou URL remota",
+  "longDescription": "<p>\n      KBackup é um aplicativo que permite fazer backup dos seus dados de forma simples e intuitiva\n    </p>\n<p>Recursos:</p>\n<ul>\n  <li>Utilização de arquivos de perfil com definições de pastas e arquivos a serem incluídos ou excluídos do backup</li>\n  <li>O destino do backup pode ser um dispositivo montado localmente, como unidade ZIP, pendrive USB, etc., ou qualquer URL remota</li>\n  <li>Execução de backups automatizados sem necessidade de interface gráfica</li>\n</ul>\n"
+}

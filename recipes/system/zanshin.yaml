@@ -1,0 +1,51 @@
+id: "zanshin"
+name: Renku
+description: Note Taking Application
+longDescription: |
+  <p>Renku is an efficient and simple application for managing your notes.
+        It helps you organize the knowledge you accumulate and acts as a personal wiki.
+        You&apos;ll never forget anything anymore, getting your mind like water.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Collects notes</li>
+    <li>Organize notes in topics</li>
+    <li>Akonadi-enabled application allowing to get the data from virtually anywhere (local, imap, web service...)</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zanshin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [i386]
+screenshotSources:
+  - url: org/kde/zanshin.desktop/e5b430f2da4f537113ff68097ce46478/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/zanshin.desktop/e5b430f2da4f537113ff68097ce46478/screenshots/image-1_624x416@1.png
+    width: 1277
+    height: 852
+iconSources:
+  - url: org/kde/zanshin.desktop/e5b430f2da4f537113ff68097ce46478/icons/128x128/zanshin_zanshin.png
+    width: 128
+    height: 128
+homepage: "http://zanshin.kde.org"
+enabled: true
+order: 99

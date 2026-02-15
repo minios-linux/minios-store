@@ -1,0 +1,40 @@
+id: mate-tweak
+name: MATE Tweak
+description: "Customize desktop, panel, and window manager settings"
+longDescription: |
+  <p>Configures some aspects of the MATE desktop not exposed via the MATE Control Center applets.</p>
+  <p>Settings that can be handled via MATE Tweak:</p>
+  <p>  - Show/hide standard desktop icons   - Panel fine-tuning (icon visibility, in menus and on buttons,     icon size, button labelling, contex menus, etc.)   - Window manager fine-tuning</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mate-tweak
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - mate
+  - desktop
+  - marco
+  - compiz
+  - theming
+  - customize
+  - fine
+  - tune
+  - tweak
+  - adapt
+iconSources:
+  - url: m/ma/mate-tweak.desktop/A9A7AB459BD52B697071C14D3D77A431/icons/128x128/mate-tweak_user-desktop.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

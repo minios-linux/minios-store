@@ -1,0 +1,5 @@
+{
+  "name": "Kookbook",
+  "description": "Aplikasi sederhana untuk mengelola koleksi resep",
+  "longDescription": "<p>KookBook membantu Anda mengkurasi koleksi resep masakan, memungkinkan Anda menelusuri resep, mencari berdasarkan judul atau bahan untuk menemukan kembali detail kreasi dapur Anda.</p>\n<p>Resep ditulis dalam format markdown dan disimpan dalam file teks. Sebuah buku masak, atau kumpulan resep, adalah struktur folder yang berisi satu atau lebih resep. Struktur folder ini dapat digunakan untuk menelusuri dan mengelompokkan resep.</p>\n<p>Resep dapat disinkronkan ke perangkat lain atau dibagikan dengan pengguna lain menggunakan alat eksternal seperti repository git, nextcloud, atau berbagai layanan lainnya.</p>\n<p>Paket ini mencakup program desktop \"kookbook\" dan versi layar sentuh \"kookbooktouch\".</p>\n<p>Paket ini juga menyertakan utilitas konversi sederhana yang dapat mengubah basis data krecipes menjadi kumpulan file markdown kookbook. Untuk detail lebih lanjut, lihat /usr/share/doc/kookbook/README.Debian</p>\n"
+}

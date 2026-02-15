@@ -1,0 +1,39 @@
+id: "openlp"
+name: OpenLP
+description: "Project lyrics, bible verses, media and more."
+longDescription: |
+  <p>OpenLP is free church presentation software, or lyrics projection software, used to display slides of songs, Bible verses, videos, images, and even presentations for church worship using a computer and a data projector.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openlp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - projection,multimedia,videos,music,songs,worship
+iconSources:
+  - url: o/op/openlp.desktop/452e131ce27789650d07184328b83318/icons/128x128/openlp_openlp.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

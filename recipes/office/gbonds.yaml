@@ -1,0 +1,42 @@
+id: gbonds
+name: GBonds
+description: Savings Bond Inventory
+longDescription: |
+  <p>GBonds is a Savings Bond inventory program for the GNOME desktop environment. It allows you to track the current redemption value and performance of your U.S. Savings Bonds and keep a valuable record of the bonds you own.  GBonds is similar in functionality to Savings Bond Wizard from the U.S. Department of the Treasury.</p>
+  <p>Features:</p>
+  <p>  * Tracks savings notes and series E, EE, and I savings bonds.   * Uses U.S. Treasury Department redemption files without modification.   * Imports inventories created with Savings Bond Wizard.   * Tracks current value of both individual bonds and an entire inventory.   * Prints inventories.  It is important to keep a permanent record of your     bonds in a separate location in case you ever need to replace them.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gbonds
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - savings
+  - bond
+iconSources:
+  - cached: gbonds_gbonds.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

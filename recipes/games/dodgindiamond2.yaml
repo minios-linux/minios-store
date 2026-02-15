@@ -1,0 +1,43 @@
+id: "dodgindiamond2"
+name: Dodgin' Diamond 2
+description: Little shoot-'em-up arcade game for one or two player
+longDescription: |
+  <p>This aims to be an old school arcade game with low resolution graphics, top-down scrolling action, energy based gameplay, and different weapons with several levels of power.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dodgindiamond2
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - arcade
+  - game
+  - shooter
+  - action
+  - space
+iconSources:
+  - url: d/do/dodgindiamond2.desktop/facc70cb090e288c2069a7a17ccb8fa8/icons/128x128/dodgindiamond2_dodgindiamond2.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

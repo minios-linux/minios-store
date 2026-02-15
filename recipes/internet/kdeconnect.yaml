@@ -1,0 +1,51 @@
+id: "kdeconnect"
+name: KDE Connect Indicator
+description: Display information about your devices
+longDescription: |
+  <p>Tool to integrate the KDE Plasma Workspace with your smartphones and similar devices. It adds a set of plasmoid, plugins and services to the KDE Plasma Workspace. At the  moment it only supports Android based devices.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kdeconnect
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kdeconnect.kcm.desktop/391ab5825cead394e52caa9fadca4c73/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kdeconnect.kcm.desktop/391ab5825cead394e52caa9fadca4c73/screenshots/image-1_224x186.png
+    width: 537
+    height: 447
+  - url: org/kde/kdeconnect.kcm.desktop/391ab5825cead394e52caa9fadca4c73/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kdeconnect.kcm.desktop/391ab5825cead394e52caa9fadca4c73/screenshots/image-2_624x418.png
+    width: 1012
+    height: 679
+  - url: org/kde/kdeconnect.kcm.desktop/391ab5825cead394e52caa9fadca4c73/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kdeconnect.kcm.desktop/391ab5825cead394e52caa9fadca4c73/screenshots/image-3_224x73.png
+    width: 739
+    height: 241
+iconSources:
+  - url: org/kde/kdeconnect.sms/3785813f36ad77d83d6797e117356603/icons/128x128/kdeconnect_kdeconnect.png
+    width: 128
+    height: 128
+homepage: "https://community.kde.org/KDEConnect"
+enabled: true
+order: 99

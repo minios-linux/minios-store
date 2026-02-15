@@ -1,0 +1,5 @@
+{
+  "name": "PerlPrimer",
+  "description": "Diseño gráfico de cebadores para PCR y secuenciación",
+  "longDescription": "<p>PerlPrimer es una aplicación gratuita y de código abierto con interfaz gráfica, escrita en Perl, que permite diseñar cebadores para Reacción en Cadena de la Polimerasa (PCR) estándar, PCR con bisulfito, PCR en tiempo real (QPCR) y secuenciación. Su objetivo es automatizar y simplificar el proceso de diseño de cebadores.</p>\n<p>Si se utiliza en línea, la herramienta se integra con el proyecto Ensembl para obtener información adicional sobre la estructura génica, permitiendo considerar la ubicación de exones e intrones en el diseño de los cebadores. También es posible recuperar las propias secuencias.</p>\n"
+}

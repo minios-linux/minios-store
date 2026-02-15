@@ -1,0 +1,5 @@
+{
+  "name": "RFDump",
+  "description": "Werkzeug zur direkten Interaktion mit einem RFID-Lesegerät",
+  "longDescription": "<p>RFDump ist ein Tool zum Auslesen und Dekodieren von RFID-Tags und zeigt deren Metadaten wie Tag-ID, Tag-Typ, Hersteller usw. an. Der Benutzerspeicher eines Tags kann im Hex- oder ASCII-Editor angezeigt und bearbeitet werden. Zudem demonstriert das integrierte Cookie-Feature anschaulich, wie einfach Unternehmen RFID-Technologie missbrauchen könnten, um ihre Kunden auszuspionieren. RFDump unterstützt den ACG Multi-Tag-Reader sowie vergleichbare Kartenleser-Hardware.</p>\n"
+}

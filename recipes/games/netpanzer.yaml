@@ -1,0 +1,34 @@
+id: netpanzer
+name: NetPanzer
+description: Online multiplayer tactical warfare game
+longDescription: |
+  <p>netPanzer is an isometric view real-time tactical game designed for play across the Internet and over LAN systems. One on one games are possible via direct connect or modem.</p>
+  <p>netPanzer is designed for FAST ACTION combat -- it is not another resource management clone. In fact, there aren&apos;t any resources at all. Each player will have many units of different types at their disposal. Players can fight until their units are destroyed -- then respawn and keep on going.</p>
+  <p>The game is real-time, but it&apos;s based on quick tactical action and unit management. Battles progress quickly and constantly; in fact, they never let up. There is no stop in the action because there is no waiting for resources to be collected and converted into weaponry. Players can join or leave  multiplayer games at any time.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - netpanzer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - panzer
+  - tanks
+  - realtime
+  - battle
+iconSources:
+  - cached: netpanzer_netpanzer.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

@@ -1,0 +1,38 @@
+id: "activity-log-manager"
+name: Security & Privacy
+description: Privacy and Activity Manager
+longDescription: |
+  <p>Zeitgeist is a service which logs the user&apos;s activities and events (files opened, websites visited, conversations held with other people, etc.) and makes the relevant information available to other applications.</p>
+  <p>It serves as a comprehensive activity log and also makes it possible to determine relationships between items based on usage patterns.</p>
+  <p>This package contains Activity Log Manager, a graphical user interface which lets you control what gets logged by Zeitgeist. It supports setting up blacklists according to several criteria (such as application or file types), temporarily stopping all logging as well as deleting recent events.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - activity-log-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - privacy
+  - activity
+  - log
+  - zeitgeist
+  - diagnostics
+  - error reports
+iconSources:
+  - url: a/ac/activity-log-manager.desktop/a4f3c83e69c93b1df067f4635016c593/icons/128x128/activity-log-manager_activity-log-manager.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

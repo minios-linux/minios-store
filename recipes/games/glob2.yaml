@@ -1,0 +1,38 @@
+id: glob2
+name: Globulation 2
+description: An innovative new strategy game
+longDescription: |
+  <p>Globulation 2 is an ongoing, multi-platform project to create innovative high-quality RTS gameplay, minimizing micro-management and assigning tasks to the units automatically. You just have to order the number of units you want for a selected task and the units will do their best to satisfy your requirements.</p>
+  <p>Glob2 can be played by a single player, through your Local Area Network, or over the Internet, thanks to the Ysagoon Online Gaming meta-server. It also features a scripting language for versatile gameplay and an integrated map editor.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - glob2
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: glob2_glob2-icon-48x48.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

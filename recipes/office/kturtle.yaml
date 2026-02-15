@@ -1,0 +1,43 @@
+id: "kturtle"
+name: KTurtle
+description: Educational Programming Environment
+longDescription: |
+  <p>KTurtle is an educational programming environment for learning how to program. It provides all programming tools from its user interface. The programming language used is TurtleScript, which is loosely based on Logo. All commands and messages are translated into the user&apos;s language. KTurtle features an intuitive syntax highlighting, simple error messages, integrated canvas to make drawings, an integrated help, slow-motion and step execution.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kturtle
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kturtle.desktop/987f89ec42f626170472fc56b021d210/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kturtle.desktop/987f89ec42f626170472fc56b021d210/screenshots/image-1_624x410@1.png
+    width: 964
+    height: 634
+iconSources:
+  - url: org/kde/kturtle.desktop/987f89ec42f626170472fc56b021d210/icons/128x128/kturtle_kturtle.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/kturtle/"
+enabled: true
+order: 99

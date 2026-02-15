@@ -1,0 +1,5 @@
+{
+  "name": "vokoscreen",
+  "description": "grabador de pantalla",
+  "longDescription": "<p>vokoscreen se utiliza para grabar vídeos educativos, sesiones en vivo del navegador, instalaciones, videoconferencias, etc. Puedes capturar solo vídeo o vídeo junto con audio (usando ALSA o PulseAudio).</p>\n<p>El programa es muy sencillo y utiliza una interfaz gráfica minimalista. También permite capturar la imagen de tu webcam al mismo tiempo, lo que resulta especialmente útil para crear screencasts. Otra función destacada es la captura directa desde cámaras digitales IEEE1394.</p>\n<p>Este programa aprovecha las funcionalidades de ffmpeg y guarda las grabaciones en varios formatos, como AVI, MP4, FLV y MKV para vídeo, y MP3 para audio.</p>\n"
+}

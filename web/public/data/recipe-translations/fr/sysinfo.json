@@ -1,0 +1,5 @@
+{
+  "name": "Sysinfo",
+  "description": "Affiche des informations détaillées sur l’ordinateur et le système",
+  "longDescription": "<p>Sysinfo est un utilitaire graphique permettant d’afficher diverses informations matérielles et logicielles sur l’ordinateur en cours d’utilisation.</p>\n<p>Il peut reconnaître et présenter des informations sur :   - Système (distribution Linux, version de GNOME, noyau, gcc, Xorg et nom d’hôte) ;   - Processeur (identification du fabricant, nom du modèle, fréquence, cache de niveau 2, bogomips, numéros et indicateurs de modèle) ;   - Mémoire (RAM totale, mémoire libre, espace d’échange total et libre, mémoire en cache, active, inactive) ;   - Stockage (interface IDE, tous les périphériques IDE, périphériques SCSI) ;   - Matériel (carte mère, carte graphique, carte son, interfaces réseau) ;   - Carte graphique NVIDIA : uniquement si le pilote NVIDIA est installé.</p>\n"
+}

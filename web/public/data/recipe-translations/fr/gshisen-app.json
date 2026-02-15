@@ -1,0 +1,5 @@
+{
+  "name": "GShisen",
+  "description": "Jeu de puzzle Shizen-sho pour GNUstep",
+  "longDescription": "<p>L'objectif du jeu est de retirer toutes les tuiles du plateau. Seules deux tuiles identiques peuvent être retirées à la fois. Deux tuiles ne peuvent être retirées que si elles peuvent être reliées par au maximum trois segments de ligne. Les lignes peuvent être horizontales ou verticales, mais jamais diagonales. N'oubliez pas que les lignes peuvent traverser la bordure vide. Si vous êtes bloqué, vous pouvez utiliser la fonction Indice pour trouver deux tuiles pouvant être retirées.</p>\n"
+}

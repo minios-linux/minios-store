@@ -1,0 +1,38 @@
+id: "fritzing"
+name: Fritzing
+description: Electronic Design Automation software
+longDescription: |
+  <p>Fritzing is an open source project designed to help one transition from a prototype to a finished project. Aimed at users who want to produce or document circuits and experiments, one starts by building a physical prototype, then recreating it with Fritzing’s graphical editor. From there one can generate a schematic, PCB artwork, and PCB production files.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fritzing
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: fritzing_fritzing.png
+    width: 64
+    height: 64
+homepage: "https://fritzing.org/"
+enabled: true
+order: 99

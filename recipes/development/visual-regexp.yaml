@@ -1,0 +1,63 @@
+id: visual-regexp
+name: visual-regexp
+description: graphical front-end to write/debug regular expressions in Perl
+longDescription: |
+  <p>
+        visual-regexp helps to design, debug or more generally work with the perl regular expressions. Since it is often
+  difficult to write the right regexp on the first attempt, this tool will show the effect of regexp on a sample that can be selected.
+      </p>
+  <p>
+        This software will allow one to design regexps while leaving the type of expression and visualize its effect on
+  a sample of your choice to interactively debug regular expressions.
+      </p>
+  <p>
+        Makes it possible to use visual-regexp to modify a text. Just use the menu and can now design a regexp to match
+  what you're looking for. After substitution, is able to save the new text. May allow the program to select the end-of-line format or force it for a specific environment.
+      </p>
+  <p>
+        This program is a Tcl script and shows the result of running a regular expression, and making debugging relatively
+  easy. It also assists in the construction of regular expressions.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - visual-regexp
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - construction
+  - debug
+  - expression
+  - regex
+  - regexp
+  - regular
+  - perl
+  - tcl
+  - visual
+screenshotSources:
+  - url: fr/free/riesterer.laurent.visual_regexp/dae6ff2b7099607558a25cf1fc251827/screenshots/image-1_orig.png
+    thumbnailUrl: fr/free/riesterer.laurent.visual_regexp/dae6ff2b7099607558a25cf1fc251827/screenshots/image-1_224x179.png
+    width: 494
+    height: 396
+  - url: fr/free/riesterer.laurent.visual_regexp/dae6ff2b7099607558a25cf1fc251827/screenshots/image-2_orig.png
+    thumbnailUrl: fr/free/riesterer.laurent.visual_regexp/dae6ff2b7099607558a25cf1fc251827/screenshots/image-2_224x169.png
+    width: 556
+    height: 421
+  - url: fr/free/riesterer.laurent.visual_regexp/dae6ff2b7099607558a25cf1fc251827/screenshots/image-3_orig.png
+    thumbnailUrl: fr/free/riesterer.laurent.visual_regexp/dae6ff2b7099607558a25cf1fc251827/screenshots/image-3_224x237.png
+    width: 371
+    height: 393
+iconSources:
+  - url: fr/free/riesterer.laurent.visual_regexp/dae6ff2b7099607558a25cf1fc251827/icons/128x128/visual-regexp_visual-regexp.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

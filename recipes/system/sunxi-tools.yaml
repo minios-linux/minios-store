@@ -1,0 +1,29 @@
+id: sunxi-tools
+name: sunxi-tools
+description: Tools for working with Allwinner (sunxi) ARM processors
+longDescription: |
+  <p>This package contains various tools for working with devices
+      based around the Allwinner sunxi processors (A10/A13/A20/A31
+      etc). Utilities include tools to:</p>
+  <ul>
+    <li>interact with the processors' lowlevel bootrom (AKA FEL mode).</li>
+    <li>boot over the USB OTG port.</li>
+    <li>compile and decompile the Allwinner binary hardware
+        descriptions (FEX files).</li>
+    <li>display information about sunxi boot headers.</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sunxi-tools
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+homepage: "https://linux-sunxi.org"
+enabled: true
+order: 99

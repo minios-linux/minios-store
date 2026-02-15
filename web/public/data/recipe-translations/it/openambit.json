@@ -1,0 +1,5 @@
+{
+  "name": "Openambit",
+  "description": "Sincronizzazione open source per la serie Suunto Ambit",
+  "longDescription": "<p>Questo pacchetto fornisce un software che facilita la comunicazione con gli orologi outdoor Suunto Ambit.</p>\n<p>OpenAmbit offre le seguenti funzionalità:  - Lettura dei log dal dispositivo e salvataggio in file XML;  - Caricamento dei log su movescount.com;  - Aggiornamento dei dati orbitali (per una sincronizzazione GPS più rapida) sul dispositivo.</p>\n<p>Non include (ma potrebbe includere in versioni future) le seguenti funzionalità:  - Sincronizzazione delle impostazioni utente da movescount al dispositivo;  - Sincronizzazione di app, percorsi ecc. da movescount al dispositivo.</p>\n<p>L'applicazione è suddivisa in due parti: libambit, una libreria C di base che gestisce la comunicazione con il dispositivo, e l'applicazione GUI openambit che scrive i log in file XML e sincronizza con movescount. Le funzionalità legate a movescount sono completamente opzionali e devono essere abilitate manualmente nell'interfaccia utente.</p>\n<p>Questo pacchetto fornisce l'interfaccia grafica (GUI).</p>\n"
+}

@@ -1,0 +1,31 @@
+id: cantata
+name: Cantata
+description: Listen and manage music collection
+longDescription: |
+  <p>Cantata is a graphical front-end for the music player daemon, MPD. It provides many tools to view and manage the music collection including:</p>
+  <p>  * library - sorted by album, artist, track, directory   * albums with cover art   * user defined playlists   * dynamic playlists   * streams, internet radio   * lyrics   * artist information from Wikipedia   * device support for USB mass storage, MTP and CDs</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cantata
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - mpd
+iconSources:
+  - url: c/ca/cantata.desktop/505043f16affc3b0e9e2c4783997a856/icons/128x128/cantata_cantata.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

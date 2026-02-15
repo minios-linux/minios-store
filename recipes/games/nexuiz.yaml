@@ -1,0 +1,40 @@
+id: "nexuiz"
+name: Nexuiz
+description: A networked 3D first person shooter game with high-quality graphic effects
+longDescription: |
+  <p>Nexuiz Classic is a fast-paced 3D deathmatch game with high-end and complex graphics effects. It is intended to be played over the Internet or over a local network. Several different game types, such as classic deathmatch, team deathmatch and capture the flag are available. It also supports a single-player mode and playing against the computer.</p>
+  <p>The game brings deathmatch back to the basics, with perfect weapon  balancing and fast paced action, keeping itself away from the current trend of realistic shooters.</p>
+  <p>This package installs the client to play the game.</p>
+  <p>This game was originally released as &quot;Nexuiz&quot;, but is now referred to as &quot;Nexuiz Classic&quot; since the Nexuiz name was re-used for a non-free game for consoles.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nexuiz
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: n/ne/nexuiz.desktop/266eb63bd3d1228ddd556b11c7a3eb67/icons/128x128/nexuiz_nexuiz.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

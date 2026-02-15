@@ -1,0 +1,44 @@
+id: "katomic"
+name: KAtomic
+description: Sokoban-like Logic Game
+longDescription: |
+  <p>KAtomic is a fun educational game built around molecular geometry.
+        It employs simplistic two-dimensional looks at different chemical elements.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - katomic
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/katomic/e61398ab6d97f02084fbcc00f88feda1/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/katomic/e61398ab6d97f02084fbcc00f88feda1/screenshots/image-1_624x525@1.png
+    width: 872
+    height: 735
+iconSources:
+  - url: org/kde/katomic/e61398ab6d97f02084fbcc00f88feda1/icons/128x128/katomic_katomic.png
+    width: 128
+    height: 128
+homepage: "http://games.kde.org/game.php?game=katomic"
+enabled: true
+order: 99

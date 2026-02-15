@@ -1,0 +1,40 @@
+id: crossfire-client
+name: Crossfire Client
+description: Cooperative multi-player RPG and adventure game
+longDescription: |
+  <p>Crossfire is a multiplayer graphical arcade and adventure game made for the X environment.</p>
+  <p>It has certain flavours from other games, especially Gauntlet (TM) and Nethack/Moria.</p>
+  <p>Any number of players can move around in their own window, finding and using items and battle monsters.  They can choose to cooperate or compete in the same &apos;world&apos;.</p>
+  <p>To play the game you&apos;ll need to have access to a local or remote server.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - crossfire-client
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: crossfire-client_crossfire-client.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

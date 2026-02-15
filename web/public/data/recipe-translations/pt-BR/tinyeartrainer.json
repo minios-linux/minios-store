@@ -1,0 +1,5 @@
+{
+  "name": "Tiny Ear Trainer",
+  "description": "Uma ferramenta para treinar seu ouvido para identificar altura relativa",
+  "longDescription": "<p>O Tiny Ear Trainer é um software simples que ajuda você a reconhecer intervalos musicais.</p>\n<p>Entre os recursos implementados estão a associação de cores aos intervalos e o modo de aprendizado, que toca o intervalo junto com a cor e o nome. Suporta intervalos harmônicos e melódicos. Utiliza fluidsynth/soundfonts para reprodução. Vale destacar que o GNU Solfege é uma alternativa muito mais completa ao Tiny Ear Trainer.</p>\n<p>O Tiny Ear Trainer funciona com o JACK Audio Connection Kit.</p>\n"
+}

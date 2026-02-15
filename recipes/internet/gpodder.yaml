@@ -1,0 +1,44 @@
+id: "gpodder"
+name: gPodder
+description: Media aggregator and podcast client
+longDescription: |
+  <p>gPodder lets you manage your Podcast subscriptions, discover new content and download episodes to your devices.</p>
+  <p>You can also take advantage of the service gpodder.net, which lets you sync subscriptions, playback progress and starred episodes.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpodder
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/gpodder/gpodder/9F3DF8E26DCAA496D7163D5F4EF76475/screenshots/image-1_orig.png
+    thumbnailUrl: org/gpodder/gpodder/9F3DF8E26DCAA496D7163D5F4EF76475/screenshots/image-1_624x351.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: g/gp/gpodder.desktop/12e5fd4d58177d67753d7e4bf35fe2ad/icons/128x128/gpodder_gpodder.png
+    width: 128
+    height: 128
+homepage: "https://www.gpodder.org"
+enabled: true
+order: 99

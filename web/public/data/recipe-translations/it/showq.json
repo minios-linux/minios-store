@@ -1,0 +1,5 @@
+{
+  "name": "ShowQ",
+  "description": "Lettore audio controllabile via MIDI",
+  "longDescription": "<p>Applicazione progettata per la riproduzione di tracce audio e il triggering di eventi MIDI, pensata principalmente per produzioni teatrali.</p>\n<p>Funzionalità:  * Instradamento fino a 8 canali per cue.  * Riproduzione tramite ALSA o JACK.  * Caricamento e salvataggio delle liste di cue.  * Tasti rapidi configurabili per ogni cue.  * Controllo dell'applicazione tramite MIDI.</p>\n"
+}

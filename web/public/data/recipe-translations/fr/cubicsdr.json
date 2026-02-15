@@ -1,0 +1,5 @@
+{
+  "name": "CubicSDR",
+  "description": "Application de radio logicielle (SDR)",
+  "longDescription": "<p>CubicSDR est une application multiplateforme de radio logicielle (SDR) qui permet d'explorer le spectre radio et de démoduler les signaux découverts. Elle prend actuellement en charge plusieurs modes de démodulation analogique courants, tels que l’AM et la FM, et prendra en charge les modes numériques à l’avenir.</p>\n<p>CubicSDR utilise SoapySDR pour accéder au matériel SDR, ce qui permet la compatibilité avec tous les équipements pris en charge par un module SoapySDR.</p>\n"
+}

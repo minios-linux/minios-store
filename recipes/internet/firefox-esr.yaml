@@ -1,0 +1,25 @@
+id: "firefox-esr"
+name: Firefox ESR
+description: Browse the World Wide Web
+longDescription: |
+  <p>Firefox ESR is a powerful, extensible web browser with support for modern web application technologies.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - firefox-esr
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: f/fi/firefox-esr.desktop/b7665b1e87a3bf3acba1e22e855f2cfa/icons/128x128/firefox-esr_firefox-esr.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

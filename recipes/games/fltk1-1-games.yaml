@@ -1,0 +1,24 @@
+id: fltk1-1-games
+name: FLTK Block Attack!
+description: Block Attack! Game
+longDescription: |
+  <p>This package contains the example games that accompany FLTK. Specifically, it contains the following two programs:  - flblocks:   clear groups of adjacent blocks before they fill the screen;  - flcheckers: classic board game, also known as draughts;  - flsudoku:   Sudoku puzzle (place numbers in a grid).</p>
+  <p>The Fast Light Toolkit (FLTK) is a cross-platform graphical user interface toolkit originally based on libForms.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fltk1.1-games
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+iconSources:
+  - url: f/fl/flblocks.desktop/62c732e0713fc1314d605572f24cef42/icons/128x128/fltk1.1-games_flblocks.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

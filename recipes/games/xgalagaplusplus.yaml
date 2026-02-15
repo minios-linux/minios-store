@@ -1,0 +1,42 @@
+id: "xgalagaplusplus"
+name: xgalaga++
+description: "classic single screen vertical shooter, inspired by xgalaga"
+longDescription: |
+  <p>XGalaga++ is a classic vertical scrolling shoot&apos;em up. It requires no X Window extension and its window is freely resizable. It is inspired by XGalaga, but rewritten from scratch, except for the graphics.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xgalaga++
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shooter
+  - shmup
+  - shootemup
+  - vertical
+iconSources:
+  - url: x/xg/xgalaga++.desktop/0b27988c40b26bda4f1e4db29ec2c052/icons/128x128/xgalaga++_xgalaga++.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

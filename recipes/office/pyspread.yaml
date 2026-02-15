@@ -1,0 +1,42 @@
+id: "pyspread"
+name: pyspread
+description: A Python based spreadsheet
+longDescription: |
+  <p>Pyspread is a cross-platform Python spreadsheet application. Instead of spreadsheet formulas, Python expressions are entered into the spreadsheet cells. Each expression returns a Python object that can be accessed from other cells. These objects can represent anything including lists or matrices.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pyspread
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - python
+  - spreadsheet
+  - matplotlib
+  - math
+screenshotSources:
+  - url: io/gitlab/pyspread.pyspread/75ad7ce6d2ff76e5a0d5e09dad5c53f9/screenshots/image-1_orig.png
+    thumbnailUrl: io/gitlab/pyspread.pyspread/75ad7ce6d2ff76e5a0d5e09dad5c53f9/screenshots/image-1_624x554.png
+    width: 774
+    height: 688
+iconSources:
+  - url: io/gitlab/pyspread.pyspread/75ad7ce6d2ff76e5a0d5e09dad5c53f9/icons/128x128/pyspread_pyspread.png
+    width: 128
+    height: 128
+homepage: "https://pyspread.gitlab.io"
+enabled: true
+order: 99

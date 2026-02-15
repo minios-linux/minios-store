@@ -1,0 +1,5 @@
+{
+  "name": "KMetronome",
+  "description": "Metronomo MIDI per KDE che utilizza ALSA Sequencer",
+  "longDescription": "<p>KMetronome è un metronomo basato su MIDI che sfrutta ALSA Sequencer.</p>\n<p>È pensato per musicisti e studenti di musica. Come i tradizionali metronomi meccanici, è uno strumento per mantenere il tempo durante l'esecuzione di strumenti musicali.</p>\n<p>Utilizza MIDI per la generazione del suono invece dell’audio digitale, garantendo un basso utilizzo della CPU e un timing molto preciso grazie ad ALSA Sequencer.</p>\n"
+}

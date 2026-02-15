@@ -1,0 +1,5 @@
+{
+  "name": "PyHoca-GUI",
+  "description": "Applet Cliente X2Go em Python",
+  "longDescription": "<p>O X2Go é um ambiente de computação baseado em servidor com:    - retomada de sessões    - suporte a baixa largura de banda    - gerenciamento centralizado de sessões    - suporte à montagem de armazenamento local no cliente    - suporte à impressão local no cliente    - suporte a áudio    - autenticação por smartcard e USB stick</p>\n<p>O PyHoca-GUI é um cliente X2Go leve que fica acoplado à área de notificação do desktop e permite o gerenciamento de múltiplas sessões X2Go.</p>\n"
+}

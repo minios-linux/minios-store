@@ -1,0 +1,5 @@
+{
+  "name": "Geomview",
+  "description": "Programa interactivo de visualización geométrica",
+  "longDescription": "<p>Geomview es un software interactivo de geometría, especialmente adecuado para la investigación y la enseñanza de matemáticas. En particular, geomview puede mostrar objetos en espacios hiperbólicos y esféricos, así como en el espacio euclidiano.</p>\n<p>Geomview permite manipular múltiples objetos y cámaras de forma independiente. Proporciona control interactivo para el movimiento, la apariencia (incluyendo iluminación, sombreado y materiales), selección a nivel de objeto, arista o vértice, así como la captura de imágenes en formato SGI o Renderman RIB. Agregar o eliminar objetos se realiza mediante manipulación directa con el mouse, paneles de control y atajos de teclado. Programas externos pueden controlar ciertos aspectos del visor (como cargar geometría actualizada continuamente o controlar el movimiento de objetos específicos) mientras se mantiene el control interactivo del resto de funciones.</p>\n"
+}

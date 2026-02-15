@@ -1,0 +1,52 @@
+id: kooha
+name: Kooha
+description: Elegantly record your screen
+longDescription: |
+  <p>Capture your screen in a intuitive and straightforward way without distractions.</p>
+  <p>Kooha is a simple screen recorder with a minimalist interface. You can just click the record
+        button without having to configure a bunch of settings.</p>
+  <p>The main features of Kooha include the following:</p>
+  <ul>
+    <li>🎙️ Record microphone, desktop audio, or both at the same time</li>
+    <li>📼 Support for WebM, MP4, GIF, and Matroska formats</li>
+    <li>🖥️ Select a monitor or a portion of the screen to record</li>
+    <li>🛠️ Configurable saving location, pointer visibility, frame rate, and delay</li>
+    <li>🚀 Experimental hardware accelerated encoding</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kooha
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - screencast
+  - recorder
+  - screen
+  - video
+screenshotSources:
+  - url: io/github/seadve.Kooha/fc9c05d8d89a659cdd28e1d2f42bdea8/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/seadve.Kooha/fc9c05d8d89a659cdd28e1d2f42bdea8/screenshots/image-1_624x642@1.png
+    width: 684
+    height: 704
+  - url: io/github/seadve.Kooha/fc9c05d8d89a659cdd28e1d2f42bdea8/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/seadve.Kooha/fc9c05d8d89a659cdd28e1d2f42bdea8/screenshots/image-2_624x642@1.png
+    width: 684
+    height: 704
+  - url: io/github/seadve.Kooha/fc9c05d8d89a659cdd28e1d2f42bdea8/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/seadve.Kooha/fc9c05d8d89a659cdd28e1d2f42bdea8/screenshots/image-3_624x642@1.png
+    width: 684
+    height: 704
+iconSources:
+  - url: io/github/seadve.Kooha/fc9c05d8d89a659cdd28e1d2f42bdea8/icons/128x128/kooha_io.github.seadve.Kooha.png
+    width: 128
+    height: 128
+homepage: "https://github.com/SeaDve/Kooha"
+enabled: true
+order: 99

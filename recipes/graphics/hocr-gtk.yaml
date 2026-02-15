@@ -1,0 +1,28 @@
+id: hocr-gtk
+name: sane-pygtk
+description: A minimal program to work with scanner.
+longDescription: |
+  <p>Hocr-gtk is a GTK+ based graphical interface to the libhocr library.  It can open multiple image formats and uses aspell for internal spell checking.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hocr-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - scan
+  - scanner
+iconSources:
+  - url: s/sa/sane-pygtk.desktop/51316517DA6A9DA8F453637EA5F869DF/icons/128x128/hocr-gtk_scanner.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

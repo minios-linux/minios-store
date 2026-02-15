@@ -1,0 +1,5 @@
+{
+  "name": "Suppression des paquets orphelins",
+  "description": "Un outil graphique pour détecter et supprimer les bibliothèques orphelines",
+  "longDescription": "<p>GtkOrphan est un outil graphique qui analyse votre système Debian à la recherche de bibliothèques orphelines. Il fournit une interface graphique à deborphan, tout en ajoutant la possibilité de supprimer les paquets. Une documentation détaillée du programme est disponible à l'adresse : http://www.marzocca.net/linux/gtkorphan.html.</p>\n"
+}

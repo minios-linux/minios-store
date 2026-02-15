@@ -1,0 +1,59 @@
+id: "remmina"
+name: Remmina
+description: Remote Desktop Client
+longDescription: |
+  <p>Remmina is a remote desktop client written in GTK+, aiming to be useful
+        for system administrators and travellers, who need to work with lots of
+        remote computers in front of either large monitors or tiny netbooks.</p>
+  <p>Remmina supports multiple network protocols in an integrated and
+        consistent user interface. The protocols currently supported are:
+        RDP (Remote Desktop Protocol), VNC (Virtual Network Computing),
+        NX (NoMachine NX / FreeNX), XDMCP (X Display Manager Control Protocol) and
+        SSH (Secure Shell / Open SSH).</p>
+  <p>External plugins are also supported to add new protocols and features.</p>
+  
+categoryId: internet
+icon: Monitor
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - remmina
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - remote desktop
+  - rdp
+  - vnc
+  - nx
+  - ssh
+  - spice
+  - xdmcp
+screenshotSources:
+  - url: org/remmina/Remmina.desktop/62c661b42157f528710e8f048b323df2/screenshots/image-1_orig.png
+    thumbnailUrl: org/remmina/Remmina.desktop/62c661b42157f528710e8f048b323df2/screenshots/image-1_624x351@1.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: org/remmina/Remmina.desktop/62c661b42157f528710e8f048b323df2/icons/128x128/remmina_org.remmina.Remmina.png
+    width: 128
+    height: 128
+homepage: "https://www.remmina.org/"
+enabled: true
+order: 99

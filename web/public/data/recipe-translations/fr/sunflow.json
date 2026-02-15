@@ -1,0 +1,5 @@
+{
+  "name": "Sunflow",
+  "description": "Moteur de rendu photoréaliste",
+  "longDescription": "<p>Sunflow est un moteur de rendu open source dédié à la synthèse d’images photoréalistes. Écrit en Java, il repose sur un noyau de lancer de rayons flexible et une architecture extensible orientée objet. Il a été conçu comme un cadre pour l’expérimentation d’algorithmes d’illumination globale et de nouveaux modèles d’ombrage de surface.</p>\n<p>Ce paquet comprend l’interface graphique de Sunflow.</p>\n"
+}

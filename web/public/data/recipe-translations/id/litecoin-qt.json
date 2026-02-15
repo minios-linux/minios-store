@@ -1,0 +1,5 @@
+{
+  "name": "Litecoin",
+  "description": "Cryptocurrency P2P Litecoin",
+  "longDescription": "<p>Litecoin adalah sistem uang elektronik peer-to-peer sumber terbuka gratis yang sepenuhnya terdesentralisasi, tanpa membutuhkan server pusat atau pihak tepercaya. Pengguna memegang kunci kripto untuk dana mereka sendiri dan melakukan transaksi langsung satu sama lain dengan bantuan jaringan P2P untuk memeriksa duplikasi transaksi (double-spending). Litecoin adalah hasil fork dari Bitcoin.</p>\n<p>Secara default terhubung ke jaringan IRC untuk menemukan rekan (peer) lain.</p>\n<p>Riwayat transaksi lengkap disimpan secara lokal di setiap klien. Ini membutuhkan ruang 5+ GB, yang akan bertambah seiring waktu.</p>\n<p>Paket ini menyediakan Litecoin-Qt, antarmuka GUI untuk Litecoin berbasis Qt.</p>\n"
+}

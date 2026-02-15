@@ -1,0 +1,5 @@
+{
+  "name": "Timeshift",
+  "description": "Dienstprogramm für Systemwiederherstellung",
+  "longDescription": "<p>Timeshift ist ein Dienstprogramm zur Systemwiederherstellung, das in regelmäßigen Abständen Schnappschüsse des Systems erstellt. Diese Snapshots können zu einem späteren Zeitpunkt wiederhergestellt werden, um Systemänderungen rückgängig zu machen. Erstellt inkrementelle Sicherungen mit rsync oder BTRFS-Snapshots mit BTRFS-Werkzeugen.</p>\n"
+}

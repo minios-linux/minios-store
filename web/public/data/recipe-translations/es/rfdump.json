@@ -1,0 +1,5 @@
+{
+  "name": "RFDump",
+  "description": "Herramienta para interoperar directamente con un lector RFID",
+  "longDescription": "<p>RFDump es una herramienta para decodificar etiquetas RFID y mostrar su metainformación: ID de la etiqueta, tipo de etiqueta, fabricante, etc. La memoria de datos de usuario de una etiqueta puede visualizarse y modificarse utilizando un editor hexadecimal o ASCII. Además, la función integrada de cookies demuestra lo fácil que puede ser para una empresa abusar de la tecnología RFID para espiar a sus clientes. RFDump funciona con el lector multi-etiqueta ACG o hardware de lector de tarjetas similar.</p>\n"
+}

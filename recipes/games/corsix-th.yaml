@@ -1,0 +1,45 @@
+id: "corsix-th"
+name: CorsixTH
+description: A Theme Hospital Clone
+longDescription: |
+  <p>Theme Hospital was a simulation computer game developed by Bullfrog Productions and published by Electronic Arts in 1997, in which the player designs and operates a hospital.</p>
+  <p>The game currently requires the original graphics and tries to mimic the original as closely as possible. Therefore you will need a copy of the original game for this package to be useful.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - corsix-th
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - hospital
+  - simulation
+  - bullfrog
+screenshotSources:
+  - url: com/corsixth/corsixth/0642df029c182fc781942011ea2e4e37/screenshots/image-1_orig.png
+    thumbnailUrl: com/corsixth/corsixth/0642df029c182fc781942011ea2e4e37/screenshots/image-1_624x390@1.png
+    width: 1280
+    height: 800
+  - url: com/corsixth/corsixth/0642df029c182fc781942011ea2e4e37/screenshots/image-2_orig.png
+    thumbnailUrl: com/corsixth/corsixth/0642df029c182fc781942011ea2e4e37/screenshots/image-2_624x390@1.png
+    width: 1280
+    height: 800
+iconSources:
+  - url: com/corsixth/corsixth/0642df029c182fc781942011ea2e4e37/icons/128x128/corsix-th_corsix-th.png
+    width: 128
+    height: 128
+developer: CorsixTH developers
+homepage: "http://corsixth.com"
+enabled: true
+order: 99

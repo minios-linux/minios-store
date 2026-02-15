@@ -1,0 +1,40 @@
+id: "spek"
+name: Spek
+description: View spectrograms of your audio files
+longDescription: |
+  <p>Spek helps to analyse your audio files by showing their spectrogram. It supports all popular lossy and lossless audio file formats.</p>
+  <p>Features:</p>
+  <p> * Ultra-fast signal processing, uses multiple threads to further    speed up the analysis  * Shows the codec name and the audio signal parameters  * Can save the spectrogram as an image file  * Drag-and-drop support; associates with common audio file formats  * Auto-fitting time, frequency and spectral density rulers  * Adjustable spectral density range</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - spek
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: cc/spek/Spek/4ab2959af79c199edf05c48dc3dc3aaf/screenshots/image-1_orig.png
+    thumbnailUrl: cc/spek/Spek/4ab2959af79c199edf05c48dc3dc3aaf/screenshots/image-1_624x494@1.png
+    width: 642
+    height: 509
+iconSources:
+  - url: cc/spek/Spek/4ab2959af79c199edf05c48dc3dc3aaf/icons/128x128/spek_spek.png
+    width: 128
+    height: 128
+developer: alexkay
+homepage: "https://www.spek.cc/"
+enabled: true
+order: 99

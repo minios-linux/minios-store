@@ -1,0 +1,34 @@
+id: kgames
+name: KMontana
+description: Play Montana solitaire
+longDescription: |
+  <p>These are a selection of various games that use the Xaw toolkit. They are all from the 80&apos;s and 90&apos;s and look the part. As a result, they are also very lightweight. There are a bunch of solitaire (patience) variants, mille bournes, cribbage and dominos.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kgames
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - card
+  - solitaire
+  - patience
+iconSources:
+  - cached: kgames_kgames.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

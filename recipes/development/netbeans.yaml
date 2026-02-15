@@ -1,0 +1,32 @@
+id: netbeans
+name: NetBeans
+description: Integrated Development Environment
+longDescription: |
+  <p>Integrated Development Environment for software developers. It supports development of desktop, enterprise, web, and mobile applications. Package includes the Base IDE, Java Development Tools and Plug-in Development Tools. Support for PHP, Ruby, C/C++, Java EE and others can be added.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - netbeans
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - development
+  - java
+  - ide
+  - platform
+  - javafx
+  - javase
+iconSources:
+  - cached: netbeans_netbeans.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

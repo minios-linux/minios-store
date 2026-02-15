@@ -1,0 +1,50 @@
+id: "freedroidrpg"
+name: Freedroid RPG
+description: A futuristic immersive RPG about fighting bots
+longDescription: |
+  <p>Freedroid RPG is an RPG with isometric graphics. In it, the player is Tux, who must fight rebelling robots in order to restore peace to humankind. To do so,Tux may take over robots in a minigame based off the classic game Paradroid, or may simply blast them to pieces with a weapon.</p>
+  <p>Note that this is not the same game as Freedroid, also available in Debian.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freedroidrpg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - game
+  - role playing
+  - rpg
+  - logic
+  - isometric
+  - futuristic
+screenshotSources:
+  - url: org/freedroid/freedroidRPG.desktop/acb90251e5ca3fcc6cdb81820f7d41e8/screenshots/image-1_orig.png
+    thumbnailUrl: org/freedroid/freedroidRPG.desktop/acb90251e5ca3fcc6cdb81820f7d41e8/screenshots/image-1_624x351.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: org/freedroid/freedroidRPG.desktop/acb90251e5ca3fcc6cdb81820f7d41e8/icons/128x128/freedroidrpg_freedroidrpg.png
+    width: 128
+    height: 128
+developer: The FreedroidRPG Team
+homepage: "https://www.freedroid.org/"
+enabled: true
+order: 99

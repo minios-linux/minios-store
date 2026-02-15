@@ -1,0 +1,5 @@
+{
+  "name": "ShowQ",
+  "description": "Pemutar audio yang dapat dikendalikan MIDI",
+  "longDescription": "<p>Aplikasi yang dapat memutar cue audio dan memicu event MIDI, terutama dikembangkan untuk produksi teater.</p>\n<p>Fitur:  * Routing 8 kanal per cue.  * Pemutaran melalui ALSA atau JACK.  * Memuat/Menyimpan daftar cue.  * Tombol pintas untuk setiap cue.  * Aplikasi dapat dikontrol melalui MIDI.</p>\n"
+}

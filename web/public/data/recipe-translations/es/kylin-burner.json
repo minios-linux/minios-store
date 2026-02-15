@@ -1,0 +1,5 @@
+{
+  "name": "Burner",
+  "description": "Crea y copia CD y DVD",
+  "longDescription": "<p>Burner es una aplicación sencilla para grabar, copiar y borrar discos CD y DVD: audio, video o datos. Sus funciones incluyen, entre otras:  * Grabación al vuelo  * Soporte para multisesión  * Conversión al vuelo de listas de reproducción en todos los formatos compatibles con GStreamer</p>\n<p>Este paquete contiene la aplicación independiente.</p>\n<p>Los siguientes paquetes, si están instalados, amplían las funciones de Burner:  * cdrdao para grabar CD de datos/audio combinados y realizar copias byte a byte  * Backends de GStreamer para compatibilidad con más formatos de audio  * vcdimager para crear VCD o SVCD  * libdvdcss2 para copiar DVD cifrados  * tracker para buscar archivos de video, audio, imágenes y documentos</p>\n"
+}

@@ -1,0 +1,44 @@
+id: "screengrab"
+name: ScreenGrab
+description: Screenhot Tool in Qt
+longDescription: |
+  <p>
+        Powerful screen capture utility in Qt.
+        Capture screen, window or area.
+        Features:
+      </p>
+  <ul>
+    <li>Delay</li>
+    <li>Edit directly in other applications</li>
+    <li>Automatic saving; insert date+time in filename</li>
+    <li>Fit to edges by right click</li>
+    <li>Custom shortcuts</li>
+  </ul>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - screengrab
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/lxqt.screengrab/e0d0620b212c66c43b023689689c46a1/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/lxqt.screengrab/e0d0620b212c66c43b023689689c46a1/screenshots/image-1_624x488@1.png
+    width: 977
+    height: 765
+iconSources:
+  - url: io/github/lxqt.screengrab/e0d0620b212c66c43b023689689c46a1/icons/128x128/screengrab_screengrab.png
+    width: 128
+    height: 128
+homepage: "https://github.com/lxqt/screengrab"
+enabled: true
+order: 99

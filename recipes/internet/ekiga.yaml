@@ -1,0 +1,25 @@
+id: ekiga
+name: Ekiga Softphone
+description: Talk to and see people over the Internet
+longDescription: |
+  <p>H.323 and SIP compatible videoconferencing and VoIP/IP-Telephony application that allows you to make audio and video calls to remote users with H.323 hardware or software (such as Microsoft Netmeeting) as well as SIP endpoints.</p>
+  <p>It supports all modern videoconferencing features, such as contact roster, presence status, high-quality audio and video codecs, various video resolutions, registering to an LDAP directory, gatekeeper support, making multi-user conference calls using an external MCU, using modern Quicknet telephony cards, and making PC-To-Phone calls.</p>
+  <p>Evolution plugin is in ekiga-plugin-evolution package.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ekiga
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ekiga_ekiga.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

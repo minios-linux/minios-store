@@ -1,0 +1,27 @@
+id: gomoku-app
+name: Gomoku
+description: GNUstep Gomoku Game
+longDescription: |
+  <p>Gomoku is an extended TicTacToe game for GNUstep. You win the game if you are able to put 5 of your pieces in a row, column, or diagonal. You lose if the computer does so before you. You can play the game on boards of different size. The game has 6 different difficulty levels.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gomoku.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gnustep
+  - game
+  - tictactoe
+iconSources:
+  - cached: gomoku.app_app-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

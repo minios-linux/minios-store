@@ -1,0 +1,60 @@
+id: "lollypop"
+name: Lollypop
+description: Play and organize your music collection
+longDescription: |
+  <p>Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment. It also features a party mode which will auto-select party-related playlists; allows access the player from your couch thanks to it fullscreen mode; fetches lyrics, artwork and biography online; and provides native support for ReplayGain.</p>
+  <ul>
+    <li>Multiple Audio Formats –多個音訊格式 -多种音频格式 -Численні формати аудіо –Çoklu Ses Biçimleri –Flera ljudformat –Viacero zvukových
+  formátov –Несколько аудио форматов -Múltiplos Formatos de Áudio –Múltiplos formatos de áudio –Múltiplos Formatos de Áudio –Wiele formatów audio –Meerdere audioformaten –Flere lydformater –Daugelis garso formatų –다중 오디오 형식 –複数のオーディオフォーマット –Formati Audio Vari –Többféle audioformátum –Razni audio-formati –Formats audio multiples -Useita äänimuotoja –Múltiples formatos de audio –Pluraj sonaj formoj –Multiple Audio Formats –Verschiedene Audioformate –Adskillige lydformater –Mnoho zvukových formátů –Diversos formats d&apos;àudio – Play MP3/4, Ogg Vorbis and FLAC files</li>
+    <li>Metadata –中介資料 -元信息 -Метадані –Üstveri –Metadata –Metadáta –Метаданные -Metadados –Metadados –Metadados –Metadane
+  –Metagegevens –Metadata –Metaduomenys –메타데이터 –メタデータ –Metadati –Metaadatok –Metapodaci –Métadonnées -Metadatos –Metadatumo –Metadata –Metadaten –Metadata –Popis –Metadades – Fetch lyrics, artist bio, and automatically download cover arts</li>
+    <li>Synchronization –同步 -同步 -Синхронізація –Eşzamanlayıcı –Synkronisering –Synchronizácia –Синхронизация -Sincronização
+  –Sincronização –Sincronização –Synchronizacja –Synchronisatie –Synkronisering –Sinchronizavimas –동기화 –同期 –Sincronizzazione –Szinkronizálás –Sinkronizacija –Synchronisation -Synkronointi –Sincronización –Sinkronigado –Synchronisation –Synchronisierung –Synkronisering –Synchronizace –Sincronització – Sync Lollypop with your Android device via MTP</li>
+    <li>Audio Scrobbling –音訊隨播聽音频ScrobblingАудіо-скробблінг –Ses Skroplama –Ljudskrobbling –Audio Scrobbling –Аудио СкробблингScrobbling
+  de Áudio –Rasteio de áudio -Rastreamento de Áudio -Scrobblowanie audio –Audioscrobbling –Lydskrobbling –오디오 스크로빙 –オーディオの Scrobbling –Scrobbling Audio –Audio Scrobbling –Scrobbling Audio -Scrobbling de audio –Aŭdia Luditkolektado –Audio Scrobbling –Audio ScrobblenLydscrobbling –Odesílání údajů o přehrávání –Àudio Scrobbling – You can scrob songs to Last.fm, Libre.fm and ListenBrainz</li> </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lollypop
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - player
+  - lollipop
+screenshotSources:
+  - url: org/gnome/Lollypop/14ac514b8041bd91e1867209673a901b/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Lollypop/14ac514b8041bd91e1867209673a901b/screenshots/image-1_624x389@1.png
+    width: 1754
+    height: 1095
+  - url: org/gnome/Lollypop/14ac514b8041bd91e1867209673a901b/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Lollypop/14ac514b8041bd91e1867209673a901b/screenshots/image-2_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/gnome/Lollypop/14ac514b8041bd91e1867209673a901b/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Lollypop/14ac514b8041bd91e1867209673a901b/screenshots/image-3_224x320@1.png
+    width: 597
+    height: 853
+iconSources:
+  - url: org/gnome/Lollypop/14ac514b8041bd91e1867209673a901b/icons/128x128/lollypop_org.gnome.Lollypop.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Lollypop"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "fwupd",
+  "description": "Actualiza el firmware de dispositivos en Linux",
+  "longDescription": "<p>Este proyecto tiene como objetivo hacer que la actualización del firmware en Linux sea automática, segura y confiable.<br>Puede utilizar un gestor gráfico como GNOME Software para ver y aplicar actualizaciones, la herramienta de línea de comandos o directamente la interfaz D-Bus.</p><p>fwupd funciona como un demonio sencillo que permite a las aplicaciones de sesión actualizar el firmware de los dispositivos en tu equipo local.<br>Está diseñado para escritorios, pero también puede usarse en teléfonos, tabletas y servidores sin interfaz gráfica.</p>"
+}

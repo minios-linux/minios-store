@@ -1,0 +1,41 @@
+id: g3dviewer
+name: G3DViewer
+description: 3D model viewer
+longDescription: |
+  <p>G3DViewer is a 3D file viewer for GTK+ supporting a variety of file types by using the LibG3D plugin facility. Models can be inspected and rendered using OpenGL. Rendering options includes wireframe rendering, shadows, isometric view, specular lightning, and textures.</p>
+  <p>See &apos;libg3d-plugin*&apos; for supported formats.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - g3dviewer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - 3d
+  - view
+  - enhance
+  - special effects
+iconSources:
+  - cached: g3dviewer_g3d48.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

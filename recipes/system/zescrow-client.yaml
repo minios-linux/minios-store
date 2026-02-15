@@ -1,0 +1,25 @@
+id: zescrow-client
+name: zEscrow
+description: Backup eCryptfs configuration and mount passphrases
+longDescription: |
+  <p>zescrow-client provides the zescrow (formerly ecryptfs-escrow-private) utility, which can be used to upload a backup of an eCryptfs Encrypted Home or eCryptfs Encrypted Private configuration to a zEscrow compatible server.</p>
+  <p>zEscrow.gazzang.com is one such compatible server, an implementation of the AGPL free software available at https://launchpad.net/zEscrow.</p>
+  <p>zEscrow will:  - prompt for your chosen zEscrow server  - retrieve the public GPG key of that zEscrow server  - prompt for your login passphrase  - use your login passphrase to decrypt your mount passphrase  - create a tar archive of your ~/.ecryptfs directory and decrypted    mount passphrase  - gpg encrypt that archive the your zEscrow server&apos;s public key  - upload your encrypted archive to your zEscrow server  - display a URL and offer to launch a browser, where you must go    to associate a Google account and email address with your backup</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zescrow-client
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: zescrow-client_zEscrow.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

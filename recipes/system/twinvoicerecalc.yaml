@@ -1,0 +1,42 @@
+id: "twinvoicerecalc"
+name: Taiwan Invoice ReCalculator
+description: Perform Taiwan Invoice Reverse Calculation
+longDescription: |
+  <p>In Taiwan, the customer usually get the gross price. But on the invoice we have to write the net price with tax. This program helps you to reverse calculate the gross price to net price and tax. And automatically adjust the net price if needed.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - twinvoicerecalc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calculation
+  - arithmetic
+  - scientific
+  - financial
+iconSources:
+  - cached: twinvoicerecalc_twinvoicerecalc_forward.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

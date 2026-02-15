@@ -1,0 +1,27 @@
+id: sfxr-qt
+name: SFXR Qt
+description: Sound effect generator
+longDescription: |
+  <p>This little tool was made to provide a simple means of getting basic sound effects into a game. You just need to hit a few buttons in this application to get some largely randomized effects. All the parameters used to create each sound are manually tweakable to allow fine-tuning if you feel like getting your hands dirty.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sfxr-qt
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: sfxr-qt_sfxr-qt.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

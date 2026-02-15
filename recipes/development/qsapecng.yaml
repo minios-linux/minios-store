@@ -1,0 +1,28 @@
+id: qsapecng
+name: QSapecNG
+description: Symbolic analyzer of linear analog circuits
+longDescription: |
+  <p>This program consists of two independent parts: the SapecNG framework engine and the GUI application QSapecNG.</p>
+  <p>QSapecNG is an open source, multi-platform project, continuously enhanced by students and researchers of the Department of Electronics and Telecommunications (DET) of the University of Florence (Italy). It comes as continuation of SapWin for Windows, in order to give to the project a full compatibility on other platforms.</p>
+  <p>Through SapecNG/QSapecNG users can draw, solve and analyze analog circuits as well as manage them. Since version 2.0.0beta1 there is also the full support for sub-circuits that can be created, saved, reopened and added as part of other circuits.</p>
+  <p>SapecNG/QSapecNG is freely available on GitHub &lt;https://github.com/skypjack/qsapecng&gt;. A previous version of SapecNG is available on GitHub too &lt;https://github.com/skypjack/sapecng&gt;.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qsapecng
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: q/qs/qsapecng.desktop/838C849AA1A5F784236443BFCCAA1E8A/icons/128x128/qsapecng_qsapecng.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

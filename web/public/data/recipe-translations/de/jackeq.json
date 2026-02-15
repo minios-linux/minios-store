@@ -1,0 +1,5 @@
+{
+  "name": "JackEQ",
+  "description": "leitet und bearbeitet Audio von/zu mehreren Quellen",
+  "longDescription": "<p>jackEQ ist ein Tool zum Routen und Bearbeiten von Audio zwischen verschiedenen Ein- und Ausgängen. Es läuft im JACK Audio Connection Kit und verwendet LADSPA für das DSP-Backend, insbesondere das DJ EQ swh-Plugin von Steve Harris, einem der Hauptentwickler von jackEQ.</p>\n<p>jackEQ bietet eine einfache Möglichkeit, Höhen, Mitten und Bässe beliebiger JACK-fähiger Anwendungen anzupassen. Es wurde speziell für den Live-Einsatz entwickelt und orientiert sich an DJ-Mischpulten, mit denen der Hauptautor Erfahrungen gesammelt hat.</p>\n<p>Mit jackEQ klingt Audio so kraftvoll und vielseitig wie Jackie O, so clever wie Jackie Brown. jackEQ bringt frischen Wind in die Welt von JACK. Bist du bereit für mehr?</p>\n"
+}

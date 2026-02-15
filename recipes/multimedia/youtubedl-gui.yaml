@@ -1,0 +1,32 @@
+id: youtubedl-gui
+name: Youtube Downloader
+description: Download Youtube videos to local audio or video files.
+longDescription: |
+  <p>Graphical interface to yt-dlp, the CLI for downloading videos from a variety of sites. Allows control of format, resolution, audio and video codecs, etc.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - youtubedl-gui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - youtube
+  - download
+iconSources:
+  - url: y/yo/youtubedl-gui.desktop/9d3fe92d27f856574c400901469f75dd/icons/128x128/youtubedl-gui_youtubedl-gui.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,54 @@
+id: "openshot-qt"
+name: OpenShot Video Editor
+description: "An easy to use, quick to learn, and surprisingly powerful video editor"
+longDescription: |
+  <p>OpenShot Video Editor is a free, open-source, non-linear video editor. It
+        can create and edit videos and movies using many popular video, audio,
+        image formats. Create videos for YouTube, Flickr, Vimeo, Metacafe, iPod,
+        Xbox, and more!</p>
+  <p>Features include:
+        Multiple tracks (layers)Compositing, image overlays, and watermarksAudio mixing and editingSupport for image sequences
+  (rotoscoping)Key-frame animationVideo effects (chroma-key)Transitions (lumas and masks)Titles with integrated editor and templates3D animation (titles and effects)</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openshot-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/openshot/OpenShot/847c56210f55745c938e8e8fa01e8435/screenshots/image-1_orig.png
+    thumbnailUrl: org/openshot/OpenShot/847c56210f55745c938e8e8fa01e8435/screenshots/image-1_624x407@1.png
+    width: 975
+    height: 637
+  - url: org/openshot/OpenShot/847c56210f55745c938e8e8fa01e8435/screenshots/image-2_orig.png
+    thumbnailUrl: org/openshot/OpenShot/847c56210f55745c938e8e8fa01e8435/screenshots/image-2_624x444@1.png
+    width: 780
+    height: 555
+iconSources:
+  - url: org/openshot/OpenShot/847c56210f55745c938e8e8fa01e8435/icons/128x128/openshot-qt_openshot-qt.png
+    width: 128
+    height: 128
+developer: "OpenShot Studios, LLC"
+homepage: "https://www.openshot.org"
+enabled: true
+order: 99

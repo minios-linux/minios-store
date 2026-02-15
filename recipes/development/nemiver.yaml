@@ -1,0 +1,38 @@
+id: nemiver
+name: Nemiver
+description: Debug Applications
+longDescription: |
+  <p>Nemiver is a project to write a standalone graphical debugger that integrates in the GNOME desktop. It features a backend which uses the well known GNU Debugger gdb to debug C/C++ programs.</p>
+  <p>Nemiver is built with a plugin system that can offer several different perspectives. Currently the only perspective provided is a debugging perspective, but it could be expanded with perspectives added for valgrind, or for profiling tools such as oprofile.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nemiver
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - gdb
+  - disassembler
+  - debugger
+  - c
+  - c++
+iconSources:
+  - url: n/ne/nemiver.desktop/8F1772E00BF273BCA3C72EE81CEA8144/icons/128x128/nemiver_nemiver.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

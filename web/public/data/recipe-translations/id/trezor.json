@@ -1,0 +1,5 @@
+{
+  "name": "trezorctl",
+  "description": "Utilitas untuk berinteraksi dengan dompet perangkat keras Bitcoin TREZOR",
+  "longDescription": "<p>Tidak peduli seberapa tidak amannya komputer atau koneksi internet Anda,\n    koin Anda tetap aman dengan TREZOR karena kunci privat Anda tidak pernah diekspos.\n    TREZOR berfungsi sebagai lingkungan terisolasi untuk penandatanganan transaksi secara offline dan,\n    dengan layar kecil, Anda dapat memverifikasi isi transaksi secara visual.\n    Karena itulah, seluruh operasi menggunakan TREZOR aman sepenuhnya.</p>\n<p>Untuk menggunakan TREZOR, Anda juga memerlukan antarmuka dompet seperti\n    Electrum yang terinstal.</p>\n"
+}

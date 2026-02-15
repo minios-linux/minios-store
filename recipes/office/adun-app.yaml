@@ -1,0 +1,35 @@
+id: adun-app
+name: Adun
+description: Biomolecular Simulator
+longDescription: |
+  <p>Adun is a biomolecular simulator that also includes data management and analysis capabilities.  It was developed at the Computational Biophysics and Biochemistry Laboratory, a part of the Research Unit on Biomedical Informatics of the UPF.</p>
+  <p>This package contains UL, the Adun GUI frontend.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - adun.app
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - simulator
+  - molecule
+iconSources:
+  - cached: adun.app_UL.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

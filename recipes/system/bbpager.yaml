@@ -1,0 +1,41 @@
+id: bbpager
+name: bbpager
+description: Pager for the blackbox and fluxbox window managers
+longDescription: |
+  <p>
+        A pager tool for the Blackbox window manager or one of its derivatives. It supports the usual Blackbox styles, moving
+  windows between desktops, and optional placement in the Blackbox sl&gt;
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bbpager
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pager
+screenshotSources:
+  - url: net/sourceforge/bbpager/F986C4B8AB7EE72D9FDCF9F3B8DA2912/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/bbpager/F986C4B8AB7EE72D9FDCF9F3B8DA2912/screenshots/image-1_624x467.png
+    width: 800
+    height: 600
+iconSources:
+  - cached: bbpager_bbpager.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

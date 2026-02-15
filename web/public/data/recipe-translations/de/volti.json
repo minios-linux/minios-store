@@ -1,0 +1,5 @@
+{
+  "name": "Volti",
+  "description": "Lautstärkeregelung im System-Tray",
+  "longDescription": "<p>Volti ist eine schlanke GTK+-Anwendung zur Steuerung der Lautstärke direkt aus dem System-Tray oder dem Benachrichtigungsbereich.</p>\n<p>Funktionen:  * benötigt kein PulseAudio, GStreamer, Phonon etc. – nur ALSA erforderlich  * integrierte Mixer-Anwendung, frei wählbar oder eigene Mixer-App verwendbar  * Linksklick öffnet die Lautstärkeregelung (Schieberegler)  * Mausrad über dem Tray-Icon passt die Lautstärke an, Schrittweite ist konfigurierbar  * Mittelklick kann stummschalten oder den Mixer anzeigen (konfigurierbar)  * Tooltip zeigt Karte und Lautstärkeinformationen an  * Unterstützung für Multimediatasten  * Desktop-Benachrichtigungen bei Tastenereignissen</p>\n"
+}

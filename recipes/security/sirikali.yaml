@@ -1,0 +1,53 @@
+id: "sirikali"
+name: SiriKali
+description: Manage user encrypted directories
+longDescription: |
+  <p>Sirikali provides a Qt/C++ GUI front end to cryfs,gocryptfs,securefs and encfs, allowing the user to create, mount, and unmount encrypted volumes.</p>
+  <p>It works well together with cloud services like Dropbox, iCloud, OneDrive and others.</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sirikali
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/mhogomchungu.SiriKali/6a6870e8c19d98dfad1ba0c5c8f3625d/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/mhogomchungu.SiriKali/6a6870e8c19d98dfad1ba0c5c8f3625d/screenshots/image-1_624x353@1.png
+    width: 1051
+    height: 595
+  - url: io/github/mhogomchungu.SiriKali/6a6870e8c19d98dfad1ba0c5c8f3625d/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/mhogomchungu.SiriKali/6a6870e8c19d98dfad1ba0c5c8f3625d/screenshots/image-2_624x366@1.png
+    width: 1012
+    height: 595
+  - url: io/github/mhogomchungu.SiriKali/6a6870e8c19d98dfad1ba0c5c8f3625d/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/mhogomchungu.SiriKali/6a6870e8c19d98dfad1ba0c5c8f3625d/screenshots/image-3_624x366@1.png
+    width: 1012
+    height: 595
+iconSources:
+  - url: io/github/mhogomchungu.SiriKali/6a6870e8c19d98dfad1ba0c5c8f3625d/icons/128x128/sirikali_sirikali.png
+    width: 128
+    height: 128
+developer: Francis Banyikwa
+homepage: "https://mhogomchungu.github.io/sirikali/"
+enabled: true
+order: 99

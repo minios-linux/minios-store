@@ -1,0 +1,5 @@
+{
+  "name": "Firewall Builder",
+  "description": "Interfaz gráfica para administración de cortafuegos",
+  "longDescription": "<p>Firewall Builder consiste en una interfaz gráfica orientada a objetos y un conjunto de compiladores de políticas para diversas plataformas de cortafuegos. En Firewall Builder, la política de cortafuegos es un conjunto de reglas, donde cada una está compuesta por objetos abstractos que representan elementos reales de red y servicios (hosts, routers, cortafuegos, redes, protocolos). Firewall Builder ayuda al usuario a mantener una base de datos de objetos y permite editar políticas mediante simples operaciones de arrastrar y soltar.</p>\n<p>Esta es la parte gráfica (GUI) de fwbuilder</p>\n"
+}

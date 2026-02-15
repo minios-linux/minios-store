@@ -1,0 +1,53 @@
+id: "kbruch"
+name: KBruch
+description: Exercise Fractions
+longDescription: |
+  <p>KBruch is a small program to practice calculating with fractions and percentages. Different exercises are provided for this purpose and you can use the learning mode to practice with fractions. The program checks the user&apos;s input and gives feedback.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Arithmetic exercise - in this exercise you have to solve a given fraction task. You have to enter the numerator
+  and the denominator. This is the main exercise.</li>
+    <li>Comparison exercise - in this exercise you have to compare the size of 2 given fractions, using the symbols &gt;,
+  &lt; or =.</li>
+    <li>Conversion exercise - in this exercise you have to convert a given number into a fraction.</li>
+    <li>Factorization exercise - in this exercise you have to factorize a given number into its prime factors.</li>
+    <li>Percentage exercise - in this exercise you have to calculate percentages.</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kbruch
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kbruch.desktop/0ba87e4c351320fb85bc87dd0a8968b3/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kbruch.desktop/0ba87e4c351320fb85bc87dd0a8968b3/screenshots/image-1_624x461@1.png
+    width: 742
+    height: 549
+iconSources:
+  - url: org/kde/kbruch.desktop/0ba87e4c351320fb85bc87dd0a8968b3/icons/128x128/kbruch_kbruch.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/kbruch/"
+enabled: true
+order: 99

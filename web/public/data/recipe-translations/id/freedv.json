@@ -1,0 +1,5 @@
+{
+  "name": "FreeDV",
+  "description": "Mode Suara Digital untuk Radio HF",
+  "longDescription": "<p>FreeDV adalah mode suara digital yang dirancang untuk transmisi dan penerimaan melalui radio frekuensi tinggi (HF). Aplikasi ini menggunakan modem frequency division multiplex (FDM) dengan 15 carrier tanpa forward error correction (FEC). Codec suara bit-rate rendah (Codec 2) menghasilkan kualitas suara tanpa kelelahan pendengar akibat noise dan gangguan yang biasanya terjadi pada komunikasi suara analog single sideband (SSB). Diperlukan transceiver HF SSB, komputer, dan dua kartu suara. Simulasi jalur dan pengujian HF langsung menunjukkan bahwa decoding suara dapat dilakukan pada rasio sinyal terhadap noise (SNR) 4 dB.</p>\n<p>Perangkat lunak FreeDV dikembangkan oleh David Rowe (Codec 2, implementasi modem FDM, integrasi) dan David Witten (antarmuka GUI, desain arsitektur). Desain dan antarmuka pengguna FreeDV mengacu pada program FDMDV sebelumnya yang dikembangkan oleh Francesco Lanza. Desain dan pengembangan modem FDM mendapat dukungan dari Peter Martinez.</p>\n"
+}

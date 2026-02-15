@@ -1,0 +1,5 @@
+{
+  "name": "mcpdisp-ext",
+  "description": "Extenseur d'émulateur de surface de contrôle Mackie",
+  "longDescription": "<p>mcpdisp propose un port MIDI Jack acceptant les messages d'affichage du protocole Mackie Control, normalement affichés sur la « scribble strip » de la surface, et les affiche à l'écran. Les LED de la bande et les vumètres sont également affichés.</p>\n"
+}

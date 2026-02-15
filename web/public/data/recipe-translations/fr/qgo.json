@@ -1,0 +1,5 @@
+{
+  "name": "qGo",
+  "description": "Jouez au Go en ligne ou contre l’ordinateur, visualisez et éditez des fichiers SGF",
+  "longDescription": "<p>qGo est un plateau de jeu informatisé permettant de jouer au jeu de Go contre un autre joueur, de visualiser et modifier des fichiers smart-go (SGF), ainsi que de se connecter à des serveurs de Go sur Internet. Il peut également interfacer avec des programmes de Go comme GNU Go, compatibles avec le protocole Go modem. Consultez le paquet cgoban si vous cherchez un client Go avec moins de dépendances logicielles.</p>\n<p>Reportez-vous à la description du paquet gnugo pour un résumé du jeu.</p>\n"
+}

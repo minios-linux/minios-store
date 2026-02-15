@@ -1,0 +1,5 @@
+{
+  "name": "SELinux-Policymanagement-Tool",
+  "description": "Erstellen von SELinux-Policy-Modulen",
+  "longDescription": "<p>Security-Enhanced Linux ist ein Patch für den Linux®-Kernel sowie eine Sammlung von Werkzeugen, die erweiterte Sicherheitsfunktionen und verpflichtende Zugriffskontrollen (Mandatory Access Control) für Linux bereitstellen. Der Security-Enhanced Linux-Kernel beinhaltet neue architekturelle Komponenten, die ursprünglich zur Verbesserung der Sicherheit des Flask-Betriebssystems entwickelt wurden. Diese Komponenten ermöglichen die Durchsetzung verschiedenster Mandatory-Access-Control-Richtlinien, einschließlich Verfahren wie Type Enforcement®, rollenbasierter Zugriffskontrolle (Role-based Access Control) und Multi-Level Security.</p>\n<p>Dieses Paket enthält die Werkzeuge system-config-selinux und selinux-polgengui.</p>\n"
+}

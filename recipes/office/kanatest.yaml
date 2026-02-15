@@ -1,0 +1,44 @@
+id: "kanatest"
+name: Kana test
+description: Drill game to learn Japanese kana characters
+longDescription: |
+  <p>Kanatest is a simple hiragana and katakana drill game. It checks your knowledge of Japanese kana characters.</p>
+  <p>There are three drill modes: hiragana mode (hiragana charset only), katakana mode (katakana charset only) and mixed mode (both charsets). The tester shows random kana characters and waits until you enter the romaji equivalent in an entry field. At the end, statistics are provided.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kanatest
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - kana
+  - japanese
+  - learning
+  - hiragana
+  - katagana
+iconSources:
+  - url: k/ka/kanatest.desktop/3ffe842d569c5bd36d24e1d7e88a0d12/icons/128x128/kanatest_kanatest.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

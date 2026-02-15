@@ -1,0 +1,57 @@
+id: "gnome-sound-recorder"
+name: Sound Recorder
+description: "A simple, modern sound recorder for GNOME"
+longDescription: |
+  <p>Sound Recorder provides a simple and modern interface that provides a straight-forward way to record and play audio. It allows you to do basic editing, and create voice memos.</p>
+  <p>Sound Recorder automatically handles the saving process so that you do not need to worry about accidentally discarding the previous recording.</p>
+  <p>Supported audio formats:</p>
+  <ul>
+    <li>Ogg Vorbis, Opus, FLAC, MP3 and MOV</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-sound-recorder
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - application
+  - record
+screenshotSources:
+  - url: org/gnome/SoundRecorder.desktop/1f5d2c9a5003867c463e2222efa6fe79/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/SoundRecorder.desktop/1f5d2c9a5003867c463e2222efa6fe79/screenshots/image-1_624x416@1.png
+    width: 902
+    height: 602
+  - url: org/gnome/SoundRecorder.desktop/1f5d2c9a5003867c463e2222efa6fe79/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/SoundRecorder.desktop/1f5d2c9a5003867c463e2222efa6fe79/screenshots/image-2_624x416@1.png
+    width: 902
+    height: 602
+iconSources:
+  - url: org/gnome/SoundRecorder.desktop/1f5d2c9a5003867c463e2222efa6fe79/icons/128x128/gnome-sound-recorder_org.gnome.SoundRecorder.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/SoundRecorder"
+enabled: true
+order: 99

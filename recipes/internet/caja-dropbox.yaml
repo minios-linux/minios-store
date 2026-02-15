@@ -1,0 +1,32 @@
+id: "caja-dropbox"
+name: Caja Dropbox
+description: Installs and launches proprietary Dropbox cloud software
+longDescription: |
+  <p>Caja Dropbox is an extension that integrates the Dropbox web service with your MATE Desktop.</p>
+  <p>To use this package you need to install the proprietary dropbox package from https://www.dropbox.com/install.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - caja-dropbox
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dropbox,transfer,file,sharing,caja,mate,filebrowser
+iconSources:
+  - url: c/ca/caja-dropbox.desktop/a292f549a59b9204ae4f3ecb8bc77c98/icons/128x128/caja-dropbox_caja-dropbox.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

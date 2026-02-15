@@ -1,0 +1,51 @@
+id: topcat
+name: TOPCAT
+description: Tool for OPerations on Catalogues And Tables
+longDescription: |
+  <p>TOPCAT is an interactive graphical viewer and editor for tabular data. Its aim is to provide most of the facilities that astronomers need for analysis and manipulation of source catalogues and other tables, though it can be used for non-astronomical data as well. It understands a number of different astronomically important formats (including FITS and VOTable) and more formats can be added.</p>
+  <p>This package contains the executable.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - topcat
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - fits
+  - astronomy
+  - viewer
+  - vo
+  - votable
+  - samp
+screenshotSources:
+  - url: uk/ac/starlink.topcat/0f8d1b4e4cc25e98753f17829291ec46/screenshots/image-1_orig.png
+    thumbnailUrl: uk/ac/starlink.topcat/0f8d1b4e4cc25e98753f17829291ec46/screenshots/image-1_624x533@1.png
+    width: 1166
+    height: 996
+iconSources:
+  - cached: topcat_topcat.png
+    width: 64
+    height: 64
+homepage: "http://www.starlink.ac.uk/topcat/"
+enabled: true
+order: 99

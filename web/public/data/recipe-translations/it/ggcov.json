@@ -1,0 +1,5 @@
+{
+  "name": "GGcov",
+  "description": "Browser per la copertura del codice sorgente",
+  "longDescription": "<p>Questa è una semplice interfaccia grafica per esplorare i dati di copertura dei test C raccolti da programmi compilati con \"gcc --coverage\". Si tratta quindi di un'alternativa grafica al programma \"gcov\" fornito con gcc.</p>\n"
+}

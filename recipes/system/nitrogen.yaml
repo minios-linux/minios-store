@@ -1,0 +1,52 @@
+id: "nitrogen"
+name: Nitrogen
+description: Background browser and setter for X windows
+longDescription: |
+  <p>Nitrogen is a program that allows you to set the desktop background. Its
+        browser mode allows you to choose and apply a desktop background, and the
+        recall mode lets you apply the saved configuration from the command line.</p>
+  <p>It features Multihead and Xinerama awareness, inotify monitoring of browse
+        directory, lazy loading of thumbnails to conserve memory, and an
+        &apos;automatic&apos; set mode which determines the best mode to set an image based
+        on its size.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nitrogen
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - background
+  - desktop
+screenshotSources:
+  - url: n/ni/nitrogen.desktop/69B6FD1D5C8A7A62525C90AF0BEE0443/screenshots/image-1_orig.png
+    thumbnailUrl: n/ni/nitrogen.desktop/69B6FD1D5C8A7A62525C90AF0BEE0443/screenshots/image-1_224x333.png
+    width: 352
+    height: 524
+  - url: n/ni/nitrogen.desktop/69B6FD1D5C8A7A62525C90AF0BEE0443/screenshots/image-2_orig.png
+    thumbnailUrl: n/ni/nitrogen.desktop/69B6FD1D5C8A7A62525C90AF0BEE0443/screenshots/image-2_224x264.png
+    width: 475
+    height: 560
+iconSources:
+  - url: n/ni/nitrogen.desktop/D1ABC64781D1D0DE603EF1C91B5A47C1/icons/128x128/nitrogen_nitrogen.png
+    width: 128
+    height: 128
+homepage: "http://projects.l3ib.org/nitrogen/"
+enabled: true
+order: 99

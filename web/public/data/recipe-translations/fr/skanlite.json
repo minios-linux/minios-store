@@ -1,0 +1,5 @@
+{
+  "name": "Skanlite",
+  "description": "Application de numérisation d’images",
+  "longDescription": "<p>Skanlite est une application simple pour numériser et enregistrer des images.<br/>Basée sur libksane, une interface pour la bibliothèque SANE permettant de gérer les scanners d’images.</p>\n<p>Fonctionnalités :</p>\n<ul>\n  <li>Dialogue d’enregistrement après chaque numérisation ou sauvegarde automatique dans un dossier prédéfini avec des noms et formats générés automatiquement</li>\n  <li>Compatibilité avec les scanners réseau</li>\n  <li>Prévisualisation avec sélection de la zone à numériser</li>\n  <li>Numérisation de plusieurs sélections d’une même image</li>\n</ul>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Xjadeo",
+  "description": "Un reproductor de video sencillo que se sincroniza con el transporte de JACK.",
+  "longDescription": "<p>Reproductor de video simple que recibe sincronización desde jackd o MTC. Es útil en la creación de bandas sonoras, monitoreo de video o cualquier tarea que requiera asociar fotogramas con eventos de audio.</p>\n<p>Por ejemplo, cuando un cliente JACK (como Muse, Rosegarden o Ardour) actúa como maestro de tiempo, Xjadeo visualizará el video sincronizado con el transporte de JACK. Xjadeo también puede leer Midi Time Clock como fuente de sincronización alternativa y ofrece una interfaz opcional basada en QT.</p>\n<p>Por defecto, Xjadeo solo reproduce medios con posibilidad de búsqueda (seekable). Se recomienda instalar una utilidad de transcodificación como mencoder o transcode.</p>\n<p>Documentación en línea: http://xjadeo.sourceforge.net/main.html</p>\n"
+}

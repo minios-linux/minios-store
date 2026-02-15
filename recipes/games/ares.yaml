@@ -1,0 +1,37 @@
+id: ares
+name: ares
+description: Emulator
+longDescription: |
+  <p>ares is an emulator for systems from Nintendo, Sega, Sony, NEC, SNK, Microsoft, Coleco, Bandai and Benesse. It is a descendent of higan and bsnes and focuses on accuracy and preservation. The SNES emulation is especially complete and polished.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ares
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - emulator
+  - nintendo
+  - snes
+  - nes
+  - gameboy
+  - famicom
+  - super
+iconSources:
+  - url: a/ar/ares.desktop/5a958f5d2c965d5a8fa69514a834fa14/icons/128x128/ares_ares.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

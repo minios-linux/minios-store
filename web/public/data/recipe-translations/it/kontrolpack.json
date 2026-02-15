@@ -1,0 +1,5 @@
+{
+  "name": "KontrolPack",
+  "description": "Esecutore di comandi shell remoti e gestore di LAN",
+  "longDescription": "<p>KontrolPack è progettato per migliorare l'interoperabilità tra sistemi collegando computer remoti, indipendentemente dal sistema operativo utilizzato. Permette di:</p>\n<p> - Gestire l'esecuzione di comandi shell a distanza.  - Condividere file tra computer remoti.  - Amministrare la rete locale (LAN).  - Ottenere una panoramica delle postazioni sulla LAN.  - Scambiare messaggi in modo leggero tramite XML tra client e server.  - Gestire ogni client tramite pannello a schede personalizzato.  - Inviare comandi simultanei a tutti i computer della LAN.  - Multipiattaforma (GNU/Linux, Mac OSX, MS Windows).</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "JugglingLab",
+  "description": "Application pour créer et animer des figures de jonglage",
+  "longDescription": "<p>Juggling Lab est une application écrite en Java permettant de créer et d’animer des figures de jonglage.</p>\n<p>Son objectif principal est d’aider les utilisateurs à apprendre des patterns de jonglage et à en inventer de nouveaux.</p>\n<p>L’application permet de générer et d’animer des siteswaps synchrones, asynchrones et multiplexés. Les mouvements des mains et du corps sont personnalisables.</p>\n<p>Une partie du programme est consacrée à un générateur de siteswap, permettant de créer automatiquement des figures en renseignant des paramètres comme le nombre d’objets, la hauteur maximale des lancers ou la longueur du pattern.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "vitetris",
+  "description": "Jeu de Tetris en mode terminal",
+  "longDescription": "<p>Vitetris est un jeu de Tetris en mode terminal. Il se joue en solo ou à deux, en réseau ou sur le même clavier.</p>\n<p>Vitetris propose plus de fonctionnalités et d’options qu’on ne l’attendrait d’un simple jeu en mode texte : contrôle complet des touches, apparence personnalisable, jeu en ligne où chaque joueur peut choisir sa difficulté (niveau et hauteur) — à moins d’absolument vouloir le son (ou de ne pas aimer Tetris), vous ne serez pas déçu.</p>\n<p>La rotation, le système de points, les niveaux et la vitesse reprennent les standards des premiers jeux Tetris de Nintendo, avec en plus un court délai de verrouillage permettant de jouer à des niveaux plus élevés. (Ce délai ne permet pas d’empêcher le verrouillage de la pièce en exploitant le reset de ce délai.)</p>\n"
+}

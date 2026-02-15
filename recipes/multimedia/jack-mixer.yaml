@@ -1,0 +1,30 @@
+id: jack-mixer
+name: Jack Mixer
+description: A multi-channel audio mixer application for the JACK Audio Connection Kit
+longDescription: |
+  <p>Jack Audio Mixer provides a GTK+ GUI to mix JACK audio streams. It maintains the appearance of a hardware audio mixing desk. It can set levels, balance, mute, etc through the interface or via MIDI.</p>
+  <p>This package installs the application for Python 3.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jack-mixer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: j/ja/jack_mixer.desktop/997d70ee1aba1538e1bf627a0db509c1/icons/128x128/jack-mixer_jack_mixer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

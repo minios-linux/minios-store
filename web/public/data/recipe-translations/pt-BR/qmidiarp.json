@@ -1,0 +1,5 @@
+{
+  "name": "QMidiArp",
+  "description": "Arpejador MIDI, Sequenciador por Passos e LFO",
+  "longDescription": "<p>QMidiArp é um arpejador MIDI avançado, um sequenciador por passos programável e um LFO para Linux. Ele pode conter qualquer número de módulos de arpejador, sequenciador ou LFO rodando em paralelo.</p>\n<p>Arpejadores produzem sequências dependendo das notas enviadas para sua porta de entrada, que normalmente está conectada a um teclado ou outro sequenciador. Os módulos de sequenciador por passos permitem criar sequências simples lineares, monofônicas e globalmente transponíveis, semelhantes aos primeiros sequenciadores analógicos. Módulos LFO MIDI produzem dados de controlador MIDI com forma de onda, resolução de tempo, amplitude e duração ajustáveis.</p>\n<p>Recursos em destaque:</p>\n<ul>\n  <li>Backends MIDI JACK ou ALSA</li>\n  <li>Controles aprendíveis via MIDI</li>\n  <li>Sincronização por JACK Transport ou MIDI Clock</li>\n  <li>Suporte ao Non Session Manager (NSM)</li>\n  <li>Módulos disponíveis como plugins LV2</li>\n</ul>\n"
+}

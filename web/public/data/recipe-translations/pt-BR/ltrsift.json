@@ -1,0 +1,5 @@
+{
+  "name": "LTRsift",
+  "description": "Uma ferramenta gráfica para pós-processamento e classificação de retrotransposons LTR.",
+  "longDescription": "<p>LTRsift é uma ferramenta gráfica para desktop destinada ao pós-processamento semi-automático de anotações de retrotransposons LTR preditos de novo, como as geradas pelo LTRharvest e LTRdigest. Sua interface intuitiva exibe candidatos a retrotransposons LTR, suas possíveis famílias e suas estruturas internas de forma hierárquica, permitindo ao usuário analisar grandes volumes de resultados de softwares de predição. Também oferece funcionalidades personalizáveis de filtragem e classificação.</p>\n"
+}

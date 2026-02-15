@@ -1,0 +1,40 @@
+id: "pente"
+name: Pente
+description: Five in a row game for X
+longDescription: |
+  <p>Pente is the English name for the Asian game ni-nuki, which itself is a version of the game go-moku. The game is a variant of the well known five in a row. Placing five stones in a row is one way to win, the other is to capture five pairs of the opponents stones.</p>
+  <p>Pente can run in three different modes: X, curses or text. You can play against the computer or another human, and there is also support for playing over a network.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pente
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - console
+  - five
+  - row
+iconSources:
+  - url: p/pe/pente.desktop/6309130f889642609bc423a685a8d842/icons/128x128/pente_pente.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

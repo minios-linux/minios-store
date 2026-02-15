@@ -1,0 +1,83 @@
+id: "qbittorrent"
+name: qBittorrent
+description: A Bittorrent Client
+longDescription: |
+  <p>Aiming to be a good alternative to all other bittorrent clients out
+     there, qBittorrent is fast, stable and provides unicode support as well
+     as many other features. Additionally, qBittorrent runs and provides those
+     same features on all major platforms (Linux, Mac OS X, Windows, FreeBSD).</p>
+  <p>It is programmed in C++ / Qt and uses libtorrent (sometimes called
+     libtorrent-rasterbar) by Arvid Norberg. GeoLite data, created by MaxMind,
+     are included in qBittorrent. Its features include:</p>
+  <ul>
+    <li>Polished µTorrent-like User Interface</li>
+    <li>Well-integrated and extensible Search Engine</li>
+    <li>All Bittorrent extensions (DHT, Peer Exchange, Full encryption, Magnet/BitComet URIs, ...)</li>
+    <li>Remote control through a Web user interface</li>
+    <li>Advanced control over trackers, peers and torrents</li>
+    <li>UPnP / NAT-PMP port forwarding support</li>
+    <li>Available in ~25 languages (Unicode support)</li>
+    <li>Torrent creation tool</li>
+    <li>Advanced RSS support with download filters (inc. regex)</li>
+    <li>Bandwidth scheduler</li>
+    <li>IP Filtering (eMule and PeerGuardian compatible)</li>
+    <li>IPv6 compliant</li>
+    <li>Sequential downloading (aka &quot;Download in order&quot;)</li>
+  </ul>
+  
+categoryId: internet
+icon: Download
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qbittorrent
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - bittorrent
+  - torrent
+  - magnet
+  - download
+  - p2p
+screenshotSources:
+  - url: org/qbittorrent/qBittorrent/52fb8b9c815336a906bd5a793feb12b3/screenshots/image-1_orig.png
+    thumbnailUrl: org/qbittorrent/qBittorrent/52fb8b9c815336a906bd5a793feb12b3/screenshots/image-1_624x351.png
+    width: 1200
+    height: 675
+  - url: org/qbittorrent/qBittorrent/52fb8b9c815336a906bd5a793feb12b3/screenshots/image-2_orig.png
+    thumbnailUrl: org/qbittorrent/qBittorrent/52fb8b9c815336a906bd5a793feb12b3/screenshots/image-2_624x351.png
+    width: 1200
+    height: 675
+  - url: org/qbittorrent/qBittorrent/52fb8b9c815336a906bd5a793feb12b3/screenshots/image-3_orig.png
+    thumbnailUrl: org/qbittorrent/qBittorrent/52fb8b9c815336a906bd5a793feb12b3/screenshots/image-3_624x351.png
+    width: 1200
+    height: 675
+  - url: org/qbittorrent/qBittorrent/52fb8b9c815336a906bd5a793feb12b3/screenshots/image-4_orig.png
+    thumbnailUrl: org/qbittorrent/qBittorrent/52fb8b9c815336a906bd5a793feb12b3/screenshots/image-4_624x351.png
+    width: 1200
+    height: 675
+iconSources:
+  - url: org/qbittorrent/qBittorrent/76f01258b234cdcd4468233d630153bc/icons/128x128/qbittorrent_qbittorrent.png
+    width: 128
+    height: 128
+developer: The qBittorrent Project
+homepage: "https://www.qbittorrent.org/"
+enabled: true
+order: 99

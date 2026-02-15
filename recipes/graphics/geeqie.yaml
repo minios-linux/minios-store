@@ -1,0 +1,47 @@
+id: "geeqie"
+name: Geeqie
+description: View and manage images
+longDescription: |
+  <p>Geeqie is a browser for graphics files offering single click viewing of your graphics files. It includes thumbnail view, zoom, filtering features and external editor support.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - geeqie
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/geeqie/Geeqie/07907f6e0fad0ff241361f30e7928be8/screenshots/image-1_orig.png
+    thumbnailUrl: org/geeqie/Geeqie/07907f6e0fad0ff241361f30e7928be8/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/geeqie/Geeqie/07907f6e0fad0ff241361f30e7928be8/screenshots/image-2_orig.png
+    thumbnailUrl: org/geeqie/Geeqie/07907f6e0fad0ff241361f30e7928be8/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: org/geeqie/Geeqie/07907f6e0fad0ff241361f30e7928be8/icons/128x128/geeqie_geeqie.png
+    width: 128
+    height: 128
+homepage: "https://www.geeqie.org"
+enabled: true
+order: 99

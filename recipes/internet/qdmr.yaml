@@ -1,0 +1,29 @@
+id: qdmr
+name: QDMR
+description: A universal codeplug programming software for DMR radios.
+longDescription: |
+  <p>qdmr is a Qt5 application to program DMR radios. DMR is a digital modulation standard used in amateur and commercial radio. To this end, qdmr is an alternative codeplug programming software (CPS) that supports several radios of several manufacturers. Including AnyTone AT-D868UVE, AT-D878UV, AT-878UVII, AT-D578UV, TyT MD-390, MD-UV380, MD-UV390, MD-2017, Retevis RT8, RT3S, RT82, Radioddity RD5R, GD-77, Baofeng DMR-6X2 and radio running the OpenGD77 firmware.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qdmr
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qdmr_qdmr.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

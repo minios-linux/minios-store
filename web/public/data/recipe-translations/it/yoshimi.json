@@ -1,0 +1,5 @@
+{
+  "name": "Yoshimi",
+  "description": "Un sintetizzatore software per Linux",
+  "longDescription": "<p>Yoshimi è un sintetizzatore software MIDI per Linux che consente la sintesi audio in tempo reale. Può funzionare in modalità polifonica e/o monofonica su più patch simultanee, anche su uno o più canali MIDI, ed è dotato di ampie funzionalità microtonali. Include sofisticate capacità di sintesi additiva, sottrattiva e PAD che possono essere utilizzate contemporaneamente all'interno della stessa patch. Offre anche un set completo di effetti integrati.</p>\n<p>Derivato originariamente dalla versione 2.4.0 di ZynAddSubFX (Copyright 2002-2009 Nasca Octavian Paul), Yoshimi ha proseguito lo sviluppo in modo indipendente, implementando inizialmente ottimizzazioni importanti per le prestazioni audio e MIDI. Più recentemente, sono state introdotte funzionalità avanzate per il controllo dell’interfaccia utente, tra cui l'accesso da linea di comando. Dalla versione 1.5.0 supporta completamente la funzione Midi Learn. Il processo di affinamento è continuo, sia a livello visivo sia all'interno del codice.</p>\n"
+}

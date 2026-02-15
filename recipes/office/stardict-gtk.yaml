@@ -1,0 +1,39 @@
+id: stardict-gtk
+name: StarDict
+description: Lookup words in dictionaries
+longDescription: |
+  <p>StarDict is a Cross-Platform and international dictionary written in Gtk.</p>
+  <p>It has powerful features, such as "Glob-style pattern matching," "Scan selected word," "Fuzzy query" and "Full-text search".</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - stardict-gtk
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dictionary
+screenshotSources:
+  - url: org/gnome/stardict.desktop/198922c2f0c05e4d89e9771effef5f81/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/stardict.desktop/198922c2f0c05e4d89e9771effef5f81/screenshots/image-1_624x351.png
+    width: 752
+    height: 423
+iconSources:
+  - url: org/gnome/stardict.desktop/198922c2f0c05e4d89e9771effef5f81/icons/128x128/stardict-gtk_stardict.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "http://stardict-4.sourceforge.net/"
+enabled: true
+order: 99

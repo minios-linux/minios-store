@@ -1,0 +1,5 @@
+{
+  "name": "Dawg",
+  "description": "Simulator für Sequenzevolution",
+  "longDescription": "<p>DNA Assembly with Gaps (Dawg) ist eine Anwendung zur Simulation der Evolution rekombinanter DNA-Sequenzen in kontinuierlicher Zeit, basierend auf dem robusten generalisierten Zeitumkehrmodell mit Gamma- und Invarianten-Rate-Heterogenität sowie einem neuartigen, längenabhängigen Modell der Lückenbildung. Die Anwendung akzeptiert Stammbäume im Newick-Format und kann die Sequenz jedes Knotens zurückgeben, sodass der exakte Evolutionsverlauf nachverfolgbar ist. Dawg dokumentiert die Lückenhistorie jeder Abstammungslinie, um im Ergebnis das wahre Alignment bereitzustellen. Zahlreiche Optionen erlauben den Nutzern, Simulationen und Ergebnisse individuell anzupassen.</p>\n"
+}

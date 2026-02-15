@@ -1,0 +1,39 @@
+id: sugar-memorize-activity
+name: Memorize
+description: "Here you can play games that challenge your memory! But, more importantly, you can create your own game to test the memory of others!"
+longDescription: |
+  <p>Sugar Learning Platform promotes collaborative learning through Sugar Activities that encourage critical thinking, the heart of a quality education.  Designed from the ground up especially for children, Sugar offers an alternative to traditional “office-desktop” software.</p>
+  <p>Learner applications in Sugar are called Activities.  They are software packages that automatically save your work - producing specific instances of the Activity that can be resumed at a later time.  Many Activities support learner collaboration, where multiple learners may be invited to join a collective Activity session.</p>
+  <p>This package contains the Memorize activity.</p>
+  <p>Memorize is about finding matching pairs. A pair can consist of any multimedia object.  At the moment these are images, sounds and text but this could be extended to animations or movie snippets as well.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sugar-memorize-activity
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: sugar-memorize-activity_activity-memorize.png
+    width: 64
+    height: 64
+homepage: "https://help.sugarlabs.org/memorize.html"
+enabled: true
+order: 99

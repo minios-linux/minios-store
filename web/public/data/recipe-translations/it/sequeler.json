@@ -1,0 +1,5 @@
+{
+  "name": "Sequeler",
+  "description": "Client SQL intuitivo",
+  "longDescription": "<p>\n\t\t\tConnettiti facilmente al tuo database locale o remoto\n\t\t</p>\n<p>\n\t\t\tSalva le connessioni ai database nella libreria, accedi tramite tunnel SSH, scrivi ed esegui comandi SQL direttamente dall'applicazione, e gestisci tutte le operazioni senza dover aprire il terminale.\n\t\t</p>\n<p>\n\t\t\tDatabase supportati:\n\t\t</p>\n<ul>\n  <li>SQLite</li>\n  <li>MySQL</li>\n  <li>MariaDB</li>\n  <li>PostgreSQL</li>\n</ul>\n<p>\n\t\t\tFunzionalità principali:\n\t\t</p>\n<ul>\n  <li>Test delle connessioni prima del salvataggio</li>\n  <li>Visualizzazione struttura, contenuto e relazioni delle tabelle</li>\n  <li>Gestione di query SQL personalizzate multiple</li>\n  <li>Passaggio rapido tra modalità chiara e scura</li>\n  <li>Comode scorciatoie da tastiera: uscita (ctrl+q), nuova connessione (ctrl+shift+n), nuova finestra (ctrl+n)</li>\n</ul>\n"
+}

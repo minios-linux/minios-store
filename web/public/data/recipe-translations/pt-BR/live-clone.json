@@ -1,0 +1,5 @@
+{
+  "name": "Live Clone",
+  "description": "Clonagem de mídia Live-Boot",
+  "longDescription": "<p>Este aplicativo permite criar pen drives inicializáveis a partir de uma imagem iso-híbrida gerada pelo Live-Build. Ele também adapta uma partição de persistência para utilizar o espaço livre do dispositivo USB.</p>\n<p>Inclui ferramentas de gerenciamento para pen drives Live USB: como esses discos são usados diariamente, podem ocorrer inconsistências na área de persistência, tornando-os inutilizáveis. São disponibilizadas ferramentas para salvar os dados de persistência quando necessário e limpar a área de persistência, permitindo o reuso do dispositivo USB.</p>\n<p>O aplicativo detecta automaticamente quando está sendo executado em um ambiente Debian-Live, permitindo o auto-clonagem de forma transparente.</p>\n"
+}

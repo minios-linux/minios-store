@@ -1,0 +1,5 @@
+{
+  "name": "PulseView",
+  "description": "Antarmuka logika analyzer, osiloskop, dan MSO",
+  "longDescription": "<p>PulseView adalah antarmuka grafis berbasis Qt untuk logic analyzer, osiloskop, dan MSO yang mendukung sigrok.</p>\n<p>Fitur:</p>\n<ul>\n  <li>Rendering sinyal sangat cepat O(log N) di semua tingkat zoom</li>\n  <li>Dukungan decoder protokol</li>\n  <li>Dukungan grup jejak (trace group)</li>\n</ul>\n"
+}

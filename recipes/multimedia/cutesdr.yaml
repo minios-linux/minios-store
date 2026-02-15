@@ -1,0 +1,38 @@
+id: "cutesdr"
+name: CuteSdr
+description: Spectrum display and demodulator of IQ radio data
+longDescription: |
+  <p>The CuteSDR application&apos;s primary purpose is for spawning custom applications or for educational use. It is NOT a full featured program as it is purposely kept simple in order for developers to more easily spin off their own applications. A further goal was to use only the stock functionality of Qt ie no libraries or special drivers. This limits CuteSDR to using only a network connection. The main gui and framework is written by Moe Wheatly, AE4JY.</p>
+  <p>CuteSDR itself has only a network interface and will directly support the RFSPACE NetSDR and SDR-IP radios. The siqs_ftdi and SDRxxServer applications (packaged separately) provide network interfaces to RFSPACE USB devices.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cutesdr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: c/cu/cutesdr.desktop/f9ca5418c5f1594c4e918c1214628008/icons/128x128/cutesdr_cutesdr.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

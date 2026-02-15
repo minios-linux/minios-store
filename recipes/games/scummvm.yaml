@@ -1,0 +1,63 @@
+id: "scummvm"
+name: ScummVM
+description: Interpreter for several adventure games
+longDescription: |
+  <p>ScummVM is a `virtual machine&apos; for several classic graphical point-and-click adventure games.  It is designed to run Adventure Soft&apos;s Simon the Sorcerer 1 and 2, Revolution&apos;s Beneath A Steel Sky, and games based on LucasArts&apos; SCUMM (Script Creation Utility for Maniac Mansion) system.  SCUMM is used for many games, including Monkey Island, Day of the Tentacle, Sam and Max and more.  See the official compatibility list at &lt;http://www.scummvm.org/compatibility.php&gt; for a full list of supported games.</p>
+  <p>The game data of four games compatible with ScummVM is included in Debian. These are:</p>
+  <p> - Beneath a Steel Sky                 (package: beneath-a-steel-sky)  - Drascula: The Vampire Strikes Back  (package: drascula)  - Flight of the Amazon Queen          (package: flight-of-the-amazon-queen)  - Lure of the Temptress               (package: lure-of-the-temptress)</p>
+  <p>To actually make use of ScummVM, you&apos;ll have to install one of these, or obtain the proprietary game data for another supported game from somewhere else.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - scummvm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/scummvm/scummvm/24eeb89ee00b1a70e156119b843b1274/screenshots/image-1_orig.png
+    thumbnailUrl: org/scummvm/scummvm/24eeb89ee00b1a70e156119b843b1274/screenshots/image-1_624x493@1.png
+    width: 930
+    height: 735
+  - url: org/scummvm/scummvm/24eeb89ee00b1a70e156119b843b1274/screenshots/image-2_orig.png
+    thumbnailUrl: org/scummvm/scummvm/24eeb89ee00b1a70e156119b843b1274/screenshots/image-2_624x486@1.png
+    width: 1154
+    height: 900
+  - url: org/scummvm/scummvm/24eeb89ee00b1a70e156119b843b1274/screenshots/image-3_orig.png
+    thumbnailUrl: org/scummvm/scummvm/24eeb89ee00b1a70e156119b843b1274/screenshots/image-3_624x485@1.png
+    width: 1157
+    height: 900
+  - url: org/scummvm/scummvm/24eeb89ee00b1a70e156119b843b1274/screenshots/image-4_orig.png
+    thumbnailUrl: org/scummvm/scummvm/24eeb89ee00b1a70e156119b843b1274/screenshots/image-4_624x486@1.png
+    width: 1155
+    height: 900
+  - url: org/scummvm/scummvm/24eeb89ee00b1a70e156119b843b1274/screenshots/image-5_orig.png
+    thumbnailUrl: org/scummvm/scummvm/24eeb89ee00b1a70e156119b843b1274/screenshots/image-5_624x395@1.png
+    width: 1421
+    height: 900
+iconSources:
+  - url: org/scummvm/scummvm/24eeb89ee00b1a70e156119b843b1274/icons/128x128/scummvm_org.scummvm.scummvm.png
+    width: 128
+    height: 128
+developer: The ScummVM Team
+homepage: "https://www.scummvm.org"
+enabled: true
+order: 99

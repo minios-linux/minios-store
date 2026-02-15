@@ -1,0 +1,53 @@
+id: "colorhug-client"
+name: ColorHug Backlight Utility
+description: Sample the ambient light level to control the backlight
+longDescription: |
+  <p>The ColorHug backlight utility uses the ColorHug device to alter the backlight level to compensate for the changing ambient light level.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - colorhug-client
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - display
+  - backlight
+  - ambient
+  - colorhug
+screenshotSources:
+  - url: com/hughski/ColorHug.DisplayAnalysis.desktop/1134a052dffa5f5e43523d7bba87c273/screenshots/image-1_orig.png
+    thumbnailUrl: com/hughski/ColorHug.DisplayAnalysis.desktop/1134a052dffa5f5e43523d7bba87c273/screenshots/image-1_624x358@1.png
+    width: 708
+    height: 407
+  - url: com/hughski/ColorHug.DisplayAnalysis.desktop/1134a052dffa5f5e43523d7bba87c273/screenshots/image-2_orig.png
+    thumbnailUrl: com/hughski/ColorHug.DisplayAnalysis.desktop/1134a052dffa5f5e43523d7bba87c273/screenshots/image-2_624x501@1.png
+    width: 708
+    height: 569
+iconSources:
+  - url: com/hughski/ColorHug.DisplayAnalysis.desktop/1134a052dffa5f5e43523d7bba87c273/icons/128x128/colorhug-client_colorhug-refresh.png
+    width: 128
+    height: 128
+developer: Hughski Limited
+homepage: "http://www.hughski.com/"
+enabled: true
+order: 99

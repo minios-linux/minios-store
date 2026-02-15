@@ -1,0 +1,45 @@
+id: growl-for-linux
+name: Growl For Linux
+description: Growl Desktop Notification System For Linux
+longDescription: |
+  <p>Growl For Linux is a linux-compatible notification system of Growl. Growl is a notification system for Mac OS X. It uses GNTP (Growl Notification Transport Protocol) for notification.</p>
+  <p>Growl For Linux provides four kind of display styles - balloon, fog, libnotify and nico2. The display style is implemented as a plugin, so you can add a new display style if you want.</p>
+  <p>And more, Growl For Linux supports subscriber which will interact with other software. Currently Growl For Linux supports Rhythmbox.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - growl-for-linux
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - notifications
+  - banner
+  - message
+  - tray
+  - popup
+iconSources:
+  - cached: growl-for-linux_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

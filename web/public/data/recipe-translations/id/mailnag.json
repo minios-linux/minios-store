@@ -1,0 +1,5 @@
+{
+  "name": "Mailnag",
+  "description": "Daemon notifikasi email yang dapat diperluas",
+  "longDescription": "<p>\n      Mailnag adalah program daemon yang memeriksa server POP3 dan IMAP untuk email baru.\n      Ketika email masuk, Mailnag dapat melakukan berbagai aksi yang disediakan oleh plugin.\n      Mailnag dilengkapi dengan set plugin bawaan yang independen dari desktop, seperti notifikasi visual/suara, eksekusi skrip, dan dapat diperluas dengan plugin tambahan dengan mudah.\n    </p>\n"
+}

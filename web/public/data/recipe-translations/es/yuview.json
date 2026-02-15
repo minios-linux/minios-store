@@ -1,0 +1,5 @@
+{
+  "name": "YUView",
+  "description": "Reproductor YUV multiplataforma basado en Qt con herramientas avanzadas de análisis",
+  "longDescription": "<p>\n      YUView es un reproductor YUV basado en Qt que ofrece un conjunto avanzado de herramientas analíticas para Linux, Windows y Mac. En esencia, YUView es un reproductor YUV potente capaz de abrir y mostrar prácticamente cualquier formato YUV. Su interfaz sencilla facilita la navegación por secuencias y la inspección de detalles, e incluye visualización en paralelo y comparación para identificar diferencias entre dos secuencias. Un sofisticado sistema de estadísticas permite superponer información adicional sobre el video. Entre otras funciones destacan las listas de reproducción, soporte para pruebas visuales y presentaciones, compatibilidad con formatos comprimidos (mediante libde265 y FFmpeg), soporte para archivos RGB sin comprimir, archivos de imagen y secuencias de imágenes, entre muchas otras características.  \n    </p>\n"
+}

@@ -1,0 +1,29 @@
+id: topparser
+name: Topparser
+description: Convert Pockettopo data to Therion
+longDescription: |
+  <p>Converts a .top file from pockettopo into a therion directory layout, extracting centreline and drawing information into suitable files. Greatly simplifies your workflow if using both Pockettopo and therion. Can also create survex centreline files.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - topparser
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - caving "cave surveying" therion pockettopo
+iconSources:
+  - url: t/to/topparser.desktop/28c619129c94e35442dec5a75cd8e327/icons/128x128/topparser_topparser.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

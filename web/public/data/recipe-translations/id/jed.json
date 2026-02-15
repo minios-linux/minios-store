@@ -1,0 +1,5 @@
+{
+  "name": "Jed",
+  "description": "Edit file teks",
+  "longDescription": "<p>Jed adalah editor teks yang kecil, cepat, dan bertenaga, bahkan memulai lebih cepat dari bash.</p>\n<p>Sangat dapat dikustomisasi dengan berbagai mode emulasi siap pakai seperti Emacs, CUA (mirip dengan KDE/Gnome/OpenOffice), Borland-IDE, Brief, dan EDT. Dapat diperluas menggunakan bahasa skrip S-Lang (dengan sintaks mirip C).</p>\n<p>Fitur pengeditan: dukungan folding, potong/tempel persegi, pencarian/penggantian dengan ekspresi reguler, pencarian bertahap, pencarian/penggantian di banyak file, banyak jendela, banyak buffer, ...</p>\n<p>Alat: editor direktori (dired), info (menjelajah file GNU info), mail, rmail, ispell, mode shell, ...</p>\n<p>Mode spesial (highlight sintaks, indensi, kompilasi, ...) untuk Basic, C, C++, DCL, FORTRAN, IDL, Java, nroff, Pascal, Perl, PHP, PostScript, Python, sh.  Mode untuk bahasa markup termasuk HTML dan (La)TeX (dengan pengeditan gaya AUC-TeX dan BibTeX)</p>\n<p>Alat dan mode tambahan tersedia di paket jed-extra.</p>\n"
+}

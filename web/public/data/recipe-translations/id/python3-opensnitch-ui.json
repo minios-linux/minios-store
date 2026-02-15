@@ -1,0 +1,5 @@
+{
+  "name": "OpenSnitch",
+  "description": "Firewall aplikasi interaktif untuk GNU/Linux",
+  "longDescription": "<p>\n      Setiap kali sebuah program mencoba membuat koneksi baru, akan muncul permintaan kepada pengguna untuk mengizinkan atau menolak koneksi tersebut.\n    </p>\n<p>\n      Pengguna dapat memutuskan untuk memblokir koneksi keluar berdasarkan properti koneksi: berdasarkan port, uid, IP tujuan, nama program, atau kombinasi dari semuanya. Aturan ini dapat berlaku selamanya, hingga aplikasi dimulai ulang, atau hanya sekali saja.\n    </p>\n<p>\n      Antarmuka grafis (GUI) memungkinkan pengguna melihat koneksi keluar secara real-time, serta melakukan pencarian berdasarkan proses, pengguna, host, atau port.\n    </p>\n<p>\n      OpenSnitch juga dapat berfungsi sebagai pemblokir domain untuk seluruh sistem, dengan menggunakan daftar domain, daftar IP, atau daftar ekspresi reguler.\n    </p>\n"
+}

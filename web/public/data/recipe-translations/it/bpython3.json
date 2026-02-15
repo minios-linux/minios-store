@@ -1,0 +1,5 @@
+{
+  "name": "bpython3",
+  "description": "Un’interfaccia avanzata per l’interprete Python!",
+  "longDescription": "<p>bpython è un’interfaccia avanzata per l’interprete Python e offre le seguenti funzionalità:</p>\n<p>  * Evidenziazione della sintassi in tempo reale.   * Autocompletamento in stile Readline, con suggerimenti mentre digiti   * Visualizzazione degli argomenti attesi per ogni funzione Python (si appoggia a pydoc per provare a recuperare i parametri anche per le funzioni C)   * Funzione \"Rewind\" per rimuovere l’ultima riga di codice dalla memoria e rieseguire il resto (utile soprattutto in fase di definizione di classi e funzioni, dato che un vero \"annulla\" non è possibile, quindi presta attenzione nell’utilizzo)   * Invio del codice digitato a un servizio pastebin con restituzione dell’URL per la condivisione   * Salvataggio del codice digitato su file   * Indentazione automatica   * Modalità Anti-Crash.</p>\n<p>Questo pacchetto contiene bpython per Python 3.</p>\n"
+}

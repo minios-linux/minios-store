@@ -1,0 +1,5 @@
+{
+  "name": "Aplicativos de Inicialização",
+  "description": "Escolha quais aplicativos iniciar ao fazer login",
+  "longDescription": "<p>Este pacote contém uma sessão que pode ser iniciada a partir de um gerenciador de exibição como o MDM. Ele carregará todos os aplicativos necessários para uma sessão completa do usuário.</p>\n<p>O gerenciador de sessões também permite salvar uma sessão em andamento e restaurá-la posteriormente.</p>\n<p>Esta versão está configurada para iniciar o ambiente de desktop UKUI, baseado no painel UKUI.</p>\n"
+}

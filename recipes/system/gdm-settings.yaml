@@ -1,0 +1,40 @@
+id: gdm-settings
+name: GDM Settings
+description: Customize your login screen
+longDescription: |
+  <p>
+          Change GDM Settings; Apply theme and background, change cursor theme, icon theme
+          and night light settings, among other things.
+       </p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gdm-settings
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: io/github/realmazharhussain.GdmSettings/603e0f2948002fa5e9137e58986c7a0a/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/realmazharhussain.GdmSettings/603e0f2948002fa5e9137e58986c7a0a/screenshots/image-1_624x369.png
+    width: 1030
+    height: 610
+  - url: io/github/realmazharhussain.GdmSettings/603e0f2948002fa5e9137e58986c7a0a/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/realmazharhussain.GdmSettings/603e0f2948002fa5e9137e58986c7a0a/screenshots/image-2_224x346.png
+    width: 400
+    height: 618
+  - url: io/github/realmazharhussain.GdmSettings/603e0f2948002fa5e9137e58986c7a0a/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/realmazharhussain.GdmSettings/603e0f2948002fa5e9137e58986c7a0a/screenshots/image-3_224x346.png
+    width: 400
+    height: 618
+iconSources:
+  - url: io/github/realmazharhussain.GdmSettings/603e0f2948002fa5e9137e58986c7a0a/icons/128x128/gdm-settings_io.github.realmazharhussain.GdmSettings.png
+    width: 128
+    height: 128
+developer: Mazhar Hussain
+homepage: "https://gdm-settings.github.io"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "QMidiArp",
+  "description": "Ein MIDI-Arpeggiator, Step-Sequenzer und LFO",
+  "longDescription": "<p>QMidiArp ist ein fortschrittlicher MIDI-Arpeggiator, programmierbarer Step-Sequenzer und LFO für Linux. Es können beliebig viele Arpeggiator-, Sequenzer- oder LFO-Module parallel betrieben werden.</p>\n<p>Arpeggiatoren erzeugen Sequenzen basierend auf den Noten, die an ihren Eingangsport gesendet werden – in der Regel ein Keyboard oder ein anderer Sequenzer. Step-Sequenzer-Module ermöglichen das Erstellen von einfachen, linearen, monophonen und global transponierbaren Sequenzen, ähnlich wie die ersten analogen Sequenzer. MIDI-LFO-Module generieren MIDI-Controller-Daten mit anpassbarer Wellenform, Zeitauflösung, Amplitude und Dauer.</p>\n<p>Hauptfunktionen:</p>\n<ul>\n  <li>JACK- oder ALSA-MIDI-Backends</li>\n  <li>MIDI-learn-fähige Bedienungselemente</li>\n  <li>Synchronisation über JACK Transport oder MIDI Clock</li>\n  <li>Unterstützung für Non Session Manager (NSM)</li>\n  <li>Module auch als LV2-Plugins verfügbar</li>\n</ul>\n"
+}

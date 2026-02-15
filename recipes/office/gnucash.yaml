@@ -1,0 +1,37 @@
+id: "gnucash"
+name: GnuCash
+description: "Manage your finances, accounts, and investments"
+longDescription: |
+  <p>Gnucash provides accounting functions suitable for use by small businesses and individuals. It can track finances in multiple accounts, keeping running and reconciled balances. There is support for customer, vendor and employee processing. It has an X based graphical user interface, double entry, a hierarchy of accounts, expense accounts (categories), and can import Quicken QIF files and OFX files.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnucash
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gn/gnucash.desktop/a70178aa3de9b691b0c17a9130b95dba/icons/128x128/gnucash_gnucash-icon.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

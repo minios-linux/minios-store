@@ -1,0 +1,46 @@
+id: "termit"
+name: Termit
+description: Lightweight terminal emulator
+longDescription: |
+  <p>Support features like multiple tabs, switching encodings, sessions, configurable keybindings, embedded Lua language and xterm-like dynamic window title</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - termit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - run
+screenshotSources:
+  - url: org/gnome/ratnikov.ev.apps.termit/f4d9b363d596ab66b0004b6c7eb0d729/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/ratnikov.ev.apps.termit/f4d9b363d596ab66b0004b6c7eb0d729/screenshots/image-1_624x408.png
+    width: 840
+    height: 550
+iconSources:
+  - cached: termit_utilities-terminal.png
+    width: 64
+    height: 64
+developer: Evgeny Ratnikov
+homepage: "https://github.com/nonstop/termit/wiki"
+enabled: true
+order: 99

@@ -1,0 +1,51 @@
+id: "qjackctl"
+name: QjackCtl
+description: JACK Audio Connection Kit Qt GUI Interface
+longDescription: |
+  <p>JACK Audio Connection Kit - Qt GUI Interface: A simple Qt application
+     to control the JACK server. Written in C++ around the Qt framework
+     for X11, most exclusively using Qt Designer. Provides a simple GUI
+     dialog for setting several JACK server parameters, which are properly
+     saved between sessions, and a way control of the status of the audio
+     server. With time, this primordial interface has become richer by 
+     including a enhanced patchbay and connection control features.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qjackctl
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - midi
+  - alsa
+  - jack
+  - lv2
+  - qt
+screenshotSources:
+  - url: org/rncbc/qjackctl/cfde04615ee5e67c59517455902a056e/screenshots/image-1_orig.png
+    thumbnailUrl: org/rncbc/qjackctl/cfde04615ee5e67c59517455902a056e/screenshots/image-1_624x468@1.png
+    width: 640
+    height: 480
+iconSources:
+  - url: org/rncbc/qjackctl/cfde04615ee5e67c59517455902a056e/icons/128x128/qjackctl_org.rncbc.qjackctl.png
+    width: 128
+    height: 128
+developer: rncbc aka. Rui Nuno Capela
+homepage: "https://qjackctl.sourceforge.io"
+enabled: true
+order: 99

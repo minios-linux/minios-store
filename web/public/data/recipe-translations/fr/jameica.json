@@ -1,0 +1,5 @@
+{
+  "name": "Jameica",
+  "description": "Système d’exécution pour applications Java",
+  "longDescription": "<p>Environnement d’exécution pour les applications Java réalisées sous forme de plugins.</p>\n<p>Jameica prend en charge les tâches récurrentes telles que&nbsp;:  * interface utilisateur uniforme  * séparation stricte des données utilisateur et programme  * accès standardisé aux fichiers de configuration  * éléments de navigation et de menu communs  * échange de données synchrones et asynchrones entre plugins  * prise en charge du modèle client-serveur via RMI, XML-RPC ou SOAP  * utilisation simplifiée des méthodes de chiffrement (système de portefeuille intégré)  * support sans interface graphique pour serveurs  * journalisation</p>\n"
+}

@@ -1,0 +1,49 @@
+id: "ulcc"
+name: ulcc
+description: Teaching children by pictures
+longDescription: |
+  <p>
+        ulcc is an educational tool/game targeted at children. It is designed to aid in learning words through visual samples.
+  As a side function it can also help to familiarize one with a mouse.
+      </p>
+  <p>
+        This program is useful for elementary schools.
+      </p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ulcc
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - learn
+  - educational
+  - edu
+  - game
+  - kid
+  - child
+screenshotSources:
+  - url: org/bitbucket/ulcc/5e91ec50c09266cb5af0b14a425fbcb0/screenshots/image-1_orig.png
+    thumbnailUrl: org/bitbucket/ulcc/5e91ec50c09266cb5af0b14a425fbcb0/screenshots/image-1_624x685.png
+    width: 678
+    height: 745
+iconSources:
+  - url: org/bitbucket/ulcc/5e91ec50c09266cb5af0b14a425fbcb0/icons/128x128/ulcc_ulcc.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

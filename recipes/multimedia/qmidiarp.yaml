@@ -1,0 +1,70 @@
+id: "qmidiarp"
+name: QMidiArp
+description: "A MIDI Arpeggiator, Step Sequencer and LFO"
+longDescription: |
+  <p>QMidiArp is an advanced MIDI arpeggiator, programmable step sequencer
+    and LFO for Linux. It can hold any number of arpeggiator, sequencer,
+    or LFO modules running in parallel.</p>
+  <p>Arpeggiators produce sequences depending on the notes sent to
+    their input port, which is typically connected to a keyboard or
+    another sequencer. Step sequencer modules allow you to create simple 
+    linear, monophonic
+    and globally transposable sequences similar to the first analog
+    sequencers. MIDI LFO modules produce MIDI controller data of
+    adjustable waveform, time resolution, amplitude and duration.</p>
+  <p>Highlighted Features:</p>
+  <ul>
+    <li>JACK or ALSA MIDI backends</li>
+    <li>MIDI-learnable controls</li>
+    <li>JACK Transport or MIDI Clock synchronization</li>
+    <li>Non Session Manager (NSM) support</li>
+    <li>Modules available as LV2 Plugins</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qmidiarp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - jackd
+  - midi
+  - arpeggiator
+screenshotSources:
+  - url: q/qm/qmidiarp.desktop/b07108e8faebf2ea1ea5810f6fb7ac60/screenshots/image-1_orig.png
+    thumbnailUrl: q/qm/qmidiarp.desktop/b07108e8faebf2ea1ea5810f6fb7ac60/screenshots/image-1_624x337.png
+    width: 695
+    height: 376
+  - url: q/qm/qmidiarp.desktop/b07108e8faebf2ea1ea5810f6fb7ac60/screenshots/image-2_orig.png
+    thumbnailUrl: q/qm/qmidiarp.desktop/b07108e8faebf2ea1ea5810f6fb7ac60/screenshots/image-2_224x145.png
+    width: 600
+    height: 390
+iconSources:
+  - url: q/qm/qmidiarp.desktop/b07108e8faebf2ea1ea5810f6fb7ac60/icons/128x128/qmidiarp_qmidiarp.png
+    width: 128
+    height: 128
+homepage: "http://qmidiarp.sourceforge.net"
+enabled: true
+order: 99

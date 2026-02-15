@@ -1,0 +1,42 @@
+id: "psi"
+name: Psi
+description: Communicate over the XMPP network
+longDescription: |
+  <p>Psi is a free instant messaging application designed for the Jabber (XMPP) IM network (including Google Talk). It has full Unicode support, and supports many important XMPP features like file transfer, group chat, encryption etc.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - psi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - xmpp
+  - jabber
+  - chat
+  - instantmessaging
+iconSources:
+  - url: p/ps/psi.desktop/4d274d4a7bf6ec4792f0aa2747915227/icons/128x128/psi_psi.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

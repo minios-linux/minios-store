@@ -1,0 +1,5 @@
+{
+  "name": "Xarchiver",
+  "description": "Gerenciador de arquivos compactados baseado apenas em GTK+",
+  "longDescription": "<p>O Xarchiver é um frontend leve e independente de ambiente gráfico em GTK+ para manipulação de arquivos nos formatos xz, 7z, lzma, arj, bzip2, gzip, rar, tar, zip, rpm, lz4, compress, zstd, lzip, lrzip, lzop, lha e deb. Permite criar arquivos compactados e adicionar, extrair e excluir arquivos de dentro deles. Suporta arquivos protegidos por senha nos formatos arj, 7z, rar, zip e lrzip.</p>\n"
+}

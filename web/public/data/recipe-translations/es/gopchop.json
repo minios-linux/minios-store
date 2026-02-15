@@ -1,0 +1,5 @@
+{
+  "name": "GOPchop",
+  "description": "Editor MPEG2 con precisión GOP",
+  "longDescription": "<p>GOPchop permite cortar y unir flujos de video MPEG2. Utiliza un método para recortar los videos que no requiere recodificación, lo que lo hace rápido y evita los artefactos y la pérdida de calidad asociados a la recodificación. Sin embargo, los cortes solo pueden realizarse en los límites de I-frames o grupos de imágenes (GOP). Estos fotogramas aparecen con suficiente frecuencia, a menudo en los cambios de escena, por lo que el método de GOPchop resulta adecuado para muchos casos.</p>\n<p>El uso típico es editar manualmente comerciales fuera de programas de televisión grabados.</p>\n<p>Otra aplicación es dividir archivos .VOB de copias de DVD de doble capa, de modo que el contenido pueda ser reorganizado para que cada parte quepa en un DVD grabable de una sola capa.</p>\n"
+}

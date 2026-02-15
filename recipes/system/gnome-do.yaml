@@ -1,0 +1,26 @@
+id: gnome-do
+name: GNOME Do
+description: "Do things as quickly as possible (but no quicker) with your files, bookmarks, applications, music, contacts, and more!"
+longDescription: |
+  <p>Allows you to quickly search for many items present in your GNOME desktop environment (applications, Firefox bookmarks, files, artists and albums in Rhythmbox, Pidgin buddies,  etc.) and perform commonly used actions on those items (Run, Open, Email, Chat, Play, etc.).</p>
+  <p>GNOME Do is plugin based, allowing it to be easily extended to handle new items and actions.  This package contains a core set of items and actions.</p>
+  <p>Although GNOME Do primarily targets the GNOME desktop, it also works under other desktop environments.</p>
+  <p>GNOME Do is inspired by Quicksilver and GNOME Launch Box.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-do
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gnome-do_gnome-do.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Logiciel de spectrométrie de masse",
+  "description": "Visualisez, analysez et exploitez les données de spectrométrie de masse MS^n",
+  "longDescription": "<p>\n\n\t\t\t\tminexpert est un programme permettant de visualiser et d'exploiter les données spectrales MS^n, telles que les spectres de masse.\n\n\t\t\t</p>\n<p>Le programme offre les fonctionnalités suivantes :</p>\n<ul>\n  <li>Ouverture de tout nombre de fichiers de données de spectrométrie au format mzML ;</li>\n  <li>Calcul du chromatogramme TIC et de la carte couleur mz=ft(dt) pour les expériences de spectrométrie de masse à mobilité ionique ;</li>\n  <li>Réalisation de multiples intégrations (combinaisons) dans toutes les directions ;</li>\n  <li>Navigation intuitive, flexible et puissante dans les données ;</li>\n  <li>Calculs de clusters isotopiques configurables avec une grande précision.</li>\n  <li>La majorité des fonctionnalités de mineXpert2 peuvent être pilotées via JavaScript.</li>\n</ul>\n"
+}

@@ -1,0 +1,50 @@
+id: "gnome-robots"
+name: GNOME Robots
+description: Avoid the robots and make them crash into each other
+longDescription: |
+  <p>It is the distant future – the year 2000. Evil robots are trying to kill you. Avoid the robots or face certain death.</p>
+  <p>Fortunately, the robots are extremely stupid and will always move directly towards you. Trick them into colliding into each other, resulting in their destruction, or into the junk piles that result. You can defend yourself by moving the junk piles, or escape to safety with your handy teleportation device.</p>
+  <p>Your supply of safe teleports is limited, and once you run out, teleportation could land you right next to a robot, who will kill you. Survive for as long as possible!</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-robots
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - arcade
+  - teleport
+screenshotSources:
+  - url: org/gnome/Robots/e770722360564628af134e2fceb0c84c/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Robots/e770722360564628af134e2fceb0c84c/screenshots/image-1_624x537@1.png
+    width: 772
+    height: 665
+iconSources:
+  - url: org/gnome/Robots/e770722360564628af134e2fceb0c84c/icons/128x128/gnome-robots_org.gnome.Robots.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Robots"
+enabled: true
+order: 99

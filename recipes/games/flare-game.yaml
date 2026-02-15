@@ -1,0 +1,24 @@
+id: flare-game
+name: Flare
+description: "A single player, 2D-isometric, action Role-Playing Game"
+longDescription: |
+  <p>Flare (Free Libre Action Roleplaying Engine) is a simple game engine built to handle a very specific kind of game: single-player 2D action RPGs. Flare is not a reimplementation of an existing game or engine. It is a tribute to and exploration of the action RPG genre.</p>
+  <p>Rather than building a very abstract, robust game engine, the goal of this project is to build several real games and harvest an engine from the common, reusable code. This first game, in progress, is a fantasy dungeon crawl.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flare-game
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: flare-game_flare.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

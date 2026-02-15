@@ -1,0 +1,58 @@
+id: "cura"
+name: Cura
+description: The world's most advanced 3d printer software
+longDescription: |
+  <p>Cura creates a seamless integration between hardware, software and
+        materials for the best 3D printing experience around.
+        Cura supports the 3MF, OBJ and STL file formats and is available on
+        Windows, Mac and Linux.</p>
+  <ul>
+    <li>Novices can start printing right away</li>
+    <li>Experts are able to customize 300 settings to achieve the best results</li>
+    <li>Optimized profiles for Ultimaker materials</li>
+    <li>Supported by a global network of Ultimaker certified service partners</li>
+    <li>Print multiple objects at once with different settings for each object</li>
+    <li>Cura supports STL, 3MF and OBJ file formats</li>
+    <li>Open source and completely free</li>
+  </ul>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cura
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - 3d
+  - printing
+screenshotSources:
+  - url: c/cu/cura.desktop/B645593B87A764AFE9871E79C40EE434/screenshots/image-1_orig.png
+    thumbnailUrl: c/cu/cura.desktop/B645593B87A764AFE9871E79C40EE434/screenshots/image-1_624x351.png
+    width: 1280
+    height: 720
+iconSources:
+  - url: com/ultimaker/cura.desktop/60a1b77c20e51e34b899f82d4b90ffaa/icons/128x128/cura_cura-icon.png
+    width: 128
+    height: 128
+homepage: "https://ultimaker.com/en/products/cura-software?utm_source=cura&utm_medium=software&utm_campaign=resources"
+enabled: true
+order: 99

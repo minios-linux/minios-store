@@ -1,0 +1,54 @@
+id: papers
+name: Papers
+description: Read documents
+longDescription: |
+  <p>A document viewer for the GNOME desktop. You can view, search or annotate documents in many different formats.</p>
+  <p>Papers supports documents in: PDF, DjVu, TIFF, and Comic Books archives (CBR, CBT, CBZ, CB7).</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - papers
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pdf
+  - djvu
+  - tiff
+  - document
+  - presentation
+  - viewer
+  - papers
+screenshotSources:
+  - url: org/gnome/Papers/6c0786a21a0a541b2618912252f404f3/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Papers/6c0786a21a0a541b2618912252f404f3/screenshots/image-1_624x425@1.png
+    width: 2242
+    height: 1528
+  - url: org/gnome/Papers/6c0786a21a0a541b2618912252f404f3/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Papers/6c0786a21a0a541b2618912252f404f3/screenshots/image-2_624x989@1.png
+    width: 964
+    height: 1528
+  - url: org/gnome/Papers/6c0786a21a0a541b2618912252f404f3/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Papers/6c0786a21a0a541b2618912252f404f3/screenshots/image-3_624x989@1.png
+    width: 964
+    height: 1528
+  - url: org/gnome/Papers/6c0786a21a0a541b2618912252f404f3/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Papers/6c0786a21a0a541b2618912252f404f3/screenshots/image-4_624x405@1.png
+    width: 2352
+    height: 1528
+  - url: org/gnome/Papers/6c0786a21a0a541b2618912252f404f3/screenshots/image-5_orig.png
+    thumbnailUrl: org/gnome/Papers/6c0786a21a0a541b2618912252f404f3/screenshots/image-5_624x405@1.png
+    width: 2352
+    height: 1528
+iconSources:
+  - url: org/gnome/Papers/6c0786a21a0a541b2618912252f404f3/icons/128x128/papers_org.gnome.Papers.png
+    width: 128
+    height: 128
+homepage: "https://apps.gnome.org/Papers"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "SasView",
+  "description": "Análise de Espalhamento a Baixos Ângulos",
+  "longDescription": "<p>O SasView é um software para análise de espalhamento a baixos ângulos (SAS), desenvolvido originalmente como parte do projeto NSF DANSE sob o nome SansView e atualmente mantido por uma colaboração internacional de institutos.</p>\n<p>O SasView é utilizado para analisar dados de espalhamento a baixos ângulos (SAS).</p>\n<p>Ele realiza o ajuste de funções analíticas que representam diferentes tipos de microestruturas de materiais aos dados experimentais, permitindo determinar a forma, o tamanho e o grau de ordenação das estruturas.</p>\n<p>O SasView também oferece ferramentas para calcular densidades de espalhamento, tamanhos de fenda, resolução, espessuras de franja/d-espaçamentos, o invariante (Porod) ('espalhamento total') e funções de distribuição de distâncias.</p>\n<p>Este pacote instala o script executável sasview.</p>\n"
+}

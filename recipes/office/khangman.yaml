@@ -1,0 +1,43 @@
+id: "khangman"
+name: KHangMan
+description: Hangman Game
+longDescription: |
+  <p>KHangMan is a game based on the well-known hangman game. It is aimed at children aged six and over. The game has several categories of words to play with, for example: Animals (animals words) and three difficulty categories: Easy, Medium and Hard. A word is picked at random, the letters are hidden, and you must guess the word by trying one letter after another. Each time you guess a wrong letter, part of a picture of a hangman is drawn. You must guess the word before being hanged! You have 10 tries.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - khangman
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/khangman.desktop/d382cd564f0d692dc76e7e0d8537b4a7/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/khangman.desktop/d382cd564f0d692dc76e7e0d8537b4a7/screenshots/image-1_624x484@1.png
+    width: 1285
+    height: 998
+iconSources:
+  - url: org/kde/khangman.desktop/d382cd564f0d692dc76e7e0d8537b4a7/icons/128x128/khangman_khangman.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/khangman/"
+enabled: true
+order: 99

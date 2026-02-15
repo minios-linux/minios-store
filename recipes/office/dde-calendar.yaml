@@ -1,0 +1,28 @@
+id: dde-calendar
+name: Deepin Calendar
+description: Calendar is a date tool.
+longDescription: |
+  <p>Deepin Calendar is an easy calendar tool developed by Deepin Technology, main features current date, solar terms, lunar calendar and world holidays.</p>
+  <p>This package is part of DDE (Deepin Desktop Environment).</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dde-calendar
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: d/dd/dde-calendar.desktop/98D342856094BC2D142069EF1DFAC32F/icons/128x128/dde-calendar_dde-calendar.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

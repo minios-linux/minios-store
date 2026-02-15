@@ -1,0 +1,5 @@
+{
+  "name": "amsynth",
+  "description": "Synthesizer perangkat lunak subtraktif dengan dua osilator",
+  "longDescription": "<p>Fitur amSynth:    * Dua osilator audio bergaya analog, meliputi:          o gelombang sinus          o gelombang saw/segitiga dengan bentuk yang dapat diatur          o gelombang persegi/pulse dengan lebar impuls yang dapat diubah          o generator noise          o gelombang \"random\" (noise dengan sample &amp; hold)          o oscillator sync          o tentu saja, kontrol detune dan rentang    * Bagian mixer dengan modulasi cincin (ring modulation)    * Filter low-pass bergaya analog          o kurva 24dB/oktav          o amplop ADSR khusus          o kontrol cutoff dan resonansi          o pelacakan nada dari keyboard    * Amplifier dengan amplop ADSR khusus    * Modulasi LFO          o modulasi hingga 58Hz          o dapat di-routing ke semua bagian (pitch, filter, amplifier)    * Efek          o Reverb stereo berkualitas tinggi (freeverb)          o Distorsi/crunch    * Navigasi dan pengaturan preset yang mudah    * Berdiri sendiri sebagai klien Audio/Midi OSS atau ALSA</p>\n"
+}

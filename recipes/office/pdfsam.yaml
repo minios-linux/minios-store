@@ -1,0 +1,43 @@
+id: "pdfsam"
+name: PDFsam Basic
+description: "A tool to split, merge, rotate and mix PDF files"
+longDescription: |
+  <p>PDF Split and Merge is a very simple, easy to use, free, open source utility to split and merge pdf files. It has a simple graphical interface to let the user choose pdf files, split or merge them.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pdfsam
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pdf
+  - split
+  - merge
+  - rotate
+  - mix
+iconSources:
+  - url: p/pd/pdfsam.desktop/bf133c684502767c644925a86434e6ce/icons/128x128/pdfsam_pdfsam.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

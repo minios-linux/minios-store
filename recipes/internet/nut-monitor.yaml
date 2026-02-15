@@ -1,0 +1,63 @@
+id: "nut-monitor"
+name: NUT Monitor
+description: GUI application to monitor UPS status
+longDescription: |
+  <p>NUT Monitor is a GUI application to monitor UPS status, through NUT -
+     Network UPS Tools.
+     NUT is a client/server monitoring system that allows computers to
+     share uninterruptible power supply (UPS) and power distribution unit
+     (PDU) hardware. Clients access the hardware through the server, and
+     are notified whenever the power status changes.</p>
+  <p>NUT Monitor provides the following features:</p>
+  <ul>
+    <li>Automatically connects to local UPS if there is only one managed</li>
+    <li>Command line options to start hidden, load a favorite, ...</li>
+    <li>System tray (notification area) integration, including notifications</li>
+    <li>Favorites, to store different devices</li>
+    <li>Display all device variables</li>
+    <li>Modify writable variables on UPS and devices</li>
+    <li>Support English and French</li>
+  </ul>
+  <p>NUT Monitor requires that you have a running NUT system, that you can
+     connect to, either locally or remotely.
+     For more information on NUT: http://www.networkupstools.org/</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nut-monitor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: n/nu/nut-monitor.desktop/6c1607a93adc47981664193a1e6d6838/screenshots/image-1_orig.png
+    thumbnailUrl: n/nu/nut-monitor.desktop/6c1607a93adc47981664193a1e6d6838/screenshots/image-1_224x126@1.png
+    width: 620
+    height: 349
+  - url: n/nu/nut-monitor.desktop/6c1607a93adc47981664193a1e6d6838/screenshots/image-2_orig.png
+    thumbnailUrl: n/nu/nut-monitor.desktop/6c1607a93adc47981664193a1e6d6838/screenshots/image-2_224x126@1.png
+    width: 620
+    height: 349
+  - url: n/nu/nut-monitor.desktop/6c1607a93adc47981664193a1e6d6838/screenshots/image-3_orig.png
+    thumbnailUrl: n/nu/nut-monitor.desktop/6c1607a93adc47981664193a1e6d6838/screenshots/image-3_224x126@1.png
+    width: 620
+    height: 349
+iconSources:
+  - url: n/nu/nut-monitor.desktop/6c1607a93adc47981664193a1e6d6838/icons/128x128/nut-monitor_nut-monitor.png
+    width: 128
+    height: 128
+homepage: "http://www.lestat.st/en/informatique/projets/nut-monitor"
+enabled: true
+order: 99

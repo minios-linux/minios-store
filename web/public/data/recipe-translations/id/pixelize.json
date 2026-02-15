@@ -1,0 +1,5 @@
+{
+  "name": "Pixelize",
+  "description": "Membuat gambar dari banyak gambar kecil",
+  "longDescription": "<p>Pixelize adalah program yang menggunakan banyak gambar berukuran kecil untuk meniru sebuah gambar lain sedekat mungkin.</p>\n<p>Pixelize bekerja dengan membagi gambar yang ingin Anda hasilkan (atau tiru) menjadi kisi area persegi panjang kecil. Setiap area dianalisis dan digantikan dengan gambar yang dipilih dari basis data gambar yang besar. Pixelize akan memilih gambar yang paling cocok untuk setiap area.</p>\n"
+}

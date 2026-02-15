@@ -1,0 +1,38 @@
+id: "kchmviewer"
+name: KchmViewer
+description: A viewer of CHM (MS-Help) files
+longDescription: |
+  <p>KchmViewer is a chm (MS HTML help file format) viewer, written in C++. Unlike most existing CHM viewers for Unix, it uses Trolltech Qt widget library, and does not depend on KDE or GNOME. However, it may be compiled with full KDE support, including KDE widgets and KIO/KHTML.</p>
+  <p>The main advantage of KchmViewer is non-English language support. Unlike others, KchmViewer in most cases correctly detects help file encoding, correctly shows tables of context of Russian, Korean, Chinese and Japanese help files, and correctly searches in non-English help files (search for MBCS languages - ja/ko/ch is still in progress).</p>
+  <p>Completely safe and harmless. Does not support JavaScript in any way, optionally warns you before opening an external web page, or switching to another help file. Shows an appropriate image for every TOC entry.</p>
+  <p>KchmViewer Has complete chm index support, including multiple index entries, cross-links and parent/child entries in index as well as Persistent bookmarks support. Correctly detects and shows encoding of any valid chm file.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kchmviewer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: k/kc/kchmviewer.desktop/8b79c28b37c1480a9008605ff4ca4d81/icons/128x128/kchmviewer_kchmviewer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

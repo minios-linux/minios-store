@@ -1,0 +1,36 @@
+id: jalview
+name: Jalview
+description: Multiple Sequence Alignment Editor
+longDescription: |
+  <p>JalView is a Java DNA, RNA and protein sequence alignment editor that can work with sequence alignments produced by programs implementing alignment algorithms such as clustalw, kalign and t-coffee.</p>
+  <p>It has lots of features, is actively developed, and will compare advantageously to BioEdit, while being free as in free speech!</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jalview
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - alignment
+  - sequence
+iconSources:
+  - cached: jalview_jalview-icon.png
+    width: 64
+    height: 64
+homepage: "https://www.jalview.org/"
+enabled: true
+order: 99

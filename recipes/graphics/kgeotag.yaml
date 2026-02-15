@@ -1,0 +1,33 @@
+id: "kgeotag"
+name: KGeoTag
+description: Photo geotagging program
+longDescription: |
+  <p>KGeoTag is a standalone geotagging program. Images can be associated with geographic coordinates by different means: On the one hand, a matching with GPX encoded geodata can be done, on the other hand, the coordinates can be set manually, either via drag and drop onto a map, via bookmarks or by manually supplying them. The coordinates can be stored in the images' Exif header and/or in XMP sidecar files.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kgeotag
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kgeotag/07e4561e2c6846609ed1f54fae0b761d/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kgeotag/07e4561e2c6846609ed1f54fae0b761d/screenshots/image-1_624x501@1.png
+    width: 1184
+    height: 951
+iconSources:
+  - url: org/kde/kgeotag/07e4561e2c6846609ed1f54fae0b761d/icons/128x128/kgeotag_kgeotag.png
+    width: 128
+    height: 128
+homepage: "https://kgeotag.kde.org/"
+enabled: true
+order: 99

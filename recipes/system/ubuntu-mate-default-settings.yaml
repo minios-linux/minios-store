@@ -1,0 +1,26 @@
+id: ubuntu-mate-default-settings
+name: Screen Reader
+description: Provide access to graphical desktop environments via synthesized speech and/or refreshable braille
+longDescription: |
+  <p>Various system settings tailored for Ubuntu MATE.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ubuntu-mate-default-settings
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64]
+tags:
+  - screen reader
+  - speech
+  - braille
+iconSources:
+  - url: o/or/orca.desktop/1FAF53936AA137583F11811591272954/icons/128x128/ubuntu-mate-default-settings_orca.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

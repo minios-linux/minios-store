@@ -1,0 +1,5 @@
+{
+  "name": "Petri-Foo",
+  "description": "Campionatore audio",
+  "longDescription": "<p>Un campionatore controllato via MIDI per ALSA/JACK, semplice ma molto utile, che offre:  * 64 note di polifonia, suddivise in massimo 64 patch.  * Pitch shifting rapido e di alta qualità, inviluppi ADSR lineari per il volume.  * Filtro passa-basso con risonanza; diverse modalità di riproduzione indipendenti dalla direzione.  * Editor campioni con zoom per punti di loop e riproduzione.</p>\n<p>Petri-Foo è un fork del progetto Specimen Sampler.</p>\n"
+}

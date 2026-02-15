@@ -1,0 +1,38 @@
+id: "between"
+name: Between
+description: game about consciousness and isolation
+longDescription: |
+  <p>Between is a pixelated art game for two players by Jason Rohrer.</p>
+  <p>You know exactly what you need to do -- you can see it shimmering right there in front of you. You can see it while dreaming, too, and the difference has become subtle. Dreams wake into dreams, and people blend in and out: real characters and dream characters, all woven into the same script. Finally, they fade completely, and you&apos;re alone in the expanse with the construction. With time, you feel something growing, a pinhole that eventually yawns into a deep ravine of longing. The construction languishes, though the expanse seems indifferent.</p>
+  <p>One night, in a dream, they appear: things that you clearly could not have conjured on your own. Not snowflakes. Not the self-similar forms of leaves. Not distant planets&apos; erosion networks as viewed through telescopes. Not those things that are beautifully external but lack the signatures of consciousness. These things that appear are ugly and non-procedural: indecipherable transmissions bubbling up through static, faded messages floating in bottles, and charcoal handprints on cave walls. Evidence has reached you through time of unknown duration and distance of unknown magnitude, but stale evidence is still evidence.</p>
+  <p>Somewhere, across whatever barriers stand between, is an &quot;other&quot;.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - between
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: b/be/between.desktop/cef7b0db19eb4c00330fb38000f89902/icons/128x128/between_between.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

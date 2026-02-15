@@ -1,0 +1,28 @@
+id: mintstick
+name: USB Stick Formatter
+description: Format a USB stick
+longDescription: |
+  <p>GUI tool to write .img or .iso files to a USB Key. It can also format them.</p>
+  <p>This software is developed by Linux Mint.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mintstick
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: mintstick_mintstick.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

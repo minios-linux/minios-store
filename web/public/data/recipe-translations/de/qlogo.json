@@ -1,0 +1,5 @@
+{
+  "name": "QLogo-GUI",
+  "description": "Ein UCBLogo-kompatibler Interpreter auf Basis von Qt",
+  "longDescription": "<p>QLogo ist ein in C++ geschriebener Interpreter für die Programmiersprache Logo, der auf Qt und OpenGL basiert. Er bildet den an der U.C. Berkeley entwickelten UCBLogo-Interpreter so originalgetreu wie möglich nach. Tatsächlich beschreibt das UCBLogo-Handbuch etwa 99,9 % des Funktionsumfangs. Das UCBLogo-Handbuch finden Sie hier: http://people.eecs.berkeley.edu/~bh/usermanual</p>\n"
+}

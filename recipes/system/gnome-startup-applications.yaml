@@ -1,0 +1,25 @@
+id: gnome-startup-applications
+name: Startup Applications
+description: Choose what applications to start when you log in
+longDescription: |
+  <p>The Startup Applications Preferences app allows configuring applications to run automatically when logging in to your desktop. This app complies with the FreeDesktop.org Desktop Application Autostart Specification so it will work even if your chosen desktop is not GNOME.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-startup-applications
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: g/gn/gnome-session-properties.desktop/90A9D4C4A711F097155F49C87D450630/icons/128x128/gnome-startup-applications_session-properties.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

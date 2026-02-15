@@ -1,0 +1,73 @@
+id: webcamoid
+name: Webcamoid
+description: Take photos and record videos with your webcam
+longDescription: |
+  <p>
+              Webcamoid is a full featured and multiplatform webcam suite.
+          </p>
+  <ul>
+    <li>Cross-platform (GNU/Linux, Mac, Windows)</li>
+    <li>Take pictures and record videos with the webcam</li>
+    <li>Manages multiple webcams</li>
+    <li>Written in C++ and Qt</li>
+    <li>Custom controls for each webcam</li>
+    <li>Add funny effects to the webcam</li>
+    <li>+60 effects available</li>
+    <li>Translated to many languages.</li>
+    <li>Use custom network and local files as capture devices</li>
+    <li>Capture from desktop</li>
+    <li>Many recording formats</li>
+    <li>Virtual webcam support for feeding other programs</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - webcamoid
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - webcam
+  - desktop
+  - record
+  - capture
+screenshotSources:
+  - url: io/github/webcamoid.Webcamoid/35a24abd91bb2c0ca685378caaa8a5d8/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/webcamoid.Webcamoid/35a24abd91bb2c0ca685378caaa8a5d8/screenshots/image-1_624x383.png
+    width: 1024
+    height: 629
+  - url: io/github/webcamoid.Webcamoid/35a24abd91bb2c0ca685378caaa8a5d8/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/webcamoid.Webcamoid/35a24abd91bb2c0ca685378caaa8a5d8/screenshots/image-2_624x383.png
+    width: 1024
+    height: 629
+  - url: io/github/webcamoid.Webcamoid/35a24abd91bb2c0ca685378caaa8a5d8/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/webcamoid.Webcamoid/35a24abd91bb2c0ca685378caaa8a5d8/screenshots/image-3_624x383.png
+    width: 1024
+    height: 629
+  - url: io/github/webcamoid.Webcamoid/35a24abd91bb2c0ca685378caaa8a5d8/screenshots/image-4_orig.png
+    thumbnailUrl: io/github/webcamoid.Webcamoid/35a24abd91bb2c0ca685378caaa8a5d8/screenshots/image-4_624x350.png
+    width: 1366
+    height: 768
+  - url: io/github/webcamoid.Webcamoid/35a24abd91bb2c0ca685378caaa8a5d8/screenshots/image-5_orig.png
+    thumbnailUrl: io/github/webcamoid.Webcamoid/35a24abd91bb2c0ca685378caaa8a5d8/screenshots/image-5_624x359.png
+    width: 1334
+    height: 768
+iconSources:
+  - url: io/github/webcamoid.Webcamoid/35a24abd91bb2c0ca685378caaa8a5d8/icons/128x128/webcamoid_webcamoid.png
+    width: 128
+    height: 128
+developer: Gonzalo Exequiel Pedone
+homepage: "https://webcamoid.github.io/"
+enabled: true
+order: 99

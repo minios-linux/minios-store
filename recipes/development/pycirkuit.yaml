@@ -1,0 +1,25 @@
+id: pycirkuit
+name: PyCirkuit
+description: Front-end GUI for Dwight Aplevich Circuit Macros
+longDescription: |
+  <p>PyCirkuit is a front-end for Dwight Aplevich&apos;s Circuit Macros, which is a set of macros for drawing high-quality line diagrams to include in TeX, LaTeX, etc. PyCirkuit builds a live preview and allows it to be exported as TikZ.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pycirkuit
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pycirkuit_pycirkuit.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

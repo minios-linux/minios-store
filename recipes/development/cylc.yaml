@@ -1,0 +1,23 @@
+id: cylc
+name: Cylc
+description: Schedule and monitor weather and geoscience workflows
+longDescription: |
+  <p>Cylc (&quot;silk&quot;) is a suite engine and meta-scheduler that specializes in suites of cycling tasks for weather forecasting, climate modeling, and related processing (it can also be used for one-off workflows of non-cycling tasks, which is a simpler problem).</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cylc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: cylc_cylc.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

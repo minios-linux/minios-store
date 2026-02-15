@@ -1,0 +1,5 @@
+{
+  "name": "Aplicaciones al inicio",
+  "description": "Elige qué aplicaciones se inician al iniciar sesión",
+  "longDescription": "<p>Este paquete proporciona una sesión que puede iniciarse desde un gestor de acceso como MDM. Cargará todas las aplicaciones necesarias para ofrecer una sesión de usuario completa.</p>\n<p>El gestor de sesiones también permite guardar una sesión activa y restaurarla posteriormente.</p>\n<p>Esta versión está configurada para iniciar el escritorio MATE, basado en el panel MATE.</p>\n"
+}

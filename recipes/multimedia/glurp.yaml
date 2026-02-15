@@ -1,0 +1,33 @@
+id: glurp
+name: Glurp
+description: A Client for the MPD daemon
+longDescription: |
+  <p>glurp is a GTK+ frontend to the MPD music daemon. It features:   * Playlist support with id3 tags display.   * Password-protected connection to MPD.   * Easy switching of MPD&apos;s audio output device.   * Easy operations with MPD&apos;s database/playlists/streams.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - glurp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: glurp_glurp.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

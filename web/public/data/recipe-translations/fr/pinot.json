@@ -1,0 +1,5 @@
+{
+  "name": "Pinot Metasearch Tool",
+  "description": "Recherchez sur le Web et dans vos documents",
+  "longDescription": "<p>Pinot fournit un service D-Bus qui explore, indexe vos documents et surveille leurs modifications. Ce service peut ensuite être utilisé via une interface en ligne de commande ou grâce à une interface graphique GTK permettant d’interroger l’index créé par le service ainsi que vos moteurs de recherche Web préférés, puis d’afficher et d’analyser les résultats.</p>\n<p>Pinot propose également une interface Xesam, accessible via Xesam Query Language et Xesam User Language.</p>\n<p>Pour explorer les fichiers rpm, installez les paquets rpm et file.</p>\n"
+}

@@ -1,0 +1,43 @@
+id: "freetuxtv"
+name: FreetuxTV
+description: Watch television channels from internet
+longDescription: |
+  <p>FreetuxTV is a media player for watching and recording TV on a PC. It gives access to a large and growing database of free WebTV, WebRadio, and WebCam channels in more than 20 languages, along with television services provided by ISPs to their subscribers.</p>
+  <p>It relies on VLC for its multimedia codecs.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freetuxtv
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - television
+  - tv
+  - video
+  - stream
+iconSources:
+  - url: f/fr/freetuxtv.desktop/35632ef610debf09d6607e74a903b190/icons/128x128/freetuxtv_freetuxtv.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

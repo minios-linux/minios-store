@@ -1,0 +1,47 @@
+id: "trader"
+name: Star Traders
+description: "Play Star Traders, a simple game of interstellar trading"
+longDescription: |
+  <p>
+        Star Traders is a simple game of interstellar trading, where the
+        objective is to create companies, buy and sell shares, borrow and
+        repay money, in order to become the wealthiest player (the winner).
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - trader
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - interstellar
+  - trading
+  - strategy
+screenshotSources:
+  - url: au/org/zap.trader/34cf4f88ac36b0cfb799d333100220fb/screenshots/image-1_orig.png
+    thumbnailUrl: au/org/zap.trader/34cf4f88ac36b0cfb799d333100220fb/screenshots/image-1_624x361.png
+    width: 1044
+    height: 604
+iconSources:
+  - url: t/tr/trader.desktop/ad0aad653b9ac6fa60c1d55c6a326312/icons/128x128/trader_trader.png
+    width: 128
+    height: 128
+developer: John Zaitseff
+homepage: "https://www.zap.org.au/projects/trader/"
+enabled: true
+order: 99

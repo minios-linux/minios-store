@@ -1,0 +1,35 @@
+id: xygrib
+name: XyGrib GRIB file viewer
+description: Meterological file viewer
+longDescription: |
+  <p>This application, written with the Qt toolkit, enables:  * Visualisation of meteo data from files in GRIB Format 1  * Automatic GRIB data download  * Automatic Download from IAC (fleetcode) Data</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xygrib
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: xygrib_xygrib.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

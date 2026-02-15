@@ -1,0 +1,69 @@
+id: "sqlitebrowser"
+name: DB Browser for SQLite
+description: DB Browser for SQLite is a light GUI editor for SQLite databases
+longDescription: |
+  <p>DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.</p>
+  <p>It is for users and developers wanting to create databases, search, and edit data. It uses a familiar spreadsheet-like interface, and you don&apos;t need to learn complicated SQL commands.</p>
+  <p>Controls and wizards are available for users to:</p>
+  <ul>
+    <li>Create and compact database files</li>
+    <li>Create, define, modify and delete tables</li>
+    <li>Create, define and delete indexes</li>
+    <li>Browse, edit, add and delete records</li>
+    <li>Search records</li>
+    <li>Import and export records as text</li>
+    <li>Import and export tables from/to CSV files</li>
+    <li>Import and export databases from/to SQL dump files</li>
+    <li>Issue SQL queries and inspect the results</li>
+    <li>Examine a log of all SQL commands issued by the application</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sqlitebrowser
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: s/sq/sqlitebrowser.desktop/e9544dd4b880db4a3b1323efd6e578ec/screenshots/image-1_orig.png
+    thumbnailUrl: s/sq/sqlitebrowser.desktop/e9544dd4b880db4a3b1323efd6e578ec/screenshots/image-1_624x533@1.png
+    width: 647
+    height: 553
+  - url: s/sq/sqlitebrowser.desktop/e9544dd4b880db4a3b1323efd6e578ec/screenshots/image-2_orig.png
+    thumbnailUrl: s/sq/sqlitebrowser.desktop/e9544dd4b880db4a3b1323efd6e578ec/screenshots/image-2_624x391@1.png
+    width: 879
+    height: 552
+  - url: s/sq/sqlitebrowser.desktop/e9544dd4b880db4a3b1323efd6e578ec/screenshots/image-3_orig.png
+    thumbnailUrl: s/sq/sqlitebrowser.desktop/e9544dd4b880db4a3b1323efd6e578ec/screenshots/image-3_624x357@1.png
+    width: 1136
+    height: 651
+  - url: s/sq/sqlitebrowser.desktop/e9544dd4b880db4a3b1323efd6e578ec/screenshots/image-4_orig.png
+    thumbnailUrl: s/sq/sqlitebrowser.desktop/e9544dd4b880db4a3b1323efd6e578ec/screenshots/image-4_624x357@1.png
+    width: 1136
+    height: 651
+iconSources:
+  - url: s/sq/sqlitebrowser.desktop/e9544dd4b880db4a3b1323efd6e578ec/icons/128x128/sqlitebrowser_sqlitebrowser.png
+    width: 128
+    height: 128
+homepage: "http://sqlitebrowser.org/"
+enabled: true
+order: 99

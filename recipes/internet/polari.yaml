@@ -1,0 +1,72 @@
+id: "polari"
+name: Polari
+description: An Internet Relay Chat Client for GNOME
+longDescription: |
+  <p>A simple Internet Relay Chat (IRC) client that is designed to integrate
+        seamlessly with GNOME; it features a simple and beautiful interface which
+        allows you to focus on your conversations.</p>
+  <p>You can use Polari to publicly chat with people in a channel, and to
+        have private one-to-one conversations. Notifications make sure that
+        you never miss an important message — for private conversations,
+        they even allow you to reply instantly without switching back to the
+        application!</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - polari
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - irc
+  - internet
+  - relay
+  - chat
+screenshotSources:
+  - url: org/gnome/Polari.desktop/be58dcbc045180362c1315932f5c90d4/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Polari.desktop/be58dcbc045180362c1315932f5c90d4/screenshots/image-1_624x370@1.png
+    width: 1722
+    height: 1022
+  - url: org/gnome/Polari.desktop/be58dcbc045180362c1315932f5c90d4/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Polari.desktop/be58dcbc045180362c1315932f5c90d4/screenshots/image-2_624x370@1.png
+    width: 1722
+    height: 1022
+  - url: org/gnome/Polari.desktop/be58dcbc045180362c1315932f5c90d4/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Polari.desktop/be58dcbc045180362c1315932f5c90d4/screenshots/image-3_624x370@1.png
+    width: 1722
+    height: 1022
+  - url: org/gnome/Polari.desktop/be58dcbc045180362c1315932f5c90d4/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Polari.desktop/be58dcbc045180362c1315932f5c90d4/screenshots/image-4_624x370@1.png
+    width: 1722
+    height: 1022
+  - url: org/gnome/Polari.desktop/be58dcbc045180362c1315932f5c90d4/screenshots/image-5_orig.png
+    thumbnailUrl: org/gnome/Polari.desktop/be58dcbc045180362c1315932f5c90d4/screenshots/image-5_624x370@1.png
+    width: 1722
+    height: 1022
+iconSources:
+  - url: org/gnome/Polari.desktop/be58dcbc045180362c1315932f5c90d4/icons/128x128/polari_org.gnome.Polari.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Polari"
+enabled: true
+order: 99

@@ -1,0 +1,42 @@
+id: zaz
+name: Zaz
+description: Zaz ain't Z***
+longDescription: |
+  <p>Zaz is an arcade action puzzle game where the goal is to get rid of all incoming balls by rearranging their order and making triplets. It currently includes 12 different levels. The game&apos;s name is recursive and stands for &quot;Zaz ain&apos;t Z&quot;.</p>
+  <p>A 3D accelerator is needed for decent gameplay.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zaz
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - puzzle
+  - logic
+  - 3d
+iconSources:
+  - cached: zaz_zaz.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

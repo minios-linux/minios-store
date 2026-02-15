@@ -1,0 +1,32 @@
+id: "hotspot"
+name: Hotspot
+description: Linux perf GUI for performance analysis
+longDescription: |
+  <p>hotspot project is a KDAB R&amp;D effort to create a standalone GUI tool for performance data. This tool now only support perf output data. But is intended to support various other performance data formats in the future.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hotspot
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - performance
+  - perf
+iconSources:
+  - url: h/ho/hotspot.desktop/7CAA5A2CE0DEAB03299EBF746003373E/icons/128x128/hotspot_hotspot.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

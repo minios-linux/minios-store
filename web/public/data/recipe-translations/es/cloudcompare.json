@@ -1,0 +1,5 @@
+{
+  "name": "CloudCompare",
+  "description": "Software para procesamiento de nubes de puntos y mallas 3D",
+  "longDescription": "<p>Este es un software para el procesamiento de nubes de puntos 3D y mallas triangulares. Originalmente fue diseñado para comparar dos nubes de puntos 3D (como las obtenidas con un escáner láser) o para comparar una nube de puntos con una malla triangular.</p>\n<p>Utiliza una estructura de octree específica que permite un alto rendimiento en estas funciones. También está pensado para manejar nubes de puntos de gran tamaño (generalmente más de 10 millones de puntos, y hasta 120 millones con 2 GB de memoria).</p>\n"
+}

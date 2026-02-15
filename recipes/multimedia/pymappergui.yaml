@@ -1,0 +1,26 @@
+id: pymappergui
+name: pyMapperGUI
+description: Graphical User Interface for libmapper
+longDescription: |
+  <p>pyMapperGUI is a Graphical User Interface for libmapper</p>
+  <p>libmapper is a cross-platform software library for declaring data signals on a shared network and enabling arbitrary connections to be made between them. It creates a distributed mapping system/network, with no central points of failure, the potential for tight collaboration and easy parallelization of media synthesis.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pymappergui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - audio
+iconSources:
+  - cached: pymappergui_pymappergui.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

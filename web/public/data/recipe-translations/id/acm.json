@@ -1,0 +1,5 @@
+{
+  "name": "ACM",
+  "description": "game komputer taktis bergiliran tentang kerajaan luar angkasa dan penaklukan galaksi (klien)",
+  "longDescription": "<p>Sebuah simulasi pertempuran udara multipemain. Pemain bertarung satu sama lain dalam pertempuran udara menggunakan rudal berpemandu panas dan meriam.</p>\n<p>Fitur utama meliputi:  * Simulasi dengan 6 derajat kebebasan.  * Batas struktural pada beban vertikal positif/negatif.  * Instrumen klasik, navigasi, dan head-up display (HUD).  * Beberapa model pesawat tersedia, baik sipil maupun militer.  * Dua skenario disediakan, dengan banyak landasan pacu dan stasiun radio.</p>\n<p>acm berjalan di sistem X window. Versi acm ini diimplementasikan sebagai simulasi terdistribusi. Informasi dikomunikasikan melalui protokol IEEE Distributed Interactive Simulation.</p>\n"
+}

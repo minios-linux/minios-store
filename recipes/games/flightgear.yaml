@@ -1,0 +1,49 @@
+id: "flightgear"
+name: FlightGear
+description: "Practice flight training (airplanes, helicopters...)"
+longDescription: |
+  <p>FlightGear Flight Simulator (often shortened to FlightGear or FGFS) is a sophisticated free, completely open-source flight simulator framework, created by volunteers.</p>
+  <p>This package contains the runtime binaries.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flightgear
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - aviation
+  - pilot
+  - piloting
+  - simulation
+  - aeronautics
+  - aircraft
+  - airplane
+  - seaplane
+  - sailplane
+  - glider
+iconSources:
+  - url: org/flightgear/FlightGear/2e49766af463100db7d42ab3f2fe0f41/icons/128x128/flightgear_flightgear.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

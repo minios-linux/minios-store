@@ -1,0 +1,56 @@
+id: "gnome-shell-pomodoro"
+name: Pomodoro
+description: A simple time management utility
+longDescription: |
+  <p>This GNOME Shell app helps you to manage time according to the pomodoro technique.</p>
+  <p>Features:  * puts a countdown timer in the GNOME Shell top panel;  * nags you with reminders about taking a break;  * uses full screen notifications that can be easily dismissed;  * hides other notifications until the start of the break;  * sets your IM (Empathy) status to &quot;busy&quot;.</p>
+  <p>The pomodoro technique is a time and focus management method which improves productivity and quality of work. The name comes from a kitchen timer, which can be used to keep track of time. In short, you are supposed to focus on work for around 25 minutes and then have a well deserved break in which you should relax. Then when this cycle repeats for the fourth time you should take a longer break (have a walk or something).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-shell-pomodoro
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - timer
+screenshotSources:
+  - url: org/gnome/Pomodoro/1251a2da2314a2a45cec9b56d26c5019/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Pomodoro/1251a2da2314a2a45cec9b56d26c5019/screenshots/image-1_624x509@1.png
+    width: 800
+    height: 653
+  - url: org/gnome/Pomodoro/1251a2da2314a2a45cec9b56d26c5019/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Pomodoro/1251a2da2314a2a45cec9b56d26c5019/screenshots/image-2_624x351@1.png
+    width: 1024
+    height: 576
+  - url: org/gnome/Pomodoro/1251a2da2314a2a45cec9b56d26c5019/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Pomodoro/1251a2da2314a2a45cec9b56d26c5019/screenshots/image-3_624x509@1.png
+    width: 800
+    height: 653
+iconSources:
+  - url: org/gnome/Pomodoro/1251a2da2314a2a45cec9b56d26c5019/icons/128x128/gnome-shell-pomodoro_gnome-pomodoro.png
+    width: 128
+    height: 128
+developer: Kamil Prusko
+homepage: "http://gnomepomodoro.org"
+enabled: true
+order: 99

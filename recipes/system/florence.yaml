@@ -1,0 +1,29 @@
+id: florence
+name: Florence Virtual Keyboard
+description: Florence Virtual Keyboard
+longDescription: |
+  <p>Florence is an extensible scalable virtual keyboard for X.</p>
+  <p>It is useful when a real keyboard is unusable either because of a handicap, disease, broken keyboard or tablet PC; but when a pointing device is usable.</p>
+  <p>Florence stays out of your way: it appears on the screen only when needed. An auto-click functionality also help people having difficulties to click buttons.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - florence
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: florence_florence.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

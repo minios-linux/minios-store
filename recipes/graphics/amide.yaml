@@ -1,0 +1,38 @@
+id: amide
+name: Amide
+description: analysis tool for medical images
+longDescription: |
+  <p>AMIDE: (Amide&apos;s a Medical Imaging Data Examiner) AMIDE is a tool for viewing and analyzing medical image data sets. It&apos;s capabilities include the simultaneous handling of multiple data sets imported from a variety of file formats, image fusion, 3D region of interest drawing and analysis, volume rendering, and rigid body alignments.</p>
+  <p>Amide imports most clinical DICOM files (using the DCMTK library).</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - amide
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: amide_amide_logo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

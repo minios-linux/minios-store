@@ -1,0 +1,5 @@
+{
+  "name": "Orange Spectroscopy/Quasar",
+  "description": "Explore, analise e visualize seus dados de espectroscopia",
+  "longDescription": "<p>Add-on do Orange para análise de dados espectrais. Oferece plotagem de espectros e hiperespectros, interpolação, pré-processamento (corte, suavização, normalização) e integração. Suporta formatos de arquivos espectrais comuns.</p>\n<p>Recursos -------- ### Carregar e processar dados  * Carregue dados de espectroscopia  * Pré-processe e interpole espectros  * Integre espectros  * Tire a média dos espectros  * Realiza Transformada Rápida de Fourier (FFT)</p>\n<p>### Visualização  * Explore visualmente séries de espectros  * Plota mapa 2D de hiperespectros</p>\n"
+}

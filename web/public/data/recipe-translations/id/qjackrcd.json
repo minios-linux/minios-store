@@ -1,0 +1,5 @@
+{
+  "name": "QJackRcd",
+  "description": "Perekam Jack yang sederhana",
+  "longDescription": "<p>QJackRcd adalah aplikasi perekam stereo sederhana untuk Jack dengan fitur seperti pemrosesan senyap untuk jeda otomatis, pemisahan file, serta pemrosesan file di latar belakang. Dapat digunakan bersama QJackCtl.</p>\n<p>Fitur:  * Antarmuka GUI QT sederhana dengan indikator penggunaan disk dan vumeter.  * Dukungan Jack untuk perekaman dan transport Jack.  * Kompresi senyap dengan jeda otomatis dan opsi pemisahan file.  * Pemrosesan WAV di latar belakang untuk konversi format dan pemrosesan sinyal.  * Fasilitas koneksi otomatis dengan sumber Jack pertama yang dijalankan.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Activity-aware Firefox",
+  "description": "Erstellt für jede Aktivität ein eigenes Firefox-Profil",
+  "longDescription": "<p>Mit activity-aware-firefox können Sie für jedes Plasma-Aktivitätsfenster ein eigenes, der Aktivität zugeordnetes Firefox-Fenster nutzen.</p>\n<p>Beim ersten Start in einer Aktivität legt activity-aware-firefox automatisch ein neues Firefox-Profil an, das anhand der eindeutigen ID der Aktivität zugeordnet wird.</p>\n<p>Jeder weitere Start von activity-aware-firefox in derselben Plasma-Aktivität öffnet automatisch das jeweils zugeordnete Firefox-Profil.</p>\n"
+}

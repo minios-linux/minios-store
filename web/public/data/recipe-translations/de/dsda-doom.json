@@ -1,0 +1,5 @@
+{
+  "name": "DSDA-Doom",
+  "description": "Erweiterter Klon des klassischen Ego-Shooters Doom",
+  "longDescription": "<p>Dies ist ein Fork von prboom+ mit vielen neuen Funktionen, darunter:</p>\n<p> * Unterstützung für Heretic, Hexen, MBF21 und Doom-in-Hexen * In-Game-Konsole und Scripting * Volle Controller-Unterstützung * Palettenbasierter Lightmode für OpenGL * Debugging-Funktionen für Tests * Strict-Mode für Speedrunning * Vielfältige Komfortverbesserungen * Fortgeschrittene Werkzeuge für TASing * Rewind-Funktion</p>\n<p>DSDA-Doom benötigt Spieldaten zum Ausführen. Kostenlose Spieldaten sind im Paket „freedoom“ verfügbar. Kommerzielle Spieldaten können mit dem „game-data-packager“ paketiert werden. DSDA-Doom unterstützt alle Varianten von Doom, einschließlich The Ultimate Doom, Doom 2 und Final Doom sowie Chex(R) Quest, HacX, Freedoom: Phase 1 und Phase 2 sowie FreeDM.</p>\n<p>Zusätzlich unterstützt DSDA-Doom Heretic und Hexen.</p>\n"
+}

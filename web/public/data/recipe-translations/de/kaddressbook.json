@@ -1,0 +1,5 @@
+{
+  "name": "KAddressBook",
+  "description": "Ein Adressbuch-Verwaltungsprogramm",
+  "longDescription": "<p>KAddressBook speichert alle persönlichen Informationen Ihrer Familie, Freunde und weiterer Kontakte.</p>\n<p>Funktionen:</p>\n<ul>\n  <li>Import und Export nahezu aller gängigen Adressbuch-Formate</li>\n  <li>Unterstützt das Lesen von .vcf-Dateien sowie den Im- und Export von vCards und CSV-Dateien</li>\n  <li>Kann mehrere LDAP-Server verwenden</li>\n  <li>Konfigurierbare Filter und leistungsstarke Suchfunktionen</li>\n  <li>Integration mit anderen Kontact-Komponenten, z. B. Geburtstags-Erinnerungen nach KOrganizer exportieren</li>\n  <li>Gruppenarbeitsfähigkeit durch Groupware-Integration</li>\n  <li>Basiert auf Akonadi</li>\n</ul>\n"
+}

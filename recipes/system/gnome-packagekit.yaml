@@ -1,0 +1,54 @@
+id: "gnome-packagekit"
+name: GNOME Package Updater
+description: Update software installed on the system
+longDescription: |
+  <p>Package Updater allows you to update packages on your system without
+        rebooting.
+        You can view details about each update and choose which updates to apply.</p>
+  <p>Package Updater uses PackageKit and can work on any distribution using
+        the native package management framework.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-packagekit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - updates
+  - upgrade
+screenshotSources:
+  - url: org/gnome/Packages/feda7f073fca7be9f1c6089ca9ce1c88/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Packages/feda7f073fca7be9f1c6089ca9ce1c88/screenshots/image-1_624x351@1.png
+    width: 800
+    height: 450
+  - url: org/gnome/Packages/feda7f073fca7be9f1c6089ca9ce1c88/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Packages/feda7f073fca7be9f1c6089ca9ce1c88/screenshots/image-2_624x351@1.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: org/gnome/Packages/feda7f073fca7be9f1c6089ca9ce1c88/icons/128x128/gnome-packagekit_system-software-install.png
+    width: 128
+    height: 128
+homepage: "http://www.packagekit.org/"
+enabled: true
+order: 99

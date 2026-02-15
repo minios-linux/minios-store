@@ -1,0 +1,61 @@
+id: "dialect"
+name: Dialect
+description: Translate between languages
+longDescription: |
+  <p>
+        A translation app for GNOME.
+      </p>
+  <p>
+        Features:
+      </p>
+  <ul>
+    <li>Translation based on Google Translate</li>
+    <li>Translation based on the LibreTranslate API, allowing you to use any public instance</li>
+    <li>Translation based on Lingva Translate API</li>
+    <li>Text to speech</li>
+    <li>Translation history</li>
+    <li>Automatic language detection</li>
+    <li>Clipboard buttons</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dialect
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - translate
+  - translation
+screenshotSources:
+  - url: app/drey/Dialect/246b57ac7541a810909e394da0ce77be/screenshots/image-1_orig.png
+    thumbnailUrl: app/drey/Dialect/246b57ac7541a810909e394da0ce77be/screenshots/image-1_624x285@1.png
+    width: 922
+    height: 422
+  - url: app/drey/Dialect/246b57ac7541a810909e394da0ce77be/screenshots/image-2_orig.png
+    thumbnailUrl: app/drey/Dialect/246b57ac7541a810909e394da0ce77be/screenshots/image-2_624x285@1.png
+    width: 922
+    height: 422
+  - url: app/drey/Dialect/246b57ac7541a810909e394da0ce77be/screenshots/image-3_orig.png
+    thumbnailUrl: app/drey/Dialect/246b57ac7541a810909e394da0ce77be/screenshots/image-3_224x378@1.png
+    width: 446
+    height: 753
+iconSources:
+  - url: app/drey/Dialect/246b57ac7541a810909e394da0ce77be/icons/128x128/dialect_app.drey.Dialect.png
+    width: 128
+    height: 128
+developer: The Dialect Authors
+homepage: "https://github.com/dialect-app/dialect/"
+enabled: true
+order: 99

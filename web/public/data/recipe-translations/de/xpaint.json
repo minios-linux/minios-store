@@ -1,0 +1,5 @@
+{
+  "name": "XPaint",
+  "description": "XPaint Malprogramm",
+  "longDescription": "<p>XPaint eignet sich zur Erstellung einfacher Grafiken. Es bietet zudem einige fortgeschrittene Funktionen wie Bildverarbeitung und Farbverläufe.</p>\n<p>Im C-Skript-Editor von XPaint kann über den externen Editor im Datei-Menü x-terminal-emulator -e sensible-editor gestartet werden.</p>\n<p>Für das Lesen von PDF/PS-Dateien wird das Paket gv benötigt, für externe Konvertierungen netpbm und für den Druck lpr.</p>\n"
+}

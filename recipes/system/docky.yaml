@@ -1,0 +1,26 @@
+id: docky
+name: Docky
+description: The finest dock no money can buy.
+longDescription: |
+  <p>A full fledged dock application that makes opening common applications and managing windows easier and quicker. Docky is fully integrated into the GNOME Desktop and features a no nonsense approach to configuration and usage. It just works.</p>
+  <p>Docky provides an application launcher, running application management, and various &quot;docklets&quot; including a CPU monitor, weather report and clock.  It is similar to other docks such as AWN and cairo-dock.</p>
+  <p>Applications can integrate with Docky to add extra items to their context menus or modify their icons to display more information.  This package includes integration helpers for a number of applications, including Banshee, Rhythmbox, Deluge, Tomboy and Zeitgeist.</p>
+  <p>Docky is derived from the GNOME Do &quot;docky&quot; interface.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - docky
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: docky_docky.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

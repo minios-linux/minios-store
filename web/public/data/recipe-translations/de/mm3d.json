@@ -1,0 +1,5 @@
+{
+  "name": "Maverick Model 3D",
+  "description": "3D-Modellierungsprogramm",
+  "longDescription": "<p>Dies ist ein OpenGL-basiertes 3D-Modellierungsprogramm, das mit dreiecks-basierten Modellen arbeitet. Es bietet Multi-Level-Rückgängig-Funktion, Skelettanimationen, einfache Texturierung, Skripting, Stapelverarbeitung über die Kommandozeile sowie ein Plugin-System zur Erweiterung um neue Modell- und Bildfilter. Eine umfassende Online-Hilfe ist enthalten. Die Anwendung ist so konzipiert, dass sie einfach zu bedienen und durch Plugins und Skripte leicht erweiterbar ist.</p>\n<p>Folgende 3D-Dateiformate werden unterstützt: MilkShape (ms3d), Wavefront (obj), LightWave 3d Object (lwo), Quake 2 Model (md2), Quake 3 Model (md3), Caligari trueSpace (cob) und AutoCAD (dxf).</p>\n"
+}

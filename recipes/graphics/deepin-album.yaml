@@ -1,0 +1,35 @@
+id: deepin-album
+name: Deepin Album
+description: Deepin Album
+longDescription: |
+  <p>Deepin-album is a fashion photo manager for viewing and organizing pictures. deepin-album supports command line, mouse drag method to import photos. deepin-album supports single browsing and timeline browsing modes.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deepin-album
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - image
+  - viewer
+  - jpg
+  - jpeg
+  - png
+iconSources:
+  - url: d/de/deepin-album.desktop/2b72ecc0404e77c220e9160bc09f3a01/icons/128x128/deepin-album_deepin-album.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

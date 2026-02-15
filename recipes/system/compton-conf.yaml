@@ -1,0 +1,34 @@
+id: "compton-conf"
+name: Window Effects
+description: Configure Compton window effects
+longDescription: |
+  <p>Qt configuration tool for X composite manager</p>
+  <p>This package contain Compton Configurator.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - compton-conf
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: c/co/compton-conf.desktop/1765DD4A853364D574157A51D017BB59/icons/128x128/compton-conf_compton.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

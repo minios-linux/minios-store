@@ -1,0 +1,32 @@
+id: syncmaildir-applet
+name: Sync Mail Dir
+description: Synchronizes mailboxes in Maildir format
+longDescription: |
+  <p>Sync Mail Dir is a set of utilities to synchronize a pair of mailboxes in Maildir format, using SSH to transfer data.</p>
+  <p>This package provides an applet that integrates smd-loop with GNOME; that is, it notifies the user with popups, starts smd-loop when the user logs in, and provides a simple user interface to deal with synchronization errors.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - syncmaildir-applet
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: syncmaildir-applet_mail-send-receive.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

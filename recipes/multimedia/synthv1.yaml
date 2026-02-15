@@ -1,0 +1,53 @@
+id: "synthv1"
+name: synthv1
+description: synthv1 is an old school polyphonic synthesizer
+longDescription: |
+  <p>synthv1 is an old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo effects, especially suited to create strong bass sounds.</p>
+  <p>This package provides the standalone app.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - synthv1
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - midi
+  - alsa
+  - jack
+  - synthesizer
+  - lv2
+  - qt
+screenshotSources:
+  - url: org/rncbc/synthv1/3e8a62e6dd207f5f2671b0e7cb838691/screenshots/image-1_orig.png
+    thumbnailUrl: org/rncbc/synthv1/3e8a62e6dd207f5f2671b0e7cb838691/screenshots/image-1_624x298@1.png
+    width: 1172
+    height: 560
+iconSources:
+  - url: org/rncbc/synthv1/3e8a62e6dd207f5f2671b0e7cb838691/icons/128x128/synthv1_org.rncbc.synthv1.png
+    width: 128
+    height: 128
+developer: rncbc aka. Rui Nuno Capela
+homepage: "https://synthv1.sourceforge.io"
+enabled: true
+order: 99

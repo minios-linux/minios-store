@@ -1,0 +1,5 @@
+{
+  "name": "Gnubik",
+  "description": "Un casse-tête cube magique en 3D",
+  "longDescription": "<p>GNUbik est un casse-tête interactif et graphique pour un joueur. Ce programme libre affiche un cube similaire à celui inventé par Erno Rubik, que vous pouvez manipuler à la souris. L'objectif est d'obtenir une couleur unique sur chaque face pour résoudre le puzzle.</p>\n<p>Il utilise Gtk+ et/ou X11 ainsi que Mesa / OpenGL.</p>\n"
+}

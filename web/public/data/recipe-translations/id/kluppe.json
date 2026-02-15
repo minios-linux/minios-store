@@ -1,0 +1,5 @@
+{
+  "name": "Kluppe",
+  "description": "pemutar dan perekam audio loop",
+  "longDescription": "<p>Kluppe ditulis dalam bahasa C dan menggunakan JACK, GTK, serta SNDFILE. Fitur yang tersedia antara lain:</p>\n<p> - buffer file ganda, banyak trek 'looper'  - akses langsung (GUI) ke semua looper  - output port gabungan dan per-loop untuk JACK  - berbagai mode pemutaran termasuk \"granular\"</p>\n<p>Kluppe adalah kata dalam bahasa Austria yang berarti klip, dan terdengar lebih unik saat di-loop.</p>\n"
+}

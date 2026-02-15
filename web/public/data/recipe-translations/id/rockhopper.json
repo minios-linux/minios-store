@@ -1,0 +1,5 @@
+{
+  "name": "rockhoppergui",
+  "description": "Sistem untuk menganalisis data RNA-seq bakteri",
+  "longDescription": "<p>Rockhopper adalah sistem komprehensif dan mudah digunakan untuk analisis komputasi data RNA-seq bakteri. Sebagai masukan, Rockhopper menerima berkas hasil pembacaan RNA dari teknologi sequencing throughput tinggi (FASTQ, QSEQ, FASTA, SAM, atau BAM). Rockhopper mendukung tugas-tugas berikut:\nPerakitan transkrip berbasis referensi (jika satu atau lebih genom referensi tersedia)Penyelarasan pembacaan ke genomPerakitan transkripIdentifikasi batas transkrip dan transkrip baru seperti small RNAPerakitan transkrip de novo (jika genom referensi tidak tersedia)Normalisasi data dari berbagai eksperimenKuantifikasi kelimpahan transkripUji ekspresi gen diferensialKarakterisasi struktur operonVisualisasi hasil pada genome browser</p>\n"
+}

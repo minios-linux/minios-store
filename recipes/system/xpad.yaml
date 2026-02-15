@@ -1,0 +1,49 @@
+id: "xpad"
+name: Xpad
+description: Jot down notes for later
+longDescription: |
+  <p>This program consists of independent pad windows, each is basically a text box in which notes can be written. Xpad attempts to emulate the look of postit notes, although the look of the notes can be customized any way you like.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xpad
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - notes
+  - postit
+screenshotSources:
+  - url: net/launchpad/xpad/513907bc497ffebc72ab0eb1ba0b9c5a/screenshots/image-1_orig.png
+    width: 110
+    height: 110
+  - url: net/launchpad/xpad/513907bc497ffebc72ab0eb1ba0b9c5a/screenshots/image-2_orig.png
+    thumbnailUrl: net/launchpad/xpad/513907bc497ffebc72ab0eb1ba0b9c5a/screenshots/image-2_224x195.png
+    width: 368
+    height: 321
+iconSources:
+  - url: net/launchpad/xpad/513907bc497ffebc72ab0eb1ba0b9c5a/icons/128x128/xpad_xpad.png
+    width: 128
+    height: 128
+homepage: "https://launchpad.net/xpad"
+enabled: true
+order: 99

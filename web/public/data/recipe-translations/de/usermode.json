@@ -1,0 +1,5 @@
+{
+  "name": "Datenträgerverwaltung",
+  "description": "Dateisysteme ein- und aushängen",
+  "longDescription": "<p>Das usermode-Paket enthält mehrere grafische Werkzeuge für Anwender: userinfo, usermount und userpasswd. Mit userinfo können Benutzer ihre Finger-Informationen ändern. Usermount ermöglicht es, Dateisysteme einzuhängen, auszuhängen und zu formatieren. Mit userpasswd können Benutzer ihre Passwörter ändern.</p>\n<p>Installieren Sie das usermode-Paket, wenn Sie Benutzern grafische Werkzeuge für bestimmte Aufgaben der Benutzerkontenverwaltung bereitstellen möchten.</p>\n"
+}

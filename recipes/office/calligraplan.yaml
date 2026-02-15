@@ -1,0 +1,42 @@
+id: "calligraplan"
+name: Plan WorkPackage Handler
+description: Work Package handler for the Plan project planning tool
+longDescription: |
+  <p>Plan is a project management application, allowing for the planning and scheduling of projects. It was formerly known as KPlato.</p>
+  <p>This package is part of the Calligra Suite.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - calligraplan
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/calligraplan.desktop/cb8d79152690530068d4e0021fccd804/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/calligraplan.desktop/cb8d79152690530068d4e0021fccd804/screenshots/image-1_624x428.png
+    width: 956
+    height: 656
+iconSources:
+  - url: org/kde/calligraplan.desktop/cb8d79152690530068d4e0021fccd804/icons/128x128/calligraplan_calligraplan.png
+    width: 128
+    height: 128
+homepage: "https://www.calligra.org/plan/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Aplikasi Horizon EDA",
+  "description": "Buat skematik dan PCB",
+  "longDescription": "<p>Horizon adalah alat Electronic Design Automation (EDA) untuk perancangan papan sirkuit. Aplikasi ini mengelola seluruh alur desain mulai dari pembuatan skematik hingga ekspor gerber. Keunggulan utama dibanding KiCAD adalah desain pustaka komponen yang lebih logis dan terstruktur. Horizon masih merupakan perangkat lunak baru pada tahun 2018 sehingga mungkin masih terdapat beberapa kekurangan, namun sudah sangat fungsional.</p>\n<p>Fitur unggulan: * Manajemen pustaka yang intuitif * Editor terpadu untuk simbol hingga board * Editor skematik yang memahami netlist * Router interaktif dari KiCad yang canggih * Rendering mulus tanpa lag atau glitch * DRC berbasis aturan * Fitur undo/redo * Copy/paste untuk objek tertentu * Bisa dibangun dan dijalankan di Linux dan Windows</p>\n"
+}

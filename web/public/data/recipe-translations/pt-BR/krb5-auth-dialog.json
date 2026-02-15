@@ -1,0 +1,5 @@
+{
+  "name": "Diálogo de Autenticação Kerberos",
+  "description": "Solicite, renove e visualize tickets Kerberos",
+  "longDescription": "<p>A Autenticação Kerberos permite listar seus tickets Kerberos atuais, solicitar um novo ticket (autenticar-se no Servidor Kerberos) e recebe notificações quando suas credenciais Kerberos estiverem prestes a expirar, renovando automaticamente o ticket sempre que possível.</p>\n<p>Isso é útil caso precise se autenticar em um Servidor Kerberos (KDC) após acessar o ambiente de trabalho (por exemplo, em um dispositivo móvel).</p>\n"
+}

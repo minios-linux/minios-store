@@ -1,0 +1,48 @@
+id: "sweethome3d-furniture-editor"
+name: Sweet Home 3D Furniture Library Editor
+description: Create your own SweetHome3D furniture libraries
+longDescription: |
+  <p>Sweet Home 3D is an interior design Java application for quickly choosing and placing furniture on a house 2D plan drawn by the end-user, with a 3D preview.</p>
+  <p>This package contains furniture library editor for creating your own libraries.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sweethome3d-furniture-editor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - interior
+  - design
+  - 2d
+  - 3d
+  - home
+  - house
+  - furniture
+  - java
+  - editor
+iconSources:
+  - url: s/sw/sweethome3d-furniture-editor.desktop/837c62433be64989d850a10abf07f4d8/icons/128x128/sweethome3d-furniture-editor_sweethome3d-furniture-editor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

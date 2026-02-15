@@ -1,0 +1,5 @@
+{
+  "name": "stlink",
+  "description": "Programmeur Linux pour la gamme STM32 Discovery",
+  "longDescription": "<p>Outils de flashage pour les microcontrôleurs STM32VL et STM32L de STMicroelectronics. Les couches de transport STLINKv1 et STLINKv2 sont prises en charge.</p>\n<p>Ce paquet inclut un outil graphique (GUI) pour stlink.</p>\n"
+}

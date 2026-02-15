@@ -1,0 +1,25 @@
+id: plasma-mediacenter
+name: Plasma Media Center
+description: A mediacenter user interface written with the Plasma framework
+longDescription: |
+  <p>KDE Plasma Media Center is aimed towards unified media experience on PCs, tablets, netbooks, TVs and any device capable of running KDE software. Plasma Media Center can be used to view images, play music or watch videos.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plasma-mediacenter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/pl/plasma-mediacenter.desktop/E5D4103CEB9B3AA473F54D6AE93A759C/icons/128x128/plasma-mediacenter_plasma-media-center.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

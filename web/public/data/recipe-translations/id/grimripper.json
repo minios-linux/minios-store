@@ -1,0 +1,5 @@
+{
+  "name": "GrimRipper",
+  "description": "Aplikasi ripper CD audio, encoder, dan pengambil metadata.",
+  "longDescription": "<p>\n      GrimRipper adalah aplikasi grafis untuk melakukan ripping CD audio. Aplikasi ini mengambil metadata CD dari basis data daring dan mengompresi trek-lagu.\n    </p>\n<p>Codec yang didukung: WAV, MP3, Ogg Vorbis, FLAC, Opus, Wavpack, Musepack, AAC, dan Monkey's Audio.</p>\n<p>Fitur:</p>\n<ul>\n  <li>Menggunakan CDDB untuk memberi nama dan tag pada setiap trek.</li>\n  <li>Membuat playlist M3U</li>\n  <li>Dapat meng-encode ke berbagai format dalam satu sesi</li>\n  <li>Ekstraksi dan encoding berlangsung secara simultan</li>\n  <li>Tidak membutuhkan lingkungan desktop tertentu</li>\n</ul>\n"
+}

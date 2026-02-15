@@ -1,0 +1,28 @@
+id: koules
+name: koules
+description: "Push your enemies away, but stay away from obstacles"
+longDescription: |
+  <p>Koules is a fast action arcade-style game. This version is compiled for X11. It has cool 256 color graphics, a multiplayer mode for up to 5 players, full sound and, of course, network support. Koules is an original idea. The first version of Koules was developed from scratch by Jan Hubicka in July 1995.</p>
+  <p>It supports multiplayer deathmatch and cooperative play.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - koules
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: koules_koules.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

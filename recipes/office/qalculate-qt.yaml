@@ -1,0 +1,35 @@
+id: qalculate-qt
+name: Qalculate! (Qt UI)
+description: Powerful and easy to use calculator
+longDescription: |
+  <p>Qalculate! is a multi-purpose cross-platform desktop calculator. It is simple to use but provides power and versatility normally reserved for complicated math packages, as well as useful tools for everyday needs (such as currency conversion and percent calculation).</p>
+  <p>Features include a large library of customizable functions, unit calculations and conversion, physical constants, symbolic calculations (including integrals and equations), arbitrary precision, uncertainty propagation, interval arithmetic, plotting, and a user-friendly interface.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qalculate-qt
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calculation
+  - arithmetic
+  - scientific
+  - financial
+screenshotSources:
+  - url: io/github/Qalculate.qalculate-qt/1a11d0c5ae31de15999d045ee955b328/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/Qalculate.qalculate-qt/1a11d0c5ae31de15999d045ee955b328/screenshots/image-1_624x627@1.png
+    width: 895
+    height: 900
+iconSources:
+  - url: io/github/Qalculate.qalculate-qt/1a11d0c5ae31de15999d045ee955b328/icons/128x128/qalculate-qt_qalculate-qt.png
+    width: 128
+    height: 128
+homepage: "https://qalculate.github.io"
+enabled: true
+order: 99

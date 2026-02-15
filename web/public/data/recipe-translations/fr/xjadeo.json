@@ -1,0 +1,5 @@
+{
+  "name": "Xjadeo",
+  "description": "Lecteur vidéo simple synchronisé via le transport JACK.",
+  "longDescription": "<p>Lecteur vidéo léger qui reçoit la synchronisation depuis jackd ou MTC. Il s’utilise notamment en création de bande-son, en monitoring vidéo ou pour toute tâche nécessitant d’associer des images à des événements audio.</p>\n<p>Par exemple, lorsqu’un client JACK (comme Muse, Rosegarden ou Ardour) agit en tant que maître temporel, Xjadeo affiche la vidéo synchronisée au transport JACK. Xjadeo peut également lire le Midi Time Clock en tant que source de synchronisation alternative et propose une interface graphique optionnelle basée sur QT.</p>\n<p>Xjadeo lit uniquement les médias consultables de façon aléatoire par défaut. Il est fortement recommandé d’installer un utilitaire de transcodage comme mencoder ou transcode.</p>\n<p>Documentation en ligne : http://xjadeo.sourceforge.net/main.html</p>\n"
+}

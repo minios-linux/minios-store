@@ -1,0 +1,5 @@
+{
+  "name": "Bildschirmschoner",
+  "description": "Eigenschaften des Bildschirmschoners ändern",
+  "longDescription": "<p>XScreenSaver ist ein modularer Bildschirmschoner und Sperrer für X11 mit über 200 verschiedenen Bildschirmschoner-Modulen.</p>\n<p>Dieses Paket enthält lediglich das Notwendigste, um den Bildschirm auszublenden und zu sperren. Installieren Sie dieses Paket, wenn Sie die xscreensaver-Engine zur Steuerung der Bildschirmabschaltung und zum Starten von Anzeigemodi („Hacks“) verwenden möchten. Wenn Sie nur andere Bildschirmschoner-Engines nutzen möchten, benötigen Sie dieses Paket nicht.</p>\n<p>Die grafischen Anzeigemodi finden Sie in den Paketen xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl und xscreensaver-gl-extra.</p>\n"
+}

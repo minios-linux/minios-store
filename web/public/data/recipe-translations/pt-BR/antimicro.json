@@ -1,0 +1,5 @@
+{
+  "name": "AntiMicroX",
+  "description": "Programa gráfico para mapear botões de gamepad para teclado, mouse, scripts e macros",
+  "longDescription": "<p>\n     O AntiMicroX é um programa gráfico utilizado para mapear botões/joysticks de gamepad\n     para funções do teclado, mouse, scripts e macros.\n     Também pode ser usado para gerar configurações SLD2 (útil para adaptar \n     gamepads atípicos para modelos genéricos como o xbox360).\n    </p>\n<p>\n    Permite mapear botões de gamepads/joysticks para:\n    </p>\n<ul>\n  <li>teclas do teclado</li>\n  <li>botões e movimentos do mouse</li>\n  <li>scripts e inicialização de aplicativos</li>\n  <li>macros compostas pelos elementos acima</li>\n</ul>\n<p>\n     O AntiMicroX foi inspirado no QJoyPad.\n    </p>\n"
+}

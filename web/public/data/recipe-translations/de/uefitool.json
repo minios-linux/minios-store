@@ -1,0 +1,5 @@
+{
+  "name": "UEFITool",
+  "description": "UEFI-Firmware-Images parsen, extrahieren und modifizieren",
+  "longDescription": "<p>UEFITool ist ein plattformübergreifendes C++/Qt-Programm zum Parsen, Extrahieren und Modifizieren von UEFI-Firmware-Images.</p>\n<p>Es unterstützt das Parsen von vollständigen BIOS-Images, beginnend mit dem Flash-Deskriptor, oder von beliebigen Binärdateien, die UEFI-Volumes enthalten.</p>\n<p>Dieses Paket enthält das grafische Programm UEFITool. Informationen zu den CLI-Versionen finden Sie unter uefitool-cli.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Terminology",
+  "description": "Emulador de terminal",
+  "longDescription": "<p>Emula un vt100 ampliado con algunas extensiones y mejoras:<br>* Compatible con la mayoría de secuencias de escape de xterm, rxvt, Xterm 256 colores, etc.<br>* Soporta efectos de fondo, transparencia, fuentes de mapa de bits y escalables<br>* Temas para el diseño, así como campana visual<br>* Detección y manejo de enlaces: URLs, rutas de archivos y direcciones de correo<br>* Visualización integrada de contenido de enlaces<br>* Soporte para múltiples selecciones y búferes de copiado y pegado<br>* Funciona en X11, Wayland y directamente en el framebuffer de Linux (fbcon)<br>* Control por gestos/táctil, escalado de interfaz según el factor de escala<br>* Renderizado usando OpenGL, OpenGL-ES2 o modo software<br>* Puede mostrar contenido multimedia, pestañas múltiples y dividir en varios paneles<br>* Selección de texto en bloque, arrastrar y soltar selecciones de texto y enlaces<br>* Capacidad de transmitir medios desde URLs<br>* Cambiador de pestañas con miniaturas en vivo<br>* Soporte para múltiples ventanas/terminales en un único proceso</p>\n"
+}

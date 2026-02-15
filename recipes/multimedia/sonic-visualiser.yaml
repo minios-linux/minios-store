@@ -1,0 +1,43 @@
+id: "sonic-visualiser"
+name: Sonic Visualiser
+description: Viewing and analysing the contents of music audio files
+longDescription: |
+  <p>The aim of Sonic Visualiser is to be the first program you reach for when want to study a musical recording rather than simply listen to it.</p>
+  <p>Sonic Visualiser could be of particular interest to musicologists, archivists, signal-processing researchers and anyone else looking for a friendly way to take a look at what lies inside the audio file.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sonic-visualiser
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - visualiser
+  - sonic
+iconSources:
+  - url: s/so/sonic-visualiser.desktop/a78931d2bc9ca448f8109b5e9814f467/icons/128x128/sonic-visualiser_sonic-visualiser.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

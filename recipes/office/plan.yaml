@@ -1,0 +1,24 @@
+id: plan
+name: plan
+description: Desktop calendar
+longDescription: |
+  <p>Plan is a schedule planner based on X/Motif. It displays a month calendar similar to xcal, but every day box is large enough to show appointments in small print. By pressing on a day box, the appointments for that day can be listed and edited. Appointments are entered with the following information (everything except the time is optional):</p>
+  <p> - the date, time, and length of the appointment,  - an optional text message to be printed,  - an optional script to be executed,  - early-warn and late-warn triggers that precede the alarm time,  - repetitions: [n-th] weekdays, days-of-the-month, every n days, yearly,  - optional fast command-line appointment entry,  - flexible ways to specify holidays and vacations,  - extensive context help,  - multiuser capability using the netplan server, provided by the netplan    package.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plan
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: plan_calendar.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

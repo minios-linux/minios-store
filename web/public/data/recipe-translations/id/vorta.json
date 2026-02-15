@@ -1,0 +1,5 @@
+{
+  "name": "Vorta",
+  "description": "Klien pencadangan",
+  "longDescription": "<p>\n      Vorta adalah klien pencadangan untuk desktop macOS dan Linux.\n      Aplikasi ini mengintegrasikan kekuatan BorgBackup ke lingkungan desktop Anda\n      untuk melindungi data dari kegagalan disk, ransomware, dan pencurian.\n    </p>\n<p>\n      Mengapa ini istimewa?\n    </p>\n<ul>\n  <li>Pencadangan terenkripsi, deduplikasi, dan terkompresi menggunakan Borg sebagai backend.</li>\n  <li>Tidak ada ketergantungan vendor – cadangkan ke drive lokal, server sendiri, atau BorgBase, layanan hosting untuk backup Borg.</li>\n  <li>Open source – gratis digunakan, dimodifikasi, dikembangkan, dan diaudit.</li>\n  <li>Profil fleksibel untuk mengelompokkan folder sumber, tujuan pencadangan, dan jadwal.</li>\n  <li>Satu tempat untuk melihat semua arsip titik waktu dan memulihkan file individual.</li>\n</ul>\n"
+}

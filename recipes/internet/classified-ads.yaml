@@ -1,0 +1,38 @@
+id: classified-ads
+name: Classified ads
+description: Classified ads the advertisment posting program
+longDescription: |
+  <p>Classified ads is an attempt to re-produce parts of the functionality that went away when usenet news ceased to exist. This attempt tries to fix the problem of disappearing news-servers so that there is no servers required; data storage is implemented inside client applications that users are running. Features of the program currently include  * Posting of ads online, with categorization.  * Replying to ads either in public or privately to operator.  * Binary attachments to posts.  * Providing basic data of operators  * Basic searching of content based on words.  * Audio negotiations between operators.  * Possibility to extend the UI using Tcl scripting language  * Sharing data between Tcl programs using general-purpose distributed db</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - classified-ads
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - messaging
+  - communications
+iconSources:
+  - cached: classified-ads_turt-transparent-128x128.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

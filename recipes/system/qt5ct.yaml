@@ -1,0 +1,41 @@
+id: "qt5ct"
+name: Qt5 Settings
+description: Qt5 Configuration Tool
+longDescription: |
+  <p>This utility allows users to configure Qt5 settings (theme, font, icons, etc.) under DE/WM without Qt integration.</p>
+  <p>Qt5ct will only be active on environments other than Plasma. Default configuration have switch to disable running on Plasma.</p>
+  <p>Qt5ct could use qt5 gtk theme, KDE breeze theme, the fusion theme, QtCurve theme and many more. Each style could be customized further by changing the color schema.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qt5ct
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - settings
+  - desktop
+  - qt
+  - qtsettings
+  - qt5
+iconSources:
+  - url: q/qt/qt5ct.desktop/e384486e9fc9e28dbd9855584ad35542/icons/128x128/qt5ct_preferences-desktop-theme.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

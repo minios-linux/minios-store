@@ -1,0 +1,36 @@
+id: supercollider-ide
+name: SuperCollider IDE
+description: IDE for the SuperCollider audio synthesis language
+longDescription: |
+  <p>SuperCollider is an environment and programming language for real time audio synthesis and algorithmic composition. It provides an interpreted object-oriented language which functions as a network client to a state of the art, realtime sound synthesis server.</p>
+  <p>This package contains the graphical IDE, the recommended interface for working with SuperCollider code.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - supercollider-ide
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: supercollider-ide_sc_ide.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

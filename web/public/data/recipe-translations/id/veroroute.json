@@ -1,0 +1,5 @@
+{
+  "name": "VeroRoute",
+  "description": "Aplikasi layout dan routing Veroboard/Perfboard/PCB berbasis Qt",
+  "longDescription": "<p>Perangkat lunak untuk membuat layout Veroboard (stripboard), Perfboard, serta PCB satu atau dua lapis sederhana. Secara otomatis mencegah terjadinya hubung singkat dan memeriksa jalur yang terputus. Mendukung impor netlist dari skematik TinyCAD, gEDA, atau KiCad, atau dapat juga menentukan netlist secara grafis. Mengekspor Gerber untuk kebutuhan manufaktur PCB satu atau dua lapis.</p>\n"
+}

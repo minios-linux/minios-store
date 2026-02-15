@@ -1,0 +1,57 @@
+id: "goodvibes"
+name: Goodvibes
+description: Play web radios
+longDescription: |
+  <p>Goodvibes is a simple internet radio player for GNU/Linux.</p>
+  <p>It comes with every basic features you can expect from an audio player,
+        such as multimedia keys, notifications, system sleep inhibition, and
+        MPRIS2 support.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - goodvibes
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - radio
+  - player
+screenshotSources:
+  - url: io/gitlab/Goodvibes/4f5d8db7ef2dfab2818a99357b910278/screenshots/image-1_orig.png
+    thumbnailUrl: io/gitlab/Goodvibes/4f5d8db7ef2dfab2818a99357b910278/screenshots/image-1_224x125@1.png
+    width: 620
+    height: 348
+  - url: io/gitlab/Goodvibes/4f5d8db7ef2dfab2818a99357b910278/screenshots/image-2_orig.png
+    thumbnailUrl: io/gitlab/Goodvibes/4f5d8db7ef2dfab2818a99357b910278/screenshots/image-2_224x125@1.png
+    width: 620
+    height: 348
+  - url: io/gitlab/Goodvibes/4f5d8db7ef2dfab2818a99357b910278/screenshots/image-3_orig.png
+    thumbnailUrl: io/gitlab/Goodvibes/4f5d8db7ef2dfab2818a99357b910278/screenshots/image-3_624x350@1.png
+    width: 932
+    height: 524
+iconSources:
+  - url: io/gitlab/Goodvibes/4f5d8db7ef2dfab2818a99357b910278/icons/128x128/goodvibes_io.gitlab.Goodvibes.png
+    width: 128
+    height: 128
+developer: Arnaud Rebillout
+homepage: "https://gitlab.com/goodvibes/goodvibes"
+enabled: true
+order: 99

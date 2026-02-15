@@ -1,0 +1,5 @@
+{
+  "name": "plan",
+  "description": "Kalender desktop",
+  "longDescription": "<p>Plan adalah perencana jadwal berbasis X/Motif. Aplikasi ini menampilkan kalender bulanan mirip xcal, tetapi setiap kotak hari cukup besar untuk menampilkan daftar janji atau acara dengan tulisan kecil. Dengan menekan kotak hari tertentu, daftar janji untuk hari itu bisa ditampilkan dan diedit. Data janji dapat diinput dengan informasi berikut (semua kecuali waktu bersifat opsional):</p>\n<p> - tanggal, waktu, dan durasi janji,  - pesan teks opsional yang akan ditampilkan,  - skrip opsional yang bisa dijalankan,  - pengingat awal dan akhir sebelum waktu alarm,  - pengulangan: [ke-n] hari kerja, hari dalam bulan, setiap n hari, tahunan,  - entri janji cepat melalui command-line,  - opsi fleksibel untuk menentukan hari libur dan cuti,  - bantuan kontekstual yang luas,  - dukungan multiuser menggunakan netplan server (tersedia pada paket netplan).</p>\n"
+}

@@ -1,0 +1,49 @@
+id: "srain"
+name: Srain
+description: Modern IRC client written in GTK
+longDescription: |
+  <p>
+        Modern IRC client written in GTK
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - srain
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - irc
+  - chat
+  - gtk
+screenshotSources:
+  - url: im/srain/Srain/def20a0d65ebfb6f344fda19aa07ddcf/screenshots/image-1_orig.png
+    thumbnailUrl: im/srain/Srain/def20a0d65ebfb6f344fda19aa07ddcf/screenshots/image-1_624x387@1.png
+    width: 1190
+    height: 739
+  - url: im/srain/Srain/def20a0d65ebfb6f344fda19aa07ddcf/screenshots/image-2_orig.png
+    thumbnailUrl: im/srain/Srain/def20a0d65ebfb6f344fda19aa07ddcf/screenshots/image-2_624x420@1.png
+    width: 1096
+    height: 739
+  - url: im/srain/Srain/def20a0d65ebfb6f344fda19aa07ddcf/screenshots/image-3_orig.png
+    thumbnailUrl: im/srain/Srain/def20a0d65ebfb6f344fda19aa07ddcf/screenshots/image-3_624x420@1.png
+    width: 1096
+    height: 739
+iconSources:
+  - url: im/srain/Srain/def20a0d65ebfb6f344fda19aa07ddcf/icons/128x128/srain_im.srain.Srain.png
+    width: 128
+    height: 128
+homepage: "https://srain.silverrainz.me"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Grafik Level Baterai",
+  "description": "Grafik Level Baterai",
+  "longDescription": "<p>Paket ini menyediakan battery-stats-collector, sebuah daemon yang secara berkala mengumpulkan statistik tentang daya baterai yang tersedia.</p>\n<p>Juga tersedia berkas biner bernama battery-graph, yang dapat digunakan untuk menghasilkan grafik qplot mengenai pola pengisian/pengosongan baterai dari waktu ke waktu.</p>\n<p>Catatan: Fitur ini memerlukan APM atau ACPI yang telah diaktifkan dan berjalan pada kernel Anda.</p>\n"
+}

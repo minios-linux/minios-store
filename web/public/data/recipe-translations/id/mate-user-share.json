@@ -1,0 +1,5 @@
+{
+  "name": "Berbagi Berkas Pribadi",
+  "description": "Pengaturan preferensi untuk berbagi berkas",
+  "longDescription": "<p>MATE user share adalah alat kecil yang menggabungkan berbagai proyek perangkat lunak bebas untuk menghadirkan berbagi berkas tingkat pengguna yang mudah digunakan bagi semua orang.</p>\n<p>Program ini berjalan di latar belakang saat pengguna masuk, dan ketika fitur berbagi diaktifkan, sebuah server webdav akan dijalankan untuk membagikan folder $HOME/Public. Berkas yang dibagikan ini akan dipublikasikan ke semua komputer di jaringan lokal menggunakan mDNS/rendezvous, sehingga akan muncul di lokasi Jaringan pada GNOME.</p>\n<p>Server dav yang digunakan adalah Apache, sehingga Anda perlu menginstalnya. Avahi atau Howl digunakan untuk mendukung mDNS, jadi pastikan aplikasi tersebut terpasang dan mDNSResolver berjalan.</p>\n"
+}

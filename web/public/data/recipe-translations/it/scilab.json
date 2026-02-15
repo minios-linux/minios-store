@@ -1,0 +1,5 @@
+{
+  "name": "Scilab",
+  "description": "Pacchetto software scientifico per calcoli numerici",
+  "longDescription": "<p>Scilab è un software scientifico basato su matrici. Include centinaia di funzioni matematiche integrate, strutture dati avanzate (come polinomi, numeri razionali, sistemi lineari, liste, ecc.) e dispone di numerosi toolbox specifici per il controllo, l'elaborazione dei segnali e altro.</p>\n<p>Questo pacchetto include anche Xcos, un editor grafico per la progettazione di modelli di sistemi dinamici ibridi. I modelli possono essere creati, caricati, salvati, compilati e simulati. Soluzione stabile ed efficiente per esigenze industriali e accademiche, Xcos offre funzionalità per la modellazione di sistemi meccanici (automotive, aeronautica, ecc.), circuiti idraulici (dighe, condotte, ecc.), sistemi di controllo e altro. Sono disponibili anche funzionalità Modelica.</p>\n<p>Per una versione minima di Scilab, installare il pacchetto \"scilab-cli\".</p>\n"
+}

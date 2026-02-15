@@ -1,0 +1,28 @@
+id: lxqt-session
+name: Session Settings
+description: Configuration for LXQt sessions
+longDescription: |
+  <p>LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt technologies.  It has been tailored for users who value simplicity, speed, and an intuitive interface.  Unlike most desktop environments, LXQt also works fine with less powerful machines.</p>
+  <p>This package contain the session manager component.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxqt-session
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: l/lx/lxqt-config-session.desktop/9DAAD9A2A11280282E513C97C7DC9AFF/icons/128x128/lxqt-session_preferences-system-session-services.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

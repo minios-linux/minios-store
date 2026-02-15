@@ -1,0 +1,39 @@
+id: ibus-braille
+name: ibus-braille-preferences
+description: Change preferences of ibus-braille
+longDescription: |
+  <p>Ibus-braille allows one to use the PC keyboard to type text in graphical desktops in a Perkins-like way, i.e. braille patterns.</p>
+  <p>It supports several braille tables  (english, french, indian, spanish), contracted braille and abbreviations.</p>
+  <p>It comes with table editors.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ibus-braille
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ibus-braille_ibus-braille.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

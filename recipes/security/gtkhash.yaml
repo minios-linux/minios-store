@@ -1,0 +1,55 @@
+id: "gtkhash"
+name: GtkHash
+description: Calculate message digests or checksums
+longDescription: |
+  <p>GtkHash is an application for computing file checksums, or message
+        digests. It&apos;s designed to be an easy to use, graphical alternative to
+        command-line programs such as md5sum.</p>
+  <p>Supported hash functions include MD5, SHA1, SHA256, SHA512 and CRC32.</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtkhash
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - hash
+  - checksum
+  - digest
+  - md5
+  - sha1
+  - sha256
+  - crc32
+screenshotSources:
+  - url: org/gtkhash/gtkhash/09d00eb0618a3691c6420e9052b650ff/screenshots/image-1_orig.png
+    thumbnailUrl: org/gtkhash/gtkhash/09d00eb0618a3691c6420e9052b650ff/screenshots/image-1_624x351@1.png
+    width: 624
+    height: 351
+iconSources:
+  - url: org/gtkhash/gtkhash/09d00eb0618a3691c6420e9052b650ff/icons/128x128/gtkhash_org.gtkhash.gtkhash.png
+    width: 128
+    height: 128
+developer: Tristan Heaven
+homepage: "https://github.com/tristanheaven/gtkhash"
+enabled: true
+order: 99

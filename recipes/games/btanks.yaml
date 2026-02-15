@@ -1,0 +1,42 @@
+id: btanks
+name: Battle Tanks
+description: fast 2D tank arcade game with multiplayer and split-screen modes
+longDescription: |
+  <p>Battle Tanks is a funny battle on your desk, where you can choose one of three vehicles and eliminate your enemy using the whole arsenal of weapons. It has original cartoon-like graphics and cool music, is fun and dynamic and has death-match and cooperative network modes.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - btanks
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tanks
+  - battle
+  - action
+  - fight
+iconSources:
+  - cached: btanks_btanks.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

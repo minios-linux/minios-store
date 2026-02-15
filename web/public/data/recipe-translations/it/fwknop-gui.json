@@ -1,0 +1,5 @@
+{
+  "name": "Fwknop-gui",
+  "description": "invio di pacchetti SPA",
+  "longDescription": "<p>FireWall KNock OPerator implementa un sistema di autorizzazione chiamato Single Packet Authorization (SPA), basato su Netfilter e libpcap.</p>\n<p>La sua principale applicazione è proteggere servizi come OpenSSH aggiungendo un ulteriore livello di sicurezza, rendendo molto più difficile lo sfruttamento di vulnerabilità (sia zero-day che di codice non aggiornato).</p>\n<p>Fwknop GUI è un'interfaccia grafica integrata con un client Fwknop che permette di inviare pacchetti SPA a un server Fwknop remoto, oltre a offrire un front-end per la creazione e la gestione delle configurazioni client per più server Fwknop.</p>\n<p>Supporta l'esportazione dei dati di configurazione salvati in formato QR code leggibile dal client Android, così come in formato .fwknoprc leggibile dal client da linea di comando.</p>\n"
+}

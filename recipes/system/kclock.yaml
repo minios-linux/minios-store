@@ -1,0 +1,58 @@
+id: kclock
+name: Clock
+description: Keep time and set alarms
+longDescription: |
+  <p>A universal clock application for desktop and mobile. Clock includes a stopwatch and a world clock, and allows you to set multiple alarms and timers.</p>
+  <p>It contains alarm, timer, stopwatch and timezone functionalities. Alarms and timers are able to wake the device from suspend on Plasma.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kclock
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - kclock
+  - timer
+  - stopwatch
+  - alarm
+  - timezone
+  - time zone
+  - world clock
+screenshotSources:
+  - url: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-1_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-2_624x514@1.png
+    width: 690
+    height: 569
+  - url: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-3_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-4_624x514@1.png
+    width: 690
+    height: 569
+  - url: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-5_orig.png
+    thumbnailUrl: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-5_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-6_orig.png
+    thumbnailUrl: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/screenshots/image-6_624x1248@1.png
+    width: 720
+    height: 1440
+iconSources:
+  - url: org/kde/kclock/df55b3aa61880f93261b74b2bae1d5a1/icons/128x128/kclock_org.kde.kclock.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kclock/"
+enabled: true
+order: 99

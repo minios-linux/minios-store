@@ -1,0 +1,63 @@
+id: "minexpert2"
+name: Mass spectrometry software
+description: Visualize analyze and mine MS^n mass spectrometry data
+longDescription: |
+  <p>
+  
+  				minexpert is a program used to visualize and mine MS^n mass spectral data, like mass spectra.
+  
+  			</p>
+  <p>The program has the following features::</p>
+  <ul>
+    <li>Open any number of mzML-formatted mass spec data files;</li>
+    <li>The program computes the TIC chromatogram and the mz=ft(dt) color map if data are for an ion mobility mass spectrometry experiment;</li>
+    <li>Any number of integrations (combinations) can be performed in any direction;</li>
+    <li>Navigation through the data is intuitive, flexible yet powerful;</li>
+    <li>Isotopic cluster calculations that can be configured to the finest detail.</li>
+    <li>The vast majority of the features of mineXpert2 can be driven by JavaScript'ing.</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - minexpert2
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mass spectrometry
+  - biology
+  - chemistry
+screenshotSources:
+  - url: org/msxpertsuite/minexpert2/3a2456aaa60addbfa31c73c03fad0a70/screenshots/image-1_orig.png
+    thumbnailUrl: org/msxpertsuite/minexpert2/3a2456aaa60addbfa31c73c03fad0a70/screenshots/image-1_624x930.png
+    width: 710
+    height: 1059
+  - url: org/msxpertsuite/minexpert2/3a2456aaa60addbfa31c73c03fad0a70/screenshots/image-2_orig.png
+    thumbnailUrl: org/msxpertsuite/minexpert2/3a2456aaa60addbfa31c73c03fad0a70/screenshots/image-2_624x584.png
+    width: 814
+    height: 762
+  - url: org/msxpertsuite/minexpert2/3a2456aaa60addbfa31c73c03fad0a70/screenshots/image-3_orig.png
+    thumbnailUrl: org/msxpertsuite/minexpert2/3a2456aaa60addbfa31c73c03fad0a70/screenshots/image-3_624x423.png
+    width: 946
+    height: 642
+iconSources:
+  - cached: minexpert2_minexpert2.png
+    width: 64
+    height: 64
+developer: Filippo Rusconi
+homepage: "http://www.msxpertsuite.org"
+enabled: true
+order: 99

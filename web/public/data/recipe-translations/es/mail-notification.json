@@ -1,0 +1,5 @@
+{
+  "name": "Mail Notification",
+  "description": "Configurar Mail Notification",
+  "longDescription": "<p>Mail Notification funciona con bandejas del sistema que implementan la especificación de System Tray de freedesktop.org, como el Área de Notificación del Panel GNOME, el Área de Notificación de xfce4 y la Bandeja del Sistema KDE.</p>\n<p>Entre las características de Mail Notification se incluyen:   * compatibilidad con múltiples buzones   * soporte para mbox, MH, Maildir, Sylpheed, POP3, IMAP, Gmail y Evolution   * soporte para buzones de productos Mozilla (Mozilla, SeaMonkey, Thunderbird, ...)   * compatibilidad con autenticación SASL   * compatibilidad con autenticación APOP   * soporte para SSL/TLS   * detección automática del formato del buzón   * notificaciones inmediatas (depende de tu configuración)   * cumplimiento de HIG 2.0</p>\n<p>Nota: el soporte para Evolution está disponible con mail-notification-evolution.</p>\n"
+}

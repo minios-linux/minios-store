@@ -1,0 +1,5 @@
+{
+  "name": "Bustle",
+  "description": "Dibuja diagramas de secuencia de la actividad de D-Bus",
+  "longDescription": "<p>Bustle genera diagramas de secuencia de la actividad de D-Bus. Muestra las emisiones de señales, las llamadas a métodos y sus respuestas correspondientes, con marcas de tiempo para cada evento individual y la duración de cada llamada de método. Esto puede ayudarte a identificar tráfico no deseado en D-Bus y localizar por qué tu aplicación basada en D-Bus no rinde como esperas. También proporciona estadísticas como la frecuencia de señales y los tiempos promedio de llamadas a métodos.</p>\n"
+}

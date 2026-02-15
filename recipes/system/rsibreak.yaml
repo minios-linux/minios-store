@@ -1,0 +1,44 @@
+id: "rsibreak"
+name: RSIBreak
+description: Makes sure you rest now and then
+longDescription: |
+  <p>Prolonged use of a mouse and keyboard can cause a repetitive strain injury (RSI), so computer users are advised to take regular breaks.</p>
+  <p>RSIBreak helps prevent repetitive strain injuries by keeping track of usage patterns and periodically informing users to take breaks.  During break periods, RSIBreak can either show an unobtrusive message, lock the screen entirely, or present a slideshow.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rsibreak
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/rsibreak/030e06982bc86933669b5dc3b094e973/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/rsibreak/030e06982bc86933669b5dc3b094e973/screenshots/image-1_624x403.png
+    width: 801
+    height: 518
+iconSources:
+  - url: org/kde/rsibreak/030e06982bc86933669b5dc3b094e973/icons/128x128/rsibreak_rsibreak.png
+    width: 128
+    height: 128
+homepage: "https://userbase.kde.org/RSIBreak"
+enabled: true
+order: 99

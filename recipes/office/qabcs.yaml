@@ -1,0 +1,45 @@
+id: qabcs
+name: qABCs
+description: Educational software to learn the alphabet and get familiar with a keyboard
+longDescription: |
+  <p>
+        qABCs is an educational tool/game targeted at children. It is designed to aid  in learning alphabet through visual
+  and audio samples. As a side function it  can also help to familiarize one with a keyboard.    This program is useful for elementary schools.
+      </p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qabcs
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - abc
+  - learn
+  - alphabet
+  - educational
+  - edu
+  - lang
+  - language
+screenshotSources:
+  - url: org/bitbucket/qabcs/6f5d23c6445b25efde2152eab7bf3a98/screenshots/image-1_orig.png
+    thumbnailUrl: org/bitbucket/qabcs/6f5d23c6445b25efde2152eab7bf3a98/screenshots/image-1_224x232.png
+    width: 300
+    height: 311
+iconSources:
+  - url: org/bitbucket/qabcs/6f5d23c6445b25efde2152eab7bf3a98/icons/128x128/qabcs_qabcs.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

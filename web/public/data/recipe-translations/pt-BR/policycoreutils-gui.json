@@ -1,0 +1,5 @@
+{
+  "name": "Ferramenta de Gerenciamento de Políticas SELinux",
+  "description": "Gera módulos de política SELinux",
+  "longDescription": "<p>O Security-Enhanced Linux (SELinux) é um patch do kernel Linux® e um conjunto de utilitários com funcionalidades aprimoradas de segurança, desenvolvidos para adicionar controles obrigatórios de acesso ao Linux. O kernel SELinux inclui novos componentes arquiteturais originalmente criados para fortalecer a segurança do sistema operacional Flask. Estes componentes oferecem suporte geral para a aplicação de diversos tipos de políticas de controle obrigatório de acesso, incluindo aquelas baseadas nos conceitos de Type Enforcement®, Controle de Acesso Baseado em Papéis (RBAC) e Segurança em Multinível.</p>\n<p>Este pacote contém os utilitários system-config-selinux e selinux-polgengui.</p>\n"
+}

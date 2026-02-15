@@ -1,0 +1,30 @@
+id: tintinplusplus
+name: TinTin++
+description: A classic text-based MUD client
+longDescription: |
+  <p>Tintin++ is telnet client specialized to play MUDs (Multi-User Dungeons). It has scripting support, tab-completion, internal chat, and takes advantage of the GNU readline library.</p>
+  <p>You can find a complete set of commands and features in the Tintin++ manual, in /usr/share/doc/tintin++.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tintin++
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - roleplaying
+iconSources:
+  - cached: tintin++_tintin++.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

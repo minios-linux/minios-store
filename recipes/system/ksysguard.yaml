@@ -1,0 +1,36 @@
+id: ksysguard
+name: KSysGuard
+description: Monitor running processes and system performance
+longDescription: |
+  <p>System Guard allows you to monitor information and statistics about your system.</p>
+  <p>In addition to monitoring the local system, it can connect to remote systems running the System Guard Daemon.</p>
+  
+categoryId: system
+icon: Gauge
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ksysguard
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/ksysguard/9BECB0FF53F35ADFC14B60FE1B025664/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ksysguard/9BECB0FF53F35ADFC14B60FE1B025664/screenshots/image-1_624x490.png
+    width: 808
+    height: 635
+iconSources:
+  - url: org/kde/ksysguard/9BECB0FF53F35ADFC14B60FE1B025664/icons/128x128/ksysguard_utilities-system-monitor.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org/applications/system/ksysguard"
+enabled: true
+order: 99

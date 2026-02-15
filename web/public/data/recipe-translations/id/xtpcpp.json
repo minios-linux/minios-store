@@ -1,0 +1,5 @@
+{
+  "name": "X!TandemPipeline C++",
+  "description": "Alat inferensi protein",
+  "longDescription": "<p>Program ini memungkinkan Anda melakukan tugas-tugas berikut:  - Membaca file hasil X!Tandem xml  - Membaca file hasil MASCOT dat  - Membaca file hasil TPP pepXML  - Membaca file hasil PSI mzIdentML  - Menjalankan analisis X!Tandem melalui antarmuka grafis  - Menerapkan berbagai filter berdasarkan nilai statistik  - Algoritma pengelompokan orisinal yang kuat untuk memfilter redundansi  - Mode fosfopeptida untuk menangani dataset fosfoproteomik  - Edit, cari, dan urutkan data secara grafis  - Penelusur kromatogram XIC (eXtracted Ion Current)  - Perbandingan pola isotop teoritis dengan area MS1 XIC terukur  - Ekspor data langsung ke Microsoft Office 2010 dan LibreOffice (ekspor ods)  - Memproses dataset berskala besar dengan sangat cepat  - Melakukan kuantifikasi peptida melalui ekspor MassChroQml</p>\n"
+}

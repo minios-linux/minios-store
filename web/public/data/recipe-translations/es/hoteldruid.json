@@ -1,0 +1,5 @@
+{
+  "name": "HotelDruid",
+  "description": "Sistema de gestión para hoteles",
+  "longDescription": "<p>HotelDruid está diseñado para facilitar la administración de habitaciones de hotel, apartamentos tipo bed and breakfast u otros alojamientos de alquiler diario desde un navegador web.</p>\n<p>Funciones principales:</p>\n<ul>\n  <li>asignación automática de reservas a habitaciones mediante reglas definidas por el usuario</li>\n  <li>creación de páginas web públicas para mostrar la disponibilidad de habitaciones, etc.</li>\n  <li>guardado, impresión y envío por correo electrónico de documentos y facturas</li>\n  <li>punto de venta electrónico</li>\n  <li>gestión de grupos y privilegios para operación multiusuario</li>\n  <li>generación de informes estadísticos</li>\n</ul>\n<p>Utiliza una base de datos SQLite por defecto, pero puede configurarse para funcionar con MySQL o PostgreSQL.</p>\n"
+}

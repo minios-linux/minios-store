@@ -1,0 +1,80 @@
+id: "vcmi"
+name: VCMI
+description: Launcher for open engine of Heroes of Might and Magic 3
+longDescription: |
+  <p>The purpose of VCMI project is to create a free implementation of the &quot;Heroes of Might and Magic 3: In the Wake of Gods&quot; engine to overcome limitations of the original engine for better modding support, higher resolutions, bigger map sizes and extended engine limits.</p>
+  <p>VCMI is a turn-based strategy game where the player controls a number of heroes commanding an army of creatures. The player explores the game map with their heroes, conquers enemy towns and improves their own.</p>
+  <p>VCMI stands for Vinyar Callor Meletya Ingole which means &quot;New Heroes of Might and Magic&quot; in Quenya.</p>
+  <p>This game requires the graphics, sound and videos of the &quot;Heroes of Might and Magic 3: In the Wake of Gods&quot; game. After installing this package, run either one of the following commands depending on whether you have access to the Good Old Games installer (1), the original CDs (2) or just the installed game directory (3):</p>
+  <p> (1): vcmibuilder --gog /path/to/gog.com/installer  (2): vcmibuilder --cd1 /path/to/iso/or/cd --cd2 /path/to/second/cd  (3): vcmibuilder --data /path/to/h3/data</p>
+  <p>Alternatively, use `game-data-packager heroes3`.</p>
+  <p>This package contains the game engine.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vcmi
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - heroes
+  - homm3
+screenshotSources:
+  - url: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-1_orig.png
+    thumbnailUrl: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-1_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-2_orig.png
+    thumbnailUrl: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-2_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-3_orig.png
+    thumbnailUrl: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-3_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-4_orig.png
+    thumbnailUrl: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-4_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-5_orig.png
+    thumbnailUrl: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-5_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-6_orig.png
+    thumbnailUrl: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-6_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-7_orig.png
+    thumbnailUrl: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-7_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-8_orig.png
+    thumbnailUrl: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-8_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-9_orig.png
+    thumbnailUrl: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-9_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-10_orig.png
+    thumbnailUrl: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/screenshots/image-10_624x351@1.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: eu/vcmi/VCMI/5ee0e2688f94b14817c8aca09ed120f8/icons/128x128/vcmi_vcmiclient.png
+    width: 128
+    height: 128
+homepage: "https://vcmi.eu/"
+enabled: true
+order: 99

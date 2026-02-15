@@ -1,0 +1,44 @@
+id: "kjumpingcube"
+name: KJumpingCube
+description: Territory Capture Game
+longDescription: |
+  <p>KJumpingcube is a simple tactical game for one or two players, played on a grid of numbered squares.  Each turn, players compete for control of the board by capturing or adding to one square.</p>
+  <p>This package is part of the KDE games module.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kjumpingcube
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kjumpingcube/b4bca355e6f23fb05d26f44845e990a5/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kjumpingcube/b4bca355e6f23fb05d26f44845e990a5/screenshots/image-1_624x494@1.png
+    width: 648
+    height: 513
+iconSources:
+  - url: org/kde/kjumpingcube/b4bca355e6f23fb05d26f44845e990a5/icons/128x128/kjumpingcube_kjumpingcube.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/applications/games/org.kde.kjumpingcube"
+enabled: true
+order: 99

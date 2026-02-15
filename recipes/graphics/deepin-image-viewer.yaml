@@ -1,0 +1,44 @@
+id: "deepin-image-viewer"
+name: Deepin Image Viewer
+description: Deepin Image Viewer
+longDescription: |
+  <p>Deepin Image Viewer is an image viewer and manager elaborately produced by Deepin Technology. It is fashion and smooth, supports multiple image formats, user can view any kind of image. The image management in Deepin Image Viewer, allows user to rank images in Timeline by date, add image to &quot;My favorites&quot; or different albums. All images can be arranged in perfect order by Deepin Image Viewer.</p>
+  <p>This package is part of DDE (Deepin Desktop Environment).</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deepin-image-viewer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - image
+  - viewer
+  - jpg
+  - jpeg
+  - png
+iconSources:
+  - url: d/de/deepin-image-viewer.desktop/c04d712ecfd12e41fb5c667f172ee046/icons/128x128/deepin-image-viewer_deepin-image-viewer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "LXTerminal",
+  "description": "Utilize a linha de comando",
+  "longDescription": "<p>LXTerminal é um emulador de terminal baseado em VTE para o Lightweight X11 Desktop Environment (LXDE).</p>\n<p>Suporta múltiplas abas e possui dependências mínimas, sendo totalmente independente de ambiente gráfico. Para reduzir o consumo de memória e aumentar o desempenho, todas as instâncias do terminal compartilham um único processo.</p>\n"
+}

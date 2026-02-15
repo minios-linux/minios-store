@@ -1,0 +1,5 @@
+{
+  "name": "Deluge",
+  "description": "Descarga y comparte archivos mediante BitTorrent",
+  "longDescription": "<p>Deluge es un cliente BitTorrent completo, multiplataforma y con múltiples interfaces, que utiliza libtorrent-rasterbar como núcleo y ofrece diversas interfaces de usuario: GTK+, web y consola.</p>\n<p>Está diseñado bajo un modelo cliente-servidor, con un proceso demonio que gestiona toda la actividad de BitTorrent. El demonio de Deluge puede ejecutarse en máquinas sin entorno gráfico ('headless'), permitiendo que las interfaces de usuario se conecten de forma remota desde cualquier plataforma.</p>\n<p>Se recomienda instalar este paquete para usar la interfaz GTK+ de Deluge como cliente ligero y conectarse a un demonio remoto. Más información: &lt;URL:http://dev.deluge-torrent.org/wiki/UserGuide/ThinClient&gt;</p>\n"
+}

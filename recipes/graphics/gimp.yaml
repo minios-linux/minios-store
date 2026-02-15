@@ -1,0 +1,64 @@
+id: "gimp"
+name: GNU Image Manipulation Program
+description: Create images and edit photographs
+longDescription: |
+  <p>GIMP is an acronym for GNU Image Manipulation Program. It is a freely distributed program for such tasks as photo retouching, image composition and image authoring.</p>
+  <p>It has many capabilities. It can be used as a simple paint program, an expert quality photo retouching program, an online batch processing system, a mass production image renderer, an image format converter, etc.</p>
+  <p>GIMP is expandable and extensible. It is designed to be augmented with plug-ins and extensions to do just about anything. The advanced scripting interface allows everything from the simplest task to the most complex image manipulation procedures to be easily scripted. GIMP is available for Linux, Microsoft Windows and OS X.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gimp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gimp
+  - graphic
+  - design
+  - illustration
+  - painting
+screenshotSources:
+  - url: org/gimp/GIMP/81aa8be6edc018b9d60a2f0cd75bd113/screenshots/image-1_orig.png
+    thumbnailUrl: org/gimp/GIMP/81aa8be6edc018b9d60a2f0cd75bd113/screenshots/image-1_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/gimp/GIMP/81aa8be6edc018b9d60a2f0cd75bd113/screenshots/image-2_orig.png
+    thumbnailUrl: org/gimp/GIMP/81aa8be6edc018b9d60a2f0cd75bd113/screenshots/image-2_624x340@1.png
+    width: 1920
+    height: 1048
+  - url: org/gimp/GIMP/81aa8be6edc018b9d60a2f0cd75bd113/screenshots/image-3_orig.png
+    thumbnailUrl: org/gimp/GIMP/81aa8be6edc018b9d60a2f0cd75bd113/screenshots/image-3_624x340@1.png
+    width: 1920
+    height: 1048
+  - url: org/gimp/GIMP/81aa8be6edc018b9d60a2f0cd75bd113/screenshots/image-4_orig.png
+    thumbnailUrl: org/gimp/GIMP/81aa8be6edc018b9d60a2f0cd75bd113/screenshots/image-4_624x351@1.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: org/gimp/GIMP/81aa8be6edc018b9d60a2f0cd75bd113/icons/128x128/gimp_gimp.png
+    width: 128
+    height: 128
+developer: The GIMP team
+homepage: "https://www.gimp.org/"
+enabled: true
+order: 99

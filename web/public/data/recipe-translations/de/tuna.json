@@ -1,0 +1,5 @@
+{
+  "name": "tuna",
+  "description": "Verwaltung von Thread- und IRQ-Attributen",
+  "longDescription": "<p>Bietet eine Oberfläche zum Anpassen von Scheduler- und IRQ-Parametern – sowohl für das gesamte System als auch gezielt pro Thread oder IRQ. Ermöglicht das Isolieren von CPUs für bestimmte Anwendungen und das komfortable Verschieben von Threads und Interrupts auf ausgewählte CPUs per Drag-and-Drop. Die Bedienung berücksichtigt dabei die CPU-Topologie inklusive CPU-Sockeln.</p>\n<p>Kann auch als Kommandozeilenwerkzeug genutzt werden, ohne dass GUI-Bibliotheken erforderlich sind.</p>\n"
+}

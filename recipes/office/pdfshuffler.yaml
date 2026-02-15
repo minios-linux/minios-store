@@ -1,0 +1,23 @@
+id: pdfshuffler
+name: PDF-Shuffler
+description: "PDF Merging, Rearranging, Splitting, Rotating and Cropping"
+longDescription: |
+  <p>PDF-Shuffler is a small application which allows one to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pdfshuffler
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pdfshuffler_pdfshuffler.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

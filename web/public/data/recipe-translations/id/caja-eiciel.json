@@ -1,0 +1,5 @@
+{
+  "name": "MATE Eiciel",
+  "description": "Alat untuk mengelola entri ACL",
+  "longDescription": "<p>MATE Eiciel adalah alat mandiri sekaligus plugin Caja untuk mengedit Access Control Lists (ACL) file secara grafis. ACL memungkinkan Anda mengatur izin akses yang lebih rinci daripada izin tradisional Unix (izin UGO: user, group, other). Aplikasi ini dikembangkan berdasarkan Eiciel oleh Roger Ferrer.</p>\n<p>MATE Eiciel juga memungkinkan pengeditan atribut lanjutan pada file dan direktori jika didukung oleh sistem berkas.</p>\n<p>Tidak semua sistem berkas mendukung ACL dan atribut lanjutan. Bahkan pada sistem berkas yang mendukung, fitur ini harus diaktifkan terlebih dahulu oleh administrator sistem sebelum dapat menggunakan MATE Eiciel.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "SasView",
+  "description": "Análisis de Dispersión de Ángulo Pequeño",
+  "longDescription": "<p>SasView es un paquete de software para el análisis de Dispersión de Ángulo Pequeño (SAS), desarrollado originalmente como parte del proyecto NSF DANSE bajo el nombre SansView, y ahora gestionado por una colaboración internacional de instituciones.</p>\n<p>SasView permite analizar datos experimentales de dispersión de ángulo pequeño (SAS).</p>\n<p>Ajusta funciones analíticas que describen distintos tipos de microestructura de materiales a los datos experimentales para determinar la forma, el tamaño y el grado de ordenamiento.</p>\n<p>SasView también incluye herramientas para calcular densidades de longitud de dispersión, tamaños de rendija, resolución, grosores de franjas/espaciados d, el invariante (de Porod) ('dispersión total') y funciones de distribución de distancias.</p>\n<p>Este paquete instala el script ejecutable sasview.</p>\n"
+}

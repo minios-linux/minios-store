@@ -1,0 +1,26 @@
+id: prelude-notify
+name: prelude-notify
+description: Graphical notification applet for prelude
+longDescription: |
+  <p>Prelude is a Universal &quot;Security Information Management&quot; (SIM) system. Prelude collects, normalizes, sorts, aggregates, correlates and reports all security-related events independently of the source or event.</p>
+  <p>This package provides prelude-notify, a desktop-integrated interface which shows you events recorded by the Prelude Manager.</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - prelude-notify
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/pr/prelude-notify.desktop/D7A6B414879F018C5AA29CD6E648BEA1/icons/128x128/prelude-notify_utilities-system-monitor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

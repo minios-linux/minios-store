@@ -1,0 +1,45 @@
+id: guymager
+name: Guymager
+description: Fast forensic imager
+longDescription: |
+  <p>The forensic imager contained in this package, guymager, was designed to support different image file formats, to be most user-friendly and to run really fast. It has a high speed multi-threaded engine using parallel compression for best performance on multi-processor and hyper-threading machines.</p>
+  
+categoryId: system
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - guymager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - forensics
+  - disk imaging
+  - ewf
+  - expert witness format
+  - raw format
+  - aff
+  - advanced forensics format
+iconSources:
+  - cached: guymager_guymager_128.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

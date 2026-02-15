@@ -1,0 +1,36 @@
+id: xdx
+name: Xdx
+description: DX-cluster client for amateur radio
+longDescription: |
+  <p>Xdx is a client to connect to a DX-cluster. Dx messages will be displayed in a list, announcements will go to a text display.</p>
+  <p>As well as the usual functions, if you have hamlib installed it can control the radio and set the frequency simply by double clicking a DX-spot (using rigctl).</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xdx
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dx cluster
+  - packet cluster
+  - dx spotting
+iconSources:
+  - cached: xdx_xdx-logo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,48 @@
+id: "diffuse"
+name: Diffuse Merge Tool
+description: Graphical tool for merging and comparing text files
+longDescription: |
+  <p>Diffuse is a graphical tool for merging and comparing text files. Diffuse is able to compare an arbitrary number of files side-by-side and gives users the ability to manually adjust line-matching and directly edit files. Diffuse can also retrieve revisions of files from bazaar, CVS, darcs, git, mercurial, monotone, Subversion and GNU Revision Control System (RCS) repositories for comparison and merging.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - diffuse
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - viewer,diff,editor,text
+screenshotSources:
+  - url: io/github/mightycreak.Diffuse/3cdd91340a8f1373bbc37ab14197ced7/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/mightycreak.Diffuse/3cdd91340a8f1373bbc37ab14197ced7/screenshots/image-1_624x383@1.png
+    width: 1343
+    height: 825
+  - url: io/github/mightycreak.Diffuse/3cdd91340a8f1373bbc37ab14197ced7/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/mightycreak.Diffuse/3cdd91340a8f1373bbc37ab14197ced7/screenshots/image-2_624x383@1.png
+    width: 1343
+    height: 825
+iconSources:
+  - url: io/github/mightycreak.Diffuse/3cdd91340a8f1373bbc37ab14197ced7/icons/128x128/diffuse_io.github.mightycreak.Diffuse.png
+    width: 128
+    height: 128
+developer: Romain Failliot
+homepage: "https://mightycreak.github.io/diffuse/"
+enabled: true
+order: 99

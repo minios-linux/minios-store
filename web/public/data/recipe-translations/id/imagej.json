@@ -1,0 +1,5 @@
+{
+  "name": "ImageJ",
+  "description": "Pengolahan dan analisis citra",
+  "longDescription": "<p>Aplikasi ini dapat menampilkan, mengedit, menganalisis, memproses, menyimpan, dan mencetak gambar 8-bit, 16-bit, dan 32-bit. Mendukung banyak format gambar seperti TIFF, GIF, JPEG, BMP, DICOM, FITS, serta format \"raw\". Fitur \"stacks\" memungkinkan serangkaian gambar tampil dalam satu jendela.</p>\n<p>Dapat menghitung area dan statistik nilai piksel pada area yang ditentukan pengguna, melakukan pengukuran jarak dan sudut, membuat histogram densitas, serta plot profil garis. Mendukung fungsi pemrosesan citra standar seperti manipulasi kontras, penajaman, penghalusan, deteksi tepi, dan filter median.</p>\n<p>Tersedia kalibrasi spasial untuk pengukuran dimensi dunia nyata dalam satuan seperti milimeter. Kalibrasi densitas atau skala abu-abu juga didukung.</p>\n<p>ImageJ dikembangkan oleh Wayne Rasband (wayne@codon.nih.gov), di Research Services Branch, National Institute of Mental Health, Bethesda, Maryland, USA.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "JackEQ",
+  "description": "roteia e manipula áudio de/para múltiplas fontes",
+  "longDescription": "<p>O jackEQ é uma ferramenta para roteamento e manipulação de áudio entre várias fontes de entrada e saída. Ele roda sobre o JACK Audio Connection Kit e utiliza LADSPA como backend para processamento de áudio, especialmente usando o plugin DJ EQ swh criado por Steve Harris, um dos principais autores do jackEQ.</p>\n<p>O objetivo do jackEQ é oferecer um método acessível para ajustar agudos, médios e graves do áudio de qualquer aplicação compatível com JACK. Desenvolvido especialmente para apresentações ao vivo, o jackEQ foi inspirado em diversos mixers de DJ usados pelo autor principal.</p>\n<p>O jackEQ permite um som tão rico e poderoso quanto Jackie O, e tão esperto quanto Jackie Brown. jackEQ pode ser a primeira entidade feminina no universo do JACK. Será que o jackEQ é mais do que você consegue controlar?</p>\n"
+}

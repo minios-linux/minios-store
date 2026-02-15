@@ -1,0 +1,41 @@
+id: "sonata"
+name: Sonata
+description: An elegant GTK+ MPD client
+longDescription: |
+  <p>Sonata is a lightweight GTK+ music client for the Music Player Daemon (MPD). It aims to be efficient (no toolbar, main menu, or statusbar), user-friendly, and clean.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sonata
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - player
+  - music
+  - audio
+iconSources:
+  - url: s/so/sonata.desktop/d76e019615e32688d0110042e24d9219/icons/128x128/sonata_sonata.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

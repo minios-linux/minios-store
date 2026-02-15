@@ -1,0 +1,5 @@
+{
+  "name": "GDebi Package Installer",
+  "description": "Menginstal dan melihat paket perangkat lunak",
+  "longDescription": "<p>gdebi memungkinkan Anda menginstal paket deb lokal dengan otomatis menemukan dan menginstal dependensinya, sama seperti apt.</p>\n<p>Paket juga dipindai menggunakan lintian sebelum instalasi dan Anda dapat memeriksa bagian kontrol serta data dari paket tersebut.</p>\n<p>Paket ini mencakup antarmuka grafis (GUI).</p>\n"
+}

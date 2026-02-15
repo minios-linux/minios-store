@@ -1,0 +1,5 @@
+{
+  "name": "KShutdown",
+  "description": "Utilitaire graphique d'arrêt du système",
+  "longDescription": "<p>Il propose 4 commandes principales :</p>\n<p> - Arrêter (fermer la session et éteindre le système),  - Redémarrer (fermer la session et redémarrer le système),  - Verrouiller l'écran (verrouillage via l’économiseur d’écran),  - Déconnexion (terminer la session et déconnecter l’utilisateur).</p>\n<p>Fonctionnalités : programmation de l’arrêt ou du redémarrage, prise en charge de la ligne de commande, assistant d’utilisation et notifications sonores.</p>\n"
+}

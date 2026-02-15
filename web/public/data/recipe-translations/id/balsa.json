@@ -1,0 +1,5 @@
+{
+  "name": "Balsa",
+  "description": "Aplikasi email",
+  "longDescription": "<p>Balsa adalah klien email yang sangat dapat dikonfigurasi dan andal untuk desktop GNOME. Mendukung server POP3 dan IMAP, serta format mailbox lokal seperti mbox, maildir, dan mh. Balsa juga mendukung SMTP dan/atau penggunaan MTA lokal seperti Sendmail.</p>\n<p>Beberapa fitur lain dari Balsa antara lain:   * Mendukung struktur mailbox bertingkat   * Pencetakan email   * Pemeriksaan ejaan   * Pengambilan email multi-thread   * Dukungan MIME (tampilan gambar di dalam email, menyimpan lampiran)   * Dukungan buku alamat GPE Palmtop, LDAP, LDIF, dan vCard   * Dukungan multi-karakter untuk menulis dan membaca pesan   * Melampirkan file pada email keluar   * Penandatanganan dan enkripsi email dengan GPG/OpenPGP</p>\n<p>Paket ini telah mengaktifkan dukungan Kerberos dan SSL.</p>\n"
+}

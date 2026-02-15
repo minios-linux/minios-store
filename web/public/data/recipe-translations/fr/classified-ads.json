@@ -1,0 +1,5 @@
+{
+  "name": "Petites annonces",
+  "description": "Petites annonces – programme de publication d’annonces",
+  "longDescription": "<p>Petites annonces vise à recréer une partie des fonctionnalités disparues avec la fin des newsgroups Usenet. L’objectif est de résoudre la disparition des serveurs de news en supprimant le besoin de serveur central : le stockage des données est assuré directement dans les applications clientes utilisées par les utilisateurs. Fonctionnalités actuelles du programme :<ul><li>Publication d’annonces en ligne, avec catégorisation</li><li>Réponse aux annonces, publiquement ou en privé auprès de l’opérateur</li><li>Pièces jointes binaires aux publications</li><li>Mise à disposition des informations de base des opérateurs</li><li>Recherche basique de contenu par mots-clés</li><li>Négociation audio entre opérateurs</li><li>Possibilité d’étendre l’interface via le langage de script Tcl</li><li>Partage de données entre programmes Tcl grâce à une base de données distribuée polyvalente</li></ul></p>\n"
+}

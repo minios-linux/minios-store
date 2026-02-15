@@ -1,0 +1,5 @@
+{
+  "name": "Firewall",
+  "description": "Configurazione del firewall",
+  "longDescription": "<p>Firewall Configuration offre uno strumento grafico per l'amministrazione del firewall.</p>\n<p>Permette di visualizzare e impostare:</p>\n<ul>\n  <li>Configurazione del firewall attiva e permanente</li>\n  <li>Zone predefinite (livelli di fiducia per le connessioni di rete)</li>\n  <li>Servizi predefiniti (porta/protocollo, modulo helper netfilter)</li>\n  <li>Port forwarding, mascheramento, blocco ICMP</li>\n  <li>Regole firewall avanzate (Rich Language)</li>\n  <li>Regole iptables (Interfaccia diretta)</li>\n</ul>\n"
+}

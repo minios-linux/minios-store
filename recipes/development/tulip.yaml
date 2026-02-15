@@ -1,0 +1,31 @@
+id: tulip
+name: Tulip 5.4.0
+description: Large graphs analysis and visualization
+longDescription: |
+  <p>Tulip is an information visualization framework dedicated to the analysis and visualization of relational data.  It aims to provide the developer with a complete library, supporting the design of interactive information visualization applications for relational data that can be tailored to the problems he or she is addressing.</p>
+  <p>It includes the following features:</p>
+  <p> * 3D visualizations  * 3D modifications  * Plug-in support for easy evolution  * Building of clusters and navigation into them  * Automatic drawing of graphs  * Automatic clustering of graphs  * Automatic selection of elements  * Automatic metric coloration of graphs</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tulip
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: tulip_tulip.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

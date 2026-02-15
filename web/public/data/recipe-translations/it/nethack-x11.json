@@ -1,0 +1,5 @@
+{
+  "name": "X NetHack",
+  "description": "Gioco dungeon crawl - versione con interfaccia grafica",
+  "longDescription": "<p>NetHack è un'avventura in stile Dungeons &amp; Dragons appassionante e decisamente bizzarra, capace di creare dipendenza. Interpreti un personaggio scelto tra molte classi (come mago, ranger o turista), affrontando dungeon per recuperare l'Amuleto di Yendor (prova a dirlo al contrario!) per il tuo dio. Nel percorso potresti incontrare un meccanico quantistico o due, magari Re Artù, o — se sei VERAMENTE fortunato — la Famelica Belva Stracciona di Traal.</p>\n<p>Per giocare è consigliato installare un'interfaccia per NetHack. Ogni frontend include anche la versione originale non grafica, e possono essere tutti installati contemporaneamente:  - nethack-console: solo testo, senza grafica;  - nethack-x11: versione grafica basata su X11/Athena;  - nethack-lisp: versione con interfaccia Lisp.</p>\n<p>Questo pacchetto fornisce le versioni testuali e grafiche (X11/Athena) di NetHack.</p>\n"
+}

@@ -1,0 +1,46 @@
+id: "krename"
+name: Krename
+description: A powerful batch file renamer
+longDescription: |
+  <p>Krename is a very powerful batch file renamer which can rename a list of
+        files based on a set of expressions. It can copy/move the files to
+        another directory or simply rename the input files. Krename supports many
+        conversion operations.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - krename
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/krename.desktop/2fc6621965d60ecda58648ec3814c290/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/krename.desktop/2fc6621965d60ecda58648ec3814c290/screenshots/image-1_624x469@1.png
+    width: 1039
+    height: 782
+iconSources:
+  - url: org/kde/krename.desktop/2fc6621965d60ecda58648ec3814c290/icons/128x128/krename_krename.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org/"
+enabled: true
+order: 99

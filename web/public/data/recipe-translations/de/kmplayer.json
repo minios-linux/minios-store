@@ -1,0 +1,5 @@
+{
+  "name": "KMPlayer",
+  "description": "KDE-Oberfläche für MPlayer",
+  "longDescription": "<p>KMPlayer ist eine einfache Benutzeroberfläche für MPlayer, FFMpeg und Phonon.</p>\n<p>Zu den Funktionen gehören:  * Abspielen von DVD/VCD-Filmen (von Datei, URL oder Videogerät)  * Einbettung in Konqueror (Filmwiedergabe direkt im Konqueror-Browser)  * Einbettung in KHTML (Videowiedergabe innerhalb einer HTML-Seite)  * Filmaufnahme mit mencoder (Teil des MPlayer-Pakets)  * Während der Aufnahme keine Videowiedergabe, aber Sie können jederzeit ein neues Fenster öffnen und den Film abspielen  * Streaming/Broadcasting über HTTP mit ffserver/ffmpeg  * Für TV-Quellen wird v4lctl (Bestandteil des xawtv-Pakets) benötigt</p>\n"
+}

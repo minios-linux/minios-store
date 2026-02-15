@@ -1,0 +1,35 @@
+id: "spview"
+name: Spview
+description: Spectrum Viewer
+longDescription: |
+  <p>SPVIEW is a multiplatform Java application that allows graphical assignment of high-resolution molecular spectra. It is possible to load, display and manipulate experimental and simulated spectra (XY ASCII format) as well as stick spectra in various formats (including HITRAN format).</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - spview
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - science
+  - physics
+iconSources:
+  - url: org/spview/desktop/99d869e8aa9dd37a544a29ee3677f136/icons/128x128/spview_org.spview.png
+    width: 128
+    height: 128
+homepage: "https://icb.u-bourgogne.fr/programmes-et-banques-de-donnees-spectroscopiques"
+enabled: true
+order: 99

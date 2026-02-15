@@ -1,0 +1,33 @@
+id: "lybniz"
+name: Lybniz
+description: Plot graphs and functions
+longDescription: |
+  <p>Lybniz is a simple desktop graph plotter. It can currently plot three functions and allows you to navigate the plot. Functions are entered in Python or C-like notation.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lybniz
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: l/ly/lybniz.desktop/2bb67da76e14494d9706fe1e5da5e1e0/icons/128x128/lybniz_lybniz.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

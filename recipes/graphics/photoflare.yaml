@@ -1,0 +1,49 @@
+id: "photoflare"
+name: PhotoFlare
+description: A simple but featureful image editor.
+longDescription: |
+  <p>PhotoFlare is an effort to bring quick, simple but powerful image editing to the masses. PhotoFlare is inspired by the image editor PhotoFiltre which is available only on another OS. PhotoFlare is designed for beginner users with the aim to give them a tool easy to learn and use.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - photoflare
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - photo
+  - image
+  - picture
+  - photography
+  - paint
+  - graphics
+  - editor
+screenshotSources:
+  - url: io/photoflare/photoflare/7a5120b2dd82c89c5b349c4f14314dad/screenshots/image-1_orig.png
+    thumbnailUrl: io/photoflare/photoflare/7a5120b2dd82c89c5b349c4f14314dad/screenshots/image-1_624x311@1.png
+    width: 1550
+    height: 774
+iconSources:
+  - url: io/photoflare/photoflare/7a5120b2dd82c89c5b349c4f14314dad/icons/128x128/photoflare_photoflare.png
+    width: 128
+    height: 128
+homepage: "https://photoflare.io"
+enabled: true
+order: 99

@@ -1,0 +1,52 @@
+id: krusader
+name: Krusader
+description: File Manager
+longDescription: |
+  <p>Krusader is an advanced twin panel (commander style) file manager</p>
+  <p>Features:</p>
+  <ul>
+    <li>Extensive archive handling</li>
+    <li>Mounted filesystem support</li>
+    <li>FTP support</li>
+    <li>Advanced search module</li>
+    <li>Internal viewer/editor</li>
+    <li>Folder synchronisation</li>
+    <li>File content comparisons</li>
+    <li>Powerful batch renaming</li>
+    <li>Support for a wide variety of archive formats and can handle other KIO slaves such as smb or fish.</li>
+    <li>Completely customizable and very user friendly</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - krusader
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/krusader.desktop/8AF4F65A1868821C13AC3EF239A229B7/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/krusader.desktop/8AF4F65A1868821C13AC3EF239A229B7/screenshots/image-1_624x493.png
+    width: 649
+    height: 513
+iconSources:
+  - url: org/kde/krusader.desktop/8AF4F65A1868821C13AC3EF239A229B7/icons/128x128/krusader_krusader_user.png
+    width: 128
+    height: 128
+homepage: "http://www.krusader.org/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Diffuse Merge Tool",
+  "description": "Outil graphique pour fusionner et comparer des fichiers texte",
+  "longDescription": "<p>Diffuse est un outil graphique permettant de fusionner et de comparer des fichiers texte. Il peut comparer un nombre arbitraire de fichiers côte à côte et offre la possibilité d’ajuster manuellement la correspondance des lignes ainsi que d’éditer les fichiers directement. Diffuse peut également récupérer les révisions de fichiers depuis les dépôts bazaar, CVS, darcs, git, mercurial, monotone, Subversion et GNU Revision Control System (RCS) pour la comparaison et la fusion.</p>\n"
+}

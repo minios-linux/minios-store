@@ -1,0 +1,33 @@
+id: wmnut
+name: WMNut
+description: Monitor multiple UPSs statistics through the Network UPS Tools framework.
+longDescription: |
+  <p>WMNUT monitors UPS statistics through the NUT (Network UPS Tools, http://www.networkupstools.org) framework on Linux and other systems. This information, presented in a nice visual format, can be invaluable on stations using an UPS.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wmnut
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dockapp
+  - monitor
+  - ups
+  - nut
+  - window maker
+iconSources:
+  - url: w/wm/wmnut.desktop/129dd3b2e10d044615dd09985d1d6785/icons/128x128/wmnut_wmnut.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

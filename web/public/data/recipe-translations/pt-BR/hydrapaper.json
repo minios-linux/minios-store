@@ -1,0 +1,5 @@
+{
+  "name": "HydraPaper",
+  "description": "Gerenciador de papéis de parede com suporte a múltiplos monitores",
+  "longDescription": "<p>HydraPaper é um gerenciador de papéis de parede projetado para contornar a limitação de muitos ambientes de desktop que não permitem definir um papel de parede diferente para cada monitor em uma configuração multi-monitor. Ele faz isso redimensionando e mesclando diferentes papéis de parede em uma única imagem, aplicando-a de forma expandida.</p>\n<p>Atualmente, suporta diversos ambientes de desktop, incluindo GNOME, MATE, Cinnamon e Budgie. Há também suporte experimental para o gerenciador de janelas sway.</p>\n"
+}

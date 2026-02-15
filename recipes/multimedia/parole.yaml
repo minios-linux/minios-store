@@ -1,0 +1,52 @@
+id: "parole"
+name: Parole
+description: Modern and simple media player
+longDescription: |
+  <p>Parole is a modern simple media player based on the GStreamer framework and written to fit well in the Xfce desktop. It is designed with simplicity, speed and resource usage in mind.</p>
+  <p>Parole features playback of local media files, including video with subtitles support, Audio CDs, DVDs, and live streams. Parole is also extensible via plugins.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - parole
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/xfce/Parole.desktop/918d3e2686c36b645c834146d4a3d2f5/screenshots/image-1_orig.png
+    thumbnailUrl: org/xfce/Parole.desktop/918d3e2686c36b645c834146d4a3d2f5/screenshots/image-1_624x351@1.png
+    width: 1200
+    height: 675
+  - url: org/xfce/Parole.desktop/918d3e2686c36b645c834146d4a3d2f5/screenshots/image-2_orig.png
+    thumbnailUrl: org/xfce/Parole.desktop/918d3e2686c36b645c834146d4a3d2f5/screenshots/image-2_624x351@1.png
+    width: 1200
+    height: 675
+  - url: org/xfce/Parole.desktop/918d3e2686c36b645c834146d4a3d2f5/screenshots/image-3_orig.png
+    thumbnailUrl: org/xfce/Parole.desktop/918d3e2686c36b645c834146d4a3d2f5/screenshots/image-3_624x351@1.png
+    width: 1200
+    height: 675
+iconSources:
+  - url: org/xfce/Parole.desktop/918d3e2686c36b645c834146d4a3d2f5/icons/128x128/parole_org.xfce.parole.png
+    width: 128
+    height: 128
+homepage: "https://www.xfce.org/"
+enabled: true
+order: 99

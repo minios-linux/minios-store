@@ -1,0 +1,42 @@
+id: "passage"
+name: Passage
+description: game about the passage through life
+longDescription: |
+  <p>Passage is a short, autobiographical pixelated art game by Jason Rohrer. It can be explored in approximately 5 minutes. Passage is meant to be memento mori game. If you enjoy the game, you may want to try the followup, &quot;Gravitation&quot;. If you do not, please read the game creators statement on the website and the experiences of other people linked from the website.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - passage
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - art
+  - game
+  - life
+  - passage
+iconSources:
+  - url: p/pa/passage.desktop/d3770b40b0e88074cc2816b3d947a369/icons/128x128/passage_passage.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

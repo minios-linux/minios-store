@@ -1,0 +1,39 @@
+id: "xchm"
+name: xCHM
+description: View CHM files
+longDescription: |
+  <p>xCHM is a viewer for Compiled HTML Help (CHM) files. It can show the contents tree if one is available, print the current page and do the usual history stunts. It allows one to change fonts and search for text in all the pages of the file, or in the page's titles.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xchm
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/github/xchm/715d41d7916eecbf07abd0d27f552969/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/xchm/715d41d7916eecbf07abd0d27f552969/screenshots/image-1_624x477.png
+    width: 1203
+    height: 921
+iconSources:
+  - url: com/github/xchm/715d41d7916eecbf07abd0d27f552969/icons/128x128/xchm_xchm.png
+    width: 128
+    height: 128
+homepage: "https://github.com/rzvncj/xCHM"
+enabled: true
+order: 99

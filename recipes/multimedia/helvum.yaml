@@ -1,0 +1,36 @@
+id: "helvum"
+name: Helvum
+description: Patchbay for PipeWire
+longDescription: |
+  <p>
+              Helvum is a graphical patchbay for PipeWire.
+              It allows creating and removing connections between applications and/or devices to reroute
+              flow of audio, video and MIDI data to where it is needed.
+          </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - helvum
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/pipewire/Helvum/22609e2198405c81c1e991dbc595611b/screenshots/image-1_orig.png
+    thumbnailUrl: org/pipewire/Helvum/22609e2198405c81c1e991dbc595611b/screenshots/image-1_624x374@1.png
+    width: 1402
+    height: 842
+iconSources:
+  - url: org/pipewire/Helvum/22609e2198405c81c1e991dbc595611b/icons/128x128/helvum_org.pipewire.Helvum.png
+    width: 128
+    height: 128
+developer: Tom A. Wagner
+homepage: "https://gitlab.freedesktop.org/pipewire/helvum"
+enabled: true
+order: 99

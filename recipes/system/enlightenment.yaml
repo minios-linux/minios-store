@@ -1,0 +1,30 @@
+id: "enlightenment"
+name: Enlightenment File Manager
+description: File Manager provided by Enlightenment
+longDescription: |
+  <p>Enlightenment is an advanced window manager for X11. Unique features include: a fully animated background, nice drop shadows around windows, backed by an extremely clean and optimized foundation of APIs.</p>
+  <p>This package contains the core files for Enlightenment.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - enlightenment
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: e/en/enlightenment_fprint.desktop/ea53c942a79661561d8b6b40cbe14ae2/icons/128x128/enlightenment_enlightenment_fprint.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

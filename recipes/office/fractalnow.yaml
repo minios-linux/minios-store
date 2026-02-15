@@ -1,0 +1,40 @@
+id: "fractalnow"
+name: QFractalNow
+description: Fractal images generator
+longDescription: |
+  <p>FractalNow provides users with tools to generate pictures of various types of fractals quickly and easily.</p>
+  <p>It is made of both a command line (FractalNow) and a graphical tool (QFractalNow).</p>
+  <p>The graphical tool, based on Qt library, allows users to explore fractals intuitively and generate pictures.</p>
+  <p>Both tools are entirely multi-threaded and implement advanced algorithms and heuristics that make computation very fast compared to most existing free fractal generators.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fractalnow
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: q/qf/qfractalnow.desktop/05188ca61683332c0ad923bb027df8b7/icons/128x128/fractalnow_qfractalnow.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,41 @@
+id: "mousetrap"
+name: Mousetrap
+description: simple game of ball chasing
+longDescription: |
+  <p>This is a simple game in which the player moves their character to capture the white balls while avoiding the red ones.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mousetrap
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ball
+  - chasing
+  - action
+iconSources:
+  - url: m/mo/mousetrap.desktop/165a4a8edea77bd9b48e78578b1e8d8b/icons/128x128/mousetrap_mousetrap.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

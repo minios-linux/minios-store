@@ -1,0 +1,23 @@
+id: dhcpcd-qt
+name: Network Configurator
+description: Configure and monitor your network connections
+longDescription: |
+  <p>dhcpcd-qt sits in the notification area and notifies you of changes to your IPv4 network configuration from dhcpcd and wpa_supplicant.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dhcpcd-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/dh/dhcpcd-qt.desktop/B118BBDB6E1227F00C34EC0B1875D9D4/icons/128x128/dhcpcd-qt_dhcpcd.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

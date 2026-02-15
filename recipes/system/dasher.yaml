@@ -1,0 +1,40 @@
+id: "dasher"
+name: Dasher
+description: Enter text without a keyboard
+longDescription: |
+  <p>Dasher is an information-efficient text-entry interface, driven by natural continuous pointing gestures. Dasher is a competitive text-entry system wherever a full-size keyboard cannot be used - for example,</p>
+  <p> * on a palmtop computer  * on a wearable computer  * when operating a computer one-handed, by joystick, touchscreen, trackball,  or mouse  * when operating a computer with zero hands (i.e., by head-mouse or by  eyetracker).</p>
+  <p>The eyetracking version of Dasher allows an experienced user to write text as fast as normal handwriting - 25 words per minute; using a mouse, experienced users can write at 39 words per minute.</p>
+  <p>Dasher uses a more advanced prediction algorithm than the T9(tm) system often used in mobile phones, making it sensitive to surrounding context.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dasher
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/da/dasher.desktop/8d5542523b2456842a15fe28b0e0a69f/icons/128x128/dasher_dasher.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

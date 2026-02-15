@@ -1,0 +1,5 @@
+{
+  "name": "KAppTemplate",
+  "description": "Generador de plantillas de KDE",
+  "longDescription": "<p>KAppTemplate es una aplicación para iniciar el desarrollo rápidamente utilizando plantillas existentes que proveen código básico reutilizado frecuentemente y una estructura adecuada.</p>\n<p>Características:</p>\n<ul>\n  <li>Plantillas para C++, Ruby, Python y PHP</li>\n  <li>Categorización</li>\n  <li>Plantillas para distintos sistemas de compilación y frameworks</li>\n  <li>Plantillas especialmente para el desarrollo de KDE (plugins para Plasma, KOffice, KTextEditor, KRunner, Akonadi)</li>\n  <li>Fácil creación de nuevas plantillas utilizando marcadores de posición y un sencillo comando CMake</li>\n  <li>Integración con KDevelop</li>\n</ul>\n"
+}

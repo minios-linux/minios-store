@@ -1,0 +1,5 @@
+{
+  "name": "Gscriptor",
+  "description": "Befehle an Smartcards senden",
+  "longDescription": "<p>Dieses Archiv enthält mehrere Werkzeuge, die für PC/SC-Nutzer nützlich sind. Die bereitgestellten Tools sind:</p>\n<p>pcsc_scan(1) durchsucht verfügbare Smartcard-Lesegeräte und zeigt erkannte Ereignisse an: Karteneinlage mit ATR, Kartenentnahme;</p>\n<p>ATR_analysis(1) analysiert einen Smartcard-ATR (Answer To Reset)</p>\n<p>scriptor(1) Perl-Skript zum Senden von Befehlen an eine Smartcard über eine Batchdatei oder stdin;</p>\n<p>gscriptor(1) basiert auf dem gleichen Prinzip wie scriptor.pl(1), jedoch mit einer Perl-Gtk-Oberfläche.</p>\n"
+}

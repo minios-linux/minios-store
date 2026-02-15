@@ -1,0 +1,36 @@
+id: "lxmusic"
+name: LXMusic simple music player
+description: Play your music files easily
+longDescription: |
+  <p>LXMusic is a GUI application for the Lightweight X11 Desktop Environment (LXDE).</p>
+  <p>It is a minimalist music player based on xmms2 and has server/client design. The user interface is quite simple, clean, and intuitive. At first glance, it looks similar to one of the famous players on Windows - foobar 2000.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxmusic
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: l/lx/lxmusic.desktop/76a400d6b405f464ad7550c67f526459/icons/128x128/lxmusic_lxmusic.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

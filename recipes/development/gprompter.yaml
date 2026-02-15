@@ -1,0 +1,28 @@
+id: gprompter
+name: gprompter
+description: Predictive text editor powered by presage
+longDescription: |
+  <p>gprompter is a cross-platform predictive text editor, based on presage, the intelligent predictive text entry platform.</p>
+  <p>gprompter displays predictions in a contextual pop-up box as each letter is typed. Predictions can be easily selected and inserted in the document.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gprompter
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+tags:
+  - presage
+  - text prediction
+  - predictive text
+iconSources:
+  - url: g/gp/gprompter.desktop/a6af0e523ac023ea1bea90f7acb8ec3d/icons/128x128/gprompter_gprompter.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

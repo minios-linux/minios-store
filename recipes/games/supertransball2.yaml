@@ -1,0 +1,45 @@
+id: "supertransball2"
+name: Super Transball 2
+description: Thrust type of game
+longDescription: |
+  <p>Super Transball 2 is a game which was inspired by ZARA THRUSTA for the Amiga 500. In each level the goal is to find the SPHERE, to capture it and to carry it to the upper part of the level. The main challenge is the gravity that attracts your ship which makes it inevitable to control the ship&apos;s thrust. Many other obstacles like cannons, tanks, doors or lasers will also try to make your journey difficult and don&apos;t be wasteful with your thrusters and weapons or you will run out of fuel in no time.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - supertransball2
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - amiga
+  - arcade
+  - thrust
+  - gravity
+  - ship
+  - space
+  - laser
+iconSources:
+  - url: s/su/supertransball2.desktop/8a9409bf4cadc3856756811608471778/icons/128x128/supertransball2_supertransball2.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

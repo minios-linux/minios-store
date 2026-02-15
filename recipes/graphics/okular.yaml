@@ -1,0 +1,53 @@
+id: "okular"
+name: Okular
+description: Document Viewer
+longDescription: |
+  <p>Okular is a universal document viewer developed by KDE. Okular works on multiple platforms, including but not limited to Linux, Windows, Mac OS X, *BSD, etc.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Supported Formats: PDF, PS, Tiff, CHM, DjVu, Images, DVI, XPS, ODT, Fiction Book, Comic Book, Plucker, EPub, Fax</li>
+    <li>Sidebar with contents, thumbnails, reviews and bookmarks</li>
+    <li>Annotations support</li>
+  </ul>
+  
+categoryId: graphics
+icon: BookOpen
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - okular
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/okular.desktop/ea63615ad6fb8885476f1e26d9efdc44/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/okular.desktop/ea63615ad6fb8885476f1e26d9efdc44/screenshots/image-1_624x440@1.png
+    width: 1115
+    height: 788
+  - url: org/kde/okular.desktop/ea63615ad6fb8885476f1e26d9efdc44/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/okular.desktop/ea63615ad6fb8885476f1e26d9efdc44/screenshots/image-2_624x440@1.png
+    width: 1115
+    height: 788
+iconSources:
+  - url: org/kde/okular.desktop/ea63615ad6fb8885476f1e26d9efdc44/icons/128x128/okular_okular.png
+    width: 128
+    height: 128
+homepage: "https://okular.kde.org/"
+enabled: true
+order: 99

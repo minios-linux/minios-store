@@ -1,0 +1,40 @@
+id: "passes-gtk"
+name: Passes
+description: Import and use your digital passes
+longDescription: |
+  <p>Passes is a tool that allows you to import and use your digital passes, such as boarding passes, coupons, loyalty cards, event tickets, etc.</p>
+  <p>Current features:</p>
+  <ul>
+    <li>Adaptive user interface.</li>
+    <li>Import espass and pkpass files.</li>
+    <li>Display Aztec, CODE128, PDF417 and QR codes.</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - passes-gtk
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: me/sanchezrodriguez/passes.desktop/e5ededa49d34f8f0e7b5de199ea96247/screenshots/image-1_orig.png
+    thumbnailUrl: me/sanchezrodriguez/passes.desktop/e5ededa49d34f8f0e7b5de199ea96247/screenshots/image-1_624x356@1.png
+    width: 1190
+    height: 680
+iconSources:
+  - url: me/sanchezrodriguez/passes.desktop/e5ededa49d34f8f0e7b5de199ea96247/icons/128x128/passes-gtk_me.sanchezrodriguez.passes.png
+    width: 128
+    height: 128
+developer: Pablo Sánchez Rodríguez
+homepage: "https://github.com/pablo-s/passes"
+enabled: true
+order: 99

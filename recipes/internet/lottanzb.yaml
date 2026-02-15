@@ -1,0 +1,23 @@
+id: lottanzb
+name: LottaNZB Usenet Downloader
+description: Download from the Usenet with the help of NZB files
+longDescription: |
+  <p>LottaNZB aims to simplify and automate the download of files from the Usenet. You can tell LottaNZB what to download using NZB files, which are created by many Usenet search engines. LottaNZB integrates nicely with GNOME desktops, but is not limited to them and uses the mature SABnzbd software as its foundation.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lottanzb
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: lottanzb_lottanzb.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

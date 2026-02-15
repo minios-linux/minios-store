@@ -1,0 +1,58 @@
+id: "okteta"
+name: Okteta
+description: Hex editor
+longDescription: |
+  <p>Okteta is a simple editor for the raw data of files.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Values and characters shown either in two columns (the traditional display in hex editors) or in rows with the value
+  on top of the character</li>
+    <li>Editing and navigating similar to a text editor</li>
+    <li>Customizable data views, with loadable and storable profiles</li>
+    <li>Tools dockable on all sides or floating</li>
+    <li>Numerical encodings: Hexadecimal, Decimal, Octal, Binary</li>
+    <li>Character encodings: All 8-bit encodings as supplied by Qt, EBCDIC</li>
+    <li>Fast data rendering on screen</li>
+    <li>Multiple open files</li>
+    <li>Undo/redo support</li>
+    <li>Structures tool for analyzing and editing based on user-creatable structure definitions</li>
+    <li>And more...</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - okteta
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/okteta.desktop/f1c322448fc98f5438306fb6fa05e6fc/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/okteta.desktop/f1c322448fc98f5438306fb6fa05e6fc/screenshots/image-1_624x435@1.png
+    width: 1162
+    height: 811
+iconSources:
+  - url: org/kde/okteta.desktop/f1c322448fc98f5438306fb6fa05e6fc/icons/128x128/okteta_okteta.png
+    width: 128
+    height: 128
+homepage: "https://userbase.kde.org/Okteta/"
+enabled: true
+order: 99

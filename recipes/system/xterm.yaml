@@ -1,0 +1,47 @@
+id: "xterm"
+name: XTerm
+description: standard terminal emulator for the X window system
+longDescription: |
+  <p>xterm is a terminal emulator for the X Window System.  It provides DEC VT102 and Tektronix 4014 compatible terminals for programs that cannot use the window system directly.  This version implements ISO/ANSI colors and most of the control sequences used by DEC VT220 terminals.</p>
+  <p>This package provides four commands: xterm, which is the traditional terminal emulator; uxterm, which is a wrapper around xterm that is intelligent about locale settings (especially those which use the UTF-8 character encoding), but which requires the luit program from the x11-utils package; koi8rxterm, a wrapper similar to uxterm for locales that use the KOI8-R character set; and lxterm, a simple wrapper that chooses which of the previous commands to execute based on the user&apos;s locale settings.</p>
+  <p>A complete list of control sequences supported by the X terminal emulator is provided in /usr/share/doc/xterm.</p>
+  <p>The xterm program uses bitmap images provided by the xbitmaps package.</p>
+  <p>Those interested in using koi8rxterm will likely want to install the xfonts-cyrillic package as well.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xterm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shell
+  - prompt
+  - command
+  - commandline
+  - cmd
+iconSources:
+  - url: d/de/debian-uxterm.desktop/c65daec1df958df68433e9bdca8b872f/icons/128x128/xterm_mini.xterm.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

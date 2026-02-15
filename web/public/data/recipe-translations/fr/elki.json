@@ -1,0 +1,5 @@
+{
+  "name": "ELKI",
+  "description": "Cadre de développement d’algorithmes de fouille de données",
+  "longDescription": "<p>ELKI : « Environment for Developing KDD-Applications Supported by Index-Structures » est un cadre de développement pour les algorithmes de fouille de données écrit en Java. Il comprend une large sélection d’algorithmes populaires de data mining, de fonctions de distances et de structures d’index.</p>\n<p>Il met particulièrement l’accent sur les méthodes de clustering et de détection d’anomalies, contrairement à de nombreux autres outils de data mining qui s’orientent principalement vers la classification. De plus, il offre un support pour diverses structures d’index permettant d’optimiser les performances des algorithmes, comme R*-Tree et M-Tree.</p>\n<p>L’architecture modulaire permet d’ajouter facilement des composants personnalisés tels que de nouvelles fonctions de distance ou des algorithmes, tout en réutilisant les autres parties pour l’évaluation.</p>\n<p>Ce paquet contient la version compilée d’ELKI ainsi que les scripts de lancement.</p>\n"
+}

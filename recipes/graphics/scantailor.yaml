@@ -1,0 +1,28 @@
+id: scantailor
+name: Scan Tailor
+description: Interactive post-processing tool for scanned pages
+longDescription: |
+  <p>Scan Tailor is an interactive post-processing tool for scanned pages. It performs operations such as page splitting, deskewing, adding/removing borders, and others. You give it raw scans, and you get pages ready to be printed or assembled into a PDF or DJVU file. Scanning, optical character recognition, and assembling multi-page documents are out of scope of this project.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - scantailor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - scanning
+  - postprocessing
+iconSources:
+  - cached: scantailor_scantailor.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

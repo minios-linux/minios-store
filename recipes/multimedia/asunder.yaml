@@ -1,0 +1,41 @@
+id: "asunder"
+name: Asunder CD Ripper
+description: "An application to save tracks from an Audio CD as WAV, MP3, OGG, FLAC, and/or Wavpack."
+longDescription: |
+  <p>Asunder is a graphical Audio CD ripper and encoder. It can be used to save tracks from Audio CDs. Main features:</p>
+  <p> * Supports WAV, MP3, Ogg Vorbis, FLAC, and Wavpack audio files  * Uses CDDB to name and tag each track  * Can encode to multiple formats in one session  * Creates M3U playlists  * Allows for each track to be by a different artist  * Does not require a specific desktop environment (just GTK+)</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - asunder
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - cd
+  - extraction
+  - ripper
+  - mp3
+iconSources:
+  - url: a/as/asunder.desktop/2be9f0cf98bd92a15568fb7eed1bea9c/icons/128x128/asunder_asunder.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

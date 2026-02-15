@@ -1,0 +1,42 @@
+id: kgx
+name: King’s Cross
+description: Terminal Emulator
+longDescription: |
+  <p>
+        A simple user-friendly terminal emulator for the GNOME desktop.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kgx
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+tags:
+  - command
+  - prompt
+  - cmd
+  - commandline
+  - run
+  - shell
+  - terminal
+  - kgx
+  - kings cross
+screenshotSources:
+  - url: org/gnome/zbrown.KingsCross/f6343784ef5dbe6699cc79aa212c875d/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/zbrown.KingsCross/f6343784ef5dbe6699cc79aa212c875d/screenshots/image-1_624x387.png
+    width: 800
+    height: 497
+iconSources:
+  - url: org/gnome/zbrown.KingsCross/f6343784ef5dbe6699cc79aa212c875d/icons/128x128/kgx_org.gnome.zbrown.KingsCross.png
+    width: 128
+    height: 128
+developer: Zander Brown
+homepage: "https://gitlab.gnome.org/ZanderBrown/kgx/"
+enabled: true
+order: 99

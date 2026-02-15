@@ -1,0 +1,5 @@
+{
+  "name": "Btrfs Assistant",
+  "description": "GUI-Verwaltungstool zur einfachen Verwaltung von Btrfs-Dateisystemen",
+  "longDescription": "<p>\n      Btrfs Assistant ist ein grafisches Verwaltungstool, das die Handhabung von Btrfs-Dateisystemen deutlich vereinfacht.\n    </p>\n<p>Die wichtigsten Funktionen im Überblick:</p>\n<ul>\n  <li>Übersichtliche Darstellung der Btrfs-Metadaten</li>\n  <li>Einfache Ansicht von Untervolumes – mit oder ohne Snapper/Timeshift-Snapshots</li>\n  <li>Durchführung und Überwachung von Scrub- und Balance-Vorgängen</li>\n  <li>Entfernen von Untervolumes per Knopfdruck</li>\n  <li>Verwaltungsoberfläche für Snapper mit erweiterten Wiederherstellungsfunktionen</li>\n  <li>Frontend für Btrfs Maintenance</li>\n</ul>\n"
+}

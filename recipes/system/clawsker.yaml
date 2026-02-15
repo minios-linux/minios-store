@@ -1,0 +1,37 @@
+id: clawsker
+name: Clawsker
+description: A Claws Mail tweaker
+longDescription: |
+  <p>Clawsker is an applet to edit the so called Claws Mail hidden preferences.</p>
+  <p>Claws Mail is a fast, lightweight and feature-rich MUA with a high number of configurable options. To keep the binary small and fast some of these preferences which not widely used are not provided with a graphical interface for inspection and/or modification.</p>
+  <p>Users wanting to edit such preferences had to face raw edition of their configuration files, now you can do it with a convenient GTK+2 interface using Clawsker.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - clawsker
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+tags:
+  - hidden
+  - preferences
+  - configuration
+iconSources:
+  - url: c/cl/clawsker.desktop/1069D6BC4A1723FC30C0AB9FDA533EF7/icons/128x128/clawsker_clawsker.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

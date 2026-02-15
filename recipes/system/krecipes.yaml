@@ -1,0 +1,23 @@
+id: krecipes
+name: Krecipes
+description: The KDE Cooking Book
+longDescription: |
+  <p>Krecipes is a KDE application designed to manage recipes. It can help you to do your shopping list, search through your recipes to find what you can do with available ingredients and a diet helper. It can also import or export recipes from files in various format (eg RecipeML or Meal-Master) or from databases.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - krecipes
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - url: k/kr/krecipes.desktop/32E15FAF484F403FE28DEECB34EDE2E5/icons/128x128/krecipes_krecipes.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

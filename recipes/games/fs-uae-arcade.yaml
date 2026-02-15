@@ -1,0 +1,38 @@
+id: "fs-uae-arcade"
+name: FS-UAE Arcade
+description: Full-screen game browser for FS-UAE
+longDescription: |
+  <p>FS-UAE is a cross-platform Amiga emulator based on updated emulation code from WinUAE. FS-UAE uses SDL for input, OpenAL for audio and OpenGL for graphics.</p>
+  <p>This package contains FS-UAE Arcade, a fullscreen game browser for couch potatoes.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fs-uae-arcade
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: f/fs/fs-uae-arcade.desktop/038ad7c450cb144cf6787734f6bf89d1/icons/128x128/fs-uae-arcade_fs-uae-arcade.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

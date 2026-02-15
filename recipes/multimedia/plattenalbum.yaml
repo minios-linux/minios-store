@@ -1,0 +1,53 @@
+id: plattenalbum
+name: Plattenalbum
+description: Connect to your music
+longDescription: |
+  <p>A client for the Music Player Daemon (MPD).</p>
+  <p>Browse your collection while viewing large album covers. Play your music without managing playlists.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plattenalbum
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - player
+screenshotSources:
+  - url: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-1_orig.png
+    thumbnailUrl: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-1_624x485@1.png
+    width: 992
+    height: 772
+  - url: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-2_orig.png
+    thumbnailUrl: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-2_624x485@1.png
+    width: 992
+    height: 772
+  - url: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-3_orig.png
+    thumbnailUrl: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-3_624x485@1.png
+    width: 992
+    height: 772
+  - url: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-4_orig.png
+    thumbnailUrl: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-4_224x193@1.png
+    width: 482
+    height: 416
+  - url: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-5_orig.png
+    thumbnailUrl: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-5_224x193@1.png
+    width: 482
+    height: 416
+  - url: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-6_orig.png
+    thumbnailUrl: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/screenshots/image-6_224x391@1.png
+    width: 482
+    height: 842
+iconSources:
+  - url: de/wagnermartin/Plattenalbum/0c1d6f865b894cf0b8cead659059a5ce/icons/128x128/plattenalbum_de.wagnermartin.Plattenalbum.png
+    width: 128
+    height: 128
+homepage: "https://github.com/SoongNoonien/plattenalbum"
+enabled: true
+order: 99

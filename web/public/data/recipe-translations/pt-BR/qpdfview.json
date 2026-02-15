@@ -1,0 +1,5 @@
+{
+  "name": "qpdfview",
+  "description": "visualizador de documentos com abas",
+  "longDescription": "<p>O qpdfview é um visualizador de documentos simples com suporte a abas, utilizando a biblioteca Poppler para renderização de PDF, CUPS para impressão e oferece uma interface gráfica clara e objetiva baseada em Qt. O suporte aos formatos DjVu e PostScript pode ser adicionado através de plugins.</p>\n<p>Os principais recursos incluem:</p>\n<ul>\n  <li>Painéis de sumário, propriedades e miniaturas</li>\n  <li>Opções de escala, rotação e ajuste</li>\n  <li>Modos de tela cheia e apresentação</li>\n  <li>Layouts contínuo e multipágina</li>\n  <li>Configurações persistentes por arquivo</li>\n  <li>Atalhos de teclado configuráveis</li>\n  <li>Barras de ferramentas personalizáveis</li>\n  <li>Suporte a documentos DjVu e PostScript via plugins</li>\n  <li>Busca de texto (apenas PDF e DjVu)</li>\n  <li>Compatibilidade com SyncTeX (somente PDF)</li>\n  <li>Suporte parcial a anotações (somente PDF, Poppler versão 0.20.1 ou superior)</li>\n  <li>Suporte parcial a formulários (somente PDF)</li>\n</ul>\n"
+}

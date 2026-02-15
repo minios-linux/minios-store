@@ -1,0 +1,49 @@
+id: "freeciv-ruleset-tools"
+name: Freeciv ruleset editor
+description: Ruleset editor for the Freeciv game
+longDescription: |
+  <p>
+              Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization.
+  The game commences in prehistory and your
+              mission is to lead your tribe from the Stone Age to the Space Age...
+          </p>
+  <p>
+              Freeciv Ruleset Editor can be used to create your own game rules, or the change existing ones
+          </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freeciv-ruleset-tools
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - strategy
+  - simulation
+  - civilization
+  - tiles
+  - history
+  - mankind
+  - multiplayer
+  - editor
+screenshotSources:
+  - url: org/freeciv/ruledit/e6086aa6b5cec18d88fd99895c655e46/screenshots/image-1_orig.png
+    thumbnailUrl: org/freeciv/ruledit/e6086aa6b5cec18d88fd99895c655e46/screenshots/image-1_624x610@1.png
+    width: 719
+    height: 704
+iconSources:
+  - url: org/freeciv/ruledit/e6086aa6b5cec18d88fd99895c655e46/icons/128x128/freeciv-ruleset-tools_freeciv-ruledit.png
+    width: 128
+    height: 128
+homepage: "https://www.freeciv.org/"
+enabled: true
+order: 99

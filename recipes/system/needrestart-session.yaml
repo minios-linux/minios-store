@@ -1,0 +1,43 @@
+id: needrestart-session
+name: needrestart-session
+description: Check for processes in the current user session need to be restarted after upgrades.
+longDescription: |
+  <p>needrestart checks which processes need to be restarted after library upgrades. needrestart-session implements a notification of user sessions about their obsolete processes after system upgrades.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - needrestart-session
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - system
+  - upgrades
+  - packages
+  - session
+  - security
+iconSources:
+  - cached: needrestart-session_needrestart.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

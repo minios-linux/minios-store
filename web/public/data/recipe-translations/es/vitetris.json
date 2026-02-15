@@ -1,0 +1,5 @@
+{
+  "name": "vitetris",
+  "description": "Juego de Tetris para terminal",
+  "longDescription": "<p>Vitetris es un juego de Tetris para la terminal. Puede jugarse en modo individual o para dos jugadores, ya sea en red o compartiendo el mismo teclado.</p>\n<p>Vitetris ofrece más funciones y opciones de las que se esperaría en un simple juego en modo texto. Permite control total de entradas, personalización de la apariencia, juego en red donde ambos jugadores pueden elegir la dificultad (nivel y altura). A menos que sea imprescindible el sonido (o simplemente no te guste Tetris), Vitetris no te decepcionará.</p>\n<p>La rotación, el sistema de puntos, los niveles y la velocidad buscan parecerse a los primeros Tetris de Nintendo, añadiendo un pequeño retardo en el bloqueo de piezas, lo que permite jugar a niveles más altos. (Esto no permite evitar el bloqueo de piezas abusando de la función de retardo.)</p>\n"
+}

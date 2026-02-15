@@ -1,0 +1,47 @@
+id: "tetzle"
+name: Tetzle
+description: Jigsaw puzzle with tetromino pieces
+longDescription: |
+  <p>Tetzle is a jigsaw puzzle game that uses tetrominoes for the pieces. Any image can be imported and used to create puzzles with a wide range of sizes. Games are saved automatically, and you can select between currently in progress games.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tetzle
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - logic
+screenshotSources:
+  - url: t/te/tetzle.desktop/c5210735743799257e39ed7bdc6b849a/screenshots/image-1_orig.png
+    thumbnailUrl: t/te/tetzle.desktop/c5210735743799257e39ed7bdc6b849a/screenshots/image-1_624x351@1.png
+    width: 1280
+    height: 720
+iconSources:
+  - url: t/te/tetzle.desktop/c5210735743799257e39ed7bdc6b849a/icons/128x128/tetzle_tetzle.png
+    width: 128
+    height: 128
+developer: Graeme Gott
+homepage: "https://gottcode.org/tetzle/"
+enabled: true
+order: 99

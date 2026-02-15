@@ -1,0 +1,5 @@
+{
+  "name": "GMastermind",
+  "description": "Implémentation GNUstep du jeu Mastermind",
+  "longDescription": "<p>Faites glisser-déposer les couleurs depuis la palette ou depuis le plateau lui-même. Le but est de découvrir la combinaison cachée de quatre couleurs. Le jeu propose deux modes : avec remise, où les couleurs peuvent se répéter, et sans remise, où chaque couleur est unique. L'utilisateur choisit une combinaison de quatre couleurs et la « valide ». Le programme indique alors une évaluation : un pion noir pour chaque couleur bien placée et un pion blanc pour chaque couleur correcte mais mal placée. Vous disposez de huit tentatives au total.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "ranger",
+  "description": "Avvia il file manager ranger",
+  "longDescription": "<p>Ranger è un file manager da console con comandi ispirati a VI. Offre un'interfaccia minimalista e intuitiva basata su curses, che permette una visione gerarchica delle directory. Include \"rifle\", un launcher di file in grado di individuare automaticamente il programma più adatto per ogni tipo di file.</p>\n<p>Obiettivi del progetto  * Un file manager facilmente manutenibile scritto in un linguaggio di alto livello  * Un metodo rapido per cambiare directory e navigare il filesystem  * Essenziale ma completo: fa bene una cosa sola  * Basato su console, con integrazione fluida nella shell Unix</p>\n"
+}

@@ -1,0 +1,44 @@
+id: "kdesvn"
+name: kdesvn
+description: A Subversion client for KDE
+longDescription: |
+  <p>KDESvn is a graphical client for the Subversion revision control system (svn).</p>
+  <p>Besides offering common and advanced svn operations, it features a tight integration into KDE and can be embedded into other KDE applications like Konqueror via the KDE component technology KParts.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kdesvn
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kdesvn.desktop/88f72dc8583b4749adef35369ef73078/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kdesvn.desktop/88f72dc8583b4749adef35369ef73078/screenshots/image-1_624x393.png
+    width: 1116
+    height: 704
+iconSources:
+  - url: org/kde/kdesvn.desktop/88f72dc8583b4749adef35369ef73078/icons/128x128/kdesvn_kdesvn.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org"
+enabled: true
+order: 99

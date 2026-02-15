@@ -1,0 +1,5 @@
+{
+  "name": "GAdmin-Rsync",
+  "description": "Interface graphique conviviale pour rsync",
+  "longDescription": "<p>GAdmin-Rsync est une interface graphique simple d'utilisation basée sur GTK+ pour le serveur rsync.</p>\n<p>Fonctionnalités :<br>- Ensembles de sauvegardes multiples programmables à des heures définies via cron.<br>- Chaque ensemble de sauvegarde peut contenir plusieurs opérations de sauvegarde de données locales ou distantes.<br>- Les ensembles de sauvegardes lancés via des tâches planifiées (cron) génèrent des fichiers journaux pour chaque opération incluse.<br>- Les fichiers journaux reprennent le nom de chaque ensemble de sauvegarde.<br>- Il est possible d'exécuter manuellement un ensemble de sauvegarde et de suivre sa progression dans l'onglet dédié.<br>- Les sauvegardes distantes sont entièrement automatiques, différentielles et chiffrées.<br>- Des clés sont générées pour chaque hôte, téléchargées puis installées à distance par ssh-keygen/scp et ssh.<br>- Permet de planifier facilement des synchronisations distantes.</p>\n"
+}

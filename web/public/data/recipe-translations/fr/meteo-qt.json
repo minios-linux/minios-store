@@ -1,0 +1,5 @@
+{
+  "name": "Meteo-qt",
+  "description": "Une application Qt pour la météo dans la zone de notification système",
+  "longDescription": "<p>Meteo-qt permet d’afficher des informations météo dans les panneaux du bureau, via des notifications ou dans sa propre fenêtre.</p>\n<p>Les données météo proviennent d’OpenWeatherMap (http://openweathermap.org/). L’application repose sur Python 3 et Qt 5.</p>\n"
+}

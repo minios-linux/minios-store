@@ -1,0 +1,5 @@
+{
+  "name": "FAUmachine",
+  "description": "execute a máquina virtual FAUmachine",
+  "longDescription": "<p>FAUmachine é uma máquina virtual capaz de simular hardware de PC, semelhante ao QEMU. Seu principal objetivo é reproduzir o comportamento do hardware real com o máximo de precisão possível.</p>\n<p>FAUmachine permite a injeção de falhas em diferentes simuladores de hardware, por exemplo, inserir falhas intermitentes ou transitórias no disco ou na memória simulados.</p>\n<p>FAUmachine também inclui um controlador de experimentos, permitindo a execução automatizada de testes, como a instalação de um sistema operacional a partir de uma imagem ISO.</p>\n"
+}

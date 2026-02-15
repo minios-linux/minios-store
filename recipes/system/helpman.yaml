@@ -1,0 +1,74 @@
+id: helpman
+name: Helpman
+description: Quick and Easy access to 4000+ manuals / guides / tutorials
+longDescription: |
+  <p>Helpman provides a classified access to the manuals, installed by user/system 
+        programs, automatically. It also supports typing a program / manual name, in 
+        the Select Manual: text / combo box directly, to display it quickly. Error
+        Messages will be shown below, if a manual is not found.</p>
+  <p>The Manual Type list box, shows sections 1 to 8, useful for specific display
+        of  a version of the manual. Say for example, if you see, CRON(8) in a manual,
+        it means the CRON manual in the 8th section. So users should choose
+        appropriately.</p>
+  <p>Please click the info button for more details.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Classified and Automatic Updation of New Manuals</li>
+    <li>GUI Display of Manuals makes back and forth navigation easier</li>
+    <li>It also makes copying text easier</li>
+    <li>Direct Searching of Manuals is possible too</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - helpman
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - manuals
+  - guides
+  - tutorials
+screenshotSources:
+  - url: org/gnome/helpman.desktop/E029A90FB3994FF56C4DC7C8D99361C9/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/helpman.desktop/E029A90FB3994FF56C4DC7C8D99361C9/screenshots/image-1_624x504.png
+    width: 742
+    height: 600
+  - url: org/gnome/helpman.desktop/E029A90FB3994FF56C4DC7C8D99361C9/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/helpman.desktop/E029A90FB3994FF56C4DC7C8D99361C9/screenshots/image-2_624x504.png
+    width: 742
+    height: 600
+  - url: org/gnome/helpman.desktop/E029A90FB3994FF56C4DC7C8D99361C9/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/helpman.desktop/E029A90FB3994FF56C4DC7C8D99361C9/screenshots/image-3_624x504.png
+    width: 742
+    height: 600
+  - url: org/gnome/helpman.desktop/E029A90FB3994FF56C4DC7C8D99361C9/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/helpman.desktop/E029A90FB3994FF56C4DC7C8D99361C9/screenshots/image-4_224x269.png
+    width: 424
+    height: 511
+iconSources:
+  - cached: helpman_helpman.png
+    width: 64
+    height: 64
+homepage: "https://git.fosscommunity.in/SRNathan/Helpman"
+enabled: true
+order: 99

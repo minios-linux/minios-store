@@ -1,0 +1,5 @@
+{
+  "name": "FlameRobin",
+  "description": "Ferramenta de administração para Firebird DBMS",
+  "longDescription": "<p>FlameRobin é uma ferramenta gráfica para administração do sistema de gerenciamento de banco de dados Firebird.</p><p>Seus objetivos são:   - ser leve (baixo consumo de recursos, execução rápida)   - multiplataforma (Linux, Windows inicialmente, com planos para outros sistemas)   - depender apenas de outros softwares de código aberto</p><p>É necessário configurar o servidor Firebird em uma máquina local ou remota antes de usar o FlameRobin. Consulte o pacote firebird3.0-server.</p>\n"
+}

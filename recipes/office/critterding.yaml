@@ -1,0 +1,31 @@
+id: critterding
+name: Critterding
+description: Petri dish universe in 3D that demonstrates evolving artificial life
+longDescription: |
+  <p>Critterding is a &quot;Petri dish&quot; universe in 3D that demonstrates evolving artificial life. Critters start out with completely random brains and bodies, but will automatically start evolving into something with much better survival skills.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - critterding
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: critterding_critterding.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

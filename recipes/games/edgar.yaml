@@ -1,0 +1,37 @@
+id: "edgar"
+name: The Legend of Edgar
+description: A 2D platform game with a persistent world
+longDescription: |
+  <p>The Legend of Edgar is a platform game where the hero must explore a vast world, find items, solve puzzles, defeat powerful enemies, complete mini-quests in order to save his father who has been kidnapped.</p>
+  <p>Includes support for joystick or joypad and configurable keyboard support.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - edgar
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - action
+  - adventure
+  - platformer
+iconSources:
+  - url: e/ed/edgar.desktop/f8f398f20a1ca4c57a5a3f0e83a78a59/icons/128x128/edgar_edgar.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

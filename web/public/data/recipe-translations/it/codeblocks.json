@@ -1,0 +1,5 @@
+{
+  "name": "Code::Blocks IDE",
+  "description": "IDE configurabile ed estensibile",
+  "longDescription": "<p>Code::Blocks è un ambiente di sviluppo integrato (IDE) multipiattaforma. Si basa su un framework di plugin sviluppato internamente che permette un'estendibilità illimitata. La maggior parte delle funzionalità sono già fornite tramite plugin. I plugin inclusi nel pacchetto base sono:    * Interfaccia per compilatori liberi    * Debugger integrato per GDB    * Formattatore di codice sorgente (basato su AStyle)    * Wizard per la creazione di nuove classi C++    * Completamento del codice / browser di simboli (in sviluppo)    * Gestione predefinita dei file MIME    * Wizard per creare nuovi plugin per Code::Blocks    * Lista delle cose da fare (to-do list)    * Wizard estendibile basato su script    * Salvataggio automatico (per salvare il lavoro in caso di crash)</p>\n"
+}

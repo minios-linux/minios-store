@@ -1,0 +1,5 @@
+{
+  "name": "Software Token",
+  "description": "Token perangkat lunak kompatibel RSA SecurID",
+  "longDescription": "<p>stoken adalah token perangkat lunak yang menghasilkan kata sandi sekali pakai (OTP) yang kompatibel dengan token RSA SecurID 128-bit (AES). Token SecurID umumnya digunakan untuk mengautentikasi pengguna akhir ke sumber daya jaringan dan VPN yang dilindungi, karena OTP memberikan perlindungan lebih terhadap berbagai serangan yang sering terjadi pada kata sandi statis.</p>\n<p>stoken bertujuan menyediakan alternatif perangkat lunak bebas ramah Linux untuk RSA SecurID Software Authenticators yang bersifat proprietary.</p>\n<p>Paket ini berisi program mandiri berbasis antarmuka baris perintah dan GTK+ GUI yang memungkinkan impor token seed, pembuatan token code, serta berbagai fungsi utilitas/pengujian.</p>\n"
+}

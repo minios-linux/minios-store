@@ -1,0 +1,43 @@
+id: "visualvm"
+name: VisualVM
+description: All-in-One Java Troubleshooting Tool
+longDescription: |
+  <p>VisualVM is a visual tool integrating several commandline JDK tools and lightweight profiling capabilities. Designed for both production and development time use, it further enhances the capability of monitoring and performance analysis for the Java SE platform.</p>
+  <p>VisualVM is designed for  - Application Developers: Monitor, profile, take thread dumps,    browse heap dumps.  - System Administrators: Monitor and control Java applications    across the entire network.  - Java Application Users: Create bug reports containing all the    necessary information.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - visualvm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - java
+  - jvm
+  - profiler
+  - monitoring
+iconSources:
+  - url: v/vi/visualvm.desktop/a5f34924e0573134bc59c1319f51fdc8/icons/128x128/visualvm_visualvm.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

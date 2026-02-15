@@ -1,0 +1,38 @@
+id: "sludge-engine"
+name: SLUDGE Engine
+description: Play SLUDGE games
+longDescription: |
+  <p>SLUDGE is an open source adventure game engine. It combines a scripting language with IDE tools.</p>
+  <p>This package contains the runtime engine needed to run the games. Freeware SLUDGE games include &quot;Out Of Order&quot;, &quot;Cubert Badbone, P.I.&quot; and &quot;The Game That Takes Place on a Cruise Ship&quot;.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sludge-engine
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/sl/sludge-engine.desktop/adc17fdcde96d48825864a1483e482b1/icons/128x128/sludge-engine_sludge-engine.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,33 @@
+id: yambar
+name: Yambar
+description: "Configurable statusbar to show time, battery capacity and much more"
+longDescription: |
+  <p>yambar is a lightweight and configurable status panel (bar, for short) for X11 and Wayland, that goes to great lengths to be both CPU and battery efficient - polling is only done when absolutely necessary.</p>
+  <p>It has a number of modules that provide information in the form of tags. For example, the clock module has a date tag that contains the current date.</p>
+  <p>The modules do not know how to present the information though. This is instead done by particles. And the user, you, decides which particles (and thus how to present the data) to use.</p>
+  <p>Furthermore, each particle can have a decoration - a background color or a graphical underline, for example.</p>
+  <p>There is no support for images or icons. use an icon font (e.g. Font Awesome, or Material Icons) if you want a graphical representation.</p>
+  <p>There are a number of modules and particles builtin. More can be added as plugins. You can even write your own!</p>
+  <p>To summarize: a bar displays information provided by modules, using particles and decorations. How is configured by you.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yambar
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: y/ya/yambar.desktop/63f9537d0cac3d46d5ee065d0ec7ef0f/icons/128x128/yambar_panel.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

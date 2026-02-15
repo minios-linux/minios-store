@@ -1,0 +1,5 @@
+{
+  "name": "LinSSID",
+  "description": "Lokale WLAN-Zugangspunkte finden",
+  "longDescription": "<p>LinSSID ist ein grafisches Programm, das lokal empfangbare 802.11-WLAN-Zugangspunkte und Ad-hoc-Netzwerke anzeigt.</p>\n<p>Es wird eine Tabelle mit verschiedenen Parametern wie MAC-Adresse, Kanal und Signalstärke dargestellt. Zusätzlich zeigen Diagramme die Signalstärke nach Kanal sowie den zeitlichen Signalverlauf.</p>\n<p>LinSSID ist in Optik und Funktionsumfang ähnlich zu inSSIDer (für Microsoft Windows) und Wifi Analyzer (für Android).</p>\n<p>Mit LinSSID lässt sich die lokale WLAN-Leistung messen oder ein störungsfreier Kanal für den WLAN-Router (Access Point, AP) finden. Die bestehende WLAN-Verbindung wird durch diese Vorgänge nicht beeinträchtigt, da LinSSID keinen Monitor-Modus auf dem Netzwerkinterface setzen muss.</p>\n<p>Funktionen im Überblick:</p>\n<p>  - Tabelle empfangbarer Zugangspunkte mit vielen anpassbaren und sortierbaren Spalten.   - Einstellbare Geschwindigkeit, Echtzeitaktualisierung.   - Diagramme der Signalstärke pro Kanal und im Zeitverlauf.   - Angezeigte AP-Bandbreite.   - Unterstützt 2,4 GHz- und 5 GHz-Kanäle.</p>\n"
+}

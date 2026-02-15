@@ -1,0 +1,55 @@
+id: "metadata-cleaner"
+name: Metadata Cleaner
+description: View and clean metadata in files
+longDescription: |
+  <p>Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office applications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations.</p>
+  <p>This tool allows you to view metadata in your files and to get rid of them, as much as possible.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - metadata-cleaner
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - metadata
+  - remover
+  - cleaner
+screenshotSources:
+  - url: fr/romainvigier/MetadataCleaner/bd177553be05f48e82abd2c814e5fe45/screenshots/image-1_orig.png
+    thumbnailUrl: fr/romainvigier/MetadataCleaner/bd177553be05f48e82abd2c814e5fe45/screenshots/image-1_224x309.png
+    width: 522
+    height: 722
+  - url: fr/romainvigier/MetadataCleaner/bd177553be05f48e82abd2c814e5fe45/screenshots/image-2_orig.png
+    thumbnailUrl: fr/romainvigier/MetadataCleaner/bd177553be05f48e82abd2c814e5fe45/screenshots/image-2_224x309.png
+    width: 522
+    height: 722
+  - url: fr/romainvigier/MetadataCleaner/bd177553be05f48e82abd2c814e5fe45/screenshots/image-3_orig.png
+    thumbnailUrl: fr/romainvigier/MetadataCleaner/bd177553be05f48e82abd2c814e5fe45/screenshots/image-3_624x488.png
+    width: 922
+    height: 722
+  - url: fr/romainvigier/MetadataCleaner/bd177553be05f48e82abd2c814e5fe45/screenshots/image-4_orig.png
+    thumbnailUrl: fr/romainvigier/MetadataCleaner/bd177553be05f48e82abd2c814e5fe45/screenshots/image-4_224x309.png
+    width: 522
+    height: 722
+iconSources:
+  - url: fr/romainvigier/MetadataCleaner/bd177553be05f48e82abd2c814e5fe45/icons/128x128/metadata-cleaner_fr.romainvigier.MetadataCleaner.png
+    width: 128
+    height: 128
+developer: Romain Vigier
+homepage: "https://gitlab.com/rmnvgr/metadata-cleaner"
+enabled: true
+order: 99

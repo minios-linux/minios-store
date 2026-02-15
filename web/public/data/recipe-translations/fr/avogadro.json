@@ -1,0 +1,5 @@
+{
+  "name": "Avogadro",
+  "description": "Système de modélisation et de visualisation moléculaire",
+  "longDescription": "<p>Avogadro est un système de modélisation et de visualisation moléculaire conçu pour les molécules et biomolécules. Il permet de visualiser des propriétés telles que les orbitales moléculaires ou les potentiels électrostatiques, et offre un éditeur moléculaire intuitif.</p>\n<p>Fonctionnalités principales :  * Modélisation moléculaire avec optimisation automatique de la géométrie basée sur les champs de force  * Mécanique moléculaire incluant contraintes et recherche de conformères  * Visualisation des orbitales moléculaires et des isosurfaces générales  * Visualisation des vibrations et tracé des spectres vibrationnels  * Prise en charge des cellules unitaires cristallographiques  * Génération d’entrées pour les logiciels de chimie quantique Gaussian, GAMESS et MOLPRO  * Architecture flexible de plugins et scripts Python</p>\n<p>Avogadro prend en charge de nombreux formats de fichiers, dont PDB, XYZ, CML, CIF, Molden, ainsi que les sorties Gaussian, GAMESS et MOLPRO.</p>\n"
+}

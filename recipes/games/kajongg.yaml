@@ -1,0 +1,47 @@
+id: "kajongg"
+name: Kajongg
+description: Mah Jongg
+longDescription: |
+  <p>Kajongg is the ancient Chinese board game for 4 players.
+        Kajongg can be used in two different ways: Scoring a manual game where you play as always and use Kajongg for the
+        computation of scores and for bookkeeping. Or you can use Kajongg to play against any combination of other human
+  players
+        or computer players.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kajongg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kajongg/b4ce20f75ff1727af0e40c5eff91e7c0/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kajongg/b4ce20f75ff1727af0e40c5eff91e7c0/screenshots/image-1_624x430@1.png
+    width: 717
+    height: 495
+iconSources:
+  - url: org/kde/kajongg/b4ce20f75ff1727af0e40c5eff91e7c0/icons/128x128/kajongg_kajongg.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kajongg"
+enabled: true
+order: 99

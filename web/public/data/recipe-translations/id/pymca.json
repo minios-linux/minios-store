@@ -1,0 +1,5 @@
+{
+  "name": "PyMca",
+  "description": "Analisis data Fluoresensi Sinar-X",
+  "longDescription": "<p>PyMca adalah seperangkat aplikasi dan pustaka Python untuk analisis spektra fluoresensi sinar-X.</p>\n<p>Aplikasi yang disertakan dalam paket ini meliputi:</p>\n<p> * edfviewer - Menampilkan dan memeriksa berkas data dalam format ESRF Data Format  * elementsinfo - Menampilkan data sinar-X spesifik unsur  * mca2edf - Mengonversi berkas dari format SPEC MCA ke EDF  * peakidentifier - Menampilkan puncak fluoresensi sinar-X dalam rentang energi tertentu  * pymcabatch - Fitting spektra secara batch  * pymcapostbatch - Pemrosesan lanjutan hasil fitting batch  * pymca - Analisis data interaktif  * pymcaroitool - Alat pencitraan region of interest (ROI)</p>\n<p>Toolkit PyMca dapat membaca berkas data dalam format SPEC, ESRF Data File (EDF), OMNIC, HDF5, AIFIRA, dan SupaVisio.</p>\n<p>Ini adalah skrip-skrip dari paket tersebut.</p>\n"
+}

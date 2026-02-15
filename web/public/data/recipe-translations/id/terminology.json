@@ -1,0 +1,5 @@
+{
+  "name": "Terminology",
+  "description": "Emulator terminal",
+  "longDescription": "<p>Terminology meniru terminal vt100 dengan beberapa penambahan fitur dan tampilan menarik:  * Mendukung sebagian besar escape yang digunakan oleh xterm, rxvt, Xterm 256 color, dan lain-lain  * Efek latar belakang, transparansi, font bitmap dan font vektor didukung  * Mendukung tema untuk tata letak dan desain, serta visual bell  * Deteksi URL, jalur file, dan alamat email secara otomatis dengan kemampuan penanganan tautan  * Menampilkan konten tautan secara langsung di dalam terminal  * Mendukung seleksi salin-tempel ganda dan buffer clipboard  * Berjalan di X11, Wayland, dan langsung di framebuffer Linux (fbcon)  * Mendukung kontrol sentuh/jari, skala tampilan sesuai ukuran UI  * Merender menggunakan OpenGL, OpenGL-ES2, atau mode perangkat lunak  * Bisa menampilkan multimedia terintegrasi, tab ganda, serta membagi menjadi beberapa panel terminal  * Seleksi teks berbentuk blok, serta drag and drop untuk teks dan tautan  * Mendukung streaming media dari URL  * Pengalih tab dengan pratinjau langsung  * Mendukung multi-jendela/terminal dalam satu proses</p>\n"
+}

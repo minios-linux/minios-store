@@ -1,0 +1,5 @@
+{
+  "name": "Accelerazione 3D",
+  "description": "Modifica le opzioni di accelerazione 3D",
+  "longDescription": "<p>Driconf è un'applicazione di configurazione per la Direct Rendering Infrastructure (DRI). Permette di personalizzare le impostazioni di prestazioni e qualità visiva dei driver OpenGL a livello di driver, schermo e/o applicazione.</p>\n<p>Driconf è sviluppato in Python. Utilizza le librerie GTK+ e il programma xdriinfo (presente nei pacchetti xdriinfo o xbase-clients) per recuperare le informazioni di configurazione dai driver OpenGL.</p>\n"
+}

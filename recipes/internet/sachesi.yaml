@@ -1,0 +1,36 @@
+id: "sachesi"
+name: Sachesi
+description: BlackBerry 10 device utility
+longDescription: |
+  <p>Sachesi installs applications and firmware on BlackBerry 10 devices. It can also back up, restore, and wipe data.</p>
+  <p>Sachesi mimics communications performed by official BlackBerry tools. None of its activities require development mode.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sachesi
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - firmware
+  - blackberry
+  - flashing
+iconSources:
+  - url: s/sa/sachesi.desktop/f9323949ba3ad8761b9891196bf10291/icons/128x128/sachesi_sachesi.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

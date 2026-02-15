@@ -1,0 +1,36 @@
+id: "wireshark-qt"
+name: Wireshark
+description: Network traffic analyzer
+longDescription: |
+  <p>Wireshark is a network &quot;sniffer&quot; - a tool that captures and analyzes packets off the wire. Wireshark can decode too many protocols to list here.</p>
+  <p>This package provides the Qt version of Wireshark.</p>
+  
+categoryId: internet
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wireshark-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: org/wireshark/Wireshark/0ce6a36f54ca56055742164545c38089/icons/128x128/wireshark-qt_org.wireshark.Wireshark.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

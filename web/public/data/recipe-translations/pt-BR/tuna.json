@@ -1,0 +1,5 @@
+{
+  "name": "tuna",
+  "description": "Gerenciamento de atributos de threads e IRQs",
+  "longDescription": "<p>Fornece uma interface para alterar parâmetros do escalonador e de IRQs, tanto para toda a CPU quanto por thread/IRQ individualmente. Permite isolar CPUs para uso específico de uma aplicação e mover threads e interrupções para um processador apenas arrastando e soltando. As operações podem ser realizadas em sockets de CPU, compreendendo a topologia do processador.</p>\n<p>Pode ser utilizado como utilitário de linha de comando sem necessidade das bibliotecas da interface gráfica.</p>\n"
+}

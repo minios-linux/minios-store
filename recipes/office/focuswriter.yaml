@@ -1,0 +1,56 @@
+id: "focuswriter"
+name: FocusWriter
+description: Fullscreen word processor
+longDescription: |
+  <p>FocusWriter is a simple, distraction-free word processor. It utilizes a hide-away interface that you access by moving your mouse to the edges of the screen, allowing the program to have a familiar look and feel to it while still getting out of the way so that you can immerse yourself in your work.</p>
+  <p>FocusWriter allows you to customize your environment by creating themes that control the font, colors, and background image to add ambiance. It also features on-the-fly updating statistics, daily goals, multiple open documents, spell-checking, and much more.</p>
+  <p>Additionally, when you open the program your current work in progress will automatically load and position you where you last left off so that you can immediately jump back in.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - focuswriter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - fullscreen
+  - editor
+  - typewriter
+  - keyclick
+  - distraction
+  - concentration
+  - focused
+  - monomaniacal
+  - writing
+screenshotSources:
+  - url: f/fo/focuswriter.desktop/10c1550a18e3f044aecb43e98f14d887/screenshots/image-1_orig.png
+    thumbnailUrl: f/fo/focuswriter.desktop/10c1550a18e3f044aecb43e98f14d887/screenshots/image-1_624x351@1.png
+    width: 1280
+    height: 720
+iconSources:
+  - url: f/fo/focuswriter.desktop/10c1550a18e3f044aecb43e98f14d887/icons/128x128/focuswriter_focuswriter.png
+    width: 128
+    height: 128
+developer: Graeme Gott
+homepage: "https://gottcode.org/focuswriter/"
+enabled: true
+order: 99

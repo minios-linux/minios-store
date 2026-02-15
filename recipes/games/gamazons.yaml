@@ -1,0 +1,44 @@
+id: "gamazons"
+name: Gamazons
+description: Gamazons game
+longDescription: |
+  <p>Amazons is a game played on a 10x10 chess board. Each side has four pieces (amazons) that move like chess queens (in a straight line in any direction). Instead of capturing pieces like in chess, the game is determined based on who moves last.</p>
+  <p>Each move consists of two parts. First an amazon moves to a new square and then fires an arrow to another square (the arrow is fired in a straight line in any direction from the square the amazon landed on). The square the arrow lands on becomes a permenant block for the rest of the game. No one can move over it, or fire an arrow over it. Every turn an amazon must move and fire an arrow, so every turn there is one less square available on the board. Try and block in your opponent or section off a good chunk of the board for yourself.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gamazons
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - board
+  - game
+  - amazons
+  - turns
+  - gnome
+iconSources:
+  - url: g/ga/gamazons.desktop/22f2d37df44d3c1d42c104194cbbd5ed/icons/128x128/gamazons_gamazons.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

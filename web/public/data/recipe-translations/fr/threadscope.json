@@ -1,0 +1,5 @@
+{
+  "name": "threadscope",
+  "description": "Profileur de threads pour Haskell GHC",
+  "longDescription": "<p>Threadscope est un profileur graphique de threads pour les programmes Haskell. Il analyse et affiche le contenu des fichiers .eventlog générés par les environnements d’exécution GHC 6.12.1 et ultérieurs, présentant une chronologie de la création de sparks, des promotions de sparks vers des threads et des collectes de garbage.</p>\n<p>Cet outil facilite le débogage des performances parallèles des programmes Haskell, permettant de vérifier si la charge de travail est bien répartie sur les processeurs disponibles et de repérer les problèmes de performance liés à la collecte de garbage ou à un mauvais équilibrage de la charge.</p>\n"
+}

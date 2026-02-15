@@ -1,0 +1,46 @@
+id: "kraft"
+name: Kraft
+description: Kraft helps to handle documents in small business
+longDescription: |
+  <p>Kraft is free software to help to handle documents like quotes and invoices in your small business.
+    It is a Qt/KF5 based desktop software with a strong focus on ease of use and the just enough feature set for the use
+  case. With Kraft, creating documents will run smooth and free time for more enjoyable things than office work.</p> <p>Kraft runs on any Linux desktop. There is no cloud involved, your data around your products and customers stays under your
+  control.</p>
+  <p>With Kraft, writing documents like quotes and invoices is very easy and fast. Repeating tasks are supported, documents can be generated semi automatically, ie. invoices from offers sent out before.</p>
+  <p>For efficient work, Kraft supports catalogs to organize materials and template texts. It focuses on high quality printouts because paper is still the main communication media in the small business world. However, it also sends documents via email.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kraft
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: de/volle_kraft_voraus/kraft.desktop/dbd0e1ead067dffe549f527346db6533/screenshots/image-1_orig.png
+    thumbnailUrl: de/volle_kraft_voraus/kraft.desktop/dbd0e1ead067dffe549f527346db6533/screenshots/image-1_624x415.png
+    width: 990
+    height: 659
+  - url: de/volle_kraft_voraus/kraft.desktop/dbd0e1ead067dffe549f527346db6533/screenshots/image-2_orig.png
+    thumbnailUrl: de/volle_kraft_voraus/kraft.desktop/dbd0e1ead067dffe549f527346db6533/screenshots/image-2_624x374.png
+    width: 1127
+    height: 677
+iconSources:
+  - url: de/volle_kraft_voraus/kraft.desktop/dbd0e1ead067dffe549f527346db6533/icons/128x128/kraft_kraft.png
+    width: 128
+    height: 128
+homepage: "http://volle-kraft-voraus.de/"
+enabled: true
+order: 99

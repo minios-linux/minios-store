@@ -1,0 +1,37 @@
+id: "gftp-gtk"
+name: gFTP
+description: Download and upload files using multiple file transfer protocols
+longDescription: |
+  <p>gFTP graphical version is a multithreaded FTP client running under X and written using GLib/GTK+.</p>
+  <p>gFTP features:   * simultaneous downloads,   * resuming of interrupted file transfers,   * file transfer queues,   * downloading of entire directories,   * FTP and HTTP proxy support,   * remote directory caching,   * passive and non-passive file transfers,   * drag-n-drop support,   * bookmarks menu,   * support for SSH and SSH2 file transfers,   * support FXP transfers,   * stop button, and many more features.</p>
+  <p> Author:   Brian Masney &lt;masneyb@gftp.org&gt;</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gftp-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: g/gf/gftp.desktop/a332e2f612193649e1c20e171cbeaeaa/icons/128x128/gftp-gtk_gftp.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

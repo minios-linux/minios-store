@@ -1,0 +1,5 @@
+{
+  "name": "Économiseur d’écran",
+  "description": "Modifier les propriétés de l’économiseur d’écran",
+  "longDescription": "<p>XScreenSaver est un économiseur et verrouilleur d’écran modulaire pour X11, comprenant plus de 200 économiseurs d’écran.</p>\n<p>Ce paquet inclut le strict nécessaire pour masquer et verrouiller votre écran. Installez ce paquet si vous souhaitez utiliser le moteur xscreensaver pour gérer la mise en veille de l’écran et lancer différents modes d’affichage (« hacks »). Si vous souhaitez uniquement utiliser d’autres moteurs d’économiseur, il n’est pas nécessaire d’installer ce paquet.</p>\n<p>Les modes graphiques d’affichage se trouvent dans les paquets xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl et xscreensaver-gl-extra.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "needrestart-session",
+  "description": "Controlla se i processi della sessione utente corrente devono essere riavviati dopo gli aggiornamenti.",
+  "longDescription": "<p>needrestart verifica quali processi devono essere riavviati dopo l'aggiornamento delle librerie. needrestart-session gestisce la notifica agli utenti riguardo ai processi obsoleti nelle loro sessioni dopo gli aggiornamenti di sistema.</p>\n"
+}

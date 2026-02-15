@@ -1,0 +1,25 @@
+id: pondus
+name: Pondus
+description: Keep track of your weight
+longDescription: |
+  <p>Pondus keeps track of your body weight and, optionally, the percentage of bodyfat, muscle and water. It aims to be simple to use, lightweight and fast. All data can be plotted to get a quick overview of the history of your weight. A simple weight planner allows one to define &quot;target weights&quot; and this plan can be compared with the actual measurements in a plot.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pondus
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/po/pondus.desktop/7117DE801E91DBCB24ACC3933D7F93C7/icons/128x128/pondus_pondus.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

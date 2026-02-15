@@ -1,0 +1,46 @@
+id: "kraptor"
+name: Kraptor
+description: classic shoot 'em up scroller game
+longDescription: |
+  <p>Kraptor is a classic shoot &apos;em up scroller game, where you must fight against tons of bad dudes. The game offers high speed action, with massive destruction and lots of fun. Kraptor features a powerful engine for 2D shooter scroller games.</p>
+  <p>After years of oppression, the slaved people of the world have raised against their masters. You, a mercenary pilot, have been contacted by the popular rebellion to fight against the forces of oppression. In the morning you jump into your cockpit and start up the engines. It&apos;s time to get airborne and start the attack. Get ready to defeat the scum hired by the masters. Fighting for freedom is the only way, you&apos;re on a mission, don&apos;t defraud us...</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kraptor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - action
+  - plane
+  - aircraft
+  - explosions
+  - shooter
+  - scroller
+iconSources:
+  - url: k/kr/kraptor.desktop/e8fdd71f3fb4897be53c962f4897e66d/icons/128x128/kraptor_kraptor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,38 @@
+id: "lmms"
+name: LMMS
+description: easy music production for everyone!
+longDescription: |
+  <p>LMMS aims to be a free alternative to popular (but commercial and closed- source) programs like FruityLoops, Cubase and Logic giving you the ability of producing music with your computer by creating cool loops, synthesizing and mixing sounds, arranging samples, having more fun with your MIDI-keyboard and much more...</p>
+  <p>LMMS combines the features of a tracker-/sequencer-program (pattern-/channel-/ sample-/song-/effect-management) and those of powerful synthesizers and samplers in a modern, user-friendly and easy to use graphical user-interface.</p>
+  
+categoryId: multimedia
+icon: Music
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lmms
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+iconSources:
+  - url: l/lm/lmms.desktop/4919dc931ae8352eaeeb50dd6b3ad285/icons/128x128/lmms_lmms.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

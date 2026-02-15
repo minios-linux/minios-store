@@ -1,0 +1,5 @@
+{
+  "name": "GNUjump",
+  "description": "Lompat ke atas menara untuk bertahan hidup",
+  "longDescription": "<p>Tujuan dari permainan ini adalah melompat ke lantai berikutnya agar tidak terjatuh. Semakin tinggi Anda naik di menara yang runtuh, lantai-lantai akan jatuh semakin cepat. Cobalah bertahan lebih lama dari pemain lain, atau dalam mode pemain tunggal, raih ketinggian setinggi-tingginya.</p>\n<p>Saat ini, permainan ini bernama sdljump (dan akan muncul dengan nama itu di menu), namun nama paketnya telah berubah sesuai dengan penamaan baru dari pengembang. Versi terbaru dari permainan ini juga akan dinamakan gnujump.</p>\n<p>Permainan ini merupakan kloning dari xjump dan menyediakan semua fiturnya, serta beberapa tambahan:  * Mode multipemain (hingga empat pemain, bukan jaringan)  * Grafik mulus tersedia (atau bisa juga dengan gaya xjump)  * Tersedia berbagai tema  * Dapat menggunakan OpenGL untuk rendering  * Musik dan efek suara  * Rekam dan pemutaran ulang permainan</p>\n"
+}

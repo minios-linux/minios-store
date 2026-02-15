@@ -1,0 +1,5 @@
+{
+  "name": "MPSolve",
+  "description": "Nullstellen von Polynomen finden",
+  "longDescription": "<p>Ein Werkzeug zur Bestimmung von Polynomnullstellen, das Approximationen mit beliebiger Genauigkeit und garantierten Inklusionsradien berechnen kann. Es unterstützt die Ausnutzung von Polynomstrukturen wie Dünnbesetztheit (Sparsity) und ermöglicht die Verarbeitung von implizit definierten Polynomen oder solchen in nicht standardmäßigen Basen.</p>\n<p>Dieses Paket enthält die grafische Version von MPSolve.</p>\n"
+}

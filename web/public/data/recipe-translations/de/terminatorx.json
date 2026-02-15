@@ -1,0 +1,5 @@
+{
+  "name": "terminatorX",
+  "description": "terminatorX ist ein Echtzeit-Audio-Synthesizer",
+  "longDescription": "<p>terminatorX ermöglicht das Laden von Audiodateien in verschiedenen Formaten (*.wav, *.au, *.ogg, *.mp3 usw.) auf virtuelle Plattenteller für eine synchronisierte Wiedergabe. Die Bedienung der Plattenteller erfolgt über Maus- und Tastatureingaben, wodurch Nutzer wie Hip-Hop-DJs Schallplatten „scratchen“ können.</p>\n<p>Die Anwendung bietet Echtzeit-Effekte (integriert sowie über LADSPA-Plugins), einen Sequencer und eine MIDI-Schnittstelle – alles über eine benutzerfreundliche GTK+-Oberfläche zugänglich. Die Audioausgabe kann direkt über die Hardware mittels ALSA- und OSS-Backends oder über ein Audio-Routing-Daemon via JACK- und PulseAudio-Backends erfolgen.</p>\n"
+}

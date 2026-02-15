@@ -1,0 +1,28 @@
+id: kdiskmark
+name: KDiskMark
+description: A disk drive benchmark tool
+longDescription: |
+  <p>This is an HDD and SSD benchmark tool with a very friendly graphical user interface. KDiskMark with its presets and powerful GUI calls Flexible I/O Tester and handles the output to provide an easy to view and interpret comprehensive benchmark result.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kdiskmark
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - benchmark
+  - disk
+iconSources:
+  - url: k/kd/kdiskmark.desktop/7013a5a395601a4f7136d5c8eedbc1c9/icons/128x128/kdiskmark_kdiskmark.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

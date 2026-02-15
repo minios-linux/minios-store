@@ -1,0 +1,5 @@
+{
+  "name": "ImageMagick (color depth=q16hdri)",
+  "description": "Visualiza y edita archivos de imagen",
+  "longDescription": "<p>ImageMagick es un conjunto de herramientas para crear, editar y componer imágenes de mapa de bits. Permite leer, convertir y escribir imágenes en una gran variedad de formatos (más de 100) incluyendo DPX, EXR, GIF, JPEG, JPEG-2000, PDF, PhotoCD, PNG, Postscript, SVG y TIFF. Con ImageMagick puedes transformar, voltear, reflejar, rotar, redimensionar, inclinar y modificar imágenes, ajustar colores, aplicar efectos especiales, o dibujar texto, líneas, polígonos, elipses y curvas de Bézier. Todas las operaciones pueden realizarse tanto por comandos en la terminal como mediante una interfaz gráfica X11 (display).</p>\n<p>Para trabajar con los formatos SVG, WMF, OpenEXR, DjVu y Graphviz, es necesario instalar el paquete libmagickcore-6.q16hdri-6-extra.</p>\n<p>Esta versión de ImageMagick está compilada para una profundidad de canal de 16 bits con alto rango dinámico (Q16HDRI).</p>\n"
+}

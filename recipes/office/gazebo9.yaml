@@ -1,0 +1,30 @@
+id: gazebo9
+name: Gazebo
+description: 3-D Robot simulator
+longDescription: |
+  <p>Gazebo is a multi-robot simulator for outdoor environments. Like Stage (part of the Player project), it is capable of simulating a population of robots, sensors and objects, but does so in a three-dimensional world. It generates both realistic sensor feedback and physically plausible interactions between objects (it includes an accurate simulation of rigid-body physics).</p>
+  <p>This package contains then main application binaries</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gazebo9
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - run
+iconSources:
+  - url: g/ga/gazebo.desktop/6600C09252774D2BF2242CF982BE7809/icons/128x128/gazebo9_gazebo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "fityk",
+  "description": "Ajuste de curvas (especialmente de picos) e análise de dados",
+  "longDescription": "<p>Fityk é um programa flexível e portátil para ajuste não linear de funções analíticas (especialmente em formato de picos) a dados, geralmente experimentais. Ou seja, para separação e análise não linear de picos.</p>\n<p>Foi desenvolvido para análise de padrões de difração, mas também pode ser utilizado em outras áreas, pois os conceitos e operações específicos de cristalografia estão separados do restante do programa.</p>\n<p>O Fityk oferece diversos métodos de ajuste não linear, subtração de fundo, calibração de dados, posicionamento fácil de picos e alteração de parâmetros de pico, automação de tarefas comuns com scripts e muito mais. Sua principal vantagem é a flexibilidade – os parâmetros dos picos podem ser vinculados entre si de forma arbitrária. Por exemplo, a largura de um pico pode ser uma variável independente, igual à largura de outro pico, ou definida por uma fórmula complexa comum a todos os picos.</p>\n<p>O pacote libjs-sphinxdoc é necessário para recursos Javascript na documentação.</p>\n"
+}

@@ -1,0 +1,40 @@
+id: "gerbv"
+name: Gerbv Gerber File Viewer
+description: Gerber file viewer for PCB design
+longDescription: |
+  <p>gerbv is a utility for viewing Gerber RS-274X files, Excellon drill files, and CSV files for pick-and-place files. Gerber files are used for communicating printed circuit board (PCB) designs to PCB manufacturers.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gerbv
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gerber
+  - pcb
+iconSources:
+  - url: g/ge/gerbv.desktop/aa82f0c397c4ffe44f481027b32c27f4/icons/128x128/gerbv_gerbv.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "gFTP",
+  "description": "Dateien mit verschiedenen Übertragungsprotokollen herunterladen und hochladen",
+  "longDescription": "<p>Die grafische Version von gFTP ist ein Multithread-FTP-Client für X und wurde mit GLib/GTK+ entwickelt.</p>\n<p>gFTP bietet folgende Funktionen:   * gleichzeitige Downloads,   * Fortsetzen abgebrochener Übertragungen,   * Warteschlangen für Dateiübertragungen,   * Herunterladen ganzer Verzeichnisse,   * Unterstützung von FTP- und HTTP-Proxys,   * Zwischenspeichern von entfernten Verzeichnissen,   * passive und aktive Übertragungen,   * Drag-and-Drop-Unterstützung,   * Lesezeichen-Menü,   * Unterstützung für Dateiübertragungen via SSH und SSH2,   * Unterstützung für FXP-Übertragungen,   * Stopp-Schaltfläche und viele weitere Funktionen.</p>\n<p>Autor:   Brian Masney &lt;masneyb@gftp.org&gt;</p>\n"
+}

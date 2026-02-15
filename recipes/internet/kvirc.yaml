@@ -1,0 +1,38 @@
+id: "kvirc"
+name: KVIrc
+description: Connect to Internet Relay Chat
+longDescription: |
+  <p>A highly configurable graphical IRC client with an MDI interface, built-in scripting language, support for IRC DCC, drag &amp; drop file browsing, and much more. KVIrc uses the KDE widget set, can be extended using its own scripting language, integrates with KDE, and supports custom plugins.</p>
+  <p>If you&apos;re looking for a simple and plain IRC client, KVIrc is probably the wrong choice as it is rather big. But if you want a highly customizable client you won&apos;t regret the installation.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kvirc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: net/kvirc/KVIrc5/9cd2c846705b90818b41dc5fcbb44356/icons/128x128/kvirc_kvirc.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

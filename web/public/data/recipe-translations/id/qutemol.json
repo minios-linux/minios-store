@@ -1,0 +1,5 @@
+{
+  "name": "QuteMol",
+  "description": "visualisasi interaktif makromolekul",
+  "longDescription": "<p>QuteMol adalah sistem visualisasi molekuler interaktif berkualitas tinggi. Aplikasi ini memanfaatkan kemampuan GPU terkini melalui OpenGL shader untuk menghadirkan beragam efek visual inovatif. Teknik visualisasi QuteMol dirancang untuk meningkatkan kejelasan dan memudahkan pemahaman bentuk serta struktur 3D molekul besar atau protein kompleks.</p>\n<p>QuteMol menggunakan teknik OpenGL tingkat lanjut dan mungkin tidak kompatibel dengan semua kartu grafis serta driver.</p>\n<p>Fitur-fitur yang ditawarkan QuteMol meliputi:</p>\n<p> * Ambient occlusion secara real-time  * Peningkatan siluet berbasis kedalaman  * Mode visualisasi ball-and-stick, space-filling, dan liquorice  * Snapshot resolusi tinggi dengan antialiasing untuk pembuatan gambar berkualitas publikasi  * Pembuatan otomatis animasi gif molekul berputar untuk animasi halaman web  * Render interaktif makromolekul (&gt;100 ribu atom)</p>\n<p>QuteMol membaca file PDB sebagai input.</p>\n"
+}

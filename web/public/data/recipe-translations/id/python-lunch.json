@@ -1,0 +1,5 @@
+{
+  "name": "Lunch",
+  "description": "Peluncur Proses Terdistribusi",
+  "longDescription": "<p>Lunch adalah peluncur dan manajer proses terdistribusi yang sederhana untuk GNU/Linux.</p>\n<p>Dengan Lunch, Anda dapat menjalankan proses perangkat lunak di beberapa komputer berbeda dan memastikan proses-proses tersebut tetap berjalan. Perangkat lunak ini dibuat untuk memenuhi kebutuhan seniman media baru dalam pertunjukan langsung dan instalasi interaktif. Lunch akan memulai ulang perangkat lunak yang mengalami crash dan menyediakan cara untuk mengelola dependensi antar proses yang berjalan.</p>\n<p>Paket ini menyediakan pustaka Lunch untuk Python, serta utilitas baris perintah Lunch yang juga dapat dijalankan dengan antarmuka GTK+.</p>\n"
+}

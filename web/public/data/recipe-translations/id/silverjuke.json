@@ -1,0 +1,5 @@
+{
+  "name": "Silverjuke",
+  "description": "Memutar dan mengelola musik dengan gaya jukebox yang mudah digunakan",
+  "longDescription": "<p>Silverjuke adalah solusi jukebox yang mudah digunakan dan dikembangkan dengan wxWidgets. Fitur-fiturnya antara lain:  * Dukungan format audio yang luas (MP1, MP2, MP3, MPC, MP+,    Ogg-Vorbis, FLAC, Monkey's Audio, WavPack, WAV, AIFF, MOD),    lebih banyak format dapat ditambahkan melalui modul  * Pemrosesan suara internal 32-bit (mendukung crossfading, autovolume,    jingle, smart shuffle, VST effect plugin)  * Mode kios, mendukung layar sentuh  * Informasi lagu dapat diedit (ID3-tag)  * Dukungan playlist (M3U, PLS, CUE)  * Tampilan antarmuka dapat dikustomisasi  * Pencarian yang powerful</p>\n"
+}

@@ -1,0 +1,55 @@
+id: guvcview
+name: guvcview
+description: A video viewer and capturer for the linux uvc driver
+longDescription: |
+  <p>guvcview is a simple GTK+ interface for capturing and viewing video from devices supported by the Linux UVC driver.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - guvcview
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: net/sourceforge/guvcview/9b1113351456d853c400cde34508dfed/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/guvcview/9b1113351456d853c400cde34508dfed/screenshots/image-1_624x727@1.png
+    width: 800
+    height: 933
+  - url: net/sourceforge/guvcview/9b1113351456d853c400cde34508dfed/screenshots/image-2_orig.png
+    thumbnailUrl: net/sourceforge/guvcview/9b1113351456d853c400cde34508dfed/screenshots/image-2_624x727@1.png
+    width: 800
+    height: 933
+  - url: net/sourceforge/guvcview/9b1113351456d853c400cde34508dfed/screenshots/image-3_orig.png
+    thumbnailUrl: net/sourceforge/guvcview/9b1113351456d853c400cde34508dfed/screenshots/image-3_624x727@1.png
+    width: 800
+    height: 933
+  - url: net/sourceforge/guvcview/9b1113351456d853c400cde34508dfed/screenshots/image-4_orig.png
+    thumbnailUrl: net/sourceforge/guvcview/9b1113351456d853c400cde34508dfed/screenshots/image-4_624x727@1.png
+    width: 800
+    height: 933
+  - url: net/sourceforge/guvcview/9b1113351456d853c400cde34508dfed/screenshots/image-5_orig.png
+    thumbnailUrl: net/sourceforge/guvcview/9b1113351456d853c400cde34508dfed/screenshots/image-5_624x390@1.png
+    width: 1680
+    height: 1050
+iconSources:
+  - cached: guvcview_guvcview.png
+    width: 64
+    height: 64
+homepage: "https://guvcview.sourceforge.net/"
+enabled: true
+order: 99

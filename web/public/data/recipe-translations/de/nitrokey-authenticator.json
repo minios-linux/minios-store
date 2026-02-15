@@ -1,0 +1,5 @@
+{
+  "name": "Nitrokey Authenticator",
+  "description": "TOTP-Authentifikator-Anwendung für NitroKey Pro2 und LibremKey",
+  "longDescription": "<p>\n\t\t\tNitrokey ist ein quelloffener USB-Sicherheitsschlüssel für sichere Verschlüsselung und Signatur.\n\t\t\tDieses Paket installiert eine TOTP-Authentifikator-Anwendung, die mit Google Authenticator kompatibel ist,\n\t\t\taber die NitroKey-Hardware zur sicheren Speicherung der TOTP-Geheimnisse und zur Generierung der Authentifizierungscodes verwendet.\n\t\t\tDie Codes werden direkt mit dem Schlüssel erzeugt.\n\t\t</p>\n"
+}

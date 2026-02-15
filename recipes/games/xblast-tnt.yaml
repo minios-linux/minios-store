@@ -1,0 +1,33 @@
+id: xblast-tnt
+name: XBlast-TNT
+description: Multiplayer blast-others game inspired by Dynablaster/Bomberman
+longDescription: |
+  <p>XBlast is a multi-player arcade game inspired by the video/computer game Bomberman (Dynablaster).</p>
+  <p>Features:   - 2 to 6 players   - 1 or 2 players per X-Server (or up to 6 with joysticks)   - about 1000 levels   - about 20 player models   - PoV-Ray rendered color graphics   - central server support with statistics</p>
+  <p>If you want to host games you need to install the xblast-tnt-levels package, and you might want to install xblast-tnt-sounds for sound support. The xblast-tnt-musics package contains background musics for the game, if you like.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xblast-tnt
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - arcade
+  - action
+  - multiplayer
+  - bomberman
+  - explosions
+  - strategy
+iconSources:
+  - url: x/xb/xblast-tnt.desktop/68acbed73a88d2bb174bdd7e9178104d/icons/128x128/xblast-tnt_xblast-tnt.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

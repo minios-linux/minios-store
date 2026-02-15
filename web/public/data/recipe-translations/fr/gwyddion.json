@@ -1,0 +1,5 @@
+{
+  "name": "Gwyddion",
+  "description": "Visualisation et analyse de données SPM",
+  "longDescription": "<p>Gwyddion est un programme modulaire pour la visualisation et l’analyse de données de Microscopie à Sonde Locale (SPM). Il est principalement destiné à l’analyse de champs de hauteur issus de techniques de microscopie telles que :  * Microscopie à Force Atomique (AFM),  * Microscopie à Force Magnétique (MFM),  * Microscopie à Effet Tunnel (STM),  * Microscopie optique en champ proche (SNOM ou NSOM), parmi d’autres. Cependant, il peut aussi être utilisé pour l’analyse d’images ou de reliefs de toute nature.</p>\n<p>Ce paquet contient l’application principale et ses modules. Il inclut également une fonction de création de vignettes GNOME (et Xfce) permettant d’afficher un aperçu de tous les types de fichiers reconnus par Gwyddion.</p>\n"
+}

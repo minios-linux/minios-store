@@ -1,0 +1,5 @@
+{
+  "name": "Foot Server",
+  "description": "Un emulatore di terminale nativo per Wayland",
+  "longDescription": "<p>Un emulatore di terminale Wayland veloce, leggero e minimalista. Caratteristiche</p>\n<p> * Veloce  * Leggero nelle dipendenze, su disco e in memoria  * Nativo per Wayland  * Indipendente dall'ambiente desktop  * Font fallback configurabile dall'utente  * Regolazione della dimensione dei font DPI al volo  * Ricerca nella cronologia dello scrollback  * Supporto per emoji a colori  * Modalità server/daemon  * Supporto multi-seat  * Aggiornamenti sincronizzati  * Supporto per immagini Sixel</p>\n"
+}

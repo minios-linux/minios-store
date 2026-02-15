@@ -1,0 +1,22 @@
+id: bluedevil
+name: BlueDevil Wizard
+description: BlueDevil Wizard
+longDescription: |
+  <p>BlueDevil is a set of components which integrate Bluetooth in KDE. It contains:  * A KDE Control Module (KCM) to configure all the Bluetooth-related options.  * Integration with the KDE input/output system (KIO), which allows you to    discover and explore Bluetooth devices from your favorite file browser.  * A wizard to pair your devices and connect directly to services they offer,    such as input (mouse, keyboard, Wiimote) and audio (headsets, phones).  * A system tray application from where all BlueDevil actions can be done    (disconnect devices, send files, configure, etc).  * A daemon which listens to incoming requests, for example to receive files    or to introduce a requested PIN.</p>
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bluedevil
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: org/kde/bluedevilwizard/8AFE30C3ECA24A6CFC7C7424F9BB2B29/icons/128x128/bluedevil_preferences-system-bluetooth.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

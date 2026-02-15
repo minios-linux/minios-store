@@ -1,0 +1,36 @@
+id: plotdrop
+name: PlotDrop
+description: Create graphs and data visualizations
+longDescription: |
+  <p>Plotdrop is a simple application for creating quick graphs from
+        2D datasets using the GNUPlot backend.
+        To use plotdrop, you simply drag and drop a data file from your file browser,
+        configure the options and generate your graph.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plotdrop
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+screenshotSources:
+  - url: p/pl/plotdrop.desktop/6A9A8D4B1BE805100B67C51E03AC5710/screenshots/image-1_orig.png
+    thumbnailUrl: p/pl/plotdrop.desktop/6A9A8D4B1BE805100B67C51E03AC5710/screenshots/image-1_624x470.png
+    width: 1075
+    height: 811
+iconSources:
+  - cached: plotdrop_plotdrop.png
+    width: 64
+    height: 64
+homepage: "http://plotdrop.sourceforge.net/"
+enabled: true
+order: 99

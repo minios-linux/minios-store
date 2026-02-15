@@ -1,0 +1,5 @@
+{
+  "name": "KAddressBook",
+  "description": "Gestionnaire de carnet d'adresses",
+  "longDescription": "<p>KAddressBook enregistre toutes les informations personnelles de votre famille, de vos amis et de vos autres contacts.</p>\n<p>Fonctionnalités :</p>\n<ul>\n  <li>Importe et exporte vers presque tous les formats de carnets d'adresses</li>\n  <li>Lit les fichiers au format .vcf, et peut importer et exporter des vCards et des fichiers CSV</li>\n  <li>Peut utiliser plusieurs serveurs LDAP</li>\n  <li>Filtres configurables et puissantes fonctionnalités de recherche</li>\n  <li>S’intègre aux autres composants de Kontact, par exemple pour exporter les rappels d’anniversaire vers KOrganizer</li>\n  <li>Prise en charge de l’intégration groupware</li>\n  <li>Basé sur Akonadi</li>\n</ul>\n"
+}

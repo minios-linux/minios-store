@@ -1,0 +1,5 @@
+{
+  "name": "ImageVis3D",
+  "description": "Application de rendu volumique pour postes de travail dédiée aux grands ensembles de données",
+  "longDescription": "<p>ImageVis3D est une application de rendu volumique spécialement conçue pour visualiser de grands ensembles de données. Cette performance est obtenue grâce à un découpage du jeu de données en plusieurs niveaux de détail (LoD), chaque niveau étant lui-même subdivisé en plusieurs briques (primitives atomiques de rendu). L’interaction s’effectue au niveau de détail le plus grossier, qui peut être affiché instantanément sur presque tous les systèmes modernes. Après un délai configurable, ImageVis3D affiche progressivement des niveaux de détail plus fins, jusqu’à atteindre la résolution native des données.</p>\n<p>Le développement d’ImageVis3D est parrainé par le NIH/NCRR Center for Integrative Biomedical Computing (CIBC), et le DOE Visualization And Analytics Center for Enabling Technologies (VACET).</p>\n"
+}

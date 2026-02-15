@@ -1,0 +1,5 @@
+{
+  "name": "Arduino IDE",
+  "description": "Platform prototipe elektronik open-source",
+  "longDescription": "<p>Arduino adalah platform prototipe elektronik open-source yang berbasis pada perangkat keras dan perangkat lunak yang fleksibel serta mudah digunakan. Platform ini ditujukan untuk seniman, desainer, penggemar hobi, maupun siapa saja yang ingin membuat objek atau lingkungan interaktif.</p>\n<p>Paket ini akan menginstal lingkungan pengembangan terintegrasi (IDE) yang memungkinkan penulisan program, verifikasi kode, kompilasi, serta upload langsung ke papan pengembangan Arduino. Kode contoh juga akan diinstal.</p>\n<p>Beberapa pustaka dasar AVR akan disediakan oleh paket tambahan arduino-core-avr. Lebih banyak pustaka dapat diinstal melalui library manager di dalam IDE, namun membutuhkan akses internet yang aktif.</p>\n"
+}

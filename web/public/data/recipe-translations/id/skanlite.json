@@ -1,0 +1,5 @@
+{
+  "name": "Skanlite",
+  "description": "Aplikasi Pemindai Gambar",
+  "longDescription": "<p>Skanlite adalah aplikasi pemindai gambar sederhana untuk memindai dan menyimpan gambar. Skanlite berbasis libksane, antarmuka untuk pustaka SANE yang digunakan untuk mengendalikan pemindai gambar.</p>\n<p>Fitur:</p>\n<ul>\n  <li>Dialog penyimpanan untuk setiap gambar yang dipindai atau langsung menyimpan gambar ke folder yang ditentukan dengan nama dan format yang dihasilkan secara otomatis</li>\n  <li>Dukungan untuk pemindai jaringan</li>\n  <li>Pratinjau dengan fitur seleksi area untuk pemindaian akhir</li>\n  <li>Memindai beberapa area pilihan dalam satu gambar</li>\n</ul>\n"
+}

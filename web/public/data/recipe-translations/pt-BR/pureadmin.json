@@ -1,0 +1,5 @@
+{
+  "name": "PureAdmin",
+  "description": "Administre e monitore seu servidor FTP",
+  "longDescription": "<p>PureAdmin é uma interface gráfica Gtk 2.x para o PureFTPd que tem o objetivo de facilitar a configuração desse servidor FTP.</p>\n<p>O PureAdmin foi desenvolvido não como um substituto completo da configuração manual, mas como uma ferramenta que oferece suporte e padrões sensatos. É especialmente útil para quem não domina todos os recursos do PureFTPd. Com o PureAdmin, é possível:</p>\n<p> * Gerenciar usuários  * Monitorar atividades (download, upload, usuários online)  * Acompanhar arquivos de log  * Controlar em tempo real (expulsar usuários, encerrar conexões, etc)</p>\n"
+}

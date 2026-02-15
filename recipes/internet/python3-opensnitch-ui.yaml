@@ -1,0 +1,61 @@
+id: "python3-opensnitch-ui"
+name: OpenSnitch
+description: GNU/Linux interactive application firewall
+longDescription: |
+  <p>
+        Whenever a program tries to establish a new connection, it'll prompt the user to allow or deny it.
+      </p>
+  <p>
+        The user can decide if block the outgoing connection based on properties of the connection: by port, by uid, by
+  dst ip, by program or a combination of them. These rules can last forever, until the app restart or just one time.
+      </p>
+  <p>
+        The GUI allows the user to view live outgoing connections, as well as search by process, user, host or port.
+      </p>
+  <p>
+        OpenSnitch can also work as a system-wide domains blocker, by using lists of domains, list of IPs or list of regular
+  expressions.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - python3-opensnitch-ui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - system
+  - firewall
+  - policies
+  - security
+  - polkit
+  - policykit
+screenshotSources:
+  - url: io/github/evilsocket.opensnitch/ae9a3557ccfc6528cb76f31b3f74484b/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/evilsocket.opensnitch/ae9a3557ccfc6528cb76f31b3f74484b/screenshots/image-1_624x266@1.png
+    width: 1591
+    height: 679
+  - url: io/github/evilsocket.opensnitch/ae9a3557ccfc6528cb76f31b3f74484b/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/evilsocket.opensnitch/ae9a3557ccfc6528cb76f31b3f74484b/screenshots/image-2_624x331@1.png
+    width: 1203
+    height: 640
+  - url: io/github/evilsocket.opensnitch/ae9a3557ccfc6528cb76f31b3f74484b/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/evilsocket.opensnitch/ae9a3557ccfc6528cb76f31b3f74484b/screenshots/image-3_624x367@1.png
+    width: 1141
+    height: 672
+iconSources:
+  - url: io/github/evilsocket.opensnitch/ae9a3557ccfc6528cb76f31b3f74484b/icons/128x128/python3-opensnitch-ui_opensnitch-ui.png
+    width: 128
+    height: 128
+homepage: "https://github.com/evilsocket/opensnitch"
+enabled: true
+order: 99

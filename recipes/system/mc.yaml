@@ -1,0 +1,40 @@
+id: mc
+name: Midnight Commander
+description: File manager
+longDescription: |
+  <p>GNU Midnight Commander is a text-mode full-screen file manager. It uses a two panel interface and a subshell for command execution. It includes an internal editor with syntax highlighting and an internal viewer with support for binary files. Also included is Virtual Filesystem (VFS), that allows files on remote systems (e.g. FTP, SSH servers) and files inside archives to be manipulated like real files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - file manager
+  - console
+iconSources:
+  - cached: mc_MidnightCommander.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

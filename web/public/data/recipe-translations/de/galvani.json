@@ -1,0 +1,5 @@
+{
+  "name": "Galvani",
+  "description": "Liest Daten von Messgeräten mit grafischer Darstellung und Auswertung",
+  "longDescription": "<p>Galvani liest Daten von einem Digitalmultimeter oder anderen Messgeräten\n      über eine serielle Schnittstelle aus.\n      Die Daten werden grafisch dargestellt und können in verschiedenen Formen ausgewertet werden\n      (Peak-Integration von Chromatogrammen, Differenzialanalyse und weitere).\n      Zusätzlich können Daten mittels einer Simulation generiert werden.\n    </p>\n"
+}

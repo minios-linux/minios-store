@@ -1,0 +1,5 @@
+{
+  "name": "Frama-C",
+  "description": "Framework für die Quellcodeanalyse von in C geschriebener Software",
+  "longDescription": "<p>Frama-C ist ein Framework für die Analyse von in C geschriebenem Quellcode.</p>\n<p>Frama-C vereint verschiedene statische Analysetechniken in einem einzigen kollaborativen Framework. Der kollaborative Ansatz von Frama-C ermöglicht es statischen Analysatoren, auf den Ergebnissen aufzubauen, die bereits von anderen Analysatoren im Framework berechnet wurden. Dank dieses Ansatzes bietet Frama-C hochentwickelte Werkzeuge wie Slicer und Abhängigkeitsanalysen.</p>\n<p>Es kann verwendet werden für: * Die formale Validierung von Quellcode * Die Suche nach potenziellen Laufzeitfehlern * Audits oder Reviews * Reverse Engineering zum Verständnis der Struktur * Die Erstellung formaler Dokumentation</p>\n<p>Dieses Paket stellt die grafische Benutzeroberfläche für Frama-C bereit und hängt von frama-c-base ab.</p>\n"
+}

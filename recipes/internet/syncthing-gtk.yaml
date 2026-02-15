@@ -1,0 +1,44 @@
+id: "syncthing-gtk"
+name: Syncthing GTK
+description: GUI for Syncthing
+longDescription: |
+  <p>A GTK3-based GUI for Syncthing that supports:</p>
+  <p> * Adding / editing / deleting nodes  * Adding / editing / deleting repositories  * Restart / shutdown server  * Editing daemon settings  * Quick initial configuration using a wizard</p>
+  <p>It also provides desktop integration with various file managers (Nautilus, Nemo and Caja) as well as with the desktop environment in the form of an app indicator.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - syncthing-gtk
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: me/kozec/syncthingtk/b939cf3714de8c77332cdca101c10f2b/screenshots/image-1_orig.png
+    thumbnailUrl: me/kozec/syncthingtk/b939cf3714de8c77332cdca101c10f2b/screenshots/image-1_624x305@1.png
+    width: 987
+    height: 483
+iconSources:
+  - url: me/kozec/syncthingtk/b939cf3714de8c77332cdca101c10f2b/icons/128x128/syncthing-gtk_syncthing-gtk.png
+    width: 128
+    height: 128
+developer: kozec
+homepage: "https://github.com/syncthing/syncthing-gtk/"
+enabled: true
+order: 99

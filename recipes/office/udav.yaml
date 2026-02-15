@@ -1,0 +1,42 @@
+id: udav
+name: UDAV
+description: Data handling and plotting tool
+longDescription: |
+  <p>A free cross-platform library of fast C++ routines for plotting data in up to 3 dimensions. It can export plots to bitmaps and vector EPS, SVG, IDTF files. There are simple window interfaces based on GLUT, FLTK and/or Qt. MathGL can also be used in the console. There are interfaces to a set of languages, such as, C, Fortran, Pascal, Forth, Python, Octave.</p>
+  <p>This package contains the udav window environment based on mathgl.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - udav
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - visualization
+  - data
+  - array
+iconSources:
+  - cached: udav_udav.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

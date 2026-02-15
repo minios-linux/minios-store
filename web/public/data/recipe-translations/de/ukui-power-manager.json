@@ -1,0 +1,5 @@
+{
+  "name": "Power Statistics",
+  "description": "Überwachen der Energieverwaltung",
+  "longDescription": "<p>UKUI Power Manager ist ein Sitzungsdaemon für den UKUI-Desktop, der sich um system- oder desktopbezogene Ereignisse rund um die Energieverwaltung kümmert und entsprechende Aktionen auslöst. Ziel ist es, diese komplexen Aufgaben vollständig im Hintergrund zu halten und nur die für den Benutzer wichtigen Einstellungen anzuzeigen.</p>\n<p>Der UKUI Power Manager zeigt den Batteriestatus an, verwaltet Netzteil-Ereignisse, regelt die Displayhelligkeit sowie Energieeinsparmaßnahmen für CPU, Grafikkarte und Festplatte. Zudem können Ereignisse wie Energiesparen (Suspend-to-RAM), Ruhezustand oder Herunterfahren ausgelöst werden – alles nahtlos in die weiteren Komponenten des UKUI-Desktops integriert.</p>\n"
+}

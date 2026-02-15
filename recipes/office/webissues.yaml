@@ -1,0 +1,40 @@
+id: webissues
+name: WebIssues
+description: Desktop Client for the WebIssues team collaboration system
+longDescription: |
+  <p>Webissues is a system supporting team collaboration across the Internet. It can be used for storing bugs and other information with customizable attributes, comments and file attachements.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - webissues
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - issue
+  - tracking
+  - team
+  - maintenance
+iconSources:
+  - cached: webissues_webissues.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

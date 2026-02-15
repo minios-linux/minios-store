@@ -1,0 +1,72 @@
+id: "wike"
+name: Wike
+description: Search and read Wikipedia articles
+longDescription: |
+  <p>
+        Wike is a Wikipedia reader for the GNOME Desktop.
+        Provides access to all the content of this online encyclopedia in a native application,
+        with a simpler and distraction-free view of articles.
+      </p>
+  <p>
+        Features:
+      </p>
+  <ul>
+    <li>Open multiple articles in tabs</li>
+    <li>Multiple languages</li>
+    <li>Search suggestions</li>
+    <li>List of recent articles</li>
+    <li>Simple bookmarks management</li>
+    <li>Text search in articles</li>
+    <li>Article table of contents</li>
+    <li>View article in other languages</li>
+    <li>GNOME Shell search integration</li>
+    <li>Light, dark and sepia themes</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wike
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - wikipedia
+  - encyclopedia
+screenshotSources:
+  - url: com/github/hugolabe.Wike/7b1e86abf459524bf17558361e90c7b1/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/hugolabe.Wike/7b1e86abf459524bf17558361e90c7b1/screenshots/image-1_624x514@1.png
+    width: 1944
+    height: 1604
+  - url: com/github/hugolabe.Wike/7b1e86abf459524bf17558361e90c7b1/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/hugolabe.Wike/7b1e86abf459524bf17558361e90c7b1/screenshots/image-2_624x514@1.png
+    width: 1944
+    height: 1604
+  - url: com/github/hugolabe.Wike/7b1e86abf459524bf17558361e90c7b1/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/hugolabe.Wike/7b1e86abf459524bf17558361e90c7b1/screenshots/image-3_624x514@1.png
+    width: 1944
+    height: 1604
+  - url: com/github/hugolabe.Wike/7b1e86abf459524bf17558361e90c7b1/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/hugolabe.Wike/7b1e86abf459524bf17558361e90c7b1/screenshots/image-4_624x514@1.png
+    width: 1944
+    height: 1604
+  - url: com/github/hugolabe.Wike/7b1e86abf459524bf17558361e90c7b1/screenshots/image-5_orig.png
+    thumbnailUrl: com/github/hugolabe.Wike/7b1e86abf459524bf17558361e90c7b1/screenshots/image-5_624x514@1.png
+    width: 1944
+    height: 1604
+iconSources:
+  - url: com/github/hugolabe.Wike/7b1e86abf459524bf17558361e90c7b1/icons/128x128/wike_com.github.hugolabe.Wike.png
+    width: 128
+    height: 128
+developer: Hugo Olabera
+homepage: "https://hugolabe.github.io/Wike/"
+enabled: true
+order: 99

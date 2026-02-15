@@ -1,0 +1,42 @@
+id: "firetools"
+name: Firejail Configuration Wizard
+description: Firejail configuration wizard
+longDescription: |
+  <p>Firejail is a SUID security sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces and seccomp-bpf.  It allows a process and all its descendants to have their own private view of the globally shared kernel resources, such as the network stack, process table, mount table.</p>
+  <p>This package contains the Qt-based frontend Firetools.</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - firetools
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - jail
+  - security
+  - seccomp
+iconSources:
+  - cached: firetools_firetools.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

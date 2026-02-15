@@ -1,0 +1,5 @@
+{
+  "name": "cmst",
+  "description": "Interfaz gráfica basada en Qt para el gestor de conexiones Connman con icono en la bandeja del sistema",
+  "longDescription": "<p>Interfaz gráfica en Qt para Connman con icono en la bandeja del sistema. Este programa proporciona una interfaz visual para controlar el demonio connman.<br>El demonio connman debe iniciarse como de costumbre; este programa solo interactúa con dicho demonio.<br>Permite visualizar las tecnologías y servicios detectados por connman, y para redes wifi se registra un agente que te asiste proporcionando la información necesaria para conectarte al servicio wifi.</p>\n"
+}

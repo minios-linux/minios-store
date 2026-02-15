@@ -1,0 +1,38 @@
+id: "rott"
+name: Rise of the Triad
+description: "A high quality, fast scrolling first-person perspective 3D action game"
+longDescription: |
+  <p>Rise of the Triad is a high quality, fast scrolling first-person perspective 3D action game. It includes a lot of destructive enemies, an arsenal of weapons from simple pistols to missile launchers, life-preserving armor, traps and ambushes galore.</p>
+  <p>WARNING: Rise of the Triad features wanton and gratuitous violence.</p>
+  <p>This package contains no data files: use `game-data-packager&apos; to generate a suitable data package from the publicly available &quot;Rise of the Triad: The HUNT Begins&quot; shareware episode.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rott
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - first
+  - person
+  - shooter
+  - fps
+  - 3d
+  - rott
+iconSources:
+  - url: r/ro/rott.desktop/0e115db9c1d44e99cdd688fb6f04873b/icons/128x128/rott_rott.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

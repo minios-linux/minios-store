@@ -1,0 +1,39 @@
+id: zulumount-gui
+name: zuluMount
+description: Encrypted volumes and partition mounter
+longDescription: |
+  <p>zulucrypt is a suite of applications for creating and managing volumes encrypted with luks, plain, truecrypt and veracrypt.</p>
+  <p>zuluMount-gui is a front end for zuluMount-cli. This way all activities the zulumount-cli can be performed easily by the graphical interface.</p>
+  <p>zuluMount-gui can unlock cryfs, encfs, gocryptfs and ecryptfs.</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zulumount-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - volumes
+  - encrypting
+  - luks
+  - truecrypt
+  - encrypt
+  - security
+  - cryptsetup
+iconSources:
+  - cached: zulumount-gui_zuluMount.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

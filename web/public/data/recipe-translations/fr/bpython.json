@@ -1,0 +1,5 @@
+{
+  "name": "bpython",
+  "description": "Une interface avancée pour l’interpréteur Python !",
+  "longDescription": "<p>bpython est une interface avancée pour l’interpréteur Python, offrant les fonctionnalités suivantes :</p>\n<p>  * Coloration syntaxique en temps réel.   * Autocomplétion façon Readline avec suggestions affichées lors de la saisie   * Affichage de la liste des paramètres attendus pour toute fonction Python, grâce à pydoc (y compris pour certaines fonctions C lorsque possible).   * Fonction « rembobinage » permettant de retirer la dernière ligne de code de la mémoire puis de la réévaluer (utile surtout pendant la définition de classes et fonctions ; ce n’est pas un vrai « annuler », il faut donc l’utiliser avec précaution).   * Envoi du code saisi vers un pastebin avec affichage de l’URL pour le partage   * Sauvegarde du code saisi dans un fichier   * Indentation automatique   * Mode anti-crash</p>\n<p>Ce paquet contient bpython pour Python 2.</p>\n"
+}

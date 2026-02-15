@@ -1,0 +1,5 @@
+{
+  "name": "Klayout, visor y editor de diseños de máscaras.",
+  "description": "Klayout es un visor (y editor) de diseños de máscaras en formatos como GDSII y CIF.",
+  "longDescription": "<p>Es un visor muy eficiente para archivos GDSII y otros formatos de diseño utilizados en la industria de semiconductores.</p>\n<p>Similar a 'magic', pero con una interfaz gráfica moderna y mayor robustez al manejar distintos archivos GDSII generados por diversas herramientas. Está más orientado a la visualización que a la edición, aunque incluye soporte limitado —en constante expansión— para DRC y extracción para LVS.</p>\n"
+}

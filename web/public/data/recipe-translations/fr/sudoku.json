@@ -1,0 +1,5 @@
+{
+  "name": "Sudoku",
+  "description": "jeu de sudoku en console",
+  "longDescription": "<p>Ce générateur/résolveur de grilles de sudoku propose :  * interface en mode texte (curses) ;  * multiplateforme (Minix, Unix, Windows) avec code source complet (ANSI C) ;  * suggestions disponibles sur demande ;  * classification de la difficulté des grilles (très facile, facile, moyen, difficile ou diabolique) ;  * génération de nouvelles grilles ;  * saisie simple de grilles publiées dans la presse, sur Internet, etc. ;  * plusieurs formats de sortie (texte, csv, HTML, PostScript).</p>\n"
+}

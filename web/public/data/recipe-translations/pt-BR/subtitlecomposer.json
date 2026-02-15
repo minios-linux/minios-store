@@ -1,0 +1,5 @@
+{
+  "name": "Subtitle Composer",
+  "description": "Editor de legendas para KDE",
+  "longDescription": "<p>Um editor de legendas baseado em texto que oferece operações básicas (edição de texto, tempo e estilo), visualização em tempo real e verificação ortográfica. Entre outros recursos avançados, permite atrasar todas as legendas do arquivo atual, verificar erros ou criar traduções.</p>\n<p>Diversos backends (GStreamer, MPlayer, MPV ou Phonon) podem ser usados para reprodução de vídeo em tempo real, facilitando a sincronização das legendas.</p>\n"
+}

@@ -1,0 +1,36 @@
+id: jameica
+name: Jameica
+description: Run-time system for Java applications
+longDescription: |
+  <p>runtime environment for Java applications, which are implemented as plugins.</p>
+  <p>Jameica takes care of recurring tasks, such as:  * consistent Look &amp; Feel  * strict user- and programdata separation  * standardized access to configuration files  * common navigation- and menuelements  * synchronous and asynchronous data exchange between plugins  * supports client-server model via RMI, XML-RPC or SOAP  * simplified usage of encryption methods (integrated wallet system)  * headless support for servers  * logging</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jameica
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: jameica_jameica-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Fcitx 5",
+  "description": "Eingabemethode starten",
+  "longDescription": "<p>Fcitx5 ist die nächste Generation des Fcitx-Eingabemethoden-Frameworks. Es bietet ein angenehmes und modernes Eingabeerlebnis mit intuitiven grafischen Konfigurationstools. Das Framework ist äußerst erweiterbar und unterstützt GTK+ und Qt Toolkits, DBus-Schnittstellen, eine Vielzahl von Desktop-Umgebungen sowie eine entwicklerfreundliche API.</p>\n<p>Zu den neuen Funktionen zählen die Unterstützung von Wayland und Xorg sowie die Fähigkeit, das IBus-Eingabemethoden-Framework nachzuahmen, um eine bessere Kompatibilität mit unterschiedlichen Linux-Distributionen und Desktop-Umgebungen zu gewährleisten.</p>\n<p>Dieses Paket enthält die Kernkomponenten des Fcitx5-Frameworks.</p>\n"
+}

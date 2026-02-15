@@ -1,0 +1,38 @@
+id: "quake3"
+name: Quake 3 Threewave CTF
+description: Capture the Flag addon for Quake III Arena
+longDescription: |
+  <p>This package contains a launcher script and menu entry to play Quake III Arena or Quake III: Team Arena with the ioquake3 engine.</p>
+  <p>To make this package useful, you will need to create and install the non-distributable quake3-data or quake3-demo-data package, by using the game-data-packager package.</p>
+  <p>quake3-data requires pak0.pk3 from a Quake III installation or CD-ROM. quake3-demo-data only requires freely downloadable files, but is not necessarily reliable.</p>
+  <p>game-data-packager (&gt;= 39) can also produce a package for the official expansion pack Quake III: Team Arena. An additional menu entry should appear automatically if that expansion are installed.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - quake3
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - first person shooter
+  - fps
+  - 3d
+  - ctf
+  - capture the flag
+iconSources:
+  - url: q/qu/quake3-threewave.desktop/24b39b805750e9ac2f2484fc741422a7/icons/128x128/quake3_quake3.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

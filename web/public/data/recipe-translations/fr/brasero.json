@@ -1,0 +1,5 @@
+{
+  "name": "Brasero",
+  "description": "Créer et copier des CD et DVD",
+  "longDescription": "<p>Brasero est une application simple pour graver, copier et effacer des CD et DVD : audio, vidéo ou données. Parmi ses fonctionnalités :  * Gravure à la volée  * Prise en charge des sessions multiples  * Conversion à la volée des listes de lecture musicales dans tous les formats pris en charge par GStreamer</p>\n<p>Ce paquet contient l’application autonome.</p>\n<p>Les paquets suivants, s’ils sont installés, offrent des fonctionnalités supplémentaires à Brasero :  * cdrdao pour graver des CD audio/données combinés et la copie bit à bit  * Backends GStreamer pour prendre en charge davantage de formats audio  * vcdimager pour créer des VCD ou SVCD  * libdvdcss2 pour copier des DVD chiffrés  * tracker pour rechercher des fichiers vidéo, audio, image et document</p>\n"
+}

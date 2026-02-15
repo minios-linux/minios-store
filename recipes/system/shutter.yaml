@@ -1,0 +1,65 @@
+id: "shutter"
+name: Shutter
+description: "Capture, edit and share screenshots"
+longDescription: |
+  <p>
+        Shutter is a feature-rich screenshot program. You can take a screenshot of a
+        specific area, window, your whole screen, or even of a website - apply different
+        effects to it, draw on it to highlight points, and then upload to an image
+        hosting site, all within one window.
+      </p>
+  <p>
+        Shutter allows you to capture nearly anything on your screen without losing
+        control over your screenshots (tabbed interface).
+        You don't need to open an external graphics editor like GIMP, because Shutter
+        ships with its own built-in editor.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - shutter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - capture
+  - print
+  - screenshot
+  - snapshot
+screenshotSources:
+  - url: org/shutterproject/shutter/41aed427fa94eabf7bf8bd7a25e5e24a/screenshots/image-1_orig.png
+    thumbnailUrl: org/shutterproject/shutter/41aed427fa94eabf7bf8bd7a25e5e24a/screenshots/image-1_224x201@1.png
+    width: 588
+    height: 528
+  - url: org/shutterproject/shutter/41aed427fa94eabf7bf8bd7a25e5e24a/screenshots/image-2_orig.png
+    thumbnailUrl: org/shutterproject/shutter/41aed427fa94eabf7bf8bd7a25e5e24a/screenshots/image-2_624x390@1.png
+    width: 1280
+    height: 800
+  - url: org/shutterproject/shutter/41aed427fa94eabf7bf8bd7a25e5e24a/screenshots/image-3_orig.png
+    thumbnailUrl: org/shutterproject/shutter/41aed427fa94eabf7bf8bd7a25e5e24a/screenshots/image-3_224x201@1.png
+    width: 588
+    height: 528
+  - url: org/shutterproject/shutter/41aed427fa94eabf7bf8bd7a25e5e24a/screenshots/image-4_orig.png
+    thumbnailUrl: org/shutterproject/shutter/41aed427fa94eabf7bf8bd7a25e5e24a/screenshots/image-4_624x428@1.png
+    width: 1132
+    height: 778
+iconSources:
+  - url: org/shutterproject/shutter/41aed427fa94eabf7bf8bd7a25e5e24a/icons/128x128/shutter_shutter.png
+    width: 128
+    height: 128
+homepage: "https://shutter-project.org/"
+enabled: true
+order: 99

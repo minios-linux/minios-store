@@ -1,0 +1,5 @@
+{
+  "name": "distcc-Monitor",
+  "description": "Grafische Anzeige verteilter Kompiliervorgänge",
+  "longDescription": "<p>distcc ist ein Programm zur Verteilung der Kompilierung von C- oder C++-Code auf mehrere Rechner in einem Netzwerk. distcc sollte stets dieselben Ergebnisse wie eine lokale Kompilierung liefern, ist einfach zu installieren und zu verwenden und oft wesentlich schneller als ein lokaler Kompiliervorgang. distcc setzt nicht voraus, dass alle Rechner ein gemeinsames Dateisystem nutzen, über synchronisierte Uhren verfügen oder dieselben Bibliotheken oder Header-Dateien installiert haben.</p>\n<p>Dies ist das GTK+-Monitorprogramm.</p>\n"
+}

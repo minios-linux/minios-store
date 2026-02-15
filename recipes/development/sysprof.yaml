@@ -1,0 +1,44 @@
+id: "sysprof"
+name: Sysprof
+description: Profiler for an application or entire system
+longDescription: |
+  <p>Sysprof allows you to profile applications to aid in debugging and optimization.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sysprof
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/gnome/Sysprof/6df3267d50c5b93a784777c38c0f4d68/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Sysprof/6df3267d50c5b93a784777c38c0f4d68/screenshots/image-1_624x378@1.png
+    width: 3180
+    height: 1928
+iconSources:
+  - url: org/gnome/Sysprof/6df3267d50c5b93a784777c38c0f4d68/icons/128x128/sysprof_org.gnome.Sysprof.png
+    width: 128
+    height: 128
+developer: The GNOME Foundation
+homepage: "https://wiki.gnome.org/Apps/Sysprof"
+enabled: true
+order: 99

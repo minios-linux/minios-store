@@ -1,0 +1,46 @@
+id: "lyx"
+name: LyX
+description: High level LaTeX frontend
+longDescription: |
+  <p>LyX is an almost WYSIWYG-frontend for LaTeX. It makes the power and typesetting quality of LaTeX available for people who are used to word processors. Since LyX supports LaTeX&apos;s concept of general mark-ups, it is even easier and faster to create professional quality documents with it than with usual word processors. It is also possible to use LaTeX commands within LyX, so nothing of LaTeX&apos;s power is lost.</p>
+  <p>You can extend the functionality of LyX by installing these packages:  * chktex: check for typographical errors  * gnuhtml2latex: import HTML documents  * groff: improved table formatting in plain text exports  * latex-xcolor: for coloured change tracking  * librsvg2-bin, inkscape: use the SVG image format in LyX documents  * linuxdoc-tools: export SGML LinuxDoc documents  * mythes-*: use the OpenOffice.org/LibreOffice Thesaurus  * noweb: import noweb files  * rcs: integrated version control  * sgmltools-lite: export SGML DocBook documents  * texlive-xetex: use the XeTeX typesetting system  * wv: import MS Word documents</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lyx
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - wysiwyg
+  - wysiwym
+  - tex
+  - latex
+  - gui
+  - frontend
+  - editor
+iconSources:
+  - url: l/ly/lyx.desktop/d5ca8dfe01c2abe9cd83990b3f5e3c02/icons/128x128/lyx_lyx.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

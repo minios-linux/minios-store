@@ -1,0 +1,39 @@
+id: snd-gui-jack
+name: snd
+description: Scriptable Sound File Editor
+longDescription: |
+  <p>
+        Snd is a sound editor modelled loosely after Emacs. It can be customized and extended using the scheme dialect 's7'.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - snd-gui-jack
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - editor
+screenshotSources:
+  - url: edu/stanford/ccrma.snd.gui-jack/6e76fa49c9e287694a4580cf7a556063/screenshots/image-1_orig.png
+    thumbnailUrl: edu/stanford/ccrma.snd.gui-jack/6e76fa49c9e287694a4580cf7a556063/screenshots/image-1_224x131@1.png
+    width: 340
+    height: 199
+  - url: edu/stanford/ccrma.snd.gui-jack/6e76fa49c9e287694a4580cf7a556063/screenshots/image-2_orig.png
+    thumbnailUrl: edu/stanford/ccrma.snd.gui-jack/6e76fa49c9e287694a4580cf7a556063/screenshots/image-2_224x140@1.png
+    width: 340
+    height: 213
+iconSources:
+  - cached: snd-gui-jack_snd.png
+    width: 64
+    height: 64
+homepage: "https://ccrma.stanford.edu/software/snd/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "LGeneral",
+  "description": "LGeneral é um motor de estratégia por turnos fortemente inspirado em Panzer General",
+  "longDescription": "<p>LGeneral é um jogo de estratégia por turnos fortemente inspirado em Panzer General. Você pode jogar cenários isolados ou campanhas completas, turno a turno, contra outro jogador humano ou contra a IA.</p>\n<p>Recursos como entrincheiramento, defesa rígida, fogo defensivo, contatos surpresa, rendição, suprimentos para unidades, influência do clima, reforços e outras implementações contribuem para a profundidade tática e estratégica do jogo.</p>\n<p>Este pacote é apenas o motor do jogo. Para funcionar corretamente, o LGeneral requer o pacote lgeneral-data ou o lgc-pg, que converte os dados do jogo original Panzer General.</p>\n"
+}

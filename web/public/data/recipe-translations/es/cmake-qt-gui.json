@@ -1,0 +1,5 @@
+{
+  "name": "CMake",
+  "description": "Sistema de construcción multiplataforma",
+  "longDescription": "<p>CMake se utiliza para gestionar el proceso de compilación de software mediante archivos de configuración simples, independientes de la plataforma y del compilador. CMake genera makefiles nativos y espacios de trabajo que pueden usarse con el entorno de compilador que prefieras.</p>\n<p>Este paquete proporciona la interfaz gráfica de CMake basada en Qt4. La configuración del proyecto puede especificarse de forma interactiva. En la parte inferior de la ventana se ofrecen instrucciones breves mientras el programa está en ejecución. El archivo ejecutable principal para esta interfaz gráfica es \"cmake-gui\".</p>\n"
+}

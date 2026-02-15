@@ -1,0 +1,5 @@
+{
+  "name": "CEN64-Qt",
+  "description": "Uma interface gráfica personalizável e multiplataforma para o CEN64",
+  "longDescription": "<p>CEN64-Qt é uma interface gráfica multiplataforma para o emulador CEN64. Como o próprio CEN64 oferece apenas uma interface de linha de comando simples, qualquer usuário que deseje utilizar esse emulador com mais praticidade acaba recorrendo a softwares adicionais — é nesse ponto que este pacote se destaca.</p>\n<p>A interface lista todas as ROMs disponíveis após sua inclusão no inventário, com a opção de baixar informações adicionais de bancos de dados de jogos na web. Os caminhos dos arquivos IPL necessários podem ser facilmente configurados pelo menu de configurações, assim como os diretórios onde os jogos salvam e recuperam seus dados.</p>\n<p>Entre outros recursos, o frontend oferece visualizador de logs do emulador, visualização configurável da lista de ROMs e um menu de acesso rápido para selecionar o dispositivo de entrada preferido, como diferentes gamepads ou teclado.</p>\n<p>Todos os ajustes são salvos e restaurados automaticamente, de modo que precisam ser configurados apenas uma vez.</p>\n"
+}

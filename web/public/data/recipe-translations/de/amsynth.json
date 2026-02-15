@@ -1,0 +1,5 @@
+{
+  "name": "amSynth",
+  "description": "Subtraktiver Software-Synthesizer mit zwei Oszillatoren",
+  "longDescription": "<p>amSynth bietet folgende Funktionen: * Zwei analoge Audio-Oszillatoren mit: o Sinuswellen o Sägezahn-/Dreieckwelle mit einstellbarer Form o Rechteck-/Pulswelle mit einstellbarer Pulsbreite o Rauschgenerator o „Random“-Welle (Rauschen mit Sample-&-Hold) o Oszillator-Synchronisation o selbstverständlich Detune- und Bereichsregelung * Mischpult-Sektion mit Ringmodulation * Analoger Tiefpassfilter o 24dB/Oktave-Kennlinie o eigenständige ADSR-Hüllkurve o Cutoff- und Resonanzregelung o Keyboard-Tracking * Verstärker mit eigener ADSR-Hüllkurve * Modulations-LFO o bis zu 58Hz Modulationsrate o auf alle Bereiche routbar (Pitch, Filter, Verstärker) * Effekte o Hochwertiger Stereo-Reverb (freeverb) o Verzerrung/Crunch * Einfache Navigation und Verwaltung von Presets * Standalone-OSS- oder ALSA-MIDI/Audio-Client</p>\n"
+}

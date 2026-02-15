@@ -1,0 +1,5 @@
+{
+  "name": "OCRFeeder",
+  "description": "La suite OCR completa.",
+  "longDescription": "<p>OCRFeeder è un sistema di analisi del layout dei documenti e di riconoscimento ottico dei caratteri (OCR).</p>\n<p>Partendo da immagini, rileva automaticamente la struttura del contenuto, distingue tra elementi grafici e testo ed esegue l'OCR su quest'ultimo. Genera diversi formati di output, principalmente ODT.</p>\n<p>Include un'interfaccia grafica completa basata su GTK+ che permette agli utenti di correggere caratteri non riconosciuti, definire o modificare le aree di selezione, impostare stili di paragrafo, pulire le immagini in ingresso, importare PDF, salvare e caricare progetti, esportare in vari formati, e altro ancora.</p>\n"
+}

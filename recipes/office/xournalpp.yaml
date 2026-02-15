@@ -1,0 +1,81 @@
+id: "xournalpp"
+name: Xournal++
+description: Take handwritten notes
+longDescription: |
+  <p>
+      Xournal++ is a hand note taking software written in C++ with the target of
+      flexibility, functionality and speed. Stroke recognizer and other parts are
+      based on Xournal Code, which you can find at sourceforge. It supports Linux
+      (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows 10. Supports pen input
+      from devices such as Wacom Tablets.
+     </p>
+  <p>Xournal++ features:</p>
+  <ul>
+    <li>Supports pressure senstive styluses and digital pen tables (e.g. Wacom, Huion, XP Pen, etc. tablets)</li>
+    <li>Paper backgrounds for notetaking, scratch paper, or whiteboarding</li>
+    <li>Annotate on top of PDFs</li>
+    <li>Export to a variety of formats including SVG, PNG and PDF, both from the GUI and command line</li>
+    <li>Different drawing tools (e.g.pen, highlighter) and stroke styles (e.g. solid, dotted)</li>
+    <li>Shape drawing (line, arrow, circle, rectangle, spline)</li>
+    <li>Fill shape functionality</li>
+    <li>Shape resizing and rotation</li>
+    <li>Rotation and grid snapping for precise alignment of objects</li>
+    <li>Input stabilization for smoother writing/drawing</li>
+    <li>Text tool for adding text in different fonts, colors and sizes</li>
+    <li>Enhanced support for image insertion</li>
+    <li>Eraser with multiple configurations</li>
+    <li>LaTeX support (requires a working LaTeX installation) with customizeable template</li>
+    <li>Sidebar with Page Previews with advanced page sorting, PDF Bookmarks and Layers (can be individually hidden/edited)</li>
+    <li>Allows mapping different tools/colors etc. to stylus/mouse buttons</li>
+    <li>Customizeable toolbar with multiple configurations, e.g. to optimize toolbar for portrait/landscape</li>
+    <li>Page Template definitions</li>
+    <li>Bug reporting, autosave, and auto backup tools</li>
+    <li>Audio recording and playback alongside with handwritten notes</li>
+    <li>Multi language support (over 20 languages supported)</li>
+    <li>Plugins using Lua scripting</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xournalpp
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tablet
+  - wacom
+  - pen input
+  - pdf annotation
+  - markup
+screenshotSources:
+  - url: com/github/xournalpp.xournalpp/2459713ac3691987e1d095760b423847/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/xournalpp.xournalpp/2459713ac3691987e1d095760b423847/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+  - url: com/github/xournalpp.xournalpp/2459713ac3691987e1d095760b423847/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/xournalpp.xournalpp/2459713ac3691987e1d095760b423847/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: com/github/xournalpp.xournalpp/2459713ac3691987e1d095760b423847/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/xournalpp.xournalpp/2459713ac3691987e1d095760b423847/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: com/github/xournalpp.xournalpp/2459713ac3691987e1d095760b423847/icons/128x128/xournalpp_com.github.xournalpp.xournalpp.png
+    width: 128
+    height: 128
+developer: Xournalpp Developers
+homepage: "https://xournalpp.github.io/"
+enabled: true
+order: 99

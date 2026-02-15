@@ -1,0 +1,5 @@
+{
+  "name": "ChessX",
+  "description": "Base de datos de ajedrez",
+  "longDescription": "<p>Con ChessX puedes gestionar tu colección de partidas de ajedrez de diversas formas: navegar, editar, añadir, organizar, analizar, etc.</p>\n<p>Funciones actuales:  - Multiplataforma. Compatible con Windows, Linux y Mac OS X.  - Carga y guarda archivos PGN.  - Trabaja con múltiples bases de datos simultáneamente.  - Navega partidas, incluidas las variantes.  - Ingresa movimientos, variantes y comentarios.  - Configura el tablero, copia/pega FEN.  - Búsqueda por encabezado (clic en las columnas de la lista de partidas).  - Muestra árbol de aperturas para la posición actual.  - Analiza utilizando motores UCI y Winboard/XBoard.  - Observa y juega partidas en FICS.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "amsynth",
+  "description": "Sintetizzatore software sottrattivo a due oscillatori",
+  "longDescription": "<p>amSynth offre:    * due oscillatori audio in stile analogico, con:          o onda sinusoidale          o onda a dente di sega/triangolare con forma regolabile          o onda quadra/pulsata con larghezza d’impulso regolabile          o generazione di rumore          o onda \"random\" (rumore con sample & hold)          o sincronizzazione tra oscillatori          o naturalmente, controllo di detune e range    * sezione mixer con modulazione ad anello    * filtro passa-basso in stile analogico          o pendenza di 24dB/ottava          o inviluppo ADSR dedicato          o controllo di cutoff e risonanza          o tracciamento della tastiera sul pitch    * amplificatore con inviluppo ADSR dedicato    * LFO di modulazione          o modulazione fino a 58Hz          o instradabile su tutte le sezioni (pitch, filtro, amplificatore)    * Effetti          o Riverbero stereo di alta qualità (freeverb)          o Distorsione/crunch    * Navigazione semplice e gestione dei preset    * Funziona come client MIDI/Audio stand-alone OSS o ALSA</p>\n"
+}

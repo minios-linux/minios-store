@@ -1,0 +1,45 @@
+id: "plasma-phonebook"
+name: Phonebook
+description: View and edit contacts
+longDescription: |
+  <p>Convergent contact management application for both desktop and mobile devices.</p>
+  <p>It provides a central place for starting conversations. Depending on the information available about a contact,
+        respective actions are displayed.</p>
+  <p>Features</p>
+  <ul>
+    <li>Add contacts</li>
+    <li>Remove contacts</li>
+    <li>Import vCard files</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plasma-phonebook
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - friends
+  - address book
+  - contact list
+screenshotSources:
+  - url: org/kde/phonebook/814953920231283bf31a4f6d6477efec/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/phonebook/814953920231283bf31a4f6d6477efec/screenshots/image-1_224x328@1.png
+    width: 580
+    height: 850
+iconSources:
+  - url: org/kde/phonebook/814953920231283bf31a4f6d6477efec/icons/128x128/plasma-phonebook_org.kde.phonebook.png
+    width: 128
+    height: 128
+developer: KDE Community
+enabled: true
+order: 99

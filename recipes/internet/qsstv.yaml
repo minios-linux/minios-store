@@ -1,0 +1,27 @@
+id: qsstv
+name: QSSTV
+description: QSSTV sstv and dsstv (adrm)
+longDescription: |
+  <p>Qsstv is a program for receiving slow-scan television and fax. These are modes used by hamradio operators. Qsstv uses a soundcard to send and receive images.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qsstv
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: q/qs/qsstv.desktop/410391d5a2619fd54f2411fa3220e5a7/icons/128x128/qsstv_qsstv.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

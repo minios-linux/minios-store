@@ -1,0 +1,29 @@
+id: "spacebar"
+name: Spacebar
+description: SMS/MMS messaging client
+longDescription: |
+  <p>Spacebar is a SMS/MMS messaging client. It allows you to send text messages, pictures and other files over a cellular network.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - spacebar
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+iconSources:
+  - url: org/kde/spacebar/992526d43c711b422b95037d87031274/icons/128x128/spacebar_org.kde.spacebar.png
+    width: 128
+    height: 128
+developer: KDE Community
+homepage: "https://apps.kde.org/"
+enabled: true
+order: 99

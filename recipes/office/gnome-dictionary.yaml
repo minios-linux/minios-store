@@ -1,0 +1,51 @@
+id: "gnome-dictionary"
+name: GNOME Dictionary
+description: Check word definitions and spellings in an online dictionary
+longDescription: |
+  <p>GNOME Dictionary is a simple dictionary application that looks up
+        definitions of words online.
+        Though it looks up English definitions by default, you can easily switch to
+        Spanish or add other online dictionaries using the DICT protocol to suit your
+        needs.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-dictionary
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - word
+  - synonym
+  - definition
+  - spelling
+screenshotSources:
+  - url: org/gnome/Dictionary.desktop/EABA2F0963B7489A9D5BF3863B93F928/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Dictionary.desktop/EABA2F0963B7489A9D5BF3863B93F928/screenshots/image-1_624x351.png
+    width: 752
+    height: 423
+iconSources:
+  - url: org/gnome/Dictionary/99b8793f1f94e6acfde74f12add795ab/icons/128x128/gnome-dictionary_org.gnome.Dictionary.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Dictionary"
+enabled: true
+order: 99

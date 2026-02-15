@@ -1,0 +1,61 @@
+id: "extremetuxracer"
+name: Extreme Tux Racer
+description: Race a penguin down a mountain
+longDescription: |
+  <p>Extreme Tux Racer, or etracer as it is called for short, is a simple OpenGL racing game featuring Tux, the Linux mascot. The goal of the game is to slide down a snow- and ice-covered mountain as quickly as possible, avoiding the trees and rocks that will slow you down.</p>
+  <p>Collect herrings and other goodies while sliding down the hill, but avoid fish bones.</p>
+  <p>This game is based on the GPL version of the famous game TuxRacer.</p>
+  <p>You must have working 3D acceleration or this game will run quite slowly.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - extremetuxracer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - tux
+  - 3d
+  - pinguin
+  - race
+  - arcade
+screenshotSources:
+  - url: net/sourceforge/extremetuxracer/81139043282e132f84f2b31fb6cf0692/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/extremetuxracer/81139043282e132f84f2b31fb6cf0692/screenshots/image-1_624x468@1.png
+    width: 800
+    height: 600
+  - url: net/sourceforge/extremetuxracer/81139043282e132f84f2b31fb6cf0692/screenshots/image-2_orig.png
+    thumbnailUrl: net/sourceforge/extremetuxracer/81139043282e132f84f2b31fb6cf0692/screenshots/image-2_624x468@1.png
+    width: 800
+    height: 600
+  - url: net/sourceforge/extremetuxracer/81139043282e132f84f2b31fb6cf0692/screenshots/image-3_orig.png
+    thumbnailUrl: net/sourceforge/extremetuxracer/81139043282e132f84f2b31fb6cf0692/screenshots/image-3_624x468@1.png
+    width: 800
+    height: 600
+iconSources:
+  - cached: extremetuxracer_etr.png
+    width: 64
+    height: 64
+homepage: "https://extremetuxracer.sourceforge.net/"
+enabled: true
+order: 99

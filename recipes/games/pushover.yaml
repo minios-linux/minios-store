@@ -1,0 +1,50 @@
+id: "pushover"
+name: Pushover
+description: Rearrange dominoes on different platforms to start a chain reaction
+longDescription: |
+  <p>Pushover is a fun puzzle game where you have to rearrange dominoes on different platforms to start a chain reaction that makes all dominoes topple over. There are many strange types of dominoes, such as the Ascender which will rise to the ceiling when pushed, or the Exploder which will blast a hole into the platform.</p>
+  <p>This is a faithful reimplementation of the same-named game originally published by Ocean in 1992.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pushover
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: p/pu/pushover.desktop/AECC98453A31FF7B75E8AE2D5D2096FB/screenshots/image-1_orig.png
+    thumbnailUrl: p/pu/pushover.desktop/AECC98453A31FF7B75E8AE2D5D2096FB/screenshots/image-1_624x467.png
+    width: 800
+    height: 600
+  - url: p/pu/pushover.desktop/AECC98453A31FF7B75E8AE2D5D2096FB/screenshots/image-2_orig.png
+    thumbnailUrl: p/pu/pushover.desktop/AECC98453A31FF7B75E8AE2D5D2096FB/screenshots/image-2_624x467.png
+    width: 800
+    height: 600
+  - url: p/pu/pushover.desktop/AECC98453A31FF7B75E8AE2D5D2096FB/screenshots/image-3_orig.png
+    thumbnailUrl: p/pu/pushover.desktop/AECC98453A31FF7B75E8AE2D5D2096FB/screenshots/image-3_624x467.png
+    width: 800
+    height: 600
+iconSources:
+  - cached: pushover_domino-chain.png
+    width: 64
+    height: 64
+homepage: "https://pushover.github.io"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "OnionShare",
+  "description": "Compartilhe arquivos de qualquer tamanho com segurança e anonimato",
+  "longDescription": "<p>O OnionShare permite compartilhar arquivos de qualquer tamanho com segurança e anonimato. Ele funciona\niniciando um servidor web local, que é disponibilizado como um serviço oculto na rede Tor, gerando uma\nURL impossível de ser adivinhada para acessar e baixar o arquivo.</p>\n<p>Não é necessário configurar um servidor externo na internet ou utilizar serviços de compartilhamento de terceiros.\nO arquivo é hospedado diretamente no seu computador e compartilhado temporariamente via serviço oculto Tor.\nO destinatário só precisa utilizar o Tor Browser para baixar o arquivo enviado por você.</p>\n"
+}

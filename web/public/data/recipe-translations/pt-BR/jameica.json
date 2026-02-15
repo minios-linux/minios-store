@@ -1,0 +1,5 @@
+{
+  "name": "Jameica",
+  "description": "Sistema de execução para aplicações Java",
+  "longDescription": "<p>Ambiente de runtime para aplicações Java desenvolvidas como plugins.</p>\n<p>O Jameica gerencia tarefas recorrentes, tais como:  * aparência visual consistente  * separação rigorosa entre dados do usuário e do programa  * acesso padronizado a arquivos de configuração  * elementos comuns de navegação e menus  * troca de dados síncrona e assíncrona entre plugins  * suporte ao modelo cliente-servidor via RMI, XML-RPC ou SOAP  * uso facilitado de métodos de criptografia (sistema de carteira integrado)  * suporte headless para servidores  * registro de logs</p>\n"
+}

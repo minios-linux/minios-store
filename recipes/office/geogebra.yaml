@@ -1,0 +1,39 @@
+id: "geogebra"
+name: GeoGebra
+description: Create interactive mathematical constructions and applets.
+longDescription: |
+  <p>GeoGebra is a dynamic geometry program. You can do constructions with points, vectors, segments, lines, conic sections as well as functions and change them dynamically afterwards. On the other hand, equations and coordinates can be entered directly.</p>
+  <p>Support for many geometric constructions is provided, as well as support for many calculus-based tools (derivatives, osculating circle, ...).</p>
+  <p>GeoGebra files can be exported in many different formats, or as interactive applets for web pages.</p>
+  
+categoryId: office
+icon: Image
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - geogebra
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/ge/geogebra.desktop/d65ed6ccdc37a3db98a908dd1ec6b270/icons/128x128/geogebra_geogebra.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

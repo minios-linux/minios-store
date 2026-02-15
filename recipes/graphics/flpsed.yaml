@@ -1,0 +1,45 @@
+id: "flpsed"
+name: flpsed
+description: A simple annotator for PS/PDF files
+longDescription: |
+  <p>flpsed is a WYSIWYG pseudo PostScript editor. &quot;Pseudo&quot;, because you can&apos;t remove or modify existing elements of a document. But flpsed lets you add arbitrary text lines to existing PostScript 1 documents. Added lines can later be reedited with flpsed.</p>
+  <p>Using pdftops, which is part of xpdf, one can convert PDF documents to PostScript and also add text to them. flpsed is useful for filling in forms, adding notes, etc.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flpsed
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pdf annotator
+  - pdf
+  - postscript editor
+  - editor
+  - change
+  - documents
+iconSources:
+  - url: f/fl/flpsed.desktop/f3ae1268179e9997d4e48ef07dd054e9/icons/128x128/flpsed_flpsed.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

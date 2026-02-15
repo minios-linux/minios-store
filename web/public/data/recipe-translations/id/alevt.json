@@ -1,0 +1,5 @@
+{
+  "name": "AleVT",
+  "description": "Menampilkan halaman teleteks",
+  "longDescription": "<p>AleVT adalah program X11 untuk menelusuri dan mencari halaman Teletext/Videotext yang diterima melalui decoder yang kompatibel (bttv dan penerima DVB).</p>\n<p>Fitur utama meliputi:</p>\n<p>  * Mendukung banyak jendela   * Cache halaman   * Pencarian dengan regular expression   * Manual bawaan</p>\n<p>Utilitas baris perintah tambahan dapat digunakan untuk</p>\n<p>  * menerima waktu dari Teletext/Videotext   * menangkap halaman dan menyimpannya ke disk</p>\n<p>Teletext/Videotext digunakan oleh saluran TV untuk menyiarkan informasi teks (ditransmisikan melalui garis pemindaian yang tidak terlihat).</p>\n"
+}

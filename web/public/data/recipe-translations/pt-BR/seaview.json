@@ -1,0 +1,5 @@
+{
+  "name": "SeaView",
+  "description": "Edita alinhamentos múltiplos de sequências e imprime-os em formato PostScript.",
+  "longDescription": "<p>O SeaView lê e grava diversos formatos de arquivos (NEXUS, MSF, CLUSTAL, FASTA, PHYLIP, MASE, Newick) de sequências de DNA e proteínas, além de árvores filogenéticas. Os alinhamentos podem ser editados manualmente. Ele executa os programas Muscle ou Clustal Omega para alinhamento múltiplo de sequências e também permite o uso de qualquer algoritmo externo de alinhamento que aceite arquivos no formato FASTA. Calcula árvores filogenéticas por parcimônia usando o algoritmo dnapars/protpars do PHYLIP, por distância com os algoritmos NJ ou BioNJ em uma variedade de distâncias evolutivas, ou por máxima verossimilhança com o programa PhyML 3.0. O SeaView exibe árvores filogenéticas na tela ou em arquivos PostScript e permite baixar sequências do EMBL/GenBank/UniProt pela Internet.</p>\n"
+}

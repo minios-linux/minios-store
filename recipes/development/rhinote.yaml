@@ -1,0 +1,44 @@
+id: rhinote
+name: Rhinote
+description: Virtual sticky-notes
+longDescription: |
+  <p>Rhinote is a small program that provides virtual sticky-notes. It&apos;s handy for jotting down quick notes or holding copied text that you plan to paste elsewhere later.</p>
+  <p>Notes can be saved as plain text for later viewing/editing with Rhinote or any other text editor.</p>
+  <p>Rhinote is designed to be &quot;keyboard friendly&quot;, that is, every single action is bound to a specific keystroke.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rhinote
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - sticky
+  - notes
+  - text
+  - editor
+iconSources:
+  - cached: rhinote_rhinote.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

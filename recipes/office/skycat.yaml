@@ -1,0 +1,41 @@
+id: skycat
+name: ESO/Starlink SkyCat
+description: Astronomical Data Visualization Application
+longDescription: |
+  <p>The ESO/Starlink Skycat tool combines the image display capabilities of the RTD (Real-Time Display) with a set of classes for accessing astronomical catalogs locally and over the network using HTTP. The tool allows you to view FITS images from files or from the Digitized Sky Survey (DSS).</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - skycat
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - fits
+  - astronomy
+  - viewer
+iconSources:
+  - cached: skycat_esologo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

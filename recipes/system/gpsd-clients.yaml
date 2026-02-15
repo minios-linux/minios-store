@@ -1,0 +1,23 @@
+id: gpsd-clients
+name: xgpsspeed
+description: Display GPS speed from a gpsd daemon
+longDescription: |
+  <p>The gpsd service daemon can monitor one or more GPS devices connected to a host computer, making all data on the location and movements of the sensors available to be queried on TCP port 2947.</p>
+  <p>This package contains auxiliary tools and example clients for monitoring, testing, latency-profiling, device configuration and simulating gpsd.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpsd-clients
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: gpsd-clients_gpsd-logo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

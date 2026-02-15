@@ -1,0 +1,44 @@
+id: "kfind"
+name: KFind
+description: Find Files/Folders
+longDescription: |
+  <p>KFind can be used as a standalone search tool, launched by KRunner or from your menu. It is also integrated into Konqueror
+        as &quot;Find File&quot; in the &quot;Tools&quot; menu. It allows you to find files by name, type or content.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kfind
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kfind/b126fbfe41eff9088ef35277c70c407d/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kfind/b126fbfe41eff9088ef35277c70c407d/screenshots/image-1_624x529@1.png
+    width: 898
+    height: 762
+iconSources:
+  - url: org/kde/kfind/b126fbfe41eff9088ef35277c70c407d/icons/128x128/kfind_kfind.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kfind/"
+enabled: true
+order: 99

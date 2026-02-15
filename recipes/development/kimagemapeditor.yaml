@@ -1,0 +1,44 @@
+id: "kimagemapeditor"
+name: KImageMapEditor
+description: HTML Image Map Editor
+longDescription: |
+  <p>KImageMapEditor is an editor of image maps embedded inside HTML files,
+      based on the &lt;map&gt; tag.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kimagemapeditor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kimagemapeditor.desktop/ec1645349703712ff3cab7ddab5c9bbb/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kimagemapeditor.desktop/ec1645349703712ff3cab7ddab5c9bbb/screenshots/image-1_624x310@1.png
+    width: 1367
+    height: 680
+iconSources:
+  - url: org/kde/kimagemapeditor.desktop/ec1645349703712ff3cab7ddab5c9bbb/icons/128x128/kimagemapeditor_kimagemapeditor.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org/applications/development/kimagemapeditor/"
+enabled: true
+order: 99

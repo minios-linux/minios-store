@@ -1,0 +1,42 @@
+id: "blobby"
+name: Blobby Volley 2
+description: The head-to-head multiplayer volley-ball game.
+longDescription: |
+  <p>
+          Blobby Volley is one of the most popular freeware games where
+          two blobbed shaped entities play volleyball against each other.
+          You can play against a teammate or alone against computer opponents.
+          It's possible to play in local network and in offical servers.
+          Controls via the mouse or the keyboard are customizable.
+          The points are saved and can be displayed and compared in statistics.
+      </p>
+  <p>
+          This is an official continuation of the famous Blobby Volley 1.x
+          arcade game from 2000s.
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - blobby
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: b/bl/blobby/913fe3e2bd2f3cd2074bb09c206aa63b/screenshots/image-1_orig.png
+    thumbnailUrl: b/bl/blobby/913fe3e2bd2f3cd2074bb09c206aa63b/screenshots/image-1_624x468@1.png
+    width: 640
+    height: 480
+iconSources:
+  - url: b/bl/blobby/913fe3e2bd2f3cd2074bb09c206aa63b/icons/128x128/blobby_blobby.png
+    width: 128
+    height: 128
+homepage: "http://blobbyvolley.de"
+enabled: true
+order: 99

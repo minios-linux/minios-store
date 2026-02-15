@@ -1,0 +1,23 @@
+id: ubuntu-web-launchers
+name: Amazon
+description: "Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+longDescription: |
+  <p>This package contains .desktop files (launchers) and scripts for programs that are provided in an Ubuntu session by default.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ubuntu-web-launchers
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ubuntu-web-launchers_amazon-store.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

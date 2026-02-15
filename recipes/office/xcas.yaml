@@ -1,0 +1,48 @@
+id: "xcas"
+name: Xcas
+description: The swiss knife for mathematics
+longDescription: |
+  <p>Giac is a computer algebra system, following the development of the CAS for HP calculators. It has fast implementation of algorithms for polynomial operations, and compatibility mode with Maple or Mupad CAS as well as TI calculators.</p>
+  <p>This package contains the user-facing giac programs: xcas, icas, and pgiac; as well as the cas_help program for providing user-oriented help.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xcas
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: x/xc/xcas/98bfeef856e6716c2f6ef8a05fd7b163/screenshots/image-1_orig.png
+    thumbnailUrl: x/xc/xcas/98bfeef856e6716c2f6ef8a05fd7b163/screenshots/image-1_224x154.png
+    width: 607
+    height: 419
+  - url: x/xc/xcas/98bfeef856e6716c2f6ef8a05fd7b163/screenshots/image-2_orig.png
+    thumbnailUrl: x/xc/xcas/98bfeef856e6716c2f6ef8a05fd7b163/screenshots/image-2_224x145.png
+    width: 525
+    height: 340
+iconSources:
+  - url: x/xc/xcas/98bfeef856e6716c2f6ef8a05fd7b163/icons/128x128/xcas_xcas.png
+    width: 128
+    height: 128
+homepage: "https://www-fourier.univ-grenoble-alpes.fr/~parisse/giac.html"
+enabled: true
+order: 99

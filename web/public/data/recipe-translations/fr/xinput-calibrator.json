@@ -1,0 +1,5 @@
+{
+  "name": "Calibrate Touchscreen",
+  "description": "Lancez l’outil de calibration pour écrans tactiles",
+  "longDescription": "<p>xinput-calibrator est un utilitaire destiné à calibrer les écrans tactiles sous X.Org. Ses fonctionnalités incluent :  - compatible avec tous les pilotes Xorg (utilise Xinput pour récupérer les axes) ;  - export de la calibration au format Xorg.conf, règle HAL ou règle udev ;  - prise en charge des options avancées de pilote, comme la calibration dynamique d’Evdev ;  - interface graphique intuitive (client X classique) ;</p>\n"
+}

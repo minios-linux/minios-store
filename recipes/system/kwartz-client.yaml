@@ -1,0 +1,31 @@
+id: "kwartz-client"
+name: Configuration for Kwartz
+description: Configure the client to access Kwartz services
+longDescription: |
+  <p>Kwartz is a school server featuring many services, deployed in French schools. This package makes it easier for sysadmins to integrate a GNU-Linux client machine in a network ruled by a Kwartz service, to allow users to authenticate against the LDAP directory, auto-mount Samba shares for themselves, and for the groups and projects they belong to.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kwartz-client
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: kwartz-client_kwartz-cloud.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

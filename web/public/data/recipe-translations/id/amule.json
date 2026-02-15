@@ -1,0 +1,5 @@
+{
+  "name": "aMule",
+  "description": "Klien untuk jaringan eD2k",
+  "longDescription": "<p>aMule adalah aplikasi berbagi file peer-to-peer yang dirancang untuk terhubung ke jaringan eDonkey dan Kad. aMule memiliki berbagai fitur, termasuk banyak fitur dari klien eMule asli, seperti:</p>\n<p> * tanda tangan daring (online signature), pertukaran sumber (source exchange), transfer terkompresi, identifikasi aman, dan dukungan filter IP  * pencarian boolean, baik lokal, global, maupun di jaringan Kad  * pemeriksaan terhadap klien agresif  * alokasi slot untuk menentukan jumlah klien jarak jauh  * ikon sistem (systray) berjalan baik di GNOME dan KDE  * dukungan terjemahan ke banyak bahasa</p>\n<p>Versi daemon aplikasi yang dapat dijalankan tanpa antarmuka grafis tersedia di paket amule-daemon, dan beragam utilitas lainnya dapat ditemukan di paket amule-utils serta amule-utils-gui, termasuk pengelola tautan ed2k.</p>\n"
+}

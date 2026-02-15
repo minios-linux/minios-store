@@ -1,0 +1,32 @@
+id: pampi
+name: Pampi
+description: "make presentations with Markdown, Pandoc, Impress"
+longDescription: |
+  <p>PAMPI is a free software to create presentations easily.</p>
+  <p>presentations are written in text files,   - so they can be modified easily   - the files syntax (Markdown) is easily learnt   - many examples of usable Markdown are available at     https://enacit1.epfl.ch/markdown-pandoc  They are converted to web pages (HTML files)   - one can view them with a browser   - one can publish them online, grab them on a USB stick, etc. In PAMPI&apos;s interface, the Markdown file is displaied in the left side and on can view the result in the right side.</p>
+  <p>Every step of a presentation can be located in any position in a 3D space   - one provides its coordinates   - one can specify its zoom factor   - one can specify rotations Maths can be authored with KaTeX.</p>
+  <p>Here are many examples: https://en.wikibooks.org/wiki/LaTeX/Mathematics.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pampi
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pampi_pampi_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

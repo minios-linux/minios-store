@@ -1,0 +1,5 @@
+{
+  "name": "JACK Keyboard",
+  "description": "Teclado virtual para JACK MIDI",
+  "longDescription": "<p>O JACK Keyboard é um programa que permite enviar eventos MIDI via JACK (tocar ;-) usando o teclado do seu PC. É semelhante ao vkeybd, mas utiliza JACK MIDI ao invés de ALSA, e o mapeamento de teclas padrão é muito mais intuitivo — segue o mesmo layout usado em trackers (como Impulse Tracker), oferecendo duas oitavas e meia ao alcance dos seus dedos.</p>\n"
+}

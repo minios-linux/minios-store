@@ -1,0 +1,5 @@
+{
+  "name": "X!TandemPipeline C++",
+  "description": "Strumento per l'inferenza proteica",
+  "longDescription": "<p>Il programma consente di svolgere le seguenti operazioni:  -Legge file di risultati X!Tandem in formato xml  -Legge file di risultati MASCOT in formato dat  -Legge file di risultati TPP in formato pepXML  -Legge file di risultati PSI in formato mzIdentML  -Esegue analisi X!Tandem tramite interfaccia grafica  -Applica diversi filtri basati su valori statistici  -Algoritmo originale e potente di raggruppamento per filtrare la ridondanza  -Modalità fosfopeptidi per la gestione di dataset di fosfoproteomica  -Modifica, ricerca e ordinamento dati tramite interfaccia grafica  -Visualizzatore di cromatogrammi XIC (eXtracted Ion Current)  -Confronto tra pattern isotopici teorici e aree XIC MS1 misurate  -Esportazione diretta dei dati verso Microsoft Office 2010 e LibreOffice (esportazione ods)  -Gestione rapida di dataset di grandi dimensioni  -Quantificazione peptidica tramite esportazione MassChroQml</p>\n"
+}

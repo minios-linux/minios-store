@@ -1,0 +1,29 @@
+id: calamares
+name: Calamares
+description: Calamares — System Installer
+longDescription: |
+  <p>Calamares is a distribution-independent installer framework.</p>
+  <p>It provides a graphical installer that can be used with nearly any distribution. This package is suitable for live media on Debian-based systems, and won&apos;t be of any particular use on and already installed system.</p>
+  <p>You will likely want to provide your own config files to match your distribution, reading the Calamares documentation will guide you through that process.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - calamares
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - calamares
+  - system
+  - installer
+iconSources:
+  - url: c/ca/calamares.desktop/641F9EC9D0AEFFBAF68B109371F2E7BE/icons/128x128/calamares_calamares.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

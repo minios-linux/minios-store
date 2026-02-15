@@ -1,0 +1,31 @@
+id: ogmrip
+name: DVD Encoder OGMRip
+description: A DVD encoder
+longDescription: |
+  <p>ogmrip is an application and a set of libraries for ripping and encoding DVD into AVI, OGM MP4 or Matroska files using a wide variety of codecs. It relies on mplayer, mencoder, ogmtools, mkvtoolnix, oggenc, lame and faac to perform its tasks.  o transcodes from DVD or files  o outputs ogm, avi, mp4 or matroska files  o calculates video bitrate for a given filesize  o calculates cropping parameters and scaling factors  o supports multiple audio and subtitles streams encoding  o lots of codecs (vorbis, mp3, pcm, ac3, dts, aac, xvid, lavc, x264, theora)  o uses maximum quality codec switches  o rips contiguous chapters</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ogmrip
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: ogmrip_ogmrip.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

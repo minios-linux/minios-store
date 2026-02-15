@@ -1,0 +1,5 @@
+{
+  "name": "Bitmap-zu-Bauteil-Konverter",
+  "description": "Erstellen Sie ein Bauteil aus einer Bitmap zur Verwendung in KiCad",
+  "longDescription": "<p>KiCad ist eine Programmsuite zur Erstellung von Leiterplatten. Sie umfasst einen Schaltplan-Editor, ein PCB-Layout-Tool, Hilfswerkzeuge und einen 3D-Viewer zur Anzeige der fertigen und voll bestückten Leiterplatte.</p>\n<p>KiCad besteht aus 5 Hauptkomponenten:</p>\n<p> * kicad - Projektmanager  * eeschema - Schaltplan-Editor  * pcbnew - PCB-Editor  * gerbview - GERBER-Betrachter  * cvpcb - Footprint-Auswahl für Bauteile</p>\n<p>Bibliotheken:  * Sowohl eeschema als auch pcbnew verfügen über Bibliotheksmanager und Editoren für ihre Bauteile und Footprints  * Bibliothekselemente lassen sich einfach erstellen, bearbeiten, löschen und austauschen  * Dokumentationsdateien können Bauteilen, Footprints und Schlüsselwörtern zugeordnet werden, was eine schnelle Suche nach Funktionen ermöglicht  * Es sind sehr umfangreiche Bibliotheken für Schaltplan-Bauteile und Footprints verfügbar  * Die meisten Bauteile verfügen über entsprechende 3D-Modelle</p>\n"
+}

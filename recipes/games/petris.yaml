@@ -1,0 +1,44 @@
+id: "petris"
+name: Petris
+description: Petris is Peter's Tetris.
+longDescription: |
+  <p>Petris supports colours and even features a highscore list.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - petris
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - blocks
+  - text
+  - ncurses
+  - terminal
+  - console
+  - game
+iconSources:
+  - url: p/pe/petris.desktop/58206ca9c9c00ea71dfd738afdcb3513/icons/128x128/petris_petris-icon.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

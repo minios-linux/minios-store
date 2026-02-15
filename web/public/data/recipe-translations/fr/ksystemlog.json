@@ -1,0 +1,5 @@
+{
+  "name": "KSystemLog",
+  "description": "Visionneuse des journaux système",
+  "longDescription": "<p>KSystemLog affiche tous les journaux de votre système, regroupés par catégories générales (journal système par défaut, authentification, noyau, X.org...), et par services optionnels (Apache, Cups, etc.). Il offre de nombreuses fonctionnalités pour faciliter la lecture des fichiers journaux :<ul><li>Coloration des lignes selon leur niveau de gravité</li><li>Affichage par onglets pour consulter plusieurs journaux simultanément</li><li>Affichage automatique des nouvelles entrées en temps réel</li><li>Informations détaillées pour chaque ligne du journal</li></ul></p>\n<p>Ce paquet fait partie du module d’administration KDE.</p>\n"
+}

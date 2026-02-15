@@ -1,0 +1,5 @@
+{
+  "name": "CellWriter",
+  "description": "Painel de entrada com reconhecimento de escrita manual em grade",
+  "longDescription": "<p>O CellWriter é um painel de entrada de escrita manual natural com interface em grade. Conforme você escreve caracteres nas células, sua escrita é reconhecida instantaneamente, caractere por caractere. Ao pressionar 'Enter' no painel, o texto que você digitou é enviado para o aplicativo em foco como se tivesse sido digitado no teclado.</p>\n<p>  * Adaptável ao usuário, aprende a sua caligrafia para reconhecimento mais preciso   * Algoritmos de pré-processamento corrigem ruídos do digitalizador, diferença de ordem, direção e número de traços   * Suporte a Unicode permite escrever em seu idioma nativo</p>\n"
+}

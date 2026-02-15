@@ -1,0 +1,5 @@
+{
+  "name": "Gamazons",
+  "description": "Gamazons-Spiel",
+  "longDescription": "<p>Amazons ist ein Strategiespiel, das auf einem 10x10 Schachbrett gespielt wird. Jede Seite verfügt über vier Spielfiguren (Amazons), die sich wie Schach-Damen bewegen können – also in gerader Linie in beliebiger Richtung. Anders als beim Schach werden Figuren nicht geschlagen; gewonnen hat, wer den letzten Zug machen kann.</p>\n<p>Jeder Zug besteht aus zwei Teilen: Zuerst wird eine Amazon auf ein neues Feld gezogen, danach schießt sie einen Pfeil auf ein beliebiges Feld in gerader Linie vom Zielfeld aus. Das Feld, auf dem der Pfeil landet, ist für den Rest des Spiels dauerhaft blockiert. Es darf weder betreten noch überquert werden, auch Pfeile dürfen dieses Feld nicht mehr passieren. In jedem Zug muss eine Amazon gezogen und ein Pfeil abgeschossen werden, wodurch das Spielfeld Zug um Zug kleiner wird. Ziel ist es, den Gegner einzusperren oder sich einen möglichst großen Teil des Spielfelds zu sichern.</p>\n"
+}

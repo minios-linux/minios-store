@@ -1,0 +1,5 @@
+{
+  "name": "TortoiseHg",
+  "description": "Application graphique pour Mercurial",
+  "longDescription": "<p>TortoiseHg offre un outil graphique pour interagir avec le système de gestion de versions distribué Mercurial. L’interface permet d’effectuer plus d’une douzaine d’opérations, telles qu’ajouter des fichiers, valider des modifications, gérer les filtres d’exclusion, consulter l’historique des changements, fusionner, restaurer/annuler, éditer la configuration, synchroniser le dépôt, et bien d’autres. Son point fort est l’outil de validation interactif, qui facilite la sélection des différences de multiples fichiers et leur regroupement en modifications cohérentes (changesets), offrant une expérience plus performante et intuitive que des alternatives comme qct ou hgct (commit-tool).</p>\n"
+}

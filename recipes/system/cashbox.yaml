@@ -1,0 +1,28 @@
+id: cashbox
+name: Cashbox
+description: Memorise cost and calculate price of articles
+longDescription: |
+  <p>
+        Cashbox memorises the cost of articles and calculates the total price and
+        change. It is intended for small clubs on a celebration, where members
+        are not experienced in memorizing prices and doing mental arithmetic.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cashbox
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: de/bschu/cashbox/bca9973e364cb23d5e47cf601d203ffa/icons/128x128/cashbox_de.bschu.cashbox.png
+    width: 128
+    height: 128
+homepage: "https://salsa.debian.org/debian/cashbox"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "slbackup-php",
+  "description": "Interfaccia web per la configurazione di slbackup",
+  "longDescription": "<p>Slbackup-php offre tutte le funzioni necessarie per gestire un repository slbackup.</p>\n<p>Funzionalità:  - pianificazione delle esecuzioni di slbackup;  - modifica del file di configurazione;  - verifica delle chiavi SSH e dei backup eseguiti;  - ripristino dai backup;  - eliminazione dei backup vecchi dal repository.</p>\n"
+}

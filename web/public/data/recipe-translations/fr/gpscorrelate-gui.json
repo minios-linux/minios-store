@@ -1,0 +1,5 @@
+{
+  "name": "GPSCorrelate",
+  "description": "Ajoutez des coordonnées aux images JPEG à l’aide de fichiers GPX",
+  "longDescription": "<p>gpscorrelate renseigne les champs EXIF (Exchangeable Image File Format) des photos numériques avec les informations du GPS (Global Positioning System), telles que GPSLatitude, GPSLongitude, GPSAltitude, etc. Ce processus est appelé « corrélation ».</p>\n<p>La corrélation utilise un ensemble d’images JPEG et des données GPS au format GPX (GPS Exchange Format).</p>\n<p>Si les données GPS sont disponibles précisément au moment où la photo a été prise (à une seconde près), elles sont stockées sans modification dans les champs EXIF. Dans le cas contraire, une interpolation linéaire des points GPS avant et après la prise de vue peut être utilisée.</p>\n<p>Un outil en ligne de commande (paquet gpscorrelate) ainsi qu’une interface graphique GTK+ (paquet gpscorrelate-gui) sont disponibles.</p>\n<p>Ce paquet contient l’interface graphique GTK+.</p>\n"
+}

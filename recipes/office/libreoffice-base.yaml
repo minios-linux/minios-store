@@ -1,0 +1,62 @@
+id: "libreoffice-base"
+name: LibreOffice Base
+description: Database manager part of the LibreOffice productivity suite
+longDescription: |
+  <p>Base is a powerful database manager, part of the LibreOffice productivity suite.
+  It allows you to store, manage and maintain different collections of data.
+  Base makes it easy to keep track of your finances, customers, invoices, or even
+  just the contacts in your address book!</p>
+  <p>For users that are new to databases, Base offers helpful wizards to create tables,
+  queries, forms and reports.
+  It&apos;s a solution for people requiring an easy-to-understand, simple-to-use system.</p>
+  <p>For power users and enterprise requirements, it provides native-support drivers
+  for some of the most-widely employed multi-user database engines:
+  PostgreSQL, MySQL and MS Access.
+  In addition, the built-in support for JDBC- and ODBC-standard drivers allows you
+  to connect to virtually any other existing database engine as well.</p>
+  
+categoryId: office
+icon: Database
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libreoffice-base
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - data
+  - sql
+screenshotSources:
+  - url: l/li/libreoffice-base.desktop/5c1859959f9552dab51677d709880ba8/screenshots/image-1_orig.png
+    thumbnailUrl: l/li/libreoffice-base.desktop/5c1859959f9552dab51677d709880ba8/screenshots/image-1_624x390.png
+    width: 1137
+    height: 712
+  - url: l/li/libreoffice-base.desktop/5c1859959f9552dab51677d709880ba8/screenshots/image-2_orig.png
+    thumbnailUrl: l/li/libreoffice-base.desktop/5c1859959f9552dab51677d709880ba8/screenshots/image-2_624x390.png
+    width: 1138
+    height: 713
+iconSources:
+  - url: l/li/libreoffice-base.desktop/5c1859959f9552dab51677d709880ba8/icons/128x128/libreoffice-base_libreoffice-base.png
+    width: 128
+    height: 128
+developer: The Document Foundation
+homepage: "http://www.libreoffice.org/discover/base/"
+enabled: true
+order: 99

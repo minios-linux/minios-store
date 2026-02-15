@@ -1,0 +1,5 @@
+{
+  "name": "amSynth",
+  "description": "Synthétiseur logiciel soustractif à deux oscillateurs",
+  "longDescription": "<p>amSynth propose :   * deux oscillateurs audio d’inspiration analogique, avec :         o onde sinusoïdale         o onde en dent de scie/triangle à forme ajustable         o onde carrée/impulsion à largeur variable         o génération de bruit         o onde « aléatoire » (bruit à échantillonnage et maintien)         o synchronisation des oscillateurs         o et bien sûr, gestion du détuning et de la plage    * section mixeur avec modulation en anneau    * filtre passe-bas façon analogique :         o courbe de 24 dB/octave         o enveloppe ADSR dédiée         o réglages de coupure et de résonance         o suivi clavier de hauteur    * amplificateur avec enveloppe ADSR dédiée    * LFO de modulation :         o jusqu’à 58 Hz de modulation         o routage possible vers toutes les sections (hauteur, filtre, ampli)    * Effets :         o réverbération stéréo de haute qualité (freeverb)         o distorsion/saturation    * Navigation et gestion aisée des presets    * Fonctionnement autonome OSS ou client Midi/Audio ALSA</p>\n"
+}

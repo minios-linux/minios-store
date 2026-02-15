@@ -1,0 +1,66 @@
+id: "libreoffice-impress"
+name: LibreOffice Impress
+description: Presentation program of the LibreOffice productivity suite
+longDescription: |
+  <p>Impress is a presentation program and part of the LibreOffice productivity suite.
+  Impress is the fastest and easiest way to create effective multimedia presentations.
+  Stunning animation and sensational special effects help you convince your audience.
+  Create presentations that look even more professional than the standard
+  presentations you commonly see at work. Get your colleagues’ and bosses’ attention
+  by creating something a little bit different.</p>
+  <p>LibreOffice supports opening and saving into a wide variety of formats, so you
+  can easily share presentations with users of other popular office suites without
+  worrying about compatibility.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libreoffice-impress
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - slideshow
+  - slides
+  - opendocument presentation
+  - microsoft powerpoint
+  - microsoft works
+  - openoffice impress
+  - odp
+  - ppt
+  - pptx
+screenshotSources:
+  - url: l/li/libreoffice-impress.desktop/a507bdc5f1b985c90400ce8919f6cc1a/screenshots/image-1_orig.png
+    thumbnailUrl: l/li/libreoffice-impress.desktop/a507bdc5f1b985c90400ce8919f6cc1a/screenshots/image-1_624x389@1.png
+    width: 1122
+    height: 701
+  - url: l/li/libreoffice-impress.desktop/a507bdc5f1b985c90400ce8919f6cc1a/screenshots/image-2_orig.png
+    thumbnailUrl: l/li/libreoffice-impress.desktop/a507bdc5f1b985c90400ce8919f6cc1a/screenshots/image-2_624x389@1.png
+    width: 1122
+    height: 701
+iconSources:
+  - url: l/li/libreoffice-impress.desktop/a507bdc5f1b985c90400ce8919f6cc1a/icons/128x128/libreoffice-impress_libreoffice-impress.png
+    width: 128
+    height: 128
+developer: The Document Foundation
+homepage: "http://www.libreoffice.org/discover/impress/"
+enabled: true
+order: 99

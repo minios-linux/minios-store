@@ -1,0 +1,5 @@
+{
+  "name": "Disk Manager",
+  "description": "Gerencie a configuração do sistema de arquivos",
+  "longDescription": "<p>Disk-Manager é um configurador de sistemas de arquivos simples que permite:  * Detectar automaticamente novas partições na inicialização.  * Gerenciar completamente a configuração dos sistemas de arquivos.  * Ativar/desativar o suporte de escrita para NTFS (requer o ntfs-3g instalado).</p>\n"
+}

@@ -1,0 +1,61 @@
+id: msxpertsuite-massxpert
+name: Mass spectrometry software
+description: Model and simulate mass spec data
+longDescription: |
+  <p>
+  
+  				massxpert is a program used to model polymer chemistries (like proteins or
+  				saccharides, for example) and use the models to simulat chemical reactions and
+  				mass spectral data obtained on the reaction products.
+  
+  			</p>
+  <p>The process can be summarized thusly:</p>
+  <ul>
+    <li>Define a brand new polymer chemistry (for example, protein, shipped with the
+  					package);</li>
+    <li>Edit a polymer sequence (in this example, a protein sequence);</li>
+    <li>Start performing chemical simulations, like protein digestion and
+  					gather all the mass data related to the obtained peptides;</li>
+    <li>Then select a peptide and perform a gas phase fragmentation; collect the
+  					mass data corresponding to all the fragments theoretically expected.</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - msxpertsuite-massxpert
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - mass spectrometry
+  - biological chemistry
+  - modelling
+  - polymer chemistry
+screenshotSources:
+  - url: org/msxpertsuite/massxpert/fcc861ebc03041e3d128e343e797d5c0/screenshots/image-1_orig.png
+    thumbnailUrl: org/msxpertsuite/massxpert/fcc861ebc03041e3d128e343e797d5c0/screenshots/image-1_624x613.png
+    width: 968
+    height: 952
+  - url: org/msxpertsuite/massxpert/fcc861ebc03041e3d128e343e797d5c0/screenshots/image-2_orig.png
+    thumbnailUrl: org/msxpertsuite/massxpert/fcc861ebc03041e3d128e343e797d5c0/screenshots/image-2_224x265.png
+    width: 622
+    height: 736
+  - url: org/msxpertsuite/massxpert/fcc861ebc03041e3d128e343e797d5c0/screenshots/image-3_orig.png
+    thumbnailUrl: org/msxpertsuite/massxpert/fcc861ebc03041e3d128e343e797d5c0/screenshots/image-3_624x540.png
+    width: 989
+    height: 857
+iconSources:
+  - cached: msxpertsuite-massxpert_massxpert.png
+    width: 64
+    height: 64
+developer: Filippo Rusconi
+homepage: "http://www.msxpertsuite.org"
+enabled: true
+order: 99

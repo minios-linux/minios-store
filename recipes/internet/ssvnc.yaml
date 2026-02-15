@@ -1,0 +1,40 @@
+id: "ssvnc"
+name: SSL/SSH VNC Viewer
+description: SSVNC - access remote VNC desktops
+longDescription: |
+  <p>VNC stands for Virtual Network Computing. It is, in essence, a remote display system which allows you to view a computing `desktop&apos; environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures.</p>
+  <p>SSVNC is two things:</p>
+  <p>* An enhanced version of the TightVNC client with support for more encodings and color modes, support for x11vnc and UltraVNC extensions, dynamic screen resizing, an improved popup menu, etc.</p>
+  <p>* A GUI that helps set up an SSL (using stunnel) or SSH tunnel to connect to the VNC server through, as well as forwarding of ports for audio (esound/aRts), SMB, CUPS etc.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ssvnc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/ss/ssvnc.desktop/c9fc775ae3e960f4e519935b6cb34b3b/icons/128x128/ssvnc_computer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

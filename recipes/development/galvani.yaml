@@ -1,0 +1,32 @@
+id: galvani
+name: Galvani
+description: Reads data from a device with graphical plots and evaluation
+longDescription: |
+  <p>Galvani reads data from a digital multimeter or other measurement device
+        through a serial interface.
+        Data are plotted graphically and can be evaluated in different forms
+        (Peak-Integration of Chromatogramms, Differential Analysis and other).
+        Additionally data can be produced by a simulation.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - galvani
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - data
+  - serial
+iconSources:
+  - url: com/gitlab/galvani/55c1b910c30c5d8672f716366c5d789b/icons/128x128/galvani_galvani.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.com/galvn/galvani/"
+enabled: true
+order: 99

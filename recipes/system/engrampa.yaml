@@ -1,0 +1,45 @@
+id: "engrampa"
+name: Engrampa Archive Manager
+description: Create and modify an archive
+longDescription: |
+  <p>Engrampa is an archive manager for the MATE environment. It allows you to:</p>
+  <p> * Create and modify archives.  * View the content of an archive.  * View a file contained in an archive.  * Extract files from the archive.</p>
+  <p>Engrampa supports the following formats:  * Tar (.tar) archives, including those compressed with    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),    lzma (.tar.lzma) and xz (.tar.xz)  * Zip archives (.zip)  * Jar archives (.jar, .ear, .war)  * 7z archives (.7z)  * iso9660 CD images (.iso)  * Lha archives (.lzh)  * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)</p>
+  <p>Engrampa doesn&apos;t perform archive operations by itself, but relies on standard tools for this.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - engrampa
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mate
+  - archive
+  - manager
+  - compression
+iconSources:
+  - url: e/en/engrampa.desktop/4fe50d5eb2383c2f678d962b89a80328/icons/128x128/engrampa_engrampa.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

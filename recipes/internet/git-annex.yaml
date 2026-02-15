@@ -1,0 +1,39 @@
+id: "git-annex"
+name: Git Annex
+description: Track and sync the files in your Git Annex
+longDescription: |
+  <p>git-annex allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, time, or disk space.</p>
+  <p>It can store large files in many places, from local hard drives, to a large number of cloud storage services, including S3, WebDAV, and rsync, with a dozen cloud storage providers usable via plugins. Files can be stored encrypted with gpg, so that the cloud storage provider cannot see your data. git-annex keeps track of where each file is stored, so it knows how many copies are available, and has many facilities to ensure your data is preserved.</p>
+  <p>git-annex can also be used to keep a folder in sync between computers, noticing when files are changed, and automatically committing them to git and transferring them to other computers. The git-annex webapp makes it easy to set up and use git-annex this way.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - git-annex
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gi/git-annex.desktop/b791a9fa37ab72444f42cdf04cc4b06b/icons/128x128/git-annex_git-annex.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

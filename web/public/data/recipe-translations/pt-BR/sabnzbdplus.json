@@ -1,0 +1,5 @@
+{
+  "name": "SABnzbd+",
+  "description": "Download de conteúdo do Usenet",
+  "longDescription": "<p>O SABnzbd+ é um buscador de binários para Usenet baseado na web, escrito em Python, com suporte ao popular formato de arquivo nzb. Ele simplifica muito o processo de download do Usenet por meio de uma interface web amigável, totalmente personalizável, além de recursos avançados de pós-processamento, incluindo verificação, reparo, extração e limpeza automática dos arquivos baixados.</p>\n<p>O aplicativo suporta múltiplos servidores, conexões seguras (SSL), IPv6, agendamento, pausa e retomada de downloads, manipulação da fila, feeds RSS, organização automática, histórico de downloads, notificações por e-mail e scripts de pós-processamento personalizados. Uma API abrangente permite a integração com aplicativos de terceiros.</p>\n<p>Este pacote inclui o programa e todos os templates de interface.</p>\n"
+}

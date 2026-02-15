@@ -1,0 +1,26 @@
+id: gextractwinicons
+name: gExtractWinIcons
+description: Extract cursors and icons from MS Windows compatible resource files
+longDescription: |
+  <p>gExtractWinIcons can extract cursors, and icons from MS Windows compatible resource files (like .exe, .dll, .ocx, .cpl).</p>
+  <p>Both icons, cursors and PNG images can be extracted from resources files with different resolution and color depth. The extracted icon files can be also used for &quot;favicon.ico&quot; website icon.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gextractwinicons
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gextractwinicons_gextractwinicons.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

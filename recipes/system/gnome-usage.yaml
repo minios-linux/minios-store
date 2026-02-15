@@ -1,0 +1,63 @@
+id: "gnome-usage"
+name: GNOME Usage
+description: A nice way to view information about use of system resources
+longDescription: |
+  <p>A simple GNOME 3 application to monitor and analyze system resources such
+          as processing, memory, and storage.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-usage
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - monitor
+  - system
+  - process
+  - cpu
+  - memory
+  - network
+  - history
+  - usage
+  - performance
+  - task
+screenshotSources:
+  - url: org/gnome/Usage/5eb374a52700addacd58fd1bfad40733/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Usage/5eb374a52700addacd58fd1bfad40733/screenshots/image-1_624x416@1.png
+    width: 1082
+    height: 722
+  - url: org/gnome/Usage/5eb374a52700addacd58fd1bfad40733/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Usage/5eb374a52700addacd58fd1bfad40733/screenshots/image-2_624x416@1.png
+    width: 1082
+    height: 722
+  - url: org/gnome/Usage/5eb374a52700addacd58fd1bfad40733/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Usage/5eb374a52700addacd58fd1bfad40733/screenshots/image-3_624x416@1.png
+    width: 1082
+    height: 722
+iconSources:
+  - url: org/gnome/Usage/5eb374a52700addacd58fd1bfad40733/icons/128x128/gnome-usage_org.gnome.Usage.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Usage"
+enabled: true
+order: 99

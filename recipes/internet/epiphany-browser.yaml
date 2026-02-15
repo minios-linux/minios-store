@@ -1,0 +1,52 @@
+id: "epiphany-browser"
+name: GNOME Web
+description: Web browser for GNOME
+longDescription: |
+  <p>The web browser for GNOME, featuring tight integration with the desktop
+        and a simple and intuitive user interface that allows you to focus on your
+        web pages. If you’re looking for a simple, clean, beautiful view of the
+        web, this is the browser for you.</p>
+  <p>GNOME Web is often referred to by its code name, Epiphany.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - epiphany-browser
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - web
+  - browser
+  - internet
+screenshotSources:
+  - url: org/gnome/Epiphany.desktop/053d58a5c1aad101f9250b54287862a1/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Epiphany.desktop/053d58a5c1aad101f9250b54287862a1/screenshots/image-1_624x462@1.png
+    width: 1116
+    height: 827
+iconSources:
+  - url: org/gnome/Epiphany.desktop/053d58a5c1aad101f9250b54287862a1/icons/128x128/epiphany-browser_org.gnome.Epiphany.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Web"
+enabled: true
+order: 99

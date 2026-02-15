@@ -1,0 +1,5 @@
+{
+  "name": "LXTerminal",
+  "description": "Utilisez la ligne de commande",
+  "longDescription": "<p>LXTerminal est un émulateur de terminal basé sur VTE pour l’environnement de bureau léger LXDE.</p>\n<p>Il prend en charge les onglets multiples et ne dépend que de peu de bibliothèques, ce qui le rend totalement indépendant de l’environnement de bureau. Afin de réduire la consommation de mémoire et d’optimiser les performances, toutes les instances du terminal partagent un seul processus.</p>\n"
+}

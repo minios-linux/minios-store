@@ -1,0 +1,5 @@
+{
+  "name": "Warp",
+  "description": "Transfer file cepat dan aman",
+  "longDescription": "<p>\n      Warp memungkinkan Anda mengirim file dengan aman melalui internet atau jaringan lokal dengan\n      menukar kode berbasis kata.\n    </p>\n<p>\n      Metode transfer terbaik akan dipilih secara otomatis menggunakan protokol “Magic Wormhole”, termasuk\n      transfer melalui jaringan lokal jika memungkinkan.\n    </p>\n<p>Fitur</p>\n<ul>\n  <li>Kirim file antar beberapa perangkat</li>\n  <li>Setiap transfer file terenkripsi</li>\n  <li>Transfer langsung melalui jaringan lokal jika memungkinkan</li>\n  <li>Membutuhkan koneksi internet</li>\n  <li>Dukungan QR Code</li>\n  <li>Kompatibel dengan Magic Wormhole command line client dan aplikasi lain yang mendukung</li>\n</ul>\n"
+}

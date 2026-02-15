@@ -1,0 +1,38 @@
+id: qjackrcd
+name: QJackRcd
+description: A simple Jack recorder
+longDescription: |
+  <p>QJackRcd is a simple stereo recorder for Jack with few features as silence processing for automatic pause, file splitting, background file post-processing. It can be used with QJackCtl.</p>
+  <p>Features:  * QT simple GUI with disk usage and vumeter.  * Jack support for recording, jack transport support.  * Silence compressing with auto pause and optional file splitting.  * Background WAV post processing for format conversion and signal    processing.  * Automatic connection with first launched jack source facility.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qjackrcd
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qjackrcd_qjackrcd.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,32 @@
+id: xfpanel-switch
+name: Xfpanel Switch
+description: Application to manage different panel layouts in Xfce
+longDescription: |
+  <p>Multitude of panel layouts can be created using Xfce panel. This tool enables managing different layouts with little effort. Xfpanel-switch makes it possible to backup, restore, import and export panel layouts.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfpanel-switch
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - configuration
+  - user
+screenshotSources:
+  - url: x/xf/xfpanel-switch.desktop/FA015B434DB6B9F0D9C3925AAD02283B/screenshots/image-1_orig.png
+    thumbnailUrl: x/xf/xfpanel-switch.desktop/FA015B434DB6B9F0D9C3925AAD02283B/screenshots/image-1_624x351.png
+    width: 960
+    height: 540
+iconSources:
+  - url: x/xf/xfpanel-switch.desktop/FA015B434DB6B9F0D9C3925AAD02283B/icons/128x128/xfpanel-switch_xfce4-panel.png
+    width: 128
+    height: 128
+homepage: "https://launchpad.net/xfpanel-switch"
+enabled: true
+order: 99

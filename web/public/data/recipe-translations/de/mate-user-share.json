@@ -1,0 +1,5 @@
+{
+  "name": "Persönliche Dateifreigabe",
+  "description": "Einstellungen für das Teilen von Dateien",
+  "longDescription": "<p>MATE User Share ist ein kleines Tool, das verschiedene Open-Source-Projekte integriert, um benutzerfreundliche Dateifreigabe auf Anwender-Ebene zu ermöglichen.</p>\n<p>Das Programm läuft im Hintergrund, sobald der Benutzer angemeldet ist. Wenn die Dateifreigabe aktiviert wird, startet ein WebDAV-Server, der den Ordner $HOME/Public freigibt. Die Freigabe wird anschließend per mDNS/Rendezvous im lokalen Netzwerk bekannt gemacht, sodass sie im Netzwerkbereich von GNOME sichtbar ist.</p>\n<p>Als WebDAV-Server wird Apache verwendet – dieser muss installiert sein. Für mDNS-Unterstützung wird Avahi oder Howl benötigt; auch mDNSResolver sollte aktiv sein.</p>\n"
+}

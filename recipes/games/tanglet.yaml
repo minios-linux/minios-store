@@ -1,0 +1,47 @@
+id: "tanglet"
+name: Tanglet
+description: Single player variant of Boggle
+longDescription: |
+  <p>The Object of the game is to list as many words as you can before the time runs out. Every time you find a new word, you are given more time. Each word must be at least three letters long.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tanglet
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - logic
+screenshotSources:
+  - url: t/ta/tanglet.desktop/00fa05e6b42ec79289b824222a828b0b/screenshots/image-1_orig.png
+    thumbnailUrl: t/ta/tanglet.desktop/00fa05e6b42ec79289b824222a828b0b/screenshots/image-1_224x191@1.png
+    width: 496
+    height: 423
+iconSources:
+  - url: t/ta/tanglet.desktop/00fa05e6b42ec79289b824222a828b0b/icons/128x128/tanglet_tanglet.png
+    width: 128
+    height: 128
+developer: Graeme Gott
+homepage: "https://gottcode.org/tanglet/"
+enabled: true
+order: 99

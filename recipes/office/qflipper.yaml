@@ -1,0 +1,29 @@
+id: "qflipper"
+name: qFlipper
+description: Update your Flipper easily
+longDescription: |
+  <p>qFlipper is a desktop application for updating Flipper Zero firmware.</p>
+  <p>Features include:  - Update Flipper&apos;s firmware and supplemental data with a press of one button  - Repair a broken firmware installation  - Stream Flipper&apos;s display and control it remotely  - Install firmware from a .dfu file  - Backup and restore settings, progress and pairing data  - Command line interface</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qflipper
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: one/flipperzero/qflipper/b92ed8fa407b89fc43d01112fc26c06d/icons/128x128/qflipper_qFlipper.png
+    width: 128
+    height: 128
+homepage: "https://flipperzero.one/update"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Flent",
+  "description": "Testador de Rede Flexível",
+  "longDescription": "<p>O Testador de Rede Flexível: Interface em Python para executar múltiplas instâncias simultâneas de netperf/iperf/ping e agregar os resultados.</p>\n<p>Os testes são especificados como arquivos de configuração (na verdade, scripts Python), e há diversos analisadores para a saída dos instrumentos. Atualmente, estão disponíveis parsers para netperf em modo -D, iperf em modo csv e ping/ping6 em modo -D, além de um analisador genérico para comandos que retornam apenas um número.</p>\n<p>Vários comandos podem ser executados em paralelo e, desde que forneçam valores com registro de horário (como netperf, ping e iperf — este último com um pequeno patch disponível no diretório misc/), os pontos de dados dos testes podem ser alinhados no tempo, interpolando diferenças entre as medições reais. Isso permite, por exemplo, gerar gráficos dos tempos de ping antes, durante e após o carregamento de uma conexão.</p>\n"
+}

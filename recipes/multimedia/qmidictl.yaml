@@ -1,0 +1,39 @@
+id: qmidictl
+name: QmidiCtl
+description: A MIDI Remote Controller via UDP/IP Multicast
+longDescription: |
+  <p>QmidiCtl is a MIDI remote controller application that sends MIDI
+    data over the network, using UDP/IP multicast. Inspired by multimidicast
+    (http\://llg.cubic.org/tools) and designed to be compatible with ipMIDI
+    for Windows (http\://nerds.de).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qmidictl
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - midi
+  - multicast
+  - network
+  - udp
+  - ip
+  - qt
+screenshotSources:
+  - url: org/rncbc/qmidictl/8c0add09b9ec274a82f4387be739b20a/screenshots/image-1_orig.png
+    thumbnailUrl: org/rncbc/qmidictl/8c0add09b9ec274a82f4387be739b20a/screenshots/image-1_224x118@1.png
+    width: 640
+    height: 340
+iconSources:
+  - url: org/rncbc/qmidictl/8c0add09b9ec274a82f4387be739b20a/icons/128x128/qmidictl_org.rncbc.qmidictl.png
+    width: 128
+    height: 128
+homepage: "https://qmidictl.sourceforge.io"
+enabled: true
+order: 99

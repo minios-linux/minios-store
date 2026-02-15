@@ -1,0 +1,5 @@
+{
+  "name": "AppStream CLI",
+  "description": "Utilitas untuk bekerja dengan metadata AppStream",
+  "longDescription": "<p>AppStream adalah spesifikasi lintas distribusi yang menyediakan metadata tentang komponen perangkat lunak.</p>\n<p>Alat ini memungkinkan pembacaan, penulisan, validasi, serta transformasi metadata AppStream dalam format XML atau YAML.\n      Selain itu, utilitas ini juga memberikan akses ke kumpulan metadata sistem, misalnya untuk mencari perangkat lunak yang menyediakan jenis MIME tertentu,\n      dan menginstalnya berdasarkan pengenal komponen perangkat lunak.</p>\n"
+}

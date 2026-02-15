@@ -1,0 +1,5 @@
+{
+  "name": "Fcitx",
+  "description": "Iniciar método de entrada",
+  "longDescription": "<p>Fcitx es un marco para métodos de entrada con soporte para extensiones, que proporciona una interfaz para ingresar caracteres de diferentes alfabetos en aplicaciones utilizando diversos sistemas de mapeo.</p>\n<p>Ofrece una experiencia moderna y agradable, con herramientas gráficas de configuración intuitivas, apariencia y tablas de mapeo personalizables. Es altamente modular y extensible, con módulos de entrada GTK+ 2/3 y Qt4, soporte para interfaces gráficas basadas en Fbterm, Xlib puro, GTK+ o KDE, y una API orientada a desarrolladores.</p>\n<p>Este paquete proporciona los archivos de datos esenciales. Si buscas una experiencia funcional de entrada, instala el paquete \"fcitx\" en su lugar.</p>\n"
+}

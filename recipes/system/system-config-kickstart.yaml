@@ -1,0 +1,23 @@
+id: system-config-kickstart
+name: Kickstart
+description: Create a kickstart file
+longDescription: |
+  <p>Kickstart Configurator is a graphical tool for creating Kickstart files, which allow scripted fully automatic installations.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - system-config-kickstart
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: system-config-kickstart_system-config-kickstart.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

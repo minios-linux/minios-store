@@ -1,0 +1,34 @@
+id: "xfce4-power-manager"
+name: Power Manager
+description: Settings for the Xfce Power Manager
+longDescription: |
+  <p>This power manager for the Xfce desktop enables laptop users to set up a power profile for two different modes &quot;on battery power&quot; and &quot;on ac power&quot; while still allowing desktop users to at least change the DPMS settings and CPU frequency using the settings dialogue..</p>
+  <p>It features:   * battery monitoring   * cpu frequency settings   * monitor DPMS settings   * suspend/Hibernate   * LCD brightness control   * Lid, sleep and power switches control</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-power-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: x/xf/xfce4-power-manager-settings.desktop/48410cc18ea52c6f4d44436ab04ddb45/icons/128x128/xfce4-power-manager_org.xfce.powermanager.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

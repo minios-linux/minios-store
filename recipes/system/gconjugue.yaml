@@ -1,0 +1,44 @@
+id: gconjugue
+name: GConjugue
+description: Conjugates Portuguese verbs
+longDescription: |
+  <p>Graphical program to conjugate Portuguese verbs as spoken in Brazil.</p>
+  <p>If the entered expression is not a verb, GConjugue tries to find it among the conjugated forms of known verbs. It also has the option of conjugating verbs as ordinary Brazilians do. In fact, Brazilians of different regions deviate from the normative grammar in different ways, but the conjugation displayed will already help foreigners to grasp what Brazilians are saying.</p>
+  <p>This program is a graphical front-end to console tool known as conjugue (package brazilian-conjugate). Alternatively, you can use conjugar, the text only version for gconjugue.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gconjugue
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dictionary
+  - brazilian
+  - portuguese
+  - verbs
+iconSources:
+  - cached: gconjugue_gconjugue.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,34 @@
+id: "kde-telepathy-contact-list"
+name: IM Contacts
+description: Displays your instant messenger contacts
+longDescription: |
+  <p>This package provides a contact list application based on telepathy, which allows you to list your friends from all your IM accounts and begin chatting with them.</p>
+  <p>This package is not meant to be used standalone. It is recommended to install the kde-telepathy metapackage instead.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kde-telepathy-contact-list
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: org/kde/ktpcontactlist/a591d6e7e1480e77722b890200e2f28f/icons/128x128/kde-telepathy-contact-list_telepathy-kde.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

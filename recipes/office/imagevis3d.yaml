@@ -1,0 +1,37 @@
+id: imagevis3d
+name: ImageVis3D
+description: Desktop volume rendering application for large data
+longDescription: |
+  <p>ImageVis3D is a volume rendering application specifically designed to render large data.  This is achieved by splitting the dataset into multiple levels of detail (LoD), with each level itself decomposed into multiple bricks (atomic rendering primitive).  Interaction occurs at the coarsest LoD, which can be rendered instantaneously on almost all modern systems.  After a configurable delay, ImageVis3D will successively render finer levels of detail, until the data are visible at their native resolution.</p>
+  <p>Development of ImageVis3D is sponsored by the NIH/NCRR Center for Integrative Biomedical Computing (CIBC), and the DOE Visualization And Analytics Center for Enabling Technologies (VACET).</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - imagevis3d
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - scientific visualization
+  - scientific computing
+  - ray tracing
+  - ray-tracing rt
+  - image analysis
+  - computational field problems
+  - inverse problems
+  - forward problems
+  - adaptive methods
+  - isosurface extraction
+iconSources:
+  - cached: imagevis3d_imagevis3d.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

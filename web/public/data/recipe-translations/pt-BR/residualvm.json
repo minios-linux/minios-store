@@ -1,0 +1,5 @@
+{
+  "name": "ResidualVM",
+  "description": "Interpretador para vários jogos 3D",
+  "longDescription": "<p>O ResidualVM é um interpretador de jogos 3D multiplataforma que permite jogar as aventuras 3D da LucasArts baseadas em Lua (desde que você possua os arquivos de dados originais):</p>\n<p> * Grim Fandango  * Myst III  * Escape from Monkey Island (ainda não funciona)</p>\n<p>O ResidualVM utiliza OpenGL para aceleração gráfica 3D via hardware. Também inclui um renderizador por software para máquinas sem suporte a OpenGL.</p>\n"
+}

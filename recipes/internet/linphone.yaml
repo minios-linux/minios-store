@@ -1,0 +1,31 @@
+id: linphone
+name: Linphone
+description: Linphone is a web-phone
+longDescription: |
+  <p>Linphone is an audio and video internet phone using the SIP protocol. It has a GTK+ and console interface, includes a large variety of audio and video codecs, and provides IM features.</p>
+  <p>The main features of linphone are:   - a nice graphical interface;   - it includes a large variety of codecs with different quality / bandwidths;   - it uses the well-known and standardised SIP protocol.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - linphone
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - messaging
+  - im
+  - sip
+  - voip
+iconSources:
+  - cached: linphone_linphone.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

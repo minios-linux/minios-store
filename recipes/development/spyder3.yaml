@@ -1,0 +1,35 @@
+id: spyder3
+name: Spyder
+description: Scientific Python Development Environment
+longDescription: |
+  <p>Spyder is a free open-source Python development environment providing MATLAB-like features in a simple and light-weighted software.</p>
+  <p>It contains a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features
+        and a numerical computing environment thanks to the support of IPython (enhanced interactive Python interpreter)
+  and popular Python libraries such as NumPy
+        (linear algebra), SciPy (signal and image processing) or matplotlib (interactive 2D/3D plotting).</p>
+  <p>Spyder may also be used as a library providing powerful console-related widgets for your PyQt-based applications – for example, it may be used to integrate
+        a debugging console directly in the layout of your graphical user interface.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - spyder3
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: s/sp/spyder3.desktop/85D42021FFC5662A7647A8B8C2572E85/screenshots/image-1_orig.png
+    thumbnailUrl: s/sp/spyder3.desktop/85D42021FFC5662A7647A8B8C2572E85/screenshots/image-1_624x425.png
+    width: 898
+    height: 613
+iconSources:
+  - cached: spyder3_spyder3.png
+    width: 128
+    height: 128
+developer: Spyder Project Contributors
+enabled: true
+order: 99

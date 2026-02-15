@@ -1,0 +1,44 @@
+id: "glabels"
+name: gLabels
+description: "Create labels, business cards and media covers"
+longDescription: |
+  <p>gLabels is a program for creating labels and business cards. It is designed to work with various laser/ink-jet peel-off label and business card sheets that you&apos;ll find at most office supply stores.</p>
+  <p>gLabels can be used to design address labels, name tags, price tags, cd/dvd labels, or just about anything else that is organized in a regular pattern on a sheet of paper. Labels (or cards) can contain text, images, lines, shapes, and barcodes. gLabels also includes a document-merge feature which lets you print a unique label for each record from an external data source, such as a CSV file or an Evolution address book.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - glabels
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: g/gl/glabels-3.0.desktop/739EC22DF61124721B08989422574558/screenshots/image-1_orig.png
+    thumbnailUrl: g/gl/glabels-3.0.desktop/739EC22DF61124721B08989422574558/screenshots/image-1_624x453.png
+    width: 881
+    height: 640
+iconSources:
+  - url: g/gl/glabels-3.0.desktop/2e33492b86e895c73fc3d106c7954cc0/icons/128x128/glabels_glabels-3.0.png
+    width: 128
+    height: 128
+homepage: "http://glabels.org/"
+enabled: true
+order: 99

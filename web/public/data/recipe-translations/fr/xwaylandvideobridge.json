@@ -1,0 +1,5 @@
+{
+  "name": "Xwayland Video Bridge",
+  "description": "Fournit les flux de capture d’écran XDG Desktop Portals aux applications X11",
+  "longDescription": "<p>De nombreuses applications X11 utilisent encore les mécanismes X11 pour partager le contenu d’autres applications et écrans. Depuis quelques années, les XDG Desktop Portals ont été créés pour remplir ce rôle, et il est attendu que les applications les utilisent. Ce programme fournit aux applications X11 héritées n’ayant pas adopté le nouveau système l’accès aux flux disponibles via les XDG Desktop Portals.</p>\n"
+}

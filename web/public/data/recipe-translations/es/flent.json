@@ -1,0 +1,5 @@
+{
+  "name": "Flent",
+  "description": "Herramienta flexible para pruebas de red",
+  "longDescription": "<p>Flent (FLExible Network Tester): interfaz en Python para ejecutar múltiples instancias simultáneas de netperf, iperf o ping, y agregar los resultados.</p>\n<p>Las pruebas se definen mediante archivos de configuración (que en realidad son código Python) y el sistema incluye diversos analizadores para la salida de herramientas. Actualmente se proporcionan analizadores para netperf en modo -D, iperf en modo csv y ping/ping6 en modo -D, además de un analizador genérico para comandos que solo devuelven un número.</p>\n<p>Se pueden ejecutar varios comandos en paralelo y, siempre que su salida esté marcada con sello de tiempo (como netperf, ping e iperf; este último con un pequeño parche disponible en el directorio misc/), los datos de las pruebas pueden alinearse temporalmente, interpolando las diferencias entre los puntos de medición reales. Esto permite graficar, por ejemplo, los tiempos de ping antes, durante y después de una carga en el enlace.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "AppStream CLI",
+  "description": "Ein Werkzeug zur Verwaltung von AppStream-Metadaten",
+  "longDescription": "<p>AppStream ist eine distributionsübergreifende Spezifikation zur Bereitstellung von Metadaten über Softwarekomponenten.</p>\n<p>Dieses Tool ermöglicht das Lesen, Schreiben, Validieren und Transformieren von AppStream-XML- oder YAML-Metadaten.\n      Außerdem bietet es Zugriff auf den systemweiten Metadaten-Pool, etwa um nach Software zu suchen, die einen bestimmten MIME-Typ bereitstellt, und diese anhand ihres Komponenten-Identifikators zu installieren.</p>\n"
+}

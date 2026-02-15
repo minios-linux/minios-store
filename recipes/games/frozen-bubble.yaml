@@ -1,0 +1,43 @@
+id: frozen-bubble
+name: Frozen-Bubble
+description: Pop out the bubbles!
+longDescription: |
+  <p>Frozen-Bubble is a clone of the popular &quot;Puzzle Bobble&quot; game, in which you attempt to shoot bubbles into groups of the same color to cause them to pop.</p>
+  <p>Players compete as penguins and must use the arrow keys to aim a colored bubble at groups of bubbles. The objective is to clear all the bubbles off the screen before a bubble passes below a line at the bottom.</p>
+  <p>It features 100 single-player levels, a two-player mode, music and striking graphics. A level editor is also included to allow players to create and play their own levels.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - frozen-bubble
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - bubbles
+  - pop
+iconSources:
+  - cached: frozen-bubble_frozen-bubble.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

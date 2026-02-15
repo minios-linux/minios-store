@@ -1,0 +1,31 @@
+id: gnujump
+name: GNUjump
+description: Jump up the tower to survive
+longDescription: |
+  <p>The goal in this game is to jump to the next floor so you don&apos;t fall down. As you go higher in the falling tower the floors will fall faster.  Try to survive longer than anyone, or, in single player mode, try to get as high as you can.</p>
+  <p>At the moment, the game is called sdljump (and it will appear as such in the menu), but the package name has changed following an upstream rename.  The new version of the game will be called gnujump as well.</p>
+  <p>The game is a clone of xjump, and provides all its features, plus some more:  * Multiplayer mode (up to four players, not networked)  * Smooth graphics possible (but xjump style as well)  * Different themes are available  * Can use OpenGL for rendering  * Music and sound effects  * Recording (and replaying) of games</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnujump
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: gnujump_gnujump.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

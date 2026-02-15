@@ -1,0 +1,52 @@
+id: "malcontent-gui"
+name: Parental Controls
+description: Set parental controls and monitor usage by users
+longDescription: |
+  <p>
+        Manage users’ parental controls restrictions, controlling how long they
+        can use the computer for, what software they can install, and what
+        installed software they can run.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - malcontent-gui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - parental controls
+  - screen time
+  - app restrictions
+  - web browser restrictions
+  - oars
+  - usage
+  - usage limit
+  - kid
+  - child
+screenshotSources:
+  - url: org/freedesktop/MalcontentControl/26697ea425b697ad7974b6c71813407f/screenshots/image-1_orig.png
+    thumbnailUrl: org/freedesktop/MalcontentControl/26697ea425b697ad7974b6c71813407f/screenshots/image-1_224x283@1.png
+    width: 552
+    height: 699
+iconSources:
+  - url: org/freedesktop/MalcontentControl/26697ea425b697ad7974b6c71813407f/icons/128x128/malcontent-gui_org.freedesktop.MalcontentControl.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://gitlab.freedesktop.org/pwithnall/malcontent"
+enabled: true
+order: 99

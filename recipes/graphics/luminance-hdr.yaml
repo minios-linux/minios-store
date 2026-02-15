@@ -1,0 +1,42 @@
+id: luminance-hdr
+name: Luminance HDR
+description: Create HDR images
+longDescription: |
+  <p>Luminance HDR is an application for taking a set of pictures of the same scene with different exposure settings, and creating a high dynamic range (HDR) image. It supports a range on input images, including JPEG, TIFF and RAW. It can also rotate and crop, and tonemap HDR images.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - luminance-hdr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: l/lu/luminance-hdr.desktop/5B9D8577BB2D09B45201F4BDA05A5196/screenshots/image-1_orig.png
+    thumbnailUrl: l/lu/luminance-hdr.desktop/5B9D8577BB2D09B45201F4BDA05A5196/screenshots/image-1_624x338.png
+    width: 1366
+    height: 740
+iconSources:
+  - cached: luminance-hdr_luminance-hdr.png
+    width: 64
+    height: 64
+developer: Luminance HDR Development Team
+homepage: "http://qtpfsgui.sourceforge.net/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "refnx",
+  "description": "Análise de reflectometria de nêutrons e raios X em Python",
+  "longDescription": "<p>Pacote Python flexível e poderoso para análise de ajuste de curvas, especialmente voltado para dados de reflectometria de nêutrons e raios X.</p>\n<p>Utiliza vários algoritmos do scipy.optimize para ajuste de dados e estimativa de incertezas dos parâmetros. Além dos algoritmos do scipy, o refnx emprega o emcee Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler para estimativa Bayesiana de parâmetros.</p>\n"
+}

@@ -1,0 +1,35 @@
+id: "pavucontrol-qt"
+name: PulseAudio Volume Control
+description: Adjust the volume level
+longDescription: |
+  <p>Qt port of volume control pavucontrol of sound server PulseAudio. As such it can be used to adjust all controls provided by PulseAudio as well as some additional settings.</p>
+  <p>The software belongs to the LXQt project but its usage isn&apos;t limited to this desktop environment.</p>
+  <p>This package contain the application files.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pavucontrol-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: p/pa/pavucontrol-qt.desktop/a2d27eb816f0cae56c70f2aedf66dd62/icons/128x128/pavucontrol-qt_multimedia-volume-control.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

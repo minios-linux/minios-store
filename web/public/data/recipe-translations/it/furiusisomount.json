@@ -1,0 +1,5 @@
+{
+  "name": "Furius ISO Mount",
+  "description": "Gestisci immagini ISO, IMG, BIN, MDF e NRG",
+  "longDescription": "<p>Furius ISO Mount è una semplice applicazione per montare file immagine ISO, IMG, BIN, MDF e NRG senza doverli masterizzare su disco.</p>\n<p>Offre le seguenti funzionalità:  - Montaggio automatico di immagini ISO, IMG, BIN, MDF e NRG  - Creazione automatica del punto di mount nella propria home directory  - Smontaggio automatico dei file immagine  - Rimozione automatica della directory di mount, ripristinando la home allo stato precedente  - Salvataggio automatico della cronologia degli ultimi 10 file montati  - Possibilità di montare più immagini contemporaneamente  - Masterizzazione di file ISO e IMG su disco ottico  - Generazione di checksum Md5 e SHA1  - Recupero automatico delle immagini precedentemente non smontate  - Generazione automatica di un file di log con tutti i comandi necessari per montare e smontare manualmente le immagini.</p>\n"
+}

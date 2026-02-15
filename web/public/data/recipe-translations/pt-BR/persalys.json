@@ -1,0 +1,5 @@
+{
+  "name": "Persalys",
+  "description": "Interface gráfica para tratamento de incertezas e gestão de variabilidades",
+  "longDescription": "<p>\n      Persalys é uma interface gráfica para o OpenTURNS, dedicada ao tratamento de incertezas e à gestão de variabilidades. O software atua como uma ponte entre simulação computacional, análises probabilísticas e ciências de dados. A interface está disponível em francês ou em inglês.\n    </p>\n<p>\n      O Persalys permite:\n    </p>\n<p>\n      - criar modelos matemáticos: analíticos, acoplamento com modelo externo (elementos finitos, etc.), FMU;\n    </p>\n<p>\n      - analisar a variabilidade dos parâmetros por meio de diversos métodos e ferramentas de visualização;\n    </p>\n<p>\n      - analisar estatisticamente dados de medição, inferir distribuições de probabilidade ou criar metamodelos.\n    </p>\n"
+}

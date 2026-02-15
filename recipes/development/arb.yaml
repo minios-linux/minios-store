@@ -1,0 +1,41 @@
+id: arb
+name: ARB
+description: "Visit http://www.arb-home.de"
+longDescription: |
+  <p>ARB is a graphical suite of tools for sequence database handling and data analysis. A central database of processed (aligned) sequences and any type of additional data linked to the sequence entries is structured according to phylogeny or other user-defined criteria.</p>
+  <p>The ARB project (from the Latin &quot;arbor&quot;, a tree) is a joint initiative of the Lehrstuhl fuer Mikrobiologie http://www.mikro.biologie.tu-muenchen.de/ and the Lehrstuhl fuer Rechnertechnik und Rechnerorganisation http://wwwbode.informatik.tu-muenchen.de/ of the Technical University of Munich.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - arb
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - sequence
+  - phylogeny
+  - dna
+  - rna
+  - taxonomy
+  - gene
+  - 16s
+  - ssu
+  - lsu
+  - rrna
+iconSources:
+  - cached: arb_arb.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

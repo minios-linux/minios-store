@@ -1,0 +1,38 @@
+id: lgeneral
+name: LGeneral
+description: LGeneral is a turn-based strategy engine heavily inspired by Panzer General
+longDescription: |
+  <p>LGeneral is a turn-based strategy game heavily inspired by Panzer General. You play single scenarios or whole campaigns turn by turn against a human player or the AI.</p>
+  <p>Entrenchment, rugged defense, defensive fire, surprise contacts, surrender, unit supply, weather influence, reinforcements and other implementations contribute to the tactical and strategic depth of the game.</p>
+  <p>This is the game engine only. LGeneral requires lgeneral-data or lgc-pg, which converts the game data of the original Panzer General game, to function properly.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lgeneral
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - turn-based
+  - tiles
+  - wwi
+  - army
+  - troops
+  - battle
+iconSources:
+  - cached: lgeneral_lgeneral.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

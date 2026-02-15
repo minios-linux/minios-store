@@ -1,0 +1,5 @@
+{
+  "name": "PerlPrimer",
+  "description": "Conception graphique d'amorces pour PCR et séquençage",
+  "longDescription": "<p>PerlPrimer est une application gratuite et open source avec interface graphique, développée en Perl, qui permet de concevoir des amorces pour la réaction de polymérisation en chaîne (PCR), la PCR bisulfite, la PCR en temps réel (QPCR) et le séquençage. Elle vise à automatiser et simplifier la conception des amorces.</p>\n<p>Lorsqu'elle est utilisée en ligne, l’outil s’interface efficacement avec le projet Ensembl pour des analyses approfondies de la structure des gènes, ce qui permet notamment de prendre en compte l’emplacement des exons et des introns lors de la conception des amorces. Les séquences elles-mêmes peuvent également être récupérées.</p>\n"
+}

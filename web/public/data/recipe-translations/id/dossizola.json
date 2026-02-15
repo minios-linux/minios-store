@@ -1,0 +1,5 @@
+{
+  "name": "Do'SSi Zo'la",
+  "description": "Game Isola dengan grafis menarik",
+  "longDescription": "<p>Do'SSi Zo'la adalah implementasi SDL dari permainan papan Isola, menampilkan animasi menarik yang membuatnya cocok untuk anak-anak.</p>\n<p>Tujuan utama dari permainan Isola adalah memblokir lawan dengan menghancurkan kotak-kotak di sekitarnya. Pada setiap giliran, masing-masing pemain harus terlebih dahulu berpindah ke salah satu kotak yang bersebelahan dengan posisinya saat ini, lalu menghancurkan satu kotak pilihannya. Pemain yang pertama kali tidak dapat bergerak dinyatakan kalah.</p>\n<p>Do'SSi Zo'la menawarkan beberapa variasi dari aturan standar.</p>\n"
+}

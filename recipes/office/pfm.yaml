@@ -1,0 +1,43 @@
+id: pfm
+name: Postgres Forms (pfm)
+description: Graphical user interface for PostgreSQL database
+longDescription: |
+  <p>Postgres Forms (pfm) is a client application with a graphical user interface for the PostgreSQL data base server. It enables the user: to design forms for adding, modifying or deleting records of data base tables;</p>
+  <p>  - to design links (one to many relationships) from one form     to another, for navigating in the data base;</p>
+  <p>  - to design and to generate reports based on the data in a     table or view;</p>
+  <p>  - to edit and to execute SQL statements.</p>
+  <p>Postgres Forms is implemented in Tcl/Tk, but there is no need for the user to program anything in Tcl/Tk. The user only has to use SQL for creating tables and views and for designing forms, links and reports.</p>
+  <p>Postgres Forms makes no attempt to hide the underlying SQL. On the contrary, in most cases, it shows both the SQL statements it sends to the PostgreSQL server and the results it gets back.</p>
+  <p>The PostgreSQL server can be remote or local.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pfm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pfm_pfm-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,39 @@
+id: lazarus-ide-2-2
+name: Lazarus (2.2.6)
+description: Lazarus IDE (2.2.6)
+longDescription: |
+  <p>Lazarus is an IDE to create (graphical and console) applications with Free Pascal, the (L)GPLed Pascal and Object Pascal compiler that runs on Windows, Linux, Mac OS X, FreeBSD and more.</p>
+  <p>Lazarus is the missing part of the puzzle that will allow you to develop programs for all of the above platforms in a Delphi-like environment. The IDE is a RAD tool that includes a form designer.</p>
+  <p>Unlike Java&apos;s &quot;write once, run anywhere&quot; motto, Lazarus and Free Pascal strive for &quot;write once, compile anywhere&quot;. Since the exact same compiler is available on all of the above platforms you don&apos;t need to do any recoding to produce identical products for different platforms.</p>
+  <p>In short, Lazarus is a free RAD tool for Free Pascal using its Lazarus Component Library (LCL).</p>
+  <p>This package contains the common files required to run Lazarus IDE.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lazarus-ide-2.2
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - editor
+  - pascal
+  - ide
+  - freepascal
+  - fpc
+  - design
+  - designer
+iconSources:
+  - url: l/la/lazarus-2.2.6.desktop/30ec455b4bbcae08c6665fc99052e74a/icons/128x128/lazarus-ide-2.2_lazarus-2.2.6.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

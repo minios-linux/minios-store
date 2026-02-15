@@ -1,0 +1,44 @@
+id: "kiriki"
+name: Kiriki
+description: Yahtzee-like Dice Game
+longDescription: |
+  <p>Kiriki is an addictive and fun dice game, designed to be played by as many as six players.
+        Participants have to collect points by rolling five dice for up to three times per single turn.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kiriki
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kiriki/ea1c3b1cc20fb1bab7e32078f1da84d1/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kiriki/ea1c3b1cc20fb1bab7e32078f1da84d1/screenshots/image-1_624x601@1.png
+    width: 674
+    height: 650
+iconSources:
+  - url: org/kde/kiriki/ea1c3b1cc20fb1bab7e32078f1da84d1/icons/128x128/kiriki_kiriki.png
+    width: 128
+    height: 128
+homepage: "http://games.kde.org/game.php?game=kiriki"
+enabled: true
+order: 99

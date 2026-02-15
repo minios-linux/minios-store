@@ -1,0 +1,43 @@
+id: aladin
+name: Aladin
+description: Astronomical Sky Atlas and star catalogue for astronomical images and datasets
+longDescription: |
+  <p>Aladin is an interactive software sky atlas allowing the user to visualise digitised astronomical images, to superimpose entries from astronomical catalogues or databases, and to interactively access related data and information from the Simbad database, the VizieR service and other archives for all known sources in the field.</p>
+  <p>Created in 1999 by the Centre de Données astronomiques de Strasbourg (CDS), Aladin has become a widely-used tool of the Virtual Observatory (VO) framework capable of addressing challenges such as locating data of interest, accessing and exploring distributed datasets, and visualising multi-wavelength data. Compliance with existing or emerging VO standards, interconnection with other visualisation or analysis tools, and the ability to easily compare heterogeneous data are the key topics which allow Aladin to be a powerful data exploration and integration tool.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - aladin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - vo
+  - astronomy
+  - viewer
+  - catalog
+iconSources:
+  - cached: aladin_aladin.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

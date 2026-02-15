@@ -1,0 +1,5 @@
+{
+  "name": "CQRLOG",
+  "description": "Program pencatatan lanjutan untuk operator radio amatir",
+  "longDescription": "<p>CQRLOG adalah aplikasi pencatat log radio amatir canggih berbasis database MySQL embedded. Menyediakan kontrol radio menggunakan pustaka hamlib (saat ini mendukung lebih dari 140 tipe dan model radio), koneksi DX cluster, akses callbook HamQTH/QRZ (XML), grayliner, dukungan database manajer QSL internal, serta algoritma resolusi negara paling akurat berdasarkan tabel negara yang dikembangkan oleh OK1RR. CQRLOG dirancang untuk pencatatan harian komunikasi HF, CW &amp; SSB dengan fokus utama pada kemudahan penggunaan dan pemeliharaan.</p>\n"
+}

@@ -1,0 +1,26 @@
+id: gnomekiss
+name: GnomeKiSS
+description: Gnome's KiSSeake dolls viewer
+longDescription: |
+  <p>GnomeKiSS is an implementation of French-KiSS for the GNOME desktop environment, using GNOME, GTK+ and the X Window System. French KiSS is an enhanced KiSS/GS for scriptable dolls, where KiSS is an abbreviation for Kisekae Set System.</p>
+  <p>Cherry KiSS and Enhanced Palette are supported, with full alpha transparency and FKiSS.  If you want to open any lzh paperdoll files you have to install the package lha from non-free as well.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnomekiss
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: gnomekiss_gnome-kiss.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

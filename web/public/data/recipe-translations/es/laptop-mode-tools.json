@@ -1,0 +1,5 @@
+{
+  "name": "Configuración de Laptop Mode Tools",
+  "description": "Activa o desactiva las opciones de Laptop Mode Tools",
+  "longDescription": "<p>El modo laptop es una función del núcleo Linux que permite ahorrar significativamente energía en portátiles, permitiendo que el disco duro permanezca apagado durante más tiempo. Este paquete incluye los scripts de usuario necesarios para habilitar laptop mode.</p>\n<p>Incluye soporte para habilitar automáticamente el modo laptop cuando el equipo funciona con batería. También ofrece varias funciones adicionales de gestión de energía, como iniciar o detener servicios según el modo de energía, hibernar automáticamente si el nivel de batería es bajo y ajustar el apagado de pantalla o el salvapantallas en terminal y X11.</p>\n<p>laptop-mode-tools utiliza la función Laptop Mode del kernel de Linux, por lo que también puede emplearse en escritorios y servidores para ahorrar energía.</p>\n"
+}

@@ -1,0 +1,43 @@
+id: gretl-common
+name: gretl
+description: Econometrics package
+longDescription: |
+  <p>The GNU Regression, Econometric and Time-Series Library (gretl) is a software package for econometric analysis.  The package comprises a shared library, a command-line client program, and a graphical client built using GTK+.</p>
+  <p>This package provides scripts (included in the gretl sources) which are used by the main gretl program.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gretl-common
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - econometrics
+  - statistics
+  - data
+  - analysis
+iconSources:
+  - cached: gretl-common_gretl.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

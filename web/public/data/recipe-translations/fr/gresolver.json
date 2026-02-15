@@ -1,0 +1,5 @@
+{
+  "name": "Outil de requête DNS",
+  "description": "Effectuer des requêtes DNS avancées",
+  "longDescription": "<p>GResolver est un outil graphique basé sur GTK+ pour les requêtes DNS. Il permet aux administrateurs système d’effectuer rapidement et facilement les requêtes DNS les plus courantes sans avoir à composer de longues commandes dig ou nslookup.</p>\n<p>GResolver prend en charge tous les principaux types d’enregistrements, y compris AAAA, AXFR, MX et TXT, et construit automatiquement l’adresse in-addr.arpa à partir d’adresses IP en notation pointée lors des requêtes PTR. Des cases à cocher permettent de configurer les options les plus fréquemment utilisées.</p>\n"
+}

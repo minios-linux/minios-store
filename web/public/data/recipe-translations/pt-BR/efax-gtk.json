@@ -1,0 +1,5 @@
+{
+  "name": "Efax-gtk",
+  "description": "Interface gráfica para o programa de fax efax",
+  "longDescription": "<p>O efax-gtk é uma interface GTK+ para o programa efax. Permite enviar e receber faxes com um modem de fax, além de visualizar, imprimir e gerenciar faxes recebidos.</p>\n<p>Também oferece uma interface de soquete para funcionar como \"impressora virtual\" ao enviar faxes a partir de processadores de texto ou programas semelhantes, podendo encaminhar automaticamente um fax recebido por e-mail a um usuário designado e realizar impressão automática de faxes recebidos.</p>\n"
+}

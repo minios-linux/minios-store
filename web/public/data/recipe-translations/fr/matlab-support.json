@@ -1,0 +1,5 @@
+{
+  "name": "MATLAB",
+  "description": "Environnement de calcul scientifique",
+  "longDescription": "<p>Ce paquet ne fournit pas MATLAB lui-même. Il permet plutôt d'intégrer une installation existante de MATLAB de façon plus fluide dans un système Debian.</p>\n<p>Il met à disposition /usr/bin/matlab via le système d'alternatives, propose des solutions pour contourner les incompatibilités entre les bibliothèques fournies par MATLAB et celles du système, et propose un utilitaire destiné à être utilisé par d'autres paquets pour compiler des extensions MEX.</p>\n<p>Installez ce paquet si vous souhaitez que votre installation de MATLAB se comporte comme un paquet Debian classique. D'autres paquets peuvent dépendre de celui-ci s'ils installent du code MATLAB, notamment pour compiler des extensions MEX.</p>\n"
+}

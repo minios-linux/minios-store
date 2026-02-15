@@ -1,0 +1,34 @@
+id: "0install"
+name: 0install
+description: Run or manage Zero Install programs
+longDescription: |
+  <p>Zero Install is a decentralised cross-distribution software installation system available under the LGPL. It allows software developers to publish programs directly from their own web-sites, while supporting features familiar from centralised distribution repositories such as shared libraries, automatic updates and digital signatures. It is intended to complement, rather than replace, the operating system&apos;s package management. 0install packages never interfere with those provided by the distribution.</p>
+  <p>This package includes the GTK GUI for 0install. If you have a headless system, install just the 0install-core package to avoid pulling in any GUI dependencies.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - 0install
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: 0/0i/0install.desktop/90d5c957dc81d93e5dc264f37e07b52a/icons/128x128/0install_zeroinstall.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

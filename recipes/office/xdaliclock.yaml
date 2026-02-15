@@ -1,0 +1,28 @@
+id: xdaliclock
+name: XDaliClock
+description: "XDaliClock: melting digital clock"
+longDescription: |
+  <p>The xdaliclock program displays a digital clock; when a digit changes, it &quot;melts&quot; into its new shape.</p>
+  <p>It can display in 12 or 24 hour modes, and displays the date when a mouse button is held down. It has two large fonts built into it, but it can animate most other fonts that contain all of the digits. It can also do some funky psychedelic colormap cycling, and can use the &quot;shape&quot; extension so that the window is shaped like the digits.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xdaliclock
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: xdaliclock_xdaliclock.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

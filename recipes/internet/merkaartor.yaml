@@ -1,0 +1,61 @@
+id: merkaartor
+name: Merkaartor
+description: OpenStreetMap editor
+longDescription: |
+  <p>Merkaartor is a map editor for OpenStreetMap.org, the free editable map of the whole world. Features:</p>
+  <ul>
+    <li>Download from and upload to the OpenStreetMap server</li>
+    <li>Open .osm and .gpx files</li>
+    <li>Create and move trackpoints, ways, and areas</li>
+    <li>Add tags, delete features</li>
+    <li>Reverse, split and join ways</li>
+    <li>Visualize some leisure/landuse areas and road types</li>
+    <li>Displaying GPS information</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - merkaartor
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - osm
+  - gis
+  - map
+  - geo
+screenshotSources:
+  - url: org/merkaartor/merkaartor/f609371bb4bbbc7f29201ab1ef4cb97d/screenshots/image-1_orig.png
+    thumbnailUrl: org/merkaartor/merkaartor/f609371bb4bbbc7f29201ab1ef4cb97d/screenshots/image-1_624x412.png
+    width: 1349
+    height: 891
+  - url: org/merkaartor/merkaartor/f609371bb4bbbc7f29201ab1ef4cb97d/screenshots/image-2_orig.png
+    thumbnailUrl: org/merkaartor/merkaartor/f609371bb4bbbc7f29201ab1ef4cb97d/screenshots/image-2_624x378.png
+    width: 1680
+    height: 1019
+  - url: org/merkaartor/merkaartor/f609371bb4bbbc7f29201ab1ef4cb97d/screenshots/image-3_orig.png
+    thumbnailUrl: org/merkaartor/merkaartor/f609371bb4bbbc7f29201ab1ef4cb97d/screenshots/image-3_624x360.png
+    width: 1467
+    height: 848
+  - url: org/merkaartor/merkaartor/f609371bb4bbbc7f29201ab1ef4cb97d/screenshots/image-4_orig.png
+    thumbnailUrl: org/merkaartor/merkaartor/f609371bb4bbbc7f29201ab1ef4cb97d/screenshots/image-4_624x378.png
+    width: 1680
+    height: 1019
+iconSources:
+  - url: org/merkaartor/merkaartor/f609371bb4bbbc7f29201ab1ef4cb97d/icons/128x128/merkaartor_merkaartor.png
+    width: 128
+    height: 128
+homepage: "http://merkaartor.be/"
+enabled: true
+order: 99

@@ -1,0 +1,46 @@
+id: "mate-control-center"
+name: Windows
+description: Set your window properties
+longDescription: |
+  <p>The MATE control center contains configuration applets for the MATE desktop, allowing to set accessibility configuration, desktop fonts, keyboard and mouse properties, sound setup, desktop theme and background, user interface properties, screen resolution, and other MATE parameters.</p>
+  <p>It also contains a front end to these applets, which can also be accessed with the MATE panel or the Caja file manager.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mate-control-center
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mate-control-center
+  - mate
+  - window
+  - manager
+  - properties
+  - marco
+  - preferences
+iconSources:
+  - url: m/ma/mate-font-viewer.desktop/1e51f4d3ab995c21056e75b9c3992f93/icons/128x128/mate-control-center_preferences-desktop-font.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,38 @@
+id: "cyclograph-qt5"
+name: Cyclograph Qt
+description: Plots slopes of bicycle routes.
+longDescription: |
+  <p>CycloGraph is an application for plotting the elevation profile of routes. Its main value is in the graphical visualization of the difficulty of a road, in term of slope, difference in height, etc. Plots like these are often used in cycling competitions, but are also useful in other sports, such as hiking or running.</p>
+  <p>This package provides the Qt 5 interface of CycloGraph.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cyclograph-qt5
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: c/cy/cyclograph-qt.desktop/ebf68e5e565d6713c1a68a9dbe0fb8e6/icons/128x128/cyclograph-qt5_cyclograph.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

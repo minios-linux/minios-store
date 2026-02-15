@@ -1,0 +1,35 @@
+id: fwupd
+name: fwupd
+description: Update device firmware on Linux
+longDescription: |
+  <p>This project aims to make updating firmware on Linux automatic, safe and
+        reliable.
+        You can either use a GUI software manager like GNOME Software to view and
+        apply updates, the command-line tool or the D-Bus interface directly.</p>
+  <p>The fwupd process is a simple daemon to allow session software to update
+        device firmware on your local machine.
+        It is designed for desktops, but this project is also usable on phones,
+        tablets and on headless servers.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fwupd
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+homepage: "https://fwupd.org/"
+enabled: true
+order: 99

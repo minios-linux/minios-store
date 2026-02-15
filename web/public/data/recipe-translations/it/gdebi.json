@@ -1,0 +1,5 @@
+{
+  "name": "GDebi Package Installer",
+  "description": "Installa e visualizza pacchetti software",
+  "longDescription": "<p>gdebi ti permette di installare pacchetti deb locali risolvendo e installando automaticamente le dipendenze, come apt.</p>\n<p>Il pacchetto viene anche analizzato tramite lintian prima dell'installazione e puoi ispezionare i membri control e data dei pacchetti.</p>\n<p>Questo pacchetto include l'interfaccia grafica utente.</p>\n"
+}

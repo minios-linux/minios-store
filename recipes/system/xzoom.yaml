@@ -1,0 +1,38 @@
+id: "xzoom"
+name: Screen Magnifier
+description: "Magnify part of display, with real-time updates."
+longDescription: |
+  <p>Like xmag, xzoom magnifies a section of the X display. Xzoom is different because it will continuously update the magnified area as the display changes. It is fast enough to enlarge small animations, for example.</p>
+  <p>It can also mirror or rotate a part of the screen.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xzoom
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - screen magnifier
+iconSources:
+  - url: x/xz/xzoom.desktop/5db35204c34afb93076fd5a38c335d32/icons/128x128/xzoom_system-search.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

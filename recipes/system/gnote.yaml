@@ -1,0 +1,55 @@
+id: "gnote"
+name: Gnote
+description: "Take notes, link ideas, and stay organized"
+longDescription: |
+  <p>Gnote is a desktop note-taking application which is simple and easy to use. It lets you organise your notes intelligently by allowing you to easily link ideas together with Wiki style interconnects.</p>
+  <p>It is a port of Tomboy to C++ and consumes less resources.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnote
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - notes
+  - idea
+  - link
+  - organize
+screenshotSources:
+  - url: org/gnome/Gnote/fa8df82dc207599c34e4488e07f48345/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Gnote/fa8df82dc207599c34e4488e07f48345/screenshots/image-1_624x358@1.png
+    width: 887
+    height: 509
+  - url: org/gnome/Gnote/fa8df82dc207599c34e4488e07f48345/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Gnote/fa8df82dc207599c34e4488e07f48345/screenshots/image-2_624x358@1.png
+    width: 887
+    height: 509
+  - url: org/gnome/Gnote/fa8df82dc207599c34e4488e07f48345/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Gnote/fa8df82dc207599c34e4488e07f48345/screenshots/image-3_624x358@1.png
+    width: 887
+    height: 509
+iconSources:
+  - url: org/gnome/Gnote/fa8df82dc207599c34e4488e07f48345/icons/128x128/gnote_org.gnome.Gnote.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Gnote"
+enabled: true
+order: 99

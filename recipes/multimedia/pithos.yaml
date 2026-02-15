@@ -1,0 +1,45 @@
+id: "pithos"
+name: Pithos
+description: Play music from Pandora Radio
+longDescription: |
+  <p>Pithos is a easy to use native Pandora Radio client that is more lightweight than the pandora.com web client and integrates with the desktop.</p>
+  <p>It supports most functionality of pandora.com such as rating songs, creating/managing stations, quickmix, etc. On top of that it has features such as last.fm scrobbling, media keys, notifications, proxies, and mpris support.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pithos
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/Pithos/075bffa627ed878f0fe9764a6622d7ce/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/Pithos/075bffa627ed878f0fe9764a6622d7ce/screenshots/image-1_624x351@1.png
+    width: 624
+    height: 351
+iconSources:
+  - url: io/github/Pithos/075bffa627ed878f0fe9764a6622d7ce/icons/128x128/pithos_io.github.Pithos.png
+    width: 128
+    height: 128
+developer: Pithos
+homepage: "https://pithos.github.io"
+enabled: true
+order: 99

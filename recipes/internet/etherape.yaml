@@ -1,0 +1,43 @@
+id: etherape
+name: EtherApe
+description: Graphical Network Monitor
+longDescription: |
+  <p>EtherApe is a graphical network monitor modeled after etherman. it displays network activity graphically, showing active hosts as circles of varying size, and traffic among them as lines of varying width.</p>
+  <p>It features link layer, ip and TCP modes, color-color coded protocols display, Ethernet, FDDI, Token Ring, ISDN, PPP and SLIP devices. It can filter traffic to be shown, and can read traffic from a file as well as live from the network.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - etherape
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - network
+  - etherape
+  - network
+  - monitor
+iconSources:
+  - cached: etherape_etherape.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

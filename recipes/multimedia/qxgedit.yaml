@@ -1,0 +1,41 @@
+id: "qxgedit"
+name: QXGEdit
+description: Qt XG Editor
+longDescription: |
+  <p>QXGEdit is a Qt GUI for editing MIDI System Exclusive files
+    for XG devices (eg. Yamaha DB50XG).</p>
+  
+categoryId: multimedia
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qxgedit
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - midi
+  - alsa
+  - db50xg
+  - syx
+  - xg
+  - editor
+  - qt
+screenshotSources:
+  - url: org/rncbc/qxgedit/7c15de6ed9b9a140fa758d72d9799b45/screenshots/image-1_orig.png
+    thumbnailUrl: org/rncbc/qxgedit/7c15de6ed9b9a140fa758d72d9799b45/screenshots/image-1_624x532@1.png
+    width: 659
+    height: 562
+iconSources:
+  - url: org/rncbc/qxgedit/7c15de6ed9b9a140fa758d72d9799b45/icons/128x128/qxgedit_org.rncbc.qxgedit.png
+    width: 128
+    height: 128
+developer: rncbc aka. Rui Nuno Capela
+homepage: "https://qxgedit.sourceforge.io"
+enabled: true
+order: 99

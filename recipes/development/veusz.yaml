@@ -1,0 +1,43 @@
+id: "veusz"
+name: Veusz
+description: Scientific plotting and graphing package
+longDescription: |
+  <p>Veusz is a 2D and 3D scientific plotting and graphing package, designed to produce publication-ready PDF, SVG, Postscript and bitmap output. Veusz provides a GUI, command line and scripting interface (based on Python) to its plotting facilities. The plots are built using an object-based system to provide a consistent interface.</p>
+  <p>This package includes the main executable, documentation and examples.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - veusz
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - graphing
+  - plotting
+  - graph
+  - plot
+  - visualization
+  - visualisation
+  - science
+  - math
+  - maths
+  - mathematics
+iconSources:
+  - url: v/ve/veusz.desktop/d954b7afb64c7d62b1540af3eea91e4c/icons/128x128/veusz_veusz.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

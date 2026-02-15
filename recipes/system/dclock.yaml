@@ -1,0 +1,39 @@
+id: dclock
+name: DClock
+description: A configurable digital clock
+longDescription: |
+  <p>Dclock main feature is its great flexibility in how it can draw. You can even display the output from &quot;date&quot; in it such as &quot;Wednesday, 3rd Jan&quot;. Dclock also supports setting an alarm.</p>
+  <p>You need the package sox if you want to enable sound for alarm and hourly bells (rather than beeps).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dclock
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - time
+  - display
+iconSources:
+  - cached: dclock_dclock.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

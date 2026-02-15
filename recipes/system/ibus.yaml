@@ -1,0 +1,32 @@
+id: ibus
+name: IBus Preferences
+description: Set IBus Preferences
+longDescription: |
+  <p>IBus is an Intelligent Input Bus. It is a new input framework for the Linux OS. It provides full featured and user friendly input method user interface. It also may help developers to develop input method easily.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ibus
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - keyboard
+  - input
+iconSources:
+  - url: i/ib/ibus-setup.desktop/343907B285680D066CBAC79E6A075CFE/icons/128x128/ibus_ibus-setup.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

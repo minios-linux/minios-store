@@ -1,0 +1,5 @@
+{
+  "name": "VeroRoute",
+  "description": "Qt-basierte Anwendung für das Layout und Routing von Veroboard-, Perfboard- und Leiterplatten",
+  "longDescription": "<p>Software zur Erstellung von Veroboard (Streifenraster-), Perfboard (Lochraster-) und einfachen ein- oder zweilagigen Leiterplatten (PCBs). Die Anwendung verhindert automatisch Kurzschlüsse und prüft auf Unterbrechungen. Netzlisten können aus Schaltplänen von TinyCAD, gEDA oder KiCad importiert oder grafisch definiert werden. Es können Gerber-Dateien für die Fertigung einfacher ein- oder zweilagiger Leiterplatten exportiert werden.</p>\n"
+}

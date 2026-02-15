@@ -1,0 +1,27 @@
+id: cutecom
+name: CuteCom
+description: A graphical serial terminal
+longDescription: |
+  <p>Cutecom is a graphical serial terminal, like minicom. It is aimed mainly at hardware developers or other people who need a terminal to talk to their devices. It features lineoriented interface instead of character-oriented, xmodem, ymodem, zmodem support (requires the lrzsz package) and hexadecimal input and output among other things. It is written using the Qt library originally by Trolltech (www.trolltech.com).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cutecom
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: cutecom_cutecom.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "LXQt File Archiver",
+  "description": "Pengarsip Berkas",
+  "longDescription": "<p>LXQt Archiver adalah manajer arsip untuk lingkungan LXQt. Dengan aplikasi ini, Anda dapat:  * Membuat dan memodifikasi arsip.  * Melihat isi arsip.  * Melihat file yang terdapat di dalam arsip.  * Mengekstrak file dari arsip.</p>\n<p>LXQt Archiver mendukung format berikut:  * Arsip Tar (.tar), termasuk yang terkompresi dengan    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),    lzma (.tar.lzma) dan xz (.tar.xz)  * Arsip Zip (.zip)  * Arsip Jar (.jar, .ear, .war)  * Arsip 7z (.7z)  * Citra CD iso9660 (.iso)  * Arsip Lha (.lzh)  * File tunggal yang dikompres dengan gzip (.gz), bzip (.bz), bzip2 (.bz2),    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma), dan xz (.xz)</p>\n<p>LXQt Archiver tidak menjalankan operasi arsip secara langsung, tetapi memanfaatkan alat standar untuk keperluan ini.</p>\n<p>Paket ini berisi aplikasi LXQt Archiver.</p>\n"
+}

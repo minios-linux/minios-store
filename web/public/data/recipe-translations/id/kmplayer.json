@@ -1,0 +1,5 @@
+{
+  "name": "KMPlayer",
+  "description": "Antarmuka KDE untuk MPlayer",
+  "longDescription": "<p>KMPlayer adalah frontend sederhana untuk MPlayer/FFMpeg/Phonon.</p>\n<p>Beberapa fitur utamanya:  * Memutar film DVD/VCD (dari file, URL, atau perangkat video)  * Dapat disematkan di dalam konqueror (film diputar langsung pada konqueror)  * Dapat disematkan di khtml (pemutaran film di halaman HTML)  * Perekaman video menggunakan mencoder (bagian dari paket mplayer)  * Tidak ada tampilan video saat perekaman, namun tetap bisa membuka jendela baru untuk memutar  * Siaran dan streaming http menggunakan ffserver/ffmpeg  * Untuk sumber TV, dibutuhkan v4lctl (bagian dari paket xawtv)</p>\n"
+}

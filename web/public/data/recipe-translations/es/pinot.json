@@ -1,0 +1,5 @@
+{
+  "name": "Pinot Metasearch Tool",
+  "description": "Busca en la Web y en tus documentos",
+  "longDescription": "<p>Pinot ofrece un servicio D-Bus que rastrea, indexa tus documentos y los monitoriza para detectar cambios. Este servicio puede utilizarse a través de una interfaz de línea de comandos o mediante una interfaz gráfica basada en GTK, que permite consultar el índice creado por el servicio y tus motores web favoritos, además de mostrar y analizar los resultados.</p>\n<p>Pinot también proporciona una interfaz Xesam, que puede usarse mediante Xesam Query Language y Xesam User Language.</p>\n<p>Para rastrear archivos rpm, instala los paquetes rpm y file.</p>\n"
+}

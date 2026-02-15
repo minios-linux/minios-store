@@ -1,0 +1,5 @@
+{
+  "name": "Iniciar Syncthing",
+  "description": "Inicia o processo principal do syncthing em segundo plano.",
+  "longDescription": "<p>O Syncthing é um aplicativo que permite sincronizar seus arquivos entre vários dispositivos. Isso significa que a criação, modificação ou exclusão de arquivos em uma máquina será automaticamente replicada nos outros dispositivos. O Syncthing não envia seus dados para a nuvem; ele troca os dados diretamente entre seus equipamentos assim que estiverem online ao mesmo tempo.</p>\n<p>Este pacote contém o binário principal: syncthing.</p>\n"
+}

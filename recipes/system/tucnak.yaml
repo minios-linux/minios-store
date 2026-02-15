@@ -1,0 +1,28 @@
+id: tucnak
+name: Tucnak
+description: VHF Contest Logger
+longDescription: |
+  <p>Tucnak is a VHF/UHF/SHF logging program for hamradio contests. It supports multi bands, free input, networking, voice and CW keyer, WWL database and much more.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tucnak
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ham
+  - radio
+  - cw
+  - log
+iconSources:
+  - cached: tucnak_tucnak.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

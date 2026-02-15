@@ -1,0 +1,5 @@
+{
+  "name": "Engrampa Archive Manager",
+  "description": "Créer et modifier des archives",
+  "longDescription": "<p>Engrampa est un gestionnaire d’archives pour l’environnement MATE. Il permet de :</p>\n<p> * Créer et modifier des archives.  * Visualiser le contenu d’une archive.  * Afficher un fichier contenu dans une archive.  * Extraire des fichiers de l’archive.</p>\n<p>Engrampa prend en charge les formats suivants :  * Archives Tar (.tar), y compris celles compressées avec    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),    lzma (.tar.lzma) et xz (.tar.xz)  * Archives Zip (.zip)  * Archives Jar (.jar, .ear, .war)  * Archives 7z (.7z)  * Images CD iso9660 (.iso)  * Archives Lha (.lzh)  * Fichiers individuels compressés avec gzip (.gz), bzip (.bz), bzip2 (.bz2),    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) et xz (.xz)</p>\n<p>Engrampa n’effectue pas les opérations d’archivage lui-même, mais s’appuie sur des outils standards du système.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Cliente de Scripting",
+  "description": "Controla DisplayCAL mediante comandos de scripting sencillos",
+  "longDescription": "<p>Calibra y caracteriza dispositivos de visualización utilizando un sensor de hardware, impulsado por el sistema de gestión de color de código abierto Argyll CMS. Permite configurar múltiples pantallas y dispone de una amplia gama de ajustes como punto blanco personalizable, luminancia, nivel de negro y curva de respuesta tonal, así como la creación de perfiles ICC por matriz o LUT, con soporte opcional de mapeo de gama. Las calibraciones y perfiles pueden verificarse mediante mediciones, y además es posible instalar los perfiles para ponerlos a disposición de aplicaciones compatibles con gestión de color. La instalación de perfiles puede hacerse a través de Argyll CMS, Oyranos y/o GNOME Color Manager si están disponibles, ofreciendo integración flexible.</p>\n"
+}

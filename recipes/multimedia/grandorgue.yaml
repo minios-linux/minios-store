@@ -1,0 +1,58 @@
+id: "grandorgue"
+name: GrandOrgue
+description: Pipe organ simulator
+longDescription: |
+  <p>
+        GrandOrgue is a virtual pipe organ sample player application supporting
+        a HW1 compatible file format.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - grandorgue
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-1_624x461.png
+    width: 1015
+    height: 751
+  - url: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-2_orig.png
+    thumbnailUrl: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-2_624x492.png
+    width: 936
+    height: 739
+  - url: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-3_orig.png
+    thumbnailUrl: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-3_624x427.png
+    width: 956
+    height: 655
+  - url: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-4_orig.png
+    thumbnailUrl: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-4_624x442.png
+    width: 1019
+    height: 723
+  - url: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-5_orig.png
+    thumbnailUrl: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-5_624x461.png
+    width: 1015
+    height: 751
+  - url: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-6_orig.png
+    thumbnailUrl: net/sourceforge/GrandOrgue/c9c4ee80f42e859c954db3560290f6fe/screenshots/image-6_624x368.png
+    width: 1271
+    height: 751
+iconSources:
+  - url: net/sourceforge/GrandOrgue/942ddc65bbe2a7a7837f40f2252ad7d6/icons/128x128/grandorgue_GrandOrgue.png
+    width: 128
+    height: 128
+homepage: 'https://sourceforge.net/projects/ourorgan"'
+enabled: true
+order: 99

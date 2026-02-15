@@ -1,0 +1,5 @@
+{
+  "name": "FQTerm",
+  "description": "Cliente BBS basado en la biblioteca Qt para Linux",
+  "longDescription": "<p>FQTerm es uno de los clientes BBS más utilizados en China; soporta protocolos Telnet, SSH1 y SSH2, y puede procesar secuencias de control ANSI. Permite conectarse a sitios BBS o sistemas *NIX.</p>\n<p>Casi todos los BBS en la región de la Gran China utilizan las codificaciones BIG5 o GBK, por lo que FQTerm solo admite estas dos codificaciones y ASCII.</p>\n"
+}

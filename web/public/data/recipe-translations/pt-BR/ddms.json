@@ -1,0 +1,5 @@
+{
+  "name": "Dalvik Debug Monitor Server",
+  "description": "Depurador para aplicações Android",
+  "longDescription": "<p>O Android Studio inclui uma ferramenta de depuração chamada Dalvik Debug Monitor Server (DDMS), que oferece serviços de redirecionamento de portas, captura de tela no dispositivo, informações sobre threads e heap, acesso ao logcat, estado de processos e rádio, simulação de chamadas e SMS, simulação de dados de localização e muito mais.</p>\n<p>Veja também: &lt;https://developer.android.com/studio/profile/ddms.html&gt;</p>\n<p>Este pacote fornece o atalho independente do DDMS. No entanto, ele está obsoleto—recomenda-se utilizar o Android Device Monitor.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "V_Sim",
+  "description": "O V_Sim permite visualizar estruturas atômicas como cristais, contornos de grão, moléculas e outros.",
+  "longDescription": "<p>O V_Sim permite visualizar estruturas atômicas, como cristais, contornos de grão, moléculas e outros (em formato binário ou texto simples).</p>\n<p>A renderização é feita em pseudo-3D com esferas (átomos) ou setas (spins). O usuário pode interagir por meio de diversas funções para escolher a visualização, ajustar ligações, criar planos de corte, calcular superfícies a partir de campos escalares, duplicar nós, medir geometrias, entre outros. Além disso, o V_Sim também permite exportar a visualização em imagens nos formatos PNG, JPG, PDF (bitmap), SVG (vetorial) e outros. Há ainda ferramentas para colorir átomos a partir de valores de dados ou para animar em tela vários arquivos de posição.</p>\n"
+}

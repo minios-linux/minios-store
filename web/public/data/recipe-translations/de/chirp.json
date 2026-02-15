@@ -1,0 +1,5 @@
+{
+  "name": "CHIRP",
+  "description": "Amateurfunkgeräte programmieren",
+  "longDescription": "<p>CHIRP ist ein freies, quelloffenes Werkzeug zur Programmierung von Amateurfunkgeräten. Es unterstützt eine Vielzahl von Herstellern und Modellen und ermöglicht die Anbindung an verschiedenste Datenquellen und -formate.</p>\n<p>CHIRP kann Daten in folgenden Formaten verarbeiten:  - Kommagetrennte Werte (.csv)  - Von RT Systems generierte CSV-Dateien (.csv)  - EVE für Yaesu VX-5 (.eve)  - Kenwood HMK-Format (.hmk)  - Kommerzielles Kenwood ITM-Format (.itm)  - Icom Datendateien (.icf)  - ARRL TravelPlus (.tpe)  - VX5 Commander-Dateien (.vx5)  - VX7 Commander-Dateien (.vx7)</p>\n<p>Die meisten modernen Amateurfunkgeräte werden von CHIRP über ihre jeweiligen Interface-Kabel unterstützt.</p>\n"
+}

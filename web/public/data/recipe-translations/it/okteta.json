@@ -1,0 +1,5 @@
+{
+  "name": "Okteta",
+  "description": "Editor esadecimale",
+  "longDescription": "<p>Okteta è un editor semplice per i dati grezzi dei file.</p>\n<p>Funzionalità:</p>\n<ul>\n  <li>Visualizzazione di valori e caratteri in due colonne (visualizzazione tradizionale degli editor esadecimali) o in righe con il valore sopra il carattere</li>\n  <li>Modifica e navigazione simili a un editor di testo</li>\n  <li>Viste dati personalizzabili, con profili caricabili e salvabili</li>\n  <li>Strumenti ancorabili su tutti i lati o flottanti</li>\n  <li>Codifiche numeriche: Esadecimale, Decimale, Ottale, Binario</li>\n  <li>Codifiche caratteri: tutte le codifiche a 8 bit fornite da Qt, EBCDIC</li>\n  <li>Rendering veloce dei dati su schermo</li>\n  <li>Supporto per file multipli aperti</li>\n  <li>Funzione annulla/ripristina</li>\n  <li>Strumento strutture per analizzare e modificare i dati basandosi su definizioni di struttura create dall'utente</li>\n  <li>E molto altro...</li>\n</ul>\n"
+}

@@ -1,0 +1,25 @@
+id: qtm
+name: QTM
+description: Weblog management application
+longDescription: |
+  <p>QTM is a desktop application for interacting with blogging and other content management systems. It is presently compatible with Wordpress, Movable Type, Drupal and Textpattern (but not with Blogger).</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qtm_qtm-logo1.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

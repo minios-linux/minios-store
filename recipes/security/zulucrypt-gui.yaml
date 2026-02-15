@@ -1,0 +1,38 @@
+id: zulucrypt-gui
+name: zuluCrypt
+description: Graphical front end for zulucrypt-cli
+longDescription: |
+  <p>zulucrypt is a suite of applications for creating and managing volumes encrypted with luks, plain, truecrypt and veracrypt.</p>
+  <p>zulucrypt-gui is a front end for zulucrypt-cli. This way all activities can be performed easily by the graphical interface.</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zulucrypt-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - volumes
+  - encrypting
+  - luks
+  - truecrypt
+  - encrypt
+  - security
+  - cryptsetup
+iconSources:
+  - cached: zulucrypt-gui_zuluCrypt.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

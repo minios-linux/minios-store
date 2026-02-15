@@ -1,0 +1,5 @@
+{
+  "name": "Guake Indicator",
+  "description": "Mit diesem Tool kannst du guake-indicator starten; daraufhin erscheint ein neues Symbol im Systemtray.",
+  "longDescription": "<p>Guake Indicator ermöglicht es dir, benutzerdefinierte Befehle über das D-Bus-System zu senden. Befehle können manuell in einer XML-Datei unter ~/.guake.indicator bearbeitet werden oder mit dem grafischen Bearbeitungsmenü von guake-indicator generiert werden.</p>\n<p>Guake Indicator bleibt im „System Tray“ sichtbar und zeigt deine favorisierten Befehle aus ~/.guake.indicator/guake-indicator.xml an. Existiert guake-indicator.xml noch nicht, erstellt Guake Indicator automatisch eine Standardkonfigurationsdatei mit einigen Beispielen.</p>\n"
+}

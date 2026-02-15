@@ -1,0 +1,35 @@
+id: "giggle"
+name: Giggle
+description: Git repository viewer
+longDescription: |
+  <p>Giggle is a GTK+ frontend to the git directory tracker. With Giggle you will be able to visualize and browse easily the revision tree, view changed files and differences between revisions, visualize summarized info for the project, commit changes and other useful tasks for any git projects contributor.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - giggle
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: g/gi/giggle.desktop/d7e97c334d368cc235327e0eaa7da47b/icons/128x128/giggle_giggle.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

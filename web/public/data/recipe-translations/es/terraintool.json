@@ -1,0 +1,5 @@
+{
+  "name": "Generador de mallas superficiales Terraintool",
+  "description": "Genera mallas superficiales para software de topografía espeleológica",
+  "longDescription": "<p>Esta herramienta genera mallas de terreno para aplicaciones de topografía de cuevas a partir de conjuntos de datos de altitud obtenidos en línea. Utiliza los conjuntos de datos SRTM de la NASA y ASTER europeos. Los datos relevantes se descargan y recortan, se geolocalizan al sistema de coordenadas deseado, se remuestrean a una cuadrícula de malla, se añade un desplazamiento al sistema local si es necesario, el resultado se muestra y se guarda en formato survex (.svx). Está desarrollada en Java.</p>\n"
+}

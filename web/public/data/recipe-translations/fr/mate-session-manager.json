@@ -1,0 +1,5 @@
+{
+  "name": "Applications au démarrage",
+  "description": "Sélectionnez les applications à lancer lors de votre connexion",
+  "longDescription": "<p>Ce paquet fournit une session pouvant être démarrée depuis un gestionnaire d'affichage tel que MDM. Il chargera toutes les applications nécessaires pour une session utilisateur complète.</p>\n<p>Le gestionnaire de session permet également d'enregistrer une session en cours et de la restaurer ultérieurement.</p>\n<p>Cette version est configurée pour lancer l'environnement de bureau MATE, basé sur le panneau MATE.</p>\n"
+}

@@ -1,0 +1,39 @@
+id: treeline
+name: TreeLine
+description: Tree-like structured custom data manager
+longDescription: |
+  <p>TreeLine is a versatile tool for working with all kind of information that fits into a tree-like structure.</p>
+  <p>It can be used to edit bookmark files, create mini-databases (e.g., for addresses, tasks, records, CDs, etc.), outline documents, or just collect ideas. It can also be used as a generic editor for XML files.</p>
+  <p>The data schemas for any node in the data tree can be customized and new types of nodes can be defined. The way data is presented on the screen, exported to HTML, or printed can be defined with HTML-like templates. Plug-ins can be written to load and save data from and to custom file formats or external data sources and extend the functionality of TreeLine.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - treeline
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: treeline_treeline.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

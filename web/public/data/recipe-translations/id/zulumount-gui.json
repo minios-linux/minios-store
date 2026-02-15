@@ -1,0 +1,5 @@
+{
+  "name": "zuluMount",
+  "description": "Pengait partisi dan volume terenkripsi",
+  "longDescription": "<p>zulucrypt adalah rangkaian aplikasi untuk membuat dan mengelola volume terenkripsi menggunakan luks, plain, truecrypt, dan veracrypt.</p>\n<p>zuluMount-gui adalah antarmuka grafis (GUI) untuk zuluMount-cli, sehingga seluruh aktivitas yang dapat dilakukan melalui zuluMount-cli dapat dijalankan dengan mudah lewat tampilan grafis.</p>\n<p>zuluMount-gui juga dapat membuka cryfs, encfs, gocryptfs, dan ecryptfs.</p>\n"
+}

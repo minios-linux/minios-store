@@ -1,0 +1,5 @@
+{
+  "name": "FreeDV",
+  "description": "Digital Voice-Modus für Kurzwellenfunk",
+  "longDescription": "<p>FreeDV ist ein digitaler Sprachmodus, der für die Übertragung und den Empfang über Kurzwellenfunk (HF) entwickelt wurde. Es nutzt ein Frequency Division Multiplex (FDM)-Modem mit 15 Trägern und verzichtet auf Forward Error Correction (FEC). Ein sprachspezifischer Low-Bitrate-Codec (Codec 2) sorgt für eine verständliche Sprachqualität, ohne die Ermüdung, die durch Störungen und Rauschen im analogen SSB-Betrieb häufig auftritt. Für die Nutzung werden ein Kurzwellen-SSB-Transceiver, ein Computer und zwei Soundkarten benötigt. Pfadsimulationen und Tests im realen Funkbetrieb haben gezeigt, dass eine Sprachdekodierung bereits bei einem Signal-Rausch-Verhältnis von 4 dB möglich ist.</p>\n<p>Die FreeDV-Software wurde von David Rowe (Codec 2, FDM-Modem-Implementierung, Integration) und David Witten (GUI, Architekturdesign) entwickelt. Das Design und die Benutzeroberfläche von FreeDV basieren auf dem früheren FDMDV-Programm von Francesco Lanza. Die Entwicklung und das Design des FDM-Modems wurden von Peter Martinez unterstützt.</p>\n"
+}

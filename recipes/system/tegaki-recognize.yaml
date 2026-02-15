@@ -1,0 +1,27 @@
+id: tegaki-recognize
+name: Tegaki Recognize
+description: Handwriting Recognition
+longDescription: |
+  <p>Tegaki is an ongoing project which aims to develop a free and open-source modern implementation of handwriting recognition software, that is suitable for both the desktop and mobile devices, and that is designed from the ground up to work well with Chinese and Japanese.</p>
+  <p>This package provides a standalone handwriting recognition application.</p>
+  <p>You also need install tegaki-zinnia-simplified-chinese and/or tegaki-zinnia-japanese.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tegaki-recognize
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: tegaki-recognize_tegaki-recognize.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

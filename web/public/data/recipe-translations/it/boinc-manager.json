@@ -1,0 +1,5 @@
+{
+  "name": "BOINC Manager",
+  "description": "Configura o monitora un client BOINC",
+  "longDescription": "<p>La Berkeley Open Infrastructure for Network Computing (BOINC) è una piattaforma software per il calcolo distribuito che utilizza risorse informatiche messe a disposizione volontariamente dagli utenti.</p>\n<p>Questo pacchetto include BOINC Manager, un'utilità grafica per controllare e monitorare il client principale di BOINC. Offre una panoramica dettagliata sullo stato del client monitorato, tra cui: * progetti collegati  * attività in esecuzione  * trasferimenti di file tra il client e i server dei progetti  * statistiche su crediti ottenuti e utilizzo del disco per ogni progetto  * limitazioni sull'uso della CPU. BOINC Manager può essere utilizzato in due modalità: \"Vista Semplice\", che mostra solo le informazioni principali, e \"Vista Avanzata\", che rende disponibili tutti i dettagli e i comandi di controllo.</p>\n<p>Per partecipare attivamente a un progetto BOINC è necessario installare il pacchetto consigliato boinc-client, non solo boinc-manager, su ogni macchina che contribuisce.</p>\n"
+}

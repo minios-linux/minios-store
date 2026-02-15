@@ -1,0 +1,67 @@
+id: "qtpass"
+name: QtPass
+description: GUI for the standard unix password store
+longDescription: |
+  <p>QtPass is a multi-platform GUI for pass, the standard unix password manager.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Using pass or git and gpg2 directly</li>
+    <li>Cross platform: Linux, BSD, OS X and Windows</li>
+    <li>Using native widgets and iconography where possible</li>
+    <li>Reading pass password stores</li>
+    <li>Decrypting and displaying the password and related info</li>
+    <li>Editing and adding of passwords and information</li>
+    <li>Updating to and from a git repository</li>
+    <li>Per-folder user selection for multi recipient encryption</li>
+    <li>Configuration options for backends and executable/folder locations</li>
+    <li>Copying password to clipboard</li>
+    <li>Configurable shoulder surfing protection options</li>
+    <li>Experimental WebDAV support</li>
+  </ul>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtpass
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - password
+  - manager
+  - qt
+screenshotSources:
+  - url: q/qt/qtpass.desktop/ea1ca33c277282a428d5589f2381d9d5/screenshots/image-1_orig.png
+    thumbnailUrl: q/qt/qtpass.desktop/ea1ca33c277282a428d5589f2381d9d5/screenshots/image-1_624x484.png
+    width: 768
+    height: 596
+  - url: q/qt/qtpass.desktop/ea1ca33c277282a428d5589f2381d9d5/screenshots/image-2_orig.png
+    thumbnailUrl: q/qt/qtpass.desktop/ea1ca33c277282a428d5589f2381d9d5/screenshots/image-2_624x441.png
+    width: 900
+    height: 637
+iconSources:
+  - url: q/qt/qtpass.desktop/ea1ca33c277282a428d5589f2381d9d5/icons/128x128/qtpass_qtpass-icon.png
+    width: 128
+    height: 128
+developer: IJHack
+homepage: "https://qtpass.org/"
+enabled: true
+order: 99

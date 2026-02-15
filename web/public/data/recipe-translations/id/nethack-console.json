@@ -1,0 +1,5 @@
+{
+  "name": "NetHack (Tanpa GUI)",
+  "description": "Permainan dungeon crawl - versi konsol",
+  "longDescription": "<p>NetHack adalah permainan petualangan bergaya Dungeons & Dragons yang kocak namun sangat adiktif. Anda bermain sebagai karakter dari berbagai kelas (seperti wizard, ranger, atau turis), berjuang turun ke bawah untuk mengambil Amulet of Yendor (coba sebutkan itu secara terbalik!) demi dewa Anda. Dalam perjalanan, Anda mungkin bertemu mekanik kuantum, Raja Arthur, atau – jika sangat beruntung – Ravenous Bugblatter Beast of Traal.</p>\n<p>Jika ingin bermain dengan tampilan grafis, Anda sebaiknya menginstal salah satu antarmuka depan (front-end) NetHack. Setiap front-end menyertakan versi asli tanpa grafis dan bisa diinstal bersamaan, seperti:  - nethack-console: tanpa grafis, hanya NetHack murni;  - nethack-x11    : versi grafis original berbasis X11/Athena;  - nethack-lisp   : versi jendela Lisp.</p>\n<p>Paket ini menyediakan NetHack versi konsol murni, tanpa antarmuka grafis.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "gcin Tools",
+  "description": "Outils pour la méthode de saisie gcin",
+  "longDescription": "<p>gcin est une méthode de saisie basée sur GTK+, principalement dédiée au chinois traditionnel. Toutefois, elle est également très utile pour le chinois simplifié, le japonais et de nombreuses autres langues.</p>\n<p>Pour utiliser gcin, il est nécessaire d'installer les modules immodule correspondants : gcin-gtk2-immodule pour GTK2, gcin-gtk3-immodule pour GTK3, et gcin-qt5-immodule pour Qt5.</p>\n"
+}

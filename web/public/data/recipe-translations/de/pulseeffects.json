@@ -1,0 +1,5 @@
+{
+  "name": "PulseEffects",
+  "description": "Audioeffekte für PulseAudio-Anwendungen",
+  "longDescription": "<p>\n      PulseEffects ist ein fortschrittliches Tool zur Audiomanipulation. Es bietet\n      unter anderem einen Equalizer, Limiter, Kompressor und einen Halleffekt.\n      Zusätzlich ist ein integrierter Spektrumanalysator enthalten.\n    </p>\n<p>\n      Da PulseEffects den Standard-Audioserver PulseAudio verwendet, funktioniert es\n      mit den meisten, wenn nicht allen, Ihrer Anwendungen. Alle unterstützten Programme\n      werden im Hauptfenster angezeigt und lassen sich individuell aktivieren.\n    </p>\n<p>\n      Neben der Bearbeitung der Tonausgabe kann PulseEffects auch Effekte auf Eingabegeräte\n      wie Mikrofone anwenden. Dies ist beispielsweise bei Tonaufnahmen nützlich und eignet sich\n      ebenso für Sprachkommunikation.\n    </p>\n<p>\n      Beim Start merkt sich PulseEffects bequem die zuletzt verwendete Konfiguration.\n      Außerdem können alle aktuellen Einstellungen als Profile gespeichert werden.\n    </p>\n"
+}

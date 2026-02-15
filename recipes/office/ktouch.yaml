@@ -1,0 +1,50 @@
+id: "ktouch"
+name: KTouch
+description: Touch Typing Tutor
+longDescription: |
+  <p>KTouch is a typewriter trainer for learning to touch type. It provides you with text to train on and adjusts to different levels depending on how good you are. It displays your keyboard and indicates which key to press next and which is the correct finger to use. You learn typing with all fingers, step by step, without having to look down at the keyboard to find your keys. It is convenient for all ages and the perfect typing tutor for schools, universities, and personal use. KTouch ships with dozens of different courses in many languages and a comfortable course editor. Different keyboard layouts are supported and new user-defined layouts can be created. During training, KTouch collects comprehensive statistical information to help you or your teacher to analyze your progress.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ktouch
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/ktouch.desktop/753fd1fd83837df15960e3e4b64e5efd/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ktouch.desktop/753fd1fd83837df15960e3e4b64e5efd/screenshots/image-1_624x454@1.png
+    width: 1000
+    height: 729
+  - url: org/kde/ktouch.desktop/753fd1fd83837df15960e3e4b64e5efd/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/ktouch.desktop/753fd1fd83837df15960e3e4b64e5efd/screenshots/image-2_624x454@1.png
+    width: 1000
+    height: 729
+  - url: org/kde/ktouch.desktop/753fd1fd83837df15960e3e4b64e5efd/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/ktouch.desktop/753fd1fd83837df15960e3e4b64e5efd/screenshots/image-3_624x454@1.png
+    width: 1000
+    height: 729
+iconSources:
+  - url: org/kde/ktouch.desktop/753fd1fd83837df15960e3e4b64e5efd/icons/128x128/ktouch_ktouch.png
+    width: 128
+    height: 128
+developer: The KDE Community
+homepage: "http://edu.kde.org/ktouch/"
+enabled: true
+order: 99

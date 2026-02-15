@@ -1,0 +1,5 @@
+{
+  "name": "ParaView Client",
+  "description": "ParaView memungkinkan visualisasi set data berukuran besar",
+  "longDescription": "<p>ParaView adalah aplikasi open-source lintas platform yang dirancang untuk memvisualisasikan set data dari ukuran kecil hingga sangat besar. Tujuan utama proyek ParaView meliputi:</p>\n<p>    * Mengembangkan aplikasi visualisasi open-source lintas platform.     * Mendukung model komputasi terdistribusi untuk memproses set data besar.     * Menciptakan antarmuka pengguna yang terbuka, fleksibel, dan intuitif.     * Menghadirkan arsitektur yang mudah dikembangkan berdasarkan standar terbuka.</p>\n<p>ParaView dapat dijalankan di sistem paralel (distributed dan shared memory) maupun sistem single processor, serta telah diuji pada Windows, Mac OS X, Linux, dan berbagai workstation Unix, cluster, dan superkomputer. Pada bagian intinya, ParaView menggunakan Visualization Toolkit untuk pemrosesan dan rendering data, serta memiliki antarmuka pengguna berbasis Qt.</p>\n"
+}

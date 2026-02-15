@@ -1,0 +1,5 @@
+{
+  "name": "JACK Timemachine",
+  "description": "Grabadora de audio JACK para uso espontáneo y en entornos de estudio",
+  "longDescription": "<p>Timemachine graba los últimos 10 segundos de audio <em>antes</em> de presionar el botón y todo lo que suceda a partir de ese momento hasta la próxima pulsación en un archivo WAV.</p>\n<p>La idea es que puedas experimentar libremente en tu estudio, y cuando escuches un sonido interesante, simplemente pulses grabar y lo captures, sin necesidad de intentar reproducirlo después.</p>\n<p>Utiliza JACK Audio Connection Kit, una API que permite que las aplicaciones de audio se comuniquen entre sí y compartan datos de audio en tiempo real.</p>\n"
+}

@@ -1,0 +1,38 @@
+id: "tipp10"
+name: Tipp10
+description: Touch Typing Tutor
+longDescription: |
+  <p>Tipp10 is a free touch typing tutor.
+      The ingenious thing about the software is its intelligence feature.
+      Characters that are mistyped are repeated more frequently.
+      Touch typing has never been so easy to learn.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tipp10
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: com/gitlab/tipp10.tipp10/c15378fbdeeb64106993cc38dc1913fb/screenshots/image-1_orig.png
+    thumbnailUrl: com/gitlab/tipp10.tipp10/c15378fbdeeb64106993cc38dc1913fb/screenshots/image-1_624x420@1.png
+    width: 975
+    height: 657
+  - url: com/gitlab/tipp10.tipp10/c15378fbdeeb64106993cc38dc1913fb/screenshots/image-2_orig.png
+    thumbnailUrl: com/gitlab/tipp10.tipp10/c15378fbdeeb64106993cc38dc1913fb/screenshots/image-2_624x420@1.png
+    width: 975
+    height: 657
+iconSources:
+  - url: com/gitlab/tipp10.tipp10/c15378fbdeeb64106993cc38dc1913fb/icons/128x128/tipp10_com.gitlab.tipp10.tipp10.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.com/tipp10/tipp10/"
+enabled: true
+order: 99

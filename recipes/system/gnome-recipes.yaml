@@ -1,0 +1,78 @@
+id: "gnome-recipes"
+name: Recipes
+description: GNOME loves to cook
+longDescription: |
+  <p>Recipes is an easy-to-use application that will help you to discover what to cook
+         today, tomorrow, the rest of the week and for your special occasions.</p>
+  <p>Recipes comes with a collection of recipes that have been collected by GNOME contributors
+         from all over the world. It also lets you store your own recipes and share them with your
+         friends.</p>
+  <p>The major features of Recipes include:</p>
+  <ul>
+    <li>Add and edit your own recipes</li>
+    <li>Share recipes with your friends</li>
+    <li>Export and print shopping lists</li>
+    <li>Adjust quantities based on the number of servings</li>
+    <li>Mark recipes to cook later or add them to your favorites</li>
+    <li>Add notes to recipes</li>
+    <li>Hands-free cooking instruction mode</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-recipes
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-1_624x599@1.png
+    width: 992
+    height: 953
+  - url: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-2_624x645@1.png
+    width: 1004
+    height: 1039
+  - url: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-3_624x632@1.png
+    width: 940
+    height: 953
+  - url: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-4_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-5_orig.png
+    thumbnailUrl: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-5_624x646@1.png
+    width: 1004
+    height: 1041
+  - url: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-6_orig.png
+    thumbnailUrl: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-6_624x631@1.png
+    width: 940
+    height: 952
+  - url: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-7_orig.png
+    thumbnailUrl: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/screenshots/image-7_624x593@1.png
+    width: 1092
+    height: 1039
+iconSources:
+  - url: org/gnome/Recipes.desktop/d962e3f044ff5322c21e6bda9f5002f9/icons/128x128/gnome-recipes_org.gnome.Recipes.png
+    width: 128
+    height: 128
+developer: Matthias Clasen and others
+homepage: "https://wiki.gnome.org/Apps/Recipes"
+enabled: true
+order: 99

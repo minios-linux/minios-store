@@ -1,0 +1,29 @@
+id: indicator-multiload
+name: System Load Indicator
+description: "A system load monitor capable of displaying graphs for CPU, ram, and swap space use, plus network traffic."
+longDescription: |
+  <p>A system load indicator capable of displaying graphs for CPU, ram, and swap space use, plus network traffic.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - indicator-multiload
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: indicator-multiload_utilities-system-monitor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

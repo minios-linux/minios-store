@@ -1,0 +1,5 @@
+{
+  "name": "Nitrokey Authenticator",
+  "description": "Aplicativo autenticador TOTP para NitroKey Pro2 e LibremKey",
+  "longDescription": "<p>\n\t\t\tNitrokey é uma chave USB open source/open hardware que oferece criptografia e assinatura seguras.\n\t\t\tEste pacote instala o aplicativo Autenticador TOTP, compatível com o Google Authenticator,\n\t\t\tmas utiliza a chave física NitroKey para armazenar os segredos TOTP usados na geração de códigos de autenticação,\n\t\t\talém de utilizar a própria chave para gerar os códigos.\n\t\t</p>\n"
+}

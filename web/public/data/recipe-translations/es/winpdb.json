@@ -1,0 +1,5 @@
+{
+  "name": "Winpdb",
+  "description": "Depurador de Python multiplataforma",
+  "longDescription": "<p>Winpdb permite depurar aplicaciones basadas en hilos y en curses, modificación de espacios de nombres y depuración embebida. Como depurador remoto, utiliza conexiones de red (cifradas) para conectarse con el programa a depurar (que normalmente se ejecuta en la misma máquina).</p>\n<p>Winpdb es la interfaz gráfica basada en wx para rpdb2, que también está incluido en este paquete. rpdb2 es una herramienta en modo texto y puede utilizar sesiones de screen si no hay un emulador de terminal X disponible.</p>\n<p>Winpdb es hasta 20 veces más rápido que pdb.</p>\n"
+}

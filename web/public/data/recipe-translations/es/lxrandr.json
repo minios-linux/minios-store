@@ -1,0 +1,5 @@
+{
+  "name": "Configuración de Monitor",
+  "description": "Cambia la resolución de pantalla y configura monitores externos",
+  "longDescription": "<p>LXRandR es una aplicación gráfica (GUI) para el Entorno de Escritorio Lightweight X11 (LXDE).</p><p>Esta es una herramienta básica de configuración de monitores que utiliza la extensión X llamada RandR. Permite cambiar la resolución de pantalla al instante. Además, cuando ejecutas lxrandr con un monitor externo conectado, su interfaz gráfica se adapta y muestra opciones rápidas para que tu proyector o monitor externo funcionen correctamente.</p><p>Esta herramienta no pretende ser un frontend completo para RandR. Si necesitas todas las funcionalidades de RandR, utiliza xrandr (consola) o grandr (GUI) y consulta algunos tutoriales.</p><p>LXRandR te ofrece opciones fáciles y rápidas de forma intuitiva. Es muy útil para usuarios de portátiles que conectan frecuentemente proyectores o monitores externos y solo quieren trabajar sin tener que leer manuales complejos o tutoriales de línea de comandos.</p>\n"
+}

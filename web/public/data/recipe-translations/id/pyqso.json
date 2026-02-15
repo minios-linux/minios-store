@@ -1,0 +1,5 @@
+{
+  "name": "PyQSO",
+  "description": "Alat Pencatatan Kontak",
+  "longDescription": "<p>PyQSO adalah alat pencatatan (logging) untuk operator radio amatir. Aplikasi ini menyediakan antarmuka grafis sederhana untuk mengelola informasi kontak/QSO yang dilakukan dengan operator lain di udara. Seluruh data disimpan dalam basis data SQL yang ringan. Fitur utama lainnya meliputi:</p>\n<p> * Antarmuka yang dapat dikustomisasi (misal hanya menampilkan informasi callsign dan frekuensi).  * Impor dan ekspor log dalam format ADIF.  * Lookup callsign dan pengisian otomatis data menggunakan basis data qrz.com.  * Mengurutkan log berdasarkan masing-masing kolom.  * Mencetak log ke kertas atau PDF.  * Terhubung ke DX cluster berbasis Telnet.  * Pelacak progres untuk penghargaan DXCC.  * Grey line plotter.  * Penyaringan QSO berdasarkan callsign (misal hanya menampilkan kontak dengan callsign yang diawali “M6”).  * Menghapus QSO duplikat.  * Dukungan dasar untuk pustaka Hamlib.</p>\n"
+}

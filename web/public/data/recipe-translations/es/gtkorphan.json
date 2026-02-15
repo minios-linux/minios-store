@@ -1,0 +1,5 @@
+{
+  "name": "Eliminar paquetes huérfanos",
+  "description": "Herramienta gráfica para encontrar y eliminar librerías huérfanas",
+  "longDescription": "<p>GtkOrphan es una herramienta gráfica que analiza tu sistema Debian en busca de librerías huérfanas. Proporciona una interfaz gráfica para deborphan y añade la capacidad de eliminar paquetes directamente. Puedes encontrar una documentación detallada sobre el programa en: http://www.marzocca.net/linux/gtkorphan.html.</p>\n"
+}

@@ -1,0 +1,62 @@
+id: "gnome-color-manager"
+name: GNOME Color Manager
+description: Inspect and compare installed color profiles
+longDescription: |
+  <p>GNOME Color Profile Viewer shows installed color profiles on your system
+        and allows you to calibrate displays, printers and cameras using a
+        wizard.</p>
+  <p>This functionality is typically used by GNOME Control Center from the color
+        panel although can be used on its own.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-color-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - color
+  - icc
+screenshotSources:
+  - url: org/gnome/ColorProfileViewer.desktop/88e4e2c47af6cacfc114c5b4a7b06b14/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/ColorProfileViewer.desktop/88e4e2c47af6cacfc114c5b4a7b06b14/screenshots/image-1_624x351@1.png
+    width: 1024
+    height: 576
+  - url: org/gnome/ColorProfileViewer.desktop/88e4e2c47af6cacfc114c5b4a7b06b14/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/ColorProfileViewer.desktop/88e4e2c47af6cacfc114c5b4a7b06b14/screenshots/image-2_624x351@1.png
+    width: 1024
+    height: 576
+  - url: org/gnome/ColorProfileViewer.desktop/88e4e2c47af6cacfc114c5b4a7b06b14/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/ColorProfileViewer.desktop/88e4e2c47af6cacfc114c5b4a7b06b14/screenshots/image-3_624x351@1.png
+    width: 800
+    height: 450
+  - url: org/gnome/ColorProfileViewer.desktop/88e4e2c47af6cacfc114c5b4a7b06b14/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/ColorProfileViewer.desktop/88e4e2c47af6cacfc114c5b4a7b06b14/screenshots/image-4_624x351@1.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: org/gnome/ColorProfileViewer.desktop/88e4e2c47af6cacfc114c5b4a7b06b14/icons/128x128/gnome-color-manager_gnome-color-manager.png
+    width: 128
+    height: 128
+homepage: "https://projects.gnome.org/gnome-color-manager/"
+enabled: true
+order: 99

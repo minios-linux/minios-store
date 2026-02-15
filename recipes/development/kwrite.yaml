@@ -1,0 +1,51 @@
+id: "kwrite"
+name: KWrite
+description: Text Editor
+longDescription: |
+  <p>KWrite is a text editor by KDE, based on the Kate&apos;s editor component.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Syntax highlighting according to the file type</li>
+    <li>Word completion</li>
+    <li>Auto-indentation</li>
+    <li>Plugin support</li>
+    <li>Vi input mode</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kwrite
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kwrite.desktop/298ea3947b279d5f5c8252855c8b1591/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kwrite.desktop/298ea3947b279d5f5c8252855c8b1591/screenshots/image-1_624x513@1.png
+    width: 1024
+    height: 842
+iconSources:
+  - url: org/kde/kwrite.desktop/298ea3947b279d5f5c8252855c8b1591/icons/128x128/kwrite_kwrite.png
+    width: 128
+    height: 128
+homepage: "http://kate-editor.org/"
+enabled: true
+order: 99

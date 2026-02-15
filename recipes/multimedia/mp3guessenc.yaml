@@ -1,0 +1,40 @@
+id: "mp3guessenc"
+name: mp3guessenc
+description: Utility for analysis of audio mpeg files
+longDescription: |
+  <p>
+        mp3guessenc can detect many details about the mpeg audio stream and print out lots of useful information. Supported
+  streams are mpeg 1, mpeg 2 and unofficial mpeg 2.5 - layer I, layer II and layer III of course. Xing tag, lame tag, VBRI tag, Id3 tags (both 1.x and 2.x), APE tags (both v1 and v2), Lyrics3 tags (both v1 and v2) and MusicMatch tag (any version) are detected as well. Now you can look inside your digital audio collection as you never did before!
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mp3guessenc
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: io/sourceforge/mp3guessenc.mp3guessenc/f5cf4a55eb0e255f175e37d51b1bd085/screenshots/image-1_orig.png
+    thumbnailUrl: io/sourceforge/mp3guessenc.mp3guessenc/f5cf4a55eb0e255f175e37d51b1bd085/screenshots/image-1_624x760@1.png
+    width: 640
+    height: 780
+iconSources:
+  - url: io/sourceforge/mp3guessenc.mp3guessenc/f5cf4a55eb0e255f175e37d51b1bd085/icons/128x128/mp3guessenc_utilities-terminal.png
+    width: 128
+    height: 128
+homepage: "https://mp3guessenc.sourceforge.io/"
+enabled: true
+order: 99

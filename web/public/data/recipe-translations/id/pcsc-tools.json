@@ -1,0 +1,5 @@
+{
+  "name": "Gscriptor",
+  "description": "Mengirim perintah ke smart card",
+  "longDescription": "<p>Arsip ini berisi beberapa alat yang berguna untuk pengguna PC/SC. Alat-alat yang disediakan antara lain:</p>\n<p>pcsc_scan(1) memindai pembaca smart card yang tersedia dan menampilkan deteksi seperti: pemasangan kartu dengan ATR, serta pelepasan kartu;</p>\n<p>ATR_analysis(1) menganalisis ATR (Answer To Reset) dari smart card;</p>\n<p>scriptor(1) skrip Perl untuk mengirim perintah ke smart card menggunakan batch file atau stdin;</p>\n<p>gscriptor(1) memiliki fungsi yang sama seperti scriptor.pl(1), namun dengan antarmuka grafis Perl-Gtk.</p>\n"
+}

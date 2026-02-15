@@ -1,0 +1,5 @@
+{
+  "name": "Terminal port serial",
+  "description": "Berkomunikasi dengan port serial",
+  "longDescription": "<p>gtkterm adalah terminal sederhana berbasis GTK+ yang digunakan untuk berkomunikasi dengan port serial.</p>\n<p>Fitur-fiturnya antara lain:</p>\n<p> * Jendela terminal port serial  * Pengaturan port serial (kecepatan, paritas, bit, stopbit, kontrol aliran)  * Menggunakan API termios  * Dapat mengirim file (hanya data RAW, tanpa protokol)  * Penundaan akhir baris saat mengirim file  * Menunggu karakter khusus sebelum baris berikutnya saat mengirim file  * Dapat mengatur kontrol garis secara manual (DTR, CTS)  * Dapat membaca status kontrol garis (RTS, CD, DSR, RI)</p>\n<p> Penulis:   Julien Schmitt &lt;julien@jls-info.com&gt;</p>\n"
+}

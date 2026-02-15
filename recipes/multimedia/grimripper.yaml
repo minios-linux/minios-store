@@ -1,0 +1,52 @@
+id: "grimripper"
+name: GrimRipper
+description: "Audio CD ripper, encoder, and metadata fetcher."
+longDescription: |
+  <p>
+        GrimRipper is a graphical Audio CD ripper. It fetches CD metadatas from online databases and compresses the tracks.
+      </p>
+  <p>Supported codecs: WAV, MP3, Ogg Vorbis, FLAC, Opus, Wavpack, Musepack, AAC, and Monkey's audio files.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Uses CDDB to name and tag each track.</li>
+    <li>Creates M3U playlists</li>
+    <li>Can encode to multiple formats in one session</li>
+    <li>Simultaneous rip and encode</li>
+    <li>Does not require a specific desktop environment</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - grimripper
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - extract
+  - flac
+  - mp3
+  - lame
+screenshotSources:
+  - url: org/gnome/gitlab.grimripper/f4bb6028b46088bf50a786c14a0f7939/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/gitlab.grimripper/f4bb6028b46088bf50a786c14a0f7939/screenshots/image-1_224x179@1.png
+    width: 526
+    height: 421
+  - url: org/gnome/gitlab.grimripper/f4bb6028b46088bf50a786c14a0f7939/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/gitlab.grimripper/f4bb6028b46088bf50a786c14a0f7939/screenshots/image-2_224x178@1.png
+    width: 526
+    height: 420
+iconSources:
+  - url: org/gnome/gitlab.grimripper/f4bb6028b46088bf50a786c14a0f7939/icons/128x128/grimripper_org.gnome.gitlab.grimripper.png
+    width: 128
+    height: 128
+developer: Salamandar (Félix Piédallu) et al.
+homepage: "https://gitlab.gnome.org/Salamandar/GrimRipper"
+enabled: true
+order: 99

@@ -1,0 +1,58 @@
+id: "dianara"
+name: Dianara
+description: A social networking client for the Pump.io network
+longDescription: |
+  <p>Dianara is a Pump.io client, a desktop application to manage a user&apos;s
+     account on the Pump.io distributed social network.</p>
+  <p>It allows all the usual things, like creating new posts, commenting on other
+     people&apos;s posts, sharing them, following people, editing your profile, etc.
+     It can also do many things that the web interface can&apos;t, such as:</p>
+  <ul>
+    <li>Editing posts and comments</li>
+    <li>Adding titles to regular notes</li>
+    <li>Uploading audio and video</li>
+    <li>Following people, from any server, with a click on their avatar</li>
+    <li>Changing the e-mail address associated with your account</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dianara
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pump.io
+  - social network
+  - microblog
+screenshotSources:
+  - url: org/nongnu/dianara/a67568ed2fc0d36ffd68e3c384373ad9/screenshots/image-1_orig.png
+    thumbnailUrl: org/nongnu/dianara/a67568ed2fc0d36ffd68e3c384373ad9/screenshots/image-1_624x627@1.png
+    width: 850
+    height: 855
+iconSources:
+  - cached: dianara_dianara.png
+    width: 64
+    height: 64
+homepage: "https://jancoding.wordpress.com/dianara"
+enabled: true
+order: 99

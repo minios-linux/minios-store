@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=MiniOS Store
+Comment=Install applications for MiniOS
+Exec=xdg-open https://store.minios.dev
+Icon=system-software-install
+Terminal=false
+Type=Application
+Categories=System;PackageManager;
+Keywords=store;install;packages;modules;

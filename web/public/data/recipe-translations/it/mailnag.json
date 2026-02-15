@@ -1,0 +1,5 @@
+{
+  "name": "Mailnag",
+  "description": "Un demone notificatore di posta elettronica estensibile",
+  "longDescription": "<p>\n      Mailnag è un servizio in background che controlla i server POP3 e IMAP per nuovi messaggi.\n      All’arrivo di nuovi messaggi, esegue diverse azioni fornite dai plugin.\n      Mailnag include plugin predefiniti indipendenti dall’ambiente desktop per\n      notifiche visive/sonore, esecuzione di script, ecc., ed è facilmente estendibile\n      con plugin aggiuntivi.\n    </p>\n"
+}

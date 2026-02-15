@@ -1,0 +1,35 @@
+id: wesnoth-1-14-core
+name: Battle for Wesnoth (1.14)
+description: A fantasy turn-based strategy game
+longDescription: |
+  <p>This package contains the main program for wesnoth. It can be used to play multiplayer games.  If you want to play campaigns you will have to install them individually, but if you prefer to have all the official campaigns installed please be advised to install the wesnoth-1.14 package which depends on all of them.</p>
+  <p>Battle for control of villages, using variety of units which have advantages and disadvantages in different types of terrains and against different types of attacks.  Units gain experience and advance levels, and are carried over from one scenario to the next in a campaign.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wesnoth-1.14-core
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - singleplayer
+  - multiplayer
+  - dark age
+  - middle ages
+  - medieval
+  - mediaeval
+iconSources:
+  - cached: wesnoth-1.14-core_wesnoth-1.14-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

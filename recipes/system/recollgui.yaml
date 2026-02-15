@@ -1,0 +1,44 @@
+id: "recollgui"
+name: Recoll
+description: Find documents by specifying search terms
+longDescription: |
+  <p>This package contains main recoll GUI for configuring, controlling and querying recoll indexes</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - recollgui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - search
+  - full text
+screenshotSources:
+  - url: org/recoll/recoll/03b38e4d2f4d23534145498ff492d972/screenshots/image-1_orig.png
+    thumbnailUrl: org/recoll/recoll/03b38e4d2f4d23534145498ff492d972/screenshots/image-1_624x459@1.png
+    width: 1102
+    height: 812
+iconSources:
+  - url: org/recoll/recoll/03b38e4d2f4d23534145498ff492d972/icons/128x128/recollgui_recoll.png
+    width: 128
+    height: 128
+homepage: "https://www.recoll.org/"
+enabled: true
+order: 99

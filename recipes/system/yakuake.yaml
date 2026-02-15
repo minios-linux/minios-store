@@ -1,0 +1,51 @@
+id: "yakuake"
+name: Yakuake
+description: Drop-down Terminal
+longDescription: |
+  <p>Yakuake is a drop-down terminal emulator based on KDE Konsole technology.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Smoothly rolls down from the top of your screen</li>
+    <li>Tabbed interface</li>
+    <li>Configurable dimensions and animation speed</li>
+    <li>Skinnable</li>
+    <li>Sophisticated D-Bus interface</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yakuake
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/yakuake.desktop/ae57626c84e28bd919341593a94cb585/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/yakuake.desktop/ae57626c84e28bd919341593a94cb585/screenshots/image-1_624x201@1.png
+    width: 1920
+    height: 620
+iconSources:
+  - url: org/kde/yakuake.desktop/ae57626c84e28bd919341593a94cb585/icons/128x128/yakuake_yakuake.png
+    width: 128
+    height: 128
+homepage: "http://yakuake.kde.org/"
+enabled: true
+order: 99

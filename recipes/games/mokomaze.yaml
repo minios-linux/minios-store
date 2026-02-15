@@ -1,0 +1,47 @@
+id: mokomaze
+name: Mokomaze
+description: Ball-in-a-labyrinth game
+longDescription: |
+  <p>Mokomaze is the opensource implementation of the classic game where you control a steel ball by tilting a wooden labyrinth.</p>
+  <p>This package requires acceleration sensors and is targeted for the Openmoko FreeRunner smartphone.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mokomaze
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - rolling
+  - ball
+  - marble
+  - maze
+  - labyrinth
+  - holes
+  - obstacles
+  - puzzle
+iconSources:
+  - cached: mokomaze_mokomaze.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Guake Indicator",
+  "description": "Utilisez-le pour lancer guake-indicator et une nouvelle icône apparaîtra dans la barre système",
+  "longDescription": "<p>Guake Indicator vous permet d’envoyer des commandes personnalisées via le système D-Bus. Les commandes peuvent être modifiées manuellement dans un fichier XML situé dans ~/.guake.indicator, ou générées à travers l’interface graphique d’édition de menu de guake-indicator.</p>\n<p>Guake Indicator reste dans votre « barre système » et affiche vos commandes favorites extraites de ~/.guake.indicator/guake-indicator.xml. Si le fichier guake-indicator.xml n’existe pas, Guake Indicator créera un fichier de configuration par défaut avec quelques exemples.</p>\n"
+}

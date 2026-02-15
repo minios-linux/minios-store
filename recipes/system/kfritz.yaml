@@ -1,0 +1,23 @@
+id: kfritz
+name: KFritz
+description: Access call history and phone book of your Fritz!Box and get notifications on incoming and outgoing calls.
+longDescription: |
+  <p>kfritz works together with an AVM Fritz!Box. It provides notifications on new incoming or outgoing calls, it tracks missed calls and can announce it via libindicate / message indicator widget. Further, it is possible to browse the phone book of the box. kfritz uses knotify to show connects and disconnects.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kfritz
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: kfritz_modem.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

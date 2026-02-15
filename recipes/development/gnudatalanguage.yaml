@@ -1,0 +1,37 @@
+id: gnudatalanguage
+name: GNU Data Language
+description: Free IDL compatible incremental compiler
+longDescription: |
+  <p>GNU Data Language (GDL) is a free IDL (Interactive Data Language) compatible incremental compiler. It has full syntax compatibility with IDL 7.1. IDL is a registered trademark of ITT Visual Information Solutions. From IDL 8.0, the following language elements are supported:</p>
+  <p> * FOREACH loop  * negative array indices  * garbage collection pointers and objects  * call methods on an object using &quot;.&quot; (e. g. `object.aMemberProcedure,arg1`)</p>
+  <p>The file input output system is fully implemented. GUI support (widgets) is officially provided, but it&apos;s not complete yet.</p>
+  <p>This package contains the main commandline and interpreter frontend.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnudatalanguage
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - gdl
+  - idl
+iconSources:
+  - cached: gnudatalanguage_gdl.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

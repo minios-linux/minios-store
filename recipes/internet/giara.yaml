@@ -1,0 +1,41 @@
+id: "giara"
+name: Giara
+description: An app for Reddit
+longDescription: |
+  <p>An app for Reddit.</p>
+  <p>Browse Reddit from your Linux desktop or smartphone.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - giara
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - reddit
+screenshotSources:
+  - url: org/gabmus/giara/356fb65a274c9bd12a90053eabd67406/screenshots/image-1_orig.png
+    thumbnailUrl: org/gabmus/giara/356fb65a274c9bd12a90053eabd67406/screenshots/image-1_224x329@1.png
+    width: 340
+    height: 500
+iconSources:
+  - url: org/gabmus/giara/356fb65a274c9bd12a90053eabd67406/icons/128x128/giara_org.gabmus.giara.png
+    width: 128
+    height: 128
+developer: Gabriele Musco
+homepage: "https://giara.gabmus.org"
+enabled: true
+order: 99

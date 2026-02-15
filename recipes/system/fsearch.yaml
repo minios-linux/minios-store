@@ -1,0 +1,61 @@
+id: fsearch
+name: FSearch
+description: A graphical file search application
+longDescription: |
+  <p>
+              FSearch helps you to find files and folders as easy and fast as possible.
+              Just type a few letters and search results will appear almost instantly.
+          </p>
+  <p>
+              There are a lot of features which make searching as efficient and powerful
+              as possible. Such as:
+          </p>
+  <ul>
+    <li>Ignore case (e.g. searching for "fsearch" will match "FSearch" as well)</li>
+    <li>Regular expressions</li>
+    <li>Wildcard support</li>
+    <li>Filter support (e.g. only search for audio files)</li>
+    <li>Exclude certain files and folders</li>
+    <li>Fast sort by name, path, size, modification time and extension</li>
+  </ul>
+  <p>
+              Note: Due to Flatpak's sandboxing, FSearch can't find every file on your system.
+          </p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fsearch
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - search
+  - fsearch
+  - files
+  - folders
+  - music
+  - video
+  - documents
+  - find
+  - tool
+  - everything
+screenshotSources:
+  - url: io/github/cboxdoerfer.FSearch/9974447cdcc874ae9043022b43d4bcf4/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/cboxdoerfer.FSearch/9974447cdcc874ae9043022b43d4bcf4/screenshots/image-1_624x351@1.png
+    width: 848
+    height: 477
+  - url: io/github/cboxdoerfer.FSearch/9974447cdcc874ae9043022b43d4bcf4/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/cboxdoerfer.FSearch/9974447cdcc874ae9043022b43d4bcf4/screenshots/image-2_624x351@1.png
+    width: 848
+    height: 477
+iconSources:
+  - url: io/github/cboxdoerfer.FSearch/9974447cdcc874ae9043022b43d4bcf4/icons/128x128/fsearch_io.github.cboxdoerfer.FSearch.png
+    width: 128
+    height: 128
+homepage: "https://github.com/cboxdoerfer/fsearch"
+enabled: true
+order: 99

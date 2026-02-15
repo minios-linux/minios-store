@@ -1,0 +1,5 @@
+{
+  "name": "Jerry - Chess GUI",
+  "description": "Programa de ajedrez",
+  "longDescription": "<p>Una interfaz gráfica de usuario (GUI) sencilla y eficiente para ajedrez que ofrece las siguientes características:  * basada en Stockfish, el mejor motor de ajedrez del mundo (a enero de 2014)  * juega contra la computadora  * ajusta los niveles de dificultad según tu habilidad  * introduce, edita y analiza partidas  * análisis automático de partidas  * lee y guarda partidas en formato estándar PGN  * copia y pega posiciones FEN y partidas PGN desde el portapapeles  * multiplataforma: apariencia nativa en Linux, OS X y Windows  * interfaz fácil e intuitiva</p>\n"
+}

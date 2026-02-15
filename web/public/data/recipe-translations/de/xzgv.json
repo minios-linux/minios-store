@@ -1,0 +1,5 @@
+{
+  "name": "xzgv Image Viewer",
+  "description": "Leistungsstarker, schlanker Bildbetrachter",
+  "longDescription": "<p>xzgv ist ein Bildbetrachter für X mit einem dateibasierenden Vorschaubrowser (Thumbnails). Die meisten Bildformate werden unterstützt, und die erzeugten Vorschaubilder sind mit xv, zgv und GIMP kompatibel. xzgv lässt sich auch direkt mit `xzgv Datei(en)` starten, wodurch die Dateiauswahl umgangen werden kann.</p>\n<p>Im Gegensatz zu vielen anderen Viewern für X verwendet xzgv nur ein einziges Fenster sowohl für die Dateiauswahl als auch für die Bildanzeige. Im Unterschied zu xv unterstützt xzgv sowohl Scrollen als auch die Anzeige großer Bilder im angepassten (fit-to-window) Modus und verzerrt dabei niemals das Seitenverhältnis.</p>\n<p>Das Programm bietet eine umfassende Tastaturunterstützung und ist damit besonders für Nutzer geeignet, die lieber mit der Tastatur arbeiten. Auch für die Mausbedienung gibt es zahlreiche Funktionen.</p>\n<p>Der Autor dieses Programms ist auch für das svgalib-basierte \"zgv\" verantwortlich; viele Funktionen sind vergleichbar.</p>\n<p>Homepage: http://sourceforge.net/projects/xzgv</p>\n"
+}

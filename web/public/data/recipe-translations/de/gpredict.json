@@ -1,0 +1,5 @@
+{
+  "name": "Gpredict",
+  "description": "Satelliten-Tracker",
+  "longDescription": "<p>Gpredict ist ein Satellitenverfolgungs- und Bahnvorhersageprogramm in Echtzeit für den Linux-Desktop. Es verwendet die SGP4/SDP4-Ausbreitungsalgorithmen in Verbindung mit NORAD-Zweizeilenelementdatensätzen (TLE).</p>\n<p>Zu den Hauptfunktionen von Gpredict gehören:</p>\n<p> * Verfolgung einer großen Anzahl von Satelliten – einzig begrenzt durch den Arbeitsspeicher und die Rechenleistung des Computers  * Anzeige der Tracking-Daten in Listen, Karten, Polardiagrammen oder beliebigen Kombinationen davon  * Gleichzeitiges Öffnen mehrerer Module, entweder in einem Tab-Fenster oder als eigene Fenster. Die Module können auch im Vollbildmodus ausgeführt werden  * Unterstützung mehrerer Bodenstationen  * Vorhersage bevorstehender Überflüge  * Gpredict kann im Echtzeitmodus, im simulierten Echtzeitmodus (Vor- und Zurückspulen) sowie mit manueller Zeitsteuerung betrieben werden  * Ausführliche Informationen sowohl im Echtzeit- als auch im Nicht-Echtzeitbetrieb  * Dopplersteuerung von Funkgeräten über Hamlib rigctld  * Antennenrotorsteuerung über Hamlib rotctld</p>\n"
+}

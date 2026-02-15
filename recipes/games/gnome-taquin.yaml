@@ -1,0 +1,47 @@
+id: "gnome-taquin"
+name: GNOME Taquin
+description: Slide tiles to their correct places
+longDescription: |
+  <p>Taquin is a computer version of the 15-puzzle and other sliding puzzles.</p>
+  <p>The object of Taquin is to move tiles so that they reach their places, either indicated with numbers, or with parts of a great image.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-taquin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - puzzle
+screenshotSources:
+  - url: org/gnome/Taquin/a9d4f211263421e1649528d9cbd0773b/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Taquin/a9d4f211263421e1649528d9cbd0773b/screenshots/image-1_224x226@1.png
+    width: 592
+    height: 599
+iconSources:
+  - url: org/gnome/Taquin/a9d4f211263421e1649528d9cbd0773b/icons/128x128/gnome-taquin_org.gnome.Taquin.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Taquin"
+enabled: true
+order: 99

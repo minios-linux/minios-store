@@ -1,0 +1,5 @@
+{
+  "name": "Developers Reference",
+  "description": "linee guida e informazioni per gli sviluppatori Debian",
+  "longDescription": "<p>Questo pacchetto contiene la Developers Reference di Debian, un insieme di linee guida e pratiche consigliate stabilite dalla comunità degli sviluppatori e manutentori Debian. Se non mantieni pacchetti Debian probabilmente non hai bisogno di questo pacchetto.</p>\n<p>Indice dei contenuti:</p>\n<p>   * 1. Scopo di questo documento    * 2. Candidatura per diventare membro    * 3. Doveri dello sviluppatore Debian    * 4. Risorse per i membri Debian    * 5. Gestione dei pacchetti    * 6. Migliori pratiche di packaging    * 7. Oltre il packaging    * 8. Internazionalizzazione e traduzioni    * 1. Panoramica degli strumenti per manutentori Debian</p>\n<p>Questo pacchetto contiene la versione inglese della Developers Reference. Le traduzioni in francese, tedesco, italiano, russo e giapponese sono disponibili nei pacchetti developers-reference-fr, developers-reference-de, developers-reference-it, developers-reference-ru e developers-reference-ja.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Nitrogen",
+  "description": "Navegador y configurador de fondos para X Windows",
+  "longDescription": "<p>Nitrogen es un programa que te permite establecer el fondo de escritorio. Su modo de explorador te permite elegir y aplicar un fondo de escritorio, y el modo de recuperación permite aplicar la configuración guardada desde la línea de comandos.</p><p>Incluye compatibilidad con Multihead y Xinerama, monitoreo con inotify del directorio de imágenes, carga diferida de miniaturas para ahorrar memoria y un modo 'automático' que determina la mejor forma de ajustar la imagen según su tamaño.</p>"
+}

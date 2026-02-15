@@ -1,0 +1,5 @@
+{
+  "name": "tekka IRC Client",
+  "description": "Chat di IRC",
+  "longDescription": "<p>Sushi IRC suite terdiri dari sebuah daemon pusat dan beberapa klien yang berkomunikasi melalui DBus. Daemon menyediakan metode dan sinyal DBus untuk mengabstraksi protokol IRC, sehingga klien dapat menggunakan metode dan sinyal ini untuk berinteraksi dengan IRC secara mudah.</p>\n<p>tekka adalah klien berbasis GTK untuk maki yang ditulis dengan Python. Antarmukanya dideskripsikan menggunakan Glade, mendukung plugin, dan mengikuti pedoman GNOME Human Interface (HIG).</p>\n"
+}

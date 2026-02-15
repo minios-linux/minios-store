@@ -1,0 +1,32 @@
+id: "lxsession-default-apps"
+name: Default applications for LXSession
+description: Change the default applications on LXDE
+longDescription: |
+  <p>LXSession is the default session manager for the Lightweight X11 Desktop Environment (LXDE).</p>
+  <p>LXSession-Default-Apps is an utility to configure lxsession and its default applications.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxsession-default-apps
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: lxsession-default-apps_preferences-desktop.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

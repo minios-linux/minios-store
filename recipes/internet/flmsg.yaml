@@ -1,0 +1,37 @@
+id: flmsg
+name: flmsg
+description: Amateur Radio Communications
+longDescription: |
+  <p>Flmsg is a simple forms management editor for the amateur radio supported standard message formats, including ICS, HICS, MARS, IARU, Radiogram NTS, Red Cross, and plaintext.  It&apos;s data files are pure ASCII text that can be sent from point to point using the internet, amateur radio, or other electronic link.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flmsg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: flmsg_flmsg.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

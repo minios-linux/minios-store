@@ -1,0 +1,5 @@
+{
+  "name": "DVBcut",
+  "description": "Memotong dan memangkas video MPEG2 transport stream ke berbagai format ekspor",
+  "longDescription": "<p>DVBcut adalah aplikasi berbasis Qt yang memungkinkan Anda memilih bagian tertentu dari MPEG transport stream (seperti yang diterima melalui Digital Video Broadcasting, DVB) dan menyimpan bagian-bagian tersebut ke dalam satu file output MPEG. Pendekatannya seperti 'operasi lubang kunci' di mana data video dan audio asli sebagian besar tetap tidak berubah, hanya beberapa frame di awal dan/atau akhir rentang yang dipilih yang dienkode ulang untuk menghasilkan file MPEG yang valid.</p>\n"
+}

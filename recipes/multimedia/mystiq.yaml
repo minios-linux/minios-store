@@ -1,0 +1,36 @@
+id: "mystiq"
+name: MystiQ Video Converter
+description: "MystiQ Video Converter, an open-source multimedia converter"
+longDescription: |
+  <p>
+            MystiQ is a GUI for FFmpeg, a powerful media converter. FFmpeg can read audio and video files in various formats
+  and convert them into other formats. MystiQ features an intuitive graphical interface and a rich set of presets to help you convert media files within a few clicks. Advanced users can also adjust conversion parameters in detail.
+        </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mystiq
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: m/my/mystiq.desktop/da7cfbcbc52b2cc6ac4bf89a10f66a27/icons/128x128/mystiq_mystiq.png
+    width: 128
+    height: 128
+developer: Maikel Llamaret Heredia
+homepage: "https://mystiqapp.com/"
+enabled: true
+order: 99

@@ -1,0 +1,25 @@
+id: quisk
+name: Quisk
+description: Audio IQ signal intermediate frequency receiver and transmitter
+longDescription: |
+  <p>This is Quisk, a Software Defined Radio (SDR). You supply an antenna and a complex (I/Q) mixer to convert the radio spectrum to a low IF. Then send that IF to your computer using the sound card, Ethernet or USB. The Quisk software will read the I/Q data, tune it, filter it, demodulate it, and send the audio to headphones or speakers. Quisk has a microphone input and a key input so it can operate as a complete transceiver.</p>
+  <p>Quisk works with this hardware:  * SoftRock connected to the sound card  * Many other SDR&apos;s connected to the sound card  * SDR-IQ connected by USB  * Perseus connected by USB  * N2ADR hardware connected by Ethernet and IP  * HiQSDR hardware connected by Ethernet and IP  * The Hermes-Lite project at hermeslite.com  * Quisk can be used as a pan adapter, and can control some radios</p>
+  <p>Quisk is small and simple, and has been designed so that it is easy to change Quisk to suit your own hardware. Quisk rhymes with &quot;brisk&quot;, and is QSK plus a few letters to make it easier to pronounce. QSK is a Q signal meaning full breakin CW operation, and Quisk has been designed for low latency. Quisk includes an input keying signal that can mute the audio and substitute a sidetone.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - quisk
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: q/qu/quisk.desktop/c327e3973b63c63fcf467f02d5145407/icons/128x128/quisk_quisk.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

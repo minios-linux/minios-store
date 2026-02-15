@@ -1,0 +1,26 @@
+id: geda-gattrib
+name: gEDA Attribute Editor
+description: Manipulate component attributes with gattrib
+longDescription: |
+  <p>The gEDA project has produced and continues working on a full GPL&apos;d suite and toolkit of Electronic Design Automation tools. These tools are used for electrical circuit design, schematic capture, simulation, prototyping, and production. Currently, the gEDA project offers a mature suite of free software applications for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.</p>
+  <p>This package contains gattrib, the attribute editor.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - geda-gattrib
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/ge/geda-gattrib.desktop/AF5A86E9092BD8AFBA9022604803921C/icons/128x128/geda-gattrib_geda-gattrib.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

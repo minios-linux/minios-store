@@ -1,0 +1,42 @@
+id: "xsok"
+name: Xsokoban
+description: Sokoban game for X11
+longDescription: |
+  <p>xsok is a single player strategic game, a superset of the well-known Sokoban game.</p>
+  <p>The target of Sokoban is to push all the objects into the score area of each level using the mouse or the arrow keys. For the other level subsets, there are different kinds of objects, and special effect squares.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xsok
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - sokoban
+  - logic
+  - puzzle
+iconSources:
+  - url: x/xs/xsok.desktop/35ccbc1ed03f4a71cefee7a4e42ebbf5/icons/128x128/xsok_xsok.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,56 @@
+id: "spyder"
+name: Spyder
+description: The Scientific Python Development Environment
+longDescription: |
+  <p>
+        Spyder is a powerful scientific environment written in Python, for Python, and designed by and for scientists, engineers
+  and data analysts.
+        It features a unique combination of the advanced editing, analysis, debugging and profiling functionality of a comprehensive
+  development tool
+        with the data exploration, interactive execution, deep inspection and beautiful visualization capabilities of an
+  analysis package.
+      </p>
+  <p>
+        Furthermore, Spyder offers built-in integration with many popular scientific libraries,
+        including NumPy, SciPy, Pandas, IPython, QtConsole, Matplotlib, SymPy, and more, and can be extended further with
+  full plugin support.
+        Spyder can also be used as a PyQt5 extension library, allowing you to build upon its functionality and embed its
+  components,
+        such as the interactive console, in your own software.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - spyder
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - development
+  - science
+  - ide
+  - qt
+screenshotSources:
+  - url: org/spyder_ide/spyder/84126beaa14292fa7e3a700079debd0c/screenshots/image-1_orig.png
+    thumbnailUrl: org/spyder_ide/spyder/84126beaa14292fa7e3a700079debd0c/screenshots/image-1_624x390@1.png
+    width: 1440
+    height: 900
+iconSources:
+  - cached: spyder_spyder.png
+    width: 64
+    height: 64
+developer: Spyder Project Contributors
+homepage: "https://www.spyder-ide.org/"
+enabled: true
+order: 99

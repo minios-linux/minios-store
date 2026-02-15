@@ -1,0 +1,5 @@
+{
+  "name": "LTRsift",
+  "description": "Un outil graphique pour le post-traitement et la classification des rétrotransposons LTR.",
+  "longDescription": "<p>LTRsift est un outil graphique pour bureau permettant le post-traitement semi-automatique des annotations de rétrotransposons LTR prédites de novo, telles que celles générées par LTRharvest et LTRdigest. Son interface conviviale affiche les candidats rétrotransposons LTR, leurs familles potentielles et leur structure interne de manière hiérarchique, permettant à l'utilisateur de \"trier\" les résultats parfois volumineux des logiciels de prédiction de novo. Il propose également des fonctionnalités de filtrage et de classification personnalisables.</p>\n"
+}

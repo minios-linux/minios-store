@@ -1,0 +1,41 @@
+id: "kxstitch"
+name: KXStitch
+description: A cross stitch application
+longDescription: |
+  <p>KXStitch is a program that lets you create cross stitch patterns and charts. Patterns can be created from scratch on a user defined size of grid, which can be enlarged or reduced in size as your pattern progresses.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kxstitch
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kxstitch/0a519b3b253e064a07ccbf9a26513683/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kxstitch/0a519b3b253e064a07ccbf9a26513683/screenshots/image-1_624x450@1.png
+    width: 1191
+    height: 859
+iconSources:
+  - url: org/kde/kxstitch/0a519b3b253e064a07ccbf9a26513683/icons/128x128/kxstitch_kxstitch.png
+    width: 128
+    height: 128
+homepage: "https://userbase.kde.org/Special:myLanguage/KXStitch"
+enabled: true
+order: 99

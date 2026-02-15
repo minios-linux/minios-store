@@ -1,0 +1,38 @@
+id: atanks
+name: Atomic Tanks
+description: Destroy your opponents' tanks.
+longDescription: |
+  <p>Atomic tanks is a multi-player game in which you attempt to destroy other tanks while trying to protect your own. You earn money for destroying other tanks; with this money you can buy upgrades and better weapons for your tank.</p>
+  <p>This game is similar Scorched Earth or the Worms series of games.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - atanks
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: atanks_atanks.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

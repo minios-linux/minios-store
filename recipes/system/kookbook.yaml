@@ -1,0 +1,39 @@
+id: "kookbook"
+name: Kookbook
+description: Simple recipe collection handling application
+longDescription: |
+  <p>KookBook helps you curate your recipe collection, letting you browse recipes, search by title or ingredient to recall the details of your kitchen creations.</p>
+  <p>Recipes are written in markdown and stored in text files. A cookbook, or collection of recipes, is a folder structure containing one or more recipes. The folder structure can be used as one way to browse and group the recipes.</p>
+  <p>Recipes can be synced with devices or shared with other users using external tools like git repositories, nextcloud or many other services.</p>
+  <p>The package includes both the desktop &quot;kookbook&quot; program and an touchscreen version &quot;kookbooktouch&quot;.</p>
+  <p>The package also includes a simple conversion utility that is able to convert a krecipes database into a set of kookbook markdown files. For more details, see /usr/share/doc/kookbook/README.Debian</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kookbook
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: k/ko/kookbooktouch.desktop/365adc70515fde72b65f68a5e60e66c4/icons/128x128/kookbook_kookbook.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

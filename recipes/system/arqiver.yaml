@@ -1,0 +1,29 @@
+id: arqiver
+name: Arqiver
+description: A Qt front-end for libarchive
+longDescription: |
+  <p>Arqiver can extract, create and edit archives that are supported by its back-ends. It can open archives by drag-and-drop. With 7z, it also supports password protection.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - arqiver
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: a/ar/arqiver.desktop/74a07a3868bd8440154d48e9eae57a79/icons/128x128/arqiver_arqiver.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

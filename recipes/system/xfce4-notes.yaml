@@ -1,0 +1,30 @@
+id: xfce4-notes
+name: Notes
+description: Ideal for your quick notes
+longDescription: |
+  <p>The notes tool provides you a simple text editor in a little window for the Xfce 4 desktop.  Notes are especially useful for temporary stuff.</p>
+  <p>It supports multiple notes through a notebook. Click on the upper left corner button to open a new note.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-notes
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: x/xf/xfce4-notes.desktop/6925B4280FECCC27E04BCA4A96D30F90/icons/128x128/xfce4-notes_xfce4-notes-plugin.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

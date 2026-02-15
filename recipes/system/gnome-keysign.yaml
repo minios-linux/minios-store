@@ -1,0 +1,59 @@
+id: "gnome-keysign"
+name: Keysign
+description: OpenPGP Keysigning helper
+longDescription: |
+  <p>GNOME-Keysign allows signing OpenPGP keys comfortably and securely
+        via the local network or Bluetooth.</p>
+  <p>It can scan another key&apos;s barcode and transfer the key securely,
+        allowing for casual two-party key signing sessions.
+        It follows best practises by sending the encrypted signatures
+        to the UIDs of a key using the Email client the user configured
+        to use.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-keysign
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - python
+  - gpg
+  - gnupg
+  - key
+  - openpgp
+screenshotSources:
+  - url: org/gnome/Keysign/cc799096b16ba3e7e2b53a8bde8e6497/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Keysign/cc799096b16ba3e7e2b53a8bde8e6497/screenshots/image-1_624x510.png
+    width: 646
+    height: 529
+  - url: org/gnome/Keysign/cc799096b16ba3e7e2b53a8bde8e6497/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Keysign/cc799096b16ba3e7e2b53a8bde8e6497/screenshots/image-2_624x510.png
+    width: 646
+    height: 529
+iconSources:
+  - url: org/gnome/Keysign/cc799096b16ba3e7e2b53a8bde8e6497/icons/128x128/gnome-keysign_org.gnome.Keysign.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Keysign"
+enabled: true
+order: 99

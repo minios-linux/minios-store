@@ -1,0 +1,5 @@
+{
+  "name": "JFTP",
+  "description": "Cliente Java con interfaz gráfica para FTP, SMB, SFTP y NFS",
+  "longDescription": "<p>JFtp es un cliente gráfico para transferencias de archivos y redes desarrollado en Java. Permite gestionar conexiones FTP mediante su propia API, así como otros protocolos como SMB, SFTP, NFS, HTTP y operaciones de archivos utilizando APIs de terceros. Incluye funciones avanzadas como descarga y subida recursiva de directorios, exploración de servidores FTP mientras se transfieren archivos, reanudación y encolado de transferencias FTP, exploración de recursos compartidos en redes Windows (LAN) y más. Permite múltiples conexiones abiertas simultáneamente, con navegación por pestañas al estilo Mozilla.</p>\n"
+}

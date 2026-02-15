@@ -1,0 +1,5 @@
+{
+  "name": "Ebumeter",
+  "description": "Lautheitsmesser gemäß EBU-R128 für JACK",
+  "longDescription": "<p>Diese Werkzeuge unterstützen die Kontrolle der Lautheit von Audiomaterial, das vorrangig für Rundfunkzwecke vorgesehen ist, aber auch in anderen Situationen nützlich sein kann.</p>\n<p>Mit ebumeter und ebur128 können Anwender die Momentane (400 ms), Kurzzeit- (3s) und Integrierte Lautheit (von Start bis Stopp) messen. Sie können sowohl auf Audiodateien als auch auf Signale über JACK angewendet werden.</p>\n<p>Dieses Paket enthält zwei Programme:   * ebumeter – interaktiver Lautheitsmesser via jackd   * ebur128 – Kommandozeilenanwendung zur Messung von Audiodateien</p>\n"
+}

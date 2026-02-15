@@ -1,0 +1,5 @@
+{
+  "name": "Manajer acara dan tugas",
+  "description": "Kelola acara dan tugas menggunakan berkas teks sederhana",
+  "longDescription": "<p>Contoh:</p>\n<ul>\n  <li>Pertemuan penjualan (acara) [d]imulai tujuh hari dari hari ini pukul 9:00 pagi dan [b]erlangsung selama satu jam, dengan [p]engingat otomatis 5 menit sebelum mulai:\n   * sales meeting @s +7 9a @e 1h @a 5</li>\n  <li>Potong rambut (tugas) pada tanggal 24 bulan ini, lalu [d]iulang setiap [i]nterval (14) hari secara [h]arian, dan setelah selesai, akan [d]imulai ulang dari tanggal selesai:\n    - get haircut @s 24 @r d &amp;i 14 @o r</li>\n  <li>Hari Pemilihan Presiden (acara khusus) setiap empat tahun pada hari Selasa pertama setelah hari Senin di bulan November:\n    ^ Presidential Election Day @s 2012-11-06\n@r y &amp;i 4 &amp;M 11 &amp;m 2, 3, 4, 5, 6, 7, 8 &amp;w TU</li>\n</ul>\n"
+}

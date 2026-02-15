@@ -1,0 +1,46 @@
+id: "anymeal"
+name: AnyMeal recipe management software
+description: Manage a large collection of MealMaster recipes
+longDescription: |
+  <p>
+        AnyMeal is a free recipe management software developed using
+        SQLite3 and Qt5. It can manage a cookbook with more than
+        250000 MealMaster recipes, thereby allowing to import,
+        export, search, display, edit, and print them.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - anymeal
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - recipes
+  - cooking
+  - database
+screenshotSources:
+  - url: de/wedesoft/anymeal/c310e94bd249e81e96992c629d1c1913/screenshots/image-1_orig.png
+    thumbnailUrl: de/wedesoft/anymeal/c310e94bd249e81e96992c629d1c1913/screenshots/image-1_624x484@1.png
+    width: 964
+    height: 749
+iconSources:
+  - cached: anymeal_anymeal.png
+    width: 64
+    height: 64
+homepage: "https://wedesoft.github.io/anymeal/"
+enabled: true
+order: 99

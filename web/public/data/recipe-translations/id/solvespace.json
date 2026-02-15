@@ -1,0 +1,5 @@
+{
+  "name": "SolveSpace",
+  "description": "CAD parametrik 2D/3D",
+  "longDescription": "<p>SolveSpace adalah program CAD parametrik untuk 2D dan 3D. Aplikasinya meliputi:</p>\n<p> * pemodelan bagian 3D — gambar dengan extrude, revolve, dan operasi Boolean (union/difference);  * pemodelan bagian 2D — gambar komponen sebagai satu irisan, ekspor ke DXF, PDF, SVG; gunakan perakitan 3D untuk verifikasi kecocokan;  * bagian untuk cetak 3D — ekspor ke STL atau format mesh segitiga lain yang umum digunakan printer 3D;  * menyiapkan data CAM — ekspor vektor 2D untuk mesin waterjet atau laser cutter; atau hasilkan STEP atau STL untuk diimpor ke perangkat lunak CAM pihak ketiga untuk proses machining;  * desain mekanisme — gunakan constraint solver untuk simulasi linkage planar/spasial, dengan sendi pin, bola, atau geser;  * geometri bidang dan padat — gantikan perhitungan trigonometri manual dan spreadsheet dengan gambar berdimensi yang langsung berubah.</p>\n"
+}

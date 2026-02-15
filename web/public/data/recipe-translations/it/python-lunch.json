@@ -1,0 +1,5 @@
+{
+  "name": "Lunch",
+  "description": "Avviatore di processi distribuiti",
+  "longDescription": "<p>Lunch è un semplice strumento per l'avvio e la gestione di processi distribuiti su GNU/Linux.</p>\n<p>Con Lunch puoi avviare processi software su diversi computer e assicurarti che continuino a funzionare. Questo software è stato creato per rispondere alle esigenze degli artisti digitali durante performance dal vivo e installazioni interattive. Riavvia automaticamente i processi che si bloccano e offre un sistema per gestire le dipendenze tra i processi in esecuzione.</p>\n<p>Questo pacchetto fornisce la libreria lunch per Python, oltre all’utilità da linea di comando lunch, che può essere avviata anche con interfaccia grafica GTK+.</p>\n"
+}

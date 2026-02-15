@@ -1,0 +1,5 @@
+{
+  "name": "Frama-C",
+  "description": "Kerangka kerja untuk analisis kode sumber perangkat lunak yang ditulis dalam C",
+  "longDescription": "<p>Frama-C adalah kerangka kerja yang didedikasikan untuk analisis kode sumber perangkat lunak yang ditulis dalam bahasa C.</p>\n<p>Frama-C menggabungkan berbagai teknik analisis statis dalam satu kerangka kerja kolaboratif. Pendekatan kolaboratif Frama-C memungkinkan setiap analis statis untuk membangun hasil berdasarkan temuan dari analis lain di dalam kerangka tersebut. Berkat metode ini, Frama-C menyediakan alat yang canggih seperti pemotong kode (slicer) dan analisis dependensi.</p>\n<p>Frama-C dapat digunakan untuk:   * Memvalidasi kode sumber secara formal   * Mencari potensi kesalahan saat runtime   * Melakukan audit atau peninjauan kode   * Melakukan reverse engineering untuk memahami strukturnya   * Menghasilkan dokumentasi formal</p>\n<p>Paket ini menyediakan antarmuka pengguna grafis dari Frama-C dan bergantung pada frama-c-base.</p>\n"
+}

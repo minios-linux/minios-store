@@ -1,0 +1,51 @@
+id: "colobot"
+name: Colobot
+description: Colonize with bots
+longDescription: |
+  <p>Colobot (Colonize with Bots) is an educational game aiming to teach programming through entertainment. You are playing as an astronaut on a journey with robot helpers to find a planet for colonization. It features 3D real-time graphics and a C++ and Java-like, object-oriented language, CBOT, which can be used to program the robots available in the game.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - colobot
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - robots
+  - 3d
+  - space
+  - astronaut
+  - java
+  - c++
+screenshotSources:
+  - url: info/colobot/Colobot/ca5fc07d8df34f7007c3790034a804fd/screenshots/image-1_orig.png
+    thumbnailUrl: info/colobot/Colobot/ca5fc07d8df34f7007c3790034a804fd/screenshots/image-1_624x468.png
+    width: 800
+    height: 600
+iconSources:
+  - url: c/co/colobot.desktop/f77eb9a583a7181b72768f8959b55b4d/icons/128x128/colobot_colobot.png
+    width: 128
+    height: 128
+developer: TerranovaTeam
+homepage: "https://colobot.info/"
+enabled: true
+order: 99

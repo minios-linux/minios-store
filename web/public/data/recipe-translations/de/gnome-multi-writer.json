@@ -1,0 +1,5 @@
+{
+  "name": "MultiWriter",
+  "description": "Ein ISO-Image gleichzeitig auf mehrere USB-Geräte schreiben",
+  "longDescription": "<p>Mit GNOME MultiWriter können ISO-Images gleichzeitig auf mehrere USB-Sticks geschrieben werden.<br>Unterstützte Laufwerksgrößen liegen zwischen 1 GB und 32 GB.</p>\n<p>MultiWriter ist besonders nützlich für Qualitätssicherungstests, zum Erstellen eines GNOME-Live-Images für einen Code-Sprint oder für die Massenproduktion von LiveUSB-Sticks für Messen und Veranstaltungen.</p>\n<p>Das gleichzeitige Beschreiben von mehr als 10 Geräten kann den USB-Bus der meisten Systeme leicht auslasten.<br>Um noch mehr Geräte parallel zu beschreiben, gibt es zwei Möglichkeiten:</p>\n<ul>\n  <li>Verwendung von USB-3.0-Hubs, selbst wenn die USB-Sticks lediglich USB 2.0 unterstützen</li>\n  <li>Einbau eines weiteren USB-2.0-PCIe-Root-Hubs</li>\n</ul>\n<p>MultiWriter wurde ursprünglich im Rahmen des ColorHug-Projekts entwickelt und 2015 als eigenständige Anwendung ausgegliedert.</p>\n"
+}

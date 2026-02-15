@@ -1,0 +1,5 @@
+{
+  "name": "Generatore di mesh superficiali Terraintool",
+  "description": "Genera mesh superficiali per software di rilievo speleologico",
+  "longDescription": "<p>Questo strumento genera mesh del terreno per software di rilievo speleologico a partire da dataset di altitudine ottenuti online. Utilizza i dataset NASA SRTM e ASTER europei. I dati pertinenti vengono scaricati ed estratti, geolocalizzati nel sistema di coordinate desiderato, ricampionati su una griglia mesh, con eventuale offset sulla griglia locale, quindi il risultato è visualizzato e salvato in formato survex (.svx). L'applicazione è scritta in Java.</p>\n"
+}

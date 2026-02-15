@@ -1,0 +1,42 @@
+id: "torbrowser-launcher"
+name: Tor Browser Launcher Settings
+description: Tor Browser Launcher Settings
+longDescription: |
+  <p>Tor Browser Launcher is intended to make the Tor Browser Bundle (TBB) easier to maintain and use for GNU/Linux users. torbrowser-launcher handles downloading the most recent version of TBB for you, in your language and for your architecture. It also adds a &quot;Tor Browser&quot; application launcher to your operating system&apos;s menu.</p>
+  <p>When you first launch Tor Browser Launcher, it will download TBB from https://www.torproject.org/ and extract it to ~/.local/share/torbrowser, and then execute it. Cache and configuration files will be stored in ~/.cache/torbrowser and ~/.config/torbrowser. Each subsequent execution after installation will simply launch the most recent TBB, which is updated using Tor Browser&apos;s own update feature.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - torbrowser-launcher
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/torproject/torbrowser-launcher/ddb1138d520e199921d4633cf987f06d/screenshots/image-1_orig.png
+    thumbnailUrl: org/torproject/torbrowser-launcher/ddb1138d520e199921d4633cf987f06d/screenshots/image-1_624x507@1.png
+    width: 1015
+    height: 825
+iconSources:
+  - url: org/torproject/torbrowser-launcher/ddb1138d520e199921d4633cf987f06d/icons/128x128/torbrowser-launcher_torbrowser.png
+    width: 128
+    height: 128
+homepage: "https://github.com/micahflee/torbrowser-launcher"
+enabled: true
+order: 99

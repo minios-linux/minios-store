@@ -1,0 +1,5 @@
+{
+  "name": "Sense HAT Emulator",
+  "description": "Interfaz gráfica para controlar el Sense HAT emulado",
+  "longDescription": "<p>sense-emu es un emulador del Sense HAT para Raspberry Pi que funciona en múltiples plataformas y ofrece una emulación de cada sensor presente en el HAT, además de la pantalla de píxeles y el joystick. La API es idéntica a la oficial, por lo que el código desarrollado en el emulador solo requerirá cambiar una palabra para ejecutarse en el HAT real.</p>\n<p>Incluye herramientas tanto de interfaz gráfica como de línea de comandos para el emulador.</p>\n"
+}

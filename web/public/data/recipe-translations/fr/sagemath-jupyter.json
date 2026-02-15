@@ -1,0 +1,5 @@
+{
+  "name": "SageMath",
+  "description": "Système de calcul formel (Jupyter Notebook)",
+  "longDescription": "<p>SageMath est un logiciel libre de mathématiques sous licence GPL. Il s’appuie sur de nombreux outils open source existants : NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R et bien d’autres encore. Exploitez leur puissance combinée via un langage commun basé sur Python, ou bien directement via des interfaces ou des wrappers.</p>\n<p>Mission : proposer une alternative libre et open source viable à Magma, Maple, Mathematica et Matlab.</p>\n<p>Ce paquet contient le noyau Jupyter pour SageMath.</p>\n"
+}

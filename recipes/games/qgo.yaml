@@ -1,0 +1,38 @@
+id: qgo
+name: qGo
+description: "Play Go online and against computer, view and edit SGF files"
+longDescription: |
+  <p>qGo is a computerized board on which you can play the game of Go against another player, view and edit smart-go files, and connect to Go servers on the internet. It can also interface with computer Go programs such as GNU Go that speak the Go modem protocol. Have a look at the cgoban package if you are interested in a Go client with less package dependencies.</p>
+  <p>See description of the gnugo package for a short description of the game.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qgo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qgo_qgo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

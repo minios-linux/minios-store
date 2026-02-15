@@ -1,0 +1,5 @@
+{
+  "name": "LinuxDC++",
+  "description": "Ein Dateifreigabe-Client für das Direct-Connect-Netzwerk",
+  "longDescription": "<p>Direct Connect ist ein Peer-to-Peer (P2P) Dateiübertragungsprotokoll. Die Clients verbinden sich mit einem zentralen Hub, über den sie eine Liste aller angeschlossenen Clients beziehungsweise Nutzer einsehen können. Nutzer können nach Dateien suchen und diese direkt von anderen Teilnehmern herunterladen sowie mit anderen Usern chatten.</p>\n<p>Der bekannteste Windows-Client für dieses Protokoll ist derzeit DC++. LinuxDC++ ist eine Linux-Portierung von DC++. Auch wenn LinuxDC++ in erster Linie für Linux entwickelt wurde, läuft die Anwendung auch auf anderen Unix-basierten Betriebssystemen.</p>\n"
+}

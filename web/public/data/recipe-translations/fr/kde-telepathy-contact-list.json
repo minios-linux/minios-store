@@ -1,0 +1,5 @@
+{
+  "name": "IM Contacts",
+  "description": "Affiche vos contacts de messagerie instantanée",
+  "longDescription": "<p>Ce paquet fournit une application de gestion de contacts basée sur Telepathy, vous permettant d’afficher la liste de vos amis provenant de tous vos comptes de messagerie instantanée et de commencer à discuter avec eux.</p>\n<p>Ce paquet n’est pas conçu pour être utilisé seul. Il est recommandé d’installer le métapaquet kde-telepathy à la place.</p>\n"
+}

@@ -1,0 +1,69 @@
+id: "timeshift"
+name: Timeshift
+description: System Restore Utility
+longDescription: |
+  <p>Timeshift is a system restore utility which takes snapshots of the system at regular intervals. These snapshots can be restored at a later date to undo system changes. Creates incremental snapshots using rsync or BTRFS snapshots using BTRFS tools.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - timeshift
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-1_orig.png
+    thumbnailUrl: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-1_624x453@1.png
+    width: 679
+    height: 494
+  - url: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-2_orig.png
+    thumbnailUrl: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-2_624x468@1.png
+    width: 704
+    height: 529
+  - url: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-3_orig.png
+    thumbnailUrl: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-3_624x468@1.png
+    width: 704
+    height: 529
+  - url: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-4_orig.png
+    thumbnailUrl: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-4_624x468@1.png
+    width: 704
+    height: 529
+  - url: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-5_orig.png
+    thumbnailUrl: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-5_624x468@1.png
+    width: 704
+    height: 529
+  - url: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-6_orig.png
+    thumbnailUrl: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-6_624x468@1.png
+    width: 704
+    height: 529
+  - url: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-7_orig.png
+    thumbnailUrl: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-7_624x468@1.png
+    width: 704
+    height: 529
+  - url: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-8_orig.png
+    thumbnailUrl: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/screenshots/image-8_224x244@1.png
+    width: 502
+    height: 547
+iconSources:
+  - url: t/ti/timeshift-gtk.desktop/cff79ddc253affd3b44d0a2587ce5065/icons/128x128/timeshift_timeshift.png
+    width: 128
+    height: 128
+homepage: "https://github.com/teejee2008/timeshift"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "PhotoCollage",
+  "description": "Ferramenta gráfica para criar painéis de colagens de fotos",
+  "longDescription": "<p>PhotoCollage permite criar painéis de colagens de fotos. Ele junta as fotografias fornecidas para gerar um grande cartaz. As fotos são organizadas automaticamente para preencher todo o pôster, mas você pode alterar o layout final, as dimensões, a borda ou trocar fotos dentro da grade gerada. No final, o cartaz pode ser salvo em qualquer tamanho.</p>\n<p>O algoritmo gera layouts aleatórios para posicionar as fotos, aproveitando todo o espaço disponível. Ele tenta preencher a área mantendo cada foto o maior possível.</p>\n<p>O PhotoCollage oferece funcionalidades semelhantes às de muitos sites comerciais, porém é gratuito e de código aberto.</p>\n"
+}

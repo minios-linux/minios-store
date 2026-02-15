@@ -1,0 +1,30 @@
+id: gdigi
+name: gdigi
+description: utility to control some DigiTech effect pedals
+longDescription: |
+  <p>gdigi is a tool aimed to provide X-Edit functionality to Linux users</p>
+  <p>Supported devices:    * RP150    * RP155    * RP250    * RP255    * RP355    * RP500    * RP1000    * GNX3000    * GNX4K</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gdigi
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gdigi_gdigi.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

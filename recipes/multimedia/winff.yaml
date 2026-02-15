@@ -1,0 +1,46 @@
+id: "winff"
+name: WinFF
+description: GUI for ffmpeg or avconv
+longDescription: |
+  <p>WinFF is a graphical user interface for FFmpeg or avconv. It will convert almost any video file that FFmpeg or avconv will convert. WinFF does multiple files in multiple formats at one time. You can, for example, convert mpeg&apos;s, flv&apos;s, and mov&apos;s into avi&apos;s (or DVD/VCD format or MPEG or 3gp etc.) all at once.</p>
+  <p>WinFF provides a variety of preset conversion settings for common formats and devices. These presets are intended to hit the &quot;sweet spot&quot; for each individual codec. They have been written with a tip of the balance to quality.</p>
+  <p>For most presets to work, it is necessary to have the unstripped version of the libavcodec package, which can be obtained by installing libavcodec-extra as suggested by the WinFF suite. It might be necessary to enable additional repositories to find that package.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - winff
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - avconv
+  - ffmpeg
+  - wrapper
+  - conversion
+  - video
+  - audio
+iconSources:
+  - url: w/wi/winff.desktop/513f364ce48afd858ecac6328fb7048d/icons/128x128/winff_winff.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

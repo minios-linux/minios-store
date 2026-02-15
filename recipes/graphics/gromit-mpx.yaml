@@ -1,0 +1,59 @@
+id: "gromit-mpx"
+name: Gromit-MPX
+description: "GRaphics Over MIscellaneous Things, a multi pointer annotation tool"
+longDescription: |
+  <p>Gromit-MPX enables you to make annotations on your screen using multiple pointing devices at once.</p>
+  <p>This is especially useful when making presentations, to highlight things or point out things of interest.</p>
+  <p>Gromit-MPX is XInput-Aware, so if you have a graphic tablet you can draw lines with different strength, color, erase things, etc.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gromit-mpx
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - presentation
+  - overlay
+  - markup
+  - pointer
+screenshotSources:
+  - url: net/christianbeier/Gromit-MPX/adbf6b74f8d09e3e36ede998541bab03/screenshots/image-1_orig.png
+    thumbnailUrl: net/christianbeier/Gromit-MPX/adbf6b74f8d09e3e36ede998541bab03/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+  - url: net/christianbeier/Gromit-MPX/adbf6b74f8d09e3e36ede998541bab03/screenshots/image-2_orig.png
+    thumbnailUrl: net/christianbeier/Gromit-MPX/adbf6b74f8d09e3e36ede998541bab03/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: net/christianbeier/Gromit-MPX/adbf6b74f8d09e3e36ede998541bab03/screenshots/image-3_orig.png
+    thumbnailUrl: net/christianbeier/Gromit-MPX/adbf6b74f8d09e3e36ede998541bab03/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: net/christianbeier/Gromit-MPX/adbf6b74f8d09e3e36ede998541bab03/icons/128x128/gromit-mpx_net.christianbeier.Gromit-MPX.png
+    width: 128
+    height: 128
+developer: Christian Beier
+homepage: "https://github.com/bk138/gromit-mpx"
+enabled: true
+order: 99

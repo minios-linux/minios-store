@@ -1,0 +1,5 @@
+{
+  "name": "LuserNET News Reader",
+  "description": "Lecteur de nouvelles pour GNUstep",
+  "longDescription": "<p>LuserNET est un lecteur de news basé sur le protocole NNTP pour GNUstep. Bien qu'il en soit encore à une version précoce, il est déjà pleinement utilisable. Les fonctionnalités suivantes sont disponibles :</p>\n<p> * Mise en couleur des messages selon le niveau de citation.  * Prélèvement anticipé des messages en arrière-plan.  * Défilement intelligent.  * Prise en charge de plusieurs serveurs.  * Fonctionnement entièrement asynchrone.  * Gestion et conformité MIME de qualité.</p>\n"
+}

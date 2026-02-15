@@ -1,0 +1,5 @@
+{
+  "name": "OBS",
+  "description": "Software livre para transmissão e gravação",
+  "longDescription": "<p>O OBS Studio foi desenvolvido para gravação e transmissão ao vivo de vídeo de forma eficiente. Suporta streaming em tempo real (RTP) para diversas plataformas de transmissão.</p>\n<p>Principais recursos incluem:  * Codificação H264 (x264) e AAC  * Número ilimitado de cenas e fontes  * Salva arquivos em MP4 ou FLV  * Captura de jogos por GPU para streaming de alta performance  * Reamostragem bilinear ou lanczos3</p>\n<p>OBS Studio requer uma placa de vídeo compatível com OpenGL 3.2.</p>\n"
+}

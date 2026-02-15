@@ -1,0 +1,57 @@
+id: "imagination"
+name: Imagination
+description: A lightweight slideshow maker using GTK+2
+longDescription: |
+  <p>Imagination is a lightweight and user-friendly DVD slide show maker with a clean interface and few dependencies. It only requires the ffmpeg encoder to produce a movie to be burned with another application.</p>
+  <p>Imagination has the following features:   - Easy to operate.   - It can make a slideshow from photos selected by user.   - Support to VOB (DVD Video), OGV (Theora Vorbis), FLV (Flash Video) and     3GP (Mobile Phones) when exporting videos.   - Support screen resolutions from 128x96 pixels up to 1920x1080 pixels,     when exporting videos.   - Background audio (music, as MP3 files, or other audio files).   - Auto resize (optional) for images.   - Allow the users to select a background color.   - Over 50 transition effects.   - Zoom effect with duration time.   - Allow users to add explanatory texts (e.g. subtitles).</p>
+  <p>Imagination can be used to make presentations to be shown by a projector or by a smart TV.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - imagination
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - slideshow
+  - video
+  - audio
+  - photos
+screenshotSources:
+  - url: net/sf/imagination.imagination/1edc6a5b0f3286284d10218ccb74a18c/screenshots/image-1_orig.png
+    thumbnailUrl: net/sf/imagination.imagination/1edc6a5b0f3286284d10218ccb74a18c/screenshots/image-1_624x453.png
+    width: 750
+    height: 545
+  - url: net/sf/imagination.imagination/1edc6a5b0f3286284d10218ccb74a18c/screenshots/image-2_orig.png
+    thumbnailUrl: net/sf/imagination.imagination/1edc6a5b0f3286284d10218ccb74a18c/screenshots/image-2_624x495.png
+    width: 750
+    height: 596
+  - url: net/sf/imagination.imagination/1edc6a5b0f3286284d10218ccb74a18c/screenshots/image-3_orig.png
+    thumbnailUrl: net/sf/imagination.imagination/1edc6a5b0f3286284d10218ccb74a18c/screenshots/image-3_624x493.png
+    width: 750
+    height: 593
+iconSources:
+  - url: net/sf/imagination.imagination/1edc6a5b0f3286284d10218ccb74a18c/icons/128x128/imagination_imagination.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,50 @@
+id: "easytag"
+name: EasyTAG
+description: Edit audio file metadata
+longDescription: |
+  <p>View and edit tags for MP3, MP2, MP4/AAC, FLAC, Ogg Opus, Ogg Speex, Ogg Vorbis, MusePack, Monkey&apos;s Audio and WavPack files.</p>
+  <p>Look up albums in online databases, bulk edit tags, create playlists and rename a collection of files.</p>
+  <p>A simple and nice GTK+ interface makes tagging easier under GNU/Linux and Windows.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - easytag
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mp3
+  - tag
+  - audio
+  - music
+screenshotSources:
+  - url: e/ea/easytag.desktop/AAD97AFA3361BB50742E328C79827648/screenshots/image-1_orig.png
+    thumbnailUrl: e/ea/easytag.desktop/AAD97AFA3361BB50742E328C79827648/screenshots/image-1_624x450.png
+    width: 1182
+    height: 853
+iconSources:
+  - url: e/ea/easytag.desktop/2aa8fbbbe3c2e64baef1a4ef633c21f4/icons/128x128/easytag_easytag.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/EasyTAG"
+enabled: true
+order: 99

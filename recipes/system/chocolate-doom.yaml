@@ -1,0 +1,63 @@
+id: "chocolate-doom"
+name: Chocolate Setup
+description: Setup tool for Chocolate
+longDescription: |
+  <p>Chocolate Doom aims to accurately reproduce the original DOS version of Doom and other games based on the Doom engine in a form that can be run on modern computers. Unlike most modern Doom engines, Chocolate Doom is not derived from the Boom source port and does not inherit its features (or bugs).</p>
+  <p>This package contains:  * Chocolate Doom, a port of Id Software&apos;s &quot;Doom&quot; (1993)  * Chocolate Heretic, a port of Raven Software&apos;s &quot;Heretic&quot; (1994)  * Chocolate Hexen, a port of Raven Software&apos;s &quot;Hexen&quot; (1995)  * Chocolate Strife, a recreation of Rogue Entertainment&apos;s &quot;Strife&quot; (1996)</p>
+  <p>These games are designed to behave as similar to the original DOS version as is possible.</p>
+  <p>Chocolate Doom supports all flavors of Doom, including The Ultimate Doom, Doom 2 and Final Doom as well as Chex(R) Quest, HACX and FreeDM.</p>
+  <p>All Chocolate game engines require game data to play. For Chocolate Doom, free game data is available in the freedm package. Commercial game data for all four engines can be packaged using &quot;game-data-packager&quot;.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chocolate-doom
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - first
+  - person
+  - shooter
+  - doom
+  - heretic
+  - hexen
+  - strife
+  - vanilla
+screenshotSources:
+  - url: org/chocolate_doom/Hexen/05eaf68840d32902881cec5a4702e43b/screenshots/image-1_orig.png
+    thumbnailUrl: org/chocolate_doom/Hexen/05eaf68840d32902881cec5a4702e43b/screenshots/image-1_624x504.png
+    width: 640
+    height: 517
+  - url: org/chocolate_doom/Hexen/05eaf68840d32902881cec5a4702e43b/screenshots/image-2_orig.png
+    thumbnailUrl: org/chocolate_doom/Hexen/05eaf68840d32902881cec5a4702e43b/screenshots/image-2_624x504.png
+    width: 640
+    height: 517
+  - url: org/chocolate_doom/Hexen/05eaf68840d32902881cec5a4702e43b/screenshots/image-3_orig.png
+    thumbnailUrl: org/chocolate_doom/Hexen/05eaf68840d32902881cec5a4702e43b/screenshots/image-3_624x504.png
+    width: 640
+    height: 517
+  - url: org/chocolate_doom/Hexen/05eaf68840d32902881cec5a4702e43b/screenshots/image-4_orig.png
+    thumbnailUrl: org/chocolate_doom/Hexen/05eaf68840d32902881cec5a4702e43b/screenshots/image-4_624x504.png
+    width: 640
+    height: 517
+iconSources:
+  - url: org/chocolate_doom/Hexen/05eaf68840d32902881cec5a4702e43b/icons/128x128/chocolate-doom_chocolate-hexen.png
+    width: 128
+    height: 128
+developer: Simon Howard
+homepage: "https://www.chocolate-doom.org/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Fcitx",
+  "description": "Lancer la méthode de saisie",
+  "longDescription": "<p>Fcitx est un framework de méthode de saisie avec prise en charge des extensions, qui offre une interface permettant d’entrer des caractères de divers systèmes d’écriture dans les applications grâce à différents systèmes de correspondance.</p>\n<p>Il propose une expérience moderne et agréable, avec des outils de configuration graphiques intuitifs, des thèmes et des tables de correspondance personnalisables. Sa conception modulaire et extensible inclut la compatibilité avec les modules d’entrée GTK+ 2/3 et Qt4, ainsi qu’avec des interfaces utilisateur basées sur Fbterm, Xlib pur, GTK+ ou KDE, et une API destinée aux développeurs.</p>\n<p>Ce paquet fournit les fichiers de données essentiels. Pour une expérience de saisie fonctionnelle, veuillez installer le paquet « fcitx ».</p>\n"
+}

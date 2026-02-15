@@ -1,0 +1,26 @@
+id: mlterm-common
+name: Multilingual Terminal
+description: Use Multi-Lingual Command Line
+longDescription: |
+  <p>mlterm is a terminal emulator for X Window System, which supports various encodings, doublewidth characters, BiDi, Arabic shaping, and so on.</p>
+  <p>This package contains necessary files which are common for mlterm and mlterm-tiny packages.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mlterm-common
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: mlterm-common_mlterm-icon-24colors-1.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

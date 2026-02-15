@@ -1,0 +1,5 @@
+{
+  "name": "SurgeScript",
+  "description": "Un langage de script pour les jeux",
+  "longDescription": "<p>SurgeScript est un langage de script dédié au développement de jeux vidéo. Exploitez votre créativité pour concevoir vos propres contenus interactifs ! SurgeScript est agréable à utiliser et propose les fonctionnalités suivantes :</p>\n<ul>\n  <li>Modèle à machines à états : chaque objet fonctionne comme une machine à états, facilitant la création d’entités en jeu</li>\n  <li>Approche par composition : concevez des objets et comportements complexes grâce à la composition</li>\n  <li>Système hiérarchique : les objets possèdent un parent et peuvent avoir des enfants, organisés en structure arborescente</li>\n  <li>Boucle de jeu définie implicitement</li>\n  <li>Collecte automatique des ressources, étiquetage des objets et bien plus encore !</li>\n</ul>\n<p>SurgeScript s’utilise pour les jeux ou les applications interactives. Il s’intègre facilement à du code existant, est aisément extensible, adopte une syntaxe proche de C, et il est libre et open source.</p>\n"
+}

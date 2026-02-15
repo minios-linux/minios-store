@@ -1,0 +1,5 @@
+{
+  "name": "VeroRoute",
+  "description": "Application Qt pour la conception et le routage de Veroboard, Plaque à trous et PCB",
+  "longDescription": "<p>Logiciel permettant de réaliser des circuits sur Veroboard (stripboard), plaque à trous (perfboard) et des PCB simples 1 ou 2 couches. Il évite automatiquement les courts-circuits et vérifie les circuits ouverts. Possibilité d'importer un netlist depuis un schéma TinyCAD, gEDA ou KiCad, ou de définir le netlist graphiquement. Export Gerber disponible pour la fabrication de PCB simples 1 ou 2 couches.</p>\n"
+}

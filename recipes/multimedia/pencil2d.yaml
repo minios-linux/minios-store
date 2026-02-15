@@ -1,0 +1,51 @@
+id: "pencil2d"
+name: Pencil2D
+description: Create traditional hand-drawn animation using both bitmap and vector graphics
+longDescription: |
+  <p>Pencil2D is an animation/drawing software for Mac OS X, Windows, and Linux. It lets you create traditional hand-drawn animation (cartoon) using both bitmap and vector graphics.</p>
+  <p>The basic features of Pencil2D are:  + layers support (separated layer for bitmap, vector and soud part)  + bitmap drawing  + vector drawing  + sound support</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pencil2d
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - picture
+  - drawing
+  - vector
+  - bitmap
+  - cartoon
+screenshotSources:
+  - url: org/pencil2d/Pencil2D/73c75a3e19b1a9c31d27997865430767/screenshots/image-1_orig.png
+    thumbnailUrl: org/pencil2d/Pencil2D/73c75a3e19b1a9c31d27997865430767/screenshots/image-1_624x458@1.png
+    width: 1130
+    height: 830
+iconSources:
+  - url: org/pencil2d/Pencil2D/73c75a3e19b1a9c31d27997865430767/icons/128x128/pencil2d_org.pencil2d.Pencil2D.png
+    width: 128
+    height: 128
+developer: The Pencil2D Team
+homepage: "https://www.pencil2d.org/"
+enabled: true
+order: 99

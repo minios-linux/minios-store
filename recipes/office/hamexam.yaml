@@ -1,0 +1,37 @@
+id: hamexam
+name: hamexam
+description: Ham Radio Examination trainer
+longDescription: |
+  <p>hamexam is an interactive study tool for the 3 USA FCC amateur radio (ham radio) question pools. The 3 question pools are:     t element 2, Technician Class (entry level),     g element 3, General Class (also requires element 2),     e element 4, Extra Class (also requires elements 2 and 3). Questions are chosen randomly from the selected pool. Incorrect answers cause the question to be asked again later. Licenses are issued by the FCC, but exams are conducted by Volunteer Examiners. For more information about USA amateur radio licensing:     http://www.arrl.org/licensing-preparation-exams</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hamexam
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: hamexam_hamexam.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

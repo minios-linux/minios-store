@@ -1,0 +1,5 @@
+{
+  "name": "GNOME MPV",
+  "description": "Interfaccia GTK+ per mpv",
+  "longDescription": "<p>GNOME MPV è una semplice interfaccia GTK+ per mpv, un lettore multimediale estremamente potente in grado di riprodurre praticamente tutti i formati audio e video. Il design di GNOME MPV segue le linee guida HIG di GNOME, pur non dipendendo da nessuna libreria GNOME. GNOME MPV offre anche un'opzione per disabilitare le decorazioni lato client (CSD), migliorando la compatibilità con sistemi non-GNOME.</p>\n<p>Funzionalità:</p>\n<ul>\n  <li>Playlist tramite drag and drop</li>\n  <li>Caricamento di file di configurazione mpv esterni</li>\n  <li>Interfaccia MPRIS2 tramite D-Bus</li>\n</ul>\n"
+}

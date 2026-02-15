@@ -1,0 +1,27 @@
+id: flobopuyo
+name: FloboPuyo
+description: A tetris-like game
+longDescription: |
+  <p>The goal of FloboPuyo is to make groups of four or more Puyos (coloured bubbles) to make them explode and send bad ghost Puyos to your opponent. You win the game if your opponent reaches the top of the board. You can play against computer or another human.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flobopuyo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: flobopuyo_flobopuyo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

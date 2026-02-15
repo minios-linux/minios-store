@@ -1,0 +1,5 @@
+{
+  "name": "Xnec2c",
+  "description": "Logiciel de calcul électromagnétique numérique (NEC)",
+  "longDescription": "<p>Le nec2c d'origine est une application en ligne de commande non interactive qui lit des fichiers d'entrée NEC2 standards et produit un fichier de sortie contenant les données demandées par les « commandes » du fichier d’entrée.</p>\n<p>En revanche, xnec2c est une application interactive avec interface graphique qui (dans sa version actuelle) lit les fichiers d'entrée NEC2, mais présente les résultats de façon graphique, par exemple sous forme de représentations filaires du diagramme de rayonnement ou du champ proche E/H, de courbes du gain maximal, de l’impédance d’entrée, du ROS, etc., en fonction de la fréquence, ainsi que des rendus simples de la structure d’antenne, incluant un code couleur pour les courants ou densités de charges. Ces résultats sont calculés et affichés uniquement à la demande de l’utilisateur, via des menus ou des boutons ; xnec2c est donc interactif et n’exécute pas les « commandes » NEC2 en mode batch comme le faisait l'application d’origine.</p>\n"
+}

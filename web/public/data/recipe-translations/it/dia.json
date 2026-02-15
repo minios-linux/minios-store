@@ -1,0 +1,5 @@
+{
+  "name": "Dia",
+  "description": "Dia è un programma per la creazione di diagrammi",
+  "longDescription": "<p>Dia è un programma basato su GTK+ per la creazione di diagrammi disponibile per GNU/Linux, MacOS X, Unix e Windows, distribuito sotto licenza GPL.</p>\n<p>Dia è ispirato in parte al software commerciale 'Visio' per Windows, ma è pensato soprattutto per diagrammi informali e un utilizzo non professionale. Consente di disegnare diverse tipologie di diagrammi e dispone di oggetti specifici per diagrammi E-R (entità-relazione), UML, diagrammi di flusso, diagrammi di rete e molte altre tipologie. È inoltre possibile espandere il supporto a nuove forme scrivendo semplici file XML che utilizzano un sottoinsieme di SVG per il disegno della forma.</p>\n<p>Dia può salvare e caricare diagrammi in un formato XML proprietario (compresso di default in formato gzip per risparmiare spazio), esportare in vari formati come EPS, SVG, XFIG, WMF e PNG ed è in grado di stampare i diagrammi, anche su più pagine.</p>\n"
+}

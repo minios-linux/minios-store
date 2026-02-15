@@ -1,0 +1,41 @@
+id: "qv4l2"
+name: Qt V4L2 test Utility
+description: Allow testing Video4Linux devices
+longDescription: |
+  <p>Qt v4l2 control panel application. You can change all through the v4l2 interface exposed device controls.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qv4l2
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - video
+  - grabber
+  - v4l
+iconSources:
+  - url: q/qv/qv4l2.desktop/6bd848cc39cfda9bbd36b11fe8ec67f2/icons/128x128/qv4l2_qv4l2.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

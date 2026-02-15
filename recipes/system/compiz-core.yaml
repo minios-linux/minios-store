@@ -1,0 +1,30 @@
+id: "compiz-core"
+name: Compiz Start
+description: Start or restart Compiz
+longDescription: |
+  <p>Compiz brings to life a variety of visual effects that make the Linux desktop easier to use, more powerful and intuitive, and more accessible for users with special needs.</p>
+  <p>Compiz combines together a window manager and a composite manager using OpenGL for rendering. A &quot;window manager&quot; allows the manipulation of the multiple applications and dialog windows that are presented on the screen. A &quot;composite manager&quot; allows windows and other graphics to be combined together to create composite images. Compiz achieves its stunning effects by doing both of these functions.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - compiz-core
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: c/co/compiz-start.desktop/3146ec67e3584417fb25c57fc7b53f01/icons/128x128/compiz-core_compiz.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

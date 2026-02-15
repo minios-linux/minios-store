@@ -1,0 +1,5 @@
+{
+  "name": "VeroRoute",
+  "description": "Aplicativo Qt para layout e roteamento de Veroboard, Perfboard e PCB",
+  "longDescription": "<p>Software para produção de Veroboard (stripboard), Perfboard e placas de circuito impresso (PCB) simples de 1 ou 2 camadas. Impede automaticamente curtos-circuitos e verifica circuitos abertos. Permite importar netlists de esquemáticos TinyCAD, gEDA ou KiCad, ou definir a netlist graficamente. Exporta arquivos Gerber para fabricação de PCBs simples de 1 ou 2 camadas.</p>\n"
+}

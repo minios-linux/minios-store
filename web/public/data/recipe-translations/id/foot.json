@@ -1,0 +1,5 @@
+{
+  "name": "Foot Server",
+  "description": "Emulator terminal native Wayland",
+  "longDescription": "<p>Emulator terminal Wayland yang cepat, ringan, dan minimalis. Fitur-fitur:</p>\n<p> * Cepat  * Ringan, baik pada dependensi, ukuran disk, maupun penggunaan memori  * Native Wayland  * Tidak tergantung DE tertentu  * Konfigurasi fallback font oleh pengguna  * Penyesuaian ukuran font DPI secara langsung  * Pencarian scrollback  * Dukungan emoji berwarna  * Mode server/daemon  * Multi-seat  * Dukungan pembaruan tersinkronisasi  * Dukungan gambar Sixel</p>\n"
+}

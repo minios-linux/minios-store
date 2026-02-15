@@ -1,0 +1,5 @@
+{
+  "name": "NetHack Qt",
+  "description": "Dungeon-Crawler-Spiel – GUI-Version",
+  "longDescription": "<p>NetHack ist ein herrlich verrücktes und zugleich äußerst fesselndes Adventure im Stil von Dungeons & Dragons. Du spielst einen Charakter aus verschiedenen Klassen (wie Zauberer, Waldläufer oder Tourist) und kämpfst dich hinab, um das Amulett von Yendor für deinen Gott zu bergen. Unterwegs begegnen dir vielleicht Quantenmechaniker, König Artus oder – mit etwas Glück – das Gefräßige Plapperkäfer-Ungeheuer von Traal.</p>\n<p>Um NetHack zu spielen, solltest du ein Frontend installieren. Jedes enthält außerdem die ursprüngliche, nicht-grafische Version und kann parallel zu den anderen genutzt werden:  - nethack-console: keine Grafik, reines NetHack;  - nethack-x11    : originale X11/Athena-Version mit Grafik;  - nethack-qt     : Qt-Version.</p>\n<p>Dieses Paket stellt die grafische Qt-Version von NetHack bereit.</p>\n"
+}

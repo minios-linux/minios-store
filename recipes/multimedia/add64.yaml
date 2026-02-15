@@ -1,0 +1,26 @@
+id: add64
+name: Add64
+description: An additive synthesizer
+longDescription: |
+  <p>Add64 is the result of my experiments around additive synthesis and is intended for research purposes only.</p>
+  <p>The spectral drawing scheme for the harmonics and envelopes has been inspired by the virtual pipe organ Aeolus by Fons Adriaensen.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - add64
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: add64_add64.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

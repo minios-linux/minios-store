@@ -1,0 +1,5 @@
+{
+  "name": "CloudCompare",
+  "description": "Perangkat lunak pemrosesan point cloud dan mesh 3D",
+  "longDescription": "<p>Ini adalah perangkat lunak untuk pemrosesan point cloud 3D (dan mesh segitiga). Awalnya dirancang untuk melakukan perbandingan antara dua point cloud 3D (seperti hasil pemindaian laser) atau antara point cloud dan mesh segitiga.</p>\n<p>CloudCompare menggunakan struktur octree khusus yang memberikan performa tinggi pada fungsi tersebut. Aplikasi ini juga dirancang untuk menangani point cloud dalam jumlah besar (biasanya lebih dari 10 juta titik, dan hingga 120 juta dengan memori 2 GB).</p>\n"
+}

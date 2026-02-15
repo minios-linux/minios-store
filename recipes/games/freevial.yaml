@@ -1,0 +1,28 @@
+id: freevial
+name: Freevial
+description: Play a trivia-like game for community events
+longDescription: |
+  <p>Freevial is a platform for trivia-like games, designed to be used on community events where ideally a projector and loudspeakers would be available.</p>
+  <p>It can be fully localized and themed and includes a customizable battery of questions (which are loaded from XML files) classified in ten different categories.</p>
+  <p>The game features amazing graphics, category selection in a gambling-machine like style, end screen, music and sounds, etc.</p>
+  <p>This package comes provisionally with a Catalan questions database.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freevial
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: freevial_freevial.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

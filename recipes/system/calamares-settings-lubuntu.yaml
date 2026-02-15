@@ -1,0 +1,31 @@
+id: "calamares-settings-lubuntu"
+name: Install Lubuntu 20.04 LTS
+description: Calamares — System Installer
+longDescription: |
+  <p>This package contains the Calamares settings and branding for Lubuntu. As part of the branding the installer slideshow is contained within. The settings ensure a proper Lubuntu desktop is installed with the LXQt desktop environment.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - calamares-settings-lubuntu
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - installer
+  - calamares
+  - system
+iconSources:
+  - url: l/lu/lubuntu-calamares.desktop/e6f63baa398d90b39af572201bf3c9cb/icons/128x128/calamares-settings-lubuntu_calamares.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

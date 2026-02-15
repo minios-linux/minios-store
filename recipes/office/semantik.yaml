@@ -1,0 +1,23 @@
+id: semantik
+name: Semantik
+description: A mind-mapping tool for KDE
+longDescription: |
+  <p>Semantik is a mindmapping-like tool to help students to produce complicated documents very quickly and efficiently: presentations, dissertations, thesis, reports. While targeted mostly at students, Semantik can also help teachers, decision maker, engineers and businessmen.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - semantik
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: semantik_semantik.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

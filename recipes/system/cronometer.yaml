@@ -1,0 +1,37 @@
+id: cronometer
+name: CRON-o-Meter
+description: Exercise and nutrient intake tracker
+longDescription: |
+  <p>Easy to use daily nutrient intake tracker that includes nutritional information on over 8000 foods. User can create, import and export custom foods and recipes as well as set personal targets for each nutrient. CRON-O-Meter can also track and chart your biometrics (weight, blood pressure, temperature, etc) and generate detailed reports on your nutritional intake.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cronometer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: cronometer_cronometer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

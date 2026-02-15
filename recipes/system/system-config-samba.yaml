@@ -1,0 +1,23 @@
+id: system-config-samba
+name: Samba
+description: "Create, modify, and delete samba shares"
+longDescription: |
+  <p>system-config-samba is a graphical user interface for creating, modifying, and deleting samba shares and users.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - system-config-samba
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: system-config-samba_system-config-samba.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

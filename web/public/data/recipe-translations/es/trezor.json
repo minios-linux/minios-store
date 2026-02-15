@@ -1,0 +1,5 @@
+{
+  "name": "trezorctl",
+  "description": "Utilidad para interactuar con la billetera de hardware TREZOR Bitcoin",
+  "longDescription": "<p>No importa cuán desprotegido esté tu ordenador o conexión a Internet, tus monedas siempre permanecen seguras con TREZOR, ya que nunca expone tus claves privadas. TREZOR ofrece un entorno aislado para la firma de transacciones offline y, mediante una pequeña pantalla, puedes verificar visualmente el contenido de cada transacción. Por eso, todas las operaciones realizadas con TREZOR son completamente seguras.</p>\n<p>Para usar TREZOR, también necesitas tener instalado un software de billetera como Electrum.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "GfsView 2D",
+  "description": "Visualizador de simulações Gerris 2D",
+  "longDescription": "<p>O Gerris é um sistema para resolução de equações diferenciais parciais que descrevem o escoamento de fluidos.</p>\n<p>O GfsView exibe resultados de simulações Gerris em 2D e 3D. Um resumo das principais funcionalidades:</p>\n<p>   * Seções escalares e vetoriais.    * Superfícies de isovalores.    * Linhas de corrente.    * Funções definidas pelo usuário.    * Exibição adaptativa rápida (utilizando a representação de dados multiresolução do Gerris).    * Suporte a scripts.    * Geração de imagens offline.    * Saída de alta qualidade em PostScript, PDF e bitmap.</p>\n"
+}

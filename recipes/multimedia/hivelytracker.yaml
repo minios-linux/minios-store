@@ -1,0 +1,32 @@
+id: hivelytracker
+name: Hively Tracker
+description: Tracker program for AHX/HVL
+longDescription: |
+  <p>This is a music tracker program based upon the AHX. The original dates back to Amiga.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hivelytracker
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tracker
+  - amiga
+iconSources:
+  - cached: hivelytracker_hivelytracker.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

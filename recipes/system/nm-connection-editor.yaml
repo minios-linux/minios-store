@@ -1,0 +1,27 @@
+id: nm-connection-editor
+name: NetworkManager
+description: NetworkManager connection editor
+longDescription: |
+  <p>NetworkManager is a system service for managing and configuring your
+      network connections and devices.</p>
+  <p>The nm-connection-editor program works with NetworkManager to create
+      and edit existing connection profiles for NetworkManager.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nm-connection-editor
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: n/nm/nm-connection-editor.desktop/857b0781952475ce8caf69e825590006/icons/128x128/nm-connection-editor_preferences-system-network.png
+    width: 128
+    height: 128
+homepage: "https://networkmanager.dev"
+enabled: true
+order: 99

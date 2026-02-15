@@ -1,0 +1,48 @@
+id: "ballz"
+name: B.A.L.L.Z.
+description: Platform/puzzle game where you control a rolling ball
+longDescription: |
+  <p>The game is a platformer with some puzzle elements. You take control of a ball which is genetically modified by the British secret service. Your mission is to rescue captured British soldiers from a prison in Iran.</p>
+  <p>The game was written in 72 hours for the TINS competition, a competition similar to Speedhack. The name TINS is an recursive acronym for &apos;TINS is not Speedhack&apos;.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ballz
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: b/ba/ballz.desktop/3e04729bc3c1330292b237c2b6afecd4/screenshots/image-1_orig.png
+    thumbnailUrl: b/ba/ballz.desktop/3e04729bc3c1330292b237c2b6afecd4/screenshots/image-1_624x505.png
+    width: 642
+    height: 520
+  - url: b/ba/ballz.desktop/3e04729bc3c1330292b237c2b6afecd4/screenshots/image-2_orig.png
+    thumbnailUrl: b/ba/ballz.desktop/3e04729bc3c1330292b237c2b6afecd4/screenshots/image-2_624x505.png
+    width: 642
+    height: 520
+iconSources:
+  - url: b/ba/ballz.desktop/3e04729bc3c1330292b237c2b6afecd4/icons/128x128/ballz_ballz.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.com/ballz"
+enabled: true
+order: 99

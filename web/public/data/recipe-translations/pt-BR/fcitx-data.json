@@ -1,0 +1,5 @@
+{
+  "name": "Fcitx",
+  "description": "Iniciar Método de Entrada",
+  "longDescription": "<p>Fcitx é uma estrutura de método de entrada com suporte a extensões, que oferece uma interface para inserir caracteres de diferentes sistemas de escrita em aplicativos utilizando diversos sistemas de mapeamento.</p>\n<p>Proporciona uma experiência moderna e agradável, com ferramentas gráficas de configuração intuitivas, skins personalizáveis e tabelas de mapeamento ajustáveis. É altamente modular e expansível, com módulos IM para GTK+ 2/3 e Qt4, suporte para interfaces baseadas em Fbterm, Xlib puro, GTK+ ou KDE, além de uma API amigável para desenvolvedores.</p>\n<p>Este pacote fornece os arquivos de dados essenciais. Para uma experiência completa de entrada de texto, instale o pacote \"fcitx\".</p>\n"
+}

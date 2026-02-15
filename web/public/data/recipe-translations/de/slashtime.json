@@ -1,0 +1,5 @@
+{
+  "name": "Slashtime",
+  "description": "Zeige die Uhrzeit an Standorten weltweit an",
+  "longDescription": "<p>Ein kompaktes Programm zur Anzeige der Uhrzeit in verschiedenen Regionen. Es bietet eine übersichtliche Darstellung mehrerer Orte sowie Zusatzinformationen wie das aktuelle Datum und die abgekürzte Zeitzonenbezeichnung.</p>\n<p>Die angezeigten Zeitdaten basieren auf den Zoneinfo-Daten des Systems und sind dementsprechend genau. Anders als bei vielen anderen Programmen wird die Zeitdifferenz zum aktuellen Standort und nicht zu UTC angezeigt. Der Referenzort kann jederzeit durch einen Doppelklick auf eine andere Stadt geändert werden.</p>\n<p>Slashtime enthält außerdem einen integrierten Meeting-Planer: Geben Sie Datum und Uhrzeit ein, um die entsprechende Zeit für andere Standorte zu ermitteln.</p>\n"
+}

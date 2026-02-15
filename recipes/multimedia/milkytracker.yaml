@@ -1,0 +1,46 @@
+id: "milkytracker"
+name: MilkyTracker
+description: Fasttracker 2 Clone
+longDescription: |
+  <p>This is an editor for &quot;tracked&quot; music, i.e. audio samples of instruments pitch shifted according to the note data.</p>
+  <p>It can load the following module formats: 669, AMS, AMF, DBM, CBA, DIGI, DSM, FAR, GMC, GDM, IMF, IT, MOD, MDL, MTM, MXM, OKT, PLM, PSM, PTM, S3M, STM, ULT, UNI, and X.</p>
+  <p>Export is possible into the formats: XM, MOD, and WAV.</p>
+  <p>Supported sample and instrument formats: WAV, IFF/XI, PAT</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - milkytracker
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/milkytracker/MilkyTracker/f4b87adc466fae20cf3f7ad7b89c2bbe/screenshots/image-1_orig.png
+    thumbnailUrl: org/milkytracker/MilkyTracker/f4b87adc466fae20cf3f7ad7b89c2bbe/screenshots/image-1_624x468@1.png
+    width: 640
+    height: 480
+iconSources:
+  - url: org/milkytracker/MilkyTracker/f4b87adc466fae20cf3f7ad7b89c2bbe/icons/128x128/milkytracker_milkytracker.png
+    width: 128
+    height: 128
+homepage: "https://milkytracker.org/"
+enabled: true
+order: 99

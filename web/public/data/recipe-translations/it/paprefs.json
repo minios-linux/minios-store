@@ -1,0 +1,5 @@
+{
+  "name": "PulseAudio Preferences",
+  "description": "Visualizza e modifica la configurazione del server audio locale",
+  "longDescription": "<p>PulseAudio, precedentemente noto come Polypaudio, è un server audio per sistemi POSIX e WIN32. Costituisce un’alternativa diretta al server audio ESD, offrendo una latenza inferiore, una qualità superiore nel mixing e nel ricampionamento, oltre a un’architettura complessivamente migliorata.</p>\n<p>PulseAudio Preferences (paprefs) è un semplice pannello di configurazione basato su GTK+ per il server audio PulseAudio.</p>\n"
+}

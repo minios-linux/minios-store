@@ -1,0 +1,33 @@
+id: trezor
+name: trezorctl
+description: Utility for interacting with a TREZOR Bitcoin hardware wallet
+longDescription: |
+  <p>No matter how unprotected your computer or internet connection might be,
+      your coins always stay safe with TREZOR as it never exposes your private
+      keys. TREZOR is an isolated environment for offline transaction signing and
+      using a small display you can visually verify the transaction contents.
+      That&apos;s why all operations using TREZOR are entirely safe.</p>
+  <p>To make use of the TREZOR, you will also need a wallet interface like
+      Electrum installed</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - trezor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+developer: Satoshi Labs
+homepage: "https://github.com/trezor/trezor-firmware"
+enabled: true
+order: 99

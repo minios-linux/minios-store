@@ -1,0 +1,5 @@
+{
+  "name": "OpticalRayTracer",
+  "description": "Workshop virtual desain lensa/cermin",
+  "longDescription": "<p>OpticalRayTracer adalah aplikasi untuk menganalisis sistem lensa dan cermin. Aplikasi ini memanfaatkan prinsip optik dan meja optik virtual untuk memprediksi perilaku berbagai jenis lensa biasa maupun lensa khusus, serta cermin datar dan melengkung. OpticalRayTracer hadir dengan antarmuka lanjutan yang mudah digunakan, memungkinkan pengguna mengatur ulang konfigurasi optik secara interaktif dengan menyeret objek menggunakan mouse.</p>\n<p>OpticalRayTracer menganalisis secara penuh karakteristik optik lensa, termasuk refraksi dan dispersi. Tampilan dispersi menampilkan berkas cahaya berwarna untuk memudahkan interpretasi hasil.</p>\n<p>OpticalRayTracer juga memungkinkan pembuatan berbagai jenis cermin, datar maupun melengkung. Dalam desain optik modern, cermin sering memberikan hasil yang lebih baik dibanding lensa, seperti pada instrumen astronomi. Instrumen semacam ini dapat dirancang secara kasar di meja kerja virtual OpticalRayTracer.</p>\n"
+}

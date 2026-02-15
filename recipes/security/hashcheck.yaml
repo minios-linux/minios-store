@@ -1,0 +1,41 @@
+id: hashcheck
+name: Hashcheck
+description: ISO health checker
+longDescription: |
+  <p>Provides a graphical interface to verify a live mounted ISO image. The image is expected to be mounted under /lib/live/mount/medium</p>
+  <p>It is useful as part of a live environment</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hashcheck
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - iso
+  - hash
+  - md5
+  - checker
+iconSources:
+  - cached: hashcheck_hashcheck.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

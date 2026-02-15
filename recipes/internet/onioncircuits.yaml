@@ -1,0 +1,41 @@
+id: "onioncircuits"
+name: Onion Circuits
+description: Monitor Tor circuits and connections
+longDescription: |
+  <p>Onion Circuits is a GTK+ application to display Tor circuits and streams. It allows the user to inspect the circuits the locally running Tor daemon has built, along with some metadata for each node.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - onioncircuits
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tor
+  - monitor
+  - circuits
+iconSources:
+  - url: o/on/onioncircuits.desktop/0a12a409a14419f98e893871c89328bd/icons/128x128/onioncircuits_onioncircuits.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

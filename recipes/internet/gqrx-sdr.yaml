@@ -1,0 +1,50 @@
+id: "gqrx-sdr"
+name: Gqrx
+description: Software defined radio receiver implemented using GNU Radio and the Qt GUI toolkit
+longDescription: |
+  <p>Gqrx supports many of the SDR hardware available, including Funcube Dongles, rtl-sdr, HackRF and USRP devices.</p>
+  <p>Includes AM, SSB, FM-N and FM-W (mono and stereo) demodulators, and Special FM mode for NOAA APT. Displays FFT plot and spectrum waterfall.</p>
+  <p>It is powered by GNU Radio and the Qt GUI toolkit.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gqrx-sdr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - sdr
+  - radio
+  - ham
+screenshotSources:
+  - url: dk/gqrx/gqrx/81e1ca4939a2d8781b58d310090f2cf5/screenshots/image-1_orig.png
+    thumbnailUrl: dk/gqrx/gqrx/81e1ca4939a2d8781b58d310090f2cf5/screenshots/image-1_624x355@1.png
+    width: 1850
+    height: 1055
+iconSources:
+  - url: dk/gqrx/gqrx/81e1ca4939a2d8781b58d310090f2cf5/icons/128x128/gqrx-sdr_gqrx.png
+    width: 128
+    height: 128
+developer: Alexandru Csete
+homepage: "https://gqrx.dk/"
+enabled: true
+order: 99

@@ -1,0 +1,40 @@
+id: tortoisehg
+name: TortoiseHg
+description: GUI application for using Mercurial
+longDescription: |
+  <p>TortoiseHg provides a graphical tool for interacting with the distributed revision control system Mercurial.  GUI support is provided for over a dozen operations, including add files, commit changes, manage ignore filter, view change log, merge, recover/rollback, edit configuration, synchronize repository, and many others.   The highlight is the interactive commit tool which allows easy selection of diffs from multiple files and packaging into changesets, and which is more powerful and easier to use than available alternatives such as qct and hgct (commit-tool).</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tortoisehg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - thg
+  - hgtk
+  - mercurial
+  - vcs
+iconSources:
+  - cached: tortoisehg_thg_logo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

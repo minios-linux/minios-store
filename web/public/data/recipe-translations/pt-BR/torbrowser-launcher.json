@@ -1,0 +1,5 @@
+{
+  "name": "Tor Browser Launcher Settings",
+  "description": "Configurações do Tor Browser Launcher",
+  "longDescription": "<p>O Tor Browser Launcher foi criado para facilitar a instalação e o uso do Tor Browser Bundle (TBB) em sistemas GNU/Linux. O torbrowser-launcher gerencia o download da versão mais recente do TBB para você, no seu idioma e arquitetura. Ele também adiciona um lançador do aplicativo \"Tor Browser\" ao menu do seu sistema operacional.</p>\n<p>Ao iniciar o Tor Browser Launcher pela primeira vez, ele baixa o TBB em https://www.torproject.org/, extrai para ~/.local/share/torbrowser e executa o navegador. Os arquivos de cache e configuração ficam armazenados em ~/.cache/torbrowser e ~/.config/torbrowser. As execuções seguintes apenas iniciam a versão mais recente do TBB, que é atualizada pelo próprio mecanismo de atualização do Tor Browser.</p>\n"
+}

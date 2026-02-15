@@ -1,0 +1,5 @@
+{
+  "name": "Sound",
+  "description": "Lautstärke und Klängeinstellungen anpassen",
+  "longDescription": "<p>Die UKUI Media-Tools umfassen einen Audiomixer und ein Lautstärkeregelungs-Applet.</p>\n<p>Dieses Paket verwendet die libmatemixer-Bibliothek, die Unterstützung für ALSA und Pulseaudio als Audio-Backends bietet.</p>\n"
+}

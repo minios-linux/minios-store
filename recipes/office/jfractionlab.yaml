@@ -1,0 +1,40 @@
+id: jfractionlab
+name: JFractionLab
+description: Calculate Fractions is fun!
+longDescription: |
+  <p>JFractionLab is a nice tool for math students that are learning the use and operation of fractions.</p>
+  <p>It provides a collection of nice exercices with a numeric and visual representation of the fractions.</p>
+  <p>JFractionLab shows the user every step of the calculation and therefore helps him to understand them.</p>
+  <p>It gives the user an answer after each input, making impossible to have a false answer.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jfractionlab
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: jfractionlab_jfractionlab_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

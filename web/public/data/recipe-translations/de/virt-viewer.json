@@ -1,0 +1,5 @@
+{
+  "name": "Remote Viewer",
+  "description": "Fernzugriff auf virtuelle Maschinen",
+  "longDescription": "<p>Remote Viewer bietet eine grafische Oberfläche zur Anzeige des Gastsystems. Derzeit werden Gastsysteme unterstützt, die das VNC- oder SPICE-Protokoll verwenden. Weitere Protokolle können in Zukunft je nach Nutzerbedarf hinzukommen. Der Viewer kann sowohl lokale als auch entfernte Gastsysteme direkt verbinden, optional mit SSL/TLS-Verschlüsselung.</p>\n"
+}

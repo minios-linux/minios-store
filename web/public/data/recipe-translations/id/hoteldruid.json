@@ -1,0 +1,5 @@
+{
+  "name": "HotelDruid",
+  "description": "Sistem manajemen properti untuk hotel",
+  "longDescription": "<p>HotelDruid dirancang untuk memudahkan pengelolaan kamar hotel, apartemen bed and breakfast, atau jenis sewa harian lainnya langsung melalui peramban web.</p>\n<p>Fitur utama:</p>\n<ul>\n  <li>penempatan reservasi ke kamar secara otomatis berdasarkan aturan yang dapat ditentukan pengguna</li>\n  <li>pembuatan halaman web publik untuk menampilkan ketersediaan kamar, dan lainnya</li>\n  <li>penyimpanan, pencetakan, dan pengiriman dokumen serta faktur melalui email</li>\n  <li>point of sale (POS) elektronik</li>\n  <li>pengelolaan grup dan hak akses untuk penggunaan multi-pengguna</li>\n  <li>pembuatan laporan statistik</li>\n</ul>\n<p>Secara default menggunakan basis data SQLite, namun dapat dikonfigurasi untuk menggunakan MySQL atau PostgreSQL.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "gPDFText ebook editor",
+  "description": "Modifiez le texte des fichiers PDF d’ebooks",
+  "longDescription": "<p>gpdftext ouvre un fichier PDF textuel simple, généralement destiné à la lecture sur une liseuse, et charge le texte dans une fenêtre d’éditeur, en reformatant automatiquement les longues lignes et les sauts de paragraphe.</p>\n<p>gpdftext est utile lorsque le PDF téléchargé utilise une police trop petite ou gaspille beaucoup d’espace dans les marges, de sorte qu’un fichier texte brut s’afficherait avec une police plus confortable.</p>\n<p>gpdftext prend en charge la vérification orthographique, le choix de la police de l’éditeur et permet d’enregistrer le contenu ASCII au format PDF.</p>\n"
+}

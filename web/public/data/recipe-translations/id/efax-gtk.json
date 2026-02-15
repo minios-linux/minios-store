@@ -1,0 +1,5 @@
+{
+  "name": "Efax-gtk",
+  "description": "Antarmuka GUI untuk program fax efax",
+  "longDescription": "<p>efax-gtk adalah antarmuka berbasis GTK+ untuk program efax. Aplikasi ini dapat digunakan untuk mengirim dan menerima faks menggunakan modem faks, serta melihat, mencetak, dan mengelola faks yang diterima.</p>\n<p>efax-gtk juga memiliki antarmuka soket untuk menyediakan \"printer virtual\" yang memungkinkan pengiriman faks langsung dari aplikasi pengolah kata atau program serupa, serta dapat secara otomatis mengirim email faks yang diterima ke pengguna tertentu dan mencetak faks yang diterima secara otomatis.</p>\n"
+}

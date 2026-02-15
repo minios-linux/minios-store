@@ -1,0 +1,5 @@
+{
+  "name": "QtikZ",
+  "description": "Program untuk membuat diagram TikZ (dari paket LaTeX pgf)",
+  "longDescription": "<p>QtikZ adalah aplikasi ringan yang membantu pembuatan diagram dan gambar menggunakan makro TikZ dari paket LaTeX \"pgf\". Aplikasi ini menyediakan panel editor teks untuk mengedit kode TikZ serta panel pratinjau yang menampilkan hasil gambar sebagaimana dirender oleh LaTeX. Panel pratinjau dapat diperbarui secara real-time. Beragam alat gambar, opsi, dan gaya yang umum tersedia dari menu untuk memudahkan proses pembuatan kode.</p>\n<p>Paket ini berisi versi Qt dari program ini.</p>\n<p>TikZ adalah sintaks yang ramah pengguna untuk paket makro PGF (portable graphics format) pada TeX. Gambar dapat dibuat langsung dalam dokumen LaTeX dan disisipkan ke output menggunakan driver TeX utama seperti pdftex dan dvips.</p>\n"
+}

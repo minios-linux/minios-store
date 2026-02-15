@@ -1,0 +1,5 @@
+{
+  "name": "Qtractor",
+  "description": "Sequenciador multipista de Áudio/MIDI",
+  "longDescription": "<p>Qtractor é um aplicativo sequenciador multipista de Áudio/MIDI desenvolvido em C++ sobre o framework Qt utilizando o Qt Designer.</p>\n<p>Seu principal foco é o Linux, onde o Jack Audio Connection Kit (JACK) para áudio e a Advanced Linux Sound Architecture (ALSA) para MIDI são as principais infraestruturas utilizadas para fornecer uma interface completa de estação de trabalho de áudio para desktop Linux, especialmente dedicada a estúdios caseiros.</p>\n"
+}

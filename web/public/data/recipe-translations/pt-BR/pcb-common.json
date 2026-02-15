@@ -1,0 +1,5 @@
+{
+  "name": "gEDA PCB",
+  "description": "Crie e edite layouts de placas de circuito impresso",
+  "longDescription": "<p>PCB é um editor interativo de placas de circuito impresso (PCI) para sistemas Unix, Linux, Windows e Mac.</p>\n<p>O PCB conta com recurso de \"ninho de ratos\" (rats nest), importação de esquemáticos/netlists, verificação de regras de projeto (DRC) e pode gerar saídas em padrões industriais como RS-274X (Gerber), furação NC, netlist IPC-D-356 e dados de centróide (X-Y) para uso nos processos de fabricação e montagem, além de imagens fotorrealistas e para revisão de projeto.</p>\n<p>O PCB oferece recursos avançados como autorroteador, roteamento topológico e vários otimizadores de trilha, que podem reduzir significativamente o tempo de layout.</p>\n<p>Para requisitos personalizados, o PCB disponibiliza uma API de plug-ins para inserir novas funcionalidades e usá-las tanto na interface gráfica quanto em scripts.</p>\n"
+}

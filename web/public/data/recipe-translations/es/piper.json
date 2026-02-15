@@ -1,0 +1,5 @@
+{
+  "name": "Piper",
+  "description": "Herramienta configurable para la gestión de ratones",
+  "longDescription": "<p>\n      Piper es una interfaz gráfica para configurar ratones gaming.\n      Permite ajustar la resolución (DPI) del ratón, añadir y eliminar perfiles,\n      definir colores LED y modificar el comportamiento de los botones.\n    </p>\n<p>\n      Piper requiere ratbagd de libratbag, el demonio encargado de la comunicación con los ratones.\n      Piper es solo una interfaz; ratbagd debe estar instalado y en ejecución al iniciar Piper.\n    </p>\n"
+}

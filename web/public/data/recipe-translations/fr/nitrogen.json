@@ -1,0 +1,5 @@
+{
+  "name": "Nitrogen",
+  "description": "Explorateur et gestionnaire de fonds d’écran pour X Window",
+  "longDescription": "<p>Nitrogen est un programme permettant de configurer le fond d’écran du bureau. Son mode d’exploration vous permet de choisir et d’appliquer une image en arrière-plan, tandis que le mode de rappel vous permet de réappliquer la configuration enregistrée depuis la ligne de commande.</p><p>Il prend en charge les environnements multi-écrans et Xinerama, surveille les répertoires d’images via inotify, charge les miniatures à la volée pour économiser la mémoire, et offre un mode automatique qui choisit le meilleur affichage en fonction de la taille de l’image.</p>"
+}

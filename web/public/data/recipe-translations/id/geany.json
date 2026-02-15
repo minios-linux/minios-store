@@ -1,0 +1,5 @@
+{
+  "name": "Geany",
+  "description": "IDE yang cepat dan ringan berbasis GTK+",
+  "longDescription": "<p>Geany adalah lingkungan pengembangan terintegrasi (IDE) yang kecil dan ringan. Geany dikembangkan untuk menyediakan IDE yang sederhana dan cepat, dengan ketergantungan minimal pada paket lain. Aplikasi ini hanya menggunakan toolkit GTK2, sehingga Anda hanya perlu pustaka runtime GTK2 untuk menjalankan Geany.</p>\n<p>Fitur dasar Geany antara lain:  - penyorotan sintaks  - pelengkapan kode  - pelengkapan otomatis untuk konstruksi seperti if, for, dan while, serta XML dan HTML  - call tips  - folding  - dukungan untuk banyak jenis file seperti C, Java, PHP, HTML, Python, Perl, Pascal  - daftar simbol  - terminal terintegrasi</p>\n"
+}

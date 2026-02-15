@@ -1,0 +1,5 @@
+{
+  "name": "WiFi QR",
+  "description": "WLAN teilen per QR-Code",
+  "longDescription": "<p>Xiaomi-Android-Smartphones nutzen QR-Codes für die WLAN-Freigabe. Die Anwendung erlaubt es, per Bash auf Android, PC oder zwischen beiden Geräten WLAN-Zugang einfach über QR-Codes zu teilen. Als Schnittstellen werden zenity, QR-Code-Generierung mit zbar und qrencode sowie nmcli vom Network-Manager verwendet. Zum Schutz können WPA, WPA2, WEP, offene Netze und versteckte Netzwerke geteilt werden. QR-Codes unterstützen jedoch keine LDAP-Netzwerke und VPNs. Android kann QR-Codes für WLAN einfach erstellen, bei iOS ist dies nicht zuverlässig möglich.</p>\n"
+}

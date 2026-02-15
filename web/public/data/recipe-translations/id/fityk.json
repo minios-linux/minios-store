@@ -1,0 +1,5 @@
+{
+  "name": "fityk",
+  "description": "Fitting kurva (terutama fitting puncak) dan analisis data",
+  "longDescription": "<p>Fityk adalah program yang fleksibel dan portabel untuk fitting nonlinier fungsi analitik (khususnya yang berbentuk puncak) terhadap data (biasanya data eksperimen). Singkatnya, untuk pemisahan dan analisis puncak nonlinier.</p>\n<p>Aplikasi ini awalnya dikembangkan untuk menganalisis pola difraksi, namun juga dapat digunakan di bidang lain karena konsep dan operasi khusus kristalografi dipisahkan dari inti program.</p>\n<p>Fityk menyediakan berbagai metode fitting nonlinier, pengurangan latar belakang, kalibrasi data, penempatan puncak secara mudah serta pengaturan parameter puncak, otomasi tugas umum dengan skrip, dan masih banyak lagi. Keunggulan utama program ini adalah fleksibilitas — parameter puncak bisa saling terhubung atau bebas, misalnya lebar puncak bisa menjadi variabel independen, sama dengan puncak lain, atau ditentukan formula kompleks yang sama untuk semua puncak.</p>\n<p>libjs-sphinxdoc dibutuhkan untuk fitur Javascript dalam dokumentasi.</p>\n"
+}

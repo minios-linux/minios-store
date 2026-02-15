@@ -1,0 +1,5 @@
+{
+  "name": "ncl - NCAR command Language",
+  "description": "Analisi e visualizzazione di dati meteorologici",
+  "longDescription": "<p>Il NCAR Command Language (NCL) è un linguaggio di scripting gratuito e interpretato, progettato specificamente per l’elaborazione e la visualizzazione di dati scientifici. NCL offre un supporto avanzato per la lettura e la scrittura di file: può gestire netCDF-3, netCDF-4 classic HDF4, HDF5, dati binari e ASCII, oltre a leggere formati HDF-EOS2, GRIB1 e GRIB2. La generazione di grafici è di altissimo livello e altamente personalizzabile.</p>\n<p>Il software include alcuni strumenti da linea di comando utili: * ncl_filedump - visualizza il contenuto di file supportati (netCDF, HDF,   GRIB1, GRIB2, HDF-EOS2 e CCM History Tape) * ncl_convert2nc - converte uno o più file GRIB1, GRIB2, HDF e/o HDF-EOS   in file nel formato netCDF.</p>\n"
+}

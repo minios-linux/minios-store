@@ -1,0 +1,45 @@
+id: "kaffeine"
+name: Kaffeine
+description: Multimedia Player
+longDescription: |
+  <p>Kaffeine is a media player. What makes it different from the others is its excellent support of digital TV (DVB).
+        Kaffeine has user-friendly interface, so that even first time users can start immediately playing their movies:
+        from DVD (including DVD menus, titles, chapters, etc.), VCD, or a file.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kaffeine
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kaffeine.desktop/2272e225cb0fa134fdce356e43652c22/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kaffeine.desktop/2272e225cb0fa134fdce356e43652c22/screenshots/image-1_624x356@1.png
+    width: 1317
+    height: 753
+iconSources:
+  - url: org/kde/kaffeine.desktop/2272e225cb0fa134fdce356e43652c22/icons/128x128/kaffeine_kaffeine.png
+    width: 128
+    height: 128
+homepage: "http://kaffeine.kde.org"
+enabled: true
+order: 99

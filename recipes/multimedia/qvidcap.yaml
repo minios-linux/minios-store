@@ -1,0 +1,31 @@
+id: qvidcap
+name: Qt V4L2 video capture utility
+description: Viewer for video capture
+longDescription: |
+  <p>The qvidcap tool is used to test video4linux capture devices, either using a video device, a file, or over network. This application can also serve as a generic video/TV viewer application.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qvidcap
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - video
+  - grabber
+  - v4l
+iconSources:
+  - url: q/qv/qvidcap.desktop/b21abeb58c35a0fb22a465f1e92d6523/icons/128x128/qvidcap_qvidcap.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,37 @@
+id: gpxviewer
+name: GPX Viewer
+description: GPS Trace Viewer
+longDescription: |
+  <p>This application allows the user to load a GPS trace, in the GPX file format, and read it in a presentable way. You are shown a few statistics, such as the duration or maximum speed. You are also shown the trace on an openstreetmap map, where you can scroll around and zoom.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpxviewer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gpxviewer_gpxviewer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

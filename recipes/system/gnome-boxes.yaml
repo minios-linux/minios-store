@@ -1,0 +1,69 @@
+id: "gnome-boxes"
+name: GNOME Boxes
+description: Simple remote and virtual machines
+longDescription: |
+  <p>A simple GNOME 3 application to access remote or virtual systems. Unlike
+        some other virtual machine management software, Boxes is targeted towards
+        typical desktop end-users. For this reason, Boxes will not provide many
+        advanced options to tweak virtual machines. Instead Boxes will focus on
+        getting things working out of the box with very little input from user.</p>
+  <p>You want to install Boxes if you just want a very safe and easy way to try
+        out new operating systems or new (potentially unstable) versions of your
+        favorite operating system(s), or need to connect to a remote machine (for
+        example, in your office).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-boxes
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - virtual machine
+  - vm
+  - vnc
+  - rdp
+screenshotSources:
+  - url: org/gnome/Boxes.desktop/156d5262343dc09f3c46b0719592d084/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Boxes.desktop/156d5262343dc09f3c46b0719592d084/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/gnome/Boxes.desktop/156d5262343dc09f3c46b0719592d084/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Boxes.desktop/156d5262343dc09f3c46b0719592d084/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/gnome/Boxes.desktop/156d5262343dc09f3c46b0719592d084/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Boxes.desktop/156d5262343dc09f3c46b0719592d084/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/gnome/Boxes.desktop/156d5262343dc09f3c46b0719592d084/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Boxes.desktop/156d5262343dc09f3c46b0719592d084/screenshots/image-4_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: org/gnome/Boxes.desktop/156d5262343dc09f3c46b0719592d084/icons/128x128/gnome-boxes_org.gnome.Boxes.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Boxes"
+enabled: true
+order: 99

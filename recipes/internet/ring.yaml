@@ -1,0 +1,30 @@
+id: ring
+name: Ring
+description: Gnome client for Ring
+longDescription: |
+  <p>Ring is a secure, distributed communication software and a SIP client.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ring
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - chat
+  - talk
+  - im
+  - message
+  - voip
+iconSources:
+  - url: g/gn/gnome-ring.desktop/64E60BFF995012129387079214770D1D/icons/128x128/ring_ring.png
+    width: 128
+    height: 128
+homepage: "https://www.ring.cx"
+enabled: true
+order: 99

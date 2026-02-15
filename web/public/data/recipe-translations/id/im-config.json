@@ -1,0 +1,5 @@
+{
+  "name": "Input Method",
+  "description": "Atur Metode Input Keyboard",
+  "longDescription": "<p>Paket im-config menyediakan kerangka untuk mengonfigurasi dan beralih metode input pada X Window System. Metode input ini merupakan mekanisme penting bagi bahasa Jepang, Tionghoa, dan Korea (CJK) untuk memasukkan karakter asli mereka yang bukan ASCII.</p>\n<p>Banyak metode input modern seperti IBus mendukung tidak hanya salah satu bahasa CJK, tetapi hampir semua bahasa secara bersamaan dengan pengalihan mode keyboard secara dinamis melalui program bantu GUI.</p>\n<p>Dengan menginstal paket ini, metode input yang paling optimal beserta backend engine konversinya akan dikonfigurasi secara otomatis untuk Input Method X Window System (XIM), modul input method GTK+, modul input method Qt, dan modul input method clutter.</p>\n<p>Anda dapat menyesuaikan metode input lebih lanjut dengan perintah 'im-config'.</p>\n"
+}

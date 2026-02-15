@@ -1,0 +1,5 @@
+{
+  "name": "Mail Notification",
+  "description": "Mail Notification konfigurieren",
+  "longDescription": "<p>Mail Notification arbeitet mit System-Trays, die die freedesktop.org System Tray Specification unterstützen, wie zum Beispiel das GNOME-Panel-Benachrichtigungsfeld, das xfce4-Benachrichtigungsfeld und das KDE-System-Tray.</p>\n<p>Zu den Funktionen von Mail Notification gehören:   * Unterstützung mehrerer Postfächer   * Unterstützung von mbox, MH, Maildir, Sylpheed, POP3, IMAP, Gmail und Evolution   * Unterstützung für Mozilla-Produkte (Mozilla, SeaMonkey, Thunderbird, ...)   * SASL-Authentifizierung   * APOP-Authentifizierung   * SSL/TLS-Unterstützung   * Automatische Erkennung des Postfachformats   * Sofortige Benachrichtigung (abhängig von den Einstellungen)   * HIG 2.0-Konformität</p>\n<p>Hinweis: Unterstützung für Evolution ist mit mail-notification-evolution verfügbar.</p>\n"
+}

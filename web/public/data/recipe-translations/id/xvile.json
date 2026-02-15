@@ -1,0 +1,5 @@
+{
+  "name": "UXVile",
+  "description": "Emacs Mirip VI",
+  "longDescription": "<p>vile adalah editor teks yang sangat kompatibel dengan vi dalam hal rasa penggunaan. Selain itu, vile juga memiliki banyak fitur tambahan, terutama pengeditan dan peninjauan banyak file secara bersamaan, penyorotan sintaks (syntax highlighting), pengaturan ulang tombol (key rebinding), interpreter perl opsional yang terintegrasi, dan dukungan penuh untuk sistem X Window asli.</p>\n<p>Paket ini berisi binary untuk X11. Berkas pendukung yang diperlukan terdapat di vile-common. Filter penyorotan kode sumber ada di vile-filters. Untuk mode karakter, gunakan binary pada paket vile.</p>\n"
+}

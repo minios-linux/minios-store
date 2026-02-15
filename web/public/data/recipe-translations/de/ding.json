@@ -1,0 +1,5 @@
+{
+  "name": "Ding",
+  "description": "Ding: Englisch-Deutsch Wörterbuch",
+  "longDescription": "<p>Dies ist „Ding“ &ndash; ein Wörterbuchprogramm für Unix, abgekürzt für DIctionary Nice Grep. Es ist eine Tk-basierte Benutzeroberfläche für [ae]grep, (hun|a|i)spell, dict und weitere Werkzeuge. Ding {n} :: thing</p>\n<p>Dieses Paket benötigt tre-agrep(1), agrep(1) oder egrep(1) als Backend. (tre-)agrep wird bevorzugt, da es fehlertolerantes Suchen unterstützt.</p>\n<p>Sie müssen eine Übersetzungswortliste installieren, in der jede Zeile jeweils ein Wort oder eine Phrase in zwei Sprachen enthält, getrennt durch ein beliebiges Trennzeichen. Standardmäßig verwendet Ding das Deutsch-Englisch-Wörterbuch aus dem Paket trans-de-en, Sie können jedoch jede beliebige Wortliste mit Einträgen pro Zeile verwenden.</p>\n"
+}

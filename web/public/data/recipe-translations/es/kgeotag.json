@@ -1,0 +1,5 @@
+{
+  "name": "KGeoTag",
+  "description": "Programa para añadir geolocalización a fotos",
+  "longDescription": "<p>KGeoTag es un programa independiente para geolocalizar imágenes. Permite asociar fotos con coordenadas geográficas de varias maneras: por un lado, se puede hacer una vinculación automática mediante datos GPX, y por otro, las coordenadas pueden establecerse manualmente, ya sea arrastrando y soltando sobre un mapa, utilizando marcadores o ingresándolas manualmente. Las coordenadas pueden guardarse en la cabecera Exif de las imágenes y/o en archivos laterales XMP.</p>\n"
+}

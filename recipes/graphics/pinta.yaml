@@ -1,0 +1,28 @@
+id: pinta
+name: Pinta
+description: Easily create and edit images
+longDescription: |
+  <p>Pinta is an easy to use drawing/editing program. Its goal is to provide a simplified experience for casual users.</p>
+  <p>Features include:  - Adjustments (Auto level, Black and White, Sepia, …)  - Effects (Motion blur, Glow, Warp, …)  - Multiple layers  - Unlimited undo/redo  - Drawing tools (Paintbrush, Pencil, Shapes, …)</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pinta
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pinta_pinta.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

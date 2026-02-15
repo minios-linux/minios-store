@@ -1,0 +1,5 @@
+{
+  "name": "Activity-aware Firefox",
+  "description": "Membuat Profil Firefox terpisah untuk setiap Aktivitas",
+  "longDescription": "<p>Dengan activity-aware-firefox, Anda dapat memiliki jendela Firefox di setiap Aktivitas Plasma yang terikat pada Aktivitas tersebut.</p>\n<p>activity-aware-firefox akan membuat Profil Firefox baru saat pertama kali dijalankan di suatu Aktivitas, menggunakan ID unik Aktivitas tersebut.</p>\n<p>Setiap kali Anda menjalankan activity-aware-firefox di Aktivitas Plasma yang sama, aplikasi ini akan membuka Profil Firefox yang terkait dengan Aktivitas itu.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "GNUnet Secured P2P",
+  "description": "Berbagi file menggunakan jaringan anonim dan tahan sensor milik GNU",
+  "longDescription": "<p>GNUnet adalah kerangka kerja untuk jaringan peer-to-peer yang aman tanpa menggunakan layanan terpusat atau pihak ketiga yang dipercaya. Tujuan utamanya adalah menyediakan fondasi perangkat lunak bebas yang kuat untuk jaringan global yang mengutamakan keamanan dan, khususnya, menghormati privasi pengguna.</p>\n<p>GNUnet awalnya dikembangkan untuk berbagi file secara anonim dan tahan sensor, namun kini telah berkembang mencakup aplikasi lain serta berbagai komponen dasar untuk aplikasi jaringan yang aman. Secara khusus, GNUnet kini dilengkapi dengan GNU Name System, sebuah infrastruktur kunci publik terdesentralisasi yang menjaga privasi.</p>\n<p>Paket ini berisi klien grafis berbasis toolkit GTK+. Untuk menggunakan GNUnet, Anda juga memerlukan paket gnunet yang berjalan di server maupun komputer lokal Anda.</p>\n"
+}

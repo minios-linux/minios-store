@@ -1,0 +1,5 @@
+{
+  "name": "zyGrib GRIB file viewer",
+  "description": "Visor de archivos meteorológicos",
+  "longDescription": "<p>Esta aplicación, desarrollada con la herramienta Qt, permite:  * Visualizar datos meteorológicos a partir de archivos en formato GRIB 1  * Descarga automática de datos GRIB  * Descarga automática de datos IAC (fleetcode)</p>\n"
+}

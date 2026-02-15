@@ -1,0 +1,56 @@
+id: "photocollage"
+name: PhotoCollage
+description: Graphical tool to make photo collage posters
+longDescription: |
+  <p>PhotoCollage allows you to create photo collage posters. It assembles the
+     input photographs it is given to generate a big poster. Photos are
+     automatically arranged to fill the whole poster, then you can change the
+     final layout, dimensions, border or swap photos in the generated grid.
+     Eventually the final poster image can be saved in any size.</p>
+  <p>The algorithm generates random layouts that place photos while taking
+     advantage of all free space. It tries to fill all space while keeping each
+     photo as large as possible.</p>
+  <p>PhotoCollage does more or less the same as many commercial websites do, but
+     for free and with open-source code.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - photocollage
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - photo
+  - collage
+  - image
+screenshotSources:
+  - url: p/ph/photocollage.desktop/b1859ac58c07cf847e8836089e33da0f/screenshots/image-1_orig.png
+    thumbnailUrl: p/ph/photocollage.desktop/b1859ac58c07cf847e8836089e33da0f/screenshots/image-1_624x351@1.png
+    width: 800
+    height: 450
+iconSources:
+  - url: p/ph/photocollage.desktop/b1859ac58c07cf847e8836089e33da0f/icons/128x128/photocollage_photocollage.png
+    width: 128
+    height: 128
+homepage: "https://github.com/adrienverge/PhotoCollage"
+enabled: true
+order: 99

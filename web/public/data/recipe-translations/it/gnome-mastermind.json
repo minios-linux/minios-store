@@ -1,0 +1,5 @@
+{
+  "name": "Mastermind",
+  "description": "Scopri il codice segreto!",
+  "longDescription": "<p>L'obiettivo di questo gioco da tavolo è decifrare un codice utilizzando indizi criptici. Il gioco si svolge tra 2 giocatori: il creatore del codice (il computer) e il decifratore. Il computer genera una combinazione di 4 colori. Il decifratore deve indovinare la sequenza esatta (sia ordine che colori) con il minor numero di tentativi possibile. Ad ogni turno, il decifratore propone una combinazione e il computer fornisce riscontri tramite pioli nella griglia dei punteggi. Un piolo bianco indica un colore giusto nella posizione sbagliata; un piolo colorato significa che sia colore che posizione sono corretti.</p>\n"
+}

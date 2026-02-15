@@ -1,0 +1,5 @@
+{
+  "name": "Petri-Foo",
+  "description": "Sound-Sampler",
+  "longDescription": "<p>Ein einfacher, aber sehr nützlicher, MIDI-gesteuerter Sampler für ALSA/JACK mit folgenden Features:  * 64-fache Polyphonie, verteilt auf bis zu 64 Patches.  * Schnelle, hochwertige Tonhöhenanpassung, lineare ADSR-Lautstärkehüllkurven.  * Tiefpassfilter mit Resonanz; verschiedene richtungsunabhängige Wiedergabemodi.  * Zoombarer Sample-Editor zum Setzen von Loop- und Startpunkten.</p>\n<p>Petri-Foo ist ein Fork des Specimen Sampler-Projekts.</p>\n"
+}

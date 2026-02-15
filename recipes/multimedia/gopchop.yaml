@@ -1,0 +1,39 @@
+id: gopchop
+name: GOPchop
+description: MPEG2 GOP-accurate editor
+longDescription: |
+  <p>gopchop cuts and merges MPEG2 video streams. gopchop uses a method to cut streams that does not require re-encoding, and therefore is fast and not prone to the artifacts and degradation of quality inherent in re-encoding. However, cuts are limited to I-frames or group-of-picture (GOP) boundaries. These frames occur frequently enough, and often times at scene transitions, so that gopchop&apos;s method is adequate for many applications.</p>
+  <p>The typical use is manually editing commercials out of recorded television programs.</p>
+  <p>Another application is splitting .VOB files from dual-layer DVD rips so that the content can be re-authored such that each half will fit on one single-layer DVD recordable.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gopchop
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gopchop_gopchop.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "SolveSpace",
+  "description": "Ein parametrisches 2D/3D-CAD-Programm",
+  "longDescription": "<p>SolveSpace ist ein parametrisches 2D/3D-CAD-Programm. Anwendungsbereiche umfassen:</p>\n<p> * Modellierung von 3D-Bauteilen – zeichnen mit Extrusionen, Rotationen und booleschen    (Vereinigungs-/Differenz-)Operationen;  * Modellierung von 2D-Bauteilen – zeichnen des Teils als einzelne Kontur und Export als DXF,    PDF, SVG; Passgenauigkeit kann in der 3D-Baugruppe überprüft werden;  * 3D-gedruckte Teile – Export von STL oder anderen für die meisten 3D-Drucker geeigneten     Dreiecksnetzen;  * CAM-Daten vorbereiten – Export von 2D-Vektorgrafiken für Wasserstrahl- oder    Laserschneidmaschinen; oder Generierung von STEP- oder STL-Dateien zur Weiterverarbeitung in    externer CAM-Software für die CNC-Bearbeitung;  * Mechanismusentwicklung – Verwendung des Zwangslösungssystems zur Simulation von planaren    oder räumlichen Gelenken (Bolzen-, Kugel- oder Lineargelenke);  * Ebenen- und Raumgeometrie – ersetzt handberechnete trigonometrische Aufgaben und    Tabellenkalkulationen durch eine interaktive, bemaßte Zeichnung.</p>\n"
+}

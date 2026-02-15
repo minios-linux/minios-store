@@ -1,0 +1,27 @@
+id: xfce4-panel
+name: Panel
+description: Customize the panel
+longDescription: |
+  <p>This is the panel provided by the Xfce4 desktop project.  If you want a multi-functional panel that can even handle plugins and the like, xfce4-panel might be worth a try.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-panel
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: p/pa/panel-preferences.desktop/A40C5C18CF127D9A6B1069E330A1C825/icons/128x128/xfce4-panel_xfce4-panel.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

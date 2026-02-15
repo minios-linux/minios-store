@@ -1,0 +1,47 @@
+id: "c-evo-dh-gtk2"
+name: C-evo Distant Horizon
+description: Civilization style empire building game
+longDescription: |
+  <p>
+        C-evo: New Distant Horizon
+        A civilization style turn based strategy game, of the Civ2 era.
+  
+        With a time scope of several thousand years, it covers aspects of exploration
+        and expansion, industry and agriculture, warfare and diplomacy, science and
+        administration. C-evo follows the spirit of popular turn-based strategy games
+        from the mid 90s, but with more emphasis on powerful AI and careful design
+        of the rules, resulting in a true challenge.
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - c-evo-dh-gtk2
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - civilization
+  - civilisation
+screenshotSources:
+  - url: net/sourceforge/c-evo-dh-gtk2/b0fcbb796a4a794144e466513695d20f/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/c-evo-dh-gtk2/b0fcbb796a4a794144e466513695d20f/screenshots/image-1_624x363@1.png
+    width: 1419
+    height: 826
+  - url: net/sourceforge/c-evo-dh-gtk2/b0fcbb796a4a794144e466513695d20f/screenshots/image-2_orig.png
+    thumbnailUrl: net/sourceforge/c-evo-dh-gtk2/b0fcbb796a4a794144e466513695d20f/screenshots/image-2_624x370@1.png
+    width: 1516
+    height: 900
+iconSources:
+  - url: net/sourceforge/c-evo-dh-gtk2/b0fcbb796a4a794144e466513695d20f/icons/128x128/c-evo-dh-gtk2_c-evo-dh.png
+    width: 128
+    height: 128
+homepage: "https://sourceforge.net/projects/c-evo-eh"
+enabled: true
+order: 99

@@ -1,0 +1,52 @@
+id: "tilp2"
+name: TILP2
+description: Texas Instruments handheld(s) to computer communication program
+longDescription: |
+  <p>TILP2 is a communication program between Texas Instruments 
+  			handhelds and computers. It is able to use any supported type
+  			of link cable (Gray/Black/Silver/Direct Link) with any TI
+  			graphing calculator.</p>
+  <p>With TiLP, you can transfer files from your PC to your Texas
+  			Instruments graphing calculator, and vice-versa. You can also
+  			make a screen dump, send/receive data, backup/restore contents,
+  			install FLASH applications, or upgrade the OS.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tilp2
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - texas instruments
+screenshotSources:
+  - url: t/ti/tilp/9a31102204c7640006ddf92b5cdb7374/screenshots/image-1_orig.png
+    thumbnailUrl: t/ti/tilp/9a31102204c7640006ddf92b5cdb7374/screenshots/image-1_624x477.png
+    width: 1003
+    height: 768
+iconSources:
+  - cached: tilp2_tilp.png
+    width: 64
+    height: 64
+homepage: "http://lpg.ticalc.org/prj_tilp/"
+enabled: true
+order: 99

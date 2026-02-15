@@ -1,0 +1,5 @@
+{
+  "name": "Ding",
+  "description": "Ding: Dizionario Inglese-Tedesco",
+  "longDescription": "<p>Questo è \"Ding\":<br> • un programma per consultare dizionari su Unix,<br> • DIctionary Nice Grep,<br> • un'interfaccia Tk a [ae]grep, (hun|a|i)spell, dict, ...<br> • Ding {n} :: cosa</p>\n<p>Questo pacchetto necessita di tre-agrep(1), agrep(1) o egrep(1) come backend. (tre-)agrep è preferibile perché supporta la ricerca tollerante agli errori.</p>\n<p>È necessario installare una lista di parole di un dizionario di traduzione, in cui ogni riga contiene una parola o frase in due lingue separate da un delimitatore. La configurazione predefinita di Ding utilizza il dizionario tedesco-inglese fornito dal pacchetto trans-de-en, ma è possibile utilizzare qualsiasi altra lista dizionario con una voce per linea.</p>\n"
+}

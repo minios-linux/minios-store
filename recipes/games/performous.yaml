@@ -1,0 +1,45 @@
+id: "performous"
+name: Performous
+description: A karaoke game
+longDescription: |
+  <p>A karaoke, band and dancing game where one or more players perform a song and the game scores their performances. Supports songs in UltraStar, Frets on Fire and StepMania formats. Microphones and instruments from SingStar, Guitar Hero and Rock Band as well as some dance pads are autodetected.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - performous
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - song
+  - music
+  - dance
+  - karaoke
+  - microphone
+  - sound
+  - singing
+iconSources:
+  - url: p/pe/performous.desktop/80d0e009a9caf93df999b61564f96298/icons/128x128/performous_performous.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

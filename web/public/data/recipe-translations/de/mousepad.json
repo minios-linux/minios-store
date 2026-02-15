@@ -1,0 +1,5 @@
+{
+  "name": "Mousepad",
+  "description": "Einfacher Texteditor",
+  "longDescription": "<p>Mousepad ist ein grafischer Texteditor für Xfce, der auf Leafpad basiert.</p>\n<p>Der ursprüngliche Grund für Mousepad war die Bereitstellung einer Druckunterstützung, die in Leafpad aus verschiedenen Gründen nur schwer umsetzbar gewesen wäre.</p>\n<p>Obwohl sich einige Funktionen noch in der Entwicklung befinden, bietet Mousepad derzeit folgende Features:   * Vollständige Unterstützung für UTF-8-Text   * Ausschneiden/Kopieren/Einfügen und „Alles auswählen“   * Suchen und Ersetzen   * Schriftartenauswahl   * Zeilenumbruch   * Auswahl der Zeichenkodierung   * Automatische Erkennung der Zeichenkodierung (UTF-8 und weitere Zeichensätze)   * Manuelle Einstellung des Zeichensatzes   * Unbegrenztes Rückgängigmachen/Wiederherstellen (wortweise)   * Automatischer Einzug   * Mehrzeiliger Einzug   * Anzeige von Zeilennummern   * Drag & Drop   * Drucken</p>\n"
+}

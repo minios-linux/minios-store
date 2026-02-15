@@ -1,0 +1,96 @@
+id: "eartag"
+name: Ear Tag
+description: Edit audio file tags
+longDescription: |
+  <p>Ear Tag is a simple audio file tag editor. It is primarily geared towards making quick edits or bulk-editing tracks in albums/EPs. Unlike other tagging programs, Ear Tag does not require the user to set up a music library folder. It can:</p>
+  <ul>
+    <li>Edit tags of MP3, WAV, M4A, FLAC, OGG and WMA files</li>
+    <li>Modify metadata of multiple files at once</li>
+    <li>Rename files using information from present tags</li>
+    <li>Identify files using AcoustID</li>
+  </ul>
+  <p>Network access is only used for the "Identify selected files" option.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - eartag
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - audio
+  - tag
+  - tagging
+  - tagger
+screenshotSources:
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-1_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-1_624x457@1.png
+    width: 1122
+    height: 822
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-2_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-2_224x360@1.png
+    width: 482
+    height: 776
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-3_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-3_624x457@1.png
+    width: 1122
+    height: 822
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-4_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-4_624x457@1.png
+    width: 1122
+    height: 822
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-5_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-5_624x457@1.png
+    width: 1122
+    height: 822
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-6_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-6_624x457@1.png
+    width: 1122
+    height: 822
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-7_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-7_624x457@1.png
+    width: 1122
+    height: 822
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-8_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-8_624x457@1.png
+    width: 1122
+    height: 822
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-9_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-9_224x360@1.png
+    width: 482
+    height: 776
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-10_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-10_624x457@1.png
+    width: 1122
+    height: 822
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-11_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-11_624x457@1.png
+    width: 1122
+    height: 822
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-12_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-12_624x457@1.png
+    width: 1122
+    height: 822
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-13_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-13_624x457@1.png
+    width: 1122
+    height: 822
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-14_orig.png
+    thumbnailUrl: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/screenshots/image-14_624x457@1.png
+    width: 1122
+    height: 822
+iconSources:
+  - url: app/drey/EarTag/6c543aa7b0d41a45f6d9a0f8d8f04a75/icons/128x128/eartag_app.drey.EarTag.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.gnome.org/World/eartag"
+enabled: true
+order: 99

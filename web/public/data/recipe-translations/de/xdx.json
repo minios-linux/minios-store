@@ -1,0 +1,5 @@
+{
+  "name": "Xdx",
+  "description": "DX-Cluster-Client für Amateurfunk",
+  "longDescription": "<p>Xdx ist ein Client zur Verbindung mit einem DX-Cluster. DX-Meldungen werden in einer Liste angezeigt, Ansagen erscheinen in einer Textanzeige.</p>\n<p>Neben den Standardfunktionen kann Xdx bei installierter hamlib den Transceiver steuern und die Frequenz durch einfaches Doppelklicken auf einen DX-Spot automatisch einstellen (über rigctl).</p>\n"
+}

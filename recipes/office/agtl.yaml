@@ -1,0 +1,25 @@
+id: agtl
+name: AGTL Geocaching Tool
+description: Advanced Geocaching Tool For Linux
+longDescription: |
+  <p>AGTL downloads cache locations in the area visible on the map including their description, hints, difficulty levels and images. Searching for caches in your local db is a matter of seconds. The currently selected cache is shown on the map (and also all the others if you want) and there&apos;s a traditional compass-like view that always points at the cache.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - agtl
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: agtl_advancedcaching.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

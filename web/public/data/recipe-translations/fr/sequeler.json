@@ -1,0 +1,5 @@
+{
+  "name": "Sequeler",
+  "description": "Client SQL convivial",
+  "longDescription": "<p>\n\t\t\tConnectez-vous facilement à vos bases de données locales ou distantes\n\t\t</p>\n<p>\n\t\t\tStockez vos connexions à des bases de données dans une bibliothèque, connectez-vous via un tunnel SSH, saisissez et exécutez des requêtes SQL directement dans l'application, et gérez tout ce dont vous avez besoin sans avoir à ouvrir le terminal.\n\t\t</p>\n<p>\n\t\t\tBases de données prises en charge :\n\t\t</p>\n<ul>\n  <li>SQLite</li>\n  <li>MySQL</li>\n  <li>MariaDB</li>\n  <li>PostgreSQL</li>\n</ul>\n<p>\n\t\t\tFonctionnalités principales :\n\t\t</p>\n<ul>\n  <li>Testez les connexions avant de les enregistrer</li>\n  <li>Affichez la structure, le contenu et les relations des tables</li>\n  <li>Rédigez plusieurs requêtes SQL personnalisées</li>\n  <li>Basculez entre le mode clair et le mode sombre</li>\n  <li>Raccourcis clavier pratiques pour quitter (ctrl+q), créer une nouvelle connexion (ctrl+shift+n), ouvrir une nouvelle fenêtre (ctrl+n)</li>\n</ul>\n"
+}

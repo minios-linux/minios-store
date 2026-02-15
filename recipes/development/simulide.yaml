@@ -1,0 +1,56 @@
+id: simulide
+name: SimulIDE
+description: Build and simulate electronic circuits
+longDescription: |
+  <p>Simulide is a real time electronic circuit simulator intended for hobbist and student experimentation with simple general purpose electronic circuits and PIC, AVR and Arduino microcontroller simulations.</p>
+  <p>PIC and AVR simulation are provided by gpsim and simavr.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - simulide
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - embedded electronics
+  - electronics
+  - avr
+  - pic
+  - microcontroller
+screenshotSources:
+  - url: net/launchpad/code.simulide/a66248bba63c405a4d3b79ea111a344d/screenshots/image-1_orig.png
+    thumbnailUrl: net/launchpad/code.simulide/a66248bba63c405a4d3b79ea111a344d/screenshots/image-1_624x351@1.png
+    width: 1280
+    height: 720
+  - url: net/launchpad/code.simulide/a66248bba63c405a4d3b79ea111a344d/screenshots/image-2_orig.png
+    thumbnailUrl: net/launchpad/code.simulide/a66248bba63c405a4d3b79ea111a344d/screenshots/image-2_624x351@1.png
+    width: 1280
+    height: 720
+  - url: net/launchpad/code.simulide/a66248bba63c405a4d3b79ea111a344d/screenshots/image-3_orig.png
+    thumbnailUrl: net/launchpad/code.simulide/a66248bba63c405a4d3b79ea111a344d/screenshots/image-3_624x351@1.png
+    width: 1280
+    height: 720
+iconSources:
+  - cached: simulide_simulide.png
+    width: 64
+    height: 64
+homepage: "https://simulide.com/p/"
+enabled: true
+order: 99

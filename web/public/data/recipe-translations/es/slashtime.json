@@ -1,0 +1,5 @@
+{
+  "name": "Slashtime",
+  "description": "Consulta la hora en ubicaciones de todo el mundo",
+  "longDescription": "<p>Un pequeño programa que muestra la hora en diversos lugares. Ofrece una visualización compacta de ubicaciones junto con información útil como la fecha y el código abreviado de cada zona horaria.</p>\n<p>La precisión de los datos depende de la información de zoneinfo instalada en el sistema. De forma poco habitual, Slashtime muestra el desfase horario respecto a la ubicación actual, no respecto a UTC. Mientras esté en ejecución, puedes cambiar el punto central haciendo doble clic en otra ciudad.</p>\n<p>Slashtime incluye un planificador de reuniones. Permite especificar una fecha y hora para comprobar la hora equivalente en otras ubicaciones.</p>\n"
+}

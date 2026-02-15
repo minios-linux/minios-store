@@ -1,0 +1,44 @@
+id: "gnumeric"
+name: Gnumeric
+description: "Calculation, Analysis, and Visualization of Information"
+longDescription: |
+  <p>Gnumeric is a spreadsheet application that interoperates well with other spreadsheets. It comes with plugins that enable it to deal with commonly used spreadsheet file formats.</p>
+  <p>The following formats can be imported and exported:  - Microsoft Excel 97/2000/XP (.xls);  - Microsoft Excel 95 (.xls);  - OASIS XML, OpenOffice.org XML, StarOffice (.sxc);  - Comma/Character Separated Values (.csv);  - Data Interchange Format (.dif);  - Applix version 4 (.as).</p>
+  <p>Additionally, the following formats can be imported:  - GNU Oleo (.oleo);  - Linear and integer program expression format (.mps);  - Lotus 1-2-3 (.wks, .wk1);  - MS MultiPlan SYLK (.sylk);  - WordPerfect family &quot;Plan Perfect&quot; (.pln);  - Quattro Pro (tm);  - XSpread or SC;  - XBase (.dbf).</p>
+  <p>Gnumeric can export to LaTeX 2e (.tex), TROFF (.me) and HTML as well.</p>
+  <p>Gnumeric should be easy to use, in particular for users familiar with Excel.</p>
+  <p>Gnumeric is a GNOME application. GNOME (GNU Network Object Model Environment) is a user-friendly set of applications and desktop tools to be used in conjunction with a window manager for the X Window System.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnumeric
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - spreadsheet
+iconSources:
+  - url: org/gnumeric/gnumeric/9ae49e0c1d0e77ebc4674c7b71955762/icons/128x128/gnumeric_org.gnumeric.gnumeric.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

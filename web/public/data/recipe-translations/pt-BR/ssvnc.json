@@ -1,0 +1,5 @@
+{
+  "name": "SSL/SSH VNC Viewer",
+  "description": "SSVNC - acesse áreas de trabalho VNC remotamente",
+  "longDescription": "<p>VNC significa Virtual Network Computing. Trata-se, essencialmente, de um sistema de exibição remota que permite visualizar o ambiente de área de trabalho não apenas na máquina local, mas de qualquer lugar da Internet e em diversas arquiteturas.</p>\n<p>O SSVNC é duas coisas:</p>\n<p>* Uma versão aprimorada do cliente TightVNC, com suporte para mais codificações e modos de cor, compatibilidade com as extensões do x11vnc e UltraVNC, redimensionamento dinâmico da tela, menu pop-up melhorado, entre outros recursos.</p>\n<p>* Uma interface gráfica que facilita a configuração de um túnel SSL (usando stunnel) ou SSH para conexão ao servidor VNC, além de encaminhamento de portas para áudio (esound/aRts), SMB, CUPS, etc.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "UDAV",
+  "description": "Werkzeug zur Datenverarbeitung und -visualisierung",
+  "longDescription": "<p>Eine freie, plattformübergreifende Bibliothek mit schnellen C++-Routinen zur Visualisierung von Daten in bis zu drei Dimensionen. Diagramme können als Bitmap, Vektor-EPS, SVG oder IDTF exportiert werden. Es stehen einfache Fensteroberflächen auf Basis von GLUT, FLTK und/oder Qt zur Verfügung. MathGL kann auch in der Konsole verwendet werden. Schnittstellen existieren für verschiedene Programmiersprachen wie C, Fortran, Pascal, Forth, Python und Octave.</p>\n<p>Dieses Paket enthält die UDAV-Fensterumgebung basierend auf MathGL.</p>\n"
+}

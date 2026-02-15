@@ -1,0 +1,37 @@
+id: "jack-keyboard"
+name: JACK Keyboard
+description: Virtual keyboard for JACK MIDI
+longDescription: |
+  <p>JACK keyboard is a program that allows you to send JACK MIDI events (play ;-) using your PC keyboard. It&apos;s somewhat similar to vkeybd, except it uses JACK MIDI instead of ALSA, and the default keyboard mapping is much better - it uses the same layout as trackers (like Impulse Tracker) did, so you have two and half octaves under your fingers.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jack-keyboard
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: jack-keyboard_jack-keyboard.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

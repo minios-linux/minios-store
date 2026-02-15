@@ -1,0 +1,5 @@
+{
+  "name": "crystal-facet-uml",
+  "description": "crystal-facet-uml membuat diagram untuk mendokumentasikan arsitektur sistem dan perangkat lunak",
+  "longDescription": "<p>\n      Sebagai arsitek perangkat lunak, Anda membuat serangkaian diagram yang menggambarkan\n      use-case, kebutuhan, tampilan struktural, perilaku, dan deployment sistem.\n    </p>\n<p>\n      crystal-facet-uml menjaga konsistensi nama elemen dan hierarki elemen.\n      Aplikasi ini dapat mengekspor diagram ke format svg, pdf, ps, dan png\n      untuk digunakan dalam sistem pengolah dokumen seperti DocBook, html, dan LaTeX.\n      crystal-facet-uml juga dapat mengekspor model ke format xmi.\n    </p>\n"
+}

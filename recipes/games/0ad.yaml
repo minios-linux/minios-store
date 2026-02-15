@@ -1,0 +1,76 @@
+id: "0ad"
+name: 0 A.D.
+description: Real-Time Strategy Game of Ancient Warfare
+longDescription: |
+  <p>0 A.D. is a real-time strategy (RTS) game of ancient warfare.
+        It&apos;s a historically-based war/economy game that allows players to relive
+        or rewrite the history of thirteen ancient civilizations, each depicted
+        at their peak of economic growth and military prowess.</p>
+  <p>The thirteen factions are: Three of the Hellenic States (Athens, Sparta and
+        Macedonia), two of the kingdoms of Alexander the Great&apos;s successors
+        (Seleucids and Ptolemaic Egyptians), two Celtic tribes (Britons and
+        Gauls), the Romans, the Persians, the Iberians, the Carthaginians, the
+        Mauryas and the Kushites.
+        Each civilization is complete with substantially unique artwork,
+        technologies and civilization bonuses.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - 0ad
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - rts
+  - realtime strategy
+  - economic simulation game
+  - history
+  - warfare
+  - infantry
+  - cavalry
+  - siege engines
+  - fortress
+  - celtics
+screenshotSources:
+  - url: com/play0ad/zeroad/fa61717626c831536645f46ae89b48c6/screenshots/image-1_orig.png
+    thumbnailUrl: com/play0ad/zeroad/fa61717626c831536645f46ae89b48c6/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+  - url: com/play0ad/zeroad/fa61717626c831536645f46ae89b48c6/screenshots/image-2_orig.png
+    thumbnailUrl: com/play0ad/zeroad/fa61717626c831536645f46ae89b48c6/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: com/play0ad/zeroad/fa61717626c831536645f46ae89b48c6/screenshots/image-3_orig.png
+    thumbnailUrl: com/play0ad/zeroad/fa61717626c831536645f46ae89b48c6/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+  - url: com/play0ad/zeroad/fa61717626c831536645f46ae89b48c6/screenshots/image-4_orig.png
+    thumbnailUrl: com/play0ad/zeroad/fa61717626c831536645f46ae89b48c6/screenshots/image-4_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: com/play0ad/zeroad/fa61717626c831536645f46ae89b48c6/icons/128x128/0ad_0ad.png
+    width: 128
+    height: 128
+homepage: "https://play0ad.com/"
+enabled: true
+order: 99

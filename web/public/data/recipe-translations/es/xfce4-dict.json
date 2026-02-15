@@ -1,0 +1,5 @@
+{
+  "name": "Diccionario",
+  "description": "Un cliente para consultar diferentes diccionarios.",
+  "longDescription": "<p>Este programa te permite buscar palabras o frases en varios servicios de diccionario y muestra los resultados. Actualmente puedes consultar un servidor Dict (RFC 2229), usar cualquier servicio de diccionario en línea abriendo un navegador web o buscar palabras con los programas aspell/ispell.</p>\n<p>xfce4-dict incluye una aplicación independiente llamada “xfce4-dict” y un complemento para el panel de Xfce.</p>\n"
+}

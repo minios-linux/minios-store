@@ -1,0 +1,71 @@
+id: "qtox"
+name: qTox
+description: Powerful Tox chat client that follows the Tox design guidelines.
+longDescription: |
+  <p>A New Kind of Instant Messaging</p>
+  <p>With the rise of government monitoring programs, qTox provides an easy to use
+      application that allows you to connect with friends and family without anyone
+      else listening in. While other big-name services require you to pay for
+      features, qTox is totally free, and comes without advertising.</p>
+  <p>Nowadays, every government seems to be interested in what we&apos;re saying online.
+      qTox is built on a &quot;privacy goes first&quot; agenda, and we make no compromises.
+      Your safety is our top priority, and there isn&apos;t anything in the world that
+      will change that.</p>
+  <p>Instant messaging, video conferencing, and more.</p>
+  <ul>
+    <li>Messages: At your fingertips. You&apos;re always in the loop with instant encrypted messaging.</li>
+    <li>Calls: Stay in touch. Make free and secure qTox to qTox calls.</li>
+    <li>Video: Seeing is believing. Catch up face to face with a secure video call.</li>
+  </ul>
+  <p>qTox is a free and open source software, built by and for the users!</p>
+  <ul>
+    <li>Security: qTox takes your privacy seriously. With leading-class encryption,
+        you can rest assured knowing that the only people reading your messages are
+        the ones you send them to.</li>
+    <li>Ease of Use: Unlike other secure messaging solutions, qTox does not require
+        you to be a computer programmer to use it. qTox comes out-of-the-box with an
+        easy-to-use interface that allows you to focus on your conversations.</li>
+    <li>Freedom: qTox is both free for you to use, and free for you to change.
+        You are completely free to both use and modify qTox. Furthermore,
+        qTox will never harass you with ads, or require you to pay for features.</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtox
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/qtox.qTox/109e03a92d86e43f30706c200e5be5e9/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/qtox.qTox/109e03a92d86e43f30706c200e5be5e9/screenshots/image-1_624x421.png
+    width: 1144
+    height: 773
+  - url: io/github/qtox.qTox/109e03a92d86e43f30706c200e5be5e9/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/qtox.qTox/109e03a92d86e43f30706c200e5be5e9/screenshots/image-2_624x374.png
+    width: 958
+    height: 575
+iconSources:
+  - url: io/github/qtox.qTox/109e03a92d86e43f30706c200e5be5e9/icons/128x128/qtox_qtox.png
+    width: 128
+    height: 128
+homepage: "https://qtox.github.io"
+enabled: true
+order: 99

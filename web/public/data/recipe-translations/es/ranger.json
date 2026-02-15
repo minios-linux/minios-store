@@ -1,0 +1,5 @@
+{
+  "name": "ranger",
+  "description": "Lanza el gestor de archivos ranger",
+  "longDescription": "<p>Ranger es un gestor de archivos de consola con atajos de teclado estilo VI. Ofrece una interfaz minimalista y agradable basada en curses, mostrando la jerarquía de directorios. Incluye \"rifle\", un lanzador de archivos que define automáticamente el programa más adecuado para cada tipo de archivo.</p>\n<p>Objetivos de diseño  * Un gestor de archivos fácil de mantener escrito en un lenguaje de alto nivel  * Un método rápido para cambiar de directorio y explorar el sistema de archivos  * Que sea ligero pero funcional, hacer una sola cosa y hacerla bien  * Basado en consola, con integración fluida en el entorno shell de unix</p>\n"
+}

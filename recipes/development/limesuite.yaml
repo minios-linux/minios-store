@@ -1,0 +1,38 @@
+id: "limesuite"
+name: LimeSuite GUI
+description: Graphical utility for Lime devices
+longDescription: |
+  <p>Lime Suite is a collection of software supporting Lime Microsystems LMS7 RF transceiver based hardware such as the LimeSDR, LMS7002M UNITE board, or the Novena with LMS7 RF board.</p>
+  <p>This package contains the command line and GUI tools to control and update the hardware devices.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - limesuite
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: l/li/lime-suite.desktop/c0c2fcc84e04b7d5a4b516df068bed59/icons/128x128/limesuite_lime-suite.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

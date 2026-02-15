@@ -1,0 +1,5 @@
+{
+  "name": "Gmsh Mesh Generator",
+  "description": "Generador de mallas por elementos finitos en 3D",
+  "longDescription": "<p>Gmsh es un generador de mallas por elementos finitos en 3D que integra un motor CAD y un postprocesador. Su objetivo es ofrecer una herramienta de mallado rápida, ligera y fácil de usar, con entrada paramétrica y avanzadas capacidades de visualización. Gmsh se estructura en cuatro módulos: geometría, malla, solucionador y postprocesado. La especificación de cualquier entrada para estos módulos puede realizarse de forma interactiva mediante la interfaz gráfica o a través de archivos de texto ASCII utilizando el lenguaje de scripts propio de Gmsh.</p>\n<p>Para una descripción más completa de las capacidades de Gmsh, consulte el manual de referencia.</p>\n"
+}

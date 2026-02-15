@@ -1,0 +1,5 @@
+{
+  "name": "xzgv Image Viewer",
+  "description": "Visualizzatore di immagini leggero",
+  "longDescription": "<p>xzgv è un visualizzatore di immagini per X, dotato di un selettore file basato su miniature. Supporta la maggior parte dei formati di file e le miniature utilizzate sono compatibili con xv, zgv e Gimp. Può essere avviato anche con `xzgv file(s)`, per bypassare direttamente il selettore file.</p>\n<p>xzgv si distingue dagli altri visualizzatori per X perché utilizza una sola finestra sia per il selettore sia per la visualizzazione, consente sia lo scorrimento sia l'adattamento alla finestra delle immagini grandi (a differenza di xv), e non altera mai il rapporto d'aspetto delle immagini (diversamente da xv e altri).</p>\n<p>Fornisce inoltre un ampio supporto tramite tastiera; se preferisci utilizzare la tastiera, probabilmente è il miglior visualizzatore per te. Ottimo però anche con l'uso del mouse.</p>\n<p>Questo programma è scritto dall'autore di \"zgv\" basato su svgalib e offre funzionalità simili.</p>\n<p>Pagina ufficiale: http://sourceforge.net/projects/xzgv</p>\n"
+}

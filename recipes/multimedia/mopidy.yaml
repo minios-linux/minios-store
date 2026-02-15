@@ -1,0 +1,34 @@
+id: "mopidy"
+name: Mopidy
+description: Music server with support for MPD and HTTP clients
+longDescription: |
+  <p>Mopidy is an extensible music server which can play music from local files, radio streams, and cloud services such as Spotify and SoundCloud.</p>
+  <p>Searches combine results from all music sources, and tracks can be mixed from all sources in the play queue. Spotify or SoundCloud playlists are also available for use.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mopidy
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: m/mo/mopidy.desktop/f6f94b7fb57d40dadbbfa93997d1b7ab/icons/128x128/mopidy_audio-x-generic.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

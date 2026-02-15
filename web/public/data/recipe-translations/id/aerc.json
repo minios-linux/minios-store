@@ -1,0 +1,5 @@
+{
+  "name": "aerc",
+  "description": "Meluncurkan klien email aerc",
+  "longDescription": "<p>Beberapa fitur menarik dari aerc antara lain:  - Mengedit email dalam terminal embedded ala tmux, memungkinkan Anda memantau    email masuk dan melihat thread lain saat menyusun balasan  - Merender email HTML dengan web browser interaktif di terminal, menyoroti    patch dengan diff, dan menjelajah menggunakan sesi less terintegrasi  - Keybinding ala Vim dan sistem ex-command, memungkinkan automasi canggih    hanya dengan satu tombol  - Dukungan utama untuk integrasi git &amp; email  - Membuka tab baru dengan emulator terminal serta shell untuk akses cepat ke    repository git di sekitar untuk pekerjaan paralel  - Mendukung banyak akun, serta protokol IMAP, Maildir, SMTP, dan sendmail  - IMAP asinkron memastikan antarmuka tidak pernah terkunci oleh koneksi    jaringan yang bermasalah, tidak seperti mutt  - Penggunaan jaringan efisien – aerc hanya mengunduh informasi yang dibutuhkan    untuk menampilkan antarmuka, membuat pengalaman sangat responsif dan hemat    bandwidth 100% perangkat lunak bebas dan open source!</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "SpaceFM",
+  "description": "Explora el sistema de archivos",
+  "longDescription": "<p>SpaceFM es un gestor de archivos y escritorio para Linux, con múltiples paneles y pestañas. Incluye VFS integrado, gestor de dispositivos basado en udev o HAL, sistema de menús personalizable e integración con bash.</p>\n<p>Descendiente de PCManFM, SpaceFM busca ser eficiente (principalmente en C), altamente personalizable (puedes modificar y añadir a la interfaz gráfica mediante el Modo de Diseño), potente sin intimidar a usuarios nuevos (debido a la personalización), independiente de distribuciones o entornos de escritorio en particular y con funciones de gestión de dispositivos lo suficientemente completas como para reemplazar otras herramientas basadas en udisks cuando se usa junto a udevil.</p>\n<p>Entre sus funciones destacadas se encuentran la gestión opcional del escritorio, administración inteligente de operaciones de archivos, soporte para complementos de usuario y la posibilidad de ejecutar comandos específicos como root.</p>\n"
+}

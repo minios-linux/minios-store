@@ -1,0 +1,54 @@
+id: "gpick"
+name: Gpick
+description: Advanced color picker and palette editor
+longDescription: |
+  <p>Gpick is an application that allows you to sample any color from anywhere
+  			on the desktop, and use it to create palettes (i.e. collections of colors)
+  			for use in graphic design applications.
+  			Gpick also has other features that help in the creation of color palettes,
+  			such as: the ability to create a palette from an imported image, automatic
+  			naming of colors, and a scheme generator.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpick
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - color picker
+  - colorpick
+  - palette
+  - palette editing
+screenshotSources:
+  - url: g/gp/gpick.desktop/5095d473802d9e9cc0e1e08cab63d16e/screenshots/image-1_orig.png
+    thumbnailUrl: g/gp/gpick.desktop/5095d473802d9e9cc0e1e08cab63d16e/screenshots/image-1_624x350.png
+    width: 824
+    height: 463
+iconSources:
+  - url: g/gp/gpick.desktop/5095d473802d9e9cc0e1e08cab63d16e/icons/128x128/gpick_gpick.png
+    width: 128
+    height: 128
+developer: Albertas Vyšniauskas
+homepage: "http://www.gpick.org"
+enabled: true
+order: 99

@@ -1,0 +1,40 @@
+id: tilem
+name: TilEm
+description: Graphing calculator emulator
+longDescription: |
+  <p>TilEm is an emulator and debugger for Texas Instruments&apos; Z80-based graphing calculators. It can emulate any of the following calculator models:  * TI-73 / TI-73 Explorer  * TI-76.fr  * TI-81  * TI-82  * TI-82 STATS / TI-82 STATS.fr  * TI-83  * TI-83 Plus / TI-83 Plus Silver Edition / TI-83 Plus.fr  * TI-84 Plus / TI-84 Plus Silver Edition / TI-84 pocket.fr  * TI-85  * TI-86 TilEm fully supports all known versions of the above calculators (as of 2012), and attempts to reproduce the behavior of the original calculator hardware as faithfully as possible. In addition, TilEm can emulate the TI-Nspire&apos;s virtual TI-84 Plus mode. This is currently experimental, and some programs may not work correctly.</p>
+  <p>TilEm runs on the X Window System on GNU/Linux and other Unix-like platforms, as well as on Microsoft Windows, and any other platform supported by the GTK+ library. In addition to the emulation, TilEm 2 provide a lot of extra features, such as:  * Fully featured debugger  * Grabbing screenshots and recording gif (animations)  * Virtual linking (through libticables)  * Flash writing and erasing  * Application and OS loading  * Scripting using macros</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tilem
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - texas instruments
+iconSources:
+  - cached: tilem_tilem.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

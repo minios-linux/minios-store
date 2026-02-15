@@ -1,0 +1,43 @@
+id: "elisa"
+name: Elisa
+description: Beautiful no-nonsense music player with online radio support
+longDescription: |
+  <p> A simple music player that should be easy to use. It does not require any configuration before one can use it. </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - elisa
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/elisa.desktop/c9a6cb75b4d34ae2de10c2c211207654/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/elisa.desktop/c9a6cb75b4d34ae2de10c2c211207654/screenshots/image-1_624x432@1.png
+    width: 2910
+    height: 2018
+  - url: org/kde/elisa.desktop/c9a6cb75b4d34ae2de10c2c211207654/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/elisa.desktop/c9a6cb75b4d34ae2de10c2c211207654/screenshots/image-2_624x1248@1.png
+    width: 720
+    height: 1440
+iconSources:
+  - url: org/kde/elisa.desktop/c9a6cb75b4d34ae2de10c2c211207654/icons/128x128/elisa_elisa.png
+    width: 128
+    height: 128
+homepage: "https://community.kde.org/Elisa"
+enabled: true
+order: 99

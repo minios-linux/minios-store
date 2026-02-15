@@ -1,0 +1,55 @@
+id: "dino-im"
+name: Dino
+description: Modern XMPP Chat Client
+longDescription: |
+  <p>Dino is a modern open-source chat client for the desktop. It focuses on providing a clean and reliable Jabber/XMPP experience while having your privacy in mind.</p>
+  <p>It supports end-to-end encryption with OMEMO and OpenPGP and allows configuring privacy-related features such as read receipts and typing notifications.</p>
+  <p>Dino fetches history from the server and synchronizes messages with other devices.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dino-im
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - chat
+  - talk
+  - im
+  - message
+  - xmpp
+  - jabber
+screenshotSources:
+  - url: im/dino/Dino/36fc9d2578c8c345a960250b7f655046/screenshots/image-1_orig.png
+    width: 2244
+    height: 1644
+  - url: im/dino/Dino/36fc9d2578c8c345a960250b7f655046/screenshots/image-2_orig.png
+    width: 1441
+    height: 929
+  - url: im/dino/Dino/36fc9d2578c8c345a960250b7f655046/screenshots/image-3_orig.png
+    width: 2244
+    height: 1644
+  - url: im/dino/Dino/36fc9d2578c8c345a960250b7f655046/screenshots/image-4_orig.png
+    width: 964
+    height: 1552
+iconSources:
+  - url: im/dino/Dino/36fc9d2578c8c345a960250b7f655046/icons/128x128/dino-im_im.dino.Dino.png
+    width: 128
+    height: 128
+developer: Dino Development Team
+homepage: "https://dino.im"
+enabled: true
+order: 99

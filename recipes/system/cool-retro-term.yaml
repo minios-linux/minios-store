@@ -1,0 +1,38 @@
+id: "cool-retro-term"
+name: Cool Retro Term
+description: Use the command line the old way
+longDescription: |
+  <p>This is a terminal emulator which mimics the look and feel of the old cathode tube screens. It has been designed to be eye-candy, customizable, and reasonably lightweight.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cool-retro-term
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shell
+  - prompt
+  - command
+  - commandline
+iconSources:
+  - url: c/co/cool-retro-term.desktop/57ef9a4f004d61b06da2bc7456f7c776/icons/128x128/cool-retro-term_cool-retro-term.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

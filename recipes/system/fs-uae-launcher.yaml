@@ -1,0 +1,30 @@
+id: fs-uae-launcher
+name: FS-UAE Launcher
+description: Launcher for FS-UAE Amiga Emulator
+longDescription: |
+  <p>FS-UAE is a cross-platform Amiga emulator based on updated emulation code from WinUAE. FS-UAE uses SDL for input, OpenAL for audio and OpenGL for graphics.</p>
+  <p>This package contains the launcher, a graphical user interface for setting up FS-UAE.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fs-uae-launcher
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+iconSources:
+  - cached: fs-uae-launcher_fs-uae-launcher.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

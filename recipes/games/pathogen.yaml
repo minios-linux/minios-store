@@ -1,0 +1,46 @@
+id: pathogen
+name: Pathogen
+description: Destroy the pathogens
+longDescription: |
+  <p>Pathogen Warrior is a puzzle game about matching 3D model structures with a 2D hexagon map. It was one of the entrants to the 4th Ludum Dare 48-hour game development competition. The theme of the competition was &quot;Infection&quot;. In Pathogen Warrior, the player&apos;s task is to match rotating 3D pathogen structures with a 2D model using a hexagon map. The time to accomplish the task is limited, and after successfully completing one pathogen, the player is advanced to next level, which has a more challenging pathogen.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pathogen
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - puzzle
+  - 3d
+  - hexagon
+  - 2d
+  - time
+  - limit
+  - level
+  - infection
+iconSources:
+  - cached: pathogen_pathogen.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

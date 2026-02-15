@@ -1,0 +1,5 @@
+{
+  "name": "Vonsh",
+  "description": "Gioco in stile Snake basato su SDL",
+  "longDescription": "<p>Il giocatore deve raccogliere gli alimenti che appaiono casualmente sulla scacchiera, evitando di collidere con gli ostacoli e con la propria linea. Ad ogni cibo raccolto, la linea si allunga, compaiono nuovi ostacoli e la difficoltà aumenta rapidamente. Il gioco è realizzato utilizzando la libreria libSDL.</p>\n"
+}

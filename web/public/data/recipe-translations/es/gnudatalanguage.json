@@ -1,0 +1,5 @@
+{
+  "name": "GNU Data Language",
+  "description": "Compilador incremental libre compatible con IDL",
+  "longDescription": "<p>GNU Data Language (GDL) es un compilador incremental libre compatible con IDL (Interactive Data Language). Ofrece compatibilidad total de sintaxis con IDL 7.1. IDL es una marca registrada de ITT Visual Information Solutions. A partir de IDL 8.0, se soportan los siguientes elementos del lenguaje:</p>\n<p> * Bucle FOREACH  * índices negativos en arreglos  * punteros y objetos con recolección de basura  * llamada a métodos en objetos usando el punto &quot;.&quot; (por ejemplo: `object.aMemberProcedure,arg1`)</p>\n<p>El sistema de entrada y salida de archivos está completamente implementado. El soporte para interfaces gráficas de usuario (widgets) está disponible oficialmente, aunque aún no está completo.</p>\n<p>Este paquete contiene el intérprete principal y la interfaz por línea de comandos.</p>\n"
+}

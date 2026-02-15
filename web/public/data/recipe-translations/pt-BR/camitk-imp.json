@@ -1,0 +1,5 @@
+{
+  "name": "CamiTK imp",
+  "description": "Prototipagem de Aplicações de Intervenção Médica Assistida por Computador",
+  "longDescription": "<p>O CamiTK facilita a colaboração rápida e eficiente entre pesquisadores e profissionais de saúde para prototipar aplicações CAMI, integrando imagens médicas, navegação cirúrgica e simulações biomecânicas.</p>\n<p>O camitk-imp é o ambiente de trabalho do CamiTK, onde você pode experimentar todas as extensões disponíveis para prototipagem. Ele oferece acesso fácil e interativo a todos os dados e parâmetros de algoritmos disponíveis, incluindo aqueles criados por você usando o SDK do CamiTK.</p>\n<p>Por exemplo, o camitk-imp pode visualizar imagens médicas em diversos formatos padrão, além de oferecer algoritmos de processamento e segmentação de imagens para reconstrução de geometria de malha e execução de simulação biomecânica.</p>\n"
+}

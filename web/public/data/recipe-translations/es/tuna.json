@@ -1,0 +1,5 @@
+{
+  "name": "tuna",
+  "description": "Gestión de atributos de hilos e IRQ",
+  "longDescription": "<p>Proporciona una interfaz para modificar opciones del planificador y parámetros de IRQ, tanto a nivel de CPU completa como por hilo o interrupción individual. Permite aislar CPUs para el uso exclusivo de una aplicación específica y reasignar hilos e interrupciones a una CPU simplemente mediante arrastrar y soltar. Las operaciones se pueden realizar sobre sockets de CPU, comprendiendo la topología del procesador.</p>\n<p>Se puede utilizar como una herramienta de línea de comandos sin necesidad de instalar bibliotecas de interfaz gráfica.</p>\n"
+}

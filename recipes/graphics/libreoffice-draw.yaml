@@ -1,0 +1,69 @@
+id: "libreoffice-draw"
+name: LibreOffice Draw
+description: Graphics editor part of the LibreOffice productivity suite
+longDescription: |
+  <p>LibreOffice Draw is an easy-to-use graphics editor, which empowers you to create
+  anything from quick sketches to complex diagrams.
+  It provides a powerful set of tools and shapes for producing technical drawings,
+  charts, and much else.</p>
+  <p>Draw allows you to create, manipulate and arrange different objects - it offers
+  a number of tools for editing, resizing, rotating, grouping and styling them!
+  It also provides smart connectors that make it easy for you to build charts and
+  diagrams, and make beautiful drawings composed of different objects.</p>
+  <p>LibreOffice supports opening and saving into a wide variety of formats, so you
+  can easily share drawings with users of other popular office suites without
+  worrying about compatibility.</p>
+  
+categoryId: graphics
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libreoffice-draw
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - vector
+  - schema
+  - diagram
+  - layout
+  - opendocument graphics
+  - microsoft publisher
+  - microsoft visio
+  - corel draw
+  - cdr
+  - odg
+screenshotSources:
+  - url: l/li/libreoffice-draw.desktop/5b368f7f1341fc5047c27efc39052b7e/screenshots/image-1_orig.png
+    thumbnailUrl: l/li/libreoffice-draw.desktop/5b368f7f1341fc5047c27efc39052b7e/screenshots/image-1_624x390@1.png
+    width: 1136
+    height: 710
+  - url: l/li/libreoffice-draw.desktop/5b368f7f1341fc5047c27efc39052b7e/screenshots/image-2_orig.png
+    thumbnailUrl: l/li/libreoffice-draw.desktop/5b368f7f1341fc5047c27efc39052b7e/screenshots/image-2_624x390@1.png
+    width: 1132
+    height: 709
+iconSources:
+  - url: l/li/libreoffice-draw.desktop/5b368f7f1341fc5047c27efc39052b7e/icons/128x128/libreoffice-draw_libreoffice-draw.png
+    width: 128
+    height: 128
+developer: The Document Foundation
+homepage: "http://www.libreoffice.org/discover/draw/"
+enabled: true
+order: 99

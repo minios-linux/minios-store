@@ -1,0 +1,31 @@
+id: "matlab-support"
+name: MATLAB
+description: Scientific computing environment
+longDescription: |
+  <p>This package does not provide MATLAB. Instead, it configures an existing MATLAB installation to integrate more comfortably in a Debian installation.</p>
+  <p>Currently it provides /usr/bin/matlab through the alternatives system, offers to work around incompatibilities between the libraries bundled with MATLAB and system libraries, and provides a helper utility meant to be used by other packages to compile MEX extensions.</p>
+  <p>Install this if you would like your MATLAB installation to behave more like an ordinary Debian package. Other packages may depend on this one if they install MATLAB code, for example in order to compile MEX extensions.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - matlab-support
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: m/ma/matlab.desktop/0ab89b76c0229467ccb1bdfbb098c278/icons/128x128/matlab-support_matlab.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

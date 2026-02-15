@@ -1,0 +1,5 @@
+{
+  "name": "Spek",
+  "description": "Visualisez les spectrogrammes de vos fichiers audio",
+  "longDescription": "<p>Spek vous aide à analyser vos fichiers audio en affichant leur spectrogramme. Il prend en charge tous les formats audio courants, qu'ils soient compressés avec ou sans perte.</p>\n<p>Fonctionnalités&nbsp;:</p>\n<p> * Traitement du signal ultra-rapide grâce à l’utilisation de plusieurs threads&nbsp;pour accélérer l’analyse  * Affiche le nom du codec et les paramètres du signal audio  * Possibilité d’enregistrer le spectrogramme en image  * Prise en charge du glisser-déposer&nbsp;; association avec les formats audio courants  * Règles de temps, de fréquence et de densité spectrale à ajustement automatique  * Plage de densité spectrale réglable</p>\n"
+}

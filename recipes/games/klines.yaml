@@ -1,0 +1,47 @@
+id: "klines"
+name: Kolor Lines
+description: Tactical Game
+longDescription: |
+  <p>KLines is a simple but highly addictive one player game.</p>
+  <p>The player has to move the colored balls around the game board, gathering them into the lines of the same color by five.
+       Once the line is complete it is removed from the board, therefore freeing precious space. 
+       In the same time the new balls keep arriving by three after each move, filling up the game board.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - klines
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/klines/1b98eb7a556b1d0e5d43f150c5662ac1/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/klines/1b98eb7a556b1d0e5d43f150c5662ac1/screenshots/image-1_624x499@1.png
+    width: 674
+    height: 539
+iconSources:
+  - url: org/kde/klines/1b98eb7a556b1d0e5d43f150c5662ac1/icons/128x128/klines_klines.png
+    width: 128
+    height: 128
+developer: The KDE Community
+homepage: "https://games.kde.org/game.php?game=klines"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Perangkat Lunak Spektrometri Massa",
+  "description": "Visualisasikan, analisis, dan eksplorasi data spektrometri massa MS^n",
+  "longDescription": "<p>\n\n\t\t\t\tminexpert adalah program untuk memvisualisasikan dan mengekstraksi data spektrum massa MS^n, seperti spektrum massa.\n\n\t\t\t</p>\n<p>Program ini menawarkan fitur-fitur berikut:</p>\n<ul>\n  <li>Membuka sejumlah file data mass spec berformat mzML;</li>\n  <li>Menghitung kromatogram TIC dan peta warna mz=ft(dt) jika data berasal dari eksperimen ion mobility mass spectrometry;</li>\n  <li>Melakukan integrasi (penggabungan) data dalam berbagai arah sebanyak yang dibutuhkan;</li>\n  <li>Navigasi data yang intuitif, fleksibel sekaligus kuat;</li>\n  <li>Perhitungan klaster isotopik yang dapat diatur secara detail;</li>\n  <li>Mayoritas fitur pada mineXpert2 dapat dijalankan menggunakan skrip JavaScript.</li>\n</ul>\n"
+}

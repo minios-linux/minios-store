@@ -1,0 +1,45 @@
+Source: minios-store
+Section: utils
+Priority: optional
+Maintainer: crims0n <crims0n@minios.dev>
+Build-Depends: debhelper (>= 11), gettext
+Standards-Version: 4.1.3
+Homepage: https://minios.dev
+
+Package: minios-store-common
+Architecture: all
+Depends: ${misc:Depends},
+         python3 (>= 3.6),
+         squashfs-tools
+Description: MiniOS Store common library
+ Shared Python library for the MiniOS Store backend components.
+ Provides the installer engine, configuration, and logging modules
+ used by both the WebSocket daemon and the GTK3 graphical installer.
+
+Package: minios-store
+Architecture: all
+Depends: ${misc:Depends},
+         minios-store-common (= ${binary:Version}),
+         python3-websockets,
+         xdg-utils,
+         lsb-base (>= 3.0-6)
+Description: MiniOS Store WebSocket daemon
+ WebSocket daemon for the MiniOS Store. Listens on ws://127.0.0.1:8765
+ and handles installation requests from the web interface at
+ store.minios.dev. Manages the creation and installation of squashfs
+ modules.
+
+Package: minios-store-gui
+Architecture: all
+Depends: ${misc:Depends},
+         minios-store-common (= ${binary:Version}),
+         python3-gi,
+         gir1.2-gtk-3.0,
+         polkitd | policykit-1,
+         pkexec | policykit-1,
+         xdg-utils
+Description: MiniOS Store GTK3 graphical installer
+ Standalone GTK3 graphical installer for the MiniOS Store. Handles
+ minios-store:// URI scheme for installing applications directly from
+ the browser without the WebSocket daemon running. Includes PolicyKit
+ integration for privilege escalation.

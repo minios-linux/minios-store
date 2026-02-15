@@ -1,0 +1,5 @@
+{
+  "name": "Keysign",
+  "description": "Asistente para la firma de claves OpenPGP",
+  "longDescription": "<p>GNOME-Keysign permite firmar claves OpenPGP de manera cómoda y segura a través de la red local o por Bluetooth.</p><p>Puedes escanear el código de barras de otra clave y transferirla de forma segura, facilitando sesiones informales de firma de claves entre dos personas. Sigue las mejores prácticas enviando las firmas cifradas a los UIDs de la clave utilizando el cliente de correo electrónico configurado por el usuario.</p>"
+}

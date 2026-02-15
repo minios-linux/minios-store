@@ -1,0 +1,5 @@
+{
+  "name": "xfig",
+  "description": "Werkzeug zur interaktiven Erstellung von Grafiken unter X11",
+  "longDescription": "<p>XFig ist ein menügesteuertes Programm, mit dem Benutzer interaktiv Objekte in einem X-Window zeichnen und bearbeiten können. Die erstellten Grafiken können gespeichert werden. Ist das Programm fig2dev installiert (enthalten im Paket fig2dev), können die Grafiken auf PostScript-Druckern ausgegeben oder in verschiedene andere Formate konvertiert werden (z.B. zur Einbindung in LaTeX-Dokumente oder Webseiten).</p>\n<p>Dieses Paket enthält das Programm xfig selbst.</p>\n<p>Es wird empfohlen, zusätzlich das Paket fig2dev zu installieren, um Grafiken in gängige Formate zu exportieren. Ebenso empfiehlt sich die Installation von xfig-doc für die Dokumentation sowie xfig-libs, das verschiedene Clipart-Bibliotheken bereitstellt.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Gazebo",
+  "description": "Simulateur 3D de robots",
+  "longDescription": "<p>Gazebo est un simulateur multi-robots destiné aux environnements extérieurs. À l'instar de Stage (un composant du projet Player), il permet de simuler un ensemble de robots, de capteurs et d’objets dans un univers en trois dimensions. Il génère des retours de capteurs réalistes ainsi que des interactions physiques crédibles entre les objets (il inclut une simulation précise des corps rigides).</p>\n<p>Ce paquet contient les exécutables principaux de l’application.</p>\n"
+}

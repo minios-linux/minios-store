@@ -1,0 +1,5 @@
+{
+  "name": "Grub Customizer",
+  "description": "Personalizza il bootloader (GRUB2 o BURG)",
+  "longDescription": "<p>Grub Customizer è un'interfaccia grafica per configurare GRUB2 e BURG. Consente di modificare facilmente le impostazioni e le voci di menu.</p>\n<p>Le principali funzionalità di Grub Customizer sono:   * Spostare, rimuovere o rinominare le voci di menu (rimangono aggiornabili tramite update-grub).   * Modificare il contenuto delle voci di menu o crearne di nuove (internamente modifica il file 40_custom).   * Reinstallare il bootloader nel MBR.   * Impostare opzioni come sistema operativo predefinito, parametri del kernel, immagine di sfondo, colori del testo, ecc.   * Cambiare il sistema operativo installato eseguendo il programma da un live CD/DVD o da una chiavetta USB.</p>\n<p>Grub Customizer è utile per personalizzazioni e operazioni di recupero su qualsiasi distribuzione Linux.</p>\n"
+}

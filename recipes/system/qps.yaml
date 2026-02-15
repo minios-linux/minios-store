@@ -1,0 +1,38 @@
+id: qps
+name: qps
+description: Qt application to display and manage running processes
+longDescription: |
+  <p>Qt process manager ported to Qt5</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qps
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qps_qps.png
+    width: 64
+    height: 64
+homepage: "https://github.com/lxqt/qps/"
+enabled: true
+order: 99

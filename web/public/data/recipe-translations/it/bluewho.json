@@ -1,0 +1,5 @@
+{
+  "name": "BlueWho",
+  "description": "Informazioni e notifiche sui nuovi dispositivi Bluetooth rilevati",
+  "longDescription": "<p>BlueWho informa e notifica quando viene scoperto un nuovo dispositivo Bluetooth. Il rilevamento può essere richiesto dall'utente oppure avvenire automaticamente in modo continuo fino all'arresto. È possibile attivare una notifica sia visiva che sonora ogni volta che viene rilevato un nuovo dispositivo.</p>\n<p>Ogni dispositivo trovato verrà salvato nell'elenco insieme al suo nome, indirizzo MAC, data e ora dell’ultimo avvistamento. Per ciascun dispositivo è possibile richiedere l’elenco dei servizi Bluetooth disponibili.</p>\n"
+}

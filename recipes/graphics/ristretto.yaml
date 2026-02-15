@@ -1,0 +1,45 @@
+id: "ristretto"
+name: Ristretto
+description: Fast and lightweight image viewer
+longDescription: |
+  <p>Ristretto is an image viewer for the Xfce desktop environment.</p>
+  <p>The Ristretto Image Viewer is an application that can be used to view and scroll through images, run a slideshow of images, open images with other applications like an image-editor or configure an image as the desktop wallpaper.</p>
+  
+categoryId: graphics
+icon: Image
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ristretto
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/xfce/ristretto/fbb165edd91bf06b23427baecef34f9e/screenshots/image-1_orig.png
+    thumbnailUrl: org/xfce/ristretto/fbb165edd91bf06b23427baecef34f9e/screenshots/image-1_224x173@1.png
+    width: 607
+    height: 470
+iconSources:
+  - url: org/xfce/ristretto/fbb165edd91bf06b23427baecef34f9e/icons/128x128/ristretto_org.xfce.ristretto.png
+    width: 128
+    height: 128
+developer: Xfce Developers
+homepage: "http://docs.xfce.org/apps/ristretto/start"
+enabled: true
+order: 99

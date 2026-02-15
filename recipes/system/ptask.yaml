@@ -1,0 +1,41 @@
+id: "ptask"
+name: ptask
+description: ptask is a task management tool based on taskwarrior
+longDescription: |
+  <p>ptask is a GTK+ graphical user interface for managing tasks.  It is based on taskwarrior, a well-known and robust command line tasks manager.  Unlike taskwarrior, it is possible to associate a note (long description) to each task.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ptask
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - task
+  - note
+  - taskwarrior
+iconSources:
+  - url: p/pt/ptask.desktop/6386dff6605e00668840de7e8f98b20b/icons/128x128/ptask_ptask.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

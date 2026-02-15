@@ -1,0 +1,5 @@
+{
+  "name": "GGcov",
+  "description": "Penjelajah cakupan kode sumber",
+  "longDescription": "<p>Ini adalah antarmuka grafis sederhana untuk menelusuri data cakupan pengujian C yang dikumpulkan oleh program yang diinstrumen dengan \"gcc --coverage\". GGcov berfungsi sebagai pengganti grafis untuk program \"gcov\" yang disertakan dengan gcc.</p>\n"
+}

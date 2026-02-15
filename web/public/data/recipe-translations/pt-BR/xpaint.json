@@ -1,0 +1,5 @@
+{
+  "name": "XPaint",
+  "description": "Aplicativo de pintura XPaint",
+  "longDescription": "<p>O XPaint é indicado para a criação de gráficos simples, mas também oferece recursos avançados como funções de processamento de imagem e preenchimento em degradê.</p>\n<p>No Editor de Scripts C do XPaint, o editor externo pode ser acessado no menu Arquivo, utilizando o comando x-terminal-emulator -e sensible-editor.</p>\n<p>Para leitura de PDF/PS será necessário o pacote gv, para conversões externas será utilizado o netpbm e para impressão será necessário o lpr.</p>\n"
+}

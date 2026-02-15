@@ -1,0 +1,50 @@
+id: "haruna"
+name: Haruna Video Player
+description: A Qt/QML video player built on top of libmpv.
+longDescription: |
+  <p>A Qt/QML video player built on top of libmpv.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - haruna
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/haruna/c15e45a64739d86e9daa8a3a089db47f/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/haruna/c15e45a64739d86e9daa8a3a089db47f/screenshots/image-1_624x390@1.png
+    width: 1204
+    height: 753
+  - url: org/kde/haruna/c15e45a64739d86e9daa8a3a089db47f/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/haruna/c15e45a64739d86e9daa8a3a089db47f/screenshots/image-2_624x390@1.png
+    width: 1204
+    height: 753
+  - url: org/kde/haruna/c15e45a64739d86e9daa8a3a089db47f/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/haruna/c15e45a64739d86e9daa8a3a089db47f/screenshots/image-3_624x390@1.png
+    width: 1204
+    height: 753
+  - url: org/kde/haruna/c15e45a64739d86e9daa8a3a089db47f/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/haruna/c15e45a64739d86e9daa8a3a089db47f/screenshots/image-4_624x508@1.png
+    width: 814
+    height: 663
+iconSources:
+  - url: org/kde/haruna/c15e45a64739d86e9daa8a3a089db47f/icons/128x128/haruna_haruna.png
+    width: 128
+    height: 128
+developer: George Florea Bănuș
+homepage: "https://github.com/g-fb/haruna"
+enabled: true
+order: 99

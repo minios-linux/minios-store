@@ -1,0 +1,5 @@
+{
+  "name": "Horizon EDA application",
+  "description": "Progetta schemi e circuiti stampati (PCB)",
+  "longDescription": "<p>Horizon è uno strumento di Electronic Design Automation (EDA) per la progettazione di circuiti stampati. Gestisce l’intero flusso di progettazione, dall’inserimento dello schema fino all’esportazione dei file Gerber. Il principale punto di distinzione rispetto a KiCAD è un sistema di gestione delle librerie dei componenti più razionale e intuitivo. È un software relativamente nuovo (dal 2018), quindi potrebbe presentare alcune imperfezioni, ma è già molto potente.</p>\n<p>Funzionalità principali: * Gestione avanzata delle librerie * Editor unificato per tutto, dai simboli alle schede * Editor schemi consapevole della netlist * Router interattivo ispirato a KiCad * Rendering fluido senza lag o glitch * DRC basato su regole * Funzioni annulla/rifai * Copia/incolla per alcuni oggetti * Compatibile con Linux e Windows</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Xnec2c",
+  "description": "Perangkat lunak Numerical Electromagnetics Code",
+  "longDescription": "<p>Xnec2c awalnya adalah aplikasi baris perintah non-interaktif yang membaca file input standar NEC2 dan menghasilkan file output berisi data sesuai permintaan \"command\" pada file input tersebut.</p>\n<p>Berbeda dengan itu, xnec2c adalah aplikasi GUI interaktif yang (dalam bentuk saat ini) membaca file input NEC2 namun menampilkan data hasilnya secara grafis, misalnya berupa gambar wireframe pola radiasi atau medan E/H di sekitar, grafik gain maksimum, impedansi input, VSWR terhadap frekuensi, serta visualisasi sederhana struktur antena, termasuk kode warna untuk menampilkan arus atau densitas muatan. Seluruh hasil ini hanya dihitung dan ditampilkan atas permintaan pengguna melalui menu atau tombol, menjadikan xnec2c bersifat interaktif dan tidak mengeksekusi \"command\" NEC2 secara batch seperti versi aslinya.</p>\n"
+}

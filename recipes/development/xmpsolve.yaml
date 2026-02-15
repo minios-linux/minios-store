@@ -1,0 +1,36 @@
+id: xmpsolve
+name: MPSolve
+description: Find roots of polynomials
+longDescription: |
+  <p>A polynomial rootfinder that can determine arbitrary precision approximations with guaranteed inclusion radii. It supports exploiting of polynomial structures such as sparsisty and allows for polynomial implicitly defined or in some non standard basis.</p>
+  <p>This package contains the graphical version of MPSolve.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xmpsolve
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - polynomial
+  - mpsolve
+  - roots
+iconSources:
+  - cached: xmpsolve_xmpsolve.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

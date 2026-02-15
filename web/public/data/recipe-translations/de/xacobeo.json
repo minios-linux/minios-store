@@ -1,0 +1,5 @@
+{
+  "name": "Xacobeo",
+  "description": "XPath-Abfragen erstellen und ausführen",
+  "longDescription": "<p>Xacobeo bietet eine einfache grafische Benutzeroberfläche (GUI) zum Ausführen von XPath-Abfragen und zur Anzeige der Ergebnisse.</p>\n<p>Die GUI stellt alle erforderlichen Elemente bereit, um XPath-Abfragen unkompliziert zu schreiben, zu testen und auszuführen. Sie zeigt das Document Object Model (DOM) sowie die verwendeten Namespaces an. Das Programm registriert Namespaces automatisch, und jedes Element wird zusammen mit den zugehörigen Namespaces dargestellt. Alles ist darauf ausgelegt, XPath-Abfragen schnellstmöglich auszuführen, ohne sich erst mühsam mit den Namespaces des Dokuments auseinandersetzen zu müssen, da für jedes Element automatisch der zugehörige Namespace angezeigt wird.</p>\n"
+}

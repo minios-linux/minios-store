@@ -1,0 +1,5 @@
+{
+  "name": "distcc monitor",
+  "description": "Tampilan grafis untuk tugas kompilasi terdistribusi",
+  "longDescription": "<p>distcc adalah program untuk mendistribusikan proses kompilasi kode C atau C++ ke beberapa komputer di jaringan. distcc selalu menghasilkan output yang sama seperti kompilasi lokal, mudah dipasang dan digunakan, serta seringkali jauh lebih cepat dibandingkan kompilasi secara lokal. distcc tidak mengharuskan semua komputer berbagi sistem berkas, memiliki waktu sistem yang sinkron, atau memiliki pustaka maupun header file yang sama.</p>\n<p>Ini adalah program monitor GTK+ untuk distcc.</p>\n"
+}

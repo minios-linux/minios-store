@@ -1,0 +1,50 @@
+id: "sabnzbdplus"
+name: SABnzbd+
+description: Download from Usenet
+longDescription: |
+  <p>SABnzbd+ is a web-based binary newsgrabber written in Python, with support for the popular nzb file format. It greatly simplifies the process of downloading from Usenet, thanks to a friendly web-based, fully customizable user interface and advanced built-in post-processing options including the ability to automatically verify, repair, extract and clean up downloaded posts.</p>
+  <p>Multiple servers are supported, as well as secure (ssl) connections, ipv6, scheduling, pausing and resuming downloads, queue manipulation, rss feeds, automatic sorting, a download history, email notifications, and custom post-processing scripts. An extensive API allows third party applications to interact with the program.</p>
+  <p>This package contains the program itself and all interface templates.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sabnzbdplus
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - usenet
+  - binaries
+  - download
+  - nzb
+  - nntp
+screenshotSources:
+  - url: org/sabnzbd/sabnzbd/a0a08673e62055e751913267c491f2e4/screenshots/image-1_orig.png
+    thumbnailUrl: org/sabnzbd/sabnzbd/a0a08673e62055e751913267c491f2e4/screenshots/image-1_624x511@1.png
+    width: 1000
+    height: 820
+  - url: org/sabnzbd/sabnzbd/a0a08673e62055e751913267c491f2e4/screenshots/image-2_orig.png
+    thumbnailUrl: org/sabnzbd/sabnzbd/a0a08673e62055e751913267c491f2e4/screenshots/image-2_624x511@1.png
+    width: 1000
+    height: 820
+  - url: org/sabnzbd/sabnzbd/a0a08673e62055e751913267c491f2e4/screenshots/image-3_orig.png
+    thumbnailUrl: org/sabnzbd/sabnzbd/a0a08673e62055e751913267c491f2e4/screenshots/image-3_624x511@1.png
+    width: 1000
+    height: 820
+iconSources:
+  - cached: sabnzbdplus_sabnzbdplus.png
+    width: 64
+    height: 64
+developer: The SABnzbd-team
+homepage: "https://sabnzbd.org"
+enabled: true
+order: 99

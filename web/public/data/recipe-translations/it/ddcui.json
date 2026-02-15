@@ -1,0 +1,5 @@
+{
+  "name": "ddcui",
+  "description": "Gestisci le impostazioni del monitor",
+  "longDescription": "<p>Comunica con il Virtual Control Panel (VCP) di un monitor per interrogare o modificare le impostazioni del monitor, come la luminosità, il guadagno dei toni rossi e le ore di accensione. In generale, le impostazioni e le informazioni accessibili tramite l'On Screen Display del monitor sono più facilmente gestibili tramite questa applicazione.</p>\n<p>ddcui normalmente comunica con il monitor utilizzando il protocollo DDC/CI su un dispositivo /dev/i2c esposto dal driver video. In alternativa, ddcui supporta anche monitor che utilizzano USB per la comunicazione VCP.</p>\n<p>Il programma a riga di comando corrispondente è ddcutil.</p>\n"
+}

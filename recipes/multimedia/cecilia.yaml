@@ -1,0 +1,48 @@
+id: "cecilia"
+name: Cecilia
+description: Sound synthesis and audio signal processing environment
+longDescription: |
+  <p>Cecilia is a graphic user interface for the sound synthesis and sound processing package CSound. Cecilia enables the user to build very quickly graphic interfaces with sliders and curves to control CSound instruments. It is also an editor to CSound with syntax highlighting and a built-in reference. It is also a great tool to explore the parameters of a new opcode in an interactive and intuitive way.</p>
+  <p>Cecilia uses the pyo audio engine created for the Python programming language.</p>
+  <p>Cecilia was designed by and for musicians and sound designers. All the traditional sound processing devices are included such as EQs, compressors and delays adapted for the most simple applications and the wildest imaginable sonic contortions.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cecilia
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: c/ce/cecilia.desktop/444D0AD1146B6CE9DA6019E59CAAEF87/screenshots/image-1_orig.png
+    thumbnailUrl: c/ce/cecilia.desktop/444D0AD1146B6CE9DA6019E59CAAEF87/screenshots/image-1_624x351.png
+    width: 800
+    height: 450
+  - url: c/ce/cecilia.desktop/444D0AD1146B6CE9DA6019E59CAAEF87/screenshots/image-2_orig.png
+    thumbnailUrl: c/ce/cecilia.desktop/444D0AD1146B6CE9DA6019E59CAAEF87/screenshots/image-2_624x449.png
+    width: 736
+    height: 530
+iconSources:
+  - url: c/ce/cecilia.desktop/a4f2e426caf8dfdcd4abd6de19c973aa/icons/128x128/cecilia_cecilia.png
+    width: 128
+    height: 128
+developer: Olivier Bélanger
+homepage: "https://github.com/belangeo/cecilia5"
+enabled: true
+order: 99

@@ -1,0 +1,29 @@
+id: bibledit-bibletime
+name: Bibledit-BibleTime
+description: Bibledit BibleTime Interface
+longDescription: |
+  <p>Bibledit-Bibletime can retrieve the focused reference through Bibledit-Web, and then forward it to Bibletime. Bibledit is a Bible editor. BibleTime is a free and easy to use bible study tool which uses Qt.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bibledit-bibletime
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - bible
+  - bibledit
+  - bibletime
+  - sync
+  - translation
+iconSources:
+  - cached: bibledit-bibletime_bibledit-bibletime.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

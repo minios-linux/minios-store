@@ -1,0 +1,30 @@
+id: gpaint
+name: GNU Paint
+description: "A small-scale painting program for GNOME, the GNU Desktop"
+longDescription: |
+  <p>This is gpaint (GNU Paint), a small-scale painting program for GNOME, the GNU Desktop Environment. gpaint does not attempt to compete with GIMP, it is just a simple drawing package based on xpaint, along the lines of &apos;Paintbrush&apos; from a popular non-free operating system.</p>
+  <p>Currently gpaint has the following features:   * Drawing tools such as ovals, freehand, polygon and text, with     fill or shadow for polygons and closed freehand shapes.   * Cut and paste by selecting irregular regions or polygons.   * Preliminary print support using gnome-print.   * Modern, ease-to-use user interface with tool and color palettes.   * Multiple-image editing in a single instance of the program.   * All the image processing features present in xpaint.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpaint
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: g/gp/gpaint.desktop/4FAE9C12C5905C0E922AE7B063A3B8AB/icons/128x128/gpaint_gpaint.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

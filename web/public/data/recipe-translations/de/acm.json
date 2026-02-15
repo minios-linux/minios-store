@@ -1,0 +1,5 @@
+{
+  "name": "ACM",
+  "description": "Rundenbasiertes Weltraum-Imperiums- und galaktisches Eroberungs-Computerspiel (Client)",
+  "longDescription": "<p>Eine Multiplayer-Luftkampfsimulation. Spieler treten im Luftkampf gegeneinander an und setzen hitzesuchende Raketen sowie Bordkanonen ein.</p>\n<p>Die Hauptmerkmale umfassen:  * Simulation mit 6 Freiheitsgraden.  * Strukturelle Belastungsgrenzen für vertikale positive/negative Lasten.  * Klassische Instrumente, Navigation und Head-up-Display (HUD).  * Mehrere implementierte Flugzeugmodelle, sowohl zivil als auch militärisch.  * Zwei bereitgestellte Szenarien mit zahlreichen Startbahnen und Funkstationen.</p>\n<p>acm läuft unter dem X-Window-System. Diese Version von acm ist als verteilte Simulation implementiert. Die Kommunikation erfolgt über das IEEE Distributed Interactive Simulation-Protokoll.</p>\n"
+}

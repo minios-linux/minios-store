@@ -1,0 +1,5 @@
+{
+  "name": "MultiWriter",
+  "description": "Écrivez un fichier ISO sur plusieurs clés USB simultanément",
+  "longDescription": "<p>GNOME MultiWriter permet d'écrire un fichier ISO sur plusieurs périphériques USB en même temps.<br>Les tailles de supports prises en charge vont de 1 Go à 32 Go.</p><p>MultiWriter est utile pour les tests de validation, la création d’images GNOME Live lors de sprints de développement ou pour générer des centaines de LiveUSB à distribuer lors de salons professionnels.</p><p>Écrire sur plus de 10 périphériques simultanément peut rapidement saturer le bus USB de la plupart des supports de stockage.<br>Voici deux façons d’augmenter le nombre de périphériques pris en charge en parallèle :</p><ul><li>Utilisez des hubs USB 3.0, même si les supports sont en USB 2.0</li><li>Installez un autre contrôleur racine USB 2.0 via PCIe</li></ul><p>MultiWriter a été créé initialement dans le cadre du projet ColorHug, puis séparé en application autonome en 2015.</p>"
+}

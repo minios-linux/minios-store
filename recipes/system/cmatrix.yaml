@@ -1,0 +1,33 @@
+id: "cmatrix"
+name: CMatrix
+description: 'simulates the display from "The Matrix"'
+longDescription: |
+  <p>Screen saver for the terminal based in the movie &quot;The Matrix&quot;. It works in terminals of all dimensions and have the following features:  * Support terminal resize.  * Screen saver mode: any key closes it.  * Selectable color.  * Change text scroll rate.</p>
+  
+categoryId: system
+icon: Gauge
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cmatrix
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - matrix
+iconSources:
+  - url: c/cm/cmatrix.desktop/1ea66d01ea939715bf559c3b3ed0196a/icons/128x128/cmatrix_cmatrix.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

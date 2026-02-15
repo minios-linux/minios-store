@@ -1,0 +1,5 @@
+{
+  "name": "Snapper GUI",
+  "description": "Grafische Oberfläche für den Snapper-Snapshot-Manager",
+  "longDescription": "<p>Snapper-gui ist eine grafische Benutzeroberfläche für das Tool Snapper zur Verwaltung von Dateisystem-Snapshots unter Linux. Sie ermöglicht das Vergleichen von Snapshots und das Rückgängigmachen von Unterschieden zwischen Snapshots. Einfach gesagt können damit sowohl root- als auch Nicht-root-Nutzer frühere Dateiversionen anzeigen und Änderungen zurücksetzen.</p>\n<p>Aktuell funktioniert es mit btrfs, ext4 und thin-provisionierten LVM-Volumes.</p>\n"
+}

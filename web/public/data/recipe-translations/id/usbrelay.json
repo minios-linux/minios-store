@@ -1,0 +1,5 @@
+{
+  "name": "usbrelay",
+  "description": "Kontrol relay listrik berbasis USB, menggunakan hidapi",
+  "longDescription": "<p>\n      Utilitas ringan untuk mengendalikan relay berbasis USB HID yang dapat digunakan untuk otomasi rumah atau kebutuhan pengalihan lainnya. Perangkat ini tersedia dari berbagai produsen dan mampu menangani hingga 10A 250VAC.\n    </p>\n<p>\n      Salah satu contoh penggunaan adalah sakelar listrik yang dapat dikontrol melalui USB. Anda dapat menggunakan sakelar ini untuk mengatur pasokan daya hard disk eksternal, misalnya untuk keperluan pencadangan data.\n    </p>\n"
+}

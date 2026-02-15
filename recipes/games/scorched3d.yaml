@@ -1,0 +1,42 @@
+id: scorched3d
+name: Scorched 3D
+description: 3D artillery game similar to Scorched Earth
+longDescription: |
+  <p>Scorched3D is a game based heavily on the classic DOS game Scorched Earth &quot;The Mother Of All Games&quot;. Scorched3D adds amongst other new features a 3D island environment and LAN and internet play.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - scorched3d
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tank
+  - tanks
+  - multiplayer
+  - multi-player
+iconSources:
+  - cached: scorched3d_scorched3d.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,28 @@
+id: d1x-rebirth
+name: Descent 1
+description: "DXX-Rebirth source port of Descent: First Strike from 1995..."
+longDescription: |
+  <p>DXX-Rebirth is a Source Port of the Descent &amp; Descent ][ Engines and provides classical Gameplay combined with OpenGL graphics and effects, a bunch of improvements and new features.</p>
+  <p>Original game data is needed to play this game.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - d1x-rebirth
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: d1x-rebirth_d1x-rebirth.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,42 @@
+id: "q4wine"
+name: Q4Wine
+description: Utility for Wine applications and prefixes management
+longDescription: |
+  <p>Q4Wine will help you manage wine prefixes and installed applications.</p>
+  <p>General features:  - Can export Qt color theme into wine colors settings.  - Can easy work with different wine versions at same time.  - Easy creating, deleting and managing prefixes (WINEPREFIX).  - Easy controlling for wine process.  - Easy installer wizard for wine applications.  - Autostart icons support.  - Easy CD-image use.  - You can extract icons from PE files (.exe .dll).  - Easy backup and restore for managed prefixes.  - Winetricks support.  - And more...</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - q4wine
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - wine
+  - windows
+  - emulator
+iconSources:
+  - url: q/q4/q4wine.desktop/df8c2629798644cca384e1912b013dad/icons/128x128/q4wine_q4wine.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

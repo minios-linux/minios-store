@@ -1,0 +1,5 @@
+{
+  "name": "Avahi Zeroconf Browser",
+  "description": "Parcourez les services Zeroconf disponibles sur votre réseau",
+  "longDescription": "<p>Avahi est une infrastructure entièrement LGPL pour la découverte de services par Multicast DNS. Elle permet aux programmes de publier et de détecter des services et des hôtes sur un réseau local sans configuration particulière. Par exemple, vous pouvez vous connecter à un réseau et trouver instantanément des imprimantes, des fichiers à consulter ou des personnes à contacter.</p>\n<p>Ce paquet fournit une interface utilisateur pour la découverte des services.</p>\n"
+}

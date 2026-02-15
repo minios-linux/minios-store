@@ -1,0 +1,5 @@
+{
+  "name": "Hardware Sensors Indicator",
+  "description": "Zeigt Temperatur-, Lüfter- und Spannungssensorwerte im Panel Ihres Desktops an",
+  "longDescription": "<p>\n      Hardware Sensors Indicator zeigt Temperatur-, Lüfter- und Spannungssensorwerte direkt im Panel Ihres Desktops an.\n    </p>\n<p>\n      Unter GNOME Shell ist eine entsprechende Shell-Erweiterung notwendig, um die Sensordaten im oberen Panel anzeigen zu können. Es wird daher empfohlen, zusätzlich entweder die KStatusNotifierItem/AppIndicator Support-Erweiterung\n      https://extensions.gnome.org/extension/615/appindicator-support/ oder die Hardware Sensors Indicator-Erweiterung\n      https://extensions.gnome.org/extension/336/hardware-sensors-indicator/ zu installieren,\n      damit die Sensordaten sichtbar sind.\n      </p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "glogg",
+  "description": "Penjelajah log interaktif yang cerdas.",
+  "longDescription": "<p>glogg adalah aplikasi GUI multi-platform untuk menelusuri dan mencari file log yang panjang atau kompleks. Dirancang untuk programmer dan administrator sistem, glogg dapat dianggap sebagai kombinasi grafis dan interaktif dari grep dan less.</p>\n<p>Fitur utama meliputi:  * Mendukung pencarian atau penyaringan log menggunakan ekspresi reguler egrep.  * Menampilkan hasil pencarian secara interaktif di jendela terpisah yang telah difilter.  * Menyorot (highlight) log dan hasil pencarian dengan warna.  * Membaca file langsung dari disk tanpa memuat seluruhnya ke memori.  * Mampu menangani file besar (&gt;4 GiB) dengan lancar.  * Dapat membaca file berformat UTF-8 dan ISO-8859-1.  * Mengikuti log secara real-time saat ditulis ke disk.  * Memungkinkan pengguna memberi penanda pada baris yang penting di log.  * Mendukung perintah keyboard seperti less/vim untuk navigasi dalam file.</p>\n"
+}

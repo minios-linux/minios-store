@@ -1,0 +1,5 @@
+{
+  "name": "XRay Tracer",
+  "description": "Modellazione di sorgenti sincrotrone, beamline ed elementi di beamline.",
+  "longDescription": "<p>XRayTracer è una libreria software Python per il ray tracing e la propagazione d’onda nel regime dei raggi X. È pensata principalmente per la modellazione di sorgenti sincrotrone, beamline ed elementi di beamline. Include un'interfaccia grafica (GUI) per creare una beamline e visualizzarla interattivamente in 3D.</p>\n<p>Questo pacchetto installa la libreria per Python 3.</p>\n"
+}

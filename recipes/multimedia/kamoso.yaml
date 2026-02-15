@@ -1,0 +1,41 @@
+id: "kamoso"
+name: Kamoso
+description: Use your webcam to take pictures and make videos
+longDescription: |
+  <p>Kamoso is a simple and friendly program to use your camera. Use it to take pictures and make videos to share.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kamoso
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kamoso.desktop/597f493839cd80caf1f568db06b55044/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kamoso.desktop/597f493839cd80caf1f568db06b55044/screenshots/image-1_624x465@1.png
+    width: 829
+    height: 619
+iconSources:
+  - url: org/kde/kamoso.desktop/597f493839cd80caf1f568db06b55044/icons/128x128/kamoso_kamoso.png
+    width: 128
+    height: 128
+homepage: "https://userbase.kde.org/Kamoso"
+enabled: true
+order: 99

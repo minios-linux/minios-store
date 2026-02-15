@@ -1,0 +1,40 @@
+id: "jclic"
+name: JClic
+description: "Multimedia educational activities: puzzles, associations, text exercises, crosswords, scrambled letters, etc."
+longDescription: |
+  <p>JClic is formed by a set of computer applications that are used for carrying out different types of educational activities: puzzles, associations, text exercises, crosswords...</p>
+  <p>The activities are not usually used alone, but packed in projects. A project is formed by a set of activities and one or more sequences, which indicate the order in which they have to be shown.</p>
+  <p>Its community (http://clic.xtec.net/db/listact_en.jsp) has developed a web site with more than 1.000 activities available in several languages.</p>
+  <p>This package contains JClic-author to create and modify activity projects, JClic standalone player to play the activities and JClic-reports that allows the management of a database to track students work and results.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jclic
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: j/jc/jclic.desktop/06cb68578d223ec3271960755a56af7e/icons/128x128/jclic_jclic.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

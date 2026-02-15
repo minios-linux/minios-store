@@ -1,0 +1,33 @@
+id: "gnome-activity-journal"
+name: Activity Journal
+description: "Browse a chronological log of your activities and easily find files, contacts, etc."
+longDescription: |
+  <p>Zeitgeist is a service which logs the user&apos;s activities and events (files opened, websites visited, conversations held with other people, etc.) and makes the relevant information available to other applications.</p>
+  <p>It serves as a comprehensive activity log and also makes it possible to determine relationships between items based on usage patterns.</p>
+  <p>This package contains the GNOME Activity Journal, a graphical user interface which shows a journal of your activities.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-activity-journal
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: org/gnome/ActivityJournal/88ec0ab83b40ff2ea612a041b4eae6a1/icons/128x128/gnome-activity-journal_org.gnome.ActivityJournal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

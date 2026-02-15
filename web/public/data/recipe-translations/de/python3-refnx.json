@@ -1,0 +1,5 @@
+{
+  "name": "refnx",
+  "description": "Analyse von Neutronen- und Röntgenreflektometrie in Python",
+  "longDescription": "<p>Ein flexibles und leistungsstarkes Python-Paket für die verallgemeinerte Kurvenanpassung (Curve-Fitting), spezialisiert auf Neutronen- und Röntgenreflektometriedaten.</p>\n<p>Es nutzt verschiedene scipy.optimize-Algorithmen zur Datenanpassung sowie zur Schätzung von Parameterunsicherheiten. Neben den Scipy-Algorithmen verwendet refnx den emcee Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble Sampler für die Bayessche Parameterschätzung.</p>\n"
+}

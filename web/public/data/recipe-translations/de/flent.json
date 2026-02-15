@@ -1,0 +1,5 @@
+{
+  "name": "Flent",
+  "description": "Das flexible Netzwerk-Testtool",
+  "longDescription": "<p>Das flexible Netzwerk-Testtool: Ein Python-Wrapper, um mehrere gleichzeitige netperf-, iperf- oder ping-Instanzen auszuführen und deren Ergebnisse zusammenzufassen.</p>\n<p>Tests werden als Konfigurationsdateien definiert (tatsächlich Python-Skripte), und es stehen verschiedene Parser für die Ausgabedaten der Tools zur Verfügung. Aktuell sind Parser für netperf im -D-Modus, iperf im CSV-Modus sowie ping/ping6 im -D-Modus enthalten. Zusätzlich gibt es einen generischen Parser für Befehle, die nur eine einzelne Zahl ausgeben.</p>\n<p>Mehrere Befehle können parallel ausgeführt werden. Wenn sie Zeitstempel in den Ergebnissen liefern (wie netperf, ping und iperf – Letzteres mit einem kleinen Patch aus dem Verzeichnis misc/), können die Messpunkte zeitlich synchronisiert und Differenzen zwischen den eigentlichen Messwerten interpoliert werden. Dadurch lassen sich beispielsweise Pingzeiten vor, während und nach der Belastung einer Leitung anschaulich darstellen.</p>\n"
+}

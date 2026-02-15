@@ -1,0 +1,25 @@
+id: edubuntu-installer
+name: Edubuntu Installer
+description: "Used to install or uninstall Edubuntu Software Metas, add Edubuntu to Ubuntu flavours"
+longDescription: |
+  <p>Installs or uninstalls Edubuntu&apos;s metapackages as desired in order to configure for various age groups. Also useful for installing said metapackages on Ubuntu and official Ubuntu flavours.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - edubuntu-installer
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+tags:
+  - install
+  - apps
+iconSources:
+  - url: e/ed/edubuntu-installer.desktop/2e90adce7acae4d5abb13caa1c48e998/icons/128x128/edubuntu-installer_edubuntu-installer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

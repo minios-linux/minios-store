@@ -1,0 +1,42 @@
+id: "tea"
+name: TEA
+description: Text editor with hundreds of functions
+longDescription: |
+  <p>TEA provides you with hundreds of functions. Want some tea?</p>
+  <p>TEA features:  * Qt-based GUI with a tabbed layout engine;  * hotkey customization;  * spell checking (using aspell or hunspell);  * support for multiple encodings;  * syntax highlighting;  * support for code snippets and templates;  * string-handling functions such as sorting, reversing, de-formatting,    trimming, filtering, conversions etc.;  * editing support for Wikipedia, DocBook, LaTeX, and Lout;  * reading support for text-based word processor formats (ABW, DOCX, FB2,    KWD, ODT, RTF, SLA, SWX);  * reading support for PDF and DjVu files, if they contain text;  * bookmarks;  * miscellaneous XML/XHTML/HTML tools;  * &quot;open at cursor&quot; function from HTML href or img tags;  * preview in external browsers;  * drag&apos;n&apos;drop support (with text files and pictures);  * built-in image viewer (BMP, GIF, JPEG, PNG, SVG, WBMP).</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tea
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text editor
+  - text
+  - editor
+iconSources:
+  - url: t/te/tea.desktop/26e564846a3df7658382781aa88f365f/icons/128x128/tea_tea.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

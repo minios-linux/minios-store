@@ -1,0 +1,43 @@
+id: "kalzium"
+name: Kalzium
+description: Periodic Table of Elements
+longDescription: |
+  <p>Kalzium is a program that shows you the Periodic Table of Elements. You can use Kalzium to search for information about the elements or to learn facts about the periodic table. It provides an overview of the important data (like melting points, electron affinity, electron negativity, electron configuration, radii, mass, ionisation energy), an isotope table, and different colored views of the periodic table (separation of the different blocks, year simulator, temperature simulator). It contains tools to visualize the spectral lines of each element, a molecular weight calculator, a 3D molecule editor, and an equation solver for stoichiometric problems.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kalzium
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kalzium.desktop/301e9e635cc5d435afbab11b4ef1b0d8/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kalzium.desktop/301e9e635cc5d435afbab11b4ef1b0d8/screenshots/image-1_624x450@1.png
+    width: 1327
+    height: 959
+iconSources:
+  - url: org/kde/kalzium.desktop/301e9e635cc5d435afbab11b4ef1b0d8/icons/128x128/kalzium_kalzium.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/kalzium/"
+enabled: true
+order: 99

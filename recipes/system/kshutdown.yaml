@@ -1,0 +1,47 @@
+id: "kshutdown"
+name: KShutdown
+description: A graphical shutdown utility
+longDescription: |
+  <p>It has 4 main commands:</p>
+  <p> - Shut Down (logout and halt the system),  - Reboot (logout and reboot the system),  - Lock Screen (lock the screen using a screen saver),  - Logout (end the session and logout the user).</p>
+  <p>It features time and delay options, command line support, wizard, and sounds.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kshutdown
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shutdown
+  - halt
+  - reboot
+  - hibernate
+  - suspend
+  - lock
+  - logout
+iconSources:
+  - url: k/ks/kshutdown.desktop/8049d95e820ba035fe3e894981de15f1/icons/128x128/kshutdown_kshutdown.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

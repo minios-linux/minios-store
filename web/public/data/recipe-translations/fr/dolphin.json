@@ -1,0 +1,5 @@
+{
+  "name": "Dolphin",
+  "description": "Gestionnaire de fichiers",
+  "longDescription": "<p>Dolphin est un gestionnaire de fichiers léger, pensé pour être simple, intuitif et personnalisable. Il offre une grande flexibilité afin que vous puissiez gérer vos fichiers comme vous le souhaitez.</p>\n<p>Fonctionnalités :</p>\n<ul>\n  <li>Barre de navigation (ou fil d’Ariane) pour les URLs, permettant de parcourir rapidement l’arborescence des fichiers et dossiers.</li>\n  <li>Multiples modes d’affichage et propriétés configurables pour adapter l’interface selon vos préférences.</li>\n  <li>Vue fractionnée pour copier ou déplacer des fichiers facilement entre deux emplacements.</li>\n  <li>Panneaux d’informations et de raccourcis détachables pour afficher les éléments de votre choix à l’endroit souhaité.</li>\n  <li>Support des onglets multiples</li>\n  <li>Boîtes de dialogue informatives discrètes et non intrusives.</li>\n  <li>Gestion des annulations et rétablissements (undo/redo)</li>\n  <li>Accès réseau transparent via le système KIO.</li>\n</ul>\n"
+}

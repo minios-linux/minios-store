@@ -1,0 +1,40 @@
+id: "winetricks"
+name: Winetricks
+description: Work around problems and install applications under Wine
+longDescription: |
+  <p>Winetricks is an easy way to work around problems in Wine.</p>
+  <p>It lets you install missing DLLs or tweak various Wine settings individually.
+      It also has a menu of supported games/apps for which it can do all the workarounds automatically.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - winetricks
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: io/github/winetricks.Winetricks/e85cd291b17df18246d8fd138fc50998/icons/128x128/winetricks_winetricks.png
+    width: 128
+    height: 128
+homepage: "https://github.com/Winetricks/winetricks"
+enabled: true
+order: 99

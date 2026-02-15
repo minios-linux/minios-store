@@ -1,0 +1,5 @@
+{
+  "name": "Qxw",
+  "description": "Membuat teka-teki silang",
+  "longDescription": "<p>Qxw adalah program untuk membantu Anda membuat dan menerbitkan teka-teki silang, mulai dari grid paling sederhana hingga puzzle tematik yang kompleks. Aplikasi ini dapat membuat grid berbentuk persegi panjang, heksagonal, atau lingkaran dengan blok, garis pemisah, atau keduanya. Terdapat fasilitas pengisian grid otomatis yang mampu menangani berbagai macam perlakuan jawaban, dan Anda bahkan bisa menambahkan metode perlakuan jawaban versi Anda sendiri. Grid dapat diisi menggunakan huruf, angka, atau kombinasi keduanya. Qxw dapat menghasilkan output dalam berbagai format yang siap untuk dipublikasikan.</p>\n<p>Qxw ditulis menggunakan bahasa C dan memiliki antarmuka grafis (GUI) berbasis GTK+.</p>\n"
+}

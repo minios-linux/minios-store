@@ -1,0 +1,32 @@
+id: sioyek
+name: Sioyek
+description: PDF viewer for reading research papers and technical books
+longDescription: |
+  <p>Sioyek is a PDF viewer with a focus on textbooks and research papers. It is a power user&apos;s PDF viewer, featuring smart open, table of contents generation, and jumping to references and figures, even if not linked.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sioyek
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pdf
+  - viewer
+  - reader
+  - research
+iconSources:
+  - cached: sioyek_sioyek-icon-linux.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,58 @@
+id: parchives
+name: Parchives Archive Manager
+description: An Archive Manager for the MATE desktop environment
+longDescription: |
+  <p>Parchives es un administrador de archivos para el entorno MATE. Te permite para crear y modificar archivos, ver el contenido de un archivo, ver un archivocontenido en un archivo, y extraer archivos del archivo.</p>
+  <p>Parchiveses solo un front-end (una interfaz gráfica) para archivar programas como tary zip. Los tipos de archivo admitidos son:</p>
+  <ul>
+    <li>7-Zip Compressed File(.7z)</li>
+    <li>WinAce Compressed File (.ace)</li>
+    <li>ALZip Compressed File(.alz)</li>
+    <li>AIX Small Indexed Archive (.ar)</li>
+    <li>ARJ comprimidoArchive (.arj)</li>
+    <li>Cabinet File (.cab)</li>
+    <li>UNIX CPIO Archive (.cpio)</li>
+    <li>Paquete Debian Linux (.deb) [Modo de solo lectura]</li>
+    <li>Imagen de disco de CD ISO-9660 (.iso) [Modo de solo lectura]</li>
+    <li>Archivo Java (.jar)</li>
+    <li>Java Enterprise archive (.ear)</li>
+    <li>Java Web Archive (.war)</li>
+    <li>LHA Archive (.lzh, .lha)</li>
+    <li>WinRAR Compressed Archive (.rar)</li>
+    <li>RAR Archived Comic Book (.cbr)</li>
+    <li>RPM Linux Package (.rpm) [Modo de solo lectura]</li>
+    <li>Archivo de cinta sin comprimir (.tar) ocomprimido con: gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2,
+  .tbz2), comprimir (.tar.Z, .taz), lrzip (.tar.lrz, .tlrz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo), 7zip (.tar.7z), xz (.tar.xz)</li>
+    <li>Stuffit Archives (.bin, .sit)</li>
+    <li>ZIP Archive (.zip)</li>
+    <li>ZIPArchivo de cómic archivado (.cbz)</li>
+    <li>ZOO Compressed Archive File (.zoo)</li>
+    <li>Archivos individuales comprimidos con gzip, bzip, bzip2, compress, lrzip, lzip,lzop, rzip, xz</li>
+  </ul>
+  <p>Parchives es una bifurcación de File Roller y parte deEl entorno de escritorio MATE. Si desea saber más acerca de MATE yParchives, por favor visite la página de inicio del proyecto.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - parchives
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - mate
+  - archive
+  - manager
+  - compression
+iconSources:
+  - url: p/pa/parchives.desktop/1DC16FFB7E0B1DA28F0E114C57ECAAD1/icons/128x128/parchives_parchives.png
+    width: 128
+    height: 128
+homepage: "http://www.mate-desktop.org"
+enabled: true
+order: 99

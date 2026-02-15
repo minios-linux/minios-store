@@ -1,0 +1,5 @@
+{
+  "name": "Suara",
+  "description": "Ubah volume suara dan acara suara",
+  "longDescription": "<p>Utilitas media UKUI mencakup mixer audio dan applet kontrol volume.</p>\n<p>Paket ini menggunakan pustaka libmatemixer yang mendukung ALSA dan Pulseaudio sebagai backend audio.</p>\n"
+}

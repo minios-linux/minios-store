@@ -1,0 +1,53 @@
+id: "tigervnc-viewer"
+name: TigerVNC Viewer
+description: Connect to a remote VNC desktop
+longDescription: |
+  <p>VNC stands for Virtual Network Computing. It is, in essence, a remote display system which allows you to view a computing `desktop&apos; environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures.</p>
+  <p>This package provides a VNC client for X. With this you can connect to a VNC server and display its content. There are VNC servers available for other operating systems.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tigervnc-viewer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - remote desktop
+  - vnc
+screenshotSources:
+  - url: org/tigervnc/vncviewer/f832e8e235c8789eac78789e13eefb7e/screenshots/image-1_orig.png
+    thumbnailUrl: org/tigervnc/vncviewer/f832e8e235c8789eac78789e13eefb7e/screenshots/image-1_624x390@1.png
+    width: 1920
+    height: 1200
+  - url: org/tigervnc/vncviewer/f832e8e235c8789eac78789e13eefb7e/screenshots/image-2_orig.png
+    thumbnailUrl: org/tigervnc/vncviewer/f832e8e235c8789eac78789e13eefb7e/screenshots/image-2_624x390@1.png
+    width: 1920
+    height: 1200
+  - url: org/tigervnc/vncviewer/f832e8e235c8789eac78789e13eefb7e/screenshots/image-3_orig.png
+    thumbnailUrl: org/tigervnc/vncviewer/f832e8e235c8789eac78789e13eefb7e/screenshots/image-3_624x390@1.png
+    width: 1920
+    height: 1200
+iconSources:
+  - url: org/tigervnc/vncviewer/f832e8e235c8789eac78789e13eefb7e/icons/128x128/tigervnc-viewer_tigervnc.png
+    width: 128
+    height: 128
+homepage: "https://tigervnc.org"
+enabled: true
+order: 99

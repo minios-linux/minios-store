@@ -1,0 +1,5 @@
+{
+  "name": "KTechlab",
+  "description": "EDI pour microcontrôleurs et électronique",
+  "longDescription": "<p>\n      KTechlab est un EDI pour microcontrôleurs et électronique conçu pour être simple d’utilisation et discret dans son fonctionnement.\n    </p>\n<p>Fonctionnalités&nbsp;:</p>\n<ul>\n  <li>Large gamme de composants aux caractéristiques modifiables</li>\n  <li>Éditeur visuel de circuits</li>\n  <li>Aide contextuelle pour les composants</li>\n  <li>Deux modes de routage des connexions&nbsp;: automatique et manuel</li>\n  <li>Plusieurs méthodes pour définir la logique PIC&nbsp;: code assembleur, Microbe (langage de programmation haut niveau propre), code C, et FlowCode visuel</li>\n  <li>Conversion du code de programmation entre les langages pris en charge</li>\n  <li>Débogueur intégré</li>\n  <li>Simulation avec oscilloscope et sondes</li>\n  <li>Téléversement du code assembleur sur PIC via un programmateur matériel</li>\n</ul>\n"
+}

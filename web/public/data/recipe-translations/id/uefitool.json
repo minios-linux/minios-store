@@ -1,0 +1,5 @@
+{
+  "name": "UEFITool",
+  "description": "Menganalisis, mengekstrak, dan memodifikasi citra firmware UEFI",
+  "longDescription": "<p>UEFITool adalah program lintas platform berbasis C++/Qt untuk menganalisis, mengekstrak, dan memodifikasi citra firmware UEFI.</p>\n<p>Aplikasi ini mendukung analisis seluruh citra BIOS yang dimulai dari flash descriptor maupun berkas biner apa pun yang berisi volume UEFI.</p>\n<p>Paket ini menyediakan utilitas GUI, UEFITool. Untuk versi CLI, lihat uefitool-cli.</p>\n"
+}

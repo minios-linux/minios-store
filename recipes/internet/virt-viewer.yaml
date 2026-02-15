@@ -1,0 +1,55 @@
+id: "virt-viewer"
+name: Remote Viewer
+description: Remotely access virtual machines
+longDescription: |
+  <p>Remote Viewer provides a graphical viewer for the guest OS display. At this time it supports guest OS using the VNC or SPICE protocols. Further protocols may be supported in the future as user demand dictates. The viewer can connect directly to both local and remotely hosted guest OS, optionally using SSL/TLS encryption.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - virt-viewer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: r/re/remote-viewer/d5337851d4697f5b4504186d5f9bb457/screenshots/image-1_orig.png
+    thumbnailUrl: r/re/remote-viewer/d5337851d4697f5b4504186d5f9bb457/screenshots/image-1_624x350.png
+    width: 1272
+    height: 715
+  - url: r/re/remote-viewer/d5337851d4697f5b4504186d5f9bb457/screenshots/image-2_orig.png
+    thumbnailUrl: r/re/remote-viewer/d5337851d4697f5b4504186d5f9bb457/screenshots/image-2_624x351.png
+    width: 1024
+    height: 576
+  - url: r/re/remote-viewer/d5337851d4697f5b4504186d5f9bb457/screenshots/image-3_orig.png
+    thumbnailUrl: r/re/remote-viewer/d5337851d4697f5b4504186d5f9bb457/screenshots/image-3_624x350.png
+    width: 1272
+    height: 715
+  - url: r/re/remote-viewer/d5337851d4697f5b4504186d5f9bb457/screenshots/image-4_orig.png
+    thumbnailUrl: r/re/remote-viewer/d5337851d4697f5b4504186d5f9bb457/screenshots/image-4_624x351.png
+    width: 1200
+    height: 675
+iconSources:
+  - url: r/re/remote-viewer/d5337851d4697f5b4504186d5f9bb457/icons/128x128/virt-viewer_virt-viewer.png
+    width: 128
+    height: 128
+homepage: "https://virt-manager.org/"
+enabled: true
+order: 99

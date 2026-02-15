@@ -1,0 +1,35 @@
+id: opticalraytracer
+name: OpticalRayTracer
+description: Virtual lens/mirror design workshop
+longDescription: |
+  <p>OpticalRayTracer is an application that analyzes systems of lenses and mirrors. It uses optical principles and a virtual optical bench to predict the behavior of many kinds of ordinary and exotic lens types as well as flat and curved mirrors. OpticalRayTracer includes an advanced, easy-to-use interface that allows the user to rearrange the optical configuration by dragging objects around using the mouse.</p>
+  <p>OpticalRayTracer fully analyzes lens optical properties, including refraction and dispersion. The dispersion display uses color-coded light beams to simplify interpretation of the results.</p>
+  <p>OpticalRayTracer allows the creation of mirrors, flat and curved. In modern optical designs, mirrors often produce better results than lenses, for example in astronomical instruments. Such instruments can be roughed out in OpticalRayTracer&apos;s virtual workbench.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - opticalraytracer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: opticalraytracer_OpticalRayTracer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

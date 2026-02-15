@@ -1,0 +1,35 @@
+id: gnubik
+name: Gnubik
+description: A 3D magic cube puzzle
+longDescription: |
+  <p>GNUbik is an interactive, graphical, single player puzzle. This free program renders an image of a cube, like that invented by Erno Rubik. You have to manipulate the cube using the mouse. When each face shows only one colour, the game is solved.</p>
+  <p>It uses Gtk+ and/or X11 and Mesa / OpenGL.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnubik
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - game
+  - rubik
+iconSources:
+  - cached: gnubik_gnubik.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

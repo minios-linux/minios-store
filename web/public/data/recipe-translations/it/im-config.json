@@ -1,0 +1,5 @@
+{
+  "name": "Metodo di Input",
+  "description": "Imposta il metodo di input della tastiera",
+  "longDescription": "<p>Il pacchetto im-config fornisce un framework per configurare e cambiare il metodo di input nel sistema X Window. Questo metodo di input è fondamentale per le lingue giapponese, cinese e coreano (CJK), per permettere l'inserimento dei rispettivi caratteri non ASCII.</p>\n<p>Molti metodi di input moderni, come IBus, supportano non solo una di queste lingue CJK, ma consentono di utilizzare quasi tutte le lingue contemporaneamente, permettendo il cambio dinamico del layout della tastiera tramite un programma di supporto con interfaccia grafica.</p>\n<p>Installando questo pacchetto, il metodo di input più adatto e il relativo motore di conversione vengono configurati automaticamente per il sistema X Window (XIM), il modulo input di GTK+, il modulo input di Qt e quello di clutter.</p>\n<p>Puoi personalizzare ulteriormente il metodo di input con il comando 'im-config'.</p>\n"
+}

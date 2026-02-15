@@ -1,0 +1,30 @@
+id: openjdk-8-jre
+name: OpenJDK Java 8 Policy Tool
+description: OpenJDK Java 8 Policy Tool
+longDescription: |
+  <p>Full Java runtime environment - needed for executing Java GUI and Webstart programs, using Hotspot Zero.</p>
+  <p>The packages are built using the IcedTea build support and patches from the IcedTea project.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openjdk-8-jre
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - java
+  - security
+  - policytool
+iconSources:
+  - cached: openjdk-8-jre_openjdk-8.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

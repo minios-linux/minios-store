@@ -1,0 +1,5 @@
+{
+  "name": "Topparser",
+  "description": "Konvertiert PocketTopo-Daten in das Therion-Format",
+  "longDescription": "<p>Konvertiert eine .top-Datei von PocketTopo in eine Therion-Verzeichnisstruktur und extrahiert dabei Polygonzüge und Zeichnungsinformationen in entsprechende Dateien. Dies vereinfacht den Arbeitsablauf bei der kombinierten Nutzung von PocketTopo und Therion erheblich. Zudem können Survex-Messdateien erstellt werden.</p>\n"
+}

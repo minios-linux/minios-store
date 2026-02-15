@@ -1,0 +1,28 @@
+id: lusernet-app
+name: LuserNET News Reader
+description: News Reader for GNUstep
+longDescription: |
+  <p>LuserNET is an NNTP based news reader for GNUstep.  Although it&apos;s at an early version, it&apos;s already quite usable.  The following features are available:</p>
+  <p> * Coloring of messages based on quoting depth.  * Background read-ahead.  * Intelligent scrolling.  * Handles multiple servers.  * Completely asynchronous.  * Good MIME conformance and handling.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lusernet.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - news
+  - usenet
+  - nntp
+iconSources:
+  - cached: lusernet.app_LuserNET.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

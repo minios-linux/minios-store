@@ -1,0 +1,41 @@
+id: "qstardict"
+name: QStarDict
+description: QStarDict is Qt version of StarDict
+longDescription: |
+  <p>QStarDict is a modern international dictionary written using Qt.</p>
+  <p>Main features include:  * Full support of StarDict dictionaries  * Fuzzy search  * Support for hyper links in translations  * Working from the system tray  * Scanning mouse selection and showing pop-up windows with translation of    selected words  * Translations reformatting  * Pronouncing of the translated words  * Plugins support</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qstardict
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dictionary
+  - stardict
+iconSources:
+  - cached: qstardict_qstardict.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

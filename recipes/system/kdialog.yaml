@@ -1,0 +1,43 @@
+id: "kdialog"
+name: KDialog
+description: Display dialog boxes from shell scripts
+longDescription: |
+  <p>
+        kdialog allows you to display dialog boxes from shell scripts.
+        The syntax is very much inspired from the "dialog" command
+        (which shows text mode dialogs).
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kdialog
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kdialog/d26366e0fe382e4ad5f74ba1ba978eb1/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kdialog/d26366e0fe382e4ad5f74ba1ba978eb1/screenshots/image-1_224x138@1.png
+    width: 334
+    height: 207
+iconSources:
+  - url: org/kde/kdialog/d26366e0fe382e4ad5f74ba1ba978eb1/icons/128x128/kdialog_dialog-question.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org"
+enabled: true
+order: 99

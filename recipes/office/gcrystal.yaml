@@ -1,0 +1,41 @@
+id: "gcrystal"
+name: GCrystal
+description: Edit and display crystalline structures
+longDescription: |
+  <p>GNOME Crystal is a light model visualizer for crystal-structures. It is based on the GNOME Chemistry Utils and should display models of all sorts of crystal microscopic structures using OpenGL.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gcrystal
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - chemistry
+  - 3d
+  - display
+  - crystal
+  - printer
+iconSources:
+  - url: g/gc/gcrystal-0.14.desktop/35351b4ef02439a9def8c04311cdf1ad/icons/128x128/gcrystal_gcrystal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

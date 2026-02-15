@@ -1,0 +1,46 @@
+id: "mousepad"
+name: Mousepad
+description: Simple Text Editor
+longDescription: |
+  <p>Mousepad is a graphical text editor for Xfce based on Leafpad.</p>
+  <p>The initial reason for Mousepad was to provide printing support, which would have been difficult for Leafpad for various reasons.</p>
+  <p>Although some features are under development, currently Mousepad has the following features:   * Complete support for UTF-8 text   * Cut/Copy/Paste and Select All text   * Search and Replace   * Font selection   * Word Wrap   * Character coding selection   * Auto character coding detection (UTF-8 and some code-sets)   * Manual code-set setting   * Infinite Undo/Redo by word   * Auto Indent   * Multi-line Indent   * Display line numbers   * Drag and Drop   * Printing</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mousepad
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/xfce/mousepad/e80f32822455cb1a3096d8600c76608f/screenshots/image-1_orig.png
+    thumbnailUrl: org/xfce/mousepad/e80f32822455cb1a3096d8600c76608f/screenshots/image-1_624x696@1.png
+    width: 695
+    height: 776
+iconSources:
+  - url: org/xfce/mousepad/e80f32822455cb1a3096d8600c76608f/icons/128x128/mousepad_org.xfce.mousepad.png
+    width: 128
+    height: 128
+developer: The Mousepad developers
+homepage: "https://xfce.org"
+enabled: true
+order: 99

@@ -1,0 +1,38 @@
+id: "silx"
+name: silx data viewer
+description: HDF5 EDF SPEC Data Viewer
+longDescription: |
+  <p>The silx project aims at providing a collection of Python packages to support the development of data assessment, reduction and analysis applications at synchrotron radiation facilities. It aims at providing reading/writing different file formats, data reduction routines and a set of Qt widgets to browse and visualize data.</p>
+  <p>The current version provides :</p>
+  <p> * reading HDF5 file format (with support of SPEC file format)  * histogramming  * fitting  * 1D and 2D visualization using multiple backends (matplotlib or OpenGL)  * image plot widget with a set of associated tools (See changelog file).  * Unified browser for HDF5, SPEC and image file formats supporting inspection    and visualization of n-dimensional datasets.  * Unified viewer (silx view filename) for HDF5, SPEC and image file formats  * OpenGL-based widget to display 3D scalar field with    isosurface and cutting plane.</p>
+  <p>This uses the Python 3 version of the package.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - silx
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: org/silx/SilxView/50c95a11b1fa0f3d00dfb99c8c6bfb06/icons/128x128/silx_silx.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

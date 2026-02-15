@@ -1,0 +1,5 @@
+{
+  "name": "Ettercap",
+  "description": "Herramienta multipropósito para análisis, sniffing, interceptación y registro de redes",
+  "longDescription": "<p>Ettercap permite el análisis activo y pasivo de numerosos protocolos (incluso cifrados) e incluye múltiples funciones para la inspección de redes y equipos. También es posible inyectar datos en conexiones ya establecidas y aplicar filtrado (reemplazar o descartar paquetes) en tiempo real, manteniendo la conexión sincronizada.</p>\n<p>Ofrece varios modos de sniffing para conformar una suite de análisis potente y completa. Es posible escuchar en cuatro modos: basado en IP, basado en MAC, basado en ARP (dúplex completo) y basado en PublicARP (dúplex medio). Además, Ettercap puede detectar redes LAN conmutadas y utilizar huellas de sistemas operativos (activas o pasivas) para identificar la estructura de la red.</p>\n"
+}

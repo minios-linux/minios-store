@@ -1,0 +1,45 @@
+id: "flowblade"
+name: Flowblade
+description: "Video Editor - Fast, Precise, Stable"
+longDescription: |
+  <p>Flowblade is a multitrack non-linear video editor released under GPL3 license.
+        From beginners to masters, Flowblade helps make your vision a reality of image and sound.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flowblade
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/jliljebl.Flowblade/2eb045add065cae78cc67847eec8ae73/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/jliljebl.Flowblade/2eb045add065cae78cc67847eec8ae73/screenshots/image-1_624x342@1.png
+    width: 1920
+    height: 1053
+iconSources:
+  - url: io/github/jliljebl.Flowblade/2eb045add065cae78cc67847eec8ae73/icons/128x128/flowblade_io.github.jliljebl.Flowblade.png
+    width: 128
+    height: 128
+developer: Janne Liljeblad
+homepage: "https://jliljebl.github.io/flowblade"
+enabled: true
+order: 99

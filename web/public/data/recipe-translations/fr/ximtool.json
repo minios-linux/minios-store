@@ -1,0 +1,5 @@
+{
+  "name": "ximtool",
+  "description": "Programme interactif d’affichage d’images pour le système X Window",
+  "longDescription": "<p>\n      Ximtool offre une fonctionnalité d’affichage d’images aux applications clientes distantes pour IRAF en utilisant le protocole standard imtool/iis d’affichage d’images. Le serveur d’affichage permet de créer et d’afficher plusieurs mémoires tampons d’images. Le client peut lire et écrire des données dans ces mémoires tampons. N’importe quelle image ou combinaison d’images peut être affichée. Diverses options d’affichage sont disponibles, par exemple : zoom et déplacement, inversion selon les axes, clignotement de trames, fenêtrage de l’affichage et amélioration de la palette de couleurs.\n    </p>\n"
+}

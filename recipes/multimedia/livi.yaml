@@ -1,0 +1,44 @@
+id: livi
+name: Light Video
+description: A simple GTK4 based video player for mobile phones
+longDescription: |
+  <p>
+        A minimalistic GTK4 and gstreamer based video player for mobile phones like the Librem 5 aiming for minimal battery
+  usage.
+      </p>
+  <p>
+        It supports:
+      </p>
+  <ul>
+    <li>Inhibiting suspend/idle when playing video</li>
+    <li>Stopping video playback on (i.e. power button toggled) blank</li>
+    <li>Registering as default video player in GNOME control center</li>
+    <li>An indicator whether hardware accleration is in use</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - livi
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - video
+  - movie
+screenshotSources:
+  - url: org/sigxcpu/Livi/70cfc7245f4677ca82b0d395b5455700/screenshots/image-1_orig.png
+    thumbnailUrl: org/sigxcpu/Livi/70cfc7245f4677ca82b0d395b5455700/screenshots/image-1_624x312@1.png
+    width: 720
+    height: 360
+iconSources:
+  - url: org/sigxcpu/Livi/70cfc7245f4677ca82b0d395b5455700/icons/128x128/livi_org.sigxcpu.Livi.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.gnome.org/guidog/livi"
+enabled: true
+order: 99

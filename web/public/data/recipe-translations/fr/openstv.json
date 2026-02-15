@@ -1,0 +1,5 @@
+{
+  "name": "Logiciel de vote OpenSTV",
+  "description": "Organisez une élection par vote à transfert unique",
+  "longDescription": "<p>OpenSTV est un logiciel open source permettant de mettre en œuvre le vote à transfert unique ainsi que d'autres méthodes de scrutin telles que le vote instantané à la majorité, le vote Condorcet et le vote par approbation. OpenSTV est le seul logiciel libre à implémenter le vote à transfert unique exactement comme il est utilisé par des organismes officiels, notamment en Écosse et dans la ville de Cambridge, Massachusetts. Ces méthodes ont été rigoureusement vérifiées, tant par comparaison avec d'autres logiciels que par validation sur des résultats électoraux réels.</p>\n<p>Les organisations peuvent utiliser OpenSTV pour organiser leurs propres élections. D'abord, l’organisation doit définir une méthode de scrutin. Ensuite, elle conduit le vote, généralement à l'aide de bulletins papier. Puis, les bulletins doivent être saisis dans le programme OpenSTV. Enfin, OpenSTV permet de dépouiller les voix et de désigner les gagnants de l’élection.</p>\n"
+}

@@ -1,0 +1,35 @@
+id: koko
+name: Photos
+description: Image Gallery
+longDescription: |
+  <p>An Image gallery application</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - koko
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - picture
+  - slideshow
+  - graphics
+  - gallery
+  - koko
+screenshotSources:
+  - url: org/kde/koko.desktop/9013e09e91b36d47ea6246ce3962d5f0/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/koko.desktop/9013e09e91b36d47ea6246ce3962d5f0/screenshots/image-1_624x489@1.png
+    width: 1120
+    height: 879
+iconSources:
+  - url: org/kde/koko.desktop/9013e09e91b36d47ea6246ce3962d5f0/icons/128x128/koko_org.kde.koko.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/koko"
+enabled: true
+order: 99

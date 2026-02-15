@@ -1,0 +1,5 @@
+{
+  "name": "AT1",
+  "description": "Corrigez la justesse d’une voix chantant faux",
+  "longDescription": "<p>AT1 est un « autotuner », généralement utilisé pour corriger la justesse d’une voix qui chante (légèrement) faux. Par rapport à « Autotalent », il propose un algorithme d’estimation de la hauteur amélioré ainsi qu’un rééchantillonnage nettement plus propre.</p>\n<p>AT1 ne gère pas la correction des formants, il convient donc uniquement pour corriger de petites erreurs mais pas pour transposer une chanson. La hauteur « attendue » peut être contrôlée par Midi (uniquement via Jack), ou bien définie comme un ensemble fixe de notes. AT1 peut probablement être utilisé sur certains instruments, mais il est principalement conçu pour la voix humaine. Il peut aussi servir comme accordeur rapide et simple pour guitare.</p>\n"
+}

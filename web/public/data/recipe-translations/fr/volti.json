@@ -1,0 +1,5 @@
+{
+  "name": "Volti",
+  "description": "Contrôle du volume audio dans la barre système",
+  "longDescription": "<p>Volti est une application GTK+ légère permettant de gérer le volume audio depuis la zone de notification ou la barre système.</p>\n<p>Fonctionnalités :  * Ne nécessite que ALSA, sans PulseAudio, GStreamer, Phonon, etc.  * Application de mixage interne ou possibilité de choisir n'importe quelle appli de mixage  * Clic gauche pour ouvrir le curseur de volume  * Molette de la souris sur l'icône de la barre pour régler le volume, incrément paramétrable en pourcentage  * Clic central configurable pour couper le son ou ouvrir le mixeur  * Infobulle pratique avec informations sur la carte et le volume  * Prise en charge des touches multimédias  * Notifications sur le bureau lors des événements clavier</p>\n"
+}

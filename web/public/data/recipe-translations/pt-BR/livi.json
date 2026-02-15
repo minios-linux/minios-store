@@ -1,0 +1,5 @@
+{
+  "name": "Light Video",
+  "description": "Um reprodutor de vídeos simples baseado em GTK4 para celulares",
+  "longDescription": "<p>\n      Um reprodutor de vídeos minimalista, baseado em GTK4 e gstreamer, desenvolvido para celulares como o Librem 5, com foco em baixo consumo de bateria.\n    </p>\n<p>\n      Oferece suporte a:\n    </p>\n<ul>\n  <li>Impedir suspensão/inatividade durante a reprodução de vídeo</li>\n  <li>Parar a reprodução do vídeo quando a tela é desligada (por exemplo, ao pressionar o botão de energia)</li>\n  <li>Registrar-se como reprodutor de vídeo padrão no centro de controle do GNOME</li>\n  <li>Exibir um indicador quando a aceleração de hardware está em uso</li>\n</ul>\n"
+}

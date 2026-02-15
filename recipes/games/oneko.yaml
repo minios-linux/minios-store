@@ -1,0 +1,36 @@
+id: oneko
+name: Oneko
+description: A cat chases mouse pointer
+longDescription: |
+  <p>A cat (neko) chases the cursor (now a mouse) around the screen while you work.  Alternatively, a dog chases a bone. There are menu options for starting and stopping the program easily on cat and dog modes. Other variations and detailed configurations are available through command line options.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - oneko
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - neko
+  - cat
+  - dog
+  - chase
+  - cursor
+  - mouse
+iconSources:
+  - cached: oneko_oneko_cat.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

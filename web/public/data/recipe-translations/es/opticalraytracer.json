@@ -1,0 +1,5 @@
+{
+  "name": "OpticalRayTracer",
+  "description": "Taller virtual de diseño de lentes y espejos",
+  "longDescription": "<p>OpticalRayTracer es una aplicación que analiza sistemas de lentes y espejos. Utiliza principios ópticos y un banco óptico virtual para predecir el comportamiento de diversos tipos de lentes, tanto comunes como exóticas, así como de espejos planos y curvos. OpticalRayTracer ofrece una interfaz avanzada y fácil de usar que permite al usuario reorganizar la configuración óptica arrastrando los objetos con el ratón.</p>\n<p>OpticalRayTracer analiza completamente las propiedades ópticas de las lentes, incluyendo refracción y dispersión. La visualización de la dispersión utiliza haces de luz codificados por color para facilitar la interpretación de los resultados.</p>\n<p>OpticalRayTracer permite crear espejos, tanto planos como curvos. En los diseños ópticos modernos, los espejos suelen ofrecer mejores resultados que las lentes, por ejemplo en instrumentos astronómicos. Dichos instrumentos pueden ser esbozados en el banco de trabajo virtual de OpticalRayTracer.</p>\n"
+}

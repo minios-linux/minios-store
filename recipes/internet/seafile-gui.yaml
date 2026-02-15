@@ -1,0 +1,49 @@
+id: "seafile-gui"
+name: Seafile
+description: Seafile desktop sync client
+longDescription: |
+  <p>Seafile is a file syncing and sharing software with file encryption and group sharing, emphasis on reliability and high performance.</p>
+  <p>Seafile is an open source cloud storage system with privacy protection and teamwork features. Collections of files are called libraries. Each library can be synced separately. A library can also be encrypted with a user chosen password. Seafile also allows users to create groups and easily sharing files into groups.</p>
+  <p>This package contains the graphical Desktop Client for Seafile.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - seafile-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - sync
+  - share
+  - cloud
+  - network
+  - filetransfer
+  - library
+  - online
+  - copy
+  - send
+iconSources:
+  - url: com/seafile/seafile-applet/1c52ab875c3c0eec0e5ae8f0b745e73f/icons/128x128/seafile-gui_seafile.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,37 @@
+id: sugar-jukebox-activity
+name: Jukebox
+description: "Be a DJ, be a VJ. Play your favorite videos and songs. Share with your friends the songs you love, watch movies and educational videos together, and much more!"
+longDescription: |
+  <p>Sugar Learning Platform promotes collaborative learning through Sugar Activities that encourage critical thinking, the heart of a quality education.  Designed from the ground up especially for children, Sugar offers an alternative to traditional “office-desktop” software.</p>
+  <p>Learner applications in Sugar are called Activities.  They are software packages that automatically save your work - producing specific instances of the Activity that can be resumed at a later time.  Many Activities support learner collaboration, where multiple learners may be invited to join a collective Activity session.</p>
+  <p>The Jukebox activity is a simple media player.  One can play audio files or video files according to different codecs installed.  It supports different playlist files like .m3u , .pls .  It also supports playing of http streams over network.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sugar-jukebox-activity
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: sugar-jukebox-activity_activity-jukebox.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

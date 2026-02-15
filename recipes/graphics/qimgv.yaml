@@ -1,0 +1,54 @@
+id: "qimgv"
+name: qimgv
+description: Qt image viewer
+longDescription: |
+  <p>Qimgv is an image viewer written in Qt5. It is fast, configurable and easy to use. It also provides optional video support.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qimgv
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - image
+  - view
+  - qimgv
+  - picture
+  - gif
+  - jpeg
+  - webm
+screenshotSources:
+  - url: q/qi/qimgv/5ca11c5824454950729d250489d36b0c/screenshots/image-1_orig.png
+    thumbnailUrl: q/qi/qimgv/5ca11c5824454950729d250489d36b0c/screenshots/image-1_624x477@1.png
+    width: 1150
+    height: 880
+  - url: q/qi/qimgv/5ca11c5824454950729d250489d36b0c/screenshots/image-2_orig.png
+    thumbnailUrl: q/qi/qimgv/5ca11c5824454950729d250489d36b0c/screenshots/image-2_624x477@1.png
+    width: 1150
+    height: 880
+  - url: q/qi/qimgv/5ca11c5824454950729d250489d36b0c/screenshots/image-3_orig.png
+    thumbnailUrl: q/qi/qimgv/5ca11c5824454950729d250489d36b0c/screenshots/image-3_224x204@1.png
+    width: 590
+    height: 538
+iconSources:
+  - url: q/qi/qimgv/5ca11c5824454950729d250489d36b0c/icons/128x128/qimgv_qimgv.png
+    width: 128
+    height: 128
+developer: easymodo
+homepage: "https://github.com/easymodo/qimgv"
+enabled: true
+order: 99

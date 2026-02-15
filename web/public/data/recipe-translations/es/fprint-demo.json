@@ -1,0 +1,5 @@
+{
+  "name": "fprint-demo",
+  "description": "Demostración de escaneo de huellas dactilares",
+  "longDescription": "<p>fprint-demo es una sencilla aplicación GTK+ diseñada para demostrar y probar las capacidades de libfprint.</p>\n<p>Permite la interacción del usuario para registrar huellas dactilares y, dependiendo del fabricante del escáner, mostrar tanto la representación normal como la binarizada, incluyendo las minucias detectadas.</p>\n"
+}

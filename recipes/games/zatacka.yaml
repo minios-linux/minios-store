@@ -1,0 +1,23 @@
+id: zatacka
+name: Zatacka X
+description: "A modern, free remake of the classic Achtung, die Kurve!"
+longDescription: |
+  <p>This is an arcade multiplayer game for 2 - 6 players on one keyboard, clone of Achtung die Kurve classical dos game. You handle your line and you must sidetrack lines of other players and of course walls. When some player dies, survival gets one point. When only one player is left alive, the round is finished. Each game has eleven rounds.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zatacka
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: z/za/zatackax.desktop/4e626c6bd48b1b76c7b5c72d59d15f88/icons/128x128/zatacka_zatackax.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

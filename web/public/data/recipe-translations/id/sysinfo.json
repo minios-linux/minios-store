@@ -1,0 +1,5 @@
+{
+  "name": "Sysinfo",
+  "description": "Menampilkan informasi komputer/sistem secara detail",
+  "longDescription": "<p>sysinfo adalah alat grafis yang dapat menampilkan informasi perangkat keras dan perangkat lunak pada komputer tempat program ini dijalankan.</p>\n<p>Aplikasi ini mampu mengenali informasi terkait:   - Sistem (rilis distribusi Linux, versi GNOME, kernel, gcc, Xorg, dan hostname);   - CPU (identifikasi vendor, nama model, frekuensi, level2 cache, bogomips, nomor model, dan flags);   - Memori (total RAM sistem, memori bebas, total dan sisa swap, memori cache, aktif, dan nonaktif);   - Penyimpanan (antarmuka IDE, semua perangkat IDE, perangkat SCSI);   - Perangkat keras (motherboard, kartu grafis, kartu suara, perangkat jaringan);   - Kartu grafis NVIDIA: hanya jika driver NVIDIA terpasang.</p>\n"
+}

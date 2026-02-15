@@ -1,0 +1,37 @@
+id: budgie-window-shuffler
+name: Budgie Shuffler Control
+description: Graphical and keyboard friendly window arranger
+longDescription: |
+  <p>
+        This is an application created primarily for the budgie-desktop to provide flexible methods to move and arrange
+  application windows though a graphical control or a series of keyboard shortcuts. The application itself can be used on most X11 based desktops.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - budgie-window-shuffler
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tiling
+  - window
+screenshotSources:
+  - url: org/ubuntubudgie/shufflercontrol/0d71de4b6191a55322a04903a55347e8/screenshots/image-1_orig.png
+    thumbnailUrl: org/ubuntubudgie/shufflercontrol/0d71de4b6191a55322a04903a55347e8/screenshots/image-1_224x271@1.png
+    width: 448
+    height: 543
+iconSources:
+  - url: org/ubuntubudgie/shufflercontrol/0d71de4b6191a55322a04903a55347e8/icons/128x128/budgie-window-shuffler_org.ubuntubudgie.shuffler-control.png
+    width: 128
+    height: 128
+homepage: "https://github.com/UbuntuBudgie/budgie-extras"
+enabled: true
+order: 99

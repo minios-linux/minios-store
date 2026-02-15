@@ -1,0 +1,5 @@
+{
+  "name": "Fragments",
+  "description": "Gérer des torrents",
+  "longDescription": "<p>\n      Un client BitTorrent simple et intuitif. Fragments permet de transférer des fichiers via le protocole pair-à-pair BitTorrent, comme des vidéos, de la musique ou des images d’installation pour des distributions Linux.\n    </p>\n<ul>\n  <li>Vue d’ensemble de tous les torrents regroupés par statut</li>\n  <li>Planification de l’ordre des téléchargements grâce à une file d’attente</li>\n  <li>Détection automatique des liens torrent ou magnet depuis le presse-papiers</li>\n  <li>Gérer et accéder aux fichiers individuels d’un torrent</li>\n  <li>Connexion à des sessions Fragments ou Transmission distantes</li>\n</ul>\n<p>\n      Fragments repose sur le projet Transmission BitTorrent pour son fonctionnement.\n    </p>\n"
+}

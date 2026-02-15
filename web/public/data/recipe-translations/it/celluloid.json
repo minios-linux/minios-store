@@ -1,0 +1,5 @@
+{
+  "name": "Celluloid",
+  "description": "Interfaccia GTK+ per mpv",
+  "longDescription": "<p>\n    Celluloid è un lettore multimediale semplice che può riprodurre praticamente tutti i formati video e audio. Supporta le playlist e i controlli MPRIS2 per la gestione dei media. Il design di Celluloid segue le GNOME Human Interface Guidelines, ma può essere adattato anche per altri ambienti che non utilizzano le decorazioni lato client (CSD). Si basa sulla libreria mpv e su GTK.\n  </p>\n<p>Funzionalità:</p>\n<ul>\n  <li>Playlist tramite drag and drop</li>\n  <li>Caricamento di file di configurazione mpv esterni</li>\n  <li>Interfaccia D-Bus MPRIS2</li>\n</ul>\n"
+}

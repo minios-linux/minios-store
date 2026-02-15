@@ -1,0 +1,5 @@
+{
+  "name": "gFTP",
+  "description": "Descarga y sube archivos utilizando múltiples protocolos de transferencia",
+  "longDescription": "<p>gFTP en su versión gráfica es un cliente FTP multihilo que funciona bajo X y está desarrollado con GLib/GTK+.</p>\n<p>Características de gFTP: * descargas simultáneas, * reanudación de transferencias interrumpidas, * colas de transferencias, * descarga de directorios completos, * soporte para proxies FTP y HTTP, * caché de directorios remotos, * transferencias pasivas y activas, * soporte para arrastrar y soltar, * menú de marcadores, * soporte para transferencias de archivos mediante SSH y SSH2, * soporte para transferencias FXP, * botón de detención, y muchas otras funciones.</p>\n<p>Autor: Brian Masney &lt;masneyb@gftp.org&gt;</p>\n"
+}

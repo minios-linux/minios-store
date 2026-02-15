@@ -1,0 +1,5 @@
+{
+  "name": "KBackup",
+  "description": "Crea backup come file .tar in una cartella locale o su un URL remoto",
+  "longDescription": "<p>\n      KBackup è un'applicazione che permette di eseguire il backup dei tuoi dati in modo semplice e intuitivo\n    </p>\n<p>Funzionalità:</p>\n<ul>\n  <li>Utilizzo di profili per definire le cartelle e i file da includere o escludere dal backup</li>\n  <li>La destinazione del backup può essere sia un dispositivo locale montato, come un drive ZIP, una chiavetta USB, ecc., sia un qualsiasi URL remoto</li>\n  <li>Esecuzione di backup automatici senza interfaccia grafica</li>\n</ul>\n"
+}

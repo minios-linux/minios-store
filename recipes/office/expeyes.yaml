@@ -1,0 +1,36 @@
+id: "expeyes"
+name: ExpEYES Junior
+description: EXPEYES Junior
+longDescription: |
+  <p>This package provides high level interfaces for making science experiments with an ExpEYES box.</p>
+  <p>ExpEYES is from the PHOENIX project of Inter-University Accelerator Centre, New Delhi. It is a hardware &amp; software framework for developing science experiments, demonstrations and projects and learn science and engineering by exploration. Capable of doing real time measurements and analysing the data in different ways. Analog voltages are measured with 0.025% resolution and time intervals with one microsecond. This project is based on Free and Open Source software, mostly written in Python programming language. The hardware design is also open.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - expeyes
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: expeyes_nuclear-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "UPnP Router Control",
+  "description": "Um programa simples para gerenciar roteadores compatíveis com UPnP IGD",
+  "longDescription": "<p>O UPnP Router Control permite visualizar diversos parâmetros do roteador, como a velocidade da rede, o IP externo e o nome do modelo. Também facilita o gerenciamento do redirecionamento de portas por meio de uma interface simples.</p>\n<p>O UPnP Router Control obtém essas informações através do protocolo UPnP-IGD, portanto, é necessário ativá-lo no seu roteador para utilizar o aplicativo.</p>\n"
+}

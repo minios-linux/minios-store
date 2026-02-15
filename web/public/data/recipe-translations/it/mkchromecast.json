@@ -1,0 +1,5 @@
+{
+  "name": "mkchromecast",
+  "description": "Trasmetti file audio o video da Linux ai tuoi dispositivi Google Cast o Sonos",
+  "longDescription": "<p>Scritto in Python, trasmette tramite node.js o ffmpeg. mkchromecast è in grado di utilizzare formati audio lossy e lossless, purché ffmpeg sia installato. Supporta inoltre la riproduzione Multi-room di gruppo e audio ad alta risoluzione a 24 bit/96kHz. È inoltre disponibile un menu nell'area di notifica del sistema.</p>\n<p>Di default, mkchromecast trasmette con node.js (o parec su Linux) utilizzando il formato audio mp3, frequenza di campionamento di 44100Hz e bitrate medio di 192k. Questi parametri possono essere modificati con le opzioni --sample-rate e -b; utile se il tuo router wireless non è molto performante, oppure se non vuoi compromettere la qualità audio. Puoi anche trasmettere video utilizzando l'opzione --video.</p>\n<p>mkchromecast può trasmettere sia tramite pulseaudio che ALSA. Le relative dipendenze possono essere installate tramite i pacchetti mkchromecast-pulseaudio e mkchromecast-alsa. Per maggiori informazioni, consultare il file README.Debian fornito con questo pacchetto.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Piper",
+  "description": "Utility configurabile per la gestione del mouse",
+  "longDescription": "<p>Piper è un'interfaccia grafica per configurare mouse da gaming.<br>Le opzioni di configurazione includono la modifica della risoluzione (DPI) del mouse, la gestione di profili, l'impostazione dei colori LED e la personalizzazione dei pulsanti.</p><p>Piper richiede ratbagd di libratbag, il demone necessario per comunicare effettivamente con i mouse. Piper è solamente un front-end per ratbagd, che deve essere installato e in esecuzione quando si avvia Piper.</p>"
+}

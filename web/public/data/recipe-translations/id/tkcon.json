@@ -1,0 +1,5 @@
+{
+  "name": "TkCon",
+  "description": "Konsol tingkat lanjut untuk pengembangan Tcl/Tk",
+  "longDescription": "<p>TkCon adalah shell dan konsol Tcl, sangat cocok untuk bereksperimen secara interaktif dengan program Tcl dan Tk.</p>\n<p>Fitur:  Riwayat perintah  Ekspansi path (gaya Unix) / Proc / Nama variabel  Banyak konsol, masing-masing dengan state-nya sendiri (melalui interpreter terpisah)  Menangkap stdout dan stderr ke jendela konsol (puts di-override)  Hot errors (klik hasil error untuk melihat jejak stack)  Pencocokan karakter elektrik (seperti di emacs)  Highlighting proc elektrik  Komunikasi antar konsol dan interpreter Tk lainnya (termasuk non-Tcl)</p>\n"
+}

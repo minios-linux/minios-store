@@ -1,0 +1,38 @@
+id: "zita-rev1"
+name: Zita-Rev1
+description: amazing reverb by kokkinizita - more bang per byte
+longDescription: |
+  <p>REV1 is a reworked version of the reverb originally developed for Aeolus. Its character is more &apos;hall&apos; than &apos;plate&apos;, but it can be used on a wide variety of instruments or voices. It is not a spatialiser - the early reflections are different for the L and R inputs, but do not correspond to any real room. They have been tuned to match left and right sources to some extent.</p>
+  <p>In Stereo mode a dry/wet mix control is provided, so it can be used either as an insert or in send/return mode. For mono just connect one of the two channels.</p>
+  <p>In Ambisonic mode (selected by the -B command line option) the only option is the send/return mode.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zita-rev1
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - jackd
+  - reverb
+iconSources:
+  - url: z/zi/zita-rev1.desktop/b328d68048b72e76b1441fec3bd56a9b/icons/128x128/zita-rev1_zita-rev1.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

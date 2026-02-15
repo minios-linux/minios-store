@@ -1,0 +1,5 @@
+{
+  "name": "zuluMount",
+  "description": "Einbinden verschlüsselter Laufwerke und Partitionen",
+  "longDescription": "<p>zulucrypt ist eine Suite von Anwendungen zum Erstellen und Verwalten von mit LUKS, Plain, TrueCrypt und VeraCrypt verschlüsselten Volumes.</p>\n<p>zuluMount-gui ist die grafische Oberfläche für zuluMount-cli. Damit lassen sich alle Funktionen von zuluMount-cli komfortabel über eine Benutzeroberfläche ausführen.</p>\n<p>zuluMount-gui kann außerdem CryFS-, EncFS-, gocryptfs- und eCryptfs-Volumes entsperren.</p>\n"
+}

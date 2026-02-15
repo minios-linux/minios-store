@@ -1,0 +1,5 @@
+{
+  "name": "SpaceFM",
+  "description": "Menjelajahi sistem berkas",
+  "longDescription": "<p>SpaceFM adalah manajer berkas dan desktop bertab multi-panel untuk Linux yang dilengkapi dengan VFS bawaan, manajer perangkat berbasis udev atau HAL, sistem menu yang dapat dikustomisasi, serta integrasi bash.</p>\n<p>Berasal dari PCManFM, SpaceFM bertujuan menjadi lebih stabil, efisien (ditulis terutama dalam bahasa C), sangat dapat disesuaikan (GUI bisa diubah dan ditambah sesuai kebutuhan melalui Design Mode), tetap kuat tanpa membuat pengguna baru kewalahan (berkat kustomisasinya), tidak bergantung pada distribusi atau lingkungan desktop tertentu, dan fitur manajemen perangkat yang cukup lengkap untuk menggantikan berbagai *kit berbasis udisks saat digunakan bersama udevil.</p>\n<p>Fitur lain mencakup manajemen desktop opsional, pengaturan antrean pintar untuk operasi file, dukungan plugin pengguna, serta kemampuan menjalankan perintah tertentu sebagai root.</p>\n<p>Silakan pasang spacefm-gtk3 jika Anda ingin tetap menggunakan GTK+3.</p>\n"
+}

@@ -1,0 +1,39 @@
+id: "gnome-tour"
+name: Tour
+description: GNOME Tour and Greeter
+longDescription: |
+  <p>A guided tour and greeter for GNOME.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-tour
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gnome
+  - gtk
+screenshotSources:
+  - url: org/gnome/Tour/88778143ea277503274412c04ffc53d2/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Tour/88778143ea277503274412c04ffc53d2/screenshots/image-1_624x485@1.png
+    width: 1082
+    height: 842
+  - url: org/gnome/Tour/88778143ea277503274412c04ffc53d2/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Tour/88778143ea277503274412c04ffc53d2/screenshots/image-2_624x485@1.png
+    width: 1082
+    height: 842
+iconSources:
+  - url: org/gnome/Tour/88778143ea277503274412c04ffc53d2/icons/128x128/gnome-tour_org.gnome.Tour.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://apps.gnome.org/Tour/"
+enabled: true
+order: 99

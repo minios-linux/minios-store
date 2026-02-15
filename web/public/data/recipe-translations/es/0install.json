@@ -1,0 +1,5 @@
+{
+  "name": "0install",
+  "description": "Ejecuta o administra programas de Zero Install",
+  "longDescription": "<p>Zero Install es un sistema descentralizado de instalación de software multiplataforma disponible bajo la LGPL. Permite a los desarrolladores publicar programas directamente desde sus propios sitios web, a la vez que ofrece funciones habituales de los repositorios centralizados, como bibliotecas compartidas, actualizaciones automáticas y firmas digitales. Está diseñado para complementar, no reemplazar, la gestión de paquetes del sistema operativo. Los paquetes de 0install nunca interfieren con los proporcionados por la distribución.</p>\n<p>Este paquete incluye la interfaz gráfica GTK para 0install. Si utilizas un sistema sin entorno gráfico, instala solo el paquete 0install-core para evitar dependencias de interfaz gráfica.</p>\n"
+}

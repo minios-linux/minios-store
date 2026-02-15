@@ -1,0 +1,41 @@
+id: "gweled"
+name: Gweled
+description: 'Play a puzzle game similar to "Diamond Mine"'
+longDescription: |
+  <p>Gweled is a GNOME version of a popular PalmOS/Windows/Java game called &quot;Bejeweled&quot; or &quot;Diamond Mine&quot;. The aim of the game is to make alignment of 3 or more gems, both vertically or horizontally by swapping adjacent gems. The game ends when there are no possible moves left.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gweled
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/gweled/gweled/1069a36cd3029ebff2893829b4e1389d/screenshots/image-1_orig.png
+    thumbnailUrl: org/gweled/gweled/1069a36cd3029ebff2893829b4e1389d/screenshots/image-1_224x274@1.png
+    width: 400
+    height: 491
+iconSources:
+  - url: org/gweled/gweled/1069a36cd3029ebff2893829b4e1389d/icons/128x128/gweled_org.gweled.gweled.png
+    width: 128
+    height: 128
+homepage: "https://gweled.org/"
+enabled: true
+order: 99

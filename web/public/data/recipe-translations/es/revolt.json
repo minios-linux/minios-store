@@ -1,0 +1,5 @@
+{
+  "name": "Revolt",
+  "description": "Mejor integración de Riot, un cliente Matrix, con entornos de escritorio",
+  "longDescription": "<p>Revolt es una aplicación ligera que envuelve Riot para ofrecer una mejor integración\n\t\t\tcon los entornos de escritorio en general, y GNOME en particular:</p>\n<ul>\n  <li>Permite usar Riot como una aplicación independiente en lugar de mantenerlo en una pestaña del navegador</li>\n  <li>Notificaciones persistentes (para entornos de escritorio que las soportan, como GNOME)</li>\n  <li>Las notificaciones se suprimen automáticamente cuando la ventana de Revolt está en primer plano</li>\n  <li>Icono de estado para entornos de escritorio con área de bandeja (XFCE, Budgie, entre otros)</li>\n</ul>\n"
+}

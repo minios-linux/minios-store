@@ -1,0 +1,38 @@
+id: "trustedqsl"
+name: TrustedQSL
+description: Sign QSO data for upload to LoTW
+longDescription: |
+  <p>Open source libraries and utilities to support using digital signatures for amateur radio QSL information.</p>
+  <p>A QSL is a confirmation of contact between two amateur radio stations. The ARRL Logbook of the World project is a database which collects data about contacts between amateur stations (QSOs). This package provides the &apos;tqsl&apos; program for maintaining your digital certificates for LoTW and signing and uploading QSO log files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - trustedqsl
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: org/arrl/trustedqsl/b52da6b5e89ab610afc29ddb693601c3/icons/128x128/trustedqsl_org.arrl.trustedqsl.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Xnec2c",
+  "description": "Software de Código Numérico para Eletromagnetismo",
+  "longDescription": "<p>O nec2c original é um aplicativo de linha de comando não interativo que lê arquivos de entrada padrão NEC2 e produz um arquivo de saída com os dados solicitados pelos \"comandos\" presentes no arquivo de entrada.</p>\n<p>Já o xnec2c é uma aplicação interativa com interface gráfica (GUI) que, em sua forma atual, lê arquivos de entrada NEC2, mas apresenta os dados de saída de maneira gráfica, como desenhos em wireframe do padrão de radiação ou campo próximo E/H, gráficos de ganho máximo, impedância de entrada, VSWR etc. em função da frequência, além de visualização simples da estrutura da antena, incluindo codificação por cores para representar correntes ou densidade de cargas. Esses resultados são calculados e exibidos mediante solicitação do usuário por meio de menus ou botões, ou seja, o xnec2c é interativo e não executa comandos NEC2 em lote, como faz o aplicativo original.</p>\n"
+}

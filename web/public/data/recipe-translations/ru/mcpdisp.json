@@ -1,0 +1,5 @@
+{
+  "name": "mcpdisp-ext",
+  "description": "Эмулятор расширения Mackie Control Surface",
+  "longDescription": "<p>mcpdisp создает MIDI-порт JACK, который принимает сообщения дисплея протокола Mackie Control, обычно отображающиеся на полосе «scribble strip» поверхности управления, и выводит их на экран. Также отображаются светодиоды полосы и индикаторы уровня.</p>\n"
+}

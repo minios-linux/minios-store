@@ -1,0 +1,5 @@
+{
+  "name": "xgpsspeed",
+  "description": "Menampilkan kecepatan GPS dari daemon gpsd",
+  "longDescription": "<p>Layanan daemon gpsd dapat memantau satu atau lebih perangkat GPS yang terhubung ke komputer host, sehingga semua data lokasi dan pergerakan sensor dapat diakses melalui permintaan di TCP port 2947.</p>\n<p>Paket ini berisi alat bantu dan aplikasi contoh untuk pemantauan, pengujian, profiling latensi, konfigurasi perangkat, serta simulasi gpsd.</p>\n"
+}

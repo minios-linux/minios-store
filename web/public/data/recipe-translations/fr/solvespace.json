@@ -1,0 +1,5 @@
+{
+  "name": "SolveSpace",
+  "description": "Un logiciel de CAO paramétrique 2D/3D",
+  "longDescription": "<p>SolveSpace est un programme de CAO paramétrique 2D/3D. Les utilisations incluent :</p>\n<p> * modélisation de pièces 3D — dessin avec extrusion, révolution et opérations booléennes (union / différence) ;  * modélisation de pièces 2D — dessinez la pièce en une seule section et exportez en DXF, PDF, SVG ; utilisez l’assemblage 3D pour vérifier l’ajustement ;  * pièces pour impression 3D — exportez au format STL ou autre maillage de triangles compatible avec la plupart des imprimantes 3D ;  * préparation de données CAM — exportez des images vectorielles 2D pour découpeuse jet d’eau ou laser, ou générez des fichiers STEP ou STL, à importer dans des logiciels de FAO tiers pour l’usinage ;  * conception de mécanismes — utilisez le solveur de contraintes pour simuler des liaisons planes ou spatiales, avec des articulations à pivot, rotule ou glissière ;  * géométrie plane et solide — remplacez les calculs trigonométriques manuels et les tableurs par un dessin coté en direct.</p>\n"
+}

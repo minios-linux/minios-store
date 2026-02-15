@@ -1,0 +1,38 @@
+id: "meshlab"
+name: MeshLab
+description: View and process meshes
+longDescription: |
+  <p>MeshLab is an open source, portable, and extendible system for the processing and editing of unstructured 3D triangular meshes. The system is aimed to help the processing of the typical not-so-small unstructured models arising in 3D scanning, providing a set of tools for editing, cleaning, healing, inspecting, rendering and converting this kind of meshes.</p>
+  <p>Meshlab can read files in these formats: PLY, STL, OFF, OBJ, 3DS, COLLADA and PTX. It can write PLY, STL, OFF, OBJ, 3DS, COLLADA, VRML, and DXF.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - meshlab
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: m/me/meshlab.desktop/0ba65c46ccd7347722a744010a9bf187/icons/128x128/meshlab_meshlab.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

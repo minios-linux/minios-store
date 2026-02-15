@@ -1,0 +1,5 @@
+{
+  "name": "TortoiseHg",
+  "description": "Grafische Benutzeroberfläche für Mercurial",
+  "longDescription": "<p>TortoiseHg bietet ein grafisches Werkzeug für die Interaktion mit dem verteilten Versionskontrollsystem Mercurial. Die grafische Oberfläche unterstützt mehr als ein Dutzend Operationen, darunter das Hinzufügen von Dateien, Commits, die Verwaltung von Ignore-Filtern, das Einsehen des Änderungsprotokolls, Merging, Wiederherstellung/Rollback, das Bearbeiten der Konfiguration, die Repository-Synchronisation und vieles mehr. Ein Highlight ist das interaktive Commit-Werkzeug, das eine einfache Auswahl von Diffs aus mehreren Dateien und deren Zusammenfassung in Changesets ermöglicht. Es ist leistungsfähiger und benutzerfreundlicher als verfügbare Alternativen wie qct oder hgct (commit-tool).</p>\n"
+}

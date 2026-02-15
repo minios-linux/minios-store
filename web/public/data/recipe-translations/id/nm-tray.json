@@ -1,0 +1,5 @@
+{
+  "name": "nm-tray",
+  "description": "Antarmuka NetworkManager (ikon tray)",
+  "longDescription": "<p>nm-tray adalah antarmuka sederhana untuk NetworkManager dengan ikon informasi yang berada di system tray (mirip dengan nm-applet). Aplikasi ini sepenuhnya menggunakan Qt. Untuk berinteraksi dengan NetworkManager, nm-tray memanfaatkan API dari KF5::NetworkManagerQt melalui komunikasi DBus secara langsung.</p>\n<p>Paket ini berisi file aplikasi.</p>\n"
+}

@@ -1,0 +1,55 @@
+id: "bluefish"
+name: Bluefish Editor
+description: Web Development Editor
+longDescription: |
+  <p>Bluefish is a powerful editor targeted towards programmers and web developers, with many options to write websites, scripts and programming code. Bluefish supports a wide variety of programming and markup languages and has many features, e.g.</p>
+  <p> - Customizable code folding, auto indenting and completion  - Support for remote files operation over FTP, SFTP, HTTPS, WebDAV, etc.  - Site upload and download  - Powerful search and replace engine  - Customizable integration of external programs such as lint, make, etc  - Snippets plugin to automate often used code  - Code-aware in-line spell checking  - Zencoding or Emmet support  - Bookmarks panel</p>
+  <p>but is still lightweight and fast.</p>
+  <p>For validation of CSS/HTML/XML documents you need csstidy, tidy, weblint and/or xmllint. For preview to work, you need a web browser that can view local files given to it on the command line. For PHP or Python bluefish supports php-codesniffer and pylint. Tools not suggested but supported are make, perl, php5-cli and java-compiler.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bluefish
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - programming
+  - code
+  - web
+  - editor
+  - development
+  - html
+  - php
+  - python
+screenshotSources:
+  - url: b/bl/bluefish.desktop/92f927cace9453b1031f0a82249fec23/screenshots/image-1_orig.png
+    thumbnailUrl: b/bl/bluefish.desktop/92f927cace9453b1031f0a82249fec23/screenshots/image-1_624x502@1.png
+    width: 1292
+    height: 1041
+iconSources:
+  - url: b/bl/bluefish.desktop/92f927cace9453b1031f0a82249fec23/icons/128x128/bluefish_bluefish.png
+    width: 128
+    height: 128
+homepage: "https://bluefish.openoffice.nl/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "KAddressBook",
+  "description": "Manajer buku alamat",
+  "longDescription": "<p>KAddressBook menyimpan semua detail pribadi keluarga, teman, dan kontak Anda lainnya.</p>\n<p>Fitur:</p>\n<ul>\n  <li>Impor dan ekspor ke hampir semua standar buku alamat</li>\n  <li>Membaca file berformat .vcf, serta dapat mengimpor dan mengekspor file vCard dan csv</li>\n  <li>Dapat menggunakan beberapa server LDAP</li>\n  <li>Filter dapat dikonfigurasi dan pencarian yang kuat</li>\n  <li>Terintegrasi dengan komponen Kontact lainnya, misalnya ekspor pengingat ulang tahun ke KOrganizer</li>\n  <li>Mendukung integrasi groupware</li>\n  <li>Didukung oleh Akonadi</li>\n</ul>\n"
+}

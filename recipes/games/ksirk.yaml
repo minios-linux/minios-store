@@ -1,0 +1,51 @@
+id: "ksirk"
+name: KSirk
+description: World Domination Strategy Game
+longDescription: |
+  <p>KsirK is a computerized version of the well known strategic board game Risk.
+        The goal of the game is simply to conquer the world by attacking your neighbors with your armies.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Support for 1-6 human or computer (AI) players</li>
+    <li>Multi-player gaming over a network</li>
+    <li>You can easily create new skins with SVG graphics and the skin editor</li>
+    <li>Hot New Stuff support. You can easily download and install new skins</li>
+  </ul>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ksirk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/ksirk/cfdc78b2b11d9768bca786c782443d26/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ksirk/cfdc78b2b11d9768bca786c782443d26/screenshots/image-1_624x411@1.png
+    width: 1101
+    height: 726
+iconSources:
+  - url: org/kde/ksirk/cfdc78b2b11d9768bca786c782443d26/icons/128x128/ksirk_ksirk.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/ksirk"
+enabled: true
+order: 99

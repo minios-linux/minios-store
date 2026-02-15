@@ -1,0 +1,5 @@
+{
+  "name": "ScreenGrab",
+  "description": "Strumento di screenshot in Qt",
+  "longDescription": "<p>\n      Potente utility per catturare lo schermo basata su Qt.\n      Permette di catturare schermo intero, finestra o area selezionata.\n      Caratteristiche principali:\n    </p>\n<ul>\n  <li>Ritardo nell'acquisizione</li>\n  <li>Modifica diretta nelle altre applicazioni</li>\n  <li>Salvataggio automatico; inserimento di data e ora nel nome file</li>\n  <li>Adattamento ai bordi tramite clic destro</li>\n  <li>Scorciatoie personalizzabili</li>\n</ul>\n"
+}

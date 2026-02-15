@@ -1,0 +1,25 @@
+id: gjacktransport
+name: G. JACK Clock
+description: Display JACK transport timecode
+longDescription: |
+  <p>G. JACK Transport is a standalone application that provides access to the Jack Audio Connection Kit&apos;s, JACK transport mechanism via a dynamic graphical slider.</p>
+  <p>In other words: this software allows to seek Audio/Video media files when they are played along jack transport. Intended for audio-engineers or A/V editors that work with Ardour, Ecasound, Hydrogen, Xjadeo, etc.</p>
+  <p>Additionally it provides G. JACK Clock, a &quot;Big Clock&quot; display for jack-transport.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gjacktransport
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gjacktransport_gjackclock.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

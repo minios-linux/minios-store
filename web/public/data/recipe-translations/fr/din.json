@@ -1,0 +1,5 @@
+{
+  "name": "DIN Is Noise",
+  "description": "Un instrument de musique",
+  "longDescription": "<p>DIN Is Noise est un instrument de musique et un synthétiseur audio. Il permet d’utiliser des courbes de Bézier pour dessiner et façonner des formes d’onde, créer des motifs de modulation et de gating, ainsi que concevoir des schémas de délai et de volume. Il est possible de créer et d’éditer un nombre illimité de drones, de modeler leur forme d’onde et de les moduler visuellement.</p>\n<p>DIN utilise JACK pour la sortie audio, prend en charge MIDI, OSC et dispose d’un bot IRC pour les entrées. L’application est également extensible et personnalisable via des scripts Tcl.</p>\n"
+}

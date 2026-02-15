@@ -1,0 +1,45 @@
+id: algobox
+name: AlgoBox
+description: Algorithm creation and execution helper
+longDescription: |
+  <p>AlgoBox is an algorithm creation and execution helper, targeted to French high school students. It’s based on an educational logic (learning via logical structures instead of piling up code lines).</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - algobox
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - algorithm
+  - school
+  - learning
+  - french
+screenshotSources:
+  - url: a/al/algobox.desktop/0e13c3894b5632267127391a6cf674ca/screenshots/image-1_orig.png
+    thumbnailUrl: a/al/algobox.desktop/0e13c3894b5632267127391a6cf674ca/screenshots/image-1_624x436.png
+    width: 1301
+    height: 910
+iconSources:
+  - cached: algobox_algobox.png
+    width: 64
+    height: 64
+developer: Pascal Brachet
+homepage: "https://www.xm1math.net/algobox/index.html"
+enabled: true
+order: 99

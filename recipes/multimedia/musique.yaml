@@ -1,0 +1,26 @@
+id: musique
+name: Musique
+description: Play your music collection
+longDescription: |
+  <p>Musique unclutters your music listening experience with a clean and innovative interface. It comes with one playlist, plain and simple, but also with graphical display of your albums and artists using pictures downloaded from last.fm. At the same time you can, of course, also browse your music directories and files.</p>
+  <p>The use of an internal database makes musique pretty fast.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - musique
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: m/mu/musique.desktop/9738B96FFE38554D0AEB793E385F8770/icons/128x128/musique_musique.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

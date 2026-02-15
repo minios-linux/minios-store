@@ -1,0 +1,37 @@
+id: bespokesynth
+name: BespokeSynth
+description: A modular DAW for Linux
+longDescription: |
+  <p>Bespoke is a software modular synthesizer. It contains a bunch
+      of modules, which you can connect together to create sounds.</p>
+  <p>Bespoke is like a DAW* in some ways, but with less of a focus
+      on a global timeline. Instead, it has a design more optimized for
+      jamming and exploration.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bespokesynth
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - midi
+  - synth
+  - vst
+screenshotSources:
+  - url: com/bespokesynth/BespokeSynth/f3d507a3c4510019124c8f55cfb8ebac/screenshots/image-1_orig.png
+    thumbnailUrl: com/bespokesynth/BespokeSynth/f3d507a3c4510019124c8f55cfb8ebac/screenshots/image-1_624x403@1.png
+    width: 2125
+    height: 1374
+iconSources:
+  - url: com/bespokesynth/BespokeSynth/f3d507a3c4510019124c8f55cfb8ebac/icons/128x128/bespokesynth_bespoke_icon.png
+    width: 128
+    height: 128
+homepage: "https://www.bespokesynth.com/"
+enabled: true
+order: 99

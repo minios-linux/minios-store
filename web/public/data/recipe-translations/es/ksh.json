@@ -1,0 +1,5 @@
+{
+  "name": "Korn Shell (ksh2020)",
+  "description": "Intérprete de comandos Korn Shell",
+  "longDescription": "<p>Ksh es un intérprete de comandos UNIX (shell) diseñado tanto para uso interactivo como para la ejecución de scripts. Su lenguaje de comandos es un superconjunto del lenguaje de la shell sh(1).</p>\n<p>La versión de 1993 incorpora varias novedades, principalmente relacionadas con la programación de scripts, respecto a la versión de 1988 que suele distribuirse con variantes comerciales de UNIX. Por ejemplo, ofrece alcance léxico, variables compuestas, arreglos asociativos, referencias nombradas y soporte para operaciones matemáticas en punto flotante.</p>\n<p>La herramienta shcomp permite compilar scripts de ksh a un formato binario.</p>\n"
+}

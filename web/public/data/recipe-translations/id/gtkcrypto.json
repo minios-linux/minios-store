@@ -1,0 +1,5 @@
+{
+  "name": "GTKCrypto",
+  "description": "Aplikasi GTK+ untuk mengenkripsi file dan menghitung hash",
+  "longDescription": "<p>\nGTKCrypto memungkinkan Anda untuk mengenkripsi dan menandatangani file atau teks. Selain itu, Anda juga dapat menghitung berbagai jenis hash dari sebuah file dan membandingkan file untuk memeriksa apakah isinya sama atau tidak.<br>\nAlgoritma sandi yang didukung: AES, Twofish, Serpent, dan Camellia, semuanya menggunakan kunci 256 bit serta mode operasi CBC atau CTR.<br>\nAlgoritma hash yang didukung: MD5, SHA-1, SHA-2, SHA-3, GOST, Whirlpool.\n    </p>\n"
+}

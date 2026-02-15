@@ -1,0 +1,43 @@
+id: "galternatives"
+name: Alternatives Configurator
+description: Configure the system default alternatives
+longDescription: |
+  <p>A GUI to help the system administrator to choose what program should provide a given service.</p>
+  <p>This is a graphical front-end to the update-alternatives program shipped with dpkg.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - galternatives
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - alternatives
+  - galternatives
+  - debian
+iconSources:
+  - url: org/debian/galternatives/ed05c49ece63e6d66a39063d2ae7ee21/icons/128x128/galternatives_galternatives.png
+    width: 128
+    height: 128
+homepage: "https://salsa.debian.org/chinese-team/galternatives"
+enabled: true
+order: 99

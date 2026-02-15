@@ -1,0 +1,31 @@
+id: childsplay
+name: Childsplay
+description: Suite of educational games for young children
+longDescription: |
+  <p>Childsplay provides memory activities that are fun to play and at the same time learn sounds, images, letters and numbers; activities that train the child to use the mouse and keyboard and pure game activities like puzzles, pong, pacman and billiards.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - childsplay
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - suite
+  - children
+  - games
+  - young
+  - educational
+iconSources:
+  - url: c/ch/childsplay.desktop/2AB8DCCFC7DF68B508CF57F75704018E/icons/128x128/childsplay_logo_cp.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

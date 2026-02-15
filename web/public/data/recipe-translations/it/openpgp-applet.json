@@ -1,0 +1,5 @@
+{
+  "name": "OpenPGP Applet",
+  "description": "Cifra, decifra e firma testi dalla clipboard",
+  "longDescription": "<p>OpenPGP Applet è un'interfaccia grafica per GnuPG.</p>\n<p>Permette di cifrare e decifrare il contenuto degli appunti utilizzando la crittografia a chiave pubblica o un cifrario simmetrico tramite una passphrase. Supporta anche la creazione e la verifica di firme in chiaro.</p>\n<p>Nota: OpenPGP Applet non gestisce l’inserimento della passphrase. Dal momento che non offre interazione da terminale (a meno che non venga avviato esplicitamente da lì), si affida generalmente al fatto che GnuPG agent sia in esecuzione e configurato per utilizzare una finestra di inserimento passphrase, come pinentry-gnome3.</p>\n"
+}

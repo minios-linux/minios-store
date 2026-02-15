@@ -1,0 +1,5 @@
+{
+  "name": "Kookbook",
+  "description": "Applicazione semplice per la gestione di raccolte di ricette",
+  "longDescription": "<p>KookBook ti aiuta a organizzare la tua raccolta di ricette, permettendoti di sfogliare le ricette, cercare per titolo o ingrediente e ritrovare facilmente i dettagli delle tue creazioni in cucina.</p>\n<p>Le ricette sono scritte in markdown e salvate come file di testo. Un ricettario, ovvero una raccolta di ricette, è strutturato come una cartella che contiene una o più ricette. La struttura delle cartelle può essere utilizzata per navigare e raggruppare le ricette.</p>\n<p>Le ricette possono essere sincronizzate tra dispositivi o condivise con altri utenti tramite strumenti esterni come repository git, Nextcloud o molti altri servizi.</p>\n<p>Il pacchetto include sia il programma desktop \"kookbook\" che una versione ottimizzata per schermo touch \"kookbooktouch\".</p>\n<p>Il pacchetto fornisce anche un semplice strumento di conversione in grado di trasformare un database krecipes in un insieme di file markdown per kookbook. Per maggiori dettagli, consultare /usr/share/doc/kookbook/README.Debian</p>\n"
+}

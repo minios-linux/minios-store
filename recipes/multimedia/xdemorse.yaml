@@ -1,0 +1,26 @@
+id: xdemorse
+name: xdemorse
+description: GUI to decode Morse signals to text
+longDescription: |
+  <p>X/GTK+ application for decoding Morse code signals into text. xdemorse detects the &quot;dihs&quot; and &quot;dahs&quot; that make a Morse code character via the computer&apos;s sound card, which can be connected to a radio receiver tuned to a CW Morse code transmission or to a tone generator.</p>
+  <p>The input signal is processed by a Goertzel tone detector algorithm which produces &quot;mark&quot; or &quot;space&quot; (signal/no signal) outputs and the resulting stream of Morse code &quot;elements&quot; is decoded into an ASCII character for printing to the Text viewer.</p>
+  <p>xdemorse has a certain level of tolerance towards operator errors (bad &quot;fist&quot;) regarding deviation from the standard duration of the various elements that make up the Morse code. There is a &quot;Waterfall&quot; (audio spectrum) display derived from an integer-arithmetic FFT of the receiver&apos;s audio output.</p>
+  <p>This program has built-in CAT capability but only for the Yaesu FT847 or FT857 and Elecraft K2 or K3.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xdemorse
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: xdemorse_xdemorse.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

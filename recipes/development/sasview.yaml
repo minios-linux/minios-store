@@ -1,0 +1,45 @@
+id: sasview
+name: SasView
+description: Small Angle Scattering Analysis
+longDescription: |
+  <p>SasView is a Small Angle Scattering Analysis Software Package, originally developed as part of the NSF DANSE project under the name SansView, now managed by an international collaboration of facilities.</p>
+  <p>SasView is software for the analysis of Small-Angle Scattering (SAS) data.</p>
+  <p>It fits analytic functions describing different types of material microstructure to experimental data in order to determine the shape, size and degree of ordering.</p>
+  <p>SasView also includes tools for calculating scattering length densities, slit sizes, resolution, fringe thicknesses/d-spacings, the (Porod) invariant (&apos;total scattering&apos;), and distance distribution functions.</p>
+  <p>This package installs the sasview executable script.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sasview
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - sas
+  - sans
+  - saxs
+  - scattering
+  - neutron scattering
+  - x-ray scattering
+  - physics
+iconSources:
+  - cached: sasview_sasview.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

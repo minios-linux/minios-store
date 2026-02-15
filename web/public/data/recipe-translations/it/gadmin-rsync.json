@@ -1,0 +1,5 @@
+{
+  "name": "GAdmin-Rsync",
+  "description": "Interfaccia GTK+ semplice per la configurazione di rsync server",
+  "longDescription": "<p>gadmin-rsync è un'interfaccia grafica GTK+ intuitiva per la gestione del server rsync.</p>\n<p>Funzionalità:<br> - Possibilità di creare set di backup multipli, pianificabili tramite cron.<br> - Ogni set di backup può contenere più processi di backup, sia locali che remoti.<br> - I backup avviati tramite pianificazione cron generano file di log separati per ogni processo.<br> - I log dei backup avranno lo stesso nome dei relativi set.<br> - È possibile eseguire manualmente i singoli set e monitorare l'avanzamento tramite la relativa scheda.<br> - I backup remoti sono completamente automatici, differenziali e cifrati.<br> - Le chiavi SSH vengono create per ciascun host, caricate e installate sui sistemi remoti tramite ssh-keygen, scp e ssh.<br> - Permette di pianificare facilmente sincronizzazioni remote.</p>\n"
+}

@@ -1,0 +1,38 @@
+id: vimix
+name: Vimix
+description: Video live mixer
+longDescription: |
+  <p>vimix performs graphical mixing and blending of several movie clips and
+     computer generated graphics, with image processing effects in real-time. 
+     Its intuitive and hands-on user interface gives direct control on image opacity and
+     shape for producing live graphics during concerts and VJ-ing sessions.</p>
+  <p>Can read almost all video codecs (hardware accelerated for many),
+     Open Sound Control remote control, live screen recoding. See docmentation in the github wiki.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vimix
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/brunoherbelin.Vimix/f71a85666268e9ea256882aab32fcbbc/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/brunoherbelin.Vimix/f71a85666268e9ea256882aab32fcbbc/screenshots/image-1_624x410@1.png
+    width: 1980
+    height: 1302
+  - url: io/github/brunoherbelin.Vimix/f71a85666268e9ea256882aab32fcbbc/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/brunoherbelin.Vimix/f71a85666268e9ea256882aab32fcbbc/screenshots/image-2_624x410@1.png
+    width: 1980
+    height: 1302
+iconSources:
+  - url: io/github/brunoherbelin.Vimix/f71a85666268e9ea256882aab32fcbbc/icons/128x128/vimix_vimix.png
+    width: 128
+    height: 128
+homepage: "https://brunoherbelin.github.io/vimix/"
+enabled: true
+order: 99

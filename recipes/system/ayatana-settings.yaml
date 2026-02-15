@@ -1,0 +1,39 @@
+id: "ayatana-settings"
+name: Indicators
+description: Ayatana Indicators Settings
+longDescription: |
+  <p>Ayatana Indicators are available on desktop environments that provide a renderer for system indicators (such as MATE, Xfce, Lomiri, etc.).</p>
+  <p>Ayatana Settings allows you to configure all your Ayatana Syystem Indicators.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ayatana-settings
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - settings
+  - indicators
+  - ayatana
+  - control
+  - system
+  - sound
+  - notifications
+  - datetime
+  - events
+  - messages
+iconSources:
+  - url: a/ay/ayatana-settings.desktop/1ce5302838e2c95403a7e4790b6acbaf/icons/128x128/ayatana-settings_ayatana-settings.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

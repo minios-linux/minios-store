@@ -1,0 +1,25 @@
+id: kamerka
+name: Kamerka
+description: Fancy-looking animated application for taking photos from webcam
+longDescription: |
+  <p>Kamerka is a KDE application which uses Video4Linux to get image from webcam, with ability to save photos. It features easy to use, animated and well-integrated user interface.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kamerka
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: k/ka/kamerka.desktop/8F55D0CDD2546C77BE5ADE92A08C0CB8/icons/128x128/kamerka_camera-web.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

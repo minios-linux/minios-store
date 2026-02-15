@@ -1,0 +1,5 @@
+{
+  "name": "Envy24 Control",
+  "description": "Utilitaire de mixage et de gestion graphique pour cartes son à base d'Envy24",
+  "longDescription": "<p>Une suite d'utilitaires ALSA avec interface graphique, dédiée à certains matériels audio spécifiques :</p>\n<p> echomixer – outil de contrôle pour les cartes son Echoaudio  envy24control – outil de gestion des cartes son basées sur Envy24 (ice1712)  hdajackretask – permet de réaffecter les prises sur le matériel Intel HDA  hdspconf – programme graphique pour configurer les paramètres ALSA Hammerfall HDSP  hdspmixer – outil pour gérer les fonctions d’acheminement avancées des cartes RME Hammerfall DSP  rmedigicontrol – outil de configuration pour les cartes son RME Digi32 et RME Digi96</p>\n"
+}

@@ -1,0 +1,43 @@
+id: "guake-indicator"
+name: Guake Indicator
+description: Use it to launch guake-indicator and a new icon will show up on systemtray
+longDescription: |
+  <p>Guake indicator lets you send custom commands through the D-Bus System. Commands can be manually edited in a XML file under ~/.guake.indicator or generated through guake-indicator edit-menu system GUI.</p>
+  <p>Guake-indicator sticks to your &quot;System Tray&quot; and displays your favorites commands retrieved from ~/.guake.indicator/guake-indicator.xml. If guake-indicator.xml does not exist, guake-indicator will create a default configuration file with some examples.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - guake-indicator
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - guake
+  - ssh
+  - terminal
+  - indicator
+iconSources:
+  - url: g/gu/guake-indicator.desktop/877624086f931717fba9119114c349fb/icons/128x128/guake-indicator_guake-indicator.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

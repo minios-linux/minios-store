@@ -1,0 +1,39 @@
+id: "deluge-gtk"
+name: Deluge
+description: Download and share files over BitTorrent
+longDescription: |
+  <p>Deluge is a full-featured, multi-platform, multi-interface BitTorrent client using libtorrent-rasterbar in it&apos;s backend and featuring multiple user-interfaces: GTK+, web and console.</p>
+  <p>It has been designed using the client-server model with a daemon process that handles all the bittorrent activity. The Deluge daemon is able to run on headless machines with the user-interfaces being able to connect remotely from any platform.</p>
+  <p>You may want to install this package to use the Deluge GTK+ user-interface as a thin client and connect to a remote daemon. See: &lt;URL:http://dev.deluge-torrent.org/wiki/UserGuide/ThinClient&gt;</p>
+  
+categoryId: internet
+icon: Download
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deluge-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/de/deluge.desktop/978c888407a86bac10fc4690785ef196/icons/128x128/deluge-gtk_deluge.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

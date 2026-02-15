@@ -1,0 +1,47 @@
+id: "qmlkonsole"
+name: QMLKonsole
+description: Mobile terminal application
+longDescription: |
+  <p>Terminal application offering additional keyboard buttons useful on touch devices.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qmlkonsole
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - terminal
+  - console
+  - script
+  - run
+  - execute
+  - command
+  - command-line
+  - commandline
+  - cli
+  - bash
+screenshotSources:
+  - url: org/kde/qmlkonsole/c521d5d851dbfad2b8f35256029fbdf3/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/qmlkonsole/c521d5d851dbfad2b8f35256029fbdf3/screenshots/image-1_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/qmlkonsole/c521d5d851dbfad2b8f35256029fbdf3/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/qmlkonsole/c521d5d851dbfad2b8f35256029fbdf3/screenshots/image-2_624x1248@1.png
+    width: 720
+    height: 1440
+iconSources:
+  - url: org/kde/qmlkonsole/c521d5d851dbfad2b8f35256029fbdf3/icons/128x128/qmlkonsole_org.kde.qmlkonsole.png
+    width: 128
+    height: 128
+developer: KDE Community
+homepage: "https://apps.kde.org/qmlkonsole"
+enabled: true
+order: 99

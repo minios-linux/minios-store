@@ -1,0 +1,5 @@
+{
+  "name": "G3DViewer",
+  "description": "Visualizzatore di modelli 3D",
+  "longDescription": "<p>G3DViewer è un visualizzatore di file 3D per GTK+ che supporta diversi formati grazie al sistema di plugin LibG3D. I modelli possono essere ispezionati e renderizzati tramite OpenGL. Le opzioni di rendering includono visualizzazione a filo di ferro (wireframe), ombre, vista isometrica, illuminazione speculare e texture.</p>\n<p>Consulta 'libg3d-plugin*' per l'elenco dei formati supportati.</p>\n"
+}

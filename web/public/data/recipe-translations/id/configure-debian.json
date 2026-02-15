@@ -1,0 +1,5 @@
+{
+  "name": "Configure-Debian",
+  "description": "Konfigurasi Ulang Paket Anda",
+  "longDescription": "<p>configure-debian adalah sebuah program yang menampilkan daftar paket yang menggunakan Debconf, sistem manajemen konfigurasi milik Debian.</p>\n<p>Debconf menyediakan wizard instalasi awal yang dijalankan saat sebuah paket diinstal. Anda dapat mengonfigurasi ulang paket-paket tersebut di kemudian hari, dan configure-debian memudahkan proses tersebut.</p>\n<p>configure-debian membagi daftar paket ke dalam subbagian sesuai arsip Debian, seperti x11, base, gnome, atau kde.</p>\n"
+}

@@ -1,0 +1,34 @@
+id: "budgie-core"
+name: Budgie Desktop Settings
+description: Change desktop appearance and behavior
+longDescription: |
+  <p>Budgie-Desktop is a GTK+ based desktop environment which focuses on simplicity and elegance.  It provides a traditional desktop metaphor based interface utilising customisable panel based menu driven system. Budgie-Desktop is written from scratch utilising many GNOME based sub-systems such as GNOME-Session and Mutter.</p>
+  <p>This is the base package for budgie-desktop.  This package provides:  GNOME Network Manager autostart file specifically for Budgie  budgie-desktop plugins  locales and icons for budgie-desktop  budgie-desktop executables  GLib schemas for budgie-desktop  Session file for budgie-desktop</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - budgie-core
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: org/buddiesofbudgie/BudgieScreenshot/e8b482cd2a3a40a66e9ec220fedbbdd0/icons/128x128/budgie-core_org.buddiesofbudgie.BudgieScreenshot.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,44 @@
+id: "kollision"
+name: Kollision
+description: Casual ball game
+longDescription: |
+  <p>Kollision is a casual game where you need to throw your ball and avoid the
+        others balls on the table as long as possible.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kollision
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kollision/8e22f92b64eda66b1792e8c1e517086e/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kollision/8e22f92b64eda66b1792e8c1e517086e/screenshots/image-1_624x716@1.png
+    width: 633
+    height: 727
+iconSources:
+  - url: org/kde/kollision/8e22f92b64eda66b1792e8c1e517086e/icons/128x128/kollision_kollision.png
+    width: 128
+    height: 128
+homepage: "https://projects.kde.org/projects/kde/kdegames/kollision"
+enabled: true
+order: 99

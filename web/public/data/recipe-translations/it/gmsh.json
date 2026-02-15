@@ -1,0 +1,5 @@
+{
+  "name": "Gmsh Mesh Generator",
+  "description": "Generatore di mesh 3D a elementi finiti",
+  "longDescription": "<p>Gmsh è un generatore di griglie 3D a elementi finiti dotato di un motore CAD integrato e di un post-processore. È progettato per offrire uno strumento di mesh rapido, leggero e facile da usare, con input parametrico e avanzate capacità di visualizzazione. Gmsh è organizzato attorno a quattro moduli: geometria, mesh, solutore e post-processing. L'inserimento dei dati in questi moduli può avvenire sia in modo interattivo tramite l'interfaccia grafica sia tramite file di testo ASCII utilizzando il linguaggio di scripting proprietario di Gmsh.</p>\n<p>Per una panoramica più dettagliata delle funzionalità di Gmsh, consulta il manuale di riferimento.</p>\n"
+}

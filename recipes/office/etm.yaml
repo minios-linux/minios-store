@@ -1,0 +1,71 @@
+id: etm
+name: Event and task manager
+description: Manage events and tasks using simple text files
+longDescription: |
+  <p>Examples:</p>
+  <ul>
+    <li>A sales meeting (an event) [s]tarting seven days from today at 9:00am and [e]xtending for one hour with a default
+  [a]lert 5 minutes before the start:
+     * sales meeting @s +7 9a @e 1h @a 5</li>
+    <li>Get a haircut (a task) on the 24th of the current month and then [r]epeatedly at (d)aily [i]ntervals of (14) days
+  and, [o]n completion, (r)estart from the completion date:
+      - get haircut @s 24 @r d &amp;i 14 @o r</li>
+    <li>Presidential election day (an occasion) every four years on the first Tuesday after a Monday in November:
+      ^ Presidential Election Day @s 2012-11-06
+  @r y &amp;i 4 &amp;M 11 &amp;m 2, 3, 4, 5, 6, 7, 8 &amp;w TU</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - etm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+tags:
+  - calendar
+  - task
+  - event
+  - alarm
+  - reminder
+  - todo
+  - time
+  - note
+screenshotSources:
+  - url: e/et/etm.desktop/65E18CF4220E3086807B062DF18B2577/screenshots/image-1_orig.png
+    thumbnailUrl: e/et/etm.desktop/65E18CF4220E3086807B062DF18B2577/screenshots/image-1_224x244.png
+    width: 322
+    height: 351
+  - url: e/et/etm.desktop/65E18CF4220E3086807B062DF18B2577/screenshots/image-2_orig.png
+    thumbnailUrl: e/et/etm.desktop/65E18CF4220E3086807B062DF18B2577/screenshots/image-2_224x244.png
+    width: 322
+    height: 351
+  - url: e/et/etm.desktop/65E18CF4220E3086807B062DF18B2577/screenshots/image-3_orig.png
+    thumbnailUrl: e/et/etm.desktop/65E18CF4220E3086807B062DF18B2577/screenshots/image-3_224x234.png
+    width: 322
+    height: 337
+  - url: e/et/etm.desktop/65E18CF4220E3086807B062DF18B2577/screenshots/image-4_orig.png
+    thumbnailUrl: e/et/etm.desktop/65E18CF4220E3086807B062DF18B2577/screenshots/image-4_224x234.png
+    width: 322
+    height: 337
+iconSources:
+  - cached: etm_etm.png
+    width: 64
+    height: 64
+homepage: "http://people.duke.edu/~dgraham/etmtk/"
+enabled: true
+order: 99

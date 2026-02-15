@@ -1,0 +1,32 @@
+id: "pageedit"
+name: PageEdit
+description: xhtml visual page editor
+longDescription: |
+  <p>This package contains the removed BookView feature that used to be part of Sigil before the 0.9.15 release.</p>
+  <p>It allows users to edit the XHTML editor with a WYSIWYG interface.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pageedit
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/pa/pageedit.desktop/490eb9229b3a8d654f8a249299191a43/icons/128x128/pageedit_pageedit.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

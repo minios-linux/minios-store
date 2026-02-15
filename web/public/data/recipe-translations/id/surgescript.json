@@ -1,0 +1,5 @@
+{
+  "name": "SurgeScript",
+  "description": "Bahasa skrip untuk pengembangan game",
+  "longDescription": "<p>SurgeScript adalah bahasa skrip yang dirancang khusus untuk pembuatan game. Gunakan SurgeScript untuk mengekspresikan kreativitas Anda dan membangun konten interaktif yang luar biasa! SurgeScript sangat menyenangkan digunakan, dengan fitur-fitur sebagai berikut:</p>\n<ul>\n  <li>Pola state-machine: setiap objek merupakan mesin keadaan, sehingga memudahkan pembuatan entitas dalam game</li>\n  <li>Pendekatan komposisi: Anda dapat merancang objek dan perilaku kompleks melalui komposisi</li>\n  <li>Sistem hierarki: objek memiliki induk dan dapat memiliki anak, membentuk struktur pohon</li>\n  <li>Game loop: didefinisikan secara implisit</li>\n  <li>Pengelolaan memori otomatis (garbage collection), penandaan objek, dan fitur lainnya!</li>\n</ul>\n<p>SurgeScript cocok digunakan untuk game dan aplikasi interaktif. Mudah diintegrasikan ke kode yang sudah ada, mudah untuk dikembangkan, memiliki sintaks mirip C, serta tersedia gratis dan open source.</p>\n"
+}

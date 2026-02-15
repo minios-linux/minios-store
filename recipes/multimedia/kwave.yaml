@@ -1,0 +1,42 @@
+id: "kwave"
+name: Kwave
+description: Kwave is a sound editor built on KDE Frameworks 5
+longDescription: |
+  <p>With Kwave you can record, play back, import and edit many sorts of audio files including multi channel files.</p>
+  <p>Kwave includes some plugins to transform audio files in several ways and presents a graphical view with a complete zoom- and scroll capability.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kwave
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kwave.desktop/1c724f97ab537680924d3e92a5709615/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kwave.desktop/1c724f97ab537680924d3e92a5709615/screenshots/image-1_624x501.png
+    width: 688
+    height: 553
+iconSources:
+  - url: org/kde/kwave.desktop/1c724f97ab537680924d3e92a5709615/icons/128x128/kwave_kwave.png
+    width: 128
+    height: 128
+homepage: "http://kwave.sourceforge.net/"
+enabled: true
+order: 99

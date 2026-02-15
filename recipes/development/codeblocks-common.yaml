@@ -1,0 +1,47 @@
+id: codeblocks-common
+name: "Code::Blocks IDE"
+description: Configurable and extensible IDE
+longDescription: |
+  <p>
+       Code::Blocks is a highly extensible Integrated Development Environment (IDE) for the C, C++ and Fortran programming
+  languages. It features support for a wide range of compilers, parallel builds, multi-target projects, and also provides an interface with GNU GDB.
+      </p>
+  <p>
+      The code editor in Code::Blocks features: syntax highlighting, code folding, a tabbed interface, code completion,
+  a class browser and smart indenting.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - codeblocks-common
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: c/co/codeblocks.desktop/7E99F6E78A0F232818AFE44CBF422A3B/screenshots/image-1_orig.png
+    thumbnailUrl: c/co/codeblocks.desktop/7E99F6E78A0F232818AFE44CBF422A3B/screenshots/image-1_624x514.png
+    width: 727
+    height: 600
+iconSources:
+  - cached: codeblocks-common_codeblocks.png
+    width: 64
+    height: 64
+developer: "The Code::Blocks team"
+homepage: "http://www.codeblocks.org/"
+enabled: true
+order: 99

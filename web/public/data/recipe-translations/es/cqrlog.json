@@ -1,0 +1,5 @@
+{
+  "name": "CQRLOG",
+  "description": "Programa avanzado de registro para radioaficionados",
+  "longDescription": "<p>CQRLOG es un avanzado software de registro para radioaficionados basado en una base de datos MySQL integrada. Ofrece control de radios mediante las bibliotecas hamlib (actualmente compatible con más de 140 tipos y modelos de radios), conexión a cluster DX, acceso al callbook de HamQTH/QRZ (XML), visualización de línea gris, soporte para la gestión interna de QSL y un algoritmo de resolución de países altamente preciso basado en tablas desarrolladas por OK1RR. CQRLOG está diseñado para el registro diario general de contactos en HF, CW y SSB, con un enfoque especial en la facilidad de uso y mantenimiento.</p>\n"
+}

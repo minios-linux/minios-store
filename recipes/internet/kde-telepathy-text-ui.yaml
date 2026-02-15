@@ -1,0 +1,37 @@
+id: "kde-telepathy-text-ui"
+name: KDE IM Log Viewer
+description: Displays your KDE Instant Messenger logs
+longDescription: |
+  <p>This package provides a telepathy handler for text channels, a program that in other words allows you to chat with your contacts using instant text messages.</p>
+  <p>In addition, this package also provides a UI for viewing telepathy text chat logs.</p>
+  <p>This package is not meant to be used standalone. It is recommended to install the kde-telepathy metapackage instead.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kde-telepathy-text-ui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: org/kde/ktplogviewer/d917f52d840f5896ae92e67c00de18f1/icons/128x128/kde-telepathy-text-ui_kde-im-log-viewer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

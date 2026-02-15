@@ -1,0 +1,23 @@
+id: mysql-workbench
+name: MySQL Workbench
+description: "MySQL Database Design, Administration and Development Tool"
+longDescription: |
+  <p>MySQL Workbench is a modeling tool that allow to design and generate MySQL databases graphically. It also has administration and query development modules where you can manage MySQL server instances and execute SQL queries.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mysql-workbench
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: mysql-workbench_mysql-workbench.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

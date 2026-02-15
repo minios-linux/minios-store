@@ -1,0 +1,44 @@
+id: nikwi
+name: Nikwi Deluxe
+description: Platform game where your goal is to collect candies
+longDescription: |
+  <p>You play the role of a 9 year old boy in his absolute dream: a world made of sweets! Guide Nikwi through his dream to eat everything in each of the 30 levels, while you avoid the monsters who try to turn Nikwi&apos;s dream into a nightmare.</p>
+  <p>Nikwi features hours of gameplay in 30 sweet-themed levels made of five candy themes, more than 10 different monsters and obstacles -each one with it&apos;s own unique behaviour- and new gameplay elements in every theme.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nikwi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - platform
+  - candies
+  - jump
+  - run
+  - arcade
+iconSources:
+  - cached: nikwi_nikwi.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

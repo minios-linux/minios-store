@@ -1,0 +1,5 @@
+{
+  "name": "zEscrow",
+  "description": "Respaldo de la configuración y frases de montaje de eCryptfs",
+  "longDescription": "<p>zescrow-client proporciona la utilidad zescrow (anteriormente ecryptfs-escrow-private), que puede utilizarse para subir una copia de seguridad de una configuración de eCryptfs Home cifrada o eCryptfs Private cifrada a un servidor compatible con zEscrow.</p>\n<p>zEscrow.gazzang.com es uno de estos servidores compatibles, una implementación de software libre AGPL disponible en https://launchpad.net/zEscrow.</p>\n<p>zEscrow realizará las siguientes acciones:  - solicitar el servidor zEscrow que desees utilizar  - recuperar la clave pública GPG de ese servidor zEscrow  - solicitar tu frase de acceso  - utilizar tu frase de acceso para descifrar la frase de montaje  - crear un archivo tar de tu directorio ~/.ecryptfs y la frase de montaje descifrada  - cifrar ese archivo con la clave pública del servidor zEscrow  - cargar tu archivo cifrado al servidor zEscrow  - mostrar una URL y ofrecer abrir un navegador, donde deberás asociar una cuenta de Google y una dirección de correo electrónico con tu respaldo</p>\n"
+}

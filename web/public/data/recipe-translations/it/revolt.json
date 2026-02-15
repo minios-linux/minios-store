@@ -1,0 +1,5 @@
+{
+  "name": "Revolt",
+  "description": "Integrazione avanzata di Riot, client Matrix, con gli ambienti desktop",
+  "longDescription": "<p>Revolt è una piccola applicazione che incapsula Riot per offrire una migliore integrazione con gli ambienti desktop in generale, e con GNOME in particolare:</p>\n<ul>\n  <li>Consente di utilizzare Riot come applicazione “standalone” invece che come semplice scheda del browser</li>\n  <li>Notifiche persistenti (per gli ambienti desktop che le supportano, ad esempio GNOME)</li>\n  <li>Le notifiche vengono automaticamente silenziate quando la finestra di Revolt è in primo piano</li>\n  <li>Icona di stato nell’area di sistema per gli ambienti desktop che dispongono di un'apposita tray bar (come XFCE, Budgie e molti altri)</li>\n</ul>\n"
+}

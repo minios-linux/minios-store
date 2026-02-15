@@ -1,0 +1,47 @@
+id: "akregator"
+name: Akregator
+description: A news feed reader
+longDescription: |
+  <p>Akregator is a news feed reader for the KDE desktop. It enables you to follow news sites, blogs and other RSS/Atom-enabled websites without the need to manually
+        check for updates using a web browser. Akregator is designed to be both easy to use and to be powerful enough to
+  read hundreds of news sources conveniently.
+        It comes with Konqueror integration for adding news feeds and with an internal browser for easy news reading.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - akregator
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/akregator/c0e863ea777eefdde05f937a372bdc08/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/akregator/c0e863ea777eefdde05f937a372bdc08/screenshots/image-1_624x495@1.png
+    width: 988
+    height: 785
+iconSources:
+  - url: org/kde/akregator/c0e863ea777eefdde05f937a372bdc08/icons/128x128/akregator_akregator.png
+    width: 128
+    height: 128
+developer: The KDE Community
+homepage: "http://akregator.kde.org/"
+enabled: true
+order: 99

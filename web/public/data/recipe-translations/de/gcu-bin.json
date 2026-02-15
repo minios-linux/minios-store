@@ -1,0 +1,5 @@
+{
+  "name": "GChemTable",
+  "description": "Eine Mendelejew-Periodentabelle der chemischen Elemente",
+  "longDescription": "<p>Die GNOME Chemistry Utils bieten C++-Klassen und Gtk+-2-Widgets für Anwendungen aus dem Bereich Chemie. Sie werden in zukünftigen Versionen von gcrystal und gchempaint eingesetzt.</p>\n<p>Dieses Paket enthält vier Anwendungen:</p>\n<p> * Einen Betrachter für Molekülstrukturen (GChem3D)  * Einen Rechner für molare Massen (GChemCalc)  * Eine Periodentabelle der Elemente (GChemTable)  * Einen Spektrenbetrachter (GSpectrum)</p>\n"
+}

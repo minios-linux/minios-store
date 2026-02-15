@@ -1,0 +1,25 @@
+id: dhcpcd-gtk
+name: Network Configurator
+description: Configure and monitor your network connections
+longDescription: |
+  <p>dhcpcd-gtk sits in the notification area and notifies you of changes to your IPv4 network configuration from dhcpcd and wpa_supplicant.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dhcpcd-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: d/dh/dhcpcd-gtk.desktop/30D5F03BF040CCB5F0B676F5BC019EA1/icons/128x128/dhcpcd-gtk_dhcpcd.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

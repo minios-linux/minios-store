@@ -1,0 +1,102 @@
+id: "musescore3"
+name: MuseScore
+description: "Create, playback, and print sheet music for free"
+longDescription: |
+  <p>Create, playback, and print sheet music for free. MuseScore is cross-platform, multi-lingual, open source music notation software. It features an easy to use WYSIWYG editor with audio score playback for results that look and sound beautiful. It supports unlimited staves with up to four voices each, dynamics, articulations, lyrics, chords, lead sheet notation, import/export of MIDI and MusicXML, export to PDF and WAV, plus online score sharing.</p>
+  <p>MuseScore can upload scores directly to the score sharing site musescore.com. Program support is provided on musescore.org.</p>
+  <p>Features supported by MuseScore include:</p>
+  <ul>
+    <li>Unlimited score length</li>
+    <li>Unlimited number of staves per system</li>
+    <li>Up to four independent voices per staff</li>
+    <li>Score creation wizard and templates</li>
+    <li>Automatic part extraction and transposition</li>
+    <li>Repeats, including segnos, codas, and measure repeats</li>
+    <li>Dynamics, articulations, and other expression markings, with playback support for most</li>
+    <li>Custom text markings</li>
+    <li>Lyrics</li>
+    <li>Chord symbols</li>
+    <li>Jazz notation, including lead sheets, slash notation and a “handwritten” font for text</li>
+    <li>Swing and shuffle playback</li>
+    <li>Mixer for instrument levels and effects</li>
+    <li>Percussion notation</li>
+    <li>Early music notation</li>
+    <li>Cross-staff beaming</li>
+    <li>Import of graphics</li>
+    <li>Custom key signatures</li>
+    <li>Additive time signatures</li>
+    <li>User-defined score styles</li>
+  </ul>
+  <p>Most elements in MuseScore are laid out automatically but can also be positioned manually. The capabilities of MuseScore can be extended via plugins, and the growing repository on musescore.org contains many plugins submitted by users.</p>
+  <p>MuseScore includes a set of sounds that reproduce common instruments (as defined by General MIDI) without taking up a lot of disk space or memory, but you can also substitute any SoundFont you prefer for a wider variety of sounds or for more realism.</p>
+  <p>MuseScore can import and export MIDI and MusicXML files, and it can also import from Capella and several other programs. MuseScore can export to PDF, PNG, and other graphic formats, to WAV and other audio formats, or to Lilypond for an alternative layout and print option.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - musescore3
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - notation
+  - composition
+  - composing
+  - arranging
+  - making
+  - sheet music
+  - music notation software
+  - lead sheet
+  - leadsheet
+screenshotSources:
+  - url: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-1_orig.png
+    thumbnailUrl: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-1_624x496.png
+    width: 700
+    height: 557
+  - url: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-2_orig.png
+    thumbnailUrl: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-2_624x350.png
+    width: 1366
+    height: 768
+  - url: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-3_orig.png
+    thumbnailUrl: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-3_624x350.png
+    width: 1366
+    height: 768
+  - url: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-4_orig.png
+    thumbnailUrl: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-4_624x350.png
+    width: 1366
+    height: 768
+  - url: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-5_orig.png
+    thumbnailUrl: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-5_624x350.png
+    width: 1366
+    height: 768
+  - url: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-6_orig.png
+    thumbnailUrl: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-6_624x439.png
+    width: 878
+    height: 619
+  - url: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-7_orig.png
+    thumbnailUrl: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/screenshots/image-7_624x350.png
+    width: 1366
+    height: 768
+iconSources:
+  - url: org/musescore/MuseScore3/e1457abab3c920789239fc7e3c5da12f/icons/128x128/musescore3_mscore3.png
+    width: 128
+    height: 128
+developer: MuseScore BVBA
+homepage: "https://musescore.org"
+enabled: true
+order: 99

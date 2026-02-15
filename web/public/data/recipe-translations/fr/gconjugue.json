@@ -1,0 +1,5 @@
+{
+  "name": "GConjugue",
+  "description": "Conjugue les verbes portugais",
+  "longDescription": "<p>Application graphique pour conjuguer les verbes portugais du Brésil.</p>\n<p>Si l’expression saisie n’est pas un verbe, GConjugue tente de la retrouver parmi les formes conjuguées des verbes connus. Il offre également la possibilité de conjuguer les verbes tel qu’ils sont employés dans le portugais courant du Brésil. Même si les usages varient selon les régions et s’éloignent parfois de la grammaire normative, la conjugaison affichée aide les non-natifs à comprendre comment s’expriment les Brésiliens.</p>\n<p>Ce logiciel propose une interface graphique pour l’outil en ligne de commande « conjugue » (paquet brazilian-conjugate). Vous pouvez aussi utiliser « conjugar », la version en mode texte de gconjugue.</p>\n"
+}

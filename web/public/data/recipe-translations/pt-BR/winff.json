@@ -1,0 +1,5 @@
+{
+  "name": "WinFF",
+  "description": "Interface gráfica para ffmpeg ou avconv",
+  "longDescription": "<p>O WinFF é uma interface gráfica para FFmpeg ou avconv. Ele converte praticamente qualquer arquivo de vídeo que o FFmpeg ou avconv seja capaz de processar. O WinFF permite converter múltiplos arquivos em diversos formatos simultaneamente. Por exemplo, é possível transformar arquivos mpeg, flv e mov em avi (ou nos formatos DVD/VCD, MPEG, 3gp, entre outros), tudo de uma só vez.</p>\n<p>O WinFF oferece diversos perfis de conversão pré-configurados para formatos e dispositivos populares. Esses perfis são otimizados para alcançar o melhor equilíbrio entre desempenho e qualidade para cada codec.</p>\n<p>Para que a maioria desses perfis funcione, é necessário ter instalada a versão completa do pacote libavcodec – para isso, basta instalar o libavcodec-extra, como recomendado pelo próprio WinFF. Pode ser preciso habilitar repositórios adicionais para localizar esse pacote.</p>\n"
+}

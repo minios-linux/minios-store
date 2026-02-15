@@ -1,0 +1,30 @@
+id: freefilesync
+name: FreeFileSync
+description: Folder Comparison and Synchronization
+longDescription: |
+  <p>FreeFileSync is a folder comparison and synchronization software that creates and manages backup copies of all your important files. Instead of copying every file every time, FreeFileSync determines the differences between a source and a target folder and transfers only the minimum amount of data needed. FreeFileSync is Open Source software, available for Windows, Linux and macOS.</p>
+  <p>This is the &quot;GPL release&quot; which uses the sources as published by the author, as opposed to the &quot;FreeFileSync Donation Edition&quot;.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freefilesync
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - backup copy
+iconSources:
+  - url: f/fr/freefilesync.desktop/dbc1622c76858cf1e9066a153dfb7275/icons/128x128/freefilesync_FreeFileSync.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

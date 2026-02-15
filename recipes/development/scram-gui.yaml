@@ -1,0 +1,41 @@
+id: "scram-gui"
+name: SCRAM
+description: Probabilistic risk analysis tool
+longDescription: |
+  <p>The complementary SCRAM GUI front-end for visualization and manipulation of risk analysis models and reports.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - scram-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - science
+  - education
+  - engineering
+iconSources:
+  - url: s/sc/scram-gui.desktop/b1edea597875fa9e4130c0eac08070dc/icons/128x128/scram-gui_scram.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

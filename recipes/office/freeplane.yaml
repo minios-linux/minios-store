@@ -1,0 +1,44 @@
+id: "freeplane"
+name: Freeplane
+description: A free tool to structure and organise your information with mind mapping
+longDescription: |
+  <p>Freeplane is a free and open source software application that supports thinking, sharing information and getting things done at work, in school and at home. The core of the software is tools for mind mapping (also known as concept mapping or information mapping) and using mapped information.</p>
+  <p>Occupying the middle ground between an editor and a diagramming tool, Freeplane allows the user to add content as quickly and naturally as they would in a text editor, yet producing structured content that can be manipulated as easily as a diagram.</p>
+  <p>Features include ordering ideas in nodes and freely positionable nodes, connecting nodes, automatic/conditional styles, scripting, add-ons, LaTeX, search/filtering, different export features, printing, password protection of nodes/maps and more.</p>
+  <p>See http://freeplane.sourceforge.net/wiki/index.php/Main_Page for a full list of applications and features.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freeplane
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - mindmaps
+  - knowledge management
+  - organize information
+  - brainstorming
+  - ...
+iconSources:
+  - cached: freeplane_freeplane.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

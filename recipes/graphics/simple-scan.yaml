@@ -1,0 +1,52 @@
+id: "simple-scan"
+name: Simple Scan
+description: Scan Documents
+longDescription: |
+  <p>A really easy way to scan both documents and photos.
+        You can crop out the bad parts of a photo and rotate it if it is the wrong way round.
+        You can print your scans, export them to pdf, or save them in a range of image formats.</p>
+  <p>Simple Scan uses the SANE framework to support most existing scanners.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - simple-scan
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - scan
+  - scanner
+  - flatbed
+  - adf
+screenshotSources:
+  - url: org/gnome/SimpleScan/5e8c9a753c45b12f50761267b6c475f9/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/SimpleScan/5e8c9a753c45b12f50761267b6c475f9/screenshots/image-1_624x524@1.png
+    width: 722
+    height: 607
+iconSources:
+  - url: org/gnome/SimpleScan/5e8c9a753c45b12f50761267b6c475f9/icons/128x128/simple-scan_org.gnome.SimpleScan.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://gitlab.gnome.org/GNOME/simple-scan"
+enabled: true
+order: 99

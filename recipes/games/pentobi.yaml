@@ -1,0 +1,79 @@
+id: "pentobi"
+name: Pentobi
+description: Computer opponent for the board game Blokus
+longDescription: |
+  <p>Pentobi is a computer opponent for the board game Blokus. It has a
+      strong Blokus engine with 9 different playing levels. The supported game
+      variants are: Classic, Duo, Trigon, Junior, Nexos, Callisto, GembloQ.</p>
+  <p>Players can determine their strength by playing rated games against the
+      computer and use a game analysis function. Games can be saved in Smart Game
+      Format with comments and move variations.</p>
+  <p>System requirements: 1 GB RAM, 1 GHz CPU (4 GB RAM, 2.5 GHz dual-core or
+      faster CPU recommended for playing level 9).</p>
+  <p>Trademark disclaimer: The trademark Blokus and other trademarks referred
+      to are property of their respective trademark holders. The trademark
+      holders are not affiliated with the author of the program Pentobi.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pentobi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - blokus
+  - blokus duo
+  - blokus trigon
+  - blokus junior
+  - nexos
+  - callisto
+  - gemblo q
+  - gembloq
+screenshotSources:
+  - url: io/sourceforge/pentobi/402f4b764fda58224b0d8c57c058d487/screenshots/image-1_orig.png
+    thumbnailUrl: io/sourceforge/pentobi/402f4b764fda58224b0d8c57c058d487/screenshots/image-1_624x391@1.png
+    width: 1000
+    height: 627
+  - url: io/sourceforge/pentobi/402f4b764fda58224b0d8c57c058d487/screenshots/image-2_orig.png
+    thumbnailUrl: io/sourceforge/pentobi/402f4b764fda58224b0d8c57c058d487/screenshots/image-2_624x391@1.png
+    width: 1000
+    height: 627
+  - url: io/sourceforge/pentobi/402f4b764fda58224b0d8c57c058d487/screenshots/image-3_orig.png
+    thumbnailUrl: io/sourceforge/pentobi/402f4b764fda58224b0d8c57c058d487/screenshots/image-3_624x391@1.png
+    width: 1000
+    height: 627
+  - url: io/sourceforge/pentobi/402f4b764fda58224b0d8c57c058d487/screenshots/image-4_orig.png
+    thumbnailUrl: io/sourceforge/pentobi/402f4b764fda58224b0d8c57c058d487/screenshots/image-4_624x391@1.png
+    width: 1000
+    height: 627
+  - url: io/sourceforge/pentobi/402f4b764fda58224b0d8c57c058d487/screenshots/image-5_orig.png
+    thumbnailUrl: io/sourceforge/pentobi/402f4b764fda58224b0d8c57c058d487/screenshots/image-5_624x391@1.png
+    width: 1000
+    height: 627
+iconSources:
+  - url: io/sourceforge/pentobi/402f4b764fda58224b0d8c57c058d487/icons/128x128/pentobi_pentobi.png
+    width: 128
+    height: 128
+developer: Markus Enzenberger
+homepage: "https://pentobi.sourceforge.io/"
+enabled: true
+order: 99

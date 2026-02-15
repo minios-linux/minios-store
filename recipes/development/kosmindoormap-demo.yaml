@@ -1,0 +1,24 @@
+id: kosmindoormap-demo
+name: KDE OSM Indoor Map
+description: OSM indoor map demo application
+longDescription: |
+  <p>Open Street Map indoor map renderer of for example a (large) train station.</p>
+  <p>Contains a demo application.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kosmindoormap-demo
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: org/kde/kosmindoormap/cf597d53832900c2544166fcff1f7e14/icons/128x128/kosmindoormap-demo_go-home.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Alsaplayer",
+  "description": "Lecteur audio polyvalent pour l’architecture Audio Linux Sound (ALSA)",
+  "longDescription": "<p>Alsaplayer est un lecteur PCM conçu spécialement pour une utilisation avec ALSA, mais il fonctionne aussi très bien avec OSS ou EsounD. Son architecture fortement threadée réduit les coupures, il propose des visualisations optionnelles (voire simultanées) et prend en charge les formats mp3, mp2, ogg, cdda, audiofs, et bien d’autres.</p>\n<p>Ce paquet contient le programme principal alsaplayer et nécessite au moins un plugin d’interface et un plugin de sortie. Par défaut, l’interface GTK+ et la sortie alsa seront installées.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "usbrelay",
+  "description": "Controllo relè elettrici via USB, basato su hidapi",
+  "longDescription": "<p>\n      Una piccola utility per gestire relè basati su USB HID, utilizzabili per l'automazione domestica o altre esigenze di commutazione. I dispositivi sono disponibili da diversi fornitori e supportano fino a 10A 250VAC.\n    </p>\n<p>\n      Un esempio d'uso sono gli interruttori di alimentazione controllabili via USB. Puoi utilizzare tali interruttori per gestire l'alimentazione di un hard disk esterno, ad esempio per scopi di backup.\n    </p>\n"
+}

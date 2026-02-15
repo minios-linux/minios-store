@@ -1,0 +1,5 @@
+{
+  "name": "tuned-gui",
+  "description": "Interface GTK pour contrôler le démon Tuned et éditer facilement les profils",
+  "longDescription": "<p>Le paquet tuned inclut un démon qui ajuste dynamiquement les paramètres système. Il surveille périodiquement l’utilisation de plusieurs composants du système et adapte leur mode d’économie d’énergie en fonction de l’activité, pour une gestion optimale des ressources. Actuellement, seuls les périphériques réseau Ethernet et les disques durs ATA sont pris en charge.</p>\n<p>Ce paquet propose une interface graphique GTK+ permettant de contrôler Tuned et d’éditer simplement les profils.</p>\n"
+}

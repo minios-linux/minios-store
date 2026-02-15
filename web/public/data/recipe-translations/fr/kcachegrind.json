@@ -1,0 +1,5 @@
+{
+  "name": "KCachegrind",
+  "description": "Visualisation des données de profilage des performances",
+  "longDescription": "<p>KCachegrind est un outil de visualisation des données de profilage générées par calltree, un outil d’analyse mémoire pour valgrind. N’importe quel exécutable peut être analysé avec calltree sans recompilation, y compris les applications multithreadées, les bibliothèques partagées et les plugins.</p>\n<p>Pour visualiser les résultats provenant d’outils de profilage autres que Valgrind, plusieurs convertisseurs sont disponibles dans le paquet kcachegrind-converters.</p>\n<p>Ce paquet fait partie du module Kit de développement logiciel (SDK) KDE.</p>\n"
+}

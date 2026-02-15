@@ -1,0 +1,5 @@
+{
+  "name": "jstest-gtk",
+  "description": "Werkzeug zur Joystick-Prüfung und -Konfiguration",
+  "longDescription": "<p>jstest-gtk ist ein einfaches grafisches Testprogramm für Joysticks. Es listet alle angeschlossenen Joysticks auf und zeigt bei jedem an, welche Tasten und Achsen aktiviert sind. Zudem können Achsen und Tasten neu belegt sowie das Gerät kalibriert werden.</p>\n<p>Selbst wenn Ihr Joystick größtenteils funktioniert, lohnt sich ein Test, da Sie mit der Kalibrierung übermäßig große Standard-Totzonen korrigieren können, die bei vielen Joysticks auftreten und in manchen Spielen problematisch sind.</p>\n<p>Wenn Sie zusätzlich das Paket \"joystick\" installieren, können Sie Ihre Kalibrierungseinstellungen und Belegungen speichern und automatisch wiederherstellen lassen.</p>\n"
+}

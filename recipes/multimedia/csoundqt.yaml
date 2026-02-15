@@ -1,0 +1,34 @@
+id: "csoundqt"
+name: CsoundQt
+description: "CsoundQt is a frontend for Csound featuring a highlighting editor with autocomplete, interactive widgets and integrated help."
+longDescription: |
+  <p>CsoundQT is a simple cross platform editor and front-end for Csound with syntax highlighting, interactive help and automatic launching of Csound.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - csoundqt
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+iconSources:
+  - url: c/cs/csoundqt.desktop/75d13fcbdbb741a470dada1b37d82276/icons/128x128/csoundqt_csoundqt.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

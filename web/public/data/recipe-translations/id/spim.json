@@ -1,0 +1,5 @@
+{
+  "name": "xSPIM",
+  "description": "Emulator grafis untuk bahasa Assembly MIPS32",
+  "longDescription": "<p>Mengemulasikan prosesor MIPS R2000/R3000 secara perangkat lunak. Berguna bagi mahasiswa yang mempelajari assembly MIPS R2000/R3000.</p>\n<p>SPIM S20 adalah simulator perangkat lunak yang menjalankan program bahasa assembly untuk komputer RISC MIPS R2000/R3000. SPIM dapat membaca dan langsung menjalankan file yang berisi instruksi assembly. SPIM adalah sistem mandiri untuk menjalankan program-program ini, dilengkapi dengan debugger dan antarmuka ke sistem operasi.</p>\n"
+}

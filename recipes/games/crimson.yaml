@@ -1,0 +1,43 @@
+id: "crimson"
+name: Crimson Fields
+description: Lead your troops to victory
+longDescription: |
+  <p>Crimson Fields is a hex-based tactical war game in the tradition of Battle Isle (tm). Two players command their units on a map of hexagons, trying to accomplish mission objectives ranging from defending important locations to simply destroying all enemy forces. The game can either be played in &apos;hot seat&apos; mode, via email, or against the computer. Tools are available to create custom maps and campaigns. You can also play the original Battle Isle maps if you have a copy of the game.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - crimson
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - battle
+  - isle
+  - hex
+  - fields
+  - troops
+iconSources:
+  - cached: crimson_crimson.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

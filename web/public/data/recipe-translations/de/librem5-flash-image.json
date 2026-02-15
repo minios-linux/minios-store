@@ -1,0 +1,5 @@
+{
+  "name": "librem5-flash-image",
+  "description": "Tool zum Flashen von Images für Librem 5 Geräte",
+  "longDescription": "<p>\n      Skripte zur Arbeit mit dem Librem 5 und dem\n      Librem 5 Devkit.\n      <br>\n      Diese Tools werden auf dem Host-System verwendet (also dem Rechner,\n      von dem aus das Image geflasht wird). Sie sind nicht für den Einsatz\n      direkt auf dem Librem 5 oder dem Devkit gedacht.\n    </p>\n"
+}

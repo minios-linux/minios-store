@@ -1,0 +1,5 @@
+{
+  "name": "FAUmachine",
+  "description": "menjalankan mesin virtual FAUmachine",
+  "longDescription": "<p>FAUmachine adalah mesin virtual yang dapat mensimulasikan perangkat keras PC seperti QEMU. Fokus utamanya adalah meniru perangkat keras secara nyata sedekat mungkin.</p>\n<p>FAUmachine memiliki kemampuan untuk menyuntikkan gangguan (fault) ke berbagai simulator perangkat keras, misalnya untuk menyuntikkan gangguan sesaat atau sementara ke disk atau memori yang disimulasikan.</p>\n<p>FAUmachine juga dilengkapi pengendali eksperimen yang memungkinkan pengujian otomatis, seperti menginstal sistem operasi dari file ISO.</p>\n"
+}

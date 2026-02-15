@@ -1,0 +1,42 @@
+id: "psk31lx"
+name: psk31lx
+description: PSK31 for Linux with a ncurses interface
+longDescription: |
+  <p>psk31lx is a simple text-based terminal program with a built-in phase scope and spectrum analyzer to aid in signal tuning. It uses a sound card to receive and transmit PSK31 tone.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - psk31lx
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - ham
+  - radio
+  - teletype
+  - digital
+  - radioteletype
+  - data
+  - communication
+  - mode
+iconSources:
+  - cached: psk31lx_psk31lx.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Avogadro",
+  "description": "Sistema de Gráficos e Modelagem Molecular",
+  "longDescription": "<p>Avogadro é um sistema de gráficos e modelagem molecular voltado para moléculas e biomoléculas. Permite visualizar propriedades como orbitais moleculares ou potenciais eletrostáticos e conta com um construtor molecular intuitivo.</p>\n<p>Entre os recursos estão:  * Modelador molecular com otimização geométrica automática baseada em campos de força  * Mecânica molecular incluindo restrições e busca de conformações  * Visualização de orbitais moleculares e iso-superfícies gerais  * Visualização de vibrações e plotagem de espectros vibracionais  * Suporte para células unitárias cristalográficas  * Geração de arquivos de entrada para os pacotes de química quântica Gaussian, GAMESS e MOLPRO  * Arquitetura flexível de plugins e scripting em Python</p>\n<p>Os formatos de arquivo suportados pelo Avogadro incluem PDB, XYZ, CML, CIF, Molden, além de saída dos programas Gaussian, GAMESS e MOLPRO.</p>\n"
+}

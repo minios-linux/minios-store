@@ -1,0 +1,26 @@
+id: freediams
+name: FreeDiams
+description: Pharmaceutical drugs prescriptor assistant
+longDescription: |
+  <p>The FreeMedForms project provides a set of medical applications to help health professionals in their day-to-day practice. It is developed by an international community of medical doctors and computer specialists.</p>
+  <p>FreeDiams is a pharmaceutical drug prescription assistant which can be used to create complex prescriptions and to handle drug interactions.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freediams
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: freediams_freediams.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

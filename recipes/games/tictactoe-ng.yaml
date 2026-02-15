@@ -1,0 +1,25 @@
+id: tictactoe-ng
+name: Tic Tac Toe
+description: "Simple, fun tic tac toe game for GNOME"
+longDescription: |
+  <p>Tic Tac Toe (naughts &amp; crosses) is a simple two player game where the object is to place your shapes on the game board so that you get three in a row either horizontally, vertically, or across one of the diagonals while trying to block your opponent from doing the same.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tictactoe-ng
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/ti/tictactoe-ng.desktop/D561959E17477FFCA344E84C22B58C18/icons/128x128/tictactoe-ng_tictactoe.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

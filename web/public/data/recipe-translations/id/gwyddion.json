@@ -1,0 +1,5 @@
+{
+  "name": "Gwyddion",
+  "description": "Visualisasi dan analisis data SPM",
+  "longDescription": "<p>Gwyddion adalah program modular untuk visualisasi dan analisis data Scanning Probe Microscopy (SPM). Utamanya digunakan untuk analisis data ketinggian (height field) yang diperoleh dari berbagai teknik mikroskopi seperti:  * Atomic Force Microscopy (AFM),  * Magnetic Force Microscopy (MFM),  * Scanning Tunneling Microscopy (STM),  * Near-field Scanning Optical Microscopy (SNOM atau NSOM), dan lain-lain. Namun, aplikasi ini juga dapat digunakan untuk analisis bidang ketinggian dan gambar lainnya secara umum.</p>\n<p>Paket ini berisi aplikasi utama beserta modul-modulnya. Termasuk juga GNOME (dan Xfce) thumbnailer untuk membuat pratinjau dari semua jenis file yang dikenali oleh Gwyddion.</p>\n"
+}

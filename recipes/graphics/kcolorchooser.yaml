@@ -1,0 +1,45 @@
+id: "kcolorchooser"
+name: KColorChooser
+description: Color selector and palette editor
+longDescription: |
+  <p>KColorChooser is a color palette tool, used to mix colors and create custom color palettes.  Using the dropper, it can obtain the color of any pixel on the screen.</p>
+  <p>A number of common color palettes are included, such as the standard Web colors and the Oxygen color scheme.</p>
+  <p>This package is part of the KDE graphics module.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kcolorchooser
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kcolorchooser.desktop/140c9fbf00e95cf04a0dd9c9214a6d9a/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kcolorchooser.desktop/140c9fbf00e95cf04a0dd9c9214a6d9a/screenshots/image-1_624x560@1.png
+    width: 679
+    height: 610
+iconSources:
+  - url: org/kde/kcolorchooser.desktop/140c9fbf00e95cf04a0dd9c9214a6d9a/icons/128x128/kcolorchooser_kcolorchooser.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/applications/graphics/kcolorchooser/"
+enabled: true
+order: 99

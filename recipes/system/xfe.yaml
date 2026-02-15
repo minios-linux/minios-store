@@ -1,0 +1,28 @@
+id: xfe
+name: Xfa
+description: A simple archive viewer and extractor for Xfe
+longDescription: |
+  <p>Xfe is based on the popular but discontinued X Win Commander. It is desktop independent and is written using the C++ Fox Toolkit. Its appearance is similar to the Windows file-manager Total Commander or Windows Explorer. It is very fast and simple.</p>
+  <p>The main features are: file associations, mount/umount devices, directory tree for quick cd, change file attributes, auto save registry, compressed archives view/creation/extraction, compatibility with GNOME/KDE/Xfce, and much more.</p>
+  <p>Containing a simple text editor (Xfwrite), image viewer (Xfimage) and package manager (Xfpack).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfe
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - archive viewer
+  - archive extractor
+iconSources:
+  - url: x/xf/xfa.desktop/f048e6029a717e2e908b333de4589da2/icons/128x128/xfe_xfa.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

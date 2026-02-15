@@ -1,0 +1,33 @@
+id: "xrdesktop"
+name: xrdesktop Settings
+description: Advanced Settings for xrdesktop
+longDescription: |
+  <p>library for XR interaction with classical desktop compositors.</p>
+  <p>This package includes the settings application.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xrdesktop
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - settings
+  - xr
+iconSources:
+  - url: org/xrdesktop/settings/a442c857bf8a2f1a373fc396666fdced/icons/128x128/xrdesktop_org.xrdesktop.settings.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

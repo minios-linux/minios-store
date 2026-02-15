@@ -1,0 +1,33 @@
+id: "powersupply-gtk"
+name: Powersupply
+description: Linux power subsystem debugger
+longDescription: |
+  <p>
+        An application that displays the state of various batteries and powersupplies in mobile platforms.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - powersupply-gtk
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: nl/brixit/powersupply/1628d30ff4be8b1a8fac8ef385841fc9/screenshots/image-1_orig.png
+    thumbnailUrl: nl/brixit/powersupply/1628d30ff4be8b1a8fac8ef385841fc9/screenshots/image-1_224x325@1.png
+    width: 285
+    height: 414
+iconSources:
+  - url: nl/brixit/powersupply/1628d30ff4be8b1a8fac8ef385841fc9/icons/128x128/powersupply-gtk_nl.brixit.powersupply.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.com/MartijnBraam/powersupply"
+enabled: true
+order: 99

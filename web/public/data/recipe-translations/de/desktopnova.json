@@ -1,0 +1,5 @@
+{
+  "name": "DesktopNova",
+  "description": "Wechselt automatisch das Hintergrundbild",
+  "longDescription": "<p>DesktopNova ändert das Hintergrundbild des Desktops nach einer einstellbaren Zeit automatisch. Es kann Bilder aus einzelnen Dateien oder aus Verzeichnissen (mit oder ohne Unterordner) auswählen. Eine Autostart-Funktion ist ebenfalls integriert.</p>\n<p>Dieses Paket enthält die grafische Benutzeroberfläche und den Hintergrunddienst.</p>\n<p>Mindestens ein Modul wird benötigt. Ohne Modul funktioniert dieses Paket nicht wie erwartet! Siehe Pakete desktopnova-module-*.</p>\n<p>Es ist außerdem ein zusätzliches Tray-Icon verfügbar. Siehe Paket desktopnova-tray.</p>\n"
+}

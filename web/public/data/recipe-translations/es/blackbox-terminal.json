@@ -1,0 +1,5 @@
+{
+  "name": "Black Box",
+  "description": "Un terminal GTK 4 elegante y moderno",
+  "longDescription": "<p>\n      Black Box es un emulador de terminal nativo para GNOME que ofrece excelentes\n      opciones de personalización visual.\n    </p>\n<p>Con Black Box puedes:</p>\n<ul>\n  <li>Configurar esquemas de color e integrarlos con el resto de la ventana</li>\n  <li>Personalizar la tipografía y el tamaño de la fuente</li>\n  <li>Configurar atajos de teclado</li>\n  <li>Renderizar secuencias de escape Sixel</li>\n  <li>Ocultar completamente la barra de título de la ventana</li>\n  <li>Abrir rápidamente enlaces y archivos con Ctrl+Clic sobre rutas y URLs</li>\n  <li>Pegar fácilmente rutas de archivos arrastrándolas a la ventana</li>\n</ul>\n<p>Esta aplicación está desarrollada en Vala y utiliza GTK 4, libadwaita y VTE.</p>\n"
+}

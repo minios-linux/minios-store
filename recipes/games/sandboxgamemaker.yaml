@@ -1,0 +1,35 @@
+id: sandboxgamemaker
+name: Platinum Arts Sandbox Gamemaker
+description: Create 3D games and worlds
+longDescription: |
+  <p>Platinum Arts Sandbox is an open source, easy-to-use, standalone 3D game maker and 3D game design program. It is currently based on the Cube 2 engine used in schools around the world that allows kids and adults to create their own video games, worlds, levels, adventures, and quests, even cooperatively. The goal is to make it accessible to kids but also powerful enough for full game projects.</p>
+  <p>This package contains the client and server binaries.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sandboxgamemaker
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - game
+  - rpg
+  - levels
+  - worlds
+  - quests
+  - adventures
+  - education
+  - school
+  - levels
+  - creator
+iconSources:
+  - url: s/sa/sandboxgamemaker.desktop/48ABEDE2784B5CD308667942668378EE/icons/128x128/sandboxgamemaker_sandboxgamemaker.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

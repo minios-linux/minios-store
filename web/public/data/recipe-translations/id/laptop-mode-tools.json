@@ -1,0 +1,5 @@
+{
+  "name": "Konfigurasi Laptop Mode Tools",
+  "description": "Aktifkan/nonaktifkan pengaturan Laptop Mode Tools",
+  "longDescription": "<p>Laptop mode adalah fitur kernel Linux yang memungkinkan laptop menghemat daya secara signifikan dengan membuat hard drive dapat berhenti berputar lebih lama. Paket ini berisi skrip tingkat pengguna yang dibutuhkan untuk mengaktifkan laptop mode.</p>\n<p>Paket ini mencakup dukungan untuk mengaktifkan laptop mode secara otomatis ketika komputer menggunakan baterai. Selain itu juga mendukung berbagai fitur manajemen daya lain, seperti memulai dan menghentikan daemon tergantung mode daya, hibernasi otomatis jika level baterai terlalu rendah, serta pengaturan pemadaman layar terminal dan layar X11.</p>\n<p>laptop-mode-tools memanfaatkan fitur Laptop Mode dari kernel Linux dan juga dapat digunakan pada Desktop maupun Server untuk menghemat daya.</p>\n"
+}

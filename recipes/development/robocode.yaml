@@ -1,0 +1,46 @@
+id: robocode
+name: Robocode
+description: Java programming game with battle tanks
+longDescription: |
+  <p>Robocode is a Java programming game where the goal is to develop a robot battle tank to battle against other tanks. The robot battles are running in real-time and on-screen. The motto of Robocode is: Build the best, destroy the rest!</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - robocode
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - programming
+  - robots
+  - ai
+  - battle
+  - tanks
+  - java
+  - development
+  - educational
+iconSources:
+  - cached: robocode_robocode.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

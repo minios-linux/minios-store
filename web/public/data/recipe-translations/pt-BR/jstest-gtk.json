@@ -1,0 +1,5 @@
+{
+  "name": "jstest-gtk",
+  "description": "Ferramenta para teste e configuração de joystick",
+  "longDescription": "<p>O jstest-gtk é um utilitário gráfico simples para testar joysticks. Ele mostra uma lista dos joysticks conectados e, para cada um, exibe quais botões e eixos estão pressionados, permite remapear eixos e botões, além de calibrar o dispositivo.</p>\n<p>Mesmo que seu joystick esteja funcionando normalmente, vale a pena testar, pois a calibração ajuda a eliminar as zonas mortas exageradas que muitos joysticks apresentam, o que pode afetar o desempenho em alguns jogos.</p>\n<p>A instalação do pacote joystick além deste permite salvar suas configurações de calibração e mapeamentos, restaurando-os automaticamente quando necessário.</p>\n"
+}

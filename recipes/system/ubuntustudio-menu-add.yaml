@@ -1,0 +1,30 @@
+id: ubuntustudio-menu-add
+name: Ubuntu Studio Menu Item Creator
+description: Add or modify menu items for the current user
+longDescription: |
+  <p>Utility for creating a menu item within the XDG menu for a user. It allows adding a script or other application to the XDG menu. It can also modify a menu item by creating a new version for the user. This utility does not change any of the system menu files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ubuntustudio-menu-add
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - settings
+  - desktopsettings
+iconSources:
+  - url: u/ub/ubuntustudio-menu-add.desktop/5FC8A5C555E36BD1B1ACA099B563FC00/icons/128x128/ubuntustudio-menu-add_menu-editor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

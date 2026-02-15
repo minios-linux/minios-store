@@ -1,0 +1,25 @@
+id: codeblocks
+name: "Code::Blocks IDE"
+description: Configurable and extensible IDE
+longDescription: |
+  <p>Code::Blocks is a cross-platform Integrated Development Environment (IDE). It is based on a self-developed plugin framework allowing unlimited extensibility. Most of its functionality is already provided by plugins. Plugins included in the base package are:    * Compiler frontend to many free compilers    * Debugger frontend for GDB    * Source formatter (based on AStyle)    * Wizard to create new C++ classes    * Code-completion / symbols-browser (work in progress)    * Default MIME handler    * Wizard to create new Code::Blocks plugins    * To-do list    * Extensible wizard based on scripts    * Autosave (saves your work in the unfortunate case of a crash)</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - codeblocks
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: c/co/codeblocks.desktop/47A2D401DF7FB4847E66D1E352BFE542/icons/128x128/codeblocks_codeblocks.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

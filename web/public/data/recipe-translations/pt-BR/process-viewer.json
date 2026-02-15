@@ -1,0 +1,5 @@
+{
+  "name": "Visualizador de Processos",
+  "description": "Uma interface gráfica para visualização de processos escrita em Rust",
+  "longDescription": "<p>\n      O Visualizador de Processos exibe o status atual dos seus processos\n      (uso de CPU e memória) e do seu sistema (uso de cada núcleo,\n      da RAM e temperatura dos componentes, se essa informação estiver disponível).\n    </p>\n"
+}

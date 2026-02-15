@@ -1,0 +1,46 @@
+id: "gparted"
+name: GParted
+description: "Create, reorganize, and delete partitions"
+longDescription: |
+  <p>GParted uses libparted to detect and manipulate devices and partition tables while several (optional) filesystem tools provide support for filesystems not included in libparted.</p>
+  
+categoryId: system
+icon: HardDrive
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gparted
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - partition
+screenshotSources:
+  - url: g/gp/gparted.desktop/a5bd42d0b2720cbf9c34e2f23fa48157/screenshots/image-1_orig.png
+    thumbnailUrl: g/gp/gparted.desktop/a5bd42d0b2720cbf9c34e2f23fa48157/screenshots/image-1_624x420@1.png
+    width: 777
+    height: 524
+iconSources:
+  - url: g/gp/gparted.desktop/a5bd42d0b2720cbf9c34e2f23fa48157/icons/128x128/gparted_gparted.png
+    width: 128
+    height: 128
+developer: The GParted Project
+homepage: "https://gparted.org"
+enabled: true
+order: 99

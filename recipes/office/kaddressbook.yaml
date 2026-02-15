@@ -1,0 +1,54 @@
+id: "kaddressbook"
+name: KAddressBook
+description: An address book manager
+longDescription: |
+  <p>KAddressBook stores all the personal details of your family, friends and other contacts.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Imports and exports to nearly every address book standard</li>
+    <li>Reads .vcf format files, and can import and export vCards and csv format files</li>
+    <li>Can use multiple LDAP servers</li>
+    <li>Configurable filters and powerful search capabilities</li>
+    <li>Integrates with other Kontact components, e.g. exporting Birthday reminders to KOrganizer</li>
+    <li>Capable of groupware integration</li>
+    <li>Powered by Akonadi</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kaddressbook
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kaddressbook.desktop/944b4d7a4c28e01914bdca3cd231f29c/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kaddressbook.desktop/944b4d7a4c28e01914bdca3cd231f29c/screenshots/image-1_624x459@1.png
+    width: 1228
+    height: 904
+iconSources:
+  - url: org/kde/kaddressbook.desktop/944b4d7a4c28e01914bdca3cd231f29c/icons/128x128/kaddressbook_kaddressbook.png
+    width: 128
+    height: 128
+developer: The KDE Community
+homepage: "https://kontact.kde.org/components/kaddressbook.html"
+enabled: true
+order: 99

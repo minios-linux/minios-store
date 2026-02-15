@@ -1,0 +1,5 @@
+{
+  "name": "Mastermind",
+  "description": "Quebre o código oculto!",
+  "longDescription": "<p>O objetivo deste jogo de tabuleiro é desvendar um código utilizando dicas sutis. O jogo é para 2 jogadores: o criador do código (o computador) e o decifrador. O computador gera uma combinação de 4 cores. O decifrador deve adivinhar esse padrão (ordem e cores) com o menor número de tentativas possível. A cada rodada, o decifrador tenta um padrão e o computador fornece um feedback posicionando pinos no quadro de pontuação. Um pino branco indica uma cor correta na posição errada; um pino colorido significa que tanto a cor quanto a posição estão corretas.</p>\n"
+}

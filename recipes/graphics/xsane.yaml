@@ -1,0 +1,40 @@
+id: "xsane"
+name: XSane
+description: "A program to work with scanner. Can be used as a scanning, copier, OCR, fax tools."
+longDescription: |
+  <p>xsane can be run as a stand-alone program or through the GIMP image manipulation program.  In stand-alone mode, xsane can save an image to a file in a variety of image formats, serve as a frontend to a fax program, or send an image to a printer.</p>
+  <p>SANE stands for &quot;Scanner Access Now Easy&quot; and is an application programming interface (API) that provides standardized access to any raster image scanner hardware (flatbed scanner, hand-held scanner, video- and still-cameras, frame-grabbers, etc.). The SANE standard is free and its discussion and development are open to everybody. The current source code is written to support several operating systems, including GNU/Linux, OS/2, Win32 and various Unices and is available under the GNU General Public License (commercial applications and backends are welcome, too, however).</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xsane
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - scannerfrontend
+iconSources:
+  - url: x/xs/xsane.desktop/f18a4f5b44ad83da14d33a241381dd1e/icons/128x128/xsane_xsane.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

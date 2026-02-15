@@ -1,0 +1,38 @@
+id: "twinkle"
+name: Twinkle
+description: Voice over Internet Protocol (VoIP) SIP Phone
+longDescription: |
+  <p>Twinkle is a soft-phone for making telephone calls over an IP network using the SIP protocol. You can use it for direct IP phone to IP phone communication or in a network using a SIP proxy to route your calls. Notable features include multiple active identities, call transfer, call rejection, 2 simultaneous calls and 3-way conference calls.</p>
+  <p>This package contains the graphical interface.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - twinkle
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/tw/twinkle.desktop/3328bab8856041519abafabe4dff177c/icons/128x128/twinkle_twinkle.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

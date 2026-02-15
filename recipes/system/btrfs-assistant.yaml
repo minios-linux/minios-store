@@ -1,0 +1,48 @@
+id: btrfs-assistant
+name: Btrfs Assistant
+description: GUI management tool to make managing a Btrfs filesystem easier
+longDescription: |
+  <p>
+        Btrfs Assistant is a GUI management tool to make managing a Btrfs filesystem easier.
+      </p>
+  <p>The primary features it offers are:</p>
+  <ul>
+    <li>An easy to read overview of Btrfs metadata</li>
+    <li>A simple view of subvolumes with or without Snapper/Timeshift snapshots</li>
+    <li>Run and monitor scrub and balance operations</li>
+    <li>A pushbutton method for removing subvolumes</li>
+    <li>A management front-end for Snapper with enhanced restore functionality</li>
+    <li>A front-end for Btrfs Maintenance</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - btrfs-assistant
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: b/bt/btrfs-assistant.desktop/1f7ceebeb08cae44b96731f333de1405/screenshots/image-1_orig.png
+    thumbnailUrl: b/bt/btrfs-assistant.desktop/1f7ceebeb08cae44b96731f333de1405/screenshots/image-1_624x488@1.png
+    width: 943
+    height: 738
+  - url: b/bt/btrfs-assistant.desktop/1f7ceebeb08cae44b96731f333de1405/screenshots/image-2_orig.png
+    thumbnailUrl: b/bt/btrfs-assistant.desktop/1f7ceebeb08cae44b96731f333de1405/screenshots/image-2_624x494@1.png
+    width: 941
+    height: 745
+  - url: b/bt/btrfs-assistant.desktop/1f7ceebeb08cae44b96731f333de1405/screenshots/image-3_orig.png
+    thumbnailUrl: b/bt/btrfs-assistant.desktop/1f7ceebeb08cae44b96731f333de1405/screenshots/image-3_624x493@1.png
+    width: 945
+    height: 747
+iconSources:
+  - url: b/bt/btrfs-assistant.desktop/1f7ceebeb08cae44b96731f333de1405/icons/128x128/btrfs-assistant_btrfs-assistant.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.com/btrfs-assistant/btrfs-assistant"
+enabled: true
+order: 99

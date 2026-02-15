@@ -1,0 +1,41 @@
+id: "synapse"
+name: Synapse
+description: Search everything you do.
+longDescription: |
+  <p>Synapse is a graphical launcher enabling you to start applications and also to quickly find and access relevant documents and files (by making use of the Zeitgeist engine).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - synapse
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - search
+  - find
+  - launch
+iconSources:
+  - url: s/sy/synapse.desktop/27d0d4838f4f4f182cb256e3c125b3d9/icons/128x128/synapse_synapse.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

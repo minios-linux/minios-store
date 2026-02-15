@@ -1,0 +1,5 @@
+{
+  "name": "Gmsh Mesh Generator",
+  "description": "Generator mesh elemen hingga 3D",
+  "longDescription": "<p>Gmsh adalah generator grid elemen hingga (finite element) 3D yang dilengkapi dengan mesin CAD internal dan fitur pemrosesan pasca (post-processor). Aplikasi ini dirancang untuk memberikan alat pemeshing yang cepat, ringan, serta mudah digunakan, dengan dukungan input parametrik dan visualisasi tingkat lanjut. Gmsh terdiri dari empat modul utama: geometri, mesh, solver, dan post-processing. Spesifikasi input untuk masing-masing modul dapat dilakukan secara interaktif melalui antarmuka grafis atau dengan berkas teks ASCII menggunakan bahasa skrip bawaan Gmsh.</p>\n<p>Lihat manual referensi Gmsh untuk gambaran lebih lengkap mengenai berbagai kapabilitasnya.</p>\n"
+}

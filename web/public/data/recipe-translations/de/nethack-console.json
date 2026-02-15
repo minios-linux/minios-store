@@ -1,0 +1,5 @@
+{
+  "name": "NetHack (No GUI)",
+  "description": "Dungeon-Crawl-Spiel – Konsolenversion",
+  "longDescription": "<p>NetHack ist ein wunderbar verrücktes und dabei sehr fesselndes Adventure im Stil von Dungeons &amp; Dragons. Sie steuern eine Spielfigur aus einer von vielen Klassen (wie Zauberer, Waldläufer oder Tourist) und kämpfen sich hinab, um das Amulett von Yendor (versuchen Sie DAS mal rückwärts zu sagen!) für Ihren Gott zu bergen. Unterwegs begegnen Ihnen vielleicht Quantenmechaniker, König Artus oder – falls Sie WIRKLICH Glück haben – das Gefräßige Plapperungeheuer von Traal.</p>\n<p>Um NetHack zu spielen, sollten Sie ein Frontend installieren. Jede Variante enthält auch die ursprüngliche, nicht-grafische Version und alle können parallel installiert werden:  - nethack-console: keine Grafik, nur reines NetHack;  - nethack-x11: die klassische, auf X11/Athena basierende grafische Version;  - nethack-lisp: Lisp-Fensterversion.</p>\n<p>Dieses Paket stellt die reine Konsolenversion von NetHack bereit.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Ptyxis",
+  "description": "Terminal orientado para containers",
+  "longDescription": "<p>Ptyxis é um terminal para GNOME focado em facilidade de uso em ambientes com containers.</p><p>Recursos:</p><ul><li>Lembra o container atual ao abrir uma nova aba, com suporte a podman, toolbox, distrobox e outros</li><li>Atalhos de teclado configuráveis</li><li>Interface moderna que integra a paleta de cores ao estilo da janela</li><li>Paletas de cores instaláveis pelo usuário</li><li>Suporte a perfis de preferências com integração para containers</li><li>Paletas de cores integradas com suporte a modos claro e escuro</li><li>Interface com abas e visão geral das abas</li><li>Rastreamento eficiente de processos em primeiro plano com indicação para sudo e SSH</li><li>Suporte a fundos transparentes no terminal</li><li>Modo de processo separado para aplicações baseadas em terminal</li><li>Suporte a abas fixas e sessões salvas</li><li>Abas do terminal executadas em cgroups separados</li><li>Inspetor de terminal para auxiliar no desenvolvimento de aplicações de terminal</li></ul>"
+}

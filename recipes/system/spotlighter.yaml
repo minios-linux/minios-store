@@ -1,0 +1,29 @@
+id: spotlighter
+name: Spotlighter
+description: Show and move a spotlight on the desktop
+longDescription: |
+  <p>Spotlighter is a tool that shows a movable and resizable spotlight  on the desktop screen. This is especially useful when making presentations, to highlight point of interest.</p>
+  <p>Spotlighter is XInput-Aware, so you can use it with a graphic tablet or a whiteboard.</p>
+  <p>This program has been implemented for educational purposes.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - spotlighter
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: spotlighter_spotlighter.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

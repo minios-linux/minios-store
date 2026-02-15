@@ -1,0 +1,34 @@
+id: "ubuntustudio-menu"
+name: Ubuntu Studio Help
+description: Help using Ubuntu Studio
+longDescription: |
+  <p>Menu for Ubuntu Studio&apos;s use case. This menu has new Audio production, Video production, and Graphics subsections for artistic creation. This menu is designed to be merged into any xdg (open desktop) menu, such as KDE or Xfce.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ubuntustudio-menu
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - info
+  - information
+  - ubuntustudio
+  - help
+iconSources:
+  - url: u/ub/ubuntustudio-help.desktop/7a60cb0484602022742e852c8eb80e86/icons/128x128/ubuntustudio-menu_system-help.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

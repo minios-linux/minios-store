@@ -1,0 +1,30 @@
+id: performous-composer
+name: performous-Composer
+description: Note creator for pitch-detecting karaoke games
+longDescription: |
+  <p>Composer is a song editor for creating (and converting) notes for music games in various formats.  It attempts to make the process easy by automating as much as possible while providing a simple and attractive interface to do the remaining manual work.</p>
+  <p>Key features of Composer include:</p>
+  <p> * Song pitch analysis based on the esteemed algorithms from Performous.  * Zoomable interface to quickly get an overview or doing very precise timing.  * Possibility to synthesize the notes to get a feel of their &quot;sound&quot;.  * Import/export in various formats including:    * SingStar XML    * UltraStar TXT    * Frets on Fire MIDI</p>
+  <p>Composer has a rather distinguished workflow: for example, the lyrics are imported as a whole and each time you manually put a note in place, the others automatically adjust to take use of the new information in providing a better guess of the pitch and timing.  In a sense, you are not actually creating a song, but fixing and tuning the result of what the computer thinks the notes should be like.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - performous-composer
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: performous-composer_performous-composer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,30 @@
+id: jstest-gtk
+name: jstest-gtk
+description: Joystick testing and configuration tool
+longDescription: |
+  <p>jstest-gtk is a simple graphical joystick tester. It provides a list of attached joysticks, and for each one can display which buttons and axes are pressed, remap axes and buttons, and calibrate the device.</p>
+  <p>Even when your joystick is working mostly fine, you might want to give it a try, as the calibration lets you get rid of overlarge default deadzones that many joysticks use and which are a noticeable problem in some games.</p>
+  <p>Installing the joystick package in addition to this one will allow you to store your calibration settings and mappings and have the automatically restored.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jstest-gtk
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - joystick
+  - calibration
+iconSources:
+  - cached: jstest-gtk_jstest-gtk.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

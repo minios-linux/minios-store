@@ -1,0 +1,29 @@
+id: "terminus"
+name: Terminus
+description: A terminal with the capabilities of Guake and Terminator
+longDescription: |
+  <p>A new-generation (post-Guake) terminal for X11 and Wayland featuring a hot-key Quake-console-like drop-down mode. Other features include a scroll-back buffer, multiple tabs, split screen both horizontal and vertical, and the usual compatibility features.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - terminus
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: t/te/terminus.desktop/5cf3c378eb7cbd7d6c6a3326d01dab0a/icons/128x128/terminus_terminus.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

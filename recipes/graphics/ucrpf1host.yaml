@@ -1,0 +1,37 @@
+id: ucrpf1host
+name: ucrpf1host
+description: Host controller for Panowin F1 3D printer
+longDescription: |
+  <p>ucrpf1host is a host program for a 3D printer called Panowin F1. It can also be used on other 3D printers but beware that it might not work perfectly.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ucrpf1host
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ucrpf1host_ucrpf1host.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

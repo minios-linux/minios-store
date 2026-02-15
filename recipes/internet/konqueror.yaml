@@ -1,0 +1,45 @@
+id: "konqueror"
+name: Konqueror
+description: KDE File Manager & Web Browser
+longDescription: |
+  <p>Konqueror is KDE's Webbrowser and swiss-army-knife for any kind of file-management and file previewing.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Webbrowsing using KHTML or KDEWebKit as rendering engines</li>
+    <li>File management using most of Dolphin's features (including version-control, service menus and the basic UI)</li>
+    <li>File management on ftp and sftp servers</li>
+    <li>Full featured FTP-client (you can split views to display local and remote folders and previews in the same window)</li>
+    <li>Embedded applications to preview files (e.g. Okular and Calligra for documents, Gwenview for pictures, KTextEditor
+  for text-files)</li>
+    <li>Different kinds of plugins: Service-menus, KParts (embedded applications), KIO (accessing files using special protocols
+  like http or ftp) and KPart-plugins (like AdBlocker...)</li> </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - konqueror
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/konqueror.desktop/550538f31a6ac31a1640aec86324f97c/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/konqueror.desktop/550538f31a6ac31a1640aec86324f97c/screenshots/image-1_624x384@1.png
+    width: 1868
+    height: 1150
+iconSources:
+  - url: org/kde/konqueror.desktop/550538f31a6ac31a1640aec86324f97c/icons/128x128/konqueror_konqueror.png
+    width: 128
+    height: 128
+homepage: "https://www.konqueror.org"
+enabled: true
+order: 99

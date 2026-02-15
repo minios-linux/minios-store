@@ -1,0 +1,48 @@
+id: "krb5-auth-dialog"
+name: Kerberos Authentication Dialog
+description: "Request, renew and view Kerberos tickets"
+longDescription: |
+  <p>Kerberos Authentication allows you to list your current Kerberos tickets, and to request a new ticket (authenticate to the Kerberos Server). It also notifies you when your Kerberos credentials are about to expire and renews your ticket automatically if possible.</p>
+  <p>This is useful if you need to authenticate to a Kerberos Server (KDC) after your login to the desktop (e.g. on a mobile device).</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - krb5-auth-dialog
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - kerberos
+  - authentication
+screenshotSources:
+  - url: org/gnome/KrbAuthDialog.desktop/efc00c0d2c7333b039005cba2d3d591f/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/KrbAuthDialog.desktop/efc00c0d2c7333b039005cba2d3d591f/screenshots/image-1_224x119.png
+    width: 330
+    height: 176
+iconSources:
+  - url: org/gnome/KrbAuthDialog.desktop/efc00c0d2c7333b039005cba2d3d591f/icons/128x128/krb5-auth-dialog_krb-valid-ticket.png
+    width: 128
+    height: 128
+developer: Guido Günther
+homepage: "https://honk.sigxcpu.org/piki/projects/krb5-auth-dialog/"
+enabled: true
+order: 99

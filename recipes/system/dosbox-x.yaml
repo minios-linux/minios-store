@@ -1,0 +1,92 @@
+id: "dosbox-x"
+name: DOSBox-X
+description: x86/DOS emulator with sound and graphics
+longDescription: |
+  <p> DOSBox-X is an open-source DOS emulator for running DOS games and applications.
+  DOS-based Windows such as Windows 3.x and Windows 9x are officially supported.
+  Compared to DOSBox, DOSBox-X is much more flexible and provides more features.
+  </p>
+  <p>DOSBox-X emulates a PC necessary for running many DOS games and applications that simply cannot be run on modern PCs and operating systems, similar to DOSBox. However, while the main focus of DOSBox is for running DOS games, DOSBox-X goes much further than this. Started as a fork of the DOSBox project, it retains compatibility with the wide base of DOS games and DOS gaming DOSBox was designed for. But it is also a platform for running DOS applications, including emulating the environments to run Windows 3.x, 9x and ME and software written for those versions of Windows. By adding official support for Windows 95, 98, and ME emulation and acceleration, we hope that those old Windows games and applications could be enjoyed or used once more. Moreover, DOSBox-X adds support for emulating the NEC PC-98 such that you can also play PC-98 games with it.
+  </p>
+  <p>
+  DOSBox-X emulates a legacy IBM PC and DOS environment, and has many emulation options and features such as:
+  </p>
+  <ul>
+    <li>Emulate several PC variants: IBM PC, IBM PCjr, Tandy 1000, Amstrad and NEC PC-98</li>
+    <li>CPUs: 8086, 286, 386, 486, Pentium, Pentium Pro, Pentium MMX, Pentium II and III</li>
+    <li>Graphics chipsets: MDA, Hercules, CGA, EGA, MCGA, VGA and SVGA (S3 Trio64, ET3000, ET4000, Paradise)</li>
+    <li>Sound options: Sound Blaster series, Gravis Ultrasound, Disney Sound source and more audio options</li>
+    <li>MIDI: FluidSynth, Roland MT-32 and General MIDI options</li>
+    <li>Extended Serial, Parallel and Game port support</li>
+    <li>Printer support (real or virtual) and emulation options</li>
+    <li>3dfx Voodoo emulation with Glide wrapper support</li>
+    <li>Network emulation: IPX over UDP, and serial modem</li>
+    <li>Network adapter emulation: NE2000 (pcap or slirp backend)</li>
+    <li>Mounting a host directory as a harddisk, floppy or CD-ROM drive</li>
+    <li>Mounting harddisk images, floppy disk and CD-ROM images, including IDE emulation</li>
+    <li>ISO9660, FAT12, FAT16 and FAT32 filesystem support, including long filenames (LFN)</li>
+    <li>Support for running real DOS systems (MS-DOS, IBM PC DOS, FreeDOS)</li>
+    <li>Support for running Windows 1.0 to Windows 3.11, Windows 9x and Windows ME</li>
+    <li>GUI drop-down menu for easier usage</li>
+    <li>Built-in graphical configuration tool</li>
+    <li>Save and load state with support for save files and up to 100 save slots</li>
+    <li>More DOS commands, and ability to add your own programs to the virtual Z: drive</li>
+    <li>Support for clipboard copy &amp; paste and scalable TrueType fonts (TTF)</li>
+    <li>Various output options, including output scaling (such as pixel-perfect scaling) and OpenGL shaders</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dosbox-x
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pcjr
+  - tandy
+  - pc98
+  - pc-98
+screenshotSources:
+  - url: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-1_orig.png
+    thumbnailUrl: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-1_624x398@1.png
+    width: 740
+    height: 472
+  - url: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-2_orig.png
+    thumbnailUrl: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-2_624x350@1.png
+    width: 811
+    height: 456
+  - url: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-3_orig.png
+    thumbnailUrl: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-3_624x521@1.png
+    width: 660
+    height: 552
+  - url: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-4_orig.png
+    thumbnailUrl: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-4_624x351@1.png
+    width: 981
+    height: 552
+  - url: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-5_orig.png
+    thumbnailUrl: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-5_624x446@1.png
+    width: 660
+    height: 472
+  - url: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-6_orig.png
+    thumbnailUrl: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-6_624x521@1.png
+    width: 660
+    height: 552
+  - url: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-7_orig.png
+    thumbnailUrl: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/screenshots/image-7_624x351@1.png
+    width: 981
+    height: 552
+iconSources:
+  - url: com/dosbox_x/DOSBox-X/e9bd6f11e40a624d8c36554d6ba251b3/icons/128x128/dosbox-x_dosbox-x.png
+    width: 128
+    height: 128
+developer: DOSBox-X team
+homepage: "https://dosbox-x.com"
+enabled: true
+order: 99

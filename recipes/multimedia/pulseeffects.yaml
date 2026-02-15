@@ -1,0 +1,80 @@
+id: "pulseeffects"
+name: PulseEffects
+description: Audio Effects for PulseAudio Applications
+longDescription: |
+  <p>
+        PulseEffects is an advanced audio manipulation tools. It includes an
+        equalizer, limiter, compressor and a reverberation tool, just to mention
+        a few. To complement this there is also a built in spectrum analyzer.
+      </p>
+  <p>
+        Because PulseEffects uses the default PulseAudio sound server it will
+        work with most, if not all, applications you use. All supported
+        applications are presented in the main window, where each can be enabled
+        individually.
+      </p>
+  <p>
+        Besides manipulating sound output, PulseEffects is able to apply effects
+        to an input device, such as a microphone. This is, for example, useful in
+        audio recording, but it also works well during voice conversations.
+      </p>
+  <p>
+        When PulseEffects is launched it will conveniently remember the
+        configuration used in the last session. It is also possible to save
+        all the current settings as profiles.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pulseeffects
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - limiter
+  - compressor
+  - reverberation
+  - equalizer
+  - autovolume
+screenshotSources:
+  - url: com/github/wwmm.pulseeffects.desktop/6e6230cde68cf73644abc6d5744a81c6/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/wwmm.pulseeffects.desktop/6e6230cde68cf73644abc6d5744a81c6/screenshots/image-1_624x339.png
+    width: 1192
+    height: 648
+  - url: com/github/wwmm.pulseeffects.desktop/6e6230cde68cf73644abc6d5744a81c6/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/wwmm.pulseeffects.desktop/6e6230cde68cf73644abc6d5744a81c6/screenshots/image-2_624x339.png
+    width: 1192
+    height: 648
+  - url: com/github/wwmm.pulseeffects.desktop/6e6230cde68cf73644abc6d5744a81c6/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/wwmm.pulseeffects.desktop/6e6230cde68cf73644abc6d5744a81c6/screenshots/image-3_624x339.png
+    width: 1192
+    height: 648
+  - url: com/github/wwmm.pulseeffects.desktop/6e6230cde68cf73644abc6d5744a81c6/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/wwmm.pulseeffects.desktop/6e6230cde68cf73644abc6d5744a81c6/screenshots/image-4_624x339.png
+    width: 1192
+    height: 648
+  - url: com/github/wwmm.pulseeffects.desktop/6e6230cde68cf73644abc6d5744a81c6/screenshots/image-5_orig.png
+    thumbnailUrl: com/github/wwmm.pulseeffects.desktop/6e6230cde68cf73644abc6d5744a81c6/screenshots/image-5_624x350.png
+    width: 834
+    height: 469
+iconSources:
+  - url: com/github/wwmm.pulseeffects.desktop/6e6230cde68cf73644abc6d5744a81c6/icons/128x128/pulseeffects_pulseeffects.png
+    width: 128
+    height: 128
+developer: Wellington Wallace
+homepage: "https://github.com/wwmm/pulseeffects"
+enabled: true
+order: 99

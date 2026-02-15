@@ -1,0 +1,5 @@
+{
+  "name": "Calibra Schermo Tattile",
+  "description": "Esegui lo strumento di calibrazione per schermi touch",
+  "longDescription": "<p>xinput-calibrator è uno strumento per calibrare schermi touch su X.Org. Tra le sue funzionalità:  - compatibile con qualsiasi driver Xorg (usa Xinput per gestire gli assi);  - genera la calibrazione come Xorg.conf, policy HAL e regola udev;  - supporta opzioni avanzate del driver, come la calibrazione dinamica di Evdev;  - interfaccia grafica molto intuitiva (classica applicazione X client);</p>\n"
+}

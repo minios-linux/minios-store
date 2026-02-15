@@ -1,0 +1,5 @@
+{
+  "name": "Nitrogen",
+  "description": "Navegador e aplicador de papéis de parede para X Window",
+  "longDescription": "<p>O Nitrogen é um programa que permite definir o papel de parede da área de trabalho. O modo navegador possibilita escolher e aplicar um fundo de tela, enquanto o modo de recuperação permite aplicar a configuração salva via linha de comando.</p><p>Possui suporte para múltiplos monitores (Multihead e Xinerama), monitoramento de diretórios com inotify, carregamento preguiçoso de miniaturas para economizar memória e um modo 'automático' que seleciona a melhor forma de aplicar a imagem conforme seu tamanho.</p>"
+}

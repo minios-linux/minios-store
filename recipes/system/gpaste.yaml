@@ -1,0 +1,57 @@
+id: gpaste
+name: GPaste
+description: Manage your clipboard history
+longDescription: |
+  <p>GPaste is a clipboard managing system allowing you to track and manage your clipboard history in a highly customizable way.</p>
+  <p>GPaste provides you with a graphical tool allowing you to manage everything easily.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpaste
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - clipboard
+  - manager
+  - settings
+  - preferences
+  - configuration
+screenshotSources:
+  - url: org/gnome/GPaste.Ui.desktop/94A0BE3A75160D796360B0547B5EA0C1/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/GPaste.Ui.desktop/94A0BE3A75160D796360B0547B5EA0C1/screenshots/image-1_624x554.png
+    width: 686
+    height: 610
+  - url: org/gnome/GPaste.Ui.desktop/94A0BE3A75160D796360B0547B5EA0C1/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/GPaste.Ui.desktop/94A0BE3A75160D796360B0547B5EA0C1/screenshots/image-2_624x554.png
+    width: 686
+    height: 610
+  - url: org/gnome/GPaste.Ui.desktop/94A0BE3A75160D796360B0547B5EA0C1/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/GPaste.Ui.desktop/94A0BE3A75160D796360B0547B5EA0C1/screenshots/image-3_624x554.png
+    width: 686
+    height: 610
+  - url: org/gnome/GPaste.Ui.desktop/94A0BE3A75160D796360B0547B5EA0C1/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/GPaste.Ui.desktop/94A0BE3A75160D796360B0547B5EA0C1/screenshots/image-4_624x554.png
+    width: 686
+    height: 610
+iconSources:
+  - cached: gpaste_edit-paste.png
+    width: 64
+    height: 64
+developer: Marc-Antoine Perennou
+homepage: "http://www.imagination-land.org/tags/GPaste.html"
+enabled: true
+order: 99

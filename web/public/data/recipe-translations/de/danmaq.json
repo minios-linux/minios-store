@@ -1,0 +1,5 @@
+{
+  "name": "danmaQ",
+  "description": "Zeigt Danmaku-Kommentare auf dem Bildschirm an",
+  "longDescription": "<p>DanmaQ ist ein Desktop-Client für Danmaku-Kommentare. Er dient zur Anzeige von Danmaku-Nachrichten auf dem Bildschirm.</p>\n<p>„Danmaku“ ist ursprünglich ein japanisches Wort und bezeichnet eine besondere Art von Echtzeit-Kommentaren im Internet. Diese Form kommt aus Japan und ist vor allem im ostasiatischen Raum verbreitet. Dabei verfassen Nutzer Kommentare und senden sie an einen Danmaku-Server. Der Server liefert diese Kommentare in Echtzeit an verbundene Danmaku-Clients, wo sie direkt auf dem Bildschirm angezeigt werden. Die Kommentarzeilen bewegen sich dabei animiert und optisch ansprechend über den Bildschirm.</p>\n<p>Dieses Paket stellt ein Danmaku-Client-Programm bereit, das mit Qt5 implementiert ist.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Emacs (Terminal)",
+  "description": "GNU Emacs es un editor de texto extensible y personalizable — y mucho más",
+  "longDescription": "<p>GNU Emacs es el editor de texto autodocumentado y extensible. Este paquete contiene una versión de Emacs con soporte para una interfaz gráfica basada en el toolkit Lucid (en lugar de la interfaz GTK+ proporcionada por el paquete emacs-gtk). Hasta que se solucionen algunos problemas conocidos con GTK+, esta versión puede ayudar a evitar que Emacs se bloquee durante una desconexión de emacsclient. Más información en https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=567934 y https://bugzilla.gnome.org/show_bug.cgi?id=85715.</p>\n"
+}

@@ -1,0 +1,47 @@
+id: "armagetronad"
+name: Armagetron Advanced
+description: 3d light cycle game
+longDescription: |
+  <p>The rules are simple: you ride a light cycle (a kind of motorbike that can only turn 90 degrees at a time, leaves a wall behind and cannot be stopped) and have to avoid running into walls while at the same time you have to try to get your opponent to run into them.</p>
+  <p>The idea is based on the Disney movie from 1982 called &quot;Tron&quot;.  If you ever wanted to take a try at one of those speed demons features in the movie, this is your chance.</p>
+  <p>Armagetron Advanced can be played against AI opponents, against other humans over the network, or a mixture of both.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - armagetronad
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tron-like
+  - light
+  - cycle
+  - 3d
+  - multiplayer
+  - networked
+  - server
+iconSources:
+  - url: org/armagetronad/armagetronad/1127e0ddc294a57160a7a0cc5560dd14/icons/128x128/armagetronad_armagetronad.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

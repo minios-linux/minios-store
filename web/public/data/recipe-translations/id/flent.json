@@ -1,0 +1,5 @@
+{
+  "name": "Flent",
+  "description": "Penguji Jaringan yang Fleksibel",
+  "longDescription": "<p>FLExible Network Tester: pembungkus Python untuk menjalankan beberapa instance netperf/iperf/ping secara bersamaan dan menggabungkan hasilnya.</p>\n<p>Pengujian dikonfigurasi menggunakan file konfigurasi (yang sebenarnya skrip Python), dan berbagai parser untuk keluaran alat disediakan. Saat ini, tersedia parser untuk netperf dalam mode -D, iperf dalam mode csv, dan ping/ping6 dalam mode -D, serta parser umum untuk perintah yang hanya menghasilkan satu angka.</p>\n<p>Beberapa perintah dapat dijalankan secara paralel, dan selama mereka menghasilkan nilai bertimestamp (seperti yang dilakukan netperf, ping, dan iperf — yang terakhir dengan tambalan kecil di direktori misc/), data pengujian dapat diselaraskan berdasarkan waktu, dengan interpolasi perbedaan antar titik pengukuran. Ini memungkinkan pembuatan grafik (misal) waktu ping sebelum, selama, dan sesudah koneksi dibebani.</p>\n"
+}

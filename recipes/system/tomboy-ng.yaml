@@ -1,0 +1,31 @@
+id: tomboy-ng
+name: tomboy-ng
+description: Cross Platform Notes
+longDescription: |
+  <p>tomboy-ng notes allows easy management of a large or small set of notes. Notes can contain a range of font sizes, bold, italic and highlight. Available for Linux, Windows amd Mac and easy sync between them. This is the GTK2 based version.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tomboy-ng
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - notes
+iconSources:
+  - cached: tomboy-ng_tomboy-ng.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

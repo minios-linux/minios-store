@@ -1,0 +1,24 @@
+id: alsaplayer-common
+name: Alsaplayer
+description: Versatile audio player for the Audio Linux Sound Architecture
+longDescription: |
+  <p>Alsaplayer is a PCM player designed specifically for use with ALSA, but works great with OSS or EsounD. It&apos;s heavily threaded which cuts down on skipping, offers optional and even simultaneous visual scopes, plays mp3, mp2, ogg, cdda, audiofs, and lots more.</p>
+  <p>This package contains the main alsaplayer program, and needs one interface plugin and one output plugin. By default, GTK+ interface and alsa output will be installed.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - alsaplayer-common
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: alsaplayer-common_alsaplayer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

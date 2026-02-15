@@ -1,0 +1,5 @@
+{
+  "name": "Classified ads",
+  "description": "Programa de publicação de anúncios classificados",
+  "longDescription": "<p>Classified ads é uma tentativa de recriar parte da funcionalidade que foi perdida com o fim das notícias via usenet. Este projeto busca resolver o problema do desaparecimento dos servidores de notícias, eliminando a necessidade de servidores externos – o armazenamento de dados é feito diretamente nas aplicações cliente executadas pelos usuários. Os recursos do programa incluem: * Publicação online de anúncios classificados, com categorias. * Resposta a anúncios tanto de forma pública quanto privada ao anunciante. * Anexos binários nas postagens. * Disponibilização de informações básicas dos anunciantes. * Busca básica de conteúdos por palavras-chave. * Negociação por áudio entre anunciantes. * Possibilidade de estender a interface utilizando a linguagem de script Tcl. * Compartilhamento de dados entre programas Tcl usando um banco de dados distribuído de uso geral.</p>\n"
+}

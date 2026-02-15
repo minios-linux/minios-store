@@ -1,0 +1,41 @@
+id: "antigravitaattori"
+name: Antigravitaattori
+description: Multiplayer flying saucer racing game
+longDescription: |
+  <p>This is a multiplayer flying saucer racing game, made for Assembly 2006 game competition. It is a great and fun game for the family with up to four players. Coming with astonishing 3d rendered graphics.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - antigravitaattori
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - racing
+  - flying
+  - saucer
+iconSources:
+  - url: a/an/antigravitaattori.desktop/2a43e04f71c739965ed6f6f951677312/icons/128x128/antigravitaattori_antigrav.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

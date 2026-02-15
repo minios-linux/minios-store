@@ -1,0 +1,38 @@
+id: "deepin-calculator"
+name: Deepin Calculator
+description: Calculator
+longDescription: |
+  <p>An easy to use calculator for ordinary users.</p>
+  <p>This package is part of DDE (Deepin Desktop Environment).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deepin-calculator
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/de/deepin-calculator.desktop/bd6b603a4dd4354fb15a9562b6abe344/icons/128x128/deepin-calculator_deepin-calculator.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

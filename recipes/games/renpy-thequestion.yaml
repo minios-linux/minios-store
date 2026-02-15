@@ -1,0 +1,41 @@
+id: "renpy-thequestion"
+name: The Question
+description: a simple visual-novel game with Ren'Py
+longDescription: |
+  <p>Ren&apos;Py is a programming language and runtime, intended to ease the creation of visual-novel type games. It contains features that make it easy to display thoughts, dialogue, and menus; to display images to the user; to write game logic; and to support the saving and loading of games.</p>
+  <p>This package includes a simple and complete Ren&apos;Py game.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - renpy-thequestion
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - visual
+  - novel
+  - japanese
+  - adventure
+iconSources:
+  - url: r/re/renpy-thequestion.desktop/97fc0f34a7c20cf3a850650d49fd27d1/icons/128x128/renpy-thequestion_renpy-thequestion.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

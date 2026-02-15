@@ -1,0 +1,48 @@
+id: "mumble"
+name: Mumble
+description: "A low-latency, high quality voice chat program for gaming"
+longDescription: |
+  <p>Mumble is a low-latency, high quality voice chat program for gaming. It features noise suppression, encrypted connections for both voice and instant messaging, automatic gain control and low latency audio with support for multiple audio standards. Mumble includes an in-game overlay compatible with most open-source and commercial 3D applications. Mumble is just a client and uses a non-standard protocol. You will need a dedicated server to talk to other users. Server functionality is provided by the package &quot;mumble-server&quot;.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mumble
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - voip
+  - messaging
+  - voice chat
+  - secure communication
+screenshotSources:
+  - url: info/mumble/Mumble/4e2eb6cbd36450df1f6847e4784c8ea5/screenshots/image-1_orig.png
+    thumbnailUrl: info/mumble/Mumble/4e2eb6cbd36450df1f6847e4784c8ea5/screenshots/image-1_624x368@1.png
+    width: 1291
+    height: 763
+iconSources:
+  - url: info/mumble/Mumble/4e2eb6cbd36450df1f6847e4784c8ea5/icons/128x128/mumble_mumble.png
+    width: 128
+    height: 128
+homepage: "https://www.mumble.info"
+enabled: true
+order: 99

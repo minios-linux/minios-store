@@ -1,0 +1,5 @@
+{
+  "name": "Remover pacotes órfãos",
+  "description": "Uma ferramenta gráfica para localizar e remover bibliotecas órfãs",
+  "longDescription": "<p>GtkOrphan é uma ferramenta gráfica que escaneia seu sistema Debian para encontrar bibliotecas órfãs. Ela oferece uma interface GUI para o deborphan, acrescentando a funcionalidade de remoção de pacotes. Documentação detalhada sobre o programa pode ser encontrada em: http://www.marzocca.net/linux/gtkorphan.html.</p>\n"
+}

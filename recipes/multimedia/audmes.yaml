@@ -1,0 +1,33 @@
+id: audmes
+name: AudMeS
+description: Audio Measurement System
+longDescription: |
+  <p>Multi-platfrom system for audio measurement through sound card in the PC. Incorporates Generator, Oscilloscope, FFT, Sweep frequency characteristic. Useful for measuring stereo and speaker performance.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - audmes
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - alsa
+  - musicrealtime
+  - standalone
+iconSources:
+  - url: a/au/audmes.desktop/1e66b41b2fea32c8cbaa480e5aff2266/icons/128x128/audmes_audmes.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

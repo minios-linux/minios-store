@@ -1,0 +1,5 @@
+{
+  "name": "Compresseur d’images Trimage",
+  "description": "Un outil multiplateforme pour l’optimisation des fichiers PNG et JPG.",
+  "longDescription": "<p>Trimage est une interface graphique et en ligne de commande multiplateforme permettant d’optimiser les fichiers image à l’aide de optipng, advpng, pngcrush et jpegoptim, selon le type de fichier (actuellement, les fichiers PNG et JPG sont pris en charge). Tous les fichiers image sont compressés sans perte au niveau de compression maximal disponible. Trimage offre plusieurs modes d’import adaptés à votre flux de travail : boîte de dialogue classique, glisser-déposer et différentes options en ligne de commande.</p>\n"
+}

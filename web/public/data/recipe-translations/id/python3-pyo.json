@@ -1,0 +1,5 @@
+{
+  "name": "E-Pyo",
+  "description": "Lingkungan sintesis suara dan pemrosesan sinyal audio",
+  "longDescription": "<p>pyo adalah modul Python yang berisi berbagai kelas untuk beragam jenis pemrosesan sinyal audio. Dengan pyo, pengguna dapat langsung memasukkan rantai pemrosesan sinyal ke dalam skrip atau proyek Python, serta memanipulasinya secara real-time melalui interpreter. Alat di modul pyo menyediakan fungsi dasar seperti operasi matematis pada sinyal audio, pemrosesan dasar (filter, delay, generator sintesis, dan sebagainya), hingga algoritma kompleks untuk membuat granulasai suara dan manipulasi audio kreatif lainnya.</p>\n<p>pyo mendukung protokol OSC (Open Sound Control) untuk memudahkan komunikasi antar perangkat lunak, serta protokol MIDI untuk menghasilkan event suara dan mengontrol parameter proses.</p>\n<p>pyo memungkinkan pembuatan rantai pemrosesan sinyal yang canggih dengan semua keunggulan dari bahasa pemrograman umum yang matang dan banyak digunakan.</p>\n<p>Paket ini akan memasang pustaka untuk Python 3.</p>\n"
+}

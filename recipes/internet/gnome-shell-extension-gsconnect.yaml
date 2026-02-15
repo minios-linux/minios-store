@@ -1,0 +1,53 @@
+id: "gnome-shell-extension-gsconnect"
+name: GSConnect
+description: KDE Connect implementation for GNOME
+longDescription: |
+  <p>
+        GSConnect is a complete implementation of KDE Connect especially for GNOME Shell with Nautilus, Chrome and Firefox
+  integration. The KDE Connect team has applications for Linux, BSD, Android, Sailfish, iOS, macOS and Windows.
+      </p>
+  <p>
+        With GSConnect you can securely connect to mobile devices and other desktops to:
+      </p>
+  <ul>
+    <li>Share files, links and text</li>
+    <li>Send and receive messages</li>
+    <li>Sync clipboard content</li>
+    <li>Sync contacts</li>
+    <li>Sync notifications</li>
+    <li>Control media players</li>
+    <li>Control system volume</li>
+    <li>Execute predefined commands</li>
+    <li>And more…</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-shell-extension-gsconnect
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/gnome/Shell.Extensions.GSConnect/1159d5aaf4c53086977a0b1518577fec/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Shell.Extensions.GSConnect/1159d5aaf4c53086977a0b1518577fec/screenshots/image-1_624x351@1.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: org/gnome/Shell.Extensions.GSConnect/1159d5aaf4c53086977a0b1518577fec/icons/128x128/gnome-shell-extension-gsconnect_org.gnome.Shell.Extensions.GSConnect.png
+    width: 128
+    height: 128
+developer: GSConnect Team
+homepage: "https://github.com/GSConnect/gnome-shell-extension-gsconnect/"
+enabled: true
+order: 99

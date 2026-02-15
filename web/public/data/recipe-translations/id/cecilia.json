@@ -1,0 +1,5 @@
+{
+  "name": "Cecilia",
+  "description": "Lingkungan sintesis suara dan pemrosesan sinyal audio",
+  "longDescription": "<p>Cecilia adalah antarmuka pengguna grafis untuk paket sintesis suara dan pemrosesan suara CSound. Cecilia memungkinkan pengguna dengan cepat membangun antarmuka grafis dengan slider dan kurva untuk mengontrol instrumen CSound. Cecilia juga berfungsi sebagai editor CSound dengan fitur penyorotan sintaks dan referensi bawaan. Aplikasi ini sangat berguna untuk mengeksplorasi parameter opcode baru secara interaktif dan intuitif.</p>\n<p>Cecilia menggunakan audio engine pyo yang dibuat untuk bahasa pemrograman Python.</p>\n<p>Cecilia dirancang oleh dan untuk musisi serta perancang suara. Semua perangkat pemrosesan suara tradisional seperti EQ, kompresor, dan delay telah tersedia, baik untuk aplikasi sederhana maupun kreasi suara paling eksperimental yang dapat dibayangkan.</p>\n"
+}

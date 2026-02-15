@@ -1,0 +1,30 @@
+id: bambootracker
+name: BambooTracker
+description: "A tracker for the YM2608 (OPNA), which was used in NEC PC-8801/9801 series of computers"
+longDescription: |
+  <p>This is a music tracker for the Yamaha sound chip YM2608 (OPNA) which was used in NEC PC-8801/9801 series computers.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bambootracker
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tracker
+  - music
+iconSources:
+  - url: b/ba/bambootracker.desktop/b02300beceb57d500110a5e310667ebe/icons/128x128/bambootracker_BambooTracker.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,37 @@
+id: datovka
+name: Datovka
+description: A free graphical user interface for Datove schranky
+longDescription: |
+  <p>Datovka is a multiplatform desktop application to access Datove schranky.</p>
+  <p>Datovka allows receiving, sending, and checking integrity of messages,
+  			exporting proofs of delivery or full messages, exporting complete
+  			coresspondence for a defined period, etc..</p>
+  <p>The user interface is very similar to common e-mail clients.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - datovka
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+screenshotSources:
+  - url: d/da/datovka.desktop/BA3262C0691FDD95EBC41DF2074756A1/screenshots/image-1_orig.png
+    thumbnailUrl: d/da/datovka.desktop/BA3262C0691FDD95EBC41DF2074756A1/screenshots/image-1_624x454.png
+    width: 1044
+    height: 760
+iconSources:
+  - url: d/da/datovka.desktop/BA3262C0691FDD95EBC41DF2074756A1/icons/128x128/datovka_datovka.png
+    width: 128
+    height: 128
+homepage: "https://labs.nic.cz/cs/datovka.html"
+enabled: true
+order: 99

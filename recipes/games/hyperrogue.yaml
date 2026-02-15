@@ -1,0 +1,43 @@
+id: hyperrogue
+name: HyperRogue
+description: A non-euclidean graphical rogue-like game
+longDescription: |
+  <p>HyperRogue is a game in which the player collects treasures and fights monsters -- rogue-like but for the fact that it is played on the hyperbolic plane and not in euclidean space.</p>
+  <p>In HyperRogue, the player can move through different parts of the world, which are home to particular creatures and may be subject to own rules of &quot;physics&quot;.</p>
+  <p>While it can use ASCII characters to display the world the classical rogue symbols, the game needs graphics to render the non-euclidean world.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hyperrogue
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - hyperbolic
+  - escher
+  - noneuclidean
+iconSources:
+  - cached: hyperrogue_hyperrogue.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

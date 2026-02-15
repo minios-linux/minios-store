@@ -1,0 +1,52 @@
+id: "brasero"
+name: Brasero
+description: Create and copy CDs and DVDs
+longDescription: |
+  <p>Brasero is a simple application to burn, copy and erase CD and DVD media: audio, video or data. It features among other things:  * On-the-fly burning  * Multisession support  * On-the-fly conversion of music playlists in all formats supported by    GStreamer</p>
+  <p>This package contains the standalone app.</p>
+  <p>The following packages, if installed, will provide Brasero with added functionality:  * cdrdao to burn combined data/audio CDs and for byte-to-byte copy  * GStreamer backends to support more audio formats  * vcdimager to create VCDs or SVCDs  * libdvdcss2 to copy encrypted DVDs  * tracker to search for video, audio, image and document files</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - brasero
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - disc
+  - cdrom
+  - dvd
+  - burn
+  - audio
+  - video
+screenshotSources:
+  - url: org/gnome/Brasero/91249c93fb5be63e9c2f126bf67d6b37/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Brasero/91249c93fb5be63e9c2f126bf67d6b37/screenshots/image-1_624x399@1.png
+    width: 852
+    height: 545
+iconSources:
+  - url: org/gnome/Brasero/91249c93fb5be63e9c2f126bf67d6b37/icons/128x128/brasero_brasero.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Brasero"
+enabled: true
+order: 99

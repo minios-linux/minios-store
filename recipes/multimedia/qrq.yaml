@@ -1,0 +1,40 @@
+id: qrq
+name: qrq
+description: High speed Morse telegraphy trainer
+longDescription: |
+  <p>qrq is an open source morse telegraphy trainer for Linux and Unix operating systems, similar to the classic DOS version of Rufz by DL4MM.</p>
+  <p>It is not intended for learning telegraphy, but to improve the ability to copy callsigns at high speeds, as needed for example for Contesting.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qrq
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - morse
+iconSources:
+  - cached: qrq_qrq.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

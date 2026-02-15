@@ -1,0 +1,63 @@
+id: "crispy-doom"
+name: Crispy Setup
+description: Setup tool for Crispy
+longDescription: |
+  <p>Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - crispy-doom
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - first
+  - person
+  - shooter
+  - doom
+  - heretic
+  - hexen
+  - strife
+  - vanilla
+screenshotSources:
+  - url: io/github/fabiangreffrath.Heretic/0db9f11bc42ab42fdc9fdcef7f4ad681/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/fabiangreffrath.Heretic/0db9f11bc42ab42fdc9fdcef7f4ad681/screenshots/image-1_624x504.png
+    width: 640
+    height: 517
+  - url: io/github/fabiangreffrath.Heretic/0db9f11bc42ab42fdc9fdcef7f4ad681/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/fabiangreffrath.Heretic/0db9f11bc42ab42fdc9fdcef7f4ad681/screenshots/image-2_624x504.png
+    width: 640
+    height: 517
+  - url: io/github/fabiangreffrath.Heretic/0db9f11bc42ab42fdc9fdcef7f4ad681/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/fabiangreffrath.Heretic/0db9f11bc42ab42fdc9fdcef7f4ad681/screenshots/image-3_624x504.png
+    width: 640
+    height: 517
+  - url: io/github/fabiangreffrath.Heretic/0db9f11bc42ab42fdc9fdcef7f4ad681/screenshots/image-4_orig.png
+    thumbnailUrl: io/github/fabiangreffrath.Heretic/0db9f11bc42ab42fdc9fdcef7f4ad681/screenshots/image-4_624x504.png
+    width: 640
+    height: 517
+iconSources:
+  - url: io/github/fabiangreffrath.Heretic/0db9f11bc42ab42fdc9fdcef7f4ad681/icons/128x128/crispy-doom_crispy-heretic.png
+    width: 128
+    height: 128
+developer: Fabian Greffrath
+homepage: "http://fabiangreffrath.github.io/crispy-doom"
+enabled: true
+order: 99

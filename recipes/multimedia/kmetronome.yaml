@@ -1,0 +1,50 @@
+id: "kmetronome"
+name: KMetronome
+description: KDE MIDI Metronome Using ALSA Sequencer
+longDescription: |
+  <p>KMetronome is a MIDI based metronome using the ALSA sequencer.</p>
+  <p>The intended audience are musicians and music students. Like the solid, real metronomes it is a tool to keep the rhythm while playing musical instruments.</p>
+  <p>It uses MIDI for sound generation instead of digital audio, allowing low CPU usage and very accurate timing thanks to the ALSA sequencer</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kmetronome
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: net/sourceforge/kmetronome/84214e2d4ab5b4a60fc68ba640df1127/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/kmetronome/84214e2d4ab5b4a60fc68ba640df1127/screenshots/image-1_224x256@1.png
+    width: 398
+    height: 455
+  - url: net/sourceforge/kmetronome/84214e2d4ab5b4a60fc68ba640df1127/screenshots/image-2_orig.png
+    thumbnailUrl: net/sourceforge/kmetronome/84214e2d4ab5b4a60fc68ba640df1127/screenshots/image-2_224x171@1.png
+    width: 439
+    height: 337
+iconSources:
+  - url: net/sourceforge/kmetronome/84214e2d4ab5b4a60fc68ba640df1127/icons/128x128/kmetronome_kmetronome.png
+    width: 128
+    height: 128
+developer: Pedro López-Cabanillas
+homepage: "https://kmetronome.sourceforge.io/"
+enabled: true
+order: 99

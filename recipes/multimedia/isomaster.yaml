@@ -1,0 +1,38 @@
+id: isomaster
+name: ISO Master
+description: "Read, write and modify ISO images"
+longDescription: |
+  <p>You can use isomaster to:  - add files to an image  - extract files from an image  - delete files from an image</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - isomaster
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - cd
+  - image
+  - iso
+  - editor
+iconSources:
+  - cached: isomaster_isomaster.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

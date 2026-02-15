@@ -1,0 +1,5 @@
+{
+  "name": "Firewall",
+  "description": "Konfigurasi Firewall",
+  "longDescription": "<p>Konfigurasi Firewall menyediakan alat grafis untuk mengelola firewall.</p>\n<p>Memungkinkan Anda untuk memeriksa dan mengatur:</p>\n<ul>\n  <li>Konfigurasi firewall runtime dan permanen</li>\n  <li>Zona yang telah ditetapkan (tingkat kepercayaan koneksi jaringan)</li>\n  <li>Layanan yang telah ditetapkan (port/protokol, modul pembantu netfilter)</li>\n  <li>Penerusan port, masquerading, pemblokiran ICMP</li>\n  <li>Aturan firewall kompleks (Rich Language)</li>\n  <li>Aturan iptables (Direct Interface)</li>\n</ul>\n"
+}

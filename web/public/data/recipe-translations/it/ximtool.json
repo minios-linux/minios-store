@@ -1,0 +1,5 @@
+{
+  "name": "ximtool",
+  "description": "Programma interattivo per la visualizzazione di immagini su X Window System",
+  "longDescription": "<p>\n      Ximtool offre funzionalità avanzate di visualizzazione immagini per applicazioni client remote di IRAF utilizzando il protocollo standard imtool/iis. Il server di visualizzazione consente di creare e gestire diversi frame buffer di immagini. Il client può leggere e scrivere dati in questi buffer. È possibile visualizzare qualsiasi frame singolo o una combinazione di frame. Sono disponibili diverse opzioni di visualizzazione, come zoom e pan, ribaltamento sugli assi, lampeggio tra frame, gestione delle finestre di visualizzazione e miglioramento delle tabelle dei colori.\n    </p>\n"
+}

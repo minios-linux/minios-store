@@ -1,0 +1,5 @@
+{
+  "name": "PulseAudio Volume Control",
+  "description": "Lautstärkeregler für PulseAudio",
+  "longDescription": "<p>PulseAudio Volume Control (pavucontrol) ist ein einfaches, auf GTK+ basiertes Lautstärkeregelungswerkzeug (Mixer) für den PulseAudio-Soundserver. Im Gegensatz zu klassischen Mixern können Sie mit diesem Tool sowohl die Lautstärke der einzelnen Hardware-Geräte als auch jeder einzelnen Wiedergabespur separat steuern. Darüber hinaus können Sie eine Wiedergabespur während der laufenden Wiedergabe auf ein anderes Ausgabegerät umleiten.</p>\n"
+}

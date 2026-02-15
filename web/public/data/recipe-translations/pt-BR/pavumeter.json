@@ -1,0 +1,5 @@
+{
+  "name": "Medidor de Volume PulseAudio (Reprodução)",
+  "description": "Monitore o volume de saída",
+  "longDescription": "<p>O PulseAudio, anteriormente conhecido como Polypaudio, é um servidor de áudio para sistemas POSIX e WIN32. Ele substitui o servidor de áudio ESD, oferecendo latência menor, melhor qualidade de mixagem e reamostragem, além de uma arquitetura mais moderna.</p>\n<p>Um medidor de volume simples para o servidor de áudio PulseAudio.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "NitroShare",
+  "description": "Aplicativo de Transferência de Arquivos em Rede",
+  "longDescription": "<p>O NitroShare foi desenvolvido para facilitar ao máximo a transferência de qualquer arquivo entre dispositivos.</p>\n<p>Ele utiliza um protocolo baseado em JSON, multiplataforma e independente de arquitetura, garantindo transferências eficientes. Para maior segurança, as transferências podem ser criptografadas com TLS.</p>\n<p>O NitroShare usa broadcast IPv4 para localizar automaticamente outros dispositivos na rede local que também estejam executando o NitroShare. Isso permite transferir arquivos e diretórios inteiros instantaneamente para outros dispositivos.</p>\n<p>Também há uma API HTTP que possibilita que outros aplicativos rodando na mesma conta iniciem transferências.</p>\n"
+}

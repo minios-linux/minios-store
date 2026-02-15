@@ -1,0 +1,23 @@
+id: isenkram
+name: Isenkram
+description: Suggest new packages when hardware devices are plugged in
+longDescription: |
+  <p>Try to figure out which packages to suggest for use with a freshly inserted hardware device.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - isenkram
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: isenkram_isenkram-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

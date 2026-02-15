@@ -1,0 +1,5 @@
+{
+  "name": "Nemiver",
+  "description": "Debugga applicazioni",
+  "longDescription": "<p>Nemiver è un progetto volto a realizzare un debugger grafico indipendente, integrato nell'ambiente desktop GNOME. Utilizza come backend il noto GNU Debugger (gdb) per il debug di programmi C/C++.</p>\n<p>Nemiver è sviluppato con un sistema a plugin che può offrire diverse prospettive di lavoro. Attualmente è disponibile solo la prospettiva di debugging, ma può essere esteso aggiungendo supporto per strumenti come valgrind o per il profiling con strumenti come oprofile.</p>\n"
+}

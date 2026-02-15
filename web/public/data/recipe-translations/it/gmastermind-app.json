@@ -1,0 +1,5 @@
+{
+  "name": "GMastermind",
+  "description": "Implementazione GNUstep del gioco Mastermind",
+  "longDescription": "<p>Trascina e rilascia i colori dalla tavolozza o dalla stessa griglia. L’obiettivo è indovinare la combinazione segreta di quattro colori. Il gioco può essere svolto in due modalità: con ripetizione, dove i colori possono ripetersi, e senza ripetizione, dove ogni colore è unico. L’utente seleziona una combinazione di quattro colori e la \"conferma\". Il programma restituisce una valutazione: un piolo nero per ogni colore nella posizione corretta e un piolo bianco per ogni colore giusto ma nella posizione sbagliata. Si possono effettuare fino a otto tentativi.</p>\n"
+}

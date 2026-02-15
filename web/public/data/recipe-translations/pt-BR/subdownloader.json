@@ -1,0 +1,5 @@
+{
+  "name": "SubDownloader",
+  "description": "Baixe/envie legendas para seus vídeos",
+  "longDescription": "<p>O SubDownloader é uma ferramenta para baixar/enviar automaticamente legendas para arquivos de vídeo (DIVX, MPEG, AVI, etc.) e DVDs utilizando hashing rápido.</p>\n<p>Recursos:   * Algoritmo de hashing rápido (27 GB de filmes em 7 segundos)   * Busca recursiva em pastas   * Detecção automática do idioma das legendas   * Envie legendas de temporadas inteiras de séries em menos de 1 minuto</p>\n<p>Este pacote inclui a interface gráfica (GUI), arquivos comuns e uma interface de linha de comando (CLI).</p>\n"
+}

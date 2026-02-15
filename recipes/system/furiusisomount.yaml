@@ -1,0 +1,26 @@
+id: furiusisomount
+name: Furius ISO Mount
+description: "Manage ISO, IMG, BIN, MDF and NRG images"
+longDescription: |
+  <p>Furius ISO Mount is a simple application for mounting ISO, IMG, BIN, MDF and NG image files even without burning them to disk.</p>
+  <p>It provides the following features:  - Automatically Mounts ISO, IMG, BIN, MDF and NRG image files.  - Automatically creates a mount point in your home directory.  - Automatically Unmounts the Image files.  - Automatically removes the mount directory to return your home    directory to its previous state.  - Automatically saves the history of the last 10 images mounted.  - Mounts multiple images.  - Burn ISO and IMG Files to optical disk.  - Generate Md5 and SHA1 checksums.  - Automatically retrieves any previously unmounted images.  - Automatically generates a log file of all commands needed to    mount and unmount images manually.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - furiusisomount
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: furiusisomount_furiusisomount.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

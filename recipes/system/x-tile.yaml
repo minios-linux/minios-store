@@ -1,0 +1,50 @@
+id: x-tile
+name: x-tile
+description: Tile selected windows in different ways
+longDescription: |
+  <p>
+        X-tile is an application that allows you to select a number of windows and tile them in different ways. Works on
+  any X desktop.
+      </p>
+  <p>
+        Main features include:  <em> Several tiling geometries  </em> Undo tiling  <em> Invert tiling order  </em> Optional
+  system tray docking and menu  <em> Filter to exclude windows  </em> Filter to include windows by default  * Command line interface
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - x-tile
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tile,tiling,sort,organize,windows
+screenshotSources:
+  - url: com/giuspen/x_tile/937309aa0645ac4d0fbd002a8f900c0d/screenshots/image-1_orig.png
+    thumbnailUrl: com/giuspen/x_tile/937309aa0645ac4d0fbd002a8f900c0d/screenshots/image-1_224x124.png
+    width: 461
+    height: 256
+  - url: com/giuspen/x_tile/937309aa0645ac4d0fbd002a8f900c0d/screenshots/image-2_orig.png
+    width: 202
+    height: 564
+  - url: com/giuspen/x_tile/937309aa0645ac4d0fbd002a8f900c0d/screenshots/image-3_orig.png
+    thumbnailUrl: com/giuspen/x_tile/937309aa0645ac4d0fbd002a8f900c0d/screenshots/image-3_224x107.png
+    width: 638
+    height: 307
+iconSources:
+  - url: com/giuspen/x_tile/937309aa0645ac4d0fbd002a8f900c0d/icons/128x128/x-tile_x-tile.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

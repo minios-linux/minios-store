@@ -1,0 +1,37 @@
+id: okular-mobile
+name: Okular Mobile
+description: Document Viewer
+longDescription: |
+  <p>
+     Okular is a universal document viewer developed by KDE. Okular works on multiple platforms, including but not limited
+  to Linux, Windows, Mac OS X, *BSD, etc.
+    </p>
+  <p>Features:</p>
+  <ul>
+    <li>Supported Formats: PDF, PS, Tiff, DjVu, Images, DVI, XPS, Fiction Book, Comic Book, Plucker, EPub, Fax</li>
+    <li>Sidebar with contents, thumbnails, reviews and bookmarks</li>
+    <li>Annotations support</li>
+  </ul>
+categoryId: office
+icon: BookOpen
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - okular-mobile
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/okular.kirigami/6942a38569c613adfa6eb9cab277d4f4/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/okular.kirigami/6942a38569c613adfa6eb9cab277d4f4/screenshots/image-1_224x329@1.png
+    width: 520
+    height: 765
+iconSources:
+  - url: org/kde/okular.kirigami/6942a38569c613adfa6eb9cab277d4f4/icons/128x128/okular-mobile_okular.png
+    width: 128
+    height: 128
+homepage: "https://okular.kde.org/"
+enabled: true
+order: 99

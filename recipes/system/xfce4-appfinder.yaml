@@ -1,0 +1,45 @@
+id: "xfce4-appfinder"
+name: Application Finder
+description: Application to quickly run applications and commands
+longDescription: |
+  <p>The application finder is a tool to find and launch installed applications on your system and quickly execute commands. It can also be used to quickly add launchers to the Xfce Panel by dragging an item from the view and drop it on the panel.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-appfinder
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - program
+  - applications
+  - bookmarks
+screenshotSources:
+  - url: org/xfce/xfce4-appfinder/8346abf642d3c6f97a001b80d28eda6d/screenshots/image-1_orig.png
+    thumbnailUrl: org/xfce/xfce4-appfinder/8346abf642d3c6f97a001b80d28eda6d/screenshots/image-1_624x435@1.png
+    width: 653
+    height: 456
+iconSources:
+  - url: org/xfce/xfce4-appfinder/8346abf642d3c6f97a001b80d28eda6d/icons/128x128/xfce4-appfinder_org.xfce.appfinder.png
+    width: 128
+    height: 128
+homepage: "https://www.xfce.org/"
+enabled: true
+order: 99

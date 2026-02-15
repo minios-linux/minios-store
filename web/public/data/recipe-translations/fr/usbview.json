@@ -1,0 +1,5 @@
+{
+  "name": "USBView",
+  "description": "Visualiser les périphériques USB connectés au système",
+  "longDescription": "<p>USBView est une petite application GTK+ qui affiche l’arborescence des périphériques connectés au bus USB. Elle propose une représentation graphique des périphériques branchés en temps réel, illustrant la topologie du bus USB. L’application fournit également des informations détaillées sur chaque périphérique présent sur le bus.</p>\n"
+}

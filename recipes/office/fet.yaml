@@ -1,0 +1,53 @@
+id: "fet"
+name: Timetable Generator
+description: Generate timetables for educational institutions
+longDescription: |
+  <p>FET is a program for automatically generating the timetable of a school, high-school or university.</p>
+  <p>Usually, FET is able to solve a complicated timetable in maximum 5-20 minutes. For simpler timetables, it may take a shorter time, under 5 minutes (in some cases, a matter of seconds). For extremely difficult timetables, it may take a longer time, a matter of hours.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fet
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - schedule
+  - planning
+  - school
+  - high-school
+  - university
+  - education
+  - teacher
+  - students
+screenshotSources:
+  - url: ro/lalescu/liviu.fet/a58d91d7cd401d0eb1dd04f02e901faf/screenshots/image-1_orig.png
+    thumbnailUrl: ro/lalescu/liviu.fet/a58d91d7cd401d0eb1dd04f02e901faf/screenshots/image-1_624x462@1.png
+    width: 768
+    height: 569
+  - url: ro/lalescu/liviu.fet/a58d91d7cd401d0eb1dd04f02e901faf/screenshots/image-2_orig.png
+    thumbnailUrl: ro/lalescu/liviu.fet/a58d91d7cd401d0eb1dd04f02e901faf/screenshots/image-2_624x442@1.png
+    width: 788
+    height: 559
+iconSources:
+  - url: ro/lalescu/liviu.fet/a58d91d7cd401d0eb1dd04f02e901faf/icons/128x128/fet_fet.png
+    width: 128
+    height: 128
+homepage: "https://www.lalescu.ro/liviu/fet/"
+enabled: true
+order: 99

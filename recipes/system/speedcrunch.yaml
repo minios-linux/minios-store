@@ -1,0 +1,64 @@
+id: speedcrunch
+name: SpeedCrunch
+description: A high-precision scientific calculator
+longDescription: |
+  <p>SpeedCrunch is a fast, high-precision scientific calculator. It features a syntax-highlighted scrollable display and is designed to be fully used via keyboard.</p>
+  <p>It includes many built-in maths functions and supports advanced features like user-defined functions, complex numbers, and unit conversions. This is combined with a simple yet powerful user interface featuring on-the-fly results preview, syntax highlighting, and autocompletion.</p>
+  <p>SpeedCrunch is available for several platforms in a number of languages.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - speedcrunch
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - arithmetic
+  - calculation
+  - math
+  - scientific
+screenshotSources:
+  - url: s/sp/speedcrunch.desktop/52570BC6D8D8D1ABE02ABF1B0AD68686/screenshots/image-1_orig.png
+    thumbnailUrl: s/sp/speedcrunch.desktop/52570BC6D8D8D1ABE02ABF1B0AD68686/screenshots/image-1_624x351.png
+    width: 1024
+    height: 576
+  - url: s/sp/speedcrunch.desktop/52570BC6D8D8D1ABE02ABF1B0AD68686/screenshots/image-2_orig.png
+    thumbnailUrl: s/sp/speedcrunch.desktop/52570BC6D8D8D1ABE02ABF1B0AD68686/screenshots/image-2_624x351.png
+    width: 1024
+    height: 576
+  - url: s/sp/speedcrunch.desktop/52570BC6D8D8D1ABE02ABF1B0AD68686/screenshots/image-3_orig.png
+    thumbnailUrl: s/sp/speedcrunch.desktop/52570BC6D8D8D1ABE02ABF1B0AD68686/screenshots/image-3_624x351.png
+    width: 1024
+    height: 576
+  - url: s/sp/speedcrunch.desktop/52570BC6D8D8D1ABE02ABF1B0AD68686/screenshots/image-4_orig.png
+    thumbnailUrl: s/sp/speedcrunch.desktop/52570BC6D8D8D1ABE02ABF1B0AD68686/screenshots/image-4_624x351.png
+    width: 1024
+    height: 576
+  - url: s/sp/speedcrunch.desktop/52570BC6D8D8D1ABE02ABF1B0AD68686/screenshots/image-5_orig.png
+    thumbnailUrl: s/sp/speedcrunch.desktop/52570BC6D8D8D1ABE02ABF1B0AD68686/screenshots/image-5_624x351.png
+    width: 1024
+    height: 576
+iconSources:
+  - cached: speedcrunch_speedcrunch.png
+    width: 64
+    height: 64
+homepage: "http://speedcrunch.org"
+enabled: true
+order: 99

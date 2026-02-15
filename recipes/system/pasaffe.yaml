@@ -1,0 +1,29 @@
+id: pasaffe
+name: Pasaffe
+description: Pasaffe password manager
+longDescription: |
+  <p>Pasaffe is an easy to use password manager for GNOME. You can use it to safely store all your usernames and passwords into a single encrypted database protected by as master password. The database is encrypted with Twofish and is PasswordSafe v3 compatible.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pasaffe
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: pasaffe_pasaffe.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

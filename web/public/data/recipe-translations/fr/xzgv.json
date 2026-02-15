@@ -1,0 +1,5 @@
+{
+  "name": "xzgv Image Viewer",
+  "description": "Visionneuse d’images légère",
+  "longDescription": "<p>xzgv est une visionneuse d’images pour X, dotée d’un sélecteur de fichiers basé sur les vignettes. La plupart des formats d’image sont pris en charge, et les vignettes utilisées sont compatibles avec xv, zgv et Gimp. Il est également possible de lancer xzgv avec `xzgv fichier(s)`, afin de contourner le sélecteur de fichiers.</p>\n<p>xzgv se distingue des autres visionneuses pour X en utilisant une seule fenêtre à la fois pour la navigation et l’affichage, en permettant (contrairement à xv) le défilement ainsi que l’ajustement à la fenêtre pour les grandes images, et en ne modifiant jamais le ratio d’aspect de l’image.</p>\n<p>L’application propose une prise en charge étendue du clavier ; pour les utilisateurs qui privilégient le clavier, c’est sans doute la meilleure visionneuse. Toutes les fonctionnalités de navigation à la souris sont néanmoins disponibles.</p>\n<p>Ce programme est développé par l’auteur de « zgv » (utilisant svgalib), et offre des fonctionnalités similaires.</p>\n<p>Site officiel : http://sourceforge.net/projects/xzgv</p>\n"
+}

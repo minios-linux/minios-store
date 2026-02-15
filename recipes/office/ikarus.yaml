@@ -1,0 +1,33 @@
+id: "ikarus"
+name: Ikarus Scheme
+description: Ikarus Implementation of the Scheme Programming Language
+longDescription: |
+  <p>Ikarus is a compiler-based implementation of the Scheme programming language which targets the i386/amd64 (with sse2) architecture.  It has good performance, is rather light weight, is case-sensitive, and implements a substantial portion of the language described in R6RS.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ikarus
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - r6rs
+iconSources:
+  - url: i/ik/ikarus.desktop/3fb4c4f88a06dff29224267b05e0d353/icons/128x128/ikarus_Ikarus_Scheme_Logo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

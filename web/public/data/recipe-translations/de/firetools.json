@@ -1,0 +1,5 @@
+{
+  "name": "Firejail Konfigurationsassistent",
+  "description": "Assistent zur Konfiguration von Firejail",
+  "longDescription": "<p>Firejail ist ein SUID-Sicherheits-Sandbox-Programm, das das Risiko von Sicherheitsverletzungen verringert, indem es die Ausführungsumgebung nicht vertrauenswürdiger Anwendungen mittels Linux-Namespaces und seccomp-bpf einschränkt. Es ermöglicht einem Prozess und allen seinen Nachkommen eine eigene, isolierte Sicht auf global geteilte Kernel-Ressourcen wie Netzwerkstack, Prozesstabelle und Mount-Tabelle.</p>\n<p>Dieses Paket enthält das auf Qt basierende Frontend Firetools.</p>\n"
+}

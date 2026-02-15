@@ -1,0 +1,43 @@
+id: "network-manager-gnome"
+name: NetworkManager
+description: NetworkManager connection editor
+longDescription: |
+  <p>NetworkManager is a system service for managing and configuring your network connections and devices.</p>
+  <p>The nm-connection-editor program works with NetworkManager to create and edit existing connection profiles for NetworkManager.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - network-manager-gnome
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: n/nm/nm-connection-editor.desktop/B872CA7370E0BB34D3887418C42EBBC0/screenshots/image-1_orig.png
+    thumbnailUrl: n/nm/nm-connection-editor.desktop/B872CA7370E0BB34D3887418C42EBBC0/screenshots/image-1_624x442.png
+    width: 772
+    height: 548
+iconSources:
+  - url: n/nm/nm-connection-editor.desktop/9dcb454bc369595f93d1f25d91a04964/icons/128x128/network-manager-gnome_preferences-system-network.png
+    width: 128
+    height: 128
+developer: The NetworkManager Developers
+homepage: "https://wiki.gnome.org/Projects/NetworkManager"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "nm-tray",
+  "description": "Interface pour NetworkManager (icône de la barre système)",
+  "longDescription": "<p>nm-tray est une interface légère pour NetworkManager, affichée sous forme d’icône d’information dans la barre système (similaire à nm-applet). Il s’agit d’une application entièrement développée en Qt. Pour communiquer avec NetworkManager, elle utilise l’API de KF5::NetworkManagerQt via une communication DBus standard.</p>\n<p>Ce paquet contient les fichiers de l’application.</p>\n"
+}

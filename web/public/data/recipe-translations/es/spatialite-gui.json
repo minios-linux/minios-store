@@ -1,0 +1,5 @@
+{
+  "name": "Spatialite GUI",
+  "description": "Administra bases de datos Spatialite",
+  "longDescription": "<p>spatialite-gui es una interfaz gráfica de usuario (GUI) para SpatiaLite.</p>\n<p>SpatiaLite es una extensión de SQLite que permite el soporte de datos espaciales (geometría) de acuerdo con las especificaciones OpenGis, compatible con los formatos WKT y WKB.</p>\n<p>Spatialite también incluye Virtualshape y Virtualtext para acceder a archivos shapefile y csv/texto como tablas virtuales.</p>\n"
+}

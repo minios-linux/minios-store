@@ -1,0 +1,5 @@
+{
+  "name": "FileZilla",
+  "description": "Descarga y carga archivos mediante FTP, FTPS y SFTP",
+  "longDescription": "<p>FileZilla es un cliente FTP completo con una interfaz gráfica fácil de usar.</p>\n<p>Está desarrollado en C++ y utiliza la biblioteca wxWidgets.</p>\n<p>FileZilla incluye las siguientes características:   * Soporte para FTP, FTP sobre SSL/TLS (FTPS) y Protocolo de Transferencia de Archivos SSH (SFTP)   * Compatibilidad con IPv6   * Disponible en más de 40 idiomas   * Permite reanudar y transferir archivos grandes (&gt;4GB)   * Gestor de sitios y cola de transferencia intuitivos   * Marcadores   * Soporte para arrastrar y soltar   * Límite de velocidad   * Filtros de nombre de archivo   * Comparación de directorios   * Asistente de configuración de red   * Edición remota de archivos   * Conexión activa (keep-alive)   * Soporte para proxies HTTP/1.1, SOCKS5 y FTP   * Registro en archivos (log)   * Navegación de directorios sincronizada   * Búsqueda de archivos remotos   * Interfaz con pestañas para conectar múltiples servidores</p>\n"
+}

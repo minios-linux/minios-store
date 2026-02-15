@@ -1,0 +1,5 @@
+{
+  "name": "PulseAudio Volume Control",
+  "description": "Lautstärke regeln",
+  "longDescription": "<p>Qt-Portierung der Lautstärkeregelung pavucontrol für den PulseAudio-Soundserver. Damit lassen sich alle von PulseAudio bereitgestellten Steuerungen sowie einige zusätzliche Einstellungen anpassen.</p>\n<p>Die Software gehört zum LXQt-Projekt, kann jedoch unabhängig von dieser Desktop-Umgebung verwendet werden.</p>\n<p>Dieses Paket enthält die Anwendungsdateien.</p>\n"
+}

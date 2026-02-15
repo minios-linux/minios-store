@@ -1,0 +1,5 @@
+{
+  "name": "Akselerasi 3D",
+  "description": "Ubah opsi Akselerasi 3D",
+  "longDescription": "<p>Driconf adalah applet konfigurasi untuk Direct Rendering Infrastructure (DRI). Aplikasi ini memungkinkan Anda menyesuaikan pengaturan performa dan kualitas visual driver OpenGL secara spesifik berdasarkan driver, layar, atau aplikasi.</p>\n<p>Driconf diimplementasikan menggunakan Python. Aplikasi ini memanfaatkan binding toolkit GTK+ serta program xdriinfo (dari paket xdriinfo atau xbase-clients) untuk mengambil informasi konfigurasi dari driver OpenGL.</p>\n"
+}

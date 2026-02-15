@@ -1,0 +1,5 @@
+{
+  "name": "Sincronización",
+  "description": "Siempre actualizado",
+  "longDescription": "<p>SyncEvolution sincroniza contactos, calendarios y tareas vía SyncML y CalDAV/CardDAV con otros servidores o dispositivos. Utiliza Evolution Data Server para sincronizar los datos PIM en Evolution, pero también es compatible con almacenamiento en archivos simples. El intercambio de datos puede realizarse a través de HTTP(S) y Bluetooth. Se admiten sincronizaciones completas, unidireccionales e incrementales. SyncEvolution puede funcionar como cliente SyncML/DAV y como servidor SyncML.</p>\n<p>Este paquete incluye una interfaz gráfica GTK+.</p>\n"
+}

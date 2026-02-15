@@ -1,0 +1,5 @@
+{
+  "name": "XCA",
+  "description": "Interfaz gráfica para gestionar y emitir certificados compatibles con X.509",
+  "longDescription": "<p>XCA permite crear y administrar autoridades certificadoras, así como gestionar llaves, certificados, solicitudes de firma de certificados (CSR), listas de revocación de certificados, entre otros.</p>\n<p>Toda la información se guarda en una base de datos cifrada y portátil, y puede exportarse en varios formatos estándar. XCA también está disponible para sistemas MacOS X y Windows.</p>\n<p>Para optimizar el flujo de trabajo, se pueden definir plantillas de certificados que facilitan la creación de nuevos certificados.</p>\n"
+}

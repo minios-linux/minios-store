@@ -1,0 +1,36 @@
+id: zangband
+name: Zangband
+description: "A single-player, text-based, roguelike game"
+longDescription: |
+  <p>Zangband is a single-player, roguelike game, based on Angband. Like Angband, Zangband features unique foes, artifacts, monster pits and vaults.  Additionally, Zangband offers a new spell system (life, sorcery, nature, chaos, death magic), a different monster list, speaking unique foes, rumours, warrants, new ego items, backstabbing from rogues, poisoned weapons, and much more.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zangband
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - angband
+  - magic
+  - ascii
+  - rogue
+  - dungeon
+  - roleplaying
+iconSources:
+  - cached: zangband_zangband.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

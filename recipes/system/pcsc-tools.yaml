@@ -1,0 +1,32 @@
+id: pcsc-tools
+name: Gscriptor
+description: Send commands to smart cards
+longDescription: |
+  <p>This archive contains some tools useful for a PC/SC user. The tools provided are:</p>
+  <p>pcsc_scan(1) scans available smart card readers and print detected events: card insertion with ATR, card removal;</p>
+  <p>ATR_analysis(1) analyses a smart card ATR (Answer To Reset)</p>
+  <p>scriptor(1) Perl script to send commands to a smart card using a batch file or stdin;</p>
+  <p>gscriptor(1) the same idea as scriptor.pl(1) but with Perl-Gtk GUI.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pcsc-tools
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - smartcard
+  - apdu
+iconSources:
+  - cached: pcsc-tools_gscriptor.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Snek Entwicklungsumgebung",
+  "description": "Bearbeiten und Testen von Snek-Programmen für Arduino",
+  "longDescription": "<p>Snek ist eine kleine, Python-ähnliche Programmiersprache für Embedded-Systeme. Sie läuft auf sehr ressourcenarmen Geräten, etwa einem Arduino Duemilanove mit ATmega328-Prozessor, 32 kB Flash und 2 kB RAM. Dieses Paket enthält ausführbare Dateien, Installationswerkzeuge für verschiedene Zielplattformen sowie die integrierte Entwicklungsumgebung snekde.</p>\n"
+}

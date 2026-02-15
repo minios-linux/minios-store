@@ -1,0 +1,31 @@
+id: kristall
+name: Kristall
+description: "Surf geminispace, gopherspace, and the web"
+longDescription: |
+  <p>Kristall is a browser without support for css/js/wasm or graphical websites. It can display user-styled documents in several formats, including gemini, html, markdown and others provided by a server via gemini, gopher, http, finger, etc.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kristall
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gemini
+  - gopher
+  - browser
+iconSources:
+  - url: k/kr/kristall.desktop/7063012aaaf4c84f55897b0a4c031951/icons/128x128/kristall_net.random-projects.kristall.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

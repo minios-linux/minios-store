@@ -1,0 +1,5 @@
+{
+  "name": "Pronsole",
+  "description": "Kommandozeilen-Hostsoftware für 3D-Drucker",
+  "longDescription": "<p>Pronsole ist eine Befehlszeilen-Benutzeroberfläche für Desktop-3D-Drucker wie RepRap. Sie ermöglicht das Laden von Gcode, die Verbindung zum Drucker sowie das Senden von Gcode-Befehlen. Die ideale Lösung, um einen 3D-Drucker auf headless oder leistungsschwachen Maschinen zu steuern.</p>\n<p>Es ist nicht nur möglich, Gcode-Dateien zu übertragen, sondern auch den Drucker manuell zu steuern oder Gcode-Befehle direkt an den Drucker zu senden.</p>\n<p>Pronsole lässt sich in Slicer-Tools integrieren. Beim Laden eines STL-3D-Modells wird dieses automatisch gesliced und geladen.</p>\n"
+}

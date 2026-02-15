@@ -1,0 +1,5 @@
+{
+  "name": "SpaceFM",
+  "description": "Menjelajahi sistem berkas",
+  "longDescription": "<p>SpaceFM adalah manajer berkas dan desktop dengan tampilan panel ganda dan tab untuk Linux, dilengkapi VFS built-in, manajer perangkat berbasis udev atau HAL, sistem menu yang dapat disesuaikan, serta integrasi dengan bash.</p>\n<p>Sebagai penerus PCManFM, SpaceFM bertujuan menjadi perangkat lunak yang bebas bug, efisien (ditulis utama dalam C), sangat dapat dikustomisasi (tampilan GUI bisa diubah dan ditambah melalui Design Mode), dan tetap ramah bagi pengguna baru berkat fleksibilitas kustomisasinya. SpaceFM juga dibuat agar independen dari distro maupun lingkungan desktop tertentu, serta memiliki fitur manajemen perangkat yang mampu menggantikan berbagai *kits berbasis udisks jika digunakan bersama udevil.</p>\n<p>Fitur unggulan lainnya termasuk manajemen desktop opsional, antrean cerdas untuk operasi berkas, dukungan plugin pengguna, dan kemampuan menjalankan perintah tertentu sebagai root.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Annunci classificati",
+  "description": "Annunci classificati, il programma per la pubblicazione di inserzioni",
+  "longDescription": "<p>Annunci classificati è un tentativo di riprodurre parte delle funzionalità che sono venute meno con la scomparsa di usenet news. Questa soluzione mira a risolvere il problema della scomparsa dei server di news, eliminando la necessità di server centralizzati; la memorizzazione dei dati avviene all'interno delle applicazioni client utilizzate dagli utenti. Le funzionalità attualmente includono:  * Pubblicazione di annunci online con categorizzazione.  * Risposta agli annunci sia in pubblico che in privato all'operatore.  * Allegati binari ai post.  * Fornitura di dati base sugli operatori.  * Ricerca basilare dei contenuti per parole chiave.  * Trattative audio tra operatori.  * Possibilità di estendere l'interfaccia tramite il linguaggio di scripting Tcl.  * Condivisione dei dati tra programmi Tcl utilizzando un database distribuito generico.</p>\n"
+}

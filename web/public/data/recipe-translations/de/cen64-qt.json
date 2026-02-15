@@ -1,0 +1,5 @@
+{
+  "name": "CEN64-Qt",
+  "description": "Anpassbares, plattformübergreifendes Frontend für CEN64",
+  "longDescription": "<p>CEN64-Qt ist ein plattformübergreifendes grafisches Frontend für den CEN64-Emulator. Da CEN64 selbst nur über eine einfache Befehlszeilenschnittstelle verfügt, ist für eine komfortablere Nutzung zusätzliche Software erforderlich – genau hier setzt dieses Paket an.</p>\n<p>Das Frontend listet alle verfügbaren ROMs auf, sobald sie zum Inventar hinzugefügt wurden, und bietet die Option, zusätzliche Informationen aus externen Spieledatenbanken im Web herunterzuladen. Dateipfade für die erforderlichen IPL-Dateien sowie die Pfade zum Speichern und Laden von Spielständen können bequem über das Einstellungsmenü konfiguriert werden.</p>\n<p>Zu den weiteren Funktionen gehören ein Log-Viewer für den Emulator, eine konfigurierbare Ansicht der ROM-Liste sowie ein Schnellzugriffsmenü zur Auswahl des bevorzugten Eingabegeräts, wie etwa verschiedene Gamepads oder die Tastatur.</p>\n<p>Selbstverständlich werden alle Einstellungen automatisch gespeichert und wiederhergestellt, sodass sie nur einmalig konfiguriert werden müssen.</p>\n"
+}

@@ -1,0 +1,74 @@
+id: "freecad"
+name: FreeCAD
+description: An open source parametric 3D CAD modeler
+longDescription: |
+  <p>
+        FreeCAD is an open-source parametric 3D modeler made 
+        primarily to design real-life objects of any size. 
+        Parametric modeling allows you to easily modify your 
+        design by going back into your model history and 
+        changing its parameters. It is designed to fit a 
+        wide range of uses including product design, mechanical 
+        engineering, architecture and 3D printing.
+      </p>
+  <p>
+        FreeCAD allows you to sketch geometry constrained 
+        2D shapes and use them as a base to build other objects. 
+        It contains many components to adjust dimensions or 
+        extract design details from 3D models to create high 
+        quality production-ready drawings. it is a multiplatfom 
+        (Windows, Mac and Linux), highly customizable using the 
+        Python language. It reads and writes to many open file 
+        formats such as STEP, IGES, STL, SVG, DXF, OBJ, IFC, 
+        DAE and many others, making it possible to seamlessly 
+        integrate it into your workflow. 
+      </p>
+  <p>
+        FreeCAD includes a modern Finite Element Analysis (FEA) 
+        tools, experimental CFD, BIM, Geodata workbenches, 
+        a Path (CNC) workbench, a robot simulation module that 
+        allows you to study robot movements and many more, and
+        a rich collection of plugins and macros installable
+        directly from within the application.
+      </p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freecad
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/freecad/FreeCAD/d345be7e3554501fc65fbd83e7098922/screenshots/image-1_orig.png
+    thumbnailUrl: org/freecad/FreeCAD/d345be7e3554501fc65fbd83e7098922/screenshots/image-1_624x383@1.png
+    width: 2736
+    height: 1683
+  - url: org/freecad/FreeCAD/d345be7e3554501fc65fbd83e7098922/screenshots/image-2_orig.png
+    thumbnailUrl: org/freecad/FreeCAD/d345be7e3554501fc65fbd83e7098922/screenshots/image-2_624x383@1.png
+    width: 2736
+    height: 1683
+  - url: org/freecad/FreeCAD/d345be7e3554501fc65fbd83e7098922/screenshots/image-3_orig.png
+    thumbnailUrl: org/freecad/FreeCAD/d345be7e3554501fc65fbd83e7098922/screenshots/image-3_624x383@1.png
+    width: 2736
+    height: 1681
+  - url: org/freecad/FreeCAD/d345be7e3554501fc65fbd83e7098922/screenshots/image-4_orig.png
+    thumbnailUrl: org/freecad/FreeCAD/d345be7e3554501fc65fbd83e7098922/screenshots/image-4_624x383@1.png
+    width: 2736
+    height: 1682
+iconSources:
+  - url: org/freecad/FreeCAD/d345be7e3554501fc65fbd83e7098922/icons/128x128/freecad_org.freecad.FreeCAD.png
+    width: 128
+    height: 128
+developer: The FreeCAD Team
+homepage: "https://www.freecadweb.org"
+enabled: true
+order: 99

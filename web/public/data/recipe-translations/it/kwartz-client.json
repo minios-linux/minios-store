@@ -1,0 +1,5 @@
+{
+  "name": "Configurazione per Kwartz",
+  "description": "Configura il client per accedere ai servizi Kwartz",
+  "longDescription": "<p>Kwartz è un server scolastico che offre numerosi servizi, utilizzato in diverse scuole francesi. Questo pacchetto semplifica il lavoro degli amministratori di sistema nell'integrare una macchina client GNU-Linux in una rete gestita da Kwartz, consentendo agli utenti di autenticarsi tramite la directory LDAP, montare automaticamente le condivisioni Samba personali, di gruppo e di progetto.</p>\n"
+}

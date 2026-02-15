@@ -1,0 +1,47 @@
+id: ffado-mixer-qt4
+name: FFADO Mixer
+description: Audio mixer for Firewire devices
+longDescription: |
+  <p>FFADO is a Linux driver for FireWire (IEEE1394) audio devices.</p>
+  <p>The FFADO library permits discovering and configuring such devices and provides an API for streaming clients.</p>
+  <p>This package holds the mixer and control applications that communicate with ffado-dbus-server.</p>
+  <p>Despite the package name, the GUI has been updated.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ffado-mixer-qt4
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - firewire
+  - sound interface
+screenshotSources:
+  - url: org/ffado/FfadoMixer/a6fffee9ef5366ee03809688bcd27b5a/screenshots/image-1_orig.png
+    thumbnailUrl: org/ffado/FfadoMixer/a6fffee9ef5366ee03809688bcd27b5a/screenshots/image-1_624x351@1.png
+    width: 711
+    height: 400
+iconSources:
+  - cached: ffado-mixer-qt4_hi64-apps-ffado.png
+    width: 64
+    height: 64
+homepage: "http://ffado.org/"
+enabled: true
+order: 99

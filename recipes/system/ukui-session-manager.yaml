@@ -1,0 +1,34 @@
+id: ukui-session-manager
+name: Startup Applications
+description: Choose what applications to start when you log in
+longDescription: |
+  <p>This package contains a session that can be started from a display manager such as MDM. It will load all necessary applications for a full-featured user session.</p>
+  <p>The session manager also features the ability to save a running session and restore it later.</p>
+  <p>This version is configured to start the UKUI desktop, based on the UKUI panel.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ukui-session-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - ukui
+  - session
+  - properties
+  - applications
+  - login
+  - start
+iconSources:
+  - url: u/uk/ukui-session-properties.desktop/D769992038DF2F7047A826ACFE59C1E4/icons/128x128/ukui-session-manager_ukui-session-properties.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

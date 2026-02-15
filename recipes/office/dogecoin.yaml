@@ -1,0 +1,24 @@
+id: dogecoin
+name: Dogecoin
+description: Dogecoin P2P Cryptocurrency
+longDescription: |
+  <p>Dogecoin is a free open source peer-to-peer electronic cash system that is completely decentralized, without the need for a central server or trusted parties.  Users hold the crypto keys to their own money and transact directly with each other, with the help of a P2P network to check for double-spending.</p>
+  <p>Full transaction history is stored locally at each client.  This requires 20+ GB of space, slowly growing.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dogecoin
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: dogecoin_dogecoin128.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

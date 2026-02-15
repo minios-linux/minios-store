@@ -1,0 +1,5 @@
+{
+  "name": "JAMin",
+  "description": "Interface de masterização de áudio para JACK",
+  "longDescription": "<p>JAM é uma ferramenta para produzir masters de áudio a partir de uma fonte mixada em múltiplas trilhas. Funciona com o JACK Audio Connection Kit e utiliza LADSPA como backend para processamento de áudio digital, empregando especificamente os plugins swh desenvolvidos por Steve Harris, principal autor do JAM.</p>\n<p>Recursos:  * Filtros lineares  * I/O via JACK  * Equalizador gráfico de 30 bandas  * Equalizador desenhado à mão de 1023 bandas com controles paramétricos  * Analisador de espectro  * Compressor de pico de 3 bandas  * Limitador brickwall com lookahead  * Processamento estéreo multibanda  * Presets e cenas  * Otimizador de loudness</p>\n"
+}

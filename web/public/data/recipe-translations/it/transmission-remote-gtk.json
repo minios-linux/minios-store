@@ -1,0 +1,5 @@
+{
+  "name": "Transmission Remote",
+  "description": "Gestisci da remoto il client BitTorrent Transmission",
+  "longDescription": "<p>Transmission Remote Gtk consente di gestire da remoto il client BitTorrent Transmission tramite la sua interfaccia RPC.<br>Offre tutte le funzioni principali: aggiunta, avvio, arresto, eliminazione, verifica e riautenticazione dei torrent.<br>Permette inoltre di configurare sia le impostazioni dei singoli torrent (limiti peer, priorità dei file, tracker, ecc.) sia le opzioni globali di Transmission (limiti generali, directory di download, preferenze di connettività, ecc.).<br>Può anche essere impostato come gestore dei file .torrent, aprendosi automaticamente quando si scaricano torrent dal browser.</p>\n"
+}

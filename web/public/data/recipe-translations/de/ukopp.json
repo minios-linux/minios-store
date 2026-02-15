@@ -1,0 +1,5 @@
+{
+  "name": "ukopp",
+  "description": "Vollständige und inkrementelle Backups mit Medienüberprüfung",
+  "longDescription": "<p>Ukopp dient zum Kopieren oder Sichern von Dateien auf Festplatten oder festplattenähnliche Geräte wie USB-Sticks. Es werden nur neue oder geänderte Dateien seit dem letzten Backup übertragen, was den Vorgang sehr schnell macht. Eine grafische Oberfläche ermöglicht das Navigieren im Dateisystem, um Dateien oder Verzeichnisse auf beliebiger Ebene ein- oder auszuschließen. Diese Einstellungen können in einer Auftragsdatei für wiederkehrende Sicherungen gespeichert werden. Neue Dateien in den ausgewählten Verzeichnissen werden automatisch berücksichtigt. Optional können frühere Versionen gesicherter Dateien beibehalten statt überschrieben werden. Das Wiederherstellen ausgewählter Dateien erfolgt ebenfalls komfortabel über die GUI. Dateieigentümer und -rechte werden mitgesichert, selbst wenn das Zielgerät ein Microsoft-Dateisystem verwendet.</p>\n"
+}

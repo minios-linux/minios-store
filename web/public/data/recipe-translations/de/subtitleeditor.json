@@ -1,0 +1,5 @@
+{
+  "name": "Subtitle Editor",
+  "description": "Ein Untertitelditor basierend auf GStreamer und Gtk+",
+  "longDescription": "<p>Subtitle Editor ist ein GTK+3-Tool zur Bearbeitung von Untertiteln. Es eignet sich sowohl zur Erstellung neuer Untertitel als auch zum Umwandeln, Bearbeiten, Korrigieren und Verfeinern bestehender Untertitel.</p>\n<p>Das Programm zeigt zudem Tonwellenformen an, was die Synchronisation von Untertiteln mit Sprachaufnahmen erleichtert.</p>\n<p>Dieses Paket bietet folgende Funktionen:</p>\n<p> o Multi-Dokument-Interface.  o Unterstützung für Internationalisierung.  o Videoplayer direkt im Hauptfenster integriert (basiert auf GStreamer).  o Wiedergabevorschau auch mit externem Videoplayer möglich (z.B. MPlayer).  o Stil-Editor.  o Verschieben von Untertiteln.  o Skalieren.  o Aufteilen und Zusammenführen von Untertiteln.  o Bearbeiten von Text und Anpassen der Zeit (Start, Ende).  o Erzeugen von Wellenformen aus Video.</p>\n<p>Unterstützte Formate:</p>\n<p> o Sub Station Alpha  o Advanced Sub Station Alpha  o SubRip  o MicroDVD  o MPL2  o MPsub (MPlayer-Untertitel)  o SubViewer 2.0  o Plain-Text  o Adobe Encore DVD</p>\n"
+}

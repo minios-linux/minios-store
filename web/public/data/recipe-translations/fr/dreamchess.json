@@ -1,0 +1,5 @@
+{
+  "name": "DreamChess",
+  "description": "un jeu d'échecs en 3D",
+  "longDescription": "<p>DreamChess propose des graphismes 3D OpenGL et différents styles d’échiquiers, allant du bois classique au design plat.</p>\n<p>Un moteur d’échecs de niveau intermédiaire est inclus : Dreamer. Cependant, si ce moteur n’est pas assez puissant pour vous, il est possible d’utiliser n’importe quel autre moteur compatible XBoard, comme les populaires Crafty ou GNU Chess.</p>\n<p>DreamChess offre également la liste des coups à l’écran en notation SAN, une fonction d’annulation, ainsi que la gestion des sauvegardes au format PGN.</p>\n"
+}

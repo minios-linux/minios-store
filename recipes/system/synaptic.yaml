@@ -1,0 +1,42 @@
+id: "synaptic"
+name: Synaptic Package Manager
+description: "Install, remove and upgrade software packages"
+longDescription: |
+  <p>Synaptic is a graphical package management tool based on GTK+ and APT. Synaptic enables you to install, upgrade and remove software packages in a user friendly way.</p>
+  <p>Besides these basic functions the following features are provided:  * Search and filter the list of available packages  * Perform smart system upgrades  * Fix broken package dependencies  * Edit the list of used repositories (sources.list)  * Download the latest changelog of a package  * Configure packages through the debconf system  * Browse all available documentation related to a package (dwww is required)</p>
+  
+categoryId: system
+icon: Package
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - synaptic
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/mvo5.synaptic/49b9ef05735c197679e25efe5cf7bae2/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/mvo5.synaptic/49b9ef05735c197679e25efe5cf7bae2/screenshots/image-1_624x468@1.png
+    width: 1280
+    height: 960
+iconSources:
+  - url: io/github/mvo5.synaptic/49b9ef05735c197679e25efe5cf7bae2/icons/128x128/synaptic_synaptic.png
+    width: 128
+    height: 128
+homepage: "https://github.com/mvo5/synaptic"
+enabled: true
+order: 99

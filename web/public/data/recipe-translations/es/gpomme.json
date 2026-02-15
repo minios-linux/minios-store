@@ -1,0 +1,5 @@
+{
+  "name": "Interfaz gráfica de configuración de pommed GTK",
+  "description": "Un cliente gráfico para pommed (interfaz de configuración)",
+  "longDescription": "<p>pommed gestiona las teclas especiales presentes en los portátiles Apple MacBook Pro, MacBook Air, MacBook, PowerBook e iBook, y ajusta el brillo de la pantalla LCD, el volumen del sonido, la retroiluminación del teclado o expulsa la unidad de CD-ROM según corresponda.</p>\n<p>gpomme es un cliente gráfico para pommed. Escucha las señales enviadas por pommed a través de D-Bus y muestra la acción realizada por pommed junto con el estado actual asociado a dicha acción.</p>\n"
+}

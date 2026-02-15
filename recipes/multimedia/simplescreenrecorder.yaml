@@ -1,0 +1,64 @@
+id: "simplescreenrecorder"
+name: SimpleScreenRecorder
+description: A feature-rich screen recorder that supports X11 and OpenGL
+longDescription: |
+  <p>SimpleScreenRecorder is a feature-rich screen recorder that supports X11 and OpenGL. It has a Qt-based graphical user interface. It can record the entire screen or part of it, or record OpenGL applications directly. The recording can be paused and resumed at any time. Many different file formats and codecs are supported.</p>
+  <p>Key features:</p>
+  <ul>
+    <li>Synchronizes audio and video properly.</li>
+    <li>Reduces the video frame rate if your computer is too slow.</li>
+    <li>Fully multithreaded: small delays in any of the components will never block the other components, resulting is smoother
+  video and better performance on computers with multiple processors.</li>
+    <li>Can also do live streaming (experimental).</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - simplescreenrecorder
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - screen recorder
+  - screencast
+  - live streaming
+  - ssr
+screenshotSources:
+  - url: be/maartenbaert/simplescreenrecorder/aa2d3376d1777d48838408e19d65ed9b/screenshots/image-1_orig.png
+    thumbnailUrl: be/maartenbaert/simplescreenrecorder/aa2d3376d1777d48838408e19d65ed9b/screenshots/image-1_224x271@1.png
+    width: 514
+    height: 623
+  - url: be/maartenbaert/simplescreenrecorder/aa2d3376d1777d48838408e19d65ed9b/screenshots/image-2_orig.png
+    thumbnailUrl: be/maartenbaert/simplescreenrecorder/aa2d3376d1777d48838408e19d65ed9b/screenshots/image-2_224x271@1.png
+    width: 514
+    height: 623
+  - url: be/maartenbaert/simplescreenrecorder/aa2d3376d1777d48838408e19d65ed9b/screenshots/image-3_orig.png
+    thumbnailUrl: be/maartenbaert/simplescreenrecorder/aa2d3376d1777d48838408e19d65ed9b/screenshots/image-3_224x271@1.png
+    width: 514
+    height: 623
+iconSources:
+  - url: be/maartenbaert/simplescreenrecorder/aa2d3376d1777d48838408e19d65ed9b/icons/128x128/simplescreenrecorder_simplescreenrecorder.png
+    width: 128
+    height: 128
+homepage: "http://www.maartenbaert.be/simplescreenrecorder/"
+enabled: true
+order: 99

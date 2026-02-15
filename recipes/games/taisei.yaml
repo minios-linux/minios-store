@@ -1,0 +1,47 @@
+id: taisei
+name: Taisei Project
+description: Bullet hell shoot 'em up game set in the Tōhō universe
+longDescription: |
+  <p>Taisei (泰西, lit. Occident) is a free and open-source fangame of the Tōhō series.</p>
+  <p>Basically, it is a shoot ’em up game with lots of bullets (the genre is literally called bullet hell). It doesn’t aim to rebuild a particular installment of the Tōhō games, but is rather an original game set in the world of Tōhō. Enjoy dodging through 6 stages full of new bullet patterns on four difficulty levels!</p>
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - taisei
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - bullet hell
+  - danmaku
+  - game
+  - shmup
+  - touhou
+screenshotSources:
+  - url: org/taisei_project/Taisei/e713a4aa742f2f2d02d3c65ea215dbab/screenshots/image-1_orig.png
+    thumbnailUrl: org/taisei_project/Taisei/e713a4aa742f2f2d02d3c65ea215dbab/screenshots/image-1_624x468@1.png
+    width: 1600
+    height: 1200
+  - url: org/taisei_project/Taisei/e713a4aa742f2f2d02d3c65ea215dbab/screenshots/image-2_orig.png
+    thumbnailUrl: org/taisei_project/Taisei/e713a4aa742f2f2d02d3c65ea215dbab/screenshots/image-2_624x468@1.png
+    width: 1600
+    height: 1200
+  - url: org/taisei_project/Taisei/e713a4aa742f2f2d02d3c65ea215dbab/screenshots/image-3_orig.png
+    thumbnailUrl: org/taisei_project/Taisei/e713a4aa742f2f2d02d3c65ea215dbab/screenshots/image-3_624x468@1.png
+    width: 1600
+    height: 1200
+  - url: org/taisei_project/Taisei/e713a4aa742f2f2d02d3c65ea215dbab/screenshots/image-4_orig.png
+    thumbnailUrl: org/taisei_project/Taisei/e713a4aa742f2f2d02d3c65ea215dbab/screenshots/image-4_624x468@1.png
+    width: 1600
+    height: 1200
+iconSources:
+  - url: org/taisei_project/Taisei/e713a4aa742f2f2d02d3c65ea215dbab/icons/128x128/taisei_org.taisei_project.Taisei.png
+    width: 128
+    height: 128
+homepage: "https://taisei-project.org"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Repetier-Host",
+  "description": "Pengontrol utama untuk printer 3D RepRap",
+  "longDescription": "<p>Repetier-Host memungkinkan Anda melakukan seluruh tahapan yang diperlukan untuk mencetak model 3D. Fitur-fitur utamanya meliputi:   - mengatur model pada pelat cetak virtual   - melakukan slicing pada model dan menghitung jalur kepala printer   - memeriksa g-code dari kesalahan   - mengirimkan g-code ke printer   - memantau status printer</p>\n"
+}

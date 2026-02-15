@@ -1,0 +1,35 @@
+id: "pangoterm"
+name: PangoTerm
+description: A minimalist GTK terminal
+longDescription: |
+  <p>A minimal GTK/Pango-based terminal which that uses libvterm to provide terminal emulation.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pangoterm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: p/pa/pangoterm.desktop/ca34a95a938a3b255da549db2cb9e3bf/icons/128x128/pangoterm_utilities-terminal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

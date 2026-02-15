@@ -1,0 +1,5 @@
+{
+  "name": "Heaptrack",
+  "description": "Un profileur de mémoire heap pour Linux",
+  "longDescription": "<p>Heaptrack suit toutes les allocations mémoire et annote ces événements avec les traces de pile. Des outils d’analyse dédiés permettent ensuite d’interpréter le profil mémoire afin de :</p>\n<ul>\n  <li>identifier les points chauds à optimiser pour réduire l’empreinte mémoire de votre application</li>\n  <li>détecter les fuites de mémoire, c’est-à-dire les emplacements qui allouent de la mémoire sans jamais la libérer</li>\n  <li>repérer les zones du code qui génèrent de nombreuses allocations mémoire</li>\n  <li>trouver les allocations temporaires, qui sont immédiatement suivies de leur désallocation</li>\n</ul>\n"
+}

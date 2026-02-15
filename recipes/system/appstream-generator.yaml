@@ -1,0 +1,42 @@
+id: appstream-generator
+name: AppStream Generator
+description: A fast AppStream metadata generator
+longDescription: |
+  <p>AppStream is a cross-distribution specification to provide metadata about software components.</p>
+  <p>The appstream-generator tool generates AppStream metadata from the repositories of a software distribution.
+        It currently supports the following repository formats / distributions: Debian, Ubuntu, Arch Linux, RPM-MD (Fedora,
+  Mageia).</p> <p>The generator will produce AppStream collection metadata files in the AppStream YAML or XML format to be shipped
+        to users, as well as a detailed HTML report about found components and HTML and JSON reports on issues detected
+        with the scanned metadata. It reads .desktop files as well as metainfo files, renders fonts, scales images, caches
+        screenshots etc. to produce high-quality metadata for AppStream based software centers to consume.
+        Usually, appstream-generator is integrated with the existing software build &amp; delivery workflow of
+        a distribution.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - appstream-generator
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+homepage: "https://github.com/ximion/appstream-generator"
+enabled: true
+order: 99

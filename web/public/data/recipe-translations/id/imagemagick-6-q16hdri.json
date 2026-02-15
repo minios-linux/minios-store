@@ -1,0 +1,5 @@
+{
+  "name": "ImageMagick (color depth=q16hdri)",
+  "description": "Menampilkan dan mengedit berkas gambar",
+  "longDescription": "<p>ImageMagick adalah perangkat lunak untuk membuat, mengedit, dan menyusun gambar bitmap. ImageMagick dapat membaca, mengonversi, dan menulis gambar dalam berbagai format (lebih dari 100), termasuk DPX, EXR, GIF, JPEG, JPEG-2000, PDF, PhotoCD, PNG, Postscript, SVG, dan TIFF. Dengan ImageMagick, Anda dapat menerjemahkan, membalik, mencerminkan, memutar, memperbesar, menyesuaikan perspektif, mengubah warna gambar, menerapkan beragam efek khusus, atau menambahkan teks, garis, poligon, elips, dan kurva Bézier ke dalam gambar. Semua manipulasi ini dapat dilakukan melalui perintah shell maupun antarmuka grafis X11 (display).</p>\n<p>Untuk bekerja dengan format SVG, WMF, OpenEXR, DjVu, dan Graphviz, instal paket libmagickcore-6.q16hdri-6-extra.</p>\n<p>Versi ImageMagick ini dikompilasi dengan kedalaman saluran 16 bit dan high dynamic range (Q16HDRI).</p>\n"
+}

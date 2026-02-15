@@ -1,0 +1,42 @@
+id: "praat"
+name: Praat Speech Analyzer
+description: "Analyze, synthesize and manipulate speech"
+longDescription: |
+  <p>According to its authors, praat is &quot;doing phonetics by computer&quot;.  Through its graphical interface, several speech analysis functionalities are available: spectrograms, cochleograms, and pitch and formant extraction.  Articulatory synthesis, as well as synthesis from pitch, formant, and intensity are also available.  Other features are segmentation, labelling using the phonetic alphabet, and computation of statistics.  Praat is configurable and extensible through its own scripting language and has provisions for communicating with other programs.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - praat
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - speech
+  - phonetics
+iconSources:
+  - url: p/pr/praat.desktop/6727e0b161fb3fab562908a8d31419fe/icons/128x128/praat_praat-480.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

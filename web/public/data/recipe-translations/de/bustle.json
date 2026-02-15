@@ -1,0 +1,5 @@
+{
+  "name": "Bustle",
+  "description": "Erstellt Sequenzdiagramme von D-Bus-Aktivitäten",
+  "longDescription": "<p>Bustle erstellt Sequenzdiagramme von D-Bus-Aktivitäten. Es visualisiert Signalemissionen, Methodenaufrufe und die dazugehörigen Rückgabewerte, einschließlich Zeitstempeln für jedes Ereignis sowie der Dauer jedes Methodenaufrufs. Dies hilft dabei, unerwünschten D-Bus-Datenverkehr aufzuspüren und genau zu identifizieren, warum eine D-Bus-basierte Anwendung nicht die gewünschte Leistung erbringt. Zudem bietet es Statistiken wie Signalfrequenzen und durchschnittliche Laufzeiten von Methodenaufrufen.</p>\n"
+}

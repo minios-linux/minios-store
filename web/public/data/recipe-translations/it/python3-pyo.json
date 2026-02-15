@@ -1,0 +1,5 @@
+{
+  "name": "E-Pyo",
+  "description": "Ambiente per la sintesi sonora e l'elaborazione del segnale audio",
+  "longDescription": "<p>pyo è un modulo Python che offre classi per una vasta gamma di elaborazioni del segnale audio. Con pyo, gli utenti possono includere catene di processamento audio direttamente negli script o progetti Python e manipolarle in tempo reale tramite l'interprete. Gli strumenti del modulo pyo offrono primitive come operazioni matematiche sui segnali audio, elaborazioni di base (filtri, delay, generatori di sintesi, ecc.), così come algoritmi complessi per la granulazione sonora e altre manipolazioni creative dell'audio.</p>\n<p>pyo supporta il protocollo OSC (Open Sound Control), facilitando la comunicazione tra software, e il protocollo MIDI, per la generazione di eventi sonori e il controllo dei parametri di processo.</p>\n<p>pyo permette la creazione di sofisticate catene di elaborazione del segnale, sfruttando tutti i vantaggi di un linguaggio di programmazione maturo e largamente utilizzato.</p>\n<p>Questo pacchetto installa la libreria per Python 3.</p>\n"
+}

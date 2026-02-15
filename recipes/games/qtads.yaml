@@ -1,0 +1,37 @@
+id: "qtads"
+name: QTads
+description: Multimedia interpreter for TADS games
+longDescription: |
+  <p>QTads is a cross-platform, multimedia interpreter for TADS games. It is fully compatible
+          with HTML TADS (aka "Multimedia TADS.") Both TADS versions in use today (v2 and v3) are
+          supported.</p>
+  <p>Most TADS games are free and can be downloaded from places like the Interactive Fiction
+          Database (https://ifdb.tads.org) and the Interactive Fiction Archive
+          (https://ifarchive.org).</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtads
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: n/ni/nikos.chantziaras.qtads/007fc0de38dab23c21bd9ef1183f2fb0/screenshots/image-1_orig.png
+    thumbnailUrl: n/ni/nikos.chantziaras.qtads/007fc0de38dab23c21bd9ef1183f2fb0/screenshots/image-1_624x351@1.png
+    width: 1354
+    height: 762
+iconSources:
+  - url: n/ni/nikos.chantziaras.qtads/007fc0de38dab23c21bd9ef1183f2fb0/icons/128x128/qtads_qtads.png
+    width: 128
+    height: 128
+developer: Nikos Chantziaras
+homepage: "https://realnc.github.io/qtads"
+enabled: true
+order: 99

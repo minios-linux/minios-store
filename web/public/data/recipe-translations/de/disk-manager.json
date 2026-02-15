@@ -1,0 +1,5 @@
+{
+  "name": "Disk Manager",
+  "description": "Verwalten der Dateisystem-Konfiguration",
+  "longDescription": "<p>Disk-Manager ist ein einfaches Tool zur Konfiguration von Dateisystemen. Es ermöglicht Ihnen: * Automatisches Erkennen neuer Partitionen beim Systemstart. * Vollständige Verwaltung der Dateisystem-Konfiguration. * Aktivieren/Deaktivieren des Schreibzugriffs für NTFS (erfordert ntfs-3g).</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "AT1",
+  "description": "Corrige la afinación de una voz desafinada",
+  "longDescription": "<p>AT1 es un ‘autotuner’ utilizado principalmente para corregir la afinación de una voz que canta (ligeramente) desafinada. En comparación con ‘Autotalent’, ofrece un algoritmo de estimación de tono mejorado y una remuestreo mucho más limpio.</p>\n<p>AT1 no incluye corrección de formantes, por lo que debe usarse solo para corregir errores menores y no para transponer una canción realmente. La afinación ‘esperada’ puede controlarse mediante MIDI (solo vía Jack) o establecerse como un conjunto fijo de notas. AT1 también se puede utilizar en algunos instrumentos, aunque está diseñado principalmente para abarcar el rango vocal. También resulta útil como afinador rápido y básico para guitarra.</p>\n"
+}

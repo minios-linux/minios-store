@@ -1,0 +1,49 @@
+id: gnome-decoder
+name: Decoder
+description: Scan and generate QR codes
+longDescription: |
+  <p>Fancy yet simple QR Codes scanner and generator.</p>
+  <p>Features:</p>
+  <ul>
+    <li>QR Code generation</li>
+    <li>Scanning with a camera</li>
+    <li>Scanning from a screenshot</li>
+    <li>Parses and displays QR code content when possible</li>
+  </ul>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-decoder
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - qr
+  - scan
+  - generate
+  - code
+screenshotSources:
+  - url: com/belmoussaoui/Decoder/69830f8abb1d65d945680a1e7b6c89e1/screenshots/image-1_orig.png
+    thumbnailUrl: com/belmoussaoui/Decoder/69830f8abb1d65d945680a1e7b6c89e1/screenshots/image-1_624x685@1.png
+    width: 771
+    height: 847
+  - url: com/belmoussaoui/Decoder/69830f8abb1d65d945680a1e7b6c89e1/screenshots/image-2_orig.png
+    thumbnailUrl: com/belmoussaoui/Decoder/69830f8abb1d65d945680a1e7b6c89e1/screenshots/image-2_624x685@1.png
+    width: 771
+    height: 847
+  - url: com/belmoussaoui/Decoder/69830f8abb1d65d945680a1e7b6c89e1/screenshots/image-3_orig.png
+    thumbnailUrl: com/belmoussaoui/Decoder/69830f8abb1d65d945680a1e7b6c89e1/screenshots/image-3_624x685@1.png
+    width: 771
+    height: 847
+iconSources:
+  - url: com/belmoussaoui/Decoder/69830f8abb1d65d945680a1e7b6c89e1/icons/128x128/gnome-decoder_com.belmoussaoui.Decoder.png
+    width: 128
+    height: 128
+homepage: "https://apps.gnome.org/Decoder/"
+enabled: true
+order: 99

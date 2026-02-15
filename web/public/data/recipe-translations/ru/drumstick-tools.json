@@ -1,0 +1,5 @@
+{
+  "name": "Drumstick Virtual Piano",
+  "description": "Виртуальное пианино Drumstick",
+  "longDescription": "<p>Эта библиотека представляет собой C++-обёртку для интерфейса секвенсора ALSA, реализованную с использованием объектов и стиля Qt4. Секвенсор ALSA обеспечивает программную поддержку MIDI-технологии в Linux. Также включены дополнительные классы для обработки файлов SMF и WRK.</p>\n<p>Данный пакет предоставляет утилиты, входящие в состав библиотеки:  - drumstick-buildsmf: создание стандартных MIDI-файлов \"с нуля\";  - drumstick-dumpgrid: простой драм-секвенсор на Qt;  - drumstick-dumpmid: запись ALSA MIDI-событий в STDOUT;  - drumstick-dumpsmf: вывод MIDI-событий из MIDI-файла в STDOUT;  - drumstick-dumpwrk: вывод MIDI-событий из файла Cakewalk WRK в STDOUT;  - drumstick-guiplayer: простой проигрыватель MIDI-файлов на Qt;  - drumstick-metronome: консольный MIDI-метроном;  - drumstick-playsmf: консольный проигрыватель MIDI-файлов;  - drumstick-sysinfo: отображение информации о MIDI ALSA;  - drumstick-timertest: тестирование производительности таймера ALSA;  - drumstick-vpiano: графическое приложение виртуальной клавиатуры пианино.</p>\n"
+}

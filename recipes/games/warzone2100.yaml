@@ -1,0 +1,48 @@
+id: "warzone2100"
+name: Warzone 2100
+description: Postnuclear realtime strategy
+longDescription: |
+  <p>In Warzone 2100 you command the forces of “The Project” in a battle to rebuild the world after mankind has almost been destroyed by nuclear missiles.</p>
+  <p>The game offers campaign, tutorial, multi-player and single-player skirmish modes.</p>
+  <p>An extensive tech tree with over 400 different technologies, combined with the unit design system, allows for a wide variety of possible units and tactics.</p>
+  <p>Warzone 2100 was created by Pumpkin Studios, published by Eidos Interactive and is currently developed by the Warzone 2100 Project.</p>
+  <p>The campaign video sequences are not yet distributed here, please see the Warzone 2100 website for details on downloading and installing them.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - warzone2100
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: w/wa/warzone2100/268ff58d0cc85d96f0eefbea5639da1a/screenshots/image-1_orig.png
+    thumbnailUrl: w/wa/warzone2100/268ff58d0cc85d96f0eefbea5639da1a/screenshots/image-1_224x168.png
+    width: 320
+    height: 240
+iconSources:
+  - cached: warzone2100_net.wz2100.warzone2100.png
+    width: 64
+    height: 64
+developer: Warzone 2100 Team
+homepage: "https://wz2100.net/"
+enabled: true
+order: 99

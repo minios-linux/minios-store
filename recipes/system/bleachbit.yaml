@@ -1,0 +1,44 @@
+id: bleachbit
+name: BleachBit
+description: Free space and maintain privacy
+longDescription: |
+  <p>BleachBit deletes unnecessary files to free valuable disk space, maintain privacy, and remove junk. It removes cache, Internet history, temporary files, cookies, and broken shortcuts.</p>
+  <p>It handles cleaning of Adobe Reader, Bash, Beagle, Epiphany, Firefox, Flash, GIMP, Google Earth, Java, KDE, OpenOffice.org, Opera, RealPlayer, rpmbuild, Second Life Viewer, VIM, XChat, and more.</p>
+  <p>Beyond simply erasing junk files, BleachBit wipes free disk space (to hide previously deleted files for privacy and to improve compression of images), vacuums Firefox databases (to improve performance without deleting data), and securely shreds arbitrary files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bleachbit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - clean
+  - performances
+  - free
+  - privacy
+iconSources:
+  - cached: bleachbit_bleachbit.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

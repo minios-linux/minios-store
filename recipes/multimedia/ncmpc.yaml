@@ -1,0 +1,36 @@
+id: ncmpc
+name: ncmpc
+description: NCurses Music Player Client
+longDescription: |
+  <p>This package contains a text-mode client for MPD, the Music Player Daemon. Its goal is to provide a keyboard oriented and consistent interface to MPD, without wasting resources.</p>
+  <p>Features:  - full Unicode and wide character support  - music database browser, database search, media library  - audio output configuration  - lyrics  - LIRC support  - customizable key bindings and colors  - tiny memory footprint, smaller than any other interactive MPD client</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ncmpc
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - terminal
+  - audio
+  - player
+iconSources:
+  - cached: ncmpc_mpd.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

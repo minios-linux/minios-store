@@ -1,0 +1,62 @@
+id: "vlc"
+name: VLC
+description: "VLC media player, the open-source multimedia player"
+longDescription: |
+  <p>VLC is a free and open source cross-platform multimedia player and
+              framework that plays most multimedia files as well as DVDs, Audio CDs,
+              VCDs, and various streaming protocols.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vlc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - player
+  - capture
+  - dvd
+  - audio
+  - video
+  - server
+  - broadcast
+screenshotSources:
+  - url: org/videolan/vlc/c4666d393c29dd0002ec5581749c2328/screenshots/image-1_orig.png
+    thumbnailUrl: org/videolan/vlc/c4666d393c29dd0002ec5581749c2328/screenshots/image-1_624x430@1.png
+    width: 1000
+    height: 690
+  - url: org/videolan/vlc/c4666d393c29dd0002ec5581749c2328/screenshots/image-2_orig.png
+    thumbnailUrl: org/videolan/vlc/c4666d393c29dd0002ec5581749c2328/screenshots/image-2_624x477@1.png
+    width: 940
+    height: 719
+  - url: org/videolan/vlc/c4666d393c29dd0002ec5581749c2328/screenshots/image-3_orig.png
+    thumbnailUrl: org/videolan/vlc/c4666d393c29dd0002ec5581749c2328/screenshots/image-3_624x428@1.png
+    width: 1000
+    height: 686
+iconSources:
+  - url: org/videolan/vlc/c4666d393c29dd0002ec5581749c2328/icons/128x128/vlc_vlc.png
+    width: 128
+    height: 128
+developer: VideoLAN et al.
+homepage: "https://www.videolan.org/vlc/"
+enabled: true
+order: 99

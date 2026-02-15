@@ -1,0 +1,46 @@
+id: "birdfont"
+name: Birdfont
+description: Font editor
+longDescription: |
+  <p>Birdfont is a free, open source font editor that lets you create outline vector graphics and export ttf, eot &amp; svg fonts.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - birdfont
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - font
+screenshotSources:
+  - url: org/birdfont/birdfont/4d097348f15c09b989388f2ff7424447/screenshots/image-1_orig.png
+    thumbnailUrl: org/birdfont/birdfont/4d097348f15c09b989388f2ff7424447/screenshots/image-1_624x390.png
+    width: 1280
+    height: 800
+iconSources:
+  - url: b/bi/birdfont.desktop/244f1949603bc3f6620a4d077bd87dd5/icons/128x128/birdfont_birdfont.png
+    width: 128
+    height: 128
+developer: Johan Mattsson
+homepage: "https://birdfont.org/"
+enabled: true
+order: 99

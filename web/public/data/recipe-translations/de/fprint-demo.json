@@ -1,0 +1,5 @@
+{
+  "name": "fprint-demo",
+  "description": "Demonstration der Fingerabdruckerkennung",
+  "longDescription": "<p>fprint-demo ist eine einfache GTK+-Anwendung zur Demonstration und zum Testen der Funktionen von libfprint.</p>\n<p>Sie ermöglicht es Anwendern, Fingerabdrücke zu registrieren und – abhängig vom Scanner-Hersteller – sowohl die normale als auch die binarisierte Darstellung einschließlich erkannter Minutien anzuzeigen.</p>\n"
+}

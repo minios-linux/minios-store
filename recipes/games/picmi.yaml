@@ -1,0 +1,46 @@
+id: "picmi"
+name: Picmi
+description: Puzzle game based on number logic
+longDescription: |
+  <p>The goal is to reveal the hidden pattern in the board by coloring or
+        leaving blank the cells in a grid according to numbers given at the side
+        of the grid.
+        This is a single player game.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - picmi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/picmi/6e0d25a6d9007da6ddd274e29d17db0a/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/picmi/6e0d25a6d9007da6ddd274e29d17db0a/screenshots/image-1_624x527@1.png
+    width: 740
+    height: 625
+iconSources:
+  - url: org/kde/picmi/6e0d25a6d9007da6ddd274e29d17db0a/icons/128x128/picmi_picmi.png
+    width: 128
+    height: 128
+homepage: "https://projects.kde.org/projects/kde/kdegames/picmi"
+enabled: true
+order: 99

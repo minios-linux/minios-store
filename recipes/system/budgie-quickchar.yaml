@@ -1,0 +1,51 @@
+id: "budgie-quickchar"
+name: Budgie Quickchar
+description: Quickly find and choose the equivalent locale character for an ascii character
+longDescription: |
+  <p>
+        Budgie Quickchar is a mini-app to find locale characters quickly:
+      </p>
+  <ul>
+    <li>Press Super+Alt+C to call the window (Need budgie-extras budgie-extras-daemon)</li>
+    <li>Type a character, and all its derivates will appear.</li>
+    <li>Click one (or tab to the targeted character and press Return) and the character will be pasted into the document</li>
+    <li>Press again to toggle visibility, or Escape to hide</li>
+  </ul>
+  <p>
+      This application has been created primarily for the budgie-desktop but will also work on all X11 based desktops.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - budgie-quickchar
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - characters
+  - unicode
+  - punctuation
+  - letters
+screenshotSources:
+  - url: org/ubuntubudgie/quickchar/ceefb09f51c9e3d8d2d6d2ef3044974e/screenshots/image-1_orig.png
+    thumbnailUrl: org/ubuntubudgie/quickchar/ceefb09f51c9e3d8d2d6d2ef3044974e/screenshots/image-1_224x58@1.png
+    width: 903
+    height: 236
+iconSources:
+  - url: org/ubuntubudgie/quickchar/ceefb09f51c9e3d8d2d6d2ef3044974e/icons/128x128/budgie-quickchar_org.ubuntubudgie.quickchar.png
+    width: 128
+    height: 128
+homepage: "https://github.com/UbuntuBudgie/budgie-extras"
+enabled: true
+order: 99

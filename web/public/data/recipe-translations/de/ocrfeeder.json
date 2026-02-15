@@ -1,0 +1,5 @@
+{
+  "name": "OCRFeeder",
+  "description": "Die umfassende OCR-Komplettlösung.",
+  "longDescription": "<p>OCRFeeder ist ein System zur Dokumentlayout-Analyse und optischen Zeichenerkennung (OCR).</p>\n<p>Ausgehend von Bildern erkennt OCRFeeder automatisch den Seitenaufbau, unterscheidet zwischen Grafik und Text und führt auf Letzteres die Texterkennung durch. Hauptsächlich werden ODT-Dateien erzeugt, es können aber auch weitere Formate ausgegeben werden.</p>\n<p>Die vollständige GTK+-Benutzeroberfläche ermöglicht es, nicht erkannte Zeichen zu korrigieren, Begrenzungsrahmen festzulegen oder zu bearbeiten, Absatzformate zu definieren, Eingabebilder zu bereinigen, PDFs zu importieren, Projekte zu speichern und zu laden sowie alle Inhalte in verschiedene Formate zu exportieren.</p>\n"
+}

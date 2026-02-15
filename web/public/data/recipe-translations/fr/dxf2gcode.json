@@ -1,0 +1,5 @@
+{
+  "name": "dxf2gcode converter",
+  "description": "Convertisseur de dessins 2D DXF en G-Code compatible machines CNC",
+  "longDescription": "<p>Ce programme lit des dessins mécaniques 2D de pièces à usiner et génère des instructions de déplacement G-code pour les machines-outils automatiques (machines CNC) telles que fraiseuses et tours.</p>\n<p>Il s'agit d'un logiciel de FAO (Fabrication Assistée par Ordinateur) avec interface graphique. Il accepte comme entrée des fichiers au format DXF, PDF ou Postscript. Il prend en charge les opérations de fraisage, perçage et tournage, ainsi que la gestion des pattes de maintien.</p>\n"
+}

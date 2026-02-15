@@ -1,0 +1,5 @@
+{
+  "name": "aMule",
+  "description": "Ein Client für das eD2k-Netzwerk",
+  "longDescription": "<p>aMule ist eine Peer-to-Peer-Dateifreigabe-Anwendung, die entwickelt wurde, um sich mit den eDonkey- und Kad-Netzwerken zu verbinden. Sie bietet zahlreiche Funktionen, von denen viele bereits aus dem ursprünglichen eMule-Client bekannt sind, wie zum Beispiel:</p>\n<p> * Online-Signatur, Quellenaustausch, komprimierte Übertragungen, sichere Identifizierung und Unterstützung für IP-Filter  * Boolesche Suche, die lokal, global oder im Kad-Netzwerk erfolgen kann  * Überprüfungen gegen aggressive Clients  * Slot-Vergabe zur Steuerung der Anzahl zugelassener Remote-Clients  * Systray-Unterstützung, sowohl für GNOME als auch KDE  * Übersetzungen in viele Sprachen</p>\n<p>Eine daemonisierte Version der Anwendung, die keine grafische Oberfläche benötigt, ist im Paket amule-daemon verfügbar. Weitere nützliche Werkzeuge befinden sich in den Paketen amule-utils und amule-utils-gui, darunter ein Handler für ed2k-Links.</p>\n"
+}

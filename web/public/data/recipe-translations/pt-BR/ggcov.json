@@ -1,0 +1,5 @@
+{
+  "name": "GGcov",
+  "description": "Navegador de cobertura de código-fonte",
+  "longDescription": "<p>Uma interface gráfica simples para visualizar dados de cobertura de testes em C gerados por programas compilados com \"gcc --coverage\". Serve como uma alternativa gráfica ao utilitário \"gcov\" incluído no gcc.</p>\n"
+}

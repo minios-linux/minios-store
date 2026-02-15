@@ -1,0 +1,5 @@
+{
+  "name": "PuTTY SSH Client",
+  "description": "Connectez-vous à un serveur SSH avec PuTTY",
+  "longDescription": "<p>Il s'agit du portage Unix du célèbre client SSH pour Windows, PuTTY. Il offre une configuration de terminal flexible, la reconfiguration de la session en cours via Ctrl-clic droit, la prise en charge de plusieurs protocoles d'authentification X11, ainsi que diverses autres fonctionnalités non proposées par ssh dans un xterm.</p>\n<p>Pageant est un agent d’authentification SSH, ainsi qu’un outil pour communiquer avec un agent déjà en cours d’exécution.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Jameica",
+  "description": "Ambiente di esecuzione per applicazioni Java",
+  "longDescription": "<p>Ambiente runtime per applicazioni Java, implementate come plugin.</p>\n<p>Jameica gestisce attività ricorrenti come:  * interfaccia utente uniforme  * rigorosa separazione tra dati utente e di programma  * accesso standardizzato ai file di configurazione  * elementi di navigazione e menu comuni  * scambio dati sincrono e asincrono tra plugin  * supporta il modello client-server tramite RMI, XML-RPC o SOAP  * utilizzo semplificato di metodi di cifratura (sistema portafoglio integrato)  * supporto headless per server  * logging</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "gwsetup",
+  "description": "Geneweb Ahnenforschungssoftware – Konfiguration",
+  "longDescription": "<p>Geneweb ermöglicht die Verwaltung genealogischer Daten. Es ist ein leistungsstarkes System zur Pflege und Archivierung von Informationen über Ihre Familiengeschichte. Es unterstützt viele GEDCOM-Tags zur Datenspeicherung und kann entweder als primäres Werkzeug für die Ahnenforschung oder als Webdienst (über eine CGI-Schnittstelle) zur Veröffentlichung Ihrer Daten für andere verwendet werden.</p>\n<p>Gwsetup ist ein Kommandozeilen-Programm, das zusätzlich einen kleinen Webserver enthält, um Geneweb-Nutzern die Einrichtung und Verwaltung genealogischer Datenbanken für die Verwendung mit dem Hauptprogramm Geneweb zu erleichtern.</p>\n"
+}

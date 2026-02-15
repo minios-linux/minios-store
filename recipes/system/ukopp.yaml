@@ -1,0 +1,39 @@
+id: ukopp
+name: ukopp
+description: Full and incremental backup with media verification
+longDescription: |
+  <p>Ukopp is used to copy or back-up disk files to a disk or disk-like device, such as a USB stick. It copies only new or modified files since the last backup, and is therefore quite fast. A GUI is used to navigate the file system to include or exclude files or directories at any level. These choices can be saved in a job file for repeated use. New files appearing within the included directories are handled automatically. Optionally, previous versions of the backup files can be retained instead of being overwritten. Files can be selectively restored using a GUI. Ownership and permissions are also restored, even if the target device uses a Microsoft file system.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ukopp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - backup
+iconSources:
+  - cached: ukopp_ukopp.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

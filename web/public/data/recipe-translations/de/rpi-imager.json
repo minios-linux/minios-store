@@ -1,0 +1,5 @@
+{
+  "name": "Raspberry Pi Imager",
+  "description": "Dienstprogramm zur Erstellung von Raspberry Pi-Images",
+  "longDescription": "<p>\n      Raspberry Pi Imager lädt eine .JSON-Datei von der offiziellen Raspberry Pi-Website herunter,\n      die eine Liste aller aktuellen Download-Optionen enthält. So stellen Sie sicher, dass\n      Sie immer die aktuellste Version installieren.\n    </p>\n<p>\n      Nachdem Sie ein Betriebssystem aus den verfügbaren Optionen ausgewählt haben, lädt das\n      Programm die relevante Datei direkt von der Raspberry Pi-Website herunter und schreibt\n      sie unmittelbar auf die SD-Karte. Dies beschleunigt den Prozess erheblich im Vergleich\n      zum Standardverfahren, bei dem zunächst die Datei von der Website heruntergeladen,\n      lokal gespeichert und anschließend separat auf die SD-Karte geschrieben wird.\n    </p>\n<p>\n      Während dieses Vorgangs speichert Raspberry Pi Imager das heruntergeladene\n      Betriebssystemabbild zudem im lokalen Cache ab. Dadurch können Sie weitere SD-Karten\n      programmieren, ohne die Datei erneut herunterladen zu müssen.\n    </p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Scilab CLI",
+  "description": "Pacote científico para cálculos numéricos",
+  "longDescription": "<p>O Scilab é um software científico baseado em matrizes. Ele inclui centenas de funções matemáticas integradas, estruturas de dados avançadas (como polinômios, racionais, sistemas lineares, listas, etc.) e conta com diversos toolboxes específicos para controle, processamento de sinais, entre outros.</p>\n<p>Este pacote fornece o Scilab como um Interpretador de Linha de Comando (CLI), permitindo usar o Scilab como motor de cálculos ou interpretador de scripts. Para acessar todos os recursos, instale o pacote \"scilab\".</p>\n"
+}

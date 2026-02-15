@@ -1,0 +1,40 @@
+id: "sunflow"
+name: Sunflow
+description: Photorealistic Rendering Engine
+longDescription: |
+  <p>Sunflow is an open source rendering system for photo-realistic image synthesis. It is written in Java and built around a flexible ray tracing core and an extensible object-oriented design. It was created as a framework for experimenting with global illumination algorithms and new surface shading models.</p>
+  <p>This package contains the sunflow GUI.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sunflow
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - rendering,photo,realistic,image,synthesis,illumination,shading
+iconSources:
+  - url: s/su/sunflow.desktop/b69f2f80f5d9b07dfbeb28a40165d553/icons/128x128/sunflow_sunflow.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

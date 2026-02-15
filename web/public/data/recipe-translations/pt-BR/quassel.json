@@ -1,0 +1,5 @@
+{
+  "name": "Quassel IRC",
+  "description": "Cliente IRC distribuído com componente central",
+  "longDescription": "<p>Quassel é um cliente IRC moderno, multiplataforma e distribuído, permitindo que um ou mais clientes se conectem ou desconectem do núcleo central. É semelhante à combinação popular de screen com um cliente IRC em modo texto, como WeeChat ou irssi, porém com interface gráfica.</p>\n<p>Este pacote oferece o cliente monolítico. Ele inclui tanto o núcleo quanto o cliente, podendo ser utilizado como um cliente IRC tradicional, sem necessidade de núcleo externo.</p>\n"
+}

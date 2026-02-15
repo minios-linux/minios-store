@@ -1,0 +1,48 @@
+id: "calibre"
+name: calibre - E-book Editor
+description: Edit the text and styles inside e-books
+longDescription: |
+  <p>The calibre e-book editor allows you to edit the text and styles inside the book with a live preview of your changes.</p>
+  <p>It can edit books in both the EPUB and AZW3 (kindle) formats. It includes various useful tools for checking the book for errors, editing the Table of Contents, performing automated cleanups, etc.</p>
+  
+categoryId: office
+icon: BookOpen
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - calibre
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/calibre_ebook/calibre.ebook_viewer/a147d8dfff36ac0e7d74fe743be87bf8/screenshots/image-1_orig.png
+    thumbnailUrl: com/calibre_ebook/calibre.ebook_viewer/a147d8dfff36ac0e7d74fe743be87bf8/screenshots/image-1_624x351@1.png
+    width: 1408
+    height: 792
+  - url: com/calibre_ebook/calibre.ebook_viewer/a147d8dfff36ac0e7d74fe743be87bf8/screenshots/image-2_orig.png
+    thumbnailUrl: com/calibre_ebook/calibre.ebook_viewer/a147d8dfff36ac0e7d74fe743be87bf8/screenshots/image-2_624x351@1.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: com/calibre_ebook/calibre.ebook_viewer/a147d8dfff36ac0e7d74fe743be87bf8/icons/128x128/calibre_calibre-viewer.png
+    width: 128
+    height: 128
+homepage: "https://calibre-ebook.com"
+enabled: true
+order: 99

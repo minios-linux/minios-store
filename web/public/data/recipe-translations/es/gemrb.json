@@ -1,0 +1,5 @@
+{
+  "name": "GemRB",
+  "description": "una implementación portable y de código abierto del Infinity Engine de Bioware",
+  "longDescription": "<p>GemRB (Game Engine Made with preRendered Background) es una nueva implementación del Infinity Engine original (el motor de Baldur's Gate, Icewind Dale, Planescape: Torment, ...) disponible para Linux/Unix, MacOS X y Windows, con algunas mejoras adicionales.</p>\n<p>Esto significa que necesitas tener los archivos de datos originales de alguno de los juegos en algún lugar de tu disco duro, o puedes intentar usar los datos del proyecto de conversión total Dragonlance.</p>\n<p>Los datos originales deben estar instalados en una partición de Windows y montados en tu sistema de archivos Linux/Unix, instalados en Windows y luego copiados a tu sistema de archivos, instalados mediante WINE o extraídos manualmente desde los CD usando la herramienta 'unshield'.</p>\n<p>Juegos compatibles: series Baldur's Gate e Icewind Dale, Planescape: Torment.</p>\n"
+}

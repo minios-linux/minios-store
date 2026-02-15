@@ -1,0 +1,42 @@
+id: "boinc-manager"
+name: BOINC Manager
+description: Configure or monitor a BOINC core client
+longDescription: |
+  <p>The Berkeley Open Infrastructure for Network Computing (BOINC) is a software platform for distributed computing using volunteered computer resources.</p>
+  <p>This package contains the BOINC Manager, a graphical monitor and control utility for the BOINC core client. It gives a detailed overview of the state of the client it is monitoring, as there are  * attached projects  * running tasks  * file transfers between the client and project servers  * statistics about granted credits and disk usage for every project  * constraints on CPU usage The BOINC Manager has two modes of operation, the &quot;Simple View&quot; in which it only displays the most important information and the &quot;Advanced View&quot; in which all information and all control elements are available.</p>
+  <p>For active participation in any BOINC project the recommended boinc-client package, not the boinc-manager, is required for every machine contributing.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - boinc-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - computation
+  - science
+iconSources:
+  - url: b/bo/boinc-manager.desktop/4557944115752931dd7044837d8b0aee/icons/128x128/boinc-manager_boincmgr.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

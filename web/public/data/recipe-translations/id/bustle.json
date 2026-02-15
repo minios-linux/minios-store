@@ -1,0 +1,5 @@
+{
+  "name": "Bustle",
+  "description": "Membuat diagram urutan aktivitas D-Bus",
+  "longDescription": "<p>Bustle membuat diagram urutan (sequence diagram) dari aktivitas D-Bus. Aplikasi ini menampilkan emisi sinyal, pemanggilan metode, serta respons yang terkait, lengkap dengan stempel waktu untuk setiap kejadian dan durasi tiap pemanggilan metode. Ini memudahkan Anda memeriksa lalu lintas D-Bus yang tidak diinginkan dan mengidentifikasi alasan aplikasi berbasis D-Bus Anda tidak berjalan optimal. Bustle juga menyediakan statistik seperti frekuensi sinyal dan rata-rata waktu pemanggilan metode.</p>\n"
+}

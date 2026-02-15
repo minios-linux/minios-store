@@ -1,0 +1,5 @@
+{
+  "name": "WinFF",
+  "description": "Antarmuka grafis untuk ffmpeg atau avconv",
+  "longDescription": "<p>WinFF adalah antarmuka pengguna grafis (GUI) untuk FFmpeg atau avconv. Aplikasi ini memungkinkan Anda mengonversi hampir semua berkas video yang dapat dikonversi oleh FFmpeg atau avconv. WinFF mendukung konversi banyak berkas sekaligus ke berbagai format. Sebagai contoh, Anda dapat mengonversi file mpeg, flv, dan mov ke avi (atau ke format DVD/VCD, MPEG, 3gp, dan sebagainya) dalam satu proses.</p>\n<p>WinFF menyediakan beragam pengaturan preset konversi untuk format dan perangkat yang umum digunakan. Preset ini dirancang agar sesuai dengan kebutuhan spesifik tiap codec, dengan mempertimbangkan kualitas hasil terbaik.</p>\n<p>Agar sebagian besar preset dapat berfungsi, Anda perlu memasang versi libavcodec yang tidak dipreteli, yang dapat diperoleh dengan menginstal paket libavcodec-extra seperti yang disarankan oleh WinFF. Anda mungkin juga perlu mengaktifkan repositori tambahan untuk menemukan paket tersebut.</p>\n"
+}

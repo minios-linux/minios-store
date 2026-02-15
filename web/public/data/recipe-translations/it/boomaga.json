@@ -1,0 +1,5 @@
+{
+  "name": "Boomaga",
+  "description": "Stampante virtuale per visualizzare e modificare un documento prima della stampa.",
+  "longDescription": "<p>Boomaga (Booklet Manager) è una stampante virtuale che consente di visualizzare un documento prima di stamparlo con la stampante fisica.</p>\n<p>Il programma è molto semplice da utilizzare. Da qualsiasi applicazione, basta cliccare su \"stampa\" e selezionare \"Boomaga\" per vedere, dopo alcuni secondi (CUPS può impiegare un po' a rispondere), aprirsi la finestra di Boomaga.</p>\n<p>Se si invia in stampa un altro documento, questo viene aggiunto al precedente e si possono anche stampare più documenti insieme in un'unica operazione.</p>\n<p>Indipendentemente dal fatto che la stampante supporti o meno la stampa fronte-retro, è possibile stampare facilmente su entrambi i lati del foglio.</p>\n"
+}

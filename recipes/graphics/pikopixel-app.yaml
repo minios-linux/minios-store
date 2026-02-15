@@ -1,0 +1,68 @@
+id: "pikopixel-app"
+name: PikoPixel
+description: Pixel-art image editor
+longDescription: |
+  <p>PikoPixel is a free, open-source application for drawing and editing pixel-art images and icons.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Easy to use</li>
+    <li>Unlimited undo</li>
+    <li>Supports multiple layers</li>
+    <li>Customizable canvas background and grid patterns</li>
+    <li>Hotkey-activated popup panels</li>
+    <li>Export upscaled images</li>
+    <li>Supports linear (gamma-correct) color blending</li>
+  </ul>
+  <p>Originally a Mac app, PikoPixel runs natively on GNU/Linux by using the GNUstep framework.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pikopixel.app
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - graphics
+  - pixelart
+  - icon
+  - bitmap
+  - raster
+  - image
+  - png
+  - gif
+  - jpg
+  - tiff
+screenshotSources:
+  - url: p/pi/pikopixel/732647e28253809d0c80e60ae97e095a/screenshots/image-1_orig.png
+    thumbnailUrl: p/pi/pikopixel/732647e28253809d0c80e60ae97e095a/screenshots/image-1_624x351.png
+    width: 1280
+    height: 720
+  - url: p/pi/pikopixel/732647e28253809d0c80e60ae97e095a/screenshots/image-2_orig.png
+    thumbnailUrl: p/pi/pikopixel/732647e28253809d0c80e60ae97e095a/screenshots/image-2_624x390.png
+    width: 1280
+    height: 800
+iconSources:
+  - cached: pikopixel.app_GNUstepAppIcon.png
+    width: 64
+    height: 64
+developer: Josh Freeman
+homepage: "http://twilightedge.com/mac/pikopixel/"
+enabled: true
+order: 99

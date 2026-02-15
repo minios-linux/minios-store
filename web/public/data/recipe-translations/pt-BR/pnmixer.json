@@ -1,0 +1,5 @@
+{
+  "name": "PNMixer",
+  "description": "Um mixer de áudio para a bandeja do sistema",
+  "longDescription": "<p>PNMixer é um mixer de áudio simples projetado para rodar na bandeja do sistema. Ele se integra bem a ambientes de desktop que não possuem um painel com suporte a applets e, portanto, não podem executar um applet de mixer. É especialmente utilizado com o fbpanel e o tint2, mas deve funcionar normalmente em qualquer bandeja do sistema.</p>\n<p>O PNMixer foi desenvolvido para sistemas que utilizam o ALSA para gerenciamento de áudio. Outros drivers de som como OSS ou FFADO, ou servidores de áudio como PulseAudio ou Jack, atualmente não são suportados (contribuições são bem-vindas).</p>\n"
+}

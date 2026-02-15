@@ -1,0 +1,24 @@
+id: wesnoth-1-12-core
+name: Battle for Wesnoth Map Editor (1.12)
+description: A map editor for Battle for Wesnoth maps
+longDescription: |
+  <p>This package contains the main program for wesnoth. It can be used to play multiplayer games.  If you want to play campaigns you will have to install them individually, but if you prefer to have all the official campaigns installed please be advised to install the wesnoth-1.12 package which depends on all of them.</p>
+  <p>Battle for control of villages, using variety of units which have advantages and disadvantages in different types of terrains and against different types of attacks.  Units gain experience and advance levels, and are carried over from one scenario to the next in a campaign.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wesnoth-1.12-core
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: wesnoth-1.12-core_wesnoth-1.12_editor-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

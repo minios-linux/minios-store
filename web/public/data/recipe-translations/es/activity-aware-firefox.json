@@ -1,0 +1,5 @@
+{
+  "name": "Activity-aware Firefox",
+  "description": "Mantiene un perfil de Firefox independiente para cada Actividad",
+  "longDescription": "<p>Con activity-aware-firefox puedes tener ventanas de Firefox en cada Actividad de Plasma vinculadas a esa Actividad.</p>\n<p>Lo que hace activity-aware-firefox es crear un perfil de Firefox la primera vez que se ejecuta en una Actividad, utilizando su ID única.</p>\n<p>Después, cada vez que inicies activity-aware-firefox en esa Actividad de Plasma, abrirá el perfil de Firefox asociado a ella.</p>\n"
+}

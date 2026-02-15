@@ -1,0 +1,33 @@
+id: raysession
+name: RaySession
+description: Audio Session Manager
+longDescription: |
+  <p>Ray Session is a GNU/Linux session manager for audio programs as Ardour, Carla, QTractor, Non-Timeline, etc...</p>
+  <p>It uses the same API as Non Session Manager, so programs compatible with NSM are also compatible with Ray Session. As Non Session Manager, the principle is to load together audio programs, then be able to save or close all documents together.</p>
+  <p>Ray Session offers a little more:</p>
+  <p> - Factory templates for NSM and LASH compatible applications  - Possibility to save any client as template  - Save session as template  - Name files with a prettier way  - remember if client was started or not  - Abort session almost anytime  - Change Main Folder of sessions on GUI  - Possibility to KILL client if clean exit is too long  - Open Session Folder button (open default file manager)</p>
+  <p>Ray Session is being developed by houston4444, using Python3 and Qt5.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - raysession
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: r/ra/raysession.desktop/cacb69d428b62fa50a5c34cbf272daa9/icons/128x128/raysession_raysession.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

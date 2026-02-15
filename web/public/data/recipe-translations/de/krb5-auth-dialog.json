@@ -1,0 +1,5 @@
+{
+  "name": "Kerberos-Authentifizierungsdialog",
+  "description": "Kerberos-Tickets anfordern, erneuern und anzeigen",
+  "longDescription": "<p>Mit der Kerberos-Authentifizierung können Sie Ihre aktuellen Kerberos-Tickets anzeigen sowie neue Tickets vom Kerberos-Server anfordern und sich authentifizieren. Sie werden benachrichtigt, wenn Ihre Kerberos-Zugangsdaten demnächst ablaufen, und Ihr Ticket wird, wenn möglich, automatisch verlängert.</p>\n<p>Dies ist besonders nützlich, wenn Sie sich nach Ihrer Desktop-Anmeldung (z. B. auf einem Mobilgerät) beim Kerberos-Server (KDC) authentifizieren müssen.</p>\n"
+}

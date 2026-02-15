@@ -1,0 +1,5 @@
+{
+  "name": "Petri-Foo",
+  "description": "Sampler Suara",
+  "longDescription": "<p>Sampler sederhana namun sangat berguna yang dikendalikan melalui MIDI untuk ALSA/JACK, dengan fitur:  * 64 nada polifoni, tersebar dalam hingga 64 patch.  * pitch scaling cepat dan berkualitas tinggi, envelope volume linear ADSR.  * filter low pass dengan resonansi; berbagai mode pemutaran independen arah.  * editor sampel dengan kemampuan zoom untuk mengatur titik loop dan pemutaran.</p>\n<p>Petri-Foo merupakan fork dari proyek Specimen Sampler.</p>\n"
+}

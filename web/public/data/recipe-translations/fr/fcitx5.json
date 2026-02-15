@@ -1,0 +1,5 @@
+{
+  "name": "Fcitx 5",
+  "description": "Lancer le gestionnaire de méthode de saisie",
+  "longDescription": "<p>Fcitx5 est la nouvelle génération du framework de méthode de saisie fcitx. Il offre une expérience de saisie moderne et agréable avec des outils de configuration graphiques intuitifs. Ce framework est hautement extensible avec une prise en charge des bibliothèques GTK+ et Qt, des interfaces DBus, de nombreux environnements de bureau et une API adaptée aux développeurs.</p>\n<p>Parmi ses nouveautés, il prend en charge Wayland et Xorg, ainsi que la possibilité d’émuler IBus pour une compatibilité optimale entre différentes distributions Linux et environnements de bureau.</p>\n<p>Ce paquet fournit les composants essentiels du framework fcitx5.</p>\n"
+}

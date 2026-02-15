@@ -1,0 +1,5 @@
+{
+  "name": "fprint-demo",
+  "description": "Demonstração de leitura de impressão digital",
+  "longDescription": "<p>O fprint-demo é um aplicativo simples em GTK+ para demonstrar e testar os recursos da libfprint.</p>\n<p>Permite que o usuário interaja para cadastrar impressões digitais e, dependendo do fabricante do leitor, exiba tanto a representação normal quanto a binarizada, incluindo as minúcias detectadas.</p>\n"
+}

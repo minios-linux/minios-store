@@ -1,0 +1,35 @@
+id: gworkspace-app
+name: GWorkspace
+description: GNUstep Workspace Manager
+longDescription: |
+  <p>GWorkspace is the official GNUstep workspace manager. It is a clone of NeXT&apos;s workspace manager. GWorkspace is probably one of the most useful and usable workspace managers available on any platform, owing to its well-designed interface and the natural, consistent design that it inherits from the GNUstep framework.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gworkspace.app
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - folder
+  - manager
+  - explore
+  - disk
+  - filesystem
+iconSources:
+  - cached: gworkspace.app_FileManager.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,36 @@
+id: "syncthing"
+name: Start Syncthing
+description: Starts the main syncthing process in the background.
+longDescription: |
+  <p>Syncthing is an application that lets you synchronize your files across multiple devices. This means the creation, modification or deletion of files on one machine will automatically be replicated to your other devices. Syncthing does not upload your data to the cloud but exchanges your data across your machines as soon as they are online at the same time.</p>
+  <p>This package contains the main binary: syncthing.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - syncthing
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/sy/syncthing-ui.desktop/ec5505fbb5ae2c9365056974b398a10a/icons/128x128/syncthing_syncthing.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

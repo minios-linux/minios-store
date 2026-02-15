@@ -1,0 +1,5 @@
+{
+  "name": "Coot",
+  "description": "Outil de modélisation macromoléculaire",
+  "longDescription": "<p>Cet outil permet de construire des modèles atomiques de macromolécules à partir de données de diffraction des rayons X. Coot affiche des cartes de densité électronique et des modèles moléculaires, et propose des fonctions avancées de manipulation comme l’idéalisation, le raffinement, la rotation ou translation manuelle, l’ajustement de corps rigide, la recherche de ligand, la solvatation, les mutations et l’analyse des rotamères. Des outils de validation tels que les diagrammes de Ramachandran et d’autres analyses géométriques sont également disponibles. Ce paquet fournit une version de Coot avec le support intégré du langage Python.</p>\n"
+}

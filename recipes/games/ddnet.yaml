@@ -1,0 +1,55 @@
+id: "ddnet"
+name: DDNet
+description: A Teeworlds modification with a unique cooperative gameplay
+longDescription: |
+  <p>DDraceNetwork (DDNet) is an actively maintained version of DDRace, a Teeworlds modification with a unique cooperative gameplay. Help each other play through custom maps with up to 64 players, compete against the best in international tournaments, design your own maps, or run your own server.</p>
+  <p>This package contains the client binary for DDNet.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ddnet
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - multiplayer
+screenshotSources:
+  - url: d/dd/ddnet.desktop/4d076acd899523cdc4558eaf739b6180/screenshots/image-1_orig.png
+    thumbnailUrl: d/dd/ddnet.desktop/4d076acd899523cdc4558eaf739b6180/screenshots/image-1_624x345.png
+    width: 1918
+    height: 1062
+  - url: d/dd/ddnet.desktop/4d076acd899523cdc4558eaf739b6180/screenshots/image-2_orig.png
+    thumbnailUrl: d/dd/ddnet.desktop/4d076acd899523cdc4558eaf739b6180/screenshots/image-2_624x345.png
+    width: 1918
+    height: 1062
+  - url: d/dd/ddnet.desktop/4d076acd899523cdc4558eaf739b6180/screenshots/image-3_orig.png
+    thumbnailUrl: d/dd/ddnet.desktop/4d076acd899523cdc4558eaf739b6180/screenshots/image-3_624x345.png
+    width: 1918
+    height: 1062
+iconSources:
+  - url: d/dd/ddnet.desktop/c71a56447f6185eaf5ce2298832e0003/icons/128x128/ddnet_ddnet.png
+    width: 128
+    height: 128
+homepage: "https://ddnet.tw/"
+enabled: true
+order: 99

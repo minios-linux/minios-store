@@ -1,0 +1,37 @@
+id: "asciijump"
+name: asciijump
+description: A clone of the dsj game
+longDescription: |
+  <p>This is a very funny multiplayer game, you can play with friends or against the computer. There are two modes of playing: World Cup and Training. You will be able to select from a few hills, for example czumulungma and finland.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - asciijump
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: asciijump_asciijump.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

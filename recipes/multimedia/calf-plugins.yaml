@@ -1,0 +1,44 @@
+id: "calf-plugins"
+name: Calf Plugin Pack for JACK
+description: Process and produce sounds using a set of plugins with JACK interface
+longDescription: |
+  <p>The Calf plugins include all todays frequently used studio effects along with some feature-rich sound processors.</p>
+  <p>Calf Studiogear is designed to run under the most flexible plugin standard in Linux, namely LV2. So you&apos;re able to insert them in lots of plugin-capable audio software like Ardour, Rosegarden and others.</p>
+  <p>The Calf Rack offers you all Calf effects and synthesizers in an easy-to-use studio rack. Wire the effects through Jack to build your own studio environment and trigger the sound processors live or through a MIDI sequencer or tracker.</p>
+  <p>Calf Rack supports LADISH level 1.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - calf-plugins
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio,plug-in
+  - effect
+  - instrument
+iconSources:
+  - url: c/ca/calf.desktop/fdbb6890cc6485be9437a90300baa523/icons/128x128/calf-plugins_calf.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,36 @@
+id: mate-system-monitor
+name: MATE System Monitor
+description: View current processes and monitor system state
+longDescription: |
+  <p>MATE system monitor allows you to graphically view and manipulate the running processes on your system.  It also provides an overview of available resources such as CPU and memory.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mate-system-monitor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - mate
+  - system
+  - monitor
+  - process
+  - list
+  - view
+  - current
+  - resources
+iconSources:
+  - url: m/ma/mate-system-monitor.desktop/F58DFA210446E06D85ED38B0AD179D54/icons/128x128/mate-system-monitor_utilities-system-monitor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

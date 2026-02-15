@@ -1,0 +1,29 @@
+id: "gentle"
+name: GENtle
+description: Suite to plan genetic cloning
+longDescription: |
+  <p>GENtle is a software for DNA and amino acid editing, database management, plasmid maps, restriction and ligation, alignments, sequencer data import, calculators, gel image display, PCR, and much more.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gentle
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/ge/gentle.desktop/ca9207fb4f6049356a77fb449cdfe31c/icons/128x128/gentle_gentle.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

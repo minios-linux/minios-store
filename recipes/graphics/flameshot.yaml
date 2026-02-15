@@ -1,0 +1,51 @@
+id: "flameshot"
+name: Flameshot
+description: Powerful and simple to use screenshot software
+longDescription: |
+  <p>Powerful and simple to use screenshot software with built-in
+        editor with advanced features.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flameshot
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - flameshot
+  - screenshot
+  - capture
+  - shutter
+screenshotSources:
+  - url: org/flameshot/Flameshot/2cd67805c6efad66c6f51b191e37c7a9/screenshots/image-1_orig.png
+    thumbnailUrl: org/flameshot/Flameshot/2cd67805c6efad66c6f51b191e37c7a9/screenshots/image-1_624x303.png
+    width: 877
+    height: 426
+  - url: org/flameshot/Flameshot/2cd67805c6efad66c6f51b191e37c7a9/screenshots/image-2_orig.png
+    thumbnailUrl: org/flameshot/Flameshot/2cd67805c6efad66c6f51b191e37c7a9/screenshots/image-2_624x340.png
+    width: 880
+    height: 480
+iconSources:
+  - url: org/flameshot/Flameshot/2cd67805c6efad66c6f51b191e37c7a9/icons/128x128/flameshot_org.flameshot.Flameshot.png
+    width: 128
+    height: 128
+homepage: "https://github.com/lupoDharkael/flameshot"
+enabled: true
+order: 99

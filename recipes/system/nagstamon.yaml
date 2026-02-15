@@ -1,0 +1,41 @@
+id: nagstamon
+name: Nagstamon
+description: Nagios status monitor
+longDescription: |
+  <p>Nagstamon is a Nagios status monitor which takes place in systray or on desktop (GNOME, KDE) as floating statusbar to inform you in realtime about the status of your Nagios and some of its derivatives monitored network. It allows one to connect to multiple Nagios, Icinga, Opsview, Centreon, Op5Monitor, Check_MK Multisite, Thruk, Zabbix and Zenoss servers. Events could be handled by instant access to failed hosts/services.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nagstamon
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - system
+  - monitor
+  - remote
+iconSources:
+  - cached: nagstamon_nagstamon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

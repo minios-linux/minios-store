@@ -1,0 +1,5 @@
+{
+  "name": "Eingabemethode",
+  "description": "Tastatur-Eingabemethode festlegen",
+  "longDescription": "<p>Das Paket im-config bietet einen Rahmen zur Konfiguration und zum Wechseln der Eingabemethode im X Window System. Eingabemethoden sind das grundlegende Werkzeug, um in den japanischen, chinesischen und koreanischen (CJK) Sprachen deren nicht-ASCII-Zeichen einzugeben.</p>\n<p>Viele moderne Eingabemethoden wie IBus unterstützen nicht nur eine dieser CJK-Sprachen, sondern ermöglichen durch dynamisches Umschalten der Tastaturmodi mit einem grafischen Hilfsprogramm fast alle Sprachen gleichzeitig.</p>\n<p>Mit der Installation dieses Pakets werden die optimalen Eingabemethoden und deren Backend-Konvertierungs-Engines automatisch für das X Window System Input Method (XIM), das GTK+-Input-Method-Modul, das Qt-Input-Method-Modul und das Clutter-Input-Method-Modul konfiguriert.</p>\n<p>Weitere Anpassungen können Sie mit dem Befehl „im-config“ vornehmen.</p>\n"
+}

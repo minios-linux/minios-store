@@ -1,0 +1,5 @@
+{
+  "name": "Calf Plugin Pack for JACK",
+  "description": "Proses dan hasilkan suara menggunakan berbagai plugin dengan antarmuka JACK",
+  "longDescription": "<p>Calf plugin mencakup beragam efek studio yang umum digunakan saat ini, beserta prosesor suara kaya fitur.</p>\n<p>Calf Studiogear dirancang untuk berjalan di standar plugin paling fleksibel di Linux, yaitu LV2. Artinya, Anda bisa menggunakannya pada banyak perangkat lunak audio yang mendukung plugin seperti Ardour, Rosegarden, dan lainnya.</p>\n<p>Calf Rack menghadirkan semua efek dan synthesizer Calf dalam tampilan studio rack yang mudah digunakan. Hubungkan efek melalui Jack untuk membangun lingkungan studio Anda sendiri serta aktifkan prosesor suara secara langsung atau lewat sequencer/tracker MIDI.</p>\n<p>Calf Rack mendukung LADISH level 1.</p>\n"
+}

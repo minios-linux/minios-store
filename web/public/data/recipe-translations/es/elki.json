@@ -1,0 +1,5 @@
+{
+  "name": "ELKI",
+  "description": "Entorno de desarrollo para algoritmos de minería de datos",
+  "longDescription": "<p>ELKI: \"Environment for Developing KDD-Applications Supported by Index-Structures\" es un entorno de desarrollo para algoritmos de minería de datos escrito en Java. Incluye una amplia variedad de algoritmos populares de minería de datos, funciones de distancia y estructuras de índices.</p>\n<p>Su enfoque está dirigido especialmente a métodos de agrupamiento (clustering) y detección de valores atípicos, a diferencia de otros kits de herramientas de minería de datos que se centran en la clasificación. Además, incluye soporte para estructuras de índices que mejoran el rendimiento de los algoritmos, como R*-Tree y M-Tree.</p>\n<p>Su arquitectura modular permite añadir componentes personalizados, como funciones de distancia o nuevos algoritmos, reutilizando el resto de elementos para la evaluación.</p>\n<p>Este paquete contiene la versión compilada de ELKI y los scripts de lanzamiento.</p>\n"
+}

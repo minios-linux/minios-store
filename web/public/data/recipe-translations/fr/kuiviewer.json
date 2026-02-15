@@ -1,0 +1,5 @@
+{
+  "name": "KUIViewer",
+  "description": "Visionneuse rapide pour fichiers UI de Qt Designer",
+  "longDescription": "<p>KUIViewer est un utilitaire permettant d'afficher et de vérifier les fichiers d'interface utilisateur (.ui) créés avec Qt Designer. Les interfaces peuvent être visualisées sous différents styles de widgets afin de garantir un rendu correct dans tous les environnements.</p>\n<p>Qt Designer lui-même est inclus dans le paquet qttools5-dev-tools.</p>\n<p>Ce paquet fait partie du module Kit de développement logiciel KDE.</p>\n"
+}

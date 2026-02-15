@@ -1,0 +1,27 @@
+id: weboob-qt
+name: QWebContentEdit
+description: Edit website contents
+longDescription: |
+  <p>This package contains Qt applications including:  * qboobmsg: Read and post messages on websites  * qcineoob: Search for movies, persons, torrents, subtitles, and get info              about them  * qcookboob: Search recipes, find one, and cook  * qflatboob: Look for a house  * qhandjoob: Find a job  * qhavedate: Increase your success on dating websites  * qvideoob: Video search tool  * qwebcontentedit: Edit website contents</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - weboob-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - wikipedia
+  - wiki
+  - edit
+iconSources:
+  - cached: weboob-qt_qwebcontentedit.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

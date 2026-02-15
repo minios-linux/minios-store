@@ -1,0 +1,43 @@
+id: "sgt-launcher"
+name: SGT Puzzles Collection
+description: Launcher for Simon Tatham's Portable Puzzle Collection
+longDescription: |
+  <p>SGT Puzzles Collection is a simple-to-use launcher for Simon Tatham&apos;s Portable Puzzle Collection.</p>
+  <p>The collection is presented as a related but diverse set of logic games. Each game is displayed in the launcher window with simplified controls.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sgt-launcher
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - games
+  - puzzles
+screenshotSources:
+  - url: org/bluesabre/SgtLauncher/3b01b5e920ce932aac69a6599db0c3b4/screenshots/image-1_orig.png
+    thumbnailUrl: org/bluesabre/SgtLauncher/3b01b5e920ce932aac69a6599db0c3b4/screenshots/image-1_624x351.png
+    width: 800
+    height: 450
+  - url: org/bluesabre/SgtLauncher/3b01b5e920ce932aac69a6599db0c3b4/screenshots/image-2_orig.png
+    thumbnailUrl: org/bluesabre/SgtLauncher/3b01b5e920ce932aac69a6599db0c3b4/screenshots/image-2_624x351.png
+    width: 800
+    height: 450
+iconSources:
+  - url: org/bluesabre/SgtLauncher/3b01b5e920ce932aac69a6599db0c3b4/icons/128x128/sgt-launcher_sgt-launcher.png
+    width: 128
+    height: 128
+homepage: "https://launchpad.net/sgt-launcher"
+enabled: true
+order: 99

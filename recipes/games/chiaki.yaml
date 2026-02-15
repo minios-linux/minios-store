@@ -1,0 +1,41 @@
+id: "chiaki"
+name: Chiaki
+description: Free and Open Source Client for PlayStation Remote Play
+longDescription: |
+  <p>
+        Chiaki is a Free and Open Source Client for PlayStation 4 and PlayStation 5 Remote Play. It can be used to play
+  in real time on a PlayStation as long as there is a network connection.
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chiaki
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: re/chiaki/Chiaki/998e96782b7f34b9e199d77b2e24e280/screenshots/image-1_orig.png
+    thumbnailUrl: re/chiaki/Chiaki/998e96782b7f34b9e199d77b2e24e280/screenshots/image-1_624x342.png
+    width: 1563
+    height: 857
+iconSources:
+  - url: re/chiaki/Chiaki/998e96782b7f34b9e199d77b2e24e280/icons/128x128/chiaki_chiaki.png
+    width: 128
+    height: 128
+developer: Florian Märkl
+homepage: "https://chiaki.re"
+enabled: true
+order: 99

@@ -1,0 +1,31 @@
+id: "ktrip"
+name: KTrip
+description: Public transport navigator
+longDescription: |
+  <p>KTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and disruption information.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ktrip
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/ktrip/8ae2110d9b0d916552e93e5e3c8c6174/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ktrip/8ae2110d9b0d916552e93e5e3c8c6174/screenshots/image-1_624x593.png
+    width: 1714
+    height: 1631
+iconSources:
+  - url: org/kde/ktrip/8ae2110d9b0d916552e93e5e3c8c6174/icons/128x128/ktrip_org.kde.ktrip.png
+    width: 128
+    height: 128
+homepage: "https://invent.kde.org/utilities/ktrip"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Tutka MIDI Tracker",
+  "description": "Menyusun musik dengan MIDI",
+  "longDescription": "<p>Ini adalah sequencer MIDI, lagu dibuat dari blok-blok. Setiap blok mewakili periode waktu tertentu. Blok-blok tersebut dapat diputar dalam urutan apa saja untuk membentuk lagu yang utuh. Blok terdiri dari beberapa track yang berisikan not. Semua track dalam satu blok dimainkan secara bersamaan. Satu track hanya dapat memainkan satu not dalam satu waktu. Panjang blok dan jumlah track pada masing-masing blok dapat bervariasi.</p>\n<p>Setiap not dimainkan menggunakan instrumen. Setiap instrumen dapat memiliki properti seperti nama, channel MIDI, volume default, durasi tahan (hold time), dan lainnya. Efek juga dapat diterapkan pada not. Di Tutka, efek meliputi volume, aftertouch, pitch bending, delay not, pengaturan tempo, dan sebagainya. Kontroler MIDI juga dapat digunakan.</p>\n<p>Program ini menggunakan format file khusus berbasis XML untuk menyimpan lagu. Lagu dengan format file MMD2 milik OctaMED SoundStudio juga dapat dimuat dan disimpan.</p>\n"
+}

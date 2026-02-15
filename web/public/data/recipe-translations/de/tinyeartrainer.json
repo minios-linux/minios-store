@@ -1,0 +1,5 @@
+{
+  "name": "Tiny Ear Trainer",
+  "description": "Ein Tool zum Trainieren des Gehörs für relative Tonhöhen",
+  "longDescription": "<p>Tiny Ear Trainer ist eine kleine Software, die dabei hilft, musikalische Intervalle zu erkennen.</p>\n<p>Zu den implementierten Funktionen gehören die Zuordnung von Farben zu Intervallen sowie ein Lernmodus, in dem das Intervall zusammen mit Farbe und Name wiedergegeben wird. Harmonie- und Melodieintervalle werden unterstützt. Für die Wiedergabe wird Fluidsynth/SoundFonts verwendet. Hinweis: GNU Solfege ist eine deutlich umfassendere Alternative zu Tiny Ear Trainer.</p>\n<p>Tiny Ear Trainer funktioniert mit dem JACK Audio Connection Kit.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "GTKCrypto",
+  "description": "GTK+-Anwendung zum Verschlüsseln von Dateien und Berechnen von Hashes",
+  "longDescription": "<p>\nMit GTKCrypto können Sie Dateien oder Text verschlüsseln und signieren. Außerdem lassen sich für eine Datei verschiedene Hash-Werte berechnen und Dateien miteinander vergleichen, um den Inhalt auf Übereinstimmung zu prüfen.<br />\nUnterstützte Verschlüsselungsalgorithmen: AES, Twofish, Serpent und Camellia, alle mit 256-Bit-Schlüsseln und Betrieb im CBC- oder CTR-Modus.<br />\nUnterstützte Hash-Algorithmen: MD5, SHA-1, SHA-2, SHA-3, GOST, Whirlpool.\n    </p>\n"
+}

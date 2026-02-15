@@ -1,0 +1,36 @@
+id: "xgnokii"
+name: Xgnokii
+description: Manage your mobile phone
+longDescription: |
+  <p>Gnokii is a suite of programs that allows communication with mobile phones. It currently supports many Nokia mobile phones, all AT capable ones as well as many Symbian based. For a list of compatible phones, please visit: http://wiki.gnokii.org</p>
+  <p>This package provides the X11 (xgnokii) interface.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xgnokii
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: xgnokii_phone.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

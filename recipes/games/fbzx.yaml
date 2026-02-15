@@ -1,0 +1,37 @@
+id: "fbzx"
+name: FBZX
+description: ZX Spectrum emulator
+longDescription: |
+  <p>FBZX is a Sinclair ZX Spectrum emulator. Its main features are:
+     emulates acurately the Original spectrum (both issue 2 and issue 3), the classic 128K, the Amstrad Plus 2, the Amstrad
+  Plus 2A and the Spanish 128K. This include screen, keyboard and sound (both speaker and AY-3-8912 chip).Screen emulation is extremely acurate, so it can emulate border efects and even atribute efects.Supports Z80 snapshots, both loading and saving, and loading .SNA snapshots.Supports TAP (both read and write) and TZX (only read) tape files, supporting normal speed loading and fast speed loading.Emulates joysticks: kempston, cursor and sinclair.Emulates the Interface I and Microdrive.Emulates the ULAPlus.Based in a new, fully free, Z80 emulator (Z80Free).</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fbzx
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/rastersoft/fbzx/e045ad731c31ca178da7a899049e9930/screenshots/image-1_orig.png
+    thumbnailUrl: com/rastersoft/fbzx/e045ad731c31ca178da7a899049e9930/screenshots/image-1_624x504@1.png
+    width: 640
+    height: 517
+iconSources:
+  - cached: fbzx_fbzx.png
+    width: 64
+    height: 64
+homepage: "http://www.rastersoft.com/fbzx.html"
+enabled: true
+order: 99

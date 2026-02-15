@@ -1,0 +1,5 @@
+{
+  "name": "Interfaccia grafica di configurazione client GTK per pommed",
+  "description": "Un client grafico per pommed (interfaccia di configurazione)",
+  "longDescription": "<p>pommed gestisce i tasti funzione presenti su Apple MacBook Pro, MacBook Air, MacBook, PowerBook e iBook, regolando la retroilluminazione dello schermo LCD, il volume audio, la retroilluminazione della tastiera o l'espulsione dell'unità CD-ROM secondo necessità.</p>\n<p>gpomme è un client grafico per pommed. Riceve i segnali inviati da pommed tramite D-Bus e mostra l'azione eseguita da pommed insieme allo stato attuale relativo a tale azione.</p>\n"
+}

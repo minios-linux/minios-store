@@ -1,0 +1,5 @@
+{
+  "name": "Sécurité et confidentialité",
+  "description": "Gestionnaire de confidentialité et d'activité",
+  "longDescription": "<p>Zeitgeist est un service qui enregistre les activités et événements de l'utilisateur (fichiers ouverts, sites web visités, conversations tenues avec d'autres personnes, etc.) et met ces informations à disposition des autres applications.</p>\n<p>Il sert de journal d'activité complet et permet également d’établir des liens entre les éléments en fonction des habitudes d’utilisation.</p>\n<p>Ce paquet contient le Gestionnaire du journal d’activité, une interface graphique permettant de contrôler ce qui est consigné par Zeitgeist. Il offre la possibilité de définir des listes noires selon plusieurs critères (application ou type de fichier), d’interrompre temporairement l’enregistrement ainsi que de supprimer des événements récents.</p>\n"
+}

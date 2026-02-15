@@ -1,0 +1,23 @@
+id: encuentro
+name: Encuentro
+description: Simple program to download and see the content from Canal Encuentro y otros
+longDescription: |
+  <p>Encuentro is a small program that allows you to search, download and watch videos from the Encuentro argentinian channel. Since the content of the channel is completely in Spanish, so is this program.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - encuentro
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: encuentro_icon-32.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

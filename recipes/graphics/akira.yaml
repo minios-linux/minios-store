@@ -1,0 +1,76 @@
+id: "akira"
+name: Akira
+description: The Linux Design Tool
+longDescription: |
+  <p>
+        A modern UX Design Application for UI and UX Designers
+      </p>
+  <p>
+        ⚠ WARNING! Akira is still under development and not ready for production. Missing features, random bugs, and black
+  holes opening in your kitchen are to be expected.</p> <p>
+        Akira is a native Linux Design application built in Vala and Gtk. Akira focuses on offering a modern and fast approach
+  to UI and UX Design, mainly targeting web and graphic designers. The main goal is to offer a valid and professional solution for designers who want to use Linux as their main OS.
+      </p>
+  <p>
+        Features Include:
+      </p>
+  <ul>
+    <li>Fully vector canvas for infinite resizing without quality loss</li>
+    <li>Smart option panel that shows the editable features of a selected item</li>
+    <li>Layers panel with easy Drag and Drop and smart ordering</li>
+    <li>Create Artboards to better organize your design iterations and views</li>
+    <li>Control the size and quality of exported images</li>
+    <li>Customizable icon set</li>
+    <li>And so much more…</li>
+  </ul>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - akira
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - design
+  - web
+  - ux
+  - ui
+  - graphics
+screenshotSources:
+  - url: com/github/akiraux.akira/16f2fed70458cddcd8da424ad9c32b92/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/akiraux.akira/16f2fed70458cddcd8da424ad9c32b92/screenshots/image-1_624x373.png
+    width: 1492
+    height: 892
+  - url: com/github/akiraux.akira/16f2fed70458cddcd8da424ad9c32b92/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/akiraux.akira/16f2fed70458cddcd8da424ad9c32b92/screenshots/image-2_624x373.png
+    width: 1492
+    height: 892
+  - url: com/github/akiraux.akira/16f2fed70458cddcd8da424ad9c32b92/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/akiraux.akira/16f2fed70458cddcd8da424ad9c32b92/screenshots/image-3_624x413.png
+    width: 1098
+    height: 728
+  - url: com/github/akiraux.akira/16f2fed70458cddcd8da424ad9c32b92/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/akiraux.akira/16f2fed70458cddcd8da424ad9c32b92/screenshots/image-4_624x373.png
+    width: 1492
+    height: 892
+iconSources:
+  - url: com/github/akiraux.akira/16f2fed70458cddcd8da424ad9c32b92/icons/128x128/akira_com.github.akiraux.akira.png
+    width: 128
+    height: 128
+developer: Alessandro Castellani
+homepage: "https://github.com/akiraux/akira"
+enabled: true
+order: 99

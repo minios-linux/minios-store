@@ -1,0 +1,5 @@
+{
+  "name": "Lingkungan Pengembangan Snek",
+  "description": "Edit dan uji program Snek untuk Arduino",
+  "longDescription": "<p>Snek adalah bahasa pemrograman kecil mirip Python yang dirancang untuk komputer embedded. Snek dapat dijalankan pada sistem sekecil papan Arduino Duemilanove, yang menggunakan prosesor ATmega 328 dengan 32kB flash dan 2kB RAM. Paket ini mencakup berkas biner dan alat instalasi untuk berbagai target, serta snekde (lingkungan pengembangan terintegrasi) untuk Snek.</p>\n"
+}

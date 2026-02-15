@@ -1,0 +1,5 @@
+{
+  "name": "IMSProg_database_update.desktop",
+  "description": "Скрипт обновления базы микросхем для программатора IMSProg",
+  "longDescription": "<p>IMSProg_database_update — онлайн-обновление базы микросхем с внешнего веб-сервера. IMSProg_database_update использует графическую утилиту zenity для Gnome. После запуска скрипт копирует загруженную базу данных в папку ~/.local/imsprog. Затем он отображает количество микросхем в базе до и после обновления.</p>\n"
+}

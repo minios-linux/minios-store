@@ -1,0 +1,46 @@
+id: freeciv-client-gtk
+name: Freeciv (gtk2)
+description: Turn-based strategy game inspired by the history of human civilization
+longDescription: |
+  <p>Freeciv is a free clone of the turn based strategy game Civilization. In this game, each player becomes leader of a civilisation, fighting to obtain the ultimate goal: the extinction of all other civilisations.</p>
+  <p>This is the GTK+ 2 version of Freeciv. It is the most sophisticated and recommended client to play the game.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freeciv-client-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - strategy
+  - simulation
+  - civilization
+  - tiles
+  - history
+  - mankind
+  - multiplayer
+screenshotSources:
+  - url: org/freeciv/gtk2/f0baf58d93efd2fd24eb4902472de7f0/screenshots/image-1_orig.png
+    thumbnailUrl: org/freeciv/gtk2/f0baf58d93efd2fd24eb4902472de7f0/screenshots/image-1_624x390.png
+    width: 1000
+    height: 625
+iconSources:
+  - url: f/fr/freeciv-gtk2.desktop/F19E82F56ED8D1CFD5418A21FB86ADBE/icons/128x128/freeciv-client-gtk_freeciv-client.png
+    width: 128
+    height: 128
+homepage: "http://www.freeciv.org/"
+enabled: true
+order: 99

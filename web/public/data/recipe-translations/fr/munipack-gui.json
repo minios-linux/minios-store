@@ -1,0 +1,5 @@
+{
+  "name": "Munipack",
+  "description": "Logiciel général de traitement d’images astronomiques",
+  "longDescription": "<p>Munipack est une suite logicielle de photométrie astronomique polyvalente. Elle propose des outils pour le traitement photométrique standard (réductions photométriques — dark, flat), la photométrie d’ouverture, l’astrométrie et la calibration photométrique, ainsi que l’accès aux Observatoires Virtuels, etc.</p>\n<p>Ce paquet fournit la commande « xmunipack » qui offre une interface graphique pour Munipack.</p>\n"
+}

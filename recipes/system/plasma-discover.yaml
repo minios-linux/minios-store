@@ -1,0 +1,55 @@
+id: "plasma-discover"
+name: Discover
+description: Discover
+longDescription: |
+  <p>Haven’t you ever found a tool that was perfect for your need but you only found it after some time stumbling upon it on the net? When considering to install an application, don’t you wonder sometimes if it’s really worth it? Or if it’s actually what you’re looking for?</p>
+  <p>Discover helps users easily and quickly find applications or tools. By allowing to navigate a software library by search, software categories, top lists along with detailed application information that includes screenshots and reviews, users can more quickly find applications that suit their needs.</p>
+  <p>Furthermore, Discover will let you manage the different sources of software you have and manage the applications you’ve already installed in the past but you don’t want anymore.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plasma-discover
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - program
+  - software
+  - repository
+  - package
+  - install
+  - remove
+  - update
+  - apps
+  - applications
+screenshotSources:
+  - url: org/kde/discover.desktop/402013637c2a97f740643afd2bd4d71f/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/discover.desktop/402013637c2a97f740643afd2bd4d71f/screenshots/image-1_624x552@1.png
+    width: 2058
+    height: 1822
+iconSources:
+  - url: org/kde/discover.desktop/402013637c2a97f740643afd2bd4d71f/icons/128x128/plasma-discover_plasmadiscover.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/discover"
+enabled: true
+order: 99

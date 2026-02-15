@@ -1,0 +1,5 @@
+{
+  "name": "ukopp",
+  "description": "Backup penuh dan bertahap dengan verifikasi media",
+  "longDescription": "<p>Ukopp digunakan untuk menyalin atau mencadangkan file disk ke perangkat disk atau perangkat sejenis disk, seperti USB flash drive. Aplikasi ini hanya menyalin file baru atau yang telah dimodifikasi sejak pencadangan terakhir, sehingga prosesnya sangat cepat. Antarmuka grafis (GUI) digunakan untuk menavigasi sistem file dan memilih file atau direktori yang ingin disertakan atau dikecualikan di level mana pun. Pengaturan ini dapat disimpan dalam file pekerjaan untuk penggunaan berulang. File baru yang muncul dalam direktori yang disertakan akan ditangani secara otomatis. Opsional, versi sebelumnya dari file backup dapat disimpan agar tidak tertimpa. Pemulihan file secara selektif dapat dilakukan melalui GUI. Kepemilikan dan izin file juga akan dipulihkan, bahkan jika perangkat target menggunakan sistem file Microsoft.</p>\n"
+}

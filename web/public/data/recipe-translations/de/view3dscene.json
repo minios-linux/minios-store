@@ -1,0 +1,5 @@
+{
+  "name": "view3dscene",
+  "description": "3D-Modelle in verschiedenen Formaten anzeigen, VRML/X3D-Welten erkunden",
+  "longDescription": "<p>view3dscene ist ein Betrachter für viele 3D-Modellformate:  - X3D  - VRML (1.0 und 2.0, auch bekannt als VRML 97)  - Collada  - OpenInventor  - 3DS  - MD3  - Wavefront OBJ  - Videoscape GEO  - KAnim (Castle Game Engine Animationen)</p>\n<p>Es stehen verschiedene Navigationsmodi zur Verfügung, wie Untersuchen, Gehen (mit Schwerkraft) und Fliegen. Kollisionsabfrage ist integriert. Modelle können animiert und interaktiv sein. Dank der Castle Game Engine sind zahlreiche Grafikeffekte möglich.</p>\n<p>view3dscene kann außerdem viele 3D-Modellformate in X3D (im klassischen und XML-Format) umwandeln. Dieses Paket enthält auch das Kommandozeilen-Tool tovrmlx3d, das dieselben Konvertierungen wie view3dscene durchführt, jedoch ohne X oder OpenGL auskommt (ideal für die Stapelverarbeitung von 3D-Modellkonvertierungen in Skripten).</p>\n"
+}

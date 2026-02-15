@@ -1,0 +1,5 @@
+{
+  "name": "Persalys",
+  "description": "Antarmuka GUI untuk pengelolaan ketidakpastian dan variabilitas",
+  "longDescription": "<p>\n      Persalys adalah antarmuka grafis (GUI) untuk OpenTURNS yang didedikasikan untuk penanganan ketidakpastian dan pengelolaan variabilitas. Perangkat lunak ini menjadi jembatan antara simulasi komputer, analisis probabilitas, dan ilmu data. Antarmukanya tersedia dalam bahasa Prancis atau Inggris.\n    </p>\n<p>\n      Persalys memungkinkan Anda untuk:\n    </p>\n<p>\n      - membuat model matematika: analitik, menghubungkan dengan model eksternal (finite element, FMU, dan lainnya);\n    </p>\n<p>\n      - menganalisis variabilitas parameter dengan berbagai metode serta alat visualisasi;\n    </p>\n<p>\n      - melakukan analisis statistik pada data pengukuran, menginferensi distribusi probabilitas, atau membuat metamodel.\n    </p>\n"
+}

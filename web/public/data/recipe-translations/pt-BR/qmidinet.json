@@ -1,0 +1,5 @@
+{
+  "name": "QmidiNet",
+  "description": "Gateway de MIDI em Rede via Multicast UDP/IP",
+  "longDescription": "<p>O QmidiNet é um aplicativo gateway de MIDI em rede que envia e recebe dados MIDI (ALSA Sequencer e/ou JACK MIDI) pela rede, utilizando multicast UDP/IP. Inspirado no multimidicast (http://llg.cubic.org/tools) e projetado para ser compatível com o ipMIDI para Windows (http://nerds.de).</p>\n"
+}

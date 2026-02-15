@@ -1,0 +1,5 @@
+{
+  "name": "flamp",
+  "description": "Komunikasi Radio Amatir",
+  "longDescription": "<p>FLAMP adalah program untuk AMP (Amateur Multicast Protocol). Sesi FLAMP dapat mentransmisikan satu atau lebih berkas dengan satu atau lebih pengulangan transmisi. Setiap berkas akan dipecah menjadi blok-blok yang masing-masing memiliki checksum. Stasiun penerima akan menyimpan blok-blok yang lolos verifikasi checksum. Transmisi selanjutnya akan melengkapi blok-blok yang hilang selama blok baru tersebut juga lolos checksum. Setelah rangkaian transmisi selesai, seluruh berkas akan dirakit kembali dan bisa disimpan. \"Fills\" dapat diberikan dengan mentransmisikan ulang seluruh berkas atau hanya mengirimkan blok-blok yang kurang dari stasiun pengirim.</p>\n"
+}

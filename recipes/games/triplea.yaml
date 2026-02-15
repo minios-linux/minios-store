@@ -1,0 +1,40 @@
+id: "triplea"
+name: TripleA
+description: Turn based strategy game
+longDescription: |
+  <p>TripleA is a turn based strategy game. TripleA comes with multiple games and over 100 more games can be downloaded from the user community. Supports single player vs AI, hot-seat, Play by Email, and a hosted online lobby.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - triplea
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - turn-based
+  - strategy
+  - multiplayer
+  - lobby
+iconSources:
+  - url: t/tr/triplea.desktop/bf18c34b7fbf17c435d16f1f2617198e/icons/128x128/triplea_triplea.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

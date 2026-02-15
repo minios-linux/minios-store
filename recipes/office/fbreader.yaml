@@ -1,0 +1,38 @@
+id: fbreader
+name: E-book reader
+description: FBReader E-book reader
+longDescription: |
+  <p>FBReader is an e-book reader.</p>
+  <p>Main features:  * supports several open e-book formats: fb2, html, chm, plucker,    palmdoc, ztxt, tcr (psion text), rtf, oeb, openreader, non-DRM&apos;ed    mobipocket, plain text, epub, eReader  * reads directly from tar, zip, gzip, bzip2 archives (you can have    several books in one archive)  * supports a structured view of your e-book collection  * automatically determines encodings  * automatically generates a table of contents  * keeps the last open book and the last read positions for all open books    between runs  * automatic hyphenation (patterns for several languages are included)  * searching and downloading books from www.feedbooks.com and www.litres.ru  * partial CSS support for epub files</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fbreader
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: fbreader_FBReader.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,55 @@
+id: "rhythmbox"
+name: Rhythmbox
+description: Play and organize your music collection
+longDescription: |
+  <p>Rhythmbox is a music management application, designed to work well under the GNOME desktop. In addition to music stored on your computer, it supports network shares, podcasts, radio streams, portable music devices (including phones), and internet music services such as Last.fm and Magnatune.</p>
+  <p>Rhythmbox is Free software, based on GTK+ and GStreamer, and is extensible via plugins written in Python or C.</p>
+  
+categoryId: multimedia
+icon: Music
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rhythmbox
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - song
+  - mp3
+  - cd
+  - podcast
+  - mtp
+  - ipod
+  - playlist
+  - last.fm
+  - upnp
+screenshotSources:
+  - url: org/gnome/Rhythmbox3.desktop/ca909fa4fffa185f57fc6acf314b99a8/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Rhythmbox3.desktop/ca909fa4fffa185f57fc6acf314b99a8/screenshots/image-1_624x430@1.png
+    width: 995
+    height: 687
+iconSources:
+  - url: org/gnome/Rhythmbox3.desktop/ca909fa4fffa185f57fc6acf314b99a8/icons/128x128/rhythmbox_org.gnome.Rhythmbox3.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Rhythmbox"
+enabled: true
+order: 99

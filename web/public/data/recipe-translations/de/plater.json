@@ -1,0 +1,5 @@
+{
+  "name": "Plater",
+  "description": "Werkzeug zur Anordnung für 3D-Drucker",
+  "longDescription": "<p>Plater ist ein leicht zu bedienendes grafisches Werkzeug zur Vorbereitung von Druckplatten für Desktop-3D-Drucker wie RepRap.</p>\n<p>Sie können 3D-Modelle laden und sie auf der XY-Ebene anordnen. Alternativ kann Plater die Modelle auch automatisch platzieren, sodass alles optimal passt. Die vorbereitete Platte können Sie anschließend exportieren oder direkt in Pronterface (falls installiert) laden.</p>\n"
+}

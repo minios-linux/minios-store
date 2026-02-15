@@ -1,0 +1,79 @@
+id: wesnoth-1-16-core
+name: Battle for Wesnoth
+description: A turn-based strategy game with a high fantasy theme
+longDescription: |
+  <p>
+        Build up a great army, gradually turning raw recruits into hardened
+        veterans.
+        In later games, recall your toughest warriors and form a deadly host that
+        no one can stand against! Choose units from a large pool of specialists,
+        and hand-pick a force with the right strengths to fight well on different
+        terrains against all manner of opposition.
+      </p>
+  <p>
+        Wesnoth has many different sagas waiting to be played.
+        Fight to regain the throne of Wesnoth, of which you are the legitimate
+        heir... lead a brutal quest to unite the orcish tribes... vanquish a horde
+        of undead warriors... Guide a band of elvish survivors in an epic quest to
+        find a new home...
+      </p>
+  <p>
+        There are at least two hundred unit types, sixteen races, six major
+        factions, and hundreds of years of history.
+        The world of Wesnoth is absolutely huge and only limited by your
+        creativity.
+        You can also challenge up to eight friends — or strangers — and fight in
+        epic multiplayer fantasy battles.
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wesnoth-1.16-core
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - singleplayer
+  - multiplayer
+  - dark age
+  - middle ages
+  - medieval
+  - mediaeval
+screenshotSources:
+  - url: org/wesnoth/Wesnoth-1.16.desktop/42efa6af88a21c4e0f37159c5589cbcf/screenshots/image-1_orig.png
+    thumbnailUrl: org/wesnoth/Wesnoth-1.16.desktop/42efa6af88a21c4e0f37159c5589cbcf/screenshots/image-1_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/wesnoth/Wesnoth-1.16.desktop/42efa6af88a21c4e0f37159c5589cbcf/screenshots/image-2_orig.png
+    thumbnailUrl: org/wesnoth/Wesnoth-1.16.desktop/42efa6af88a21c4e0f37159c5589cbcf/screenshots/image-2_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/wesnoth/Wesnoth-1.16.desktop/42efa6af88a21c4e0f37159c5589cbcf/screenshots/image-3_orig.png
+    thumbnailUrl: org/wesnoth/Wesnoth-1.16.desktop/42efa6af88a21c4e0f37159c5589cbcf/screenshots/image-3_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/wesnoth/Wesnoth-1.16.desktop/42efa6af88a21c4e0f37159c5589cbcf/screenshots/image-4_orig.png
+    thumbnailUrl: org/wesnoth/Wesnoth-1.16.desktop/42efa6af88a21c4e0f37159c5589cbcf/screenshots/image-4_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/wesnoth/Wesnoth-1.16.desktop/42efa6af88a21c4e0f37159c5589cbcf/screenshots/image-5_orig.png
+    thumbnailUrl: org/wesnoth/Wesnoth-1.16.desktop/42efa6af88a21c4e0f37159c5589cbcf/screenshots/image-5_624x351.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: org/wesnoth/Wesnoth-1.16.desktop/42efa6af88a21c4e0f37159c5589cbcf/icons/128x128/wesnoth-1.16-core_wesnoth-1.16-icon.png
+    width: 128
+    height: 128
+developer: The Battle for Wesnoth Project
+homepage: "https://www.wesnoth.org"
+enabled: true
+order: 99

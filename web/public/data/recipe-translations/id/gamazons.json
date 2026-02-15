@@ -1,0 +1,5 @@
+{
+  "name": "Gamazons",
+  "description": "Permainan Gamazons",
+  "longDescription": "<p>Amazons adalah permainan yang dimainkan di papan catur berukuran 10x10. Masing-masing pemain memiliki empat bidak (amazon) yang bergerak seperti ratu catur (lurus ke segala arah). Tidak seperti catur yang mengandalkan penangkapan bidak, pemenang dalam permainan ini ditentukan oleh siapa yang bisa melakukan langkah terakhir.</p>\n<p>Setiap giliran terdiri dari dua langkah. Pertama, amazon bergerak ke kotak baru lalu menembakkan panah ke kotak lain (panah ditembakkan lurus ke segala arah dari posisi akhir amazon). Kotak yang terkena panah menjadi blok permanen selama sisa permainan. Tidak ada yang bisa melewati atau menembak panah melewati kotak itu. Setiap giliran, seorang amazon wajib bergerak dan menembak panah, sehingga setiap giliran papan akan semakin sempit. Usahakan memblokir lawan atau menguasai area besar papan untuk menang.</p>\n"
+}

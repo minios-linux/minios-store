@@ -1,0 +1,5 @@
+{
+  "name": "Intone",
+  "description": "Lettore musicale semplice per dispositivi mobili",
+  "longDescription": "<p>Intone è un'interfaccia elementare per mplayer scritta in C.</p>\n<p>È stato sviluppato per Openmoko Freerunner, ma funziona anche su altri sistemi. Oltre alle funzionalità tipiche dei lettori audio, Intone supporta cuffie A2DP (audio tramite Bluetooth) e si integra con FSO per il rilevamento delle chiamate (mette in pausa la musica durante le chiamate).</p>\n"
+}

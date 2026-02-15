@@ -1,0 +1,34 @@
+id: pixelize
+name: Pixelize
+description: Create an image consisting of many small images
+longDescription: |
+  <p>Pixelize is a program that will use many scaled down images to try to duplicate, as closely as possible, another image.</p>
+  <p>Pixelize works by splitting up the image you want rendered (or duplicated) into a grid of small rectangular areas. Each area is analyzed, and replaced with an image chosen from a large database of images. Pixelize tries to pick images that best match each area.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pixelize
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: pixelize_pixelize.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

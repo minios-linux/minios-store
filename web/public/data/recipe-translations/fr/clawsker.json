@@ -1,0 +1,5 @@
+{
+  "name": "Clawsker",
+  "description": "Un utilitaire de réglages pour Claws Mail",
+  "longDescription": "<p>Clawsker est une applet permettant de modifier les préférences cachées de Claws Mail.</p>\n<p>Claws Mail est un client de messagerie rapide, léger et riche en fonctionnalités, offrant de nombreuses options de configuration. Afin de garder le binaire léger et performant, certaines préférences moins courantes ne disposent pas d’interface graphique pour leur consultation ou modification.</p>\n<p>Jusqu’à présent, les utilisateurs devaient modifier leurs fichiers de configuration à la main pour accéder à ces réglages. Désormais, Clawsker offre une interface pratique en GTK+2 pour rendre ces modifications accessibles.</p>\n"
+}

@@ -1,0 +1,38 @@
+id: eekboek-gui
+name: EekBoek
+description: Bookkeeping program for small to medium sized companies
+longDescription: |
+  <p>This package includes ebwxshell, the EekBoek GUI.  It offers an EekBoek browser, useful for viewing the administrative data.  It&apos;s especially useful for generating, printing and pinpointing reports. Furthermore, it offers a raw interface to the EekBoek Shell.  Finally, it offers a Wizard to help configuring new bookkeeping administrations.</p>
+  <p>Install it if you need a friendly interface to the EekBoek reporting facilities, or if you would like help in configuring EekBoek.  However, if you prefer working in pure text mode, or don&apos;t like to install the WX graphical packages, you should not install this package.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - eekboek-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: eekboek-gui_ebicon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

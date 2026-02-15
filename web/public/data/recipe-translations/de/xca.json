@@ -1,0 +1,5 @@
+{
+  "name": "XCA",
+  "description": "Eine grafische Benutzeroberfläche zur Verwaltung und Ausstellung von X.509-konformen Zertifikaten",
+  "longDescription": "<p>XCA erstellt und verwaltet Zertifizierungsstellen und unterstützt den Nutzer beim Erzeugen und Verwalten von Schlüsseln, Zertifikaten, Zertifikatsanfragen (CSR) und Sperrlisten (CRL).</p>\n<p>Alle Daten werden in einer verschlüsselten, portablen Datenbank gespeichert und können in verschiedenen Standardformaten exportiert werden. XCA ist auch für MacOS X und Windows verfügbar.</p>\n<p>Für einen effizienten Workflow können Zertifikatsvorlagen definiert werden, um die Erstellung neuer Zertifikate zu vereinfachen.</p>\n"
+}

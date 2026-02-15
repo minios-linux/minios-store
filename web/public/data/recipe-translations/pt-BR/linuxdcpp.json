@@ -1,0 +1,5 @@
+{
+  "name": "LinuxDC++",
+  "description": "Um cliente de compartilhamento de arquivos para a rede Direct Connect",
+  "longDescription": "<p>Direct Connect é um protocolo de compartilhamento de arquivos ponto a ponto (P2P). Os clientes se conectam a um hub central, onde podem visualizar a lista de outros usuários conectados. Os usuários podem buscar arquivos e baixá-los de outros clientes, além de conversar pelo chat.</p>\n<p>O cliente mais popular no Windows que implementa esse protocolo atualmente é o DC++. O LinuxDC++ é uma versão do DC++ para Linux. Embora seja focado principalmente no Linux, também funciona em outros sistemas Unix.</p>\n"
+}

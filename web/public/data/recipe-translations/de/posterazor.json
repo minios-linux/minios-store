@@ -1,0 +1,5 @@
+{
+  "name": "PosteRazor",
+  "description": "Teilt ein Bild auf mehrere Seiten auf, um daraus ein Poster zusammenzusetzen",
+  "longDescription": "<p>\n      PosteRazor unterteilt ein Bild in mehrere Seiten und erstellt daraus ein mehrseitiges PDF-Dokument. Nach dem Ausdrucken können die einzelnen Blätter zum ursprünglichen Großformat-Poster zusammengesetzt werden.\n    </p>\n<p>\n      Die Anwendung basiert auf libfreeimage und libxpm und unterstützt zahlreiche Dateiformate wie BMP, GIF, ICO, JPG, PNG, TIFF, XPM und weitere.\n    </p>\n<p>\n      Zudem verarbeitet PosteRazor verschiedene Farbmodelle: Monochrom, Graustufen, 4-Bit-Palette, 8-Bit-Palette, 24-Bit-RGB, 48-Bit-RGB (nur über TIFF und PNG), 32-Bit-CMYK (nur über TIFF). 32-Bit-RGBA-Bilder können geladen, werden jedoch durch „Zusammenführen“ mit einem weißen Hintergrund zu 24-Bit-RGB konvertiert.\n    </p>\n<p>\n      Es werden Maßeinheiten wie m, mm, cm, Zoll, Fuß und pt (1/72 Zoll) unterstützt. Das PDF-Ausgabeformat kann in A4, A3, Legal, Letter oder Tabloid gewählt werden.\n    </p>\n"
+}

@@ -1,0 +1,44 @@
+id: "megapixels"
+name: Megapixels
+description: A gnome camera application for phones
+longDescription: |
+  <p>
+  			Megapixels is a camera application designed for phones and tablets. It
+  			implements the v4l2 and media-request apis so set up camera pipelines on
+  			ARM hardware and uses the raw data modes of the sensors to get the best
+  			quality pictures.
+  		</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - megapixels
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - camera
+screenshotSources:
+  - url: org/postmarketos/Megapixels/e3e4db1fc3ce5044fe86443000ed486c/screenshots/image-1_orig.png
+    thumbnailUrl: org/postmarketos/Megapixels/e3e4db1fc3ce5044fe86443000ed486c/screenshots/image-1_624x351@1.png
+    width: 1488
+    height: 837
+iconSources:
+  - url: org/postmarketos/Megapixels/e3e4db1fc3ce5044fe86443000ed486c/icons/128x128/megapixels_org.postmarketos.Megapixels.png
+    width: 128
+    height: 128
+homepage: "https://sr.ht/~martijnbraam/megapixels"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "StretchPlayer",
+  "description": "Lecteur de fichiers audio avec étirement temporel",
+  "longDescription": "<p>StretchPlayer permet de lire un fichier audio tout en appliquant un étirement temporel (sans altérer la hauteur) et/ou un changement de hauteur (sans modifier la durée), même pendant l’écoute.</p>\n<p>Attention : ce paquet contient la version de développement (potentiellement instable) publiée uniquement à des fins de test.</p>\n"
+}

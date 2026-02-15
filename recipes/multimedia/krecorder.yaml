@@ -1,0 +1,43 @@
+id: krecorder
+name: Recorder
+description: Audio recorder
+longDescription: |
+  <p>Recorder is a simple, cross-platform audio recording application.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - krecorder
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - krecorder
+screenshotSources:
+  - url: org/kde/krecorder/d40b2427f0e25fd2700452a744e3e0be/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/krecorder/d40b2427f0e25fd2700452a744e3e0be/screenshots/image-1_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/krecorder/d40b2427f0e25fd2700452a744e3e0be/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/krecorder/d40b2427f0e25fd2700452a744e3e0be/screenshots/image-2_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/krecorder/d40b2427f0e25fd2700452a744e3e0be/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/krecorder/d40b2427f0e25fd2700452a744e3e0be/screenshots/image-3_624x1248@1.png
+    width: 720
+    height: 1440
+  - url: org/kde/krecorder/d40b2427f0e25fd2700452a744e3e0be/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/krecorder/d40b2427f0e25fd2700452a744e3e0be/screenshots/image-4_624x1248@1.png
+    width: 720
+    height: 1440
+iconSources:
+  - url: org/kde/krecorder/d40b2427f0e25fd2700452a744e3e0be/icons/128x128/krecorder_org.kde.krecorder.png
+    width: 128
+    height: 128
+homepage: "https://invent.kde.org/utilities/krecorder"
+enabled: true
+order: 99

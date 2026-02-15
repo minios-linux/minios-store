@@ -1,0 +1,37 @@
+id: "gwaei"
+name: gWaei
+description: Enter a Japanese or English word to easily get translations
+longDescription: |
+  <p>gWaei is an easy to use and yet powerful full-featured dictionary program for Japanese to English translation. It organizes results by relevance, supports regex searches, tabs, spell checking, kanji handwriting recognition and an accompanying console version for searches through the terminal.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gwaei
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gw/gwaei.desktop/1d27169309eee20b353e2211203f413a/icons/128x128/gwaei_gwaei.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

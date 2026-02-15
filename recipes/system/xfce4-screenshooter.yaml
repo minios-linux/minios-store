@@ -1,0 +1,43 @@
+id: "xfce4-screenshooter"
+name: xfce4-screenshooter
+description: Application and panel plugin to take screenshots
+longDescription: |
+  <p>Allows you to capture the entire screen, the active window or a selected region. You can set the delay that elapses before the screenshot is taken and the action that will be done with the screenshot: save it to a PNG file, copy it to the clipboard, open it using another application, or host it on imgur, a free online image hosting service.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-screenshooter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/xfce/screenshooter/a2ba3483b7cab49147d59690e8aadf6a/screenshots/image-1_orig.png
+    thumbnailUrl: org/xfce/screenshooter/a2ba3483b7cab49147d59690e8aadf6a/screenshots/image-1_224x123@1.png
+    width: 518
+    height: 286
+iconSources:
+  - url: org/xfce/screenshooter/a2ba3483b7cab49147d59690e8aadf6a/icons/128x128/xfce4-screenshooter_org.xfce.screenshooter.png
+    width: 128
+    height: 128
+homepage: "http://goodies.xfce.org/projects/applications/xfce4-screenshooter"
+enabled: true
+order: 99

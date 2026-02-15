@@ -1,0 +1,29 @@
+id: gtkguitune
+name: gtkGuitune
+description: Tune your Guitar
+longDescription: |
+  <p>gtkGuitune is a Linux program for tuning guitars and other instruments by using the method of Schmitt-triggering, i.e.  counting the number of triggerings between two trigger levels in a certain amount of time.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtkguitune
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: gtkguitune_guitune_logo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

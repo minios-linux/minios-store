@@ -1,0 +1,47 @@
+id: "ipqalc"
+name: IpQalc
+description: Graphical IPv4 subnet calculator
+longDescription: |
+  <p>
+        Small utility for IP address calculations including broadcast and network addresses as well as Cisco wildcard mask.
+  From a given IPv4 address calculates broadcast, network, Cisco wildcard mask, and host range. It can also be used as a teaching tool and presents the results in binary and hex values.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ipqalc
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ip calculator
+  - ip
+  - ipv4
+  - subnet
+  - net
+  - network
+  - broadcast
+screenshotSources:
+  - url: org/bitbucket/ipqalc/d708dca883a6ae715c670f7e36e16bcc/screenshots/image-1_orig.png
+    thumbnailUrl: org/bitbucket/ipqalc/d708dca883a6ae715c670f7e36e16bcc/screenshots/image-1_624x318.png
+    width: 759
+    height: 388
+iconSources:
+  - cached: ipqalc_ipqalc.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

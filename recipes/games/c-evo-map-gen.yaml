@@ -1,0 +1,51 @@
+id: c-evo-map-gen
+name: C-evo MapGen
+description: External Map Generator for C-evo
+longDescription: |
+  <p>
+        CevoMapGen is a map file generator for Cevo that facilitates harsher terrain and climate.
+      </p>
+  <p>
+        It gives greater control than the internal map generator within the game,
+        and allows much faster generation of novel or extreme worlds than using the map editor.
+      </p>
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - c-evo-map-gen
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - random
+  - map
+  - cevo
+  - c-evo
+screenshotSources:
+  - url: net/sourceforge/cevomapgen/eefc63625355fe8bc00fee795e000134/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/cevomapgen/eefc63625355fe8bc00fee795e000134/screenshots/image-1_624x326@1.png
+    width: 756
+    height: 396
+  - url: net/sourceforge/cevomapgen/eefc63625355fe8bc00fee795e000134/screenshots/image-2_orig.png
+    thumbnailUrl: net/sourceforge/cevomapgen/eefc63625355fe8bc00fee795e000134/screenshots/image-2_624x326@1.png
+    width: 756
+    height: 396
+  - url: net/sourceforge/cevomapgen/eefc63625355fe8bc00fee795e000134/screenshots/image-3_orig.png
+    thumbnailUrl: net/sourceforge/cevomapgen/eefc63625355fe8bc00fee795e000134/screenshots/image-3_624x326@1.png
+    width: 756
+    height: 396
+  - url: net/sourceforge/cevomapgen/eefc63625355fe8bc00fee795e000134/screenshots/image-4_orig.png
+    thumbnailUrl: net/sourceforge/cevomapgen/eefc63625355fe8bc00fee795e000134/screenshots/image-4_624x326@1.png
+    width: 756
+    height: 396
+iconSources:
+  - url: net/sourceforge/cevomapgen/eefc63625355fe8bc00fee795e000134/icons/128x128/c-evo-map-gen_cevomapgen.png
+    width: 128
+    height: 128
+homepage: "https://sourceforge.net/projects/cevomapgen"
+enabled: true
+order: 99

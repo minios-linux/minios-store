@@ -1,0 +1,5 @@
+{
+  "name": "SimpleBurn",
+  "description": "Utilitário para gravação e extração de CD/DVD",
+  "longDescription": "<p>Recursos incluem: - Extração e gravação de imagens ISO de CD/DVD, - Extração e gravação de CDs de áudio, - Gravação de diretórios de dados em CD/DVD, - Apagamento de CDs/DVDs regraváveis, - Cópia de CD/DVD, - Extração de DVD de vídeo, - Idiomas disponíveis: cs, de, en, es, fr, hu, it, pl, sv, ru, - Suporte a múltiplos métodos de detecção de mídias e dispositivos (Udev, HAL ou LibCDIO), - Compatível com diversas suítes de gravação (CDRTools, CDRKit, LibBurnia + CDParanoia / LibCDIO + CDRDAO).</p>\n<p>O SimpleBurn é um software livre licenciado sob a Cecill-2.</p>\n"
+}

@@ -1,0 +1,46 @@
+id: "osmo"
+name: Osmo
+description: Personal Organizer
+longDescription: |
+  <p>Osmo is a personal organizer, which includes calendar, task manager and address book modules. It aims to be easy to use and configurable to meet the user&apos;s preferences.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - osmo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calendar
+  - office
+  - pim
+  - contacts
+  - management
+  - schedule
+  - notes
+  - organizer
+iconSources:
+  - url: o/os/osmo.desktop/4132b3a8f9ef0d2021d7218e015eaf3b/icons/128x128/osmo_osmo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

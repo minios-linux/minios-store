@@ -1,0 +1,5 @@
+{
+  "name": "USBView",
+  "description": "Melihat perangkat USB yang terhubung ke sistem",
+  "longDescription": "<p>USBView adalah aplikasi kecil berbasis GTK+ yang menampilkan pohon perangkat pada bus USB. Aplikasi ini menyajikan representasi grafis dari perangkat yang sedang terpasang beserta topologi bus USB-nya. Selain itu, USBView juga menampilkan informasi detail dari setiap perangkat yang terhubung pada bus.</p>\n"
+}

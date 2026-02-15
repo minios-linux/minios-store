@@ -1,0 +1,29 @@
+id: filemanager-actions
+name: FileManager-Actions Configuration Tool
+description: Configure items to be added to the File-Manager context menus
+longDescription: |
+  <p>FileManager-Actions is an extension for GNOME-based file managers, which allows the user to add arbitrary programs to be launched through the file manager&apos;s context menu, based on the current selection.</p>
+  <p>The project was formerly known as Nautilus-Actions, but has changed its name since it now supports Caja and Nemo, in addition to Nautilus.</p>
+  <p>This package provides the graphical interface for creating and editing file-manager actions.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - filemanager-actions
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64]
+tags:
+  - file tools
+  - file manager
+  - custom menu
+  - custom action
+iconSources:
+  - url: f/fm/fma-config-tool.desktop/5CBBFC55122F70F4854438C3A9AA22AA/icons/128x128/filemanager-actions_filemanager-actions.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

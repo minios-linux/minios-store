@@ -1,0 +1,43 @@
+id: "xsensors"
+name: XSensors
+description: View hardware health
+longDescription: |
+  <p>xsensors reads data from the libsensors library regarding hardware health such as temperature, voltage and fan speed and displays the information in a digital read-out.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xsensors
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: com/github/mystro256.xsensors/90a37535d6565056ca408459c5dae276/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/mystro256.xsensors/90a37535d6565056ca408459c5dae276/screenshots/image-1_624x404@1.png
+    width: 754
+    height: 489
+iconSources:
+  - url: com/github/mystro256.xsensors/90a37535d6565056ca408459c5dae276/icons/128x128/xsensors_xsensors.png
+    width: 128
+    height: 128
+homepage: "https://github.com/Mystro256/xsensors"
+enabled: true
+order: 99

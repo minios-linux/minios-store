@@ -1,0 +1,41 @@
+id: "software-properties-gtk"
+name: Software & Updates
+description: Configure the sources for installable software and updates
+longDescription: |
+  <p>This software provides an abstraction of the used apt repositories. It allows you to easily manage your distribution and independent software vendor software sources.</p>
+  <p>This package contains a GTK+ based graphical interface.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - software-properties-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - drivers
+  - repositories
+  - repository
+  - ppa
+iconSources:
+  - url: s/so/software-properties-gtk.desktop/b7396bfde64273461c4013a2abd76b63/icons/128x128/software-properties-gtk_software-properties.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

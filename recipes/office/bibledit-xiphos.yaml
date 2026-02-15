@@ -1,0 +1,29 @@
+id: bibledit-xiphos
+name: Bibledit-Xiphos
+description: Bibledit Xiphos Interface
+longDescription: |
+  <p>Bibledit-Xiphos can retrieve the focused reference through Bibledit-Web, and then forward it to Xiphos. Bibledit is a Bible editor. Xiphos is a Bible study program for the GNOME desktop environment.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bibledit-xiphos
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - bible
+  - bibledit
+  - xiphos
+  - sync
+  - translation
+iconSources:
+  - cached: bibledit-xiphos_bibledit-xiphos.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

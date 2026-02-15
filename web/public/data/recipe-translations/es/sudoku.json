@@ -1,0 +1,5 @@
+{
+  "name": "Sudoku",
+  "description": "juego de sudoku para consola",
+  "longDescription": "<p>Este generador y solucionador de sudokus ofrece:  * interfaz basada en caracteres (curses);  * multiplataforma (Minix, Unix, Windows) con código fuente completo (ANSI C);  * genera pistas bajo demanda;  * clasificación de dificultad del tablero (muy fácil, fácil, medio, difícil o endemoniado);  * generación de nuevos tableros;  * fácil ingreso de sudokus publicados en periódicos, Internet, etc.;  * múltiples formatos de salida (texto, csv, HTML, PostScript).</p>\n"
+}

@@ -1,0 +1,37 @@
+id: "boats"
+name: Boat Scenario
+description: Race scenario drawing tool
+longDescription: |
+  <p>Boat Scenario is a drawing tool. It is your ideal companion for training sessions, rule learning, strategy explanations and more. It lets you make a presentation of a situation, describing the facts as you represent the action.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - boats
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: b/bo/boats.desktop/ce3fdbc77b4fba62d6fbd2228bf2d243/icons/128x128/boats_boats.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

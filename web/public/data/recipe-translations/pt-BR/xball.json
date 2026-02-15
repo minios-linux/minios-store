@@ -1,0 +1,5 @@
+{
+  "name": "XBall",
+  "description": "Simula bolas quicando em uma janela",
+  "longDescription": "<p>\n    Este programa simula bolas quicando em uma janela. Você pode criar as bolas\n    de diversas maneiras e configurar opções como gravidade, elasticidade, colisão\n    entre as bolas, entre outros.\n</p>\n<p>\n    O software possui menus configuráveis pelo usuário e utiliza um widget DrawingArea\n    compatível com outros widgets Athena.\n</p>\n<p>\n    Todos os recursos estão incorporados ao programa como recursos padrão, portanto não é\n    estritamente necessário instalar o arquivo app-defaults, exceto ao usar widgets Athena,\n    pois os atalhos de teclado não funcionarão caso o app-defaults não esteja instalado.\n</p>\n<p>\n    Para rodar as demonstrações incluídas, abra um terminal e digite 'run_demos'.\n</p>\n"
+}

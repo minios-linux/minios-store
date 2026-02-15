@@ -1,0 +1,5 @@
+{
+  "name": "Pronsole",
+  "description": "Software de controle para impressoras 3D via console",
+  "longDescription": "<p>Pronsole é uma interface de linha de comando voltada para impressoras 3D de mesa, como RepRap. Permite carregar arquivos G-code, conectar-se à impressora e enviar comandos diretamente. É a melhor opção para controlar impressoras 3D em máquinas sem interface gráfica ou com recursos limitados.</p>\n<p>Além de enviar G-code a partir de arquivos, possibilita o controle manual da impressora e o envio de comandos G-code diretamente.</p>\n<p>Integra-se a ferramentas de slicing: ao carregar um modelo 3D STL, realiza a fatiamento e o carregamento automaticamente.</p>\n"
+}

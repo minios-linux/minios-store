@@ -1,0 +1,41 @@
+id: ftools-fv
+name: fv FITS Editor
+description: View and manipulate FITS-format files
+longDescription: |
+  <p>Fv provides a graphical user interface to data stored in FITS (Flexible Image Transport System) files.  Local files can be created, viewed and edited, files on the internet can be opened read-only through the http and ftp protocols. Through the POWplot program, FITS data can be visualized in a large variety of styles.  An interface to the SkyView online database allows for searching, downloading, and plotting of images and object lists for a region of the sky.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ftools-fv
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - fits
+  - astronomy
+  - viewer
+iconSources:
+  - cached: ftools-fv_fv.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

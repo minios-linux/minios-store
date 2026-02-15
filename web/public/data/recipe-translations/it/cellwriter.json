@@ -1,0 +1,5 @@
+{
+  "name": "CellWriter",
+  "description": "Pannello di inserimento con riconoscimento della scrittura a mano su griglia",
+  "longDescription": "<p>CellWriter è un pannello di inserimento della scrittura a mano libera con riconoscimento carattere per carattere tramite una griglia. Mentre scrivi i caratteri nelle celle, la tua grafia viene riconosciuta in tempo reale. Premendo \"Invio\" sul pannello, il testo inserito viene inviato all'applicazione attualmente in primo piano come se fosse digitato da tastiera.</p>\n<p>  * Adattivo all’utente: apprende la tua grafia per garantire un riconoscimento affidabile   * Algoritmi di correzione per gestire il rumore del digitalizzatore, l’ordine dei tratti, la direzione e il numero di tratti   * Supporto Unicode per permetterti di scrivere nella tua lingua madre</p>\n"
+}

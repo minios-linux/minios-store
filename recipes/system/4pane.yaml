@@ -1,0 +1,50 @@
+id: "4pane"
+name: 4Pane
+description: A four-pane file manager
+longDescription: |
+  <p>4pane is a dual twin-pane file manager: directories and files are displayed in separate panes. By default two pairs of these twin-panes are displayed at a time, allowing easy dragging or pasting.</p>
+  <p>As well as standard file manager functions, features include support for nfs sshfs and samba, archive management including virtual browsing, multiple renaming of files, user-defined tools, a terminal emulator, and gui access to grep find and locate. Almost all actions, even deletions, can be undone and redone.</p>
+  <p>4pane aims to be highly configurable, fast and fully-featured without bloat.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - 4pane
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - file
+  - manager
+  - disk
+  - filesystem
+screenshotSources:
+  - url: 4/4p/4Pane.desktop/C3D9CF887E0775B887A9DF68A95B481B/screenshots/image-1_orig.png
+    thumbnailUrl: 4/4p/4Pane.desktop/C3D9CF887E0775B887A9DF68A95B481B/screenshots/image-1_624x351.png
+    width: 624
+    height: 351
+iconSources:
+  - url: 4/4p/4pane.desktop/ee418d8af17ccd94071530158d33ea79/icons/128x128/4pane_4Pane.png
+    width: 128
+    height: 128
+homepage: "http://www.4pane.co.uk"
+enabled: true
+order: 99

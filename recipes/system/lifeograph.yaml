@@ -1,0 +1,57 @@
+id: "lifeograph"
+name: Lifeograph
+description: Keep a private journal of your life
+longDescription: |
+  <p>Lifeograph is an off-line and private journal and note taking application for one&apos;s self evaluation of his/her own life.</p>
+  
+categoryId: system
+icon: Image
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lifeograph
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - journal
+  - note
+  - to-do
+  - tag
+  - statistics
+screenshotSources:
+  - url: net/sourceforge/Lifeograph/0beffca90f3f401dca06946d5681932a/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/Lifeograph/0beffca90f3f401dca06946d5681932a/screenshots/image-1_624x356@1.png
+    width: 1628
+    height: 929
+  - url: net/sourceforge/Lifeograph/0beffca90f3f401dca06946d5681932a/screenshots/image-2_orig.png
+    thumbnailUrl: net/sourceforge/Lifeograph/0beffca90f3f401dca06946d5681932a/screenshots/image-2_624x356@1.png
+    width: 1628
+    height: 929
+  - url: net/sourceforge/Lifeograph/0beffca90f3f401dca06946d5681932a/screenshots/image-3_orig.png
+    thumbnailUrl: net/sourceforge/Lifeograph/0beffca90f3f401dca06946d5681932a/screenshots/image-3_624x356@1.png
+    width: 1628
+    height: 929
+iconSources:
+  - url: net/sourceforge/Lifeograph/0beffca90f3f401dca06946d5681932a/icons/128x128/lifeograph_net.sourceforge.Lifeograph.png
+    width: 128
+    height: 128
+homepage: "http://lifeograph.sourceforge.net"
+enabled: true
+order: 99

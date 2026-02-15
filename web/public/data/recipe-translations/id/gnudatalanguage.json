@@ -1,0 +1,5 @@
+{
+  "name": "GNU Data Language",
+  "description": "Kompiler inkremental gratis yang kompatibel dengan IDL",
+  "longDescription": "<p>GNU Data Language (GDL) adalah kompiler inkremental gratis yang kompatibel dengan IDL (Interactive Data Language). GDL sepenuhnya kompatibel dengan sintaks IDL 7.1. IDL adalah merek dagang terdaftar milik ITT Visual Information Solutions. Mulai IDL 8.0, elemen bahasa berikut didukung:</p>\n<p> * Perulangan FOREACH  * Indeks array negatif  * Pointer dan objek dengan garbage collection  * Pemanggilan metode pada objek menggunakan “.” (misal: <code>object.aMemberProcedure,arg1</code>)</p>\n<p>Sistem input output berkas sudah diimplementasikan secara penuh. Dukungan antarmuka GUI (widget) tersedia secara resmi, namun belum sepenuhnya lengkap.</p>\n<p>Paket ini berisi frontend utama untuk command line dan interpreter.</p>\n"
+}

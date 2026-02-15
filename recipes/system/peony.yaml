@@ -1,0 +1,30 @@
+id: peony
+name: Peony
+description: Browse the file system with the file manager
+longDescription: |
+  <p>Peony is the official file manager for the UKUI desktop. It allows one to browse directories, preview files and launch applications associated with them. It is also responsible for handling the icons on the UKUI desktop. It works on local and remote filesystems.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - peony
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - files
+  - browser
+  - manager
+  - ukui
+iconSources:
+  - url: p/pe/peony-browser.desktop/668B8C93CA9BC618191831DDE1054B5F/icons/128x128/peony_system-file-manager.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "LXI-Tools",
+  "description": "LXI-Tools è una raccolta di strumenti open source per la gestione di strumenti di misura compatibili LXI collegati in rete.",
+  "longDescription": "<p>\n      Le funzionalità includono il rilevamento automatico degli strumenti, l'invio di comandi SCPI,\n      l'acquisizione di screenshot dagli strumenti supportati, il benchmarking delle prestazioni dei messaggi SCPI\n      e un potente sistema di scripting per l'automazione. Sono disponibili sia uno strumento a riga di comando che un'interfaccia grafica.\n    </p>\n"
+}

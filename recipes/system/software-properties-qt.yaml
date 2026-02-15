@@ -1,0 +1,24 @@
+id: software-properties-qt
+name: Software Sources
+description: Configure the sources for installable software and updates
+longDescription: |
+  <p>This software provides an abstraction of the used apt repositories. It allows you to easily manage your distribution and independent software vendor software sources.</p>
+  <p>This package contains a Qt-based graphical interface.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - software-properties-qt
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/so/software-properties-lxqt.desktop/C4E6D7731005ED2C2F208120A425254B/icons/128x128/software-properties-qt_applications-other.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

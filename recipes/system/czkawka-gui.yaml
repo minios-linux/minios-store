@@ -1,0 +1,45 @@
+id: czkawka-gui
+name: Czkawka
+description: "Multi functional app to find duplicates, empty folders, similar images, broken files etc."
+longDescription: |
+  <p>
+        Czkawka is simple, fast and easy to use app to remove unnecessary files from your computer.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - czkawka-gui
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - hiccup
+  - duplicate
+  - same
+  - similar
+  - cleaner
+screenshotSources:
+  - url: com/github/qarmin.czkawka/57a81dbb8768a244c8be7756e43f49a4/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/qarmin.czkawka/57a81dbb8768a244c8be7756e43f49a4/screenshots/image-1_624x341@1.png
+    width: 1921
+    height: 1051
+  - url: com/github/qarmin.czkawka/57a81dbb8768a244c8be7756e43f49a4/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/qarmin.czkawka/57a81dbb8768a244c8be7756e43f49a4/screenshots/image-2_624x341@1.png
+    width: 1920
+    height: 1051
+  - url: com/github/qarmin.czkawka/57a81dbb8768a244c8be7756e43f49a4/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/qarmin.czkawka/57a81dbb8768a244c8be7756e43f49a4/screenshots/image-3_624x464@1.png
+    width: 1303
+    height: 970
+iconSources:
+  - url: com/github/qarmin.czkawka/57a81dbb8768a244c8be7756e43f49a4/icons/128x128/czkawka-gui_com.github.qarmin.czkawka.png
+    width: 128
+    height: 128
+homepage: "https://github.com/qarmin/czkawka"
+enabled: true
+order: 99

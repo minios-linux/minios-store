@@ -1,0 +1,5 @@
+{
+  "name": "Software per spettrometria di massa",
+  "description": "Modella e simula dati di spettrometria di massa",
+  "longDescription": "<p>\n\n\t\t\t\tmassXpert2 è un programma utilizzato per modellare chimiche polimeriche (ad esempio proteine o saccaridi) e sfruttare questi modelli per simulare reazioni chimiche e dati di spettrometria di massa ottenuti dai prodotti di tali reazioni.\n\n\t\t\t</p>\n<p>Il processo può essere riassunto così:</p>\n<ul>\n  <li>Definire una nuova chimica polimerica (ad esempio, proteina, già inclusa nel pacchetto);</li>\n  <li>Modificare una sequenza di polimero (in questo caso, una sequenza proteica);</li>\n  <li>Avviare simulazioni chimiche, come la digestione proteica, raccogliendo tutti i dati di massa relativi ai peptidi ottenuti;</li>\n  <li>Selezionare quindi un peptide ed eseguire una frammentazione in fase gassosa; raccogliere i dati di massa corrispondenti a tutti i frammenti teoricamente attesi.</li>\n</ul>\n"
+}

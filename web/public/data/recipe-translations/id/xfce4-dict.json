@@ -1,0 +1,5 @@
+{
+  "name": "Dictionary",
+  "description": "Program klien untuk mencari berbagai kamus.",
+  "longDescription": "<p>Program ini memungkinkan Anda mencari bermacam-macam layanan kamus untuk kata atau frasa dan menampilkan hasilnya. Saat ini, Anda dapat melakukan pencarian ke server Dict (RFC 2229), layanan kamus daring dengan membuka peramban web, atau mencari kata menggunakan program aspell/ispell.</p>\n<p>xfce4-dict mencakup aplikasi mandiri bernama “xfce4-dict” dan plugin panel untuk panel Xfce.</p>\n"
+}

@@ -1,0 +1,30 @@
+id: "opentyrian"
+name: OpenTyrian
+description: An arcade-style shoot 'em up
+longDescription: |
+  <p>Tyrian is an arcade-style vertical scrolling shooter. The story is set in 20,031 where you play as Trent Hawkins, a skilled fighter-pilot employed to fight Microsol and save the galaxy.</p>
+  <p>This package needs game data from the original Tyrian game, which is available as a freeware. It can be installed using game-data-packager.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - opentyrian
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: o/op/opentyrian.desktop/627889ad7ab0ae8eb74b00f6c2714cb6/icons/128x128/opentyrian_opentyrian.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

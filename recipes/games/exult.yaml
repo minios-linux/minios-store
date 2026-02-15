@@ -1,0 +1,24 @@
+id: exult
+name: Exult
+description: Exult Ultima 7 Engine
+longDescription: |
+  <p>Exult is an open source engine for playing Ultima VII on a variety of modern operating systems and environments.  The Black Gate (including Forge of Virtue) and Serpent Isle (plus Silver Seed) are both playable to the end.  Some differences to the original games exist; see sections 5.3/5.4 of the FAQ.</p>
+  <p>While it is possible to use the engine for other games, no such game has been written yet. Therefore, Exult is useless unless you own a copy of one of the Ultima VIIs.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - exult
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: exult_exult.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

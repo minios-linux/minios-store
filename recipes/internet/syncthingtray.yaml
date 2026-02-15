@@ -1,0 +1,48 @@
+id: "syncthingtray"
+name: Syncthing Tray
+description: Tray application for Syncthing
+longDescription: |
+  <ul>
+    <li>Qt-based tray application for Syncthing</li>
+    <li>Provides quick access to most frequently used features but does not intend to replace the official web UI</li>
+    <li>Shows Syncthing notifications</li>
+    <li>Can read the local Syncthing configuration file for quick setup when just connecting to local instance</li>
+    <li>Can show the status of the Syncthing systemd unit and allows to start and stop it</li>
+    <li>Provides quick access to the official web UI</li>
+    <li>Allows quickly switching between multiple Syncthing instances</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - syncthingtray
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: io/github/martchus.syncthingtray/8dae522ca03628b537a7d7821bf477ff/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/martchus.syncthingtray/8dae522ca03628b537a7d7821bf477ff/screenshots/image-1_224x207@1.png
+    width: 499
+    height: 463
+  - url: io/github/martchus.syncthingtray/8dae522ca03628b537a7d7821bf477ff/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/martchus.syncthingtray/8dae522ca03628b537a7d7821bf477ff/screenshots/image-2_624x378@1.png
+    width: 1013
+    height: 615
+  - url: io/github/martchus.syncthingtray/8dae522ca03628b537a7d7821bf477ff/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/martchus.syncthingtray/8dae522ca03628b537a7d7821bf477ff/screenshots/image-3_624x448@1.png
+    width: 823
+    height: 592
+iconSources:
+  - url: io/github/martchus.syncthingtray/8dae522ca03628b537a7d7821bf477ff/icons/128x128/syncthingtray_syncthingtray.png
+    width: 128
+    height: 128
+developer: Martchus
+homepage: "https://github.com/Martchus/syncthingtray"
+enabled: true
+order: 99

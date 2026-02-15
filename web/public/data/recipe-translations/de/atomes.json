@@ -1,0 +1,5 @@
+{
+  "name": "Atomes",
+  "description": "Ein atomistisches Werkzeugkasten",
+  "longDescription": "<p>Atomes: ein Werkzeugkasten zur Analyse, Visualisierung und Erstellung/Bearbeitung von dreidimensionalen atomistischen Modellen. Es bietet eine Arbeitsumgebung, in der mehrere Projekte gleichzeitig geöffnet sein können. Die verschiedenen Projekte im Workspace können Daten austauschen: Analyseergebnisse, Atomkoordinaten usw.</p>\n<p>Atomes stellt zudem ein fortschrittliches System zur Eingabevorbereitung für weitere Berechnungen mit bekannten Molekulardynamik-Programmen bereit:</p>\n<ul>\n  <li>Klassische MD: DLPOLY und LAMMPS</li>\n  <li>Ab-initio-MD: CPMD und CP2K</li>\n  <li>QM-MM-MD: CPMD und CP2K</li>\n</ul>\n<p>Die Vorbereitung der Eingabedateien für diese Berechnungen ist meist der entscheidende und komplexeste Schritt bei MD-Simulationen. Atomes bietet einen benutzerfreundlichen Assistenten, der Wissenschaftler Schritt für Schritt bei diesem wichtigen Prozess unterstützt und begleitet.</p>\n"
+}

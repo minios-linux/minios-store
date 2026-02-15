@@ -1,0 +1,35 @@
+id: "language-selector-gnome"
+name: Language Support
+description: Configure multiple and native language support on your system
+longDescription: |
+  <p>This package let you change and install language packs in Ubuntu.</p>
+  <p>This package contains the GTK+ frontend.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - language-selector-gnome
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - language
+  - input method
+  - region
+  - format
+iconSources:
+  - url: g/gn/gnome-language-selector.desktop/feb62d4158786cd692df7653aed38d9f/icons/128x128/language-selector-gnome_preferences-desktop-locale.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

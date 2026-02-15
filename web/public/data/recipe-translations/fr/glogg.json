@@ -1,0 +1,5 @@
+{
+  "name": "glogg",
+  "description": "Explorateur interactif intelligent de logs.",
+  "longDescription": "<p>glogg est une application graphique multiplateforme permettant de parcourir et de rechercher dans de grands fichiers de logs complexes. Conçu pour les développeurs et les administrateurs système, il offre une interface graphique interactive combinant les fonctionnalités de grep et less.</p>\n<p>Principales fonctionnalités :  * Recherche ou filtrage à l’aide d’expressions régulières egrep.  * Affichage interactif des résultats dans une fenêtre filtrée séparée.  * Coloration syntaxique des logs et des résultats de recherche.  * Lecture directe du fichier sur le disque, sans le charger entièrement en mémoire.  * Gestion efficace des fichiers volumineux (&gt;4 Go).  * Prise en charge des fichiers encodés en UTF-8 et ISO-8859-1.  * Suivi d’un log en temps réel lors de son écriture sur le disque.  * Possibilité d’ajouter des marques sur des lignes importantes.  * Commandes clavier similaires à less/vim pour naviguer dans le fichier.</p>\n"
+}

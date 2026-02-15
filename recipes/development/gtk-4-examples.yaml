@@ -1,0 +1,39 @@
+id: "gtk-4-examples"
+name: GTK Icon Browser
+description: Program to browse themed icons
+longDescription: |
+  <p>
+        GTK Icon Browser is a simple application to show themed icons that
+        are available on the system.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtk-4-examples
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/gtk/gtk4.NodeEditor/4356ec7ce68d7b545ff6c5a74cc33a49/screenshots/image-1_orig.png
+    thumbnailUrl: org/gtk/gtk4.NodeEditor/4356ec7ce68d7b545ff6c5a74cc33a49/screenshots/image-1_624x472@1.png
+    width: 1052
+    height: 797
+iconSources:
+  - url: org/gtk/gtk4.NodeEditor/4356ec7ce68d7b545ff6c5a74cc33a49/icons/128x128/gtk-4-examples_org.gtk.gtk4.NodeEditor.png
+    width: 128
+    height: 128
+developer: Matthias Clasen and others
+homepage: "https://www.gtk.org"
+enabled: true
+order: 99

@@ -1,0 +1,43 @@
+id: "spatialite-gui"
+name: Spatialite GUI
+description: Manage Spatialite databases
+longDescription: |
+  <p>spatialite-gui is a Graphical User Interface (GUI) for SpatiaLite.</p>
+  <p>SpatiaLite is a SQLite extension that enables support of spatial (geometry) data in a way conformant to OpenGis specifications, with both WKT and WKB formats.</p>
+  <p>Spatialite also includes Virtualshape and Virtualtext to enable accessing shapefiles and csv/text files as virtual tables.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - spatialite-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - spatial
+  - sqlite
+  - gis
+iconSources:
+  - url: s/sp/spatialite-gui.desktop/0e4e2fa3979b71fbcede7b662bda2798/icons/128x128/spatialite-gui_spatialite-gui.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

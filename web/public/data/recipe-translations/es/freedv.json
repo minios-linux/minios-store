@@ -1,0 +1,5 @@
+{
+  "name": "FreeDV",
+  "description": "Modo de voz digital para radio HF",
+  "longDescription": "<p>FreeDV es un modo de voz digital diseñado para la transmisión y recepción en radio de alta frecuencia (HF). Utiliza un módem de multiplexación por división de frecuencia (FDM) con 15 portadoras y sin corrección de errores directa (FEC). Un codificador-decodificador de voz de baja tasa de bits (Codec 2) proporciona calidad de voz sin la fatiga auditiva causada por el ruido y la interferencia habituales en la voz analógica de banda lateral única (SSB). Se requiere un transceptor HF SSB, una computadora personal y dos tarjetas de sonido. Las simulaciones de propagación y pruebas reales en HF han demostrado que es posible decodificar voz con una relación señal/ruido de 4 dB.</p>\n<p>El software FreeDV fue desarrollado por David Rowe (Codec 2, implementación del módem FDM, integración) y David Witten (interfaz gráfica, diseño de arquitectura). El diseño y la interfaz de usuario de FreeDV se basaron en el programa anterior FDMDV, desarrollado por Francesco Lanza. El diseño y desarrollo del módem FDM contó con el apoyo de Peter Martinez.</p>\n"
+}

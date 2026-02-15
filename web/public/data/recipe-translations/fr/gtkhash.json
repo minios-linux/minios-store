@@ -1,0 +1,5 @@
+{
+  "name": "GtkHash",
+  "description": "Calculez des empreintes ou des sommes de contrôle",
+  "longDescription": "<p>GtkHash est une application permettant de calculer les sommes de contrôle (checksums) ou empreintes de fichiers. Elle offre une alternative graphique simple d'utilisation aux programmes en ligne de commande tels que md5sum.</p>\n<p>Les fonctions de hachage prises en charge incluent MD5, SHA1, SHA256, SHA512 et CRC32.</p>\n"
+}

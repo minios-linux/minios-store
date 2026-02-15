@@ -1,0 +1,5 @@
+{
+  "name": "Sync Mail Dir",
+  "description": "Menyinkronkan kotak surat dalam format Maildir",
+  "longDescription": "<p>Sync Mail Dir adalah kumpulan utilitas untuk menyinkronkan sepasang kotak surat dalam format Maildir, menggunakan SSH untuk transfer data.</p>\n<p>Paket ini menyediakan sebuah applet yang mengintegrasikan smd-loop dengan GNOME; yakni, menampilkan notifikasi kepada pengguna melalui pop-up, menjalankan smd-loop saat pengguna login, dan menyediakan antarmuka pengguna sederhana untuk menangani kesalahan sinkronisasi.</p>\n"
+}

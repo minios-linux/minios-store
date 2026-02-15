@@ -1,0 +1,38 @@
+id: yubioath-desktop
+name: Yubico Authenticator
+description: Graphical interface for displaying OATH codes with a YubiKey.
+longDescription: |
+  <p>The Yubico Authenticator is a graphical desktop tool for generating Open AuTHentication (OATH) event-based HOTP and time-based TOTP one-time password codes, with the help of a Yubikey that protects the shared secrets.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yubioath-desktop
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - yubico
+  - authenticator
+iconSources:
+  - cached: yubioath-desktop_com.yubico.yubioath.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

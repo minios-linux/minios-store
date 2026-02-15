@@ -1,0 +1,44 @@
+id: "pim-data-exporter"
+name: PIM Setting Exporter
+description: PIM Setting Exporter allows to save all data from PIM apps and restore them in other system.
+longDescription: |
+  <p>An application to assist you with backing up and archiving PIM data, including the necessary configuration, for archival or transfer to another computer.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pim-data-exporter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/pimdataexporter.desktop/91761cecc81adf2b12ac11b782d9821f/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/pimdataexporter.desktop/91761cecc81adf2b12ac11b782d9821f/screenshots/image-1_624x497@1.png
+    width: 844
+    height: 673
+iconSources:
+  - url: org/kde/pimdataexporter.desktop/91761cecc81adf2b12ac11b782d9821f/icons/128x128/pim-data-exporter_kontact.png
+    width: 128
+    height: 128
+developer: Laurent Montel <montel@kde.org>
+homepage: "https://apps.kde.org/pimdataexporter/"
+enabled: true
+order: 99

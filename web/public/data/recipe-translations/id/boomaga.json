@@ -1,0 +1,5 @@
+{
+  "name": "Boomaga",
+  "description": "Printer virtual untuk melihat dan mengedit dokumen sebelum dicetak.",
+  "longDescription": "<p>Boomaga (BOOklet MAnager) adalah printer virtual yang memungkinkan Anda melihat dokumen sebelum mencetaknya ke printer fisik.</p>\n<p>Program ini sangat mudah digunakan. Jalankan aplikasi apa pun, klik \"print\" lalu pilih \"Boomaga\". Dalam beberapa detik (CUPS membutuhkan waktu untuk merespons), jendela Boomaga akan terbuka.</p>\n<p>Jika Anda mencetak dokumen lain, dokumen tersebut akan ditambahkan ke dokumen sebelumnya, dan Anda dapat mencetaknya sekaligus.</p>\n<p>Terlepas dari apakah printer Anda mendukung pencetakan bolak-balik (duplex) atau tidak, Anda tetap dapat dengan mudah mencetak di kedua sisi kertas.</p>\n"
+}

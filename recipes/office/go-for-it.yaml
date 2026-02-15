@@ -1,0 +1,49 @@
+id: "go-for-it"
+name: GoForIt!
+description: A stylish to-do list with built-in productivity timer
+longDescription: |
+  <p>
+  GoForIt! is a simple and stylish productivity app, featuring a to-do list, merged with a timer that keeps your focus on the current task.
+      </p>
+  <p>
+  To-do lists are stored in the Todo.txt format. This simplifies synchronization with mobile devices and makes it possible to edit tasks using other front-ends.
+      </p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - go-for-it
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - productivity
+  - todo.txt
+  - todo
+  - timer
+  - task
+  - pim
+  - time management
+screenshotSources:
+  - url: com/github/jmoerman.go-for-it/b40796622a272be8cf609861738b9e8d/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/jmoerman.go-for-it/b40796622a272be8cf609861738b9e8d/screenshots/image-1_624x351@1.png
+    width: 1253
+    height: 705
+iconSources:
+  - url: com/github/jmoerman.go-for-it/b40796622a272be8cf609861738b9e8d/icons/128x128/go-for-it_com.github.jmoerman.go-for-it.png
+    width: 128
+    height: 128
+developer: The GoForIt! developers
+homepage: "https://jmoerman.github.io/go-for-it/"
+enabled: true
+order: 99

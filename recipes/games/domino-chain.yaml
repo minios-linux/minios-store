@@ -1,0 +1,45 @@
+id: domino-chain
+name: Domino-Chain
+description: Rearrange dominoes on different platforms to start a chain reaction.
+longDescription: |
+  <p>
+  Domino-Chain is a puzzle game where you have to rearrange
+  dominoes on different platforms to start a chain reaction that
+  makes all dominoes topple over. There are many strange types
+  of dominoes, such as the Ascender which will rise to the
+  ceiling when pushed, or the Exploder which will blast a hole
+  into the platform it stands on.
+  </p>
+  <p>
+  Domino-Chain is a faithful reincarnation of the game Pushover
+  originally published by Ocean in 1992. Compared to Pushover,
+  Domino-Chain has some new levels, some additional domino
+  types, better graphics in higher resolution and high-quality
+  music. On top of that, you can load and play the original
+  levels from Pushover if you have a copy of it.
+  </p>
+  <p>
+  This game is free software and created by volunteers. Even
+  though it is in a pretty good state, there is a lot to
+  improve. If you like Domino-Chain, please consider to join the
+  team and to help with translations, levels, graphics and more.
+  </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - domino-chain
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: domino-chain_domino-chain.png
+    width: 64
+    height: 64
+homepage: "https://domino-chain.gitlab.io/"
+enabled: true
+order: 99

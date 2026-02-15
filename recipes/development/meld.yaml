@@ -1,0 +1,56 @@
+id: "meld"
+name: Meld
+description: Compare and merge your files
+longDescription: |
+  <p>Meld is a visual diff and merge tool targeted at developers. Meld helps you compare files, directories, and version controlled projects. It provides two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar and Subversion.</p>
+  <p>Meld helps you review code changes, understand patches, and makes enormous merge conflicts slightly less painful.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - meld
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - diff
+  - merge
+screenshotSources:
+  - url: org/gnome/Meld.desktop/29d60d31b08bb37380bb64118dcd0959/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Meld.desktop/29d60d31b08bb37380bb64118dcd0959/screenshots/image-1_624x406@1.png
+    width: 1132
+    height: 737
+  - url: org/gnome/Meld.desktop/29d60d31b08bb37380bb64118dcd0959/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Meld.desktop/29d60d31b08bb37380bb64118dcd0959/screenshots/image-2_624x405@1.png
+    width: 1132
+    height: 736
+  - url: org/gnome/Meld.desktop/29d60d31b08bb37380bb64118dcd0959/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Meld.desktop/29d60d31b08bb37380bb64118dcd0959/screenshots/image-3_624x406@1.png
+    width: 1132
+    height: 737
+iconSources:
+  - url: org/gnome/Meld.desktop/29d60d31b08bb37380bb64118dcd0959/icons/128x128/meld_org.gnome.Meld.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "http://meldmerge.org"
+enabled: true
+order: 99

@@ -1,0 +1,38 @@
+id: qnifti2dicom
+name: Nifti2Dicom
+description: Convert 3D NIfTI images to DICOM 2D series
+longDescription: |
+  <p>Nifti2Dicom is a convertion tool that converts 3D NIfTI files (and other formats supported by ITK, including Analyze, MetaImage Nrrd and VTK) to DICOM. Unlike other conversion tools, it can import a DICOM file that is used to import the patient and study DICOM tags, and allows you to edit the accession number and other DICOM tags, in order to create a valid DICOM that can be imported in a PACS.</p>
+  <p>This package contains the Qt4 GUI.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qnifti2dicom
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - dicom
+  - nifti
+  - medical images
+  - converter
+  - pacs
+iconSources:
+  - url: q/qn/qnifti2dicom.desktop/ABC53CDB56F6FF805A411B87C2D461DD/icons/128x128/qnifti2dicom_qnifti2dicom.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

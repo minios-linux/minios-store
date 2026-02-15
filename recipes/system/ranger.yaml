@@ -1,0 +1,42 @@
+id: "ranger"
+name: ranger
+description: Launches the ranger file manager
+longDescription: |
+  <p>Ranger is a console file manager with VI key bindings.  It provides a minimalistic and nice curses interface with a view on the directory hierarchy. It ships with &quot;rifle&quot;, a file launcher that is good at automatically finding out which program to use for what file type.</p>
+  <p>Design Goals  * An easily maintainable file manager in a high level language  * A quick way to switch directories and browse the file system  * Keep it small but useful, do one thing and do it well  * Console based, with smooth integration into the unix shell</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ranger
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - file
+  - manager
+  - browser
+  - explorer
+  - vi
+  - vim
+  - python
+iconSources:
+  - url: r/ra/ranger.desktop/6edb7a17bba215c5540cb969b5856289/icons/128x128/ranger_utilities-terminal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

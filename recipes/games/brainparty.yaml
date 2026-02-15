@@ -1,0 +1,43 @@
+id: "brainparty"
+name: Brain Party
+description: 36 puzzle games for all the family
+longDescription: |
+  <p>Brain Party is a fun, free puzzle game for all the family that&apos;s made up of 36 minigames designed to push your brain to its limits by testing memory, logic, mathematics, reaction time and more! Brain Party is split into two modes: test mode gives you five minigames in a row and adds up your brain weight to see how smart you are, and practise mode lets you play your favourite minigames as often as you want. If you do well enough, there are six extra minigames that can be unlocked as well as a new game mode designed to keep you playing and enjoying your favourite games even longer.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - brainparty
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - family
+  - puzzle
+  - logic
+  - game
+  - riddle
+iconSources:
+  - url: b/br/brainparty.desktop/62669bfe228972f13dde5e2c11f2e3b8/icons/128x128/brainparty_brainparty.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

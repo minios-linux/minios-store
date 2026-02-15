@@ -1,0 +1,5 @@
+{
+  "name": "KBackup",
+  "description": "Crea copias de seguridad en archivos .tar en una carpeta local o una URL remota",
+  "longDescription": "<p>\n      KBackup es una aplicación que te permite respaldar tus datos de forma sencilla y fácil de usar\n    </p>\n<p>Características:</p>\n<ul>\n  <li>Utiliza archivos de perfil con definiciones de carpetas y archivos a incluir o excluir en la copia de seguridad</li>\n  <li>El destino de la copia puede ser un dispositivo montado localmente como una unidad ZIP, memoria USB, etc., o cualquier URL remota</li>\n  <li>Permite ejecutar copias de seguridad automáticas sin necesidad de interfaz gráfica</li>\n</ul>\n"
+}

@@ -1,0 +1,51 @@
+id: "parley"
+name: Parley
+description: Vocabulary Trainer
+longDescription: |
+  <p>Parley is a vocabulary trainer. It helps you to memorize your vocabulary, for example when you are trying to learn a foreign language. It supports many language specific features, but can be used for other learning tasks as well. It uses the spaced repetition learning method, which makes learning optimal. Vocabulary collections can be downloaded by &quot;Get Hot New Stuff&quot; or created with the built-in editor.</p>
+  <p>Training Modes:</p>
+  <ul>
+    <li>Flash Cards</li>
+    <li>Mixed Letters (order the letters of a word)</li>
+    <li>Multiple Choice</li>
+    <li>Written</li>
+    <li>Language specific trainings: article, comparison forms, conjugations, synonymes/antonyms/paraphrases</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - parley
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/parley.desktop/a9b40070c2a345803ae7944a43460085/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/parley.desktop/a9b40070c2a345803ae7944a43460085/screenshots/image-1_624x639@1.png
+    width: 662
+    height: 678
+iconSources:
+  - url: org/kde/parley.desktop/a9b40070c2a345803ae7944a43460085/icons/128x128/parley_parley.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/parley/"
+enabled: true
+order: 99

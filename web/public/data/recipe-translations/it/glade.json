@@ -1,0 +1,5 @@
+{
+  "name": "Glade",
+  "description": "Crea o modifica interfacce utente per applicazioni GTK+",
+  "longDescription": "<p>Glade è uno strumento RAD che permette uno sviluppo rapido e semplice di interfacce grafiche per il toolkit GTK+ 3 e per l'ambiente desktop GNOME.</p>\n<p>Le interfacce create con Glade vengono salvate in formato XML e possono essere caricate dinamicamente dalle applicazioni tramite GtkBuilder, oppure utilizzate direttamente per definire una nuova classe di oggetto derivata da GtkWidget usando la funzionalità di template di GTK+.</p>\n<p>Utilizzando GtkBuilder, i file XML di Glade possono essere impiegati in numerosi linguaggi di programmazione, tra cui C, C++, C#, Vala, Java, Perl, Python e altri.</p>\n"
+}

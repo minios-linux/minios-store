@@ -1,0 +1,5 @@
+{
+  "name": "Kaidan",
+  "description": "Kaidan, un client Jabber/XMPP simple et convivial pour tous les appareils et plateformes",
+  "longDescription": "<p>Kaidan est un client Jabber/XMPP simple et intuitif, offrant une interface moderne basée sur Kirigami et QtQuick. Son cœur est entièrement développé en C++ en s'appuyant sur la bibliothèque cliente qxmpp et Qt 5.</p>\n<p>Kaidan est encore en développement ; il peut donc ne pas offrir le même niveau de stabilité ou de fonctionnalités qu'un client finalisé.</p>\n<p>Pour la liste des XEP prises en charge, consultez le Wiki.</p>\n"
+}

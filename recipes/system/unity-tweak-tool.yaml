@@ -1,0 +1,25 @@
+id: unity-tweak-tool
+name: Unity Tweak Tool
+description: Configuration frontend for the Unity desktop environment
+longDescription: |
+  <p>Unity Tweak Tool is a settings manager for the Unity desktop. It provides users with a fast, simple and easy-to-use interface with which to access many useful and little known features and settings of the desktop environment that one may want to configure.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - unity-tweak-tool
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+iconSources:
+  - cached: unity-tweak-tool_unity-tweak-tool.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

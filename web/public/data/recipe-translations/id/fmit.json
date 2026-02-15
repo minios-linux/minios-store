@@ -1,0 +1,5 @@
+{
+  "name": "FMIT",
+  "description": "FMIT (Free Musical Instrument Tuner), alat untuk menyetem instrumen musik",
+  "longDescription": "<p>\n      Temukan estimasi frekuensi dasar (f0, bukan nada yang terdengar) dari sinyal audio secara real-time, dan bandingkan dengan nada terdekat pada tangga nada.\n    </p>\n<p>\n      Stem instrumen musik Anda dengan fitur canggih, termasuk jejak frekuensi dan volume, pengaturan frekuensi dasar referensi, berbagai pilihan tangga nada penyeteman (kromatik, Werckmeister III, Kirnberger III, diatonik, dan meantone), penyeteman mikrotonal dengan dukungan file Scala (.scl), serta statistik.\n    </p>\n<p>\n      Lakukan analisis suara secara real-time dengan tampilan periode gelombang, amplitudo harmonik, dan Transformasi Fourier Diskret (DFT). Ubah berbagai parameter analisis dan atur keseimbangan antara presisi dan kecepatan.\n    </p>\n<p>\n      Pilih antara beberapa sistem penangkap suara, termasuk ALSA dan JACK.\n    </p>\n<p>\n      Tampilkan atau sembunyikan panel sesuai kebutuhan dan gunakan mulai dari tampilan tuner analog sederhana hingga seperangkat alat analisis real-time tingkat lanjut.\n    </p>\n"
+}

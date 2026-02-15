@@ -1,0 +1,35 @@
+id: xscreensaver
+name: Screensaver
+description: Change screensaver properties
+longDescription: |
+  <p>XScreenSaver is a modular screen saver and locker for X11, containing more than 200 screen savers.</p>
+  <p>This package includes the bare minimum needed to blank and lock your screen. Install this package if you want to use the xscreensaver engine to control screen blanking and launching display modes (&quot;hacks&quot;). If you only want to use other screensaver engines, you don&apos;t need to install this package.</p>
+  <p>The graphical display modes are in the xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl and xscreensaver-gl-extra packages.</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xscreensaver
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: xscreensaver_xscreensaver.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

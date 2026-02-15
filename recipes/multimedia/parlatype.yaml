@@ -1,0 +1,46 @@
+id: "parlatype"
+name: Parlatype
+description: Media player for manual speech transcription
+longDescription: |
+  <p>Parlatype is an easy to use media player. Its main purpose is to help you transcribing speech.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - parlatype
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - transcription
+screenshotSources:
+  - url: xyz/parlatype/Parlatype/4c19bf6577190d792329e7eaf0dd9d8b/screenshots/image-1_orig.png
+    thumbnailUrl: xyz/parlatype/Parlatype/4c19bf6577190d792329e7eaf0dd9d8b/screenshots/image-1_624x407@1.png
+    width: 722
+    height: 472
+iconSources:
+  - url: xyz/parlatype/Parlatype/4c19bf6577190d792329e7eaf0dd9d8b/icons/128x128/parlatype_xyz.parlatype.Parlatype.png
+    width: 128
+    height: 128
+developer: Gabor Karsay
+homepage: "https://gkarsay.github.io/parlatype/"
+enabled: true
+order: 99

@@ -1,0 +1,58 @@
+id: "gnome-mahjongg"
+name: GNOME Mahjongg
+description: Match tiles and clear the board
+longDescription: |
+  <p>A solitaire version of the classic Eastern tile game. Tiles are stacked on the board at the start of the game. The goal is to remove all the tiles in as little time as possible. Select two matching tiles and they will disappear from the board, but you can only select a tile if there is an empty space to its left or right at the same level. Be careful: tiles that look alike may actually be slightly different.</p>
+  <p>GNOME Mahjongg features a variety of starting layouts, some easy and some difficult. If you get stuck, you can ask for a hint, but this adds a large time penalty.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-mahjongg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - strategy
+  - puzzle
+  - board
+screenshotSources:
+  - url: org/gnome/Mahjongg/99cce7f024e1fc099f75108460f3c116/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Mahjongg/99cce7f024e1fc099f75108460f3c116/screenshots/image-1_624x501@1.png
+    width: 997
+    height: 802
+  - url: org/gnome/Mahjongg/99cce7f024e1fc099f75108460f3c116/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Mahjongg/99cce7f024e1fc099f75108460f3c116/screenshots/image-2_624x501@1.png
+    width: 997
+    height: 802
+  - url: org/gnome/Mahjongg/99cce7f024e1fc099f75108460f3c116/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Mahjongg/99cce7f024e1fc099f75108460f3c116/screenshots/image-3_624x501@1.png
+    width: 997
+    height: 802
+iconSources:
+  - url: org/gnome/Mahjongg/99cce7f024e1fc099f75108460f3c116/icons/128x128/gnome-mahjongg_org.gnome.Mahjongg.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Mahjongg"
+enabled: true
+order: 99

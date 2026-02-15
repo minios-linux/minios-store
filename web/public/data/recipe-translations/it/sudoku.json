@@ -1,0 +1,5 @@
+{
+  "name": "Sudoku",
+  "description": "gioco di sudoku basato su console",
+  "longDescription": "<p>Questo generatore e risolutore di sudoku offre:  * interfaccia testuale (curses);  * multipiattaforma (Minix, Unix, Windows) con codice sorgente completo (ANSI C);  * suggerimenti disponibili su richiesta;  * classificazione della difficoltà delle griglie (molto facile, facile, media, difficile o diabolica);  * generazione di nuove griglie;  * inserimento facilitato delle griglie pubblicate su giornali, Internet, ecc.;  * vari formati di output (testo, csv, HTML, PostScript).</p>\n"
+}

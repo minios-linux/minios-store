@@ -1,0 +1,5 @@
+{
+  "name": "Configuración de TV Digital",
+  "description": "Configura la TV digital",
+  "longDescription": "<p>GNOME DVB Daemon es un servicio basado en GStreamer para configurar tus dispositivos DVB, grabar o ver programas de TV y navegar por la guía electrónica de programación (EPG).</p>\n<p>Este paquete incluye el cliente Python GTK+, que se comunica con el servicio a través de DBUS.</p>\n"
+}

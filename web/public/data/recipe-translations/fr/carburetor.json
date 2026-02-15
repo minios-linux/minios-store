@@ -1,0 +1,5 @@
+{
+  "name": "Carburetor",
+  "description": "L’application de routage en oignon",
+  "longDescription": "<p>\n      Une application graphique de configuration pour tractor, un paquet utilisant la bibliothèque Python Stem afin d'offrir une connexion via un proxy onion et d'appliquer le proxy à la session utilisateur. Vous n'avez ainsi plus besoin de manipuler TOR manuellement sur votre système.\n    </p>\n"
+}

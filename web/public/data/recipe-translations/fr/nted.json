@@ -1,0 +1,5 @@
+{
+  "name": "NtEd",
+  "description": "Éditeur de partitions musicales",
+  "longDescription": "<p>NtEd est un éditeur de partitions basé sur GTK+ conçu pour offrir un véritable rendu WYSIWYG : ce que vous voyez à l'écran correspond exactement à la sortie imprimée. Il gère jusqu'à 4 voix par portée, les notes de percussion, 5 lignes de paroles, les nuplets, les changements de contexte, les reprises avec alternatives, la configuration des instruments de musique par portée, l'import MIDI / MusicXML, ainsi que l'export aux formats PS, PDF, SVG, PNG, Lilypond et MIDI. Les partitions peuvent être lues via le séquenceur ALSA.</p>\n"
+}

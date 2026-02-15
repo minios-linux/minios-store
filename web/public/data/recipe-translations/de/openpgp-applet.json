@@ -1,0 +1,5 @@
+{
+  "name": "OpenPGP Applet",
+  "description": "Text aus der Zwischenablage verschlüsseln, entschlüsseln und signieren",
+  "longDescription": "<p>OpenPGP Applet ist eine grafische Oberfläche für GnuPG.</p>\n<p>Es ermöglicht das Verschlüsseln und Entschlüsseln von Inhalten der Zwischenablage – entweder mit öffentlichem Schlüssel oder symmetrisch per Passphrase. Auch das Erstellen und Überprüfen von Klartextsignaturen wird unterstützt.</p>\n<p>Hinweis: OpenPGP Applet übernimmt keine Passworteingabe. Da es in der Regel keine Terminalinteraktion anbietet (außer wenn explizit so gestartet), ist im Praxisbetrieb ein laufender und entsprechend konfigurierter GnuPG-Agent erforderlich, der einen Dialog zur Passphrase-Eingabe bereitstellt, wie z. B. pinentry-gnome3.</p>\n"
+}

@@ -1,0 +1,57 @@
+id: "goldendict"
+name: GoldenDict
+description: GoldenDict
+longDescription: |
+  <p>Features:  * Use of WebKit for an accurate articles&apos; representation,    complete with all formatting, colors, images and links.  * Support of multiple dictionary file formats, namely:    - Babylon .BGL files, complete with images and resources    - StarDict .ifo/.dict./.idx/.syn dictionaries    - Dictd .index/.dict(.dz) dictionary files    - ABBYY Lingvo .dsl source files, together with abbreviations.      The files can be optionally compressed with dictzip. Dictionary      resources can be packed together into a .zip file.    - ABBYY Lingvo .lsa/.dat audio archives. Those can be indexed       separately, or be referred to from .dsl files.  * Support for Wikipedia, Wiktionary, or any other MediaWiki-based    sites to perform lookups in.  * Ability to use arbitrary websites as dictionaries via templated     Url patterns.  * Hunspell-based morphology system, used for word stemming and    spelling suggestions.  * Ability to index arbitrary directories with audio files for     pronunciation lookups.  * Full Unicode case, diacritics, punctuation and whitespace folding.    This means the ability to type in words without any accents,    correct case, punctuation or spaces (e.g. typing &apos;Grussen&apos; would    yield &apos;grüßen&apos; in German dictionaries).  * Scan popup functionality. A small window pops up with the    translation of a word chosen from another application.  * Support for global hotkeys. You can spawn the program window at    any point, or directly translate a word from the clipboard.  * Tabbed browsing in a modern Qt 5 interface.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - goldendict
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/goldendict/GoldenDict/bb99c9be2ef49912935327abbf984c65/screenshots/image-1_orig.png
+    thumbnailUrl: org/goldendict/GoldenDict/bb99c9be2ef49912935327abbf984c65/screenshots/image-1_624x539.png
+    width: 661
+    height: 571
+  - url: org/goldendict/GoldenDict/bb99c9be2ef49912935327abbf984c65/screenshots/image-2_orig.png
+    thumbnailUrl: org/goldendict/GoldenDict/bb99c9be2ef49912935327abbf984c65/screenshots/image-2_624x678.png
+    width: 694
+    height: 755
+  - url: org/goldendict/GoldenDict/bb99c9be2ef49912935327abbf984c65/screenshots/image-3_orig.png
+    thumbnailUrl: org/goldendict/GoldenDict/bb99c9be2ef49912935327abbf984c65/screenshots/image-3_624x619.png
+    width: 661
+    height: 656
+  - url: org/goldendict/GoldenDict/bb99c9be2ef49912935327abbf984c65/screenshots/image-4_orig.png
+    thumbnailUrl: org/goldendict/GoldenDict/bb99c9be2ef49912935327abbf984c65/screenshots/image-4_624x544.png
+    width: 766
+    height: 668
+  - url: org/goldendict/GoldenDict/bb99c9be2ef49912935327abbf984c65/screenshots/image-5_orig.png
+    thumbnailUrl: org/goldendict/GoldenDict/bb99c9be2ef49912935327abbf984c65/screenshots/image-5_624x585.png
+    width: 707
+    height: 663
+iconSources:
+  - cached: goldendict_goldendict.png
+    width: 64
+    height: 64
+homepage: "http://goldendict.org"
+enabled: true
+order: 99

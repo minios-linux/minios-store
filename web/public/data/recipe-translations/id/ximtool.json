@@ -1,0 +1,5 @@
+{
+  "name": "ximtool",
+  "description": "Program tampilan gambar interaktif untuk X Window System",
+  "longDescription": "<p>\n      Ximtool menyediakan kemampuan tampilan gambar untuk aplikasi klien jarak jauh IRAF menggunakan protokol tampilan gambar standar imtool/iis. Server tampilan gambar ini memungkinkan sejumlah buffer bingkai gambar dibuat dan ditampilkan. Klien dapat membaca dan menulis data pada buffer bingkai ini. Setiap bingkai atau kombinasi bingkai dapat ditampilkan. Beragam opsi tampilan disediakan, seperti zoom dan pan, membalik sumbu mana pun, frame blink, pengaturan jendela tampilan, dan peningkatan colortable.\n    </p>\n"
+}

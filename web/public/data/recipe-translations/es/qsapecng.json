@@ -1,0 +1,5 @@
+{
+  "name": "QSapecNG",
+  "description": "Analizador simbólico de circuitos lineales analógicos",
+  "longDescription": "<p>Este programa consta de dos partes independientes: el motor del framework SapecNG y la aplicación con interfaz gráfica QSapecNG.</p>\n<p>QSapecNG es un proyecto de código abierto y multiplataforma, que es mejorado continuamente por estudiantes e investigadores del Departamento de Electrónica y Telecomunicaciones (DET) de la Universidad de Florencia (Italia). Es la continuación de SapWin para Windows, con el objetivo de brindar al proyecto compatibilidad total en otras plataformas.</p>\n<p>A través de SapecNG/QSapecNG, los usuarios pueden dibujar, resolver y analizar circuitos analógicos, además de gestionarlos. Desde la versión 2.0.0beta1, también existe soporte completo para subcircuitos, que pueden ser creados, guardados, reabiertos y añadidos como parte de otros circuitos.</p>\n<p>SapecNG/QSapecNG está disponible libremente en GitHub &lt;https://github.com/skypjack/qsapecng&gt;. Una versión previa de SapecNG también está disponible en GitHub &lt;https://github.com/skypjack/sapecng&gt;.</p>\n"
+}

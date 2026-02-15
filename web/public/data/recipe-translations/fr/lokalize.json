@@ -1,0 +1,5 @@
+{
+  "name": "Lokalize",
+  "description": "Système de traduction assistée par ordinateur",
+  "longDescription": "<p>Lokalize est l’outil de localisation pour les logiciels KDE et autres logiciels libres et open source. Il s’agit également d’un système général de traduction assistée par ordinateur (TAO) permettant de traduire des fichiers OpenDocument (*.odt). Translate-Toolkit est utilisé en interne pour extraire le texte à traduire des fichiers .odt vers des fichiers .xliff, puis pour réintégrer la traduction dans le fichier .odt.</p>\n"
+}

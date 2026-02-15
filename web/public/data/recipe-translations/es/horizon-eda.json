@@ -1,0 +1,5 @@
+{
+  "name": "Aplicación Horizon EDA",
+  "description": "Crea esquemas y placas PCB",
+  "longDescription": "<p>Horizon es una herramienta de Automatización de Diseño Electrónico (EDA) para la creación de circuitos impresos. Gestiona todo el flujo de trabajo, desde la entrada de esquemáticos hasta la exportación de archivos Gerber. Su principal diferencia respecto a KiCAD es un sistema de gestión de librerías de componentes más racional. Aunque es un software relativamente nuevo (2018), ya es muy potente, aunque puede tener algunos detalles por pulir.</p>\n<p>Características destacadas: * Gestión sensata de librerías * Editor unificado desde símbolos hasta placas * Editor de esquemáticos consciente de la lista de conexiones (netlist) * Enrutador interactivo excelente (al estilo KiCad) * Renderizado sin retrasos ni fallos gráficos * Revisión de reglas de diseño (DRC) basada en reglas * Control de deshacer/rehacer * Copiar y pegar en algunos objetos * Disponible para Linux y Windows</p>\n"
+}

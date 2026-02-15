@@ -1,0 +1,29 @@
+id: dossizola
+name: Do'SSi Zo'la
+description: Isola game with nice graphics
+longDescription: |
+  <p>Do&apos;SSi Zo&apos;la is an SDL implementation of the Isola board game, featuring nice animations, which makes it appealing to children.</p>
+  <p>The goal of the basic Isola game is to block the opponent by destroying the squares which surround him. In each turn, each player must first move to one of the squares adjacent to his current position, and then destroy a square of his choice. The first player who is unable to move loses.</p>
+  <p>Do&apos;SSi Zo&apos;la provides a number of variations of the standard rules.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dossizola
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: dossizola_dossizola.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

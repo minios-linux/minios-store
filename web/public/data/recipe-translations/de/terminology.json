@@ -1,0 +1,5 @@
+{
+  "name": "Terminology",
+  "description": "Terminal-Emulator",
+  "longDescription": "<p>Emuliert ein leicht erweitertes vt100 mit zusätzlichen Funktionen und visuellen Effekten:  * Die meisten Escape-Sequenzen von xterm, rxvt, Xterm 256 Farben usw. werden unterstützt  * Hintergrundeﬀekte, Transparenz sowie Bitmap- und skalierbare Schriften verfügbar  * Designs/Themes für Layout und Darstellung, inklusive optischer Glocke (visual bell)  * Erkennung und Verlinkung von URLs, Dateipfaden und E-Mail-Adressen  * Inline-Anzeige von verlinkten Inhalten  * Unterstützung mehrerer Zwischenablagen/Kopierauswahlen und Pufferspeicherung  * Funktioniert unter X11, Wayland und direkt im Linux-Framebuffer (fbcon)  * Bedienbar per Finger/Touch, Skalierung durch UI-Skalierungsfaktoren  * Rendering via OpenGL, OpenGL-ES2 oder Software-Modus  * Inline-Anzeige von Multimedia, mehrere Tabs und Aufteilung in mehrere Bereiche möglich  * Blockweise Textauswahl, Drag & Drop von Text und Links  * Streaming von Medien-URLs  * Tab-Umschalter mit Live-Vorschaubildern  * Einzelprozess mit Unterstützung für mehrere Fenster/Terminals</p>\n"
+}

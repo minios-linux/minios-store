@@ -1,0 +1,28 @@
+id: qt6ct
+name: Qt6 Settings
+description: Qt6 Configuration Tool
+longDescription: |
+  <p>Allows users to configure Qt6 settings (theme, font, icons, etc.) under DE/WM without Qt integration.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qt6ct
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+tags:
+  - settings
+  - desktop
+  - qt
+  - qtsettings
+  - qt6
+iconSources:
+  - url: q/qt/qt6ct.desktop/f2dbc5b0abb2025007f2b19fabdd512c/icons/128x128/qt6ct_preferences-desktop-theme.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

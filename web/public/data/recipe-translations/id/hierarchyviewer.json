@@ -1,0 +1,5 @@
+{
+  "name": "Hierarchy Viewer",
+  "description": "Melihat hierarki antarmuka pengguna aplikasi Android",
+  "longDescription": "<p>Hierarchy Viewer memungkinkan Anda melakukan debug dan optimasi antarmuka pengguna. Alat ini memberikan representasi visual dari hierarki tampilan (Layout View) dan juga inspektor tampilan yang diperbesar (Pixel Perfect View).</p>\n<p>Lihat juga: &lt;https://developer.android.com/studio/profile/hierarchy-viewer.html&gt;</p>\n<p>Paket ini menyediakan peluncur mandiri untuk Hierarchy Viewer. Namun fitur ini sudah usang, silakan gunakan Android Device Monitor sebagai gantinya.</p>\n"
+}

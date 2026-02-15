@@ -1,0 +1,31 @@
+id: iem-plugin-suite-standalone
+name: IEM BinauralDecoder
+description: Ambisonics standalone effect
+longDescription: |
+  <p>The IEM Plug-in Suite is an audio plugin suite created at the Institute of Electronic Music and Acoustics (Graz, Austria). It features Higher-Order Ambisonic plug-ins (up to 7th order), among them a number of state of the art encoders, directional compressors, directivity shapers, delay and reverb effects and analysis tools.</p>
+  <p>This package provides the plugins as standalone applications.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - iem-plugin-suite-standalone
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - audio
+  - sound
+  - jackd
+  - ambisonics
+iconSources:
+  - url: i/ie/iem-plugin-binauraldecoder.desktop/7d1fd7fdac00d90e24880d4d8459f03b/icons/128x128/iem-plugin-suite-standalone_iem-plugin.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,45 @@
+id: amarok
+name: Amarok
+description: Rediscover your music
+longDescription: |
+  <p>Amarok is a free, cross-platform, versatile, powerful and feature-rich music player and collection manager.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Dynamic playlists matching different criteria</li>
+    <li>Collection managing with rating support</li>
+    <li>Support for basic iPod, MTP and UMS music player devices</li>
+    <li>Integrated Internet services: last.fm, Magnatune, Ampache and more.</li>
+    <li>Scripting support</li>
+    <li>Cover manager</li>
+    <li>Replay gain support</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - amarok
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/amarok/1631518db5b0cf56e27980099330187f/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/amarok/1631518db5b0cf56e27980099330187f/screenshots/image-1_624x421@1.png
+    width: 2262
+    height: 1528
+  - url: org/kde/amarok/1631518db5b0cf56e27980099330187f/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/amarok/1631518db5b0cf56e27980099330187f/screenshots/image-2_624x501@1.png
+    width: 2115
+    height: 1700
+iconSources:
+  - url: org/kde/amarok/1631518db5b0cf56e27980099330187f/icons/128x128/amarok_amarok.png
+    width: 128
+    height: 128
+homepage: "https://amarok.kde.org"
+enabled: true
+order: 99

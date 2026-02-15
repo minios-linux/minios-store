@@ -1,0 +1,35 @@
+id: tenmado
+name: Tenmado
+description: hard-core shoot 'em up game in blue-or-red world
+longDescription: |
+  <p>tenmado is a vertically scrolling, late 1990s style (that is, a massive number of enemy shots against a smaller-than-it-looks spaceship) shoot &apos;em up game.  A very accurate collision detection makes it a game of dexterity.  If something looks like a triangle, it is a triangle, not a rectangle of similar size.</p>
+  <p>However, surviving is only 20% of the game.  The main feature of tenmado is the &quot;color chain bonus&quot;.  You can get a very big score (about 100 times bigger than a normal enemy-destruction point) by destroying enemies of the same color successively.  It is easy or difficult depending on how greedy you are.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tenmado
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - shooter
+  - 2d
+  - arcade
+  - shmup
+iconSources:
+  - cached: tenmado_tenmado.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

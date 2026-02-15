@@ -1,0 +1,35 @@
+id: keysync
+name: KeySync
+description: Sync all the OTR trust relationships between multiple chat apps
+longDescription: |
+  <p>There are many chat apps that support OTR encryption for verifying messages. Many use multiple chat apps, including one for desktop and another for mobile, or one for Mac OS X and another for GNU/Linux or Windows.  The trust relationships are only stored locally in the app in a format that is specific to that app.  Switching between all of them means that you have to manage your trust relationships for each app that you use.</p>
+  <p>KeySync addresses this problem by allowing you to sync your OTR identity and trust relationships between multiple apps.  It currently works with ChatSecure on Android, and Pidgin, Adium, and Jitsi on desktop.  This project is for converting the various OTR file formats between each other. Currently, KeySync is focused on the two major OTR implementations: libotr and otr4j, but it is modular enough to allow adding support for any OTR implementation.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - keysync
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - secure
+  - private
+  - verified
+  - chat
+  - im
+  - messaging
+  - key
+  - encryption
+  - otr
+  - openpgp
+iconSources:
+  - url: k/ke/keysync.desktop/5CC0CA454ADC76EA5EA12FC6F805F339/icons/128x128/keysync_keysync.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

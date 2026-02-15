@@ -1,0 +1,5 @@
+{
+  "name": "Eiciel",
+  "description": "Alat untuk mengelola entri ACL",
+  "longDescription": "<p>Eiciel adalah alat mandiri dan plugin Nautilus yang memungkinkan Anda mengedit Access Control Lists (ACL) file secara grafis. ACL memungkinkan pengaturan izin yang lebih rinci dibandingkan izin tradisional Unix (user, group, other/UGO permissions).</p><p>Eiciel juga dapat digunakan untuk mengedit atribut tambahan file dan direktori jika sistem file mendukung fitur tersebut.</p><p>Tidak semua sistem file mendukung ACL dan atribut tambahan. Bahkan pada sistem file yang mendukung, fiturnya harus diaktifkan terlebih dahulu oleh administrator sistem sebelum menggunakan Eiciel.</p>\n"
+}

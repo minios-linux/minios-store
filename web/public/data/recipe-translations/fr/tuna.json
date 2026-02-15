@@ -1,0 +1,5 @@
+{
+  "name": "tuna",
+  "description": "Gestion des attributs de threads et d’IRQ",
+  "longDescription": "<p>Fournit une interface pour modifier les paramètres du planificateur et des IRQ, aussi bien au niveau du CPU global qu’individuellement par thread ou IRQ. Permet d’isoler des cœurs pour les dédier à une application spécifique et de déplacer simplement les threads et interruptions sur un CPU via glisser-déposer. Prend en compte la topologie des sockets CPU pour les opérations.</p>\n<p>Peut être utilisé en ligne de commande sans nécessiter l’installation des bibliothèques GUI.</p>\n"
+}

@@ -1,0 +1,56 @@
+id: "ghostwriter"
+name: ghostwriter
+description: Distraction-free text editor for Markdown
+longDescription: |
+  <p>ghostwriter is a distraction-free text editor for Markdown featuring
+         a live HTML preview as you type, theme creation, focus mode, fullscreen
+         mode, live word count, and document navigation in an aesthetic writing
+         environment.  It comes with the Sundown Markdown processor built in, and
+         can integrate with Pandoc, MultiMarkdown, Discount, cmark, and cmark-gfm
+         processors if they are installed.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ghostwriter
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - markdown
+  - editor
+  - document
+  - fullscreen
+  - distraction
+  - concentration
+  - focused
+  - writing
+screenshotSources:
+  - url: org/kde/ghostwriter.desktop/770cee611679eef79ad9c3494ccfab97/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ghostwriter.desktop/770cee611679eef79ad9c3494ccfab97/screenshots/image-1_624x379@1.png
+    width: 1375
+    height: 837
+iconSources:
+  - url: org/kde/ghostwriter.desktop/770cee611679eef79ad9c3494ccfab97/icons/128x128/ghostwriter_ghostwriter.png
+    width: 128
+    height: 128
+developer: wereturtle
+homepage: "http://wereturtle.github.io/ghostwriter/"
+enabled: true
+order: 99

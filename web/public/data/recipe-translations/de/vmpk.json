@@ -1,0 +1,5 @@
+{
+  "name": "VMPK",
+  "description": "Virtuelle MIDI-Klaviatur",
+  "longDescription": "<p>VMPK (Virtual MIDI Piano Keyboard) ist ein Generator und Empfänger von MIDI-Events. Es erzeugt selbst keine Klänge, kann aber zur Ansteuerung eines MIDI-Synthesizers verwendet werden – egal ob Hardware oder Software, intern oder extern. Mit der Computertastatur oder der Maus lassen sich MIDI-Noten spielen. Außerdem kann VMPK gespielte MIDI-Noten eines anderen Instruments oder MIDI-Players anzeigen.</p>\n"
+}

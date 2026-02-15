@@ -1,0 +1,29 @@
+id: maelstrom
+name: Maelstrom
+description: Play an Asteroids like game
+longDescription: |
+  <p>This is a port of the high-resolution &quot;asteroids&quot; style arcade game written by Andrew Welch for the Macintosh.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - maelstrom
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: maelstrom_maelstrom.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

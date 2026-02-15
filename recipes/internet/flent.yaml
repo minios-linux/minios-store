@@ -1,0 +1,51 @@
+id: "flent"
+name: Flent
+description: The FLExible Network Tester
+longDescription: |
+  <p>The FLExible Network Tester: Python wrapper to run multiple simultaneous netperf/iperf/ping instances and aggregate the results.</p>
+  <p>Tests are specified as config files (which are really Python), and various parsers for tool output are supplied. At the moment, parsers for netperf in -D mode, iperf in csv mode and ping/ping6 in -D mode are supplied, as well as a generic parser for commands that just outputs a single number.</p>
+  <p>Several commands can be run in parallel and, provided they output timestamped values, (which netperf ping and iperf do, the latter with a small patch, available in the misc/ directory), the test data points can be aligned with each other in time, interpolating differences between the actual measurement points. This makes it possible to graph (e.g.) ping times before, during and after a link is loaded.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flent
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - network
+  - bufferbloat
+  - performance
+  - testing
+  - rrul
+screenshotSources:
+  - url: f/fl/flent.desktop/cbed4c37d9093181a29e3e482c7297ac/screenshots/image-1_orig.png
+    thumbnailUrl: f/fl/flent.desktop/cbed4c37d9093181a29e3e482c7297ac/screenshots/image-1_624x444.png
+    width: 1367
+    height: 974
+iconSources:
+  - cached: flent_applications-internet.png
+    width: 64
+    height: 64
+homepage: "https://flent.org/"
+enabled: true
+order: 99

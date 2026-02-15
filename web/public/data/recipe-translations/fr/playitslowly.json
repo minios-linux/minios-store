@@ -1,0 +1,5 @@
+{
+  "name": "Play it Slowly",
+  "description": "Un outil pour lire un morceau de musique à une vitesse ou une tonalité différente",
+  "longDescription": "<p>Play it Slowly est un logiciel permettant de lire des fichiers audio à une vitesse ou une tonalité différente. Il offre également la possibilité de boucler une partie précise d’un fichier.</p>\n<p>Il est conçu pour vous aider à apprendre ou transcrire des morceaux de musique. Il peut aussi lire des vidéos grâce à GStreamer.</p>\n<p>Play it Slowly est compatible avec ALSA et JACK Audio Connection Kit.</p>\n"
+}

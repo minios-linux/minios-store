@@ -1,0 +1,5 @@
+{
+  "name": "KSystemLog",
+  "description": "Werkzeug zur Anzeige von Systemprotokollen",
+  "longDescription": "<p>KSystemLog zeigt alle Protokolle Ihres Systems an, gruppiert nach Allgemein (Standard-Systemprotokoll, Authentifizierung, Kernel, X.org usw.) und optionalen Diensten (Apache, Cups usw.). Es bietet zahlreiche Funktionen für eine übersichtliche Protokollanzeige:  * Farbige Hervorhebung der Protokollzeilen je nach Schweregrad  * Tab-Ansicht zur gleichzeitigen Anzeige mehrerer Logs  * Automatische Aktualisierung bei neuen Einträgen  * Detaillierte Informationen zu jeder Protokollzeile</p>\n<p>Dieses Paket ist Teil des KDE-Administrationsmoduls.</p>\n"
+}

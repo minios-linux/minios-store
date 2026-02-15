@@ -1,0 +1,40 @@
+id: "gwc"
+name: Gtk Wave Cleaner
+description: Removes noise from audio recordings e.g. of scratchy vinyl records
+longDescription: |
+  <p>The Gtk Wave Cleaner (gwc) is an application that helps you in getting rid of noise and clicks in audio files. This is most commonly used when translating your old vinyl or old tapes to a digital format, but it can be applied to every soundfile that has a more or less constant noise level.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gwc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - audio
+  - sound
+  - noise
+  - filter
+iconSources:
+  - url: g/gt/gtk-wave-cleaner.desktop/d02f9973cf49cc96247b79e7abf9e216/icons/128x128/gwc_gtk-wave-cleaner.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

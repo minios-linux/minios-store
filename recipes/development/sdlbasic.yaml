@@ -1,0 +1,33 @@
+id: sdlbasic
+name: sdlBasic
+description: Multiplatform basic interpreter for the development of videogames
+longDescription: |
+  <p>sdlBasic is a small, efficient and multiplatform BASIC interpreter for creating games using the power of SDL library. It was inspired by the old and glorious AMOS.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sdlbasic
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: sdlbasic_sdlbasic.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

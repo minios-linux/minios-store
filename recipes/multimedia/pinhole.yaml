@@ -1,0 +1,42 @@
+id: "pinhole"
+name: Camera
+description: Take pictures and videos
+longDescription: |
+  <p>
+        Take pictures and videos on your computer, tablet, or phone
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pinhole
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - photo
+  - video
+  - webcam
+  - camera
+screenshotSources:
+  - url: net/flyingpimonster/Camera.desktop/9d1e9f37f81271b086e88af25c20507f/screenshots/image-1_orig.png
+    thumbnailUrl: net/flyingpimonster/Camera.desktop/9d1e9f37f81271b086e88af25c20507f/screenshots/image-1_624x342.png
+    width: 1600
+    height: 879
+iconSources:
+  - url: net/flyingpimonster/Camera.desktop/9d1e9f37f81271b086e88af25c20507f/icons/128x128/pinhole_net.flyingpimonster.Camera.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.gnome.org/jwestman/camera"
+enabled: true
+order: 99

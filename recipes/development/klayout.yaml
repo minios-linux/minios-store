@@ -1,0 +1,34 @@
+id: klayout
+name: "Klayout, viewer and editor of mask layouts."
+description: Klayout is a viewer (and editor) of mask layout in a.o. GDSII and CIF format.
+longDescription: |
+  <p>This is very good viewer for GDSII and other layout files used in the semiconductor industry.</p>
+  <p>It is similar to &apos;magic&apos;, but has a much more modern GUI and is more robust handling all kinds of GDSII files created by various other tools. Its focus is more on viewing than on editing, but it also has limited, but expanding, support for DRC and extraction for LVS.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - klayout
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: klayout_klayout.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

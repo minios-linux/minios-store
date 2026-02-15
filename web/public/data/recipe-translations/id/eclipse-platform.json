@@ -1,0 +1,5 @@
+{
+  "name": "Eclipse",
+  "description": "Lingkungan Pengembangan Terpadu Eclipse",
+  "longDescription": "<p>Platform Eclipse adalah platform terbuka dan dapat diperluas untuk berbagai keperluan pengembangan perangkat lunak. Eclipse menyediakan fondasi yang kuat untuk membangun dan menjalankan alat pengembangan terintegrasi. Platform ini memungkinkan pengembang untuk membuat alat yang terintegrasi mulus dengan alat lain, sehingga antaralat dapat bekerja seakan tanpa batasan.</p>\n<p>Paket ini menyediakan Eclipse Platform sebagai dasar untuk seluruh plug-in pengembangan Eclipse, namun tidak menyertakan plug-in apa pun. Plug-in tambahan tersedia dalam paket terpisah, misalnya:</p>\n<p> * eclipse-jdt: Alat Pengembangan Java  * eclipse-pde: Alat Pengembangan Plug-in  * eclipse-cdt: Alat Pengembangan C/C++</p>\n"
+}

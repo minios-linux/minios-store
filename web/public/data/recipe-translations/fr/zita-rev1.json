@@ -1,0 +1,5 @@
+{
+  "name": "Zita-Rev1",
+  "description": "réverbération exceptionnelle de kokkinizita - efficacité maximale par octet",
+  "longDescription": "<p>REV1 est une version retravaillée de la réverbération initialement développée pour Aeolus. Elle offre une coloration plus « hall » que « plate », mais peut être utilisée sur une grande variété d’instruments ou de voix. Il ne s'agit pas d'un spatialisateur : les premières réflexions diffèrent entre les entrées L et R, mais ne correspondent à aucune pièce réelle. Elles ont été ajustées afin que les sources gauche et droite soient cohérentes dans une certaine mesure.</p>\n<p>En mode Stéréo, un contrôle de mixage dry/wet est disponible, ce qui permet de l’utiliser aussi bien en insert qu’en mode send/return. Pour une source mono, il suffit de brancher l’un des deux canaux.</p>\n<p>En mode Ambisonic (activation avec l’option de ligne de commande -B), seul le mode send/return est accessible.</p>\n"
+}

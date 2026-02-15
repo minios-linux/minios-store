@@ -1,0 +1,5 @@
+{
+  "name": "Quake 3 Threewave CTF",
+  "description": "Addon Capture the Flag per Quake III Arena",
+  "longDescription": "<p>Questo pacchetto include uno script di avvio e una voce di menu per giocare a Quake III Arena o Quake III: Team Arena con il motore ioquake3.</p>\n<p>Per rendere utile questo pacchetto, è necessario creare e installare il pacchetto non distribuibile quake3-data oppure quake3-demo-data, utilizzando il pacchetto game-data-packager.</p>\n<p>quake3-data richiede il file pak0.pk3 da un'installazione di Quake III o dal CD-ROM originale. quake3-demo-data richiede solo file liberamente scaricabili, ma potrebbe non essere sempre affidabile.</p>\n<p>game-data-packager (&gt;= 39) permette anche di creare un pacchetto per l'espansione ufficiale Quake III: Team Arena. Una voce di menu aggiuntiva dovrebbe apparire automaticamente se l'espansione è installata.</p>\n"
+}

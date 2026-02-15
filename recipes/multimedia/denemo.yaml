@@ -1,0 +1,52 @@
+id: "denemo"
+name: GNU Denemo
+description: Edit musical scores
+longDescription: |
+  <p>GNU Denemo is a GUI musical score editor written in C/GTK+. It is intended primarily as a front end to GNU Lilypond, but is adaptable to other computer-music-related purposes as well.</p>
+  
+categoryId: multimedia
+icon: FolderOpen
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - denemo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - notation
+  - compose
+  - transcribe
+screenshotSources:
+  - url: org/denemo/Denemo/b4842e119c03a9e2ced378696becd90d/screenshots/image-1_orig.png
+    thumbnailUrl: org/denemo/Denemo/b4842e119c03a9e2ced378696becd90d/screenshots/image-1_624x492@1.png
+    width: 1155
+    height: 912
+  - url: org/denemo/Denemo/b4842e119c03a9e2ced378696becd90d/screenshots/image-2_orig.png
+    thumbnailUrl: org/denemo/Denemo/b4842e119c03a9e2ced378696becd90d/screenshots/image-2_624x504@1.png
+    width: 852
+    height: 689
+iconSources:
+  - cached: denemo_org.denemo.Denemo.png
+    width: 64
+    height: 64
+homepage: "http://www.denemo.org/"
+enabled: true
+order: 99

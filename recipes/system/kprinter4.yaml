@@ -1,0 +1,28 @@
+id: kprinter4
+name: KPrinter4
+description: Print PostScript documents with KDE print dialog
+longDescription: |
+  <p>Kprinter4 is a simple stand-alone document printer modelled after the KDE4 print dialog. It can be used in place of /bin/lpr in order to better control the print setup of legacy applications.</p>
+  <p>Features include:</p>
+  <p> * Printing PostScript documents with KDE4 print dialog  * Scaling and positioning of documents  * Poster printing</p>
+  <p>Kprinter4 is the successor of the KDE3-based kprinter application.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kprinter4
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: k/kp/kprinter4.desktop/5666355A0E73924A7673D19293966597/icons/128x128/kprinter4_kprinter4.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

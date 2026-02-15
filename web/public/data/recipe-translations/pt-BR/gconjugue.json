@@ -1,0 +1,5 @@
+{
+  "name": "GConjugue",
+  "description": "Conjuga verbos em português",
+  "longDescription": "<p>Aplicativo gráfico para conjugar verbos em português do Brasil.</p>\n<p>Se a expressão digitada não for um verbo, o GConjugue tenta encontrá-la entre as formas conjugadas de verbos conhecidos. Também oferece a opção de conjugar verbos como os brasileiros realmente falam. Na prática, falantes de diferentes regiões do Brasil se afastam das regras gramaticais normativas de formas variadas, mas as conjugações exibidas já ajudam estrangeiros a entender o que está sendo dito.</p>\n<p>Este programa é uma interface gráfica para a ferramenta de console chamada conjugue (pacote brazilian-conjugate). Como alternativa, você pode usar o conjugar, a versão em modo texto do gconjugue.</p>\n"
+}

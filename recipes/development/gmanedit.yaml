@@ -1,0 +1,37 @@
+id: gmanedit
+name: gmanedit
+description: GNOME Manpages Editor
+longDescription: |
+  <p>Gtk+ Manpages Editor is an editor for man pages that runs on X with GTK+.</p>
+  <p>Gmanedit is an application which allows you to edit manual pages (man) on Linux/Unix systems.</p>
+  <p>It is like most common HTML editors but more easy. You need to know manpages format.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gmanedit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: gmanedit_gmanedit_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

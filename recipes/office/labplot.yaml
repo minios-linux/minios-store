@@ -1,0 +1,84 @@
+id: "labplot"
+name: LabPlot
+description: LabPlot is a KDE application for interactive graphing and analysis of scientific data
+longDescription: |
+  <p>LabPlot is a KDE-application for interactive graphing and analysis of scientific data.</p>
+  <p>LabPlot provides an easy way to create, manage and edit plots. It allows you to produce plots based on data from a spreadsheet or on data imported from external files. Plots can be exported to several pixmap and vector graphic formats.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - labplot
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-1_624x393@1.png
+    width: 2050
+    height: 1294
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-2_624x393@1.png
+    width: 2050
+    height: 1294
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-3_624x393@1.png
+    width: 2050
+    height: 1294
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-4_624x393@1.png
+    width: 2050
+    height: 1294
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-5_orig.png
+    thumbnailUrl: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-5_624x393@1.png
+    width: 2050
+    height: 1294
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-6_orig.png
+    thumbnailUrl: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-6_624x393@1.png
+    width: 2050
+    height: 1294
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-7_orig.png
+    thumbnailUrl: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-7_624x393@1.png
+    width: 2050
+    height: 1294
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-8_orig.png
+    thumbnailUrl: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-8_624x393@1.png
+    width: 2050
+    height: 1294
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-9_orig.png
+    thumbnailUrl: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-9_624x383@1.png
+    width: 1960
+    height: 1204
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-10_orig.png
+    thumbnailUrl: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-10_624x393@1.png
+    width: 2050
+    height: 1294
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-11_orig.png
+    thumbnailUrl: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/screenshots/image-11_624x393@1.png
+    width: 2050
+    height: 1294
+iconSources:
+  - url: org/kde/labplot.desktop/eccaf4cea9c446b869570ef87bfa3ebe/icons/128x128/labplot_org.kde.labplot.png
+    width: 128
+    height: 128
+homepage: "http://labplot.kde.org/"
+enabled: true
+order: 99

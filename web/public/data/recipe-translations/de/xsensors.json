@@ -1,0 +1,5 @@
+{
+  "name": "XSensors",
+  "description": "Hardware-Status anzeigen",
+  "longDescription": "<p>XSensors liest mithilfe der libsensors-Bibliothek Systemdaten zu Hardware-Zustand wie Temperatur, Spannung und Lüftergeschwindigkeit aus und zeigt diese übersichtlich in einer digitalen Anzeige an.</p>\n"
+}

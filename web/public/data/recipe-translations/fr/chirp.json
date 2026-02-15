@@ -1,0 +1,5 @@
+{
+  "name": "CHIRP",
+  "description": "Programmez vos radios amateurs",
+  "longDescription": "<p>CHIRP est un outil libre et open source pour programmer vos radios amateurs. Il prend en charge un grand nombre de constructeurs et de modèles, tout en offrant la possibilité d’interfacer différents types de sources et formats de données.</p>\n<p>CHIRP gère les formats de données suivants :  - Valeurs séparées par des virgules (.csv)  - Fichiers CSV générés par RT Systems (.csv)  - EVE pour Yaesu VX-5 (.eve)  - Format Kenwood HMK (.hmk)  - Format professionnel Kenwood ITM (.itm)  - Fichiers de données Icom (.icf)  - ARRL TravelPlus (.tpe)  - Fichiers VX5 Commander (.vx5)  - Fichiers VX7 Commander (.vx7)</p>\n<p>La plupart des radios amateurs modernes sont compatibles avec CHIRP via leur câble d’interface.</p>\n"
+}

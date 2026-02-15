@@ -1,0 +1,5 @@
+{
+  "name": "Paramètres",
+  "description": "Paramètres pour Plasma",
+  "longDescription": "<p>Ce paquet fournit des modules de configuration pour l'environnement mobile Plasma, permettant à l'utilisateur de modifier via une interface graphique différentes options liées à l'audio, au Bluetooth, à l’affichage, aux applications par défaut, au clavier virtuel, aux notifications, à la date et l’heure, à la localisation, au modem réseau et à d'autres composants de l'environnement Plasma.</p>\n<p>Il est basé sur les bibliothèques graphiques Qt et les frameworks KDE. Il s’appuie notamment sur Kirigami pour adapter son interface à une grande variété de tailles d'écran. Cependant, l’optimisation est orientée vers les appareils tactiles ; les utilisateurs de bureau devraient plutôt installer le paquet « systemsettings ».</p>\n"
+}

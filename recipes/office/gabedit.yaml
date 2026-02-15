@@ -1,0 +1,29 @@
+id: gabedit
+name: Gabedit QC-GUI
+description: graphical user interface to computational chemistry packages
+longDescription: |
+  <p>Gabedit is a graphical user interface to computational chemistry packages like:</p>
+  <p> - MPQC  - GAMESS-US  - Gaussian  - Molcas  - Molpro  - Q-Chem</p>
+  <p>These Ab Initio software packages might run locally or on a remote server (supporting FTP, RSH and SSH). Gabedit can display a variety of calculation results including most major molecular file formats. The advanced &quot;Molecule Builder&quot; allows one to rapidly sketch in molecules and examine them in 3D. Graphics can further be exported to various formats, including animations.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gabedit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: gabedit_gabedit.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

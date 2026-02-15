@@ -1,0 +1,5 @@
+{
+  "name": "Hardware Sensors Indicator",
+  "description": "Exibe leituras de sensores de temperatura, ventoinha e voltagem no painel da sua área de trabalho",
+  "longDescription": "<p>\n      O Hardware Sensors Indicator exibe leituras de temperatura, ventoinha e voltagem\n      diretamente no painel da sua área de trabalho.\n    </p>\n<p>\n      Ao utilizar o GNOME Shell, é necessário instalar uma extensão para visualizar\n      as leituras dos sensores no painel superior. Recomenda-se instalar a extensão\n      KStatusNotifierItem/AppIndicator Support\n      https://extensions.gnome.org/extension/615/appindicator-support/ ou a extensão\n      Hardware Sensors Indicator\n      https://extensions.gnome.org/extension/336/hardware-sensors-indicator/\n      para que as leituras dos sensores fiquem visíveis.\n      </p>\n"
+}

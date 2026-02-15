@@ -1,0 +1,37 @@
+id: kylin-video
+name: Kylin Video
+description: "Kylin Video is a powerful video player, which supports most of the audio and video formats. Functions of shortcut keys/ preview/ screenshot/ sound settings/ subtitles and so on are provided."
+longDescription: |
+  <p>Qt5 Mplayer and MPV front-end, with basic features like playing videos and audios to more advanced features. It supports both x86 and ARM platform, and supports most of the audio and video formats.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kylin-video
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - movie
+  - player
+  - media
+  - kde
+  - qt
+iconSources:
+  - cached: kylin-video_kylin-video.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

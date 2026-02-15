@@ -1,0 +1,5 @@
+{
+  "name": "SleepyHead",
+  "description": "SleepyHead est conçu pour l’analyse et l’exploration des données issues des appareils PPC (pression positive continue) et autres dispositifs utilisés dans le traitement de l’apnée du sommeil.",
+  "longDescription": "<p>SleepyHead est un logiciel libre, multiplateforme, destiné à la recherche et à l’analyse des données produites par les appareils PPC (pression positive continue) et équipements associés, utilisés dans le traitement de l’apnée du sommeil et d’autres troubles du sommeil.</p>\n<p>SleepyHead prend en charge les modèles de PPC suivants permettant l’export de données :  - ResMed S9  - AirSense 10  - AirCurve 10  - Philips Respironics System One  - Fisher &amp; Paykel ICON &amp; ICON+  - DeVilbiss IntelliPAP</p>\n<p>Le logiciel est compatible avec toute la gamme d’oxymètres Contec CMS50, en mode autonome ou synchronisé avec les données PPC (l’installation d’un pilote séparé est nécessaire pour les équipements Contec). Il prend aussi en charge les accessoires d’oxymétrie ResMed et PR System One, ainsi que l’import de fichiers provenant des oxymètres ChoiceMMed MD300W1.</p>\n"
+}

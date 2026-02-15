@@ -1,0 +1,1 @@
+zipper.app_zipper.png

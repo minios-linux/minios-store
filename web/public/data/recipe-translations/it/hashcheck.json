@@ -1,0 +1,5 @@
+{
+  "name": "Hashcheck",
+  "description": "Verifica integrità ISO",
+  "longDescription": "<p>Fornisce un'interfaccia grafica per verificare un'immagine ISO montata in live. L'immagine deve essere montata in /lib/live/mount/medium</p>\n<p>Utile come parte di un ambiente live</p>\n"
+}

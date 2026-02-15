@@ -1,0 +1,78 @@
+id: "gnome-calculator"
+name: GNOME Calculator
+description: "Perform arithmetic, scientific or financial calculations"
+longDescription: |
+  <p>GNOME Calculator is an application that solves mathematical equations.
+        Though it at first appears to be a simple calculator with only basic
+        arithmetic operations, you can switch into Advanced, Financial, or
+        Programming mode to find a surprising set of capabilities.</p>
+  <p>The Advanced calculator supports many operations, including:
+        logarithms, factorials, trigonometric and hyperbolic functions,
+        modulus division, complex numbers, random number generation, prime
+        factorization and unit conversions.</p>
+  <p>Financial mode supports several computations, including periodic interest
+        rate, present and future value, double declining and straight line
+        depreciation, and many others.</p>
+  <p>Programming mode supports conversion between common bases (binary, octal,
+        decimal, and hexadecimal), boolean algebra, one’s and two’s complementation,
+        character to character code conversion, and more.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-calculator
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calculation
+  - arithmetic
+  - scientific
+  - financial
+screenshotSources:
+  - url: org/gnome/Calculator.desktop/2c7748d0f9c71743999d78432f404d73/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Calculator.desktop/2c7748d0f9c71743999d78432f404d73/screenshots/image-1_224x284@1.png
+    width: 482
+    height: 613
+  - url: org/gnome/Calculator.desktop/2c7748d0f9c71743999d78432f404d73/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Calculator.desktop/2c7748d0f9c71743999d78432f404d73/screenshots/image-2_624x548@1.png
+    width: 802
+    height: 705
+  - url: org/gnome/Calculator.desktop/2c7748d0f9c71743999d78432f404d73/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Calculator.desktop/2c7748d0f9c71743999d78432f404d73/screenshots/image-3_624x548@1.png
+    width: 802
+    height: 705
+  - url: org/gnome/Calculator.desktop/2c7748d0f9c71743999d78432f404d73/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Calculator.desktop/2c7748d0f9c71743999d78432f404d73/screenshots/image-4_624x612@1.png
+    width: 802
+    height: 787
+  - url: org/gnome/Calculator.desktop/2c7748d0f9c71743999d78432f404d73/screenshots/image-5_orig.png
+    thumbnailUrl: org/gnome/Calculator.desktop/2c7748d0f9c71743999d78432f404d73/screenshots/image-5_624x612@1.png
+    width: 802
+    height: 787
+iconSources:
+  - url: org/gnome/Calculator.desktop/2c7748d0f9c71743999d78432f404d73/icons/128x128/gnome-calculator_org.gnome.Calculator.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Calculator"
+enabled: true
+order: 99

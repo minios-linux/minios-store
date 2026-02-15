@@ -1,0 +1,5 @@
+{
+  "name": "Cortafuegos",
+  "description": "Configuración del cortafuegos",
+  "longDescription": "<p>Configuración del cortafuegos ofrece una herramienta gráfica para administrar el cortafuegos.</p>\n<p>Permite inspeccionar y modificar:</p>\n<ul>\n  <li>Configuración del cortafuegos tanto temporal como permanente</li>\n  <li>Zonas predefinidas (niveles de confianza para conexiones de red)</li>\n  <li>Servicios predefinidos (puertos/protocolos, módulo auxiliar de netfilter)</li>\n  <li>Redirección de puertos, enmascaramiento, bloqueo de ICMP</li>\n  <li>Reglas avanzadas de cortafuegos (Rich Language)</li>\n  <li>Reglas iptables (Interfaz Directa)</li>\n</ul>\n"
+}

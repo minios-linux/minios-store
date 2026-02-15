@@ -1,0 +1,5 @@
+{
+  "name": "Pampi",
+  "description": "buat presentasi dengan Markdown, Pandoc, Impress",
+  "longDescription": "<p>PAMPI adalah perangkat lunak gratis untuk membuat presentasi dengan mudah.</p>\n<p>Presentasi ditulis dalam file teks,   - sehingga mudah untuk dimodifikasi   - sintaks file (Markdown) mudah dipelajari   - banyak contoh Markdown yang dapat digunakan tersedia di     https://enacit1.epfl.ch/markdown-pandoc  File tersebut kemudian dikonversi menjadi halaman web (file HTML)   - dapat dilihat melalui browser   - dapat dipublikasikan secara online, disalin ke USB, dan sebagainya. Pada antarmuka PAMPI, file Markdown ditampilkan di sisi kiri dan hasil akhirnya bisa dilihat di sisi kanan.</p>\n<p>Setiap langkah presentasi dapat ditempatkan di posisi mana pun dalam ruang 3D   - pengguna memasukkan koordinatnya   - pengguna dapat mengatur faktor zoom   - pengguna dapat menentukan rotasi. Penulisan rumus matematika didukung lewat KaTeX.</p>\n<p>Lihat banyak contoh di sini: https://en.wikibooks.org/wiki/LaTeX/Mathematics.</p>\n"
+}

@@ -1,0 +1,44 @@
+id: roger-router
+name: Roger Router
+description: "Journal, Fax-Software and Call-Monitor for AVM FRITZ!Box or compatible"
+longDescription: |
+  <p>Roger Router is a clean solution for controlling the FRITZ!Box or compatible router with Linux. It offers a rich feature list, including call monitor, journal, fax support and also has a great integration into several address books.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - roger-router
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - fritz
+  - box
+  - fritzbox
+  - router
+  - manager
+  - fax
+  - softphone
+screenshotSources:
+  - url: org/tabos/roger/e2eed5326348a400d386bae3424491b3/screenshots/image-1_orig.png
+    thumbnailUrl: org/tabos/roger/e2eed5326348a400d386bae3424491b3/screenshots/image-1_624x351.png
+    width: 800
+    height: 450
+iconSources:
+  - url: org/tabos/roger/e2eed5326348a400d386bae3424491b3/icons/128x128/roger-router_org.tabos.roger.png
+    width: 128
+    height: 128
+developer: Jan-Michael Brummer
+homepage: "https://www.tabos.org"
+enabled: true
+order: 99

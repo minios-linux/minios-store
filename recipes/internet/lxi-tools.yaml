@@ -1,0 +1,58 @@
+id: lxi-tools
+name: LXI-Tools
+description: LXI-Tools is a collection of open source tools for managing network connected LXI compatible test instruments.
+longDescription: |
+  <p>
+        Features include automatic discovery of test instruments, sending SCPI
+        commands, grabbing screenshots from supported instruments, benchmarking
+        SCPI message performance, and powerful scripting for automation. Both a
+        commandline tool and a GUI tool are available.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxi-tools
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-1_624x537.png
+    width: 912
+    height: 786
+  - url: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-2_624x537.png
+    width: 912
+    height: 786
+  - url: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-3_624x537.png
+    width: 912
+    height: 786
+  - url: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-4_orig.png
+    thumbnailUrl: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-4_624x537.png
+    width: 912
+    height: 786
+  - url: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-5_orig.png
+    thumbnailUrl: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-5_624x537.png
+    width: 912
+    height: 786
+  - url: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-6_orig.png
+    thumbnailUrl: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/screenshots/image-6_624x542.png
+    width: 1035
+    height: 900
+iconSources:
+  - url: io/github/lxi-tools.lxi-gui/96af30403df59337ab25be64f5c7d2b4/icons/128x128/lxi-tools_io.github.lxi-tools.lxi-gui.png
+    width: 128
+    height: 128
+homepage: "https://lxi-tools.github.io"
+enabled: true
+order: 99

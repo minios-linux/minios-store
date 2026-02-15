@@ -1,0 +1,42 @@
+id: dx
+name: OpenDX Data Explorer
+description: "Visualize scientific, engineering and analytical data"
+longDescription: |
+  <p>Data Explorer is a system of tools and user interfaces for visualizing data. In general terms the visualization of data can be considered a 3-stage process:    1. Describing and importing data    2. Processing the data through a visualization program    3. Presenting the resulting image. This is the main package.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dx
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - visualize
+  - visualization
+  - analyze
+  - analysis
+iconSources:
+  - cached: dx_dx.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

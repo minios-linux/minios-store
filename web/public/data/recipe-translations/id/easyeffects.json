@@ -1,0 +1,5 @@
+{
+  "name": "Easy Effects",
+  "description": "Efek Audio untuk Aplikasi PipeWire",
+  "longDescription": "<p>Easy Effects adalah alat manipulasi audio tingkat lanjut. Aplikasi ini mencakup equalizer, limiter, kompresor, dan alat reverberasi, serta spektrum analizer bawaan untuk memudahkan pengaturan audio.</p>\n<p>Easy Effects merupakan penerus dari PulseEffects. Easy Effects hanya mendukung server audio PipeWire. Pengguna PulseAudio sebaiknya tetap menggunakan PulseEffects.</p>\n<p>Karena Easy Effects menggunakan server suara PipeWire bawaan, aplikasi ini akan berjalan dengan hampir semua aplikasi yang Anda gunakan. Semua aplikasi yang didukung akan ditampilkan di jendela utama dan dapat diaktifkan secara individual.</p>\n<p>Selain memanipulasi output suara, Easy Effects juga dapat menerapkan efek pada perangkat input seperti mikrofon. Fitur ini berguna untuk rekaman audio maupun dalam percakapan suara.</p>\n<p>Saat dijalankan, Easy Effects akan secara otomatis mengingat konfigurasi dari sesi sebelumnya. Anda juga dapat menyimpan semua pengaturan saat ini sebagai profil.</p>\n"
+}

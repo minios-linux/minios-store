@@ -1,0 +1,30 @@
+id: verbiste-gnome
+name: Verbiste
+description: French conjugation system
+longDescription: |
+  <p>Verbiste is a program that gives the complete conjugation for French and Italian verbs. The knowledge base contains over 6800 verbs.</p>
+  <p>This package contains a GNOME graphical interface.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - verbiste-gnome
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - conjugation
+  - french
+  - spelling
+  - translation
+  - verb
+iconSources:
+  - url: v/ve/verbiste.desktop/D301E1C1EE3BC1C61B096C99F767D14C/icons/128x128/verbiste-gnome_verbiste.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

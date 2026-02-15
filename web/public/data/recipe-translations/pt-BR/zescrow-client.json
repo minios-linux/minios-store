@@ -1,0 +1,5 @@
+{
+  "name": "zEscrow",
+  "description": "Faz backup da configuração do eCryptfs e das senhas de montagem",
+  "longDescription": "<p>O zescrow-client disponibiliza o utilitário zescrow (anteriormente conhecido como ecryptfs-escrow-private), que permite fazer upload de um backup da configuração de um Diretório Pessoal ou Diretório Privado criptografado com eCryptfs para um servidor compatível com zEscrow.</p>\n<p>Um desses servidores compatíveis é o zEscrow.gazzang.com, uma implementação de software livre AGPL disponível em https://launchpad.net/zEscrow.</p>\n<p>O zEscrow irá:  - solicitar o endereço do servidor zEscrow que você deseja usar  - buscar a chave pública GPG desse servidor  - pedir sua senha de login  - usar sua senha de login para descriptografar a senha de montagem  - criar um arquivo tar do diretório ~/.ecryptfs e da senha de montagem descriptografada  - criptografar esse arquivo com a chave pública do servidor zEscrow  - enviar o arquivo criptografado para o servidor zEscrow  - exibir uma URL e oferecer abrir um navegador, onde você deve associar uma conta do Google e um endereço de e-mail ao seu backup</p>\n"
+}

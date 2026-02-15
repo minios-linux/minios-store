@@ -1,0 +1,5 @@
+{
+  "name": "Pengaturan",
+  "description": "Pengaturan untuk Plasma",
+  "longDescription": "<p>Paket ini berisi modul konfigurasi untuk lingkungan Plasma mobile, yang memungkinkan pengguna mengubah berbagai pengaturan terkait audio, Bluetooth, monitor, aplikasi default, keyboard virtual, notifikasi, waktu dan tanggal, lokal, modem jaringan, dan komponen lain dari Plasma melalui antarmuka grafis.</p>\n<p>Pengaturan ini berbasis pustaka grafis Qt dan KDE Frameworks. Secara khusus, menggunakan Kirigami agar antarmuka penggunanya dapat menyesuaikan berbagai ukuran layar. Namun, paket ini dioptimalkan untuk perangkat sentuh, sehingga pengguna desktop disarankan menginstal paket 'systemsettings' sebagai gantinya.</p>\n"
+}

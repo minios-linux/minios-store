@@ -1,0 +1,38 @@
+id: ding
+name: Ding
+description: "Ding: Dictionary English-German"
+longDescription: |
+  <p>This is &quot;Ding&quot;  * a dictionary lookup program for Unix,  * DIctionary Nice Grep,  * a Tk based Front-End to [ae]grep, (hun|a|i)spell, dict, ...  * Ding {n} :: thing</p>
+  <p>This package needs tre-agrep(1), agrep(1) or egrep(1) as a back end. (tre-)agrep is preferable, because it supports fault tolerant searching.</p>
+  <p>You have to install some translation dictionary word list with a word/phrase in two languages in one line with some kind of separator between them.  The default configuration of ding uses the German-English dictionary which can be found in the trans-de-en package, but you can use every other translation word lists with one entry per line.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ding
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dictionary
+  - translation
+iconSources:
+  - cached: ding_ding.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Método de Entrada",
+  "description": "Defina o Método de Entrada do Teclado",
+  "longDescription": "<p>O pacote im-config oferece a estrutura para configurar e alternar o método de entrada no X Window System. Este método de entrada é essencial para que idiomas como japonês, chinês e coreano (CJK) possam digitar seus caracteres nativos não-ASCII.</p>\n<p>Muitos métodos de entrada modernos, como o IBus, suportam não apenas um desses idiomas CJK, mas também praticamente todos os idiomas, permitindo alternar dinamicamente os modos de teclado através de um programa auxiliar com interface gráfica.</p>\n<p>Ao instalar este pacote, o método de entrada mais adequado e seu mecanismo de conversão são configurados automaticamente para o X Window System Input Method (XIM), módulo de entrada GTK+, módulo de entrada Qt e módulo de entrada clutter.</p>\n<p>Você pode personalizar ainda mais o método de entrada usando o comando 'im-config'.</p>\n"
+}

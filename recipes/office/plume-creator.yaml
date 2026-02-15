@@ -1,0 +1,33 @@
+id: "plume-creator"
+name: Plume Creator
+description: Write your fiction here ! Manage your writing projects
+longDescription: |
+  <p>Plume Creator helps you to write your stories in chapters and scenes, write fullscreen, edit notes and synopses, export in html and odt formats, edit in rich text, and manage characters, places and items.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plume-creator
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/pl/plume-creator.desktop/237beca8fb7d8e9bfc212202685960b1/icons/128x128/plume-creator_plume-creator.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

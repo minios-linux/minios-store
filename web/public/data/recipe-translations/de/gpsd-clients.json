@@ -1,0 +1,5 @@
+{
+  "name": "xgpsspeed",
+  "description": "Anzeige der GPS-Geschwindigkeit von einem gpsd-Daemon",
+  "longDescription": "<p>Der gpsd-Servicedienst kann ein oder mehrere an einen Host-Computer angeschlossene GPS-Geräte überwachen und stellt alle Daten zu Position und Bewegung der Sensoren über TCP-Port 2947 zur Abfrage bereit.</p>\n<p>Dieses Paket enthält zusätzliche Werkzeuge und Beispiel-Clients zum Überwachen, Testen, für Latenzprofiling, Gerätekonfiguration und zur Simulation von gpsd.</p>\n"
+}

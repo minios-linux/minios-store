@@ -1,0 +1,38 @@
+id: cubicsdr
+name: CubicSDR
+description: Software-Defined Radio Application
+longDescription: |
+  <p>CubicSDR is a cross-platform Software-Defined Radio application which allows you to navigate the radio spectrum and demodulate any signals you might discover. It currently includes several common analog demodulation schemes such as AM and FM and will support digital modes in the future.</p>
+  <p>CubicSDR uses SoapySDR to access SDR hardware and thereby supports all hardware for which a SoapySDR module exists.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cubicsdr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: cubicsdr_CubicSDR.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

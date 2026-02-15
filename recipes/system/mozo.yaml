@@ -1,0 +1,34 @@
+id: mozo
+name: Main Menu
+description: Change which applications are shown on the main menu
+longDescription: |
+  <p>Mozo is an easy-to-use menu editor for MATE that can add and edit new entries and menus. It works with the freedesktop.org menu specification and should work with any desktop environment that uses the spec.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mozo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+tags:
+  - application
+  - main
+  - menu
+  - editor
+  - customize
+  - mate
+iconSources:
+  - url: m/mo/mozo.desktop/957491F4689BC5E5D00E70672C9A79CB/icons/128x128/mozo_mozo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

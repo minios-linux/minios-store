@@ -1,0 +1,5 @@
+{
+  "name": "Cardpeek",
+  "description": "Strumento per leggere il contenuto delle smart card",
+  "longDescription": "<p>L'obiettivo di Cardpeek è consentire ai possessori di smart card di essere meglio informati su quali dati personali siano memorizzati su questi dispositivi. Lo strumento attualmente legge il contenuto di:</p>\n<p> * Carte EMV, incluse quelle NFC  * Tessere del trasporto pubblico Navigo (supporto parziale anche per MOBIB)  * La tessera sanitaria francese \"Vitale 2\"  * Passaporti elettronici/biometrici in modalità di sicurezza BAC</p>\n<p>Può inoltre leggere le seguenti carte con interpretazione limitata dei dati:  * Alcune carte Mifare (come la carta Thalys)  * Moneo, la moneta elettronica francese  * SIM GSM</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Quake 1 Ep5: Dimensions of the Past",
+  "description": "Пятый эпизод, выпущенный к 20-летию классического шутера от первого лица",
+  "longDescription": "<p>Quake — это классическая игра-шутер от первого лица, разработанная id Software и выпущенная в 1996 году. Этот пакет содержит скрипт запуска и пункт меню для игры в Quake с любым совместимым движком.</p>\n<p>Чтобы этот пакет был полезен, вам потребуется создать и установить недистрибутивный пакет quake-registered или quake-shareware при помощи game-data-packager.</p>\n<p>Для создания quake-registered нужны файлы данных из установленной версии Quake или CD-ROM.</p>\n<p>Для создания quake-shareware необходима shareware-версия Quake.</p>\n<p>game-data-packager (версия ≥ 45) также позволяет создавать пакеты для официального пятого эпизода Dimensions of the Past (разработан MachineGames к 20-летию Quake), а также для официальных дополнений Scourge of Armagon (разработан Hipnotic Software) и Dissolution of Eternity (разработан Rogue Entertainment). Дополнительные пункты меню появятся автоматически при установке этих дополнений.</p>\n"
+}

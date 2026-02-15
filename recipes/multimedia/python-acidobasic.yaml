@@ -1,0 +1,25 @@
+id: python-acidobasic
+name: pyAcidoBasic
+description: Interactive tool to simulate acido-basic titrations
+longDescription: |
+  <p>python-acidobasic allows you to compose a mixture of acid or base reactives, and to simulate their titration by one acid or base. pH and concentration curves are displaied instantly when the composition of all chemicals are defined. You can choose to display either concentrations or quantities of chemicals.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - python-acidobasic
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - chemistry
+iconSources:
+  - cached: python-acidobasic_pyacidobasic.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

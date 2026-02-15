@@ -1,0 +1,5 @@
+{
+  "name": "gworldclock",
+  "description": "Visualizza l'ora in altri fusi orari",
+  "longDescription": "<p>Questo programma mostra l'ora e la data di fusi orari specificati tramite un'interfaccia GTK+. Offre anche una funzione di \"rendezvous\" che permette di sincronizzare i fusi orari su un orario diverso da quello attuale. Questa caratteristica è utile per organizzare riunioni tra persone in diversi fusi orari.</p>\n<p>I fusi orari possono essere inseriti manualmente in formato TZ oppure selezionati da un elenco preparato da /usr/share/zoneinfo/zone.tab. L'elenco dei fusi orari è mantenuto in un formato compatibile con lo script shell tzwatch.</p>\n"
+}

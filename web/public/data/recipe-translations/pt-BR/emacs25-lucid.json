@@ -1,0 +1,5 @@
+{
+  "name": "GNU Emacs 25 (GUI)",
+  "description": "GNU Emacs é um editor de texto extensível e personalizável — e muito mais",
+  "longDescription": "<p>GNU Emacs é o editor de texto auto-documentado e extensível. Este pacote contém uma versão do Emacs com suporte a interface gráfica baseada no toolkit Lucid (em vez da interface GTK+ fornecida pelo pacote emacs25). Enquanto alguns problemas conhecidos do GTK+ não forem corrigidos, esta versão pode ajudar a evitar que o Emacs trave durante uma desconexão do emacsclient. Consulte https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=567934 e https://bugzilla.gnome.org/show_bug.cgi?id=85715 para mais informações.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "GNOME ALSA Mixer",
+  "description": "Mixer de áudio ALSA para GNOME",
+  "longDescription": "<p>Uma aplicação de \"controle de volume\". Você pode usá-la para ajustar o volume de diferentes fontes de áudio da sua placa de som.</p>\n<p>Possui uma interface gráfica agradável e diversos recursos:</p>\n<p> - acesso a todas as placas de som e fontes de áudio do seu computador  - possibilidade de nomear as fontes de forma personalizada  - exibição apenas dos controles de mixer que você necessita  - acesso a recursos extras que algumas placas oferecem, como    aprimoramento 3D, ganho extra do microfone, entre outros  - e muito mais</p>\n<p>Este aplicativo utiliza a API de áudio ALSA, portanto, não pode ser utilizado caso sua placa de som use os drivers OSS (mais antigos). Em compensação, oferece acesso a todas as funcionalidades disponíveis no \"alsamixer\", presente no pacote \"alsa-utils\".</p>\n"
+}

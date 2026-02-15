@@ -1,0 +1,36 @@
+id: "kitty"
+name: kitty
+description: "A fast, feature full, GPU based terminal emulator"
+longDescription: |
+  <p>Kitty supports modern terminal features like: graphics, unicode, true-color, OpenType ligatures, mouse protocol, focus tracking, and bracketed paste.</p>
+  <p>Kitty has a framework for &quot;kittens&quot;, small terminal programs that can be used to extend its functionality.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kitty
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: k/ki/kitty.desktop/5d3decf237d3c1fd67e3f85dae375e0d/icons/128x128/kitty_kitty.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,45 @@
+id: clamtk
+name: ClamTk
+description: Scan for threats...
+longDescription: |
+  <p>ClamTk is a graphical front-end for Clam Antivirus.</p>
+  <p>It is designed to be an easy-to-use, lightweight, on-demand antivirus scanner for Linux systems.</p>
+  <p>Context menu support for KDE&apos;s Plasma Desktop (Dolphin file manager) and Nemo and Thunar sendto is included.  Context menu support for GNOME (Nautilus file manager), but due to additional dependencies required, it is in a separate package: clamtk-gnome.</p>
+  
+categoryId: system
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - clamtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - antivirus
+  - virus
+  - malware
+  - scan
+  - scanner
+iconSources:
+  - cached: clamtk_clamtk.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

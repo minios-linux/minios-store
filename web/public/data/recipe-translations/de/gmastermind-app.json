@@ -1,0 +1,5 @@
+{
+  "name": "GMastermind",
+  "description": "GNUstep-Umsetzung des Mastermind-Spiels",
+  "longDescription": "<p>Ziehen Sie Farben per Drag-and-Drop aus der Palette oder vom Spielfeld. Ziel ist es, die verborgene Kombination aus vier Farben zu erraten. Das Spiel kann in zwei Modi gespielt werden: mit Wiederholung, wobei Farben mehrfach vorkommen können, und ohne Wiederholung, wobei jede Farbe einzigartig ist. Der Benutzer wählt vier Farben aus und &quot;bestätigt&quot; die Auswahl. Das Programm bewertet den Versuch – ein schwarzer Pin steht für eine korrekt platzierte Farbe, ein weißer Pin für eine Farbe an falscher Position. Insgesamt sind acht Versuche möglich.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Foo YC20",
+  "description": "Synthesizer organ",
+  "longDescription": "<p>YC-20 adalah organ combo divide-down yang dirancang pada akhir tahun 60-an. Emulasi ini meniru secara setia fitur, karakter suara, dan kekurangan dari organ asli.</p>\n<p>Fitur:\n- 61 tuts\n- Dua bagian suara utama\n- Bagian bass yang bisa diaktifkan/nonaktifkan\n- Generator + mixer matriks =&gt; tanpa batasan polifoni\n- Kontrol realisme untuk menambah ketidaksempurnaan seperti pada organ asli</p>\n<p>Kekurangan:\n- Membutuhkan daya CPU cukup besar\n- Tidak ada touch vibrato</p>\n<p>Emulasi ini ditulis dengan Faust dan menggunakan Jack untuk audio dan MIDI.</p>\n"
+}

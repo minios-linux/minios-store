@@ -1,0 +1,39 @@
+id: "lxhotkey-gtk"
+name: Setup Hot Keys
+description: View and change Window Manager global shortcuts
+longDescription: |
+  <p>LXHotkey is an universal application for the Lightweight X11 Desktop Environment (LXDE) which allows view and change global keyboard shortcuts for Window Manager actions, including ones to start applications.</p>
+  <p>This package contains a GTK+ 2.0 GUI plugin.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxhotkey-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - hotkey
+  - shortcut
+  - system
+  - settings
+iconSources:
+  - url: l/lx/lxhotkey-gtk.desktop/3753a205b8ee07dd6b0d7537a19b3d7d/icons/128x128/lxhotkey-gtk_preferences-desktop-keyboard.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

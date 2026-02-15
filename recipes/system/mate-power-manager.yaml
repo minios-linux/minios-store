@@ -1,0 +1,34 @@
+id: mate-power-manager
+name: Power Management
+description: Configure power management
+longDescription: |
+  <p>MATE Power Manager is a session daemon for the MATE desktop that takes care of system or desktop events related to power, and triggers actions accordingly. Its philosophy is to completely hide these complex tasks and only show some settings important to the user.</p>
+  <p>The MATE power manager displays and manages battery status, power plug events, display brightness, CPU, graphics card and hard disk drive power saving, and can trigger suspend-to-RAM, hibernate or shutdown events, all integrated to other components of the MATE desktop.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mate-power-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - mate
+  - power
+  - management
+  - preferences
+  - settings
+iconSources:
+  - url: m/ma/mate-power-preferences.desktop/7C0C158F7A548C375DB9320BF9E19660/icons/128x128/mate-power-manager_mate-power-manager.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,64 @@
+id: "setzer"
+name: Setzer
+description: Simple yet full-featured LaTeX editor
+longDescription: |
+  <p>Setzer lets you Write LaTeX documents with an easy to use yet full-featured editor.</p>
+  <p>Features include:</p>
+  <ul>
+    <li>Buttons and shortcuts for many LaTeX elements and special characters</li>
+    <li>Comfortable document creation wizard</li>
+    <li>Dark mode</li>
+    <li>Helpful error messages in the build log</li>
+    <li>Looks great on the Gnome desktop</li>
+    <li>Good screen to content ratio</li>
+    <li>Arguably the best .pdf viewer of any LaTeX editor</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - setzer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - latex
+  - bibtex
+  - editor
+screenshotSources:
+  - url: org/cvfosammmm/Setzer/82bc16351b828b3807c36ba4c2ba2571/screenshots/image-1_orig.png
+    thumbnailUrl: org/cvfosammmm/Setzer/82bc16351b828b3807c36ba4c2ba2571/screenshots/image-1_624x351@1.png
+    width: 1134
+    height: 638
+  - url: org/cvfosammmm/Setzer/82bc16351b828b3807c36ba4c2ba2571/screenshots/image-2_orig.png
+    thumbnailUrl: org/cvfosammmm/Setzer/82bc16351b828b3807c36ba4c2ba2571/screenshots/image-2_624x351@1.png
+    width: 1134
+    height: 638
+  - url: org/cvfosammmm/Setzer/82bc16351b828b3807c36ba4c2ba2571/screenshots/image-3_orig.png
+    thumbnailUrl: org/cvfosammmm/Setzer/82bc16351b828b3807c36ba4c2ba2571/screenshots/image-3_624x351@1.png
+    width: 1134
+    height: 638
+  - url: org/cvfosammmm/Setzer/82bc16351b828b3807c36ba4c2ba2571/screenshots/image-4_orig.png
+    thumbnailUrl: org/cvfosammmm/Setzer/82bc16351b828b3807c36ba4c2ba2571/screenshots/image-4_624x351@1.png
+    width: 1134
+    height: 638
+iconSources:
+  - url: org/cvfosammmm/Setzer/82bc16351b828b3807c36ba4c2ba2571/icons/128x128/setzer_org.cvfosammmm.Setzer.png
+    width: 128
+    height: 128
+developer: Cvfosammmm
+homepage: "https://www.cvfosammmm.org/setzer/"
+enabled: true
+order: 99

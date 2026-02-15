@@ -1,0 +1,5 @@
+{
+  "name": "Skanlite",
+  "description": "Aplicación para escaneo de imágenes",
+  "longDescription": "<p>Skanlite es una aplicación sencilla para escanear y guardar imágenes.<br>Está basada en libksane, una interfaz para la biblioteca SANE que permite controlar escáneres de imágenes.</p>\n<p>Características:</p>\n<ul>\n  <li>Diálogo para guardar cada imagen escaneada o guardado automático en una carpeta especificada con nombres y formato generados automáticamente</li>\n  <li>Soporte para escáneres de red</li>\n  <li>Vista previa con selección para el escaneo final</li>\n  <li>Escaneo de múltiples selecciones de una imagen</li>\n</ul>\n"
+}

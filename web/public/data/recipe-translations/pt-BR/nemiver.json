@@ -1,0 +1,5 @@
+{
+  "name": "Nemiver",
+  "description": "Depure Aplicações",
+  "longDescription": "<p>O Nemiver é um projeto para criar um depurador gráfico independente integrado ao ambiente GNOME. Ele utiliza como backend o conhecido GNU Debugger (gdb) para depuração de programas em C/C++.</p>\n<p>O Nemiver conta com um sistema de plugins que pode oferecer diversas perspectivas. Atualmente, apenas a perspectiva de depuração está disponível, mas é possível expandi-lo com suporte a ferramentas como valgrind ou para análise de desempenho, como o oprofile.</p>\n"
+}

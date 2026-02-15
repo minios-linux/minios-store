@@ -1,0 +1,5 @@
+{
+  "name": "Méthode de saisie",
+  "description": "Définir la méthode de saisie du clavier",
+  "longDescription": "<p>Le paquet im-config fournit l’infrastructure nécessaire pour configurer et changer la méthode de saisie sous le système X Window. Cette méthode est essentielle pour permettre aux langues japonaises, chinoises et coréennes (CJC) de saisir leurs caractères natifs non-ASCII.</p>\n<p>De nombreuses méthodes de saisie modernes, telles qu’IBus, prennent en charge non seulement l’une de ces langues CJC, mais aussi quasiment toutes les langues, en basculant dynamiquement les modes clavier via une interface graphique dédiée.</p>\n<p>En installant ce paquet, la méthode de saisie la plus adaptée ainsi que son moteur de conversion associé sont automatiquement configurés pour fonctionner avec XIM, le module de méthode de saisie GTK+, le module de méthode de saisie Qt et le module clutter.</p>\n<p>Vous pouvez également personnaliser votre méthode de saisie en utilisant la commande « im-config ».</p>\n"
+}

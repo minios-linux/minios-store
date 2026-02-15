@@ -1,0 +1,5 @@
+{
+  "name": "Log",
+  "description": "Une activité conçue pour celles et ceux qui souhaitent dépanner un programme complexe sur leur ordinateur.",
+  "longDescription": "<p>La plateforme d'apprentissage Sugar favorise l'apprentissage collaboratif grâce aux Activités Sugar, qui encouragent la pensée critique, au cœur d'une éducation de qualité. Conçue dès le départ spécialement pour les enfants, Sugar offre une alternative innovante aux logiciels de bureau classiques.</p>\n<p>Dans Sugar, les applications éducatives sont appelées Activités. Ce sont des programmes qui enregistrent automatiquement votre travail – chaque session génère une instance de l’Activité pouvant être reprise ultérieurement. De nombreuses Activités permettent la collaboration, plusieurs apprenants pouvant être invités à une même session collective.</p>\n<p>Des fichiers journaux (logs) sont créés lors de l'exécution des Activités, ainsi que par d'autres processus liés à Sugar. Ils listent notamment les erreurs logicielles et peuvent aider à diagnostiquer des problèmes logiciels.</p>\n<p>Ce paquet fournit l’Activité Log pour consulter les fichiers journaux générés par Sugar.</p>\n"
+}

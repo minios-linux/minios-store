@@ -1,0 +1,5 @@
+{
+  "name": "FSearch",
+  "description": "Eine grafische Dateisuchanwendung",
+  "longDescription": "<p>\n            FSearch hilft Ihnen, Dateien und Ordner schnell und einfach zu finden.\n            Geben Sie einfach ein paar Buchstaben ein und die Suchergebnisse erscheinen nahezu sofort.\n        </p>\n<p>\n            Viele Funktionen machen das Suchen besonders effizient und leistungsstark, zum Beispiel:\n        </p>\n<ul>\n  <li>Groß- und Kleinschreibung ignorieren (z.B. findet die Suche nach „fsearch“ auch „FSearch“)</li>\n  <li>Unterstützung regulärer Ausdrücke</li>\n  <li>Platzhalterunterstützung</li>\n  <li>Filterfunktion (z.B. nur nach Audiodateien suchen)</li>\n  <li>Ausgewählte Dateien und Ordner ausschließen</li>\n  <li>Schnelles Sortieren nach Name, Pfad, Größe, Änderungsdatum und Dateierweiterung</li>\n</ul>\n<p>\n            Hinweis: Aufgrund der Flatpak-Sandbox kann FSearch nicht auf alle Dateien Ihres Systems zugreifen.\n        </p>\n"
+}

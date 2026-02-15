@@ -1,0 +1,38 @@
+id: "arduino"
+name: Arduino IDE
+description: Open-source electronics prototyping platform
+longDescription: |
+  <p>Arduino is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software. It&apos;s intended for artists, designers, hobbyists, and anyone interested in creating interactive objects or environments.</p>
+  <p>This package will install the integrated development environment that allows for program writing, code verification, compiling, and uploading to the Arduino development board. Example code will also be installed.</p>
+  <p>Some base AVR libraries will be provided by the depending additional package arduino-core-avr. More libraries can be installed within the IDE itself by calling the libarary manager. This requires a working internet access.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - arduino
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - embedded electronics
+  - electronics
+  - avr
+  - microcontroller
+iconSources:
+  - url: a/ar/arduino.desktop/79b0d373191757e8db8586312ceff9a5/icons/128x128/arduino_arduino.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

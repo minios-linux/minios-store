@@ -1,0 +1,35 @@
+id: yubikey-personalization-gui
+name: YubiKey Personalization Tool
+description: Graphical interface for programing a YubiKey
+longDescription: |
+  <p>YubiKeys are USB tokens that act like keyboards and generate one-time passwords, static passwords or work in challenge-response mode.</p>
+  <p>This is a graphical tool to customize the token with your own cryptographic key and options.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yubikey-personalization-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - yubikey
+  - personalization
+iconSources:
+  - cached: yubikey-personalization-gui_yubikey-personalization-gui.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

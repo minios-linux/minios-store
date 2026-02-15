@@ -1,0 +1,5 @@
+{
+  "name": "hime Setup",
+  "description": "Utilitário de configuração para o método de entrada hime",
+  "longDescription": "<p>O HIME Input Method Editor é uma plataforma para métodos de entrada, desenvolvida a partir do conhecido método de entrada gcin.</p>\n<p>Para utilizar o HIME, é necessário instalar também os pacotes de módulos correspondentes. São eles:</p>\n<p> * hime-gtk2-immodule para GTK2  * hime-gtk3-immodule para GTK3  * hime-qt5-immodule para Qt5</p>\n"
+}

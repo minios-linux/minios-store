@@ -1,0 +1,5 @@
+{
+  "name": "Hugin Calibrate Lens",
+  "description": "Caracteriza a distorção da lente",
+  "longDescription": "<p>O Hugin é um programa para criação de panoramas fotográficos (costura de imagens). Essencialmente, o Hugin é uma interface gráfica para o Panorama Tools. A costura das imagens é realizada utilizando várias fotos sobrepostas tiradas do mesmo local, alinhadas e transformadas por meio de pontos de controle, permitindo que sejam mescladas para formar uma imagem maior. O Hugin facilita a criação de pontos de controle entre duas imagens, otimização da transformação das imagens e muito mais.</p>\n<p>Este pacote inclui as seguintes interfaces gráficas, que utilizam as ferramentas de linha de comando fornecidas pelo pacote hugin-tools:  * hugin                - Criador de panoramas Hugin.  * hugin_stitch_project - Costurador em lote Hugin.  * PTBatcherGUI         - Controlador de lotes do processo de costura.  * calibrate_lens_gui   - Ferramenta de calibração de lentes.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Calc",
+  "description": "Calculadora de precisión arbitraria",
+  "longDescription": "<p>Calc es un sistema de aritmética de precisión arbitraria que utiliza un lenguaje similar a C. Calc es útil como calculadora, para crear prototipos de algoritmos y como herramienta para investigación matemática. Más allá de eso, calc ofrece un método de computación independiente del hardware. Incluye un conjunto completo de funciones matemáticas y de programación integradas.</p>\n<p>Este paquete contiene los archivos independientes de arquitectura requeridos por el paquete principal `calc`.</p>\n"
+}

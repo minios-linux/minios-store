@@ -1,0 +1,34 @@
+id: usbrelay
+name: usbrelay
+description: "USB-connected electrical relay control, based on hidapi"
+longDescription: |
+  <p>
+        A small utility to control USB HID based relays that can be used for home automation or other switching needs. The
+  devices are available from several sources and are able to handle up to 10A 250VAC.
+      </p>
+  <p>
+        An example application are USB controllable power switches. You may use such a switch to control the power supply
+  of an external hard disk drive for backup purposes.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - usbrelay
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: io/github/darrylb123.usbrelay/6be9a7cfb107a735e8c6edde73d16cef/icons/128x128/usbrelay_utilities-terminal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

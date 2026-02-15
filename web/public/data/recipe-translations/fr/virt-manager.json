@@ -1,0 +1,5 @@
+{
+  "name": "Virtual Machine Manager",
+  "description": "Gérez vos machines virtuelles",
+  "longDescription": "<p>Fournit une vue d'ensemble des domaines en cours d'exécution ainsi que des statistiques en temps réel sur leurs performances et l'utilisation des ressources. Une vue détaillée affiche des graphiques représentant l'évolution des performances et de l'utilisation au fil du temps. Il permet également la création de nouveaux domaines, la configuration et l’ajustement de l’allocation des ressources et du matériel virtuel de chaque domaine. Un client VNC intégré offre enfin un accès complet à la console graphique de la machine virtuelle invitée.</p>\n<p>REMARQUE : l’interface graphique (GUI) est encore considérée comme expérimentale.</p>\n"
+}

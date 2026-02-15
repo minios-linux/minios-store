@@ -1,0 +1,5 @@
+{
+  "name": "Glueviz",
+  "description": "Reliez des visualisations de jeux de données scientifiques",
+  "longDescription": "<p>Glue est un projet Python permettant de relier des visualisations de jeux de données scientifiques provenant de nombreux fichiers. Ses fonctionnalités incluent :</p>\n<p> • Graphiques statistiques interactifs et liés sur plusieurs fichiers.  • Prise en charge de nombreux formats de fichiers : images courantes, tables ASCII, formats astronomiques d’image et de table (FITS, VOT, IPAC), et HDF5. Des chargeurs de données personnalisés peuvent également être ajoutés facilement.  • Hautement scriptable et extensible.</p>\n"
+}

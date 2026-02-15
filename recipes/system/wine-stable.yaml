@@ -1,0 +1,30 @@
+id: wine-stable
+name: Wine
+description: "Run Windows applications on Linux, BSD, Solaris and Mac OS X"
+longDescription: |
+  <p>Wine (originally an acronym for &quot;Wine Is Not an Emulator&quot;) is a compatibility
+        layer capable of running Windows applications on several POSIX-compliant
+        operating systems, such as Linux, Mac OSX, &amp; BSD. Instead of simulating
+        internal Windows logic like a virtual machine or emulator, Wine translates
+        Windows API calls into POSIX calls on-the-fly, eliminating the performance
+        and memory penalties of other methods and allowing you to cleanly integrate
+        Windows applications into your desktop.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wine-stable
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: wine-stable_wine-stable.png
+    width: 128
+    height: 128
+homepage: "https://www.winehq.org/"
+enabled: true
+order: 99

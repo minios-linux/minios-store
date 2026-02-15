@@ -1,0 +1,42 @@
+id: manaplus
+name: ManaPlus
+description: A 2D MMORPG client
+longDescription: |
+  <p>ManaPlus is an extended client for Evol Online, The Mana World, and similar servers based on a fork of eAthena. Evol Online is a 2D fantasy-style game which aims to create a friendly environment for interacting with others where people can escape reality and enjoy themselves. The Mana World (TMW) is a serious effort to create an innovative free and open source MMORPG. TMW uses 2D graphics and aims to create a large and diverse interactive world.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - manaplus
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - mmorpg
+  - game
+  - rpg
+  - adventure
+  - multiplayer
+  - online
+iconSources:
+  - cached: manaplus_manaplus.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

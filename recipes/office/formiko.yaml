@@ -1,0 +1,42 @@
+id: "formiko"
+name: Formiko Vim
+description: reStructuredText and MarkDown editor and live html previewer - Vim mode
+longDescription: |
+  <p>Features:  * GtkSourceView based editor with syntax highlighting  * possible use Vim editor  * vertical or horizontal window splitting  * preview mode  * periodic save file  * json and html preview</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - formiko
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+  - markdown
+  - restructuredtext
+iconSources:
+  - url: f/fo/formiko.desktop/4f640887fc271d06a7f8640671fa75bf/icons/128x128/formiko_formiko.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

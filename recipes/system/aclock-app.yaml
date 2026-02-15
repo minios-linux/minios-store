@@ -1,0 +1,26 @@
+id: aclock-app
+name: AClock
+description: Analog Clock Dockapp
+longDescription: |
+  <p>AClock is an analog clock with display of smooth seconds. It stays in the dock.  The display is customizable:</p>
+  <p> * Seconds hand and its ticking rate  * Arabic or Roman numbers, AM/PM  * Shadows  * Colors of the elements  * Alarm and ringing</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - aclock.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - clock
+iconSources:
+  - cached: aclock.app_clock.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

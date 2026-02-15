@@ -1,0 +1,45 @@
+id: "cervisia"
+name: Cervisia
+description: A graphical CVS version control system front-end
+longDescription: |
+  <p>Cervisia is a user friendly version control system front-end. The aim is to support CVS and other version control system
+        programs in a unified interface, featuring conflict resolution, difference and history viewers, status for the working
+        copy files, and support for most version control functions.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cervisia
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/cervisia.desktop/159beb8063cdb17d43113d417a0b2e2b/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/cervisia.desktop/159beb8063cdb17d43113d417a0b2e2b/screenshots/image-1_624x458@1.png
+    width: 899
+    height: 660
+iconSources:
+  - url: org/kde/cervisia.desktop/159beb8063cdb17d43113d417a0b2e2b/icons/128x128/cervisia_cervisia.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/cervisia/"
+enabled: true
+order: 99

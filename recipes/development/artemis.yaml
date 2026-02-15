@@ -1,0 +1,41 @@
+id: artemis
+name: DNAPlotter
+description: Make circular plots of DNA sequences
+longDescription: |
+  <p>Artemis is a genome browser and annotation tool that allows visualisation of sequence features, next generation data and the results of analyses within the context of the sequence, and also its six-frame translation.</p>
+  <p>This package includes the Artemis genome browser, the Artemis Comparison Tool (ACT), and the DNAplotter and BamView utilities.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - artemis
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64]
+    - name: buster
+      architectures: [amd64]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - genomics
+iconSources:
+  - cached: artemis_helix.png
+    width: 64
+    height: 64
+homepage: "https://sanger-pathogens.github.io/Artemis/Artemis/"
+enabled: true
+order: 99

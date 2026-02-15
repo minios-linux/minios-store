@@ -1,0 +1,27 @@
+id: xchat
+name: XChat IRC
+description: Chat with other people using Internet Relay Chat
+longDescription: |
+  <p>XChat is a graphical IRC Client with a GTK+ GUI. It has a look and feel similar to AmIRC for the Amiga. Special features include the mIRC extension DCC RESUME and mIRC color, multiple server/channel windows, dialog windows, and a plugin API.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xchat
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: x/xc/xchat.desktop/1DFDE273EF7115B56EB86B88ADBFCF09/icons/128x128/xchat_xchat.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

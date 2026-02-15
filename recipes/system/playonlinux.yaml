@@ -1,0 +1,29 @@
+id: playonlinux
+name: PlayOnLinux
+description: Front-end application for the wine
+longDescription: |
+  <p>PlayOnLinux is a front-end for wine. It permits you to easily install Windows Games and software on Linux. It is advised to have a functional internet connection.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - playonlinux
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: playonlinux_playonlinux.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

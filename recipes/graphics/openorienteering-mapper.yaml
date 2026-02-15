@@ -1,0 +1,39 @@
+id: "openorienteering-mapper"
+name: OpenOrienteering Mapper
+description: A free software for drawing orienteering maps
+longDescription: |
+  <p>OpenOrienteering Mapper is an application to draw maps for forest, sprint, MTB and radio orienteering races. It comes with predefined symbol sets implementing the IOF standards ISOM (1:15000, 1:10000) and ISSOM (1:5000, 1:4000). It is easy to implement additional symbol sets.</p>
+  <p>It provides a Free alternative to existing proprietary map drawing applications and supports multiple platforms. It is available for Android, Windows, Mac OS X and Linux.</p>
+  <p>While it is under continuous development and considered in beta state, it has been used to produce maps for orienteering races. All required functions for drawing maps are implemented and the program works very stable. So it can be considered ready for productive use, although it is like always a good idea to keep backups of your files.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openorienteering-mapper
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: m/ma/mapper.desktop/bea21f2c6f90286af500ab98475b59b0/icons/128x128/openorienteering-mapper_Mapper.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

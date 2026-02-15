@@ -1,0 +1,27 @@
+id: fheroes2
+name: fheroes2
+description: Free remake of Heroes of Might and Magic II game engine
+longDescription: |
+  <p>Heroes of Might and Magic II is a classic fantasy turn-based strategy/role-playing game which takes place in the land of Enroth, a place of magic. There are a multitude of creature types, from griffins to rocs, golems to pikemen, unicorns to hydras, and four different dragons. Each castle type has six different creatures, from the weak to the strong. There are six castle types, each corresponding to a hero class: Knight, Sorceress, Wizard (Good side), Barbarian, Necromancer and Warlock (Evil side). There are also six different types of neutral creatures you can recruit in special structures scattered about the maps.</p>
+  <p>Original game files are needed to play this game.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fheroes2
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - heroes
+  - homm2
+iconSources:
+  - cached: fheroes2_fheroes2.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

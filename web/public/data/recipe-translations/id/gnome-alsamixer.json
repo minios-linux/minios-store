@@ -1,0 +1,5 @@
+{
+  "name": "GNOME ALSA Mixer",
+  "description": "Mixer suara ALSA untuk GNOME",
+  "longDescription": "<p>Aplikasi “kontrol volume” ini memungkinkan Anda menyesuaikan volume dari berbagai sumber suara pada kartu suara Anda.</p>\n<p>Menyediakan antarmuka grafis yang menarik dan beragam fitur:</p>\n<p> - akses ke seluruh kartu suara dan sumber audio pada komputer Anda  - kemampuan memberi nama khusus pada masing-masing sumber  - hanya menampilkan kontrol mixer yang Anda perlukan  - akses ke fitur tambahan pada kartu suara tertentu, seperti    peningkatan 3D, penguat gain mikrofon, dan lainnya  - dan masih banyak lagi</p>\n<p>Aplikasi ini menggunakan API suara ALSA, sehingga tidak dapat digunakan dengan driver OSS (versi lama) pada kartu suara. Sebagai gantinya, GNOME ALSA Mixer memberikan akses penuh ke semua fungsi ALSA yang tersedia di program “alsamixer” dari paket “alsa-utils”.</p>\n"
+}

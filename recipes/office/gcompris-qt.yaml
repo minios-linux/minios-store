@@ -1,0 +1,101 @@
+id: gcompris-qt
+name: GCompris Educational Game
+description: Multi-Activity Educational game for children 2 to 10
+longDescription: |
+  <p>GCompris is a high quality educational software suite, including a large number of activities for children aged 2 to 10.</p>
+  <p>Some of the activities are game orientated, but nonetheless
+      still educational.</p>
+  <p>Below you can find a list of categories with some of the
+      activities available in that category.</p>
+  <ul>
+    <li>computer discovery: keyboard, mouse, different mouse gestures, ...</li>
+    <li>arithmetic: table memory, enumeration, mirror image, balance
+      the scale, change giving, ...</li>
+    <li>science: the canal lock, color mixing, gravity concept, ...</li>
+    <li>games: memory, connect 4, tic tac toe, sudoku, hanoi tower, ...</li>
+    <li>reading: reading practice, ...</li>
+    <li>other: learn to tell time, the braille system, maze, music
+      instruments, ...</li>
+  </ul>
+  <p>Currently GCompris offers in excess of 100 activities and more
+      are being developed. GCompris is free software, that means that
+      you can adapt it to your own needs, improve it and, most
+      importantly, share it with children everywhere.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gcompris-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-1_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-2_624x405.png
+    width: 1600
+    height: 1040
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-3_624x405.png
+    width: 1600
+    height: 1040
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-4_624x405.png
+    width: 1600
+    height: 1040
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-5_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-5_624x405.png
+    width: 1600
+    height: 1040
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-6_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-6_624x405.png
+    width: 1600
+    height: 1040
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-7_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-7_624x405.png
+    width: 1600
+    height: 1040
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-8_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-8_624x405.png
+    width: 1600
+    height: 1040
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-9_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-9_624x405.png
+    width: 1600
+    height: 1040
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-10_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-10_624x405.png
+    width: 1600
+    height: 1040
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-11_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-11_624x405.png
+    width: 1600
+    height: 1040
+  - url: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-12_orig.png
+    thumbnailUrl: org/kde/gcompris.desktop/53de25f3bb429cbf61d367bd46e068e3/screenshots/image-12_624x405.png
+    width: 1600
+    height: 1040
+iconSources:
+  - url: org/kde/gcompris.desktop/20072247B5D4FAA4542D5BDF03D5400F/icons/128x128/gcompris-qt_gcompris-qt.png
+    width: 128
+    height: 128
+homepage: "https://gcompris.net/"
+enabled: true
+order: 99

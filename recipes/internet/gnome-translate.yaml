@@ -1,0 +1,23 @@
+id: gnome-translate
+name: Language Translator
+description: Translate a text or web page
+longDescription: |
+  <p>GNOME Translate is a GNOME interface to libtranslate. It can translate a text or web page between several natural languages, and it can automatically detect the source language as you type.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-translate
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gnome-translate_gnome-translate.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

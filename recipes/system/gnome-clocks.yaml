@@ -1,0 +1,71 @@
+id: "gnome-clocks"
+name: GNOME Clocks
+description: "Clocks for world times, plus alarms, stopwatch and a timer"
+longDescription: |
+  <p>A simple and elegant clock application.
+        It includes world clocks, alarms, a stopwatch and a timer.</p>
+  <p>Goals:</p>
+  <ul>
+    <li>Show the time in different cities around the world</li>
+    <li>Set alarms to wake you up</li>
+    <li>Measure elapsed time with an accurate stopwatch</li>
+    <li>Set timers to properly cook your food</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-clocks
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - time
+  - timer
+  - alarm
+  - world clock
+  - stopwatch
+  - time zone
+screenshotSources:
+  - url: org/gnome/clocks/5272f4ade27bfcd8b90a22124f2bbff2/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/clocks/5272f4ade27bfcd8b90a22124f2bbff2/screenshots/image-1_624x511@1.png
+    width: 901
+    height: 738
+  - url: org/gnome/clocks/5272f4ade27bfcd8b90a22124f2bbff2/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/clocks/5272f4ade27bfcd8b90a22124f2bbff2/screenshots/image-2_624x511@1.png
+    width: 901
+    height: 738
+  - url: org/gnome/clocks/5272f4ade27bfcd8b90a22124f2bbff2/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/clocks/5272f4ade27bfcd8b90a22124f2bbff2/screenshots/image-3_624x511@1.png
+    width: 901
+    height: 738
+  - url: org/gnome/clocks/5272f4ade27bfcd8b90a22124f2bbff2/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/clocks/5272f4ade27bfcd8b90a22124f2bbff2/screenshots/image-4_624x511@1.png
+    width: 901
+    height: 738
+iconSources:
+  - url: org/gnome/clocks/5272f4ade27bfcd8b90a22124f2bbff2/icons/128x128/gnome-clocks_org.gnome.clocks.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Clocks"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Dia",
+  "description": "Dia est un programme de création de schémas",
+  "longDescription": "<p>Dia est une application de création de schémas basée sur GTK+ pour GNU/Linux, MacOS X, Unix et Windows, distribuée sous licence GPL.</p>\n<p>Inspiré du logiciel commercial Windows 'Visio', Dia se concentre davantage sur la création de schémas informels pour un usage courant. Il permet de réaliser de nombreux types de schémas, notamment des diagrammes de relations entités (ERD), des diagrammes UML, des organigrammes, des schémas réseau et bien d'autres encore. Il est également possible d'ajouter de nouvelles formes via des fichiers XML simples utilisant un sous-ensemble de SVG.</p>\n<p>Dia peut importer et exporter des schémas dans un format XML personnalisé (compressé en gzip par défaut pour économiser l'espace), et exporter vers de nombreux formats tels que EPS, SVG, XFIG, WMF et PNG. Il prend également en charge l'impression de schémas, y compris ceux répartis sur plusieurs pages.</p>\n"
+}

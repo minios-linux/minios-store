@@ -1,0 +1,5 @@
+{
+  "name": "QARecord",
+  "description": "Einfaches, aber zuverlässiges Audio-Aufnahme-Tool",
+  "longDescription": "<p>QARecord ist ein einfaches, aber zuverlässiges Aufnahmeprogramm. Es eignet sich für Stereo- und Mehrkanal-Aufnahmen und unterstützt sowohl ALSA- als auch JACK-Schnittstellen in 16- und 32-Bit-Modi. Durch einen großen Ringpuffer für die erfassten Daten werden Pufferüberläufe vermieden. Die Qt-basierte Benutzeroberfläche bietet grafische Pegelanzeigen.</p>\n"
+}

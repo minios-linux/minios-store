@@ -1,0 +1,5 @@
+{
+  "name": "YubiKey PIV Manager",
+  "description": "Alat untuk mengkonfigurasi YubiKey yang mendukung PIV",
+  "longDescription": "<p>Alat ini digunakan untuk menjalankan tugas administratif pada YubiKey yang mendukung PIV. Anda dapat mengelola PIN, PUK, serta Management Key, dan juga menghasilkan atau mengimpor kunci dan sertifikat. Ini adalah antarmuka grafis (GUI) yang membungkus yubico-piv-tool, serta menawarkan beberapa fitur tambahan.</p>\n"
+}

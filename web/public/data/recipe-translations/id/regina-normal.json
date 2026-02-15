@@ -1,0 +1,5 @@
+{
+  "name": "Regina",
+  "description": "Perangkat lunak untuk topologi berdimensi rendah",
+  "longDescription": "<p>Regina adalah paket perangkat lunak untuk ahli topologi 3-manifold dan 4-manifold, dengan fokus pada triangulasi, permukaan normal, dan struktur sudut.</p>\n<p>Untuk 3-manifold, Regina menyediakan tugas tingkat lanjut seperti pengenalan 3-sphere, dekomposisi connected sum, dan pengujian Hakenness, dilengkapi basis data manifold sensus yang kaya, serta mengintegrasikan kernel SnapPea untuk bekerja dengan manifold hiperolik. Untuk 4-manifold, Regina menawarkan beragam alat kombinatorial dan aljabar, serta dukungan untuk permukaan normal hiperdimensi.</p>\n<p>Regina hadir dengan antarmuka pengguna grafis lengkap, serta binding Python dan antarmuka pemrograman tingkat rendah C++.</p>\n<p>Paket ini mencakup antarmuka pengguna grafis serta antarmuka Python berbasis command-line. Buku panduan pengguna dan dokumentasi API tersedia pada paket terpisah regina-normal-doc, dan utilitas MPI untuk klaster berperforma tinggi tersedia pada paket terpisah regina-normal-mpi.</p>\n"
+}

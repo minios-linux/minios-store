@@ -1,0 +1,34 @@
+id: dopewars
+name: Dopewars
+description: dopewars drug dealing game
+longDescription: |
+  <p>UNIX rewrite of the MS-DOS program of the same name, which in turn was inspired by John E. Dell&apos;s &quot;Drug Wars&quot; game. You have one month to buy and sell drugs on the streets of New York, the aim being first to pay off your debt to the loan shark and then to make a fortune. And if you have to shoot a few cops in the process, well... The game includes TCP networking allowing you to meet (and shoot) other human drug dealers.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dopewars
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - dope
+  - drugs
+  - war
+  - crime
+  - police
+  - dealer
+iconSources:
+  - cached: dopewars_dopewars-weed.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

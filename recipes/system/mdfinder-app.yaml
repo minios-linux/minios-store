@@ -1,0 +1,36 @@
+id: mdfinder-app
+name: MDFinder
+description: GNUstep Finder and desktop search system
+longDescription: |
+  <p>MDFinder is a an application to search items already indexed by the GWMetadata indexing system, a GNUstep implementation of MacOS X&apos;s proprietary Spotlight.  Searches can be saved and are automatically updated if the corresponding files change.  Indexing is done in the background and is switched off by default.  To enable it and configure the search path, use the dedicated module in the SystemPreferences application.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mdfinder.app
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - file
+  - explore
+  - extract
+  - search
+iconSources:
+  - cached: mdfinder.app_MDFinder.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

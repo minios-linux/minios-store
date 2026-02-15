@@ -1,0 +1,5 @@
+{
+  "name": "MDFinder",
+  "description": "Buscador de escritorio y sistema de búsqueda para GNUstep",
+  "longDescription": "<p>MDFinder es una aplicación para buscar elementos ya indexados por el sistema de indexación GWMetadata, una implementación de GNUstep del Spotlight propietario de MacOS X. Las búsquedas pueden guardarse y se actualizan automáticamente si los archivos correspondientes cambian. La indexación se realiza en segundo plano y está desactivada por defecto. Para activarla y configurar las rutas de búsqueda, utiliza el módulo dedicado en la aplicación SystemPreferences.</p>\n"
+}

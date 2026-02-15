@@ -1,0 +1,5 @@
+{
+  "name": "ELKI",
+  "description": "Kerangka pengembangan algoritma data mining",
+  "longDescription": "<p>ELKI: \"Environment for Developing KDD-Applications Supported by Index-Structures\" adalah kerangka pengembangan untuk algoritma data mining yang ditulis dalam Java. ELKI mencakup beragam algoritma data mining populer, fungsi jarak, dan struktur indeks.</p>\n<p>ELKI berfokus khusus pada metode clustering dan pendeteksian outlier, berbeda dengan banyak toolkit data mining lain yang lebih menitikberatkan pada klasifikasi. Selain itu, ELKI juga menawarkan dukungan struktur indeks untuk meningkatkan performa algoritma, seperti R*-Tree dan M-Tree.</p>\n<p>Arsitektur modularnya dirancang agar mudah menambahkan komponen kustom seperti fungsi jarak atau algoritma baru, sekaligus tetap bisa memanfaatkan bagian lain untuk evaluasi.</p>\n<p>Paket ini berisi versi ELKI yang sudah dikompilasi beserta skrip peluncurnya.</p>\n"
+}

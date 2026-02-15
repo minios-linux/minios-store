@@ -1,0 +1,29 @@
+id: jgmenu
+name: jgmenu
+description: Displays menu for launching installed applications
+longDescription: |
+  <p>A stand-alone, contemporary-looking menu application for Linux and BSD. Independent of window manager and panel. Designed for customisation, scripting, ricing and tweaking</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jgmenu
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: j/jg/jgmenu.desktop/6d6723904445530c016a244a443f7aa3/icons/128x128/jgmenu_jgmenu.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

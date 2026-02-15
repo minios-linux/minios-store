@@ -1,0 +1,54 @@
+id: cdogs-sdl
+name: C-Dogs SDL
+description: Classic overhead run-and-gun game
+longDescription: |
+  <p>
+        C-Dogs SDL is an overhead shoot-em-up which lets players work alone and
+        cooperatively during missions or fight against each other in the
+        “dogfight” deathmatch mode.
+      </p>
+  <p>
+        Customize your player, choose from many weapons, and blast, slide and
+        slash your way through over 100 user-created campaigns.
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cdogs-sdl
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - arcade
+  - shooter
+  - retro
+screenshotSources:
+  - url: io/github/cxong.cdogs-sdl/df656136675953a3bf347f5fc0fff86c/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/cxong.cdogs-sdl/df656136675953a3bf347f5fc0fff86c/screenshots/image-1_624x473@1.png
+    width: 1174
+    height: 890
+  - url: io/github/cxong.cdogs-sdl/df656136675953a3bf347f5fc0fff86c/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/cxong.cdogs-sdl/df656136675953a3bf347f5fc0fff86c/screenshots/image-2_624x476@1.png
+    width: 1168
+    height: 892
+  - url: io/github/cxong.cdogs-sdl/df656136675953a3bf347f5fc0fff86c/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/cxong.cdogs-sdl/df656136675953a3bf347f5fc0fff86c/screenshots/image-3_624x474@1.png
+    width: 1174
+    height: 892
+  - url: io/github/cxong.cdogs-sdl/df656136675953a3bf347f5fc0fff86c/screenshots/image-4_orig.png
+    thumbnailUrl: io/github/cxong.cdogs-sdl/df656136675953a3bf347f5fc0fff86c/screenshots/image-4_624x473@1.png
+    width: 1174
+    height: 890
+iconSources:
+  - url: io/github/cxong.cdogs-sdl/df656136675953a3bf347f5fc0fff86c/icons/128x128/cdogs-sdl_io.github.cxong.cdogs-sdl.png
+    width: 128
+    height: 128
+homepage: "https://cxong.github.io/cdogs-sdl/"
+enabled: true
+order: 99

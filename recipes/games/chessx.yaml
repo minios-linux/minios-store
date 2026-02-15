@@ -1,0 +1,40 @@
+id: chessx
+name: ChessX
+description: Chess database
+longDescription: |
+  <p>With ChessX you can operate your collection of chess games in many ways: browse, edit, add, organize, analyze, etc.</p>
+  <p>Current features:  - Multi-platform. Supports Windows, Linux and Mac OS X.  - Load and save PGN files.  - Work with multiple databases simultaneously.  - Browse games, including variations.  - Enter moves, variations and comments.  - Setup board, copy/paste FEN.  - Search header (click on columns in game list header).  - Display opening tree for the current position.  - Analyze using UCI and Winboard/XBoard chess engines.  - Observe and play games on FICS.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chessx
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - pgn
+  - fen
+  - database
+iconSources:
+  - cached: chessx_chessx.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "PyChess",
+  "description": "PyChess è un client scacchistico completo, dal design gradevole e facile da usare per l'ambiente desktop Gnome",
+  "longDescription": "<p>L'obiettivo di PyChess è offrire un client per scacchi completo, dall'aspetto moderno e di semplice utilizzo per l'ambiente desktop Gnome.</p>\n<p>Il programma è pensato sia per chi si avvicina per la prima volta al gioco degli scacchi, sia per gli utenti più esperti che vogliono migliorare le proprie abilità sfruttando il computer.</p>\n<p>Caratteristiche principali: interfaccia a schede, supporto lettura/scrittura pgn ed epd, suggerimenti e modalità osservatore, compatibilità con motori xboard/cecp, motore interno basato su Python, libro delle aperture tramite sqlite, interfaccia e finestre di dialogo pulite, validatore di mosse integrato, evidenziazione delle mosse legali e supporto al drag & drop.</p>\n"
+}

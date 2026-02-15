@@ -1,0 +1,100 @@
+id: "fmit"
+name: FMIT
+description: "Free Musical Instrument Tuner (FMIT), a Tool for tuning musical instrument"
+longDescription: |
+  <p>
+        Find an estimation of the fundamental frequency (f0, not the perceived pitch) 
+        of an audio signal, in real-time, and compare it with the closest note in the 
+        scale.
+      </p>
+  <p>
+        Tune your musical instruments with advanced features, including traces of 
+        frequency and volume, adjustable base tuning frequency, multiple choices of 
+        tuning scale (chromatic, Werckmeister III, Kirnberger III, diatonic and 
+        meantone), microtonal tuning with Scala file (.scl) support and statistics.
+      </p>
+  <p>
+        Perform real-time sound analysis with views for waveform period, harmonics 
+        amplitude and Discrete Fourier Transform (DFT). Change various analysis 
+        parameters and tradeoff between precision and speed.
+      </p>
+  <p>
+        Choose between multiple sound capture systems, including ALSA and JACK.
+      </p>
+  <p>
+        Show or hide individual panels and go from a simple analog tuner view to an 
+        advanced real-time analysis toolset, or anywhere in between.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fmit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-1_orig.png
+    thumbnailUrl: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-1_624x351.png
+    width: 1200
+    height: 675
+  - url: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-2_orig.png
+    thumbnailUrl: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-2_624x351.png
+    width: 1200
+    height: 675
+  - url: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-3_orig.png
+    thumbnailUrl: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-3_624x351.png
+    width: 1200
+    height: 675
+  - url: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-4_orig.png
+    thumbnailUrl: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-4_624x351.png
+    width: 1200
+    height: 675
+  - url: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-5_orig.png
+    thumbnailUrl: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-5_624x351.png
+    width: 1200
+    height: 675
+  - url: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-6_orig.png
+    thumbnailUrl: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-6_624x351.png
+    width: 1200
+    height: 675
+  - url: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-7_orig.png
+    thumbnailUrl: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-7_624x351.png
+    width: 1200
+    height: 675
+  - url: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-8_orig.png
+    thumbnailUrl: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-8_624x351.png
+    width: 1200
+    height: 675
+  - url: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-9_orig.png
+    thumbnailUrl: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-9_624x351.png
+    width: 1200
+    height: 675
+  - url: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-10_orig.png
+    thumbnailUrl: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/screenshots/image-10_624x351.png
+    width: 1200
+    height: 675
+iconSources:
+  - url: f/fm/fmit.desktop/c5ce908ef323381730141ab6ffccfc07/icons/128x128/fmit_fmit.png
+    width: 128
+    height: 128
+developer: Gilles Degottex
+homepage: "https://gillesdegottex.github.io/fmit/"
+enabled: true
+order: 99

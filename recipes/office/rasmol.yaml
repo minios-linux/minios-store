@@ -1,0 +1,46 @@
+id: rasmol
+name: RasMol (classic version)
+description: View macro-molecules and prepare publication-quality images of them
+longDescription: |
+  <p>RasMol is a molecular graphics program intended for the visualisation of proteins, nucleic acids and small molecules. The program is aimed at display, teaching and generation of publication quality images.</p>
+  <p>The program reads in a molecule coordinate file and interactively displays the molecule on the screen in a variety of colour schemes and molecule representations. Currently available representations include depth-cued wireframes, &apos;Dreiding&apos; sticks, spacefilling (CPK) spheres, ball and stick, solid and strand biomolecular ribbons, atom labels and dot surfaces.</p>
+  <p>Supported input file formats include Protein Data Bank (PDB), Tripos Associates&apos; Alchemy and Sybyl Mol2 formats, Molecular Design Limited&apos;s (MDL) Mol file format, Minnesota Supercomputer Center&apos;s (MSC) XYZ (XMol) format, CHARMm format, CIF format and mmCIF format files.</p>
+  <p>This package installs two versions of RasMol, rasmol-gtk has a modern GTK-based user interface and rasmol-classic is the version with the old Xlib GUI.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rasmol
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - chemistry
+  - biology
+  - molecule
+  - protein
+  - pdb
+iconSources:
+  - cached: rasmol_rasmol.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

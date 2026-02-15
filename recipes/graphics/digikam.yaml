@@ -1,0 +1,72 @@
+id: "digikam"
+name: digiKam
+description: Photo Management Program
+longDescription: |
+  <p>digiKam is an advanced digital photo management application, which makes importing and organizing digital photos
+        a &quot;snap&quot;. The photos are organized in albums which can be sorted chronologically, by folder layout or
+  by custom
+        collections.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Organization of photos in albums and sub-albums (with tags and comments support)</li>
+    <li>Support for Exif, Iptc, Xmp, Makernotes</li>
+    <li>SQLite or Mysql powered storage for the album contents and its metadata with advanced search tools</li>
+    <li>Support for filtering and sorting albums</li>
+    <li>Import from more than 1100 digital camera devices</li>
+    <li>Support for more than 900 RAW format pictures</li>
+    <li>Light Table to compare photo side by side</li>
+    <li>Extended features using extra tools</li>
+    <li>Share your photos using HTML or publishing them to remote web services</li>
+    <li>Image editor included with advanced tools to fix photo quickly</li>
+  </ul>
+  
+categoryId: graphics
+icon: Camera
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - digikam
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/digikam.desktop/a33dad6d757a375fa1c28063cfdc87a8/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/digikam.desktop/a33dad6d757a375fa1c28063cfdc87a8/screenshots/image-1_624x332@1.png
+    width: 1816
+    height: 967
+  - url: org/kde/digikam.desktop/a33dad6d757a375fa1c28063cfdc87a8/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/digikam.desktop/a33dad6d757a375fa1c28063cfdc87a8/screenshots/image-2_624x302@1.png
+    width: 1947
+    height: 945
+  - url: org/kde/digikam.desktop/a33dad6d757a375fa1c28063cfdc87a8/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/digikam.desktop/a33dad6d757a375fa1c28063cfdc87a8/screenshots/image-3_624x402@1.png
+    width: 1878
+    height: 1210
+  - url: org/kde/digikam.desktop/a33dad6d757a375fa1c28063cfdc87a8/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/digikam.desktop/a33dad6d757a375fa1c28063cfdc87a8/screenshots/image-4_624x373@1.png
+    width: 2206
+    height: 1320
+  - url: org/kde/digikam.desktop/a33dad6d757a375fa1c28063cfdc87a8/screenshots/image-5_orig.png
+    thumbnailUrl: org/kde/digikam.desktop/a33dad6d757a375fa1c28063cfdc87a8/screenshots/image-5_624x386@1.png
+    width: 2058
+    height: 1275
+iconSources:
+  - url: org/kde/digikam.desktop/a33dad6d757a375fa1c28063cfdc87a8/icons/128x128/digikam_digikam.png
+    width: 128
+    height: 128
+developer: digiKam Project
+homepage: "http://www.digikam.org/"
+enabled: true
+order: 99

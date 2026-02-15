@@ -1,0 +1,34 @@
+id: libadwaita-1-examples
+name: Adwaita Demo
+description: Tour of the features in Libadwaita
+longDescription: |
+  <p>
+        Adwaita Demo is a collection of examples that demonstrate Libadwaita
+        features.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libadwaita-1-examples
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - libadwaita
+screenshotSources:
+  - url: org/gnome/Adwaita1.Demo/53bf2887fa54e30e82d589e00ecefcd1/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Adwaita1.Demo/53bf2887fa54e30e82d589e00ecefcd1/screenshots/image-1_624x472@1.png
+    width: 922
+    height: 698
+iconSources:
+  - url: org/gnome/Adwaita1.Demo/53bf2887fa54e30e82d589e00ecefcd1/icons/128x128/libadwaita-1-examples_org.gnome.Adwaita1.Demo.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.gnome.org/GNOME/libadwaita"
+enabled: true
+order: 99

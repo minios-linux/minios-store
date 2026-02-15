@@ -1,0 +1,57 @@
+id: "rkward"
+name: RKward
+description: KDE frontend to the R statistics language
+longDescription: |
+  <p>
+        RKWard aims to become an easy to use, transparent frontend to R,
+        a powerful system for statistical computation and graphics.
+        Besides a convenient GUI for the most important statistical functions,
+        future versions will also provide seamless integration with an
+        office-suite.
+      </p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rkward
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - statistics
+  - data
+  - r
+screenshotSources:
+  - url: org/kde/rkward/3bfc884a9991e61eb0060bfe710b6801/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/rkward/3bfc884a9991e61eb0060bfe710b6801/screenshots/image-1_624x398@1.png
+    width: 1287
+    height: 822
+  - url: org/kde/rkward/3bfc884a9991e61eb0060bfe710b6801/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/rkward/3bfc884a9991e61eb0060bfe710b6801/screenshots/image-2_624x415@1.png
+    width: 1217
+    height: 811
+  - url: org/kde/rkward/3bfc884a9991e61eb0060bfe710b6801/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/rkward/3bfc884a9991e61eb0060bfe710b6801/screenshots/image-3_624x491@1.png
+    width: 1177
+    height: 928
+  - url: org/kde/rkward/3bfc884a9991e61eb0060bfe710b6801/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/rkward/3bfc884a9991e61eb0060bfe710b6801/screenshots/image-4_624x398@1.png
+    width: 1287
+    height: 822
+iconSources:
+  - url: org/kde/rkward/3bfc884a9991e61eb0060bfe710b6801/icons/128x128/rkward_rkward.png
+    width: 128
+    height: 128
+homepage: "https://rkward.kde.org"
+enabled: true
+order: 99

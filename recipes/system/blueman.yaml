@@ -1,0 +1,33 @@
+id: "blueman"
+name: Bluetooth Manager
+description: Blueman Bluetooth Manager
+longDescription: |
+  <p>Blueman is a GTK+ bluetooth management utility for GNOME using bluez D-Bus backend.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - blueman
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: b/bl/blueman-manager.desktop/cc7d31802f9bdcb479b45d43dc47c0af/icons/128x128/blueman_blueman.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

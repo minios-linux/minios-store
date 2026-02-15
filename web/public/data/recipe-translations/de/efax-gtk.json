@@ -1,0 +1,5 @@
+{
+  "name": "Efax-gtk",
+  "description": "Grafische Oberfläche für das efax-Faxprogramm",
+  "longDescription": "<p>Efax-gtk ist eine GTK+-basierte Oberfläche für das efax-Programm. Sie ermöglicht das Senden und Empfangen von Faxen mit einem Faxmodem sowie das Anzeigen, Drucken und Verwalten empfangener Faxe.</p>\n<p>Zusätzlich bietet sie eine Socket-Schnittstelle zur Bereitstellung eines \"virtuellen Druckers\" für das Versenden von Faxen direkt aus Textverarbeitungen und ähnlichen Anwendungen. Empfangene Faxe können automatisch per E-Mail an einen festgelegten Nutzer weitergeleitet oder direkt ausgedruckt werden.</p>\n"
+}

@@ -1,0 +1,52 @@
+id: "workrave"
+name: Workrave
+description: Assists in the prevention and recovery of Repetitive Strain Injury (RSI)
+longDescription: |
+  <p>Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit.</p>
+  <p>It includes a system tray applet that works with GNOME and KDE and has network capabilities to monitor your activity even if switching back and forth between different computers is part of your job.</p>
+  <p>Workrave offers many more configuration options than other similar tools.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - workrave
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - typing
+  - break
+  - timer
+  - wrists
+  - health
+  - rsi
+screenshotSources:
+  - url: org/workrave/workrave/553f2eb00626bfa56659248441984cb4/screenshots/image-1_orig.png
+    thumbnailUrl: org/workrave/workrave/553f2eb00626bfa56659248441984cb4/screenshots/image-1_224x141@1.png
+    width: 584
+    height: 369
+iconSources:
+  - url: org/workrave/workrave/553f2eb00626bfa56659248441984cb4/icons/128x128/workrave_workrave.png
+    width: 128
+    height: 128
+homepage: "https://www.workrave.org/"
+enabled: true
+order: 99

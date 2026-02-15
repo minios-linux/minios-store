@@ -1,0 +1,5 @@
+{
+  "name": "Boomaga",
+  "description": "Imprimante virtuelle pour visualiser et modifier un document avant impression.",
+  "longDescription": "<p>Boomaga (BOOklet MAnager) est une imprimante virtuelle permettant de visualiser un document avant de l’imprimer sur une imprimante physique.</p>\n<p>Le programme est très simple à utiliser. Depuis n’importe quelle application, cliquez sur « Imprimer » et choisissez « Boomaga » : après quelques secondes (le temps que CUPS réponde), la fenêtre Boomaga s’ouvre.</p>\n<p>Si vous imprimez un autre document, il s’ajoute au précédent et vous pouvez les imprimer ensemble en un seul travail.</p>\n<p>Que votre imprimante gère ou non l’impression recto-verso, vous pourrez facilement imprimer sur les deux faces du papier.</p>\n"
+}

@@ -1,0 +1,38 @@
+id: "xvile"
+name: UXVile
+description: VI Like Emacs
+longDescription: |
+  <p>vile is a text editor which is extremely compatible with vi in terms of ``finger feel&apos;&apos;.  In addition, it has extended capabilities in many areas, notably multi-file editing and viewing, syntax highlighting, key rebinding, an optional embedded perl interpreter, and real X window system support.</p>
+  <p>This package contains the X11 binary.  Required support files are contained in vile-common.  Source code highlighting filters are in vile-filters.  A character-mode binary is in the vile package.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xvile
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: x/xv/xvile.desktop/53395ed337d48bb5b13e8999ba489ae1/icons/128x128/xvile_vile.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

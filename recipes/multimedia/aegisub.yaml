@@ -1,0 +1,41 @@
+id: "aegisub"
+name: Aegisub
+description: Create and edit subtitles for film and videos.
+longDescription: |
+  <p>Originally created as tool to make typesetting, particularly in anime fansubs, a less painful experience, Aegisub has grown into a fully fledged, highly customizable subtitle editor.</p>
+  <p>It features a lot of convenient tools to help you with timing, typesetting, editing and translating subtitles, as well as a powerful scripting environment called Automation (originally mostly intended for creating karaoke effects, Automation can now be used much else, including creating macros and various other convenient tools).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - aegisub
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - subtitles
+  - video
+  - audio
+  - text
+iconSources:
+  - url: org/aegisub/desktop/d8d0bf918fa280d7c1d4d40c4a454126/icons/128x128/aegisub_aegisub.png
+    width: 128
+    height: 128
+developer: Aegisub Group
+homepage: "http://www.aegisub.org"
+enabled: true
+order: 99

@@ -1,0 +1,46 @@
+id: xball
+name: XBall
+description: Simulates bouncing balls in a window
+longDescription: |
+  <p>
+      This program simulates bouncing balls in a window.  You create the balls
+      in a variety of ways, and can set the gravity, elasticity, whether balls
+      collide or not, etc.</p>
+  <p>
+      Software features user-configurable menus, and a DrawingArea widget for
+      use with other Athena widgets.</p>
+  <p>
+      All resources are contained within the program as fallback resources, so,
+      it is not strictly neccessary to install the app-defaults file, except
+      that when using Athena widgets, since the keyboard accelertors will not
+      work if the app-defauls file is not installed.</p>
+  <p>
+      To run the included demos, open a console terminal and type 'run_demos'.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xball
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - balls
+  - x
+  - window
+  - bouncing
+screenshotSources:
+  - url: x/xb/xball/73059b834ceaa21ab50ca8315f019845/screenshots/image-1_orig.png
+    width: 114
+    height: 120
+iconSources:
+  - url: x/xb/xball/73059b834ceaa21ab50ca8315f019845/icons/128x128/xball_xball.png
+    width: 128
+    height: 128
+homepage: "https://tracker.debian.org/pkg/xball"
+enabled: true
+order: 99

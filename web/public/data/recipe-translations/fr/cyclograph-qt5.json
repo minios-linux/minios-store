@@ -1,0 +1,5 @@
+{
+  "name": "Cyclograph Qt",
+  "description": "Trace les profils d'altitude des parcours cyclistes.",
+  "longDescription": "<p>CycloGraph est une application permettant de tracer le profil d'altitude des parcours. Elle met en avant la visualisation graphique de la difficulté d'un itinéraire, en termes de pente, de dénivelé, etc. Ces graphiques sont couramment utilisés dans les compétitions cyclistes, mais ils sont également utiles pour d'autres activités comme la randonnée ou la course à pied.</p>\n<p>Ce paquet propose l'interface Qt 5 de CycloGraph.</p>\n"
+}

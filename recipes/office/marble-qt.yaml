@@ -1,0 +1,38 @@
+id: "marble-qt"
+name: Marble
+description: Navigation and Maps
+longDescription: |
+  <p>Marble is a generic geographical map widget and framework for KDE applications. The Marble widget shows the earth as a sphere but does not require hardware acceleration.  A minimal set of geographical data is included, so it can be used without an internet connection.</p>
+  <p>This package is part of the KDE education module.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - marble-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: org/kde/marble-qt/c45c0e7752c1eae13fada5d5e531cd19/icons/128x128/marble-qt_marble.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

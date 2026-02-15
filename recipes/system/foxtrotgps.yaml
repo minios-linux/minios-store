@@ -1,0 +1,42 @@
+id: foxtrotgps
+name: FoxtrotGPS
+description: Display map and GPS position
+longDescription: |
+  <p>foxtrotGPS is a map and GPS application. By default, it uses maps from OpenStreetMap. The available features include downloading and displaying tiled maps, recording GPS tracks, automatic map centering, storing points of interest, geocoding photos, setting waypoints, monitoring heartrate via Bluetooth, planning travel routes and finding travel routes using external services on the Internet based on OpenStreetMap.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - foxtrotgps
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - openstreetmap
+  - osm
+  - track
+  - trip
+  - map
+  - location
+iconSources:
+  - cached: foxtrotgps_foxtrotgps.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

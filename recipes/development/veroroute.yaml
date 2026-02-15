@@ -1,0 +1,35 @@
+id: veroroute
+name: VeroRoute
+description: Qt based Veroboard/Perfboard/PCB layout and routing application
+longDescription: |
+  <p>Software for producing Veroboard (stripboard), Perfboard, and simple 1-layer or 2-layer PCBs. Automatically prevents short circuits and checks for open circuits. It can import netlist from a TinyCAD, gEDA, or KiCad schematic, or specify the netlist graphically. It exports Gerber for simple 1-layer or 2-layer PCB manufacture.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - veroroute
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - veroboard
+  - stripboard
+  - perfboard
+  - pcb
+  - layout
+  - routing
+  - eda
+  - circuit
+  - electronics
+iconSources:
+  - cached: veroroute_veroroute.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

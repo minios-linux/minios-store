@@ -1,0 +1,26 @@
+id: bluewho
+name: BlueWho
+description: Information and notification of new discovered bluetooth devices
+longDescription: |
+  <p>BlueWho informs and notifies when a new bluetooth device is discovered. Detection can be requested by the user or automatically continuous until it&apos;s stopped. A visible and audible notification can be triggered whenever a new device is detected.</p>
+  <p>Each device found will be saved on the list as well its name, MAC address, last seen date and time. For each device a list of available Bluetooth services can be requested.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bluewho
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: bluewho_bluewho.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

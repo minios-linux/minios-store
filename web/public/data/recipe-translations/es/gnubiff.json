@@ -1,0 +1,5 @@
+{
+  "name": "Gnubiff",
+  "description": "Gnubiff es un programa de notificación de correo electrónico.",
+  "longDescription": "<p>gnubiff verifica la existencia de correo en un archivo, en un directorio estilo qmail o MH, o en servidores IMAP4, POP3 o APOP. Puede mostrar los encabezados (cantidad, remitente, asunto y fecha) cuando llega un nuevo correo.</p>\n<p>Aunque gnubiff está implementado como un applet para el panel de GNOME, también puede ejecutarse como un icono independiente en el escritorio de otros entornos.</p>\n"
+}

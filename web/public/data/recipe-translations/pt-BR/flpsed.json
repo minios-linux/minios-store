@@ -1,0 +1,5 @@
+{
+  "name": "flpsed",
+  "description": "Anotador simples para arquivos PS/PDF",
+  "longDescription": "<p>flpsed é um editor WYSIWYG pseudo-PostScript. \"Pseudo\" porque não é possível remover ou modificar elementos existentes em um documento. Entretanto, o flpsed permite adicionar linhas de texto em documentos PostScript 1 já existentes. As linhas adicionadas podem ser reeditadas posteriormente pelo próprio flpsed.</p>\n<p>Utilizando o pdftops, que faz parte do xpdf, é possível converter documentos PDF para PostScript e também adicionar textos neles. O flpsed é útil para preencher formulários, adicionar anotações, entre outras funções.</p>\n"
+}

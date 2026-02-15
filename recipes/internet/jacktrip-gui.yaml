@@ -1,0 +1,57 @@
+id: "jacktrip-gui"
+name: JackTrip
+description: Connect and play with other musicians
+longDescription: |
+  <p>
+        JackTrip is a cross-platform multi-machine audio system
+        used for network music performance over the Internet.
+        It supports any number of channels (as many as the computer/network can handle)
+        of bidirectional, high quality, uncompressed audio signal streaming.
+      </p>
+  <p>
+        You can use it between any combination of machines e.g., one end using
+        Linux can connect to another using Mac OSX.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jacktrip-gui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/jacktrip/JackTrip/32da8a376ee9d863433feba25f5e9df4/screenshots/image-1_orig.png
+    thumbnailUrl: org/jacktrip/JackTrip/32da8a376ee9d863433feba25f5e9df4/screenshots/image-1_624x1340@1.png
+    width: 874
+    height: 1878
+  - url: org/jacktrip/JackTrip/32da8a376ee9d863433feba25f5e9df4/screenshots/image-2_orig.png
+    thumbnailUrl: org/jacktrip/JackTrip/32da8a376ee9d863433feba25f5e9df4/screenshots/image-2_624x1340@1.png
+    width: 874
+    height: 1878
+  - url: org/jacktrip/JackTrip/32da8a376ee9d863433feba25f5e9df4/screenshots/image-3_orig.png
+    thumbnailUrl: org/jacktrip/JackTrip/32da8a376ee9d863433feba25f5e9df4/screenshots/image-3_624x980@1.png
+    width: 874
+    height: 1374
+  - url: org/jacktrip/JackTrip/32da8a376ee9d863433feba25f5e9df4/screenshots/image-4_orig.png
+    thumbnailUrl: org/jacktrip/JackTrip/32da8a376ee9d863433feba25f5e9df4/screenshots/image-4_624x1282@1.png
+    width: 914
+    height: 1878
+iconSources:
+  - url: org/jacktrip/JackTrip/32da8a376ee9d863433feba25f5e9df4/icons/128x128/jacktrip-gui_org.jacktrip.JackTrip.png
+    width: 128
+    height: 128
+developer: The JackTrip Community
+homepage: "https://github.com/jacktrip/jacktrip"
+enabled: true
+order: 99

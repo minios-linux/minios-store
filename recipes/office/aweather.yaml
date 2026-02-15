@@ -1,0 +1,23 @@
+id: aweather
+name: AWeather
+description: Advanced weather reporting program
+longDescription: |
+  <p>AWeather is an advanced weather program which is designed to be used by weather enthusiasts. AWeather is not a weather dockapp that simply displays a pre-computed forecast. It is designed to be an easy-to-use program that integrates a variety of weather data in a simple unified interface. AWeather currently supports radar and weather alerts from the United State National Weather Service.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - aweather
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: aweather_aweather.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

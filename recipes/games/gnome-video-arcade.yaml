@@ -1,0 +1,35 @@
+id: "gnome-video-arcade"
+name: GNOME Video Arcade
+description: Play classic arcade games
+longDescription: |
+  <p>GNOME Video Arcade is a simple MAME frontend for the GNOME desktop. Its goal is not providing a UI for the many options MAME supports, or helping manage a ROM collection: the focus is on a clean interface that allows quick search and launch of games, thanks to the use of tags.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-video-arcade
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: g/gn/gnome-video-arcade.desktop/c50ec2a38a0011725230e1c9125e5e2a/icons/128x128/gnome-video-arcade_gnome-video-arcade.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

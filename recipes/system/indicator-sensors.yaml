@@ -1,0 +1,52 @@
+id: "indicator-sensors"
+name: Hardware Sensors Indicator
+description: "Provides temperature, fan and voltage sensor readings within the panel of your desktop"
+longDescription: |
+  <p>
+        Hardware Sensors Indicator provides temperature, fan and voltage sensor
+        readings within the panel of your desktop.
+      </p>
+  <p>
+        When running GNOME Shell a shell extension is required to view
+        sensors readings within the top panel. Therefore it is recommended to
+        also install either the KStatusNotifierItem/AppIndicator Support
+        extension
+        https://extensions.gnome.org/extension/615/appindicator-support/, or
+        the Hardware Sensors Indicator extension
+        https://extensions.gnome.org/extension/336/hardware-sensors-indicator/
+        so that sensor readings are visible.
+        </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - indicator-sensors
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: i/in/indicator-sensors.desktop/92e92d3a2db8cb562ba99600614e1600/screenshots/image-1_orig.png
+    thumbnailUrl: i/in/indicator-sensors.desktop/92e92d3a2db8cb562ba99600614e1600/screenshots/image-1_224x281.png
+    width: 247
+    height: 310
+iconSources:
+  - url: i/in/indicator-sensors.desktop/92e92d3a2db8cb562ba99600614e1600/icons/128x128/indicator-sensors_indicator-sensors.png
+    width: 128
+    height: 128
+homepage: "https://github.com/alexmurray/indicator-sensors"
+enabled: true
+order: 99

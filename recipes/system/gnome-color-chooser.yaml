@@ -1,0 +1,24 @@
+id: gnome-color-chooser
+name: GNOME Color Chooser
+description: Customize your GNOME desktop
+longDescription: |
+  <p>This is an application for customizing the appearance of the GNOME desktop.</p>
+  <p>Features:  * change most important colors (e.g. background, window decoration, tooltips)  * change colors and sizes of GTK+ widgets  * colorize desktop icons  * configure installed GTK+ engines and let your current theme be drawn    by an installed GTK+ engine of your choice</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-color-chooser
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gnome-color-chooser_gnome-color-chooser.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

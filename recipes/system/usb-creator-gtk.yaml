@@ -1,0 +1,31 @@
+id: "usb-creator-gtk"
+name: Startup Disk Creator
+description: Create a startup disk using a CD or disc image
+longDescription: |
+  <p>Startup Disk Creator converts a USB key or SD card into a volume from which you can start up and run Ubuntu. You can also store files and settings in any space left over.</p>
+  <p>The program also works for Debian, or any other Debian-based OS for which you have a CD or .iso image.</p>
+  <p>This package contains the GTK+ client frontend.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - usb-creator-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: u/us/usb-creator-gtk.desktop/f3eba7ebc2c421def951e93c1560644b/icons/128x128/usb-creator-gtk_usb-creator-gtk.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "PerlPrimer",
+  "description": "Design gráfico de primers para PCR e sequenciamento",
+  "longDescription": "<p>O PerlPrimer é um aplicativo gratuito e de código aberto, com interface gráfica, escrito em Perl, que projeta primers para PCR convencional, PCR com bissulfito, PCR em tempo real (QPCR) e sequenciamento. Seu objetivo é automatizar e simplificar o processo de desenho de primers.</p>\n<p>Quando utilizado online, a ferramenta se integra ao projeto Ensembl para fornecer informações adicionais sobre a estrutura gênica, permitindo considerar a localização de éxons e íntrons no projeto dos primers. Também é possível recuperar as próprias sequências.</p>\n"
+}

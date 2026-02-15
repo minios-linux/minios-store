@@ -1,0 +1,45 @@
+id: "ksnakeduel"
+name: KSnakeDuel
+description: Tron-like Game
+longDescription: |
+  <p>KSnakeDuel is a simple Tron-Clone. You can play KSnakeDuel against the computer or a friend.
+        The aim of the game is to live longer than your opponent. To do that, avoid running into a
+        wall, your own tail and that of your opponent.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ksnakeduel
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/ksnakeduel/3a61559a4dae03dedd0790c18cad12e0/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/ksnakeduel/3a61559a4dae03dedd0790c18cad12e0/screenshots/image-1_624x482@1.png
+    width: 886
+    height: 685
+iconSources:
+  - url: org/kde/ksnakeduel/3a61559a4dae03dedd0790c18cad12e0/icons/128x128/ksnakeduel_ksnakeduel.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/applications/games/org.kde.ksnakeduel"
+enabled: true
+order: 99

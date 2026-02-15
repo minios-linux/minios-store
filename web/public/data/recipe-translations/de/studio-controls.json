@@ -1,0 +1,5 @@
+{
+  "name": "Studio Controls",
+  "description": "Audio-, Video- und Grafik-Einstellungen",
+  "longDescription": "<p>Studio Controls ist eine schlanke Anwendung zum Aktivieren oder Deaktivieren von Echtzeitrechten für Benutzer und zur Steuerung von jackdbus. Sie ermöglicht das Starten von Jackdbus direkt zu Beginn einer Sitzung. Zudem werden nachträglich angeschlossene USB-Audiogeräte erkannt und können automatisch entweder als Client an jackdbus angebunden oder als neuer jackdbus-Master eingestellt werden.</p>\n"
+}

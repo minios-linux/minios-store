@@ -1,0 +1,28 @@
+id: gnustep-dl2
+name: DBModeler
+description: Database Access Modeler
+longDescription: |
+  <p>GNUstep Database Library Version 2 is needed by GNUstep applications that communicate with databases.  It&apos;s an implementation of Apple&apos;s Enterprise Objects Framework (EOF) v 3.0 (from NeXT), and Apple&apos;s WebObjects 4.5 interface.</p>
+  <p>This package contains the EOModelEditor application, the eoutil/gdlgsdoc tools and the GDL2 palette for Gorm.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnustep-dl2
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gdl2
+  - eomodel
+  - editor
+iconSources:
+  - cached: gnustep-dl2_app-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

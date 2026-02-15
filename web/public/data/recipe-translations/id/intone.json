@@ -1,0 +1,5 @@
+{
+  "name": "Intone",
+  "description": "Pemutar musik sederhana untuk perangkat mobile",
+  "longDescription": "<p>Intone adalah antarmuka berbasis Elementary untuk mplayer yang ditulis dalam bahasa C.</p>\n<p>Aplikasi ini awalnya dibuat untuk Openmoko Freerunner, namun juga dapat dijalankan di sistem lain. Selain fitur umum yang biasa ditemukan pada pemutar audio, Intone mendukung headset A2DP (audio via Bluetooth) dan dapat berinteraksi dengan FSO untuk mendeteksi panggilan telepon (musik akan dijeda saat ada panggilan).</p>\n"
+}

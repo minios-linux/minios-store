@@ -1,0 +1,30 @@
+id: "emacs-gtk"
+name: Emacs (GUI)
+description: "GNU Emacs is an extensible, customizable text editor - and more"
+longDescription: |
+  <p>GNU Emacs is the extensible self-documenting text editor.  This package contains a version of Emacs with a graphical user interface based on GTK+ (instead of the Lucid toolkit provided by the emacs-lucid package).</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - emacs-gtk
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - text
+  - editor
+iconSources:
+  - url: e/em/emacs.desktop/de549c5cad67f45f659844e4c3a0f068/icons/128x128/emacs-gtk_emacs.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

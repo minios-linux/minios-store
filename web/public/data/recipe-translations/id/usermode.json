@@ -1,0 +1,5 @@
+{
+  "name": "Manajemen Disk",
+  "description": "Mount dan unmount sistem berkas",
+  "longDescription": "<p>Paket usermode menyediakan beberapa alat grafis untuk pengguna: userinfo, usermount, dan userpasswd. Userinfo memungkinkan pengguna mengubah informasi finger mereka. Usermount memungkinkan pengguna melakukan mount, unmount, dan format sistem berkas. Userpasswd memungkinkan pengguna mengganti kata sandi mereka.</p>\n<p>Instal paket usermode jika Anda ingin menyediakan alat grafis bagi pengguna untuk tugas manajemen akun tertentu.</p>\n"
+}

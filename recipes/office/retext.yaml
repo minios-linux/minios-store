@@ -1,0 +1,51 @@
+id: "retext"
+name: ReText
+description: Simple text editor for Markdown and reStructuredText
+longDescription: |
+  <p>ReText is a text editor for plain text markup languages, such as Markdown and reStructuredText.</p>
+  <p>It supports tabs, live text preview, synchronized scrolling (for Markdown) and syntax highlighting.</p>
+  <p>ReText can export to HTML, ODT and PDF formats. It is also possible to write custom export extensions.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - retext
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+  - markdown
+  - restructuredtext
+screenshotSources:
+  - url: me/mitya57/ReText/6d0cffae3fbe29667b69849c19c84bae/screenshots/image-1_orig.png
+    thumbnailUrl: me/mitya57/ReText/6d0cffae3fbe29667b69849c19c84bae/screenshots/image-1_624x351@1.png
+    width: 1072
+    height: 603
+iconSources:
+  - url: me/mitya57/ReText/6d0cffae3fbe29667b69849c19c84bae/icons/128x128/retext_retext.png
+    width: 128
+    height: 128
+developer: Dmitry Shachnev
+homepage: "https://github.com/retext-project/retext"
+enabled: true
+order: 99

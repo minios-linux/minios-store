@@ -1,0 +1,5 @@
+{
+  "name": "JackEQ",
+  "description": "mengarahkan dan memanipulasi audio dari/ke berbagai sumber",
+  "longDescription": "<p>jackEQ adalah alat untuk mengarahkan dan memanipulasi audio dari/ke berbagai sumber input/output. Aplikasi ini berjalan di JACK Audio Connection Kit dan menggunakan LADSPA untuk pemrosesan DSP backend-nya, khususnya plugin DJ EQ swh yang dibuat oleh Steve Harris, salah satu penulis utama jackEQ.</p>\n<p>jackEQ dirancang agar pengguna dapat menyesuaikan treble, mid, dan bass pada output aplikasi yang kompatibel dengan JACK dengan mudah. Ditujukan khusus untuk pertunjukan live, jackEQ dibuat berdasarkan berbagai konsol mixing DJ yang biasa digunakan penulis utamanya.</p>\n<p>jackEQ memungkinkan pengolahan suara yang kaya dan bertenaga seperti Jackie O, dan cerdas seperti Jackie Brown. jackEQ mungkin menjadi entitas perempuan pertama di dunia JACK. Apakah jackEQ lebih dari yang bisa Anda tangani?</p>\n"
+}

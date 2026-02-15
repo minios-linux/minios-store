@@ -1,0 +1,5 @@
+{
+  "name": "eboard",
+  "description": "Un programme d’échiquier graphique",
+  "longDescription": "<p>eboard est un programme d'échecs graphique qui peut servir d'interface aux serveurs d’échecs en ligne tels que FICS, ainsi qu’aux moteurs d'échecs comme Crafty.</p>\n<p>eboard propose un échiquier personnalisable et redimensionnable à volonté, un affichage par onglets ou en fenêtres multiples, et prend en charge plusieurs plateaux simultanés.</p>\n<p>Ce paquet fournit une interface d’échecs, ce qui vous permet de jouer contre une autre personne sur le même ordinateur ou sur un serveur Internet. Pour jouer contre l’ordinateur, installez également un moteur d’échecs tel que gnuchess.</p>\n"
+}

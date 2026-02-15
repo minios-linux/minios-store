@@ -1,0 +1,25 @@
+id: qwbfsmanager
+name: QWBFS Manager
+description: QWBFS Manager is a graphical user interface (GUI) for working with WBFS filesystem formatted hard disk drive.
+longDescription: |
+  <p>QWBFS Manager is a graphical user interface (GUI) for working with the Wii Backup Filesystem (WBFS) filesystem formatted hard disk drive.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qwbfsmanager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: q/qw/QWBFSManager.desktop/AF98096575D03A447395CD1DADBB1820/icons/128x128/qwbfsmanager_qwbfsmanager.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

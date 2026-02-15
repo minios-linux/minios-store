@@ -1,0 +1,41 @@
+id: "kmouth"
+name: KMouth
+description: Speech Synthesizer Frontend
+longDescription: |
+  <p>KMouth is a program which enables persons that cannot speak to let their computer speak, e.g. mutal people or people who have lost their voice. It has a text input field and speaks the sentences that you enter. It also has support for user defined phrasebooks.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kmouth
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kmouth/e3f1856714017f70526fbfb4efbf62b7/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kmouth/e3f1856714017f70526fbfb4efbf62b7/screenshots/image-1_624x489@1.png
+    width: 744
+    height: 584
+iconSources:
+  - url: org/kde/kmouth/e3f1856714017f70526fbfb4efbf62b7/icons/128x128/kmouth_kmouth.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org/applications/utilities/kmouth/"
+enabled: true
+order: 99

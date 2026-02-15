@@ -1,0 +1,5 @@
+{
+  "name": "Gestionnaire de presse-papiers",
+  "description": "Outil de recherche et de gestion de l’historique du presse-papiers",
+  "longDescription": "<p>nwg-clipman est une interface graphique basée sur GTK3 pour cliphist de Senan Kelly. Il permet d’accéder aux éléments copiés précédemment et de gérer l’historique du presse-papiers via une fenêtre ouverte sur gtk-layer-shell. Le programme est conçu pour être utilisé avec sway, Hyprland et d'autres compositeurs Wayland basés sur wlroots.</p>\n<p>Fonctionnalités  – aperçu des éléments (texte et images) dans l’historique ;  – recherche dans l’historique par phrase ;  – suppression d’un élément de l’historique ;  – effacement complet de l’historique.</p>\n<p>Ce programme fait partie du projet nwg-shell.</p>\n"
+}

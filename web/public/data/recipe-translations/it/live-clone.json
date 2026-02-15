@@ -1,0 +1,5 @@
+{
+  "name": "Live Clone",
+  "description": "Clonazione di supporti Live-Boot",
+  "longDescription": "<p>Questa applicazione consente di creare chiavette USB avviabili da un’immagine iso-ibrida generata con Live-Build. Adatta inoltre una partizione di persistenza per utilizzare lo spazio libero sulla chiavetta USB.</p>\n<p>Include strumenti di gestione per chiavette USB live: quando questi dischi vengono usati quotidianamente, possono presentarsi delle inconsistenze nell’area di persistenza che li rendono inutilizzabili. Sono disponibili strumenti per salvare i dati di persistenza quando necessario e per azzerare l’area di persistenza, in modo da poter riutilizzare il disco USB.</p>\n<p>L’applicazione rileva automaticamente se viene eseguita da un ambiente Debian-Live, offrendo così una funzione di auto-clonazione senza intervento dell’utente.</p>\n"
+}

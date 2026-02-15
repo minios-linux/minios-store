@@ -1,0 +1,5 @@
+{
+  "name": "plan",
+  "description": "Agenda de mesa",
+  "longDescription": "<p>Plan é um planejador de compromissos baseado em X/Motif. Ele exibe um calendário mensal semelhante ao xcal, mas cada caixa de dia é grande o suficiente para mostrar compromissos em letra pequena. Ao clicar em um dia, os compromissos daquele dia podem ser listados e editados. Os compromissos são registrados com as seguintes informações (tudo exceto o horário é opcional):</p>\n<p> - data, horário e duração do compromisso,  - mensagem de texto opcional a ser exibida,  - script opcional a ser executado,  - alertas de antecedência e atraso que precedem o horário do compromisso,  - repetições: [n-ésimo] dia da semana, dia do mês, a cada n dias, anual,  - entrada rápida de compromissos pela linha de comando,  - formas flexíveis de especificar feriados e férias,  - ajuda contextual extensa,  - recurso multiusuário utilizando o servidor netplan, fornecido pelo pacote netplan.</p>\n"
+}

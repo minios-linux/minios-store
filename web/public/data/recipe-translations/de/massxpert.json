@@ -1,0 +1,5 @@
+{
+  "name": "Massenspektrometrie-Software",
+  "description": "Modellierung und Simulation von Massenspektrometriedaten",
+  "longDescription": "<p>\n\n\t\t\t\tmassxpert ist ein Programm zur Modellierung von Polymerchemie (wie zum Beispiel Proteinen oder\n\t\t\t\tSacchariden) und zur Nutzung dieser Modelle für die Simulation chemischer Reaktionen sowie der\n\t\t\t\tMassenspektraldaten, die aus den Reaktionsprodukten gewonnen werden.\n\n\t\t\t</p>\n<p>Der Prozess lässt sich wie folgt zusammenfassen:</p>\n<ul>\n  <li>Definition einer völlig neuen Polymerchemie (zum Beispiel Protein, das mit dem\n\t\t\t\t\tPaket geliefert wird);</li>\n  <li>Bearbeitung einer Polymersequenz (in diesem Beispiel eine Proteinsequenz);</li>\n  <li>Durchführung chemischer Simulationen, wie zum Beispiel Proteinverdau, und\n\t\t\t\t\tErfassung aller Massendaten im Zusammenhang mit den gewonnenen Peptiden;</li>\n  <li>Auswahl eines Peptids und Durchführung einer Gasphasenfragmentierung; Erfassung der\n\t\t\t\t\tMassendaten, die allen theoretisch erwarteten Fragmenten entsprechen.</li>\n</ul>\n"
+}

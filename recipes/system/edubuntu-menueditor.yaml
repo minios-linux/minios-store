@@ -1,0 +1,25 @@
+id: edubuntu-menueditor
+name: Edubuntu menu editor - Profile manager
+description: Edubuntu menu editor - Profile manager
+longDescription: |
+  <p>This program can be used to apply different profile to user on a system. First, create a menu archive using menueditor, then apply it with profilemanager. Those applications can be used to apply menu profiles to groups so the administrator can manages them for the system instead of managing files in user home directory.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - edubuntu-menueditor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+iconSources:
+  - cached: edubuntu-menueditor_edubuntu-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

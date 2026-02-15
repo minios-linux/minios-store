@@ -1,0 +1,35 @@
+id: "scratch"
+name: Scratch
+description: Programming system and content development tool
+longDescription: |
+  <p>Scratch is an easy, interactive, collaborative programming environment designed for creation of interactive stories, animations, games, music, and art -- and sharing these on the web. Scratch is designed to help young people (ages 8 and up) develop 21st century learning skills. As they create Scratch projects, young people learn important mathematical and computational ideas, while also gaining a deeper understanding of the process of design.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - scratch
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: scratch_scratch.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

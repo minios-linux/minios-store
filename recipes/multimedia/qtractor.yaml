@@ -1,0 +1,59 @@
+id: "qtractor"
+name: Qtractor
+description: An Audio/MIDI multi-track sequencer
+longDescription: |
+  <p>Qtractor is an Audio/MIDI multi-track sequencer application
+    written in C++ around the Qt framework using Qt Designer.</p>
+  <p>The initial target platform will be Linux, where the Jack Audio
+    Connection Kit (JACK) for audio, and the Advanced Linux Sound
+    Architecture (ALSA) for MIDI, are the main infrastructures to
+    evolve as a fairly-featured Linux Desktop Audio Workstation GUI,
+    specially dedicated to the personal home-studio.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtractor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - midi
+  - multitrack
+  - sequencer
+  - daw
+  - alsa
+  - jack
+  - ladspa
+  - dssi
+  - vst
+screenshotSources:
+  - url: org/rncbc/qtractor/1364894b40597ac7b84bf8dd48114662/screenshots/image-1_orig.png
+    thumbnailUrl: org/rncbc/qtractor/1364894b40597ac7b84bf8dd48114662/screenshots/image-1_624x499@1.png
+    width: 800
+    height: 640
+iconSources:
+  - url: org/rncbc/qtractor/1364894b40597ac7b84bf8dd48114662/icons/128x128/qtractor_org.rncbc.qtractor.png
+    width: 128
+    height: 128
+developer: rncbc aka. Rui Nuno Capela
+homepage: "http://qtractor.org"
+enabled: true
+order: 99

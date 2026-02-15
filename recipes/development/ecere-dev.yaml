@@ -1,0 +1,29 @@
+id: ecere-dev
+name: Ecere IDE
+description: Ecere IDE
+longDescription: |
+  <p>This package provides the compiling tools for the eC language, the Ecere IDE, as well as the symlinks for the Ecere libraries.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ecere-dev
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - ec
+  - code
+  - development
+iconSources:
+  - cached: ecere-dev_ecere.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

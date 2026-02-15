@@ -1,0 +1,54 @@
+id: "kasts"
+name: Kasts
+description: Podcast application
+longDescription: |
+  <p>Kasts is a convergent podcast application that looks good on desktop and mobile.</p>
+  <p>Its main features are:</p>
+  <ul>
+    <li>Episode management through play queue</li>
+    <li>Sync playback positions with other clients through gpodder.net or gpodder-nextcloud</li>
+    <li>Variable playback speed</li>
+    <li>Search for podcasts</li>
+    <li>Full system integration: e.g. inhibit system suspend while listening</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kasts
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - podcast
+screenshotSources:
+  - url: org/kde/kasts/b92774351c5c2c43a9cf6fa878d586c3/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kasts/b92774351c5c2c43a9cf6fa878d586c3/screenshots/image-1_624x526@1.png
+    width: 895
+    height: 755
+  - url: org/kde/kasts/b92774351c5c2c43a9cf6fa878d586c3/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kasts/b92774351c5c2c43a9cf6fa878d586c3/screenshots/image-2_624x526@1.png
+    width: 895
+    height: 755
+  - url: org/kde/kasts/b92774351c5c2c43a9cf6fa878d586c3/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kasts/b92774351c5c2c43a9cf6fa878d586c3/screenshots/image-3_224x366@1.png
+    width: 483
+    height: 790
+  - url: org/kde/kasts/b92774351c5c2c43a9cf6fa878d586c3/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/kasts/b92774351c5c2c43a9cf6fa878d586c3/screenshots/image-4_224x366@1.png
+    width: 483
+    height: 790
+iconSources:
+  - url: org/kde/kasts/b92774351c5c2c43a9cf6fa878d586c3/icons/128x128/kasts_kasts.png
+    width: 128
+    height: 128
+developer: The KDE Community
+homepage: "https://apps.kde.org/kasts/"
+enabled: true
+order: 99

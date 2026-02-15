@@ -1,0 +1,5 @@
+{
+  "name": "GNOME PPP",
+  "description": "Herramienta de acceso telefónico para GNOME",
+  "longDescription": "<p>GNOME PPP es una herramienta gráfica sencilla para configurar y gestionar conexiones de acceso telefónico, con soporte para icono en la bandeja del sistema.</p>\n<p>Utiliza GNOME/GTK+ para su interfaz gráfica e integra perfectamente con el entorno de escritorio GNOME, aunque también puede usarse en otros entornos.</p>\n<p>Emplea el marcador WvDial como backend, permitiendo una configuración sencilla a través de archivos de configuración. También se puede usar wvdial en modo texto si no tienes X ejecutándose.</p>\n"
+}

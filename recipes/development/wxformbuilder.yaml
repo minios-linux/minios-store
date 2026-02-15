@@ -1,0 +1,35 @@
+id: wxformbuilder
+name: wxFormBuilder
+description: GUI builder for wxWidgets
+longDescription: |
+  <p>
+        wxFormBuilder is a GUI builder for the wxWidgets framework.
+        Code generation is supported for C++, Python, Lua and PHP.
+        Additionally, the import and export of XRC code is possible.
+        To support additional widgets, custom plugins can be used.
+      </p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wxformbuilder
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - wxwidgets
+  - xrc
+  - gui
+  - builder
+  - designer
+iconSources:
+  - url: org/wxformbuilder/wxFormBuilder/da92f152daedae6926bce51f0105248f/icons/128x128/wxformbuilder_org.wxformbuilder.wxFormBuilder.png
+    width: 128
+    height: 128
+homepage: "http://wxformbuilder.org"
+enabled: true
+order: 99

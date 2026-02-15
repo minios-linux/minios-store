@@ -1,0 +1,38 @@
+id: qfitsview
+name: QFitsView
+description: Astronomical Data Visualization Application
+longDescription: |
+  <p>QFitsView is a FITS file viewer based on DPUSER. In addition to displaying two-dimensional images, it also provides means to explore three-dimensional data cubes. It integrates the functionality of DPUSER which can be accessed directly out of QFitsView.</p>
+  <p>Note that this package was compiled with the giza library instead of PGPLOT, since the latter is non-free software.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qfitsview
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - fits
+  - astronomy
+  - viewer
+iconSources:
+  - cached: qfitsview_telescope.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

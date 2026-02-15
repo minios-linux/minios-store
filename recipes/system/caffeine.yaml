@@ -1,0 +1,39 @@
+id: "caffeine"
+name: Caffeine Indicator
+description: Manually control activation of the screensaver and sleep mode
+longDescription: |
+  <p>Caffeine prevents the desktop from becoming idle when an application is running full-screen. A desktop indicator ‘caffeine-indicator’ supplies a manual toggle, and the command ‘caffeinate’ can be used to prevent idleness for the duration of any command.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - caffeine
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - screensaver,power,saving,blank
+iconSources:
+  - url: c/ca/caffeine.desktop/93b6b54c6e742b4abb5d82982878243a/icons/128x128/caffeine_caffeine.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

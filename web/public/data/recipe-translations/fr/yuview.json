@@ -1,0 +1,5 @@
+{
+  "name": "YUView",
+  "description": "Lecteur YUV multiplateforme basé sur QT avec outils d'analyse avancés",
+  "longDescription": "<p>\n      YUView est un lecteur YUV basé sur Qt doté d’un ensemble avancé d’outils d’analyse, disponible pour Linux, Windows et Mac. Au cœur, YUView est un lecteur YUV performant capable d’ouvrir et d’afficher pratiquement tous les formats YUV. Grâce à son interface simple, il est facile de naviguer dans les séquences et d’en examiner les détails. Les vues côte-à-côte et comparatives facilitent la détection des différences entre deux séquences. Un moteur sophistiqué de statistiques peut superposer à la vidéo des informations complémentaires. Parmi les autres fonctionnalités : gestion des playlists, support des tests visuels et des présentations, prise en charge des formats compressés (via libde265 et FFmpeg), lecture de fichiers bruts RGB ainsi que de fichiers et séquences d’images, et bien plus encore.  \n    </p>\n"
+}

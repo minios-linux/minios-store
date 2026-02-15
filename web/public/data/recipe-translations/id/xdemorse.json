@@ -1,0 +1,5 @@
+{
+  "name": "xdemorse",
+  "description": "Antarmuka grafis untuk mendekode sinyal Morse menjadi teks",
+  "longDescription": "<p>Aplikasi X/GTK+ untuk mendekode sinyal kode Morse menjadi teks. xdemorse mendeteksi \"dit\" dan \"dah\" yang membentuk karakter Morse melalui kartu suara komputer, yang dapat dihubungkan ke penerima radio yang disetel pada transmisi CW Morse atau generator nada.</p>\n<p>Sinyal masukan diproses menggunakan algoritma deteksi nada Goertzel yang menghasilkan output \"mark\" atau \"space\" (sinyal/tidak ada sinyal), kemudian rangkaian elemen kode Morse ini diterjemahkan menjadi karakter ASCII dan ditampilkan pada penampil Teks.</p>\n<p>xdemorse mampu mentoleransi kesalahan operator hingga taraf tertentu (misal penyimpangan durasi elemen kode Morse karena ketukan tangan), sehingga tetap dapat mengenali sinyal yang tidak sempurna. Terdapat tampilan \"Waterfall\" (spektrum audio) yang dihasilkan dari FFT aritmetika integer pada output audio penerima.</p>\n<p>Program ini memiliki fitur CAT bawaan, namun khusus untuk Yaesu FT847 atau FT857 dan Elecraft K2 atau K3.</p>\n"
+}

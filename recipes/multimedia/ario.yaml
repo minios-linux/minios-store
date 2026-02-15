@@ -1,0 +1,37 @@
+id: "ario"
+name: Ario
+description: Client application to mpd
+longDescription: |
+  <p>Ario is a full featured client for MPD (Music Player Daemon). The interface used to browse the library is inspired by Rhythmbox but Ario aims to be much lighter and faster. It uses GTK2, avahi for MPD server detection and curl to download remote files (like cover arts and lyrics). Various plugins are provided like audioscrobbler/last.fm submission or multimedia keys support.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ario
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: a/ar/ario.desktop/b0ebf45541cfd6dc0e8270d025fcf07b/icons/128x128/ario_ario.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

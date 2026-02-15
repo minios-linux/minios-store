@@ -1,0 +1,40 @@
+id: cb2bib
+name: cb2Bib
+description: Bibliographic Reference Extracting and Managing Tool
+longDescription: |
+  <p>cb2bib is a program to extract bibliographic references from unformatted and non standard sources, like:  - email alerts;  - journal Web pages;  - and most interestingly PDF files.</p>
+  <p>Output references are written to BibTeX-formatted files. Other features include:  - article files can be linked and renamed by dragging them onto the    cb2Bib window;  - editing and browsing BibTeX files;  - citing references, searching references and the full contents of the    referenced documents;  - inserting bibliographic metadata to documents;  - writing short notes that interrelate several references.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cb2bib
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - bibliography,citations,scientific articles
+iconSources:
+  - cached: cb2bib_cb2bib.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

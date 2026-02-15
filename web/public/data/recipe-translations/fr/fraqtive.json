@@ -1,0 +1,5 @@
+{
+  "name": "Fraqtive",
+  "description": "Générateur de fractales de la famille de Mandelbrot",
+  "longDescription": "<p>Fraqtive est un programme permettant de dessiner des fractales de Mandelbrot et Julia. Il utilise un algorithme très rapide, générant des images de haute qualité et parfaitement lissées. L’application est totalement interactive : navigation à la souris en temps réel, génération dynamique d’aperçus des fractales de Julia. L'affichage 3D des fractales via OpenGL est également pris en charge.</p>\n"
+}

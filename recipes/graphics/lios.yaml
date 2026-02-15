@@ -1,0 +1,37 @@
+id: lios
+name: Tesseract-Trainer
+description: Train tesseract-ocr
+longDescription: |
+  <p>Lios provides a graphical interface on top of the Cuneiform and Tesseract OCR backends to make OCR processing easier for impaired users, with full autorotation, brightness optimization, rectangle selection, audio feedback, etc.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lios
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: lios_lios.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

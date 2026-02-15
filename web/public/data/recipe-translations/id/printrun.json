@@ -1,0 +1,5 @@
+{
+  "name": "Pronsole",
+  "description": "Perangkat lunak host printer 3D berbasis konsol",
+  "longDescription": "<p>Pronsole adalah antarmuka baris perintah untuk printer 3D desktop seperti RepRap. Dengan Pronsole, Anda dapat memuat file Gcode, menghubungkan ke printer, dan mengirimkan Gcode ke perangkat tersebut. Ini merupakan pilihan terbaik untuk mengontrol printer 3D dari mesin tanpa antarmuka grafis atau perangkat dengan spesifikasi rendah.</p>\n<p>Anda tidak hanya dapat mengirim Gcode dari file, tetapi juga dapat mengendalikan printer secara manual maupun mengirimkan perintah Gcode langsung ke printer.</p>\n<p>Pronsole terintegrasi dengan perangkat lunak slicing, sehingga saat Anda memuat model 3D STL, Pronsole akan secara otomatis melakukan slicing dan memuat hasilnya.</p>\n"
+}

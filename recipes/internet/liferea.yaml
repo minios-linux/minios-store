@@ -1,0 +1,92 @@
+id: "liferea"
+name: Liferea
+description: RSS feed reader
+longDescription: |
+  <p>Liferea is an abbreviation for Linux Feed Reader. It is a news aggregator for online news feeds. It supports a number of different feed formats including RSS/RDF, CDF and Atom. There are many other news readers available, but these others are not available for Linux or require many extra libraries to be installed. Liferea tries to fill this gap by creating a fast, easy to use, easy to install news aggregator for GTK/GNOME.</p>
+  <p>Distinguishing features:</p>
+  <ul>
+    <li>Read articles when offline</li>
+    <li>Synchronizes with TheOldReader</li>
+    <li>Synchronizes with TinyTinyRSS</li>
+    <li>Synchronizes with InoReader</li>
+    <li>Synchronizes with Reedah</li>
+    <li>Permanently save headlines in news bins</li>
+    <li>Match items using search folders</li>
+    <li>Play Podcasts</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - liferea
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - news
+  - feed
+  - aggregator
+  - blog
+  - podcast
+  - syndication
+  - rss
+  - atom
+screenshotSources:
+  - url: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-1_orig.png
+    thumbnailUrl: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-1_624x401@1.png
+    width: 1397
+    height: 898
+  - url: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-2_orig.png
+    thumbnailUrl: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-2_624x356@1.png
+    width: 1323
+    height: 756
+  - url: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-3_orig.png
+    thumbnailUrl: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-3_624x401@1.png
+    width: 1397
+    height: 898
+  - url: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-4_orig.png
+    thumbnailUrl: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-4_624x356@1.png
+    width: 1323
+    height: 756
+  - url: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-5_orig.png
+    thumbnailUrl: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-5_624x337@1.png
+    width: 986
+    height: 533
+  - url: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-6_orig.png
+    thumbnailUrl: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-6_624x382@1.png
+    width: 829
+    height: 508
+  - url: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-7_orig.png
+    thumbnailUrl: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-7_624x382@1.png
+    width: 829
+    height: 508
+  - url: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-8_orig.png
+    thumbnailUrl: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/screenshots/image-8_224x218@1.png
+    width: 478
+    height: 466
+iconSources:
+  - url: net/sourceforge/liferea/d808bdecd26db2e967205dc76c794c80/icons/128x128/liferea_net.sourceforge.liferea.png
+    width: 128
+    height: 128
+developer: Lars Windolf
+homepage: "https://lzone.de/liferea/"
+enabled: true
+order: 99

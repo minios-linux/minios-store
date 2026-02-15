@@ -1,0 +1,5 @@
+{
+  "name": "SpaceFM",
+  "description": "Durchsuche das Dateisystem",
+  "longDescription": "<p>SpaceFM ist ein vielseitiger, registerkartenbasierter Datei- und Desktop-Manager für Linux mit integriertem VFS, udev- oder HAL-basiertem Gerätemanager, anpassbarem Menüsystem und Bash-Integration.</p>\n<p>Als Nachfolger von PCManFM legt SpaceFM den Fokus auf Fehlerbehebung, Effizienz (hauptsächlich in C entwickelt), umfangreiche Anpassbarkeit (mit dem Design-Modus kann die Oberfläche flexibel verändert und erweitert werden), Leistungsfähigkeit ohne neue Nutzer zu überfordern (dank anpassbarer Oberfläche), Unabhängigkeit von bestimmten Distributionen und Desktop-Umgebungen sowie eine Gerätemanagement-Funktionalität, die umfangreich genug ist, um verschiedene udisks-basierte *kits in Verbindung mit udevil zu ersetzen.</p>\n<p>Weitere Highlights sind optionale Desktop-Verwaltung, intelligente Warteschlangen für Dateioperationen, Nutzer-Plugins und die Möglichkeit, bestimmte Befehle als Root auszuführen.</p>\n<p>Für GTK+3-Nutzer wird empfohlen, stattdessen spacefm-gtk3 zu installieren.</p>\n"
+}

@@ -1,0 +1,46 @@
+id: "qgis"
+name: QGIS Desktop
+description: A Free and Open Source Geographic Information System
+longDescription: |
+  <p>QGIS is a user friendly Open Source Geographic Information System (GIS) licensed under the GNU General Public License. QGIS is an official project of the Open Source Geospatial Foundation (OSGeo). It runs on Linux, Unix, Mac OSX, Windows and Android and supports numerous vector, raster, and database formats and functionalities.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qgis
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - map
+  - globe
+  - postgis
+  - wms
+  - wfs
+  - ogc
+  - osgeo
+screenshotSources:
+  - url: org/qgis/qgis.desktop/35c50af20319efe26c7779f92a8f7516/screenshots/image-1_orig.png
+    thumbnailUrl: org/qgis/qgis.desktop/35c50af20319efe26c7779f92a8f7516/screenshots/image-1_624x440.png
+    width: 687
+    height: 485
+iconSources:
+  - url: org/qgis/qgis.desktop/35c50af20319efe26c7779f92a8f7516/icons/128x128/qgis_qgis.png
+    width: 128
+    height: 128
+developer: QGIS Development Team
+homepage: "https://qgis.org"
+enabled: true
+order: 99

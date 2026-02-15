@@ -1,0 +1,5 @@
+{
+  "name": "Paperwork",
+  "description": "Gestionnaire de documents personnels",
+  "longDescription": "<p>\n      Le classement des documents est une tâche pour les machines. Paperwork est une application intuitive\n      qui vous permet de retrouver facilement tous vos documents\n      dès que vous en avez besoin. Saisissez quelques mots-clés dans la barre de recherche et la liste de\n      vos papiers se réduira au contenu pertinent.\n    </p>\n<p>\n      C’est là que la magie opère : Paperwork utilise la reconnaissance optique de caractères (OCR)\n      pour transformer automatiquement vos documents en fichiers consultables par la recherche.\n    </p>\n<p>Fonctionnalités principales :</p>\n<ul>\n  <li>Prise en charge des scanners</li>\n  <li>Support du format PDF</li>\n  <li>Détection automatique de l’orientation des pages</li>\n  <li>OCR</li>\n  <li>Étiquettes de documents</li>\n  <li>Attribution automatique d’étiquettes aux nouveaux documents</li>\n  <li>Recherche</li>\n  <li>Suggestions de mots-clés</li>\n  <li>Modification rapide des numérisations</li>\n</ul>\n"
+}

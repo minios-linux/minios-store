@@ -1,0 +1,46 @@
+id: "lxtask"
+name: Task Manager
+description: Manage running processes
+longDescription: |
+  <p>LXTask is a GUI application for the Lightweight X11 Desktop Environment (LXDE).</p>
+  <p>LXTask - lightweight and desktop-independent task manager derived from xfce4-taskmanager with all dependencies on Xfce removed, new features, and some improvement of the user interface. LXTask is based on GTK+ toolkit. It allows monitoring and controlling of running processes.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxtask
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - task
+  - kill
+  - suspend
+  - processor
+  - memory
+  - monitoring
+  - performance
+iconSources:
+  - url: l/lx/lxtask.desktop/09f520a3c4f8d6b4db34a2ead9d3de61/icons/128x128/lxtask_utilities-system-monitor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

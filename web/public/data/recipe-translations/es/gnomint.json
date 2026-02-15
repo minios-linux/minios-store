@@ -1,0 +1,5 @@
+{
+  "name": "gnoMint X.509 CA Manager",
+  "description": "Administra certificados y autoridades X.509 de forma sencilla y gráfica",
+  "longDescription": "<p>gnoMint es una herramienta para crear y gestionar autoridades de certificación (CA) de manera sencilla. Ofrece una visualización avanzada de toda la información relevante para una CA, como certificados X.509, solicitudes de firma de certificados (CSR) y listas de revocación de certificados (CRL).</p>\n<p>Actualmente, gnoMint puede administrar una CA que emite certificados para autenticar personas o dispositivos en VPNs (IPSec u otros protocolos), asegurar comunicaciones HTTP con SSL/TLS, autenticar y cifrar comunicaciones HTTP mediante certificados de cliente web, y firmar o cifrar correos electrónicos.</p>\n"
+}

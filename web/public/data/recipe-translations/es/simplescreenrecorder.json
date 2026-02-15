@@ -1,0 +1,5 @@
+{
+  "name": "SimpleScreenRecorder",
+  "description": "Grabador de pantalla avanzado compatible con X11 y OpenGL",
+  "longDescription": "<p>SimpleScreenRecorder es un grabador de pantalla avanzado que admite X11 y OpenGL. Ofrece una interfaz gráfica basada en Qt. Permite grabar toda la pantalla, una región específica o aplicaciones OpenGL directamente. La grabación puede pausarse y reanudarse en cualquier momento. Soporta múltiples formatos de archivo y códecs.</p>\n<p>Características principales:</p>\n<ul>\n  <li>Sincroniza correctamente audio y vídeo.</li>\n  <li>Reduce la tasa de fotogramas si el equipo es demasiado lento.</li>\n  <li>Totalmente multihilo: pequeños retrasos en algún componente nunca bloquean los demás, logrando así un vídeo más fluido y mejor rendimiento en equipos con varios procesadores.</li>\n  <li>También permite transmisión en vivo (experimental).</li>\n</ul>\n"
+}

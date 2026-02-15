@@ -1,0 +1,35 @@
+id: "trimage"
+name: Trimage image compressor
+description: A cross-platform tool for optimizing PNG and JPG files.
+longDescription: |
+  <p>Trimage is a cross-platform GUI and command-line interface to optimize image files via optipng, advpng, pngcrush and jpegoptim, depending on the filetype (currently, PNG and JPG files are supported). All image files are losslessly compressed on the highest available compression levels. Trimage gives you various input functions to fit your own workflow: A regular file dialog, dragging and dropping and various command line options.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - trimage
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: t/tr/trimage.desktop/fda0a8ecddac3a03f1ea521d3c86fce7/icons/128x128/trimage_trimage.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

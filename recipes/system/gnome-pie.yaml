@@ -1,0 +1,41 @@
+id: "gnome-pie"
+name: Gnome-Pie
+description: Cakes don't lie.
+longDescription: |
+  <p>gnome-pie is a radial visual application launcher for GNOME. It allows the user to bind groups of frequently used applications to a ring that appears when a hot key / mouse binding is triggered.</p>
+  <p>It was inspired by the OPie addon written for the game World of Warcraft.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-pie
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - utility
+  - menu
+iconSources:
+  - url: g/gn/gnome-pie.desktop/9ecc590881062b26e97d203f0141c453/icons/128x128/gnome-pie_gnome-pie.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

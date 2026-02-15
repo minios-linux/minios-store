@@ -1,0 +1,5 @@
+{
+  "name": "XBall",
+  "description": "Simula pelotas rebotando en una ventana",
+  "longDescription": "<p>\n    Este programa simula pelotas rebotando dentro de una ventana. Puedes crear las pelotas\nde diversas maneras y configurar la gravedad, elasticidad, si las pelotas colisionan, etc.</p>\n<p>\n    El software ofrece menús configurables por el usuario y un widget DrawingArea\n    para utilizar con otros widgets de Athena.</p>\n<p>\n    Todos los recursos están incluidos en el propio programa como recursos de respaldo, por lo que no es estrictamente necesario instalar el archivo app-defaults, excepto cuando se usan los widgets de Athena, ya que los atajos de teclado no funcionarán si el archivo app-defaults no está instalado.</p>\n<p>\n    Para ejecutar las demostraciones incluidas, abre una terminal y escribe 'run_demos'.</p>\n"
+}

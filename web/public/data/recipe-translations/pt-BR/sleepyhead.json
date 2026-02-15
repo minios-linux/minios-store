@@ -1,0 +1,5 @@
+{
+  "name": "SleepyHead",
+  "description": "O SleepyHead foi desenvolvido para revisar e explorar dados gerados por máquinas CPAP e dispositivos relacionados, utilizados no tratamento da apneia do sono.",
+  "longDescription": "<p>SleepyHead é um software livre e multiplataforma voltado para análise de dados produzidos por aparelhos CPAP (Pressão Positiva Contínua nas Vias Aéreas) e equipamentos semelhantes, usados no tratamento da apneia do sono e outros distúrbios do sono.</p>\n<p>O SleepyHead é compatível com modelos de CPAP com suporte a dados das seguintes linhas:  - ResMed S9  - AirSense 10  - AirCurve 10  - Philips Respironics System One  - Fisher &amp; Paykel ICON &amp; ICON+  - DeVilbiss IntelliPAP</p>\n<p>O software suporta toda a linha de oxímetros Contec CMS50, tanto em modo independente quanto sincronizado com os dados do CPAP (sendo necessário instalar um driver separado para equipamentos Contec). Também há suporte para acessórios de oxímetro ResMed e PR System One, além de importação de arquivos de oxímetros ChoiceMMed MD300W1.</p>\n"
+}

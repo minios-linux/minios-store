@@ -1,0 +1,50 @@
+id: hardinfo2
+name: Hardinfo2
+description: System Information and Benchmark
+longDescription: |
+  <p>Hardinfo2 offers System Information and Benchmark for Linux Systems. It is able to obtain information from both hardware and basic software. It can benchmark your system and compare to other machines online.</p>
+  <p>You can find info like: cpu speed, gpu and graphics speed, benchmarks of internal network speed, Linux hw drivers and modules loaded. sysinfo like which development tools are installed, memory dmi and spd information, distro / os informations, hwinfo about your components like pcie and usb.</p>
+  <p>And it is all Free and Open Source Software (FOSS) so we can change and add to the program together. See below links for source code, that we all keep safe and secure together.</p>
+  
+categoryId: system
+icon: Cpu
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hardinfo2
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - linux
+  - kernel
+  - system
+  - hardware
+  - cpu
+  - processor
+  - capabilities
+  - frequency
+  - memory
+  - ram
+screenshotSources:
+  - url: org/hardinfo2/hardinfo2/42876595ade06b22574ea4a1b53c91d8/screenshots/image-1_orig.png
+    thumbnailUrl: org/hardinfo2/hardinfo2/42876595ade06b22574ea4a1b53c91d8/screenshots/image-1_624x350@1.png
+    width: 1279
+    height: 719
+  - url: org/hardinfo2/hardinfo2/42876595ade06b22574ea4a1b53c91d8/screenshots/image-2_orig.png
+    thumbnailUrl: org/hardinfo2/hardinfo2/42876595ade06b22574ea4a1b53c91d8/screenshots/image-2_624x350@1.png
+    width: 1279
+    height: 719
+  - url: org/hardinfo2/hardinfo2/42876595ade06b22574ea4a1b53c91d8/screenshots/image-3_orig.png
+    thumbnailUrl: org/hardinfo2/hardinfo2/42876595ade06b22574ea4a1b53c91d8/screenshots/image-3_624x350@1.png
+    width: 1279
+    height: 719
+iconSources:
+  - url: org/hardinfo2/hardinfo2/42876595ade06b22574ea4a1b53c91d8/icons/128x128/hardinfo2_hardinfo2.png
+    width: 128
+    height: 128
+homepage: "https://hardinfo2.org"
+enabled: true
+order: 99

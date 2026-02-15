@@ -1,0 +1,5 @@
+{
+  "name": "twclock",
+  "description": "Orologio mondiale e CW ID per radioamatori",
+  "longDescription": "<p>Include anche un timer per l’identificazione automatica che genera un CW ID tramite la scheda audio e pulseaudio. Collegando l’uscita della scheda audio al pin audio-in del connettore accessorio della tua radio, il segnale verrà trasmesso.</p>\n<p>Questo programma è un orologio pensato per radioamatori, per chi ha bisogno di conoscere l’ora in altre parti del mondo o per chi desidera un aspetto diverso dal solito orologio. Può visualizzare l’ora e la data attuali in centinaia di città in tutto il mondo.</p>\n"
+}

@@ -1,0 +1,34 @@
+id: "emacs-lucid"
+name: Emacs (Terminal)
+description: "GNU Emacs is an extensible, customizable text editor - and more"
+longDescription: |
+  <p>GNU Emacs is the extensible self-documenting text editor.  This package contains a version of Emacs with support for a graphical user interface based on the Lucid toolkit (instead of the GTK+ interface provided by the emacs-gtk package).  Until some known GTK+ problems are fixed, this version may help avoid crashing Emacs during an emacsclient disconnect.  See https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=567934 and https://bugzilla.gnome.org/show_bug.cgi?id=85715 for more information.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - emacs-lucid
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+iconSources:
+  - url: e/em/emacs-term.desktop/1a8c9e85a8917aee3b4dbe69f6122bcb/icons/128x128/emacs-lucid_emacs.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

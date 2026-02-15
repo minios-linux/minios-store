@@ -1,0 +1,33 @@
+id: "opencubicplayer"
+name: Open Cubic Player
+description: Open Cubic Player 0.2.2 for UNIX
+longDescription: |
+  <p>This is a port of the Open Cubic Player to UNIX from DOS. Provides a nice textbased frontend, with some few optional features in graphical. Plays modules, sids, wave, audio CD, midi, ogg, flac, adlib, mp3, ahx, hvl, and ym.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - opencubicplayer
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: c/cu/cubic.org-opencubicplayer.desktop/b46ff0b2e188c1f49b3732eefd5f6383/icons/128x128/opencubicplayer_opencubicplayer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

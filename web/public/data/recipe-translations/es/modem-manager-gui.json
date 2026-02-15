@@ -1,0 +1,5 @@
+{
+  "name": "Modem Manager GUI",
+  "description": "Controla funciones específicas de módems de banda ancha EDGE/3G/4G",
+  "longDescription": "<p>Interfaz gráfica sencilla compatible con los servicios Modem Manager, Wader y oFono, capaz de gestionar funciones específicas de módems de banda ancha EDGE/3G/4G.</p>\n<p>Permite consultar el saldo de tu tarjeta SIM, enviar o recibir mensajes SMS, controlar el consumo de datos móviles y más, utilizando Modem Manager GUI.</p>\n<p>Funciones disponibles:</p>\n<ul>\n  <li>Crear y gestionar conexiones de banda ancha móvil</li>\n  <li>Enviar y recibir mensajes SMS, y almacenar mensajes en base de datos</li>\n  <li>Realizar solicitudes USSD y leer las respuestas (incluyendo sesiones interactivas)</li>\n  <li>Ver información del dispositivo: nombre del operador, modo del dispositivo, IMEI, IMSI, nivel de señal</li>\n  <li>Buscar redes móviles disponibles</li>\n  <li>Consultar estadísticas de tráfico móvil y establecer límites</li>\n</ul>\n<p>Ten en cuenta que algunas funciones pueden no estar disponibles debido a limitaciones de los diferentes servicios del sistema o incluso según la versión del servicio utilizada.</p>\n"
+}

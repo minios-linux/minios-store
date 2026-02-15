@@ -1,0 +1,5 @@
+{
+  "name": "zuluMount",
+  "description": "Монтирование зашифрованных томов и разделов",
+  "longDescription": "<p>zulucrypt — набор утилит для создания и управления томами, зашифрованными с помощью LUKS, Plain, TrueCrypt и VeraCrypt.</p>\n<p>zuluMount-gui — графический интерфейс к zuluMount-cli, позволяющий выполнять все действия zuluMount-cli через удобный визуальный интерфейс.</p>\n<p>zuluMount-gui поддерживает разблокировку томов, зашифрованных с помощью cryfs, encfs, gocryptfs и ecryptfs.</p>\n"
+}

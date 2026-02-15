@@ -1,0 +1,48 @@
+id: "gnome-console"
+name: Console
+description: Terminal Emulator
+longDescription: |
+  <p>
+        A simple user-friendly terminal emulator for the GNOME desktop.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-console
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - command
+  - prompt
+  - cmd
+  - commandline
+  - run
+  - shell
+  - terminal
+  - kgx
+  - kings cross
+screenshotSources:
+  - url: org/gnome/Console/e96c2d5858ead734e21f894813d15cd8/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Console/e96c2d5858ead734e21f894813d15cd8/screenshots/image-1_624x484@1.png
+    width: 776
+    height: 602
+iconSources:
+  - url: org/gnome/Console/e96c2d5858ead734e21f894813d15cd8/icons/128x128/gnome-console_org.gnome.Console.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://gitlab.gnome.org/GNOME/console/"
+enabled: true
+order: 99

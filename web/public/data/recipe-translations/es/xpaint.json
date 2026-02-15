@@ -1,0 +1,5 @@
+{
+  "name": "XPaint",
+  "description": "Aplicación de pintura XPaint",
+  "longDescription": "<p>XPaint es ideal para crear gráficos sencillos, pero también ofrece funciones avanzadas como procesamiento de imágenes y relleno con degradado.</p>\n<p>En el Editor de Scripts en C de XPaint, la opción de editor externo en el menú Archivo abrirá x-terminal-emulator -e sensible-editor.</p>\n<p>Se requiere el paquete gv para leer archivos PDF/PS, netpbm para conversiones externas y lpr para impresión.</p>\n"
+}

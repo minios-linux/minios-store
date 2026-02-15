@@ -1,0 +1,5 @@
+{
+  "name": "QjackCtl",
+  "description": "Interfaz gráfica Qt para JACK Audio Connection Kit",
+  "longDescription": "<p>QjackCtl es una sencilla aplicación Qt para controlar el servidor JACK. Está escrita en C++ utilizando principalmente el framework Qt para X11, con un amplio uso de Qt Designer. Ofrece un diálogo gráfico simple para configurar varios parámetros del servidor JACK, que se guardan adecuadamente entre sesiones, además de permitir el control del estado del servidor de audio. Con el tiempo, esta interfaz esencial se ha enriquecido, incorporando una matriz de conexiones avanzada y funciones mejoradas de gestión de conexiones.</p>"
+}

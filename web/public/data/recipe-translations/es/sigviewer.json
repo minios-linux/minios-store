@@ -1,0 +1,5 @@
+{
+  "name": "SigViewer",
+  "description": "SigViewer es una aplicación para la visualización de biosenales",
+  "longDescription": "<p>SigViewer es un software para visualizar y marcar datos de señales biomédicas. Se basa en la biblioteca biosig4c++, que admite numerosos formatos de datos (incluyendo EDF, BDF, GDF, BrainVision, BCI2000, CFWB, HL7aECG, SCP_ECG (EN1064), MFER, ACQ, CNT(Neuroscan), DEMG, EGI, EEG1100, FAMOS, SigmaPLpro, TMS32). La lista completa de formatos compatibles está disponible en http://pub.ist.ac.at/~schloegl/biosig/TESTED.</p>\n<p>Además de mostrar biosenales, SigViewer permite crear anotaciones para seleccionar artefactos o eventos específicos.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "GNUjump",
+  "description": "Sautez sur la tour pour survivre",
+  "longDescription": "<p>Le but de ce jeu est de sauter sur l’étage suivant afin de ne pas tomber. Plus vous montez dans la tour en chute, plus les étages tomberont rapidement. Essayez de survivre plus longtemps que les autres, ou, en mode solo, tentez d’atteindre la plus grande hauteur possible.</p>\n<p>Actuellement, le jeu s’appelle sdljump (il apparaîtra ainsi dans le menu), mais le nom du paquet a changé suite à un renommage en amont. La nouvelle version du jeu portera aussi le nom gnujump.</p>\n<p>Le jeu est un clone de xjump, et propose toutes ses fonctionnalités, ainsi que d’autres options :  * Mode multijoueur (jusqu’à quatre joueurs, hors réseau)  * Graphismes fluides possibles (mais aussi en style xjump)  * Différents thèmes disponibles  * Rendu possible avec OpenGL  * Musique et effets sonores  * Enregistrement (et relecture) des parties</p>\n"
+}

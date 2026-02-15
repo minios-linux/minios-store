@@ -1,0 +1,5 @@
+{
+  "name": "mgllab",
+  "description": "Ferramenta para manipulação e visualização de dados",
+  "longDescription": "<p>Uma biblioteca livre e multiplataforma de rotinas rápidas em C++ para plotagem de dados em até 3 dimensões. Permite exportar gráficos para bitmap e arquivos vetoriais EPS, SVG, IDTF. Possui interfaces gráficas simples utilizando GLUT, FLTK e/ou Qt, além de poder ser utilizada no console. O MathGL também oferece integração com diversas linguagens, como C, Fortran, Pascal, Forth, Python e Octave.</p>\n<p>Este pacote inclui utilitários e exemplos do MathGL.</p>\n"
+}

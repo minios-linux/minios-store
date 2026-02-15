@@ -1,0 +1,33 @@
+id: g3data
+name: G3Data Graph Analyzer
+description: Retrieve data from scanned images of graphs
+longDescription: |
+  <p>g3data is used for extracting data from graphs.  For example, graphs are typically published in scientific journals without tables of the actual data; g3data makes the process of extracting these data easy.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - g3data
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: g3data_g3data.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

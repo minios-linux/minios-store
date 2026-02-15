@@ -1,0 +1,5 @@
+{
+  "name": "Liguidsoap",
+  "description": "Interface gráfica simples em GTK para o liquidsoap, permitindo configurar seus streams de forma interativa.",
+  "longDescription": "<p>Liguidsoap é uma interface gráfica para controlar o liquidsoap, utilizando pyGTK.</p>\n<p>Permite interagir de diversas formas com: * saídas * playlists * filas * mesa de mixagem</p>\n<p>Pode controlar uma instância em execução do liquidsoap ou iniciar sua própria instância.</p>\n"
+}

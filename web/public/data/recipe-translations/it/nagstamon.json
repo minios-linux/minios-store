@@ -1,0 +1,5 @@
+{
+  "name": "Nagstamon",
+  "description": "Monitor di stato per Nagios",
+  "longDescription": "<p>Nagstamon è un monitor di stato per Nagios che si posiziona nell’area di notifica o sul desktop (GNOME, KDE) come barra di stato flottante per informarti in tempo reale sullo stato delle reti monitorate da Nagios e alcuni suoi derivati. Consente di collegarsi a più server Nagios, Icinga, Opsview, Centreon, Op5Monitor, Check_MK Multisite, Thruk, Zabbix e Zenoss. Gli eventi possono essere gestiti con accesso immediato agli host o servizi in errore.</p>\n"
+}

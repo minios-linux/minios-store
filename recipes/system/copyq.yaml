@@ -1,0 +1,52 @@
+id: "copyq"
+name: CopyQ
+description: Advanced clipboard manager
+longDescription: |
+  <p>CopyQ is advanced clipboard manager with editing and scripting features.</p>
+  <p>CopyQ monitors system clipboard and saves its content in customized tabs.
+              Saved clipboard can be later copied and pasted directly into any application.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - copyq
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - clipboard
+  - clipboard-manager
+  - clipboard-history
+  - notes
+  - copy-and-paste
+screenshotSources:
+  - url: com/github/hluk.copyq.desktop/bc0e31d523194cbd4382720fc7ee17d0/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/hluk.copyq.desktop/bc0e31d523194cbd4382720fc7ee17d0/screenshots/image-1_624x351@1.png
+    width: 640
+    height: 360
+iconSources:
+  - url: com/github/hluk.copyq.desktop/bc0e31d523194cbd4382720fc7ee17d0/icons/128x128/copyq_copyq.png
+    width: 128
+    height: 128
+developer: Lukas Holecek
+homepage: "https://hluk.github.io/CopyQ/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Cecilia",
+  "description": "Umgebung für Klangsynthese und Audio-Signalverarbeitung",
+  "longDescription": "<p>Cecilia ist eine grafische Benutzeroberfläche für das Klangsynthese- und Signalverarbeitungspaket CSound. Mit Cecilia können Anwender schnell grafische Bedienoberflächen mit Reglern und Kurven zur Steuerung von CSound-Instrumenten erstellen. Zudem bietet Cecilia einen Editor für CSound mit Syntaxhervorhebung und integrierter Referenz. Das Tool eignet sich hervorragend, um die Parameter neuer Opcodes interaktiv und intuitiv zu erkunden.</p>\n<p>Cecilia nutzt die Pyo-Audio-Engine, die speziell für die Programmiersprache Python entwickelt wurde.</p>\n<p>Cecilia wurde von und für Musiker sowie Sounddesigner konzipiert. Alle gängigen Audioeffektgeräte wie Equalizer, Kompressoren und Delays sind enthalten, um sowohl einfache Anwendungen als auch ausgefallene klangliche Experimente zu ermöglichen.</p>\n"
+}

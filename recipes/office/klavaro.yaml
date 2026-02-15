@@ -1,0 +1,53 @@
+id: "klavaro"
+name: Klavaro
+description: A touch typing tutor
+longDescription: |
+  <p>Klavaro is a very flexible touch typing tutor, supporting customizable keyboard layouts. You can edit and save new or unknown keyboard layouts, as the basic course was designed to not depend on specific ones. Also, there are some charts about the learning process, and for advanced users an online ranking scheme, comparing your typing proficiency with others.</p>
+  <p>Its interface is very simple, without artifacts to distract the user, and some may find this boring, but we think keyboard memorization requires a high level of concentration, and must be done by touch, not visually.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - klavaro
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - keyboard
+  - typing
+  - tutor
+  - cai
+screenshotSources:
+  - url: k/kl/klavaro.desktop/932224b65ba07504c3e0a27b8bfabfd3/screenshots/image-1_orig.png
+    thumbnailUrl: k/kl/klavaro.desktop/932224b65ba07504c3e0a27b8bfabfd3/screenshots/image-1_624x452@1.png
+    width: 764
+    height: 554
+  - url: k/kl/klavaro.desktop/932224b65ba07504c3e0a27b8bfabfd3/screenshots/image-2_orig.png
+    thumbnailUrl: k/kl/klavaro.desktop/932224b65ba07504c3e0a27b8bfabfd3/screenshots/image-2_224x258@1.png
+    width: 436
+    height: 503
+iconSources:
+  - cached: klavaro_klavaro.png
+    width: 64
+    height: 64
+homepage: "http://klavaro.sourceforge.net/"
+enabled: true
+order: 99

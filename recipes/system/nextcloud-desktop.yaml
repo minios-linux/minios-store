@@ -1,0 +1,41 @@
+id: "nextcloud-desktop"
+name: Nextcloud desktop sync client
+description: Nextcloud desktop synchronization client
+longDescription: |
+  <p>The Nextcloud desktop app lets you always have your latest files wherever you are. Just specify one or more folders on the local machine to and a server to synchronize to. You can configure more computers to synchronize to the same server and any change to the files on one computer will silently and reliably flow across to every other.</p>
+  <p>nextcloud-desktop provides the graphical client specialising in synchronizing with cloud storage provided by Nextcloud.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nextcloud-desktop
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - nextcloud
+  - syncing
+  - file
+  - sharing
+iconSources:
+  - url: com/nextcloud/desktopclient.nextcloud/2bd50c3c8e5ffd03c1255f34a24bfe2a/icons/128x128/nextcloud-desktop_Nextcloud.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

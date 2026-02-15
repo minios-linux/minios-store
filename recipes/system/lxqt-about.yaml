@@ -1,0 +1,28 @@
+id: lxqt-about
+name: About LXQt
+description: Learn more about LXQt
+longDescription: |
+  <p>The about screen for LXQt</p>
+  <p>This package contain the LXQt about screen.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxqt-about
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: l/lx/lxqt-about.desktop/A819D691332D500C5CDD9341441AF35A/icons/128x128/lxqt-about_help-about.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

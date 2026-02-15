@@ -1,0 +1,32 @@
+id: "fcitx5-config-qt"
+name: Fcitx 5 Migration Wizard
+description: Launch the wizard to import data from other input method as Fcitx 4 etc.
+longDescription: |
+  <p>This is a configuration tool for Fcitx Input Method Framework v5.</p>
+  <p>It also provides fcitx5-migrator tool, which helps to migrate data from Fcitx4. To migrate Fcitx4 pinyin and table data, it needs tools from libime-bin package.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fcitx5-config-qt
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: fcitx5-config-qt_input-keyboard.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

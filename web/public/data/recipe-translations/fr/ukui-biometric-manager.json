@@ -1,0 +1,5 @@
+{
+  "name": "Gestionnaire Biométrique",
+  "description": "Gestion de dispositifs biométriques et de l’authentification",
+  "longDescription": "<p>Ce paquet propose un outil pour gérer les pilotes des dispositifs biométriques, les caractéristiques utilisateur et l'activation de l’authentification biométrique. Le service est assuré par biometric-authentication.service du paquet biometric-auth.</p>\n"
+}

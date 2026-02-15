@@ -1,0 +1,5 @@
+{
+  "name": "Fluidsynth DSSI",
+  "description": "Sintetizador de software para reproducir SoundFont",
+  "longDescription": "<p>El paquete FluidSynth-DSSI incluye FluidSynth-DSSI, un wrapper del sintetizador de software FluidSynth para reproducir SoundFont, permitiendo su funcionamiento como un complemento DSSI.</p>\n<p>DSSI es una API para plugins de procesamiento de audio, especialmente útil para plugins de síntesis de software que cuentan con interfaz gráfica de usuario.</p>\n"
+}

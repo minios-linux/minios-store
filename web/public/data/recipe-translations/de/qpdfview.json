@@ -1,0 +1,5 @@
+{
+  "name": "qpdfview",
+  "description": "Tabbed-Dokumentenbetrachter",
+  "longDescription": "<p>qpdfview ist ein schlanker, tabbasierter Dokumentenbetrachter, der die Poppler-Bibliothek für das Anzeigen von PDFs sowie CUPS zum Drucken nutzt und eine übersichtliche, einfache Qt-Oberfläche bietet. Unterstützung für DjVu- und PostScript-Formate ist über Plugins möglich.</p>\n<p>Der aktuelle Funktionsumfang umfasst:</p>\n<ul>\n  <li>Übersicht-, Eigenschaften- und Vorschaubilder-Leisten</li>\n  <li>Skalieren, Drehen und Anpassen</li>\n  <li>Vollbild- und Präsentationsansicht</li>\n  <li>Fortlaufende und mehrseitige Layouts</li>\n  <li>Individuelle Einstellungen pro Datei bleiben erhalten</li>\n  <li>Konfigurierbare Tastenkombinationen</li>\n  <li>Konfigurierbare Werkzeugleisten</li>\n  <li>Unterstützung für DjVu- und PostScript-Dokumente über Plugins</li>\n  <li>Textsuche (nur PDF und DjVu)</li>\n  <li>SyncTeX-Unterstützung (nur PDF)</li>\n  <li>Teilweise Unterstützung für Annotationen (nur PDF, Poppler ab Version 0.20.1)</li>\n  <li>Teilweise Formularunterstützung (nur PDF)</li>\n</ul>\n"
+}

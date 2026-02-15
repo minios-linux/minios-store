@@ -1,0 +1,5 @@
+{
+  "name": "fwupd",
+  "description": "Memperbarui firmware perangkat di Linux",
+  "longDescription": "<p>Proyek ini bertujuan untuk memudahkan pembaruan firmware di Linux secara otomatis, aman, dan andal.<br/>Anda dapat menggunakan manajer perangkat lunak berbasis GUI seperti GNOME Software untuk melihat dan menerapkan pembaruan, menggunakan alat baris perintah, atau langsung melalui antarmuka D-Bus.</p><p>Proses fwupd menjalankan daemon sederhana yang memungkinkan perangkat lunak sesi memperbarui firmware perangkat pada mesin lokal Anda.<br/>Dirancang untuk desktop, tetapi proyek ini juga dapat digunakan di ponsel, tablet, maupun server tanpa antarmuka (headless server).</p>"
+}

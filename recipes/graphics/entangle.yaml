@@ -1,0 +1,59 @@
+id: "entangle"
+name: Entangle
+description: Tethered Camera Control & Capture
+longDescription: |
+  <p>Entangle is a program used to control digital cameras
+        that are connected to the computer via USB.</p>
+  <p>Entangle can trigger the camera shutter to capture new images.
+        When supported by the camera, a continuously updating preview
+        of the scene can be displayed prior to capture. Images will be
+        downloaded and displayed as they are captured by the camera.
+        Entangle also allows the settings of the camera to be changed
+        from the computer.</p>
+  <p>Entangle is compatible with most DSLR cameras from Nikon and
+        Canon, some of their compact camera models, and a variety of
+        cameras from other manufacturers.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - entangle
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - capture
+  - camera
+  - tethered
+  - photo
+screenshotSources:
+  - url: org/entangle_photo/Manager/865f80b8177231701425754fe97dfa79/screenshots/image-1_orig.png
+    thumbnailUrl: org/entangle_photo/Manager/865f80b8177231701425754fe97dfa79/screenshots/image-1_624x404@1.png
+    width: 1002
+    height: 649
+iconSources:
+  - url: org/entangle_photo/Manager/865f80b8177231701425754fe97dfa79/icons/128x128/entangle_org.entangle_photo.Manager.png
+    width: 128
+    height: 128
+developer: The Entangle Photo project
+homepage: "http://entangle-photo.org/"
+enabled: true
+order: 99

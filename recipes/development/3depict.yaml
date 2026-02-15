@@ -1,0 +1,35 @@
+id: 3depict
+name: 3depict
+description: Valued point cloud visualisation and analysis
+longDescription: |
+  <p>This program provides a graphical interface for the scientific analysis of real valued point data (x,y,z,value). This is primarily targeted towards Atom probe tomography applications, but may prove useful to other applications as well.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - 3depict
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: 3depict_3depict.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

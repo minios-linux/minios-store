@@ -1,0 +1,49 @@
+id: "qtcreator"
+name: Qt Creator
+description: "Provides a cross-platform, complete integrated development environment (IDE) for application developers to create applications for multiple platforms and devices"
+longDescription: |
+  <p>Qt Creator provides a cross-platform, complete integrated development
+     environment (IDE) for application developers to create applications for
+     multiple desktop and mobile device platforms, such as Android and iOS.</p>
+  <p>Qt Creator enables a team of developers to share a project across different
+     development platforms with a common tool for development and debugging.</p>
+  <p>The main goal for Qt Creator is meeting the development needs of Qt
+     developers who are looking for simplicity, usability, productivity,
+     extendibility and openness, while aiming to lower the barrier of entry for
+     newcomers to Qt.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtcreator
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/qt-project/qtcreator/193f1a26da8fd4d9441a8121adc4517e/screenshots/image-4_orig.png
+    thumbnailUrl: org/qt-project/qtcreator/193f1a26da8fd4d9441a8121adc4517e/screenshots/image-4_624x414@1.png
+    width: 707
+    height: 470
+iconSources:
+  - url: org/qt-project/qtcreator/193f1a26da8fd4d9441a8121adc4517e/icons/128x128/qtcreator_QtProject-qtcreator.png
+    width: 128
+    height: 128
+homepage: "https://www.qt.io/ide/"
+enabled: true
+order: 99

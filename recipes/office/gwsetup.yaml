@@ -1,0 +1,39 @@
+id: gwsetup
+name: gwsetup
+description: Geneweb genealogy software - configuration
+longDescription: |
+  <p>Geneweb allows keeping track of ancestral data. It is a powerful system for maintaining a set of data about your family history. It supports much of the GEDCOM tag system for data storage, and can be used either as your primary system for archiving genealogical data, or as a web service (through a CGI interface) for publishing your data for others to use.</p>
+  <p>Gwsetup is a command-line program which also includes a mini web server to help Geneweb users to setup and manipulate genealogical databases to be used with the main Geneweb program.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gwsetup
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - genealogy
+  - web
+  - database
+  - family tree
+  - consanguinity
+  - gedcom
+  - ged
+  - gw
+iconSources:
+  - cached: gwsetup_gwsetup.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

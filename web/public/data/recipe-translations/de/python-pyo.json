@@ -1,0 +1,5 @@
+{
+  "name": "E-Pyo",
+  "description": "Umgebung für Klangsynthese und Audiosignalverarbeitung",
+  "longDescription": "<p>pyo ist ein Python-Modul, das Klassen für eine Vielzahl von Audiosignalverarbeitungsarten bereitstellt. Mit pyo können Nutzer Signalverarbeitungsketten direkt in Python-Skripte oder -Projekte einbinden und sie in Echtzeit über den Interpreter steuern. Die Werkzeuge des pyo-Moduls bieten sowohl elementare Bausteine, wie mathematische Operationen auf Audiosignalen und grundlegende Signalverarbeitung (Filter, Delays, Synthese-Generatoren usw.), als auch komplexe Algorithmen zur Klanganreicherung und weiteren kreativen Audiomanipulationen.</p>\n<p>pyo unterstützt das OSC-Protokoll (Open Sound Control) für eine erleichterte Kommunikation zwischen Softwareanwendungen sowie das MIDI-Protokoll zur Erzeugung von Klangevents und zur Steuerung von Prozessparametern.</p>\n<p>Mit pyo lassen sich anspruchsvolle Signalverarbeitungsketten realisieren – mit allen Vorteilen einer ausgereiften und weitverbreiteten Programmiersprache.</p>\n<p>Dieses Paket installiert die Bibliothek für Python 2.</p>\n"
+}

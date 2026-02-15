@@ -1,0 +1,58 @@
+id: "otpclient"
+name: OTPClient
+description: GTK+ application for managing TOTP and HOTP tokens with built-in encryption.
+longDescription: |
+  <p>
+        Easy to use GTK application for securely managing TOTP and HOTP tokens.
+  The content is encrypted on the disk using AES256-GCM and the master password is derived using PBKDF2 with 100k iterations and SHA512 as hash algorithm.
+  It's also possible to import/export backups from/to andOTP and import backups from Authenticator+.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - otpclient
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - otp
+  - totp
+  - hotp
+screenshotSources:
+  - url: com/github/paolostivanin.OTPClient.desktop/770ac63b21c2e1d909ab49f0b43990e2/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/paolostivanin.OTPClient.desktop/770ac63b21c2e1d909ab49f0b43990e2/screenshots/image-1_224x263@1.png
+    width: 501
+    height: 590
+  - url: com/github/paolostivanin.OTPClient.desktop/770ac63b21c2e1d909ab49f0b43990e2/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/paolostivanin.OTPClient.desktop/770ac63b21c2e1d909ab49f0b43990e2/screenshots/image-2_224x263@1.png
+    width: 501
+    height: 590
+  - url: com/github/paolostivanin.OTPClient.desktop/770ac63b21c2e1d909ab49f0b43990e2/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/paolostivanin.OTPClient.desktop/770ac63b21c2e1d909ab49f0b43990e2/screenshots/image-3_224x263@1.png
+    width: 501
+    height: 590
+  - url: com/github/paolostivanin.OTPClient.desktop/770ac63b21c2e1d909ab49f0b43990e2/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/paolostivanin.OTPClient.desktop/770ac63b21c2e1d909ab49f0b43990e2/screenshots/image-4_224x257@1.png
+    width: 352
+    height: 405
+iconSources:
+  - url: com/github/paolostivanin.OTPClient.desktop/770ac63b21c2e1d909ab49f0b43990e2/icons/128x128/otpclient_com.github.paolostivanin.OTPClient.png
+    width: 128
+    height: 128
+developer: Paolo Stivanin
+homepage: "https://github.com/paolostivanin/OTPClient"
+enabled: true
+order: 99

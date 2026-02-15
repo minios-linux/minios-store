@@ -1,0 +1,5 @@
+{
+  "name": "Gscriptor",
+  "description": "Envoyez des commandes aux cartes à puce",
+  "longDescription": "<p>Cette archive contient des outils utiles pour les utilisateurs de PC/SC. Les outils inclus sont&nbsp;:</p>\n<p>pcsc_scan(1) analyse les lecteurs de cartes à puce disponibles et affiche les événements détectés&nbsp;: insertion de carte avec ATR, retrait de carte&nbsp;;</p>\n<p>ATR_analysis(1) analyse l’ATR (Answer To Reset) d’une carte à puce&nbsp;;</p>\n<p>scriptor(1) script Perl permettant d’envoyer des commandes à une carte à puce via un fichier batch ou l’entrée standard&nbsp;;</p>\n<p>gscriptor(1) reprend le principe de scriptor.pl(1) mais avec une interface graphique basée sur Perl-Gtk.</p>\n"
+}

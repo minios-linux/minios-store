@@ -1,0 +1,5 @@
+{
+  "name": "aerc",
+  "description": "Inicia o cliente de e-mail aerc",
+  "longDescription": "<p>Alguns dos recursos mais interessantes incluem:<br> - Edição de e-mails em um terminal integrado no estilo tmux, permitindo acompanhar mensagens recebidas e consultar outros tópicos enquanto redige suas respostas<br> - Renderização de e-mails em HTML com um navegador web interativo no terminal, destaque de patches com diffs e navegação em sessões incorporadas do less<br> - Atalhos e comandos no estilo Vim, possibilitando automação poderosa com apenas uma tecla<br> - Suporte total para integração entre git e e-mail<br> - Abertura de novas abas com terminal e shell para acessar rapidamente repositórios git próximos e trabalhar em paralelo<br> - Suporte a múltiplas contas, incluindo IMAP, Maildir, SMTP e protocolos sendmail<br> - IMAP assíncrono garante que a interface nunca trave por problemas de conexão, algo comum em outros clientes como o mutt<br> - Uso eficiente da rede – o aerc só baixa o necessário para exibir a interface, proporcionando uma experiência ágil e econômica em banda<br>100% software livre e de código aberto!</p>\n"
+}

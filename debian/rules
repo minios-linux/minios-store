@@ -1,0 +1,72 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+# Skip auto_configure (pure Python, no compilation needed)
+override_dh_auto_configure:
+
+# Build .mo translation files from .po sources
+override_dh_auto_build:
+	@for PO_FILE in po/*.po; do \
+		[ -f "$$PO_FILE" ] || continue; \
+		MO_FILE=$${PO_FILE%.po}.mo; \
+		msgfmt -o "$$MO_FILE" "$$PO_FILE"; \
+		chmod 644 "$$MO_FILE"; \
+	done
+
+# Install files into per-package directories
+override_dh_auto_install:
+	# --- minios-store-common: shared Python library ---
+	install -d debian/minios-store-common/usr/lib/minios-store/minios_store
+	cp client/minios_store/__init__.py \
+	   client/minios_store/config.py \
+	   client/minios_store/installer.py \
+	   client/minios_store/logger.py \
+	   debian/minios-store-common/usr/lib/minios-store/minios_store/
+	# Install locale files into minios-store-common
+	@for MO_FILE in po/*.mo; do \
+		[ -f "$$MO_FILE" ] || continue; \
+		LOCALE=$$(basename "$$MO_FILE" .mo); \
+		install -Dm644 "$$MO_FILE" \
+			"debian/minios-store-common/usr/share/locale/$$LOCALE/LC_MESSAGES/minios-store.mo"; \
+	done
+
+	# --- minios-store: WebSocket daemon ---
+	install -d debian/minios-store/usr/bin \
+	           debian/minios-store/usr/lib/minios-store/minios_store \
+	           debian/minios-store/usr/share/applications
+	cp bin/minios-store-daemon debian/minios-store/usr/bin/
+	chmod +x debian/minios-store/usr/bin/minios-store-daemon
+	cp client/minios_store/server.py \
+	   debian/minios-store/usr/lib/minios-store/minios_store/
+	cp share/applications/minios-store.desktop \
+	   debian/minios-store/usr/share/applications/
+
+	# --- minios-store-gui: GTK3 installer + URI handler ---
+	install -d debian/minios-store-gui/usr/bin \
+	           debian/minios-store-gui/usr/lib/minios-store/minios_store \
+	           debian/minios-store-gui/usr/lib/minios-store \
+	           debian/minios-store-gui/usr/share/applications \
+	           debian/minios-store-gui/usr/share/polkit-1/actions
+	cp bin/minios-store-install debian/minios-store-gui/usr/bin/
+	chmod +x debian/minios-store-gui/usr/bin/minios-store-install
+	cp client/minios_store/gui.py \
+	   debian/minios-store-gui/usr/lib/minios-store/minios_store/
+	cp share/minios-store-uri-handler \
+	   debian/minios-store-gui/usr/lib/minios-store/
+	chmod +x debian/minios-store-gui/usr/lib/minios-store/minios-store-uri-handler
+	cp share/applications/minios-store-uri-handler.desktop \
+	   debian/minios-store-gui/usr/share/applications/
+	cp share/polkit/dev.minios.store.policy \
+	   debian/minios-store-gui/usr/share/polkit-1/actions/
+
+# systemd/sysvinit only for the daemon package
+override_dh_installinit:
+	dh_installinit --no-start -p minios-store
+
+override_dh_installsystemd:
+	dh_installsystemd -p minios-store
+
+override_dh_auto_clean:
+	rm -f po/*.mo

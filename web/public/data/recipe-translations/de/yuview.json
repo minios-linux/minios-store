@@ -1,0 +1,5 @@
+{
+  "name": "YUView",
+  "description": "Qt-basierter, plattformübergreifender YUV-Player mit umfangreichen Analysewerkzeugen",
+  "longDescription": "<p>\n      YUView ist ein Qt-basierter YUV-Player mit einem fortschrittlichen Analyse-Toolset für Linux, Windows und Mac. Im Kern handelt es sich um einen leistungsfähigen YUV-Player, der nahezu jedes YUV-Format öffnen und anzeigen kann. Dank der übersichtlichen Benutzeroberfläche lassen sich Sequenzen einfach durchsuchen und Details inspizieren; ein Side-by-Side- sowie Vergleichsmodus helfen dabei, Unterschiede zwischen zwei Sequenzen zu erkennen. Ein ausgefeilter Statistik-Renderer blendet zusätzliche Informationen über das Video ein. Weitere Funktionen sind Playlists, Unterstützung für visuelle Tests und Präsentationen, Unterstützung komprimierter Formate (über libde265 und FFmpeg), Verarbeitung von Roh-RGB-Dateien sowie Bilddateien und Bildsequenzen und vieles mehr.\n    </p>\n"
+}

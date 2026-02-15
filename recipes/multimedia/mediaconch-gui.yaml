@@ -1,0 +1,48 @@
+id: "mediaconch-gui"
+name: MediaConch
+description: "Implementation checker, policy checker, reporter, and fixer"
+longDescription: |
+  <p>MediaConch is an implementation checker, policy checker, reporter, and fixer that targets preservation-level audiovisual files</p>
+  <p>This project is maintained by MediaArea and funded by PREFORMA.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mediaconch-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - implementation
+  - policy
+  - checker
+  - reporter
+  - trace
+  - mkv
+  - matroska
+  - ffv1
+  - pcm
+iconSources:
+  - url: m/me/mediaconch-gui.desktop/749daed9c37beb8faf0a366270899fd3/icons/128x128/mediaconch-gui_mediaconch.png
+    width: 128
+    height: 128
+developer: MediaArea.net SARL
+homepage: "https://mediaarea.net/MediaConch"
+enabled: true
+order: 99

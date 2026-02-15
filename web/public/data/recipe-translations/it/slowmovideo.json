@@ -1,0 +1,5 @@
+{
+  "name": "slowmoUI",
+  "description": "Video in Slow Motion",
+  "longDescription": "<p>Questa applicazione non si limita a far riprodurre i tuoi video a una velocità di 0,01x. Puoi rallentare e accelerare le riprese in modo fluido, opzionalmente con effetto motion blur.</p>\n<p>Come funziona lo slow motion? slowmoVideo cerca di individuare il movimento dei pixel nel video (questa informazione si chiama Optical Flow), utilizzandola poi per calcolare i fotogrammi aggiuntivi.</p>\n<p>È possibile caricare video in qualsiasi formato supportato da ffmpeg. Si possono caricare anche sequenze di immagini: se hai realizzato un timelapse con troppi pochi fotogrammi, slowmoVideo può essere d'aiuto. slowmoVideo non lavora con un fattore di rallentamento costante, ma con curve che consentono accelerazioni, decelerazioni o inversioni arbitrarie nel tempo. Puoi aggiungere motion blur quanto desideri.</p>\n"
+}

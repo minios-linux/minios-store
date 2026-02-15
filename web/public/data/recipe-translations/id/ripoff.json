@@ -1,0 +1,5 @@
+{
+  "name": "RipOff",
+  "description": "Ekstrak audio dari CD Anda",
+  "longDescription": "<p>RipOff adalah aplikasi ripper CD berbasis GTK+ untuk Linux dengan antarmuka yang sederhana, dukungan pencarian CDDB, dan arsitektur encoder berbasis plugin.</p>\n<p>Versi ini tidak menyertakan dukungan MP3 secara default, Anda perlu menginstal paket ripoff-mp3-plugin untuk dapat mengekstrak ke format mp3.</p>\n<p>Paket ini hanya berisi file eksekusi ripoff.</p>\n"
+}

@@ -1,0 +1,43 @@
+id: angrydd
+name: Angry Drunken Dwarves
+description: Falling blocks puzzle game
+longDescription: |
+  <p>In Angry, Drunken Dwarves, you are an angry, drunken dwarf. Why are you so angry? Who knows. But you&apos;ve decided to take your aggression out on other dwarves, by dropping gems on their heads. Lots of gems. angrydd is a member of the classic &quot;falling blocks&quot; puzzle game family, similar to the Capcom game Puzzle Fighter. The goal of the game is to build large gems by matching up colors, then break them, raining more gems down onto your opponent. The first person whose field fills up, loses.  angrydd has seven playable characters, six levels of AI, secret game modes and characters, and an original soundtrack.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - angrydd
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - logic
+  - dwarves
+  - puzzle
+  - blocks
+iconSources:
+  - cached: angrydd_angrydd.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "BlueWho",
+  "description": "Informasi dan notifikasi perangkat Bluetooth baru yang ditemukan",
+  "longDescription": "<p>BlueWho memberikan informasi dan notifikasi ketika perangkat Bluetooth baru terdeteksi. Proses deteksi dapat diminta secara manual oleh pengguna atau dijalankan otomatis secara terus-menerus hingga dihentikan. Notifikasi visual dan suara dapat muncul setiap kali perangkat baru terdeteksi.</p>\n<p>Setiap perangkat yang ditemukan akan disimpan dalam daftar beserta nama, alamat MAC, serta tanggal dan waktu terakhir terlihat. Untuk setiap perangkat, daftar layanan Bluetooth yang tersedia dapat diminta.</p>\n"
+}

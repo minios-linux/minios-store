@@ -1,0 +1,5 @@
+{
+  "name": "Repetier-Host",
+  "description": "Controlador de impressora 3D RepRap",
+  "longDescription": "<p>O Repetier-Host permite realizar todas as etapas necessárias para imprimir modelos 3D. Oferece os seguintes recursos:   - organizar modelo(s) em uma mesa de impressão virtual   - fatiar o modelo e calcular os trajetos para o cabeçote da impressora   - verificar o g-code em busca de erros   - enviar o g-code para a impressora   - monitorar a impressora</p>\n"
+}

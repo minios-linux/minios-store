@@ -1,0 +1,45 @@
+id: "rmlint-gui"
+name: Shredder Duplicate Finder
+description: Find and delete duplicates
+longDescription: |
+  <p>rmlint-gui (a.k.a. Shredder) is a graphical user interface to rmlint using GTK+. It uses rmlint to find space waste and other broken things on your filesystem and offers to remove them.</p>
+  <p>It is able to find:  * Duplicate files &amp; directories.  * Non-stripped binaries.  * Broken symlinks.  * Empty files.  * Recursive empty directories.  * Files with broken user or group ID.</p>
+  <p>Key Features:  * Extremely fast.  * Flexible and easy command-line options.  * Choice of several hashes for hash-based duplicate detection.  * Option for exact byte-by-byte comparison (only slightly slower).  * Numerous output options.  * Option to store time  of last run; next time will only scan new files.  * Many options for original selection/prioritisation.  * Can handle very large file sets (millions of files).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rmlint-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - remove
+  - duplicate
+  - files
+  - filesystem
+  - lint
+iconSources:
+  - url: s/sh/shredder.desktop/198050f907c2a7949ac5b632aba6f60d/icons/128x128/rmlint-gui_shredder.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

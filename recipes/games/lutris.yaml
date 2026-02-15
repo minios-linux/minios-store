@@ -1,0 +1,38 @@
+id: "lutris"
+name: Lutris
+description: Play all your games by Lutris
+longDescription: |
+  <p>Lutris is an Open Source gaming platform. It installs and launches games so you can start playing without the hassle of setting up your games. Get your games from GOG, Steam, Battle.net, Origin, Uplay and many other sources running on any Linux powered gaming machine.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lutris
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gaming
+  - wine
+  - emulator
+screenshotSources:
+  - url: net/lutris/Lutris/e996aaa59834d59d0f93a80e0dca58a3/screenshots/image-1_orig.png
+    thumbnailUrl: net/lutris/Lutris/e996aaa59834d59d0f93a80e0dca58a3/screenshots/image-1_624x403@1.png
+    width: 1674
+    height: 1083
+iconSources:
+  - url: net/lutris/Lutris/e996aaa59834d59d0f93a80e0dca58a3/icons/128x128/lutris_net.lutris.Lutris.png
+    width: 128
+    height: 128
+developer: Lutris Team
+homepage: "https://lutris.net"
+enabled: true
+order: 99

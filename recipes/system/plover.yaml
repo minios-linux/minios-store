@@ -1,0 +1,39 @@
+id: plover
+name: Plover
+description: stenographic input and translation
+longDescription: |
+  <p>Plover is a small, slick Python application that runs in the background and acts as a translator to read steno movements and emulate keystrokes in a way that the programs you are using can&apos;t even tell you&apos;re using steno.</p>
+  <p>Plover is used today by hundreds of people, ranging from professional stenographers, transcriptionists, programmers, and hobbyists.  It supports:</p>
+  <p> - Regular keyboards and real steno machines  - Media key support to control media, change volume, etc.  - Comes with a well-developed theory extended from StenEd,    but with over 50,000 new strokes.  - Supports JSON and RTF/CRE dictionaries  - Includes training tools to help you learn</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plover
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - steno
+  - input
+  - keyboard
+iconSources:
+  - cached: plover_plover.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

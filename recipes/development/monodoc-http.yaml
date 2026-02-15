@@ -1,0 +1,28 @@
+id: monodoc-http
+name: Monodoc (http)
+description: Monodoc Documentation Browser
+longDescription: |
+  <p>The MonoDoc Project is the documentation framework of the Mono project which provides detailed API documentation for all Mono components and the Mono CLI implementation.</p>
+  <p>This package contains ASP.NET scripts which allow viewing the Mono documentation via an ASP.NET enabled webserver with a standard http webbrowser.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - monodoc-http
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - cached: monodoc-http_monodoc.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

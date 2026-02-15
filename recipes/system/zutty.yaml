@@ -1,0 +1,29 @@
+id: zutty
+name: Zutty
+description: Zero-cost Unicode Teletype
+longDescription: |
+  <p>Zutty is a terminal emulator for the X Window System, functionally similar to several other X terminal emulators such as xterm, rxvt and others. It is also similar to other, much more modern, GPU-accelerated terminal emulators.</p>
+  <p>Zutty uses a radically simple, yet extremely efficient rendering implementation, coupled with a sufficiently complete feature set to make it useful for a wide range of users. It also offers high throughput with low latency, and strives to conform to relevant standards, either published or de-facto.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zutty
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - shell
+  - prompt
+  - command
+  - commandline
+  - cmd
+iconSources:
+  - url: z/zu/zutty.desktop/cd83685bab62bede0e372fd596459520/icons/128x128/zutty_zutty.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

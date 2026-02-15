@@ -1,0 +1,5 @@
+{
+  "name": "luckyLUKS",
+  "description": "Antarmuka grafis untuk membuat dan membuka volume LUKS/TrueCrypt dari file kontainer",
+  "longDescription": "<p>Program ini adalah antarmuka grafis di Linux untuk membuat serta membuka atau mengunci volume terenkripsi dari file kontainer. Ketika kontainer dibuka, ikon akan muncul di area notifikasi sebagai pengingat untuk menutupnya jika sudah tidak digunakan. Mendukung file kontainer cryptsetup/LUKS dan Truecrypt.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Munipack",
+  "description": "Software generico per l’elaborazione di immagini astronomiche",
+  "longDescription": "<p>Munipack è un pacchetto software generico per la fotometria astronomica. Attualmente implementa funzioni per l’elaborazione fotometrica standard (riduzioni fotometriche: dark, flat), fotometria con apertura, astrometria e calibrazione fotometrica, accesso al Virtual Observatory e altro ancora.</p>\n<p>Questo pacchetto fornisce il comando \"xmunipack\", che offre un'interfaccia grafica per Munipack.</p>\n"
+}

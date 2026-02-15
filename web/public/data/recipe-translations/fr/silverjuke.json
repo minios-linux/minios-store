@@ -1,0 +1,5 @@
+{
+  "name": "Silverjuke",
+  "description": "Écoutez et gérez votre musique via une interface type jukebox conviviale",
+  "longDescription": "<p>Silverjuke est une solution jukebox facile à utiliser basée sur wxWidgets. Parmi ses fonctionnalités :  * Large compatibilité avec les formats audio (MP1, MP2, MP3, MPC, MP+,    Ogg-Vorbis, FLAC, Monkey's Audio, WavPack, WAV, AIFF, MOD) ; d'autres formats peuvent être ajoutés via des modules  * Traitement audio interne en 32 bits (fondu enchaîné, volume automatique, jingles, lecture aléatoire intelligente, plugins d'effets VST)  * Mode kiosque, prise en charge des écrans tactiles  * Édition des informations de piste (tags ID3)  * Prise en charge des playlists (M3U, PLS, CUE)  * Interface entièrement personnalisable (skinnable)  * Recherche puissante</p>\n"
+}

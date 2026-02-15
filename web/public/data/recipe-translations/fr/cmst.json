@@ -1,0 +1,5 @@
+{
+  "name": "cmst",
+  "description": "Interface graphique Qt pour le gestionnaire de connexions Connman, avec icône en zone de notification",
+  "longDescription": "<p>Interface graphique Qt pour Connman, intégrée à la zone de notification système. Ce programme offre une interface conviviale permettant de gérer le démon connman.<br>Le démon connman doit déjà être lancé normalement, cette application sert uniquement d’interface à ce service.<br>Vous pouvez visualiser les technologies et services détectés par connman&nbsp;; pour les réseaux wifi, un agent est enregistré afin de vous assister lors de la saisie des informations nécessaires à la connexion.</p>\n"
+}

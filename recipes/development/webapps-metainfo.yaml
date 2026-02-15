@@ -1,0 +1,29 @@
+id: webapps-metainfo
+name: Devdocs.io
+description: Easily view and search developer documentation
+longDescription: |
+  <p>Devdocs.io is a small application that allows you to quickly search and view
+          developer documentation for various programming langauges and libraries.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - webapps-metainfo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - developer
+  - documentation
+  - programming
+iconSources:
+  - cached: webapps-metainfo_io.devdocs.webapp.png
+    width: 128
+    height: 128
+homepage: "http://devdocs.io"
+enabled: true
+order: 99

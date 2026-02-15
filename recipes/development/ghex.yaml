@@ -1,0 +1,55 @@
+id: "ghex"
+name: GNOME Hex Editor
+description: Inspect and edit binary files
+longDescription: |
+  <p>GHex is a hex editor for the GNOME desktop.</p>
+  <p>GHex can load raw data from binary files and display them for editing in the
+        traditional hex editor view. The display is split in two columns, with
+        hexadecimal values in one column and the ASCII representation in the other.
+        A useful tool for working with raw data.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ghex
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - binary
+  - debug
+screenshotSources:
+  - url: org/gnome/GHex/d762d30a6c961901607355dd2925536f/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/GHex/d762d30a6c961901607355dd2925536f/screenshots/image-1_624x463@1.png
+    width: 1074
+    height: 797
+  - url: org/gnome/GHex/d762d30a6c961901607355dd2925536f/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/GHex/d762d30a6c961901607355dd2925536f/screenshots/image-2_624x479@1.png
+    width: 856
+    height: 658
+iconSources:
+  - url: org/gnome/GHex/d762d30a6c961901607355dd2925536f/icons/128x128/ghex_org.gnome.GHex.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Ghex"
+enabled: true
+order: 99

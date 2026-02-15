@@ -1,0 +1,5 @@
+{
+  "name": "Jupyter Notebook",
+  "description": "Запуск Jupyter Notebook",
+  "longDescription": "<p>Jupyter Notebook — это веб-приложение для создания и совместного использования документов, содержащих выполняемый код, математические формулы, визуализации и пояснительный текст. Поддерживает различные языки программирования, обмен файлами и интерактивные виджеты.</p>\n<p>Этот пакет добавляет субкоманды jupyter: «notebook», «nbextension», «serverextension» и «bundlerextension».</p>\n"
+}

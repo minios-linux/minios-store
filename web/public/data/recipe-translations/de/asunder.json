@@ -1,0 +1,5 @@
+{
+  "name": "Asunder CD Ripper",
+  "description": "Eine Anwendung zum Speichern von Titeln einer Audio-CD als WAV-, MP3-, OGG-, FLAC- und/oder Wavpack-Dateien.",
+  "longDescription": "<p>Asunder ist ein grafisches Tool zum Auslesen und Kodieren von Audio-CDs. Damit können Sie Titel von Audio-CDs extrahieren. Hauptfunktionen:</p>\n<p> * Unterstützt WAV-, MP3-, Ogg Vorbis-, FLAC- und Wavpack-Audiodateien  * Verwendet CDDB zur automatischen Benennung und Tagging der Titel  * Kann in mehreren Formaten gleichzeitig kodieren  * Erstellt M3U-Wiedergabelisten  * Ermöglicht unterschiedliche Interpreten pro Titel  * Benötigt keine spezifische Desktop-Umgebung (nur GTK+)</p>\n"
+}

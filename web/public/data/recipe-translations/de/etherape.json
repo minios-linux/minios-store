@@ -1,0 +1,5 @@
+{
+  "name": "EtherApe",
+  "description": "Grafischer Netzwerkmonitor",
+  "longDescription": "<p>EtherApe ist ein grafischer Netzwerkmonitor nach dem Vorbild von etherman. Er stellt Netzwerkaktivitäten visuell dar, wobei aktive Hosts als unterschiedlich große Kreise und der Datenverkehr zwischen ihnen als unterschiedlich breite Linien angezeigt werden.</p>\n<p>Unterstützt werden Link-Layer-, IP- und TCP-Modi, eine farbcodierte Protokolldarstellung sowie verschiedene Gerätetypen wie Ethernet, FDDI, Token Ring, ISDN, PPP und SLIP. Der Datenverkehr kann gefiltert und sowohl live aus dem Netzwerk als auch aus Dateien eingelesen werden.</p>\n"
+}

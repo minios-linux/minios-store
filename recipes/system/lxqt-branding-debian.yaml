@@ -1,0 +1,28 @@
+id: lxqt-branding-debian
+name: Workspaces
+description: "Configure layout, names and margins"
+longDescription: |
+  <p>LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt technologies. It has been tailored for users who value simplicity, speed, and an intuitive interface. Unlike most desktop environments, LXQt also works fine with less powerful machines.</p>
+  <p>The branding package contains misc. downstream configurations for LXQt.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxqt-branding-debian
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - url: l/lx/lxqt-xfwm-workspaces.desktop/31A83C1E299EC2F141B11D8FD929C09E/icons/128x128/lxqt-branding-debian_xfce4-workspaces.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

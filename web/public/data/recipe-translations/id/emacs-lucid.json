@@ -1,0 +1,5 @@
+{
+  "name": "Emacs (Terminal)",
+  "description": "GNU Emacs adalah editor teks yang dapat dikembangkan dan disesuaikan — dan lebih dari itu",
+  "longDescription": "<p>GNU Emacs adalah editor teks yang dapat dikembangkan dan mendokumentasikan dirinya sendiri. Paket ini berisi versi Emacs dengan dukungan antarmuka pengguna grafis berbasis Lucid toolkit (bukan GTK+ seperti pada paket emacs-gtk). Selama beberapa masalah GTK+ yang sudah diketahui belum diperbaiki, versi ini dapat membantu mencegah Emacs crash saat terjadi pemutusan emacsclient. Lihat https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=567934 dan https://bugzilla.gnome.org/show_bug.cgi?id=85715 untuk informasi lebih lanjut.</p>\n"
+}

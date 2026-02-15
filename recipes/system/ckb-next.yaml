@@ -1,0 +1,34 @@
+id: "ckb-next"
+name: ckb-next
+description: Corsair keyboard driver user interface
+longDescription: |
+  <p>ckb-next is an open-source driver for Corsair keyboards and mice. It aims to bring the features of Corsair&apos;s proprietary CUE software to the Linux and Mac operating systems.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ckb-next
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - ckb
+  - corsair
+  - keyboard
+  - rgb
+iconSources:
+  - url: c/ck/ckb-next.desktop/e44522cd3b98b6e868699f78abd096c1/icons/128x128/ckb-next_ckb-next.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

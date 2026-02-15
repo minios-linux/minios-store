@@ -1,0 +1,23 @@
+id: winefish
+name: Winefish LaTeX Editor
+description: LaTeX Editor based on Bluefish
+longDescription: |
+  <p>Winefish is a GTK+ based LaTeX editor, which was forked from Bluefish. The main features are autotext, auto-completion, function references, syntax highlighting, customizable external tools and UTF-8 support.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - winefish
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: winefish_winefish-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

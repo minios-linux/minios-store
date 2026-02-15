@@ -1,0 +1,31 @@
+id: "linphone-desktop"
+name: Linphone
+description: A libre SIP client
+longDescription: |
+  <p>Linphone is an audio and video internet phone using the SIP protocol.</p>
+  <p>The main features of linphone are:   - a nice graphical interface;   - it includes a large variety of codecs with different quality / bandwidths;   - it uses the well-known and standardised SIP protocol.</p>
+  <p>This package includes the Qt/QML based graphical desktop client.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - linphone-desktop
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: l/li/linphone.desktop/b2f65dc5de9faa733ade1e2d1b8009c0/icons/128x128/linphone-desktop_linphone.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

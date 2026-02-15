@@ -1,0 +1,5 @@
+{
+  "name": "Systemdienste",
+  "description": "Verwalten Sie Systemdienste auf Ihrem Computer",
+  "longDescription": "<p>jobs-admin ist ein einfaches GTK+-Werkzeug, mit dem Administratoren Systemdienste (Jobs/Services) unkompliziert konfigurieren können. Dienste lassen sich aktivieren oder deaktivieren, starten oder stoppen und bieten oft anpassbare Einstellungen für die jeweiligen Services.</p>\n<p>jobs-admin verwendet jobservice als Backend über D-Bus.</p>\n"
+}

@@ -1,0 +1,35 @@
+id: "opencfu"
+name: OpenCFU
+description: A modern program to count circular objects from pictures or webcams
+longDescription: |
+  <p>OpenCFU is a completely open source lightweight application designed to enumerate clustered circular objects such as bacterial colonies. It can handle digital pictures as well as live stream from a video device/webcam. OpenCFU is cross-platform, fast, reliable and allows the user to implement intuitive filters.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - opencfu
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: o/op/opencfu.desktop/12cbd3b4dc88567310ad97f382495959/icons/128x128/opencfu_opencfu.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

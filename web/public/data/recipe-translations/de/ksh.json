@@ -1,0 +1,5 @@
+{
+  "name": "Korn Shell (ksh2020)",
+  "description": "Korn-Shell",
+  "longDescription": "<p>Die Ksh ist ein UNIX-Kommando­interpreter (Shell), der sowohl für die interaktive Nutzung als auch zum Schreiben von Shell-Skripten gedacht ist. Ihre Befehls­sprache ist eine Obermenge der sh(1)-Shell-Sprache.</p>\n<p>Die Version von 1993 bietet zahlreiche Neuerungen, vor allem für das Scripting, gegenüber der 1988er-Version, die üblicherweise bei kommerziellen UNIX-Systemen enthalten ist. Zu den Funktionen zählen unter anderem lexikalische Gültigkeitsbereiche, zusammengesetzte Variablen, assoziative Arrays, benannte Referenzen und Gleitpunkt-Arithmetik.</p>\n<p>Das Tool shcomp kann verwendet werden, um ksh-Skripte in ein Binärformat zu kompilieren.</p>\n"
+}

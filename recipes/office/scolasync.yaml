@@ -1,0 +1,37 @@
+id: scolasync
+name: ScolaSync
+description: Interactive tool to copy files to or from USB storage media
+longDescription: |
+  <p>Teachers may use this package to manage a set of USB sticks owned by their students. The keys are recognized (with their owner&apos;s name), and the teachers can copy assignments to them and retrieve consistently the homeworks from the usb sticks.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - scolasync
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: scolasync_scolasync.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

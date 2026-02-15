@@ -1,0 +1,45 @@
+id: smuxi-frontend-gnome
+name: Smuxi
+description: Chat with other people on IRC
+longDescription: |
+  <p>Smuxi is an irssi-inspired, flexible, user-friendly and cross-platform IRC client for sophisticated users, targeting the GNOME desktop.</p>
+  <p>Smuxi is based on the client-server model: The core application (engine) can be placed onto a server which is connected to the Internet around-the-clock; one or more frontends then connect to the core. This way, the connection to IRC can be kept up even when all frontends have been closed. The combination of screen and irssi served as example for this architecture.</p>
+  <p>Smuxi also supports the regular single application mode. This behaves like a typical IRC client; it doesn&apos;t need separate core management and utilizes a local engine that is used by the local frontend client.</p>
+  <p>This package contains the GNOME frontend of Smuxi, it can run either standalone using a local engine or connect to a running remote engine (server).</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - smuxi-frontend-gnome
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+tags:
+  - chat
+  - messaging
+  - im
+  - gnome
+  - gtk
+  - irc
+  - twitter
+  - facebook
+  - gtalk
+  - xmpp
+iconSources:
+  - url: s/sm/smuxi-frontend-gnome.desktop/48273A889F3702B97B220BE8ADD475C0/icons/128x128/smuxi-frontend-gnome_smuxi-frontend-gnome.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

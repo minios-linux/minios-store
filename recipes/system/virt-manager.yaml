@@ -1,0 +1,52 @@
+id: "virt-manager"
+name: Virtual Machine Manager
+description: Manage virtual machines
+longDescription: |
+  <p>It presents a summary view of running domains and their live performance &amp; resource utilization statistics. A detailed view presents graphs showing performance &amp; utilization over time. Ultimately it will allow creation of new domains, and configuration &amp; adjustment of a domain&apos;s resource allocation &amp; virtual hardware.  Finally an embedded VNC client viewer presents a full graphical console to the guest domain.</p>
+  <p>NOTE: the GUI is still considered experimental.</p>
+  
+categoryId: system
+icon: Monitor
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - virt-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: v/vi/virt-manager.desktop/890b209fe9a51e8e3386b4d8947e595c/screenshots/image-1_orig.png
+    thumbnailUrl: v/vi/virt-manager.desktop/890b209fe9a51e8e3386b4d8947e595c/screenshots/image-1_624x351@1.png
+    width: 800
+    height: 450
+  - url: v/vi/virt-manager.desktop/890b209fe9a51e8e3386b4d8947e595c/screenshots/image-2_orig.png
+    thumbnailUrl: v/vi/virt-manager.desktop/890b209fe9a51e8e3386b4d8947e595c/screenshots/image-2_624x351@1.png
+    width: 1024
+    height: 576
+  - url: v/vi/virt-manager.desktop/890b209fe9a51e8e3386b4d8947e595c/screenshots/image-3_orig.png
+    thumbnailUrl: v/vi/virt-manager.desktop/890b209fe9a51e8e3386b4d8947e595c/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: v/vi/virt-manager.desktop/890b209fe9a51e8e3386b4d8947e595c/icons/128x128/virt-manager_virt-manager.png
+    width: 128
+    height: 128
+homepage: "https://www.virt-manager.org/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "SimpleAgenda",
+  "description": "Einfache Termin- und Kalenderanwendung für GNUstep",
+  "longDescription": "<p>SimpleAgenda ist eine Anwendung zur Verwaltung Ihrer Kalender. Sie unterstützt sowohl lokale als auch entfernte (webcal) Kalender. Kalender können mit anderen Programmen wie Evolution, Dates, IceApe Calendar und weiteren geteilt werden. Folgende Funktionen stehen zur Verfügung:</p>\n<p> * Mehrere Kalender.  * Verwaltung von Terminen und Aufgaben.  * Unterstützung für lokale und entfernte (ftp, http) iCalendar-Kalender.  * Monatsansicht, Tagesansicht, Übersicht und Aufgabenliste.  * Termine können einfach erstellt, verschoben und in ihrer Größe angepasst werden.  * Export einzelner Elemente als Datei oder in die Zwischenablage.  * Import von .ics-Dateien.  * Einfache Textsuche.  * Erinnerungen mit mehreren Backends.</p>\n"
+}

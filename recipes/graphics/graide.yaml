@@ -1,0 +1,33 @@
+id: graide
+name: Graide
+description: GRAphite Integrated Development Environment
+longDescription: |
+  <p>Graide is an IDE including a debugger that helps people develop Graphite GDL descriptions for smart fonts and compile them into fonts.</p>
+  <p>Graphite is a &quot;smart font&quot; system developed specifically to handle the complexities of lesser-known languages of the world.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - graide
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - graphite
+  - smart
+  - font
+  - gdl
+iconSources:
+  - url: g/gr/graide.desktop/cb826687f7ce83cced78d58895153e05/icons/128x128/graide_graide.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "OpenPGP Applet",
+  "description": "Encripta, desencripta y firma texto desde y hacia el portapapeles",
+  "longDescription": "<p>OpenPGP Applet es una interfaz gráfica para GnuPG.</p>\n<p>Permite cifrar y descifrar el contenido del portapapeles mediante criptografía de clave pública o un cifrado simétrico usando una contraseña. También admite la creación y verificación de firmas en texto claro.</p>\n<p>Nota: OpenPGP Applet no gestiona la introducción de contraseñas. Ya que tampoco ofrece interacción con la terminal a menos que se ejecute explícitamente desde allí, en la práctica depende de que GnuPG agent esté en funcionamiento y configurado para utilizar un cuadro de entrada de contraseña, como pinentry-gnome3.</p>\n"
+}

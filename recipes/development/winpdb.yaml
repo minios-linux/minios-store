@@ -1,0 +1,27 @@
+id: winpdb
+name: Winpdb
+description: Platform independent Python debugger
+longDescription: |
+  <p>Winpdb supports debugging of threads- and curses based applications, namespace modification and embedded debugging. As a remote debugger, it uses (encrypted) network connections to connect to the debuggee (which is running on the same machine, usually).</p>
+  <p>Winpdb is the graphical, wx-based frontend to rpdb2, which is also included in this package. rpdb2 is text based and able to use screen sessions if there is no x-terminal-emulator available.</p>
+  <p>Winpdb is up to 20 times faster than pdb.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - winpdb
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: w/wi/winpdb.desktop/8AE18B2B5ACE2AD1B89769C76E30F7C0/icons/128x128/winpdb_winpdb.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

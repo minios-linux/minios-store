@@ -1,0 +1,57 @@
+id: "gnome-commander"
+name: GNOME Commander
+description: Two-pane file manager
+longDescription: |
+  <p>
+        GNOME Commander is a “two-pane” graphical file manager for the GNOME
+        desktop environment. It features separate tabs for each pane,
+        setting up custom device buttons, bookmark manager, fully integrated
+        commandline, file quick search, an internal image viewer, a powerful
+        batch renaming tool, and FTP and Samba access.
+      </p>
+  <p>
+        GNOME Commander aims to advanced users who like to focus on precise
+        file management, working in parallel through special applications,
+        and running smart commands.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-commander
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - file manager
+  - file system
+  - ssh
+  - ftp
+  - webdav
+screenshotSources:
+  - url: org/gnome/gnome-commander/31aeda26a8807bea54f9d8908b3f0e6f/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/gnome-commander/31aeda26a8807bea54f9d8908b3f0e6f/screenshots/image-1_624x351@1.png
+    width: 1280
+    height: 720
+  - url: org/gnome/gnome-commander/31aeda26a8807bea54f9d8908b3f0e6f/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/gnome-commander/31aeda26a8807bea54f9d8908b3f0e6f/screenshots/image-2_624x354@1.png
+    width: 950
+    height: 540
+iconSources:
+  - url: org/gnome/gnome-commander/31aeda26a8807bea54f9d8908b3f0e6f/icons/128x128/gnome-commander_gnome-commander.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://gcmd.github.io/index.html"
+enabled: true
+order: 99

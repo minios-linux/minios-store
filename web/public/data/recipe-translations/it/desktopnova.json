@@ -1,0 +1,5 @@
+{
+  "name": "DesktopNova",
+  "description": "Cambia automaticamente l'immagine di sfondo",
+  "longDescription": "<p>DesktopNova cambia automaticamente l'immagine di sfondo del desktop dopo un intervallo di tempo configurabile. Può selezionare le immagini sia da singoli file che da cartelle (con o senza sottocartelle). È presente anche una funzione di avvio automatico.</p>\n<p>Questo pacchetto include l'interfaccia grafica e il demone in background.</p>\n<p>È necessario almeno un modulo. Senza un modulo aggiuntivo, questo pacchetto non funzionerà correttamente. Consulta i pacchetti desktopnova-module-*.</p>\n<p>È disponibile anche un'icona nell'area di notifica. Consulta il pacchetto desktopnova-tray.</p>\n"
+}

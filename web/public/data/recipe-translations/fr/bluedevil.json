@@ -1,0 +1,5 @@
+{
+  "name": "BlueDevil Wizard",
+  "description": "Assistant BlueDevil",
+  "longDescription": "<p>BlueDevil est un ensemble de composants qui intègre le Bluetooth dans KDE. Il propose :<br>  * Un module de configuration KDE (KCM) pour paramétrer toutes les options liées au Bluetooth.<br>  * Une intégration avec le système d’entrée/sortie KDE (KIO), permettant de découvrir et d’explorer les appareils Bluetooth directement depuis votre gestionnaire de fichiers favori.<br>  * Un assistant pour appairer vos périphériques et se connecter directement aux services proposés, tels que les périphériques d’entrée (souris, clavier, Wiimote) et l’audio (casques, téléphones).<br>  * Une application dans la zone de notification pour gérer toutes les actions BlueDevil (déconnecter des appareils, envoyer des fichiers, configurer, etc.).<br>  * Un démon écoutant les requêtes entrantes, par exemple pour recevoir des fichiers ou saisir un code PIN demandé.</p>\n"
+}

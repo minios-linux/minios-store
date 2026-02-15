@@ -1,0 +1,5 @@
+{
+  "name": "prelude-notify",
+  "description": "Applet gráfico de notificações para o Prelude",
+  "longDescription": "<p>O Prelude é um sistema universal de \"Gerenciamento de Informações de Segurança\" (SIM). Ele coleta, normaliza, classifica, agrega, correlaciona e gera relatórios de todos os eventos relacionados à segurança, independentemente da origem ou do tipo do evento.</p>\n<p>Este pacote oferece o prelude-notify, uma interface integrada à área de trabalho que exibe os eventos registrados pelo Prelude Manager.</p>\n"
+}

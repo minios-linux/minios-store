@@ -1,0 +1,5 @@
+{
+  "name": "ConfClerk",
+  "description": "Offline-Konferenzprogramm-Anwendung",
+  "longDescription": "<p>\n    ConfClerk ist eine in Qt entwickelte Anwendung, die Konferenzprogramme offline verfügbar macht. Sie zeigt den Veranstaltungsplan aus verschiedenen Perspektiven an, unterstützt die Suche nach Referenten, Vortragsthemen, Orten etc. und ermöglicht das Markieren von Favoriten sowie das Zusammenstellen eines eigenen Zeitplans.\n    </p>\n<p>\n    Aktuell kann ConfClerk Zeitpläne im XML-Format importieren, die vom PentaBarf-Konferenzmanagementsystem (oder frab) erstellt wurden – wie sie zum Beispiel bei FOSDEM, DebConf, FrOSCon, den Grazer Linux-Tagen und den CCC-Kongressen zum Einsatz kommen.\n    </p>\n<p>\n    ConfClerk richtet sich primär an mobile Geräte, funktioniert jedoch auf allen Systemen, auf denen Qt läuft.\n  </p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Persalys",
+  "description": "GUI zur Unsicherheitsbehandlung und Variabilitätsmanagement",
+  "longDescription": "<p>\n      Persalys ist eine grafische Benutzeroberfläche für OpenTURNS, die speziell für die Behandlung von Unsicherheiten und das Management von Variabilitäten entwickelt wurde. Die Software schlägt eine Brücke zwischen Computersimulation, probabilistischen Analysen und Data Science. Die Oberfläche ist auf Französisch und Englisch verfügbar.\n    </p>\n<p>\n      Mit Persalys können Sie:\n    </p>\n<p>\n      - mathematische Modelle erstellen: analytisch, Kopplung mit einem externen Modell (Finite-Elemente, ...), FMU;\n    </p>\n<p>\n      - die Variabilität Ihrer Parameter mithilfe zahlreicher Methoden und Visualisierungstools analysieren;\n    </p>\n<p>\n      - Messdaten statistisch auswerten, Wahrscheinlichkeitsverteilungen ableiten oder Metamodelle erstellen.\n    </p>\n"
+}

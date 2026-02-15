@@ -1,0 +1,5 @@
+{
+  "name": "Carla Control",
+  "description": "Anfitrión de plugins de audio (Control OSC)",
+  "longDescription": "<p>Carla es un anfitrión de plugins de audio compatible con múltiples controladores y formatos de plugins. Incluye funciones avanzadas como automatización de parámetros mediante MIDI CC y control completo por OSC. Actualmente soporta formatos de plugins LADSPA, DSSI, LV2, VST2/3 y AU, además de bancos de sonidos SF2 y SFZ.</p>\n<p>Este paquete contiene la aplicación principal.</p>\n"
+}

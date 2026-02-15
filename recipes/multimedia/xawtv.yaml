@@ -1,0 +1,47 @@
+id: xawtv
+name: xawtv
+description: Analog TV viewing application
+longDescription: |
+  <p>
+        xawtv was originally just an analog TV viewing application for Bttv
+        devices (bt848, bt878) using the Athena widgets, but evolved into a
+        small suite of X11 applications for V4L devices.
+      </p>
+  <p>
+        The xawtv package includes a number of useful console commandline
+        utilities:
+      </p>
+  <ul>
+    <li>alevtd - a http deamon for use with analogue TV teletext</li>
+    <li>radio -- a console radio listening app </li>
+    <li>scantv -- an analogue TV frequency scanner</li>
+    <li>v4l-conf -- current video mode (size and color depth)</li>
+    <li>v4lctl -- used to control a v4l device and set varying image parameters</li>
+    <li>webcam -- capture images from a webcam </li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xawtv
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - video
+  - tv
+  - viewer
+  - v4l
+  - v4l2
+  - video4linux
+iconSources:
+  - url: org/linuxtv/xawtv/a927084d79ad8e4ac9b6bb5e23343430/icons/128x128/xawtv_emblem-debian.png
+    width: 128
+    height: 128
+homepage: "https://linuxtv.org/wiki/index.php/Xawtv"
+enabled: true
+order: 99

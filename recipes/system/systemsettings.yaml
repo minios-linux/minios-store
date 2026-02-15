@@ -1,0 +1,39 @@
+id: "systemsettings"
+name: System Settings
+description: Configuration tools for your computer
+longDescription: |
+  <p>Desktop configuration application.</p>
+  <p>This package is part of the KDE base workspace module.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - systemsettings
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: org/kde/systemsettings/4b7c9a5e180d3ff858df35dbbe2d8e2b/icons/128x128/systemsettings_systemsettings.png
+    width: 128
+    height: 128
+homepage: "https://kde.org/plasma-desktop"
+enabled: true
+order: 99

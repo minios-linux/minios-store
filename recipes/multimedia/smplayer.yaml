@@ -1,0 +1,66 @@
+id: "smplayer"
+name: SMPlayer
+description: A great MPlayer front-end
+longDescription: |
+  <p>Qt5 front-end for mplayer and forks, with basic features like playing videos, DVDs, and VCDs to more advanced features like support for MPlayer filters and more. One of the most interesting features of SMPlayer: it remembers the settings of all files you play. So you start to watch a movie but you have to leave... don&apos;t worry, when you open that movie again it will resume at the same point you left it, and with the same settings: audio track, subtitles, volume...</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - smplayer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - movie
+  - player
+  - media
+  - kde
+  - qt
+screenshotSources:
+  - url: info/smplayer/SMPlayer/8bfe6dd9788ad6af47360579f214286e/screenshots/image-1_orig.png
+    thumbnailUrl: info/smplayer/SMPlayer/8bfe6dd9788ad6af47360579f214286e/screenshots/image-1_624x491@1.png
+    width: 657
+    height: 517
+  - url: info/smplayer/SMPlayer/8bfe6dd9788ad6af47360579f214286e/screenshots/image-2_orig.png
+    thumbnailUrl: info/smplayer/SMPlayer/8bfe6dd9788ad6af47360579f214286e/screenshots/image-2_624x470@1.png
+    width: 722
+    height: 544
+  - url: info/smplayer/SMPlayer/8bfe6dd9788ad6af47360579f214286e/screenshots/image-3_orig.png
+    thumbnailUrl: info/smplayer/SMPlayer/8bfe6dd9788ad6af47360579f214286e/screenshots/image-3_624x517@1.png
+    width: 842
+    height: 698
+  - url: info/smplayer/SMPlayer/8bfe6dd9788ad6af47360579f214286e/screenshots/image-4_orig.png
+    thumbnailUrl: info/smplayer/SMPlayer/8bfe6dd9788ad6af47360579f214286e/screenshots/image-4_624x463@1.png
+    width: 911
+    height: 676
+  - url: info/smplayer/SMPlayer/8bfe6dd9788ad6af47360579f214286e/screenshots/image-5_orig.png
+    thumbnailUrl: info/smplayer/SMPlayer/8bfe6dd9788ad6af47360579f214286e/screenshots/image-5_624x500@1.png
+    width: 703
+    height: 564
+iconSources:
+  - url: info/smplayer/SMPlayer/8bfe6dd9788ad6af47360579f214286e/icons/128x128/smplayer_smplayer.png
+    width: 128
+    height: 128
+developer: Ricardo Villalba
+homepage: "https://www.smplayer.info/"
+enabled: true
+order: 99

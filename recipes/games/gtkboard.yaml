@@ -1,0 +1,33 @@
+id: gtkboard
+name: Gtkboard Board Games
+description: Play various and sundry board games
+longDescription: |
+  <p>Gtkboard aims to provide a common platform for all board games.  All games have a common interface.  The first thing you do on starting gtkboard is to select a game from the menu.  Currently 18 games are implemented.  Of these, Antichess, Ataxx, Fifteen puzzle, Hiq, Memory, Othello, Pentaline, Plot4, Rgb and Samegame are fully implemented.  Checkers, Infiltrate, Hypermaze, Mastermind, Maze, and Tetris are partially implemented but playable.  Chess, and Pacman are partially implemented and currently unplayable.  Some are single player and some are two player games.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtkboard
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: gtkboard_gtkboard.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

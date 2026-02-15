@@ -1,0 +1,5 @@
+{
+  "name": "PosteRazor",
+  "description": "Suddivide un'immagine su più pagine per creare un poster assemblabile",
+  "longDescription": "<p>\n      PosteRazor suddivide un'immagine per generare un documento PDF composto da più pagine. Una volta stampati, i fogli possono essere disposti per ricreare un poster di grandi dimensioni a partire dall'immagine originale.\n    </p>\n<p>\n      Si basa su libfreeimage e libxpm, supportando numerosi formati di file come BMP, GIF, ICO, JPG, PNG, TIFF, XPM e altri ancora.\n    </p>\n<p>\n      Inoltre, PosteRazor può gestire i seguenti tipi di colore delle immagini: Monocromatico, Scala di grigi, palette a 4 bit, palette a 8 bit, RGB a 24 bit, RGB a 48 bit (solo tramite TIFF e PNG), CMYK a 32 bit (solo tramite TIFF). Le immagini RGBA a 32 bit possono essere caricate, ma vengono convertite in RGB a 24 bit tramite \"fusione\" su sfondo bianco.\n    </p>\n<p>\n      Supporta unità di misura come m, mm, cm, pollici, ft, pt (1/72 di pollice) e permette di stampare il PDF su formati A4, A3, Legal, Letter o Tabloid.\n    </p>\n"
+}

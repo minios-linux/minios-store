@@ -1,0 +1,41 @@
+id: "micropolis"
+name: Micropolis
+description: A real-time city management simulator
+longDescription: |
+  <p>This game simulates building and managing a whole city. The goal of the game is to build and design a city. The player can mark land as being zoned as commercial, industrial, or residential, add buildings, change the tax rate, build a power grid, build transportation systems and many other actions, in order to enhance the city.</p>
+  <p>Micropolis is the GPL-licensed version of SimCity.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - micropolis
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - simulation
+  - city
+  - game
+  - real-time
+iconSources:
+  - cached: micropolis_Micropolis.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

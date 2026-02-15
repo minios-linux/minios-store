@@ -1,0 +1,5 @@
+{
+  "name": "QARecord",
+  "description": "Herramienta de grabación de audio sencilla pero robusta",
+  "longDescription": "<p>QARecord es una herramienta de grabación sencilla pero robusta. Funciona perfectamente tanto con grabaciones estéreo como multicanal, y es compatible con las interfaces ALSA y JACK en modos de 16 y 32 bits. Utiliza un amplio búfer circular para los datos capturados, evitando pérdidas por saturación del búfer. Cuenta con una interfaz gráfica basada en Qt e indicadores visuales de nivel de señal.</p>\n"
+}

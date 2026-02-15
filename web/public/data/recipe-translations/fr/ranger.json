@@ -1,0 +1,5 @@
+{
+  "name": "ranger",
+  "description": "Lance le gestionnaire de fichiers ranger",
+  "longDescription": "<p>Ranger est un gestionnaire de fichiers en console avec des raccourcis clavier à la VI. Il offre une interface épurée en mode texte (curses) permettant de visualiser la hiérarchie des dossiers. Il est livré avec « rifle », un lanceur de fichiers performant pour détecter automatiquement le programme adapté à chaque type de fichier.</p>\n<p>Objectifs de conception  * Un gestionnaire de fichiers facilement maintenable écrit dans un langage de haut niveau  * Un moyen rapide de naviguer entre les dossiers et d’explorer le système de fichiers  * Garder l’outil léger mais efficace, se concentrer sur une tâche et bien la faire  * Fonctionnement en console, intégration fluide avec le shell Unix</p>\n"
+}

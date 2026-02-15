@@ -1,0 +1,5 @@
+{
+  "name": "Back In Time",
+  "description": "Einfaches Backup-System",
+  "longDescription": "<p>Back In Time ist ein auf rsync und cron basierendes Framework zur Erstellung von Snapshots und Backups ausgewählter Ordner. Es spart Speicherplatz, indem nur beim Ändern des Verzeichnisses ein neues Snapshot erstellt wird, während unveränderte Dateien per Hardlink referenziert werden. Regelmäßige Backups können mithilfe von cron geplant werden.</p>\n<p>Dies ist die grafische Benutzeroberfläche für Back In Time.</p>\n"
+}

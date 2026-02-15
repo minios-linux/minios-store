@@ -1,0 +1,41 @@
+id: ganyremote
+name: ganyremote
+description: Bluetooth remote control
+longDescription: |
+  <p>gAnyRemote package is GTK+ GUI frontend for anyRemote (http://anyremote.sourceforge.net/). The overall goal of this project is to provide remote control service on Linux through Bluetooth, InfraRed, Wi-Fi or TCP/IP connection.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ganyremote
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - anyremote
+  - bluetooth
+  - gtk
+iconSources:
+  - cached: ganyremote_ganyremote.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

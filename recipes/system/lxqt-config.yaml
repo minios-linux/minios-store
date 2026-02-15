@@ -1,0 +1,28 @@
+id: lxqt-config
+name: Appearance
+description: Appearance settings for LXQt
+longDescription: |
+  <p>The LXQt system settings center which summarizes all configuration tools as well as counterparts of other LXQt components or third-party applications.</p>
+  <p>This package contain the LXQt configuration ui.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxqt-config
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: l/lx/lxqt-config-appearance.desktop/33BB436E0DDA4AE51C64C499DA632726/icons/128x128/lxqt-config_preferences-desktop-theme.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

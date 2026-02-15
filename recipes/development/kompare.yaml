@@ -1,0 +1,49 @@
+id: "kompare"
+name: Kompare
+description: Diff/Patch Frontend
+longDescription: |
+  <p>Kompare is a GUI front-end program that enables differences between source files to be viewed and merged. It can be used to compare differences on files or the contents of folders, and it supports a variety of diff formats and provide many options to customize the information level displayed.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Comparing differences on files or the contents of folders recursively.</li>
+    <li>Supports a variety of diff formats and provides many options to customize the information level displayed.</li>
+    <li>Creating and applying patches.</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kompare
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kompare.desktop/acc0edc7f26ae5410dbd76b35008af6b/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kompare.desktop/acc0edc7f26ae5410dbd76b35008af6b/screenshots/image-1_624x397@1.png
+    width: 1443
+    height: 919
+iconSources:
+  - url: org/kde/kompare.desktop/acc0edc7f26ae5410dbd76b35008af6b/icons/128x128/kompare_kompare.png
+    width: 128
+    height: 128
+homepage: "http://kde.org/applications/development/kompare/"
+enabled: true
+order: 99

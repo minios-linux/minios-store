@@ -1,0 +1,55 @@
+id: "qsampler"
+name: Qsampler
+description: Qsampler is a LinuxSampler Qt GUI Interface
+longDescription: |
+  <p>QSampler is a LinuxSampler GUI front-end application written in C++ around the Qt3 toolkit using Qt Designer. At the moment it just wraps as a client reference interface for the LinuxSampler Control Protocol (LSCP).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qsampler
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - midi
+  - alsa
+  - jack
+  - linuxsampler
+  - gigasampler
+  - soundfont
+  - synthesizer
+  - sampler
+  - gig
+screenshotSources:
+  - url: org/rncbc/qsampler/3c2828f2f8fb2e71846c99880f35b83e/screenshots/image-1_orig.png
+    thumbnailUrl: org/rncbc/qsampler/3c2828f2f8fb2e71846c99880f35b83e/screenshots/image-1_624x472@1.png
+    width: 642
+    height: 486
+iconSources:
+  - url: org/rncbc/qsampler/3c2828f2f8fb2e71846c99880f35b83e/icons/128x128/qsampler_org.rncbc.qsampler.png
+    width: 128
+    height: 128
+developer: rncbc aka. Rui Nuno Capela
+homepage: "https://qsampler.sourceforge.io"
+enabled: true
+order: 99

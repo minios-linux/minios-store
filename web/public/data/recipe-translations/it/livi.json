@@ -1,0 +1,5 @@
+{
+  "name": "Light Video",
+  "description": "Un lettore video semplice basato su GTK4 per smartphone",
+  "longDescription": "<p>\n      Un lettore video minimalista basato su GTK4 e gstreamer, progettato per dispositivi mobili come il Librem 5, con l'obiettivo di ridurre al minimo il consumo di batteria.\n    </p>\n<p>\n      Supporta le seguenti funzionalità:\n    </p>\n<ul>\n  <li>Inibizione della sospensione/idle durante la riproduzione dei video</li>\n  <li>Interruzione della riproduzione video quando lo schermo viene spento (ad esempio tramite il tasto di accensione)</li>\n  <li>Registrazione come lettore video predefinito nel centro di controllo GNOME</li>\n  <li>Indicatore dell'utilizzo dell'accelerazione hardware</li>\n</ul>\n"
+}

@@ -1,0 +1,28 @@
+id: "carla"
+name: Carla Control
+description: Audio Plugin Host (OSC Control)
+longDescription: |
+  <p>Carla is an audio plugin host, with support for many audio drivers and plugin formats. It has some nice features like automation of parameters via MIDI CC and full OSC control. Currently supports LADSPA, DSSI, LV2, VST2/3 and AU plugin formats, plus SF2 and SFZ sounds banks.</p>
+  <p>This package contains the main application.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - carla
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: c/ca/carla.desktop/0c5d599ec6ac08c55acb21e4520b612f/icons/128x128/carla_carla.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

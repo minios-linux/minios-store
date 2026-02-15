@@ -1,0 +1,5 @@
+{
+  "name": "AntiMicroX",
+  "description": "Programma grafico per mappare tasti del gamepad su tastiera, mouse, script e macro",
+  "longDescription": "<p>\n     AntiMicroX è un programma con interfaccia grafica per associare i pulsanti e joystick dei gamepad\n     ai tasti della tastiera, al mouse, a script e macro personalizzate.\n     Può essere utilizzato anche per generare configurazioni SLD2 (utile per adattare\n     gamepad atipici a profili generici come xbox360).\n    </p>\n<p>\n    Permette di assegnare ai pulsanti/joystick del gamepad:\n    </p>\n<ul>\n  <li>tasti della tastiera</li>\n  <li>pulsanti e movimenti del mouse</li>\n  <li>script e avvio di applicazioni</li>\n  <li>macro composte dagli elementi sopra elencati</li>\n</ul>\n<p>\n     AntiMicroX si ispira a QJoyPad.\n    </p>\n"
+}

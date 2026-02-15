@@ -1,0 +1,5 @@
+{
+  "name": "KDE IM Log Viewer",
+  "description": "Zeigt Ihre KDE Instant Messenger-Protokolle an",
+  "longDescription": "<p>Dieses Paket stellt einen Telepathy-Handler für Textkanäle bereit, also ein Programm, mit dem Sie mit Ihren Kontakten per Sofortnachricht chatten können.</p>\n<p>Zusätzlich enthält es eine Benutzeroberfläche zur Anzeige von Telepathy-Chatprotokollen.</p>\n<p>Dieses Paket ist nicht für die eigenständige Nutzung gedacht. Es wird empfohlen, stattdessen das Metapaket kde-telepathy zu installieren.</p>\n"
+}

@@ -1,0 +1,32 @@
+id: qtav-players
+name: QtAV QML Player
+description: QtAV Multimedia Player
+longDescription: |
+  <p>QtAV is a multimedia playback framework based on Qt and FFmpeg. High performance. User &amp; developer friendly.</p>
+  <p>This package contains the QtAV based players</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtav-players
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: q/qm/QMLPlayer.desktop/8DD7728E9598FB14E42F249BC0985867/icons/128x128/qtav-players_QtAV.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

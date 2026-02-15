@@ -1,0 +1,63 @@
+id: "darktable"
+name: darktable
+description: Organize and develop images from digital cameras
+longDescription: |
+  <p>darktable manages your digital negatives in a database and lets you view them through a lighttable. It also enables you to develop raw images and enhance them in a darkroom.</p>
+  <p>Other modes besides lighttable and darkroom are a map for geotagging, tethering, print and a slideshow.</p>
+  <p>darktable supports most modern camera&apos;s raw formats, and does all of its processing at very high precision.</p>
+  
+categoryId: graphics
+icon: Camera
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - darktable
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64]
+    - name: buster
+      architectures: [amd64]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - graphics
+  - photography
+  - raw
+screenshotSources:
+  - url: org/darktable/darktable/0bdf9942e7d86675d735662d93bef964/screenshots/image-1_orig.png
+    thumbnailUrl: org/darktable/darktable/0bdf9942e7d86675d735662d93bef964/screenshots/image-1_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/darktable/darktable/0bdf9942e7d86675d735662d93bef964/screenshots/image-2_orig.png
+    thumbnailUrl: org/darktable/darktable/0bdf9942e7d86675d735662d93bef964/screenshots/image-2_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/darktable/darktable/0bdf9942e7d86675d735662d93bef964/screenshots/image-3_orig.png
+    thumbnailUrl: org/darktable/darktable/0bdf9942e7d86675d735662d93bef964/screenshots/image-3_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/darktable/darktable/0bdf9942e7d86675d735662d93bef964/screenshots/image-4_orig.png
+    thumbnailUrl: org/darktable/darktable/0bdf9942e7d86675d735662d93bef964/screenshots/image-4_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/darktable/darktable/0bdf9942e7d86675d735662d93bef964/screenshots/image-5_orig.png
+    thumbnailUrl: org/darktable/darktable/0bdf9942e7d86675d735662d93bef964/screenshots/image-5_624x351.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: org/darktable/darktable/0bdf9942e7d86675d735662d93bef964/icons/128x128/darktable_darktable.png
+    width: 128
+    height: 128
+homepage: "https://www.darktable.org/"
+enabled: true
+order: 99

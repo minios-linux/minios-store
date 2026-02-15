@@ -1,0 +1,5 @@
+{
+  "name": "Amide",
+  "description": "outil d’analyse d’images médicales",
+  "longDescription": "<p>AMIDE (Amide's a Medical Imaging Data Examiner) est un outil permettant de visualiser et d’analyser des ensembles de données d’images médicales. Ses fonctionnalités incluent la gestion simultanée de plusieurs jeux de données issus de différents formats de fichiers, la fusion d’images, le tracé et l’analyse de régions d’intérêt en 3D, le rendu volumique et l’alignement par transformation rigide.</p>\n<p>Amide prend en charge la plupart des fichiers DICOM cliniques (via la bibliothèque DCMTK).</p>\n"
+}

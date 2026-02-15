@@ -1,0 +1,5 @@
+{
+  "name": "usbrelay",
+  "description": "Contrôle de relais électriques via USB, basé sur hidapi",
+  "longDescription": "<p>Petit utilitaire pour contrôler des relais compatibles USB HID, utilisable pour la domotique ou d'autres besoins de commutation. Ces dispositifs, proposés par divers fournisseurs, peuvent supporter jusqu'à 10A à 250VAC.</p><p>Un cas d'usage typique est l'interrupteur électrique pilotable par USB. Par exemple, vous pouvez utiliser ce type de relais pour gérer l'alimentation d'un disque dur externe en vue de sauvegardes.</p>"
+}

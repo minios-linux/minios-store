@@ -1,0 +1,55 @@
+id: "baobab"
+name: Disk Usage Analyzer
+description: Check folder sizes and available disk space
+longDescription: |
+  <p>A simple application to keep your disk usage and available space under control.</p>
+  <p>Disk Usage Analyzer can scan specific folders, storage devices and online accounts.
+        It provides both a tree and a graphical representation showing the size of each folder,
+        making it easy to identify where disk space is wasted.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - baobab
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - storage
+  - space
+  - cleanup
+screenshotSources:
+  - url: org/gnome/baobab/270e81679f48f2aefa26ac4c35ec158a/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/baobab/270e81679f48f2aefa26ac4c35ec158a/screenshots/image-1_624x416@1.png
+    width: 1082
+    height: 722
+  - url: org/gnome/baobab/270e81679f48f2aefa26ac4c35ec158a/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/baobab/270e81679f48f2aefa26ac4c35ec158a/screenshots/image-2_624x416@1.png
+    width: 1082
+    height: 722
+iconSources:
+  - url: org/gnome/baobab/270e81679f48f2aefa26ac4c35ec158a/icons/128x128/baobab_org.gnome.baobab.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Baobab"
+enabled: true
+order: 99

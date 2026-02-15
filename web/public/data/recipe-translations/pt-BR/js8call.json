@@ -1,0 +1,5 @@
+{
+  "name": "js8call",
+  "description": "Operação de Sinais Fracos em Rádio Amador",
+  "longDescription": "<p>O JS8Call utiliza o modo digital JS8 para proporcionar troca de mensagens de teclado a teclado entre radioamadores em ambientes de sinal fraco.</p>\n<p>O JS8Call é um experimento que explora a viabilidade de um modo digital com a robustez do FT8, aliado a uma camada de protocolo de mensagens e rede para comunicação em HF sob condições de sinal fraco, usando uma interface de mensagens via teclado. Seu objetivo é conectar radioamadores operando em situações desfavoráveis de sinal, sem um propósito específico além dessa conexão. O JS8Call é fortemente inspirado por WSJT-X, Fldigi e FSQCall, e só é possível graças ao trabalho dedicado de muitos desenvolvedores da comunidade de rádio amador.</p>\n"
+}

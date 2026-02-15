@@ -1,0 +1,40 @@
+id: "barrier"
+name: Barrier
+description: Keyboard and mouse sharing solution
+longDescription: |
+  <p>Barrier lets you easily share a single mouse and keyboard between multiple computers with different operating systems, each with its own display, without special hardware.  It&apos;s intended for users with multiple computers on their desk since each system uses its own display.</p>
+  <p>Redirecting the mouse and keyboard is as simple as moving the mouse off the edge of your screen.  Barrier also merges the clipboards of all the systems into one, allowing cut-and-paste between systems. Furthermore, it synchronizes screen savers so they all start and stop together and, if screen locking is enabled, only one screen requires a password to unlock them all.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - barrier
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - keyboard
+  - mouse
+  - sharing
+  - network
+  - share
+iconSources:
+  - url: b/ba/barrier.desktop/89446b794cd8a1caabc5f338eb15784c/icons/128x128/barrier_barrier.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

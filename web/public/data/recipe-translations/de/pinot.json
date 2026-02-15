@@ -1,0 +1,5 @@
+{
+  "name": "Pinot Metasuche-Tool",
+  "description": "Durchsuchen Sie das Web und Ihre Dokumente",
+  "longDescription": "<p>Pinot stellt einen D-Bus-Dienst bereit, der Ihre Dokumente durchsucht, indiziert und auf Änderungen überwacht. Dieser Dienst kann über eine Befehlszeilenschnittstelle oder eine GTK-basierte grafische Oberfläche genutzt werden, um den vom Dienst erstellten Index sowie bevorzugte Websuchmaschinen abzufragen und die Ergebnisse anzuzeigen und zu analysieren.</p>\n<p>Pinot stellt außerdem eine Xesam-Schnittstelle bereit, die über die Xesam Query Language und die Xesam User Language genutzt werden kann.</p>\n<p>Um rpm-Dateien zu durchsuchen, installieren Sie bitte die Pakete \"rpm\" und \"file\".</p>\n"
+}

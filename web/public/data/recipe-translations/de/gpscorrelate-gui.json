@@ -1,0 +1,5 @@
+{
+  "name": "GPSCorrelate",
+  "description": "Fügt JPEG-Bildern Koordinaten mithilfe von GPX-Dateien hinzu",
+  "longDescription": "<p>GPSCorrelate trägt GPS-Informationen (z. B. GPSLatitude, GPSLongitude, GPSAltitude usw.) in die EXIF-Metadaten digitaler Fotos ein. Dieser Vorgang wird als \"Korrelation\" bezeichnet.</p>\n<p>Als Eingaben für den Korre­lations­prozess dienen eine Auswahl an JPEG-Bildern sowie GPS-Daten im GPX (GPS Exchange Format).</p>\n<p>Wenn für den genauen Aufnahmezeitpunkt GPS-Daten (mit 1-Sekunden-Genauigkeit) vorliegen, werden sie unverändert in die EXIF-Felder übernommen. Andernfalls kann eine lineare Interpolation zwischen GPS-Datenpunkten vor und nach der Aufnahme genutzt werden.</p>\n<p>Es stehen sowohl ein Kommandozeilen-Tool (Paket gpscorrelate) als auch eine GTK+-basierte grafische Benutzeroberfläche (Paket gpscorrelate-gui) zur Verfügung.</p>\n<p>Dieses Paket enthält die grafische GTK+-Benutzeroberfläche.</p>\n"
+}

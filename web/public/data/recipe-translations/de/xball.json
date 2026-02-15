@@ -1,0 +1,5 @@
+{
+  "name": "XBall",
+  "description": "Simuliert hüpfende Bälle in einem Fenster",
+  "longDescription": "<p>\n    Dieses Programm simuliert hüpfende Bälle in einem Fenster. Sie können die Bälle auf verschiedene Arten erzeugen und Parameter wie Schwerkraft, Elastizität und Kollisionen individuell einstellen.</p>\n<p>\n    Die Software bietet benutzerkonfigurierbare Menüs sowie ein DrawingArea-Widget zur Verwendung mit weiteren Athena-Widgets.</p>\n<p>\n    Alle Ressourcen sind als Fallback-Resourcen ins Programm eingebettet, daher ist die Installation der Datei app-defaults grundsätzlich nicht zwingend notwendig – außer bei der Nutzung von Athena-Widgets, da in diesem Fall die Tastaturkürzel ohne app-defaults nicht funktionieren.</p>\n<p>\n    Um die mitgelieferten Demos zu starten, öffnen Sie ein Terminal und geben Sie 'run_demos' ein.</p>\n"
+}

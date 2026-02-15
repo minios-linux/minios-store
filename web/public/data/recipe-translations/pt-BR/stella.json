@@ -1,0 +1,5 @@
+{
+  "name": "Stella",
+  "description": "Emulador multi-plataforma para Atari 2600",
+  "longDescription": "<p>Stella é um emulador portátil do antigo console de videogame Atari 2600. Permite jogar a maioria dos jogos do Atari 2600.</p>\n<p>Entre os recursos do Stella estão:  * emulação dos joysticks, teclados, paddles e controladores de direção do Atari 2600 usando periféricos de entrada do sistema anfitrião;  * emulação de trackballs, joysticks, booster grips, controladores de direção e do Mouse Amiga usando o mouse do sistema;  * suporte para controles reais do Atari 2600 utilizando Stelladaptor, 2600-daptor ou 2600-daptor II;  * suporte para controles reais do Atari 7800 usando o 2600-daptor II;  * suporte para o módulo de fala do dispositivo real AtariVox;  * suporte para jogos Supercharger em modo single-load e multi-load;  * emulação de características de TVs CRT, incluindo textura, sangramento de cor, ruído RF e efeito fosfórico (requer OpenGL).</p>\n<p>Inclui um depurador avançado com o disassemblador Distella.</p>\n<p>Obs: este programa não é a ferramenta de modelagem, simulação e análise STELLA da isee systems.</p>\n"
+}

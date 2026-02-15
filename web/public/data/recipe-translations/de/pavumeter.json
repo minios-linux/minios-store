@@ -1,0 +1,5 @@
+{
+  "name": "PulseAudio Lautstärkeanzeige (Wiedergabe)",
+  "description": "Überwachen Sie die Ausgabelautstärke",
+  "longDescription": "<p>PulseAudio, ehemals bekannt als Polypaudio, ist ein Sound-Server für POSIX- und WIN32-Systeme. Er ist ein direkter Ersatz für den ESD-Sound-Server und bietet dabei deutlich bessere Latenz, Misch-/Resampling-Qualität sowie eine modernere Architektur.</p>\n<p>Ein einfaches Lautstärkemessgerät für den PulseAudio-Sound-Server.</p>\n"
+}

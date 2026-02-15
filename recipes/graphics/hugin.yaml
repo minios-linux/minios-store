@@ -1,0 +1,36 @@
+id: "hugin"
+name: Hugin Calibrate Lens
+description: Characterise lens distortion
+longDescription: |
+  <p>Hugin is a panorama photo stitching program. Essentially, Hugin is a GUI frontend for Panorama Tools. Stitching is accomplished by using several overlapping photos taken from the same location, and using control points to align and transform the photos so that they can be blended together to form a larger image. Hugin allows for the easy creation of control points between two images, optimization of the image transforms, and much more.</p>
+  <p>This package includes the following graphical interfaces, using the command-line tools provided in the hugin-tools package:  * hugin                - Hugin panorama creator.  * hugin_stitch_project - Hugin batch stitcher.  * PTBatcherGUI         - Batch controller for the stitching process.  * calibrate_lens_gui   - Lens calibration tool.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hugin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: h/hu/hugin.desktop/44dce02dd1298c8882b4235ca0260f0b/icons/128x128/hugin_hugin.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,23 @@
+id: fish-common
+name: fish
+description: The user-friendly command line shell
+longDescription: |
+  <p>Fish is a shell geared towards interactive use.  Its features are focused on user friendliness and discoverability.  The language syntax is simple but incompatible with other shell languages.</p>
+  <p>This package contains the common fish files shared by all architectures.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fish-common
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: fish-common_fish.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

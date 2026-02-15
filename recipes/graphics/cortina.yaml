@@ -1,0 +1,26 @@
+id: cortina
+name: Cortina
+description: Manage your desktop wallpapers
+longDescription: |
+  <p>Cortina is a simple, lightweight, and fast-working wallpaper changer for the GNOME desktop. It can cycle through wallpapers at a specified interval, and works as a tray application with a configuration interface.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cortina
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - gnome
+  - wallpaper
+iconSources:
+  - cached: cortina_cortina.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

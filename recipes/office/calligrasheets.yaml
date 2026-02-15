@@ -1,0 +1,51 @@
+id: "calligrasheets"
+name: Calligra Sheets
+description: Spreadsheet
+longDescription: |
+  <p>Calligra Sheets is a fully-featured calculation and spreadsheet tool.
+        Use it to quickly create and calculate various business-related spreadsheets, such as income and expenditure, employee
+  working hours, etc.</p> <p>Features:</p>
+  <ul>
+    <li>Use shapes to take notes or mind maps</li>
+    <li>Large range of pre-defined templates</li>
+    <li>Powerful and comprehensive formula list</li>
+    <li>Work in a familiar environment</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - calligrasheets
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/calligra.sheets/7f1d2b224da7028d94c434868a99cbf5/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/calligra.sheets/7f1d2b224da7028d94c434868a99cbf5/screenshots/image-1_624x428@1.png
+    width: 1339
+    height: 919
+iconSources:
+  - url: org/kde/calligra.sheets/7f1d2b224da7028d94c434868a99cbf5/icons/128x128/calligrasheets_org.kde.calligra.sheets.png
+    width: 128
+    height: 128
+homepage: "http://www.calligra.org/sheets/"
+enabled: true
+order: 99

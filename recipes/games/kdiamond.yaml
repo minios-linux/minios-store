@@ -1,0 +1,44 @@
+id: "kdiamond"
+name: KDiamond
+description: Logic game
+longDescription: |
+  <p>KDiamond is a three-in-a-row game like Bejeweled. It features unlimited fun with randomly generated games and five difficulty levels with varying number of diamond colors and board sizes.</p>
+  <p>This package is part of the KDE games module.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kdiamond
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kdiamond/6833440e60eadb94db2337c99996f9f7/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kdiamond/6833440e60eadb94db2337c99996f9f7/screenshots/image-1_624x719@1.png
+    width: 659
+    height: 760
+iconSources:
+  - url: org/kde/kdiamond/6833440e60eadb94db2337c99996f9f7/icons/128x128/kdiamond_kdiamond.png
+    width: 128
+    height: 128
+homepage: "https://games.kde.org/game.php?game=kdiamond"
+enabled: true
+order: 99

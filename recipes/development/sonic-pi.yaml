@@ -1,0 +1,45 @@
+id: sonic-pi
+name: Sonic Pi
+description: Learn programming and computer science while creating music
+longDescription: |
+  <p>A free live coding synth for everyone. Originally designed to support computing and music lessons within schools. Use code to compose and perform in classical and contemporary styles ranging from Canons to Dubstep.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sonic-pi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - sound
+  - algorave
+  - live
+  - coding
+  - programming
+  - synthesizer
+iconSources:
+  - cached: sonic-pi_sonic-pi.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

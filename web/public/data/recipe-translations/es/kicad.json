@@ -1,0 +1,5 @@
+{
+  "name": "Convertidor de Bitmap a Componente",
+  "description": "Crea un componente a partir de un bitmap para usar con KiCad",
+  "longDescription": "<p>KiCad es un conjunto de programas para la creación de placas de circuito impreso (PCB). Incluye un editor de esquemas, una herramienta de diseño de PCB, utilidades de apoyo y un visor 3D para mostrar una placa terminada y completamente ensamblada.</p>\n<p>KiCad está compuesto por 5 componentes principales:</p>\n<p> * kicad - gestor de proyectos  * eeschema - editor de esquemas  * pcbnew - editor de PCB  * gerbview - visor de GERBER  * cvpcb - selector de huellas para componentes</p>\n<p>Bibliotecas:  * Tanto eeschema como pcbnew cuentan con gestores y editores de bibliotecas para sus componentes y huellas  * Permite crear, editar, eliminar e intercambiar elementos de biblioteca fácilmente  * Es posible asociar archivos de documentación a componentes, huellas y palabras clave, facilitando la búsqueda rápida por función  * Existen bibliotecas muy extensas de componentes y huellas para esquemas  * La mayoría de los componentes cuentan con modelos 3D correspondientes</p>\n"
+}

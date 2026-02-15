@@ -1,0 +1,5 @@
+{
+  "name": "Eclipse",
+  "description": "Eclipse Integrierte Entwicklungsumgebung",
+  "longDescription": "<p>Die Eclipse-Plattform ist eine offene und erweiterbare Plattform für nahezu jeden Einsatzzweck. Sie bietet ein Fundament für die Erstellung und den Betrieb integrierter Software-Entwicklungswerkzeuge. Die Eclipse-Plattform ermöglicht es Entwicklern, unabhängig voneinander Tools zu erstellen, die sich so nahtlos in andere Werkzeuge integrieren lassen, dass die Übergänge zwischen ihnen kaum wahrnehmbar sind.</p>\n<p>Dieses Paket stellt die Eclipse-Plattform bereit und dient als Basis für alle Eclipse-Entwicklungs-Plugins, enthält jedoch selbst keine solchen Plugins. Diese sind in separaten Paketen verfügbar, zum Beispiel:</p>\n<p> * eclipse-jdt Java-Entwicklungswerkzeuge  * eclipse-pde Plugin-Entwicklungswerkzeuge  * eclipse-cdt C/C++-Entwicklungswerkzeuge</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "GPSCorrelate",
+  "description": "Menambahkan koordinat ke gambar jpeg menggunakan file gpx",
+  "longDescription": "<p>gpscorrelate mengisi field EXIF (Exchangeable Image File Format) pada foto digital yang berkaitan dengan informasi GPS (Global Positioning System) seperti GPSLatitude, GPSLongitude, GPSAltitude, dan lainnya. Proses pengisian field ini disebut dengan \"korelasi\".</p>\n<p>Input dari proses korelasi adalah sekumpulan gambar JPEG dan data GPS yang dikodekan dalam format GPX (GPS Exchange Format).</p>\n<p>Jika data GPS tersedia tepat pada saat foto diambil (dengan ketelitian 1 detik), maka data GPS akan disimpan apa adanya ke dalam field EXIF. Jika tidak tersedia, interpolasi linier dari data GPS sebelum dan sesudah waktu pengambilan foto dapat digunakan.</p>\n<p>Tersedia alat baris perintah (paket gpscorrelate) dan antarmuka grafis berbasis GTK+ (paket gpscorrelate-gui).</p>\n<p>Paket ini berisi antarmuka grafis berbasis GTK+.</p>\n"
+}

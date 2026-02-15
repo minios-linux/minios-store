@@ -1,0 +1,5 @@
+{
+  "name": "Firewall Builder",
+  "description": "Grafische Oberfläche zur Firewall-Verwaltung",
+  "longDescription": "<p>Firewall Builder bietet eine objektorientierte Benutzeroberfläche sowie eine Reihe von Policy-Compilern für verschiedene Firewall-Plattformen. Die Firewall-Regeln werden als Sammlung von Regeln dargestellt, wobei jede Regel aus abstrakten Objekten besteht, die reale Netzwerkobjekte und Dienste (Hosts, Router, Firewalls, Netzwerke, Protokolle) repräsentieren. Firewall Builder unterstützt die Verwaltung einer Objektdatenbank und ermöglicht die Bearbeitung von Richtlinien per Drag-and-drop.</p>\n<p>Dies ist die grafische Oberfläche von fwbuilder.</p>\n"
+}

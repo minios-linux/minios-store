@@ -1,0 +1,50 @@
+id: "adonthell-data"
+name: Adonthell -- Waste's Edge
+description: A 2d role playing game
+longDescription: |
+  <p>As a loyal servant of the elven Lady Silverhair, you arrive at the remote 
+        trading post of Waste&apos;s Edge, where she is engaged in negotiations with 
+        the dwarven merchant Bjarn Fingolson. But not all is well at Waste&apos;s Edge,
+        and soon you are confronted with circumstances that are about to destroy 
+        your mistress&apos; high reputation. And none but you can avert this ...</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - adonthell-data
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - fantasy
+  - rpg
+screenshotSources:
+  - url: org/nongnu/wastesedge/bb3120f24a7613a8351e43d52903bdc5/screenshots/image-1_orig.png
+    thumbnailUrl: org/nongnu/wastesedge/bb3120f24a7613a8351e43d52903bdc5/screenshots/image-1_624x351@1.png
+    width: 1280
+    height: 720
+iconSources:
+  - url: org/nongnu/wastesedge/bb3120f24a7613a8351e43d52903bdc5/icons/128x128/adonthell-data_wastesedge.png
+    width: 128
+    height: 128
+homepage: "http://adonthell.nongnu.org"
+enabled: true
+order: 99

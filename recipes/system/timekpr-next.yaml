@@ -1,0 +1,49 @@
+id: timekpr-next
+name: Timekpr-nExT Control Panel
+description: Track and control computer usage of user accounts
+longDescription: |
+  <p>
+        Timekpr-nExT is a program that tracks and controls the computer usage
+        of your user accounts. You can limit their daily usage based on a
+        timed access duration and configure periods of day when they can or
+        cannot log in.
+      </p>
+  <p>
+        This may be used for parental control to limit the amount of screen time
+        a child spends in front of the computer.
+      </p>
+  <p>
+        Please report any bugs to Timekpr-nExT’s bug tracker on Launchpad at:
+        https://bugs.launchpad.net/timekpr-next
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - timekpr-next
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+tags:
+  - timekpr
+  - time
+screenshotSources:
+  - url: org/timekpr/timekpr_next/6717d033ed88128ce34d1e392b24fd83/screenshots/image-1_orig.png
+    thumbnailUrl: org/timekpr/timekpr_next/6717d033ed88128ce34d1e392b24fd83/screenshots/image-1_624x413.png
+    width: 870
+    height: 577
+  - url: org/timekpr/timekpr_next/6717d033ed88128ce34d1e392b24fd83/screenshots/image-2_orig.png
+    thumbnailUrl: org/timekpr/timekpr_next/6717d033ed88128ce34d1e392b24fd83/screenshots/image-2_624x335.png
+    width: 678
+    height: 365
+iconSources:
+  - url: org/timekpr/timekpr_next/6717d033ed88128ce34d1e392b24fd83/icons/128x128/timekpr-next_timekpr.png
+    width: 128
+    height: 128
+homepage: "https://launchpad.net/timekpr-next"
+enabled: true
+order: 99

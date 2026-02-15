@@ -1,0 +1,5 @@
+{
+  "name": "SCAP Workbench",
+  "description": "Una herramienta gráfica que actúa como escáner SCAP y ofrece funciones de personalización de contenido SCAP",
+  "longDescription": "<p>El principal objetivo de esta aplicación es reducir la barrera inicial para utilizar SCAP.<br>Por ello, su alcance es muy específico: SCAP Workbench solo analiza una máquina a la vez y únicamente con XCCDF/SDS (sin evaluación OVAL directa).<br>Se asume que esto es suficiente para usuarios que necesitan analizar unas pocas máquinas, mientras que aquellos que gestionan grandes cantidades simplemente usarán scap-workbench para probar o ajustar a mano su contenido antes de desplegarlo con herramientas más avanzadas (y complejas), como spacewalk.</p><p>Características destacadas:</p><ul><li>Soporte para XCCDF 1.1 y 1.2</li><li>Soporte para Source Data Stream 1.2</li><li>Soporte para archivos de personalización XCCDF 1.2</li><li>Evaluación de la máquina local</li><li>Evaluación de máquina remota (vía SSH)</li><li>Soporte limitado de personalización: selección y deselección</li><li>Guardar resultados como XCCDF 1.1 o 1.2 (según entrada), o ARF 1.1</li></ul>"
+}

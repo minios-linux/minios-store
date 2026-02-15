@@ -1,0 +1,5 @@
+{
+  "name": "Navit",
+  "description": "Program navigasi berbasis vektor open source dengan mesin perutean",
+  "longDescription": "<p>Navit adalah sistem navigasi mobil dengan mesin perutean.</p>\n<p>Desain modularnya mampu menggunakan peta vektor dari berbagai format untuk proses perutean dan tampilan peta. Bahkan, Anda bisa menggunakan beberapa peta sekaligus.</p>\n<p>Antarmuka pengguna GTK+ atau SDL dirancang agar nyaman digunakan pada layar sentuh. Titik-titik menarik (Points of Interest/POI) dalam berbagai format ditampilkan pada peta.</p>\n<p>Posisi kendaraan saat ini dapat dibaca dari gpsd maupun langsung dari sensor GPS NMEA.</p>\n<p>Mesin peruteannya tidak hanya menghitung rute optimal ke tujuan Anda, tapi juga menghasilkan petunjuk arah dan bahkan bisa memberikan panduan suara menggunakan speech-dispatcher.</p>\n<p>Kemasan Navit di Debian tidak menyertakan peta apa pun. Untuk informasi mengenai sumber peta, lihat &lt;http://wiki.navit-project.org/index.php/Main_Page#Maps&gt;.</p>\n"
+}

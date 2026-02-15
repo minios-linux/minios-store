@@ -1,0 +1,5 @@
+{
+  "name": "Plover",
+  "description": "stenografische Eingabe und Übersetzung",
+  "longDescription": "<p>Plover ist eine schlanke, effiziente Python-Anwendung, die im Hintergrund läuft und als Übersetzer fungiert. Sie erkennt Stenografie-Eingaben und emuliert Tastatureingaben, sodass verwendete Programme nicht erkennen, dass Stenografie genutzt wird.</p>\n<p>Plover wird heute von Hunderten Anwendern eingesetzt, darunter professionelle Stenografen, Transkriptionisten, Entwickler und Hobbyisten. Es unterstützt:</p>\n<p> - Normale Tastaturen sowie echte Stenografie-Maschinen  - Unterstützung für Medientasten zur Steuerung von Medien, Lautstärke etc.  - Basiert auf einer erweiterten Theorie von StenEd mit über 50.000 neuen Kürzeln  - Unterstützt JSON- und RTF/CRE-Wörterbücher  - Enthält Trainingstools für das Erlernen der Stenografie</p>\n"
+}

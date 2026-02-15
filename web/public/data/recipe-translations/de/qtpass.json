@@ -1,0 +1,5 @@
+{
+  "name": "QtPass",
+  "description": "GUI für den Standard-Unix-Passwortspeicher",
+  "longDescription": "<p>QtPass ist eine plattformübergreifende grafische Oberfläche für pass, den Standard-Unix-Passwortmanager.</p>\n<p>Funktionen:</p>\n<ul>\n  <li>Direkte Verwendung von pass oder git und gpg2</li>\n  <li>Plattformübergreifend: Linux, BSD, macOS und Windows</li>\n  <li>Verwendung nativer Widgets und Icons, wo möglich</li>\n  <li>Auslesen von pass-Passwortspeichern</li>\n  <li>Entschlüsseln und Anzeigen von Passwörtern und zugehörigen Informationen</li>\n  <li>Bearbeiten und Hinzufügen von Passwörtern und Informationen</li>\n  <li>Synchronisieren mit einem Git-Repository</li>\n  <li>Benutzerauswahl pro Ordner für Mehr-Empfänger-Verschlüsselung</li>\n  <li>Konfigurierbare Backend- und Pfadangaben für ausführbare Dateien und Ordner</li>\n  <li>Kopieren des Passworts in die Zwischenablage</li>\n  <li>Konfigurierbare Optionen zum Schutz vor Schulterblicken</li>\n  <li>Experimentelle WebDAV-Unterstützung</li>\n</ul>\n"
+}

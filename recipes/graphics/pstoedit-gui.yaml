@@ -1,0 +1,24 @@
+id: pstoedit-gui
+name: Pstoedit QT GUI
+description: GUI for pstoedit
+longDescription: |
+  <p>pstoedit converts Postscript and PDF files to various editable vector graphic formats including tgif, xfig, PDF graphics, gnuplot format, idraw, MetaPost, GNU Metafile, PIC, Kontour and flattened PostScript.</p>
+  <p>This package contains a GUI interface to that functionality.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pstoedit-gui
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/ps/pstoeditqtgui.desktop/366ce403a90c7d7867c03e0b05d1943e/icons/128x128/pstoedit-gui_pstoedit.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

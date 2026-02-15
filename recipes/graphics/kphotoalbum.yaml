@@ -1,0 +1,39 @@
+id: kphotoalbum
+name: KPhotoAlbum
+description: KDE image management software
+longDescription: |
+  <p>KPhotoAlbum is an application for tagging and managing a photo collection and making it searchable.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kphotoalbum
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kphotoalbum/539B28A72164DB972B43334FA98660D8/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kphotoalbum/539B28A72164DB972B43334FA98660D8/screenshots/image-1_624x482.png
+    width: 853
+    height: 659
+iconSources:
+  - url: org/kde/kphotoalbum/539B28A72164DB972B43334FA98660D8/icons/128x128/kphotoalbum_kphotoalbum.png
+    width: 128
+    height: 128
+homepage: "http://kphotoalbum.org"
+enabled: true
+order: 99

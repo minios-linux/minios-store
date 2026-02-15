@@ -1,0 +1,25 @@
+id: eclipse-platform
+name: Eclipse
+description: Eclipse Integrated Development Environment
+longDescription: |
+  <p>The Eclipse Platform is an open and extensible platform for anything and yet nothing in particular. It provides a foundation for constructing and running integrated software-development tools. The Eclipse Platform allows tool builders to independently develop tools that integrate with other people&apos;s tools so seamlessly you can&apos;t tell where one tool ends and another starts.</p>
+  <p>This package provides the Eclipse Platform and is the base for all Eclipse development plug-ins, but it does not include any. These are available in different packages, for example:</p>
+  <p> * eclipse-jdt Java Development Tools  * eclipse-pde Plug-in Development Tools  * eclipse-cdt C/C++ Development Tools</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - eclipse-platform
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: eclipse-platform_eclipse.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

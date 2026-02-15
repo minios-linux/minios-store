@@ -1,0 +1,53 @@
+id: "transmission-remote-gtk"
+name: Transmission Remote
+description: Remotely manage the Transmission BitTorrent client
+longDescription: |
+  <p>Transmission Remote Gtk allows you to remotely manage the Transmission BitTorrent client using its RPC interface.
+      It is a full featured client, allowing adding, starting, stopping, removing, verifying, and reannouncing torrents.
+      It also exposes settings for both individual torrents (peer limits, file priorities, tracker settings, etc.) and Transmission
+  as a whole (global limits, download directory, connectivity preferences, etc.)
+      It can also act as a .torrent handler, opening when torrents are downloaded through a web browser.</p>
+  
+categoryId: internet
+icon: Download
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - transmission-remote-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - p2p
+  - bittorrent
+  - transmission
+  - rpc
+screenshotSources:
+  - url: io/github/TransmissionRemoteGtk/0430ecc05589740ce6f187e867855b9e/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/TransmissionRemoteGtk/0430ecc05589740ce6f187e867855b9e/screenshots/image-1_624x328.png
+    width: 973
+    height: 512
+iconSources:
+  - url: io/github/TransmissionRemoteGtk/0430ecc05589740ce6f187e867855b9e/icons/128x128/transmission-remote-gtk_transmission-remote-gtk.png
+    width: 128
+    height: 128
+developer: Transmission Remote Gtk Team
+homepage: "https://github.com/transmission-remote-gtk/transmission-remote-gtk"
+enabled: true
+order: 99

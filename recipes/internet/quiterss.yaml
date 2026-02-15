@@ -1,0 +1,35 @@
+id: quiterss
+name: QuiteRSS
+description: QuiteRSS is a RSS/Atom feed reader written in C++/Qt
+longDescription: |
+  <p>QuiteRSS is &quot;fast and comfortable to user&quot; cross-platform RSS/Atom news feeds reader written on Qt/C++.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - quiterss
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: q/qu/quiterss.desktop/67381868FACF27E4751CB87BDACE3693/icons/128x128/quiterss_quiterss.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

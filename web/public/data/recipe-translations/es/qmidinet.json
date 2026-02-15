@@ -1,0 +1,5 @@
+{
+  "name": "QmidiNet",
+  "description": "Una pasarela MIDI en red mediante multidifusión UDP/IP",
+  "longDescription": "<p>QmidiNet es una aplicación de pasarela MIDI en red que permite enviar y recibir datos MIDI (ALSA Sequencer y/o JACK MIDI) a través de la red, utilizando multidifusión UDP/IP. Está inspirada en multimidicast (http://llg.cubic.org/tools) y diseñada para ser compatible con ipMIDI para Windows (http://nerds.de).</p>\n"
+}

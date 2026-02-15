@@ -1,0 +1,60 @@
+id: "latexila-data"
+name: LaTeXila
+description: Edit LaTeX documents
+longDescription: |
+  <p>LaTeXila is an integrated LaTeX environment for the GNOME desktop. The idea of LaTeXila is to always deal directly with the LaTeX code, while simplifying as most as possible the writing of this LaTeX code.</p>
+  <p>To help the writing of the LaTeX markup, auto-completion is available as well as menus and toolbars with the principal commands.</p>
+  <p>New documents are created from templates. There are buttons to compile, convert and view a document in one click. And projects containing several .tex files are managed easily.</p>
+  <p>A side panel contains three components: the document structure to easily navigate in it; lists of symbols to insert them in a document; and an integrated file browser.</p>
+  <p>LaTeXila has also other features like the spell checking, or the forward and backward search to switch between the .tex and the PDF.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - latexila-data
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - text
+  - tex
+  - latex
+  - editor
+  - documents
+screenshotSources:
+  - url: org/gnome/latexila.desktop/5DECB2B0799FC433A0514306D53673F7/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/latexila.desktop/5DECB2B0799FC433A0514306D53673F7/screenshots/image-1_624x351.png
+    width: 1024
+    height: 576
+  - url: org/gnome/latexila.desktop/5DECB2B0799FC433A0514306D53673F7/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/latexila.desktop/5DECB2B0799FC433A0514306D53673F7/screenshots/image-2_624x351.png
+    width: 1024
+    height: 576
+  - url: org/gnome/latexila.desktop/5DECB2B0799FC433A0514306D53673F7/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/latexila.desktop/5DECB2B0799FC433A0514306D53673F7/screenshots/image-3_624x351.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: org/gnome/latexila.desktop/7A633BEDE36E020B9F19405216689604/icons/128x128/latexila-data_latexila.png
+    width: 128
+    height: 128
+developer: Sébastien Wilmet
+homepage: "https://wiki.gnome.org/Apps/LaTeXila"
+enabled: true
+order: 99

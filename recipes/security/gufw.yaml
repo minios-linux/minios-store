@@ -1,0 +1,41 @@
+id: "gufw"
+name: Firewall Configuration
+description: An easy way to configure your firewall
+longDescription: |
+  <p>gufw is an easy and intuitive way to manage your Linux firewall. It supports common tasks such as allowing or blocking pre-configured, common p2p, or individual port(s), and many others!</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gufw
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/costales.gufw/51897763da03f4f4cfe1675a063f25e3/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/costales.gufw/51897763da03f4f4cfe1675a063f25e3/screenshots/image-1_224x224@1.png
+    width: 500
+    height: 500
+iconSources:
+  - url: io/github/costales.gufw/51897763da03f4f4cfe1675a063f25e3/icons/128x128/gufw_gufw.png
+    width: 128
+    height: 128
+homepage: "https://github.com/costales/gufw"
+enabled: true
+order: 99

@@ -1,0 +1,45 @@
+id: gourmet
+name: Gourmet
+description: "Organize recipes, create shopping lists, calculate nutritional information, and more."
+longDescription: |
+  <p>Gourmet Recipe Manager is a recipe-organizer that allows you to collect, search, organize, and browse your recipes. Gourmet can also generate shopping lists and calculate nutritional information.</p>
+  <p>A simple index view allows you to look at all your recipes as a list and quickly search through them by ingredient, title, category, cuisine, rating, or instructions.</p>
+  <p>Individual recipes open in their own windows, just like recipe cards drawn out of a recipe box. From the recipe card view, you can instantly multiply or divide a recipe, and Gourmet will adjust all ingredient amounts for you.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gourmet
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - recipes
+  - cooking
+  - nutrition
+  - nutritional information
+  - shopping lists
+screenshotSources:
+  - url: g/go/gourmet.desktop/54D53B07AB3C1DFC3C900A37F20E1198/screenshots/image-1_orig.png
+    thumbnailUrl: g/go/gourmet.desktop/54D53B07AB3C1DFC3C900A37F20E1198/screenshots/image-1_624x365.png
+    width: 1280
+    height: 750
+  - url: g/go/gourmet.desktop/54D53B07AB3C1DFC3C900A37F20E1198/screenshots/image-2_orig.png
+    thumbnailUrl: g/go/gourmet.desktop/54D53B07AB3C1DFC3C900A37F20E1198/screenshots/image-2_624x537.png
+    width: 825
+    height: 710
+iconSources:
+  - url: g/go/gourmet.desktop/54D53B07AB3C1DFC3C900A37F20E1198/icons/128x128/gourmet_gourmet.png
+    width: 128
+    height: 128
+homepage: "http://thinkle.github.io/gourmet/"
+enabled: true
+order: 99

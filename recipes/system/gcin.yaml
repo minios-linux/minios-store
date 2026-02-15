@@ -1,0 +1,40 @@
+id: gcin
+name: gcin Tools
+description: Tools for gcin input method
+longDescription: |
+  <p>gcin is a GTK+ based input method which focused mainly on Traditional Chinese. However, it is also very useful for Simplified Chinese, Japanese, and many other languages.</p>
+  <p>To use gcin, the correspondence immodule packages also need to be installed. They are:</p>
+  <p> * gcin-gtk2-immodule for GTK2  * gcin-gtk3-immodule for GTK3  * gcin-qt5-immodule for Qt5</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gcin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - input
+  - ime
+  - gcin
+  - keyboard
+iconSources:
+  - cached: gcin_gcin.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

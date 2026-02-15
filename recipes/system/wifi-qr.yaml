@@ -1,0 +1,32 @@
+id: wifi-qr
+name: WiFi QR
+description: Wifi share with QR Code
+longDescription: |
+  <p>Xiaomi Android phones has started using QR to use WiFi for sharing. The idea was to get started with Bash, from Android to PC or PC to Mobile, and use Interface for zenity, QR for zbar and qrencode, and nmcli from Network-Manager for Network. For security, you can use WPA, WPA2, WEP, Open and share with the Hidden Network. QR code does not support LDAP Network and VPN. Android can easily generate WiFi QR, but iOS isn&apos;t quite so sure.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wifi-qr
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - qr -  wifi -  password -  share -
+iconSources:
+  - cached: wifi-qr_wifi-qr.png
+    width: 64
+    height: 64
+homepage: "https://github.com/kokoye2007/wifi-qr"
+enabled: true
+order: 99

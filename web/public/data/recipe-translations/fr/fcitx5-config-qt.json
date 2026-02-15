@@ -1,0 +1,5 @@
+{
+  "name": "Assistant de migration Fcitx 5",
+  "description": "Lancez l’assistant pour importer les données d’une autre méthode de saisie telle que Fcitx 4.",
+  "longDescription": "<p>Il s’agit d’un outil de configuration pour le framework de méthode de saisie Fcitx version 5.</p>\n<p>Il fournit également l’outil fcitx5-migrator, qui facilite la migration des données depuis Fcitx 4. Pour migrer les données Pinyin et Table de Fcitx 4, les utilitaires du paquet libime-bin sont nécessaires.</p>\n"
+}

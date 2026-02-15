@@ -1,0 +1,52 @@
+id: "mpv"
+name: mpv Media Player
+description: Play movies and songs
+longDescription: |
+  <p>mpv is a movie player based on MPlayer and mplayer2. It supports a wide variety of video file formats, audio and video codecs, and subtitle types.</p>
+  <p>Changes from mplayer2 to mpv include:  * Removal of lots of unneeded code to encourage developer activity  * Better OSD rendering  * Cleaned up terminal output  * Improved OpenGL output  * Encoding functionality (replacement for mencoder)  * Wayland support  * Support for playing URLs of popular streaming sites  * Screenshot improvements  * ... See mpv(1) for more info regarding changes between MPlayer, mplayer2 and mpv.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mpv
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mpv
+  - media
+  - player
+  - video
+  - audio
+  - tv
+screenshotSources:
+  - url: io/mpv/mpv/b1dfda8ae52463d2a77737b811d7a175/screenshots/image-1_orig.png
+    thumbnailUrl: io/mpv/mpv/b1dfda8ae52463d2a77737b811d7a175/screenshots/image-1_624x392.png
+    width: 999
+    height: 628
+iconSources:
+  - url: io/mpv/mpv/24885dce6c94bef3dbcf7b7a8f41685a/icons/128x128/mpv_mpv.png
+    width: 128
+    height: 128
+developer: mpv.io
+homepage: "https://mpv.io/"
+enabled: true
+order: 99

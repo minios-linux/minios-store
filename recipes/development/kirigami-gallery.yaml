@@ -1,0 +1,38 @@
+id: "kirigami-gallery"
+name: Kirigami Gallery
+description: Shows examples of Kirigami components and allows you to play with them
+longDescription: |
+  <p>Kirigami is a set of QtQuick components at the moment targeted for mobile use (in the future desktop as well) targeting both Plasma Mobile and Android. A set of high level components to make the creation of applications that look and feel great on mobile as well as desktop devices and follow the Kirigami Human Interface Guidelines. The target of these components is anybody that wants to do an application using QtQuick as its main UI, especially if targeting a mobile platform, without adding many dependencies. They work on a variety of platforms, such as Plasma Mobile, Desktop Linux, Android and Windows.</p>
+  <p>This package contains the example application Kirigami Gallery.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kirigami-gallery
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kirigami2.gallery/c6eecbd3803a6b7a5858c68542aef895/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kirigami2.gallery/c6eecbd3803a6b7a5858c68542aef895/screenshots/image-1_624x527@1.png
+    width: 1051
+    height: 889
+iconSources:
+  - url: org/kde/kirigami2.gallery/c6eecbd3803a6b7a5858c68542aef895/icons/128x128/kirigami-gallery_preferences-desktop-theme.png
+    width: 128
+    height: 128
+homepage: "https://kde.org"
+enabled: true
+order: 99

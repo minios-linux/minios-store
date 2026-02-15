@@ -1,0 +1,5 @@
+{
+  "name": "Lazarus (2.2.6)",
+  "description": "Lazarus IDE (2.2.6)",
+  "longDescription": "<p>Lazarus ist eine IDE zur Erstellung von grafischen und Konsolenanwendungen mit Free Pascal, dem (L)GPL-lizenzierten Pascal- und Object-Pascal-Compiler, der auf Windows, Linux, macOS, FreeBSD und weiteren Plattformen läuft.</p>\n<p>Lazarus ist das fehlende Puzzleteil, das die Entwicklung von Programmen für alle genannten Plattformen in einer Delphi-ähnlichen Umgebung ermöglicht. Die IDE ist ein RAD-Tool, das einen Formulardesigner beinhaltet.</p>\n<p>Im Gegensatz zu Javas Motto &quot;write once, run anywhere&quot; streben Lazarus und Free Pascal nach &quot;write once, compile anywhere&quot;. Da derselbe Compiler auf allen genannten Plattformen verfügbar ist, sind keine Code-Anpassungen erforderlich, um identische Produkte für verschiedene Plattformen zu erzeugen.</p>\n<p>Kurz gesagt ist Lazarus ein freies RAD-Tool für Free Pascal unter Verwendung der Lazarus Component Library (LCL).</p>\n<p>Dieses Paket enthält die gemeinsamen Dateien, die für den Betrieb der Lazarus IDE erforderlich sind.</p>\n"
+}

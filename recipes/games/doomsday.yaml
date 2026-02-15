@@ -1,0 +1,58 @@
+id: "doomsday"
+name: Doomsday Engine
+description: "Enhanced source port of Doom, Heretic, and Hexen"
+longDescription: |
+  <p>
+              The Doomsday Engine is a portable version of the classic first person
+              shooters DOOM, Heretic, and Hexen. It lets you enjoy the original games
+              using modern technology, including high-resolution OpenGL graphics, 3D
+              models, and dynamic lighting effects.
+          </p>
+  <p>
+              Data files from the original games are not included; you must acquire
+              a copy of the original games from id Software and/or Raven Software.
+              You may also use free alternatives such as https://freedoom.github.io/.
+          </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - doomsday
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: net/dengine/Doomsday/289e2a6e97693601cc06a970158c548a/screenshots/image-1_orig.png
+    thumbnailUrl: net/dengine/Doomsday/289e2a6e97693601cc06a970158c548a/screenshots/image-1_624x351.png
+    width: 1280
+    height: 720
+  - url: net/dengine/Doomsday/289e2a6e97693601cc06a970158c548a/screenshots/image-2_orig.png
+    thumbnailUrl: net/dengine/Doomsday/289e2a6e97693601cc06a970158c548a/screenshots/image-2_624x351.png
+    width: 1280
+    height: 720
+  - url: net/dengine/Doomsday/289e2a6e97693601cc06a970158c548a/screenshots/image-3_orig.png
+    thumbnailUrl: net/dengine/Doomsday/289e2a6e97693601cc06a970158c548a/screenshots/image-3_624x351.png
+    width: 1280
+    height: 720
+iconSources:
+  - url: net/dengine/Doomsday/289e2a6e97693601cc06a970158c548a/icons/128x128/doomsday_net.dengine.Doomsday.png
+    width: 128
+    height: 128
+developer: Jaakko Keränen
+homepage: "https://dengine.net"
+enabled: true
+order: 99

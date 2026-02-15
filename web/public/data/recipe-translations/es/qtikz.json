@@ -1,0 +1,5 @@
+{
+  "name": "QtikZ",
+  "description": "Programa para crear diagramas TikZ (del paquete pgf de LaTeX)",
+  "longDescription": "<p>QtikZ es una aplicación ligera que facilita la creación de diagramas y dibujos utilizando las macros TikZ del paquete LaTeX \"pgf\". Ofrece un panel de edición de texto donde se escribe el código TikZ del dibujo y un panel de vista previa que muestra el resultado renderizado por LaTeX, actualizable en tiempo real. Incluye herramientas de dibujo, opciones y estilos accesibles desde los menús para agilizar el proceso de codificación.</p>\n<p>Este paquete contiene la versión Qt del programa.</p>\n<p>TikZ es una sintaxis amigable para el paquete de macros PGF (portable graphics format) de TeX. Permite crear gráficos directamente en documentos LaTeX e incluirlos en la salida utilizando los principales controladores de TeX, como pdftex y dvips.</p>\n"
+}

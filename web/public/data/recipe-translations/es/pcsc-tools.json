@@ -1,0 +1,5 @@
+{
+  "name": "Gscriptor",
+  "description": "Envía comandos a tarjetas inteligentes",
+  "longDescription": "<p>Este paquete incluye herramientas útiles para usuarios de PC/SC. Las herramientas proporcionadas son:</p>\n<p>pcsc_scan(1) escanea los lectores de tarjetas inteligentes disponibles y muestra los eventos detectados: inserción de tarjeta con ATR, extracción de tarjeta;</p>\n<p>ATR_analysis(1) analiza el ATR (Answer To Reset) de una tarjeta inteligente;</p>\n<p>scriptor(1) script en Perl para enviar comandos a una tarjeta inteligente usando un archivo por lotes o la entrada estándar;</p>\n<p>gscriptor(1) la misma idea que scriptor.pl(1) pero con interfaz gráfica Perl-Gtk.</p>\n"
+}

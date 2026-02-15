@@ -1,0 +1,57 @@
+id: gmusicbrowser
+name: gmusicbrowser
+description: Jukebox for large collection of music
+longDescription: |
+  <p>Very customizable library-based music player designed for huge collections of music (tens of thousand files). With lots of handy features to navigate and use your collection, like album/artist lock, menus to choose songs from album/album from artist, enqueue songs with middle click.</p>
+  <p>Some of the main features:</p>
+  <ul>
+    <li>powerful search (can search any field using regular expression or fuzzy search)</li>
+    <li>use ratings and labels to organize your music</li>
+    <li>weighted random modes (eg. to pick songs based on when they were added and/or played, ...)</li>
+    <li>plugins to visualize lyrics, find cover pictures, retrieve artist or album info, last.fm, ...</li>
+    <li>browse through pictures and pdf in the album&apos;s folder</li>
+    <li>replaygain support to normalize the volume across tracks</li>
+  </ul>
+  <p>The windows use a layout system that allows users to completely change the interface. You can use pre-defined layouts or create your own using text files that allows you to pick and choose the widgets you want, their options and their placement. These layouts can be used not only for the main window, but also for extra windows, the tray pop-up, or a desktop widget.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gmusicbrowser
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: g/gm/gmusicbrowser.desktop/7FC4C865D6C2A617D8A1345E776D978E/screenshots/image-1_orig.png
+    thumbnailUrl: g/gm/gmusicbrowser.desktop/7FC4C865D6C2A617D8A1345E776D978E/screenshots/image-1_624x351.png
+    width: 1280
+    height: 720
+  - url: g/gm/gmusicbrowser.desktop/7FC4C865D6C2A617D8A1345E776D978E/screenshots/image-2_orig.png
+    thumbnailUrl: g/gm/gmusicbrowser.desktop/7FC4C865D6C2A617D8A1345E776D978E/screenshots/image-2_624x351.png
+    width: 1344
+    height: 756
+  - url: g/gm/gmusicbrowser.desktop/7FC4C865D6C2A617D8A1345E776D978E/screenshots/image-3_orig.png
+    thumbnailUrl: g/gm/gmusicbrowser.desktop/7FC4C865D6C2A617D8A1345E776D978E/screenshots/image-3_624x351.png
+    width: 1024
+    height: 576
+  - url: g/gm/gmusicbrowser.desktop/7FC4C865D6C2A617D8A1345E776D978E/screenshots/image-4_orig.png
+    thumbnailUrl: g/gm/gmusicbrowser.desktop/7FC4C865D6C2A617D8A1345E776D978E/screenshots/image-4_624x351.png
+    width: 1440
+    height: 810
+  - url: g/gm/gmusicbrowser.desktop/7FC4C865D6C2A617D8A1345E776D978E/screenshots/image-5_orig.png
+    thumbnailUrl: g/gm/gmusicbrowser.desktop/7FC4C865D6C2A617D8A1345E776D978E/screenshots/image-5_224x76.png
+    width: 442
+    height: 150
+iconSources:
+  - url: g/gm/gmusicbrowser.desktop/7FC4C865D6C2A617D8A1345E776D978E/icons/128x128/gmusicbrowser_gmusicbrowser.png
+    width: 128
+    height: 128
+homepage: "http://gmusicbrowser.org"
+enabled: true
+order: 99

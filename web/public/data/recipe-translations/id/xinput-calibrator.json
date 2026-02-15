@@ -1,0 +1,5 @@
+{
+  "name": "Kalibrasi Layar Sentuh",
+  "description": "Jalankan alat kalibrasi untuk layar sentuh",
+  "longDescription": "<p>xinput-calibrator adalah alat untuk mengkalibrasi layar sentuh di bawah X.Org. Fitur-fiturnya meliputi:  - berfungsi untuk semua driver Xorg (menggunakan Xinput untuk mendapatkan nilai sumbu);  - hasil kalibrasi dapat diekspor dalam format Xorg.conf, kebijakan HAL, dan aturan udev;  - mendukung opsi driver lanjutan, seperti kalibrasi dinamis Evdev;  - antarmuka grafis yang sangat intuitif (klien X biasa);</p>\n"
+}

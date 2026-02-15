@@ -1,0 +1,44 @@
+id: "kmail"
+name: KTnef
+description: A viewer/extractor for TNEF files
+longDescription: |
+  <p>KMail supports multiple accounts, mail filtering and email encryption. The program let you configure your workflow and it has good integration into KDE (Plasma Desktop) but is also useable with other Desktop Envionments.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kmail
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kmail2.desktop/1eef8bd3a6bb39507d941e6a81d20fc9/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kmail2.desktop/1eef8bd3a6bb39507d941e6a81d20fc9/screenshots/image-1_624x351.png
+    width: 1280
+    height: 720
+iconSources:
+  - cached: kmail_ktnef.png
+    width: 64
+    height: 64
+developer: The KDE Community
+homepage: "https://kontact.kde.org/components/kmail.html"
+enabled: true
+order: 99

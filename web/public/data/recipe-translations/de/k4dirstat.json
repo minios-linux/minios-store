@@ -1,0 +1,5 @@
+{
+  "name": "K4DirStat",
+  "description": "Verzeichnisstatistik und Speicherplatzanalyse",
+  "longDescription": "<p>K4DirStat (KDE Directory Statistics) ist ein kleines Dienstprogramm, das den Speicherplatzverbrauch von Verzeichnisbäumen zusammenfasst – ähnlich wie der Unix-Befehl 'du'. Es zeigt den belegten Speicherplatz eines Verzeichnisbaums sowohl numerisch als auch grafisch an. Das Programm ist netzwerktransparent (zum Beispiel für die Analyse von FTP-Servern) und bietet vordefinierte sowie benutzerdefinierte Bereinigungsaktionen. Sie können einen Verzeichniszweig direkt in Konqueror oder einer beliebigen Shell öffnen, ihn als .tar.bz2-Archiv komprimieren oder eigene Bereinigungsaktionen festlegen.</p>\n"
+}

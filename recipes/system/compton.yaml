@@ -1,0 +1,41 @@
+id: "compton"
+name: compton
+description: A X compositor
+longDescription: |
+  <p>compton is a compositor for X11, based on xcompmgr. In addition to shadows, fading and translucency, compton implements window frame opacity control, inactive window transparency, and shadows on argb windows.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - compton
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - x
+  - x11
+  - compositor
+iconSources:
+  - url: c/co/compton.desktop/a092fee0963ef40178d206920933e1b1/icons/128x128/compton_compton.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,33 @@
+id: "stopwatch"
+name: Stopwatch
+description: A virtual stopwatch
+longDescription: |
+  <p>This is a stopwatch and timer program that uses the Tk toolkit. It has millisecond accuracy. Stopwatch can act as a graphical chronometer (it will provides a GUI interface to user).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - stopwatch
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - stopwatch
+  - timer
+  - chronometer
+iconSources:
+  - url: s/st/stopwatch.desktop/4c2716849d056afd2753cbbb0ddf20e5/icons/128x128/stopwatch_stopwatch.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

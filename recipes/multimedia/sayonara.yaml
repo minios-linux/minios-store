@@ -1,0 +1,61 @@
+id: "sayonara"
+name: Sayonara
+description: A lightweight Qt Audio player
+longDescription: |
+  <p> Sayonara is a small, clear, not yet platform-independent music player. Low CPU usage, low memory consumption and no long loading times are only three
+        benefits of this player.
+      </p>
+  <p> Sayonara should be easy and intuitive to use and
+        therefore it should be able to compete with the most popular music players.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sayonara
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - music
+  - player
+  - tag
+  - library
+screenshotSources:
+  - url: com/sayonara-player/Sayonara/7432bb13071c583ce56b807002a0d4d5/screenshots/image-1_orig.png
+    thumbnailUrl: com/sayonara-player/Sayonara/7432bb13071c583ce56b807002a0d4d5/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+  - url: com/sayonara-player/Sayonara/7432bb13071c583ce56b807002a0d4d5/screenshots/image-2_orig.png
+    thumbnailUrl: com/sayonara-player/Sayonara/7432bb13071c583ce56b807002a0d4d5/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: com/sayonara-player/Sayonara/7432bb13071c583ce56b807002a0d4d5/screenshots/image-3_orig.png
+    thumbnailUrl: com/sayonara-player/Sayonara/7432bb13071c583ce56b807002a0d4d5/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+  - url: com/sayonara-player/Sayonara/7432bb13071c583ce56b807002a0d4d5/screenshots/image-4_orig.png
+    thumbnailUrl: com/sayonara-player/Sayonara/7432bb13071c583ce56b807002a0d4d5/screenshots/image-4_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: com/sayonara-player/Sayonara/7432bb13071c583ce56b807002a0d4d5/icons/128x128/sayonara_sayonara.png
+    width: 128
+    height: 128
+developer: Michael Lugmair
+homepage: "https://sayonara-player.com"
+enabled: true
+order: 99

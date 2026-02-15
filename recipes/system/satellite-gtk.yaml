@@ -1,0 +1,28 @@
+id: satellite-gtk
+name: Satellite
+description: Display data from navigation satellites
+longDescription: |
+  <p>Satellite is an adaptive GTK / libhandy application which displays global navigation satellite system (GNSS: GPS et al.) data obtained from ModemManager API.</p>
+  <p>It can also be used to record gpx tracks.</p>
+  
+categoryId: system
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - satellite-gtk
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/sa/satellite.desktop/748eae990b4144cf868ebee4335043b6/icons/128x128/satellite-gtk_page.codeberg.tpikonen.satellite.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

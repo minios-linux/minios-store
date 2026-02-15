@@ -1,0 +1,43 @@
+id: "entagged"
+name: Entagged
+description: Tag Editor
+longDescription: |
+  <p>Entagged is an audio file tagger written in Java, using the freedb online database for the retrieval of the tags. It can be used to organize files into complex directory structures according to their tags, or to tag them from their filenames. Supports: APE, FLAC, MP3, MPC, OGG, WMA.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - entagged
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tag
+  - editor
+  - audio
+  - video
+  - java
+iconSources:
+  - url: e/en/entagged.desktop/e1f7e2144eba68380f2428bf30434dcc/icons/128x128/entagged_entagged.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

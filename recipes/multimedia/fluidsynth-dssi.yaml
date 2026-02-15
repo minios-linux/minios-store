@@ -1,0 +1,34 @@
+id: fluidsynth-dssi
+name: Fluidsynth DSSI
+description: SoundFont-playing software synthesizer
+longDescription: |
+  <p>The FluidSynth-DSSI  package contains FluidSynth-DSSI, a wrapper for the FluidSynth SoundFont-playing software synthesizer, allowing it to function as a DSSI plugin.</p>
+  <p>DSSI is an API for audio processing plugins, particularly useful for software synthesis plugins with user interfaces.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fluidsynth-dssi
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: fluidsynth-dssi_fluidsynth-dssi.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

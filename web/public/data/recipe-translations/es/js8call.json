@@ -1,0 +1,5 @@
+{
+  "name": "js8call",
+  "description": "Operación de señales débiles en radioafición",
+  "longDescription": "<p>JS8Call utiliza el modo digital JS8 para ofrecer mensajería de teclado a teclado bajo condiciones de señal débil entre radioaficionados.</p>\n<p>JS8Call es un experimento que busca probar la viabilidad de un modo digital con la robustez de FT8, combinado con una capa de protocolo de mensajería y red para comunicaciones en condiciones de señal débil en HF, usando una interfaz tipo mensajería por teclado. No está diseñado para ningún propósito específico aparte de conectar a radioaficionados que trabajan bajo condiciones difíciles de señal. JS8Call se inspira en gran medida en WSJT-X, Fldigi y FSQCall, y no existiría sin el esfuerzo y dedicación de muchos desarrolladores de la comunidad de radioaficionados.</p>\n"
+}

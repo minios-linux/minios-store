@@ -1,0 +1,5 @@
+{
+  "name": "GNUSim8085",
+  "description": "Simulateur de microprocesseur Intel 8085",
+  "longDescription": "<p>GNUSim8085 est un simulateur graphique, assembleur et débogueur pour le microprocesseur Intel 8085 sous Linux et Windows.</p>\n<p>Fonctionnalités :</p>\n<ul>\n  <li>Éditeur intégré avec surlignage syntaxique.</li>\n  <li>Pavé de saisie pour les instructions en assembleur avec arguments adaptés.</li>\n  <li>Affichage facile du contenu des registres.</li>\n  <li>Affichage facile des indicateurs.</li>\n  <li>Convertisseur Décimal &lt;–&gt; Hexadécimal.</li>\n  <li>Visualisation de la pile, de la mémoire et des entrées/sorties.</li>\n  <li>Gestion des points d’arrêt pour le débogage.</li>\n  <li>Exécution pas à pas du programme.</li>\n  <li>Conversion en un clic d'un programme assembleur en liste d'opcodes.</li>\n  <li>Prise en charge de l'impression.</li>\n  <li>Interface traduite dans plusieurs langues.</li>\n</ul>\n"
+}

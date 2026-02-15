@@ -1,0 +1,5 @@
+{
+  "name": "Burner",
+  "description": "Membuat dan menyalin CD serta DVD",
+  "longDescription": "<p>Burner adalah aplikasi sederhana untuk membakar, menyalin, dan menghapus media CD maupun DVD: audio, video, atau data. Fitur-fiturnya antara lain:  * Pembakaran langsung (on-the-fly)  * Dukungan multisession  * Konversi langsung daftar putar musik ke semua format yang didukung    GStreamer</p>\n<p>Paket ini berisi aplikasi mandiri.</p>\n<p>Paket berikut, jika terpasang, akan memberikan fungsi tambahan pada Burner:  * cdrdao untuk membakar CD data/audio gabungan dan salin byte-ke-byte  * Backend GStreamer agar mendukung lebih banyak format audio  * vcdimager untuk membuat VCD atau SVCD  * libdvdcss2 untuk menyalin DVD terenkripsi  * tracker untuk mencari file video, audio, gambar, dan dokumen</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "XPaint",
+  "description": "Application de dessin XPaint",
+  "longDescription": "<p>XPaint est conçu pour réaliser des graphismes simples. Il propose cependant certaines fonctionnalités avancées, comme des fonctions de traitement d'image et le remplissage en dégradé.</p>\n<p>Dans l'éditeur de script C de XPaint, l'éditeur externe du menu Fichier lance x-terminal-emulator -e sensible-editor.</p>\n<p>Le paquet gv est nécessaire pour la lecture de PDF/PS, netpbm pour la conversion externe, et lpr pour l'impression.</p>\n"
+}

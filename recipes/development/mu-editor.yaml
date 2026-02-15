@@ -1,0 +1,52 @@
+id: "mu-editor"
+name: Mu
+description: A simple Python editor for beginner programmers
+longDescription: |
+  <p>Mu is a Python code editor for beginner programmers based on
+          extensive feedback given by teachers and learners.</p>
+  <p>Mu is a simple code editor for beginner programmers based on the
+          feedback given to and experiences of the Raspberry Pi Foundation&apos;s
+          education team. Having said that, Mu is for anyone who wants to use a
+          simple &quot;no frills&quot; editor.</p>
+  <p>Mu is a modal editor with modes for Adafruit&apos;s CircuitPython, the
+          micro:bit&apos;s version of MicroPython, PyGame Zero and standard Python 3
+          (including a graphical debugger). Some of the modes make available a
+          REPL (either running on the connected CircuitPython or MicroPython
+          device or as a Jupyter based iPython session in Python3 mode).</p>
+  <p>Mu is written in Python and works on Windows, OSX, Linux and
+          Raspberry Pi.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mu-editor
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - python
+  - editor
+  - microbit
+  - micro:bit
+iconSources:
+  - url: mu/codewith/editor.desktop/9465e6915ed24307aa49d4ab96f9236f/icons/128x128/mu-editor_mu.codewith.editor.png
+    width: 128
+    height: 128
+developer: Nicholas H.Tollervey
+homepage: "http://codewith.mu/"
+enabled: true
+order: 99

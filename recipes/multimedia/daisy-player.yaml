@@ -1,0 +1,31 @@
+id: daisy-player
+name: Daisy player
+description: Player for DAISY Books
+longDescription: |
+  <p>Daisy-player is a command-line player for talking books based on the Digital Accessible Information System protocol. It is comparable in functionality, features, and ease of use with commercial players, and has a simple user interface appropriate for Braille terminals.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - daisy-player
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - braille
+  - simple
+  - audio book
+iconSources:
+  - url: d/da/daisy-player.desktop/A00DFEB98BFFB8F93FC09603076A7106/icons/128x128/daisy-player_daisy-player.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

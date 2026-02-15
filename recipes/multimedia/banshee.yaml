@@ -1,0 +1,23 @@
+id: banshee
+name: Banshee
+description: Play and organize your media collection
+longDescription: |
+  <p>Banshee is a media management and playback application for the GNOME desktop, allowing users to import audio from CDs, search their library, create playlists of selections of their library, sync music to/from iPods and other media devices, play and manage video files and burn selections to a CD.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - banshee
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - url: b/ba/banshee.desktop/206BC487184609A6B70CB77465B741AF/icons/128x128/banshee_media-player-banshee.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

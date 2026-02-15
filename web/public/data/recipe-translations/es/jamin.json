@@ -1,0 +1,5 @@
+{
+  "name": "JAMin",
+  "description": "Interfaz de masterización de audio para JACK",
+  "longDescription": "<p>JAMin es una herramienta para producir masters de audio a partir de una mezcla final de múltiples pistas. Funciona sobre JACK Audio Connection Kit y utiliza LADSPA para su procesamiento digital de señal (DSP), específicamente los plugins swh creados por Steve Harris, autor principal de JAMin.</p>\n<p>Características:  * Filtros lineales  * Entrada/Salida JACK  * Ecualizador gráfico de 30 bandas  * Ecualizador manual de 1023 bandas con controles paramétricos  * Analizador de espectro  * Compresor de picos de 3 bandas  * Limitador brickwall con previsualización  * Procesamiento estéreo multibanda  * Presets y escenas  * Maximizador de sonoridad</p>\n"
+}

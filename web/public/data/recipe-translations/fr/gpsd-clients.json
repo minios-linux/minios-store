@@ -1,0 +1,5 @@
+{
+  "name": "xgpsspeed",
+  "description": "Affiche la vitesse GPS à partir d'un démon gpsd",
+  "longDescription": "<p>Le service gpsd peut surveiller un ou plusieurs dispositifs GPS connectés à un ordinateur hôte, rendant toutes les données relatives à la position et aux déplacements des capteurs accessibles via une requête sur le port TCP 2947.</p>\n<p>Ce paquet contient des outils auxiliaires et des clients d'exemple pour la surveillance, les tests, le profilage de latence, la configuration des appareils et la simulation de gpsd.</p>\n"
+}

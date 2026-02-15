@@ -1,0 +1,23 @@
+id: python-mecavideo
+name: pyMecaVideo
+description: Interactive tool to track moving points in video framesets
+longDescription: |
+  <p>You can track the movement of one or many points in video frames and export the position measurements to standard analysis tools.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - python-mecavideo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: python-mecavideo_pymecavideo-48.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

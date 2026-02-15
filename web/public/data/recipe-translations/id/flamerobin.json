@@ -1,0 +1,5 @@
+{
+  "name": "FlameRobin",
+  "description": "Alat Administrasi untuk Firebird DBMS",
+  "longDescription": "<p>FlameRobin adalah alat administrasi basis data berbasis grafis untuk sistem manajemen basis data Firebird.</p>\n<p>Tujuan utama aplikasi ini adalah:   - ringan (jejak memori kecil, eksekusi cepat)   - lintas platform (Linux, Windows sebagai awal, platform lain direncanakan juga)   - hanya bergantung pada perangkat lunak open source lainnya</p>\n<p>Anda perlu mengatur server Firebird di mesin lokal atau jarak jauh sebelum menggunakan FlameRobin. Lihat paket firebird3.0-server.</p>\n"
+}

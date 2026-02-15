@@ -1,0 +1,23 @@
+id: ggcov
+name: GGcov
+description: Source code coverage browser
+longDescription: |
+  <p>This is a simple GUI for browsing C test coverage data gathered by programs instrumented with &quot;gcc --coverage&quot;.  Hence it&apos;s a graphical replacement for the &quot;gcov&quot; program that comes with gcc.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ggcov
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ggcov_ggcov64.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

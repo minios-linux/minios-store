@@ -1,0 +1,5 @@
+{
+  "name": "Perangkat Lunak Spektrometri Massa",
+  "description": "Memodelkan dan mensimulasikan data spektrometri massa",
+  "longDescription": "<p>massXpert2 adalah program untuk memodelkan kimia polimer (seperti protein atau sakarida, misalnya) dan menggunakan model tersebut untuk mensimulasikan reaksi kimia serta data spektrum massa yang diperoleh dari hasil reaksi tersebut.</p><p>Prosesnya dapat dirangkum sebagai berikut:</p><ul><li>Mendefinisikan kimia polimer baru (misal protein, sudah termasuk dalam paket);</li><li>Mengedit urutan polimer (pada contoh ini, urutan protein);</li><li>Melakukan simulasi kimia, seperti pencernaan protein, dan mengumpulkan semua data massa terkait peptida yang dihasilkan;</li><li>Kemudian, pilih peptida untuk menjalankan fragmentasi fase gas, lalu kumpulkan data massa dari semua fragmen yang secara teoritis diharapkan.</li></ul>"
+}

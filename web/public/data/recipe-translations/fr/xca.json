@@ -1,0 +1,5 @@
+{
+  "name": "XCA",
+  "description": "Une interface graphique pour gérer et émettre des certificats compatibles X.509",
+  "longDescription": "<p>XCA permet de créer et de gérer des autorités de certification (CA) et facilite la création et la gestion des clés, des certificats, des demandes de signature de certificats (CSR), des listes de révocation de certificats (CRL), etc.</p>\n<p>Toutes les données sont enregistrées dans une base de données chiffrée et portable, et peuvent être exportées dans de nombreux formats standards. XCA est également disponible pour MacOS X et Windows.</p>\n<p>Pour optimiser les flux de travail, il est possible de définir des modèles de certificats afin de simplifier la création de nouveaux certificats.</p>\n"
+}

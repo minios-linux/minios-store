@@ -1,0 +1,55 @@
+id: "siril"
+name: Siril
+description: Astronomical image (pre-)processing program
+longDescription: |
+  <p>Siril is an image processing tool specially tailored for noise reduction and improving the signal/noise ratio of an image from multiple captures, as required in astronomy.</p>
+  <p>Siril can align automatically or manually, stack and enhance pictures from various file formats, even images sequences (movies and SER files).</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - siril
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - astronomy
+  - stacking
+  - registration
+screenshotSources:
+  - url: org/siril/Siril/b7c8e32bf305005bbb7cc40ceca3b746/screenshots/image-1_orig.png
+    thumbnailUrl: org/siril/Siril/b7c8e32bf305005bbb7cc40ceca3b746/screenshots/image-1_624x375@1.png
+    width: 1852
+    height: 1114
+  - url: org/siril/Siril/b7c8e32bf305005bbb7cc40ceca3b746/screenshots/image-2_orig.png
+    thumbnailUrl: org/siril/Siril/b7c8e32bf305005bbb7cc40ceca3b746/screenshots/image-2_624x375@1.png
+    width: 1852
+    height: 1114
+  - url: org/siril/Siril/b7c8e32bf305005bbb7cc40ceca3b746/screenshots/image-3_orig.png
+    thumbnailUrl: org/siril/Siril/b7c8e32bf305005bbb7cc40ceca3b746/screenshots/image-3_624x516@1.png
+    width: 1400
+    height: 1159
+iconSources:
+  - url: org/siril/Siril/b7c8e32bf305005bbb7cc40ceca3b746/icons/128x128/siril_org.siril.Siril.png
+    width: 128
+    height: 128
+developer: Free-astro Team
+homepage: "https://www.siril.org"
+enabled: true
+order: 99

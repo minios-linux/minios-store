@@ -1,0 +1,36 @@
+id: sigviewer
+name: SigViewer
+description: SigViewer is a viewing application for biosignals
+longDescription: |
+  <p>SigViewer is a viewing and scoring software for biomedical signal data.  It relies on biosig4c++ library which supports a number of data formats (including EDF, BDF, GDF, BrainVision, BCI2000, CFWB, HL7aECG, SCP_ECG (EN1064), MFER, ACQ, CNT(Neuroscan), DEMG, EGI, EEG1100, FAMOS, SigmaPLpro, TMS32). The complete list of supported file formats is available at http://pub.ist.ac.at/~schloegl/biosig/TESTED .</p>
+  <p>Besides displaying biosignals, SigViewer supports creating annotations to select artifacts or specific events.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sigviewer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: sigviewer_sigviewer128.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

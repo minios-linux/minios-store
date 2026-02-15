@@ -1,0 +1,5 @@
+{
+  "name": "Easy Effects",
+  "description": "Efectos de audio para aplicaciones PipeWire",
+  "longDescription": "<p>Easy Effects es una herramienta avanzada para la manipulación de audio. Incluye un ecualizador, limitador, compresor y una herramienta de reverberación, entre otras funciones. Además, cuenta con un analizador de espectro integrado.</p>\n<p>Easy Effects es el sucesor de PulseEffects y solo es compatible con el servidor de audio PipeWire. Los usuarios de PulseAudio deben usar PulseEffects.</p>\n<p>Al utilizar el servidor de sonido predeterminado PipeWire, Easy Effects funciona con la mayoría de aplicaciones que uses. Todas las aplicaciones compatibles se muestran en la ventana principal, donde puedes activar los efectos de manera individual.</p>\n<p>Además de manipular la salida de audio, Easy Effects puede aplicar efectos a dispositivos de entrada como un micrófono. Esto es útil, por ejemplo, en grabaciones de audio y también durante conversaciones de voz.</p>\n<p>Al iniciar Easy Effects, se recordará automáticamente la configuración utilizada en la última sesión. También es posible guardar los ajustes actuales como perfiles.</p>\n"
+}

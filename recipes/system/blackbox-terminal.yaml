@@ -1,0 +1,59 @@
+id: "blackbox-terminal"
+name: Black Box
+description: A beautiful GTK 4 terminal
+longDescription: |
+  <p>
+        Black Box is a native terminal emulator for GNOME that offers superb
+        theming options.
+      </p>
+  <p>With Black Box you can:</p>
+  <ul>
+    <li>Set colors schemes and integrate them with the rest of the window</li>
+    <li>Customize font and size</li>
+    <li>Customize keyboard shortcuts</li>
+    <li>Render Sixel escape sequences</li>
+    <li>Fully hide the window headerbar</li>
+    <li>Quickly open links and files by ctrl+clicking file paths and URLs</li>
+    <li>Easily paste file paths by dragging them into the window</li>
+  </ul>
+  <p>This app is written in Vala and uses GTK 4, libadwaita, and VTE.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - blackbox-terminal
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - terminal
+  - terminal
+  - shell
+  - prompt
+  - command
+  - commandline
+  - cmd
+  - box
+screenshotSources:
+  - url: com/raggesilver/BlackBox/26548e26b38c6f39412d141273b8542d/screenshots/image-1_orig.png
+    thumbnailUrl: com/raggesilver/BlackBox/26548e26b38c6f39412d141273b8542d/screenshots/image-1_624x382@1.png
+    width: 1182
+    height: 725
+  - url: com/raggesilver/BlackBox/26548e26b38c6f39412d141273b8542d/screenshots/image-2_orig.png
+    thumbnailUrl: com/raggesilver/BlackBox/26548e26b38c6f39412d141273b8542d/screenshots/image-2_624x373@1.png
+    width: 1502
+    height: 900
+iconSources:
+  - url: com/raggesilver/BlackBox/26548e26b38c6f39412d141273b8542d/icons/128x128/blackbox-terminal_com.raggesilver.BlackBox.png
+    width: 128
+    height: 128
+developer: Paulo Queiroz
+homepage: "https://gitlab.gnome.org/raggesilver/blackbox"
+enabled: true
+order: 99

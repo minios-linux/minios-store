@@ -1,0 +1,41 @@
+id: sunclock
+name: SunClock
+description: Show illuminated portion of Earth
+longDescription: |
+  <p>sunclock is an X11 application that displays a map of the Earth and indicates the illuminated portion of the globe by drawing sunlit areas dark on light, night areas as light on dark.  In addition to providing local time for the default timezone, it also displays GMT time, legal and solar time of major cities, their latitude and longitude, and the mutual distances of arbitrary locations on Earth. Sunclock can display meridians, parallels, tropics and arctic circles.  It has builtin functions that accelerate the speed of time and show the evolution of seasons.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sunclock
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - clock
+  - worldmap
+  - timezone
+iconSources:
+  - cached: sunclock_sunclock.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "OpenSTV Voting Software",
+  "description": "Durchführung einer Wahl mit übertragbarer Einzelstimmgebung (STV)",
+  "longDescription": "<p>OpenSTV ist eine Open-Source-Software zur Umsetzung der übertragbaren Einzelstimmgebung (Single Transferable Vote, STV) und weiterer Abstimmungsverfahren wie Instant-Runoff-Voting, Condorcet-Verfahren und Zustimmungswahl (Approval Voting). OpenSTV ist die einzige Open-Source-Software, die das STV-Verfahren exakt nach dem Vorbild offizieller Regierungswahlen umsetzt, darunter in Schottland und in der Stadt Cambridge (Massachusetts). Diese Methoden wurden umfangreich mit anderer Software und/oder realen Wahlergebnissen verifiziert.</p>\n<p>Organisationen können OpenSTV zur Durchführung eigener Wahlen einsetzen. Zunächst muss das gewünschte Wahlverfahren festgelegt werden. Anschließend findet die Abstimmung statt, meist auf Papierstimmzetteln. Im nächsten Schritt werden die Stimmzettel in OpenSTV eingetragen. Abschließend ermöglicht OpenSTV die Auswertung der Stimmen und die Ermittlung der Gewinner.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "xgpsspeed",
+  "description": "Muestra la velocidad GPS desde un demonio gpsd",
+  "longDescription": "<p>El servicio gpsd puede monitorizar uno o varios dispositivos GPS conectados a un equipo, permitiendo consultar todos los datos sobre ubicación y movimientos de los sensores mediante el puerto TCP 2947.</p>\n<p>Este paquete incluye herramientas auxiliares y clientes de ejemplo para monitorización, pruebas, análisis de latencia, configuración de dispositivos y simulación de gpsd.</p>\n"
+}

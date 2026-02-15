@@ -1,0 +1,43 @@
+id: "qmidinet"
+name: QmidiNet
+description: A MIDI Network Gateway via UDP/IP Multicast
+longDescription: |
+  <p>QmidiNet is a MIDI network gateway application that sends and receives
+    MIDI data (ALSA Sequencer and/or JACK MIDI) over the network, using UDP/IP
+    multicast. Inspired by multimidicast (http\://llg.cubic.org/tools) and
+    designed to be compatible with ipMIDI for Windows (http\://nerds.de).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qmidinet
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - midi
+  - alsa
+  - jack
+  - multicast
+  - network
+  - udp
+  - ip
+  - qt
+screenshotSources:
+  - url: org/rncbc/qmidinet/0826ddc4a7c153c758770d06d2807979/screenshots/image-1_orig.png
+    width: 128
+    height: 128
+iconSources:
+  - url: org/rncbc/qmidinet/0826ddc4a7c153c758770d06d2807979/icons/128x128/qmidinet_org.rncbc.qmidinet.png
+    width: 128
+    height: 128
+developer: rncbc aka. Rui Nuno Capela
+homepage: "https://qmidinet.sourceforge.io"
+enabled: true
+order: 99

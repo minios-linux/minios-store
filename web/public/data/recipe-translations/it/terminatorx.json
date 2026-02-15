@@ -1,0 +1,5 @@
+{
+  "name": "terminatorX",
+  "description": "terminatorX è un sintetizzatore audio in tempo reale",
+  "longDescription": "<p>terminatorX permette di caricare campioni audio in vari formati (come *.wav, *.au, *.ogg, *.mp3, ecc.) su giradischi virtuali per una riproduzione sincronizzata. L’utente può manipolare questi giradischi tramite mouse e tastiera per \"scratchare\" in modo simile ai DJ hip hop con i dischi in vinile.</p>\n<p>Offre effetti in tempo reale (sia integrati che tramite plugin LADSPA), un sequencer e un’interfaccia MIDI, tutto accessibile tramite una semplice interfaccia gtk+. L’audio può essere riprodotto direttamente sull’hardware utilizzando i backend ALSA e OSS, oppure tramite un demone di routing audio sfruttando i backend JACK e PulseAudio.</p>\n"
+}

@@ -1,0 +1,52 @@
+id: "kolourpaint"
+name: KolourPaint
+description: Paint Program
+longDescription: |
+  <p>KolourPaint is a simple painting program to quickly create raster images.
+        It is useful as a touch-up tool and simple image editing tasks.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Support for drawing various shapes - lines, rectangles, rounded rectangles, ovals and polygons</li>
+    <li>Curves, lines and text</li>
+    <li>Colour picker</li>
+    <li>Selections</li>
+    <li>Rotation, monochrome and other advanced effects</li>
+  </ul>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kolourpaint
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kolourpaint.desktop/8f4de78bdb52117e63c6c0a4f321393d/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kolourpaint.desktop/8f4de78bdb52117e63c6c0a4f321393d/screenshots/image-1_624x480@1.png
+    width: 972
+    height: 748
+iconSources:
+  - url: org/kde/kolourpaint.desktop/8f4de78bdb52117e63c6c0a4f321393d/icons/128x128/kolourpaint_kolourpaint.png
+    width: 128
+    height: 128
+homepage: "https://www.kolourpaint.org/"
+enabled: true
+order: 99

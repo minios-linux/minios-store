@@ -1,0 +1,33 @@
+id: cinnamon
+name: Hot Corners
+description: Manage hotcorner settings
+longDescription: |
+  <p>Cinnamon is a desktop environment which provides advanced innovative features and a traditional user experience.</p>
+  <p>The desktop layout is similar to GNOME 2.  The underlying technology is forked from gnome-shell.  The emphasis is put on making users feel at home and providing them with an easy to use and comfortable desktop experience.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cinnamon
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - hotcorner
+  - overview
+  - scale
+  - expo
+iconSources:
+  - url: c/ci/cinnamon-settings-hotcorner.desktop/A0A25FCF8800FD9F488C3E7AD059829E/icons/128x128/cinnamon_cs-overview.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

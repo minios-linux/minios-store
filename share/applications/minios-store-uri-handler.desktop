@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=MiniOS Store URI Handler
+Comment=Handle minios-store:// protocol links
+Exec=/usr/lib/minios-store/minios-store-uri-handler %u
+Icon=system-software-install
+Terminal=false
+Type=Application
+NoDisplay=true
+MimeType=x-scheme-handler/minios-store;
+Categories=System;

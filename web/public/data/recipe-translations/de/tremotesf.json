@@ -1,0 +1,5 @@
+{
+  "name": "Tremotesf",
+  "description": "Remote-GUI für Transmission BitTorrent-Client",
+  "longDescription": "<p>\n      Tremotesf ist eine Remote-GUI für den Transmission-BitTorrent-Client. Sie ermöglicht die vollständige Kontrolle über Ihre transmission-daemon-Instanz, das Verwalten von Torrents, Anpassen der Transmission-Einstellungen sowie das Anzeigen von Serverstatistiken.\n    </p>\n<p>\n      Sie können mehrere Serverprofile hinzufügen und zwischen ihnen wechseln (es kann jeweils nur eine Verbindung bestehen). Tremotesf unterstützt HTTPS, einschließlich selbstsignierter Zertifikate und Clientzertifikats-Authentifizierung. Für Server können Sie eingehängte Verzeichnisse festlegen, Torrent-Dateien schnell öffnen und das Download-Verzeichnis im Dateidialog auswählen.\n    </p>\n"
+}

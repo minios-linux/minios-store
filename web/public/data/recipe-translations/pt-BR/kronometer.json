@@ -1,0 +1,5 @@
+{
+  "name": "Kronometer",
+  "description": "Cronômetro",
+  "longDescription": "<p>Kronometer é um aplicativo de cronômetro. Oferece as funções básicas de cronômetro (pausar/retomar/zerar/voltas), além da possibilidade de salvar os tempos e retomá-los depois. O Kronometer faz parte da coleção KDE Extragear, no submódulo Utilitários.</p>\n<p>Recursos:</p>\n<ul>\n  <li>Iniciar/pausar/retomar o cronômetro</li>\n  <li>Registro de voltas: capture o tempo do cronômetro quando desejar</li>\n  <li>Ordenação de tempos de volta: encontre facilmente o tempo de volta mais curto ou o mais longo</li>\n  <li>Zerar o cronômetro e os tempos de volta</li>\n  <li>Configurações de formato de tempo: escolha a precisão/granularidade do cronômetro</li>\n  <li>Salvar e retomar tempos: salve o status do cronômetro e continue depois</li>\n  <li>Personalização de fonte: escolha as fontes para cada dígito do cronômetro</li>\n  <li>Personalização de cores: escolha as cores dos dígitos e do fundo do cronômetro</li>\n  <li>Exportação dos tempos de volta: exporte os tempos de volta para um arquivo nos formatos JSON ou CSV</li>\n</ul>\n"
+}

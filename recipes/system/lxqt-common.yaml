@@ -1,0 +1,24 @@
+id: lxqt-common
+name: Workspaces
+description: "Configure layout, names and margins"
+longDescription: |
+  <p>Some common files for LXQt:   * autostart   * graphis   * themes   * xsession</p>
+  <p>This Package contains common LXQt files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxqt-common
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: lxqt-common_xfce4-workspaces.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

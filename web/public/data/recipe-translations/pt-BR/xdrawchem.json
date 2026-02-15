@@ -1,0 +1,5 @@
+{
+  "name": "xdrawchem",
+  "description": "Editor de estruturas químicas e reações",
+  "longDescription": "<p>O xdrawchem é um editor 2D para estruturas químicas e reações. Ele oferece funcionalidades semelhantes ao pacote comercial ChemDraw e é compatível com arquivos desse programa, além de outros formatos químicos por meio do OpenBabel.</p>\n<p>Esta versão empacotada é baseada em um fork disponível em https://gitlab.com/yamanq/xdrawchem, já que a versão anterior não era mais mantida ativamente. Mais informações podem ser encontradas no arquivo de direitos autorais.</p>\n"
+}

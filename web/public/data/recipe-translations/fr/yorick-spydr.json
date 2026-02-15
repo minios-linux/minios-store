@@ -1,0 +1,5 @@
+{
+  "name": "Spydr",
+  "description": "Affichage et analyse simple d'images FITS",
+  "longDescription": "<p>Spydr (se prononce comme \"spider\") est avant tout une visionneuse d’images FITS. Il fonctionne de façon autonome mais s’intègre idéalement dans un flux de travail d’analyse de données reposant sur Yorick (un langage interprété spécialisé dans le calcul numérique et la visualisation scientifique). Spydr propose des outils de zoom, de coupes, d’histogrammes, d’ajustements Gaussien/Moffat, d’ajustements de PSF (incluant FWHM et Strehl). Il gère les images uniques, les séquences d’images ainsi que les cubes de données.</p>\n"
+}

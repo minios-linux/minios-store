@@ -1,0 +1,53 @@
+id: "dconf-editor"
+name: Dconf Editor
+description: A graphical tool for editing the dconf database
+longDescription: |
+  <p>Dconf Editor is a tool to allow direct editing of the dconf configuration database.
+        This is useful when developing applications that use these settings.</p>
+  <p>Editing your configuration directly is an advanced feature and may cause applications to not work correctly.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dconf-editor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - settings
+  - configuration
+screenshotSources:
+  - url: ca/desrt/dconf-editor.desktop/4c8c7965e7249e6582bb65072f2fbff6/screenshots/image-1_orig.png
+    thumbnailUrl: ca/desrt/dconf-editor.desktop/4c8c7965e7249e6582bb65072f2fbff6/screenshots/image-1_624x413@1.png
+    width: 1001
+    height: 664
+  - url: ca/desrt/dconf-editor.desktop/4c8c7965e7249e6582bb65072f2fbff6/screenshots/image-2_orig.png
+    thumbnailUrl: ca/desrt/dconf-editor.desktop/4c8c7965e7249e6582bb65072f2fbff6/screenshots/image-2_624x413@1.png
+    width: 1001
+    height: 664
+iconSources:
+  - url: ca/desrt/dconf-editor.desktop/4c8c7965e7249e6582bb65072f2fbff6/icons/128x128/dconf-editor_ca.desrt.dconf-editor.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/DconfEditor"
+enabled: true
+order: 99

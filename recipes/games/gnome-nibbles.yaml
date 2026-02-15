@@ -1,0 +1,50 @@
+id: "gnome-nibbles"
+name: GNOME Nibbles
+description: Guide a worm around a maze
+longDescription: |
+  <p>Control a worm in its quest to eat bonuses and become longer. Outmaneuver enemy worms while eating doughnuts and ice cream to increase your length. Each worm has ten lives and loses one by running into a wall, another worm, or itself. The enemy worms are after the same bonuses that you are, so be careful: if they become too large, you won’t have much room for movement.</p>
+  <p>The adventure progresses through 26 maps of increasing difficulty. The early levels are mostly open with a few walls, but later on, cramped spaces and teleporters make things more interesting.</p>
+  <p>Play on your own against up to five enemy worms, or share your keyboard to play with a friend.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-nibbles
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - snake
+  - board
+screenshotSources:
+  - url: org/gnome/Nibbles.desktop/c78928c5063591fa62f2eea025c2dbfa/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Nibbles.desktop/c78928c5063591fa62f2eea025c2dbfa/screenshots/image-1_624x350@1.png
+    width: 1119
+    height: 629
+iconSources:
+  - url: org/gnome/Nibbles.desktop/c78928c5063591fa62f2eea025c2dbfa/icons/128x128/gnome-nibbles_org.gnome.Nibbles.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Nibbles"
+enabled: true
+order: 99

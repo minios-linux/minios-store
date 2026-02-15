@@ -1,0 +1,35 @@
+id: sumo
+name: Sumo
+description: Microscopic Traffic Simulation
+longDescription: |
+  <p>SUMO is an open source, highly portable, microscopic road traffic simulation package designed to handle large road networks. Main binary.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sumo
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: sumo_sumo.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

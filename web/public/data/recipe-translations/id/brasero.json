@@ -1,0 +1,5 @@
+{
+  "name": "Brasero",
+  "description": "Membuat dan menyalin CD serta DVD",
+  "longDescription": "<p>Brasero adalah aplikasi sederhana untuk membakar, menyalin, dan menghapus media CD serta DVD: audio, video, atau data. Fitur utamanya meliputi:  * Pembakaran langsung tanpa file sementara  * Dukungan multisession  * Konversi langsung playlist musik dari seluruh format yang didukung GStreamer</p>\n<p>Paket ini berisi aplikasi mandiri.</p>\n<p>Paket-paket berikut, jika diinstal, akan menambah fungsi Brasero:  * cdrdao untuk membakar CD data/audio kombinasi dan penyalinan byte-ke-byte  * Backend GStreamer untuk dukungan format audio tambahan  * vcdimager untuk membuat VCD atau SVCD  * libdvdcss2 untuk menyalin DVD terenkripsi  * tracker untuk pencarian file video, audio, gambar, dan dokumen</p>\n"
+}

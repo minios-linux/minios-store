@@ -1,0 +1,5 @@
+{
+  "name": "QTScrobbler",
+  "description": "QTScrobbler adalah alat untuk mengirim .scrobbler.log dari pemutar portabel ke Last.fm",
+  "longDescription": "<p>qtscrob adalah alat berbasis GUI yang membaca informasi pemutaran dari perangkat iPod, MTP (juga dikenal sebagai Plays for Sure), atau Rockbox (firmware pemutar audio sumber terbuka) dan mengirimkannya ke layanan audioscrobbler seperti \"last.fm\" atau \"libre.fm\".</p>\n<p>Ini adalah versi grafis dari alat ini. Untuk versi CLI, lihat paket 'scrobbler'.</p>\n"
+}

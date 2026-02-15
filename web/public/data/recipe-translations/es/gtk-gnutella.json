@@ -1,0 +1,5 @@
+{
+  "name": "gtk-gnutella",
+  "description": "Accede a las redes Gnutella y G2 mediante este servent",
+  "longDescription": "<p>gtk-gnutella te permite unirte a las redes Gnutella y G2, buscar, compartir y descargar archivos.</p>\n<p>Tras unirte a la red, escribe palabras clave en el área de búsqueda y se generará una búsqueda de archivos compartidos en la red que coincidan con ese nombre. Luego puedes hacer clic en una entrada e intentar descargarla.</p>\n<p>Es compatible con todos los servents Gnutella de otros proveedores: se une a la misma red e intercambia información con otros sin inconvenientes.</p>\n<p>Características destacadas:</p>\n<ul>\n  <li>Soporte TLS para conexiones Gnutella y HTTP</li>\n  <li>Compatibilidad con UPnP y NAT-PMP para habilitar el reenvío de puertos automáticamente</li>\n  <li>Tabla Hash Distribuida (DHT) para encontrar ubicaciones alternativas y push-proxies</li>\n  <li>Motor de filtrado avanzado</li>\n</ul>\n"
+}

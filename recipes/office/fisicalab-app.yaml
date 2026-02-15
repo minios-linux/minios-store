@@ -1,0 +1,28 @@
+id: fisicalab-app
+name: FísicaLab
+description: Physics educational program
+longDescription: |
+  <p>GNU FísicaLab (can be pronounced as PhysicsLab) is an educational application to solve physics problems.  Its main objective is to let the user focus in the concepts of Physics, leaving aside the mathematical details (FísicaLab takes care of them).  This allows the user to become familiar with the physical concepts without running the risk of getting lost in mathematical details.  And so, when the user gains confidence in applying physical concepts, will be better prepared to solve the problems by hand (with pen and paper). FísicaLab has the following modules:</p>
+  <p> * Kinematics of points 2D.  * Circular kinematics of points 2D.  * Static of points 2D.  * Static of rigid bodies 2D.  * Dynamics of points 2D.  * Circular dynamics of points 2D.  * Heat, calorimetry, ideal gas and expansion.  * Thermodynamics.</p>
+  <p>The static and dynamic problems are entered constructing the free body diagrams of the objects.  Although FísicaLab is easy and intuitive, there are complete and comprehensive manuals in English and Spanish.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fisicalab.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - physics
+  - problems
+iconSources:
+  - cached: fisicalab.app_FisicaLab.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

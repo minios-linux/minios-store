@@ -1,0 +1,26 @@
+id: projectm-jack
+name: projectM Jack Audio Visualization
+description: A milkdrop based music visualizer visualizing JackAudio streams on a Qt4 GUI
+longDescription: |
+  <p>projectM is an iterative music visualization library which uses OpenGL for hardware acceleration. It is compatible with Milkdrop presets.</p>
+  <p>This package contains an application to visualize JackAudio streams.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - projectm-jack
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: projectm-jack_prjm16-transparent.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

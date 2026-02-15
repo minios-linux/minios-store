@@ -1,0 +1,5 @@
+{
+  "name": "µHOPE",
+  "description": "Système de programmation de microcontrôleur MicroHOPE",
+  "longDescription": "<p>Ce paquet fournit un ensemble de programmes d’exemple pour piloter un microcontrôleur ATmega32, ainsi qu’un tutoriel expliquant comment les compiler, les téléverser sur le microcontrôleur et comment effectuer des modifications simples ou avancées. Il est conçu pour être utilisé avec la carte « microhope », facilitant le téléversement du code vers le microcontrôleur via une liaison USB.</p>\n<p>En plus des exemples, une bibliothèque permet d’exploiter tous les périphériques disponibles sur la carte « microhope » : LED, écran LCD, CAN connecté à des capteurs.</p>\n<p>Une interface graphique utilisateur est également proposée.</p>\n"
+}

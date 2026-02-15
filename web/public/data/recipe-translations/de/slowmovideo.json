@@ -1,0 +1,5 @@
+{
+  "name": "slowmoUI",
+  "description": "Zeitlupenvideo",
+  "longDescription": "<p>Dies lässt Ihre Videos nicht einfach mit 0,01-facher Geschwindigkeit abspielen. Sie können Ihr Filmmaterial stufenlos verlangsamen und beschleunigen, optional mit Bewegungsunschärfe.</p>\n<p>Wie funktioniert Zeitlupe? slowmoVideo versucht zu ermitteln, wohin sich die Pixel im Video bewegen (diese Information nennt sich Optischer Fluss) und berechnet daraus die zusätzlichen Zwischenbilder.</p>\n<p>Videos in allen von ffmpeg unterstützten Formaten können geladen werden. Auch Bildsequenzen lassen sich verwenden – wenn Sie z. B. ein Timelapse mit zu wenigen Bildern aufgenommen haben, kann slowmoVideo ebenfalls helfen. slowmoVideo arbeitet nicht mit einem konstanten Zeitlupenfaktor, sondern mit Kurven, die beliebige Beschleunigung, Verzögerung oder Umkehr ermöglichen. Bewegungsunschärfe kann nach Wunsch hinzugefügt werden.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "xSPIM",
+  "description": "Grafischer Emulator für MIPS32-Assemblerprogramme",
+  "longDescription": "<p>Emuliert einen MIPS R2000/R3000-Prozessor in Software. Besonders nützlich für Studierende, die MIPS R2000/R3000-Assembler lernen.</p>\n<p>SPIM S20 ist ein Software-Simulator, der Assemblerprogramme für die MIPS R2000/R3000 RISC-Architekturen ausführt. SPIM kann Dateien mit Assemblerbefehlen direkt einlesen und ausführen. Es handelt sich um ein eigenständiges System mit integriertem Debugger und Schnittstelle zum Betriebssystem für das Ausführen solcher Programme.</p>\n"
+}

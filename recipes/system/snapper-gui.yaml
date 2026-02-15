@@ -1,0 +1,28 @@
+id: snapper-gui
+name: Snapper GUI
+description: Frontend for snapper snapshot manager
+longDescription: |
+  <p>Snapper-gui is a graphical user interface for the tool snapper for Linux filesystem snapshot management. It can compare snapshots and revert differences between snapshots. In simple terms, this allows root and non-root users to view older versions of files and revert changes</p>
+  <p>Currently works with btrfs, ext4 and thin-provisioned LVM volumes</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - snapper-gui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/sn/snapper-gui.desktop/987e0d3db4ac801d27e83f3d631e4372/icons/128x128/snapper-gui_drive-harddisk.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

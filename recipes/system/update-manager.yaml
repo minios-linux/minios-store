@@ -1,0 +1,29 @@
+id: "update-manager"
+name: Software Updater
+description: Show and install available updates
+longDescription: |
+  <p>Software Updater checks for updates using apt and let you choose which updates to install.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - update-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: u/up/update-manager.desktop/3648f25c3cd018fdb7eec376c252b6db/icons/128x128/update-manager_system-software-update.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

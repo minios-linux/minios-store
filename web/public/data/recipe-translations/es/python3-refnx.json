@@ -1,0 +1,5 @@
+{
+  "name": "refnx",
+  "description": "Análisis de reflectometría de neutrones y rayos X en Python",
+  "longDescription": "<p>Paquete flexible y potente en Python para el ajuste generalizado de curvas, especialmente diseñado para el análisis de datos de reflectometría de neutrones y rayos X.</p>\n<p>Utiliza varios algoritmos de optimización de scipy para ajustar datos y estimar incertidumbres de parámetros. Además de los algoritmos de scipy, refnx emplea el muestreador emcee Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble para la estimación bayesiana de parámetros.</p>\n"
+}

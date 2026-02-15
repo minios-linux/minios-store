@@ -1,0 +1,5 @@
+{
+  "name": "Atomes",
+  "description": "Una caja de herramientas atomística",
+  "longDescription": "<p>Atomes: una caja de herramientas para analizar, visualizar y crear/editar modelos atomísticos tridimensionales. Ofrece un espacio de trabajo que permite tener múltiples proyectos abiertos simultáneamente. Los diferentes proyectos en el espacio de trabajo pueden intercambiar datos: resultados de análisis, coordenadas atómicas, etc.</p>\n<p>Atomes también proporciona un sistema avanzado de preparación de entradas para realizar cálculos con conocidos códigos de dinámica molecular:</p>\n<ul>\n  <li>Dinámica molecular clásica: DLPOLY y LAMMPS</li>\n  <li>Dinámica molecular ab initio: CPMD y CP2K</li>\n  <li>Dinámica molecular QM-MM: CPMD y CP2K</li>\n</ul>\n<p>La preparación de los archivos de entrada para estos cálculos suele ser la clave y el proceso más complicado para realizar simulaciones de dinámica molecular. Atomes ofrece un asistente intuitivo que guía al usuario paso a paso durante esta etapa crucial.</p>\n"
+}

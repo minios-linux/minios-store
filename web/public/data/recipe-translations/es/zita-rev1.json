@@ -1,0 +1,5 @@
+{
+  "name": "Zita-Rev1",
+  "description": "reverberación sorprendente de kokkinizita: máxima calidad en cada byte",
+  "longDescription": "<p>REV1 es una versión mejorada de la reverberación desarrollada originalmente para Aeolus. Su carácter es más similar a una 'reverberación de sala' que a una 'de placa', aunque puede aplicarse a una amplia variedad de instrumentos o voces. No es un espacializador: las primeras reflexiones son diferentes en las entradas L y R, pero no corresponden a ninguna sala real. Han sido ajustadas para que encajen con fuentes izquierda y derecha hasta cierto punto.</p>\n<p>En modo estéreo dispone de un control para mezclar señal seca/húmeda, por lo que puede usarse tanto como inserción como en modo envío/retorno. Para mono, basta conectar uno de los dos canales.</p>\n<p>En modo Ambisonic (seleccionado mediante la opción de línea de comandos -B), la única opción disponible es el modo envío/retorno.</p>\n"
+}

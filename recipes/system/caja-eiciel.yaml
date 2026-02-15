@@ -1,0 +1,57 @@
+id: "caja-eiciel"
+name: MATE Eiciel
+description: Tool to manipulate ACL entries
+longDescription: |
+  <p>MATE Eiciel is a standalone tool and a Caja plugin to graphically
+     edit Access Control Lists (ACL) of your files. ACLs allow to set
+     more fine-grained permissions than the traditional Unix permissions
+     of user, group, other (UGO permissions). It&apos;s based on Eiciel by
+     Roger Ferrer.</p>
+  <p>MATE Eiciel also allows to edit the extended attributes of files and
+    directories if the filesystem supports it.</p>
+  <p>Not all filesystems support ACLs and extended attributes. And even for
+    those supporting them, they must be enabled (by the system administrator)
+    before using MATE Eiciel.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - caja-eiciel
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - access control list
+  - acl
+  - permissions
+  - editor
+screenshotSources:
+  - url: org/mate-desktop/mate-eiciel.desktop/dd886a6f6f4da2daef04d1fcbab37f22/screenshots/image-1_orig.png
+    thumbnailUrl: org/mate-desktop/mate-eiciel.desktop/dd886a6f6f4da2daef04d1fcbab37f22/screenshots/image-1_624x350.png
+    width: 1366
+    height: 768
+iconSources:
+  - url: org/mate-desktop/mate-eiciel.desktop/f912df683ba453d578dbabeaa0bf4a26/icons/128x128/caja-eiciel_mate-eiciel.png
+    width: 128
+    height: 128
+homepage: "https://github.com/darkshram/mate-eiciel/"
+enabled: true
+order: 99

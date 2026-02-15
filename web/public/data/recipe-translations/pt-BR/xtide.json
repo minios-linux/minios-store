@@ -1,0 +1,5 @@
+{
+  "name": "XTide Tide Predictor",
+  "description": "Visualize previsões de maré e correnteza",
+  "longDescription": "<p>XTide é um pacote que fornece previsões de marés e correntes marítimas em diversos formatos. É possível gerar gráficos, listas em texto e calendários, ou ainda disponibilizar um relógio de marés diretamente na área de trabalho.</p>\n<p>O XTide pode ser utilizado no sistema X Window, em terminais de texto ou via web. Isso é feito através de três programas distintos: a interface interativa (xtide), a interface não interativa ou linha de comando (tide) e a interface web (xttpd).</p>\n<p>O algoritmo utilizado pelo XTide para prever marés é o mesmo empregado pelo National Ocean Service dos EUA, sendo muito mais preciso do que os relógios de maré simples encontrados em lojas de artigos diversos. Entretanto, para previsões realmente precisas, além do algoritmo, são necessários dados para cada localidade. Este pacote inclui um conjunto de dados de exemplo para apenas um local, permitindo testar o pacote; para uso prático, é preciso instalar o pacote de dados xtide-data (ou baixar os dados do site FTP do XTide).</p>\n"
+}

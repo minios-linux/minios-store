@@ -1,0 +1,5 @@
+{
+  "name": "Subtitle Editor",
+  "description": "Editor de legendas baseado em GStreamer e Gtk+",
+  "longDescription": "<p>Subtitle Editor é uma ferramenta GTK+3 para edição de legendas. Pode ser utilizada para criar novas legendas ou para transformar, editar, corrigir e aprimorar legendas já existentes.</p>\n<p>O programa também exibe as ondas sonoras do áudio, facilitando a sincronização das legendas com as vozes.</p>\n<p>Este pacote possui os seguintes recursos:</p>\n<p> o Interface com múltiplos documentos.  o Suporte à internacionalização.  o Reprodutor de vídeo integrado na janela principal (baseado em GStreamer).  o Possibilidade de pré-visualização com reprodutor de vídeo externo (usando MPlayer ou outro).  o Editor de estilos.  o Mover legendas.  o Escalar.  o Dividir e juntar legendas.  o Editar texto e ajustar tempos (início, fim).  o Gerar forma de onda a partir do vídeo.</p>\n<p>Formatos suportados:</p>\n<p> o Sub Station Alpha.  o Advanced Sub Station Alpha.  o SubRip.  o MicroDVD.  o MPL2.  o MPsub (legenda do MPlayer).  o SubViewer 2.0.  o Texto simples.  o Adobe Encore DVD.</p>\n"
+}

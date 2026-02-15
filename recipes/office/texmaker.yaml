@@ -1,0 +1,47 @@
+id: "texmaker"
+name: Texmaker
+description: LaTeX development environment
+longDescription: |
+  <p>Texmaker is a clean, highly configurable LaTeX editor with good hot key support and extensive LaTeX documentation. Texmaker integrates many tools needed to develop documents with LaTeX, in just one application. It has some nice features such as syntax highlighting, insertion of 370 mathematical symbols with only one click, and &quot;structure view&quot; of the document for easier navigation.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - texmaker
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - editor
+  - latex
+screenshotSources:
+  - url: t/te/texmaker.desktop/9564441413dc997df72835c12d30a42b/screenshots/image-1_orig.png
+    thumbnailUrl: t/te/texmaker.desktop/9564441413dc997df72835c12d30a42b/screenshots/image-1_624x355.png
+    width: 1280
+    height: 729
+iconSources:
+  - cached: texmaker_texmaker.png
+    width: 64
+    height: 64
+developer: Pascal Brachet
+homepage: "https://www.xm1math.net/texmaker/index.html"
+enabled: true
+order: 99

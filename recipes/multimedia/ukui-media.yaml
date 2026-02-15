@@ -1,0 +1,36 @@
+id: ukui-media
+name: Sound
+description: Change sound volume and sound events
+longDescription: |
+  <p>UKUI media utilities are the audio mixer and the volume control applet.</p>
+  <p>This package utilizes the libmatemixer library which provides support for ALSA and Pulseaudio as audio backends.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ukui-media
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - ukui
+  - volume
+  - control
+  - mixer
+  - settings
+  - sound
+  - events
+iconSources:
+  - url: u/uk/ukui-volume-control.desktop/696D6157771C9E1310A3387B5D87AAD6/icons/128x128/ukui-media_multimedia-volume-control.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

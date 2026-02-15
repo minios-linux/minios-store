@@ -1,0 +1,5 @@
+{
+  "name": "wpa_gui",
+  "description": "Grafische Benutzeroberfläche für wpa_supplicant",
+  "longDescription": "<p>wpa_gui bietet eine Qt-Oberfläche zur Auswahl und Verwaltung der konfigurierten Netzwerke für wpa_supplicant. Zusätzlich ermöglicht es das Durchsuchen der 802.11-SSID-Scanergebnisse, zeigt ein Ereignisprotokoll der von wpa_supplicant generierten Meldungen und bietet Funktionen zum Hinzufügen oder Bearbeiten von wpa_supplicant-Netzwerken.</p>\n"
+}

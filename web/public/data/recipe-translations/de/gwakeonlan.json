@@ -1,0 +1,5 @@
+{
+  "name": "gWakeOnLan",
+  "description": "GTK+-Dienstprogramm zum Einschalten ausgeschalteter Rechner über Wake On LAN.",
+  "longDescription": "<p>gWakeOnLan ist ein GTK+-Werkzeug, mit dem ausgeschaltete Computer per Wake-on-LAN-Funktion gestartet werden können. Es werden sowohl lokale Netzwerke als auch Internetverbindungen unterstützt.</p>\n<p>Damit Rechner über Wake on LAN eingeschaltet werden können, müssen sie mit aktivierter Wake-on-LAN-Funktion heruntergefahren worden sein.</p>\n"
+}

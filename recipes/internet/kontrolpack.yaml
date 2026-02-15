@@ -1,0 +1,24 @@
+id: kontrolpack
+name: KontrolPack
+description: Remote shell command executor and LAN manager
+longDescription: |
+  <p>The purpose of KontrolPack is to improve interoperability between systems by connecting remote computers, regardless of their operating system. It can be used to:</p>
+  <p> - Handle remote shell command execution.  - Share files between remote computers.  - Manage your network: LAN (Local Area Network).  - Get an overview of the workstations on your LAN.  - Lightweight XML based message exchange between client and server.  - Handle each client with a personalized tab panel.  - Send commands simultaneously to all computers on your LAN.  - Cross-platform (GNU/Linux, Mac OSX, MS Windows).</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kontrolpack
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: kontrolpack_kontrolpack.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

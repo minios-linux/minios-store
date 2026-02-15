@@ -1,0 +1,32 @@
+id: tangerine
+name: Tangerine Media Sharing
+description: Share your music with close friends
+longDescription: |
+  <p>Tangerine is a simple music sharing server that uses DAAP to share your music over the local network.</p>
+  <p>There are several clients that you can then use to connect to it, such as Apple&apos;s iTunes, Banshee, and Rhythmbox.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tangerine
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: t/ta/tangerine.desktop/30EBD9AFD8C9099B176167C91F37C03E/icons/128x128/tangerine_tangerine.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

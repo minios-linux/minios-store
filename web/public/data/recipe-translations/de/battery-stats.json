@@ -1,0 +1,5 @@
+{
+  "name": "Battery Level Graph",
+  "description": "Batteriestand-Grafik",
+  "longDescription": "<p>Dieses Paket enthält den battery-stats-collector, einen Daemon, der regelmäßig Statistiken über den Ladezustand der vorhandenen Batterien sammelt.</p>\n<p>Es enthält außerdem ein Tool namens battery-graph, mit dem sich mithilfe von qplot Diagramme über Lade- und Entladeverläufe der Batterie im Zeitverlauf erstellen lassen.</p>\n<p>Hinweis: Dafür muss APM oder ACPI im Kernel aktiviert und funktionsfähig sein.</p>\n"
+}

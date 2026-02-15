@@ -1,0 +1,5 @@
+{
+  "name": "Xcas",
+  "description": "Le couteau suisse des mathématiques",
+  "longDescription": "<p>Giac est un système de calcul formel (CAS), issu du développement des systèmes pour les calculatrices HP. Il propose une implémentation rapide des algorithmes pour les opérations sur les polynômes, et un mode de compatibilité avec les CAS Maple ou Mupad ainsi qu’avec les calculatrices TI.</p>\n<p>Ce paquet comprend les programmes Giac destinés aux utilisateurs : xcas, icas et pgiac, ainsi que le programme cas_help pour l’aide utilisateur.</p>\n"
+}

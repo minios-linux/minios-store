@@ -1,0 +1,5 @@
+{
+  "name": "SageMath",
+  "description": "Sistema de Álgebra Computacional (Jupyter Notebook)",
+  "longDescription": "<p>SageMath es un software matemático libre y de código abierto, licenciado bajo la GPL. Se basa en numerosos paquetes open source existentes: NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R y muchos más. Accede a toda su potencia combinada mediante un lenguaje común basado en Python o directamente a través de interfaces o envoltorios.</p>\n<p>Misión: Crear una alternativa libre y de código abierto viable a Magma, Maple, Mathematica y Matlab.</p>\n<p>Este paquete incluye el kernel de Jupyter para SageMath.</p>\n"
+}

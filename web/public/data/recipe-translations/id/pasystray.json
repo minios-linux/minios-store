@@ -1,0 +1,5 @@
+{
+  "name": "PulseAudio System Tray",
+  "description": "Applet untuk PulseAudio",
+  "longDescription": "<p>Pasystray memungkinkan pengaturan berbagai konfigurasi server PulseAudio langsung dari system tray X11. Fitur-fitur yang tersedia antara lain:    * mengatur volume aliran (streams) dan perangkat keluaran/masukan (sinks/sources)    * memindahkan stream antar sink/source    * mengganti sink/source utama (default)    * mengatur server utama (PULSE_SERVER)    * mendeteksi layanan PulseAudio melalui jaringan    * mengganti nama perangkat</p>\n<p>Perintah yang berkaitan dengan dependensi yang direkomendasikan (paman, paprefs, pavucontrol, dan pavumeter) dapat dijalankan melalui menu yang disediakan oleh pasystray. Jika perintah tidak tersedia, item menu tersebut akan dinonaktifkan. pulseaudio-module-zeroconf memungkinkan deteksi dan pengelolaan layanan PulseAudio di jaringan.</p>\n"
+}

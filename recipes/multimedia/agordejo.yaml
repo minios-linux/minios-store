@@ -1,0 +1,25 @@
+id: "agordejo"
+name: Agordejo
+description: Music and audio production session manager based on NSM.
+longDescription: |
+  <p>Agordejo (Esperanto: ‘place to set things up’) is a music production session manager. It is used to start your programs, remember their (JACK) interconnections and make your life easier in general.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - agordejo
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: org/laborejo/agordejo/d71ca4929e3cefb1f4ffecb1b6c5a88e/icons/128x128/agordejo_agordejo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

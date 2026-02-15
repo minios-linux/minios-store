@@ -1,0 +1,34 @@
+id: "calc-common"
+name: Calc
+description: Arbitrary Precision Calculator
+longDescription: |
+  <p>Calc is an arbitrary precision arithmetic system that uses a C-like language. Calc is useful as a calculator, an algorithm prototyper and as a mathematical research tool. More importantly, calc provides one with a machine independent means of computation. Calc comes with a rich set of builtin mathematical and programmatic functions.</p>
+  <p>This package contains architecture independent files required by the main package `calc&apos;.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - calc-common
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: calc-common_accessories-calculator.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

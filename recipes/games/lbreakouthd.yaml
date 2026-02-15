@@ -1,0 +1,36 @@
+id: "lbreakouthd"
+name: LBreakoutHD
+description: A ball-and-paddle game with nice graphics.
+longDescription: |
+  <p>LBreakoutHD is a remaster of LBreakout2, a game similar to Breakout and xboing. The player controls a paddle at the bottom of the screen, and uses it to bounce one or more balls which destroy bricks; the paddle can also be used to collect various extras with positive or negative effects.</p>
+  <p>LBreakoutHD supports all LBreakout2 themes and level sets.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lbreakouthd
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - arkanoid
+  - breakout
+  - ball
+  - space
+  - paddle
+iconSources:
+  - url: l/lb/lbreakouthd.desktop/4197ec45089ec695b3ccd905ecad1032/icons/128x128/lbreakouthd_lbreakouthd.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,49 @@
+id: wireshark
+name: Wireshark
+description: Network protocol analyzer
+longDescription: |
+  <p>
+  	Wireshark allows you to examine protocol data stored in files or as it
+  	is captured from wired or wireless (WiFi or Bluetooth) networks, USB
+  	devices, and many other sources.  It supports dozens of protocol
+  	capture file formats and understands more than a thousand protocols.
+      </p>
+  <p>
+  	It has many powerful features including a rich display filter language
+  	and the ability to reassemble multiple protocol packets in order to,
+  	for example, view a complete TCP stream, save the contents of a file
+  	which was transferred over HTTP or CIFS, or play back an RTP audio
+  	stream.
+      </p>
+  
+categoryId: internet
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wireshark
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/wireshark/Wireshark/d2d143218c9ce51b12f3852fb1fab8ff/screenshots/image-1_orig.png
+    thumbnailUrl: org/wireshark/Wireshark/d2d143218c9ce51b12f3852fb1fab8ff/screenshots/image-1_624x463@1.png
+    width: 1066
+    height: 792
+  - url: org/wireshark/Wireshark/d2d143218c9ce51b12f3852fb1fab8ff/screenshots/image-2_orig.png
+    thumbnailUrl: org/wireshark/Wireshark/d2d143218c9ce51b12f3852fb1fab8ff/screenshots/image-2_624x384@1.png
+    width: 1440
+    height: 888
+  - url: org/wireshark/Wireshark/d2d143218c9ce51b12f3852fb1fab8ff/screenshots/image-3_orig.png
+    thumbnailUrl: org/wireshark/Wireshark/d2d143218c9ce51b12f3852fb1fab8ff/screenshots/image-3_624x338@1.png
+    width: 2500
+    height: 1355
+iconSources:
+  - url: org/wireshark/Wireshark/d2d143218c9ce51b12f3852fb1fab8ff/icons/128x128/wireshark_org.wireshark.Wireshark.png
+    width: 128
+    height: 128
+homepage: "https://www.wireshark.org"
+enabled: true
+order: 99

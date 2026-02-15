@@ -1,0 +1,5 @@
+{
+  "name": "Dragon Player",
+  "description": "Reprodutor de vídeo com foco na simplicidade",
+  "longDescription": "<p>Dragon Player é um reprodutor multimídia cujo foco está na simplicidade, ao invés da quantidade de recursos. O Dragon Player faz uma coisa, e apenas uma coisa: reproduzir arquivos multimídia. Sua interface simples foi projetada para não atrapalhar o uso, permitindo que você apenas assista seus vídeos e músicas.</p>\n<p>Recursos:</p>\n<ul>\n  <li>Interface simples</li>\n  <li>Retomada de vídeos: começa a reproduzir o vídeo de onde você parou da última vez</li>\n  <li>Suporte a legendas: carrega automaticamente legendas com o nome correspondente</li>\n  <li>Ajustes de exibição de vídeo (brilho, contraste)</li>\n  <li>Por utilizar Solid e Phonon, o Dragon Player é independente de qualquer framework multimídia ou camada de abstração de hardware</li>\n  <li>Suporta reprodução de CDs e DVDs</li>\n</ul>\n"
+}

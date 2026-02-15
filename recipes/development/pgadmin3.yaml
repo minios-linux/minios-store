@@ -1,0 +1,31 @@
+id: pgadmin3
+name: pgAdmin III
+description: PostgreSQL Administration Tool
+longDescription: |
+  <p>pgAdmin III is a database design and management application for use with PostgreSQL. The application can be used to manage PostgreSQL 7.3 and above and has been tested with PostgreSQL 10.</p>
+  <p>pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. The application also includes a syntax highlighting SQL editor, a server-side code editor, an SQL/batch/shell job scheduling agent, support for the Slony-I replication engine and much more. Server connection may be made using TCP/IP or Unix Domain Sockets (on *nix platforms), and may be SSL encrypted for security. No additional drivers are required to communicate with the database server.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pgadmin3
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - postgresql
+  - sql
+iconSources:
+  - cached: pgadmin3_pgadmin3.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

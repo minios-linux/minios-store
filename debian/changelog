@@ -1,0 +1,8 @@
+minios-store (1.0.0) unstable; urgency=medium
+
+  * Initial release
+  * WebSocket daemon for recipe installation
+  * Support for apt, script, and deb installation methods
+  * Squashfs module builder with configurable compression
+
+ -- crims0n <crims0n@minios.dev>  Thu, 12 Feb 2026 23:50:21 +0300

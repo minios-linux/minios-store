@@ -1,0 +1,5 @@
+{
+  "name": "PulseAudio System Tray",
+  "description": "Um applet para PulseAudio",
+  "longDescription": "<p>O Pasystray permite controlar várias configurações do servidor PulseAudio diretamente pela bandeja do sistema X11. Com ele você pode:    * ajustar o volume de streams, dispositivos de saída (sinks) e de entrada (sources)    * transferir streams entre diferentes sinks/sources    * trocar o dispositivo padrão de saída/entrada    * definir o servidor padrão (PULSE_SERVER)    * detectar serviços PulseAudio em rede    * renomear dispositivos</p>\n<p>Os comandos associados às dependências sugeridas (paman, paprefs, pavucontrol e pavumeter) podem ser acessados pelo menu oferecido pelo pasystray. Se algum comando não estiver disponível, o item de menu correspondente aparecerá desabilitado. O pulseaudio-module-zeroconf permite detectar e gerenciar serviços PulseAudio em rede.</p>\n"
+}

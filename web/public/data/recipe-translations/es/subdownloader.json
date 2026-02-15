@@ -1,0 +1,5 @@
+{
+  "name": "SubDownloader",
+  "description": "Descarga y sube subtítulos para tus videos",
+  "longDescription": "<p>SubDownloader es una herramienta para descargar y subir automáticamente subtítulos para archivos de video (DIVX, MPEG, AVI, etc.) y DVDs utilizando un algoritmo de hash rápido.</p>\n<p>Características:   * Algoritmo de hash rápido (27 GB de películas en 7 segundos)   * Búsqueda recursiva en carpetas   * Detección automática del idioma de los subtítulos   * Subida de subtítulos para temporadas completas de series en menos de 1 minuto</p>\n<p>Este paquete incluye la interfaz gráfica, archivos comunes y una interfaz de línea de comandos (CLI).</p>\n"
+}

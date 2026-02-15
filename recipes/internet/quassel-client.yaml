@@ -1,0 +1,38 @@
+id: "quassel-client"
+name: Quassel IRC (Client only)
+description: Distributed IRC client with central core component
+longDescription: |
+  <p>Quassel is a modern, cross-platform, distributed IRC client, meaning that one or more clients can attach to and detach from the central core. It&apos;s much like the popular combination of screen and a text-based IRC client such as WeeChat or irssi, but graphical.</p>
+  <p>This package provides only the client component.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - quassel-client
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: q/qu/quasselclient.desktop/b9fba665c21e9fe1dc5de58aa31a4a62/icons/128x128/quassel-client_quassel.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,24 @@
+id: driconf
+name: 3D Acceleration
+description: Change 3D Acceleration options
+longDescription: |
+  <p>Driconf is a configuration applet for the Direct Rendering Infrastructure (DRI). It allows customizing performance and visual quality settings of OpenGL drivers on a per-driver, per-screen and/or per-application level.</p>
+  <p>Driconf is implemented in Python. It uses the GTK+ toolkit bindings and the xdriinfo program (from the xdriinfo or xbase-clients package) to retrieve configuration information from OpenGL drivers.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - driconf
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: driconf_driconf-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

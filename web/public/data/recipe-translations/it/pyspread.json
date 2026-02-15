@@ -1,0 +1,5 @@
+{
+  "name": "pyspread",
+  "description": "Un foglio di calcolo basato su Python",
+  "longDescription": "<p>Pyspread è un'applicazione di foglio di calcolo multipiattaforma basata su Python. Invece delle tradizionali formule, nelle celle vengono inserite espressioni Python. Ogni espressione restituisce un oggetto Python che può essere richiamato da altre celle e può rappresentare qualsiasi cosa, incluse liste e matrici.</p>\n"
+}

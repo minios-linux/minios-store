@@ -1,0 +1,25 @@
+id: gtk-recordmydesktop
+name: RecordMyDesktop
+description: Record a video of your desktop
+longDescription: |
+  <p>Adds an easy to use graphical icon on the GNOME toolbar to make screencasts with the video and audio capture application recordMyDesktop</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtk-recordmydesktop
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gtk-recordmydesktop_gtk-recordmydesktop.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

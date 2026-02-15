@@ -1,0 +1,5 @@
+{
+  "name": "Pure Data (Pd)",
+  "description": "Ambiente gráfico de programação em tempo real para música computacional interativa",
+  "longDescription": "<p>\n      Pure Data (ou simplesmente \"Pd\") é uma linguagem de programação visual de código aberto para multimídia. O Pure Data é desenvolvido por Miller Puckette desde 1996 e está disponível em seu site oficial, junto com a documentação oficial e outros recursos relacionados. Esta é a distribuição oficial \"Pd\" ou \"main distribution\", também conhecida como \"Pd Vanilla\".\n    </p>\n<p>\n      Pense no Pd como um <em>Sintetizador Modular</em> que também é uma linguagem de programação.\n    </p>\n<p>\n      As funções de áudio e MIDI do Pd são nativas, assim como recursos de rede (por exemplo, usando Open Sound Control), mas há diversas bibliotecas externas que permitem trabalhar com gráficos, interfaces de hardware e muito mais...\n    </p>\n"
+}

@@ -1,0 +1,49 @@
+id: "qabc"
+name: QAbc
+description: Minimal GUI for ABC music notation
+longDescription: |
+  <p>
+        QAbc is a simple graphical program that allow
+        to write musical scores in the ABC notation.
+      </p>
+  <p>
+        This program allow to play the written music,
+        preview the output score and print it, using
+        third party software.
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qabc
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - score
+  - notation
+  - tune
+  - gig
+  - jam
+screenshotSources:
+  - url: fr/free/brouits.qabc/bf2e722f7f6baba8c2f039e2522849b5/screenshots/image-1_orig.png
+    thumbnailUrl: fr/free/brouits.qabc/bf2e722f7f6baba8c2f039e2522849b5/screenshots/image-1_624x409@1.png
+    width: 822
+    height: 540
+iconSources:
+  - cached: qabc_qabc.png
+    width: 64
+    height: 64
+developer: Benoît Rouits
+homepage: "http://brouits.free.fr/qabc/"
+enabled: true
+order: 99

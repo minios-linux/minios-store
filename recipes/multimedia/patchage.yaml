@@ -1,0 +1,25 @@
+id: patchage
+name: Patchage
+description: Connect audio and MIDI applications together and manage audio sessions
+longDescription: |
+  <p>Patchage provides a graphical interface to connect jack and midi inputs and outputs. Each application is represented as one box with inputs on the left and output on the right. Boxes can be moved around and arranged to have a clear display of the current setup.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - patchage
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/pa/patchage.desktop/E38F70D10E4DDC983D3EE1A1F0996788/icons/128x128/patchage_patchage.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

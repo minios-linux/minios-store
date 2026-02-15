@@ -1,0 +1,37 @@
+id: "libelementary-bin"
+name: Elementary Configuration
+description: Elementary Configuration
+longDescription: |
+  <p>Elementary is a widget set based on the Enlightenment Foundation Libraries, primarily aimed at creating graphical user interfaces for mobile and embedded devices.</p>
+  <p>This is part of the Enlightenment Foundation Libraries (EFL).</p>
+  <p>This package contains the elementary_config program and tools to assist in the development &amp; debugging of elementary programs.</p>
+  
+categoryId: system
+icon: MessageCircle
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libelementary-bin
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: e/el/elementary_test.desktop/021335301c77b8da795c05a9db6dbde5/icons/128x128/libelementary-bin_elementary.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

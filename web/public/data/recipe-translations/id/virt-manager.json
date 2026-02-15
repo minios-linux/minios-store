@@ -1,0 +1,5 @@
+{
+  "name": "Virtual Machine Manager",
+  "description": "Kelola mesin virtual",
+  "longDescription": "<p>Aplikasi ini menampilkan ringkasan domain yang sedang berjalan beserta statistik kinerja dan pemakaian sumber daya secara real-time. Tampilan detail menyediakan grafik yang memperlihatkan performa dan penggunaan sumber daya dari waktu ke waktu. Anda dapat membuat domain baru, mengkonfigurasi, serta mengatur alokasi sumber daya dan perangkat keras virtual tiap domain. Selain itu, tersedia klien VNC terintegrasi untuk akses konsol grafis penuh ke mesin virtual (guest domain).</p>\n<p>CATATAN: Antarmuka GUI masih bersifat eksperimental.</p>\n"
+}

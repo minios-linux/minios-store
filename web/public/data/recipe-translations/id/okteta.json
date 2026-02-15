@@ -1,0 +1,5 @@
+{
+  "name": "Okteta",
+  "description": "Editor hexadesimal",
+  "longDescription": "<p>Okteta adalah editor sederhana untuk data mentah (raw) dari berkas.</p>\n<p>Fitur:</p>\n<ul>\n  <li>Nilai dan karakter ditampilkan dalam dua kolom (tampilan tradisional editor hex) atau dalam baris dengan nilai di atas karakter</li>\n  <li>Edit dan navigasi mirip seperti pada editor teks</li>\n  <li>Tampilan data dapat dikustomisasi, dengan profil yang bisa disimpan dan dimuat</li>\n  <li>Tool dapat ditempatkan di semua sisi atau dibuat floating</li>\n  <li>Enkoding numerik: Hexadesimal, Desimal, Oktal, Biner</li>\n  <li>Enkoding karakter: Semua enkoding 8-bit dari Qt, EBCDIC</li>\n  <li>Rendering data di layar yang cepat</li>\n  <li>Mendukung banyak file terbuka sekaligus</li>\n  <li>Dukungan undo/redo</li>\n  <li>Struktur untuk menganalisis dan mengedit berdasarkan definisi struktur buatan pengguna</li>\n  <li>Dan masih banyak lagi...</li>\n</ul>\n"
+}

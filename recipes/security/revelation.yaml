@@ -1,0 +1,59 @@
+id: "revelation"
+name: Revelation
+description: Organize and secure your passwords
+longDescription: |
+  <p>Revelation is a password manager for the GNOME 3 desktop. It organizes accounts in a tree structure, and stores them as AES-encrypted XML.</p>
+  
+categoryId: security
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - revelation
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-1_orig.png
+    thumbnailUrl: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-1_624x531.png
+    width: 954
+    height: 812
+  - url: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-2_orig.png
+    thumbnailUrl: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-2_624x530.png
+    width: 957
+    height: 813
+  - url: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-3_orig.png
+    thumbnailUrl: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-3_624x531.png
+    width: 954
+    height: 812
+  - url: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-4_orig.png
+    thumbnailUrl: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-4_624x529.png
+    width: 957
+    height: 812
+  - url: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-5_orig.png
+    thumbnailUrl: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-5_624x530.png
+    width: 957
+    height: 813
+  - url: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-6_orig.png
+    thumbnailUrl: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/screenshots/image-6_624x530.png
+    width: 957
+    height: 813
+iconSources:
+  - url: info/olasagasti/revelation.desktop/1a4cecbc5d72edd5dd4d3ef9e5244e96/icons/128x128/revelation_info.olasagasti.revelation.png
+    width: 128
+    height: 128
+homepage: "https://revelation.olasagasti.info/"
+enabled: true
+order: 99

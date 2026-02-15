@@ -1,0 +1,38 @@
+id: "pcmanfm-qt"
+name: Desktop
+description: Change wallpapers and behavior of desktop manager
+longDescription: |
+  <p>PCManFM-Qt is the Qt port of the LXDE file manager PCManFM.</p>
+  <p>Libfm-Qt is a companion library providing components to build desktop file managers.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pcmanfm-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/pc/pcmanfm-qt.desktop/202001b52dca381256e062a5a43b0a1e/icons/128x128/pcmanfm-qt_pcmanfm-qt.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

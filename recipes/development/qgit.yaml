@@ -1,0 +1,42 @@
+id: "qgit"
+name: QGit
+description: A git GUI viewer
+longDescription: |
+  <p>QGit is a graphical viewer for git repositories. Main features:</p>
+  <ul>
+    <li>Graphical view of history, commits and the differences for the changed files</li>
+    <li>Quick access to git operations</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qgit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: q/qg/qgit.desktop/057bf0769a3502eda7c7d600de63c4cd/icons/128x128/qgit_qgit.png
+    width: 128
+    height: 128
+homepage: "http://libre.tibirna.org/projects/qgit"
+enabled: true
+order: 99

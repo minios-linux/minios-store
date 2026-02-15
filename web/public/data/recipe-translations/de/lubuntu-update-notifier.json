@@ -1,0 +1,5 @@
+{
+  "name": "Vollständiges Upgrade ausführen",
+  "description": "Suche und führe vollständiges Upgrade aus",
+  "longDescription": "<p>Prüft, ob Aktualisierungen verfügbar sind. Falls Updates gefunden werden, wird notifier.py geöffnet – ein Fenster, das über verfügbare Paketaktualisierungen informiert. Bei Entscheidung für ein Upgrade wird ein vollständiges Upgrade (kein Safe-Upgrade) mit dem Upgrader-Binary durchgeführt. Der Upgrader kann auch eigenständig gestartet werden; es besteht die Option, zuvor ein Cache-Update durchzuführen und zwischen Safe-Upgrade oder vollständigem Upgrade zu wählen. Zudem gibt es eine .desktop-Datei, um den Upgrader mit Cache-Update und vollständigem Upgrade zu starten.</p>\n"
+}

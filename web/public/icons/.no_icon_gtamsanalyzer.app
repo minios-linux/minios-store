@@ -1,0 +1,1 @@
+gtamsanalyzer.app_app-icon.png

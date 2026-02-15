@@ -1,0 +1,62 @@
+id: gnome-documents
+name: Documents
+description: A document manager application for GNOME
+longDescription: |
+  <p>A simple application to access, organize and share your documents on
+        GNOME. It is meant to be a simple and elegant replacement for using a
+        file manager to deal with documents. Seamless cloud integration is
+        offered through GNOME Online Accounts.</p>
+  <p>It lets you:</p>
+  <ul>
+    <li>View recent local and online documents</li>
+    <li>Access your Google, ownCloud or OneDrive content</li>
+    <li>Search through documents</li>
+    <li>See new documents shared by friends</li>
+    <li>View documents fullscreen</li>
+    <li>Print documents</li>
+    <li>Select favorites</li>
+    <li>Allow opening full featured editor for non-trivial changes</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-documents
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - docs
+  - pdf
+  - document
+screenshotSources:
+  - url: org/gnome/Documents.desktop/99F0A95E346DB27EB35BF4A2125354E3/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Documents.desktop/99F0A95E346DB27EB35BF4A2125354E3/screenshots/image-1_624x351.png
+    width: 1024
+    height: 576
+  - url: org/gnome/Documents.desktop/99F0A95E346DB27EB35BF4A2125354E3/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Documents.desktop/99F0A95E346DB27EB35BF4A2125354E3/screenshots/image-2_624x351.png
+    width: 1024
+    height: 576
+  - url: org/gnome/Documents.desktop/99F0A95E346DB27EB35BF4A2125354E3/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Documents.desktop/99F0A95E346DB27EB35BF4A2125354E3/screenshots/image-3_624x351.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: org/gnome/Documents.desktop/99F0A95E346DB27EB35BF4A2125354E3/icons/128x128/gnome-documents_org.gnome.Documents.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Documents"
+enabled: true
+order: 99

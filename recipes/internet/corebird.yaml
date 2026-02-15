@@ -1,0 +1,41 @@
+id: corebird
+name: Corebird
+description: Twitter Client
+longDescription: |
+  <p>Corebird is a native GTK+ twitter client that provides vital features such as Direct Messages (DMs), tweet notifications, conversation views.</p>
+  <p>Additional features include local viewing of videos, multiple inline images, Lists, Filters, multiple accounts, etc.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - corebird
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - twitter
+screenshotSources:
+  - url: org/baedert/corebird.desktop/C2B524F20FE5D3FD60D25940096925AD/screenshots/image-1_orig.png
+    thumbnailUrl: org/baedert/corebird.desktop/C2B524F20FE5D3FD60D25940096925AD/screenshots/image-1_624x351.png
+    width: 1200
+    height: 675
+  - url: org/baedert/corebird.desktop/C2B524F20FE5D3FD60D25940096925AD/screenshots/image-2_orig.png
+    thumbnailUrl: org/baedert/corebird.desktop/C2B524F20FE5D3FD60D25940096925AD/screenshots/image-2_624x351.png
+    width: 1200
+    height: 675
+  - url: org/baedert/corebird.desktop/C2B524F20FE5D3FD60D25940096925AD/screenshots/image-3_orig.png
+    thumbnailUrl: org/baedert/corebird.desktop/C2B524F20FE5D3FD60D25940096925AD/screenshots/image-3_624x351.png
+    width: 1200
+    height: 675
+iconSources:
+  - url: org/baedert/corebird.desktop/C2B524F20FE5D3FD60D25940096925AD/icons/128x128/corebird_corebird.png
+    width: 128
+    height: 128
+developer: Timm Bäder
+homepage: "https://corebird.baedert.org/"
+enabled: true
+order: 99

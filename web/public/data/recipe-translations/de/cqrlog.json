@@ -1,0 +1,5 @@
+{
+  "name": "CQRLOG",
+  "description": "Fortschrittliches Logbuchprogramm für Funkamateure",
+  "longDescription": "<p>CQRLOG ist ein fortschrittliches Logbuch für Funkamateure und basiert auf einer eingebetteten MySQL-Datenbank. Es bietet Funkgeräte-Steuerung über die hamlib-Bibliothek (aktuell unterstützt CQRLOG über 140 Gerätetypen und -modelle), DX-Cluster-Anbindung, HamQTH/QRZ-Callbook (XML-Zugriff), Grayliner-Anzeige, interne QSL-Manager-Datenbank sowie einen besonders präzisen Ländererkennungs-Algorithmus auf Basis der von OK1RR entwickelten Ländertabellen. CQRLOG eignet sich für das tägliche Loggen von HF-, CW- und SSB-Verbindungen und legt großen Wert auf einfache Bedienung und Wartung.</p>\n"
+}

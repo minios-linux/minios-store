@@ -1,0 +1,29 @@
+id: python3-orange3
+name: Orange Data Mining
+description: "Explore, analyze, and visualize your data"
+longDescription: |
+  <p>Orange is a component-based data mining software. It includes a range of data visualization, exploration, preprocessing and modeling techniques. It can be used through a nice and intuitive user interface or, for more advanced users, as a module for the Python programming language.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - python3-orange3
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - machine learning
+  - scientific visualization
+  - statistical analysis
+iconSources:
+  - url: o/or/orange-canvas.desktop/ba750d1ec40973467e99a5aa02a4fc7b/icons/128x128/python3-orange3_orange-canvas.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

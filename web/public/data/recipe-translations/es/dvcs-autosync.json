@@ -1,0 +1,5 @@
+{
+  "name": "DVCS-Autosync",
+  "description": "Sincroniza y versiona tus archivos entre múltiples computadoras con control de versiones distribuido (predeterminado con Git)",
+  "longDescription": "<p>dvcs-autosync es una alternativa de código abierto a Dropbox/Wuala/Box.net/etc., basada en sistemas de control de versiones distribuidos (DVCS). Ofrece actualizaciones mutuas casi instantáneas cuando se añade o modifica un archivo en un lado, con el beneficio adicional del versionado (local, distribuido) y sin depender de un proveedor de servicios centralizado; puede utilizarse con cualquier solución de hospedaje DVCS, incluyendo servidores completamente separados.</p>\n<p>La sincronización de directorios se basa en repositorios DVCS. Git se utiliza para el desarrollo principal y es el backend más probado, aunque también se soportan otros DVCS como Mercurial. dvcs-autosync es comparable a SparkleShare en cuanto a objetivo general, pero adopta un enfoque más minimalista. Un solo script de Python monitorea los cambios en el directorio configurado en tiempo real, realiza los commits al DVCS (como git) y sincroniza con otras instancias mediante mensajes XMPP.</p>\n"
+}

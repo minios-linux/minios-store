@@ -1,0 +1,5 @@
+{
+  "name": "Regina",
+  "description": "Software per la topologia a bassa dimensione",
+  "longDescription": "<p>Regina è un pacchetto software dedicato agli specialisti di topologia di 3-varietà e 4-varietà, con particolare attenzione a triangolazioni, superfici normali e strutture angolari.</p>\n<p>Per le 3-varietà, offre funzioni avanzate come il riconoscimento della 3-sfera, la decomposizione in somma connessa e il test di Haken, integra un ricco database di varietà di censimento e incorpora il kernel SnapPea per il lavoro su varietà iperboliche. Per le 4-varietà, include una gamma di strumenti combinatori e algebrici, oltre al supporto per ipersuperfici normali.</p>\n<p>Regina dispone di un'interfaccia grafica completa, oltre a binding Python e un'interfaccia di programmazione C++ di basso livello.</p>\n<p>Questo pacchetto include l'interfaccia grafica e l'interfaccia Python da riga di comando. Il manuale utente e la documentazione API sono disponibili nel pacchetto separato regina-normal-doc, mentre le utility abilitate MPI per i cluster ad alte prestazioni si trovano nel pacchetto regina-normal-mpi.</p>\n"
+}

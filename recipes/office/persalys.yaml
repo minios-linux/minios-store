@@ -1,0 +1,46 @@
+id: persalys
+name: Persalys
+description: GUI for uncertainty treatment and variabilities management
+longDescription: |
+  <p>
+        Persalys is a graphical user interface for OpenTURNS, dedicated to the treatment of uncertainty and the management
+  of variabilities. The software is a tool between the computer simulation, probabilistic analyses and the data sciences. The interface is available in French or in English.
+      </p>
+  <p>
+        Persalys allows one to:
+      </p>
+  <p>
+        - create mathematical models: analytical, coupling with an external model (finite elements, ...), FMU;
+      </p>
+  <p>
+        - analyse the variability of one's parameters thanks to many methods and visualisation tools;
+      </p>
+  <p>
+        - statistically analyse one's measuring data, infer probability distributions or create metamodels.
+      </p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - persalys
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - uncertainty
+  - variability
+iconSources:
+  - cached: persalys_persalys-icon.png
+    width: 64
+    height: 64
+homepage: "https://sanger-pathogens.github.io/Artemis/Artemis/"
+enabled: true
+order: 99

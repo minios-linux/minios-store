@@ -1,0 +1,5 @@
+{
+  "name": "Anbox",
+  "description": "Android di dalam kontainer",
+  "longDescription": "<p>Anbox adalah solusi berbasis kontainer untuk menjalankan sistem Android secara penuh di atas sistem GNU/Linux biasa.</p>\n<p>Dengan kata lain: Anbox memungkinkan Anda menjalankan Android di Linux tanpa hambatan performa virtualisasi tradisional.</p>\n<p>Anbox memanfaatkan namespaces Linux (user, pid, uts, net, mount, ipc) untuk menjalankan sistem Android lengkap dalam kontainer dan menyediakan aplikasi Android di platform berbasis GNU/Linux mana pun.</p>\n<p>Sistem Android di dalam kontainer tidak memiliki akses langsung ke perangkat keras. Semua akses perangkat keras dilakukan melalui daemon anbox di sistem host. Anbox memanfaatkan mekanisme yang telah diimplementasikan Android pada emulator berbasis QEMU untuk rendering OpenGL ES yang dipercepat. Sistem Android di dalam kontainer menggunakan berbagai pipe untuk berkomunikasi dengan sistem host dan mengirimkan seluruh perintah akses perangkat keras melalui jalur tersebut.</p>\n<p>Paket ini membutuhkan modul kernel Android dan image rootfs, lihat /usr/share/doc/anbox/README.Debian untuk informasi lebih lanjut.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Back In Time",
+  "description": "Sistema de copias de seguridad sencillo",
+  "longDescription": "<p>Back In Time es una herramienta basada en rsync y cron para realizar instantáneas y copias de seguridad de carpetas seleccionadas. Optimiza el uso del espacio en disco al crear una instantánea solo si el directorio ha cambiado, empleando enlaces duros para los archivos no modificados. El usuario puede programar copias de seguridad automáticas mediante cron.</p>\n<p>Esta es la interfaz gráfica de Back In Time.</p>\n"
+}

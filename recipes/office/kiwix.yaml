@@ -1,0 +1,55 @@
+id: "kiwix"
+name: Kiwix
+description: View offline content
+longDescription: |
+  <p>
+        Kiwix is an offline reader - meaning that it allows you to check text or video that is normally only available on
+  the internet.
+      </p>
+  <p>
+        We turn various online educational contents (such as Wikipedia, for example) into ZIM files, and these can be opened
+  by Kiwix even if you have no connectivity whatsoever.
+      </p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kiwix
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - zim
+screenshotSources:
+  - url: org/kiwix/desktop/c73bccc61d65ce07d309db3d1cbfe25f/screenshots/image-1_orig.png
+    thumbnailUrl: org/kiwix/desktop/c73bccc61d65ce07d309db3d1cbfe25f/screenshots/image-1_624x373@1.png
+    width: 2048
+    height: 1226
+  - url: org/kiwix/desktop/c73bccc61d65ce07d309db3d1cbfe25f/screenshots/image-2_orig.png
+    thumbnailUrl: org/kiwix/desktop/c73bccc61d65ce07d309db3d1cbfe25f/screenshots/image-2_624x373@1.png
+    width: 2048
+    height: 1226
+  - url: org/kiwix/desktop/c73bccc61d65ce07d309db3d1cbfe25f/screenshots/image-3_orig.png
+    thumbnailUrl: org/kiwix/desktop/c73bccc61d65ce07d309db3d1cbfe25f/screenshots/image-3_624x373@1.png
+    width: 2048
+    height: 1226
+iconSources:
+  - url: org/kiwix/desktop/c73bccc61d65ce07d309db3d1cbfe25f/icons/128x128/kiwix_kiwix-desktop.png
+    width: 128
+    height: 128
+developer: The Kiwix Foundation
+homepage: "https://www.kiwix.org/"
+enabled: true
+order: 99

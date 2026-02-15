@@ -1,0 +1,5 @@
+{
+  "name": "gscan2pdf",
+  "description": "Interfaz gráfica para crear archivos PDF o DjVu a partir de documentos escaneados",
+  "longDescription": "<p>Sólo se requieren dos clics para escanear varias páginas y luego guardar todas o una selección como archivo PDF o DjVu, incluyendo metadatos si es necesario.</p>\n<p>gscan2pdf puede controlar escáneres convencionales o con alimentador automático (ADF) mediante SANE a través de libimage-sane-perl, scanimage o scanadf, y permite escanear múltiples páginas simultáneamente. Ofrece una vista en miniatura de las páginas escaneadas y permite operaciones básicas como recorte, rotación y eliminación de páginas.</p>\n<p>Puedes utilizar OCR para reconocer texto en los escaneos e incrustar el resultado en el PDF o DjVu.</p>\n<p>El documento generado se puede guardar como PDF, DjVu, TIFF multipágina o imagen de página única.</p>\n"
+}

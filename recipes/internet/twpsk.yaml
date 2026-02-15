@@ -1,0 +1,33 @@
+id: twpsk
+name: twpsk
+description: PSK31 for Linux with a openMotif GUI
+longDescription: |
+  <p>Twpsk uses a soundcard to receive and transmit PSK31, an extremely narrow band HF-mode. PSK31 is a mode for keyboard QSO&apos;s. It offers narrow signal width and gives excellent results with low power and minimal antenna systems.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - twpsk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - psk31
+  - ham
+  - radio
+iconSources:
+  - cached: twpsk_twpsk.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,36 @@
+id: "toxic"
+name: Toxic
+description: A CLI based Tox client
+longDescription: |
+  <p>This is a Tox-based instant messenging client which formerly resided in the Tox core repository, and is now available as a standalone application.</p>
+  <p>Tox is a secure and distributed Skype replacement.</p>
+  <p>At its heart it’s a client dealing with its core library communicating on its own protocol. All communications are encrypted using the peer audited NaCl cypto library and this encryption can not be turned off.</p>
+  <p>Tox is powered by a distributed network which uses P2P connections for chats between people, unlike other Skype replacements no federated servers, centralized servers, or supernodes are used.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - toxic
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/to/toxic.desktop/38261f103b821d95f5cb6049b5952d8a/icons/128x128/toxic_utilities-terminal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

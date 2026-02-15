@@ -1,0 +1,5 @@
+{
+  "name": "zEscrow",
+  "description": "Mencadangkan konfigurasi eCryptfs dan frasa sandi mount",
+  "longDescription": "<p>zescrow-client menyediakan utilitas zescrow (sebelumnya ecryptfs-escrow-private) yang dapat digunakan untuk mengunggah cadangan konfigurasi eCryptfs Encrypted Home atau eCryptfs Encrypted Private ke server yang kompatibel dengan zEscrow.</p>\n<p>zEscrow.gazzang.com adalah salah satu server kompatibel, merupakan implementasi perangkat lunak bebas AGPL yang tersedia di https://launchpad.net/zEscrow.</p>\n<p>zEscrow akan melakukan:  - meminta Anda memilih server zEscrow  - mengambil kunci publik GPG dari server zEscrow tersebut  - meminta passphrase login Anda  - menggunakan passphrase login Anda untuk mendekripsi passphrase mount Anda  - membuat arsip tar dari direktori ~/.ecryptfs dan passphrase mount yang telah didekripsi  - mengenkripsi arsip tersebut menggunakan kunci publik server zEscrow  - mengunggah arsip terenkripsi ke server zEscrow Anda  - menampilkan URL dan menawarkan untuk membuka browser, di mana Anda harus mengaitkan akun Google dan alamat email dengan cadangan Anda</p>\n"
+}

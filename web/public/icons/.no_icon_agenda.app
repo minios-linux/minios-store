@@ -1,0 +1,1 @@
+agenda.app_app-icon.png

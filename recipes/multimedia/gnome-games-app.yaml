@@ -1,0 +1,69 @@
+id: gnome-games-app
+name: Games
+description: Simple game launcher for GNOME
+longDescription: |
+  <p>Games is a GNOME 3 application to browse your video games library and to
+        easily pick and play a game from it. It aims to do for games what Music
+        already does for your music library.</p>
+  <p>You want to install Games if you just want a very simple and comfortable
+        way to play your games and you don’t need advanced features such as
+        speedrunning tools or video game development tools.</p>
+  <p>Features:</p>
+  <ul>
+    <li>List your installed games, your Steam games, your game ROMs…</li>
+    <li>Search in your games collection</li>
+    <li>Play your games</li>
+    <li>Resume your game to where you left it</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-games-app
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - game
+  - videogame
+  - video game
+  - player
+screenshotSources:
+  - url: org/gnome/Games.desktop/43CB8FECF1C8FE4093AA4B51C54D5BF2/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Games.desktop/43CB8FECF1C8FE4093AA4B51C54D5BF2/screenshots/image-1_624x351.png
+    width: 800
+    height: 450
+  - url: org/gnome/Games.desktop/43CB8FECF1C8FE4093AA4B51C54D5BF2/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Games.desktop/43CB8FECF1C8FE4093AA4B51C54D5BF2/screenshots/image-2_624x351.png
+    width: 800
+    height: 450
+  - url: org/gnome/Games.desktop/43CB8FECF1C8FE4093AA4B51C54D5BF2/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Games.desktop/43CB8FECF1C8FE4093AA4B51C54D5BF2/screenshots/image-3_624x351.png
+    width: 800
+    height: 450
+  - url: org/gnome/Games.desktop/43CB8FECF1C8FE4093AA4B51C54D5BF2/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Games.desktop/43CB8FECF1C8FE4093AA4B51C54D5BF2/screenshots/image-4_624x351.png
+    width: 800
+    height: 450
+iconSources:
+  - url: org/gnome/Games.desktop/43CB8FECF1C8FE4093AA4B51C54D5BF2/icons/128x128/gnome-games-app_org.gnome.Games.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Games"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "CMake",
+  "description": "Sistem build lintas platform",
+  "longDescription": "<p>CMake digunakan untuk mengatur proses kompilasi perangkat lunak menggunakan file konfigurasi sederhana yang independen terhadap platform dan kompiler. CMake menghasilkan makefile native dan workspace yang dapat digunakan di lingkungan kompiler pilihan Anda.</p>\n<p>Paket ini menyediakan antarmuka GUI CMake berbasis Qt4. Pengaturan konfigurasi proyek dapat ditentukan secara interaktif. Instruksi singkat disediakan di bagian bawah jendela saat program berjalan. Berkas eksekusi utama untuk GUI ini adalah \"cmake-gui\".</p>\n"
+}

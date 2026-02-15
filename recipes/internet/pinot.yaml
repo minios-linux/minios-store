@@ -1,0 +1,39 @@
+id: pinot
+name: Pinot Metasearch Tool
+description: Search the Web and your documents
+longDescription: |
+  <p>Pinot provides a D-Bus service that crawls, indexes your documents and monitors them for changes. This service can then be used via a command-line interface, or through a GTK-based GUI that enables to query the index built by the service and your favourite Web engines, and display and analyze the results.</p>
+  <p>Pinot also provides a Xesam interface, which can be used through Xesam Query Language and Xesam User Language.</p>
+  <p>To crawl rpm files, install the packages rpm and file.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pinot
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pinot_pinot.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Gwyddion",
+  "description": "Visualisierung und Analyse von SPM-Daten",
+  "longDescription": "<p>Gwyddion ist ein modulares Programm zur Visualisierung und Analyse von Daten aus der Rastersondenmikroskopie (SPM). Es ist primär für die Analyse von Höhenfelddaten konzipiert, die durch Mikroskopieverfahren wie  * Rasterkraftmikroskopie (AFM),  * Magnetkraftmikroskopie (MFM),  * Rastertunnelmikroskopie (STM),  * optische Rasternahfeldmikroskopie (SNOM oder NSOM) und andere gewonnen wurden. Darüber hinaus kann es für beliebige Höhenfeld- und Bildanalysen eingesetzt werden.</p>\n<p>Dieses Paket enthält die Hauptanwendung und ihre Module. Es enthält zudem einen Thumbnailer für GNOME (und Xfce), der Vorschaubilder für alle von Gwyddion unterstützten Dateitypen erstellt.</p>\n"
+}

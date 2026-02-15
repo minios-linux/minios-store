@@ -1,0 +1,5 @@
+{
+  "name": "Epoptes",
+  "description": "Outil d'administration de salle informatique Epoptes",
+  "longDescription": "<p>Epoptes est un outil open source de gestion et de supervision de salles informatiques. Il permet la diffusion et la surveillance d'écran, l'exécution de commandes à distance, l'envoi de messages, l'application de restrictions telles que le verrouillage de l'écran ou la coupure du son des clients, et bien plus encore&nbsp;!</p>\n<p>Il inclut le démon serveur ainsi qu'une interface graphique pour contrôler les postes clients.</p>\n<p>Il prend en charge les installations LTSP, mais fonctionne également sans LTSP.</p>\n"
+}

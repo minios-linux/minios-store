@@ -1,0 +1,43 @@
+id: "krfb"
+name: Krfb
+description: Desktop sharing
+longDescription: |
+  <p>Krfb Desktop Sharing is a server application that allows you to share your current session with a user on another machine, who can use a VNC client to view or even control the desktop.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - krfb
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/krfb.desktop/a4f7cdd4d6695ed0c211e4567896e570/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/krfb.desktop/a4f7cdd4d6695ed0c211e4567896e570/screenshots/image-1_624x397@1.png
+    width: 1062
+    height: 676
+iconSources:
+  - url: org/kde/krfb.desktop/a4f7cdd4d6695ed0c211e4567896e570/icons/128x128/krfb_krfb.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org"
+enabled: true
+order: 99

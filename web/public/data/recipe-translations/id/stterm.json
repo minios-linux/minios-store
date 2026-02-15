@@ -1,0 +1,5 @@
+{
+  "name": "st",
+  "description": "Emulator terminal sederhana",
+  "longDescription": "<p>st adalah emulator terminal dari proyek suckless yang berfokus pada kesederhanaan, kejelasan, dan efisiensi. Filosofi proyek ini adalah menjaga segalanya tetap sederhana, minimalis, dan mudah digunakan.</p>\n<p>st mendukung sebagian besar escape sequence VT10X, koneksi serial, XIM, utmp melalui utmp(1), manajemen clipboard, pintasan mouse dan keyboard, UTF-8, karakter lebar, pengubahan ukuran, 256 warna, true color, font anti-alias (menggunakan fontconfig), font cadangan, dan penggambaran garis. st <i>tidak</i> menyediakan buffer scrollback: pengguna disarankan menggunakan terminal multiplexer.</p>\n<p>Paket Debian ini dinamai 'stterm' karena alasan historis.</p>\n"
+}

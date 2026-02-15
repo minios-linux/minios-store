@@ -1,0 +1,5 @@
+{
+  "name": "Piper",
+  "description": "Utilitas konfigurasi mouse yang dapat disesuaikan",
+  "longDescription": "<p>\n      Piper adalah antarmuka grafis untuk mengonfigurasi mouse gaming.\n      Opsi konfigurasi meliputi pengaturan resolusi (DPI) mouse, menambah serta menghapus profil,\n      mengatur warna LED, dan mengubah fungsi tombol.\n    </p>\n<p>\n      Piper memerlukan ratbagd dari libratbag, yaitu daemon yang digunakan untuk berkomunikasi dengan mouse.\n      Piper sendiri hanya sebagai antarmuka, sehingga ratbagd harus terinstal dan berjalan ketika Piper dijalankan.\n    </p>\n"
+}

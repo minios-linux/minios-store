@@ -1,0 +1,5 @@
+{
+  "name": "cmst",
+  "description": "Antarmuka GUI berbasis Qt untuk connman dengan ikon tray sistem",
+  "longDescription": "<p>GUI Qt untuk Connman dengan ikon di tray sistem. Program ini menyediakan antarmuka grafis untuk mengontrol daemon connman. Daemon connman harus dijalankan seperti biasa—program ini hanya berfungsi sebagai penghubung dengan daemon tersebut. Anda dapat melihat teknologi dan layanan yang terdeteksi oleh connman, dan untuk layanan Wi-Fi, agen akan didaftarkan untuk membantu memperoleh informasi yang diperlukan agar Anda dapat masuk ke layanan Wi-Fi.</p>\n"
+}

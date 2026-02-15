@@ -1,0 +1,65 @@
+id: "qmmp"
+name: Qmmp
+description: Qt-based Multimedia Player
+longDescription: |
+  <p>Qmmp is feature-rich audio player with support of many formats. It is written in Qt.</p>
+  <p>Supported formats:  - MPEG1 layer 2/3  - Ogg Vorbis  - Ogg Opus  - Native FLAC, Ogg FLAC  - Musepack  - WavePack  - tracker modules (mod, s3m, it, xm, etc)  - ADTS AAC  - CD Audio  - WMA, Monkey&apos;s Audio (and other formats provided by FFmpeg library)  - PCM WAVE (and other formats provided by libsndfile library)  - midi  - SID  - chiptune formats (AY, GBS, GYM, HES, KSS, NSF, NSFE, SAP, SPC, VGM, VGZ,    VTX)</p>
+  <p>DSP effects:  - BS2B effect  - sample rate converter  - LADSPA effects  - extra stereo  - crossfade</p>
+  <p>Audio output through:  - ALSA  - OSS  - PulseAudio  - JACK  - QTMultimedia  - Icecast</p>
+  <p>Other features:  - XMMS and Winamp 2.x skins support  - 10-band equalizer  - MP3, Vorbis, AAC, AAC+ streams support  - mms support  - MPRIS (1.0 and 2.0)  - removable device detection (via HAL or UDisks)  - video playback via Mplayer  - lyrics (using lyrics.wikia.com)  - cover art support  - CUE sheet support  - embedded CUE support (for FLAC and WavPack)  - multiple playlists  - automatic charset detection for cue files and ShoutCast metadata  - playlist formats: m3u, pls, xspf  - ReplayGain support  - Last.fm/Libre.fm scrobbler  - CDDB support  - audio converter  - stream browser  - audio formats converter  - external programs execution on track change  - ReplayGain scanner  - archive reader  - audio recording  - visualization (spectre analyzer, projectm)  - global hotkeys</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qmmp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - player
+  - audio
+  - video
+  - multimedia
+screenshotSources:
+  - url: com/ylsoftware/qmmp/22765b5740cec969589900d62bfbc1b1/screenshots/image-1_orig.png
+    thumbnailUrl: com/ylsoftware/qmmp/22765b5740cec969589900d62bfbc1b1/screenshots/image-1_624x398@1.png
+    width: 1236
+    height: 789
+  - url: com/ylsoftware/qmmp/22765b5740cec969589900d62bfbc1b1/screenshots/image-2_orig.png
+    thumbnailUrl: com/ylsoftware/qmmp/22765b5740cec969589900d62bfbc1b1/screenshots/image-2_224x175@1.png
+    width: 609
+    height: 478
+  - url: com/ylsoftware/qmmp/22765b5740cec969589900d62bfbc1b1/screenshots/image-3_orig.png
+    thumbnailUrl: com/ylsoftware/qmmp/22765b5740cec969589900d62bfbc1b1/screenshots/image-3_624x439@1.png
+    width: 1124
+    height: 791
+  - url: com/ylsoftware/qmmp/22765b5740cec969589900d62bfbc1b1/screenshots/image-4_orig.png
+    thumbnailUrl: com/ylsoftware/qmmp/22765b5740cec969589900d62bfbc1b1/screenshots/image-4_624x438@1.png
+    width: 1119
+    height: 787
+iconSources:
+  - url: com/ylsoftware/qmmp/22765b5740cec969589900d62bfbc1b1/icons/128x128/qmmp_qmmp.png
+    width: 128
+    height: 128
+developer: Qmmp Development Team
+homepage: "http://qmmp.ylsoftware.com/index.php"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Khmer Converter",
+  "description": "Konversi Khmer antara Unicode dan enkoding Khmer lama.",
+  "longDescription": "<p>khmerconverter mengonversi file antara Unicode dan enkoding Khmer lama yang berbasis font menggunakan rentang ASCII/ANSI.</p>\n<p>Saat ini mendukung file teks biasa, file OpenDocument (ODT), dan file HTML yang dikodekan dengan UTF-8, serta font Khmer lama seperti ABC, ABC-ZWSP, Baidok, Fk, Khek, Limon, dan Truth.</p>\n<p>Silakan instal python-tk dan tix untuk menggunakan antarmuka grafis (GUI).</p>\n<p> Homepage: http://www.khmeros.info/drupal/?q=en/download/converter</p>\n"
+}

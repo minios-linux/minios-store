@@ -1,0 +1,37 @@
+id: "bear-factory"
+name: Bear Factory — Level Editor
+description: Level editor for the Bear Engine
+longDescription: |
+  <p>This package includes the level editor, animation editor and model editor of the Bear Engine for Plee the Bear.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bear-factory
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: b/bf/bf-animation-editor.desktop/07a602cc0c1ba54571143a54deb22a4c/icons/128x128/bear-factory_bear-factory.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

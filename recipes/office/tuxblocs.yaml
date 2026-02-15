@@ -1,0 +1,24 @@
+id: tuxblocs
+name: Tuxblocs
+description: Manipulation de fractions sous formes de barres
+longDescription: |
+  <p>Tuxblocs helps students in K-12 schools to understand the positional numeration system.</p>
+  <p>It is not an exerciser for students to use directly; it is rather a tool for presentations.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tuxblocs
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: tuxblocs_icone.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

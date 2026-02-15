@@ -1,0 +1,38 @@
+id: "diodon"
+name: Diodon
+description: GTK+ Clipboard Manager
+longDescription: |
+  <p>Diodon is a lightweight clipboard manager for Linux written in Vala which &quot;aims to be the best integrated clipboard manager for the Gnome/Unity desktop&quot;.</p>
+  <p>Diodon features include Ubuntu indicator, clipboard sync (primary selection and Ctrl+C / Ctrl+V clipboard) and a zeitgeist integration for an infinite clipboard history.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - diodon
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/di/diodon.desktop/bbdebfe629f9f66030736d1fa302ffc3/icons/128x128/diodon_diodon.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Yubico Authenticator",
+  "description": "Interface gráfica para exibir códigos OATH com um YubiKey.",
+  "longDescription": "<p>O Yubico Authenticator é uma ferramenta gráfica para desktop que gera códigos de senha única (OTP) baseados em eventos (HOTP) e em tempo (TOTP) pelo padrão Open AuTHentication (OATH), utilizando um YubiKey para proteger os segredos compartilhados.</p>\n"
+}

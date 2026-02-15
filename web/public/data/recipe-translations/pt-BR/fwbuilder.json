@@ -1,0 +1,5 @@
+{
+  "name": "Firewall Builder",
+  "description": "Interface gráfica para administração de firewall",
+  "longDescription": "<p>O Firewall Builder oferece uma interface gráfica orientada a objetos e um conjunto de compiladores de regras para diversas plataformas de firewall. No Firewall Builder, a política de firewall é composta por um conjunto de regras, onde cada regra contém objetos abstratos que representam dispositivos e serviços reais de rede (hosts, roteadores, firewalls, redes, protocolos). O Firewall Builder auxilia o usuário a manter um banco de dados de objetos e permite a edição das políticas de forma simples por meio de operações de arrastar e soltar.</p>\n<p>Esta é a interface gráfica do fwbuilder</p>\n"
+}

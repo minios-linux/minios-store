@@ -1,0 +1,26 @@
+#!/bin/sh
+#
+# MiniOS Store URI handler
+#
+# Escalates to root and launches the GTK3 installer.
+# Uses sudo with environment preservation so that GTK can
+# connect to the user's display.
+#
+
+if [ -z "$1" ]; then
+    exit 1
+fi
+
+case "$1" in
+    minios-store://*) ;;
+    *) exit 1 ;;
+esac
+
+INSTALLER=/usr/bin/minios-store-install
+
+# Already root.
+if [ "$(id -u)" = "0" ]; then
+    exec "$INSTALLER" "$1"
+fi
+
+exec sudo --preserve-env=DISPLAY,XAUTHORITY "$INSTALLER" "$1"

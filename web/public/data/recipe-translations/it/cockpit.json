@@ -1,0 +1,5 @@
+{
+  "name": "Cockpit",
+  "description": "Console web per server Linux",
+  "longDescription": "<p>\n      Cockpit è un gestore di server che semplifica l'amministrazione dei server Linux\n      tramite un browser web.\n      Passare dal terminale allo strumento web non è un problema.\n      Un servizio avviato tramite Cockpit può essere arrestato dal terminale.\n      Allo stesso modo, se si verifica un errore nel terminale, può essere visualizzato\n      nell'interfaccia dei registri di Cockpit.\n    </p>\n<p>\n      Cockpit è ideale per i nuovi amministratori di sistema, permettendo di svolgere facilmente\n      attività semplici come la gestione dello storage, l'ispezione dei log\n      e l'avvio o l'arresto dei servizi.\n      È possibile monitorare e amministrare più server contemporaneamente.\n      Basta aggiungerli con un clic e le tue macchine saranno gestite insieme.\n    </p>\n<p>\n      Una volta installato Cockpit, abilitalo con \"systemctl enable --now cockpit.socket\".\n    </p>\n"
+}

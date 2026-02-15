@@ -1,0 +1,5 @@
+{
+  "name": "PosteRazor",
+  "description": "Découpe une image sur plusieurs pages pour l’assembler en poster",
+  "longDescription": "<p>\n      PosteRazor découpe une image afin de créer un document PDF multipage. Une fois imprimées, les feuilles peuvent être assemblées pour former un grand poster de l’image originale.\n    </p>\n<p>\n      Il s'appuie sur libfreeimage et libxpm, prenant en charge de nombreux formats de fichiers comme BMP, GIF, ICO, JPG, PNG, TIFF, XPM, entre autres.\n    </p>\n<p>\n      PosteRazor gère également les types de couleurs suivants : Monochrome, niveaux de gris, palette 4 bits, palette 8 bits, RVB 24 bits, RVB 48 bits (uniquement via TIFF et PNG), CMJN 32 bits (uniquement via TIFF). Les images RGBA 32 bits peuvent être chargées, mais sont converties en RVB 24 bits en « fusionnant » avec un fond blanc.\n    </p>\n<p>\n      Les unités de dimension telles que m, mm, cm, pouce, pied, pt (1/72 pouce) sont prises en charge, et le fichier PDF peut être généré aux formats A4, A3, Legal, Letter ou Tabloid.\n    </p>\n"
+}

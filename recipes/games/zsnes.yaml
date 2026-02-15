@@ -1,0 +1,40 @@
+id: zsnes
+name: ZSNES
+description: Super Nintendo Entertainment System (TM) emulator
+longDescription: |
+  <p>ZSNES allows you to play classic games written for the Super Nintendo (SNES) game console on a GNU/Linux system.</p>
+  <p>Please note that many separately-available games playable under this emulator are non-free. See /usr/share/doc/zsnes/README.Debian for more information.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zsnes
+distributions:
+  include:
+    - name: bionic
+      architectures: [i386]
+    - name: bookworm
+      architectures: [i386]
+    - name: bullseye
+      architectures: [i386]
+    - name: buster
+      architectures: [i386]
+    - name: focal
+      architectures: [i386]
+    - name: jammy
+      architectures: [i386]
+tags:
+  - emulator
+  - snes
+  - nintendo
+  - super nintendo
+  - super famicom
+iconSources:
+  - cached: zsnes_zsnes.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

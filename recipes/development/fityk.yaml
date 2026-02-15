@@ -1,0 +1,40 @@
+id: "fityk"
+name: fityk
+description: Curve fitting (esp. peak fitting) and data analysis
+longDescription: |
+  <p>Fityk is a flexible and portable program for nonlinear fitting of analytical functions (especially peak-shaped) to data (usually experimental data). In other words, for nonlinear peak separation and analysis.</p>
+  <p>It was developed for analyzing diffraction patterns, but can be also used in other fields, since concepts and operations specific for crystallography are separated from the rest of the program.</p>
+  <p>Fityk offers various nonlinear fitting methods, subtracting background, calibrating data, easy placement of peaks and changing peak parameters, automation of common tasks with scripts, and much more. The main advantage of the program is flexibility - parameters of peaks can be arbitrarily bound to each other, eg. the width of a peak can be an independent variable, can be the same as the width of another peak or can be given by a complicated - common to all peaks - formula.</p>
+  <p>libjs-sphinxdoc is necessary for the Javascript stuff in the documentation.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fityk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: f/fi/fityk.desktop/4abcc6752803e03c5c66c8aa79f32e48/icons/128x128/fityk_fityk.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

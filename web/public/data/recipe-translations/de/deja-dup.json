@@ -1,0 +1,5 @@
+{
+  "name": "Déjà Dup Backup Tool",
+  "description": "Schützen Sie Ihre wichtigen Dokumente vor Datenverlust",
+  "longDescription": "<p>Déjà Dup ist ein einfaches Backup-Tool, das die Komplexität professioneller Datensicherung (verschlüsselt, extern und regelmäßig) verbirgt und duplicity im Hintergrund verwendet.</p>\n<ul>\n  <li>Unterstützt lokale, entfernte sowie Cloud-Speicher wie Google Drive und Nextcloud</li>\n  <li>Verschlüsselt und komprimiert Ihre Daten sicher</li>\n  <li>Führt inkrementelle Backups durch, sodass Sie auf beliebige Sicherungen zurückgreifen können</li>\n  <li>Plant automatische, regelmäßige Sicherungen</li>\n  <li>Integriert sich nahtlos in den GNOME-Desktop</li>\n</ul>\n"
+}

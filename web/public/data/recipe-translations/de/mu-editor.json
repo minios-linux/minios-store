@@ -1,0 +1,5 @@
+{
+  "name": "Mu",
+  "description": "Ein einfacher Python-Editor für Programmieranfänger",
+  "longDescription": "<p>Mu ist ein Python-Code-Editor für Programmieranfänger, der auf dem umfangreichen Feedback von Lehrkräften und Lernenden basiert.</p>\n<p>Mu ist ein simpler Code-Editor für Einsteiger, der auf den Erfahrungen und dem Feedback des Bildungsteams der Raspberry Pi Foundation beruht. Davon abgesehen ist Mu für jeden geeignet, der einen einfachen Editor ohne unnötigen Schnickschnack sucht.</p>\n<p>Mu ist ein modaler Editor mit Modi für Adafruits CircuitPython, die micro:bit-Version von MicroPython, PyGame Zero und Standard-Python 3 (einschließlich eines grafischen Debuggers). Einige Modi bieten eine REPL (die entweder direkt auf dem verbundenen CircuitPython- oder MicroPython-Gerät oder als Jupyter-basierte iPython-Sitzung im Python-3-Modus läuft).</p>\n<p>Mu ist in Python geschrieben und funktioniert unter Windows, OSX, Linux und auf dem Raspberry Pi.</p>\n"
+}

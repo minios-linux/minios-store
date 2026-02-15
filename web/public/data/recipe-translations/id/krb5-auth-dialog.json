@@ -1,0 +1,5 @@
+{
+  "name": "Kerberos Authentication Dialog",
+  "description": "Meminta, memperbarui, dan melihat tiket Kerberos",
+  "longDescription": "<p>Kerberos Authentication memungkinkan Anda untuk menampilkan tiket Kerberos yang sedang aktif, serta meminta tiket baru (autentikasi ke Server Kerberos). Aplikasi ini juga memberi notifikasi ketika kredensial Kerberos Anda akan kedaluwarsa dan secara otomatis memperbarui tiket jika memungkinkan.</p>\n<p>Fitur ini sangat berguna jika Anda perlu melakukan autentikasi ke Server Kerberos (KDC) setelah login ke desktop, misalnya pada perangkat mobile.</p>\n"
+}

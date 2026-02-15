@@ -1,0 +1,44 @@
+id: "kfourinline"
+name: KFourInLine
+description: Classic turn based game
+longDescription: |
+  <p>KFourInLine is a game where two players take turns dropping pieces into a grid, the winner being the first to place four pieces in a line.</p>
+  <p>This package is part of the KDE games module.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kfourinline
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/kfourinline/ec8b4de73eeddef95790f8d24fbc7ac6/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kfourinline/ec8b4de73eeddef95790f8d24fbc7ac6/screenshots/image-1_624x499@1.png
+    width: 674
+    height: 539
+iconSources:
+  - url: org/kde/kfourinline/ec8b4de73eeddef95790f8d24fbc7ac6/icons/128x128/kfourinline_kfourinline.png
+    width: 128
+    height: 128
+homepage: "https://games.kde.org/game.php?game=kfourinline"
+enabled: true
+order: 99

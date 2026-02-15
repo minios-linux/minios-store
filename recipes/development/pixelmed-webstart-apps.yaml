@@ -1,0 +1,28 @@
+id: pixelmed-webstart-apps
+name: ConvertAmicasJPEG2000FilesetToDicom
+description: Convert Amicas JPEG2000 Fileset to Dicom.
+longDescription: |
+  <p>This is a stand-alone DICOM toolkit that implements code for reading and creating DICOM data, DICOM network and file support, a database of DICOM objects, support for display of directories, images, reports and spectra, and DICOM object validation.</p>
+  <p>Provide JNLP applications as command line apps</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pixelmed-webstart-apps
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pixelmed-webstart-apps_ConvertAmicasJPEG2000FilesetToDicom.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

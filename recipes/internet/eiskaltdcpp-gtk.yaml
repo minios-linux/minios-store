@@ -1,0 +1,45 @@
+id: "eiskaltdcpp-gtk"
+name: EiskaltDC++ Gtk
+description: Share files over the DC++ network
+longDescription: |
+  <p>This package installs only EiskaltDC++ with GUI based on Gtk (based on FreeDC++ and LinuxDC++ projects).</p>
+  <p>EiskaltDC++ is a cross-platform program that uses the Direct Connect and ADC protocols. It is compatible with DC++, FlylinkDC++, LinuxDC++ and other DC clients. EiskaltDC++ also interoperates with all common DC hub software.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - eiskaltdcpp-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - filesharing
+  - chat
+  - p2p
+  - directconnect
+  - adc
+  - dht
+iconSources:
+  - url: e/ei/eiskaltdcpp-gtk.desktop/6e6b1cc77f1552e18cc7eb6c4b34c2de/icons/128x128/eiskaltdcpp-gtk_eiskaltdcpp.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

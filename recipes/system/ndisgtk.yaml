@@ -1,0 +1,25 @@
+id: ndisgtk
+name: Windows Wireless Drivers
+description: Ndiswrapper driver installation tool
+longDescription: |
+  <p>ndisgtk is a GTK+ based frontend for ndiswrapper, allowing an easy way to install Windows wireless drivers.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ndisgtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ndisgtk_ndisgtk.png
+    width: 48
+    height: 48
+enabled: true
+order: 99

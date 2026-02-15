@@ -1,0 +1,5 @@
+{
+  "name": "Yokadi",
+  "description": "Gestor de tareas TODO orientado a la línea de comandos",
+  "longDescription": "<p>Yokadi es una herramienta de gestión de tareas TODO que funciona en la línea de comandos y utiliza SQLite. Te ayuda a organizar todas las tareas que debes realizar y no debes olvidar. Su objetivo es ser simple, intuitiva y muy eficiente.</p>\n<p>En Yokadi gestionas proyectos, que contienen tareas. Una tarea, como mínimo, tiene un título, pero también puede contar con una descripción, una fecha límite, un nivel de urgencia o palabras clave. Las palabras clave pueden ser cualquier término que te ayude a encontrar y organizar tus tareas.</p>\n"
+}

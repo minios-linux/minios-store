@@ -1,0 +1,5 @@
+{
+  "name": "PyScrabble",
+  "description": "Permainan kata klasik",
+  "longDescription": "<p>PyScrabble adalah implementasi daring multipemain dari permainan kata populer yang ditulis dengan Python, menampilkan fitur-fitur berikut:</p>\n<p> * obrolan dan pesan pribadi (baik daring maupun luring)  * peringkat pemain dan statistik server  * penggunaan ENABLE (Enhanced North American Benchmark LExicon) untuk    pencarian kata bahasa Inggris  * permainan dengan batas waktu</p>\n<p>Bahasa yang didukung:</p>\n<p> * Inggris  * Finlandia  * Prancis  * Jerman  * Serbia</p>\n<p>Paket ini berisi program klien.</p>\n<p>Catatan: Scrabble adalah merek dagang terdaftar milik Hasbro Inc di AS, dan J.W. Spear &amp; Sons Ltd., anak perusahaan Mattel Inc., di seluruh dunia. Penulis, Debian, maupun game ini tidak memiliki afiliasi dengan Scrabble Crossword Game, Hasbro, Spear &amp; Sons ataupun Mattel dalam bentuk apapun.</p>\n"
+}

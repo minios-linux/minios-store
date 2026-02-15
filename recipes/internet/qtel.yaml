@@ -1,0 +1,46 @@
+id: "qtel"
+name: Qtel
+description: The Qt EchoLink Client
+longDescription: |
+  <p>Qtel is a graphical client program for the EchoLink® ham radio protocol.</p>
+  <p>EchoLink® allows licensed amateur radio operators to communicate over the Internet, including remote access to station equipment. EchoLink® is a registered trademark of Synergenics, LLC.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtel
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - radio
+  - ham
+  - ptt
+screenshotSources:
+  - url: org/svxlink/Qtel/c1bf262981ad965e5709c5df0101b3c7/screenshots/image-1_orig.png
+    thumbnailUrl: org/svxlink/Qtel/c1bf262981ad965e5709c5df0101b3c7/screenshots/image-1_624x369@1.png
+    width: 896
+    height: 531
+iconSources:
+  - url: org/svxlink/Qtel/c1bf262981ad965e5709c5df0101b3c7/icons/128x128/qtel_qtel.png
+    width: 128
+    height: 128
+homepage: "https://www.svxlink.org"
+enabled: true
+order: 99

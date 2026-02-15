@@ -1,0 +1,46 @@
+id: "elektroid"
+name: elektroid
+description: Sample transfer application
+longDescription: |
+  <p>Elektroid is an sample transfer application for Elektron devices.</p>
+  <p>With elektroid you can easily load audio files like flac or wav into your
+    elektron sampler. You can also transfer audio samples from your elektroid
+    device to your local hard disk.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - elektroid
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - music
+  - alsa
+  - realtime
+  - standalone
+screenshotSources:
+  - url: io/github/dagargo.Elektroid/35b2d0b31b47eaf16a63e63e7433a78d/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/dagargo.Elektroid/35b2d0b31b47eaf16a63e63e7433a78d/screenshots/image-1_624x431@1.png
+    width: 1456
+    height: 1007
+iconSources:
+  - url: io/github/dagargo.Elektroid/35b2d0b31b47eaf16a63e63e7433a78d/icons/128x128/elektroid_io.github.dagargo.Elektroid.png
+    width: 128
+    height: 128
+developer: David García Goñi
+homepage: "https://github.com/dagargo/elektroid"
+enabled: true
+order: 99

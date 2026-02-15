@@ -1,0 +1,5 @@
+{
+  "name": "Shredder Duplicate Finder",
+  "description": "Recherchez et supprimez les doublons",
+  "longDescription": "<p>rmlint-gui (également appelé Shredder) est une interface graphique pour rmlint basée sur GTK+. Elle utilise rmlint pour détecter l’espace disque gaspillé et d’autres éléments défectueux sur votre système de fichiers, et propose de les supprimer.</p>\n<p>Elle permet de détecter :  * Fichiers et dossiers dupliqués.  * Binaires non dépouillés.  * Liens symboliques brisés.  * Fichiers vides.  * Répertoires vides récursifs.  * Fichiers avec des UID ou GID invalides.</p>\n<p>Principales fonctionnalités :  * Extrêmement rapide.  * Options en ligne de commande flexibles et simples.  * Plusieurs types de hachage pour la détection des doublons par hachage.  * Option de comparaison directe octet par octet (seulement un peu plus lente).  * De nombreux formats de sortie disponibles.  * Possibilité d’enregistrer la date du dernier scan pour n’analyser que les nouveaux fichiers ensuite.  * Nombreuses options pour la sélection/priorisation des originaux.  * Gère de très grands ensembles de fichiers (jusqu’à des millions de fichiers).</p>\n"
+}

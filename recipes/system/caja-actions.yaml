@@ -1,0 +1,35 @@
+id: "caja-actions"
+name: Caja-Actions Configuration Tool
+description: Configure items to be added to the Caja context menus
+longDescription: |
+  <p>Caja-actions is an extension for Caja file manager which allows the user to add arbitrary program to be launched through the Caja file manager popup menu of selected files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - caja-actions
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - caja,actions,configuration,tool,settings,mate,filebrowser
+iconSources:
+  - url: c/ca/cact.desktop/da8fa8a863fd360a9bed6a1829cd0818/icons/128x128/caja-actions_caja-actions.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

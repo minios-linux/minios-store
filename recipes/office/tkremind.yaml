@@ -1,0 +1,28 @@
+id: tkremind
+name: tkremind
+description: TkRemind Calendar Program
+longDescription: |
+  <p>Remind allows you to remind yourself of upcoming events and appointments.  Each reminder or alarm can consist of a message sent to standard output, or a program to be executed.</p>
+  <p>It also features: sophisticated date calculation, moon phases, sunrise/sunset, Hebrew calendar, alarms, PostScript output, tcl/tk front-end and proper handling of holidays.</p>
+  <p>Tkremind provides a GUI which allows viewing a calendar and adding or editing reminders without learning the syntax of Remind.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tkremind
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calendar
+  - remind
+iconSources:
+  - cached: tkremind_tkremind.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

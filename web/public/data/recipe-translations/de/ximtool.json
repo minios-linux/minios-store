@@ -1,0 +1,5 @@
+{
+  "name": "ximtool",
+  "description": "Interaktives Bildanzeigeprogramm für das X Window System",
+  "longDescription": "<p>\n      Ximtool stellt Remote-Client-Anwendungen für IRAF eine Bildanzeigefunktion über das Standard-Bildanzeigeprotokoll imtool/iis zur Verfügung. Der Bildanzeigeserver ermöglicht das Erstellen und Anzeigen einer Reihe von Framebuffern. Der Client kann Daten in diesen Framebuffern lesen und schreiben. Jeder Frame oder jede Kombination von Frames kann angezeigt werden. Es stehen verschiedene Anzeigeoptionen zur Verfügung, wie z. B. Zoom und Pan (Schwenken), Spiegeln an beiden Achsen, Frame-Blinken, Fensterdarstellung sowie Farbtabellen-Optimierung.\n    </p>\n"
+}

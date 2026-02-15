@@ -1,0 +1,35 @@
+id: "gtans"
+name: Tangrams
+description: gtans
+longDescription: |
+  <p>The Tangram is a Chinese puzzle where the player has to arrange a set of pieces to match a given shape. All the pieces must be used and should not be laid on top of one another. The pieces are five triangles, a square and a parallelogram. gtans contains more than 380 figures to play with. It uses the mouse to control pieces. gtans is highly customizable using the interface.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtans
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: g/gt/gtans.desktop/bb401368b484deca1990ec424b89566d/icons/128x128/gtans_gtans.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

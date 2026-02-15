@@ -1,0 +1,42 @@
+id: kbackup
+name: KBackup
+description: Create backups as .tar files to a local folder or remote URL
+longDescription: |
+  <p>
+        KBackup is an application which lets you back up your data in a simple, user friendly way
+      </p>
+  <p>Features:</p>
+  <ul>
+    <li>Using profile files with definitions for Folders and files to be included or excluded from the backup</li>
+    <li>The backup target can be either a locally mounted device like a ZIP drive, USB stick, etc. or any remote URL</li>
+    <li>Running automated backups without using a graphical user interface</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kbackup
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - backup
+  - archiving
+screenshotSources:
+  - url: org/kde/kbackup/b8cd84b7b3b66adece93d1d8b530a11f/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kbackup/b8cd84b7b3b66adece93d1d8b530a11f/screenshots/image-1_624x462@1.png
+    width: 867
+    height: 642
+iconSources:
+  - url: org/kde/kbackup/b8cd84b7b3b66adece93d1d8b530a11f/icons/128x128/kbackup_kbackup.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kbackup/"
+enabled: true
+order: 99

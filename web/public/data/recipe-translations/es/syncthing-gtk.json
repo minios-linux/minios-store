@@ -1,0 +1,5 @@
+{
+  "name": "Syncthing GTK",
+  "description": "Interfaz gráfica para Syncthing",
+  "longDescription": "<p>Una interfaz gráfica basada en GTK3 para Syncthing que permite:</p>\n<p> * Añadir, editar y eliminar nodos  * Añadir, editar y eliminar repositorios  * Reiniciar o apagar el servidor  * Editar la configuración del daemon  * Configuración inicial rápida mediante un asistente</p>\n<p>También ofrece integración con el escritorio y varios gestores de archivos (Nautilus, Nemo y Caja), así como un indicador de aplicación para el entorno de escritorio.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Cardpeek",
+  "description": "Outil pour lire le contenu des cartes à puce",
+  "longDescription": "<p>L'objectif de Cardpeek est de permettre aux propriétaires de cartes à puce de mieux connaître les informations personnelles stockées sur ces dispositifs. L’outil peut actuellement lire le contenu des :</p>\n<p> * Cartes EMV, y compris les cartes NFC  * Cartes de transport Navigo (prise en charge partielle des cartes MOBIB)  * Carte de santé française « Vitale 2 »  * Passeports électroniques/biométriques en mode de sécurité BAC</p>\n<p>Il peut également lire les cartes suivantes avec une interprétation limitée des données :  * Certaines cartes Mifare (comme la carte Thalys)  * Moneo, la carte de porte-monnaie électronique française  * Cartes SIM GSM</p>\n"
+}

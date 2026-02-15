@@ -1,0 +1,49 @@
+id: "sweethome3d-textures-editor"
+name: Sweet Home 3D Textures Library Editor
+description: Create your own SweetHome3D textures libraries
+longDescription: |
+  <p>Sweet Home 3D is an interior design Java application for quickly choosing and placing furniture on a house 2D plan drawn by the end-user, with a 3D preview.</p>
+  <p>This package contains textures library editor for creating your own textures libraries.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sweethome3d-textures-editor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - interior
+  - design
+  - 2d
+  - 3d
+  - home
+  - house
+  - furniture
+  - java
+  - textures
+  - editor
+iconSources:
+  - url: s/sw/sweethome3d-textures-editor.desktop/59e4b3495806d3531e0627b6dfbc55bd/icons/128x128/sweethome3d-textures-editor_sweethome3d-textures-editor.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

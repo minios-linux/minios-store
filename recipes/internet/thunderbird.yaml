@@ -1,0 +1,42 @@
+id: "thunderbird"
+name: Thunderbird
+description: Read/Write Mail/News with Thunderbird
+longDescription: |
+  <p>Thunderbird is an mail client suitable for free distribution. The goal of Thunderbird is to produce a cross platform stand-alone mail application using the XUL user interface language. It supports different mail accounts, no matter of the used protocol like POP(s) or IMAP(s), has an integrated learning Spam filter, and offers easy organization of mails with tagging and virtual folders. Also, more features can be added by installing extensions.</p>
+  <p>The goal of Thunderbird is to produce a cross platform standalone mail application using the XUL user interface language.</p>
+  
+categoryId: internet
+icon: Mail
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - thunderbird
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - email
+  - e-mail
+  - contact
+  - addressbook
+  - news
+iconSources:
+  - url: net/thunderbird/Thunderbird/ef582c9e3bfd080dd7cd1b771b01f798/icons/128x128/thunderbird_thunderbird.png
+    width: 128
+    height: 128
+developer: Thunderbird Project
+homepage: "https://www.thunderbird.net/"
+enabled: true
+order: 99

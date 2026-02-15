@@ -1,0 +1,5 @@
+{
+  "name": "UXVile",
+  "description": "VI-kompatibler Editor mit Emacs-Funktionen",
+  "longDescription": "<p>vile ist ein Texteditor, der hinsichtlich des Bediengefühls („Finger Feel“) eine extrem hohe Kompatibilität mit vi aufweist. Darüber hinaus bietet er zahlreiche Erweiterungen, wie die gleichzeitige Bearbeitung und Ansicht mehrerer Dateien, Syntax-Hervorhebung, freie Tastenbelegung, einen optionalen integrierten Perl-Interpreter sowie native Unterstützung für das X-Window-System.</p>\n<p>Dieses Paket enthält die X11-Binärdatei. Die benötigten Support-Dateien befinden sich im Paket vile-common, Filter für die Syntax-Hervorhebung in vile-filters. Eine textbasierte Version für das Terminal ist im Paket vile enthalten.</p>\n"
+}

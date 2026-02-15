@@ -1,0 +1,24 @@
+id: icedtea-netx-common
+name: IcedTea Web Control Panel
+description: Configure IcedTea Web (javaws and plugin)
+longDescription: |
+  <p>NetX provides a drop-in replacement for javaws (Java Web Start). Since upstream NetX is dormant, IcedTea is hosting and modifying the sources in the IcedTea-Web directory.</p>
+  <p>This package contains the architecture independent files.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - icedtea-netx-common
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: icedtea-netx-common_javaws.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "GADMIN-BIND",
+  "description": "Verwaltung des BIND-DNS-Servers",
+  "longDescription": "<p>gadmin-bind ist ein benutzerfreundliches GTK+-Frontend für ISC BIND. Es unterstützt die Verwaltung mehrerer Domains und ermöglicht das Umschalten von Master- zu Slave-Domain mit nur drei Klicks. Sowohl Domains als auch Subdomains können mitsamt Domain-Ressourcen wie MX, A, AAAA, CNAME und NS komfortabel bearbeitet werden.</p>\n<p>gadmin-bind kann zudem geheime Schlüssel für rndc generieren und einrichten, eine chroot-Umgebung erstellen sowie DDNS-Operationen verwalten.</p>\n"
+}

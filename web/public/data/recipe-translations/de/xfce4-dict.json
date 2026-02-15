@@ -1,0 +1,5 @@
+{
+  "name": "Wörterbuch",
+  "description": "Ein Client-Programm zum Abfragen verschiedener Wörterbücher.",
+  "longDescription": "<p>Mit diesem Programm können Sie in unterschiedlichen Wörterbuchdiensten nach Wörtern oder Ausdrücken suchen und erhalten direkt die Ergebnisse. Aktuell können Sie einen Dict-Server (RFC 2229) abfragen, beliebige Online-Wörterbuchdienste im Webbrowser öffnen oder mit aspell/ispell lokal nach Begriffen suchen.</p>\n<p>xfce4-dict bietet sowohl eine eigenständige Anwendung namens „xfce4-dict“ als auch ein Panel-Plugin für das Xfce-Panel.</p>\n"
+}

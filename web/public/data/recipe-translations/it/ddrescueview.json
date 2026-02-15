@@ -1,0 +1,5 @@
+{
+  "name": "ddrescueview",
+  "description": "Visualizzatore grafico per file mappa di GNU ddrescue",
+  "longDescription": "<p>Questo piccolo strumento permette all’utente di esaminare graficamente i file mappa di ddrescue tramite un’applicazione GUI intuitiva. La finestra principale mostra una griglia di blocchi, in cui il colore di ciascun blocco rappresenta le tipologie di dati contenuti. Molti utenti conoscono questa rappresentazione dai programmi di deframmentazione.</p>\n<p>Funzionalità principali:  * Visualizzazione della mappa ddrescue tramite blocchi colorati  * Esame dettagliato di ogni blocco con elenco delle voci mappa corrispondenti  * Monitoraggio del processo di recupero grazie all’aggiornamento automatico del file mappa  * Visualizzazione delle unità con prefissi decimali (KB, MB...) o binari (KiB, MiB...)</p>\n"
+}

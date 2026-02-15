@@ -1,0 +1,42 @@
+id: "librecad"
+name: LibreCAD
+description: A professional CAD System
+longDescription: |
+  <p>LibreCAD is an application for computer aided design (CAD) in two dimensions (2D). With LibreCAD you can create technical drawings such as plans for buildings, interiors, mechanical parts or schematics and diagrams.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - librecad
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - design
+  - cad
+  - diagrams
+  - graphics
+iconSources:
+  - url: l/li/librecad.desktop/99a1ace3e023e51af0d1f3af4042feef/icons/128x128/librecad_librecad.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

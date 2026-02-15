@@ -1,0 +1,5 @@
+{
+  "name": "Heaptrack",
+  "description": "Profiler memori heap untuk Linux",
+  "longDescription": "<p>Heaptrack melacak semua alokasi memori dan mencatat setiap peristiwa beserta stack trace-nya. Alat analisis khusus kemudian memungkinkan Anda menginterpretasikan profil memori heap untuk:</p>\n<ul>\n  <li>menemukan hotspot yang perlu dioptimalkan untuk mengurangi penggunaan memori aplikasi Anda</li>\n  <li>mengidentifikasi memory leak, yaitu lokasi yang melakukan alokasi memori namun tidak pernah dibebaskan</li>\n  <li>menemukan hotspot alokasi, yaitu bagian kode yang sering melakukan pemanggilan alokasi memori</li>\n  <li>menemukan alokasi sementara, yaitu alokasi yang langsung diikuti dengan dealokasi</li>\n</ul>\n"
+}

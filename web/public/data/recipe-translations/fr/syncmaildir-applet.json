@@ -1,0 +1,5 @@
+{
+  "name": "Sync Mail Dir",
+  "description": "Synchronise des boîtes mail au format Maildir",
+  "longDescription": "<p>Sync Mail Dir est un ensemble d'utilitaires permettant de synchroniser une paire de boîtes mail au format Maildir, en utilisant SSH pour le transfert des données.</p>\n<p>Ce paquet fournit une applet intégrant smd-loop à GNOME : elle notifie l'utilisateur via des pop-ups, lance smd-loop à la connexion, et offre une interface simple pour gérer les erreurs de synchronisation.</p>\n"
+}

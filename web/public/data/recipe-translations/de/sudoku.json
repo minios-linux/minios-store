@@ -1,0 +1,5 @@
+{
+  "name": "Sudoku",
+  "description": "Konsolenbasiertes Sudoku-Spiel",
+  "longDescription": "<p>Dieser Sudoku-Rätselgenerator und -löser bietet folgende Funktionen:  * Zeichenbasierte (curses) Benutzeroberfläche;  * Plattformübergreifend (Minix, Unix, Windows) mit komplettem Quellcode (ANSI C);  * Gibt auf Anfrage Hinweise;  * Schwierigkeitsgrad-Bewertung der Spielbretter (sehr einfach, einfach, mittel, schwer oder extrem);  * Erzeugung neuer Sudoku-Bretter;  * Einfache Eingabe von Rätseln aus Zeitungen, dem Internet usw.;  * Vielfältige Ausgabeformate (Text, CSV, HTML, PostScript).</p>\n"
+}

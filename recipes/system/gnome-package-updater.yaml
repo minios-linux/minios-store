@@ -1,0 +1,44 @@
+id: "gnome-package-updater"
+name: GNOME Package Updater
+description: Update software installed on the system
+longDescription: |
+  <p>
+        Package Updater allows you to update packages on your system without
+        rebooting.
+        You can view details about each update and choose which updates to apply.
+      </p>
+  <p>
+        Package Updater uses PackageKit and can work on any distribution using
+        the native package management framework.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-package-updater
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - updates
+  - upgrade
+screenshotSources:
+  - url: org/gnome/PackageUpdater/c7e68d0602e8eeb2242dc32a3c878a79/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/PackageUpdater/c7e68d0602e8eeb2242dc32a3c878a79/screenshots/image-1_624x351@1.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: org/gnome/PackageUpdater/c7e68d0602e8eeb2242dc32a3c878a79/icons/128x128/gnome-package-updater_system-software-update.png
+    width: 128
+    height: 128
+homepage: "https://www.freedesktop.org/software/PackageKit/"
+enabled: true
+order: 99

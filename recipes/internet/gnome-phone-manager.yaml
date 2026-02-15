@@ -1,0 +1,33 @@
+id: gnome-phone-manager
+name: Phone Manager
+description: Receive and send text messages from your mobile phone
+longDescription: |
+  <p>Phone Manager is a program created to allow you to control aspects of your mobile phone from your GNOME 2 desktop.</p>
+  <p> Current features include:</p>
+  <p> - Runs in the background; indicates status on the panel notification area.  - Display on-screen alert when text message (SMS) arrives  - Text message (SMS) sending facility  - Evolution Addressbook integration</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-phone-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: g/gn/gnome-phone-manager.desktop/4ECFA9EECD42EC34E93AC943138BA9D6/icons/128x128/gnome-phone-manager_phone.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

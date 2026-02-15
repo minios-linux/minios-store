@@ -1,0 +1,38 @@
+id: "transmission-qt"
+name: Qtransmission Bittorrent Client
+description: Download and share files over BitTorrent
+longDescription: |
+  <p>Transmission is a set of lightweight BitTorrent clients (in GUI, CLI and daemon form). All its incarnations feature a very simple, intuitive interface on top on an efficient, cross-platform back-end.</p>
+  <p>This package contains the Qt stand-alone client.</p>
+  
+categoryId: internet
+icon: Download
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - transmission-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: t/tr/transmission-qt.desktop/318a2cb94c6f3c94ded44cceea1984f0/icons/128x128/transmission-qt_transmission.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

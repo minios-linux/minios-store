@@ -1,0 +1,5 @@
+{
+  "name": "Avogadro",
+  "description": "Sistem Grafik dan Pemodelan Molekul",
+  "longDescription": "<p>Avogadro adalah sistem grafik dan pemodelan molekul yang ditujukan untuk molekul dan biomolekul. Aplikasi ini dapat memvisualisasikan properti seperti orbital molekul atau potensi elektrostatik, serta dilengkapi dengan pembangun molekul yang intuitif.</p>\n<p>Fitur-fitur utama:  * Pemodel molekul dengan optimasi geometri otomatis berbasis force-field  * Mekanika molekul termasuk pemaksaan dan pencarian konformer  * Visualisasi orbital molekul dan isosurface umum  * Visualisasi getaran molekul dan plotting spektrum vibrasi  * Dukungan untuk sel satuan kristalografi  * Pembuatan input untuk paket kimia kuantum Gaussian, GAMESS, dan MOLPRO  * Arsitektur plugin yang fleksibel dan dukungan scripting Python</p>\n<p>Format file yang dapat dibaca Avogadro mencakup PDB, XYZ, CML, CIF, Molden, serta output Gaussian, GAMESS, dan MOLPRO.</p>\n"
+}

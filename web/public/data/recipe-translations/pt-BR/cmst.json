@@ -1,0 +1,5 @@
+{
+  "name": "cmst",
+  "description": "Interface gráfica Qt para o gerenciador de conexões Connman, com ícone na bandeja do sistema",
+  "longDescription": "<p>Interface gráfica Qt para o Connman com ícone na bandeja do sistema. O programa oferece uma interface gráfica para controlar o daemon do Connman.<br> O daemon do Connman deve ser iniciado normalmente — este programa apenas faz a interface com o serviço já em execução.<br> Você pode visualizar as tecnologias e serviços que o Connman detectou e, para redes Wi-Fi, um assistente é ativado para ajudar a coletar os dados necessários para conectar à rede sem fio.</p>\n"
+}

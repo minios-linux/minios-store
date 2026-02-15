@@ -1,0 +1,24 @@
+id: gadmin-bind
+name: GADMIN-BIND
+description: BIND DNS server administration
+longDescription: |
+  <p>gadmin-bind is an easy to use GTK+ frontend for ISC BIND. It handles multiple domains and can switch from master to slave domain in three clicks. It can change the domain name for entire domains and subdomains, including domain resources such as MX, A, AAAA, CNAME, and NS.</p>
+  <p>gadmin-bind can also generate and set up secret keys for rndc, construct a chroot environment, and handle DDNS operations.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gadmin-bind
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gadmin-bind_gadmin-bind.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

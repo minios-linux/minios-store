@@ -1,0 +1,30 @@
+id: "nautilus-dropbox"
+name: Dropbox
+description: Sync your files across computers and to the web
+longDescription: |
+  <p>Nautilus Dropbox is an extension that integrates the Dropbox web service with your GNOME Desktop.</p>
+  <p>Installing this package will download the proprietary dropbox binary from dropbox.com.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nautilus-dropbox
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/dr/dropbox.desktop/591e33b797098ef0632c3ce88447e17c/icons/128x128/nautilus-dropbox_dropbox.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

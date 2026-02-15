@@ -1,0 +1,26 @@
+id: affiche-app
+name: Affiche
+description: Sticky notes application
+longDescription: |
+  <p>This is a little application that allows people to &quot;stick&quot; little notes on their computer desktop. It was made for the GNUstep environment.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - affiche.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - notes
+  - postit
+iconSources:
+  - cached: affiche.app_app-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

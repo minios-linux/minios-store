@@ -1,0 +1,55 @@
+id: "ettercap-graphical"
+name: Ettercap
+description: Multipurpose Network sniffer/analyser/interceptor/logger
+longDescription: |
+  <p>Ettercap supports active and passive dissection of many protocols
+   (even encrypted ones) and includes many feature for network and host
+   analysis.
+   Data injection in an established connection and filtering (substitute
+   or drop a packet) on the fly is also possible, keeping the connection
+   synchronized.</p>
+  <p>Many sniffing modes are implemented, for a powerful and complete
+   sniffing suite. It is possible to sniff in four modes: IP Based, MAC Based,
+   ARP Based (full-duplex) and PublicARP Based (half-duplex).
+   Ettercap also has the ability to detect a switched LAN, and to use OS
+   fingerprints (active or passive) to find the geometry of the LAN.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ettercap-graphical
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ettercap,ettercap-pkexec
+screenshotSources:
+  - url: io/github/ettercap/4c58177440b603732eb4854ef31d4a6f/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/ettercap/4c58177440b603732eb4854ef31d4a6f/screenshots/image-1_624x407.png
+    width: 843
+    height: 550
+iconSources:
+  - cached: ettercap-graphical_ettercap.png
+    width: 64
+    height: 64
+homepage: "http://ettercap.github.io/ettercap/"
+enabled: true
+order: 99

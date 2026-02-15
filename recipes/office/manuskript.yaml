@@ -1,0 +1,44 @@
+id: manuskript
+name: Manuskript
+description: Open source tool for writers
+longDescription: |
+  <p>Manuskript is an open source tool for writers. It provides a rich environment to help writers create their first draft and then further refine and edit their masterpiece.</p>
+  <p>Features:  - Writing modes: Manukskript offers two writing modes: one “fiction” mode    with all the tools for fiction writers (summary, characters, plot,    world/context, etc.), and one “simple” mode, with only the writing tab.  - Outliner: You can organize your thoughts and snippets in a hierarchical    manner. Organize them as you wish, reorganize them on the go.  - Customizable distraction-free mode: Get rid of all distraction while    writing or lock yourself until you’ve reached a certain goal.  - Novel assistant: Use the snowflake method to grow your single genius idea    in a coherent whole, with complex characters, intricate plots and detailed    universe.  - Open and plain-text file format: Depending on your configuration,    everything is either stored zipped in one single file or as several small    text files in one folder (to allow versioning and collaborative editing).  - Index Cards: Use index cards to organise your thoughts: notes, scenes,    chapters, etc.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - manuskript
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - manuskript
+  - office
+  - write
+  - edit
+  - novel
+  - text
+  - msk
+iconSources:
+  - cached: manuskript_manuskript.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

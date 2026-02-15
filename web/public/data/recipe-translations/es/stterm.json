@@ -1,0 +1,5 @@
+{
+  "name": "st",
+  "description": "Emulador de terminal sencillo",
+  "longDescription": "<p>st es un emulador de terminal del proyecto suckless enfocado en la simplicidad, claridad y eficiencia. La filosofía del proyecto es mantener las cosas simples, minimalistas y funcionales.</p>\n<p>st es compatible con la mayoría de las secuencias de escape VT10X, conexiones serie, XIM, utmp mediante utmp(1), manejo de portapapeles, atajos de mouse y teclado, UTF-8, caracteres anchos, cambio de tamaño, 256 colores, colores reales, fuentes suavizadas con fontconfig, fuentes de reserva y dibujo de líneas. <b>No</b> incluye búfer de retroceso: se recomienda usar un multiplexor de terminal para esta función.</p>\n<p>Este paquete de Debian se denomina 'stterm' por motivos históricos.</p>\n"
+}

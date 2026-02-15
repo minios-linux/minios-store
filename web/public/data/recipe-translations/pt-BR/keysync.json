@@ -1,0 +1,5 @@
+{
+  "name": "KeySync",
+  "description": "Sincronize todas as relações de confiança OTR entre vários aplicativos de chat",
+  "longDescription": "<p>Há muitos aplicativos de chat que suportam criptografia OTR para verificação de mensagens. Muitos usuários utilizam diferentes apps de chat, incluindo um para desktop e outro para celular, ou um para Mac OS X e outro para GNU/Linux ou Windows. As relações de confiança ficam armazenadas localmente em cada app, em um formato específico. Alternar entre esses aplicativos significa que você precisa gerenciar suas relações de confiança separadamente em cada um deles.</p>\n<p>O KeySync resolve esse problema permitindo sincronizar sua identidade OTR e relações de confiança entre vários aplicativos. Ele atualmente funciona com ChatSecure no Android, e Pidgin, Adium e Jitsi no desktop. Este projeto possibilita a conversão entre vários formatos de arquivos OTR. No momento, o KeySync está focado nas duas principais implementações de OTR: libotr e otr4j, mas sua arquitetura modular permite adicionar suporte para qualquer outra implementação OTR.</p>\n"
+}

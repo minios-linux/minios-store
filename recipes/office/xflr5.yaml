@@ -1,0 +1,30 @@
+id: xflr5
+name: XFLR5
+description: analysis tool for airfoils
+longDescription: |
+  <p>XFLR5 is an analysis tool for airfoils, wings and planes operating at low Reynolds Numbers. It includes:</p>
+  <p> 1. XFoil&apos;s Direct and Inverse analysis capabilities  2. Wing design analysis based on the Lifiting Line Theory and the Vortex    Lattice Method</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xflr5
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - airfoil
+  - model
+  - design
+iconSources:
+  - cached: xflr5_xflr5.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,69 @@
+id: "auto-multiple-choice"
+name: Auto Multiple Choice
+description: Multiple choice papers management
+longDescription: |
+  <p>
+        Auto Multiple Choice is a piece of software that can help you
+        creating and managing multiple choice questionnaires (MCQ), with
+        automated marking from the papers' scans (using Optical Mark
+        Recognition).
+      </p>
+  <p>
+        Questions and answers can be randomly shuffled, so that each
+        answer sheet is unique. Using this feature, it is more difficult
+        for students to copy on their neighbour's sheets…
+      </p>
+  <p>
+        Answers sheets are formatted with LaTeX, allowing mathematical
+        formulas and many other potential uses, but you can also write
+        your questions using a simple plain text syntax.
+      </p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - auto-multiple-choice
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - multiple
+  - choice
+  - questionnaire
+  - exam
+  - grading
+  - marking
+  - mcq
+  - amc
+screenshotSources:
+  - url: net/auto_multiple_choice/amc.desktop/2bd6d6a50706fe28f8de48f151408ce3/screenshots/image-1_orig.png
+    thumbnailUrl: net/auto_multiple_choice/amc.desktop/2bd6d6a50706fe28f8de48f151408ce3/screenshots/image-1_624x369.png
+    width: 1120
+    height: 664
+  - url: net/auto_multiple_choice/amc.desktop/2bd6d6a50706fe28f8de48f151408ce3/screenshots/image-2_orig.png
+    thumbnailUrl: net/auto_multiple_choice/amc.desktop/2bd6d6a50706fe28f8de48f151408ce3/screenshots/image-2_624x369.png
+    width: 1120
+    height: 664
+  - url: net/auto_multiple_choice/amc.desktop/2bd6d6a50706fe28f8de48f151408ce3/screenshots/image-3_orig.png
+    thumbnailUrl: net/auto_multiple_choice/amc.desktop/2bd6d6a50706fe28f8de48f151408ce3/screenshots/image-3_624x369.png
+    width: 1120
+    height: 664
+iconSources:
+  - url: net/auto_multiple_choice/amc.desktop/2bd6d6a50706fe28f8de48f151408ce3/icons/128x128/auto-multiple-choice_auto-multiple-choice.png
+    width: 128
+    height: 128
+homepage: "https://www.auto-multiple-choice.net/"
+enabled: true
+order: 99

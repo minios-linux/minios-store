@@ -1,0 +1,61 @@
+id: "bijiben"
+name: Bijiben
+description: Quickly jot notes
+longDescription: |
+  <p>A quick and easy way to make freeform notes or jot down simple lists. Store as many notes as you like and share them by email.</p>
+  <p>You can store your notes locally on your computer or sync with online services like ownCloud.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bijiben
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - notes
+  - reminder
+  - notebook
+  - sticky notes
+screenshotSources:
+  - url: org/gnome/Notes.desktop/b06e87ecaaf4c393703c804ab7126380/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Notes.desktop/b06e87ecaaf4c393703c804ab7126380/screenshots/image-1_624x351@1.png
+    width: 960
+    height: 540
+  - url: org/gnome/Notes.desktop/b06e87ecaaf4c393703c804ab7126380/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Notes.desktop/b06e87ecaaf4c393703c804ab7126380/screenshots/image-2_624x351@1.png
+    width: 960
+    height: 540
+  - url: org/gnome/Notes.desktop/b06e87ecaaf4c393703c804ab7126380/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Notes.desktop/b06e87ecaaf4c393703c804ab7126380/screenshots/image-3_624x351@1.png
+    width: 960
+    height: 540
+  - url: org/gnome/Notes.desktop/b06e87ecaaf4c393703c804ab7126380/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Notes.desktop/b06e87ecaaf4c393703c804ab7126380/screenshots/image-4_624x351@1.png
+    width: 960
+    height: 540
+iconSources:
+  - url: org/gnome/Notes.desktop/b06e87ecaaf4c393703c804ab7126380/icons/128x128/bijiben_org.gnome.Notes.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Bijiben"
+enabled: true
+order: 99

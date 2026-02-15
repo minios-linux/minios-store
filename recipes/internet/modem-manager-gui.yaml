@@ -1,0 +1,71 @@
+id: "modem-manager-gui"
+name: Modem Manager GUI
+description: Control EDGE/3G/4G broadband modem specific functions
+longDescription: |
+  <p>Simple graphical interface compatible with Modem manager, Wader and oFono
+     system services able to control EDGE/3G/4G broadband modem specific functions.</p>
+  <p>You can check balance of your SIM card, send or receive SMS messages, control
+     mobile traffic consuption and more using Modem Manager GUI.</p>
+  <p>Current features:</p>
+  <ul>
+    <li>Create and control mobile broadband connections</li>
+    <li>Send and receive SMS messages and store messages in database</li>
+    <li>Initiate USSD requests and read answers (also using interactive sessions)</li>
+    <li>View device information: operator name, device mode, IMEI, IMSI, signal level</li>
+    <li>Scan available mobile networks</li>
+    <li>View mobile traffic statistics and set limits</li>
+  </ul>
+  <p>Please note that some features may be not available due to limitations of different
+     system services or even different versions of system service in use.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - modem-manager-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - modem
+  - manager
+  - sms
+  - ussd
+screenshotSources:
+  - url: m/mo/modem-manager-gui.desktop/28c40e0171612eebf22e7d8214275d03/screenshots/image-1_orig.png
+    thumbnailUrl: m/mo/modem-manager-gui.desktop/28c40e0171612eebf22e7d8214275d03/screenshots/image-1_624x351.png
+    width: 1024
+    height: 576
+  - url: m/mo/modem-manager-gui.desktop/28c40e0171612eebf22e7d8214275d03/screenshots/image-2_orig.png
+    thumbnailUrl: m/mo/modem-manager-gui.desktop/28c40e0171612eebf22e7d8214275d03/screenshots/image-2_624x351.png
+    width: 1024
+    height: 576
+  - url: m/mo/modem-manager-gui.desktop/28c40e0171612eebf22e7d8214275d03/screenshots/image-3_orig.png
+    thumbnailUrl: m/mo/modem-manager-gui.desktop/28c40e0171612eebf22e7d8214275d03/screenshots/image-3_624x351.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: m/mo/modem-manager-gui.desktop/28c40e0171612eebf22e7d8214275d03/icons/128x128/modem-manager-gui_modem-manager-gui.png
+    width: 128
+    height: 128
+developer: Alex
+homepage: "http://linuxonly.ru/page/modem-manager-gui"
+enabled: true
+order: 99

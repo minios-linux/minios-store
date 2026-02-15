@@ -1,0 +1,27 @@
+id: recoll
+name: Recoll
+description: Find documents by specifying search terms
+longDescription: |
+  <p>This package is a personal full text search package is based on a very strong backend (Xapian), for which it provides an easy to use and feature-rich interface.</p>
+  <p>Features:  * Qt-based GUI  * Supports the following document types (and their compressed versions)   - Natively: text, html, OpenOffice files, maildir and mailbox (Mozilla and     IceDove mail) with attachments, pidgin log files   - With external helpers:  pdf (pdftotext), postscript (ghostscript), msword     (antiword), excel, ppt (catdoc), rtf (unrtf)  * Powerful query facilities, with boolean searches, phrases, filter on file    types and directory tree  * Support for multiple charsets, Internal processing and storage uses Unicode    UTF-8  * Stemming performed at query time (can switch stemming language after    indexing)  * Easy installation. No database daemon, web server or exotic language    necessary  * An indexer which runs either as a thread inside the GUI or as an external,    cron&apos;able program</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - recoll
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - search
+  - full text
+iconSources:
+  - cached: recoll_recoll.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

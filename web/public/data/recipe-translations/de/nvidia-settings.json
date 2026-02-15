@@ -1,0 +1,5 @@
+{
+  "name": "NVIDIA X Server Settings",
+  "description": "NVIDIA X-Server-Einstellungen konfigurieren",
+  "longDescription": "<p>Das nvidia-settings-Tool ist ein Programm zur Konfiguration des NVIDIA-Grafiktreibers unter Linux. Es kommuniziert direkt mit dem NVIDIA X-Treiber, um Einstellungen abzufragen und zu ändern. Diese Kommunikation erfolgt über die NV-CONTROL-X-Erweiterung.</p>\n<p>Mit nvidia-settings lassen sich Werte wie Helligkeit und Gamma, XVideo-Attribute, Temperatur und OpenGL-Einstellungen abfragen und anpassen.</p>\n"
+}

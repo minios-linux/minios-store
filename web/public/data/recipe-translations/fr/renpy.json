@@ -1,0 +1,5 @@
+{
+  "name": "Ren'Py",
+  "description": "jeux de type visual novel",
+  "longDescription": "<p>Ren'Py est un langage de programmation accompagné de son environnement d’exécution, conçu pour simplifier la création de jeux de type visual novel. Il offre des fonctionnalités facilitant l’affichage de pensées, de dialogues et de menus, la gestion des images, l’écriture de la logique de jeu, ainsi que la sauvegarde et le chargement des parties.</p>\n<p>Ren'Py fonctionne comme un script exécutable, vous permettant d’obtenir un jeu fonctionnel avec peu d’efforts, simplement en saisissant le script du jeu sur l’ordinateur.</p>\n<p>Ren'Py repose sur Python, dont l’influence est visible dans de nombreux aspects. De nombreuses instructions Ren'Py acceptent les expressions Python, et certaines permettent même l’exécution de code Python arbitraire. Les fonctionnalités avancées de Ren'Py sont accessibles via Python. Comme seules les bases de Python sont nécessaires, Ren'Py espère rester accessible à tous les créateurs de jeux.</p>\n"
+}

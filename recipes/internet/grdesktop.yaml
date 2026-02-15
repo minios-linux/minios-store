@@ -1,0 +1,39 @@
+id: grdesktop
+name: Remotedesktop Client
+description: Connect to a remote Windows Terminal-Server
+longDescription: |
+  <p>grdesktop is a GNOME frontend for the remote desktop client (rdesktop).</p>
+  <p>It can save several connections (including their options), and browse the network for available terminal servers.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - grdesktop
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - rdesktop
+  - remote
+  - terminal
+  - server
+iconSources:
+  - cached: grdesktop_icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

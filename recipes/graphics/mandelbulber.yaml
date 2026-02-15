@@ -1,0 +1,24 @@
+id: mandelbulber
+name: Mandelbulber
+description: Visit 3D Fractal World
+longDescription: |
+  <p>Mandelbulber is a ray-tracing application for drawing three-dimensional fractals, like Mandelbulb, Mandelbox, Julia, trigonometric, hypercomplex or IFS fractals. It is highly customizable and features complex shading algorithms (among the others there are shadows, depth of field, ambient occlusion).</p>
+  <p>Mandelbulber is also able to produce animations and has a simple built-in 3D navigator for exploring the fractals.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mandelbulber
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: mandelbulber_mandelbulber.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

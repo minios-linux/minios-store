@@ -1,0 +1,49 @@
+id: "cheese"
+name: Cheese
+description: "Take photos and videos with your webcam, with fun graphical effects"
+longDescription: |
+  <p>Cheese uses your webcam to take photos and videos, applies fancy special effects and lets you share the fun with others.</p>
+  <p>Take multiple photos in quick succession with burst mode. Use the countdown to give yourself time to strike a pose, and wait for the flash!</p>
+  <p>Under the hood, Cheese uses GStreamer to apply fancy effects to photos and videos. With Cheese it is easy to take photos of you, your friends, pets or whatever you want and share them with others.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cheese
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - photo
+  - video
+  - webcam
+screenshotSources:
+  - url: org/gnome/Cheese.desktop/a13c13b95bac4d40e5699e6a0612548b/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Cheese.desktop/a13c13b95bac4d40e5699e6a0612548b/screenshots/image-1_624x584@1.png
+    width: 704
+    height: 659
+iconSources:
+  - url: org/gnome/Cheese.desktop/a13c13b95bac4d40e5699e6a0612548b/icons/128x128/cheese_org.gnome.Cheese.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Cheese"
+enabled: true
+order: 99

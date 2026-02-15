@@ -1,0 +1,5 @@
+{
+  "name": "PrBoom+",
+  "description": "clone aprimorado do clássico jogo de tiro em primeira pessoa Doom",
+  "longDescription": "<p>PrBoom+ é uma versão aprimorada (source port) do lendário jogo de tiro em primeira pessoa Doom, lançado originalmente pela id Software em 1993. Utiliza a biblioteca Simple DirectMedia Layer (SDL) e oferece um renderizador OpenGL opcional. É baseado no PrBoom, MBF e LxDoom, que por sua vez se baseiam no Boom da TeamTNT, um port gratuito do Doom para DOS.</p>\n<p>Além dos recursos do PrBoom, o PrBoom+ traz taxa de quadros destravada, velocidade de jogo variável, regravação, walkcam, chasecam, mouselook completo, ajuste de FOV e outras funcionalidades, mantendo total compatibilidade com o Doom original.</p>\n<p>Para funcionar, o PrBoom+ exige os arquivos de dados do jogo. Dados de jogo gratuitos podem ser encontrados no pacote freedoom. Dados comerciais podem ser empacotados usando o game-data-packager. O PrBoom+ suporta todas as versões do Doom, incluindo The Ultimate Doom, Doom 2 e Final Doom, além de Chex(R) Quest, HACX, FreeDoom e FreeDM.</p>\n"
+}

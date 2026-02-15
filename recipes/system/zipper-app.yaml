@@ -1,0 +1,29 @@
+id: zipper-app
+name: Zipper
+description: Archive manager for GNUstep
+longDescription: |
+  <p>Zipper is a tool for extracting and viewing archive files for GNUstep. It provides the following features:</p>
+  <p> * Decompression of Tar (.tar.gz, .tar.bz2, .tar.xz), LHA (.lha,    .lzx), RAR (.rar), ZIP (.zip), 7z (.7z, .7za), ZOO (.zoo), ACE    (.ace) and ARJ (.arj) archives  * Archive creation (.tar.gz, .tar.bz2, .tar.xz, .lha, .zip, .7z/.7za    and .zoo)  * GNUstep &quot;Create archive&quot; service</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zipper.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - zip
+  - tar
+  - extract
+  - unpack
+iconSources:
+  - cached: zipper.app_zipper.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

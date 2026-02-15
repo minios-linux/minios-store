@@ -1,0 +1,5 @@
+{
+  "name": "Satellite",
+  "description": "Affiche les données des satellites de navigation",
+  "longDescription": "<p>Satellite est une application GTK / libhandy adaptative qui affiche les données du système mondial de navigation par satellite (GNSS : GPS, etc.) obtenues via l’API ModemManager.</p>\n<p>Elle peut également être utilisée pour enregistrer des traces GPX.</p>\n"
+}

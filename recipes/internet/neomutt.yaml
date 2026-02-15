@@ -1,0 +1,23 @@
+id: neomutt
+name: neomutt
+description: Simple text-based Mail User Agent
+longDescription: |
+  <p>Neomutt supports all the features that are supported by Mutt, including POP and IMAP support, SSL encryption and SASL authentication, threading and GPG support. On the top of that, neomutt provides:  * Notmuch: a mail indexing tools that provides advanced features such as    full-text search, thread reconstruction and added features.  * Color attachment headers using regex, just like mail bodies.  * Custom rules for theming the mail index.  * NNTP support.  * Visual progress bar for slow operations.  * Trash folder.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - neomutt
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: n/ne/neomutt.desktop/22ab74d6fedb696e90e87aea4fc8b66e/icons/128x128/neomutt_neomutt.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

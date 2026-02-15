@@ -1,0 +1,46 @@
+id: "kreversi"
+name: KReversi
+description: Reversi Board Game
+longDescription: |
+  <p>KReversi is a simple one player strategy game played against the computer.
+        If a player&apos;s piece is captured by an opposing player, that piece is turned over
+        to reveal the color of that player. A winner is declared when one player has more
+        pieces of his own color on the board and there are no more possible moves.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kreversi
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kreversi/acbff565b975bf9c5c22bce5f2c08e03/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kreversi/acbff565b975bf9c5c22bce5f2c08e03/screenshots/image-1_624x492@1.png
+    width: 836
+    height: 660
+iconSources:
+  - url: org/kde/kreversi/acbff565b975bf9c5c22bce5f2c08e03/icons/128x128/kreversi_kreversi.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/kreversi"
+enabled: true
+order: 99

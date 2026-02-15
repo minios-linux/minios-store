@@ -1,0 +1,5 @@
+{
+  "name": "gWakeOnLan",
+  "description": "Un utilitaire GTK+ permettant de réveiller un ordinateur éteint grâce à la fonction Wake On LAN.",
+  "longDescription": "<p>gWakeOnLan est un utilitaire GTK+ qui permet de réveiller des ordinateurs éteints via la fonctionnalité Wake on LAN. Les modes local et Internet sont pris en charge.</p>\n<p>Les machines à démarrer doivent avoir été arrêtées avec le paquet magique Wake on LAN activé.</p>\n"
+}

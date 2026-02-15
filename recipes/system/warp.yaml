@@ -1,0 +1,86 @@
+id: warp
+name: Warp
+description: Fast and secure file transfer
+longDescription: |
+  <p>
+        Warp allows you to securely send files to each other via the internet or local network by
+        exchanging a word-based code.
+      </p>
+  <p>
+        The best transfer method will be determined using the “Magic Wormhole” protocol which includes
+        local network transfer if possible.
+      </p>
+  <p>Features</p>
+  <ul>
+    <li>Send files between multiple devices</li>
+    <li>Every file transfer is encrypted</li>
+    <li>Directly transfer files on the local network if possible</li>
+    <li>An internet connection is required</li>
+    <li>QR Code support</li>
+    <li>Compatibility with the Magic Wormhole command line client and all other compatible apps</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - warp
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gnome
+  - gtk
+  - wormhole
+  - magic-wormhole
+screenshotSources:
+  - url: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-1_orig.png
+    thumbnailUrl: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-1_224x295@1.png
+    width: 524
+    height: 692
+  - url: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-2_orig.png
+    thumbnailUrl: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-2_224x295@1.png
+    width: 524
+    height: 692
+  - url: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-3_orig.png
+    thumbnailUrl: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-3_224x295@1.png
+    width: 524
+    height: 692
+  - url: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-4_orig.png
+    thumbnailUrl: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-4_224x295@1.png
+    width: 524
+    height: 692
+  - url: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-5_orig.png
+    thumbnailUrl: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-5_224x295@1.png
+    width: 524
+    height: 692
+  - url: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-6_orig.png
+    thumbnailUrl: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-6_224x295@1.png
+    width: 524
+    height: 692
+  - url: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-7_orig.png
+    thumbnailUrl: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-7_224x295@1.png
+    width: 524
+    height: 692
+  - url: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-8_orig.png
+    thumbnailUrl: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-8_224x295@1.png
+    width: 524
+    height: 692
+  - url: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-9_orig.png
+    thumbnailUrl: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-9_224x295@1.png
+    width: 524
+    height: 692
+  - url: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-10_orig.png
+    thumbnailUrl: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/screenshots/image-10_224x295@1.png
+    width: 524
+    height: 692
+iconSources:
+  - url: app/drey/Warp/f1d3df5bf9a4e32a81b1445eb6014e4a/icons/128x128/warp_app.drey.Warp.png
+    width: 128
+    height: 128
+homepage: "https://apps.gnome.org/Warp/"
+enabled: true
+order: 99

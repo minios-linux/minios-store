@@ -1,0 +1,5 @@
+{
+  "name": "WordNet",
+  "description": "base de données lexicale électronique de la langue anglaise",
+  "longDescription": "<p>WordNet(C) est un système de référence lexicale en ligne dont la conception s'inspire des théories psycholinguistiques actuelles de la mémoire lexicale humaine. Les noms, verbes, adjectifs et adverbes anglais y sont organisés en ensembles de synonymes, chacun représentant un concept lexical de base. Différents types de relations lient ces ensembles de synonymes.</p>\n<p>WordNet a été développé par le Cognitive Science Laboratory de l'Université de Princeton sous la direction du professeur George A. Miller (responsable principal).</p>\n<p>WordNet est considéré comme la ressource la plus importante à disposition des chercheurs en linguistique computationnelle, en analyse de texte et dans de nombreux domaines connexes.</p>\n<p>Ce paquet contient une interface graphique Tcl/Tk pour explorer le dictionnaire WordNet.</p>\n"
+}

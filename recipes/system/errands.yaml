@@ -1,0 +1,51 @@
+id: "errands"
+name: Errands
+description: Manage your tasks
+longDescription: |
+  <p>Todo application for those who prefer simplicity.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Multiple task lists support</li>
+    <li>Add, remove, edit tasks and sub-tasks</li>
+    <li>Mark task and sub-tasks as completed</li>
+    <li>Add accent color for each task</li>
+    <li>Sync tasks with Nextcloud or other CalDAV providers</li>
+    <li>Drag and Drop support</li>
+    <li>Import .ics files</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - errands
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - errands
+  - tasks
+  - list
+  - todo
+  - todos
+  - caldav
+  - nextcloud
+  - sync
+screenshotSources:
+  - url: io/github/mrvladus.List/4cd4f3f065bed0640b6cd4ca95120a34/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/mrvladus.List/4cd4f3f065bed0640b6cd4ca95120a34/screenshots/image-1_624x457@1.png
+    width: 1122
+    height: 822
+iconSources:
+  - url: io/github/mrvladus.List/4cd4f3f065bed0640b6cd4ca95120a34/icons/128x128/errands_io.github.mrvladus.List.png
+    width: 128
+    height: 128
+developer: Vlad Krupinski
+homepage: "https://github.com/mrvladus/Errands"
+enabled: true
+order: 99

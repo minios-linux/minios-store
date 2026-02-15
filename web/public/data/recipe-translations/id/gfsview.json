@@ -1,0 +1,5 @@
+{
+  "name": "GfsView 2D",
+  "description": "Menampilkan simulasi Gerris 2D",
+  "longDescription": "<p>Gerris adalah sistem untuk menyelesaikan persamaan diferensial parsial yang menggambarkan aliran fluida.</p>\n<p>GfsView menampilkan hasil simulasi Gerris 2D dan 3D. Berikut ringkasan fitur utamanya:</p>\n<p>   * Potongan lintas skalar dan vektor.    * Isosurfaces (permukaan iso).    * Garis alir (streamlines).    * Fungsi yang dapat didefinisikan pengguna.    * Tampilan adaptif cepat (menggunakan representasi data multiresolusi dari Gerris).    * Dapat diskript (mendukung scripting).    * Generasi gambar secara offline.    * Output PostScript, PDF, dan bitmap berkualitas.</p>\n"
+}

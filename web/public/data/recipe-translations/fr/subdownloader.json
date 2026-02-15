@@ -1,0 +1,5 @@
+{
+  "name": "SubDownloader",
+  "description": "Téléchargez et envoyez des sous-titres pour vos vidéos",
+  "longDescription": "<p>SubDownloader est un outil permettant de télécharger et d'envoyer automatiquement des sous-titres pour les fichiers vidéo (DIVX, MPEG, AVI, etc.) et les DVD grâce à un hachage rapide.</p>\n<p>Fonctionnalités :   * Algorithme de hachage rapide (27 Go de films/7 secondes)   * Recherche récursive dans les dossiers   * Détection automatique de la langue des sous-titres   * Envoi des sous-titres de saisons entières de séries en moins d'une minute</p>\n<p>Ce paquet comprend l’interface graphique, les fichiers communs et une interface en ligne de commande (CLI).</p>\n"
+}

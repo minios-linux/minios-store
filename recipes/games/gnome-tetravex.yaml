@@ -1,0 +1,49 @@
+id: "gnome-tetravex"
+name: GNOME Tetravex
+description: Reorder tiles to fit a square
+longDescription: |
+  <p>Each square piece has a number on each side. Position the pieces on the left side of the board so that the same numbers are next to each other. If the numbers don&apos;t match, you can&apos;t put the piece there. Move quickly: you&apos;re being timed!</p>
+  <p>You can make the game easier or harder by changing the size of the board.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-tetravex
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - logic
+  - board
+screenshotSources:
+  - url: org/gnome/Tetravex/51c48a59080b4d9468cb698a42e49404/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Tetravex/51c48a59080b4d9468cb698a42e49404/screenshots/image-1_624x385@1.png
+    width: 748
+    height: 462
+iconSources:
+  - url: org/gnome/Tetravex/51c48a59080b4d9468cb698a42e49404/icons/128x128/gnome-tetravex_org.gnome.Tetravex.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Tetravex"
+enabled: true
+order: 99

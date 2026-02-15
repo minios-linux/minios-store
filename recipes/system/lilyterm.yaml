@@ -1,0 +1,32 @@
+id: lilyterm
+name: LilyTerm
+description: A light and easy to use libvte based X Terminal Emulator
+longDescription: |
+  <p>LilyTerm is a terminal emulator for the X Window System, based on the libvte library, and aims to be fast and lightweight.</p>
+  <p>LilyTerm features the ability to use multiple terminals in a single window and customize key binding.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lilyterm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: lilyterm_lilyterm.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

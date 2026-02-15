@@ -1,0 +1,5 @@
+{
+  "name": "K4DirStat",
+  "description": "Statistik direktori dan penggunaan disk",
+  "longDescription": "<p>K4DirStat (KDE Directory Statistics) adalah utilitas kecil yang menghitung penggunaan ruang disk pada pohon direktori, mirip dengan perintah 'du' di Unix. Aplikasi ini menampilkan penggunaan ruang disk oleh sebuah pohon direktori baik secara numerik maupun grafis. K4DirStat mendukung akses jaringan (misal, Anda dapat menggunakannya untuk menganalisis server FTP) dan menyediakan aksi pembersihan bawaan maupun yang dapat dikonfigurasi sendiri. Anda dapat langsung membuka cabang direktori di Konqueror atau shell pilihan, mengompresnya ke arsip .tar.bz2, atau menentukan aksi pembersihan sesuai kebutuhan Anda.</p>\n"
+}

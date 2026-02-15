@@ -1,0 +1,27 @@
+id: searchmonkey
+name: Searchmonkey
+description: Regular expression power search utility
+longDescription: |
+  <p>SearchMonkey is a light-weight Gtk application that aims to replace the cumbersome find/grep with a slick user interface that quickly provides a mark-up showing locations and quantity of text matches. The goal is to provide a simple to use and accessible search tool for end-users, and software developers alike.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - searchmonkey
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: searchmonkey_searchmonkey-32x32.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

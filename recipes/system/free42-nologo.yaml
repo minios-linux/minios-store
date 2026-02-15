@@ -1,0 +1,36 @@
+id: free42-nologo
+name: Free42 (decimal)
+description: HP-42s emulator
+longDescription: |
+  <p>It is a complete rewrite, not using any HP code, and it does not require an HP-42S ROM image. Loading and saving programs is possible. FPU is required.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - free42-nologo
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - calculation
+  - arithmetic
+  - scientific
+  - rpn
+iconSources:
+  - cached: free42-nologo_free42.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

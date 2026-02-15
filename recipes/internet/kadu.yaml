@@ -1,0 +1,26 @@
+id: kadu
+name: Kadu
+description: Gadu-Gadu/XMPP protocol client
+longDescription: |
+  <p>Gadu-Gadu is a Windows instant messenger, very popular in Poland. Kadu is a Qt5 client of Gadu-Gadu and XMPP for *nix systems.</p>
+  <p>This package provides Kadu along with plugins developed by Kadu developers.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kadu
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: k/ka/kadu.desktop/CC0D5464399F0443C85E0B8F195B953A/icons/128x128/kadu_kadu.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,36 @@
+id: parcellite
+name: Parcellite
+description: Lightweight GTK+ clipboard manager
+longDescription: |
+  <p>Parcellite is a stripped down, basic-features-only clipboard manager with a small memory footprint for those who like simplicity.</p>
+  <p>Features:</p>
+  <p> * Keeps a clipboard history.  * Various view options to display items the way you like it.  * Daemon mode; guard your clipboard contents when you close applications.  * Perform custom commands using clipboard contents.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - parcellite
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - clipboard
+  - manager
+  - copy
+  - paste
+iconSources:
+  - cached: parcellite_parcellite.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

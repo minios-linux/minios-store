@@ -1,0 +1,40 @@
+id: geneweb
+name: geneweb
+description: Geneweb genealogy software - start page
+longDescription: |
+  <p>Geneweb allows keeping track of ancestral data. It is a powerful system for maintaining a set of data about your family history. It supports much of the GEDCOM tag system for data storage, and can be used either as your primary system for archiving genealogical data, or as a web service (through a CGI interface) for publishing your data for others to use.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - geneweb
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - genealogy
+  - web
+  - database
+  - family tree
+  - consanguinity
+  - gedcom
+  - ged
+  - gw
+iconSources:
+  - cached: geneweb_geneweb.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

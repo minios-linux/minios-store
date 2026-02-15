@@ -1,0 +1,5 @@
+{
+  "name": "V_Sim",
+  "description": "V_Sim visualisiert atomare Strukturen wie Kristalle, Korngrenzen, Moleküle und mehr.",
+  "longDescription": "<p>V_Sim visualisiert atomare Strukturen wie Kristalle, Korngrenzen, Moleküle und ähnliche (entweder im Binärformat oder als Klartextdatei).</p>\n<p>Die Darstellung erfolgt pseudo-3D mit Kugeln (Atomen) oder Pfeilen (Spins). Nutzer können vielfältige Funktionen nutzen, um Ansichten auszuwählen, Bindungen festzulegen, Schnittflächen zu zeichnen, Flächen aus Skalarfeldern zu berechnen, Knoten zu duplizieren, Geometrie zu messen usw. Außerdem erlaubt V_Sim das Exportieren der Ansichten als Bilder in PNG-, JPG-, PDF- (Bitmap), SVG- (Schema) und anderen Formaten. Weitere Tools ermöglichen das Kolorieren von Atomen anhand von Datenwerten oder die Animation vieler Positionsdateien auf dem Bildschirm.</p>\n"
+}

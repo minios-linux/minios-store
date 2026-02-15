@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# MiniOS Store GTK3 Installer Launcher
+# This script launches the MiniOS Store graphical installer
+#
+
+set -e
+
+DIR=/usr/lib/minios-store
+
+exec python3 -c "
+import sys
+sys.path.insert(0, '$DIR')
+from minios_store.gui import main
+main()
+" "$@"

@@ -1,0 +1,5 @@
+{
+  "name": "ShowQ",
+  "description": "Reprodutor de áudio controlável via MIDI",
+  "longDescription": "<p>Aplicativo capaz de reproduzir faixas de áudio e acionar eventos MIDI, desenvolvido principalmente para produções teatrais.</p>\n<p>Recursos:  * Roteamento de até 8 canais por faixa.  * Reprodução via ALSA ou JACK.  * Carregar/salvar lista de faixas.  * Atalho de teclado para qualquer faixa.  * Controle total do aplicativo via MIDI.</p>\n"
+}

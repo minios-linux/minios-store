@@ -1,0 +1,5 @@
+{
+  "name": "mpv Media Player",
+  "description": "Riproduci film e brani musicali",
+  "longDescription": "<p>mpv è un lettore multimediale basato su MPlayer e mplayer2. Supporta una vasta gamma di formati di file video, codec audio e video, e tipi di sottotitoli.</p>\n<p>Le principali novità da mplayer2 a mpv includono:  * Rimozione di molto codice non necessario per favorire lo sviluppo  * Migliore visualizzazione dell'OSD  * Output del terminale più pulito  * Migliorato il supporto OpenGL  * Funzionalità di codifica (in sostituzione di mencoder)  * Supporto a Wayland  * Riproduzione di URL dai principali siti di streaming  * Miglioramenti agli screenshot  * ... Consulta mpv(1) per ulteriori informazioni sui cambiamenti tra MPlayer, mplayer2 e mpv.</p>\n"
+}

@@ -1,0 +1,32 @@
+id: clips
+name: CLIPS
+description: Expert system tool
+longDescription: |
+  <p>CLIPS 6.0 is an OPS-like forward chaining production system written in ANSI C by NASA. The CLIPS inference engine includes truth maintenance, dynamic rule addition, and customizable conflict resolution strategies.</p>
+  <p>CLIPS, including the runtime version, is easily embeddable in other applications.  CLIPS includes an object-oriented language called COOL (CLIPS Object-Oriented Language) which is directly integrated with the inference engine.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - clips
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: clips_clips.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,39 @@
+id: "corectrl"
+name: CoreCtrl
+description: A friendly hardware control
+longDescription: |
+  <p>CoreCtrl is a Free and Open Source GNU/Linux application that allows you
+         to control with ease your computer hardware using application profiles.
+         It aims to be flexible, comfortable and accessible to regular users.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - corectrl
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - core
+  - control
+  - system
+  - hardware
+screenshotSources:
+  - url: org/corectrl/CoreCtrl/06d47e9e9cbf64ae3f95b3e61b5eda3c/screenshots/image-1_orig.png
+    thumbnailUrl: org/corectrl/CoreCtrl/06d47e9e9cbf64ae3f95b3e61b5eda3c/screenshots/image-1_624x383@1.png
+    width: 1502
+    height: 922
+iconSources:
+  - url: org/corectrl/CoreCtrl/06d47e9e9cbf64ae3f95b3e61b5eda3c/icons/128x128/corectrl_corectrl.png
+    width: 128
+    height: 128
+developer: Juan Palacios
+homepage: "https://gitlab.com/corectrl/corectrl"
+enabled: true
+order: 99

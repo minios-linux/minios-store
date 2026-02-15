@@ -1,0 +1,43 @@
+id: pong2
+name: Pong2
+description: Remake of the old arcade classic in OpenGL
+longDescription: |
+  <p>Pong2 is an up till now two player (networked) game inspired by the classical &quot;Pong&quot; from Amiga, which adds another dimension to the playing field. It makes use of features found on modern 3d graphics cards, so decent hardware is a requirement.</p>
+  <p>It also has multiplayer support! 2 players can play against each other via network.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pong2
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - pong
+  - arcade
+  - multiplayer
+  - opengl
+iconSources:
+  - cached: pong2_pong2.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

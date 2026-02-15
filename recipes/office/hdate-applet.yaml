@@ -1,0 +1,29 @@
+id: "hdate-applet"
+name: Hdate
+description: Hebrew desktop calendar
+longDescription: |
+  <p>A GNOME desktop applet providing an Hebrew calendar that gives the user easy access to the Jewish calendar (including Hebrew date, parasha, sunset and sunrise times, holydays and moon phase).</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - hdate-applet
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: g/gh/ghcal.desktop/D00321B382CD58662FD84949FB387575/icons/128x128/hdate-applet_gnome-calendar.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

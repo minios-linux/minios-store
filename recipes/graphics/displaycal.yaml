@@ -1,0 +1,40 @@
+id: "displaycal"
+name: Scripting Client
+description: Control DisplayCAL via simple scripting commands
+longDescription: |
+  <p>Calibrates and characterizes display devices using a hardware sensor, driven by the open source color management system Argyll CMS. Supports multi-display setups and a variety of available settings like customizable whitepoint, luminance, black level, tone response curve as well as the creation of matrix and look-up-table ICC profiles with optional gamut mapping. Calibrations and profiles can be verified through measurements, and profiles can be installed to make them available to color management aware applications. Profile installation can utilize Argyll CMS, Oyranos and/or GNOME Color Manager if available, for flexible integration.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - displaycal
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: net/displaycal/DisplayCAL/8DFBA7A80165A8D4B0A68BDB125D5C8C/screenshots/image-1_orig.png
+    thumbnailUrl: net/displaycal/DisplayCAL/8DFBA7A80165A8D4B0A68BDB125D5C8C/screenshots/image-1_624x351.png
+    width: 1024
+    height: 576
+  - url: net/displaycal/DisplayCAL/8DFBA7A80165A8D4B0A68BDB125D5C8C/screenshots/image-2_orig.png
+    thumbnailUrl: net/displaycal/DisplayCAL/8DFBA7A80165A8D4B0A68BDB125D5C8C/screenshots/image-2_624x351.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: d/di/displaycal-curve-viewer.desktop/0170859e07af397bd8d73ddf84c178d0/icons/128x128/displaycal_displaycal-curve-viewer.png
+    width: 128
+    height: 128
+developer: Florian Höch
+homepage: "https://displaycal.net/"
+enabled: true
+order: 99

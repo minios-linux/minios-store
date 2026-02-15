@@ -1,0 +1,5 @@
+{
+  "name": "megan",
+  "description": "Interaktive Exploration und Analyse groß angelegter Mikrobiom-Sequenzierungsdaten",
+  "longDescription": "<p>\n      Megan-ce ist ein Shotgun-Sequenzer zur Analyse von Mikrobiomproben. Es handelt sich um eine Neufassung und Erweiterung des weit verbreiteten Mikrobiom-Analyse-Tools MEGAN, um die interaktive Analyse des taxonomischen und funktionalen Gehalts sehr großer Mikrobiom-Datensätze zu erleichtern. Zu den weiteren neuen Funktionen gehören ein funktionaler Klassifikator namens InterPro2GO, genzentriertes Read-Assembly, Hauptkoordinatenanalyse von Taxonomie und Funktion sowie die Unterstützung von Metadaten.\n    </p>\n<p>\n      Durch die Integration von MEGAN CE mit dem Hochdurchsatz-DNA-zu-Protein-Alignment-Tool DIAMOND kann eine leistungsstarke und vollständige Pipeline für die Analyse von Metagenom-Shotgun-Sequenzen bereitgestellt werden.\n    </p>\n"
+}

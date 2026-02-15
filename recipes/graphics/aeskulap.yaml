@@ -1,0 +1,33 @@
+id: aeskulap
+name: Aeskulap Viewer
+description: Medical image viewer and DICOM network client
+longDescription: |
+  <p>Aeskulap is able to load a series of special images stored in the DICOM format for review. Additionally it is able to query and fetch DICOM images from archive nodes (also called PACS) over the network.  Aeskulap tries to achieve a full open source replacement for  commercially available DICOM viewers.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - aeskulap
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: a/ae/aeskulap.desktop/FD331292C779152122BD2DC15BA9C280/icons/128x128/aeskulap_aeskulap.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

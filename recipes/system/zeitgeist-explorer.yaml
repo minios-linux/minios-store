@@ -1,0 +1,25 @@
+id: zeitgeist-explorer
+name: Zeitgeist Explorer
+description: A tool which can be used to monitor and explore the events logged by zeitgeist
+longDescription: |
+  <p>Zeitgeist explorer is a tool which can be used to monitor and explore the events logged by zeitgeist. In the monitor mode is can show the events logged in real-time just like wireshark.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zeitgeist-explorer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: zeitgeist-explorer_zeitgeist-explorer.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

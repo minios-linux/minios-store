@@ -1,0 +1,5 @@
+{
+  "name": "Navigation pour ARPES",
+  "description": "NavARP propose un outil de navigation pour les données de spectroscopie par photoémission résolue en angle (ARPES).",
+  "longDescription": "<p>NavARP propose un outil de navigation pour les données ARPES (Angle Resolved Photoemission Spectroscopy). NavARP accompagne l’acquisition de données ARPES (notamment lors des sessions de faisceau) et inclut un ensemble de bibliothèques dédiées pour faciliter la réalisation de figures de haute qualité destinées à la publication.</p>\n<p>Ce paquet installe l’utilitaire navarp pour Python 3.</p>\n"
+}

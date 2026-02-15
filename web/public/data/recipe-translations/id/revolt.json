@@ -1,0 +1,5 @@
+{
+  "name": "Revolt",
+  "description": "Integrasi lebih baik untuk Riot, klien Matrix, dengan lingkungan desktop",
+  "longDescription": "<p>Revolt adalah aplikasi ringan yang membungkus Riot untuk memberikan integrasi yang lebih baik\n\t\t\tdengan lingkungan desktop secara umum, khususnya GNOME:</p>\n<ul>\n  <li>Menjadikan Riot sebagai aplikasi mandiri, bukan hanya tab di browser</li>\n  <li>Notifikasi yang selalu aktif (untuk lingkungan desktop yang mendukung, seperti GNOME)</li>\n  <li>Notifikasi otomatis tidak muncul saat jendela Revolt sedang difokuskan</li>\n  <li>Ikon status pada lingkungan desktop yang memiliki applet tray bar (seperti XFCE, Budgie, dan banyak lainnya)</li>\n</ul>\n"
+}

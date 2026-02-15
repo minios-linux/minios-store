@@ -1,0 +1,5 @@
+{
+  "name": "Tremotesf",
+  "description": "Interfaccia grafica remota per il client Transmission BitTorrent",
+  "longDescription": "<p>\n      Tremotesf è un'interfaccia grafica remota per il client Transmission BitTorrent. Permette il pieno controllo della propria istanza transmission-daemon,\n      la gestione dei torrent, la configurazione delle impostazioni di Transmission e la visualizzazione delle statistiche del server.\n    </p>\n<p>\n      È possibile aggiungere diversi profili di server e passare rapidamente da uno all'altro (solo uno può essere connesso alla volta).\n      Tremotesf supporta HTTPS, inclusi certificati autofirmati e autenticazione tramite certificato client.\n      È possibile impostare directory montate per i server, aprire rapidamente i file dei torrent e scegliere la cartella di destinazione tramite il file dialog.\n    </p>\n"
+}

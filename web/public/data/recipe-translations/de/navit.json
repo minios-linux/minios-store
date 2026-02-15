@@ -1,0 +1,5 @@
+{
+  "name": "Navit",
+  "description": "Open-Source Navigationssoftware mit Vektorkarten und Routing-Engine",
+  "longDescription": "<p>Navit ist ein Navigationssystem für Fahrzeuge mit integrierter Routing-Engine.</p>\n<p>Dank des modularen Aufbaus kann Navit Vektorkarten in verschiedenen Formaten für die Routenberechnung und die Darstellung der Karte nutzen. Es ist sogar möglich, mehrere Karten gleichzeitig zu verwenden.</p>\n<p>Die Benutzeroberflächen auf Basis von GTK+ oder SDL sind für die Bedienung per Touchscreen optimiert. Sonderziele (Points of Interest) verschiedener Formate werden auf der Karte angezeigt.</p>\n<p>Die aktuelle Fahrzeugposition wird entweder über gpsd oder direkt von NMEA-GPS-Empfängern ermittelt.</p>\n<p>Die Routing-Engine berechnet nicht nur optimal die Route zum gewünschten Ziel, sondern gibt auch Navigationsanweisungen aus und kann diese dank speech-dispatcher sogar vorlesen.</p>\n<p>Das Debian-Paket von Navit enthält von Haus aus keine Karten. Hinweise zum Bezug von Karten finden Sie unter &lt;http://wiki.navit-project.org/index.php/Main_Page#Maps&gt;.</p>\n"
+}

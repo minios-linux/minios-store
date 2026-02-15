@@ -1,0 +1,33 @@
+id: postr
+name: Flickr Uploader
+description: Upload photos to Flickr
+longDescription: |
+  <p>Postr is a Flickr  uploading tool for the GNOME desktop, which aims to be simple to use but exposing enough of Flickr to be useful.</p>
+  <p>It has a simple user interface, and lets you set common attributes for your photos: title, description, tags, sets, groups, privacy, licence, etc.</p>
+  <p>It is integrated with Nautilus: you can either run postr when you are browsing your photos or just drag them from Nautilus to drop them in Postr.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - postr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - flickr
+  - upload
+  - picture
+  - postr
+  - image
+  - tool
+  - gnome
+iconSources:
+  - cached: postr_postr.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

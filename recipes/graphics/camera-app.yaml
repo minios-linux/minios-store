@@ -1,0 +1,26 @@
+id: camera-app
+name: Camera
+description: Download files from your digital camera
+longDescription: |
+  <p>Camera is a simple GNUstep application to download files from a digital camera. The files can be optionally deleted after download. During download, a thumbnail of the currently downloaded file is displayed.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - camera.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - camera
+  - photos
+iconSources:
+  - cached: camera.app_app-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

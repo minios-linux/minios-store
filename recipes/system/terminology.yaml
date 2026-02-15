@@ -1,0 +1,40 @@
+id: "terminology"
+name: Terminology
+description: Terminal emulator
+longDescription: |
+  <p>It emulates a slightly extended vt100 with some extensions and bling:  * Most escapes supported by xterm, rxvt, Xterm 256 color, etc. work  * Background effects, Transparency, bitmap and scalable fonts supported  * Themes for the layout and design, and a visual bell.  * URL, file path and email address detection and link-handling  * Inline display of link content  * Multiple copy and paste selections and buffer support  * Works in X11, Wayland and directly in the Linux framebuffer (fbcon)  * Finger/touch controlled, scan scale by UI scaling factors  * Render using OpenGL or OpenGL-ES2 or Software mode.  * Can display inlined multimedia, multiple tabs and split into multiple panes  * Block text selection. Drag and drop of text selections and links  * Can stream media from URLs  * Tab switcher has live thumbnail content  * Single process, multiple windows/terminals support</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - terminology
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shell
+  - prompt
+  - command
+  - commandline
+iconSources:
+  - url: t/te/terminology.desktop/443a670a48d4d9e2736fb28daf6bbb6b/icons/128x128/terminology_terminology.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

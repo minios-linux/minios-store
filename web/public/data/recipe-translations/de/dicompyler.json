@@ -1,0 +1,5 @@
+{
+  "name": "Dicompyler",
+  "description": "Forschungsplattform für Strahlentherapie",
+  "longDescription": "<p>Dicompyler ist eine erweiterbare, vollständig quelloffene Forschungsplattform für die Strahlentherapie auf Basis des DICOM-Standards. Zudem dient sie als plattformübergreifender DICOM-RT-Viewer.</p>\n<p>Funktionen:  * Import von CT-Bildern, DICOM-RT-Struktursätzen, RT-Dosis- und RT-Plan-Dateien  * Erweiterbares Plug-in-System mit enthaltenen Erweiterungen:     - 2D-Bildanzeige mit Dosis- und Strukturüberlagerung     - Dosis-Volumen-Histogramm-Anzeige mit Analyse von DVH-Parametern     - DICOM-Datenbaum-Viewer     - Patientenanonymisierung</p>\n"
+}

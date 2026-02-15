@@ -1,0 +1,5 @@
+{
+  "name": "KCachegrind",
+  "description": "Visualisasi Data Profiling Performa",
+  "longDescription": "<p>KCachegrind adalah alat visualisasi untuk data profiling yang dihasilkan oleh calltree, sebuah alat profiling memori pada valgrind. Setiap executable dapat diprofil tanpa perlu dikompilasi ulang, termasuk aplikasi multi-thread, pustaka berbagi pakai, dan plugin.</p>\n<p>Untuk memvisualisasikan output dari alat profiling selain Valgrind, beberapa converter tersedia di paket kcachegrind-converters.</p>\n<p>Paket ini merupakan bagian dari modul KDE Software Development Kit.</p>\n"
+}

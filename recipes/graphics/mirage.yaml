@@ -1,0 +1,40 @@
+id: mirage
+name: Mirage
+description: A fast GTK+ Image Viewer
+longDescription: |
+  <p>Mirage is ideal for users who wish to keep their computers lean while still having a clean image viewer.</p>
+  <p>Features:  * Supports png, jpg, svg, xpm, gif, bmp, tiff, and others  * Preloading to navigate faster through images (optional)  * Thumbnail pane for quick navigation  * Slideshow and fullscreen mode  * Rotating, zooming, flipping, resizing, and cropping  * Custom user actions  * Screenshot</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mirage
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - image
+  - viewer
+  - graphical
+iconSources:
+  - cached: mirage_mirage.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

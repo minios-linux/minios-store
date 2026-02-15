@@ -1,0 +1,5 @@
+{
+  "name": "DVBcut",
+  "description": "Corte e edite streams de vídeo MPEG2 em múltiplos formatos de exportação",
+  "longDescription": "<p>O DVBcut é um aplicativo Qt que permite selecionar trechos específicos de um stream de transporte MPEG (como os recebidos via transmissão digital DVB) e salvar esses trechos em um único arquivo MPEG. Ele adota uma abordagem de 'cirurgia de precisão', mantendo os dados de vídeo e áudio originais praticamente intactos, reencodificando apenas alguns quadros no início e/ou fim do trecho selecionado para garantir um arquivo MPEG válido.</p>\n"
+}

@@ -1,0 +1,40 @@
+id: slimevolley
+name: Slime Volley
+description: Unrealistic 2D volleyball simulation
+longDescription: |
+  <p>Slime Volley is a 2D arcade-oriented volleyball simulation, in the spirit of some Java games of the same name. Two teams, 1-3 players each, try to be the first to get 10 points. This happens when the one ball touches the floor on the other side of the net. There can be 1 to 8 balls in game. Each player use 4 keys, 2 direction keys, one for jump and one for changing its skin.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - slimevolley
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - volleyball
+  - 2d
+iconSources:
+  - cached: slimevolley_slimevolley_64.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

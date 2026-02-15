@@ -1,0 +1,5 @@
+{
+  "name": "GNOME Package Updater",
+  "description": "Mettez à jour les logiciels installés sur le système",
+  "longDescription": "<p>\n      Package Updater vous permet de mettre à jour les paquets de votre système sans\n      redémarrer.\n      Vous pouvez consulter les détails de chaque mise à jour et choisir lesquelles appliquer.\n    </p>\n<p>\n      Package Updater utilise PackageKit et fonctionne sur toutes les distributions utilisant\n      le gestionnaire de paquets natif.\n    </p>\n"
+}

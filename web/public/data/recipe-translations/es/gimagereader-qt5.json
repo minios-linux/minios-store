@@ -1,0 +1,5 @@
+{
+  "name": "gImageReader",
+  "description": "Interfaz gráfica (qt5) para tesseract-ocr",
+  "longDescription": "<p>gImageReader es una aplicación sencilla de reconocimiento óptico de caracteres (OCR) que funciona como interfaz para el motor de OCR tesseract. Sus características incluyen:</p>\n<ul>\n  <li>Importar documentos PDF e imágenes desde el disco, dispositivos de escaneo, portapapeles y capturas de pantalla</li>\n  <li>Procesar múltiples imágenes y documentos simultáneamente</li>\n  <li>Definición de áreas de reconocimiento manual o automática</li>\n  <li>Reconocimiento a texto sin formato o documentos hOCR</li>\n  <li>Visualización del texto reconocido junto a la imagen</li>\n  <li>Edición posterior del texto reconocido, incluyendo corrección ortográfica</li>\n  <li>Generación de documentos PDF/ODT a partir de documentos hOCR</li>\n</ul>\n"
+}

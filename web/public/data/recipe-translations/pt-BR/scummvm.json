@@ -1,0 +1,5 @@
+{
+  "name": "ScummVM",
+  "description": "Interpretador para diversos jogos de aventura",
+  "longDescription": "<p>O ScummVM é uma 'máquina virtual' para diversos jogos clássicos de aventura gráfica point-and-click. Foi desenvolvido para executar Simon the Sorcerer 1 e 2 da Adventure Soft, Beneath A Steel Sky da Revolution, e jogos baseados no sistema SCUMM (Script Creation Utility for Maniac Mansion) da LucasArts. O SCUMM é utilizado em muitos jogos, como Monkey Island, Day of the Tentacle, Sam and Max, entre outros. Consulte a lista oficial de compatibilidade em &lt;http://www.scummvm.org/compatibility.php&gt; para ver todos os jogos suportados.</p>\n<p>Os dados de quatro jogos compatíveis com ScummVM estão incluídos no Debian. São eles:</p>\n<p> - Beneath a Steel Sky                 (pacote: beneath-a-steel-sky)  - Drascula: The Vampire Strikes Back  (pacote: drascula)  - Flight of the Amazon Queen          (pacote: flight-of-the-amazon-queen)  - Lure of the Temptress               (pacote: lure-of-the-temptress)</p>\n<p>Para utilizar o ScummVM, é necessário instalar um desses jogos ou obter os dados proprietários de outro jogo suportado.</p>\n"
+}

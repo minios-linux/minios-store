@@ -1,0 +1,37 @@
+id: morris
+name: Morris
+description: Nine Men's Morris Game
+longDescription: |
+  <p>Morris is an implementation of the board game &quot;Nine Men&apos;s Morris&quot;. Sometimes simply called Mills, Morris, Merrills, or Mühle in German. This implementation supports not only the standard game, but also several rule-variants and different boards. The game supports a strong computer player which learns from past games played.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - morris
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: morris_morris.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

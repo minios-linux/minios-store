@@ -1,0 +1,5 @@
+{
+  "name": "IpQalc",
+  "description": "Calcolatrice grafica per subnet IPv4",
+  "longDescription": "<p>\n      Piccola utility per il calcolo di indirizzi IP, inclusi indirizzi broadcast e di rete, oltre alla wildcard mask Cisco.\nA partire da un indirizzo IPv4 calcola l’indirizzo broadcast, quello di rete, la wildcard mask Cisco e l’intervallo di host. Può essere utilizzato anche come strumento didattico e presenta i risultati anche in formato binario e esadecimale.\n    </p>\n"
+}

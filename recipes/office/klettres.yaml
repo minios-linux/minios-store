@@ -1,0 +1,43 @@
+id: "klettres"
+name: KLettres
+description: Learn The Alphabet
+longDescription: |
+  <p>KLettres is an application specially designed to help the user to learn an alphabet in a new language and then to learn to read simple syllables. The user can be a young child aged from two and a half or an adult that wants to learn the basics of a foreign language. There are currently 25 languages available: Arabian, Brazilian Portuguese, Czech, Danish, Dutch, British English, US English, Phonics English, French, German, Hebrew, Hungarian, Italian, Kannada, Low Saxon, Malayalam, Norwegian Bokmål, Punjabi, Luganda, Romanized Hindi, Russian, Spanish, Slovak, Telugu and Ukrainian. KLettres provides a special user interface and themes for younger users.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - klettres
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/klettres.desktop/a73b4821c511d38e52f4c439a7d25fba/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/klettres.desktop/a73b4821c511d38e52f4c439a7d25fba/screenshots/image-1_624x493@1.png
+    width: 834
+    height: 659
+iconSources:
+  - url: org/kde/klettres.desktop/a73b4821c511d38e52f4c439a7d25fba/icons/128x128/klettres_klettres.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/klettres/"
+enabled: true
+order: 99

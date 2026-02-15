@@ -1,0 +1,28 @@
+id: ddms
+name: Dalvik Debug Monitor Server
+description: Debugger for Android applications
+longDescription: |
+  <p>Android Studio includes a debugging tool called the Dalvik Debug Monitor Server (DDMS), which provides port-forwarding services, screen capture on the device, thread and heap information on the device, logcat, process, and radio state information, incoming call and SMS spoofing, location data spoofing, and more.</p>
+  <p>See also: &lt;https://developer.android.com/studio/profile/ddms.html&gt;</p>
+  <p>This package provides the standalone launcher of DDMS. However it is deprecated, please use Android Device Monitor instead.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ddms
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - android
+  - debug
+iconSources:
+  - cached: ddms_ddms.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

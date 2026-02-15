@@ -1,0 +1,28 @@
+id: qlogo
+name: QLogo-GUI
+description: A UCBLogo-compatible interpreter using Qt
+longDescription: |
+  <p>QLogo is an interpreter for the Logo language written in C++ using Qt and OpenGL. Specifically, it mimics (as reasonably as possible) the UCBLogo interpreter developed at U.C. Berkeley. In fact, the UCBLogo manual describes about 99.9% of the functionality. You can find the UCBLogo Manual here: http://people.eecs.berkeley.edu/~bh/usermanual</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qlogo
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - logo
+  - qlogo
+  - turtle
+  - ucblogo
+iconSources:
+  - url: q/ql/qlogo-gui.desktop/9c72f5004abafe31340f502c783fed94/icons/128x128/qlogo_QLogo-GUI.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

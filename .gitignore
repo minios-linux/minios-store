@@ -1,0 +1,41 @@
+# Debian package build files
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/*.substvars
+debian/*.debhelper
+debian/*.debhelper.log
+debian/*.postrm.debhelper
+debian/*.postinst.debhelper
+debian/*.preinst.debhelper
+debian/*.prerm.debhelper
+debian/minios-store/
+debian/minios-store-common/
+debian/minios-store-gui/
+debian/tmp/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node.js
+web/node_modules/
+web/dist/
+
+# Build artifacts
+*.deb
+*.buildinfo
+*.changes
+*.mo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+id: librem5-flash-image
+name: librem5-flash-image
+description: Image flashing tool for Librem 5 devices
+longDescription: |
+  <p>
+        Scripts useful to for working with the Librem 5 and the
+        Librem 5 Devkit.
+        .
+        These tools are useful on the host side (e.g. the machine
+        you use to flash the image from). They are not useful on
+        the Librem 5 or the Devkit itself.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - librem5-flash-image
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+homepage: "https://source.puri.sm/Librem5/librem5-flash-image"
+enabled: true
+order: 99

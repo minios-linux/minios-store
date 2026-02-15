@@ -1,0 +1,5 @@
+{
+  "name": "gEDA PCB",
+  "description": "Crea e modifica layout di circuiti stampati (PCB)",
+  "longDescription": "<p>PCB è un editor interattivo di circuiti stampati disponibile per sistemi Unix, Linux, Windows e Mac.</p>\n<p>PCB include una funzione di rats nest e l'importazione di schemi/netlist, il controllo delle regole di progetto (DRC) e può generare output negli standard industriali come RS-274X (Gerber), forature NC, netlist IPC-D-356 e dati di centratura (X-Y) per la produzione e l'assemblaggio delle schede. Sono disponibili anche immagini fotorealistiche e per la revisione del progetto.</p>\n<p>PCB offre funzionalità avanzate come autorouter, router topologico e diversi ottimizzatori di tracce che possono ridurre notevolmente i tempi di realizzazione del layout.</p>\n<p>Per esigenze personalizzate, PCB mette a disposizione un'API per plug-in per aggiungere nuove funzionalità e utilizzarle sia dall'interfaccia grafica che tramite script.</p>\n"
+}

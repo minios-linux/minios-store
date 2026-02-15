@@ -1,0 +1,26 @@
+id: fasttracker2
+name: Fasttracker II
+description: Fasttracker II clone for modern computers
+longDescription: |
+  <p>Multi-platform clone of the classic music making software FastTracker II. It can load XM, MOD, S3M, STM module files.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fasttracker2
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+tags:
+  - tracker
+  - music
+iconSources:
+  - cached: fasttracker2_fasttracker2.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

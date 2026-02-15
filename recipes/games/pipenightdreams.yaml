@@ -1,0 +1,40 @@
+id: pipenightdreams
+name: Pipenightdreams
+description: Single player game with pipes
+longDescription: |
+  <p>If you know the old arcade-game &quot;Pipe Dreams&quot;, you&apos;ll instantly recognize this. The goal is to connect different pipe segments to let the water flow from the inlet and through as many pipes as possible, until it finally reaches the outlet. This requires an even combination of speed, skill and foresight.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pipenightdreams
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - logicgame
+iconSources:
+  - cached: pipenightdreams_pipenightdreams.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

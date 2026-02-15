@@ -1,0 +1,5 @@
+{
+  "name": "GNUnet Secured P2P",
+  "description": "Condividi file tramite la rete anonima e resistente alla censura di GNU",
+  "longDescription": "<p>GNUnet è un framework per il networking peer-to-peer sicuro che non si affida a servizi centralizzati o comunque considerati affidabili. Il suo obiettivo principale è offrire una solida base software libera per una rete globale che garantisca sicurezza e, in particolare, rispetti la privacy.</p>\n<p>GNUnet è nato come un sistema di condivisione file anonimo e resistente alla censura, ma si è evoluto includendo altre applicazioni e numerosi componenti generici per applicazioni di networking sicuro. In particolare, GNUnet integra ora il GNU Name System, un'infrastruttura di chiavi pubbliche decentralizzata che preserva la privacy.</p>\n<p>Questo pacchetto contiene il client grafico, realizzato con il toolkit GTK+. Per utilizzare GNUnet è necessario avere gnunet installato, sia sul proprio server sia sulla macchina locale.</p>\n"
+}

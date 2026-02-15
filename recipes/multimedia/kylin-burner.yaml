@@ -1,0 +1,46 @@
+id: "kylin-burner"
+name: Burner
+description: Create and copy CDs and DVDs
+longDescription: |
+  <p>Burner is a simple application to burn, copy and erase CD and DVD media: audio, video or data. It features among other things:  * On-the-fly burning  * Multisession support  * On-the-fly conversion of music playlists in all formats supported by    GStreamer</p>
+  <p>This package contains the standalone app.</p>
+  <p>The following packages, if installed, will provide Burner with added functionality:  * cdrdao to burn combined data/audio CDs and for byte-to-byte copy  * GStreamer backends to support more audio formats  * vcdimager to create VCDs or SVCDs  * libdvdcss2 to copy encrypted DVDs  * tracker to search for video, audio, image and document files</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kylin-burner
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - disc
+  - cdrom
+  - dvd
+  - burn
+  - audio
+  - video
+iconSources:
+  - url: b/bu/burner.desktop/d7b3e9ff5f1644afad1f755e23e06208/icons/128x128/kylin-burner_burner.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

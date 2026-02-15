@@ -1,0 +1,38 @@
+id: "glogg"
+name: glogg
+description: A smart interactive log explorer.
+longDescription: |
+  <p>glogg is a multi-platform GUI application to browse and search through long or complex log files. It is designed with programmers and system administrators in mind and can be seen as a graphical, interactive combination of grep and less.</p>
+  <p>Main features include:  * Accept egrep regular expression to search or filter the log.  * Interactively display results of the search in a second, filtered window.  * Colorize the log and the search results.  * Read the file directly from disk, without loading it into memory.  * Happily handle big (&gt;4 GiB) files.  * Read UTF-8 and ISO-8859-1 encoded files.  * Follow a log in real-time as it is written to disk.  * Allow one to insert marks in the logs to interesting lines.  * Support less/vim like keyboard commands to move around the file.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - glogg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gl/glogg.desktop/4310bb4dff3ca9d6eb9b1de773100f51/icons/128x128/glogg_glogg.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

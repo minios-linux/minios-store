@@ -1,0 +1,32 @@
+id: xvt
+name: Xvt
+description: Run a command line shell
+longDescription: |
+  <p>xvt is an X terminal-emulator that is designed to be more or less compatible with xterm while using much less swap space.  It is mainly intended for use at sites which use large numbers of X terminals but may also be useful on single workstations that are short of memory. The main way that xvt achieves its small size is by avoiding the use of the X toolkit.</p>
+  <p>If you are looking for a more featureful terminal-emulator than xvt, but one which still uses less swap space than xterm, consider rxvt.</p>
+  <p>Features of xterm which xvt does not support include:</p>
+  <p> - Tektronix 4014 emulation  - Session logging  - Pop-up menus.  The only one of xterm&apos;s popup menu commands that    is provided in xvt is displaying and hiding of the scrollbar    and this is done simply by pressing any mouse key in the window    with the CONTROL key held down.  - Toolkit style configurability.  In particular, xvt does not    allow the user to remap the mouse or keyboard keys.</p>
+  <p>Features which are supported include:</p>
+  <p> - VT100 emulation.  Most of the main escape sequences are supported --    certainly all those used by the standard screen based UNIX    applications.  - Lines that scroll off the top of the window are saved and can be    scrolled back with a scrollbar.  - Text selection and insertion including double and triple click for    words and lines.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xvt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - shell
+  - command
+  - commandline
+iconSources:
+  - url: x/xv/xvt.desktop/6216D2AE363EC99AFA4845D0BFC33B70/icons/128x128/xvt_xterm-color.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

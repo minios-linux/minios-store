@@ -1,0 +1,38 @@
+id: shelxle
+name: ShelXle
+description: A Qt GUI for SHELX
+longDescription: |
+  <p>ShelXle combines an editor with syntax highlighting for the SHELXL-associated .ins (input) and .res (output) files with an interactive graphical display for visualization of a three-dimensional structure including the electron density (Fo) and difference density (Fo-Fc) maps.</p>
+  <p>http://dx.doi.org/10.1107/S0021889811043202</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - shelxle
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: shelxle_shelxle.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

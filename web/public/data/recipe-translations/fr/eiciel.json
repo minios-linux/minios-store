@@ -1,0 +1,5 @@
+{
+  "name": "Eiciel",
+  "description": "Outil de gestion des entrées ACL",
+  "longDescription": "<p>Eiciel est un outil autonome et un module complémentaire pour Nautilus permettant de modifier graphiquement les listes de contrôle d'accès (ACL) de vos fichiers. Les ACL offrent des permissions plus précises que les permissions Unix traditionnelles utilisateur, groupe, autres (UGO).</p><p>Eiciel permet également de modifier les attributs étendus des fichiers et dossiers, si le système de fichiers le prend en charge.</p><p>Tous les systèmes de fichiers ne prennent pas en charge les ACL et les attributs étendus. Même pour ceux qui les prennent en charge, ils doivent être activés (par l'administrateur système) avant d'utiliser Eiciel.</p>"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Piper",
+  "description": "Outil graphique de configuration avancée de souris",
+  "longDescription": "<p>\n      Piper est une interface graphique permettant de configurer des souris de jeu.\n      Les options incluent le réglage de la résolution (DPI) de la souris, l’ajout et la suppression de profils,\n      la personnalisation des couleurs LED et la modification du comportement des boutons.\n    </p>\n<p>\n      Piper nécessite ratbagd, le démon fourni par libratbag, pour communiquer effectivement avec la souris.\n      Piper sert uniquement d’interface à ratbagd, qui doit être installé et en cours d’exécution lors du lancement de Piper.\n    </p>\n"
+}

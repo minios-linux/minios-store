@@ -1,0 +1,43 @@
+id: "kig"
+name: Kig
+description: Interactive Geometry
+longDescription: |
+  <p>Kig is an interactive mathematics software for learning and teaching geometry. It allows to explore mathematical figures and concepts using the computer and also can serve as a drawing tool for mathematical figures. Constructions can be made with points, vectors, lines, and polygons and all elements can be modified directly by using the mouse. Kig helps teachers and students to make conjectures and to understand how to prove geometric theorems.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kig
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kig.desktop/0d0cc3f252007df2677b849d3231afab/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kig.desktop/0d0cc3f252007df2677b849d3231afab/screenshots/image-1_624x566@1.png
+    width: 674
+    height: 612
+iconSources:
+  - url: org/kde/kig.desktop/0d0cc3f252007df2677b849d3231afab/icons/128x128/kig_kig.png
+    width: 128
+    height: 128
+homepage: "http://edu.kde.org/kig/"
+enabled: true
+order: 99

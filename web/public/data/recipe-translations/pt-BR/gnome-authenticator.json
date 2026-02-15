@@ -1,0 +1,5 @@
+{
+  "name": "Authenticator",
+  "description": "Aplicativo de autenticação em dois fatores",
+  "longDescription": "<p>Aplicativo simples para gerar códigos de autenticação em dois fatores, desenvolvido para o GNOME.</p>\n<p>Recursos:</p>\n<ul>\n  <li>Leitor de QR code</li>\n  <li>Interface bonita e intuitiva</li>\n  <li>Amplo banco de dados com mais de 560 serviços suportados</li>\n  <li>Mantenha seus tokens PIN seguros bloqueando o aplicativo com uma senha</li>\n  <li>Busca automática da imagem do serviço usando o favicon</li>\n  <li>Possibilidade de adicionar novos serviços</li>\n  <li>Tema escuro e luz noturna</li>\n</ul>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Sequeler",
+  "description": "Klien SQL yang Ramah Pengguna",
+  "longDescription": "<p>Mudah menghubungkan ke basis data lokal maupun jarak jauh Anda</p>\n<p>Simpan koneksi basis data di perpustakaan, sambungkan melalui SSH tunnel, ketik dan jalankan perintah SQL langsung di aplikasi, serta lakukan segala kebutuhan Anda tanpa harus membuka terminal.</p>\n<p>Basis Data yang Didukung:</p>\n<ul>\n  <li>SQLite</li>\n  <li>MySQL</li>\n  <li>MariaDB</li>\n  <li>PostgreSQL</li>\n</ul>\n<p>Fitur Utama:</p>\n<ul>\n  <li>Uji koneksi sebelum menyimpannya</li>\n  <li>Lihat struktur tabel, isi, dan relasi</li>\n  <li>Tulis berbagai kueri SQL kustom</li>\n  <li>Beralih antara mode terang dan gelap</li>\n  <li>Shortcut keyboard praktis untuk keluar (ctrl+q), membuat koneksi baru (ctrl+shift+n), membuka jendela baru (ctrl+n)</li>\n</ul>\n"
+}

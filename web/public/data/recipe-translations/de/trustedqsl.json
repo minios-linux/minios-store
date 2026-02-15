@@ -1,0 +1,5 @@
+{
+  "name": "TrustedQSL",
+  "description": "QSO-Daten für den Upload zu LoTW signieren",
+  "longDescription": "<p>Open-Source-Bibliotheken und -Werkzeuge zur Unterstützung digitaler Signaturen für Amateurfunk-QSL-Informationen.</p>\n<p>Ein QSL ist eine Bestätigung eines Kontakts zwischen zwei Amateurfunkstationen. Das ARRL Logbook of the World (LoTW) ist eine Datenbank, die Informationen über Verbindungen zwischen Amateurstationen (QSOs) sammelt. Dieses Paket stellt das Programm 'tqsl' bereit, um Ihre digitalen Zertifikate für LoTW zu verwalten sowie QSO-Logdateien zu signieren und hochzuladen.</p>\n"
+}

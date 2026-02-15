@@ -1,0 +1,5 @@
+{
+  "name": "X NetHack",
+  "description": "Jogo de exploração de masmorras - versão com interface gráfica",
+  "longDescription": "<p>NetHack é um jogo de aventura no estilo Dungeons &amp; Dragons, divertido e incrivelmente viciante. Você controla um personagem de diferentes classes (como mago, arqueiro ou turista), explorando masmorras para recuperar o Amuleto de Yendor para seu deus. Pelo caminho, pode encontrar um mecânico quântico, o Rei Arthur ou — se tiver MUITA sorte — o Feroz Bicho-papão de Traal.</p>\n<p>É recomendável instalar uma interface para o NetHack para jogar. Cada uma delas inclui a versão original, sem gráficos, e todas podem ser instaladas ao mesmo tempo:  - nethack-console: somente texto, NetHack puro;  - nethack-x11    : versão gráfica original baseada em X11/Athena;  - nethack-lisp   : versão com interface Lisp.</p>\n<p>Este pacote traz as versões em texto e a gráfica baseada em X11/Athena do NetHack.</p>\n"
+}

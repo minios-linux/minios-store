@@ -1,0 +1,5 @@
+{
+  "name": "xgterm",
+  "description": "Emulador de terminal X11 para trabajar con IRAF",
+  "longDescription": "<p>\n      XGterm ofrece una emulación de terminal gráfica compatible con Tek 4012 para IRAF, además de una capacidad de servidor de widgets controlada por flujo de datos, usando Object Manager para brindar acceso completo al toolkit y conjunto de widgets subyacente. La ventana gráfica Gterm funciona casi de manera idéntica a la ventana Tek de xterm, pero cuenta con extensiones para implementar cursores de pantalla completa, imágenes, relleno de áreas, colores, borrado de gráficos, una \"línea de estado\" y más.\n    </p>\n"
+}

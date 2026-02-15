@@ -1,0 +1,5 @@
+{
+  "name": "PulseEffects",
+  "description": "Efek Audio untuk Aplikasi PulseAudio",
+  "longDescription": "<p>\n      PulseEffects adalah perangkat lunak manipulasi audio tingkat lanjut. Aplikasi ini mencakup fitur seperti equalizer, limiter, kompresor, serta efek reverberasi, dan masih banyak lagi. Sebagai pelengkap, tersedia juga spektrum analyzer bawaan.\n    </p>\n<p>\n      Karena PulseEffects menggunakan server suara default PulseAudio, aplikasi ini dapat berjalan dengan hampir semua aplikasi yang Anda gunakan. Semua aplikasi yang didukung ditampilkan pada jendela utama, dan Anda bisa mengaktifkan masing-masing secara individual.\n    </p>\n<p>\n      Selain memanipulasi output suara, PulseEffects juga dapat menerapkan efek pada perangkat input, seperti mikrofon. Ini sangat berguna untuk perekaman audio ataupun saat melakukan percakapan suara.\n    </p>\n<p>\n      Saat PulseEffects dijalankan, konfigurasi yang digunakan pada sesi terakhir akan diingat secara otomatis. Anda juga dapat menyimpan seluruh pengaturan saat ini sebagai profil.\n    </p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Affichages",
+  "description": "Configuration des affichages wlroots",
+  "longDescription": "<p>wdisplays est une application graphique permettant de configurer les affichages dans les compositeurs Wayland. Elle réutilise une partie du code de kanshi. Elle fonctionne avec tout compositeur implémentant le protocole wlr-output-management-unstable-v1, notamment sway. Ce projet vise à offrir un réglage précis des paramètres d’affichage pour les kiosques, la signalétique numérique et les installations multi-écrans avancées.</p>\n"
+}

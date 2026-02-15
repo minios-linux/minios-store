@@ -1,0 +1,40 @@
+id: "zeal"
+name: Zeal
+description: Documentation browser
+longDescription: |
+  <p>Zeal is a simple offline documentation browser inspired by Dash.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zeal
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/zealdocs/zeal/e7defe86b8adb65c74ff75d9be80bdda/screenshots/image-1_orig.png
+    thumbnailUrl: org/zealdocs/zeal/e7defe86b8adb65c74ff75d9be80bdda/screenshots/image-1_624x362.png
+    width: 886
+    height: 515
+iconSources:
+  - url: org/zealdocs/zeal/e7defe86b8adb65c74ff75d9be80bdda/icons/128x128/zeal_zeal.png
+    width: 128
+    height: 128
+developer: Oleg Shparber
+homepage: "https://zealdocs.org/"
+enabled: true
+order: 99

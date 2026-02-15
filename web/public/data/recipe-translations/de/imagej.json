@@ -1,0 +1,5 @@
+{
+  "name": "ImageJ",
+  "description": "Bildverarbeitung und -analyse",
+  "longDescription": "<p>ImageJ kann 8-Bit-, 16-Bit- und 32-Bit-Bilder anzeigen, bearbeiten, analysieren, verarbeiten, speichern und drucken. Es unterstützt viele Bildformate, darunter TIFF, GIF, JPEG, BMP, DICOM, FITS und \"raw\". Dabei werden auch sog. \"Stacks\" unterstützt, womit mehrere Bilder in einem einzigen Fenster verwaltet werden können.</p>\n<p>Das Programm berechnet Flächen- sowie Pixelwertstatistiken in benutzerdefinierten Auswahlbereichen. Entfernungen und Winkel lassen sich genau messen. Dichte-Histogramme und Linienprofil-Diagramme können erstellt werden. Zu den Standardfunktionen der Bildverarbeitung gehören Kontrastanpassung, Schärfen, Glätten, Kantenerkennung und Medianfilterung.</p>\n<p>Räumliche Kalibrierung ermöglicht reale Maßangaben beispielsweise in Millimetern. Auch eine Dichte- bzw. Grauwertkalibrierung ist möglich.</p>\n<p>ImageJ wird von Wayne Rasband (wayne@codon.nih.gov) am Research Services Branch, National Institute of Mental Health, Bethesda, Maryland, USA entwickelt.</p>\n"
+}

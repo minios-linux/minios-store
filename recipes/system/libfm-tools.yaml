@@ -1,0 +1,30 @@
+id: libfm-tools
+name: Preferred Applications
+description: Select applications called on click on Web link or e-mail address
+longDescription: |
+  <p>LibFM provides file management functions built on top of Glib/GIO giving a convenient higher-level API.</p>
+  <p>This package contains applications libfm-pref-apps and lxshortcut.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libfm-tools
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: l/li/libfm-pref-apps.desktop/3495400CCB36684532525BC20F674996/icons/128x128/libfm-tools_preferences-desktop.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

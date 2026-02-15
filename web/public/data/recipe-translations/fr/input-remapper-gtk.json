@@ -1,0 +1,5 @@
+{
+  "name": "Input Remapper",
+  "description": "Interface graphique pour la configuration des touches selon le périphérique",
+  "longDescription": "<p>input-remapper permet aux utilisateurs d’assigner des fonctions personnalisées aux boutons de tous les périphériques d’entrée (claviers, souris, manettes…) sous X11 et Wayland. Il prend également en charge les combinaisons de touches ainsi que les macros programmables.</p>\n<p>Ce paquet propose l’interface utilisateur pour configurer ces mappings.</p>\n"
+}

@@ -1,0 +1,55 @@
+id: "frogr"
+name: frogr
+description: A flickr uploader for GNOME
+longDescription: |
+  <p>frogr allows users to manage their accounts on the Flickr photo hosting
+        service with a simple and direct interface.</p>
+  <p>It supports all the basic Flickr features, including uploading
+        pictures, adding descriptions, setting tags and managing sets
+        and groups pools.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - frogr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - flickr
+  - image
+  - picture
+  - photo
+  - video
+  - uploader
+screenshotSources:
+  - url: org/gnome/frogr.desktop/a85979c0085f268b456dd6bfe5cb3c06/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/frogr.desktop/a85979c0085f268b456dd6bfe5cb3c06/screenshots/image-1_624x456.png
+    width: 1079
+    height: 789
+iconSources:
+  - url: org/gnome/frogr.desktop/59e43034502c235300cb29131b8a96b6/icons/128x128/frogr_org.gnome.frogr.png
+    width: 128
+    height: 128
+developer: Mario Sanchez Prada
+homepage: "https://wiki.gnome.org/Apps/Frogr"
+enabled: true
+order: 99

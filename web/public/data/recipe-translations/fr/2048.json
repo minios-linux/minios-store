@@ -1,0 +1,5 @@
+{
+  "name": "2048",
+  "description": "Additionnez les tuiles en les déplaçant jusqu'à atteindre 2048",
+  "longDescription": "<p>2048 est un jeu de réflexion mathématique où vous devez faire glisser des tuiles sur un plateau 4x4 dans l’une des quatre directions possibles. Les tuiles portant la même valeur fusionnent pour former une tuile dont la valeur est la somme des deux. Vous commencez avec quelques tuiles de valeur 2 et de nouvelles tuiles apparaissent aléatoirement après chaque déplacement. Le but du jeu est d'obtenir une tuile de valeur 2048 avant que le plateau ne soit rempli.</p>\n"
+}

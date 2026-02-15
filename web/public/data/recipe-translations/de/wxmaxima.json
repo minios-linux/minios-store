@@ -1,0 +1,5 @@
+{
+  "name": "wxMaxima",
+  "description": "Eine grafische Benutzeroberfläche für Maxima, ein leistungsstarkes Computeralgebrasystem",
+  "longDescription": "<p>wxMaxima ist eine grafische Benutzeroberfläche für das Computeralgebrasystem Maxima: ein Programm, das mathematische Probleme durch das Umformen von Gleichungen löst (und die resultierende Formel ausgibt), anstatt nur eine Zahl zu berechnen. wxMaxima erleichtert die Nutzung von Maxima, indem es die meisten Befehle über ein Menüsystem zugänglich macht und Eingabedialoge für Befehle mit mehreren Argumenten bereitstellt. Außerdem verfügt es über eine eigene Darstellungs-Engine, die mathematische Symbole direkt anzeigt, statt sie mit ASCII-Zeichen darzustellen.</p>\n<p>wxMaxima bietet zudem 2D- und 3D-Darstellungen direkt im Dokument, einfache Animationen, die Kombination von Text und Berechnungen zur Erstellung von Dokumenten, den Export von Eingaben und Ausgaben nach TeX, Dokumentenstrukturierung sowie einen Browser für das Maxima-Handbuch inklusive Befehlsindex und Volltextsuche.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "PDF Chain",
+  "description": "Une interface graphique pour le PDF Toolkit (PDFtk)",
+  "longDescription": "<p>Ce package propose des fonctionnalités permettant de gérer facilement des fichiers PDF. Il permet notamment de fusionner, diviser, ajouter des arrière-plans ou des tampons, et joindre des pièces. Des outils avancés sont également disponibles pour des besoins spécifiques.</p>\n<p>L’interface graphique est réalisée avec GTKmm, une bibliothèque C++ pour GTK+.</p>\n"
+}

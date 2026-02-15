@@ -1,0 +1,37 @@
+id: "wfview"
+name: wfview
+description: Control and visualize data from amateur radios
+longDescription: |
+  <p>wfview is an open-source front-end application for the</p>
+  <p> * Icom IC-705 HF portable SDR Amateur Radio  * Icom IC-7300 HF SDR Amateur Radio  * Icom IC-7610 HF SDR Amateur Radio  * Icom IC-7850 HF Hybrid SDR Amateur Radio  * Icom IC-7851 HF Hybrid SDR Amateur Radio  * Icom IC-9700 VHF/UHF SDR Amateur Radio</p>
+  <p>wfview supports viewing the spectrum display waterfall and most normal radio controls. Using wfview, the radio can be operated using the mouse, or just the keyboard (great for those with visual impairments), or even a touch screen display. The gorgous waterfall spectrum can be displayed on a monitor of any size, and can even projected onto a wall for a presentation.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wfview
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/wfview/wfview/ab350a8a8b334165ddb54d7857ca314b/screenshots/image-1_orig.png
+    thumbnailUrl: org/wfview/wfview/ab350a8a8b334165ddb54d7857ca314b/screenshots/image-1_624x565@1.png
+    width: 1067
+    height: 967
+iconSources:
+  - url: org/wfview/wfview/ab350a8a8b334165ddb54d7857ca314b/icons/128x128/wfview_wfview.png
+    width: 128
+    height: 128
+homepage: "https://wfview.org"
+enabled: true
+order: 99

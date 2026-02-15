@@ -1,0 +1,44 @@
+id: "killbots"
+name: Killbots
+description: A KDE game of killer robots and teleportation.
+longDescription: |
+  <p>killbots is a simple game of evading killer robots. The robots are numerous and their sole objective is to destroy you.  Fortunately for you, their creator has focused on quantity rather than quality and as a result the robots are severely lacking in intelligence. Your superior wit and a fancy teleportation device are your only weapons against the never-ending stream of mindless automatons.</p>
+  <p>This package is part of the KDE games module.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - killbots
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/killbots/c6a18fdc40e1e73730189fd13ec39283/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/killbots/c6a18fdc40e1e73730189fd13ec39283/screenshots/image-1_624x513@1.png
+    width: 1122
+    height: 923
+iconSources:
+  - url: org/kde/killbots/c6a18fdc40e1e73730189fd13ec39283/icons/128x128/killbots_killbots.png
+    width: 128
+    height: 128
+homepage: "https://games.kde.org/"
+enabled: true
+order: 99

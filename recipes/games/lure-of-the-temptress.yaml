@@ -1,0 +1,46 @@
+id: "lure-of-the-temptress"
+name: Lure of the Temptress
+description: classic 2D point and click fantasy adventure game
+longDescription: |
+  <p>Lure of the Temptress was Revolution&apos;s very first adventure game and work began on it in 1989, even before Revolution&apos;s inception as an actual games development company.</p>
+  <p>You are Diermot, an unwilling hero who&apos;d prefer a quiet life, and are, to all intents and purposes, a good man. After decades of unrest the King has united the warring factions in his kingdom and all his lands are at peace, except a remote region around a town called Turnvale. A revolt has recently taken place in Turnvale, a revolt orchestrated by an apprentice sorceress called Selena, the titular temptress. The king calls together his finest horsemen and heads off (with you in tow) to Turnvale just to witness how hellish mercenary monsters called Skorl are invading the town.</p>
+  <p>The king&apos;s men are defeated, the king is killed and you fall of your horse and bang your head heavily on the ground. You have been unconscious for a while when you realize that you are in a dingy cell guarded by a not so friendly Skorl. Maybe it would be an idea to try and escape...</p>
+  <p>Note that this package only contains game-data. The game engine is provided by ScummVM.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lure-of-the-temptress
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - adventure
+  - roleplaying
+  - 2d
+  - fantasy
+iconSources:
+  - url: l/lu/lure-of-the-temptress.desktop/58e2da9cdfe5798f44bccb4848296dbc/icons/128x128/lure-of-the-temptress_lure-of-the-temptress.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Compartilhamento de Arquivos Pessoais",
+  "description": "Preferências para compartilhamento de arquivos",
+  "longDescription": "<p>O MATE user share é uma ferramenta leve que integra diversos projetos de software livre para oferecer compartilhamento de arquivos fácil de usar no nível do usuário.</p>\n<p>O programa é executado em segundo plano enquanto o usuário está logado e, quando o compartilhamento está ativado, um servidor webdav é iniciado para compartilhar a pasta $HOME/Public. O compartilhamento é então divulgado para todos os computadores na rede local usando mDNS/rendezvous, aparecendo automaticamente na seção Rede do GNOME.</p>\n<p>O servidor dav utilizado é o Apache, portanto é necessário que ele esteja instalado. Para suporte a mDNS, utiliza-se Avahi ou Howl, sendo preciso tê-los instalados e o mDNSResolver em execução.</p>\n"
+}

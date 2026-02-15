@@ -1,0 +1,5 @@
+{
+  "name": "Timeshift",
+  "description": "Utility di ripristino del sistema",
+  "longDescription": "<p>Timeshift è un'utility di ripristino del sistema che crea snapshot regolari del sistema operativo. Questi snapshot possono essere ripristinati successivamente per annullare le modifiche apportate al sistema. Crea snapshot incrementali utilizzando rsync o snapshot BTRFS tramite gli strumenti BTRFS.</p>\n"
+}

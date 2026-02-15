@@ -1,0 +1,43 @@
+id: basic256
+name: BASIC-256
+description: Learn BASIC in an environment designed for young children
+longDescription: |
+  <p>BASIC-256 is an easy to use version of BASIC designed to teach young children the basics of computer programming. It uses traditional control structures like gosub, for/next, and goto, which helps kids easily see how program flow-control works. It has a built-in graphics mode which lets them draw pictures on screen in minutes, and a set of detailed, easy-to-follow tutorials that introduce programming concepts through fun exercises.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - basic256
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - basic
+  - programming
+  - language
+  - ide
+  - kidbasic
+iconSources:
+  - cached: basic256_basic256.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

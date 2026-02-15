@@ -1,0 +1,5 @@
+{
+  "name": "jstest-gtk",
+  "description": "Alat uji dan konfigurasi joystick",
+  "longDescription": "<p>jstest-gtk adalah aplikasi grafis sederhana untuk menguji joystick. Aplikasi ini menampilkan daftar joystick yang terdeteksi, memperlihatkan tombol dan sumbu mana yang sedang ditekan, memungkinkan remap tombol dan sumbu, serta melakukan kalibrasi perangkat.</p>\n<p>Bahkan jika joystick Anda sudah berfungsi dengan baik, disarankan tetap mencoba aplikasi ini karena proses kalibrasi dapat menghilangkan deadzone default yang terlalu besar, yang sering menjadi masalah di beberapa gim.</p>\n<p>Dengan menginstal paket joystick tambahan, Anda dapat menyimpan pengaturan kalibrasi dan pemetaan, serta secara otomatis memulihkannya saat perangkat digunakan kembali.</p>\n"
+}

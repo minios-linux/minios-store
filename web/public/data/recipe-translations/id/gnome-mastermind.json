@@ -1,0 +1,5 @@
+{
+  "name": "Mastermind",
+  "description": "Pecahkan kode tersembunyi!",
+  "longDescription": "<p>Tujuan dari permainan papan ini adalah memecahkan sebuah kode menggunakan petunjuk samar. Permainan ini dimainkan oleh 2 pemain: pembuat kode (komputer) dan pemecah kode. Komputer akan membuat kombinasi 4 warna. Pemecah kode harus menebak pola tersebut (urutan dan warnanya) dengan jumlah percobaan sesedikit mungkin. Pada setiap giliran, pemecah kode mencoba suatu pola dan komputer memberikan umpan balik dengan meletakkan pin pada papan skor. Pin putih berarti warna benar tapi posisi salah; pin berwarna menunjukkan warna dan posisi sudah benar.</p>\n"
+}

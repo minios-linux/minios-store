@@ -1,0 +1,5 @@
+{
+  "name": "SasView",
+  "description": "Analisi della Diffusione ai Piccoli Angoli",
+  "longDescription": "<p>SasView è un software per l'analisi della diffusione ai piccoli angoli, sviluppato originariamente come parte del progetto NSF DANSE con il nome SansView e ora gestito da una collaborazione internazionale di strutture di ricerca.</p>\n<p>SasView è progettato per l’analisi dei dati SAS (Small-Angle Scattering).</p>\n<p>Permette di adattare funzioni analitiche che descrivono differenti microstrutture dei materiali ai dati sperimentali per determinarne la forma, la dimensione e il grado di ordinamento.</p>\n<p>SasView offre anche strumenti per il calcolo delle densità di lunghezza di scattering, dimensioni delle fenditure, risoluzioni, spessori delle frange/distanze (d-spacings), l’invariante di Porod (“scattering totale”) e funzioni di distribuzione delle distanze.</p>\n<p>Questo pacchetto installa lo script eseguibile sasview.</p>\n"
+}

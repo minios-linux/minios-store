@@ -1,0 +1,76 @@
+id: "zegrapher"
+name: ZeGrapher
+description: Fast and intuitive math graphing software
+longDescription: |
+  <p>ZeGrapher is an ergonomic, intuitive and fast software for plotting
+          mathematical objects (functions, sequences, parametric equations)
+          and experimental data on the plane (with polynomial fitting, CSV
+          import/export).</p>
+  <p>Here is what Zegrapher v3.0 can offer you:
+          Visualize up to six functions simultaneously. All the usual functions can be called: they&apos;re all written on a virtual keyboard. 
+                  On a given function, others can be called, so it is possible to associate or compose functions.Numerical sequence plotting, they can be defined by a recurrent relation or explicitly.Parametric equation plotting. The curves can be animated, with adjustable smoothness (frame rate) and speed (ms per step).Experimental data plot and polynomial fit (regression). Data can be imported/exported from a CSV file.
+              Parametric plot for functions, sequences and parametric equations: the parameter symbol to use is &quot;k&quot;.
+              Plot tangents: they can be moved and resized simply with the mouse.
+              Plot derivatives and antiderviatives.
+              Print the graph, with the following options :
+              Choose the size and the position of the graph on the sheet.Print in color or gray-scale.Export on a PDF file.
+              Export to all common image formats (png, jpeg, tiff, gif...).
+              Display a table of values with different options.
+              Navigate on the graph :
+              Select a curve to display the coordinates of its points.Zoom/unzoom on each axis separately or together, with the mouse on a point, or on a rectangular region.Move the graph.
+              Customize the presentation :
+              Change all the colors: axes, background, functions...Chose the program&apos;s and graph&apos;s fontAdjust the plotting precision. Note that it will also affect rendering speed.Show/hide a grid.Activate/deactivate curves&apos; smoothing.Plot the graph on an orthonormal basis.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - zegrapher
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: z/ze/ZeGrapher.desktop/3D2598A15E9896085B36456FF2228CD8/screenshots/image-1_orig.png
+    thumbnailUrl: z/ze/ZeGrapher.desktop/3D2598A15E9896085B36456FF2228CD8/screenshots/image-1_624x540.png
+    width: 781
+    height: 677
+  - url: z/ze/ZeGrapher.desktop/3D2598A15E9896085B36456FF2228CD8/screenshots/image-2_orig.png
+    thumbnailUrl: z/ze/ZeGrapher.desktop/3D2598A15E9896085B36456FF2228CD8/screenshots/image-2_224x260.png
+    width: 521
+    height: 606
+  - url: z/ze/ZeGrapher.desktop/3D2598A15E9896085B36456FF2228CD8/screenshots/image-3_orig.png
+    thumbnailUrl: z/ze/ZeGrapher.desktop/3D2598A15E9896085B36456FF2228CD8/screenshots/image-3_624x418.png
+    width: 727
+    height: 488
+  - url: z/ze/ZeGrapher.desktop/3D2598A15E9896085B36456FF2228CD8/screenshots/image-4_orig.png
+    thumbnailUrl: z/ze/ZeGrapher.desktop/3D2598A15E9896085B36456FF2228CD8/screenshots/image-4_224x191.png
+    width: 516
+    height: 442
+  - url: z/ze/ZeGrapher.desktop/3D2598A15E9896085B36456FF2228CD8/screenshots/image-5_orig.png
+    thumbnailUrl: z/ze/ZeGrapher.desktop/3D2598A15E9896085B36456FF2228CD8/screenshots/image-5_624x327.png
+    width: 1059
+    height: 555
+iconSources:
+  - url: z/ze/zegrapher.desktop/ccc4e66763f6a8d6973ac247d43a2ecc/icons/128x128/zegrapher_ZeGrapher.png
+    width: 128
+    height: 128
+homepage: "https://zegrapher.com/"
+enabled: true
+order: 99

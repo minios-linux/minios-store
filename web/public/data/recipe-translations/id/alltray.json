@@ -1,0 +1,5 @@
+{
+  "name": "AllTray",
+  "description": "Dock aplikasi apa pun ke area notifikasi/sistem tray.",
+  "longDescription": "<p>Dengan AllTray, Anda dapat mendock aplikasi apa pun yang tidak memiliki ikon tray bawaan (seperti Evolution, Thunderbird, atau Terminal) ke dalam system tray. Fitur unggulannya adalah, ketika Anda mengklik tombol \"close\", aplikasi akan diminimalkan ke system tray, bukan benar-benar ditutup. AllTray berfungsi baik pada GNOME, KDE, Xfce 4*, Fluxbox*, dan WindowMaker*. (*) Tidak mendukung drag & drop. Aktifkan dengan opsi \"-nm\".</p>\n"
+}

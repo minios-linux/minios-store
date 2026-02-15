@@ -1,0 +1,24 @@
+id: libreoffice-common
+name: LibreOffice
+description: The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation.
+longDescription: |
+  <p>LibreOffice is a full-featured office productivity suite that provides a near drop-in replacement for Microsoft(R) Office.</p>
+  <p>This package contains the architecture-independent files of LibreOffice.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libreoffice-common
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: libreoffice-common_libreoffice-startcenter.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,43 @@
+id: "pidgin"
+name: Pidgin Internet Messenger
+description: Instant Messaging Client
+longDescription: |
+  <p>Pidgin is a chat program which lets you log in to accounts on multiple chat networks simultaneously.</p>
+  <p>This means that you can be chatting with friends on AIM, talking to a friend on Google Talk, and sitting in an IRC chat room all at the same time.</p>
+  
+categoryId: internet
+icon: MessageCircle
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pidgin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: p/pi/pidgin.desktop/6ee80f2f755321462eba2088615c4fa8/screenshots/image-1_orig.png
+    width: 192
+    height: 420
+iconSources:
+  - url: p/pi/pidgin.desktop/6ee80f2f755321462eba2088615c4fa8/icons/128x128/pidgin_pidgin.png
+    width: 128
+    height: 128
+homepage: "http://www.pidgin.im/"
+enabled: true
+order: 99

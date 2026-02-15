@@ -1,0 +1,78 @@
+id: "qpdfview"
+name: qpdfview
+description: tabbed document viewer
+longDescription: |
+  <p>qpdfview is a simple tabbed document viewer which uses the Poppler library for PDF rendering and CUPS for printing and provides a clear and simple Qt graphical user interface. Support for the DjVu and PostScript formats can be added via plugins.</p>
+  <p>The current feature set includes:</p>
+  <ul>
+    <li>Outline, properties and thumbnail panes</li>
+    <li>Scale, rotate and fit</li>
+    <li>Fullscreen and presentation views</li>
+    <li>Continuous and multi-page layouts</li>
+    <li>Persistent per-file settings</li>
+    <li>Configurable keyboard shortcuts</li>
+    <li>Configurable tool bars</li>
+    <li>Support for DjVu and PostScript documents via plug-ins</li>
+    <li>Search for text (PDF and DjVu only)</li>
+    <li>SyncTeX support (PDF only)</li>
+    <li>Partial annotation support (PDF only, Poppler version 0.20.1 or newer)</li>
+    <li>Partial form support (PDF only)</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qpdfview
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - viewer
+  - document
+  - presentation
+  - pdf
+  - ps
+  - djvu
+screenshotSources:
+  - url: q/qp/qpdfview.desktop/c1137ce395c50ece9df7a1c401ec5565/screenshots/image-1_orig.png
+    thumbnailUrl: q/qp/qpdfview.desktop/c1137ce395c50ece9df7a1c401ec5565/screenshots/image-1_224x227.png
+    width: 236
+    height: 240
+  - url: q/qp/qpdfview.desktop/c1137ce395c50ece9df7a1c401ec5565/screenshots/image-2_orig.png
+    thumbnailUrl: q/qp/qpdfview.desktop/c1137ce395c50ece9df7a1c401ec5565/screenshots/image-2_224x168.png
+    width: 320
+    height: 240
+  - url: q/qp/qpdfview.desktop/c1137ce395c50ece9df7a1c401ec5565/screenshots/image-3_orig.png
+    thumbnailUrl: q/qp/qpdfview.desktop/c1137ce395c50ece9df7a1c401ec5565/screenshots/image-3_224x168.png
+    width: 320
+    height: 240
+  - url: q/qp/qpdfview.desktop/c1137ce395c50ece9df7a1c401ec5565/screenshots/image-4_orig.png
+    thumbnailUrl: q/qp/qpdfview.desktop/c1137ce395c50ece9df7a1c401ec5565/screenshots/image-4_224x264.png
+    width: 426
+    height: 503
+iconSources:
+  - url: q/qp/qpdfview.desktop/c1137ce395c50ece9df7a1c401ec5565/icons/128x128/qpdfview_qpdfview.png
+    width: 128
+    height: 128
+developer: Adam Reichold
+homepage: "https://launchpad.net/qpdfview"
+enabled: true
+order: 99

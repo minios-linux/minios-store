@@ -1,0 +1,5 @@
+{
+  "name": "KBibTeX",
+  "description": "Éditeur de fichiers bibliographiques basé sur KDE",
+  "longDescription": "<p>Une application pour gérer des bases de données bibliographiques au format BibTeX. KBibTeX peut être utilisé comme programme autonome, mais il peut également être intégré à d'autres applications KDE (par exemple, comme éditeur de bibliographie dans Kile).</p>\n<p>KBibTeX peut interroger des ressources en ligne (comme Google Scholar) via des URL de recherche personnalisables. Il est aussi capable d'importer des ensembles de données complets depuis NCBI PubMed. Il prend également en charge le marquage des références avec des mots-clés et la gestion des références vers des fichiers locaux.</p>\n<p>Les fichiers BibTeX peuvent être exportés aux formats HTML, XML, PDF, PS et RTF en utilisant un grand choix de styles de citation.</p>\n"
+}

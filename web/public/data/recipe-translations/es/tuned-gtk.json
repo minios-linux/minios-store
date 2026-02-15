@@ -1,0 +1,5 @@
+{
+  "name": "tuned-gui",
+  "description": "Interfaz GTK que permite controlar el demonio Tuned y ofrece un editor de perfiles sencillo",
+  "longDescription": "<p>El paquete tuned incluye un demonio que ajusta dinámicamente la configuración del sistema, supervisando periódicamente el uso de varios componentes. Según esa información, los componentes se configuran en modos de mayor o menor ahorro de energía para adaptarse al uso actual. Actualmente, solo se implementan dispositivos de red ethernet y discos duros ATA.</p>\n<p>Este paquete proporciona una interfaz gráfica GTK+ para controlar tuned y un editor básico de perfiles.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Trimage-Bildkomprimierer",
+  "description": "Ein plattformübergreifendes Tool zur Optimierung von PNG- und JPG-Dateien.",
+  "longDescription": "<p>Trimage ist eine plattformübergreifende grafische Oberfläche und Kommandozeilentool zur Optimierung von Bilddateien mittels optipng, advpng, pngcrush und jpegoptim, je nach Dateityp (aktuell werden PNG- und JPG-Dateien unterstützt). Sämtliche Bilder werden verlustfrei mit dem höchsten verfügbaren Komprimierungsgrad komprimiert. Trimage bietet verschiedene Importmöglichkeiten für unterschiedliche Workflows: einen klassischen Dateidialog, Drag & Drop sowie diverse Kommandozeilenoptionen.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "HotelDruid",
+  "description": "Hotelverwaltungssoftware",
+  "longDescription": "<p>HotelDruid wurde entwickelt, um Hotelzimmer, Bed-&-Breakfast-Apartments oder andere tagesweise Vermietungen einfach und effizient über einen Webbrowser zu verwalten.</p>\n<p>Wesentliche Funktionen:</p>\n<ul>\n  <li>Automatische Zimmerzuweisung anhand benutzerdefinierter Regeln</li>\n  <li>Erstellung öffentlicher Webseiten zur Anzeige der Zimmerverfügbarkeit usw.</li>\n  <li>Speichern, Drucken und Versenden von Dokumenten und Rechnungen per E-Mail</li>\n  <li>Elektronischer Point-of-Sale (POS)</li>\n  <li>Benutzer- und Gruppenverwaltung mit Rechtezuweisung für Mehrbenutzerbetrieb</li>\n  <li>Erstellung von statistischen Berichten</li>\n</ul>\n<p>Standardmäßig wird eine SQLite-Datenbank verwendet, alternativ ist auch die Konfiguration mit MySQL oder PostgreSQL möglich.</p>\n"
+}

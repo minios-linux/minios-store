@@ -1,0 +1,31 @@
+id: cynthiune-app
+name: Cynthiune
+description: A free and romantic music player
+longDescription: |
+  <p>Cynthiune is a free software, romantic and extensible music player for GNUstep and Mac OS X. Similar in look and feel to XMMS, it can read the most-known sound file formats: MP3, Ogg, FLAC, Mod, XM, AIFF, WAV and many more...</p>
+  <p>Very easy to use, it integrates well with the GNUstep desktop environment and shows a nice example of a cross-platform OpenStep application.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cynthiune.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - song
+  - mp3
+  - playlist
+  - player
+  - music
+iconSources:
+  - cached: cynthiune.app_Cynthiune_128x128x32.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

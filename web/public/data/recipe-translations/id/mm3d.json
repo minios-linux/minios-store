@@ -1,0 +1,5 @@
+{
+  "name": "Maverick Model 3D",
+  "description": "Program pemodelan 3D",
+  "longDescription": "<p>Ini adalah editor model 3D berbasis OpenGL yang bekerja dengan model berbasis segitiga. Mendukung fitur undo bertingkat, animasi kerangka (skeletal animation), tekstur sederhana, skrip, pemrosesan batch melalui command-line, serta sistem plugin untuk menambah filter model dan gambar baru. Dokumentasi bantuan daring lengkap tersedia. Dirancang agar mudah digunakan dan mudah dikembangkan dengan plugin dan skrip.</p>\n<p>Mendukung format file 3D berikut: MilkShape (ms3d), Wavefront (obj), LightWave 3D Object (lwo), Quake 2 model (md2), Quake 3 model (md3), Caligari trueSpace (cob), dan AutoCAD (dxf).</p>\n"
+}

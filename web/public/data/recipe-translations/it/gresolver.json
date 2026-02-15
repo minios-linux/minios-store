@@ -1,0 +1,5 @@
+{
+  "name": "Strumento di interrogazione DNS",
+  "description": "Esegui query DNS avanzate",
+  "longDescription": "<p>GResolver è uno strumento grafico GTK+ per interrogazioni DNS. Permette agli amministratori di sistema di eseguire velocemente e facilmente le query DNS più comuni senza dover scrivere lunghi comandi dig o nslookup.</p>\n<p>GResolver supporta tutti i principali tipi di record, inclusi AAAA, AXFR, MX e TXT, e genera automaticamente l'indirizzo in-addr.arpa appropriato a partire dagli indirizzi IP in formato dotted-quad per le query PTR. Sono disponibili delle caselle di controllo per gestire rapidamente le opzioni più utilizzate.</p>\n"
+}

@@ -1,0 +1,29 @@
+id: ghextris
+name: Ghextris
+description: Fit falling blocks together on a hexagonal grid
+longDescription: |
+  <p>The object of the game is basically the same as in Tetris; use the pieces that fall down from the top of the game area to construct fully filled lines, which will then disappear to make room for more pieces. The twist is that the pieces are composed of hexagonal blocks, so your visualization skills will get an extra workout.</p>
+  
+categoryId: games
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ghextris
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: ghextris_ghextris.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "SimpleScreenRecorder",
+  "description": "Un enregistreur d’écran complet prenant en charge X11 et OpenGL",
+  "longDescription": "<p>SimpleScreenRecorder est un enregistreur d’écran complet et puissant compatible avec X11 et OpenGL. Il dispose d’une interface graphique basée sur Qt. Il permet d’enregistrer tout l’écran, une zone spécifique, ou directement des applications OpenGL. Vous pouvez mettre en pause et reprendre l’enregistrement à tout moment. De nombreux formats de fichiers et codecs sont pris en charge.</p>\n<p>Fonctionnalités principales :</p>\n<ul>\n  <li>Synchronisation parfaite entre l’audio et la vidéo.</li>\n  <li>Réduction du nombre d’images par seconde si l’ordinateur est trop lent.</li>\n  <li>Entièrement multithreadé : de légers retards dans un composant n’affectent jamais les autres, offrant ainsi une vidéo plus fluide et de meilleures performances sur les machines multiprocesseurs.</li>\n  <li>Possibilité de diffusion en direct (fonction expérimentale).</li>\n</ul>\n"
+}

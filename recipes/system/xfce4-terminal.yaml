@@ -1,0 +1,37 @@
+id: "xfce4-terminal"
+name: Xfce Terminal
+description: Terminal Emulator
+longDescription: |
+  <p>This package contains Terminal, which is a lightweight and easy to use terminal emulator for X11. It was created to fit nicely into the Xfce desktop environment, but it also fits nice with other environments.</p>
+  
+categoryId: system
+icon: Terminal
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xfce4-terminal
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: x/xf/xfce4-terminal.desktop/fa3c8dd1e17bc9e0cef09620241cbb48/icons/128x128/xfce4-terminal_org.xfce.terminal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

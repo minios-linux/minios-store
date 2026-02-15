@@ -1,0 +1,5 @@
+{
+  "name": "MCU 8051 IDE",
+  "description": "Grafische IDE für MCS-51-basierte Mikrocontroller",
+  "longDescription": "<p>MCU 8051 IDE ist eine moderne grafische integrierte Entwicklungsumgebung für Mikrocontroller auf Basis der 8051-Architektur. Für alle, die den 8051 für ein großartiges Stück Technik halten, bietet diese IDE eine neue Herangehensweise, diese immer noch weit verbreiteten Mikrocontroller zu erleben. MCU 8051 IDE ist eine nicht-kommerzielle Open-Source-Software. Sie können diese IDE völlig kostenlos für Ausbildung, Beruf, Hobby oder andere Zwecke nutzen.</p>\n<p>Unterstützte Programmiersprachen sind C und Assembler. Die IDE verfügt über einen eigenen Assembler und unterstützt zwei externe Assembler. Für die Sprache C wird der SDCC-Compiler verwendet. Diese IDE umfasst einen Simulator, einen Quelltext-Editor, einen Assembler, einen HW-Programmierer und viele weitere Werkzeuge. Der Simulator unterstützt über 79 MCUs, primär von Atmel. Zudem gibt es Unterstützung für einfache Hardware-Simulationen (wie LEDs, Tasten usw.).</p>\n"
+}

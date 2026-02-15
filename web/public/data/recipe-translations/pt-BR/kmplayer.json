@@ -1,0 +1,5 @@
+{
+  "name": "KMPlayer",
+  "description": "Interface KDE para o MPlayer",
+  "longDescription": "<p>KMPlayer é uma interface simples para MPlayer/FFMpeg/Phonon.</p>\n<p>Principais recursos:  * reproduz filmes de DVD/VCD (de arquivo, URL ou de um dispositivo de vídeo)  * integração com o Konqueror (o filme é exibido dentro do Konqueror)  * integração com o KHTML (reprodução de vídeo em uma página HTML)  * gravação de vídeos usando o mencoder (parte do pacote mplayer)  * sem vídeo durante a gravação, mas você pode sempre abrir uma nova janela para assistir  * transmissão/broadcast via http usando ffserver/ffmpeg  * para fontes de TV é necessário o v4lctl (parte do pacote xawtv)</p>\n"
+}

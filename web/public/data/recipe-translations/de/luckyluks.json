@@ -1,0 +1,5 @@
+{
+  "name": "luckyLUKS",
+  "description": "GUI zur Erstellung und Entsperrung von LUKS/TrueCrypt-Containerdateien",
+  "longDescription": "<p>Dieses Programm ist eine Linux-Oberfläche zum Erstellen und (Ent-)Sperren verschlüsselter Volumes aus Containerdateien. Entsperrte Container werden mit einem Symbol im Systemtray dargestellt, um an das spätere Schließen zu erinnern. Unterstützt cryptsetup/LUKS sowie TrueCrypt-Containerdateien.</p>\n"
+}

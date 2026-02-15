@@ -1,0 +1,37 @@
+id: flamp
+name: flamp
+description: Amateur Radio Communications
+longDescription: |
+  <p>FLAMP is a program for AMP or Amateur Multicast Protocol. An FLAMP session will transmit one or more files with one or more iterations of the transmission. Each file is broken into blocks, each of which has a check sum. The receiving station saves the blocks that pass check sum. Successive transmissions will fill in the missing blocks provided that the new blocks pass the check sum. After the transmission sequence, the entire file is assembled and may be saved. “Fills” may be provided by retransmitting the entire file or by the sending station only sending the missing blocks.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - flamp
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: flamp_flamp.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

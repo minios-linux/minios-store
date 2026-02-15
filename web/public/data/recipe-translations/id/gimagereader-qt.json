@@ -1,0 +1,5 @@
+{
+  "name": "gImageReader",
+  "description": "Antarmuka grafis (qt6) untuk tesseract-ocr",
+  "longDescription": "<p>gImageReader adalah aplikasi pengenalan karakter optik (OCR) yang sederhana dan berfungsi sebagai antarmuka untuk mesin OCR tesseract. Fitur-fiturnya meliputi:</p>\n<ul>\n  <li>Impor dokumen PDF dan gambar dari disk, perangkat pemindai, clipboard, serta tangkapan layar</li>\n  <li>Memproses beberapa gambar dan dokumen sekaligus</li>\n  <li>Menentukan area pengenalan secara manual maupun otomatis</li>\n  <li>Mengenali dan mengekspor sebagai teks biasa atau dokumen hOCR</li>\n  <li>Mengenali teks yang berada di samping gambar</li>\n  <li>Pascaproses teks hasil pengenalan, termasuk pemeriksaan ejaan</li>\n  <li>Menghasilkan dokumen PDF/ODT dari dokumen hOCR</li>\n</ul>\n<ul>\n</ul>\n<ul>\n</ul>\n"
+}

@@ -1,0 +1,56 @@
+id: "swell-foop"
+name: Swell Foop
+description: Clear the screen by removing groups of colored and shaped tiles
+longDescription: |
+  <p>Remove as many squares as possible from the board. Click on a group of
+        squares of the same color to make them all disappear in one fell swoop,
+        causing other squares to fall into place. It is not possible to remove a
+        single square at a time. You get far more points for clearing a larger group
+        of squares, and also for clearing the entire board.</p>
+  <p>Swell Foop is always very quick to play, but you can make it somewhat longer
+        by changing the board size.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - swell-foop
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game
+  - logic
+  - board
+  - same
+  - matching
+screenshotSources:
+  - url: org/gnome/SwellFoop.desktop/33239f76705371cc665954a38bba7912/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/SwellFoop.desktop/33239f76705371cc665954a38bba7912/screenshots/image-1_224x218@1.png
+    width: 535
+    height: 521
+iconSources:
+  - url: org/gnome/SwellFoop.desktop/33239f76705371cc665954a38bba7912/icons/128x128/swell-foop_org.gnome.SwellFoop.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Swell%20Foop"
+enabled: true
+order: 99

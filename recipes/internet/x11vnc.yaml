@@ -1,0 +1,37 @@
+id: "x11vnc"
+name: X11VNC Server
+description: Share this desktop by VNC
+longDescription: |
+  <p>x11vnc allows one to view remotely and interact with real X displays (i.e. a display corresponding to a physical monitor, keyboard, and mouse) with any VNC viewer. It has built-in SSL encryption and authentication, UNIX account and password support, server-side scaling, single port HTTPS and VNC, mDNS service advertising, and TightVNC and UltraVNC file-transfer.</p>
+  
+categoryId: internet
+icon: Monitor
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - x11vnc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: x/x1/x11vnc.desktop/9080d7322963b9e594646a5eb33a9bb0/icons/128x128/x11vnc_computer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,43 @@
+id: "aravis-tools"
+name: Aravis
+description: Display the video stream from your cameras
+longDescription: |
+  <p>Basic viewer for aravis compatible cameras, real-time camera control using GenICam implemented properties (arv-viewer-0.8).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - aravis-tools
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gigevision
+  - usb3vision
+  - vision
+  - display
+  - viewer
+screenshotSources:
+  - url: org/aravis/viewer-0.8/ffc0d059c25658186180f791c53460f9/screenshots/image-1_orig.png
+    thumbnailUrl: org/aravis/viewer-0.8/ffc0d059c25658186180f791c53460f9/screenshots/image-1_224x194@1.png
+    width: 605
+    height: 524
+  - url: org/aravis/viewer-0.8/ffc0d059c25658186180f791c53460f9/screenshots/image-2_orig.png
+    thumbnailUrl: org/aravis/viewer-0.8/ffc0d059c25658186180f791c53460f9/screenshots/image-2_624x546@1.png
+    width: 692
+    height: 606
+iconSources:
+  - url: org/aravis/viewer-0.8/ffc0d059c25658186180f791c53460f9/icons/128x128/aravis-tools_aravis-0.8.png
+    width: 128
+    height: 128
+homepage: "https://github.com/AravisProject/aravis"
+enabled: true
+order: 99

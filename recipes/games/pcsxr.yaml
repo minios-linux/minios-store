@@ -1,0 +1,38 @@
+id: pcsxr
+name: PCSXR
+description: Sony PlayStation emulator
+longDescription: |
+  <p>PCSX is an advanced PlayStation (PSX) emulator, which uses a plugin architecture to provide full support for all components of the PSX. It has full emulation support for gamepads, videos, sound, memory cards, and other important PSX components, and is able to play many games without problems.</p>
+  <p>This package contains PCSX-Reloaded, which is based on PCSX-df 1.9 which is in turn based on the original PCSX.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pcsxr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: pcsxr_pcsxr-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

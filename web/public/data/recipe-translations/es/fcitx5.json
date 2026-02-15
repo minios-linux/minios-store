@@ -1,0 +1,5 @@
+{
+  "name": "Fcitx 5",
+  "description": "Iniciar método de entrada",
+  "longDescription": "<p>Fcitx5 es la nueva generación del marco de métodos de entrada fcitx. Ofrece una experiencia de entrada moderna y cómoda, con herramientas gráficas de configuración intuitivas. El framework es altamente extensible, compatible con las bibliotecas GTK+ y Qt, interfaces DBus, una gran variedad de entornos de escritorio y una API pensada para desarrolladores.</p>\n<p>Entre sus novedades se incluye soporte tanto para Wayland como para Xorg, así como la capacidad de emular el Marco de Método de Entrada IBus para ofrecer mejor compatibilidad en diferentes distribuciones y entornos de escritorio Linux.</p>\n<p>Este paquete proporciona los archivos principales del framework fcitx5.</p>\n"
+}

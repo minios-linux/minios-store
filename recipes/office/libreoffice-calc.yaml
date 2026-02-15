@@ -1,0 +1,66 @@
+id: "libreoffice-calc"
+name: LibreOffice Calc
+description: Spreadsheet program of the LibreOffice productivity suite
+longDescription: |
+  <p>Calc is a powerful and extensible spreadsheet program, part of the LibreOffice
+  productivity suite.
+  Newcomers find it intuitive and easy to learn.
+  Professional data miners and number crunchers will appreciate the comprehensive
+  range of advanced functions.</p>
+  <p>LibreOffice supports opening and saving into a wide variety of formats, so you
+  can easily share spreadsheets with users of other popular office suites without
+  worrying about compatibility.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libreoffice-calc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - accounting
+  - stats
+  - opendocument spreadsheet
+  - chart
+  - microsoft excel
+  - microsoft works
+  - openoffice calc
+  - ods
+  - xls
+  - xlsx
+screenshotSources:
+  - url: l/li/libreoffice-calc.desktop/2ba0bec7b3fa07a452c6bbb1d2bdc7c3/screenshots/image-1_orig.png
+    thumbnailUrl: l/li/libreoffice-calc.desktop/2ba0bec7b3fa07a452c6bbb1d2bdc7c3/screenshots/image-1_624x389@1.png
+    width: 1130
+    height: 705
+  - url: l/li/libreoffice-calc.desktop/2ba0bec7b3fa07a452c6bbb1d2bdc7c3/screenshots/image-2_orig.png
+    thumbnailUrl: l/li/libreoffice-calc.desktop/2ba0bec7b3fa07a452c6bbb1d2bdc7c3/screenshots/image-2_624x389@1.png
+    width: 1130
+    height: 705
+iconSources:
+  - url: l/li/libreoffice-calc.desktop/2ba0bec7b3fa07a452c6bbb1d2bdc7c3/icons/128x128/libreoffice-calc_libreoffice-calc.png
+    width: 128
+    height: 128
+developer: The Document Foundation
+homepage: "http://www.libreoffice.org/discover/calc/"
+enabled: true
+order: 99

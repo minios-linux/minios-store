@@ -1,0 +1,5 @@
+{
+  "name": "needrestart-session",
+  "description": "Vérifie si des processus de la session utilisateur doivent être redémarrés après une mise à jour.",
+  "longDescription": "<p>needrestart vérifie quels processus doivent être redémarrés suite à des mises à jour de bibliothèques. needrestart-session permet de notifier les utilisateurs de session que certains de leurs processus sont obsolètes après une mise à jour du système.</p>\n"
+}

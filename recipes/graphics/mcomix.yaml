@@ -1,0 +1,41 @@
+id: "mcomix"
+name: MComix
+description: Comic and general purpose image viewer
+longDescription: |
+  <p>MComix is a user-friendly, customizable image viewer. It is specifically
+  	  designed to handle comic books (both Western comics and manga) and supports
+  	  a variety of container formats (including CBR, CBZ, CB7, CBT, LHA and PDF).</p>
+  <p>MComix is a fork of the Comix project, and aims to add bug fixes and
+  	  stability improvements after Comix development came to a halt in
+  	  late 2009.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mcomix
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: m/mc/mcomix.desktop/6012e6c241851d83c3f4c4b2b17de398/screenshots/image-1_orig.png
+    thumbnailUrl: m/mc/mcomix.desktop/6012e6c241851d83c3f4c4b2b17de398/screenshots/image-1_624x366@1.png
+    width: 640
+    height: 376
+iconSources:
+  - url: m/mc/mcomix.desktop/6012e6c241851d83c3f4c4b2b17de398/icons/128x128/mcomix_mcomix.png
+    width: 128
+    height: 128
+developer: The MComix Team
+homepage: "http://mcomix.sourceforge.net/"
+enabled: true
+order: 99

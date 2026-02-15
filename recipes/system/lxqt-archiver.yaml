@@ -1,0 +1,38 @@
+id: "lxqt-archiver"
+name: LXQt File Archiver
+description: File Archiver
+longDescription: |
+  <p>LXQt Archiver is an archive manager for the LXQt environment. It allows you to:  * Create and modify archives.  * View the content of an archive.  * View a file contained in an archive.  * Extract files from the archive.</p>
+  <p>LXQt Archiver supports the following formats:  * Tar (.tar) archives, including those compressed with    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),    lzma (.tar.lzma) and xz (.tar.xz)  * Zip archives (.zip)  * Jar archives (.jar, .ear, .war)  * 7z archives (.7z)  * iso9660 CD images (.iso)  * Lha archives (.lzh)  * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)</p>
+  <p>LXQt Archiver doesn&apos;t perform archive operations by itself, but relies on standard tools for this.</p>
+  <p>This package contain the LXQt archiver.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxqt-archiver
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - archive
+  - manager
+  - compression
+iconSources:
+  - url: l/lx/lxqt-archiver.desktop/09af967d69f38c447d839d6c39a04924/icons/128x128/lxqt-archiver_lxqt-archiver.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

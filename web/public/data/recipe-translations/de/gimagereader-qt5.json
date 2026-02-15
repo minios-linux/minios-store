@@ -1,0 +1,5 @@
+{
+  "name": "gImageReader",
+  "description": "Eine grafische (Qt5) Oberfläche für tesseract-ocr",
+  "longDescription": "<p>gImageReader ist eine schlanke OCR-Anwendung (Optische Zeichenerkennung), die als grafische Oberfläche für die Tesseract-OCR-Engine dient. Zu den Funktionen gehören:</p>\n<ul>\n  <li>PDF-Dokumente und Bilder von Festplatte, Scanner, Zwischenablage und Screenshots importieren</li>\n  <li>Mehrere Bilder und Dokumente auf einmal verarbeiten</li>\n  <li>Manuelle oder automatische Festlegung des Erkennungsbereichs</li>\n  <li>Ausgabe als reiner Text oder hOCR-Dokument</li>\n  <li>Erkannten Text direkt neben dem Bild anzeigen</li>\n  <li>Nachbearbeitung inklusive Rechtschreibprüfung</li>\n  <li>PDF-/ODT-Dokumente aus hOCR-Dateien erzeugen</li>\n</ul>\n"
+}

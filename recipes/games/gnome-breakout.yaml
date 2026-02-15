@@ -1,0 +1,37 @@
+id: gnome-breakout
+name: GNOME Breakout
+description: Play a clone of the classic arcade game Breakout for GNOME
+longDescription: |
+  <p>A clone of the classic game &quot;Breakout&quot;. Control a paddle at the bottom of the playfield and bounce a ball against bricks at the top to destroy them.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-breakout
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gnome-breakout_gnome-breakout.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

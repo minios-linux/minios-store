@@ -1,0 +1,23 @@
+id: bauble
+name: Bauble
+description: An application for managing botanical collections
+longDescription: |
+  <p>Bauble is a software application to help you manage a collection of botanical specimens. It is intended to be used by botanic gardens, herbaria, arboreta, etc. to manage their collection information. It is a open, free, cross-platform alternative to BG-Base and similar software.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bauble
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: bauble_bauble.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

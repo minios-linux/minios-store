@@ -1,0 +1,5 @@
+{
+  "name": "GNOME ALSA Mixer",
+  "description": "ALSA-Soundmixer für GNOME",
+  "longDescription": "<p>Eine Anwendung zur Lautstärkeregelung. Mit ihr können Sie die Lautstärke verschiedener Klangquellen Ihrer Soundkarte einstellen.</p>\n<p>Sie verfügt über eine benutzerfreundliche grafische Oberfläche und bietet zahlreiche Funktionen:</p>\n<p> - Zugriff auf alle Soundkarten und Audiokanäle Ihres Computers  - Möglichkeit, individuelle Namen zu vergeben  - Anzeige nur der benötigten Mischregler  - Zugriff auf Zusatzfunktionen bestimmter Soundkarten, wie zum Beispiel    3D-Verbesserungen, Mikrofonverstärkung und mehr</p>\n<p>Diese Anwendung nutzt die ALSA-Schnittstelle. Sie funktioniert nicht mit den (älteren) OSS-Treibern für Soundkarten. Dafür erhalten Sie umfassenden Zugriff auf alle Funktionalitäten, die auch das Programm \"alsamixer\" im Paket \"alsa-utils\" bereitstellt.</p>\n"
+}

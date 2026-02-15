@@ -1,0 +1,5 @@
+{
+  "name": "Guake Indicator",
+  "description": "Gunakan untuk menjalankan guake-indicator dan ikon baru akan muncul di system tray",
+  "longDescription": "<p>Guake Indicator memungkinkan Anda mengirim perintah khusus melalui D-Bus System. Perintah dapat diedit secara manual di file XML pada ~/.guake.indicator atau dibuat melalui GUI edit-menu guake-indicator.</p>\n<p>Guake Indicator akan muncul di \"System Tray\" dan menampilkan perintah favorit Anda yang diambil dari ~/.guake.indicator/guake-indicator.xml. Jika guake-indicator.xml tidak ada, guake-indicator akan membuat file konfigurasi default dengan beberapa contoh.</p>\n"
+}

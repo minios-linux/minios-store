@@ -1,0 +1,5 @@
+{
+  "name": "Live Clone",
+  "description": "Klonen von Live-Boot-Medien",
+  "longDescription": "<p>Mit dieser Anwendung können bootfähige USB-Sticks aus einer von Live-Build erstellten ISO-Hybrid-Abbilddatei erstellt werden. Zusätzlich wird eine Persistenz-Partition eingerichtet, um den freien Speicherplatz auf dem USB-Stick optimal zu nutzen.</p>\n<p>Es stehen auch Verwaltungstools für Live-USB-Sticks zur Verfügung: Bei täglicher Nutzung solcher USB-Datenträger können Inkonsistenzen im Persistenzbereich auftreten, die den Stick unbrauchbar machen. Es werden Tools bereitgestellt, um Persistenzdaten bei Bedarf zu sichern und den Persistenzbereich zurückzusetzen, sodass der USB-Stick wiederverwendet werden kann.</p>\n<p>Die Anwendung erkennt automatisch, wenn sie in einer Debian-Live-Umgebung ausgeführt wird, und ermöglicht dadurch nahtloses Auto-Klonen.</p>\n"
+}

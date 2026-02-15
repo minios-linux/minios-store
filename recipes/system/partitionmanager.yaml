@@ -1,0 +1,51 @@
+id: "partitionmanager"
+name: KDE Partition Manager
+description: Partition Editor
+longDescription: |
+  <p>KDE Partition Manager is a utility program to help you manage the disk devices, partitions and file systems on your computer. It allows you to easily create, copy, move, delete, resize without losing data, backup and restore partitions.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Supports a large number of file systems, including ext2/3/4, btrfs, reiserfs, NTFS, FAT16/32, JFS, XFS and more</li>
+    <li>Makes use of already available external programs to get its job done</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - partitionmanager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - partition
+  - disk
+screenshotSources:
+  - url: org/kde/partitionmanager.desktop/03e05ed363a7982f43656e2c8995cf6d/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/partitionmanager.desktop/03e05ed363a7982f43656e2c8995cf6d/screenshots/image-1_624x456@1.png
+    width: 1254
+    height: 918
+iconSources:
+  - url: org/kde/partitionmanager.desktop/03e05ed363a7982f43656e2c8995cf6d/icons/128x128/partitionmanager_partitionmanager.png
+    width: 128
+    height: 128
+homepage: "https://www.kde.org/applications/system/kdepartitionmanager/"
+enabled: true
+order: 99

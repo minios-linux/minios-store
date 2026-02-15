@@ -1,0 +1,5 @@
+{
+  "name": "Julius",
+  "description": "Julius adalah re-implementasi open source dari Caesar III",
+  "longDescription": "<p>Julius adalah versi open source dari Caesar III yang sepenuhnya berfungsi, dengan logika permainan yang sama seperti aslinya, namun telah dilengkapi beberapa peningkatan antarmuka dan dapat dimainkan di berbagai platform. Dengan logika yang sama, file simpanan permainan (saved games) 100% kompatibel, sehingga bug gameplay pada Caesar III asli juga akan muncul di Julius.</p>\n<ul>\n  <li>Dukungan resolusi layar lebar (widescreen)</li>\n  <li>Mendukung mode jendela (windowed mode) untuk desktop 32-bit</li>\n  <li>Berbagai peningkatan kualitas hidup kecil di dalam game</li>\n</ul>\n<p>Julius membutuhkan aset asli Caesar III (grafik, suara, dll) untuk dijalankan. Opsional, mendukung file MP3 berkualitas tinggi yang sebelumnya disediakan di situs Sierra.</p>\n"
+}

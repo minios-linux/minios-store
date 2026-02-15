@@ -1,0 +1,5 @@
+{
+  "name": "MPlayer",
+  "description": "Lire des films et de la musique",
+  "longDescription": "<p>MPlayer prend en charge la lecture de la plupart des fichiers MPEG, VOB, AVI, Ogg/OGM, VIVO, ASF/WMA/WMV, QT/MOV/MP4, FLI, RM, NuppelVideo, yuv4mpeg, FILM, RoQ, et PVA, grâce à de nombreux codecs natifs, XAnim, RealPlayer et DLL Win32. Il peut également lire les vidéos VideoCD, SVCD, DVD, 3ivx, RealMedia et DivX.</p>\n<p>Une autre fonctionnalité majeure de MPlayer est la large gamme de pilotes de sortie pris en charge. Il fonctionne avec X11, Xv, DGA, OpenGL, SVGAlib, fbdev, DirectFB, ainsi que SDL.</p>\n<p>Ce paquet inclut la version avec interface graphique de MPlayer.</p>\n"
+}

@@ -1,0 +1,25 @@
+id: bitsnpicas
+name: Kreative Bits'n'Picas
+description: "Create, edit, and convert bitmap fonts"
+longDescription: |
+  <p>This is a set of tools for creating and converting bitmap and emoji fonts. Bitmap font functions can be accessed both with a GUI and from a command line. Emoji font functions can only be accessed from a command line.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - bitsnpicas
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: bitsnpicas_bitsnpicas.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

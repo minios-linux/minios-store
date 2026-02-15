@@ -1,0 +1,5 @@
+{
+  "name": "Topparser",
+  "description": "Convierte datos de Pockettopo a Therion",
+  "longDescription": "<p>Convierte un archivo .top de Pockettopo en una estructura de directorios para Therion, extrayendo información de líneas centrales y dibujos en archivos adecuados. Simplifica considerablemente el flujo de trabajo si usas tanto Pockettopo como Therion. También puede generar archivos de líneas centrales compatibles con Survex.</p>\n"
+}

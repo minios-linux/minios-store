@@ -1,0 +1,52 @@
+id: keepassxc-full
+name: KeePassXC
+description: Community-driven port of the Windows application “KeePass Password Safe”
+longDescription: |
+  <p>
+              KeePassXC is an application for people with extremely high demands on secure
+              personal data management. It has a light interface, is cross-platform and
+              published under the terms of the GNU General Public License.
+          </p>
+  
+categoryId: security
+icon: Lock
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - keepassxc-full
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - security
+  - privacy
+  - password-manager
+  - yubikey
+  - password
+  - keepass
+screenshotSources:
+  - url: org/keepassxc/KeePassXC.desktop/630344ba643120bf6483f1402bca6281/screenshots/image-1_orig.png
+    thumbnailUrl: org/keepassxc/KeePassXC.desktop/630344ba643120bf6483f1402bca6281/screenshots/image-1_624x474@1.png
+    width: 1553
+    height: 1181
+  - url: org/keepassxc/KeePassXC.desktop/630344ba643120bf6483f1402bca6281/screenshots/image-2_orig.png
+    thumbnailUrl: org/keepassxc/KeePassXC.desktop/630344ba643120bf6483f1402bca6281/screenshots/image-2_624x444@1.png
+    width: 1551
+    height: 1104
+  - url: org/keepassxc/KeePassXC.desktop/630344ba643120bf6483f1402bca6281/screenshots/image-3_orig.png
+    thumbnailUrl: org/keepassxc/KeePassXC.desktop/630344ba643120bf6483f1402bca6281/screenshots/image-3_624x445@1.png
+    width: 1887
+    height: 1346
+  - url: org/keepassxc/KeePassXC.desktop/630344ba643120bf6483f1402bca6281/screenshots/image-4_orig.png
+    thumbnailUrl: org/keepassxc/KeePassXC.desktop/630344ba643120bf6483f1402bca6281/screenshots/image-4_624x474@1.png
+    width: 1553
+    height: 1181
+iconSources:
+  - url: org/keepassxc/KeePassXC.desktop/630344ba643120bf6483f1402bca6281/icons/128x128/keepassxc-full_keepassxc.png
+    width: 128
+    height: 128
+homepage: "https://keepassxc.org"
+enabled: true
+order: 99

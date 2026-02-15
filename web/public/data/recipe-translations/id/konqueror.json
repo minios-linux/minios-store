@@ -1,0 +1,5 @@
+{
+  "name": "Konqueror",
+  "description": "Manajer Berkas & Peramban Web KDE",
+  "longDescription": "<p>Konqueror adalah peramban web KDE sekaligus alat serba guna untuk pengelolaan dan pratinjau berbagai jenis berkas.</p>\n<p>Fitur:</p>\n<ul>\n  <li>Menjelajah web menggunakan mesin rendering KHTML atau KDEWebKit</li>\n  <li>Manajemen berkas dengan hampir semua fitur Dolphin (termasuk kontrol versi, menu layanan, dan antarmuka dasar)</li>\n  <li>Manajemen berkas di server ftp dan sftp</li>\n  <li>Klien FTP lengkap (dapat membagi tampilan untuk menampilkan folder lokal dan jarak jauh serta pratinjau di jendela yang sama)</li>\n  <li>Aplikasi tersemat untuk pratinjau berkas (misal Okular dan Calligra untuk dokumen, Gwenview untuk gambar, KTextEditor untuk berkas teks)</li>\n  <li>Mendukung berbagai jenis plugin: menu layanan, KParts (aplikasi tersemat), KIO (mengakses berkas melalui protokol khusus seperti http atau ftp), dan plugin KPart (seperti AdBlocker...)</li>\n</ul>\n"
+}

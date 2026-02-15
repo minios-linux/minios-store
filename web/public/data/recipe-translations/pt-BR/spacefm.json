@@ -1,0 +1,5 @@
+{
+  "name": "SpaceFM",
+  "description": "Navegue pelo sistema de arquivos",
+  "longDescription": "<p>O SpaceFM é um gerenciador de arquivos e área de trabalho para Linux, em abas e múltiplos painéis, com VFS integrado, gerenciamento de dispositivos baseado em udev ou HAL, menu personalizável e integração com bash.</p>\n<p>Descendente do PCManFM, o objetivo do SpaceFM é ser corrigido de bugs, eficiente (principalmente em C), altamente personalizável (altere e expanda a interface gráfica em tempo real com o Modo Design), poderoso sem intimidar usuários iniciantes (graças à personalização), independente de distribuições ou ambientes gráficos específicos, e com recursos de gerenciamento de dispositivos que substituem ferramentas baseadas no udisks quando usado junto ao udevil.</p>\n<p>Outros destaques incluem gerenciamento opcional da área de trabalho, enfileiramento inteligente de operações de arquivos, suporte a plugins de usuário e possibilidade de executar comandos específicos como root.</p>\n<p>Caso prefira manter o GTK+3, instale o pacote spacefm-gtk3.</p>\n"
+}

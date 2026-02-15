@@ -1,0 +1,5 @@
+{
+  "name": "KReversi",
+  "description": "Jeu de plateau Reversi",
+  "longDescription": "<p>KReversi est un jeu de stratégie simple qui se joue en solo contre l'ordinateur.<br>Si un pion d’un joueur est capturé par l’adversaire, il est retourné pour afficher la couleur de l’autre joueur. La partie se termine lorsqu’aucun autre coup n’est possible : le gagnant est celui qui possède le plus de pions de sa couleur sur le plateau.</p>\n"
+}

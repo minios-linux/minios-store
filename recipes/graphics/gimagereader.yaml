@@ -1,0 +1,57 @@
+id: "gimagereader"
+name: gImageReader
+description: A graphical (gtk) frontend to tesseract-ocr
+longDescription: |
+  <p>gImageReader je jednoduše použitelná aplikace pro rozpoznávání textu z obrázků, využívající OCR engine tesseract. Mezi funkce patří:</p>
+  <ul>
+    <li>Import PDF dokumentů a obrázků z počítače, skenovacích zařízení, schránky a snímků obrazovky</li>
+    <li>Zpracování vícero obrázků a dokumentů naráz</li>
+    <li>Ruční nebo automatická definice oblasti k rozpoznávání</li>
+    <li>Rozpoznání do holého textu nebo hOCR dokumentů</li>
+    <li>Rozpoznaný text je zobrazen hned vedle zdrojového obrázku</li>
+    <li>Následné zpracování rozpoznaného textu včetně kontroly překlepů</li>
+    <li>Vytváření PDF/ODT dokumentů z hOCR dokumentů</li>
+  </ul>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gimagereader
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - ocr
+  - optical character recognition
+  - scanner
+  - tesseract
+screenshotSources:
+  - url: g/gi/gimagereader-gtk.desktop/201c15435f1ac749e3eaf736075150f4/screenshots/image-1_orig.png
+    thumbnailUrl: g/gi/gimagereader-gtk.desktop/201c15435f1ac749e3eaf736075150f4/screenshots/image-1_624x350@1.png
+    width: 1507
+    height: 846
+iconSources:
+  - url: g/gi/gimagereader-gtk.desktop/201c15435f1ac749e3eaf736075150f4/icons/128x128/gimagereader_gimagereader.png
+    width: 128
+    height: 128
+homepage: "https://github.com/manisandro/gImageReader"
+enabled: true
+order: 99

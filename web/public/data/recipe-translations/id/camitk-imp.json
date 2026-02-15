@@ -1,0 +1,5 @@
+{
+  "name": "CamiTK imp",
+  "description": "Prototipe Aplikasi Intervensi Medis Berbantuan Komputer",
+  "longDescription": "<p>CamiTK memudahkan peneliti dan klinisi untuk berkolaborasi dengan cepat dalam membuat prototipe aplikasi CAMI, yang meliputi pengolahan citra medis, navigasi bedah, dan simulasi biomekanik.</p>\n<p>camitk-imp adalah aplikasi workbench CamiTK di mana Anda dapat menguji semua ekstensi yang tersedia untuk kebutuhan prototipe. Aplikasi ini menyediakan akses mudah dan interaktif ke seluruh data dan parameter algoritma yang tersedia, termasuk yang Anda buat sendiri menggunakan CamiTK SDK.</p>\n<p>Sebagai contoh, camitk-imp dapat memvisualisasikan citra medis dari berbagai format standar, menawarkan algoritma pemrosesan citra dan segmentasi untuk merekonstruksi geometri mesh, serta menjalankan simulasi biomekanik.</p>\n"
+}

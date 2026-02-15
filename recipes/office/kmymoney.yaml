@@ -1,0 +1,52 @@
+id: "kmymoney"
+name: KMyMoney
+description: Personal Finance Manager
+longDescription: |
+  <p>KMyMoney is a personal finance manager by KDE. It comes with a large set of features while being easy to use for the non-technical user.</p>
+  <p>It supports different account types, categorisation of expenses and incomes, reconciliation of bank accounts and import/export to the “QIF” file format.
+        Direct download using the OFX and HBCI formats is also possible via plugins.
+        Online banking support (statement download) is also provided for the OFX and HBCI protocols.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kmymoney
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kmymoney.desktop/da90424b3a90788c916bfb6fea9e9eff/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kmymoney.desktop/da90424b3a90788c916bfb6fea9e9eff/screenshots/image-1_624x407.png
+    width: 1226
+    height: 801
+  - url: org/kde/kmymoney.desktop/da90424b3a90788c916bfb6fea9e9eff/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kmymoney.desktop/da90424b3a90788c916bfb6fea9e9eff/screenshots/image-2_624x494.png
+    width: 1129
+    height: 895
+  - url: org/kde/kmymoney.desktop/da90424b3a90788c916bfb6fea9e9eff/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kmymoney.desktop/da90424b3a90788c916bfb6fea9e9eff/screenshots/image-3_624x494.png
+    width: 1129
+    height: 895
+iconSources:
+  - url: org/kde/kmymoney.desktop/da90424b3a90788c916bfb6fea9e9eff/icons/128x128/kmymoney_kmymoney.png
+    width: 128
+    height: 128
+homepage: "https://kmymoney.org"
+enabled: true
+order: 99

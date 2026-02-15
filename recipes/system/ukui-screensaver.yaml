@@ -1,0 +1,29 @@
+id: ukui-screensaver
+name: Screensaver
+description: Set your screensaver preferences
+longDescription: |
+  <p>ukui-screensaver is a screen saver and locker that aims to have simple, sane and secure defaults, and be well integrated with the UKUI desktop.</p>
+  <p>It is designed to support, among other things:</p>
+  <p> * the ability to lock down configuration settings  * translation into other languages  * user switching</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ukui-screensaver
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - ukui
+  - screensaver
+  - saver
+iconSources:
+  - url: u/uk/ukui-screensaver-preferences.desktop/29F6C2AFADA6B6278C43A341F4B87B10/icons/128x128/ukui-screensaver_preferences-desktop-screensaver.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,23 @@
+id: stimfit
+name: Stimfit
+description: View and analyze electrophysiology files
+longDescription: |
+  <p>Stimfit is a free, fast and simple program for viewing and analyzing electrophysiological data. It features an embedded Python shell that allows you to extend the program functionality by using numerical libraries such as NumPy and SciPy.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - stimfit
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/st/stimfit.desktop/01ee17f65adfcdd323ec8a1664b6bf59/icons/128x128/stimfit_stimfit.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

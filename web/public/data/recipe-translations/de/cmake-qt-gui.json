@@ -1,0 +1,5 @@
+{
+  "name": "CMake",
+  "description": "Plattformübergreifendes Build-System",
+  "longDescription": "<p>CMake dient zur Steuerung des Kompilierungsprozesses von Software unter Verwendung einfacher, plattform- und compilerunabhängiger Konfigurationsdateien. CMake generiert native Makefiles und Workspaces, die in der Compiler-Umgebung Ihrer Wahl verwendet werden können.</p>\n<p>Dieses Paket enthält die auf Qt4 basierende grafische Benutzeroberfläche (GUI) für CMake. Projekt-Konfigurationseinstellungen können interaktiv festgelegt werden. Kurzanleitungen werden am unteren Rand des Fensters angezeigt, während das Programm ausgeführt wird. Die ausführbare Hauptdatei für diese GUI ist „cmake-gui“.</p>\n"
+}

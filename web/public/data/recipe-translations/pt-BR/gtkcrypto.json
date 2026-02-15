@@ -1,0 +1,5 @@
+{
+  "name": "GTKCrypto",
+  "description": "Aplicativo GTK+ para criptografar arquivos e calcular hashes",
+  "longDescription": "<p>\nGTKCrypto permite criptografar e assinar arquivos ou textos. Além disso, com um arquivo, é possível calcular diferentes tipos de hash e comparar arquivos para verificar se seus conteúdos são iguais ou não.<br>\nAlgoritmos de cifra suportados: AES, Twofish, Serpent e Camellia, todos com chaves de 256 bits e operando em modo CBC ou CTR.<br>\nAlgoritmos de hash suportados: MD5, SHA-1, SHA-2, SHA-3, GOST, Whirlpool.\n</p>\n"
+}

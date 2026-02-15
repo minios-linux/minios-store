@@ -1,0 +1,39 @@
+id: starfighter
+name: "Project: Starfighter"
+description: Liberate the universe from the evil company WEAPCO
+longDescription: |
+  <p>After decades of war one company, who had gained powerful supplying both sides with weaponry, steps forwards and crushes both warring factions in one swift movement. Using far superior weaponry and AI craft, the company was completely unstoppable and now no one can stand in their way. Thousands began to perish under the iron fist of the company. The people cried out for a saviour, for someone to light this dark hour... and someone did.</p>
+  <p>Features of the game:</p>
+  <p> o 26 missions over 4 star systems  o Primary and Secondary Weapons (including a laser cannon and a charge weapon)  o A weapon powerup system  o Wingmates  o Missions with Primary and Secondary Objectives  o A Variety of Missions (Protect, Destroy, etc)  o Boss battles</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - starfighter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - games
+iconSources:
+  - cached: starfighter_starfighter.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

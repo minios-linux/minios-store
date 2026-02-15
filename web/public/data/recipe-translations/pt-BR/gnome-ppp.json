@@ -1,0 +1,5 @@
+{
+  "name": "GNOME PPP",
+  "description": "Ferramenta de Discagem GNOME",
+  "longDescription": "<p>O GNOME PPP é uma ferramenta gráfica fácil de usar para configuração e discagem de conexões dial-up, com suporte a ícone na bandeja do sistema.</p>\n<p>Utiliza GNOME/GTK+ para sua interface gráfica e integra-se bem ao ambiente de desktop GNOME, mas também pode ser utilizado em outros ambientes.</p>\n<p>Usa o discador WvDial como backend, facilitando a configuração por meio de arquivos de configuração. Também é possível utilizar o wvdial em modo texto caso não haja ambiente gráfico em execução.</p>\n"
+}

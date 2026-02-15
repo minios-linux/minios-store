@@ -1,0 +1,5 @@
+{
+  "name": "GGcov",
+  "description": "Grafischer Browser für die Quellcode-Abdeckung",
+  "longDescription": "<p>Dies ist eine einfache grafische Benutzeroberfläche zum Durchsuchen von C-Testabdeckungsdaten, die von mit &quot;gcc --coverage&quot; instrumentierten Programmen erzeugt wurden. Es dient somit als grafischer Ersatz für das Programm &quot;gcov&quot;, das zusammen mit GCC ausgeliefert wird.</p>\n"
+}

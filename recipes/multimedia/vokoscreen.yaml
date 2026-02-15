@@ -1,0 +1,34 @@
+id: vokoscreen
+name: vokoscreen
+description: screencast
+longDescription: |
+  <p>vokoscreen can be used to record educational videos, live recordings of browser, installation, videoconferences, etc. You can capture an alone video or video and sound (via ALSA or PulseAudio).</p>
+  <p>The program is very simple and uses a minimalistic GUI. It also can capture your face using a webcam in the same time, so this feature is especially suitable for screencasting purposes. Another feature is the direct capture from IEEE1394 digital cameras.</p>
+  <p>This program uses the ffmpeg features and saves the capture in some formats, as AVI, MP4, FLV and MKV for video and MP3 for audio.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - vokoscreen
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - audio
+  - video
+  - recorder
+  - screencast
+iconSources:
+  - cached: vokoscreen_vokoscreen.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

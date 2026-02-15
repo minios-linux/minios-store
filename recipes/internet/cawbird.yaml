@@ -1,0 +1,49 @@
+id: cawbird
+name: Cawbird
+description: Twitter Client
+longDescription: |
+  <p>
+     Cawbird is a native GTK+ twitter client that provides vital features such as Direct Messages (DMs), tweet notifications,
+  conversation views.
+    </p>
+  <p>
+     Additional features include local viewing of videos, multiple inline images, Lists, Filters, multiple accounts, etc.
+    </p>
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cawbird
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - twitter
+screenshotSources:
+  - url: uk/co/ibboard.cawbird.desktop/8af73a5caa827bff7d8d32220cd5538f/screenshots/image-1_orig.png
+    thumbnailUrl: uk/co/ibboard.cawbird.desktop/8af73a5caa827bff7d8d32220cd5538f/screenshots/image-1_224x480.png
+    width: 481
+    height: 1032
+  - url: uk/co/ibboard.cawbird.desktop/8af73a5caa827bff7d8d32220cd5538f/screenshots/image-2_orig.png
+    thumbnailUrl: uk/co/ibboard.cawbird.desktop/8af73a5caa827bff7d8d32220cd5538f/screenshots/image-2_224x379.png
+    width: 564
+    height: 956
+  - url: uk/co/ibboard.cawbird.desktop/8af73a5caa827bff7d8d32220cd5538f/screenshots/image-3_orig.png
+    thumbnailUrl: uk/co/ibboard.cawbird.desktop/8af73a5caa827bff7d8d32220cd5538f/screenshots/image-3_224x379.png
+    width: 564
+    height: 956
+  - url: uk/co/ibboard.cawbird.desktop/8af73a5caa827bff7d8d32220cd5538f/screenshots/image-4_orig.png
+    thumbnailUrl: uk/co/ibboard.cawbird.desktop/8af73a5caa827bff7d8d32220cd5538f/screenshots/image-4_624x334.png
+    width: 1283
+    height: 688
+iconSources:
+  - url: uk/co/ibboard.cawbird.desktop/8af73a5caa827bff7d8d32220cd5538f/icons/128x128/cawbird_uk.co.ibboard.cawbird.png
+    width: 128
+    height: 128
+developer: IBBoard
+homepage: "https://ibboard.co.uk/cawbird/"
+enabled: true
+order: 99

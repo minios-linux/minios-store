@@ -1,0 +1,63 @@
+id: "birdtray"
+name: Birdtray
+description: System tray new mail notification for Thunderbird
+longDescription: |
+  <p>
+        Birdtray is a system tray new mail notification for Thunderbird, which does not require extensions
+      </p>
+  <p>Features:</p>
+  <ul>
+    <li>Shows the unread email counter in the Thunderbird system tray icon.</li>
+    <li>Optionally can animate the Thunderbird system tray icon if new mail is received.</li>
+    <li>You can snooze new mail notifications for a specific time period.</li>
+    <li>Birdtray checks the unread e-mail status directly by reading the Thunderbird email search database. This means it
+  does not need any extensions, and thus is immune to any future extension API changes in Thunderbird</li>
+    <li>It can hide the Thunderbird window, and restore it. There is also context menu for that.</li>
+    <li>You can configure which accounts you want to check for unread emails on</li>
+    <li>You can choose different font colors for different email accounts. This allows you, for example, to have blue unread
+  count for personal emails, red unread count for work emails, and green unread count if both folders have unread mail.</li>
+    <li>Can launch Thunderbird when Birdtray starts, and terminate it when Birdtray quits (configurable).</li>
+    <li>Can monitor that Thunderbird is running, and indicate it if you accidentally closed it.</li>
+    <li>Has configurable "New Email" functionality, allowing pre-configured email templates.</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - birdtray
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - email
+  - e-mail
+  - newsgroup
+  - feed
+  - rss
+screenshotSources:
+  - url: com/ulduzsoft/Birdtray/ee35d071c4bef1bd63e7abf2cc3de59b/screenshots/image-1_orig.png
+    thumbnailUrl: com/ulduzsoft/Birdtray/ee35d071c4bef1bd63e7abf2cc3de59b/screenshots/image-1_624x371@1.png
+    width: 1730
+    height: 1030
+iconSources:
+  - url: com/ulduzsoft/Birdtray/ee35d071c4bef1bd63e7abf2cc3de59b/icons/128x128/birdtray_com.ulduzsoft.Birdtray.png
+    width: 128
+    height: 128
+developer: ulduzsoft
+homepage: "https://github.com/gyunaev/birdtray/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "TortoiseHg",
+  "description": "Aplikasi antarmuka grafis untuk menggunakan Mercurial",
+  "longDescription": "<p>TortoiseHg menyediakan alat grafis untuk berinteraksi dengan sistem kontrol revisi terdistribusi, Mercurial. Dukungan GUI tersedia untuk lebih dari selusin operasi, termasuk menambah file, melakukan commit perubahan, mengelola filter ignore, melihat log perubahan, melakukan merge, recover/rollback, mengedit konfigurasi, sinkronisasi repository, dan banyak lagi. Fitur unggulannya adalah alat commit interaktif yang memungkinkan pemilihan diff dari beberapa file secara mudah dan pengemasan ke dalam changeset, yang lebih kuat dan lebih mudah digunakan dibandingkan alternatif seperti qct dan hgct (commit-tool).</p>\n"
+}

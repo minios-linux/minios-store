@@ -1,0 +1,5 @@
+{
+  "name": "Blinken",
+  "description": "Jeu d'entraînement de la mémoire",
+  "longDescription": "<p>Blinken s'inspire d'un jeu électronique sorti en 1978, qui met au défi les joueurs de mémoriser des séquences de plus en plus longues. L’interface comporte 4 boutons de couleur, chacun associé à un son distinctif. Ces boutons s’illuminent de manière aléatoire pour former une séquence que le joueur doit ensuite reproduire. Si le joueur parvient à restituer correctement la séquence, il accède au niveau suivant où une étape s’ajoute à la suite précédente. En cas d’erreur, la partie est terminée et il faut recommencer depuis le début. L’objectif est d’obtenir le meilleur score possible : chaque étape correctement reproduite rapporte un point, ainsi une séquence de 8 lumières correctement saisie vaut 8 points sur le tableau des scores.</p>\n"
+}

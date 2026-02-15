@@ -1,0 +1,5 @@
+{
+  "name": "ddrescueview",
+  "description": "Penampil grafis untuk file peta GNU ddrescue",
+  "longDescription": "<p>Alat kecil ini memungkinkan pengguna memeriksa file peta dari ddrescue secara grafis melalui aplikasi GUI yang ramah pengguna. Jendela utama menampilkan kisi blok di mana warna setiap blok merepresentasikan tipe blok yang terdapat di dalamnya. Banyak orang mengenal tampilan seperti ini dari program defragmentasi.</p>\n<p>Fitur:  * Menampilkan peta ddrescue dalam grafik blok berwarna  * Memeriksa setiap blok pada image, melihat daftar detail    entri peta di dalamnya  * Untuk memantau proses rescue, ddrescueview dapat secara otomatis    membaca ulang file peta  * Satuan dapat ditampilkan dengan awalan desimal (KB, MB...) atau    biner (KiB, MiB...)</p>\n"
+}

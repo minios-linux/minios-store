@@ -1,0 +1,48 @@
+id: "ktikz"
+name: KtikZ
+description: Editor for the TikZ language
+longDescription: |
+  <p>KtikZ is a small application helping you to create TikZ (from the LaTeX
+     pgf package) diagrams for your publications.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ktikz
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: k/kt/ktikz.desktop/a448f7ba0a11435fc6aacaabfb444a24/screenshots/image-1_orig.png
+    thumbnailUrl: k/kt/ktikz.desktop/a448f7ba0a11435fc6aacaabfb444a24/screenshots/image-1_624x390.png
+    width: 1680
+    height: 1050
+  - url: k/kt/ktikz.desktop/a448f7ba0a11435fc6aacaabfb444a24/screenshots/image-2_orig.png
+    thumbnailUrl: k/kt/ktikz.desktop/a448f7ba0a11435fc6aacaabfb444a24/screenshots/image-2_624x390.png
+    width: 1680
+    height: 1050
+iconSources:
+  - url: k/kt/ktikz.desktop/6b7e195b1aea9abfee80fd0e935e6edd/icons/128x128/ktikz_ktikz.png
+    width: 128
+    height: 128
+homepage: "https://github.com/fhackenberger/ktikz"
+enabled: true
+order: 99

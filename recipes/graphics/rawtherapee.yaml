@@ -1,0 +1,63 @@
+id: "rawtherapee"
+name: RawTherapee
+description: An advanced raw photo development program
+longDescription: |
+  <p>RawTherapee is a powerful, cross-platform raw photo processing program. It is written mostly in C++ using a GTK+ front-end. It uses a patched version of dcraw for reading raw files, with an in-house solution which adds the highest quality support for certain camera models unsupported by dcraw and enhances the accuracy of certain raw files already supported by dcraw. It is notable for the advanced control it gives the user over the demosaicing and development process.</p>
+  <p>RawTherapee is designed for developing raw files from a broad range of digital cameras, as well as HDR DNG files and non-raw image formats (JPEG, TIFF and PNG). The target audience ranges from enthusiast newcomers who wish to broaden their understanding of how digital imaging works to semi-professional photographers. Knowledge in color science is not compulsory, but it is recommended that you are eager to learn and ready to read our documentation (RawPedia) as well as look up basic concepts which lie outside the scope of RawPedia, such as color balance, elsewhere.</p>
+  <p>Of course, professionals may use RawTherapee too while enjoying complete freedom, but will probably lack some peripheral features such as Digital Asset Management, printing, uploading, etc. RawTherapee is not aimed at being an inclusive all-in-one program, and the open-source community is sufficiently developed by now to offer all those peripheral features in other specialized software.</p>
+  
+categoryId: graphics
+icon: Camera
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - rawtherapee
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - raw
+  - photography
+  - develop
+  - pp3
+  - graphics
+screenshotSources:
+  - url: com/rawtherapee/RawTherapee/f3c784f187ec42dc433711d985e12967/screenshots/image-1_orig.png
+    thumbnailUrl: com/rawtherapee/RawTherapee/f3c784f187ec42dc433711d985e12967/screenshots/image-1_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: com/rawtherapee/RawTherapee/f3c784f187ec42dc433711d985e12967/screenshots/image-2_orig.png
+    thumbnailUrl: com/rawtherapee/RawTherapee/f3c784f187ec42dc433711d985e12967/screenshots/image-2_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: com/rawtherapee/RawTherapee/f3c784f187ec42dc433711d985e12967/screenshots/image-3_orig.png
+    thumbnailUrl: com/rawtherapee/RawTherapee/f3c784f187ec42dc433711d985e12967/screenshots/image-3_624x351@1.png
+    width: 1920
+    height: 1080
+  - url: com/rawtherapee/RawTherapee/f3c784f187ec42dc433711d985e12967/screenshots/image-4_orig.png
+    thumbnailUrl: com/rawtherapee/RawTherapee/f3c784f187ec42dc433711d985e12967/screenshots/image-4_624x351@1.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: com/rawtherapee/RawTherapee/f3c784f187ec42dc433711d985e12967/icons/128x128/rawtherapee_rawtherapee.png
+    width: 128
+    height: 128
+homepage: "http://rawtherapee.com/"
+enabled: true
+order: 99

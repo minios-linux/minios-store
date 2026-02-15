@@ -1,0 +1,62 @@
+id: "clementine"
+name: Clementine Music Player
+description: Plays music files and internet radio
+longDescription: |
+  <p>Clementine is a multiplatform music player focusing on a fast and
+        easy-to-use interface for searching and playing your music.</p>
+  <p>Summary of included features:</p>
+  <ul>
+    <li>Search and play your local music library</li>
+    <li>Listen to internet radio from Last.fm, SomaFM, IntergalacticFM, Magnatune, Jamendo and Icecast</li>
+    <li>Tabbed playlists, import and export M3U, XSPF, PLS and ASX</li>
+    <li>Visualisations from projectM</li>
+    <li>Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AA</li>
+    <li>Edit tags on MP3 and OGG files, organise your music</li>
+    <li>Download missing album cover art from Last.fm</li>
+    <li>Native desktop notifications using libnotify</li>
+    <li>Supports MPRIS, or remote control using the command-line</li>
+    <li>Remote control using a Wii Remote, MPRIS or the command-line</li>
+    <li>Copy music to your iPod, iPhone, MTP or mass-storage USB player</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Music
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - clementine
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/clementine_player/Clementine.desktop/54955882c8737f048c131b113cd289f1/screenshots/image-1_orig.png
+    thumbnailUrl: org/clementine_player/Clementine.desktop/54955882c8737f048c131b113cd289f1/screenshots/image-1_624x396.png
+    width: 1139
+    height: 724
+  - url: org/clementine_player/Clementine.desktop/54955882c8737f048c131b113cd289f1/screenshots/image-2_orig.png
+    thumbnailUrl: org/clementine_player/Clementine.desktop/54955882c8737f048c131b113cd289f1/screenshots/image-2_624x418.png
+    width: 1080
+    height: 724
+iconSources:
+  - url: org/clementine_player/Clementine.desktop/54955882c8737f048c131b113cd289f1/icons/128x128/clementine_org.clementine_player.Clementine.png
+    width: 128
+    height: 128
+homepage: "https://www.clementine-player.org"
+enabled: true
+order: 99

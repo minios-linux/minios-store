@@ -1,0 +1,5 @@
+{
+  "name": "Pinot Metasearch Tool",
+  "description": "Cari di Web dan dokumen Anda",
+  "longDescription": "<p>Pinot menyediakan layanan D-Bus yang menelusuri, mengindeks dokumen Anda, dan memantau perubahan yang terjadi. Layanan ini dapat digunakan melalui antarmuka baris perintah, atau melalui antarmuka GUI berbasis GTK yang memungkinkan Anda menelusuri indeks yang dibuat oleh layanan ini maupun mesin pencari web favorit Anda, lalu menampilkan serta menganalisis hasil pencarian.</p>\n<p>Pinot juga menyediakan antarmuka Xesam, yang dapat digunakan melalui Xesam Query Language dan Xesam User Language.</p>\n<p>Untuk menelusuri file rpm, instal paket rpm dan file.</p>\n"
+}

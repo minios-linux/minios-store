@@ -1,0 +1,5 @@
+{
+  "name": "FreeCAD",
+  "description": "Modeleur paramétrique basé sur les fonctionnalités",
+  "longDescription": "<p>FreeCAD est un logiciel CAO libre de type RAD, reposant sur OpenCasCade, Qt et Python. Il intègre des concepts clés tels que l’enregistrement de macros, des espaces de travail modulaires, la possibilité de fonctionner en mode serveur, et le chargement dynamique d’extensions applicatives. Son architecture vise l’indépendance vis-à-vis des plateformes.</p>\n<p>À ce jour, FreeCAD peut importer et afficher des modèles CAO aux formats IGES, STEP et BRep, ainsi que des maillages aux formats STL, BMS, AST et Wavefront OBJ. Les fonctionnalités d’édition et de modélisation restent actuellement limitées.</p>\n<p>Ce paquet contient les fichiers communs et les ressources de FreeCAD.</p>\n"
+}

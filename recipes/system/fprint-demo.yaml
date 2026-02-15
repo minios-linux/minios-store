@@ -1,0 +1,26 @@
+id: fprint-demo
+name: fprint-demo
+description: Fingerprint scanning demonstration
+longDescription: |
+  <p>fprint-demo is a simple GTK+ application to demonstrate and test libfprint&apos;s capabilities</p>
+  <p>It allows user-interaction to enroll finger images and, depending scanner vendors, show both normal and binarized representation, including detected minutiaes</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - fprint-demo
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: f/fp/fprint_demo.desktop/6D21E610C018FD7EC9825DDD6359378B/icons/128x128/fprint-demo_fprint_demo.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

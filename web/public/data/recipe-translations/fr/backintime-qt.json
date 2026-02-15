@@ -1,0 +1,5 @@
+{
+  "name": "Back In Time",
+  "description": "Système de sauvegarde simple",
+  "longDescription": "<p>Back In Time est une interface qui utilise rsync et cron pour permettre la création d'instantanés et la sauvegarde de dossiers spécifiques. Il optimise l'espace disque en ne créant un nouvel instantané que lorsque le dossier a été modifié, et utilise des liens physiques pour les fichiers inchangés.</p>\n<p>L'utilisateur peut programmer des sauvegardes régulières avec cron.</p>\n<p>Ceci est l'interface graphique de Back In Time.</p>\n"
+}

@@ -1,0 +1,33 @@
+id: "activity-aware-firefox"
+name: Activity-aware Firefox
+description: Keeps a separate Firefox Profile per each Activity
+longDescription: |
+  <p>Using activity-aware-firefox you can have Firefox windows in each Plasma Activity bound to that Activity.</p>
+  <p>What activity-aware-firefox does is to create a Firefox Profile the first time it is run in an Activity, using its unique ID.</p>
+  <p>Then every next time you run activity-aware-firefox in that Plasma Activity, it will start the Firefox Profile associated with it.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - activity-aware-firefox
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - internet
+  - www
+  - browser
+  - web
+  - explorer
+iconSources:
+  - url: a/ac/activityfirefox.desktop/33a7f21de07eaab62df2a2d975577bba/icons/128x128/activity-aware-firefox_firefox.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

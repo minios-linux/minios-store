@@ -1,0 +1,27 @@
+id: timemachine
+name: JACK Timemachine
+description: JACK audio recorder for spontaneous and conservatory use
+longDescription: |
+  <p>Timemachine writes the last 10 seconds of audio _before_ the button press and everything from then on up to the next button press into a WAV-file.</p>
+  <p>The idea is that you doodle away with whatever is kicking around in your studio and when you hear an interesting noise, you press record and capture it, without having to try and recreate it.</p>
+  <p>It uses the JACK audio connection kit, an API that lets audio applications communicate with each other and share audio data in realtime.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - timemachine
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: timemachine_timemachine-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

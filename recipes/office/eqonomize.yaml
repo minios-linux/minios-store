@@ -1,0 +1,51 @@
+id: "eqonomize"
+name: Eqonomize!
+description: Manage your personal finances
+longDescription: |
+  <p>Eqonomize! is a personal accounting software for KDE, with focus on efficiency and ease of use for the small household economy. It provides a complete solution, with bookkeeping by double entry and support for scheduled recurring transactions, security investments, and budgeting. It gives a clear overview of past and present transactions, and development of incomes and expenses, with descriptive tables and charts, as well as an approximation of future account values.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - eqonomize
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/eqonomize/3461b94b3ef1b10ff94c61b28ad8bf7c/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/eqonomize/3461b94b3ef1b10ff94c61b28ad8bf7c/screenshots/image-1_624x429@1.png
+    width: 1230
+    height: 847
+  - url: io/github/eqonomize/3461b94b3ef1b10ff94c61b28ad8bf7c/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/eqonomize/3461b94b3ef1b10ff94c61b28ad8bf7c/screenshots/image-2_624x462@1.png
+    width: 1531
+    height: 1134
+  - url: io/github/eqonomize/3461b94b3ef1b10ff94c61b28ad8bf7c/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/eqonomize/3461b94b3ef1b10ff94c61b28ad8bf7c/screenshots/image-3_624x470@1.png
+    width: 1309
+    height: 987
+iconSources:
+  - url: io/github/eqonomize/3461b94b3ef1b10ff94c61b28ad8bf7c/icons/128x128/eqonomize_eqonomize.png
+    width: 128
+    height: 128
+homepage: "https://eqonomize.github.io"
+enabled: true
+order: 99

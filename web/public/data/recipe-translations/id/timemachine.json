@@ -1,0 +1,5 @@
+{
+  "name": "JACK Timemachine",
+  "description": "Perekam audio JACK untuk penggunaan spontan dan konservatori",
+  "longDescription": "<p>Timemachine merekam 10 detik audio terakhir <em>sebelum</em> tombol ditekan, serta seluruh audio setelahnya hingga tombol ditekan lagi, dan menyimpannya ke dalam file WAV.</p>\n<p>Konsepnya adalah Anda bereksperimen dengan peralatan studio, lalu ketika mendengar suara menarik, cukup tekan tombol rekam untuk menangkapnya tanpa harus mencoba mengulang suara tersebut.</p>\n<p>Aplikasi ini menggunakan JACK audio connection kit, yakni API yang memungkinkan aplikasi audio saling terhubung dan berbagi data audio secara real-time.</p>\n"
+}

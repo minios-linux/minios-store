@@ -1,0 +1,45 @@
+id: "swami"
+name: Swami Instrument Editor
+description: "Create, play and organize MIDI instruments and sounds"
+longDescription: |
+  <p>Swami (Sampled Waveforms And Musical Instruments) is an application for editing and managing MIDI instruments, such as SoundFont files. A programming API is also provided for integration with other applications.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - swami
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - sound
+  - jackd
+  - sampler
+  - instrument
+  - editor
+  - sf2
+iconSources:
+  - url: s/sw/swami.desktop/c66c6b3685ebd9cebfaba9b0040bc5fd/icons/128x128/swami_swami.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

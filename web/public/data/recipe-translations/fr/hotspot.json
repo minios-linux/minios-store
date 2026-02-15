@@ -1,0 +1,5 @@
+{
+  "name": "Hotspot",
+  "description": "Interface graphique pour l’analyse des performances avec perf sous Linux",
+  "longDescription": "<p>Le projet Hotspot, développé par KDAB R&D, est un outil autonome avec interface graphique dédié à l’analyse des performances. Actuellement, il prend en charge uniquement les données issues de perf, mais il est prévu qu’il soit compatible avec d’autres formats de données de performance à l’avenir.</p>\n"
+}

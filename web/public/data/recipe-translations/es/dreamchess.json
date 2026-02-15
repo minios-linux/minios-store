@@ -1,0 +1,5 @@
+{
+  "name": "DreamChess",
+  "description": "un juego de ajedrez en 3D",
+  "longDescription": "<p>DreamChess ofrece gráficos 3D con OpenGL y diversos tableros de ajedrez, desde clásicos de madera hasta estilos planos.</p>\n<p>Incluye un motor de ajedrez de fuerza moderada: Dreamer. Si este motor no resulta suficiente para ti, puedes utilizar cualquier otro motor compatible con XBoard, incluyendo los populares Crafty y GNU Chess.</p>\n<p>Otras funciones incluyen listas de movimientos en pantalla usando notación SAN, opción de deshacer jugadas y guardado de partidas en formato PGN.</p>\n"
+}

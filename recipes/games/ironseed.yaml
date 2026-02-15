@@ -1,0 +1,41 @@
+id: "ironseed"
+name: Ironseed
+description: An interstellar adventure game
+longDescription: |
+  <p>It was originally both developed and published by Channel 7 for DOS in 1994. Gameplay is real-time, featuring trading, diplomacy, and strategy, and somewhat resembles Star Control 2 / Ur-Quan masters.</p>
+  <p>Storyline: Escaping the iron fist of a fanatic theocracy, the members of the Ironseed Movement launch into space and are set adrift after suffering a computer malfunction. As captain, you awaken along with the crew some thousand years later and are confronted by an alien horde...</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ironseed
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - combat
+  - tactic
+  - real-time
+  - aliens
+  - space
+  - strategy
+  - adventure
+  - fiction
+iconSources:
+  - url: i/ir/ironseed.desktop/441a46fd4be83a332965c612d32ed27c/icons/128x128/ironseed_ironseed.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

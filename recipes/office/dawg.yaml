@@ -1,0 +1,31 @@
+id: dawg
+name: Dawg
+description: Sequence Evolution Simulator
+longDescription: |
+  <p>DNA Assembly with Gaps (Dawg) is an application designed to simulate the evolution of recombinant DNA sequences in continuous time based on the robust general time reversible model with gamma and invariant rate heterogeneity and a novel length-dependent model of gap formation. The application accepts phylogenies in Newick format and can return the sequence of any node, allowing for the exact evolutionary history to be recorded at the discretion of users. Dawg records the gap history of every lineage to produce the true alignment in the output. Many options are available to allow users to customize their simulations and results.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dawg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - bioinformatics
+  - dna
+  - sequence
+  - simulation
+  - evolution
+iconSources:
+  - cached: dawg_dawg.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

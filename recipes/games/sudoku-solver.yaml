@@ -1,0 +1,42 @@
+id: "sudoku-solver"
+name: Sudoku Solver
+description: Solve sudoku puzzles
+longDescription: |
+  <p>
+        Sudoku solver that contains several logical resolution methods, as well as brute force selection.
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sudoku-solver
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - games
+  - puzzle
+  - sudoku
+screenshotSources:
+  - url: org/bitbucket/sudoku-solver/7239483337ccc2dbe1c318e336d7d233/screenshots/image-1_orig.png
+    thumbnailUrl: org/bitbucket/sudoku-solver/7239483337ccc2dbe1c318e336d7d233/screenshots/image-1_624x479.png
+    width: 627
+    height: 482
+iconSources:
+  - cached: sudoku-solver_sudoku-solver.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

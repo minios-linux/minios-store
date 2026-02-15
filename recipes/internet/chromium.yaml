@@ -1,0 +1,30 @@
+id: "chromium"
+name: Chromium Web Browser
+description: Access the Internet
+longDescription: |
+  <p>Web browser that aims to build a safer, faster, and more stable internet browsing experience.</p>
+  <p>This package contains the web browser component.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - chromium
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: c/ch/chromium.desktop/61d17eeeab417af714e9b0e04e7470a8/icons/128x128/chromium_chromium.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

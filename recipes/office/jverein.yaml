@@ -1,0 +1,34 @@
+id: jverein
+name: JVerein
+description: Administration of an Association
+longDescription: |
+  <p>JVerein is an open source association administration with a connection to the homebanking software Hibiscus, which is also under open source license. The implementation is done with Java. The procedure thus guaranteed on many platforms. Jameica is used as the GUI framework.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jverein
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - association
+  - verein
+iconSources:
+  - cached: jverein_jverein-icon.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

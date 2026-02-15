@@ -1,0 +1,60 @@
+id: mousai
+name: Mousai
+description: Identify songs in seconds
+longDescription: |
+  <p>Discover songs you are aching to know with an easy-to-use interface.</p>
+  <p>Mousai is a simple application that can recognize songs similar to Shazam. Just click the listen button, and then wait a few seconds. It will magically return the title and artist of that song!</p>
+  <p>Note: This uses the API of audd.io, so it is necessary to log in to their site to get more trials.</p>
+  <p>Why you will love Mousai?</p>
+  <ul>
+    <li>🎵 Identify songs within seconds or save for later when offline</li>
+    <li>🎙️ Recognize from desktop audio or your microphone</li>
+    <li>🎸 Build a repertoire of recognized songs</li>
+    <li>🎼 Quickly preview the song within the interface</li>
+    <li>🌐 Browse and listen the song from different providers</li>
+    <li>📱 Easy-to-use user interface</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mousai
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shazam
+  - audio
+  - music
+  - song
+  - recognize
+  - identify
+  - recognition
+screenshotSources:
+  - url: io/github/seadve.Mousai/d5ac56329a89434da306ba36a74bd6be/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/seadve.Mousai/d5ac56329a89434da306ba36a74bd6be/screenshots/image-1_624x506@1.png
+    width: 890
+    height: 722
+  - url: io/github/seadve.Mousai/d5ac56329a89434da306ba36a74bd6be/screenshots/image-2_orig.png
+    thumbnailUrl: io/github/seadve.Mousai/d5ac56329a89434da306ba36a74bd6be/screenshots/image-2_624x506@1.png
+    width: 890
+    height: 722
+  - url: io/github/seadve.Mousai/d5ac56329a89434da306ba36a74bd6be/screenshots/image-3_orig.png
+    thumbnailUrl: io/github/seadve.Mousai/d5ac56329a89434da306ba36a74bd6be/screenshots/image-3_624x506@1.png
+    width: 890
+    height: 722
+  - url: io/github/seadve.Mousai/d5ac56329a89434da306ba36a74bd6be/screenshots/image-4_orig.png
+    thumbnailUrl: io/github/seadve.Mousai/d5ac56329a89434da306ba36a74bd6be/screenshots/image-4_624x506@1.png
+    width: 890
+    height: 722
+iconSources:
+  - url: io/github/seadve.Mousai/d5ac56329a89434da306ba36a74bd6be/icons/128x128/mousai_io.github.seadve.Mousai.png
+    width: 128
+    height: 128
+homepage: "https://github.com/SeaDve/Mousai"
+enabled: true
+order: 99

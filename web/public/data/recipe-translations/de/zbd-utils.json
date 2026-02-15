@@ -1,0 +1,5 @@
+{
+  "name": "gzbd",
+  "description": "Zoned Block Devices verwalten",
+  "longDescription": "<p>zbd ist ein Kommandozeilenwerkzeug, mit dem Sie Zonen eines Geräts anzeigen, öffnen, schließen, zurücksetzen und abschließen können.</p>\n<p>gzbd ist ähnlich wie zbd, bietet jedoch eine grafische Benutzeroberfläche.</p>\n<p>gzbd-viewer ist eine grafische Oberfläche, die Zustand und Status der Zonen eines Zoned Block Device anzeigt.</p>\n"
+}

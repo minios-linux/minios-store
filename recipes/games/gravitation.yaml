@@ -1,0 +1,43 @@
+id: "gravitation"
+name: Gravitation
+description: "game about mania, melancholia, and the creative process"
+longDescription: |
+  <p>Gravitation is a short, autobiographical pixelated art game by Jason Rohrer. It is a followup to his previous game, &quot;Passage&quot;. It can be explored in approximately 8 minutes. If in doubt, please keep playing. If you still don&apos;t understand the game, please read the game creators statement on the website and the experiences of other people linked from the website.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gravitation
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - art
+  - game
+  - mania
+  - melancholia
+  - creativity
+iconSources:
+  - url: g/gr/gravitation.desktop/9ee368c4dbf83476c0b711165dd77882/icons/128x128/gravitation_gravitation.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

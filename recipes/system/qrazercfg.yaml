@@ -1,0 +1,35 @@
+id: qrazercfg
+name: Razer Configuration
+description: Graphical Razer device configuration tool
+longDescription: |
+  <p>Python- and QT-powered configuration utility for the configuration of Razer devices on Linux systems.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qrazercfg
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qrazercfg_razercfg.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

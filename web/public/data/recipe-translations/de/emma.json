@@ -1,0 +1,5 @@
+{
+  "name": "emma",
+  "description": "MySQL-Verwaltungsassistent",
+  "longDescription": "<p>emma ist ein grafisches Toolkit für MySQL-Datenbankentwickler und -Administratoren; es ist der Nachfolger von yamysqlfront.</p>\n<p>Die Hauptmerkmale sind:   * Dialoge zum Erstellen/Bearbeiten von MySQL-Datenbanken, Tabellen und zugehörigen Indizes   * Gruppierung von Ergebnismengen in Registerkarten   * SQL-Editor:     + Registerkarten     + Integrierte Syntaxhervorhebung     + Tab-Vervollständigung für Tabellen- und Feldnamen     + Automatische Formatierung von SQL-Anweisungen   * Export in CSV-Dateien   * Mehrere gleichzeitig geöffnete MySQL-Verbindungen</p>\n"
+}

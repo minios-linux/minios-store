@@ -1,0 +1,35 @@
+id: "planner-data"
+name: Planner
+description: "Handle the tasks, resources, and cost of your projects"
+longDescription: |
+  <p>Planner is a Project Management application that supports Gantt charts, resource allocation and integration with other GNOME applications.</p>
+  <p>This package contains data files for planner like images, icons, and arch-independent files.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - planner-data
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - gantt
+  - chart
+  - critical path
+  - relationship
+  - dependency
+  - wbs
+iconSources:
+  - url: app/drey/Planner/46589f56945b5945ce5c41547966a948/icons/128x128/planner-data_gnome-planner.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,37 @@
+id: r-cran-rcmdr
+name: R Commander
+description: Graphical interface to the R environment for statistical computing
+longDescription: |
+  <p>This package provides a simple GUI, based on the GNU interface to Tcl/Tk, that is suitable for teaching introductory statistics.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - r-cran-rcmdr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: r-cran-rcmdr_Rcmdr.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

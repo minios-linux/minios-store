@@ -1,0 +1,5 @@
+{
+  "name": "Gitso",
+  "description": "Terhubung ke pengguna lain menggunakan protokol VNC",
+  "longDescription": "<p>Gitso adalah program grafis lintas platform (Linux, OS X, dan Windows) yang memudahkan pengguna untuk terhubung ke layar, keyboard, dan mouse orang lain. Aplikasi ini sangat berguna untuk memberikan atau menerima bantuan teknis dengan mudah.</p>\n<p>Melalui proses sederhana dua langkah, pihak yang memberikan dukungan terlebih dahulu mengatur port forwarding dan firewall di komputernya jika diperlukan, kemudian menjalankan Gitso untuk menerima koneksi pada port 5500. Setelah itu, pihak yang membutuhkan bantuan menggunakan Gitso untuk terhubung ke alamat pendukung (IP atau nama domain), sehingga layarnya dapat diakses secara jarak jauh dan pendukung dapat mengendalikan keyboard serta mouse.</p>\n"
+}

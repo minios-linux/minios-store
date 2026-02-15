@@ -1,0 +1,30 @@
+id: "lubuntu-update-notifier"
+name: Apply Full Upgrade
+description: Search and Apply Full Upgrade
+longDescription: |
+  <p>checks if there are updates available. If there are it opnes notifier.py which is a window that notifies about package updates available. If you decide to upgrade a full upgrade (not safe-upgrade) with the upgrader binary. Upgrader can also be run alone, it can be chosen to run cache update before and if a safe or full upgrade will be done. There is also a .desktop to call upgrader with cache update and a full upgrade.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lubuntu-update-notifier
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - upgrade
+  - update
+iconSources:
+  - url: u/up/upg-apply.desktop/1071ea1aad09b2ecf6edd07d998c9516/icons/128x128/lubuntu-update-notifier_system-software-update.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

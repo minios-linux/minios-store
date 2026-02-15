@@ -1,0 +1,52 @@
+id: "gtg"
+name: Getting Things GNOME!
+description: Personal tasks and TODO-list items organizer for the GNOME desktop environment.
+longDescription: |
+  <p>Getting Things GNOME! is an organizer for the GNOME desktop environment. GTG focuses on usability and ease of use. Its main objective is to provide a simple and yet flexible organization tool for life and work.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gtg
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - organizer
+  - task
+  - activity
+  - plan
+  - time
+screenshotSources:
+  - url: org/gnome/GTG/159653af47aa919acd7b7c6d45b263b7/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/GTG/159653af47aa919acd7b7c6d45b263b7/screenshots/image-1_624x351.png
+    width: 1895
+    height: 1066
+  - url: org/gnome/GTG/159653af47aa919acd7b7c6d45b263b7/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/GTG/159653af47aa919acd7b7c6d45b263b7/screenshots/image-2_624x393.png
+    width: 1044
+    height: 658
+  - url: org/gnome/GTG/159653af47aa919acd7b7c6d45b263b7/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/GTG/159653af47aa919acd7b7c6d45b263b7/screenshots/image-3_624x486.png
+    width: 640
+    height: 499
+iconSources:
+  - url: org/gnome/GTG/5ce9941f903e3ef75b12d828b7f95353/icons/128x128/gtg_org.gnome.GTG.png
+    width: 128
+    height: 128
+developer: The GTG team
+homepage: "https://wiki.gnome.org/Apps/GTG"
+enabled: true
+order: 99

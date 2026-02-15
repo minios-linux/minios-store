@@ -1,0 +1,40 @@
+id: dangen
+name: dangen
+description: shoot 'em up game
+longDescription: |
+  <p>dangen is a shoot &apos;em up game that attach importance to accuracy of shooting. With the combination of the cursor key and the shot button, you can shoot at your side or even at your back.  Get the bonus point by hitting the enemy without a miss.  You can choose stages of different difficulty.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dangen
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - shooting
+  - battle
+  - explosions
+  - 2d
+iconSources:
+  - cached: dangen_dangen.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

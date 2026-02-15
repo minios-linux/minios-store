@@ -1,0 +1,5 @@
+{
+  "name": "GTKCrypto",
+  "description": "Application GTK+ pour chiffrer des fichiers et calculer des empreintes",
+  "longDescription": "<p>\nGTKCrypto vous permet de chiffrer et de signer des fichiers ou du texte. De plus, il est possible de calculer différents types d’empreintes (hashs) pour un fichier et de comparer des fichiers afin de vérifier si leur contenu est identique ou non.<br>\nAlgorithmes de chiffrement pris en charge : AES, Twofish, Serpent et Camellia, tous utilisant des clés de 256 bits et fonctionnant en mode CBC ou CTR.<br>\nAlgorithmes de hachage pris en charge : MD5, SHA-1, SHA-2, SHA-3, GOST, Whirlpool.\n    </p>\n"
+}

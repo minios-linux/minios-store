@@ -1,0 +1,35 @@
+# Exclude files not needed in the Debian source package.
+#
+# The .deb binary package only needs:
+#   bin/               - daemon executable
+#   client/            - Python backend
+#   share/             - .desktop file, systemd/init.d service files
+#   debian/            - packaging metadata
+#   Makefile           - install target
+#
+# The web interface is hosted separately on GitHub Pages (store.minios.dev)
+# and is not included in the .deb package.
+
+# Web frontend (hosted separately on GitHub Pages, not included in .deb)
+tar-ignore=web
+
+# Recipe YAML sources (recipes.json is pre-built into web/dist/)
+tar-ignore=recipes
+
+# Build tools (not needed at runtime)
+tar-ignore=tools
+
+# CI/CD and git metadata
+tar-ignore=.git
+tar-ignore=.github
+tar-ignore=.gitignore
+
+# Documentation (not needed in package)
+tar-ignore=README.md
+tar-ignore=LICENSE
+
+# Root package-lock.json (not used by the package)
+tar-ignore=package-lock.json
+
+# Python bytecode
+tar-ignore=__pycache__

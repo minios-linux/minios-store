@@ -1,0 +1,5 @@
+{
+  "name": "X NetHack",
+  "description": "Jeu d’exploration de donjon - version graphique",
+  "longDescription": "<p>NetHack est un jeu d’aventure de type Donjons & Dragons, à la fois délirant et extrêmement addictif. Vous y incarnez un personnage choisi parmi de nombreuses classes (comme magicien, rôdeur ou touriste), et combattez votre chemin vers le fond du donjon pour récupérer l’Amulette de Yendor pour votre divinité. En chemin, vous pourriez croiser, entre autres, un mécanicien quantique, le roi Arthur, ou — si vous avez vraiment de la chance — la Bête affamée de Traal.</p>\n<p>Pour jouer à NetHack, il est conseillé d’installer une interface adaptée. Chacune propose la version originale non graphique, et elles peuvent être installées simultanément :  - nethack-console : version sans interface graphique ;  - nethack-x11 : version graphique basée sur X11/Athena ;  - nethack-lisp : interface en mode fenêtré Lisp.</p>\n<p>Ce paquet fournit les versions texte et graphique (X11/Athena) de NetHack.</p>\n"
+}

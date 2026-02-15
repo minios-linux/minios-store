@@ -1,0 +1,24 @@
+id: openteacher
+name: OpenTeacher
+description: Your personal tutor
+longDescription: |
+  <p>OpenTeacher is an application that helps you in learning a foreign language vocabulary. Just enter some words in your native or foreign language, and OpenTeacher will test you.</p>
+  <p>OpenTeacher has the following features:   * Smart and interval question asking   * Think answer, shuffle answer and repeat answer input modes   * Easy symbol, Greek and Cyrillic input   * Read and write Teach2000 and WRTS files, read ABBY Lingvo Tutor files   * Save and open your online WRTS lists   * Support for synonyms   * Printing your word lists   * Available in English, Spanish, German, Dutch, Hungarian.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openteacher
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: openteacher_openteacher.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

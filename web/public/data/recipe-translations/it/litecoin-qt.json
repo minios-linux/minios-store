@@ -1,0 +1,5 @@
+{
+  "name": "Litecoin",
+  "description": "Cryptovaluta P2P Litecoin",
+  "longDescription": "<p>Litecoin è un sistema di denaro elettronico peer-to-peer, open source e completamente decentralizzato, che non richiede server centrali né terze parti fidate. Gli utenti detengono direttamente le chiavi crittografiche dei propri fondi e possono effettuare transazioni tra loro tramite una rete P2P che verifica la doppia spesa. Litecoin è un fork di Bitcoin.</p>\n<p>Per impostazione predefinita, si connette a una rete IRC per individuare altri peer.</p>\n<p>La cronologia completa delle transazioni viene archiviata localmente su ogni client. Sono necessari oltre 5 GB di spazio, in crescita lenta.</p>\n<p>Questo pacchetto include Litecoin-Qt, un’interfaccia grafica per Litecoin basata su Qt.</p>\n"
+}

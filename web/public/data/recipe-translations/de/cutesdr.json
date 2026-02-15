@@ -1,0 +1,5 @@
+{
+  "name": "CuteSdr",
+  "description": "Spektrumanzeige und Demodulator für IQ-Radio-Daten",
+  "longDescription": "<p>Die Hauptfunktion der CuteSDR-Anwendung besteht darin, als Grundlage für eigene Entwicklungen oder zu Ausbildungszwecken zu dienen. Es handelt sich NICHT um ein funktionsreiches Programm, sondern ist bewusst einfach gehalten, damit Entwickler leichter eigene Anwendungen darauf aufbauen können. Ein weiteres Ziel ist die ausschließliche Nutzung der Standardfunktionen von Qt, also ohne spezielle Bibliotheken oder Treiber. Dadurch ist CuteSDR ausschließlich über eine Netzwerkverbindung nutzbar. Die Haupt-GUI und das Framework wurden von Moe Wheatly, AE4JY, entwickelt.</p>\n<p>CuteSDR selbst verfügt nur über eine Netzwerkschnittstelle und unterstützt direkt die RFSPACE NetSDR- und SDR-IP-Radios. Die Anwendungen siqs_ftdi und SDRxxServer (separat verfügbar) stellen Netzwerkschnittstellen für RFSPACE USB-Geräte bereit.</p>\n"
+}

@@ -1,0 +1,29 @@
+id: medit
+name: medit
+description: Text editor
+longDescription: |
+  <p>Features:  * Configurable syntax highlighting.  * Configurable keyboard accelerators.  * Multiplatform - works both on unix and windows.  * Plugins: can be written in C or Python.  * Configurable tools available from the main and context menus. They can be    written in Python, or it can be a shell script, or in MooScript - simple    builtin scripting lanugage.  * Regular expression search/replace, grep and find frontends, builtin file    selector and whatnot.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - medit
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - editor
+  - texteditor
+  - text
+iconSources:
+  - cached: medit_medit.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

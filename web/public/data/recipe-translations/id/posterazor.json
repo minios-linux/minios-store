@@ -1,0 +1,5 @@
+{
+  "name": "PosteRazor",
+  "description": "Membagi gambar ke beberapa halaman untuk dirangkai menjadi poster",
+  "longDescription": "<p>\n      PosteRazor membagi gambar menjadi dokumen PDF multi-halaman. Setelah dicetak, lembaran-lembaran tersebut dapat disusun menjadi poster berukuran besar sesuai gambar aslinya.\n    </p>\n<p>\n      Aplikasi ini menggunakan libfreeimage dan libxpm yang mendukung banyak format file seperti BMP, GIF, ICO, JPG, PNG, TIFF, XPM, dan lainnya.\n    </p>\n<p>\n      PosteRazor juga mendukung berbagai jenis warna gambar: Monokrom, Grayscale, palet 4 Bit, palet 8 Bit, 24 Bit RGB, 48 Bit RGB (khusus TIFF dan PNG), 32 Bit CMYK (khusus TIFF). Gambar 32 Bit RGBA dapat dimuat namun akan diubah menjadi 24 Bit RGB dengan \"menggabungkan\" dengan latar belakang putih.\n    </p>\n<p>\n      Mendukung satuan dimensi seperti m, mm, cm, inci, ft, pt (1/72 inci) dan hasil PDF dapat dicetak dalam layout A4, A3, Legal, Letter, atau Tabloid.\n    </p>\n"
+}

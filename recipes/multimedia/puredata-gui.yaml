@@ -1,0 +1,51 @@
+id: "puredata-gui"
+name: Pure Data (Pd)
+description: A real-time graphical programming environment for live interactive computer music
+longDescription: |
+  <p>
+        Pure Data (or just "Pd") is an open source visual programming language for multimedia. Pure Data is developed by
+  Miller Puckette since 1996 and you can find it on his official website along with the official documentation and other related resources. This is the official "Pd" or "main distribution" and it is also known as "Pd Vanilla".
+      </p>
+  <p>
+        Think of Pd as a <em>Modular Synthesizer</em> that is also a programming language.
+      </p>
+  <p>
+        Pd's audio and MIDI functions are built-in as well as networking (e.g. using Open Sound Control), but there are
+  a number of external libraries that allow you to do graphics, interface hardware and much more...
+      </p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - puredata-gui
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - video
+  - programming
+  - synthesis
+  - analysis
+screenshotSources:
+  - url: org/puredata/pd-gui/c095bfdba14ed58d097bfec30cc89ea7/screenshots/image-1_orig.png
+    thumbnailUrl: org/puredata/pd-gui/c095bfdba14ed58d097bfec30cc89ea7/screenshots/image-1_624x388@1.png
+    width: 800
+    height: 498
+iconSources:
+  - url: org/puredata/pd-gui/c095bfdba14ed58d097bfec30cc89ea7/icons/128x128/puredata-gui_puredata.png
+    width: 128
+    height: 128
+homepage: "https://puredata.info/"
+enabled: true
+order: 99

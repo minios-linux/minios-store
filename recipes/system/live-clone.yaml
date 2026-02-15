@@ -1,0 +1,31 @@
+id: live-clone
+name: Live Clone
+description: Cloning Live-Boot media
+longDescription: |
+  <p>This application allows one to make bootable USB sticks from an iso-hybrid image issued by Live-Build. It adapts additionally a persistence partition to use the free space on the USB stick.</p>
+  <p>It features also management tools for live USB sticks: when such USB disks are used daily, they happen to have inconsistencies in their persistence area which can render them unusable. Tools are provided to save persistence data when necessary, and to blank the persistence area, so the USB disk can be used again.</p>
+  <p>The application detects when it is run from a Debian-Live environment, thus featuring seamless auto-cloning.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - live-clone
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: live-clone_live_clone.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

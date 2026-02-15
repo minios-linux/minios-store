@@ -1,0 +1,23 @@
+id: gfceu
+name: GFCE Ultra NES Emulator
+description: Play Nintendo ROM files
+longDescription: |
+  <p>GNOME FCE Ultra (gfceu) is a graphical front-end for the FCE Ultra Nintendo Entertainment System intended for the GNOME desktop.  Gfceu eases the gaming experience for the user and provides a clean, simple, and intuitive interface.  Features:  * Input configuration  * Sound configuration  * Video configuration  * Network play</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gfceu
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gfceu_gfceu.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,23 @@
+id: previsat
+name: PreviSat
+description: satellite tracking software for observing purposes
+longDescription: |
+  <p>Previsat is very easy to use, it shows positions of artificial satellites in real-time or manual mode. PreviSat is able to make predictions of their passes and also predictions of Iridium flares.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - previsat
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: previsat_apropos.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

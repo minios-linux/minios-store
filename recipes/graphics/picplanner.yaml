@@ -1,0 +1,53 @@
+id: "picplanner"
+name: PicPlanner
+description: Plan your next photo locations
+longDescription: |
+  <p>
+  			Calculate the position of the sun,
+  			moon, and milky way to plan the perfect time to take a picture.
+  		</p>
+  <p>
+  			People who love to photograph know, that the biggest problem is being at the right spot at the right time.
+  			Therefore, landscape pictures should be planned before visiting the place of choice. To plan the location it is important to know the position of the sun, moon, and sometimes also the milky way.
+  			Where to find the sun at which time is most of the time easy to guess but when is the sunset? And for the milky way normally nobody knows where to find it in the night sky at which time at a specific location.
+  			This small program should answer all these questions.
+  		</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - picplanner
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: de/zwarf/picplanner.desktop/62be9603d4d3be88c2b2b5b7ea400ca4/screenshots/image-1_orig.png
+    thumbnailUrl: de/zwarf/picplanner.desktop/62be9603d4d3be88c2b2b5b7ea400ca4/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+  - url: de/zwarf/picplanner.desktop/62be9603d4d3be88c2b2b5b7ea400ca4/screenshots/image-2_orig.png
+    thumbnailUrl: de/zwarf/picplanner.desktop/62be9603d4d3be88c2b2b5b7ea400ca4/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: de/zwarf/picplanner.desktop/62be9603d4d3be88c2b2b5b7ea400ca4/screenshots/image-3_orig.png
+    thumbnailUrl: de/zwarf/picplanner.desktop/62be9603d4d3be88c2b2b5b7ea400ca4/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+  - url: de/zwarf/picplanner.desktop/62be9603d4d3be88c2b2b5b7ea400ca4/screenshots/image-4_orig.png
+    thumbnailUrl: de/zwarf/picplanner.desktop/62be9603d4d3be88c2b2b5b7ea400ca4/screenshots/image-4_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: de/zwarf/picplanner.desktop/62be9603d4d3be88c2b2b5b7ea400ca4/icons/128x128/picplanner_de.zwarf.picplanner.png
+    width: 128
+    height: 128
+developer: Zwarf
+homepage: "https://gitlab.com/Zwarf/picplanner"
+enabled: true
+order: 99

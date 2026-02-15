@@ -1,0 +1,5 @@
+{
+  "name": "Firejail Configuration Wizard",
+  "description": "Procedura guidata di configurazione di Firejail",
+  "longDescription": "<p>Firejail è un programma sandbox di sicurezza SUID che riduce il rischio di violazioni limitando l'ambiente di esecuzione delle applicazioni non attendibili tramite i namespaces di Linux e seccomp-bpf. Consente a un processo e a tutti i suoi discendenti di avere una vista privata delle risorse condivise globalmente dal kernel, come lo stack di rete, la tabella dei processi e la tabella dei mount.</p>\n<p>Questo pacchetto include l'interfaccia grafica Firetools basata su Qt.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Mastermind",
+  "description": "Déchiffrez le code secret !",
+  "longDescription": "<p>Le but de ce jeu de société est de percer un code à l’aide d’indices subtils. Le jeu se joue à deux : le créateur de code (l’ordinateur) et le déchiffreur. L’ordinateur génère une combinaison de 4 couleurs. Le déchiffreur doit deviner cette séquence (à la fois l’ordre et les couleurs) en un minimum d’essais. À chaque tour, le déchiffreur propose une combinaison et l’ordinateur donne un retour en plaçant des pions sur la grille de score. Un pion blanc indique une couleur correcte mais mal placée ; un pion coloré signifie que la couleur et la position sont toutes deux correctes.</p>\n"
+}

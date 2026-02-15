@@ -1,0 +1,41 @@
+id: "buzztrax"
+name: Buzztrax Music Editor
+description: Fully integrated music composer.
+longDescription: |
+  <p>Buzztrax is a music composer similar to tracker applications. It is roughly modelled after the windows only, closed source application called Buzz.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - buzztrax
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: b/bu/buzztrax-edit.desktop/460AFD0153D40638019DFA49A15927EA/screenshots/image-1_orig.png
+    thumbnailUrl: b/bu/buzztrax-edit.desktop/460AFD0153D40638019DFA49A15927EA/screenshots/image-1_624x398.png
+    width: 1127
+    height: 720
+iconSources:
+  - url: b/bu/buzztrax-edit.desktop/5096ed6318f1ffb9d8c4ffa69f9d1a2b/icons/128x128/buzztrax_buzztrax.png
+    width: 128
+    height: 128
+homepage: "http://buzztrax.org/"
+enabled: true
+order: 99

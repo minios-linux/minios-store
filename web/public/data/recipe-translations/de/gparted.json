@@ -1,0 +1,5 @@
+{
+  "name": "GParted",
+  "description": "Partitionen erstellen, anpassen und löschen",
+  "longDescription": "<p>GParted verwendet libparted, um Geräte sowie Partitionstabellen zu erkennen und zu verwalten. Für Dateisysteme, die nicht in libparted enthalten sind, kommen zusätzliche (optionale) Tools zum Einsatz.</p>\n"
+}

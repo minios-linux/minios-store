@@ -1,0 +1,5 @@
+{
+  "name": "xawtv",
+  "description": "Aplicación para ver TV analógica",
+  "longDescription": "<p>\n      xawtv comenzó como una aplicación para ver televisión analógica en dispositivos Bttv\n      (bt848, bt878) usando los widgets Athena, pero evolucionó hasta convertirse en\n      una pequeña suite de aplicaciones X11 para dispositivos V4L.\n    </p>\n<p>\n      El paquete xawtv incluye varias utilidades útiles de consola por línea de comandos:\n    </p>\n<ul>\n  <li>alevtd - un demonio http para usar con teletexto de TV analógica</li>\n  <li>radio -- aplicación de consola para escuchar radio</li>\n  <li>scantv -- escáner de frecuencias de TV analógica</li>\n  <li>v4l-conf -- modo de video actual (tamaño y profundidad de color)</li>\n  <li>v4lctl -- permite controlar un dispositivo v4l y ajustar parámetros de imagen</li>\n  <li>webcam -- capturar imágenes desde una cámara web</li>\n</ul>\n"
+}

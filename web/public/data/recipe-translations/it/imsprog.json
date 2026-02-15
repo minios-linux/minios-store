@@ -1,0 +1,5 @@
+{
+  "name": "IMSProg_database_update.desktop",
+  "description": "Script di aggiornamento del database chip per il programmatore IMSProg",
+  "longDescription": "<p>IMSProg_database_update aggiorna online il database dei chip da un server web esterno. Utilizza Zenity per l'interfaccia grafica Gnome. Una volta avviato, copia il database scaricato nella cartella ~/.local/imsprog. Al termine, mostra il numero di chip presenti nel database prima e dopo l’aggiornamento.</p>\n"
+}

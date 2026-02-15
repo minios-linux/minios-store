@@ -1,0 +1,53 @@
+id: "pychess"
+name: PyChess
+description: "PyChess is a fully featured, nice looking, easy to use chess client for the Gnome desktop"
+longDescription: |
+  <p>The goal of pychess, is to provide a fully featured, nice looking, easy to use chess client for the gnome-desktop.</p>
+  <p>The client should be usable both to those totally new to chess, and those who want to use a computer to further enchance their play.</p>
+  <p>Features include:  Tabbed interface  pgn+epd read/write support  Hints and spymode  xboard/cecp engine support  Builtin Python based engine  Openingbook using sqlite  Clean interface and dialogs  Builtin move validator  Legal move highlighting  Supports drag&apos;n&apos;drop.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pychess
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: p/py/pychess.desktop/414ab5a36a3730930272f185495421a4/screenshots/image-1_orig.png
+    thumbnailUrl: p/py/pychess.desktop/414ab5a36a3730930272f185495421a4/screenshots/image-1_224x218@1.png
+    width: 450
+    height: 438
+  - url: p/py/pychess.desktop/414ab5a36a3730930272f185495421a4/screenshots/image-2_orig.png
+    thumbnailUrl: p/py/pychess.desktop/414ab5a36a3730930272f185495421a4/screenshots/image-2_224x177@1.png
+    width: 532
+    height: 421
+  - url: p/py/pychess.desktop/414ab5a36a3730930272f185495421a4/screenshots/image-3_orig.png
+    thumbnailUrl: p/py/pychess.desktop/414ab5a36a3730930272f185495421a4/screenshots/image-3_224x186@1.png
+    width: 470
+    height: 392
+iconSources:
+  - url: p/py/pychess.desktop/414ab5a36a3730930272f185495421a4/icons/128x128/pychess_pychess.png
+    width: 128
+    height: 128
+homepage: "http://pychess.github.io"
+enabled: true
+order: 99

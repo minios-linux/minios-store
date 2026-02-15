@@ -1,0 +1,5 @@
+{
+  "name": "GkDebconf",
+  "description": "Alat bantu untuk mengonfigurasi ulang paket",
+  "longDescription": "<p>Ini adalah program yang memudahkan penggunaan alat \"dpkg-reconfigure\". Pada dasarnya, ini adalah antarmuka grafis yang menampilkan menu sederhana dari paket-paket yang bisa dikonfigurasi ulang dengan Debconf, serta pilihan frontend Debconf yang tersedia untuk proses konfigurasi ulang.</p>\n"
+}

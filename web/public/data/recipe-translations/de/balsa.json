@@ -1,0 +1,5 @@
+{
+  "name": "Balsa",
+  "description": "E-Mail-Programm",
+  "longDescription": "<p>Balsa ist ein hochgradig konfigurierbarer und stabiler E-Mail-Client für die GNOME-Desktopumgebung. Er unterstützt sowohl POP3- als auch IMAP-Server sowie die lokalen Postfachformate mbox, maildir und mh. Balsa unterstützt den Versand über SMTP und/oder die Nutzung eines lokalen MTA wie Sendmail.</p>\n<p>Zu den weiteren Funktionen von Balsa gehören:   * Verschachtelte Postfächer   * Ausdruck von E-Mails   * Rechtschreibprüfung   * Mehrfädiger E-Mail-Abruf   * MIME-Unterstützung (Bilder werden direkt angezeigt, Anhänge speichern)   * Adressbuch-Unterstützung für GPE Palmtop, LDAP, LDIF und vCard   * Unterstützung verschiedener Zeichencodierungen zum Verfassen und Lesen von Nachrichten   * Anhänge bei ausgehenden E-Mails   * E-Mail-Signierung und Verschlüsselung mit GPG/OpenPGP</p>\n<p>Unterstützung für Kerberos und SSL ist in diesem Paket aktiviert.</p>\n"
+}

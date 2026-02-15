@@ -1,0 +1,37 @@
+id: "obfuscate"
+name: Obfuscate
+description: Censor private information
+longDescription: |
+  <p>Obfuscate lets you redact your private information from any image.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - obfuscate
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - censor
+  - private
+  - image
+  - obfuscate
+screenshotSources:
+  - url: com/belmoussaoui/Obfuscate/e95859bde659e88cb1f5cb482ab11e0a/screenshots/image-1_orig.png
+    thumbnailUrl: com/belmoussaoui/Obfuscate/e95859bde659e88cb1f5cb482ab11e0a/screenshots/image-1_624x720@1.png
+    width: 756
+    height: 873
+iconSources:
+  - url: com/belmoussaoui/Obfuscate/e95859bde659e88cb1f5cb482ab11e0a/icons/128x128/obfuscate_com.belmoussaoui.Obfuscate.png
+    width: 128
+    height: 128
+developer: Bilal Elmoussaoui
+homepage: "https://gitlab.gnome.org/World/obfuscate/"
+enabled: true
+order: 99

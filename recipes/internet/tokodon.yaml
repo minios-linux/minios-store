@@ -1,0 +1,36 @@
+id: "tokodon"
+name: Tokodon
+description: Browse the Fediverse
+longDescription: |
+  <p>Tokodon is a Mastodon client. It allows you to interact with the Fediverse community.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tokodon
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/tokodon/f88defddf9dbb3c7d5ccf8b64f143bf6/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/tokodon/f88defddf9dbb3c7d5ccf8b64f143bf6/screenshots/image-1_624x457@1.png
+    width: 1055
+    height: 773
+  - url: org/kde/tokodon/f88defddf9dbb3c7d5ccf8b64f143bf6/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/tokodon/f88defddf9dbb3c7d5ccf8b64f143bf6/screenshots/image-2_624x457@1.png
+    width: 1055
+    height: 773
+iconSources:
+  - url: org/kde/tokodon/f88defddf9dbb3c7d5ccf8b64f143bf6/icons/128x128/tokodon_org.kde.tokodon.png
+    width: 128
+    height: 128
+developer: The KDE Community
+homepage: "https://apps.kde.org/tokodon/"
+enabled: true
+order: 99

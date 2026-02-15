@@ -1,0 +1,65 @@
+id: "audacious"
+name: Audacious
+description: Listen to music
+longDescription: |
+  <p>Audacious is a fork of beep-media-player which supports Winamp skins and many codecs.</p>
+  <p>In the default install, the following codecs are supported:</p>
+  <p> * MP3  * Ogg Vorbis / Theora  * AAC and AAC+  * FLAC  * ALAC  * Windows Media (WMA)  * WAVE</p>
+  <p>Additionally, Audacious is extendable through plugins, and contains other useful features like LIRC support. Support for many more codecs can also be added through plugins.</p>
+  <p>This package contains the core player and its localization.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - audacious
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - audio
+  - player
+  - audacious
+  - music
+  - gtk
+screenshotSources:
+  - url: a/au/audacious.desktop/ffa8f79027aae06c7ff9abe4f01e54b5/screenshots/image-1_orig.png
+    thumbnailUrl: a/au/audacious.desktop/ffa8f79027aae06c7ff9abe4f01e54b5/screenshots/image-1_624x351@1.png
+    width: 880
+    height: 495
+  - url: a/au/audacious.desktop/ffa8f79027aae06c7ff9abe4f01e54b5/screenshots/image-2_orig.png
+    thumbnailUrl: a/au/audacious.desktop/ffa8f79027aae06c7ff9abe4f01e54b5/screenshots/image-2_624x351@1.png
+    width: 880
+    height: 495
+  - url: a/au/audacious.desktop/ffa8f79027aae06c7ff9abe4f01e54b5/screenshots/image-3_orig.png
+    thumbnailUrl: a/au/audacious.desktop/ffa8f79027aae06c7ff9abe4f01e54b5/screenshots/image-3_224x83@1.png
+    width: 624
+    height: 232
+  - url: a/au/audacious.desktop/ffa8f79027aae06c7ff9abe4f01e54b5/screenshots/image-4_orig.png
+    thumbnailUrl: a/au/audacious.desktop/ffa8f79027aae06c7ff9abe4f01e54b5/screenshots/image-4_624x558@1.png
+    width: 647
+    height: 579
+iconSources:
+  - url: a/au/audacious.desktop/ffa8f79027aae06c7ff9abe4f01e54b5/icons/128x128/audacious_audacious.png
+    width: 128
+    height: 128
+homepage: "https://audacious-media-player.org"
+enabled: true
+order: 99

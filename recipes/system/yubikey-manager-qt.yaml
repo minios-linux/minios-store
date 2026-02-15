@@ -1,0 +1,33 @@
+id: yubikey-manager-qt
+name: YubiKey Manager
+description: Graphical application for configuring your YubiKey over all USB transports.
+longDescription: |
+  <p>YubiKeys are USB tokens that act like keyboards and generate one-time or static passwords.</p>
+  <p>This is a graphical application for configuring a YubiKey over all transport modes and programming various types of credentials.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yubikey-manager-qt
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - yubikey
+  - manager
+iconSources:
+  - cached: yubikey-manager-qt_ykman.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

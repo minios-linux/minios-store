@@ -1,0 +1,5 @@
+{
+  "name": "tuned-gui",
+  "description": "GTK-Oberfläche zur Steuerung des Tuned-Daemons und einfacher Profileditor",
+  "longDescription": "<p>Das Paket tuned enthält einen Daemon, der die Systemeinstellungen dynamisch optimiert. Dazu überwacht er regelmäßig die Nutzung verschiedener Systemkomponenten. Basierend auf diesen Informationen werden Komponenten dann in Energiesparmodi mit niedrigerem oder höherem Verbrauch versetzt, um sich an die aktuelle Nutzung anzupassen. Derzeit sind nur Ethernet-Netzwerk- und ATA-Festplatten-Geräte implementiert.</p>\n<p>Dieses Paket stellt die GTK+-Oberfläche bereit, mit der tuned gesteuert und ein einfacher Profileditor genutzt werden kann.</p>\n"
+}

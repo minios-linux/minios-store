@@ -1,0 +1,24 @@
+id: checkgmail
+name: CheckGMail
+description: Gmail Notifier
+longDescription: |
+  <p>CheckGmail is an alternative Gmail Notifier for Linux and other *nix systems. It is fast, secure and uses minimal bandwidth via the use of Atom feeds.</p>
+  <p>CheckGmail is a system tray application that checks a Gmail account for new mail. When new mail is present the tray icon changes, an optional animated popup is displayed and a tooltip displays the number and details of new messages. Configuration is GUI-based and the application is designed to be simple, elegant and unobtrusive.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - checkgmail
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: checkgmail_checkgmail.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

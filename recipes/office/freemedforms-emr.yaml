@@ -1,0 +1,26 @@
+id: freemedforms-emr
+name: FreeMedForms EMR
+description: Open source Electronic Medical Record manager
+longDescription: |
+  <p>The FreeMedForms project provides a set of medical applications to help health professionals in their day-to-day practice. It is developed by an international community of medical doctors and computer specialists.</p>
+  <p>The main objective of FreeMedForms electronic medical records is to manage the EMR based on your medical practice or the practice of clinical research groups.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freemedforms-emr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: freemedforms-emr_freemedforms.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

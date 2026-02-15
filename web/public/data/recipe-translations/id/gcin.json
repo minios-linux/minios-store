@@ -1,0 +1,5 @@
+{
+  "name": "gcin Tools",
+  "description": "Alat untuk metode input gcin",
+  "longDescription": "<p>gcin adalah metode input berbasis GTK+ yang berfokus pada Bahasa Tionghoa Tradisional. Namun, gcin juga sangat berguna untuk Tionghoa Sederhana, Jepang, dan berbagai bahasa lainnya.</p>\n<p>Untuk menggunakan gcin, Anda juga perlu memasang paket immodule terkait berikut: </p>\n<p> * gcin-gtk2-immodule untuk GTK2  * gcin-gtk3-immodule untuk GTK3  * gcin-qt5-immodule untuk Qt5</p>\n"
+}

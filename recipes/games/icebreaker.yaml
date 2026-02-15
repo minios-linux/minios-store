@@ -1,0 +1,31 @@
+id: icebreaker
+name: IceBreaker
+description: "Melt an iceberg into small pieces, in order to trap the penguins"
+longDescription: |
+  <p>So, uh, there&apos;s a bunch of penguins on an iceberg in Antarctica. You have been selected to catch them so they can be shipped to Finland, where they are essential to a secret plot for world domination.</p>
+  <p>In order to trap the penguins, you&apos;ll need to break the iceberg into small chunks. (They&apos;re afraid of water, for no apparent reason. Ah well. &quot;The Matrix&quot; had more plot holes than this, and it still was a hit.) You do this by melting lines in the ice with Special High-Tech GNU Tools.</p>
+  <p>Once 80% or more of the iceberg is gone, the remaining chunks are small enough for shipping. Of course, if you manage to get rid of more than that, you&apos;ll save on postage, thus earning you exponential amounts of Geek Cred (a.k.a. &quot;score&quot;).</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - icebreaker
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: icebreaker_icebreaker_48.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

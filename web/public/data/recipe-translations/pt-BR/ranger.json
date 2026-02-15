@@ -1,0 +1,5 @@
+{
+  "name": "ranger",
+  "description": "Abre o gerenciador de arquivos ranger",
+  "longDescription": "<p>O ranger é um gerenciador de arquivos para terminal com atalhos inspirados no VI. Oferece uma interface minimalista em modo texto (curses), proporcionando uma visão hierárquica das pastas. Ele inclui o “rifle”, um lançador de arquivos inteligente que identifica automaticamente qual programa usar para cada tipo de arquivo.</p>\n<p>Objetivos do Projeto  * Um gerenciador de arquivos fácil de manter, escrito em linguagem de alto nível  * Um modo rápido de mudar de diretório e navegar pelo sistema de arquivos  * Mantê-lo enxuto, porém funcional — faça uma coisa e faça bem  * Baseado em terminal, com integração fluida ao shell Unix</p>\n"
+}

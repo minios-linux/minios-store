@@ -1,0 +1,5 @@
+{
+  "name": "Image Analyzer",
+  "description": "Utilitário para análise e manipulação de imagens de CD/DVD",
+  "longDescription": "<p>O Image Analyzer é um utilitário baseado em Gtk3 para análise e manipulação de imagens de CD/DVD, oferecendo as seguintes funcionalidades:  - visualização do layout da imagem do disco  - leitura de dados de setores da imagem  - análise de códigos de detecção e correção de erros nos dados principais e de subcanal dos setores  - recuperação de estruturas do disco (DVD), se disponíveis  - visualização de dados de topologia do disco (DPM), se disponíveis  - conversão de formatos de imagem  - recursos de registro para depuração</p>\n"
+}

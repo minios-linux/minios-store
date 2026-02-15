@@ -1,0 +1,5 @@
+{
+  "name": "Avahi VNC Server Browser",
+  "description": "Menelusuri Server VNC yang Mendukung Zeroconf",
+  "longDescription": "<p>Avahi adalah framework berbasis LGPL untuk Multicast DNS Service Discovery. Dengan Avahi, program dapat mempublikasikan dan menemukan layanan serta host yang berjalan di jaringan lokal tanpa konfigurasi khusus. Misalnya, Anda dapat langsung menemukan printer untuk mencetak, berbagi file, atau terhubung dengan pengguna lain begitu terhubung ke jaringan.</p>\n<p>Paket ini berisi utilitas kecil berbasis GTK+ untuk mendeteksi server SSH dan VNC.</p>\n"
+}

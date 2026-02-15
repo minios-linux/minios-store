@@ -1,0 +1,5 @@
+{
+  "name": "QARecord",
+  "description": "Outil d'enregistrement audio simple et fiable",
+  "longDescription": "<p>QARecord est un outil d'enregistrement efficace et convivial. Il prend en charge les enregistrements stéréo et multicanaux, avec une compatibilité ALSA et JACK, en modes 16 bits et 32 bits. L’utilisation d’un large tampon circulaire garantit une capture sans dépassements de mémoire tampon. Son interface graphique, basée sur Qt, intègre des vumètres affichant les niveaux en temps réel.</p>\n"
+}

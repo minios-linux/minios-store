@@ -1,0 +1,5 @@
+{
+  "name": "K4DirStat",
+  "description": "Statistiques de répertoires et utilisation du disque",
+  "longDescription": "<p>K4DirStat (KDE Directory Statistics) est un utilitaire léger qui calcule l’utilisation du disque pour des arborescences de répertoires, de façon similaire à la commande Unix « du ». Il affiche l’espace disque utilisé par une arborescence, de façon numérique et graphique. L’application est transparente au réseau (vous pouvez par exemple analyser un serveur FTP) et propose des actions de nettoyage prédéfinies ou personnalisables. Vous pouvez ouvrir directement une branche de répertoire dans Konqueror ou le terminal de votre choix, la compresser en archive .tar.bz2, ou définir vos propres actions de nettoyage.</p>\n"
+}

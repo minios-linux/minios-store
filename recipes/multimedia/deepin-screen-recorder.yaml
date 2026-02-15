@@ -1,0 +1,36 @@
+id: "deepin-screen-recorder"
+name: Deepin Screen Recorder
+description: Record screen
+longDescription: |
+  <p>Deepin Screen Recorder is a screen recorder tool, it supports to save the recorded screens as gif or mp4 format. It can select the recorded window automatically or manually by selecting the area. Users just need to start and stop the recording process, and the file will auto save to the desktop.</p>
+  <p>This package is part of DDE (Deepin Desktop Environment).</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - deepin-screen-recorder
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: d/de/deepin-screen-recorder.desktop/3ab40731b1d9ada14f9a1a1ff8ad40d7/icons/128x128/deepin-screen-recorder_deepin-screen-recorder.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

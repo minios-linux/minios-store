@@ -1,0 +1,5 @@
+{
+  "name": "FSearch",
+  "description": "Una aplicación gráfica para búsqueda de archivos",
+  "longDescription": "<p>\n            FSearch te permite encontrar archivos y carpetas de forma fácil y rápida.\n            Solo escribe unas pocas letras y los resultados aparecerán casi al instante.\n        </p>\n<p>\n            Ofrece muchas funciones que hacen que la búsqueda sea lo más eficiente y potente posible, como:\n        </p>\n<ul>\n  <li>Búsqueda sin distinguir mayúsculas/minúsculas (por ejemplo, buscar \"fsearch\" también encuentra \"FSearch\")</li>\n  <li>Soporte para expresiones regulares</li>\n  <li>Compatibilidad con comodines</li>\n  <li>Filtros de búsqueda (por ejemplo, buscar solo archivos de audio)</li>\n  <li>Exclusión de ciertos archivos y carpetas</li>\n  <li>Ordenamiento rápido por nombre, ruta, tamaño, fecha de modificación y extensión</li>\n</ul>\n<p>\n            Nota: Debido al aislamiento de Flatpak, FSearch no puede encontrar todos los archivos en tu sistema.\n        </p>\n"
+}

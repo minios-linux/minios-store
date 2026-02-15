@@ -1,0 +1,5 @@
+{
+  "name": "FLUID",
+  "description": "Concepteur d’interface graphique FLTK",
+  "longDescription": "<p>Ce paquet fournit Fluid, un concepteur d’interface graphique interactif pour FLTK, permettant le développement graphique d’interfaces utilisateur basées sur FLTK. Il fonctionne nativement avec des fichiers .fl (textuels), mais inclut également un support partiel pour la lecture de fichiers .fd générés par fdesign (dans libforms-bin).</p>\n<p>Le Fast Light Toolkit (FLTK) est une boîte à outils multiplateforme pour interfaces graphiques, initialement basée sur libForms.</p>\n"
+}

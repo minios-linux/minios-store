@@ -1,0 +1,5 @@
+{
+  "name": "flamp",
+  "description": "Communications radioamateur",
+  "longDescription": "<p>FLAMP est un programme pour le protocole AMP (Amateur Multicast Protocol). Une session FLAMP permet de transmettre un ou plusieurs fichiers en une ou plusieurs itérations. Chaque fichier est divisé en blocs comportant chacun une somme de contrôle. La station réceptrice enregistre les blocs dont la somme de contrôle est correcte. Les transmissions successives complètent les blocs manquants, à condition que ces nouveaux blocs valident la somme de contrôle. À la fin de la séquence de transmission, le fichier complet est assemblé et peut être sauvegardé. Les « compléments » peuvent être transmis soit par la retransmission complète du fichier, soit par l’envoi uniquement des blocs manquants par la station émettrice.</p>\n"
+}

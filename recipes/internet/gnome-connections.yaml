@@ -1,0 +1,68 @@
+id: "gnome-connections"
+name: Connections
+description: View and use other desktops
+longDescription: |
+  <p>
+      Connections allows you to connect to and use other desktops. This can be a great way to access content or software
+  on a different desktop operating system. It can also be used as a way to provide support to users who might need help.
+      </p>
+  <p>
+      A range of different operating systems can be connected to, including Linux and Windows desktops. You can also connect
+  to virtual machines.
+      </p>
+  <p>
+      Connections uses the widely supported VNC and RDP protocols, and one of these must be enabled on the desktop that
+  you want to connect to.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-connections
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - vnc
+  - rdp
+  - remote
+  - desktop
+  - windows
+  - support
+  - access
+  - view
+screenshotSources:
+  - url: org/gnome/Connections/ac73fc0597425e627a98c4bda5046b04/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Connections/ac73fc0597425e627a98c4bda5046b04/screenshots/image-1_624x351@1.png
+    width: 3200
+    height: 1800
+  - url: org/gnome/Connections/ac73fc0597425e627a98c4bda5046b04/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Connections/ac73fc0597425e627a98c4bda5046b04/screenshots/image-2_624x351@1.png
+    width: 3200
+    height: 1800
+  - url: org/gnome/Connections/ac73fc0597425e627a98c4bda5046b04/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Connections/ac73fc0597425e627a98c4bda5046b04/screenshots/image-3_624x351@1.png
+    width: 3200
+    height: 1800
+  - url: org/gnome/Connections/ac73fc0597425e627a98c4bda5046b04/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Connections/ac73fc0597425e627a98c4bda5046b04/screenshots/image-4_624x351@1.png
+    width: 3200
+    height: 1800
+iconSources:
+  - url: org/gnome/Connections/ac73fc0597425e627a98c4bda5046b04/icons/128x128/gnome-connections_org.gnome.Connections.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://gitlab.gnome.org/GNOME/connections"
+enabled: true
+order: 99

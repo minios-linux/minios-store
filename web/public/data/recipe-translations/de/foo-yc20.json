@@ -1,0 +1,5 @@
+{
+  "name": "Foo YC20",
+  "description": "Orgel-Synthesizer",
+  "longDescription": "<p>Der YC-20 ist eine Combo-Orgel mit Teilton-Generator, entwickelt Ende der 60er Jahre. Diese Emulation bildet die Eigenschaften, Klänge und Eigenheiten des Originals detailgetreu nach.</p>\n<p>Funktionen:    - 61 Tasten    - Zwei Hauptklangsektionen    - Umschaltbarer Bassbereich    - Generator + Matrix-Mixer =&gt; keine Polyphonie-Beschränkungen    - Realismusregler zur Simulation authentischer Organ-typischer Fehler</p>\n<p>Bekannte Schwächen:    - Benötigt relativ viel CPU-Leistung    - Kein Touch-Vibrato</p>\n<p>Die Emulation wurde in Faust programmiert und nutzt Jack für Audio- und MIDI-Anbindung.</p>\n"
+}

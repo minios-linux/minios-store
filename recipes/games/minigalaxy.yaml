@@ -1,0 +1,58 @@
+id: "minigalaxy"
+name: Minigalaxy
+description: A simple GOG client for Linux
+longDescription: |
+  <p>
+          Minigalaxy lets you download, install and play your GOG Linux games without getting in your way.
+          </p>
+  <p> Besides all that, it offers the following additional features:</p>
+  <ul>
+    <li>Select in which language you'd prefer to download your games</li>
+    <li>Change where games are installed</li>
+    <li>Search your GOG Linux library</li>
+    <li>Show all games or just the ones you've installed</li>
+    <li>View the error message if a game fails to launch</li>
+    <li>Enable displaying the FPS in games</li>
+  </ul>
+  <p>An account on gog.com is required to use this application.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - minigalaxy
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - galaxy
+  - gaming
+  - games
+  - game
+  - old
+  - good
+  - gog
+screenshotSources:
+  - url: io/github/sharkwouter.Minigalaxy/ebf63026a3262bb1e78a2dd51097d144/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/sharkwouter.Minigalaxy/ebf63026a3262bb1e78a2dd51097d144/screenshots/image-1_624x377@1.png
+    width: 1400
+    height: 847
+iconSources:
+  - url: io/github/sharkwouter.Minigalaxy/ebf63026a3262bb1e78a2dd51097d144/icons/128x128/minigalaxy_io.github.sharkwouter.Minigalaxy.png
+    width: 128
+    height: 128
+developer: 'Wouter "sharkwouter" Wijsman'
+homepage: "https://github.com/sharkwouter/minigalaxy"
+enabled: true
+order: 99

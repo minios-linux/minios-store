@@ -1,0 +1,41 @@
+id: dfcgen-gtk
+name: DFCGen (GTK+)
+description: Digital Filter Coefficients Generator
+longDescription: |
+  <p>DFCGen, the Digital Filter Coefficients Generator, assists the engineer in the design of digital filters. It supports the engineer in analysis and synthesis of linear time-invariant time-discrete (LTI) systems from the theoretical point of view. It performs generation of system transfer function coefficients in the Z-domain, based on the type and specific parameters of a chosen system.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - dfcgen-gtk
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - dsp
+  - signal
+  - processing
+  - fir
+  - iir
+iconSources:
+  - cached: dfcgen-gtk_dfcgen-gtk.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

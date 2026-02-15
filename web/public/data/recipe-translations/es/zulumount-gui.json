@@ -1,0 +1,5 @@
+{
+  "name": "zuluMount",
+  "description": "Montador de volúmenes y particiones cifradas",
+  "longDescription": "<p>zulucrypt es un conjunto de aplicaciones para crear y gestionar volúmenes cifrados con luks, plain, truecrypt y veracrypt.</p>\n<p>zuluMount-gui es una interfaz gráfica para zuluMount-cli, lo que permite realizar fácilmente todas las actividades que ofrece zuluMount-cli a través de una interfaz visual.</p>\n<p>zuluMount-gui puede desbloquear cryfs, encfs, gocryptfs y ecryptfs.</p>\n"
+}

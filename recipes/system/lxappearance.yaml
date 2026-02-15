@@ -1,0 +1,43 @@
+id: "lxappearance"
+name: Customize Look and Feel
+description: Customizes look and feel of your desktop and applications
+longDescription: |
+  <p>LXAppearance is a GUI application for the Lightweight X11 Desktop Environment (LXDE).</p>
+  <p>It is a new feature-rich GTK+ theme switcher able to change GTK+ themes, icon themes, and fonts used by applications. GNOME/KDE/Xfce user may use build-in theme, this works for GTK+ based lightweight desktop Environment.</p>
+  <p>Features:</p>
+  <p> * Choose GTK+ theme  * Choose icon theme  * Install new icon theme  * Choose their favorite font  * Choose toolbar style  * See changes immediately in preview area</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxappearance
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - windows
+  - preferences
+  - settings
+  - theme
+  - style
+  - appearance
+iconSources:
+  - url: l/lx/lxappearance.desktop/7179cb3d6b68c6cff6c4ee782ed30cd8/icons/128x128/lxappearance_preferences-desktop-theme.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

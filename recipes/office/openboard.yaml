@@ -1,0 +1,37 @@
+id: "openboard"
+name: OpenBoard
+description: "OpenBoard, an interactive white board application"
+longDescription: |
+  <p>OpenBoard is an open source cross-platform interactive white board application designed primarily for use in schools.</p>
+  <p>It was originally forked from Open-Sankoré, which was itself based on Uniboard.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openboard
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - eduction
+  - whiteboard
+  - school
+  - students
+  - teacher
+  - interactive
+iconSources:
+  - url: ch/openboard/OpenBoard/8234653969ff8ef57d3f90c01b8e7922/icons/128x128/openboard_ch.openboard.OpenBoard.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

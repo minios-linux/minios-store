@@ -1,0 +1,5 @@
+{
+  "name": "ddcui",
+  "description": "Gerencie configurações do monitor",
+  "longDescription": "<p>Comunica-se com o Painel de Controle Virtual (VCP) do monitor para consultar ou alterar configurações como brilho, ganho de vermelho e horas de uso. No geral, opções e informações normalmente acessadas pelo menu do monitor (On Screen Display) podem ser ajustadas de forma mais prática através deste aplicativo.</p><p>O ddcui normalmente se conecta ao monitor utilizando o protocolo DDC/CI em um dispositivo /dev/i2c fornecido pelo driver de vídeo. Alternativamente, o ddcui suporta monitores que utilizam USB para comunicação VCP.</p><p>O programa equivalente para linha de comando é o ddcutil.</p>"
+}

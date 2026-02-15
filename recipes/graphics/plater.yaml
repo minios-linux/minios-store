@@ -1,0 +1,43 @@
+id: plater
+name: Plater
+description: 3D printer plating tool
+longDescription: |
+  <p>Plater is a simple graphical tool for preparing plates for desktop 3D printers, such as RepRap.</p>
+  <p>It lets you load 3D models and manipulate them on XY plane. It is also possible to let Plater automatically arrange the files to fit. You can then export the prepared plate for later use or load it directly to Pronterface (if installed).</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plater
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+tags:
+  - 3d
+  - 3dprinting
+  - plate
+  - stl
+  - positioning
+  - python
+screenshotSources:
+  - url: com/github/kliment.printrun.plater/35110953fbe43d88b26f8d0da187a787/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/kliment.printrun.plater/35110953fbe43d88b26f8d0da187a787/screenshots/image-1_624x470.png
+    width: 804
+    height: 606
+iconSources:
+  - cached: plater_plater.png
+    width: 64
+    height: 64
+homepage: "https://github.com/kliment/Printrun"
+enabled: true
+order: 99

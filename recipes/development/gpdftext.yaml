@@ -1,0 +1,25 @@
+id: gpdftext
+name: gPDFText ebook editor
+description: Edit text from ebook PDF files
+longDescription: |
+  <p>gpdftext opens a simple text-based PDF file, typically intended for reading on an ebook reader and loads the text into a text editor window, autoformatting the text for long lines and paragraph breaks.</p>
+  <p>gpdftext is useful when the downloaded PDF uses a small font or wastes a lot of space in the margins so that a plain text file would display in a more comfortable font.</p>
+  <p>gpdftext supports spell checking and editor font selection and can save ASCII content as PDF.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpdftext
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: gpdftext_gpdftext.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

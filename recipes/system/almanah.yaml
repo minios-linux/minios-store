@@ -1,0 +1,47 @@
+id: "almanah"
+name: Almanah Diary
+description: Keep a personal diary
+longDescription: |
+  <p>Almanah Diary is an application to allow you to keep a diary of your life.</p>
+  <p>You can encrypt the diary to preserve your privacy. It has editing abilities, including text formatting and printing and shows you a lists of events which happened (on your computer) for each day (such as tasks and appointments from Evolution).</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - almanah
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - diary
+  - journal
+screenshotSources:
+  - url: a/al/almanah.desktop/1c57753d4adf1569087c3336cf81dbdd/screenshots/image-1_orig.png
+    thumbnailUrl: a/al/almanah.desktop/1c57753d4adf1569087c3336cf81dbdd/screenshots/image-1_624x351.png
+    width: 800
+    height: 450
+iconSources:
+  - url: org/gnome/Almanah/249c22bd8910e35f376991ca6a01e0a0/icons/128x128/almanah_org.gnome.Almanah.png
+    width: 128
+    height: 128
+homepage: "https://wiki.gnome.org/Apps/Almanah_Diary"
+enabled: true
+order: 99

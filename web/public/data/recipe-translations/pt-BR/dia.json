@@ -1,0 +1,5 @@
+{
+  "name": "Dia",
+  "description": "O Dia é um programa para criação de diagramas",
+  "longDescription": "<p>O Dia é um programa de criação de diagramas baseado em GTK+ para GNU/Linux, MacOS X, Unix e Windows, distribuído sob a licença GPL.</p>\n<p>O Dia foi inspirado no programa comercial 'Visio' do Windows, mas é mais voltado para diagramas informais e uso casual. Ele pode ser utilizado para criar diversos tipos de diagramas. Atualmente, possui objetos específicos para facilitar a criação de diagramas de entidade-relacionamento, diagramas UML, fluxogramas, diagramas de redes e muitos outros. É possível também adicionar novos tipos de formas escrevendo arquivos XML simples, utilizando um subconjunto de SVG para desenhar as formas.</p>\n<p>O programa permite carregar e salvar diagramas em um formato XML próprio (compactado com gzip por padrão para economizar espaço), exportar diagramas em vários formatos, incluindo EPS, SVG, XFIG, WMF e PNG, além de imprimir diagramas (inclusive com suporte para múltiplas páginas).</p>\n"
+}

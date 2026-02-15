@@ -1,0 +1,86 @@
+id: "mediainfo-gui"
+name: MediaInfo
+description: Convenient unified display of the most relevant technical and tag data for video and audio files
+longDescription: |
+  <p>MediaInfo is a convenient unified display of the most relevant technical and tag data for video and audio files.</p>
+  <p>The MediaInfo data display includes :</p>
+  <ul>
+    <li>Container: format, profile, commercial name of the format, duration, overall bit rate, writing application and library,
+  title, author, director, album, track number, date, duration...</li>
+    <li>Video: format, codec id, aspect, frame rate, bit rate, color space, chroma subsampling, bit depth, scan type, scan
+  order...</li>
+    <li>Audio: format, codec id, sample rate, channels, bit depth, language, bit rate...</li>
+    <li>Text: format, codec id, language of subtitle...</li>
+    <li>Chapters: count of chapters, list of chapters...</li>
+  </ul>
+  <p>MediaInfo analyticals include :</p>
+  <ul>
+    <li>Container: MPEG-4, QuickTime, Matroska, AVI, MPEG-PS (including unprotected DVD), MPEG-TS (including unprotected
+  Blu-ray), MXF, GXF, LXF, WMV, FLV, Real...</li>
+    <li>Tags: Id3v1, Id3v2, Vorbis comments, APE tags...</li>
+    <li>Video: MPEG-1/2 Video, H.263, MPEG-4 Visual (including DivX, XviD), H.264/AVC, Dirac...</li>
+    <li>Audio: MPEG Audio (including MP3), AC3, DTS, AAC, Dolby E, AES3, FLAC...</li>
+    <li>Subtitles: CEA-608, CEA-708, DTVCC, SCTE-20, SCTE-128, ATSC/53, CDP, DVB Subtitle, Teletext, SRT, SSA, ASS, SAMI...</li>
+  </ul>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mediainfo-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - media info
+  - metadata
+  - tag
+  - video
+  - audio
+  - subtitles
+  - chapters
+  - codec
+  - mkv
+  - mpeg
+screenshotSources:
+  - url: m/me/mediainfo-gui.desktop/15a999a8dec8f33ebc92b283880c2233/screenshots/image-1_orig.png
+    thumbnailUrl: m/me/mediainfo-gui.desktop/15a999a8dec8f33ebc92b283880c2233/screenshots/image-1_624x351@1.png
+    width: 704
+    height: 396
+  - url: m/me/mediainfo-gui.desktop/15a999a8dec8f33ebc92b283880c2233/screenshots/image-2_orig.png
+    thumbnailUrl: m/me/mediainfo-gui.desktop/15a999a8dec8f33ebc92b283880c2233/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: m/me/mediainfo-gui.desktop/15a999a8dec8f33ebc92b283880c2233/screenshots/image-3_orig.png
+    thumbnailUrl: m/me/mediainfo-gui.desktop/15a999a8dec8f33ebc92b283880c2233/screenshots/image-3_624x351@1.png
+    width: 704
+    height: 396
+  - url: m/me/mediainfo-gui.desktop/15a999a8dec8f33ebc92b283880c2233/screenshots/image-4_orig.png
+    thumbnailUrl: m/me/mediainfo-gui.desktop/15a999a8dec8f33ebc92b283880c2233/screenshots/image-4_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: m/me/mediainfo-gui.desktop/15a999a8dec8f33ebc92b283880c2233/icons/128x128/mediainfo-gui_mediainfo.png
+    width: 128
+    height: 128
+developer: MediaArea.net SARL
+homepage: "https://mediaarea.net/"
+enabled: true
+order: 99

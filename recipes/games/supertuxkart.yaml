@@ -1,0 +1,66 @@
+id: "supertuxkart"
+name: SuperTuxKart
+description: A racing game
+longDescription: |
+  <p>Supertuxkart is a free 3D kart racing game, with a focus on having fun over
+        realism. You can play with up to 4 friends on one PC, racing against each
+        other, or try to beat the computer in single-player mode.</p>
+  <p>See the great lighthouse or drive through the sand and visit the pyramids.
+        Race underground or in space, watching the stars pass by. Or rest under the
+        palm trees on the beach, watching the other karts overtake you. But don&apos;t eat
+        the bananas! Watch for bowling balls, plungers, bubble gum and cakes thrown by
+        your opponents.</p>
+  <p>You can do a single race against other karts, compete in one of several Grand
+        Prix, try to beat the high score in time trials on your own, play battle mode
+        against the computer or your friends, and more!</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - supertuxkart
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tux
+  - game
+  - race
+screenshotSources:
+  - url: s/su/supertuxkart.desktop/ba18d71346e08f98464c47fe1438b9f2/screenshots/image-1_orig.png
+    thumbnailUrl: s/su/supertuxkart.desktop/ba18d71346e08f98464c47fe1438b9f2/screenshots/image-1_624x351.png
+    width: 1920
+    height: 1080
+  - url: s/su/supertuxkart.desktop/ba18d71346e08f98464c47fe1438b9f2/screenshots/image-2_orig.png
+    thumbnailUrl: s/su/supertuxkart.desktop/ba18d71346e08f98464c47fe1438b9f2/screenshots/image-2_624x351.png
+    width: 1920
+    height: 1080
+  - url: s/su/supertuxkart.desktop/ba18d71346e08f98464c47fe1438b9f2/screenshots/image-3_orig.png
+    thumbnailUrl: s/su/supertuxkart.desktop/ba18d71346e08f98464c47fe1438b9f2/screenshots/image-3_624x351.png
+    width: 1920
+    height: 1080
+iconSources:
+  - url: s/su/supertuxkart.desktop/ba18d71346e08f98464c47fe1438b9f2/icons/128x128/supertuxkart_supertuxkart.png
+    width: 128
+    height: 128
+developer: SuperTuxKart Team
+homepage: "https://supertuxkart.net"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Hapus paket yatim-piatu",
+  "description": "Alat grafis untuk menemukan dan menghapus pustaka yang tidak terpakai",
+  "longDescription": "<p>GtkOrphan adalah alat grafis yang memindai sistem Debian Anda untuk mencari pustaka yang tidak lagi terpakai (orphaned). Aplikasi ini menyediakan antarmuka GUI untuk deborphan dengan tambahan kemampuan menghapus paket yang ditemukan. Dokumentasi lengkap tentang program ini tersedia di: http://www.marzocca.net/linux/gtkorphan.html.</p>\n"
+}

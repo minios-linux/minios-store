@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="storeGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#38AEEB"/>
+      <stop offset="100%" stop-color="#279AD1"/>
+    </linearGradient>
+    <linearGradient id="bagGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="url(#storeGrad)"/>
+  <!-- Shopping bag body -->
+  <path d="M34 52 C34 48 37 45 41 45 L87 45 C91 45 94 48 94 52 L90 98 C90 102 87 105 83 105 L45 105 C41 105 38 102 38 98 Z" fill="white" fill-opacity="0.95"/>
+  <!-- Bag handle -->
+  <path d="M50 45 L50 35 C50 27.268 56.268 21 64 21 C71.732 21 78 27.268 78 35 L78 45" stroke="white" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- MiniOS pie-chart motif inside bag -->
+  <circle cx="64" cy="76" r="18" fill="none" stroke="url(#bagGrad)" stroke-width="3"/>
+  <!-- Pie slice - quarter circle filled -->
+  <path d="M64 76 L64 58 A18 18 0 0 1 82 76 Z" fill="url(#bagGrad)" fill-opacity="0.85"/>
+  <!-- Small dot at center -->
+  <circle cx="64" cy="76" r="2.5" fill="url(#bagGrad)"/>
+</svg>

@@ -1,0 +1,5 @@
+{
+  "name": "NVIDIA X Server Settings",
+  "description": "Configurer les paramètres du serveur X NVIDIA",
+  "longDescription": "<p>L'utilitaire nvidia-settings est un outil permettant de configurer le pilote graphique NVIDIA sous Linux. Il communique directement avec le pilote X NVIDIA, interrogeant et modifiant l'état selon les besoins via l'extension X NV-CONTROL.</p>\n<p>Des valeurs telles que la luminosité, le gamma, les attributs XVideo, la température et les paramètres OpenGL peuvent être consultés et ajustés à l’aide de nvidia-settings.</p>\n"
+}

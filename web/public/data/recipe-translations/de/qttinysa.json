@@ -1,0 +1,5 @@
+{
+  "name": "QtTinySA",
+  "description": "TinySA Ultra Steuerungs-GUI",
+  "longDescription": "<p>Ein Python-GUI-Programm für 'TinySA Ultra' (und das ursprüngliche 'TinySA') mit Qt5 und PyQt5, das ausgewählte Bedienfunktionen des TinySA am Bildschirm nachbildet.</p>\n<p>Generatorsteuerung ist nicht implementiert.</p>\n<p>Funktionierende Features sind LNA, wählbare Scan-Punkte, Bandauswahl, Mittelung, farbige Messkurven, 3D-Darstellung sowie exportierbare Diagramme.</p>\n"
+}

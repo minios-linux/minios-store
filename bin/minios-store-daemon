@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# MiniOS Store Daemon Launcher
+# This script launches the MiniOS Store WebSocket daemon
+#
+
+set -e
+
+DIR=/usr/lib/minios-store
+
+exec python3 -c "
+import sys
+sys.path.insert(0, '$DIR')
+from minios_store.server import main
+main()
+" "$@"

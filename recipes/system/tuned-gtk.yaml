@@ -1,0 +1,34 @@
+id: "tuned-gtk"
+name: tuned-gui
+description: GTK GUI that can control Tuned daemon and provides simple profile editor
+longDescription: |
+  <p>The tuned package contains a daemon that tunes system settings dynamically. It does so by monitoring the usage of several system components periodically. Based on that information components will then be put into lower or higher power saving modes to adapt to the current usage. Currently only ethernet network and ATA harddisk devices are implemented.</p>
+  <p>This package contains the GTK+ GUI that can control tuned and provides simple profile editor.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tuned-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: t/tu/tuned-gui.desktop/3e1dcec1c43b5c13a5e48af19cf95f10/icons/128x128/tuned-gtk_tuned.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

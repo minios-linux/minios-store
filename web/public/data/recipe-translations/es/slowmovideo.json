@@ -1,0 +1,5 @@
+{
+  "name": "slowmoUI",
+  "description": "Video en cámara lenta",
+  "longDescription": "<p>Esto no solo hace que tus videos se reproduzcan a una velocidad de 0.01x. Puedes ralentizar y acelerar tu material de forma fluida, opcionalmente con desenfoque de movimiento.</p>\n<p>¿Cómo funciona la cámara lenta? slowmoVideo intenta identificar hacia dónde se mueven los píxeles en el video (esta información se denomina Flujo Óptico), y utiliza estos datos para calcular los fotogramas adicionales.</p>\n<p>Puedes cargar videos en cualquier formato soportado por ffmpeg. También es posible utilizar secuencias de imágenes; si creaste un time-lapse con pocos fotogramas, slowmoVideo también puede ayudarte. slowmoVideo no utiliza un factor de ralentización constante, sino que emplea curvas para permitir aceleraciones, desaceleraciones o inversiones de tiempo arbitrarias. Puedes agregar desenfoque de movimiento en la cantidad que desees.</p>\n"
+}

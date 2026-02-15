@@ -1,0 +1,5 @@
+{
+  "name": "Modem Manager GUI",
+  "description": "Mengontrol fungsi spesifik modem broadband EDGE/3G/4G",
+  "longDescription": "<p>Antarmuka grafis sederhana yang kompatibel dengan layanan sistem Modem manager, Wader, dan oFono, memungkinkan Anda mengontrol fungsi spesifik modem broadband EDGE/3G/4G.</p>\n<p>Anda dapat memeriksa saldo kartu SIM, mengirim atau menerima pesan SMS, mengelola konsumsi data seluler, dan lainnya menggunakan Modem Manager GUI.</p>\n<p>Fitur saat ini:</p>\n<ul>\n  <li>Membuat dan mengelola koneksi broadband seluler</li>\n  <li>Mengirim dan menerima SMS serta menyimpan pesan ke dalam basis data</li>\n  <li>Menginisiasi permintaan USSD dan membaca responnya (termasuk sesi interaktif)</li>\n  <li>Melihat informasi perangkat: nama operator, mode perangkat, IMEI, IMSI, dan level sinyal</li>\n  <li>Memindai jaringan seluler yang tersedia</li>\n  <li>Melihat statistik lalu lintas data serta mengatur batas pemakaian</li>\n</ul>\n<p>Perlu diperhatikan bahwa beberapa fitur mungkin tidak tersedia, tergantung keterbatasan layanan sistem atau bahkan versi layanan sistem yang digunakan.</p>\n"
+}

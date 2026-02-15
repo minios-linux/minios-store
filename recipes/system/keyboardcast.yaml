@@ -1,0 +1,29 @@
+id: keyboardcast
+name: Keyboardcast
+description: Send keys to multiple windows simultaneously
+longDescription: |
+  <p>With keyboardcast you can send keystrokes to any number of windows you select simultaneously. It also offers an option to start gnome-terminal processes (for instance to login to remote hosts)</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - keyboardcast
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: k/ke/keyboardcast.desktop/46688DBB3652066B98E1227C9195B985/icons/128x128/keyboardcast_gnome-dev-keyboard.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

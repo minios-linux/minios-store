@@ -1,0 +1,81 @@
+id: "photoqt"
+name: PhotoQt Image Viewer
+description: View and manage images
+longDescription: |
+  <p>PhotoQt is a fast and simple, good looking, yet powerfull and highly
+             configureable image viewer.</p>
+  <p>It provides an uncluttered interface and can be extensively tweaked
+             to fit ones needs perfectly. It is possible to set key or mouse shortcuts
+             for almost any one of the features, plus for any external script/command
+             one might want to run.</p>
+  <p>The many features provided include: thumbnails, slideshow, chromecast, zooming,
+             rotating, flipping, displaying metadata (selection of Exif and IPTC), set-as-wallpaper,
+             simple file management, scaling, face tags (XMP metadata), integration with many image
+             libraries for wide support of image formats, support of touchscreens,
+             and a lot more...</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - photoqt
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - image
+  - photo
+  - viewing
+  - slideshow
+  - thumbnails
+  - lightbox
+  - picasa
+  - exiv2
+  - libraw
+  - raw
+screenshotSources:
+  - url: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-1_orig.png
+    thumbnailUrl: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-1_624x451@1.png
+    width: 1630
+    height: 1180
+  - url: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-2_orig.png
+    thumbnailUrl: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-2_624x451@1.png
+    width: 1630
+    height: 1180
+  - url: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-3_orig.png
+    thumbnailUrl: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-3_624x451@1.png
+    width: 1630
+    height: 1180
+  - url: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-4_orig.png
+    thumbnailUrl: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-4_624x451@1.png
+    width: 1630
+    height: 1180
+  - url: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-5_orig.png
+    thumbnailUrl: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-5_624x451@1.png
+    width: 1630
+    height: 1180
+  - url: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-6_orig.png
+    thumbnailUrl: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-6_624x451@1.png
+    width: 1630
+    height: 1180
+  - url: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-7_orig.png
+    thumbnailUrl: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/screenshots/image-7_624x451@1.png
+    width: 1630
+    height: 1180
+iconSources:
+  - url: org/photoqt/PhotoQt/76950ae79724f1d60b145aa61601a50f/icons/128x128/photoqt_org.photoqt.PhotoQt.png
+    width: 128
+    height: 128
+developer: Lukas Spies
+homepage: "https://photoqt.org"
+enabled: true
+order: 99

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "internet",
+    "nameKey": "category.internet",
+    "name": "Internet",
+    "icon": "Globe",
+    "order": 1
+  },
+  {
+    "id": "multimedia",
+    "nameKey": "category.multimedia",
+    "name": "Multimedia",
+    "icon": "Music",
+    "order": 2
+  },
+  {
+    "id": "office",
+    "nameKey": "category.office",
+    "name": "Office",
+    "icon": "FileText",
+    "order": 3
+  },
+  {
+    "id": "development",
+    "nameKey": "category.development",
+    "name": "Development",
+    "icon": "Code",
+    "order": 4
+  },
+  {
+    "id": "games",
+    "nameKey": "category.games",
+    "name": "Games",
+    "icon": "Gamepad2",
+    "order": 5
+  },
+  {
+    "id": "graphics",
+    "nameKey": "category.graphics",
+    "name": "Graphics",
+    "icon": "Palette",
+    "order": 6
+  },
+  {
+    "id": "system",
+    "nameKey": "category.system",
+    "name": "System",
+    "icon": "Wrench",
+    "order": 7
+  },
+  {
+    "id": "security",
+    "nameKey": "category.security",
+    "name": "Security",
+    "icon": "Shield",
+    "order": 8
+  },
+  {
+    "id": "science",
+    "nameKey": "category.science",
+    "name": "Science",
+    "icon": "FlaskConical",
+    "order": 9
+  },
+  {
+    "id": "other",
+    "nameKey": "category.other",
+    "name": "Other",
+    "icon": "Package",
+    "order": 99
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "name": "XCA",
+  "description": "Antarmuka grafis untuk mengelola dan menerbitkan Sertifikat sesuai standar X.509",
+  "longDescription": "<p>XCA memungkinkan pembuatan dan pengelolaan Otoritas Sertifikat serta membantu pengguna dalam membuat dan mengelola key, sertifikat, permintaan penandatanganan sertifikat (CSR), daftar pencabutan sertifikat (CRL), dan lainnya.</p>\n<p>Semua data disimpan dalam database terenkripsi yang portabel, dan dapat diekspor ke berbagai format standar. XCA juga tersedia untuk sistem MacOS X dan Windows.</p>\n<p>Untuk alur kerja yang efisien, template sertifikat dapat didefinisikan sehingga pembuatan sertifikat baru menjadi lebih mudah.</p>\n"
+}

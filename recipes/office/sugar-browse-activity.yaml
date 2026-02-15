@@ -1,0 +1,52 @@
+id: "sugar-browse-activity"
+name: Browse
+description: Surf the world!
+longDescription: |
+  <p>Surf the world! Here you can do research, watch educational videos, take online courses, find books, connect with friends and more.  Browse is powered by the WebKit2 rendering engine with the Faster Than Light javascript interpreter - allowing you to view the full beauty of the web.</p>
+  <p>To help in researching, Browse offers many features:</p>
+  <ul>
+    <li>Bookmark (save) good pages you find - never loose good resources or forget to add them to your bibliography</li>
+    <li>Bookmark pages with collaborators in real time - great for researching as a group or teachers showing pages to their
+  class</li>
+    <li>Comment on your bookmarked pages - a great tool for making curated collections</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sugar-browse-activity
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/laptop/WebActivity.activity.desktop/6a8f975ad970810396f1b0f1a712c19e/screenshots/image-1_orig.png
+    thumbnailUrl: org/laptop/WebActivity.activity.desktop/6a8f975ad970810396f1b0f1a712c19e/screenshots/image-1_624x351.png
+    width: 1920
+    height: 1080
+  - url: org/laptop/WebActivity.activity.desktop/6a8f975ad970810396f1b0f1a712c19e/screenshots/image-2_orig.png
+    thumbnailUrl: org/laptop/WebActivity.activity.desktop/6a8f975ad970810396f1b0f1a712c19e/screenshots/image-2_624x351.png
+    width: 1920
+    height: 1080
+iconSources:
+  - cached: sugar-browse-activity_activity-web.png
+    width: 64
+    height: 64
+homepage: "https://help.sugarlabs.org/en/browse.html"
+enabled: true
+order: 99

@@ -1,0 +1,27 @@
+id: gmlive
+name: Gmlive
+description: Streaming Direct Broadcast System based on P2P
+longDescription: |
+  <p>gmlive is a mplayer frontend designed to play live video. It provides simple user interface for playing video, and is able to play several live video stream including PPStream and PPLive when the non-free library from the service provider is available.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gmlive
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: gmlive_gmlive.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

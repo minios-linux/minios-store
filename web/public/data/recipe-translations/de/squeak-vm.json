@@ -1,0 +1,5 @@
+{
+  "name": "Squeak",
+  "description": "Programmiersystem und Werkzeug zur Inhaltsentwicklung",
+  "longDescription": "<p>Squeak ist eine voll funktionsfähige Implementierung der Programmiersprache und -umgebung Smalltalk, die auf dem ursprünglichen Smalltalk-80-System basiert (und weitgehend mit diesem kompatibel ist).</p>\n<p>Dieses Paket enthält lediglich die virtuelle Maschine von Squeak für Unix. Sie benötigen wahrscheinlich zusätzlich eine Image-Datei, die einen „Snapshot“ einer aktiven Squeak-Sitzung enthält – zum Beispiel eines der Debian-Pakete etoys oder scratch.</p>\n"
+}

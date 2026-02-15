@@ -1,0 +1,5 @@
+{
+  "name": "Cain",
+  "description": "simulazioni di reazioni chimiche",
+  "longDescription": "<p>Cain esegue simulazioni stocastiche e deterministiche di reazioni chimiche. Può avviare più processi di simulazione per sfruttare computer multi-core. I modelli, i metodi e i risultati delle simulazioni (popolazioni e conteggi delle reazioni) vengono memorizzati in formato XML. Inoltre, è possibile importare ed esportare modelli SBML. I modelli e i metodi possono essere letti da file di input o modificati direttamente all'interno del programma.</p>\n<p>L'interfaccia grafica (GUI) è scritta in Python e utilizza il toolkit wxPython. La maggior parte dei solver è implementata come eseguibili da riga di comando, scritti in C++, che vengono gestiti da Cain. Questo rende semplice l'esecuzione di lavori batch e agevola l'aggiunta di nuovi solver. Cain offre diversi tipi di solver:  * Metodo diretto di Gillespie.  * Metodo della prima reazione di Gillespie.  * Metodo della reazione successiva di Gibson e Bruck.  * Tau-leaping.  * Ibrido diretto/tau-leaping.  * Integrazione ODE.</p>\n<p>Questo pacchetto fornisce i file indipendenti dall'architettura per Cain.</p>\n"
+}

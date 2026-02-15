@@ -1,0 +1,5 @@
+{
+  "name": "slowmoUI",
+  "description": "Vídeo em câmera lenta",
+  "longDescription": "<p>Este aplicativo não apenas reproduz seus vídeos em 0,01x. Você pode diminuir e acelerar a velocidade das imagens de forma suave, com a opção de adicionar desfoque de movimento.</p>\n<p>Como funciona o efeito de câmera lenta? O slowmoVideo analisa o movimento dos pixels no vídeo (essa informação é chamada de Optical Flow) e utiliza esses dados para calcular e criar quadros adicionais.</p>\n<p>Você pode carregar vídeos em qualquer formato suportado pelo ffmpeg. Também é possível carregar sequências de imagens. Assim, se você fez um timelapse com poucos quadros, o slowmoVideo pode ajudar. O slowmoVideo não trabalha com um fator de desaceleração constante, mas com curvas que permitem aceleração, desaceleração ou até reversão arbitrária do tempo. O desfoque de movimento pode ser ajustado livremente, conforme desejado.</p>\n"
+}

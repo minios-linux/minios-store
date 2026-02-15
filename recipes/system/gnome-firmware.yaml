@@ -1,0 +1,48 @@
+id: "gnome-firmware"
+name: Firmware
+description: Install firmware on devices
+longDescription: |
+  <p>
+        Update, reinstall and downgrade firmware on devices supported by fwupd.
+      </p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-firmware
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - firmware
+screenshotSources:
+  - url: org/gnome/Firmware/a5bfedb2a9727a4f6adb4144eca22661/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Firmware/a5bfedb2a9727a4f6adb4144eca22661/screenshots/image-1_624x351@1.png
+    width: 1200
+    height: 675
+  - url: org/gnome/Firmware/a5bfedb2a9727a4f6adb4144eca22661/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Firmware/a5bfedb2a9727a4f6adb4144eca22661/screenshots/image-2_624x351@1.png
+    width: 1200
+    height: 675
+iconSources:
+  - url: org/gnome/Firmware/a5bfedb2a9727a4f6adb4144eca22661/icons/128x128/gnome-firmware_org.gnome.Firmware.png
+    width: 128
+    height: 128
+developer: Richard Hughes
+homepage: "https://gitlab.gnome.org/hughsie/gnome-firmware-updater"
+enabled: true
+order: 99

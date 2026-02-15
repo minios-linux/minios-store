@@ -1,0 +1,45 @@
+id: "soundconverter"
+name: SoundConverter
+description: Convert audio files
+longDescription: |
+  <p>SoundConverter is the leading audio file converter for the GNOME Desktop.</p>
+  <p>SoundConverter is a simple to use, and very fast audio converter. It can convert multiples files at same the time to speed up the conversion. It can also extract the audio from videos.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - soundconverter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: s/so/soundconverter.desktop/5c72e522179ea16e5f3d27da5618eed2/screenshots/image-1_orig.png
+    thumbnailUrl: s/so/soundconverter.desktop/5c72e522179ea16e5f3d27da5618eed2/screenshots/image-1_224x184@1.png
+    width: 589
+    height: 484
+iconSources:
+  - url: s/so/soundconverter.desktop/5c72e522179ea16e5f3d27da5618eed2/icons/128x128/soundconverter_soundconverter.png
+    width: 128
+    height: 128
+developer: Gautier Portet
+homepage: "http://soundconverter.org/"
+enabled: true
+order: 99

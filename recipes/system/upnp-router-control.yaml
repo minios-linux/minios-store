@@ -1,0 +1,26 @@
+id: upnp-router-control
+name: UPnP Router Control
+description: A simple program to manage UPnP IGD compliant routers
+longDescription: |
+  <p>UPnP Router Control allows one to see some parameters of the router like: the network speed, the external IP and the model name. It can manage port forwarding through a simple interface.</p>
+  <p>UPnP Router Control retrieves this information trough the UPnP-IGD protocol, so you must enable it on your router in order to utilize it.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - upnp-router-control
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: u/up/upnp-router-control.desktop/4CCB38A7E58D6294E4A017F827B73485/icons/128x128/upnp-router-control_upnp-router-control.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

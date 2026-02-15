@@ -1,0 +1,5 @@
+{
+  "name": "Exaile",
+  "description": "Écoutez, explorez et gérez votre collection audio",
+  "longDescription": "<p>\n   Exaile est un lecteur de musique doté d'une interface simple et de puissantes fonctionnalités de gestion musicale. Parmi ses caractéristiques figurent la récupération automatique des pochettes d'albums, la récupération des paroles, la diffusion de radios internet en streaming, les listes de lecture à onglets, les listes de lecture intelligentes avec de nombreux filtres et options de recherche, et bien plus encore.\n  </p>\n<p>\n   Exaile est développé avec Python et GTK+, et il est facilement extensible grâce à un système de plugins. Plus de 50 plugins sont fournis, comprenant le taggage avancé des pistes, le scrobbling last.fm, la prise en charge des lecteurs multimédias portables, les podcasts, la radio internet comme Icecast et Soma.FM, ReplayGain, la sortie audio via un second périphérique (idéal pour les DJ !) et bien d'autres possibilités.\n  </p>\n"
+}

@@ -1,0 +1,39 @@
+id: qtqr
+name: QtQR
+description: "QtQR is a Qt based software that let's you generate QR Codes easily, scan an image file for QR Codes and decode them or use your webcam to scan a printed one."
+longDescription: |
+  <p>A Qt based software that help you to generate QR codes easily, scan an image file for QR codes and decode them or use your webcam to scan a printed one.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtqr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - qr
+iconSources:
+  - cached: qtqr_qtqr.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

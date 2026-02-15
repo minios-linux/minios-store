@@ -1,0 +1,5 @@
+{
+  "name": "Zipper",
+  "description": "Manajer arsip untuk GNUstep",
+  "longDescription": "<p>Zipper adalah alat untuk mengekstrak dan melihat file arsip di GNUstep. Fitur-fiturnya meliputi:</p>\n<p> * Ekstraksi berbagai format arsip seperti Tar (.tar.gz, .tar.bz2, .tar.xz), LHA (.lha, .lzx), RAR (.rar), ZIP (.zip), 7z (.7z, .7za), ZOO (.zoo), ACE (.ace), dan ARJ (.arj)  * Membuat arsip baru (.tar.gz, .tar.bz2, .tar.xz, .lha, .zip, .7z/.7za, dan .zoo)  * Layanan \"Buat arsip\" di GNUstep</p>\n"
+}

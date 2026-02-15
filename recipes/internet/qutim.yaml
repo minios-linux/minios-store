@@ -1,0 +1,23 @@
+id: qutim
+name: qutIM
+description: Communicate over IM
+longDescription: |
+  <p>qutIM is an open source, multi-protocol instant messaging client using the Qt 4 framework. It implements support for the ICQ, Jabber/XMPP/Google Talk, Mail.Ru Agent (MRIM), and IRC protocols, and is further extensible via plugins.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qutim
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qutim_qutim.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Jed",
+  "description": "Modifica file di testo",
+  "longDescription": "<p>Jed è un editor di testo piccolo, veloce e potente, che si avvia persino più rapidamente di bash.</p>\n<p>È completamente personalizzabile, con modalità di emulazione preimpostate per Emacs, CUA (simile a KDE/Gnome/OpenOffice), Borland-IDE, Brief ed EDT. È estendibile tramite il linguaggio di scripting S-Lang (la cui sintassi ricorda quella di C).</p>\n<p>Funzionalità di editing: supporto a folding, taglio/incolla rettangolare, ricerca/sostituzione con espressioni regolari, ricerche incrementali, ricerca/sostituzione su più file, finestre e buffer multipli, ...</p>\n<p>Strumenti: editor di directory (dired), info (navigazione dei file GNU info), mail, rmail, ispell, modalità shell, ...</p>\n<p>Modalità speciali (evidenziazione della sintassi, indentazione, compilazione, ...) per Basic, C, C++, DCL, FORTRAN, IDL, Java, nroff, Pascal, Perl, PHP, PostScript, Python, sh. Sono presenti anche modalità per i linguaggi di markup come HTML e (La)TeX (con editing stile AUC-TeX e BibTeX).</p>\n<p>Ulteriori strumenti e modalità sono disponibili nel pacchetto jed-extra.</p>\n"
+}

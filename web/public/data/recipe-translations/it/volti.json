@@ -1,0 +1,5 @@
+{
+  "name": "Volti",
+  "description": "Controllo del volume audio nell’area di notifica",
+  "longDescription": "<p>Volti è un'applicazione GTK+ leggera che consente di gestire il volume audio direttamente dall’area di notifica o dal system tray.</p>\n<p>Caratteristiche:<br> • Non necessita di PulseAudio, GStreamer, Phonon, ecc.: è richiesto solo ALSA<br> • Integra un mixer interno, ma è possibile selezionare qualsiasi applicazione mixer<br> • Clic sinistro per aprire il cursore di regolazione del volume<br> • Rotellina del mouse sull’icona della tray per variare il volume (incremento configurabile in percentuale)<br> • Clic centrale configurabile per attivare/disattivare il mute o aprire il mixer<br> • Tooltip completo con informazioni sulla scheda audio e il livello del volume<br> • Supporto per i tasti multimediali<br> • Notifiche desktop sugli eventi dei tasti</p>\n"
+}

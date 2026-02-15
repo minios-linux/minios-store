@@ -1,0 +1,27 @@
+id: qtgain
+name: QtGain
+description: "Mp3Gain, VorbisGain, AACGain and Metaflac frontend"
+longDescription: |
+  <p>With this application you can easily replay gain your OGG-Vorbis, Flac and MP3 files.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qtgain
+distributions:
+  include:
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: qtgain_qtgain.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

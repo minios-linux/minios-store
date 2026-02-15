@@ -1,0 +1,5 @@
+{
+  "name": "KGeoTag",
+  "description": "Programm zum Geotagging von Fotos",
+  "longDescription": "<p>KGeoTag ist ein eigenständiges Geotagging-Programm. Bilder können auf verschiedene Arten mit geografischen Koordinaten verknüpft werden: Einerseits ist ein Abgleich mit im GPX-Format codierten Geodaten möglich, andererseits können die Koordinaten manuell gesetzt werden – entweder per Drag-and-drop auf eine Karte, über Lesezeichen oder durch direkte Eingabe. Die Koordinaten lassen sich im Exif-Header der Bilder und/oder in XMP-Sidecar-Dateien speichern.</p>\n"
+}

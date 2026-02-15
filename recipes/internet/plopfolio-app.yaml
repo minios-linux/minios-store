@@ -1,0 +1,27 @@
+id: plopfolio-app
+name: PlopFolio
+description: Personal dashboard for GNUstep
+longDescription: |
+  <p>This is a free replacement of Serence&apos;s proprietary KlipFolio application.  PlopFolio supports Klips from KlipFarm (http://klipfarm.com), which is no longer available.  PlopFolio is developed using the Objective-C language and works well with GNUstep (on GNU/Linux, FreeBSD, and more) and Cocoa on Mac OS X.</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - plopfolio.app
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - klip
+  - dashboard
+  - news
+iconSources:
+  - cached: plopfolio.app_PlopFolio.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

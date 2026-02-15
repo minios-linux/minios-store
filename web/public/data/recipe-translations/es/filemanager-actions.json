@@ -1,0 +1,5 @@
+{
+  "name": "FileManager-Actions Configuration Tool",
+  "description": "Configura elementos para agregar a los menús contextuales del gestor de archivos",
+  "longDescription": "<p>FileManager-Actions es una extensión para gestores de archivos basados en GNOME, que permite al usuario añadir programas personalizados para ejecutarse desde el menú contextual del gestor de archivos, según la selección actual.</p>\n<p>El proyecto anteriormente se llamaba Nautilus-Actions, pero cambió de nombre ya que ahora soporta Caja y Nemo, además de Nautilus.</p>\n<p>Este paquete provee la interfaz gráfica para crear y editar acciones del gestor de archivos.</p>\n"
+}

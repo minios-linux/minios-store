@@ -1,0 +1,5 @@
+{
+  "name": "KeePassX",
+  "description": "Gestionnaire de mots de passe multiplateforme",
+  "longDescription": "<p>KeePassX est un gestionnaire de mots de passe libre et open source qui vous aide à gérer vos mots de passe en toute sécurité. Vous pouvez regrouper tous vos mots de passe dans une base de données, protégée par un mot de passe maître unique ou une clé sur un disque. Ainsi, vous n'avez qu'un seul mot de passe principal à retenir ou à insérer la clé-disque pour déverrouiller l'ensemble de la base. Les bases de données sont chiffrées à l'aide des algorithmes AES ou Twofish.</p>\n<p>Contrairement à KeePassXC (paquet keepassxc), le développement de KeePassX a ralenti. Il dispose de moins de fonctionnalités et utilise une version obsolète des widgets Qt. Si vous ne savez pas s'il vaut mieux installer keepassx ou keepassxc, installez plutôt keepassx !</p>\n"
+}

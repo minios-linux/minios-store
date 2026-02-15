@@ -1,0 +1,23 @@
+id: kvpm
+name: KVPM
+description: KDE
+longDescription: |
+  <p>KVPM is a graphical user interface for the Linux Volume Manager (LVM) and libparted.  It uses the standard LVM tools and programs to manipulate logical volumes, such as resizing, deleting or creating them. It can also format volumes and mount or unmount them. Creating, deleting and resizing partitions is also supported.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kvpm
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: kvpm_kvpm.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

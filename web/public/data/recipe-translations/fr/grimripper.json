@@ -1,0 +1,5 @@
+{
+  "name": "GrimRipper",
+  "description": "Extracteur, encodeur et récupérateur de métadonnées pour CD audio.",
+  "longDescription": "<p>\n      GrimRipper est un extracteur de CD audio avec interface graphique. Il récupère les métadonnées des CD à partir de bases de données en ligne et compresse les pistes.\n    </p>\n<p>Codecs pris en charge : WAV, MP3, Ogg Vorbis, FLAC, Opus, Wavpack, Musepack, AAC et Monkey's Audio.</p>\n<p>Fonctionnalités :</p>\n<ul>\n  <li>Utilise CDDB pour nommer et taguer chaque piste</li>\n  <li>Crée des playlists M3U</li>\n  <li>Peut encoder vers plusieurs formats lors d’une même session</li>\n  <li>Extraction et encodage simultanés</li>\n  <li>Ne nécessite aucun environnement de bureau spécifique</li>\n</ul>\n"
+}

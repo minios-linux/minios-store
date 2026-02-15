@@ -1,0 +1,5 @@
+{
+  "name": "bpython",
+  "description": "¡Una interfaz avanzada para el intérprete de Python!",
+  "longDescription": "<p>bpython es una interfaz mejorada para el intérprete de Python, que incluye las siguientes características:</p>\n<p>  * Resaltado de sintaxis en línea.   * Autocompletado tipo readline, mostrando sugerencias mientras escribes   * Lista de parámetros esperados para cualquier función de Python. Utiliza pydoc para intentar deducir los parámetros de funciones escritas en C.   * Función de \"rebobinado\" para eliminar la última línea de código de la memoria y volver a evaluarla. Nota: esto solo es útil al organizar clases y funciones, ya que una función de \"deshacer\" real es imposible, así que úsalo con precaución.   * Envía el código que has escrito a un pastebin y muestra la URL generada para copiarla, etc.   * Guarda el código que has escrito en un archivo.   * Auto-indentación.   * Modo anti-bloqueo (Anti-Crash).</p>\n<p>Este paquete contiene bpython para Python 2.</p>\n"
+}

@@ -1,0 +1,31 @@
+id: pdfmod
+name: PDF Mod
+description: "Remove, extract, and rotate pages in PDF documents"
+longDescription: |
+  <p>PDF Mod is a simple tool for modifying PDF documents. It can rotate, extract, remove and reorder pages via drag and drop. Multiple documents may be combined via drag and drop. You may also edit the title, subject, author and keywords of a PDF document using PDF Mod.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pdfmod
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - url: p/pd/pdfmod.desktop/E25EB43B87A64B599C5BDB748D4FEC82/icons/128x128/pdfmod_pdfmod.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

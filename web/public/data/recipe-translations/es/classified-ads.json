@@ -1,0 +1,5 @@
+{
+  "name": "Anuncios clasificados",
+  "description": "Programa para publicar anuncios clasificados",
+  "longDescription": "<p>Anuncios clasificados es un intento de recuperar parte de la funcionalidad que desapareció con el cierre de los servidores de usenet news. Este enfoque resuelve el problema de los servidores de noticias desaparecidos, ya que no requiere servidores: el almacenamiento de datos se realiza directamente en las aplicaciones cliente que ejecutan los usuarios. Funcionalidades actuales del programa incluyen: * Publicación online de anuncios, con categorización. * Respuesta a anuncios, tanto pública como privada, al operador. * Adjuntos binarios en las publicaciones. * Provisión de datos básicos de los operadores. * Búsqueda básica de contenido por palabras clave. * Negociación de audio entre operadores. * Posibilidad de extender la interfaz mediante el lenguaje Tcl. * Compartición de datos entre programas Tcl usando una base de datos distribuida de propósito general.</p>\n"
+}

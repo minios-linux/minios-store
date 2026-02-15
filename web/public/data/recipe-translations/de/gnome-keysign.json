@@ -1,0 +1,5 @@
+{
+  "name": "Keysign",
+  "description": "OpenPGP-Keysigning-Helfer",
+  "longDescription": "<p>GNOME-Keysign ermöglicht das komfortable und sichere Signieren von OpenPGP-Schlüsseln über das lokale Netzwerk oder Bluetooth.</p><p>Es kann den Barcode eines anderen Schlüssels scannen und den Schlüssel sicher übertragen, sodass unkomplizierte Keysigning-Sitzungen zwischen zwei Parteien möglich sind. GNOME-Keysign befolgt dabei bewährte Methoden, indem die verschlüsselten Signaturen direkt an die UIDs eines Schlüssels über das vom Benutzer konfigurierte E-Mail-Programm gesendet werden.</p>\n"
+}

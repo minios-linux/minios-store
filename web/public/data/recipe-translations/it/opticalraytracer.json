@@ -1,0 +1,5 @@
+{
+  "name": "OpticalRayTracer",
+  "description": "Laboratorio virtuale per la progettazione di lenti e specchi",
+  "longDescription": "<p>OpticalRayTracer è un'applicazione che analizza sistemi di lenti e specchi. Utilizza principi ottici e un banco ottico virtuale per prevedere il comportamento di diversi tipi di lenti, sia comuni che particolari, così come di specchi piani e curvi. OpticalRayTracer offre un'interfaccia evoluta e facile da usare che consente di modificare la configurazione ottica semplicemente trascinando gli oggetti con il mouse.</p>\n<p>OpticalRayTracer analizza a fondo le proprietà ottiche delle lenti, compresi rifrazione e dispersione. La visualizzazione della dispersione utilizza raggi luminosi colorati per facilitare l’interpretazione dei risultati.</p>\n<p>Con OpticalRayTracer è possibile creare specchi piani e curvi. Nei progetti ottici moderni, spesso gli specchi producono risultati migliori rispetto alle lenti, come negli strumenti astronomici. Anche questi strumenti possono essere prototipati sul banco virtuale di OpticalRayTracer.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "ELKI",
+  "description": "Framework para desenvolvimento de algoritmos de mineração de dados",
+  "longDescription": "<p>ELKI: \"Ambiente para Desenvolvimento de Aplicações KDD com Suporte a Estruturas de Índice\" é um framework para desenvolvimento de algoritmos de mineração de dados escrito em Java. Inclui uma ampla variedade de algoritmos populares de mineração de dados, funções de distância e estruturas de índice.</p>\n<p>Seu foco está especialmente em métodos de agrupamento (clustering) e detecção de outliers, ao contrário de muitas outras ferramentas de mineração de dados voltadas à classificação. Além disso, oferece suporte a estruturas de índice para otimizar o desempenho dos algoritmos, como R*-Tree e M-Tree.</p>\n<p>A arquitetura modular permite adicionar componentes personalizados, como funções de distância ou algoritmos, podendo reutilizar as demais partes para avaliação.</p>\n<p>Este pacote contém a versão compilada do ELKI e scripts de inicialização.</p>\n"
+}

@@ -1,0 +1,61 @@
+id: "konversation"
+name: Konversation
+description: IRC client
+longDescription: |
+  <p>Konversation is an IRC client which gives you speedy access to Freenode network&apos;s channels,
+        where you will find support for most distributions. Its defaults are such that it needs no
+        configuration other than telling it the name of your distribution channel, to get started.</p>
+  <p>Features:</p>
+  <ul>
+    <li>Standard IRC features</li>
+    <li>SSL server support</li>
+    <li>Bookmarking support</li>
+    <li>Easy to use graphical user interface</li>
+    <li>Multiple servers and channels in one single window</li>
+    <li>DCC file transfer</li>
+    <li>Multiple identities for different servers</li>
+    <li>Text decorations and colors</li>
+    <li>OnScreen Display for notifications</li>
+    <li>Automatic UTF-8 detection</li>
+    <li>Per channel encoding support</li>
+    <li>Theme support for nick icons</li>
+    <li>Highly configurable</li>
+  </ul>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - konversation
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/konversation.desktop/0481875d5f45e87d932369eccd240712/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/konversation.desktop/0481875d5f45e87d932369eccd240712/screenshots/image-1_624x405@1.png
+    width: 1304
+    height: 847
+iconSources:
+  - url: org/kde/konversation.desktop/0481875d5f45e87d932369eccd240712/icons/128x128/konversation_konversation.png
+    width: 128
+    height: 128
+homepage: "http://konversation.kde.org/"
+enabled: true
+order: 99

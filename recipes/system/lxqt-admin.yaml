@@ -1,0 +1,28 @@
+id: lxqt-admin
+name: Users and Groups
+description: Configure the users and groups of your system
+longDescription: |
+  <p>Admin tools for LXQt, as of now:  * lxqt-admin-time  * lxqt-admin-user</p>
+  <p>This package contain the LXQt Admin Tools.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lxqt-admin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - url: l/lx/lxqt-admin-user.desktop/70E4AABF4116D7B9B39A4EBE62ED5BDB/icons/128x128/lxqt-admin_system-users.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

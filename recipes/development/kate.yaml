@@ -1,0 +1,81 @@
+id: "kate"
+name: Kate
+description: Advanced Text Editor
+longDescription: |
+  <p>Kate is a multi-document, multi-view text editor by KDE. It features stuff like codefolding, syntaxhighlighting,
+        dynamic word wrap, an embedded console, an extensive plugin interface and some preliminary scripting support.</p>
+  <p>Features:</p>
+  <ul>
+    <li>MDI, window splitting, window tabbing</li>
+    <li>Spell checking</li>
+    <li>CR, CRLF, LF newline support</li>
+    <li>Encoding support (utf-8, utf-16, ascii etc.)</li>
+    <li>Encoding conversion</li>
+    <li>Regular expression based find &amp; replace</li>
+    <li>Powerful syntax highlighting and bracket matching</li>
+    <li>Code and text folding</li>
+    <li>Infinite undo/redo support</li>
+    <li>Block selection mode</li>
+    <li>Auto indentation</li>
+    <li>Auto completion support</li>
+    <li>Shell integration</li>
+    <li>Wide protocol support (http, ftp, ssh, webdav etc.) using kioslaves</li>
+    <li>Plugin architecture for the application and editor component</li>
+    <li>Customizable shortcuts</li>
+    <li>Integrated command line</li>
+    <li>Scriptable using JavaScript</li>
+  </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - kate
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/kate.desktop/fc3c3cee05dc0b865c01ba90d06212b0/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/kate.desktop/fc3c3cee05dc0b865c01ba90d06212b0/screenshots/image-1_624x463@1.png
+    width: 1265
+    height: 939
+  - url: org/kde/kate.desktop/fc3c3cee05dc0b865c01ba90d06212b0/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/kate.desktop/fc3c3cee05dc0b865c01ba90d06212b0/screenshots/image-2_624x364@1.png
+    width: 1916
+    height: 1120
+  - url: org/kde/kate.desktop/fc3c3cee05dc0b865c01ba90d06212b0/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/kate.desktop/fc3c3cee05dc0b865c01ba90d06212b0/screenshots/image-3_624x364@1.png
+    width: 1916
+    height: 1120
+  - url: org/kde/kate.desktop/fc3c3cee05dc0b865c01ba90d06212b0/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/kate.desktop/fc3c3cee05dc0b865c01ba90d06212b0/screenshots/image-4_624x364@1.png
+    width: 1916
+    height: 1120
+  - url: org/kde/kate.desktop/fc3c3cee05dc0b865c01ba90d06212b0/screenshots/image-5_orig.png
+    thumbnailUrl: org/kde/kate.desktop/fc3c3cee05dc0b865c01ba90d06212b0/screenshots/image-5_624x364@1.png
+    width: 1916
+    height: 1120
+iconSources:
+  - url: org/kde/kate.desktop/fc3c3cee05dc0b865c01ba90d06212b0/icons/128x128/kate_kate.png
+    width: 128
+    height: 128
+homepage: "http://kate-editor.org/"
+enabled: true
+order: 99

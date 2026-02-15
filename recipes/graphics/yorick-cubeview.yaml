@@ -1,0 +1,38 @@
+id: yorick-cubeview
+name: Cubeview
+description: 3D FITS data viewer for spectro-imaging
+longDescription: |
+  <p>Cubeview is a viewer for 3D data store in FITS files, a file format extensively used among astronomers. It is specialized in displaying spectro-imaging data but can be used to do basic visualization on any FITS file containing a 3D array.</p>
+  <p>Cubeview features a stand-alone graphical user interface which adheres to the GTK+ look-and-feel. Being written in Yorick, it is inherently scriptable. A system of hooks allows custom actions to be repeated automatically when certain events occur.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yorick-cubeview
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: yorick-cubeview_cubeview48.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

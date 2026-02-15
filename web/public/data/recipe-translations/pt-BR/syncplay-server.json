@@ -1,0 +1,5 @@
+{
+  "name": "Servidor Syncplay",
+  "description": "Sincronize a reprodução de vídeo pela rede",
+  "longDescription": "<p>Para saber o que é o Syncplay, leia a descrição do pacote 'syncplay'.</p>\n<p>Este pacote instala o programa servidor do Syncplay. Instale este pacote caso deseje configurar seu próprio servidor Syncplay para que seus amigos e familiares possam se conectar.</p>\n<p>Observe que o computador que executa o servidor Syncplay deve estar acessível pela Internet. Para habilitar criptografia, é necessário um domínio e um certificado válido. O pacote fornece um script de integração para o pacote recomendado certbot, facilitando a configuração com criptografia. A integração com os pacotes sugeridos dehydrated ou acme-tiny requer configuração manual.</p>\n"
+}

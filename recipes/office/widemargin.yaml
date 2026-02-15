@@ -1,0 +1,33 @@
+id: widemargin
+name: Wide Margin
+description: Simple Bible Application
+longDescription: |
+  <p>Wide Margin is a bible reading and study application. It has a focus on speed and simplicity. Features include, as you type searching and passage navigation, familiar browser based interface, full navigation history and a built in reading planner which will have you read the old testament once and the new testament twice every year.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - widemargin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - url: w/wi/widemargin.desktop/2A945667CC5C5B736D8E8637110BCB4A/icons/128x128/widemargin_widemargin.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

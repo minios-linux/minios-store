@@ -1,0 +1,46 @@
+id: "neverputt"
+name: Neverputt
+description: A 3D mini golf game
+longDescription: |
+  <p>Neverputt is a hot-seat multi-player miniature golf game for 1 to 4 players. The 18-hole course takes advantage of all the elements that challenge Neverball players, including moving platforms and barriers, teleporters, ramps, and drop-offs. A simple putting interface and golf scoring system have been added.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - neverputt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - arcade
+  - 3d
+  - ball
+  - floor
+  - golf
+  - platform
+  - levels
+  - maps
+iconSources:
+  - url: n/ne/neverputt.desktop/b25e5b37268fb56d982ff3a8fca845e2/icons/128x128/neverputt_neverputt.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

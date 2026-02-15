@@ -1,0 +1,5 @@
+{
+  "name": "ChessX",
+  "description": "Base de données d'échecs",
+  "longDescription": "<p>Avec ChessX, gérez votre collection de parties d'échecs de multiples façons : parcourir, éditer, ajouter, organiser, analyser, etc.</p>\n<p>Fonctionnalités actuelles :  - Multi-plateforme. Compatible avec Windows, Linux et Mac OS X.  - Ouvre et enregistre les fichiers PGN.  - Travaillez avec plusieurs bases de données simultanément.  - Parcourez les parties, y compris les variantes.  - Saisissez coups, variantes et commentaires.  - Configurez l’échiquier, copiez/collez des FEN.  - Recherche par en-tête (cliquez sur les colonnes de la liste des parties).  - Affichez l’arbre des ouvertures pour la position courante.  - Analysez avec des moteurs UCI et Winboard/XBoard.  - Observez ou jouez des parties sur FICS.</p>\n"
+}

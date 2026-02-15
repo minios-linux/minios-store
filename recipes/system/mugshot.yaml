@@ -1,0 +1,53 @@
+id: "mugshot"
+name: Mugshot
+description: Lightweight user configuration
+longDescription: |
+  <p>Mugshot enables users to easily update personal contact information. With Mugshot, users are able to:</p>
+  <ul>
+    <li>Set the account photo displayed at login and optionally synchronize this photo with their Pidgin buddy icon</li>
+    <li>Set account details stored in /etc/passwd (usable with the finger command) and optionally synchronize with their
+  LibreOffice contact information</li> </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mugshot
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - configuration
+  - profile
+  - user
+screenshotSources:
+  - url: org/bluesabre/Mugshot.desktop/d0f85cdc38fb9c8d94c2a3ff8af0f750/screenshots/image-1_orig.png
+    thumbnailUrl: org/bluesabre/Mugshot.desktop/d0f85cdc38fb9c8d94c2a3ff8af0f750/screenshots/image-1_624x351@1.png
+    width: 640
+    height: 360
+  - url: org/bluesabre/Mugshot.desktop/d0f85cdc38fb9c8d94c2a3ff8af0f750/screenshots/image-2_orig.png
+    thumbnailUrl: org/bluesabre/Mugshot.desktop/d0f85cdc38fb9c8d94c2a3ff8af0f750/screenshots/image-2_624x351@1.png
+    width: 640
+    height: 360
+iconSources:
+  - url: org/bluesabre/Mugshot.desktop/d0f85cdc38fb9c8d94c2a3ff8af0f750/icons/128x128/mugshot_mugshot.png
+    width: 128
+    height: 128
+homepage: "https://github.com/bluesabre/mugshot"
+enabled: true
+order: 99

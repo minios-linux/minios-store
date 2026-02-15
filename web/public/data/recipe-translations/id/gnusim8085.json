@@ -1,0 +1,5 @@
+{
+  "name": "GNUSim8085",
+  "description": "Simulator mikropresesor Intel 8085",
+  "longDescription": "<p>GNUSim8085 adalah simulator grafis, assembler, dan debugger untuk mikropresesor Intel 8085 di Linux dan Windows.</p>\n<p>Fitur:</p>\n<ul>\n  <li>Editor sederhana dengan highlight sintaks.</li>\n  <li>Keypad untuk memasukkan instruksi bahasa assembly beserta argumen yang sesuai.</li>\n  <li>Tampilan isi register yang mudah diakses.</li>\n  <li>Tampilan isi flag yang mudah diakses.</li>\n  <li>Konverter Desimal &lt;–&gt; Heksadesimal.</li>\n  <li>Tampilan isi stack, memori, dan I/O.</li>\n  <li>Dukungan breakpoint untuk debug program.</li>\n  <li>Eksekusi program secara bertahap (stepwise).</li>\n  <li>Konversi program assembly ke daftar opcode hanya dengan satu klik.</li>\n  <li>Dukungan pencetakan.</li>\n  <li>Antarmuka diterjemahkan ke berbagai bahasa.</li>\n</ul>\n"
+}

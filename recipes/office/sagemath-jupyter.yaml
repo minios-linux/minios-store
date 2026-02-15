@@ -1,0 +1,35 @@
+id: "sagemath-jupyter"
+name: SageMath
+description: Computer Algebra System (Jupyter Notebook)
+longDescription: |
+  <p>SageMath is a free open-source mathematics software system licensed under the GPL. It builds on top of many existing open-source packages: NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R and many more. Access their combined power through a common, Python-based language or directly via interfaces or wrappers.</p>
+  <p>Mission: Creating a viable free open source alternative to Magma, Maple, Mathematica and Matlab.</p>
+  <p>This package contains the Jupyter kernel of SageMath.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - sagemath-jupyter
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - url: s/sa/sagemath.desktop/76f4f178e33c53ec3aafe8ac70e13ec9/icons/128x128/sagemath-jupyter_sagemath.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

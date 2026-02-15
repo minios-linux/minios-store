@@ -1,0 +1,5 @@
+{
+  "name": "Biometric Manager",
+  "description": "Gerenciador Biométrico",
+  "longDescription": "<p>Este pacote é uma ferramenta para gerenciar os drivers de dispositivos biométricos, as características dos usuários e controlar se a autenticação biométrica está habilitada. O serviço é fornecido por biometric-authentication.service no pacote biometric-auth.</p>\n"
+}

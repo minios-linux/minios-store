@@ -1,0 +1,32 @@
+id: cellwriter
+name: CellWriter
+description: Grid-entry handwriting recognition input panel
+longDescription: |
+  <p>CellWriter is a grid-entry natural handwriting input panel. As you write characters into the cells, your writing is instantly recognized at the character level. When you press &apos;Enter&apos; on the panel, the input you entered is sent to the currently focused application as if typed on the keyboard.</p>
+  <p>  * Writer-dependent, learns your handwriting for reliable recognition   * Correcting preprocessor algorithms account for digitizer noise,     differing stroke order, direction, and number of strokes   * Unicode support enables you to write in your native language</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - cellwriter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - url: c/ce/cellwriter.desktop/BBBE06C9B72D85457E7DA35F147A165F/icons/128x128/cellwriter_cellwriter.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

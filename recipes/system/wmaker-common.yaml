@@ -1,0 +1,23 @@
+id: wmaker-common
+name: WPrefs
+description: Window Maker Preferences
+longDescription: |
+  <p>Written by Alfredo Kojima almost from scratch, resembles the NeXTStep look very closely, and it is now an official GNU project. Window Maker (originally named WindowMaker) is not overloaded with features, and it is easier to configure than most other window managers. Its final goal is to produce a window manager that doesn&apos;t require editing of configuration files. Window Maker is fast and doesn&apos;t require tons of memory to run.</p>
+  <p>This package contains the architecture independent files.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wmaker-common
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: wmaker-common_WPrefs.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

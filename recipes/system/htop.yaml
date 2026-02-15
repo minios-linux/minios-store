@@ -1,0 +1,38 @@
+id: "htop"
+name: Htop
+description: Show System Processes
+longDescription: |
+  <p>Htop is an ncursed-based process viewer similar to top, but it allows one to scroll the list vertically and horizontally to see all processes and their full command lines.</p>
+  <p>Tasks related to processes (killing, renicing) can be done without entering their PIDs.</p>
+  
+categoryId: system
+icon: Gauge
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - htop
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - system
+  - process
+  - task
+iconSources:
+  - url: h/ht/htop.desktop/df546ab0ecc422b4b27db6922a907065/icons/128x128/htop_htop.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

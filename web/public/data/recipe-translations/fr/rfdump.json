@@ -1,0 +1,5 @@
+{
+  "name": "RFDump",
+  "description": "Outil d’interopérabilité directe avec un lecteur RFID",
+  "longDescription": "<p>RFDump est un outil permettant de décoder les balises RFID et d’afficher leurs méta-informations : identifiant du tag, type de tag, fabricant, etc. La mémoire utilisateur d’un tag peut être visualisée et modifiée via un éditeur hexadécimal ou ASCII. De plus, la fonction de cookies intégrée illustre la facilité pour une entreprise d’exploiter la technologie RFID à des fins de surveillance des clients. RFDump est compatible avec le lecteur multi-tags ACG ou du matériel de lecture de cartes similaire.</p>\n"
+}

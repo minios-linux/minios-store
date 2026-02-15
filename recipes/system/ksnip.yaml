@@ -1,0 +1,96 @@
+id: "ksnip"
+name: ksnip
+description: Cross-Platform Screenshot tool with annotation features
+longDescription: |
+  <p>
+  ​        Ksnip is a Qt based cross-platform screenshot tool that provides many annotation features for your screenshots.
+  ​        </p>
+  <p>Features:</p>
+  <ul>
+    <li>Supports Linux (X11, Plasma Wayland and Gnome Wayland), Windows and macOS.</li>
+    <li>Taking screenshot of a custom rectangular area that can be drawn with mouse cursor.</li>
+    <li>Taking screenshot of last selected rectangular area without selecting again.</li>
+    <li>Taking screenshot of the screen/monitor where the mouse cursor is currently located.</li>
+    <li>Taking screenshot of full screen, including all screens/monitors.</li>
+    <li>Taking screenshot of window that currently has focus.</li>
+    <li>Taking screenshot of window under mouse cursor.</li>
+    <li>Take screenshot with or without mouse cursor.</li>
+    <li>Capture mouse cursor as annotation item that can be moved and deleted.</li>
+    <li>Customizable capture delay for all capture options.</li>
+    <li>Upload screenshots directly to imgur.com in anonymous or user mode.</li>
+    <li>Upload screenshots via custom user defined scripts.</li>
+    <li>Command line support, for taking screenshot and saving it to default location, filename and format.</li>
+    <li>Filename wildcards for Year ($Y), Month ($M), Day ($D), Time ($T) and Counter (multiple # characters for number
+  with zero leading padding).</li>
+    <li>Print screenshot or save is to pdf/ps.</li>
+    <li>Annotate screenshots with pen, marker, rectangles, ellipses, texts and other tools.</li>
+    <li>Annotate screenshots with stickers and add custom stickers.</li>
+    <li>Add watermarks to captured images.</li>
+    <li>Global HotKeys for taking Screenshots (Currently only for Windows and X11).</li>
+    <li>Tabs for Screenshots and images.</li>
+    <li>Open existing images via dialog, drag-and-drop or paste from clipboard.</li>
+    <li>Run as single instance application (secondary instances send cli parameter to primary instance).</li>
+    <li>Pin Screenshots in Frameless windows that stay on top of other windows.</li>
+    <li>Many configuration options.</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ksnip
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-1_orig.png
+    thumbnailUrl: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-1_624x431@1.png
+    width: 1414
+    height: 978
+  - url: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-2_orig.png
+    thumbnailUrl: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-2_624x429@1.png
+    width: 1265
+    height: 871
+  - url: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-3_orig.png
+    thumbnailUrl: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-3_624x458@1.png
+    width: 852
+    height: 626
+  - url: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-4_orig.png
+    thumbnailUrl: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-4_624x451@1.png
+    width: 1136
+    height: 822
+  - url: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-5_orig.png
+    thumbnailUrl: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-5_624x423@1.png
+    width: 1315
+    height: 892
+  - url: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-6_orig.png
+    thumbnailUrl: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-6_624x438@1.png
+    width: 815
+    height: 573
+  - url: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-7_orig.png
+    thumbnailUrl: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-7_624x439@1.png
+    width: 821
+    height: 578
+  - url: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-8_orig.png
+    thumbnailUrl: org/ksnip/ksnip/780493b201000005764534b43b86268a/screenshots/image-8_624x402@1.png
+    width: 776
+    height: 500
+iconSources:
+  - url: org/ksnip/ksnip/780493b201000005764534b43b86268a/icons/128x128/ksnip_ksnip.png
+    width: 128
+    height: 128
+developer: Damir Porobic
+homepage: "http://ksnip.org"
+enabled: true
+order: 99

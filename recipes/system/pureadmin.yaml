@@ -1,0 +1,31 @@
+id: pureadmin
+name: PureAdmin
+description: Administer and monitor your FTP server
+longDescription: |
+  <p>PureAdmin is a Gtk 2.x GUI over PureFTPd that aims to make easier the task of configuring said FTP server.</p>
+  <p>PureAdmin has been writen not as a complete replacement of hand-crafted configuration, but as a tool that provides help and sane defaults. It will be helpful mainly for those not familiar with all the functionality of PureFTPd. By now, PureAdmin can right now be used to:</p>
+  <p> * Manage users  * Monitorize activities (download, upload, online users)  * Monitorize log files  * Real time control (kick users out, close connections, etc)</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - pureadmin
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+iconSources:
+  - cached: pureadmin_pureadmin.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

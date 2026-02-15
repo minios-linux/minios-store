@@ -1,0 +1,48 @@
+id: "blender"
+name: Blender
+description: "3D modeling, animation, rendering and post-production"
+longDescription: |
+  <p>Blender is an integrated 3d suite for modelling, animation, rendering, post-production, interactive creation and playback (games). Blender has its own particular user interface, which is implemented entirely in OpenGL and designed with speed in mind. Python bindings are available for scripting; import/export features for popular file formats like 3D Studio and Wavefront Obj are implemented as scripts by the community. Stills, animations, models for games or other third party engines and interactive content in the form of a standalone binary are common products of Blender use.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - blender
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+tags:
+  - 3d
+  - cg
+  - modeling
+  - animation
+  - painting
+  - sculpting
+  - texturing
+  - video editing
+  - video tracking
+  - rendering
+iconSources:
+  - url: b/bl/blender.desktop/3615e1e0dbf2bb9653076b9eba33d2c2/icons/128x128/blender_blender.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

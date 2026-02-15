@@ -1,0 +1,5 @@
+{
+  "name": "UXVile",
+  "description": "Emacs de type VI",
+  "longDescription": "<p>vile est un éditeur de texte hautement compatible avec vi en termes de « ressenti à la frappe ». Il offre des fonctionnalités étendues dans de nombreux domaines, notamment l’édition et la visualisation multi-fichiers, la coloration syntaxique, la reconfiguration des touches, un interpréteur perl intégré optionnel, ainsi qu’un véritable support du système de fenêtrage X.</p>\n<p>Ce paquet contient le binaire X11. Les fichiers de support nécessaires sont inclus dans vile-common. Les filtres de coloration de code source sont dans vile-filters. Une version en mode caractère est disponible dans le paquet vile.</p>\n"
+}

@@ -1,0 +1,34 @@
+id: openmw-launcher
+name: OpenMW Launcher
+description: "An engine replacement for The Elder Scrolls III: Morrowind"
+longDescription: |
+  <p>Additional launcher for handling installation of Morrowind and its expansions, mods and configuration details of OpenMW.</p>
+  <p>While not necessary, it automates the setup of OpenMW to play Morrowind.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - openmw-launcher
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - morrowind
+  - reimplementation mods
+  - esm
+  - bsa
+iconSources:
+  - cached: openmw-launcher_openmw.png
+    width: 64
+    height: 64
+homepage: "https://openmw.org"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "RaySession",
+  "description": "Audio-Session-Manager",
+  "longDescription": "<p>Ray Session ist ein GNU/Linux-Session-Manager für Audio-Programme wie Ardour, Carla, QTractor, Non-Timeline und andere.</p>\n<p>Er verwendet die gleiche API wie der Non Session Manager (NSM), sodass Programme, die mit NSM kompatibel sind, auch mit Ray Session funktionieren. Wie beim Non Session Manager besteht das Prinzip darin, mehrere Audio-Anwendungen gemeinsam zu laden und dann alle Projekte zusammen speichern oder schließen zu können.</p>\n<p>Ray Session bietet zusätzlich:</p>\n<p> - Vorlagen für NSM- und LASH-kompatible Anwendungen  - Möglichkeit, jeden Client als Vorlage zu speichern  - Session als Vorlage abspeichern  - Datei-Namen strukturierter vergeben  - merkt, ob ein Client gestartet wurde oder nicht  - Session kann nahezu jederzeit abgebrochen werden  - Hauptordner der Sessions im GUI ändern  - Möglichkeit, Clients gewaltsam zu beenden, falls der reguläre Ausstieg zu lange dauert  - Direktes Öffnen des Session-Ordners im Standard-Dateimanager</p>\n<p>Ray Session wird von houston4444 mit Python3 und Qt5 entwickelt.</p>\n"
+}

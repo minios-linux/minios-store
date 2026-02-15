@@ -1,0 +1,43 @@
+id: gpicview
+name: Image Viewer
+description: View your images easily
+longDescription: |
+  <p>GPicView is a lightweight GTK+ 2.x based image viewer with following features:</p>
+  <p> * Extremely lightweight and fast with low memory usage  * Very suitable for default image viewer of desktop system  * Simple and intuitive interface  * Minimal lib dependency: Only pure GTK+ is used  * Desktop independent: Doesn&apos;t require any specific desktop environment</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gpicview
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - graphics
+  - pictures
+  - viever
+  - photography
+iconSources:
+  - cached: gpicview_gpicview.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

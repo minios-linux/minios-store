@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Maskable icon: full bleed with safe zone padding (icon content within 80% center) -->
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="storeGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#38AEEB"/>
+      <stop offset="100%" stop-color="#279AD1"/>
+    </linearGradient>
+    <linearGradient id="bagGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+  <!-- Full background fill for maskable -->
+  <rect width="512" height="512" fill="url(#storeGrad)"/>
+  <!-- Shopping bag body (centered, within safe zone) -->
+  <path d="M160 224 C160 216 166 210 174 210 L338 210 C346 210 352 216 352 224 L344 408 C344 416 338 422 330 422 L182 422 C174 422 168 416 168 408 Z" fill="white" fill-opacity="0.95"/>
+  <!-- Bag handle -->
+  <path d="M206 210 L206 170 C206 138.654 231.654 113 263 113 C294.346 113 320 138.654 320 170 L320 210" stroke="white" stroke-width="24" stroke-linecap="round" fill="none"/>
+  <!-- MiniOS pie-chart motif -->
+  <circle cx="256" cy="322" r="72" fill="none" stroke="url(#bagGrad)" stroke-width="10"/>
+  <path d="M256 322 L256 250 A72 72 0 0 1 328 322 Z" fill="url(#bagGrad)" fill-opacity="0.85"/>
+  <circle cx="256" cy="322" r="10" fill="url(#bagGrad)"/>
+</svg>

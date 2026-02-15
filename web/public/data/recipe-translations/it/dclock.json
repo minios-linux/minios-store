@@ -1,0 +1,5 @@
+{
+  "name": "DClock",
+  "description": "Un orologio digitale configurabile",
+  "longDescription": "<p>La caratteristica principale di DClock è la grande flessibilità nella visualizzazione. È possibile anche mostrare l’output del comando \"date\", come ad esempio \"Mercoledì 3 gennaio\". DClock permette inoltre di impostare un allarme.</p>\n<p>Per abilitare il suono per l’allarme e i segnali orari (anziché semplici beep), è necessario installare il pacchetto sox.</p>\n"
+}

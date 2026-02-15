@@ -1,0 +1,71 @@
+id: "tellico"
+name: Tellico
+description: Collection Manager
+longDescription: |
+  <p>Tellico is an application for organizing your collections.
+        It provides default templates for books, bibliographies, videos, music, video games, coins, stamps, trading cards,
+  comic books, and wines.
+        It allows you to enter your collection in a catalogue database, saving many different properties like title, author,
+  etc.</p> <p>Features:</p>
+  <ul>
+    <li>Supports default collections of books, bibliographic entries, videos, music, video games, comic books, coins, stamps,
+  trading cards, wines, board games, and file catalogs</li>
+    <li>Supports user-defined custom collections</li>
+    <li>Supports any number of user-defined fields, of several different types: text, paragraph, list, checkbox, number,
+  URL, date, images, and combinations</li>
+    <li>Handles entries with multiple authors, genres, keywords, etc</li>
+    <li>Automatically formats titles and names</li>
+    <li>Supports collection searching and view filtering</li>
+    <li>Sorts and groups collection by various properties</li>
+    <li>Allows customizable entry templates through XSLT</li>
+    <li>Imports MODS, Bibtex, RIS, CSV, PDF metadata, and many other formats</li>
+    <li>Exports to Bibtex, ONIX, CSV, HTML, and other formats</li>
+    <li>Imports information directly from Amazon.com, IMDb, z39.50 servers, PubMed, SRU servers, CrossRef.org, various other
+  websites, and from external scripts</li>
+    <li>Imports CDDB data for cataloging audio CDs</li>
+    <li>Scans and imports audio file collections, such as mp3 or ogg</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tellico
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/tellico.desktop/f897654f07408a503a0d359ca89e4b53/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/tellico.desktop/f897654f07408a503a0d359ca89e4b53/screenshots/image-1_624x354@1.png
+    width: 1996
+    height: 1135
+  - url: org/kde/tellico.desktop/f897654f07408a503a0d359ca89e4b53/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/tellico.desktop/f897654f07408a503a0d359ca89e4b53/screenshots/image-2_624x512@1.png
+    width: 1132
+    height: 930
+  - url: org/kde/tellico.desktop/f897654f07408a503a0d359ca89e4b53/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/tellico.desktop/f897654f07408a503a0d359ca89e4b53/screenshots/image-3_624x383@1.png
+    width: 1774
+    height: 1089
+iconSources:
+  - url: org/kde/tellico.desktop/f897654f07408a503a0d359ca89e4b53/icons/128x128/tellico_tellico.png
+    width: 128
+    height: 128
+homepage: "http://tellico-project.org/"
+enabled: true
+order: 99

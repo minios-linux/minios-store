@@ -1,0 +1,30 @@
+id: qcomicbook
+name: qcomicbook
+description: "QComicBook is a viewer for comic book archives (cbz, cbr, cbt). QComicBook has specific features like page preview, thumbnails view, bookmarks, manga mode for easing comicbook reading."
+longDescription: |
+  <p>QComicBook is a viewer for comic book archives containing jpeg/png images, which aims at convenience and simplicity. Features include: automatic decompression, full-screen mode, page scaling, mouse or keyboard navigation etc.</p>
+  <p>QComicBook for now supports archives:  - cbr - rar-compressed  - cbz - zip-compressed  - cba - ace-compressed  - cbg - targzipped  - cbb - tarbzip2ped</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - qcomicbook
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: qcomicbook_qcomicbook.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,39 @@
+id: "ricochet"
+name: Ricochet
+description: '"Networked Multi-player Ricochet Robots"'
+longDescription: |
+  <p>Ricochet Robots is a multi-player board game which involves each user simultaneously solving a geometric challenge. This implementation is a networked version of the game with both client and server programs written in nickle using the nichrome toolkit.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ricochet
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - game multiplayer network
+iconSources:
+  - url: r/ri/ricochet.desktop/7edbc6ab3ba2a9c13ca2c232517bd902/icons/128x128/ricochet_ricochet-icon.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

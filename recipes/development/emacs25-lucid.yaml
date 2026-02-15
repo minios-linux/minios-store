@@ -1,0 +1,26 @@
+id: emacs25-lucid
+name: GNU Emacs 25 (GUI)
+description: "GNU Emacs is an extensible, customizable text editor - and more"
+longDescription: |
+  <p>GNU Emacs is the extensible self-documenting text editor.  This package contains a version of Emacs with support for a graphical user interface based on the Lucid toolkit (instead of the GTK+ interface provided by the emacs25 package).  Until some known GTK+ problems are fixed, this version may help avoid crashing Emacs during an emacsclient disconnect.  See https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=567934 and https://bugzilla.gnome.org/show_bug.cgi?id=85715 for more information.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - emacs25-lucid
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+tags:
+  - text
+  - editor
+iconSources:
+  - url: e/em/emacs25-lucid.desktop/0C07A10967D887432A51D6B572E44D91/icons/128x128/emacs25-lucid_emacs25.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

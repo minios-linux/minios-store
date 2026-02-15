@@ -1,0 +1,33 @@
+id: paraview
+name: ParaView Client
+description: ParaView allows viewing of large data sets
+longDescription: |
+  <p>ParaView is an open-source, multi-platform application designed to visualize data sets of size varying from small to very large. The goals of the ParaView project include the following:</p>
+  <p>    * Develop an open-source, multi-platform visualization application.     * Support distributed computation models to process large data sets.     * Create an open, flexible, and intuitive user interface.     * Develop an extensible architecture based on open standards.</p>
+  <p>ParaView runs on distributed and shared memory parallel as well as single processor systems and has been successfully tested on Windows, Mac OS X, Linux and various Unix workstations, clusters and supercomputers. Under the hood, ParaView uses the Visualization Toolkit as the data processing and rendering engine and has a user interface written using Qt.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - paraview
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: paraview_paraview.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

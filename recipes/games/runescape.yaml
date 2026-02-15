@@ -1,0 +1,34 @@
+id: runescape
+name: Old School RuneScape
+description: Multiplayer online game set in a fantasy world
+longDescription: |
+  <p>Explore in an open and mysterious world with ravaged landscapes and sinister powers.</p>
+  <p>Having chosen an adventurer, players are free to find their role within it: to live by the sword and spells facing hundreds of enemies, to further the storyline in quests, or to train in any of a number of skills.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - runescape
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+tags:
+  - game
+  - adventure
+  - mmorpg
+  - multiplayer
+  - online
+iconSources:
+  - cached: runescape_runescape.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

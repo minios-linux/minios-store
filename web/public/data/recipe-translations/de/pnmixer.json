@@ -1,0 +1,5 @@
+{
+  "name": "PNMixer",
+  "description": "Ein Audio-Mixer für das System-Tray",
+  "longDescription": "<p>PNMixer ist eine einfache Mixer-Anwendung, die im System-Tray läuft. Sie integriert sich nahtlos in Desktop-Umgebungen, die kein Panel mit Applet-Unterstützung haben und daher kein Mixer-Applet ausführen können. Besonders häufig wird sie mit fbpanel und tint2 verwendet, funktioniert aber grundsätzlich mit jedem System-Tray.</p>\n<p>PNMixer ist für Systeme konzipiert, die ALSA zur Soundverwaltung nutzen. Andere Soundtreiber wie OSS oder FFADO sowie Soundserver wie PulseAudio oder Jack werden derzeit nicht unterstützt (Patches sind willkommen).</p>\n"
+}

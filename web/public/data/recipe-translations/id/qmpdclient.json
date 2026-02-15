@@ -1,0 +1,5 @@
+{
+  "name": "QMPDClient",
+  "description": "Klien MPD dengan antarmuka lebih nyaman",
+  "longDescription": "<p>QMPDClient adalah klien GUI untuk MPD yang menggunakan antarmuka Qt4 serta menawarkan fitur seperti tampilan sampul album, tema (skins), notifikasi di sistem tray, dan integrasi pengiriman track ke last.fm.</p>\n<p>MPD (Music Player Daemon) adalah server yang memungkinkan akses jarak jauh untuk memutar file audio, streaming, dan mengelola playlist. MPD dapat digunakan bersama berbagai klien, termasuk QMPDClient, dan klien tidak harus dijalankan di mesin yang sama dengan server.</p>\n<p>Music Player Daemon tersedia di paket mpd.</p>\n"
+}

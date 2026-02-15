@@ -1,0 +1,49 @@
+id: "umbrello"
+name: Umbrello
+description: UML Modeller
+longDescription: |
+  <p>
+        Umbrello is a Unified Modelling Language (UML) modelling tool and code generator.
+        It can create diagrams of software and other systems in the industry-standard UML format, and can also generate
+  code from UML diagrams
+        in a variety of programming languages.
+      </p>
+  <p>Features:</p>
+  <ul>
+    <li>Supported formats: XMI</li>
+    <li>Several type of diagrams supported: use case, class, sequence, communication, state, activity, component, deployment,
+  entity relationship</li> </ul>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - umbrello
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+screenshotSources:
+  - url: org/kde/umbrello.desktop/a3de7814cc1844200babcaa926789eeb/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/umbrello.desktop/a3de7814cc1844200babcaa926789eeb/screenshots/image-1_624x387.png
+    width: 1252
+    height: 778
+iconSources:
+  - url: org/kde/umbrello.desktop/a3de7814cc1844200babcaa926789eeb/icons/128x128/umbrello_umbrello.png
+    width: 128
+    height: 128
+homepage: "https://umbrello.kde.org"
+enabled: true
+order: 99

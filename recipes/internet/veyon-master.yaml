@@ -1,0 +1,40 @@
+id: "veyon-master"
+name: Veyon Master
+description: Monitor and control remote computers
+longDescription: |
+  <p>Veyon is a software for computer monitoring and classroom management supporting Windows and Linux. It enables teachers to view and control computer labs and interact with students. Veyon is available in different languages and provides lots of useful features:</p>
+  <p>   - see what&apos;s going on in computer labs in overview mode and take screenshots    - remote control computers to support and help users    - broadcast teacher&apos;s screen to students in realtime by using demo mode      (either in fullscreen or in a window)    - lock workstations for attracting attention to teacher    - send text messages to students    - powering on/off and rebooting computers remote    - remote logoff and remote execution of arbitrary commands/scripts    - home schooling - Veyon&apos;s network technology is not restricted to a subnet      and therefore students at home can join lessons via VPN connections just      by installing the Veyon service</p>
+  <p>Veyon is the continuation of iTALC.</p>
+  <p>This package contains the veyon-master software. With veyon-master a teacher or tutor can control other machines if they run Veyon&apos;s client service software (package: veyon-service).</p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - veyon-master
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - classroom,control,computer,room,lab,monitoring,teacher,student
+iconSources:
+  - url: v/ve/veyon-master.desktop/d4b1e8e749eb09420a9e91b206c82479/icons/128x128/veyon-master_veyon-master.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Mp3splt-gtk audio splitter",
+  "description": "Dividi file mp3 e ogg senza decodifica",
+  "longDescription": "<p>Questo pacchetto offre un'interfaccia grafica per suddividere file audio specificando l'inizio e la fine senza necessità di decodifica. Nel caso di un album, è possibile selezionare manualmente i punti di separazione e i nomi dei file, oppure importarli da file CDDB o cue. È supportata anche la divisione in base al silenzio e alle informazioni da Mp3Wrap o AlbumWrap. Per i file mp3 sono gestiti sia i tag ID3v1 che ID3v2. L'interfaccia a riga di comando è disponibile nel pacchetto mp3splt.</p>\n"
+}

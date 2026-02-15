@@ -1,0 +1,40 @@
+id: "stella"
+name: Stella
+description: A multi-platform Atari 2600 emulator
+longDescription: |
+  <p>Stella is a portable emulator of the old Atari 2600 video-game console. You can play most Atari 2600 games with it.</p>
+  <p>Stella&apos;s features include:  * emulation of Atari 2600 joysticks, keyboards, paddles and driving    controllers using the host system&apos;s input peripherals;  * emulation of trackballs, joysticks, booster grips, driving    controllers and the Amiga Mouse using the host system&apos;s mouse;  * support for real Atari 2600 controllers using the Stelladaptor,    2600-daptor or 2600-daptor II;  * support for real Atari 7800 controllers using the 2600-daptor II;  * support for the speech portion of a real AtariVox device;  * support for Supercharger single-load and multi-load games;  * emulation of CRT TV features, including texturing, colour bleed,    RF noise and phosphor burn-off (requires OpenGL).</p>
+  <p>An extensive debugger is included, with the Distella disassembler.</p>
+  <p>Note that this is not isee systems&apos; STELLA modeling, simulation and analysis tool.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - stella
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/st/stella.desktop/d51e9ec292c7863baaedf91ed473477e/icons/128x128/stella_stella.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

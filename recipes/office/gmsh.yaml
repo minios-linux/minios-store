@@ -1,0 +1,34 @@
+id: "gmsh"
+name: Gmsh Mesh Generator
+description: 3D finite element mesh generator
+longDescription: |
+  <p>Gmsh is a 3D finite element grid generator with a build-in CAD engine and post-processor. Its design goal is to provide a fast, light and user-friendly meshing tool with parametric input and advanced visualization capabilities. Gmsh is built around four modules: geometry, mesh, solver and post-processing. The specification of any input to these modules is done either interactively using the graphical user interface or in ASCII text files using Gmsh&apos;s own scripting language.</p>
+  <p>See Gmsh&apos;s reference manual for a more thorough overview of Gmsh&apos;s capabilities.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gmsh
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: g/gm/gmsh.desktop/b3b904721f76e064429d2bdab6013c93/icons/128x128/gmsh_gmsh.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

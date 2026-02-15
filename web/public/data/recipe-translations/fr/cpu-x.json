@@ -1,0 +1,5 @@
+{
+  "name": "CPU-X",
+  "description": "Collecte des informations sur le processeur, la carte mère et plus encore",
+  "longDescription": "<p>CPU-X est un logiciel libre permettant de collecter des informations sur le processeur, la carte mère et bien d'autres composants. Comparable à CPU-Z sous Windows, CPU-X est une solution libre et open source conçue pour GNU/Linux, et fonctionne également sur *BSD. Ce logiciel est écrit en C et construit avec l’outil CMake. Il s’utilise en mode graphique via GTK ou en mode texte grâce à NCurses. Un mode pour générer un rapport en ligne de commande est également disponible.</p>\n"
+}

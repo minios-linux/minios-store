@@ -1,0 +1,24 @@
+id: freedink-dfarc
+name: DFArc - Dink frontend
+description: "Run, edit, install, remove and package D-Mods (Dink Modules)"
+longDescription: |
+  <p>Dink Smallwood is an adventure/role-playing game, similar to Zelda, made by RTsoft. Besides twisted humor, it includes the actual game editor, allowing players to create hundreds of new adventures called Dink Modules or D-Mods for short.</p>
+  <p>DFArc2 makes it easy to play and manage the Dink Smallwood game and its numerous D-Mods.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - freedink-dfarc
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: freedink-dfarc_dfarc.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

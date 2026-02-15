@@ -1,0 +1,48 @@
+id: "munipack-gui"
+name: Munipack
+description: A general astronomical image processing software
+longDescription: |
+  <p>Munipack is a general astronomical photometry software package. Currently implements functions for standard photometry processing (photometry reductions - dark, flat), aperture  photometry, astrometry and photometry calibration, accessing Virtual observatory, etc.</p>
+  <p>This package provides &quot;xmunipack&quot; command which offers graphical user interface for Munipack.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - munipack-gui
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - image
+  - photometry
+  - astrometry
+screenshotSources:
+  - url: cz/muni/physics.munipack.xmunipack/924233c06cf9e49331f86c74bf1c7c9c/screenshots/image-1_orig.png
+    thumbnailUrl: cz/muni/physics.munipack.xmunipack/924233c06cf9e49331f86c74bf1c7c9c/screenshots/image-1_624x420.png
+    width: 1331
+    height: 896
+iconSources:
+  - url: cz/muni/physics.munipack.xmunipack/924233c06cf9e49331f86c74bf1c7c9c/icons/128x128/munipack-gui_munipack_icon.png
+    width: 128
+    height: 128
+homepage: "https://munipack.physics.muni.cz"
+enabled: true
+order: 99

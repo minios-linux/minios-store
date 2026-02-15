@@ -1,0 +1,5 @@
+{
+  "name": "Metview",
+  "description": "Memproses dan memvisualisasikan data meteorologi",
+  "longDescription": "<p>Metview dirancang sebagai sistem yang fleksibel, modular, dan mudah dikembangkan untuk memenuhi kebutuhan pengguna yang terus berkembang. Sistem ini berbasis standar ECMWF untuk grafik (Magics) dan akses data (MARS), namun juga dapat mengakses data yang disimpan secara lokal. Antarmuka pengguna dibangun menggunakan Motif dan Qt. Metview adalah sistem terdistribusi penuh di mana modul-modulnya dapat dijalankan pada workstation dan server yang berbeda.</p>\n<p>Metview merupakan proyek kolaborasi antara ECMWF dan INPE/CPTEC, Brasil. Pengembangan Metview juga mendapat kontribusi dari staf Météo-France.</p>\n"
+}

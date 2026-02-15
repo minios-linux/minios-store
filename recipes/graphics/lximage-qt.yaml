@@ -1,0 +1,44 @@
+id: "lximage-qt"
+name: LXImage
+description: The LXQt image viewer
+longDescription: |
+  <p>A simple image viewer for LXQt. Additional file formats can be processed if one install qt5-image-formats-plugins.</p>
+  <p>This package contain the program files.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lximage-qt
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: io/github/lxqt.lximage-qt/cfd12edcfb03c5b23ed8394ba431ecb0/screenshots/image-1_orig.png
+    thumbnailUrl: io/github/lxqt.lximage-qt/cfd12edcfb03c5b23ed8394ba431ecb0/screenshots/image-1_624x429@1.png
+    width: 1082
+    height: 744
+iconSources:
+  - cached: lximage-qt_lximage-qt.png
+    width: 64
+    height: 64
+homepage: "https://github.com/lxqt/lximage-qt"
+enabled: true
+order: 99

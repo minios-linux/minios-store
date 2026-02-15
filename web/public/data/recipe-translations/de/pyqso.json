@@ -1,0 +1,5 @@
+{
+  "name": "PyQSO",
+  "description": "Kontakt-Logbuch-Werkzeug",
+  "longDescription": "<p>PyQSO ist ein Logging-Tool für Funkamateure. Es bietet eine einfache grafische Oberfläche, über die Nutzer Informationen zu ihren Kontakten/QSOs mit anderen Operateuren im Funkverkehr verwalten können. Alle Daten werden in einer schlanken SQL-Datenbank gespeichert. Weitere Hauptfunktionen sind:</p>\n<p> * Anpassbare Benutzeroberfläche (z.B. nur Anzeige von Rufzeichen- und Frequenzinformationen).  * Import und Export von Logs im ADIF-Format.  * Rufzeichenabfragen und automatisches Ausfüllen der Datenfelder über die qrz.com-Datenbank.  * Sortierung der Logs nach einzelnen Feldern.  * Ausdruck der Logs auf Papier oder als PDF.  * Anbindung an Telnet-basierte DX-Cluster.  * Fortschrittsanzeige für das DXCC-Diplom.  * Grey-Line-Anzeige.  * Filterung von QSOs anhand des Rufzeichenfeldes (z.B. nur Kontakte mit Rufzeichen, die mit „M6“ beginnen, anzeigen).  * Entfernen von doppelten QSOs.  * Grundlegende Unterstützung für die Hamlib-Bibliothek.</p>\n"
+}

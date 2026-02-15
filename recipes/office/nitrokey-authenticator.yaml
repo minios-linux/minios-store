@@ -1,0 +1,36 @@
+id: nitrokey-authenticator
+name: Nitrokey Authenticator
+description: TOTP authenticator application for NitroKey Pro2 and LibremKey
+longDescription: |
+  <p>
+  			Nitrokey is an open source/open hardware USB key supporting secure encryption and signing.
+  			This package installs TOTP Authenticator application compatible with Google Authenticator
+  			but uses NitroKey hardware key to store TOTP secrets used to generate authentication codes
+  			and is using the key to generating the codes.
+  		</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - nitrokey-authenticator
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: n/ni/nitrokey-authenticator/417db6c056e0545de7fac4c31bd3538f/icons/128x128/nitrokey-authenticator_nitrokey-authenticator.png
+    width: 128
+    height: 128
+developer: "Agnieszka Cicha-Cisek, Patryk Cisek"
+homepage: "https://gitlab.com/prezu-debian/nitrokeyauthenticator"
+enabled: true
+order: 99

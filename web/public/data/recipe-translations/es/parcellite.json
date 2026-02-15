@@ -1,0 +1,5 @@
+{
+  "name": "Parcellite",
+  "description": "Gestor de portapapeles ligero basado en GTK+",
+  "longDescription": "<p>Parcellite es un gestor de portapapeles minimalista, enfocado en la simplicidad y con un consumo de memoria muy bajo.</p>\n<p>Características:</p>\n<p> * Mantiene un historial del portapapeles.  * Diversas opciones de visualización para mostrar los elementos a tu gusto.  * Modo demonio: protege el contenido del portapapeles incluso al cerrar aplicaciones.  * Permite ejecutar comandos personalizados usando el contenido del portapapeles.</p>\n"
+}

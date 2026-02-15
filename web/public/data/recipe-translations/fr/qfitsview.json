@@ -1,0 +1,5 @@
+{
+  "name": "QFitsView",
+  "description": "Application de visualisation de données astronomiques",
+  "longDescription": "<p>QFitsView est une visionneuse de fichiers FITS basée sur DPUSER. En plus de l’affichage des images en deux dimensions, elle permet d’explorer des cubes de données en trois dimensions. L’ensemble des fonctionnalités de DPUSER est intégré et accessible directement depuis QFitsView.</p>\n<p>À noter : ce paquet a été compilé avec la bibliothèque giza au lieu de PGPLOT, cette dernière n’étant pas un logiciel libre.</p>\n"
+}

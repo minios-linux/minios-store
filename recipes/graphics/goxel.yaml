@@ -1,0 +1,40 @@
+id: "goxel"
+name: Goxel
+description: 3D voxel editor
+longDescription: |
+  <p>Goxel is a 3D program that lets you create voxel volumes. It supports 24 bits RGB colors, unlimited scene size and undo buffers. Layers, procedural generation and Marching Cube rendering. Exports to obj, pyl, magica voxel, png, qubicle, povray, and more</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - goxel
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - 3d
+  - voxel
+iconSources:
+  - url: g/go/goxel.desktop/976268da975574a96a4e521cd28001fd/icons/128x128/goxel_goxel.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

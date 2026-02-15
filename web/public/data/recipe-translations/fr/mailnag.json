@@ -1,0 +1,5 @@
+{
+  "name": "Mailnag",
+  "description": "Un démon de notification de courriels extensible",
+  "longDescription": "<p>\n      Mailnag est un programme moteur (démon) qui surveille les serveurs POP3 et IMAP à la recherche de nouveaux courriels.\n      Lorsqu'un message arrive, il exécute différentes actions grâce à ses plugins.\n      Mailnag propose une série de plugins par défaut, indépendants de l'environnement de bureau, pour les notifications visuelles/sonores, l’exécution de scripts, etc. Il peut être facilement étendu avec des plugins additionnels.\n    </p>\n"
+}

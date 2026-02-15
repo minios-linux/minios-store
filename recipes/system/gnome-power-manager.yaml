@@ -1,0 +1,55 @@
+id: "gnome-power-manager"
+name: GNOME Power Statistics
+description: Observe power management
+longDescription: |
+  <p>Power Statistics can show historical and current battery information and
+        programs waking up that use power.</p>
+  <p>You probably only need to install this application if you are having
+        problems with your laptop battery, or are trying to work out what programs
+        are using significant amounts of power.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - gnome-power-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - battery
+  - consumption
+  - charge
+screenshotSources:
+  - url: org/gnome/PowerStats.desktop/720a5e5d1c9baa3247ddc9378c1fbd09/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/PowerStats.desktop/720a5e5d1c9baa3247ddc9378c1fbd09/screenshots/image-1_624x351@1.png
+    width: 1024
+    height: 576
+  - url: org/gnome/PowerStats.desktop/720a5e5d1c9baa3247ddc9378c1fbd09/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/PowerStats.desktop/720a5e5d1c9baa3247ddc9378c1fbd09/screenshots/image-2_624x351@1.png
+    width: 1024
+    height: 576
+iconSources:
+  - url: org/gnome/PowerStats.desktop/720a5e5d1c9baa3247ddc9378c1fbd09/icons/128x128/gnome-power-manager_org.gnome.PowerStats.png
+    width: 128
+    height: 128
+homepage: "http://www.gnome.org/projects/gnome-power-manager/"
+enabled: true
+order: 99

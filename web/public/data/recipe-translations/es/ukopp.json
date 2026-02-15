@@ -1,0 +1,5 @@
+{
+  "name": "ukopp",
+  "description": "Copias de seguridad completas e incrementales con verificación de medios",
+  "longDescription": "<p>Ukopp se utiliza para copiar o respaldar archivos de disco a otro disco o dispositivo similar, como una memoria USB. Solo copia los archivos nuevos o modificados desde la última copia de seguridad, por lo que es bastante rápido. Usa una interfaz gráfica (GUI) para navegar por el sistema de archivos y seleccionar qué archivos o directorios incluir o excluir en cualquier nivel. Estas selecciones pueden guardarse en un archivo de tareas para reutilizarlas. Los archivos nuevos que aparezcan dentro de los directorios incluidos se gestionan automáticamente. Opcionalmente, se pueden conservar versiones anteriores de los archivos de respaldo en lugar de sobrescribirlos. Los archivos pueden restaurarse selectivamente mediante la GUI. También se restauran la propiedad y los permisos, incluso si el dispositivo de destino utiliza un sistema de archivos de Microsoft.</p>\n"
+}

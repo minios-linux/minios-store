@@ -1,0 +1,26 @@
+id: wireshark-gtk
+name: Wireshark (GTK+)
+description: Network traffic analyzer
+longDescription: |
+  <p>Wireshark is a network &quot;sniffer&quot; - a tool that captures and analyzes packets off the wire. Wireshark can decode too many protocols to list here.</p>
+  <p>This package provides the GTK+ version of Wireshark.</p>
+  
+categoryId: internet
+icon: Shield
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - wireshark-gtk
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - url: w/wi/wireshark-gtk.desktop/AEAC41B2A3E63C830ECD4AC0FFFA80D0/icons/128x128/wireshark-gtk_wireshark.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

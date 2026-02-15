@@ -1,0 +1,5 @@
+{
+  "name": "Ding",
+  "description": "Ding : Dictionnaire Anglais-Allemand",
+  "longDescription": "<p>« Ding » est un programme de recherche de dictionnaires pour Unix : DIctionary Nice Grep, une interface graphique (Tk) pour [ae]grep, (hun|a|i)spell, dict, etc. Ding {n} :: chose</p>\n<p>Ce paquet nécessite tre-agrep(1), agrep(1) ou egrep(1) comme moteur en arrière-plan. (tre-)agrep est recommandé car il permet une recherche tolérante aux fautes.</p>\n<p>Vous devez installer un fichier de liste de mots bilingue, chaque ligne contenant un mot ou une expression dans deux langues, séparés par un délimiteur. La configuration par défaut de Ding utilise le dictionnaire allemand-anglais fourni par le paquet trans-de-en, mais vous pouvez utiliser tout autre fichier de listes de mots, à raison d'une paire par ligne.</p>\n"
+}

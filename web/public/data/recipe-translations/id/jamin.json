@@ -1,0 +1,5 @@
+{
+  "name": "JAMin",
+  "description": "Antarmuka Mastering Audio JACK",
+  "longDescription": "<p>JAMin adalah alat untuk membuat audio master dari sumber multitrack yang telah dimixdown. Aplikasi ini berjalan di JACK Audio Connection Kit, dan menggunakan LADSPA sebagai backend DSP-nya, khususnya plugin swh buatan Steve Harris, penulis utama JAMin.</p>\n<p>Fitur:  * Filter linier  * I/O JACK  * EQ grafis 30 band  * EQ 1023 band dengan kontrol parametrik  * Spektrum analisator  * Kompresor puncak 3 band  * Limiter brickwall dengan lookahead  * Pemrosesan stereo multiband  * Preset dan scene  * Maksimalisasi loudness</p>\n"
+}

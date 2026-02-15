@@ -1,0 +1,5 @@
+{
+  "name": "Installer Debian",
+  "description": "Calamares — Installateur pour Debian Live",
+  "longDescription": "<p>Calamares est une infrastructure d’installation générique pour les distributions Linux. Par défaut, elle inclut un ensemble de textes et d’images standard. Ce paquet fournit les derniers éléments graphiques de Debian ainsi que des scripts permettant la prise en charge des installations EFI.</p>\n<p>Il sert également d’exemple pour que les distributions dérivées créent leurs propres paquets calamares-settings.</p>\n"
+}

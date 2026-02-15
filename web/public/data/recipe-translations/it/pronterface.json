@@ -1,0 +1,5 @@
+{
+  "name": "Pronterface",
+  "description": "Software host per stampanti 3D",
+  "longDescription": "<p>Pronterface è un'interfaccia grafica per stampanti 3D desktop, come le RepRap. Permette di visualizzare il Gcode, connettersi alla stampante e inviare il Gcode. È un'applicazione ricca di funzionalità ma dal design minimalista.</p>\n<p>Consente non solo di inviare il Gcode da file, ma anche di controllare manualmente la stampante o inviare comandi Gcode direttamente tramite un campo di input.</p>\n<p>Si integra con gli strumenti di slicing, quindi caricando un modello 3D STL lo slice e lo carica automaticamente.</p>\n"
+}

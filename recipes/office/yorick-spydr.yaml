@@ -1,0 +1,25 @@
+id: yorick-spydr
+name: Spydr
+description: FITS image display and simple analysis
+longDescription: |
+  <p>Spydr (pronounced like spider) basically is an FITS image viewer. It can work as a stand-alone application but is best integrated in a Yorick-based data-analysis work-flow (Yorick is an interpreted language specialized in numerical computations and scientific graphics). It includes tools to zoom, produce cuts, histograms, Gaussian/Moffat fits, PSF fits (inc. FWHM and Strehl). Can work on single images, sequences of images or data cubes.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - yorick-spydr
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: yorick-spydr_spydr48.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

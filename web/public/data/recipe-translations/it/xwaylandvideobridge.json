@@ -1,0 +1,5 @@
+{
+  "name": "Xwayland Video Bridge",
+  "description": "Fornisce i flussi screencast di XDG Desktop Portals alle applicazioni X11",
+  "longDescription": "<p>Molte applicazioni X11 utilizzano ancora meccanismi tradizionali per condividere i contenuti di altre app e display. Negli ultimi anni sono stati introdotti gli XDG Desktop Portals come soluzione moderna per questa funzionalità, che ora rappresenta lo standard atteso per le applicazioni. Questa applicazione permette di rendere disponibili i flussi forniti dagli XDG Desktop Portals anche alle applicazioni X11 legacy che non supportano ancora il nuovo sistema.</p>\n"
+}

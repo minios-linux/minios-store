@@ -1,0 +1,5 @@
+{
+  "name": "Hierarchy Viewer",
+  "description": "Visualiza la jerarquía de la interfaz de usuario de una aplicación Android",
+  "longDescription": "<p>Hierarchy Viewer te permite depurar y optimizar tu interfaz de usuario. Proporciona una representación visual de la jerarquía de vistas del layout (Layout View) y un inspector ampliado de la pantalla (Pixel Perfect View).</p>\n<p>Más información: &lt;https://developer.android.com/studio/profile/hierarchy-viewer.html&gt;</p>\n<p>Este paquete proporciona el lanzador independiente de Hierarchy Viewer. Sin embargo, está obsoleto; se recomienda utilizar Android Device Monitor.</p>\n"
+}

@@ -1,0 +1,27 @@
+id: python3-pyglossary
+name: PyGlossary
+description: Working on glossaries
+longDescription: |
+  <p>PyGlossary is a tool for converting dictionary files aka glossaries, from/to various formats used by different dictionary applications</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - python3-pyglossary
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+iconSources:
+  - cached: python3-pyglossary_pyglossary.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

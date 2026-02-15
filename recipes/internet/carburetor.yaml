@@ -1,0 +1,45 @@
+id: "carburetor"
+name: Carburetor
+description: The Onion Routing app
+longDescription: |
+  <p>
+        A graphical settings app for tractor which is a package uses Python stem library to provide a connection through
+  the onion proxy and sets up proxy in user session, so you don't have to mess up with TOR on your system anymore.
+      </p>
+  
+categoryId: internet
+icon: Globe
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - carburetor
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - tor
+  - tractor
+  - carburetor
+screenshotSources:
+  - url: io/frama/tractor.carburetor/2a7b9118d3e1df0dd66b7b698ff115fe/screenshots/image-1_orig.png
+    thumbnailUrl: io/frama/tractor.carburetor/2a7b9118d3e1df0dd66b7b698ff115fe/screenshots/image-1_624x472@1_fa.png
+    width: 842
+    height: 638
+  - url: io/frama/tractor.carburetor/2a7b9118d3e1df0dd66b7b698ff115fe/screenshots/image-2_orig.png
+    thumbnailUrl: io/frama/tractor.carburetor/2a7b9118d3e1df0dd66b7b698ff115fe/screenshots/image-2_224x360@1_fa.png
+    width: 482
+    height: 776
+iconSources:
+  - url: io/frama/tractor.carburetor/2a7b9118d3e1df0dd66b7b698ff115fe/icons/128x128/carburetor_io.frama.tractor.carburetor.png
+    width: 128
+    height: 128
+developer: Tractor Team
+homepage: "https://framagit.org/tractor"
+enabled: true
+order: 99

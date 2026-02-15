@@ -1,0 +1,5 @@
+{
+  "name": "Pixelize",
+  "description": "Erstellen Sie ein Bild aus vielen kleinen Bildern",
+  "longDescription": "<p>Pixelize ist ein Programm, das mithilfe vieler verkleinerter Bilder versucht, ein anderes Bild so genau wie möglich nachzubilden.</p>\n<p>Pixelize teilt das gewünschte Bild in ein Raster kleiner rechteckiger Bereiche auf. Jeder Bereich wird analysiert und mit einem Bild aus einer großen Bilddatenbank ersetzt. Pixelize wählt dafür jeweils das passende Bild für jeden Bereich aus.</p>\n"
+}

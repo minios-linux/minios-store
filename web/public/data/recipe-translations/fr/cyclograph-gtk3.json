@@ -1,0 +1,5 @@
+{
+  "name": "Cyclograph GTK3",
+  "description": "Trace les pentes des parcours cyclistes.",
+  "longDescription": "<p>CycloGraph est une application permettant de tracer le profil d'élévation des itinéraires. Sa principale utilité réside dans la visualisation graphique de la difficulté d'un parcours, en termes de pente, de dénivelé, etc. Ce type de graphique est couramment utilisé lors des compétitions cyclistes, mais il s'avère aussi utile pour d'autres activités telles que la randonnée ou la course à pied.</p>\n<p>Ce paquet fournit l'interface GTK3 de CycloGraph.</p>\n"
+}

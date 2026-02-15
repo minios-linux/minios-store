@@ -1,0 +1,5 @@
+{
+  "name": "Onedriver",
+  "description": "Monta un account Microsoft OneDrive come filesystem Linux.",
+  "longDescription": "<p>Filesystem nativo per Linux che consente di accedere a Microsoft OneDrive. Onedriver permette di montare OneDrive direttamente come filesystem in Linux. I file e i metadati vengono scaricati su richiesta, senza la necessità di sincronizzare l’intero account sul disco.</p>\n"
+}

@@ -1,0 +1,37 @@
+id: tuxtype
+name: Tux Typing
+description: Educational typing tutor game starring Tux
+longDescription: |
+  <p>TuxTyping is an educational typing tutorial game starring Tux, the Linux Penguin. The player guides Tux to eat fish which are falling from the top of the screen. Each fish has a letter written on it. When the player presses the corresponding key, Tux will position himself to eat the fish. The game is intended for children learning to type, though it does have higher difficulty levels which even experienced typists may find challenging.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tuxtype
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: tuxtype_tuxtype.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

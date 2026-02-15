@@ -1,0 +1,99 @@
+id: ptyxis
+name: Ptyxis
+description: Container-oriented terminal
+longDescription: |
+  <p>
+        Ptyxis is a terminal for GNOME that focuses on ease-of-use in a
+        world of containers.
+      </p>
+  <p>Features:</p>
+  <ul>
+    <li>Remembers current container when opening a new tab with support for podman, toolbox, distrobox, and more</li>
+    <li>Configurable keyboard shortcuts</li>
+    <li>Modern interface which integrates the palette with the window styling</li>
+    <li>User-installable color palettes</li>
+    <li>Support for preferences profiles with container integration</li>
+    <li>Integrated color palettes with light and dark support</li>
+    <li>Tabbed interface with tab overviews</li>
+    <li>Efficient foreground process tracking denoting sudo and SSH</li>
+    <li>Support for transparent terminal backgrounds</li>
+    <li>Separate process mode for terminal-based applications</li>
+    <li>Support for pinned tabs and saved sessions</li>
+    <li>Terminal tabs are run within separate cgroups</li>
+    <li>Terminal inspector to help when writing terminal-based applications</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - ptyxis
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - terminal
+  - prompt
+  - ptyxis
+  - shell
+  - command
+  - commandline
+  - cmd
+  - cli
+  - console
+  - container
+screenshotSources:
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-1_624x488@1.png
+    width: 1572
+    height: 1230
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-2_orig.png
+    thumbnailUrl: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-2_624x443@1.png
+    width: 1606
+    height: 1142
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-3_orig.png
+    thumbnailUrl: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-3_624x852@1.png
+    width: 1524
+    height: 2082
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-4_orig.png
+    thumbnailUrl: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-4_624x488@1.png
+    width: 1572
+    height: 1230
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-5_orig.png
+    thumbnailUrl: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-5_624x443@1.png
+    width: 1606
+    height: 1142
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-6_orig.png
+    thumbnailUrl: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-6_624x498@1.png
+    width: 1560
+    height: 1246
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-7_orig.png
+    thumbnailUrl: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-7_624x813@1.png
+    width: 1524
+    height: 1988
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-8_orig.png
+    thumbnailUrl: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-8_624x774@1.png
+    width: 1524
+    height: 1892
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-9_orig.png
+    thumbnailUrl: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-9_624x775@1.png
+    width: 1524
+    height: 1894
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-10_orig.png
+    thumbnailUrl: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-10_624x488@1.png
+    width: 1572
+    height: 1230
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-11_orig.png
+    thumbnailUrl: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/screenshots/image-11_624x488@1.png
+    width: 1572
+    height: 1230
+iconSources:
+  - url: org/gnome/Ptyxis/ebf7c460114f85907261414721ad915b/icons/128x128/ptyxis_org.gnome.Ptyxis.png
+    width: 128
+    height: 128
+homepage: "https://gitlab.gnome.org/chergert/ptyxis"
+enabled: true
+order: 99

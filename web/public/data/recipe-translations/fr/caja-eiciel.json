@@ -1,0 +1,5 @@
+{
+  "name": "MATE Eiciel",
+  "description": "Outil de gestion des entrées ACL",
+  "longDescription": "<p>MATE Eiciel est un outil autonome ainsi qu’un module pour Caja permettant de modifier graphiquement les listes de contrôle d'accès (ACL) de vos fichiers. Les ACL offrent des permissions bien plus précises que les permissions Unix traditionnelles utilisateur, groupe, autres (UGO). Il est basé sur Eiciel de Roger Ferrer.</p>\n<p>MATE Eiciel permet également de gérer les attributs étendus des fichiers et des dossiers, lorsque le système de fichiers le prend en charge.</p>\n<p>Tous les systèmes de fichiers ne prennent pas en charge les ACL et les attributs étendus. Même lorsque c’est le cas, ils doivent être activés par l’administrateur système avant d'utiliser MATE Eiciel.</p>\n"
+}

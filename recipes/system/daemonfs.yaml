@@ -1,0 +1,25 @@
+id: daemonfs
+name: DaemonFS
+description: Real time monitoring software
+longDescription: |
+  <p>DaemonFS is a simple and good looking application that can monitor your files and folders in real time. This tool lets you track modifications to your files. Every time a file gets modified, a notification launched from the tray icon appears. This software may be used for reverse engineering, hard disk usage tracking, software analysis and more.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - daemonfs
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+iconSources:
+  - cached: daemonfs_daemonfs.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

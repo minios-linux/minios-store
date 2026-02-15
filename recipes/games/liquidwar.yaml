@@ -1,0 +1,38 @@
+id: liquidwar
+name: Liquid War
+description: A unique multiplayer wargame
+longDescription: |
+  <p>Liquid War is an original multiplayer wargame. There are no weapons, the only thing you have to do is to move a cursor in a 2-D battlefield. This cursor is followed by your army, which is composed by a  great many little fighters, represented by small colored squares. When fighters from different teams meet, they eat each other, it is as simple as that.</p>
+  <p>A single player mode is available, but the game is definitely designed to be multiplayer, and has network support.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - liquidwar
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: liquidwar_liquidwar.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

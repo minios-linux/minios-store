@@ -1,0 +1,25 @@
+id: jerry
+name: Jerry - Chess GUI
+description: Chess Program
+longDescription: |
+  <p>A simple and efficient chess GUI (graphical user interface) offering the following features:  * based around world&apos;s best chess program Stockfish (as of Jan, 2014)  * play against the computer  * adjust strength levels to match your skill  * enter, edit and analyse games  * automatic game analysis  * read and save games in standard pgn format  * copy and paste FEN positions and pgn games from clipboard  * cross-platform: native look on Linux, OS X, and Windows  * easy and intuitive GUI</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jerry
+distributions:
+  include:
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+iconSources:
+  - cached: jerry_jerry.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

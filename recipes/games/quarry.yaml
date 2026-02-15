@@ -1,0 +1,33 @@
+id: quarry
+name: Quarry
+description: "A multi-purpose board game GUI for Go, Amazons and Reversi"
+longDescription: |
+  <p>Quarry is a multi-purpose GUI for several board games, at present Go, Amazons and Reversi (a.k.a. Othello.) It allows users to play against computer players (third-party programs, e.g. GNU Go or GRhino) or other humans, view and edit game records.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - quarry
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: quarry_quarry.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

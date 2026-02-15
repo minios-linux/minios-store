@@ -1,0 +1,5 @@
+{
+  "name": "UDAV",
+  "description": "Ferramenta para manipulação e plotagem de dados",
+  "longDescription": "<p>Uma biblioteca gratuita e multiplataforma de rotinas C++ rápidas para plotar dados em até 3 dimensões. Permite exportar gráficos para bitmaps e arquivos vetoriais EPS, SVG e IDTF. Oferece interfaces gráficas simples baseadas em GLUT, FLTK e/ou Qt. O MathGL também pode ser usado em modo console. Há interfaces disponíveis para diversas linguagens, como C, Fortran, Pascal, Forth, Python e Octave.</p>\n<p>Este pacote contém o ambiente gráfico udav baseado no MathGL.</p>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "js8call",
+  "description": "Amateurfunk-Betrieb bei schwachen Signalen",
+  "longDescription": "<p>JS8Call verwendet den JS8-Digitalmodus, um Amateurfunkbetreibern eine Tastatur-zu-Tastatur-Kommunikation auch bei schwachen Signalen zu ermöglichen.</p>\n<p>JS8Call ist ein Experiment, das die Umsetzbarkeit eines Digitalmodus mit der Robustheit von FT8 testet – ergänzt um eine Nachrichten- und Netzwerkprotokollschicht für schwache HF-Signale, basierend auf einer textbasierten Bedienoberfläche. Es ist nicht für einen speziellen Einsatzzweck entwickelt, sondern soll Funkamateure verbinden, die unter schwierigen Ausbreitungsbedingungen arbeiten. JS8Call ist stark von WSJT-X, Fldigi und FSQCall inspiriert und verdankt seine Existenz dem Engagement vieler Entwickler in der Amateurfunk-Community.</p>\n"
+}

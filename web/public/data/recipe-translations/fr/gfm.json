@@ -1,0 +1,5 @@
+{
+  "name": "Gestionnaire de fichiers de groupe",
+  "description": "Programme de gestion de fichiers pour calculatrices Texas Instruments",
+  "longDescription": "<p>GFM est une application permettant de manipuler des fichiers simples, groupés ou tigroup provenant de calculatrices Texas Instruments. Elle permet de créer de nouveaux fichiers, d’ouvrir des fichiers existants, d’enregistrer des fichiers, de renommer ou supprimer des variables, de créer des dossiers, de regrouper des fichiers dans un fichier groupé/tigroup ou de dissocier un fichier groupé/tigroup en fichiers individuels.</p>\n<p>GFM est conçu pour être utilisé avec TILP II, qui peut envoyer et recevoir des fichiers vers et depuis les calculatrices.</p>\n"
+}

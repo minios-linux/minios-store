@@ -1,0 +1,5 @@
+{
+  "name": "KAddressBook",
+  "description": "Gerenciador de contatos",
+  "longDescription": "<p>O KAddressBook armazena todos os dados pessoais de seus familiares, amigos e outros contatos.</p>\n<p>Recursos:</p>\n<ul>\n  <li>Importa e exporta para praticamente todos os formatos de agenda de endereços</li>\n  <li>Lê arquivos no formato .vcf e pode importar e exportar vCards e arquivos CSV</li>\n  <li>Suporte a múltiplos servidores LDAP</li>\n  <li>Filtros configuráveis e busca avançada</li>\n  <li>Integração com outros componentes do Kontact, como exportação de lembretes de aniversário para o KOrganizer</li>\n  <li>Compatível com integração em soluções de groupware</li>\n  <li>Baseado em Akonadi</li>\n</ul>\n"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Startup Disk Creator",
+  "description": "Créez un disque de démarrage à partir d’un CD ou d’une image disque",
+  "longDescription": "<p>Startup Disk Creator transforme une clé USB ou une carte SD en volume amorçable permettant de démarrer et d’utiliser Ubuntu. Vous pouvez également sauvegarder des fichiers et des réglages sur l’espace restant.</p>\n<p>Ce programme fonctionne également avec Debian ou tout autre système basé sur Debian pour lequel vous disposez d’un CD ou d’une image .iso.</p>\n<p>Ce paquet contient l’interface cliente GTK+.</p>\n"
+}

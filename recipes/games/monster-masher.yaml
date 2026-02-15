@@ -1,0 +1,29 @@
+id: monster-masher
+name: Monster Masher
+description: Mash monsters and save the gnomes
+longDescription: |
+  <p>Monster Masher is a GPL&apos;ed mash&apos;em-up action game for GNOME. Each level contains a number of blocks and monsters. You&apos;re a little gnome running around. By pushing the blocks you can mash the monsters one at a time. There are various power-ups and different kinds of monsters.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - monster-masher
+distributions:
+  include:
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+iconSources:
+  - cached: monster-masher_monster-masher.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

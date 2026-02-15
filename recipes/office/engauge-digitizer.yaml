@@ -1,0 +1,76 @@
+id: "engauge-digitizer"
+name: Engauge Digitizer
+description: interactively convert a bitmap graph or map into numbers
+longDescription: |
+  <p>The Engauge Digitizer tool assists in interactively extracting numbers
+  			from images of graphs. Conceptually, it is thus the opposite of a
+  			graphing tool that converts data points to graphs. It provides assistance
+  			in enhancing the image quality and matching the data points. Engauge
+  			Digitizer is used by individuals such as grad students and researchers as
+  			well as engineers and employees in large government and commercial
+  			organizations for processing single files but also managing databases of
+  			thousands of image files.</p>
+  <p>Features of Engauge Digitizer include:</p>
+  <ul>
+    <li>Automatic grid line removal</li>
+    <li>Automatic point and axis matching</li>
+    <li>Automatic curve tracing</li>
+    <li>Image processing for separating important details from background information</li>
+    <li>A wizard providing an interactive tutorial to explain the basic steps</li>
+    <li>Multiple coordinate systems in the same image can be digitized in advanced mode</li>
+    <li>Cubic spline interpolation between points gives more accurate curves with fewer points</li>
+    <li>Handling of cartesian, polar, linear and logarithmic graphs</li>
+    <li>Support for drag-and-drop and copy-and-paste</li>
+    <li>Context-sensitive help, user manual and tutorials explaining every feature</li>
+    <li>Preview windows to give immediate feedback while modifying settings</li>
+    <li>Automated line and point extraction to rapidly digitize data</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - engauge-digitizer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - analog-digital converter
+screenshotSources:
+  - url: e/en/engauge-digitizer.desktop/455440e12db515f8098d333244ff6be8/screenshots/image-1_orig.png
+    thumbnailUrl: e/en/engauge-digitizer.desktop/455440e12db515f8098d333244ff6be8/screenshots/image-1_624x473.png
+    width: 736
+    height: 558
+  - url: e/en/engauge-digitizer.desktop/455440e12db515f8098d333244ff6be8/screenshots/image-2_orig.png
+    thumbnailUrl: e/en/engauge-digitizer.desktop/455440e12db515f8098d333244ff6be8/screenshots/image-2_624x467.png
+    width: 742
+    height: 556
+  - url: e/en/engauge-digitizer.desktop/455440e12db515f8098d333244ff6be8/screenshots/image-3_orig.png
+    thumbnailUrl: e/en/engauge-digitizer.desktop/455440e12db515f8098d333244ff6be8/screenshots/image-3_624x467.png
+    width: 742
+    height: 556
+iconSources:
+  - url: e/en/engauge-digitizer.desktop/455440e12db515f8098d333244ff6be8/icons/128x128/engauge-digitizer_engauge-digitizer.png
+    width: 128
+    height: 128
+developer: Mark Mitchell
+homepage: "http://markummitchell.github.io/engauge-digitizer/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "trezorctl",
+  "description": "Utilitário para interagir com a carteira de hardware Bitcoin TREZOR",
+  "longDescription": "<p>Não importa o quão desprotegido esteja seu computador ou conexão à internet,\n    suas moedas permanecem seguras com a TREZOR, pois ela nunca expõe suas chaves privadas.\n    TREZOR oferece um ambiente isolado para assinatura offline de transações e,\n    por meio de um pequeno visor, você pode verificar visualmente o conteúdo das transações.\n    Por isso, todas as operações com a TREZOR são totalmente seguras.</p>\n<p>Para utilizar a TREZOR, também é necessário instalar uma interface de carteira,\n    como o Electrum.</p>\n"
+}

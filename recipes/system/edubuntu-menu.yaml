@@ -1,0 +1,28 @@
+id: edubuntu-menu
+name: Edubuntu Menu Administration
+description: Hide or Show Icons for Non-Admin Users
+longDescription: |
+  <p>Application Folders for Edubuntu. This breaks up Edubuntu&apos;s GNOME application overview into organized folders based on education subject for ease of learning in a classroom setting. Contains utilities for resetting to defaults and hiding icons from non-admin users.</p>
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - edubuntu-menu
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+tags:
+  - edubuntu
+  - application
+  - overview
+  - grid
+  - icons
+iconSources:
+  - url: e/ed/edubuntu-menu-admin.desktop/8e54d31416ad997773157d67c21acefa/icons/128x128/edubuntu-menu_edubuntu-menu-admin.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

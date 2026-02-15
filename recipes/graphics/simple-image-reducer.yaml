@@ -1,0 +1,37 @@
+id: "simple-image-reducer"
+name: Simple Image Reducer
+description: Reduce and rotate images in three-four clicks.
+longDescription: |
+  <p>Simple Image Reducer is an GTK application to easily reduce and rotate images. It can be useful for processing digital photos before sending by email or uploading on the Web. Image files can be supplied to the application from the file manager using the context menu &quot;Open with...&quot;, or dragging files to the main window.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - simple-image-reducer
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - url: s/si/simple-image-reducer.desktop/f273bf6aa23357d72177e215896883d9/icons/128x128/simple-image-reducer_simple-image-reducer.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

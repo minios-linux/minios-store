@@ -1,0 +1,5 @@
+{
+  "name": "Korn Shell (ksh2020)",
+  "description": "Korn Shell",
+  "longDescription": "<p>Ksh adalah interpreter perintah UNIX (shell) yang digunakan baik secara interaktif maupun untuk menjalankan skrip shell. Bahasa perintahnya merupakan superset dari bahasa shell sh(1).</p>\n<p>Versi 1993 menambahkan sejumlah fitur baru, terutama terkait scripting, dibandingkan versi 1988 yang umumnya didistribusikan dengan varian UNIX komersial. Contohnya, ksh mendukung lexical scoping, variabel majemuk, array asosiatif, referensi bernama, dan operasi matematika floating point.</p>\n<p>Alat shcomp dapat digunakan untuk mengompilasi skrip ksh menjadi format biner.</p>\n"
+}

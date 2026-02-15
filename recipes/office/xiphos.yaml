@@ -1,0 +1,77 @@
+id: "xiphos"
+name: Xiphos
+description: Bible Study Guide
+longDescription: |
+  <p>Xiphos is a program for high-grade Bible study using the modules and
+     underlying engine support of The Sword Project.</p>
+  <ul>
+    <li>Fully integrated, tabbed interface with Bible+commentary+dictionary</li>
+    <li>User content support: hierarchical bookmarks, personal verse annotations, journals, prayer lists</li>
+    <li>Sword modules provide the widest language coverage of any Bible software anywhere: 400+ Bibles in 150+ languages,
+  with major support for original languages (a dozen each in Hebrew and Greek) plus major support in e.g. English, Russian, German, Portuguese, and French</li>
+    <li>Interface translated into 26 languages</li>
+    <li>Power search capability; footnotes and xrefs; detached windows; text-to-speech support</li>
+    <li>Strong&apos;s and morphology support, including pseudo-interlinear display</li>
+    <li>BibleSync shared multicast navigation in personal or speaker/audience modes</li>
+    <li>Supports Linux and Windows including active support in IRC and mailing lists</li>
+  </ul>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - xiphos
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - text
+  - bible
+  - study
+screenshotSources:
+  - url: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-1_orig.png
+    thumbnailUrl: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-1_624x366@1.png
+    width: 640
+    height: 376
+  - url: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-2_orig.png
+    thumbnailUrl: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-2_624x471@1.png
+    width: 634
+    height: 479
+  - url: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-3_orig.png
+    thumbnailUrl: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-3_224x108@1.png
+    width: 640
+    height: 310
+  - url: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-4_orig.png
+    thumbnailUrl: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-4_624x392@1.png
+    width: 640
+    height: 403
+  - url: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-5_orig.png
+    thumbnailUrl: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-5_224x318@1.png
+    width: 260
+    height: 370
+  - url: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-6_orig.png
+    thumbnailUrl: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/screenshots/image-6_224x230@1.png
+    width: 388
+    height: 399
+iconSources:
+  - url: x/xi/xiphos.desktop/af862c011b05ec5f7b1402516f895a6d/icons/128x128/xiphos_xiphos.png
+    width: 128
+    height: 128
+homepage: "https://github.com/crosswire/xiphos/"
+enabled: true
+order: 99

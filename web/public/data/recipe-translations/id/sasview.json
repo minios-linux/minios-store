@@ -1,0 +1,5 @@
+{
+  "name": "SasView",
+  "description": "Analisis Hamburan Sudut Kecil",
+  "longDescription": "<p>SasView adalah paket perangkat lunak untuk analisis Hamburan Sudut Kecil (SAS), yang awalnya dikembangkan sebagai bagian dari proyek NSF DANSE dengan nama SansView, dan kini dikelola oleh kolaborasi internasional antar fasilitas.</p>\n<p>SasView digunakan untuk menganalisis data Small-Angle Scattering (SAS).</p>\n<p>Perangkat lunak ini melakukan fitting fungsi analitik yang menggambarkan berbagai jenis struktur mikro material ke data eksperimen, guna menentukan bentuk, ukuran, dan tingkat keteraturan material.</p>\n<p>SasView juga dilengkapi dengan alat untuk menghitung densitas panjang hamburan, ukuran slit, resolusi, ketebalan fringe/d-spasi, invarian (Porod) ('total scattering'), serta fungsi distribusi jarak.</p>\n<p>Paket ini akan menginstal skrip eksekusi sasview.</p>\n"
+}

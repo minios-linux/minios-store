@@ -1,0 +1,5 @@
+{
+  "name": "Ubuntu Studio Meta Installer",
+  "description": "Instalador de metapaquetes de Ubuntu Studio",
+  "longDescription": "<p>Permite seleccionar e instalar paquetes desde una lista proporcionada en la línea de comandos. El archivo .desktop debe definir la lista de paquetes disponibles. Es posible tener más de un archivo .desktop para que cada categoría del menú ofrezca software adicional instalable.</p>\n"
+}

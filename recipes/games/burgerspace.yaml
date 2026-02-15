@@ -1,0 +1,23 @@
+id: burgerspace
+name: BurgerSpace
+description: A hamburger-smashing video game
+longDescription: |
+  <p>This is a clone of the classic game &quot;BurgerTime&quot;. In it, you play the part of a chef who must create burgers by stepping repeatedly on the ingredients until they fall into place. And to make things more complicated, you also must avoid evil animate food items while performing this task, with nothing but your trusty pepper shaker to protect you.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - burgerspace
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: burgerspace_burgerspace.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,54 @@
+id: "merkuro"
+name: Merkuro
+description: "Manage your tasks, events and contacts with speed and ease"
+longDescription: |
+  <p>Merkuro is a calendar and contact application that allows you to manage your tasks, events and contacts. Merkuro supports both local calendars as well as a multitude of online calendars: Nextcloud, Google® Calendar, Outlook®, Caldav, and many more.</p>
+  <p>Merkuro was built with the idea to be usable on desktop, on mobile and everything in between.</p>
+  
+categoryId: office
+icon: FileText
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - merkuro
+distributions:
+  include:
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - kalendar, merkuro, events
+screenshotSources:
+  - url: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-1_624x416@1.png
+    width: 1560
+    height: 1041
+  - url: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-2_orig.png
+    thumbnailUrl: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-2_624x416@1.png
+    width: 1560
+    height: 1041
+  - url: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-3_orig.png
+    thumbnailUrl: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-3_624x416@1.png
+    width: 1560
+    height: 1041
+  - url: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-4_orig.png
+    thumbnailUrl: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-4_624x428@1.png
+    width: 1279
+    height: 879
+  - url: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-5_orig.png
+    thumbnailUrl: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-5_624x384@1.png
+    width: 1442
+    height: 889
+  - url: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-6_orig.png
+    thumbnailUrl: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/screenshots/image-6_224x411@1.png
+    width: 360
+    height: 661
+iconSources:
+  - url: org/kde/merkuro/5f5c3a20179948dc4e790b4c0ca61854/icons/128x128/merkuro_org.kde.merkuro.calendar.png
+    width: 128
+    height: 128
+homepage: "https://apps.kde.org/merkuro/"
+enabled: true
+order: 99

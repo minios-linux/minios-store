@@ -1,0 +1,54 @@
+id: jumpnbump
+name: Jump 'n Bump
+description: Cute multiplayer platform game with exploding fluffy bunnies
+longDescription: |
+  <p>
+        Jump 'n Bump is an arcade multiplayer game for the whole family.
+        You play cute fluffy little bunnies and hop on each other's heads.
+      </p>
+  <p>
+        At the beginning you are in the menu, where you have to let each active player
+        jump over the tree trunk to enter the play area, and then walk to the right.
+        You will then enter the arena. The aim is to jump on the other bunnies' heads...
+      </p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - jumpnbump
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - cute
+  - game
+  - bunnies
+  - rabbits
+  - jump
+  - head
+  - explode
+  - gore
+screenshotSources:
+  - url: j/ju/jumpnbump.desktop/a142abc692b89fedbd0316351f36a40a/screenshots/image-1_orig.png
+    thumbnailUrl: j/ju/jumpnbump.desktop/a142abc692b89fedbd0316351f36a40a/screenshots/image-1_624x399.png
+    width: 800
+    height: 512
+iconSources:
+  - cached: jumpnbump_jumpnbump.png
+    width: 64
+    height: 64
+homepage: "https://gitlab.com/LibreGames/jumpnbump"
+enabled: true
+order: 99

@@ -1,0 +1,54 @@
+id: "horizon-eda"
+name: Horizon EDA application
+description: Create schematics and PCBs
+longDescription: |
+  <p>Horizon is an Electronic Design Automation (EDA) tool for circuit board design. It manages the full design flow from schematic entry to gerber export. The main differentiator from KiCAD is a different (more sane) part library design. It is quite new software in 2018 so may have rough edges but is already very capable.</p>
+  <p>Notable features: * Sane library management * Unified editor for everything from symbol to board * Netlist-aware schematic editor * KiCad&apos;s awesome interactive router * Lag- and glitch-free rendering * Rule-based DRC * Undo/redo * Copy/paste for some objects * Builds and runs on Linux and Windows</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - horizon-eda
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/horizon_eda/HorizonEDA/b958de5376095e65d07348e8f7b91b4c/screenshots/image-1_orig.png
+    thumbnailUrl: org/horizon_eda/HorizonEDA/b958de5376095e65d07348e8f7b91b4c/screenshots/image-1_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/horizon_eda/HorizonEDA/b958de5376095e65d07348e8f7b91b4c/screenshots/image-2_orig.png
+    thumbnailUrl: org/horizon_eda/HorizonEDA/b958de5376095e65d07348e8f7b91b4c/screenshots/image-2_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/horizon_eda/HorizonEDA/b958de5376095e65d07348e8f7b91b4c/screenshots/image-3_orig.png
+    thumbnailUrl: org/horizon_eda/HorizonEDA/b958de5376095e65d07348e8f7b91b4c/screenshots/image-3_624x351@1.png
+    width: 1600
+    height: 900
+  - url: org/horizon_eda/HorizonEDA/b958de5376095e65d07348e8f7b91b4c/screenshots/image-4_orig.png
+    thumbnailUrl: org/horizon_eda/HorizonEDA/b958de5376095e65d07348e8f7b91b4c/screenshots/image-4_624x351@1.png
+    width: 1600
+    height: 900
+iconSources:
+  - url: org/horizon_eda/HorizonEDA/b958de5376095e65d07348e8f7b91b4c/icons/128x128/horizon-eda_org.horizon_eda.HorizonEDA.png
+    width: 128
+    height: 128
+homepage: "https://horizon-eda.org/"
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "QmidiCtl",
+  "description": "Aplikasi Remote MIDI melalui Multicast UDP/IP",
+  "longDescription": "<p>QmidiCtl adalah aplikasi remote controller MIDI yang mengirim data MIDI melalui jaringan menggunakan multicast UDP/IP. Terinspirasi oleh multimidicast (http://llg.cubic.org/tools) dan dirancang agar kompatibel dengan ipMIDI untuk Windows (http://nerds.de).</p>\n"
+}

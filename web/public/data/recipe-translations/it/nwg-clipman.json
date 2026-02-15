@@ -1,0 +1,5 @@
+{
+  "name": "Gestore degli appunti",
+  "description": "Strumento per la ricerca e gestione della cronologia degli appunti",
+  "longDescription": "<p>nwg-clipman è un'interfaccia grafica GTK3 per cliphist di Senan Kelly. Consente di accedere agli elementi copiati in precedenza e di gestire la cronologia degli appunti tramite una finestra su gtk-layer-shell. Il programma è pensato per l'utilizzo con sway, Hyprland e altri compositor Wayland basati su wlroots.</p>\n<p>Funzionalità  - anteprima degli elementi della cronologia (immagini e testo);  - ricerca nella cronologia degli appunti tramite testo;  - eliminazione di elementi selezionati dalla cronologia;  - cancellazione completa della cronologia degli appunti.</p>\n<p>Questo programma fa parte del progetto nwg-shell.</p>\n"
+}

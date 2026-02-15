@@ -1,0 +1,5 @@
+{
+  "name": "gworldclock",
+  "description": "Zeigt die Uhrzeit in anderen Zeitzonen an",
+  "longDescription": "<p>Dieses Programm zeigt Uhrzeit und Datum ausgewählter Zeitzonen in einer GTK+-Oberfläche an. Es bietet zudem eine „Rendezvous“-Funktion, mit der die Zeitzonen auf eine beliebige (auch zukünftige) Zeit synchronisiert werden können. Das erleichtert die Organisation von Meetings über verschiedene Zeitzonen hinweg.</p>\n<p>Die Zeitzonen können manuell im TZ-Format eingegeben oder aus einer Liste ausgewählt werden, die aus /usr/share/zoneinfo/zone.tab generiert wird. Die Zonenliste ist dabei kompatibel zum Shell-Skript tzwatch.</p>\n"
+}

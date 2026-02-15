@@ -1,0 +1,5 @@
+{
+  "name": "Ikarus Scheme",
+  "description": "Ikarus-Implementierung der Programmiersprache Scheme",
+  "longDescription": "<p>Ikarus ist eine compilerbasierte Implementierung der Programmiersprache Scheme, die auf die i386/amd64-Architektur (mit SSE2) abzielt. Sie bietet eine gute Performance, ist sehr schlank, unterscheidet Groß- und Kleinschreibung und implementiert einen großen Teil des Sprachumfangs gemäß R6RS.</p>\n"
+}

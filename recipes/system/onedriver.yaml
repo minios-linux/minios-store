@@ -1,0 +1,23 @@
+id: onedriver
+name: Onedriver
+description: Mount a Microsoft OneDrive account as a Linux filesystem.
+longDescription: |
+  <p>This is a native Linux filesystem for Microsoft Onedrive Onedriver is a native Linux filesystem for Microsoft Onedrive. Files and metadata are downloaded on-demand instead of requiring you to sync your entire account to disk.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - onedriver
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: onedriver_onedriver.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

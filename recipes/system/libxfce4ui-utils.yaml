@@ -1,0 +1,27 @@
+id: libxfce4ui-utils
+name: About Xfce
+description: Information about the Xfce Desktop Environment
+longDescription: |
+  <p>This package contains the Xfce settings plugin and the utility files for libxfce4ui-1-0 which are:   - xfce4-about</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - libxfce4ui-utils
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+iconSources:
+  - url: x/xf/xfce4-about.desktop/18543EE939468D17DFA702372F58D263/icons/128x128/libxfce4ui-utils_help-about.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

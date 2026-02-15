@@ -1,0 +1,5 @@
+{
+  "name": "megan",
+  "description": "Eksplorasi interaktif dan analisis data sekuensing mikrobioma berskala besar",
+  "longDescription": "<p>\n      Megan-ce adalah alat shotgun sequencer untuk menganalisis sampel mikrobioma. Aplikasi ini merupakan penulisan ulang dan pengembangan dari alat analisis mikrobioma MEGAN yang telah banyak digunakan, sehingga memudahkan analisis interaktif terhadap konten taksonomi dan fungsional dari dataset mikrobioma berukuran sangat besar. Fitur baru lainnya termasuk pengklasifikasi fungsional InterPro2GO, perakitan pembacaan berbasis gen, analisis koordinat utama (principal coordinate analysis) untuk taksonomi dan fungsi, serta dukungan metadata.\n    </p>\n<p>\n      Dengan mengintegrasikan MEGAN CE dengan alat penjajaran DNA-ke-protein berkecepatan tinggi DIAMOND, tersedia pipeline yang kuat dan lengkap untuk analisis sekuens shotgun metagenom.\n    </p>\n"
+}

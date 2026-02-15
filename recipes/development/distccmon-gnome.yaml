@@ -1,0 +1,38 @@
+id: "distccmon-gnome"
+name: distcc monitor
+description: Graphical view of distributed compile tasks
+longDescription: |
+  <p>distcc is a program to distribute compilation of C or C++ code across several machines on a network. distcc should always generate the same results as a local compile, is simple to install and use, and is often significantly faster than a local compile. distcc does not require all machines to share a filesystem, have synchronized clocks, or to have the same libraries or header files installed.</p>
+  <p>this is the GTK+ monitor program.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - distccmon-gnome
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+iconSources:
+  - cached: distccmon-gnome_distccmon-gnome.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

@@ -1,0 +1,48 @@
+id: "khelpcenter"
+name: KHelpCenter
+description: Help Center
+longDescription: |
+  <p>Documentation viewer</p>
+  <p>Features:</p>
+  <ul>
+    <li>Show documentation from various sources (applications from KDE community, man pages, etc)</li>
+    <li>Search through the available documentation</li>
+  </ul>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - khelpcenter
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: org/kde/khelpcenter/9ee6022a91cbdd65d19579ff8ede36c4/screenshots/image-1_orig.png
+    thumbnailUrl: org/kde/khelpcenter/9ee6022a91cbdd65d19579ff8ede36c4/screenshots/image-1_624x366@1.png
+    width: 2026
+    height: 1189
+iconSources:
+  - url: org/kde/khelpcenter/9ee6022a91cbdd65d19579ff8ede36c4/icons/128x128/khelpcenter_help-browser.png
+    width: 128
+    height: 128
+homepage: "http://kde.org/applications/utilities/khelpcenter/"
+enabled: true
+order: 99

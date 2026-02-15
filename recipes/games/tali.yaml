@@ -1,0 +1,47 @@
+id: "tali"
+name: Tali
+description: Roll dice and score points
+longDescription: |
+  <p>A variation on poker with dice and less money, this game is a family classic. Throw the dice three times in a row, holding back the ones you like, in order to make the best possible hand. You can also play a lesser-known variant with colored dice.</p>
+  <p>Play between one and five opponents at three difficulty levels.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - tali
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - yahtzee
+screenshotSources:
+  - url: org/gnome/Tali/96760a26efb07a7d98fb0279b0407a6b/screenshots/image-1_orig.png
+    thumbnailUrl: org/gnome/Tali/96760a26efb07a7d98fb0279b0407a6b/screenshots/image-1_624x447@1.png
+    width: 800
+    height: 574
+iconSources:
+  - url: org/gnome/Tali/96760a26efb07a7d98fb0279b0407a6b/icons/128x128/tali_org.gnome.Tali.png
+    width: 128
+    height: 128
+developer: The GNOME Project
+homepage: "https://wiki.gnome.org/Apps/Tali"
+enabled: true
+order: 99

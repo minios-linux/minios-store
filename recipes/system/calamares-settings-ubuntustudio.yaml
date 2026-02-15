@@ -1,0 +1,29 @@
+id: "calamares-settings-ubuntustudio"
+name: Install Ubuntu Studio 22.04 LTS
+description: Calamares — System Installer
+longDescription: |
+  <p>This package contains the Calamares settings and branding for Ubuntu Studio. As part of the branding the installer slideshow is contained within. The settings ensure a proper Ubuntu Studio desktop is installed with the KDE Plasma desktop environment.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - calamares-settings-ubuntustudio
+distributions:
+  include:
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+tags:
+  - installer
+  - calamares
+  - system
+iconSources:
+  - url: u/ub/ubuntustudio-calamares.desktop/3931172bbc53169f0fb67caedcda62b4/icons/128x128/calamares-settings-ubuntustudio_calamares.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

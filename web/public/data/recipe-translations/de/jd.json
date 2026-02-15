@@ -1,0 +1,5 @@
+{
+  "name": "JD 2ch browser",
+  "description": "JD ist ein 2ch-Browser basierend auf gtkmm2.",
+  "longDescription": "<p>JD bietet eine komfortable Nutzung von 2ch-ähnlichen Bulletin-Board-Systemen (Foren). Zu den Funktionen gehören:</p>\n<p> - automatisches Login,  - Nachrichten anzeigen und verfassen,  - Bildanzeige,  - Mausgesten,  - Ignorierlisten,  - „Play-by-Play“-Modus.</p>\n<p>Zusätzlich kann die Last auf Servern deutlich reduziert werden, indem CGI-Programme umgangen und Thread-Daten direkt auf die lokale Festplatte geladen werden.</p>\n<p>„2ch-Style“-Webforen haben ihren Ursprung in 2channel, einem sehr populären Internetforum in Japan. Solche Seiten sind oft ausschließlich auf Japanisch verfügbar. Beispiele:</p>\n<p> - 2channel http://www.2ch.net  - Shitaraba http://rentalbbs.shitaraba.com/  - Machi-BBS http://www.machi.to/</p>\n"
+}

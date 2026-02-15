@@ -1,0 +1,5 @@
+{
+  "name": "Ettercap",
+  "description": "Sniffer/analyzer/intercettore/logger di rete multifunzione",
+  "longDescription": "<p>Ettercap supporta la dissezione attiva e passiva di molti protocolli (inclusi quelli cifrati) e offre numerose funzionalità per l’analisi della rete e degli host. È possibile anche iniettare dati in una connessione già stabilita e filtrare (sostituire o eliminare pacchetti) in tempo reale, mantenendo la connessione sincronizzata.</p><p>Sono disponibili molte modalità di sniffing, rendendo Ettercap una suite potente e completa. È possibile sniffare in quattro modalità: IP Based, MAC Based, ARP Based (full-duplex) e PublicARP Based (half-duplex). Ettercap è in grado inoltre di rilevare una LAN commutata e utilizzare l'analisi delle impronte OS (attiva o passiva) per individuare la topologia della rete.</p>"
+}

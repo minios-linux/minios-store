@@ -1,0 +1,5 @@
+{
+  "name": "Devhelp",
+  "description": "Ein Entwickler-Werkzeug zum Durchsuchen und Durchstöbern von API-Dokumentationen",
+  "longDescription": "<p>Devhelp ist ein Entwickler-Werkzeug zum Durchsuchen und Durchstöbern von API-Dokumentationen.\n      Es bietet eine einfache Möglichkeit, durch Bibliotheken zu navigieren und nach\n      Funktionen, Strukturen oder Makros zu suchen.</p>\n<p>Die Dokumentation muss lokal installiert sein, sodass für die Nutzung von\n      Devhelp keine Internetverbindung erforderlich ist.</p>\n<p>Devhelp arbeitet nativ mit GTK-Doc zusammen, weshalb GTK+- und GNOME-Bibliotheken\n      bestens unterstützt werden. Andere Entwicklungsplattformen können jedoch ebenfalls\n      unterstützt werden, sofern die API-Dokumentation in HTML vorliegt und eine\n      *.devhelp2-Indexdatei erstellt wurde.</p>\n<p>Devhelp lässt sich in andere Anwendungen wie Glade, Builder oder\n      Anjuta integrieren. Zudem sind Plugins für verschiedene Texteditoren (gedit, Vim,\n      Emacs, Geany, …) verfügbar.</p>\n"
+}

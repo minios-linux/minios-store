@@ -1,0 +1,35 @@
+id: adanaxisgpl
+name: Adanaxis
+description: Fly your ship in a 4d environment
+longDescription: |
+  <p>Adanaxis is a fast-moving first person shooter set in deep space, where the fundamentals of space itself are changed.  By adding another dimension to space this game provides an environment with movement in four directions and six planes of rotation.  Initially the game explains the 4D control system via a graphical sequence, before moving on to 30 levels of gameplay with numerous enemy, ally, weapon and mission types.  Features include simulated 4D texturing, mouse and joystick control, and original music. Screenshots, movies and further information are available at http://www.mushware.com/.</p>
+  <p>Hardware-accelerated 3D is recommended, ideally with support for OpenGL Shading Language.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - adanaxisgpl
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+tags:
+  - ship
+  - space
+  - 4d
+  - shooter
+  - mouse
+  - joystick
+  - rotation
+  - axis
+iconSources:
+  - cached: adanaxisgpl_adanaxisgpl-48.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "Ubuntu Studio Menu Item Creator",
+  "description": "Agrega o modifica elementos del menú para el usuario actual",
+  "longDescription": "<p>Utilidad para crear un elemento en el menú XDG de un usuario. Permite agregar un script u otra aplicación al menú XDG y también modificar un elemento existente creando una nueva versión solo para el usuario. Esta herramienta no modifica ningún archivo del menú del sistema.</p>\n"
+}

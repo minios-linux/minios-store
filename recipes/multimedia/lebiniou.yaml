@@ -1,0 +1,145 @@
+id: "lebiniou"
+name: Le Biniou
+description: Displays images that evolve with sound
+longDescription: |
+  <p>Le Biniou works with music, voice, ambient sounds, whatever acoustic source you choose.</p>
+  <p>When you run Le Biniou it gives an evolutionary rendering of the sound you are playing.</p>
+  <p>You are given two options to run Le Biniou: You can manage entirely the sequences and choose your own series of images from the default library, your colour scales, the kind of alteration you want to apply or you can let Le Biniou&apos;s artificial intelligence run on its own.</p>
+  <p>Forget the old visualizations you are familiar with, discover a new multidimensional – spatial and chromatic – way of comprehending music and sounds for either artistic, recreational or didactic purposes.</p>
+  
+categoryId: multimedia
+icon: Video
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - lebiniou
+distributions:
+  include:
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - vjtool
+  - graphics
+  - sound
+screenshotSources:
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-1_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-1_624x350.png
+    width: 1366
+    height: 768
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-2_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-2_624x350.png
+    width: 1366
+    height: 768
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-3_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-3_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-4_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-4_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-5_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-5_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-6_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-6_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-7_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-7_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-8_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-8_624x350.png
+    width: 1366
+    height: 768
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-9_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-9_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-10_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-10_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-11_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-11_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-12_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-12_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-13_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-13_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-14_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-14_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-15_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-15_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-16_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-16_624x350.png
+    width: 1366
+    height: 768
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-17_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-17_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-18_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-18_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-19_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-19_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-20_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-20_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-21_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-21_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-22_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-22_624x350.png
+    width: 1366
+    height: 768
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-23_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-23_624x351.png
+    width: 960
+    height: 540
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-24_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-24_624x350.png
+    width: 1366
+    height: 768
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-25_orig.png
+    thumbnailUrl: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/screenshots/image-25_624x351.png
+    width: 960
+    height: 540
+iconSources:
+  - url: net/biniou/LeBiniou/a6bb9dee21c2d21c0da117005c4f4f60/icons/128x128/lebiniou_net.biniou.LeBiniou.png
+    width: 128
+    height: 128
+developer: Olivier Girondel
+homepage: "https://biniou.net"
+enabled: true
+order: 99

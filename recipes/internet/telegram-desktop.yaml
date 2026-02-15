@@ -1,0 +1,48 @@
+id: telegram-desktop
+name: Telegram Desktop
+description: Official desktop version of Telegram messaging app
+longDescription: |
+  <p>Telegram is a messaging app with a focus on speed and security, it is super-fast, simple and free. You can use Telegram on all your devices at the same time — your messages sync seamlessly across any number of your phones, tablets or computers.</p>
+  
+categoryId: internet
+icon: MessageCircle
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - telegram-desktop
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+tags:
+  - tg
+  - chat
+  - im
+  - messaging
+  - messenger
+  - sms
+  - tdesktop
+screenshotSources:
+  - url: org/telegram/desktop/a35351ebd9081488d91db65191ef1749/screenshots/image-1_orig.png
+    thumbnailUrl: org/telegram/desktop/a35351ebd9081488d91db65191ef1749/screenshots/image-1_624x431.png
+    width: 1892
+    height: 1308
+iconSources:
+  - url: t/te/telegramdesktop.desktop/7F4499CBA8B66F98B6C2D8EDFC9A98AF/icons/128x128/telegram-desktop_telegram.png
+    width: 128
+    height: 128
+developer: John Preston
+homepage: "https://desktop.telegram.org/"
+enabled: true
+order: 99

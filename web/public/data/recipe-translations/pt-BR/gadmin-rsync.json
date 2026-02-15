@@ -1,0 +1,5 @@
+{
+  "name": "GAdmin-Rsync",
+  "description": "Interface gráfica simples para o servidor rsync",
+  "longDescription": "<p>O gadmin-rsync é uma interface GTK+ fácil de usar para gerenciamento do servidor rsync.</p>\n<p>Recursos:  - Múltiplos conjuntos de backup que podem ser agendados para execução automática via cron.  - Cada conjunto pode incluir diversos backups remotos ou locais.  - Backups acionados por agendamento geram arquivos de log individuais para cada conjunto.  - Os logs de backup recebem o nome do conjunto correspondente.  - Conjuntos de backup podem ser executados manualmente, com acompanhamento do progresso em tempo real.  - Backups remotos são totalmente automáticos, diferenciais e criptografados.  - As chaves são criadas para cada host, enviadas e instaladas de forma automática nos hosts remotos utilizando ssh-keygen/scp e ssh.  - Permite programar sincronizações remotas com facilidade.</p>\n"
+}

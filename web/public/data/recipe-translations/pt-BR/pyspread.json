@@ -1,0 +1,5 @@
+{
+  "name": "pyspread",
+  "description": "Planilha baseada em Python",
+  "longDescription": "<p>O Pyspread é um aplicativo de planilha multiplataforma baseado em Python. Em vez de fórmulas tradicionais, você insere expressões Python nas células da planilha. Cada expressão retorna um objeto Python que pode ser acessado por outras células, permitindo criar desde listas até matrizes e estruturas complexas.</p>\n"
+}

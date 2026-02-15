@@ -1,0 +1,23 @@
+id: magicor
+name: Magicor
+description: Puzzle game in the spirit of solomon's key
+longDescription: |
+  <p>Magicor is a small puzzle game similar to the old NES classic solomon&apos;s key. You control tux the penguin and create ice blocks to extinguish all fires on each map.</p>
+  
+categoryId: games
+icon: Gamepad2
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - magicor
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+iconSources:
+  - cached: magicor_magicor.png
+    width: 64
+    height: 64
+enabled: true
+order: 99

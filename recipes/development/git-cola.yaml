@@ -1,0 +1,44 @@
+id: "git-cola"
+name: Git DAG
+description: Git DAG visualizer
+longDescription: |
+  <p>Git-cola is a git GUI optimized for working with the git index.</p>
+  <p>Git-cola can compare arbitrary commits using standard merge tools. With it you can search commit messages, content, authors, paths, data ranges etc. and it makes it easy to interactively edit the index.</p>
+  
+categoryId: development
+icon: Code
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - git-cola
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64, i386]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+screenshotSources:
+  - url: g/gi/git-cola.desktop/a2a02a27162bcb911a6018e8d020b78e/screenshots/image-1_orig.png
+    thumbnailUrl: g/gi/git-cola.desktop/a2a02a27162bcb911a6018e8d020b78e/screenshots/image-1_624x420.png
+    width: 751
+    height: 506
+iconSources:
+  - url: g/gi/git-dag.desktop/6f286fd9e670523a16781d3bdee02839/icons/128x128/git-cola_git-cola.png
+    width: 128
+    height: 128
+homepage: "https://git-cola.github.io/"
+enabled: true
+order: 99

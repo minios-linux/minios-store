@@ -1,0 +1,5 @@
+{
+  "name": "Glade",
+  "description": "Erstellen und Bearbeiten von Benutzeroberflächen für GTK+-Anwendungen",
+  "longDescription": "<p>Glade ist ein RAD-Tool, das eine schnelle und einfache Entwicklung von Benutzeroberflächen für das GTK+ 3 Toolkit und die GNOME-Desktop-Umgebung ermöglicht.</p>\n<p>Die in Glade entworfenen Benutzeroberflächen werden als XML gespeichert. Diese können von Anwendungen bei Bedarf mithilfe von GtkBuilder dynamisch geladen oder direkt zur Definition einer neuen, von GtkWidget abgeleiteten Objektklasse über die neue Template-Funktion von GTK+ verwendet werden.</p>\n<p>Durch den Einsatz von GtkBuilder lassen sich Glade-XML-Dateien in zahlreichen Programmiersprachen nutzen, darunter C, C++, C#, Vala, Java, Perl, Python und viele weitere.</p>\n"
+}

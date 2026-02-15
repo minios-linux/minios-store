@@ -1,0 +1,68 @@
+id: "font-manager"
+name: Font Manager
+description: A simple font management application for Gtk+ Desktop Environments
+longDescription: |
+  <p>Font Manager is intended to provide a way for average users to easily manage
+          desktop fonts, without having to resort to command line tools or editing
+          configuration files by hand.</p>
+  <p>While designed primarily with the Gnome Desktop Environment in mind,
+          it should work well with other Gtk+ desktop environments.</p>
+  <p>Font Manager is NOT a professional-grade font management solution.</p>
+  
+categoryId: graphics
+icon: Palette
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - font-manager
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - graphics
+  - viewer
+  - gnome
+  - gtk
+  - publishing
+screenshotSources:
+  - url: com/github/FontManager.FontManager/d9dd18362df3c9309934d2856b57dac6/screenshots/image-1_orig.png
+    thumbnailUrl: com/github/FontManager.FontManager/d9dd18362df3c9309934d2856b57dac6/screenshots/image-1_624x474@1.png
+    width: 1042
+    height: 792
+  - url: com/github/FontManager.FontManager/d9dd18362df3c9309934d2856b57dac6/screenshots/image-2_orig.png
+    thumbnailUrl: com/github/FontManager.FontManager/d9dd18362df3c9309934d2856b57dac6/screenshots/image-2_624x474@1.png
+    width: 1042
+    height: 792
+  - url: com/github/FontManager.FontManager/d9dd18362df3c9309934d2856b57dac6/screenshots/image-3_orig.png
+    thumbnailUrl: com/github/FontManager.FontManager/d9dd18362df3c9309934d2856b57dac6/screenshots/image-3_624x474@1.png
+    width: 1042
+    height: 792
+  - url: com/github/FontManager.FontManager/d9dd18362df3c9309934d2856b57dac6/screenshots/image-4_orig.png
+    thumbnailUrl: com/github/FontManager.FontManager/d9dd18362df3c9309934d2856b57dac6/screenshots/image-4_624x474@1.png
+    width: 1042
+    height: 792
+  - url: com/github/FontManager.FontManager/d9dd18362df3c9309934d2856b57dac6/screenshots/image-5_orig.png
+    thumbnailUrl: com/github/FontManager.FontManager/d9dd18362df3c9309934d2856b57dac6/screenshots/image-5_624x474@1.png
+    width: 1042
+    height: 792
+iconSources:
+  - url: com/github/FontManager.FontManager/d9dd18362df3c9309934d2856b57dac6/icons/128x128/font-manager_com.github.FontManager.FontManager.png
+    width: 128
+    height: 128
+homepage: "http://fontmanager.github.io/"
+enabled: true
+order: 99

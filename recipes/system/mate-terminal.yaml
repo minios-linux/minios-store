@@ -1,0 +1,45 @@
+id: "mate-terminal"
+name: MATE Terminal
+description: Use the command line
+longDescription: |
+  <p>MATE Terminal is a terminal emulation application that you can use to perform the following actions:  - Access a UNIX shell in the MATE environment.  - Run any application that is designed to run on VT102, VT220, and xterm terminals.</p>
+  <p>MATE Terminal features the ability to use multiple terminals in a single window (tabs) and profiles support.</p>
+  
+categoryId: system
+icon: Wrench
+method: apt
+level: "auto"
+compression: zstd
+packages:
+  - mate-terminal
+distributions:
+  include:
+    - name: bionic
+      architectures: [amd64, i386]
+    - name: bookworm
+      architectures: [amd64, i386]
+    - name: bullseye
+      architectures: [amd64, i386]
+    - name: buster
+      architectures: [amd64, i386]
+    - name: focal
+      architectures: [amd64]
+    - name: jammy
+      architectures: [amd64]
+    - name: noble
+      architectures: [amd64]
+    - name: trixie
+      architectures: [amd64, i386]
+tags:
+  - mate
+  - terminal
+  - shell
+  - prompt
+  - command
+  - commandline
+iconSources:
+  - url: m/ma/mate-terminal.desktop/6d6a07ed7021b89a5ae4de9677e6d483/icons/128x128/mate-terminal_utilities-terminal.png
+    width: 128
+    height: 128
+enabled: true
+order: 99

@@ -1,0 +1,5 @@
+{
+  "name": "luckyLUKS",
+  "description": "Interface gráfica para criar e desbloquear volumes LUKS/TrueCrypt a partir de arquivos de contêiner",
+  "longDescription": "<p>Este programa oferece uma interface gráfica no Linux para criar e desbloquear volumes criptografados a partir de arquivos de contêiner. Ao desbloquear um contêiner, um ícone é exibido na bandeja do sistema como lembrete para fechá-lo posteriormente. Compatível com arquivos de contêiner do cryptsetup/LUKS e TrueCrypt.</p>\n"
+}

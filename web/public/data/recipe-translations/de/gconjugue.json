@@ -1,0 +1,5 @@
+{
+  "name": "GConjugue",
+  "description": "Konjugiert portugiesische Verben",
+  "longDescription": "<p>Grafisches Programm zur Konjugation portugiesischer Verben, wie sie in Brasilien gesprochen werden.</p>\n<p>Wird ein Ausdruck eingegeben, der kein Verb ist, versucht GConjugue, diesen unter den konjugierten Formen bekannter Verben zu finden. Außerdem besteht die Möglichkeit, Verben so zu konjugieren, wie es im brasilianischen Alltag üblich ist. Tatsächlich weichen Brasilianer verschiedener Regionen auf unterschiedliche Weise von der normativen Grammatik ab, doch die angezeigte Konjugation hilft Fremdsprachlern, zu verstehen, was Brasilianer sagen.</p>\n<p>Dieses Programm ist eine grafische Oberfläche für das Konsolen-Tool „conjugue“ (Paket: brazilian-conjugate). Alternativ steht mit „conjugar“ auch eine reine Textversion von GConjugue zur Verfügung.</p>\n"
+}

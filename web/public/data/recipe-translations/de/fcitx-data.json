@@ -1,0 +1,5 @@
+{
+  "name": "Fcitx",
+  "description": "Eingabemethode starten",
+  "longDescription": "<p>Fcitx ist ein Framework für Eingabemethoden mit Erweiterungsunterstützung, das eine Schnittstelle zum Eingeben von Zeichen verschiedener Schriftsysteme in Anwendungen über unterschiedliche Zuordnungssysteme bereitstellt.</p>\n<p>Es bietet eine angenehme und moderne Benutzererfahrung mit intuitiven grafischen Konfigurationstools sowie anpassbaren Designs und Zuordnungstabellen. Die Architektur ist hoch modular und erweiterbar – unterstützt werden GTK+ 2/3 und Qt4 IM-Module, Oberflächen auf Basis von Fbterm, reinem Xlib, GTK+ oder KDE sowie eine entwicklerfreundliche API.</p>\n<p>Dieses Paket stellt die wichtigen Daten bereit. Für eine funktionierende Eingabeumgebung installieren Sie bitte das Paket „fcitx“.</p>\n"
+}
