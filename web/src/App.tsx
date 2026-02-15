@@ -33,7 +33,7 @@ function App() {
             <AdminPanel onClose={() => setShowAdmin(false)} />
           </Suspense>
         ) : (
-          <StorePage />
+          <StorePage isDevMode={isLocalhost} />
         )}
 
         {/* Admin Toggle - only visible on localhost */}

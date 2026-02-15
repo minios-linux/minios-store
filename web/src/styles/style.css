@@ -3195,6 +3195,7 @@ html.light-theme .mobile-menu-btn:hover {
 
 /* Mobile overlay */
 .mobile-overlay {
+    display: none;
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.6);
@@ -3311,6 +3312,10 @@ html.light-theme .mobile-cart-menu {
         padding-top: 16px;
     }
 
+    .store-layout {
+        padding-top: 100px;
+    }
+
     .store-grid {
         grid-template-columns: 1fr;
     }
@@ -3337,6 +3342,10 @@ html.light-theme .mobile-cart-menu {
 
     .mobile-cart-menu {
         display: flex;
+    }
+
+    .mobile-overlay {
+        display: block;
     }
 
     .logo-text {

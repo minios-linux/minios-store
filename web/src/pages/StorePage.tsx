@@ -13,7 +13,11 @@ import { storeWs } from '@/lib/websocket';
 import type { Recipe, InstallRecipe, ServerMessage } from '@/lib/types';
 import { Toaster, toast } from 'sonner';
 
-const StorePage: React.FC = () => {
+interface StorePageProps {
+  isDevMode?: boolean;
+}
+
+const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
   const { t } = useTranslation();
   const { recipes } = useRecipes();
   const { categories } = useCategories();
@@ -463,9 +467,11 @@ const StorePage: React.FC = () => {
               }}>
                 <Search size={48} style={{ opacity: 0.2, margin: '0 auto 16px' }} />
                 <p style={{ fontSize: '1.1rem', marginBottom: '8px' }}>{t('No applications available')}</p>
-                <p style={{ fontSize: '0.85rem', opacity: 0.7 }}>
-                  {t('Add recipes via the admin panel or place YAML files in the recipes/ directory')}
-                </p>
+                {isDevMode && (
+                  <p style={{ fontSize: '0.85rem', opacity: 0.7 }}>
+                    {t('Add recipes via the admin panel or place YAML files in the recipes/ directory')}
+                  </p>
+                )}
               </div>
             )}
           </div>

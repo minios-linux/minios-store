@@ -344,7 +344,7 @@ const Header: React.FC<HeaderProps> = ({
                   <input
                     type="text"
                     className="lang-search"
-                    placeholder="Search..."
+                    placeholder={t('Search...')}
                     value={langSearch}
                     onChange={(e) => setLangSearch(e.target.value)}
                     onClick={(e) => e.stopPropagation()}
@@ -386,7 +386,7 @@ const Header: React.FC<HeaderProps> = ({
           <input
             type="text"
             className="lang-search"
-            placeholder="Search..."
+            placeholder={t('Search...')}
             value={langSearch}
             onChange={(e) => setLangSearch(e.target.value)}
           />
