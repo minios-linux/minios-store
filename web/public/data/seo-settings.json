@@ -1,0 +1,29 @@
+{
+  "title": "MiniOS Store",
+  "description": "Official application repository for MiniOS. Browse and install software packages for your MiniOS Linux distribution.",
+  "keywords": "MiniOS, Linux, applications, packages, repository, software store",
+  "author": "MiniOS Team",
+  "canonicalUrl": "https://store.minios.dev",
+  "ogImage": "/assets/svg/minios_store_icon.svg",
+  "ogSiteName": "MiniOS Store",
+  "twitterCard": "summary_large_image",
+  "twitterImage": "",
+  "yandexVerification": "",
+  "googleVerification": "",
+  "yandexMetrikaId": "106840177",
+  "googleAnalyticsId": "",
+  "structuredData": {
+    "softwareVersion": "5.1.1",
+    "ratingValue": "8.9",
+    "ratingCount": "32"
+  },
+  "sitemap": {
+    "includeExternalLinks": false,
+    "externalLinks": []
+  },
+  "image": "/assets/svg/minios_store_icon.svg",
+  "url": "/",
+  "type": "website",
+  "ogImageAlt": "MiniOS Store",
+  "robotsMeta": "index, follow"
+}

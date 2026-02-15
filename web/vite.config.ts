@@ -1088,6 +1088,51 @@ function localDataPlugin() {
         }
 
         // ═══════════════════════════════════════════════════════════
+        // SEO SETTINGS ENDPOINTS
+        // ═══════════════════════════════════════════════════════════
+
+        const SEO_SETTINGS_PATH = path.resolve(__dirname, 'public', 'data', 'seo-settings.json');
+
+        // GET /api/seo/settings — get SEO settings
+        if (req.method === 'GET' && req.url === '/api/seo/settings') {
+          try {
+            ensureDataDir();
+            if (!fs.existsSync(SEO_SETTINGS_PATH)) {
+              // Return default settings
+              sendJson(res, 200, {});
+            } else {
+              const settings = JSON.parse(fs.readFileSync(SEO_SETTINGS_PATH, 'utf-8'));
+              sendJson(res, 200, settings);
+            }
+          } catch (error) {
+            console.error('Failed to read SEO settings:', error);
+            sendJson(res, 500, { error: 'Failed to read SEO settings' });
+          }
+          return;
+        }
+
+        // POST /api/seo/settings — save SEO settings
+        if (req.method === 'POST' && req.url === '/api/seo/settings') {
+          parseRequestBody(req)
+            .then((body) => {
+              try {
+                const settings = JSON.parse(body);
+                ensureDataDir();
+                fs.writeFileSync(SEO_SETTINGS_PATH, JSON.stringify(settings, null, 2), 'utf-8');
+                console.log('[SEO] Saved SEO settings');
+                sendJson(res, 200, { success: true });
+              } catch (error) {
+                console.error('Failed to save SEO settings:', error);
+                sendJson(res, 500, { error: 'Failed to save SEO settings' });
+              }
+            })
+            .catch((err) => {
+              sendJson(res, 400, { error: 'Invalid request: ' + err.message });
+            });
+          return;
+        }
+
+        // ═══════════════════════════════════════════════════════════
         // AI PROXY ENDPOINTS
         // ═══════════════════════════════════════════════════════════
 

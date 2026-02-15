@@ -191,6 +191,50 @@ export const COMPRESSION_TYPES: { value: CompressionType; label: string }[] = [
 ];
 
 // ============================================
+// SEO Configuration
+// ============================================
+
+/** SEO configuration for the store */
+export interface SEOConfig {
+  // Primary meta tags
+  title: string;           // <title> and og:title
+  description: string;     // meta description and og:description
+  keywords: string;        // meta keywords
+  author: string;          // meta author
+  canonicalUrl: string;    // canonical URL (e.g., "https://store.minios.dev")
+  
+  // Open Graph
+  ogImage: string;         // og:image URL (1200x630 recommended)
+  ogSiteName: string;      // og:site_name
+  // Note: og:locale is auto-generated from available translations
+  
+  // Twitter
+  twitterCard: 'summary' | 'summary_large_image';
+  twitterImage?: string;   // twitter:image (defaults to ogImage)
+  
+  // Verification codes
+  yandexVerification?: string;
+  googleVerification?: string;
+  
+  // Analytics
+  yandexMetrikaId?: string;
+  googleAnalyticsId?: string;
+  
+  // JSON-LD structured data
+  structuredData?: {
+    softwareVersion?: string;
+    ratingValue?: string;
+    ratingCount?: string;
+  };
+  
+  // Sitemap settings
+  sitemap?: {
+    includeExternalLinks: boolean;
+    externalLinks?: string[];
+  };
+}
+
+// ============================================
 // Admin Types
 // ============================================
 

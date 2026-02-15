@@ -1,17 +1,19 @@
 import { useState, useEffect, useCallback } from 'react';
-import { X, Package, FolderOpen, Languages, Sun, Moon, Store } from 'lucide-react';
+import { X, Package, FolderOpen, Languages, Sun, Moon, Store, Search } from 'lucide-react';
 import { useTranslation } from '@/contexts/LanguageContext';
 import { useTheme } from '@/contexts/ThemeContext';
 import { RecipeManager } from './RecipeManager';
 import { CategoryManager } from './CategoryManager';
 import { TranslationEditor } from './TranslationEditor';
+import { SEOManager } from './SEOManager';
 import type { Category } from '@/lib/types';
 
-type AdminSection = 'recipes' | 'categories' | 'translations';
+type AdminSection = 'recipes' | 'categories' | 'seo' | 'translations';
 
 const SECTIONS: { id: AdminSection; labelKey: string; icon: React.ReactNode }[] = [
   { id: 'recipes', labelKey: 'Recipes', icon: <Package className="w-4 h-4" /> },
   { id: 'categories', labelKey: 'Categories', icon: <FolderOpen className="w-4 h-4" /> },
+  { id: 'seo', labelKey: 'SEO', icon: <Search className="w-4 h-4" /> },
   { id: 'translations', labelKey: 'Translations', icon: <Languages className="w-4 h-4" /> },
 ];
 
@@ -104,6 +106,9 @@ export function AdminPanel({ onClose }: Props) {
           )}
           {activeSection === 'categories' && (
             <CategoryManager onCategoriesChange={handleCategoriesChange} />
+          )}
+          {activeSection === 'seo' && (
+            <SEOManager />
           )}
           {activeSection === 'translations' && (
             <TranslationEditor />
