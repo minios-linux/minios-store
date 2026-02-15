@@ -72,7 +72,8 @@ def get_system_info() -> Dict[str, Optional[str]]:
     try:
         result = subprocess.run(
             ["dpkg", "--print-architecture"],
-            capture_output=True, text=True, timeout=5,
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+            universal_newlines=True, timeout=5,
         )
         if result.returncode == 0 and result.stdout.strip():
             info["arch"] = result.stdout.strip()
@@ -81,7 +82,8 @@ def get_system_info() -> Dict[str, Optional[str]]:
         try:
             result = subprocess.run(
                 ["uname", "-m"],
-                capture_output=True, text=True, timeout=5,
+                stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                universal_newlines=True, timeout=5,
             )
             if result.returncode == 0:
                 uname_arch = result.stdout.strip()

@@ -284,7 +284,7 @@ class StoreServer:
             await self._send(websocket, {
                 "type": "log",
                 "level": "error",
-                "message": f"Folder does not exist: {path}"
+                "message": "Folder does not exist: {}".format(path),
             })
             return
         
@@ -298,8 +298,9 @@ class StoreServer:
         try:
             result = subprocess.run(
                 ["ps", "aux"],
-                capture_output=True,
-                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                universal_newlines=True,
                 timeout=5
             )
             # Find Xorg process for the user to get the actual DISPLAY
@@ -329,7 +330,7 @@ class StoreServer:
             
             try:
                 # Use su -c to run command as user with their environment
-                cmd = f'DISPLAY={display} {fm} "{path}"'
+                cmd = 'DISPLAY={} {} "{}"'.format(display, fm, path)
                 subprocess.Popen(
                     ['su', '-', user, '-c', cmd],
                     stdout=subprocess.DEVNULL,
@@ -379,11 +380,12 @@ class StoreServer:
                 dead.add(ws)
         self._clients -= dead
 
-    async def handler(self, websocket):
+    async def handler(self, websocket, path=None):
         """WebSocket connection handler.
 
         Args:
             websocket: The incoming WebSocket connection.
+            path: Request path (passed by old websockets 3.x–4.x, unused).
         """
         self._clients.add(websocket)
         remote = websocket.remote_address
@@ -400,7 +402,10 @@ class StoreServer:
         })
 
         try:
-            async for message in websocket:
+            # Use recv() loop instead of ``async for message in websocket``
+            # because old websockets 3.x–4.x lacks __aiter__ support.
+            while True:
+                message = await websocket.recv()
                 await self.handle_message(websocket, message)
         except websockets.exceptions.ConnectionClosed as e:
             logger.info(
@@ -441,15 +446,32 @@ class StoreServer:
         for sig in (signal.SIGTERM, signal.SIGINT):
             loop.add_signal_handler(sig, _signal_handler)
 
-        async with websockets.serve(
+        # Build serve() kwargs; ping_interval/ping_timeout were added in
+        # websockets 7.0 and are not available on older versions (e.g.
+        # websockets 3.x–4.x shipped with Ubuntu 18.04).
+        serve_kwargs = {}
+        try:
+            import inspect
+            sig = inspect.signature(websockets.serve)
+            if "ping_interval" in sig.parameters:
+                serve_kwargs["ping_interval"] = config.PING_INTERVAL
+                serve_kwargs["ping_timeout"] = config.PING_TIMEOUT
+        except (ValueError, TypeError):
+            pass
+
+        server = await websockets.serve(
             self.handler,
             host,
             port,
-            ping_interval=config.PING_INTERVAL,
-            ping_timeout=config.PING_TIMEOUT,
-        ):
-            logger.info("Server ready, waiting for connections...")
+            **serve_kwargs
+        )
+        logger.info("Server ready, waiting for connections...")
+
+        try:
             await stop
+        finally:
+            server.close()
+            await server.wait_closed()
 
         logger.info("Server shutting down")
 
@@ -495,7 +517,8 @@ def main():
     server = StoreServer()
 
     try:
-        asyncio.run(server.run(host=args.host, port=args.port))
+        loop = asyncio.get_event_loop()
+        loop.run_until_complete(server.run(host=args.host, port=args.port))
     except KeyboardInterrupt:
         logger.info("Interrupted by user")
         sys.exit(0)
