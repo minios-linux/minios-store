@@ -145,7 +145,7 @@ const StorePage: React.FC = () => {
         cart.clearCart();
         break;
 
-      case 'module_location':
+      case 'module_location': {
         // Show module location notification (persistent - user must dismiss)
         const moduleInfo = msg.moduleName ? ` ${msg.moduleName}` : '';
         if (msg.isFallback) {
@@ -192,6 +192,7 @@ const StorePage: React.FC = () => {
           );
         }
         break;
+      }
 
       case 'install_error':
         setProgress(prev => ({
