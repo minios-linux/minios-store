@@ -3217,9 +3217,7 @@ html.light-theme .mobile-menu-btn:hover {
     right: -100%;
     width: 280px;
     height: 100dvh;
-    background: rgba(15, 17, 21, 0.7);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    background: rgb(15, 17, 21);
     border-left: 1px solid var(--glass-border);
     padding: 80px 30px 30px;
     transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -3255,9 +3253,7 @@ html.light-theme .mobile-menu-btn:hover {
 }
 
 html.light-theme .mobile-lang-menu {
-    background: rgba(248, 250, 252, 0.7);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    background: rgb(248, 250, 252);
     border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -3275,9 +3271,7 @@ html.light-theme .mobile-lang-menu a:hover {
     width: 320px;
     max-width: 85vw;
     height: 100dvh;
-    background: rgba(15, 17, 21, 0.7);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    background: rgb(15, 17, 21);
     border-left: 1px solid var(--glass-border);
     padding-top: 20px;
     transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -3297,9 +3291,7 @@ html.light-theme .mobile-lang-menu a:hover {
 }
 
 html.light-theme .mobile-cart-menu {
-    background: rgba(248, 250, 252, 0.7);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    background: rgb(248, 250, 252);
     border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -3313,6 +3305,10 @@ html.light-theme .mobile-cart-menu {
         flex-basis: 100%;
         max-width: 100%;
         margin: 8px 0 0;
+    }
+
+    .category-bar {
+        padding-top: 16px;
     }
 
     .store-grid {
