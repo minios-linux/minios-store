@@ -44,6 +44,23 @@ jobs:
             exit 1
           }
 
+      - name: Generate languages.json
+        run: |
+          python3 -c "
+          import json, glob, os
+          langs = []
+          for f in sorted(glob.glob('web/public/translations/*.json')):
+              if os.path.basename(f) == 'languages.json':
+                  continue
+              code = os.path.basename(f).replace('.json', '')
+              with open(f) as fh:
+                  meta = json.load(fh).get('_meta', {})
+              langs.append({'code': code, 'name': meta.get('name', code), 'flag': meta.get('flag', '')})
+          with open('web/public/translations/languages.json', 'w') as fh:
+              json.dump(langs, fh)
+          print(f'Generated languages.json with {len(langs)} languages')
+          "
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
