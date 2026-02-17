@@ -1,4 +1,5 @@
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback, useMemo, forwardRef, useImperativeHandle } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Search, Edit, Trash2, Package, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Copy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -26,9 +27,12 @@ import { IconPicker } from './IconPicker';
 import { DynamicIcon } from '@/components/DynamicIcon';
 import type { Recipe, Category, InstallMethod, ModuleLevel, CompressionType, DistributionEntry } from '@/lib/types';
 import { COMPRESSION_TYPES } from '@/lib/types';
+import type { ManagerHandle, StateChangeCallback } from './types';
+import ContentSkeleton from './ContentSkeleton';
 
 interface RecipeManagerProps {
   categories: Category[];
+  onStateChange?: StateChangeCallback;
 }
 
 const EMPTY_RECIPE: Recipe = {
@@ -50,7 +54,8 @@ const EMPTY_RECIPE: Recipe = {
   order: 0,
 };
 
-export function RecipeManager({ categories }: RecipeManagerProps) {
+export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
+  ({ categories, onStateChange }, ref) => {
   const { t } = useTranslation();
   const [recipes, setRecipes] = useState<Recipe[]>([]);
   const [loading, setLoading] = useState(true);
@@ -73,6 +78,17 @@ export function RecipeManager({ categories }: RecipeManagerProps) {
   const [packagesText, setPackagesText] = useState('');
   const [tagsText, setTagsText] = useState('');
   const [screenshotsText, setScreenshotsText] = useState('');
+
+  // Notify parent that RecipeManager doesn't use bulk save/discard
+  useEffect(() => {
+    onStateChange?.({ hasChanges: false, saving: false });
+  }, [onStateChange]);
+
+  // Expose no-op methods via ref (RecipeManager saves immediately)
+  useImperativeHandle(ref, () => ({
+    save: () => {},
+    discard: () => {},
+  }));
 
   const fetchRecipes = useCallback(async () => {
     try {
@@ -238,10 +254,30 @@ export function RecipeManager({ categories }: RecipeManagerProps) {
   };
 
   if (loading) {
-    return <div className="p-4">{t('Loading recipes...')}</div>;
+    return (
+      <AnimatePresence mode="wait">
+        <motion.div
+          key="skeleton"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.2 }}
+        >
+          <ContentSkeleton />
+        </motion.div>
+      </AnimatePresence>
+    );
   }
 
   return (
+    <AnimatePresence mode="wait">
+    <motion.div
+      key="content"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.2 }}
+    >
     <div className="space-y-6">
       {/* Header */}
       <div className="flex items-center justify-between flex-wrap gap-4">
@@ -259,13 +295,12 @@ export function RecipeManager({ categories }: RecipeManagerProps) {
 
       {/* Filters */}
       <div className="flex gap-3 flex-wrap">
-        <div className="relative flex-1 min-w-[200px]">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+        <div className="admin-search">
+          <Search className="admin-search-icon" />
           <Input
             placeholder={t('Search recipes...')}
             value={search}
             onChange={e => setSearch(e.target.value)}
-            className="pl-9"
           />
         </div>
         <Select value={filterCategory} onValueChange={setFilterCategory}>
@@ -781,5 +816,9 @@ export function RecipeManager({ categories }: RecipeManagerProps) {
       </Dialog>
 
     </div>
+    </motion.div>
+    </AnimatePresence>
   );
-}
+});
+
+RecipeManager.displayName = 'RecipeManager';

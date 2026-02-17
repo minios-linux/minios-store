@@ -1,5 +1,5 @@
-import { useState, useEffect, useCallback } from 'react';
-import { X, Package, FolderOpen, Languages, Sun, Moon, Store, Search } from 'lucide-react';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import { X, Package, FolderOpen, Languages, Sun, Moon, Search, Save, RefreshCw, Undo2 } from 'lucide-react';
 import { useTranslation } from '@/contexts/LanguageContext';
 import { useTheme } from '@/contexts/ThemeContext';
 import { RecipeManager } from './RecipeManager';
@@ -7,6 +7,7 @@ import { CategoryManager } from './CategoryManager';
 import { TranslationEditor } from './TranslationEditor';
 import { SEOManager } from './SEOManager';
 import type { Category } from '@/lib/types';
+import type { ManagerHandle } from './types';
 
 type AdminSection = 'recipes' | 'categories' | 'seo' | 'translations';
 
@@ -26,6 +27,12 @@ export function AdminPanel({ onClose }: Props) {
   const { theme, toggleTheme } = useTheme();
   const [activeSection, setActiveSection] = useState<AdminSection>('recipes');
   const [categories, setCategories] = useState<Category[]>([]);
+  const [saveState, setSaveState] = useState({ hasChanges: false, saving: false });
+  
+  // Refs for each manager
+  const recipeManagerRef = useRef<ManagerHandle>(null);
+  const categoryManagerRef = useRef<ManagerHandle>(null);
+  const seoManagerRef = useRef<ManagerHandle>(null);
 
   // Fetch categories for RecipeManager
   useEffect(() => {
@@ -48,16 +55,48 @@ export function AdminPanel({ onClose }: Props) {
     setCategories(cats);
   }, []);
 
-  // Keyboard shortcuts
+  const handleStateChange = useCallback((state: { hasChanges: boolean; saving: boolean }) => {
+    setSaveState(state);
+  }, []);
+  
+  const handleSave = () => {
+    if (activeSection === 'recipes') recipeManagerRef.current?.save();
+    else if (activeSection === 'categories') categoryManagerRef.current?.save();
+    else if (activeSection === 'seo') seoManagerRef.current?.save();
+  };
+  
+  const handleDiscard = () => {
+    if (activeSection === 'recipes') recipeManagerRef.current?.discard();
+    else if (activeSection === 'categories') categoryManagerRef.current?.discard();
+    else if (activeSection === 'seo') seoManagerRef.current?.discard();
+  };
+  
+  // Determine if save button should be shown and enabled
+  const showSaveButton = activeSection !== 'translations';
+  const canSave = saveState.hasChanges && !saveState.saving;
+
+  // Keyboard shortcuts: Ctrl+S to save, Escape to close
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
+      // Ctrl+S or Cmd+S to save
+      if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+        e.preventDefault();
+        if (canSave && showSaveButton) {
+          handleSave();
+        }
+      }
+      // Escape to close
       if (e.key === 'Escape') {
-        onClose();
+        // Don't close if there are unsaved changes - let user use discard first
+        if (!saveState.hasChanges) {
+          onClose();
+        }
       }
     };
+    
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [onClose]);
+  }, [canSave, showSaveButton, saveState.hasChanges, onClose]);
 
   return (
     <div className="admin-panel">
@@ -65,8 +104,7 @@ export function AdminPanel({ onClose }: Props) {
       <header className="admin-top-header">
         <div className="admin-top-header-inner">
           <div className="admin-logo">
-            <Store size={20} style={{ color: 'var(--accent)' }} />
-            <span className="admin-logo-text">MiniOS Store Admin</span>
+            <img src="/minios_icon.svg" width="28" height="28" alt="Logo" />
           </div>
 
           {/* Section tabs */}
@@ -84,6 +122,25 @@ export function AdminPanel({ onClose }: Props) {
           </nav>
 
           <div className="admin-header-actions">
+            {showSaveButton && canSave && (
+              <button 
+                onClick={handleDiscard} 
+                className="admin-discard-btn"
+                title={t('Discard Changes')}
+              >
+                <Undo2 className="w-5 h-5" />
+              </button>
+            )}
+            {showSaveButton && (
+              <button 
+                onClick={handleSave} 
+                disabled={!canSave}
+                className={`admin-save-btn ${canSave ? 'has-changes' : ''}`}
+                title={t('Save Changes')}
+              >
+                {saveState.saving ? <RefreshCw className="w-5 h-5 animate-spin" /> : <Save className="w-5 h-5" />}
+              </button>
+            )}
             <button
               onClick={toggleTheme}
               className="admin-theme-btn"
@@ -102,13 +159,24 @@ export function AdminPanel({ onClose }: Props) {
       <main className="admin-main-content">
         <div className="container">
           {activeSection === 'recipes' && (
-            <RecipeManager categories={categories} />
+            <RecipeManager 
+              ref={recipeManagerRef}
+              categories={categories}
+              onStateChange={handleStateChange}
+            />
           )}
           {activeSection === 'categories' && (
-            <CategoryManager onCategoriesChange={handleCategoriesChange} />
+            <CategoryManager 
+              ref={categoryManagerRef}
+              onCategoriesChange={handleCategoriesChange}
+              onStateChange={handleStateChange}
+            />
           )}
           {activeSection === 'seo' && (
-            <SEOManager />
+            <SEOManager 
+              ref={seoManagerRef}
+              onStateChange={handleStateChange}
+            />
           )}
           {activeSection === 'translations' && (
             <TranslationEditor />

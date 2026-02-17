@@ -732,7 +732,7 @@ export function RecipeTranslationEditor({
       <div className="border rounded-lg overflow-hidden">
         <div className="max-h-[500px] overflow-auto">
           <table className="w-full text-sm">
-            <thead className="bg-muted/50 sticky top-0">
+            <thead className="sticky top-0">
               <tr>
                 <th className="text-left p-3 font-medium w-8"></th>
                 <th className="text-left p-3 font-medium">{t('Recipe')}</th>

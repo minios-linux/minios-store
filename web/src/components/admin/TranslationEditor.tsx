@@ -2290,18 +2290,17 @@ ${sourceContent}`;
 
           <div>
             <label className="text-xs text-muted-foreground mb-1 block">{t('API Key')}</label>
-            <div className="relative">
+            <div className="ai-key-wrapper">
               <Input
                 type={showApiKey ? 'text' : 'password'}
                 placeholder="sk-..."
                 value={apiKey}
                 onChange={e => handleApiKeyChange(e.target.value)}
-                className="pr-10"
               />
               <button
                 type="button"
                 onClick={() => setShowApiKey(!showApiKey)}
-                className="absolute right-2 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                className="ai-key-toggle"
               >
                 {showApiKey ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
               </button>
@@ -2310,18 +2309,17 @@ ${sourceContent}`;
 
           <div>
             <label className="text-xs text-muted-foreground mb-1 block">{t('HTTP Proxy')} <span className="opacity-60">({t('for geo-restricted APIs')})</span></label>
-            <div className="relative">
+            <div className="ai-key-wrapper">
               <Input
                 type={showProxy ? 'text' : 'password'}
                 placeholder="http://user:pass@host:port"
                 value={proxyUrl}
                 onChange={e => handleProxyChange(e.target.value)}
-                className="pr-10"
               />
               <button
                 type="button"
                 onClick={() => setShowProxy(!showProxy)}
-                className="absolute right-2 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                className="ai-key-toggle"
               >
                 {showProxy ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
               </button>
@@ -2634,7 +2632,7 @@ ${sourceContent}`;
       <div className="border rounded-lg overflow-hidden">
         <div className="max-h-[600px] overflow-auto">
           <table className="w-full text-sm">
-            <thead className="bg-muted/50 sticky top-0">
+            <thead className="sticky top-0">
               <tr>
                 <th className="text-left p-3 font-medium w-8"></th>
                 <th className="text-left p-3 font-medium">{t('English')}</th>

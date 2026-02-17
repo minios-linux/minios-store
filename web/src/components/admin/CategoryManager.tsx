@@ -1,5 +1,6 @@
-import { useState, useEffect, useCallback } from 'react';
-import { Plus, Trash2, Edit, Save, X } from 'lucide-react';
+import { useState, useEffect, useCallback, forwardRef, useImperativeHandle } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Plus, Trash2, Edit } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -17,9 +18,12 @@ import { IconPicker } from './IconPicker';
 import { DynamicIcon } from '@/components/DynamicIcon';
 import { SortableList, SortableItem } from './SortableList';
 import type { Category } from '@/lib/types';
+import type { ManagerHandle, StateChangeCallback } from './types';
+import ContentSkeleton from './ContentSkeleton';
 
 interface CategoryManagerProps {
   onCategoriesChange?: (categories: Category[]) => void;
+  onStateChange?: StateChangeCallback;
 }
 
 const EMPTY_CATEGORY: Category = {
@@ -31,7 +35,8 @@ const EMPTY_CATEGORY: Category = {
   enabled: true,
 };
 
-export function CategoryManager({ onCategoriesChange }: CategoryManagerProps) {
+export const CategoryManager = forwardRef<ManagerHandle, CategoryManagerProps>(
+  ({ onCategoriesChange, onStateChange }, ref) => {
   const { t } = useTranslation();
   const [categories, setCategories] = useState<Category[]>([]);
   const [loading, setLoading] = useState(true);
@@ -41,6 +46,11 @@ export function CategoryManager({ onCategoriesChange }: CategoryManagerProps) {
   const [editingCategory, setEditingCategory] = useState<Category | null>(null);
   const [formData, setFormData] = useState<Category>(EMPTY_CATEGORY);
   const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
+
+  // Notify parent of state changes
+  useEffect(() => {
+    onStateChange?.({ hasChanges, saving });
+  }, [hasChanges, saving, onStateChange]);
 
   const fetchCategories = useCallback(async () => {
     try {
@@ -151,11 +161,37 @@ export function CategoryManager({ onCategoriesChange }: CategoryManagerProps) {
     setHasChanges(false);
   };
 
+  // Expose methods via ref
+  useImperativeHandle(ref, () => ({
+    save: handleSaveAll,
+    discard: handleDiscard,
+  }));
+
   if (loading) {
-    return <div className="p-4">{t('Loading categories...')}</div>;
+    return (
+      <AnimatePresence mode="wait">
+        <motion.div
+          key="skeleton"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.2 }}
+        >
+          <ContentSkeleton />
+        </motion.div>
+      </AnimatePresence>
+    );
   }
 
   return (
+    <AnimatePresence mode="wait">
+    <motion.div
+      key="content"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.2 }}
+    >
     <div className="space-y-6">
       {/* Header */}
       <div className="flex items-center justify-between flex-wrap gap-4">
@@ -166,20 +202,6 @@ export function CategoryManager({ onCategoriesChange }: CategoryManagerProps) {
           </p>
         </div>
         <div className="flex gap-2">
-          {hasChanges && (
-            <Button variant="outline" onClick={handleDiscard} className="gap-2">
-              <X className="w-4 h-4" />
-              {t('Discard')}
-            </Button>
-          )}
-          <Button
-            onClick={handleSaveAll}
-            disabled={!hasChanges || saving}
-            className="gap-2"
-          >
-            <Save className="w-4 h-4" />
-            {saving ? t('Saving...') : t('Save Changes')}
-          </Button>
           <Button onClick={openCreateDialog} className="gap-2">
             <Plus className="w-4 h-4" />
             {t('Add Category')}
@@ -328,5 +350,9 @@ export function CategoryManager({ onCategoriesChange }: CategoryManagerProps) {
         </DialogContent>
       </Dialog>
     </div>
+    </motion.div>
+    </AnimatePresence>
   );
-}
+});
+
+CategoryManager.displayName = 'CategoryManager';

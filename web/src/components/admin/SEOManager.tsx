@@ -1,14 +1,17 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, forwardRef, useImperativeHandle } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
-import { Save, RefreshCw } from 'lucide-react';
+import { RefreshCw } from 'lucide-react';
 import { toast } from 'sonner';
 import { updateMetaTags } from '@/lib/meta';
 import type { SEOConfig } from '@/lib/types';
+import type { ManagerHandle, StateChangeCallback } from './types';
+import ContentSkeleton from './ContentSkeleton';
 
 const DEFAULT_SEO: SEOConfig = {
   // Primary meta tags
@@ -48,10 +51,21 @@ const DEFAULT_SEO: SEOConfig = {
   },
 };
 
-export function SEOManager() {
+interface Props {
+  onStateChange?: StateChangeCallback;
+}
+
+export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, ref) => {
   const [formData, setFormData] = useState<SEOConfig>(DEFAULT_SEO);
+  const [originalData, setOriginalData] = useState<SEOConfig>(DEFAULT_SEO);
+  const [loading, setLoading] = useState(true);
   const [isSaving, setIsSaving] = useState(false);
   const [hasChanges, setHasChanges] = useState(false);
+
+  // Notify parent of state changes
+  useEffect(() => {
+    onStateChange?.({ hasChanges, saving: isSaving });
+  }, [hasChanges, isSaving, onStateChange]);
 
   // Load saved SEO settings
   useEffect(() => {
@@ -60,10 +74,14 @@ export function SEOManager() {
         const res = await fetch('/api/seo/settings');
         if (res.ok) {
           const data = await res.json();
-          setFormData({ ...DEFAULT_SEO, ...data });
+          const loadedData = { ...DEFAULT_SEO, ...data };
+          setFormData(loadedData);
+          setOriginalData(loadedData);
         }
       } catch (error) {
         console.error('Failed to load SEO settings:', error);
+      } finally {
+        setLoading(false);
       }
     };
     loadSettings();
@@ -129,6 +147,7 @@ export function SEOManager() {
       if (res.ok) {
         toast.success('SEO settings saved successfully');
         setHasChanges(false);
+        setOriginalData(formData);
         // Apply settings immediately
         updateMetaTags({
           title: formData.title,
@@ -148,13 +167,44 @@ export function SEOManager() {
     }
   };
 
+  const handleDiscard = () => {
+    setFormData(originalData);
+    setHasChanges(false);
+    toast.info('Changes discarded');
+  };
+
   const handleReset = () => {
     setFormData(DEFAULT_SEO);
     setHasChanges(true);
     toast.info('Settings reset to defaults');
   };
 
+  // Expose methods via ref
+  useImperativeHandle(ref, () => ({
+    save: handleSave,
+    discard: handleDiscard,
+  }));
+
   return (
+    <AnimatePresence mode="wait">
+      {loading ? (
+        <motion.div
+          key="skeleton"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.2 }}
+        >
+          <ContentSkeleton />
+        </motion.div>
+      ) : (
+        <motion.div
+          key="content"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.2 }}
+        >
     <div className="space-y-6">
       {/* Header */}
       <div className="flex items-center justify-between">
@@ -173,15 +223,6 @@ export function SEOManager() {
           >
             <RefreshCw className="w-4 h-4 mr-2" />
             Reset
-          </Button>
-          <Button
-            variant="default"
-            size="sm"
-            onClick={handleSave}
-            disabled={!hasChanges || isSaving}
-          >
-            <Save className="w-4 h-4 mr-2" />
-            {isSaving ? 'Saving...' : 'Save'}
           </Button>
         </div>
       </div>
@@ -358,5 +399,10 @@ export function SEOManager() {
         </CardContent>
       </Card>
     </div>
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
-}
+});
+
+SEOManager.displayName = 'SEOManager';
