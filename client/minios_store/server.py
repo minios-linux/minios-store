@@ -446,25 +446,33 @@ class StoreServer:
         for sig in (signal.SIGTERM, signal.SIGINT):
             loop.add_signal_handler(sig, _signal_handler)
 
-        # Build serve() kwargs; ping_interval/ping_timeout were added in
-        # websockets 7.0 and are not available on older versions (e.g.
-        # websockets 3.x–4.x shipped with Ubuntu 18.04).
-        serve_kwargs = {}
+        # Keepalive arguments are supported by newer websockets versions, but
+        # can still fail at runtime on older stacks (e.g. websockets 3.x with
+        # Python 3.6 on Ubuntu 18.04) when forwarded to loop.create_server().
+        # Try with keepalive first, then fall back to a minimal call.
+        serve_kwargs = {
+            "ping_interval": config.PING_INTERVAL,
+            "ping_timeout": config.PING_TIMEOUT,
+        }
         try:
-            import inspect
-            sig = inspect.signature(websockets.serve)
-            if "ping_interval" in sig.parameters:
-                serve_kwargs["ping_interval"] = config.PING_INTERVAL
-                serve_kwargs["ping_timeout"] = config.PING_TIMEOUT
-        except (ValueError, TypeError):
-            pass
-
-        server = await websockets.serve(
-            self.handler,
-            host,
-            port,
-            **serve_kwargs
-        )
+            server = await websockets.serve(
+                self.handler,
+                host,
+                port,
+                **serve_kwargs
+            )
+        except TypeError as exc:
+            if "ping_interval" not in str(exc):
+                raise
+            logger.warning(
+                "websockets stack does not support ping args; "
+                "starting without keepalive options"
+            )
+            server = await websockets.serve(
+                self.handler,
+                host,
+                port,
+            )
         logger.info("Server ready, waiting for connections...")
 
         try:

@@ -1,3 +1,10 @@
+minios-store (1.0.1) unstable; urgency=medium
+
+  * Improve WebSocket server keepalive handling for compatibility with
+    Python 3.6
+
+ -- crims0n <crims0n@minios.dev>  Sun, 08 Mar 2026 17:50:52 +0300
+
 minios-store (1.0.0) unstable; urgency=medium
 
   * Initial release
