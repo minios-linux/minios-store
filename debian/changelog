@@ -1,3 +1,9 @@
+minios-store (1.0.2) unstable; urgency=medium
+
+  * Add help options to WebSocket daemon and installer launcher
+
+ -- crims0n <crims0n@minios.dev>  Thu, 14 May 2026 18:28:41 +0300
+
 minios-store (1.0.1) unstable; urgency=medium
 
   * Improve WebSocket server keepalive handling for compatibility with

@@ -6,7 +6,28 @@
 
 set -e
 
-DIR=/usr/lib/minios-store
+case "${1:-}" in
+    -h|--help)
+        cat <<'EOF'
+Usage: minios-store-install [uri | options]
+
+Launch the MiniOS Store graphical installer.
+
+Examples:
+  minios-store-install "minios-store://install?mode=module&recipes=vlc:auto:zstd&packaging=single"
+  minios-store-install --mode module --packaging single --recipes vlc:auto:zstd
+EOF
+        exit 0
+        ;;
+esac
+
+SCRIPT_DIR=$(dirname "$(readlink -f -- "$0")")
+
+if [ -d "$(dirname "$SCRIPT_DIR")/client" ]; then
+    DIR="$(dirname "$SCRIPT_DIR")/client"
+else
+    DIR="/usr/lib/minios-store"
+fi
 
 exec python3 -c "
 import sys

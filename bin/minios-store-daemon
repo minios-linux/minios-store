@@ -6,7 +6,27 @@
 
 set -e
 
-DIR=/usr/lib/minios-store
+case "${1:-}" in
+    -h|--help)
+        cat <<'EOF'
+Usage: minios-store-daemon [options]
+
+Launch the MiniOS Store WebSocket daemon.
+
+This command starts the local background service used by the MiniOS Store web
+interface for installing recipes.
+EOF
+        exit 0
+        ;;
+esac
+
+SCRIPT_DIR=$(dirname "$(readlink -f -- "$0")")
+
+if [ -d "$(dirname "$SCRIPT_DIR")/client" ]; then
+    DIR="$(dirname "$SCRIPT_DIR")/client"
+else
+    DIR="/usr/lib/minios-store"
+fi
 
 exec python3 -c "
 import sys
