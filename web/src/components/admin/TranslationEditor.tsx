@@ -371,6 +371,31 @@ const AI_PROVIDERS: AIProvider[] = [
   }
 ];
 
+function TranslationSkeleton() {
+  return (
+    <div className="admin-skeleton-content">
+      <div style={{ display: 'flex', gap: 16, marginBottom: 16 }}>
+        <div className="skeleton-box" style={{ width: 200, height: 40, borderRadius: 6 }} />
+        <div className="skeleton-box" style={{ width: 140, height: 40, borderRadius: 6 }} />
+        <div className="skeleton-box" style={{ width: 100, height: 40, borderRadius: 6 }} />
+      </div>
+      <div className="admin-skeleton-card">
+        <div className="admin-skeleton-card-header">
+          <div className="skeleton-box" style={{ width: 150, height: 20, borderRadius: 4 }} />
+        </div>
+        <div className="admin-skeleton-card-body">
+          {[1, 2, 3, 4, 5, 6].map(i => (
+            <div key={i} style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+              <div className="skeleton-box" style={{ width: '30%', height: 16, borderRadius: 4 }} />
+              <div className="skeleton-box" style={{ flex: 1, height: 40, borderRadius: 6 }} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function TranslationEditor() {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<'ui' | 'recipes'>('ui');
@@ -497,28 +522,30 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
     const savedChunkSize = localStorage.getItem('ai-chunk-size');
     const provider = AI_PROVIDERS.find(p => p.id === selectedProvider);
 
-    setApiKey(savedKey || '');
-    setProxyUrl(savedProxy || '');
-    setGoogleProjectId(savedProjectId || '');
-    setSelectedModel(savedModel || provider?.model || '');
-    setCustomEndpoint(savedEndpoint || '');
-    setCustomModel(savedCustomModel || '');
-    if (savedTimeout) setRequestTimeout(parseInt(savedTimeout, 10) || 300);
-    if (savedChunkSize) setChunkSize(parseInt(savedChunkSize, 10) || 0);
+    void Promise.resolve().then(() => {
+      setApiKey(savedKey || '');
+      setProxyUrl(savedProxy || '');
+      setGoogleProjectId(savedProjectId || '');
+      setSelectedModel(savedModel || provider?.model || '');
+      setCustomEndpoint(savedEndpoint || '');
+      setCustomModel(savedCustomModel || '');
+      if (savedTimeout) setRequestTimeout(parseInt(savedTimeout, 10) || 300);
+      if (savedChunkSize) setChunkSize(parseInt(savedChunkSize, 10) || 0);
+    });
 
     // Load models with the saved values
     if (!provider?.fetchModels) {
-      setAvailableModels([]);
+      void Promise.resolve().then(() => setAvailableModels([]));
       return;
     }
 
     const requiresKeyForModels = ['groq', 'google'].includes(provider.id);
     if (requiresKeyForModels && !savedKey) {
-      setAvailableModels([]);
+      void Promise.resolve().then(() => setAvailableModels([]));
       return;
     }
 
-    setLoadingModels(true);
+    void Promise.resolve().then(() => setLoadingModels(true));
     provider.fetchModels(savedKey || '', savedProxy || '')
       .then(models => {
         setAvailableModels(models);
@@ -540,11 +567,11 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
 
     const requiresKeyForModels = ['groq', 'google'].includes(provider.id);
     if (requiresKeyForModels && !apiKey) {
-      setAvailableModels([]);
+      void Promise.resolve().then(() => setAvailableModels([]));
       return;
     }
 
-    setLoadingModels(true);
+    void Promise.resolve().then(() => setLoadingModels(true));
     provider.fetchModels(apiKey, proxyUrl)
       .then(models => {
         setAvailableModels(models);
@@ -2023,30 +2050,6 @@ ${sourceContent}`;
 
     return contentResult;
   }, [selectedProvider, selectedModel, apiKey, customEndpoint, customModel, proxyUrl, requestTimeout, googleProjectId]);
-
-  // Translation skeleton component
-  const TranslationSkeleton = () => (
-    <div className="admin-skeleton-content">
-      <div style={{ display: 'flex', gap: 16, marginBottom: 16 }}>
-        <div className="skeleton-box" style={{ width: 200, height: 40, borderRadius: 6 }} />
-        <div className="skeleton-box" style={{ width: 140, height: 40, borderRadius: 6 }} />
-        <div className="skeleton-box" style={{ width: 100, height: 40, borderRadius: 6 }} />
-      </div>
-      <div className="admin-skeleton-card">
-        <div className="admin-skeleton-card-header">
-          <div className="skeleton-box" style={{ width: 150, height: 20, borderRadius: 4 }} />
-        </div>
-        <div className="admin-skeleton-card-body">
-          {[1, 2, 3, 4, 5, 6].map(i => (
-            <div key={i} style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
-              <div className="skeleton-box" style={{ width: '30%', height: 16, borderRadius: 4 }} />
-              <div className="skeleton-box" style={{ flex: 1, height: 40, borderRadius: 6 }} />
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
 
   return (
     <AnimatePresence mode="wait">

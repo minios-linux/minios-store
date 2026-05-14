@@ -31,6 +31,28 @@ interface RecipeTranslationEditorProps {
   ) => Promise<string>;
 }
 
+function TranslationSkeleton() {
+  return (
+    <div className="admin-skeleton-content">
+      <div style={{ display: 'flex', gap: 16, marginBottom: 16 }}>
+        <div className="skeleton-box" style={{ width: 256, height: 40, borderRadius: 6 }} />
+        <div className="skeleton-box" style={{ width: 120, height: 40, borderRadius: 6 }} />
+      </div>
+      <div className="admin-skeleton-card">
+        <div className="admin-skeleton-card-body">
+          {[1, 2, 3, 4, 5].map(i => (
+            <div key={i} style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+              <div className="skeleton-box" style={{ width: '40%', height: 20, borderRadius: 4 }} />
+              <div className="skeleton-box" style={{ width: 80, height: 24, borderRadius: 12 }} />
+              <div className="skeleton-box" style={{ width: 100, height: 32, borderRadius: 6 }} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function RecipeTranslationEditor({
   onTranslateRecipe
 }: RecipeTranslationEditorProps) {
@@ -74,7 +96,7 @@ export function RecipeTranslationEditor({
   }, [selectedLang, t]);
 
   useEffect(() => {
-    loadTranslations();
+    void Promise.resolve().then(() => loadTranslations());
   }, [loadTranslations]);
 
   // Translate a single recipe
@@ -533,27 +555,6 @@ export function RecipeTranslationEditor({
     }
     return { translated: ok, total: enabled.length };
   }, [recipes]);
-
-  // Translation skeleton component
-  const TranslationSkeleton = () => (
-    <div className="admin-skeleton-content">
-      <div style={{ display: 'flex', gap: 16, marginBottom: 16 }}>
-        <div className="skeleton-box" style={{ width: 256, height: 40, borderRadius: 6 }} />
-        <div className="skeleton-box" style={{ width: 120, height: 40, borderRadius: 6 }} />
-      </div>
-      <div className="admin-skeleton-card">
-        <div className="admin-skeleton-card-body">
-          {[1, 2, 3, 4, 5].map(i => (
-            <div key={i} style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
-              <div className="skeleton-box" style={{ width: '40%', height: 20, borderRadius: 4 }} />
-              <div className="skeleton-box" style={{ width: 80, height: 24, borderRadius: 12 }} />
-              <div className="skeleton-box" style={{ width: 100, height: 32, borderRadius: 6 }} />
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
 
   if (recipes.length === 0 && !loading) {
     return (
