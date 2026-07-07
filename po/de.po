@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: minios-store 1.0.0\n"
 "Report-Msgid-Bugs-To: support@minios.dev\n"
-"POT-Creation-Date: 2026-02-14 20:35+0000\n"
-"PO-Revision-Date: 2026-02-14 20:35+0000\n"
+"POT-Creation-Date: 2026-06-28 12:02+0300\n"
+"PO-Revision-Date: 2026-06-28 09:02+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -15,243 +15,256 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: /home/live/minios-store/client/minios_store/gui.py:101
+#: client/minios_store/gui.py:95
 msgid "MiniOS Store Installer"
 msgstr "MiniOS Store Installer"
 
-#: /home/live/minios-store/client/minios_store/gui.py:219
+#: client/minios_store/gui.py:213
 msgid "Preparing..."
 msgstr "Vorbereitung..."
 
-#: /home/live/minios-store/client/minios_store/gui.py:266
+#: client/minios_store/gui.py:226 client/minios_store/gui.py:472
+#: client/minios_store/gui.py:476
+msgid "Installation Log"
+msgstr "Installationsprotokoll"
+
+#: client/minios_store/gui.py:270
 msgid "Cancel Installation"
 msgstr "Installation abbrechen"
 
-#: /home/live/minios-store/client/minios_store/gui.py:275
-msgid "Done"
-msgstr "Fertig"
-
-#: /home/live/minios-store/client/minios_store/gui.py:282
+#: client/minios_store/gui.py:279
 msgid "Open Folder"
 msgstr "Ordner öffnen"
 
-#: /home/live/minios-store/client/minios_store/gui.py:293
+#: client/minios_store/gui.py:285
+msgid "Done"
+msgstr "Fertig"
+
+#: client/minios_store/gui.py:297
 msgid "System install"
 msgstr "Systeminstallation"
 
-#: /home/live/minios-store/client/minios_store/gui.py:295
+#: client/minios_store/gui.py:299
 msgid "Separate modules"
 msgstr "Getrennte Module"
 
-#: /home/live/minios-store/client/minios_store/gui.py:296
+#: client/minios_store/gui.py:300
 msgid "Single module"
 msgstr "Einzelnes Modul"
 
-#: /home/live/minios-store/client/minios_store/gui.py:324
+#: client/minios_store/gui.py:328
 msgid "Starting installation..."
 msgstr "Installation wird gestartet..."
 
-#: /home/live/minios-store/client/minios_store/gui.py:326
+#: client/minios_store/gui.py:330
 #, python-format
 msgid "Mode: %s | Packaging: %s"
 msgstr "Modus: %s | Paketierung: %s"
 
-#: /home/live/minios-store/client/minios_store/gui.py:330
+#: client/minios_store/gui.py:334
 #, python-format
 msgid "Packages: %s"
 msgstr "Pakete: %s"
 
-#: /home/live/minios-store/client/minios_store/gui.py:333
+#: client/minios_store/gui.py:337
 #, python-format
 msgid "Target: %s"
 msgstr "Ziel: %s"
 
-#: /home/live/minios-store/client/minios_store/gui.py:335
+#: client/minios_store/gui.py:339
 msgid "Warning: using fallback directory"
 msgstr "Warnung: Fallback-Verzeichnis wird verwendet"
 
-#: /home/live/minios-store/client/minios_store/gui.py:339
+#: client/minios_store/gui.py:343
 msgid "Installing..."
 msgstr "Installation läuft..."
 
-#: /home/live/minios-store/client/minios_store/gui.py:384
+#: client/minios_store/gui.py:388
 #, python-format
 msgid "Installing %d package(s)..."
 msgstr "%d Paket(e) werden installiert..."
 
-#: /home/live/minios-store/client/minios_store/gui.py:416
+#: client/minios_store/gui.py:420
 msgid "Unknown error"
 msgstr "Unbekannter Fehler"
 
-#: /home/live/minios-store/client/minios_store/gui.py:417
+#: client/minios_store/gui.py:421
 #, python-format
 msgid "Error: %s"
 msgstr "Fehler: %s"
 
-#: /home/live/minios-store/client/minios_store/gui.py:426
+#: client/minios_store/gui.py:430
 #, python-format
 msgid "Successfully installed: %s"
 msgstr "Erfolgreich installiert: %s"
 
-#: /home/live/minios-store/client/minios_store/gui.py:432
+#: client/minios_store/gui.py:436
 #, python-format
 msgid "Module: %s"
 msgstr "Modul: %s"
 
-#: /home/live/minios-store/client/minios_store/gui.py:436
+#: client/minios_store/gui.py:440
 #, python-format
 msgid "Location: %s"
 msgstr "Speicherort: %s"
 
-#: /home/live/minios-store/client/minios_store/gui.py:438
+#: client/minios_store/gui.py:442
 msgid "Installation complete"
 msgstr "Installation abgeschlossen"
 
-#: /home/live/minios-store/client/minios_store/gui.py:445
+#: client/minios_store/gui.py:449
 #, python-format
 msgid "Failed: %s"
 msgstr "Fehlgeschlagen: %s"
 
-#: /home/live/minios-store/client/minios_store/gui.py:447
-#: /home/live/minios-store/client/minios_store/gui.py:457
+#: client/minios_store/gui.py:451 client/minios_store/gui.py:461
 msgid "Installation failed"
 msgstr "Installation fehlgeschlagen"
 
-#: /home/live/minios-store/client/minios_store/gui.py:456
+#: client/minios_store/gui.py:460
 #, python-format
 msgid "Fatal error: %s"
 msgstr "Installation fehlgeschlagen"
 
-#: /home/live/minios-store/client/minios_store/gui.py:470
-#: /home/live/minios-store/client/minios_store/gui.py:471
+#: client/minios_store/gui.py:487 client/minios_store/gui.py:488
 msgid "Cancelling..."
 msgstr "Schwerwiegender Fehler: %s"
 
-#: /home/live/minios-store/client/minios_store/gui.py:545
+#: client/minios_store/gui.py:559
 msgid "Root Privileges Required"
 msgstr "Abbruch läuft..."
 
-#: /home/live/minios-store/client/minios_store/gui.py:548
+#: client/minios_store/gui.py:562
 msgid ""
 "This installer must be run as root.\n"
 "Use the MiniOS Store URI handler or run with pkexec."
 msgstr "Abbruch läuft..."
 
-#: /home/live/minios-store/client/minios_store/gui.py:555
+#: client/minios_store/gui.py:569
 msgid "Error: root privileges required. Run via pkexec or the URI handler."
 msgstr "Root-Rechte erforderlich"
 
-#: /home/live/minios-store/client/minios_store/installer.py:119
+#: client/minios_store/installer.py:119
 msgid "Installation cancelled by user"
 msgstr ""
 "Dieser Installer muss als root ausgeführt werden.\n"
 "Nutze den MiniOS Store URI-Handler oder starte mit pkexec."
 
-#: /home/live/minios-store/client/minios_store/installer.py:123
+#: client/minios_store/installer.py:123
 #, python-format
 msgid "Command failed (exit %d): %s"
 msgstr "Fehler: Root-Rechte erforderlich. Starte über pkexec oder den URI-Handler."
 
-#: /home/live/minios-store/client/minios_store/installer.py:140
+#: client/minios_store/installer.py:140
 #, python-format
 msgid "Failed to execute %s: %s"
 msgstr "Installation vom Benutzer abgebrochen"
 
-#: /home/live/minios-store/client/minios_store/installer.py:179
-#: /home/live/minios-store/client/minios_store/installer.py:368
+#: client/minios_store/installer.py:179 client/minios_store/installer.py:368
 msgid "No packages specified for apt method"
 msgstr "Befehl fehlgeschlagen (Exit %d): %s"
 
-#: /home/live/minios-store/client/minios_store/installer.py:205
-#: /home/live/minios-store/client/minios_store/installer.py:352
+#: client/minios_store/installer.py:205 client/minios_store/installer.py:352
 #, python-format
 msgid "Module file not found after apt2sb: %s"
 msgstr "Ausführen von %s fehlgeschlagen: %s"
 
-#: /home/live/minios-store/client/minios_store/installer.py:226
-#: /home/live/minios-store/client/minios_store/installer.py:399
+#: client/minios_store/installer.py:226 client/minios_store/installer.py:399
 msgid "No script specified for script method"
 msgstr "Keine Pakete für apt-Methode angegeben"
 
-#: /home/live/minios-store/client/minios_store/installer.py:269
+#: client/minios_store/installer.py:269
 #, python-format
 msgid "Module file not found after script2sb: %s"
 msgstr "Moduldatei nach apt2sb nicht gefunden: %s"
 
-#: /home/live/minios-store/client/minios_store/installer.py:292
-#: /home/live/minios-store/client/minios_store/installer.py:433
+#: client/minios_store/installer.py:292 client/minios_store/installer.py:433
 msgid "No debUrl specified for deb method"
 msgstr "Kein Skript für script-Methode angegeben"
 
-#: /home/live/minios-store/client/minios_store/installer.py:321
-#: /home/live/minios-store/client/minios_store/installer.py:460
+#: client/minios_store/installer.py:321 client/minios_store/installer.py:460
 #, python-format
 msgid "Failed to download %s: %s"
 msgstr "Moduldatei nach script2sb nicht gefunden: %s"
 
-#: /home/live/minios-store/client/minios_store/installer.py:506
-#: /home/live/minios-store/client/minios_store/installer.py:528
+#: client/minios_store/installer.py:506 client/minios_store/installer.py:528
 #, python-format
 msgid "Unknown install method: %s"
 msgstr "Kein debUrl für deb-Methode angegeben"
 
-#: /home/live/minios-store/client/minios_store/installer.py:589
+#: client/minios_store/installer.py:589
 #, python-format
 msgid "Building module for %s"
 msgstr "Download von %s fehlgeschlagen: %s"
 
-#: /home/live/minios-store/client/minios_store/installer.py:599
+#: client/minios_store/installer.py:599
 msgid "Module ready"
 msgstr "Unbekannte Installationsmethode: %s"
 
-#: /home/live/minios-store/client/minios_store/installer.py:620
+#: client/minios_store/installer.py:620
 #, python-format
 msgid "Installing %s"
 msgstr "Baue Modul für %s"
 
-#: /home/live/minios-store/client/minios_store/installer.py:630
+#: client/minios_store/installer.py:630
 msgid "Installed to system"
 msgstr "Modul bereit"
 
-#: /home/live/minios-store/client/minios_store/installer.py:761
+#: client/minios_store/installer.py:761
 #, python-format
 msgid "%d modules"
 msgstr "Installiere %s"
 
-#: /home/live/minios-store/client/minios_store/installer.py:821
+#: client/minios_store/installer.py:821
 #, python-format
 msgid "Installed to system: %s"
 msgstr "Im System installiert"
 
-#: /home/live/minios-store/client/minios_store/installer.py:833
-#: /home/live/minios-store/client/minios_store/installer.py:922
-#: /home/live/minios-store/client/minios_store/installer.py:1064
-#: /home/live/minios-store/client/minios_store/installer.py:1143
+#: client/minios_store/installer.py:833 client/minios_store/installer.py:922
+#: client/minios_store/installer.py:1064 client/minios_store/installer.py:1143
 msgid "Installation cancelled"
 msgstr "%d Module"
 
-#: /home/live/minios-store/client/minios_store/installer.py:851
-#: /home/live/minios-store/client/minios_store/installer.py:940
+#: client/minios_store/installer.py:851 client/minios_store/installer.py:940
 #, python-format
 msgid "Failed to install %s: %s"
 msgstr "Im System installiert: %s"
 
-#: /home/live/minios-store/client/minios_store/installer.py:912
-#: /home/live/minios-store/client/minios_store/installer.py:1055
-#: /home/live/minios-store/client/minios_store/installer.py:1134
+#: client/minios_store/installer.py:912 client/minios_store/installer.py:1055
+#: client/minios_store/installer.py:1134
 #, python-format
 msgid "Module built: %s"
 msgstr "Installation abgebrochen"
 
-#: /home/live/minios-store/client/minios_store/installer.py:969
+#: client/minios_store/installer.py:969
 msgid "Combined module"
 msgstr "Installation von %s fehlgeschlagen: %s"
 
-#: /home/live/minios-store/client/minios_store/installer.py:977
+#: client/minios_store/installer.py:977
 #, python-format
 msgid "Building single module for %d recipe(s)"
 msgstr "Modul erstellt: %s"
 
-#: /home/live/minios-store/client/minios_store/installer.py:1008
+#: client/minios_store/installer.py:1008
 msgid "No packages specified"
 msgstr "Kombiniertes Modul"
+
+#: share/applications/minios-store-uri-handler.desktop:2
+msgid "MiniOS Store URI Handler"
+msgstr "MiniOS Store URI-Handler"
+
+#: share/applications/minios-store-uri-handler.desktop:3
+msgid "Handle minios-store:// protocol links"
+msgstr "Verarbeite minios-store:// Protokoll-Links"
+
+#: share/applications/minios-store.desktop:2
+msgid "MiniOS Store"
+msgstr "MiniOS Store"
+
+#: share/applications/minios-store.desktop:3
+msgid "Install applications for MiniOS"
+msgstr "Anwendungen für MiniOS installieren"
+
+#: share/applications/minios-store.desktop:9
+msgid "store;install;packages;modules;"
+msgstr "store;installieren;pakete;module;"

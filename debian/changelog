@@ -1,3 +1,10 @@
+minios-store (1.0.3) unstable; urgency=medium
+
+  * Remove junk from translation files
+  * Update some translations 
+
+ -- crims0n <crims0n@minios.dev>  Tue, 07 Jul 2026 17:07:23 +0300
+
 minios-store (1.0.2) unstable; urgency=medium
 
   * Add help options to WebSocket daemon and installer launcher
