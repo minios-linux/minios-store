@@ -4,9 +4,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: minios-store 1.0.0\n"
-"Report-Msgid-Bugs-To: support@minios.dev\n"
-"POT-Creation-Date: 2026-06-28 12:02+0300\n"
-"PO-Revision-Date: 2026-06-28 09:02+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 16:44+0300\n"
+"PO-Revision-Date: 2026-07-27 10:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: id\n"
@@ -15,95 +15,136 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: client/minios_store/gui.py:95
+#: client/minios_store/gui.py:32
+msgid "Error: GTK3 (python3-gi, gir1.2-gtk-3.0) is required"
+msgstr "Error: GTK3 (python3-gi, gir1.2-gtk-3.0) diperlukan"
+
+#: client/minios_store/gui.py:54
+#, python-format
+msgid "Invalid scheme: %s (expected minios-store)"
+msgstr "Skema tidak valid: %s (yang diharapkan minios-store)"
+
+#: client/minios_store/gui.py:60
+#, python-format
+msgid "Invalid action: %s (expected 'install')"
+msgstr "Aksi tidak valid: %s (yang diharapkan 'install')"
+
+#: client/minios_store/gui.py:67
+msgid "Missing 'recipes' parameter"
+msgstr "Parameter 'recipes' tidak ditemukan"
+
+#: client/minios_store/gui.py:73
+#, python-format
+msgid "Invalid recipe format: %s"
+msgstr "Format resep tidak valid: %s"
+
+#: client/minios_store/gui.py:94
 msgid "MiniOS Store Installer"
 msgstr "MiniOS Store Installer"
 
-#: client/minios_store/gui.py:213
+#: client/minios_store/gui.py:96
+msgid "minios-store:// URI"
+msgstr "URI minios-store://"
+
+#: client/minios_store/gui.py:102
+msgid "Comma-separated id:level:compression"
+msgstr "id:level:compression dipisahkan koma"
+
+#: client/minios_store/gui.py:117
+#, python-format
+msgid "Invalid recipe: %s"
+msgstr "Resep tidak valid: %s"
+
+#: client/minios_store/gui.py:212
 msgid "Preparing..."
 msgstr "Menyiapkan..."
 
-#: client/minios_store/gui.py:226 client/minios_store/gui.py:472
-#: client/minios_store/gui.py:476
+#: client/minios_store/gui.py:225 client/minios_store/gui.py:471
+#: client/minios_store/gui.py:475
 msgid "Installation Log"
 msgstr "Log Instalasi"
 
-#: client/minios_store/gui.py:270
+#: client/minios_store/gui.py:269
 msgid "Cancel Installation"
 msgstr "Batalkan Instalasi"
 
-#: client/minios_store/gui.py:279
+#: client/minios_store/gui.py:278
 msgid "Open Folder"
 msgstr "Buka Folder"
 
-#: client/minios_store/gui.py:285
+#: client/minios_store/gui.py:284
 msgid "Done"
 msgstr "Selesai"
 
-#: client/minios_store/gui.py:297
+#: client/minios_store/gui.py:296
 msgid "System install"
 msgstr "Instalasi sistem"
 
-#: client/minios_store/gui.py:299
+#: client/minios_store/gui.py:298
 msgid "Separate modules"
 msgstr "Modul terpisah"
 
-#: client/minios_store/gui.py:300
+#: client/minios_store/gui.py:299
 msgid "Single module"
 msgstr "Modul tunggal"
 
-#: client/minios_store/gui.py:328
+#: client/minios_store/gui.py:327
 msgid "Starting installation..."
 msgstr "Memulai instalasi..."
 
-#: client/minios_store/gui.py:330
+#: client/minios_store/gui.py:329
 #, python-format
 msgid "Mode: %s | Packaging: %s"
 msgstr "Mode: %s | Packaging: %s"
 
-#: client/minios_store/gui.py:334
+#: client/minios_store/gui.py:333
 #, python-format
 msgid "Packages: %s"
 msgstr "Paket: %s"
 
-#: client/minios_store/gui.py:337
+#: client/minios_store/gui.py:336
 #, python-format
 msgid "Target: %s"
 msgstr "Target: %s"
 
-#: client/minios_store/gui.py:339
+#: client/minios_store/gui.py:338
 msgid "Warning: using fallback directory"
 msgstr "Peringatan: menggunakan direktori cadangan"
 
-#: client/minios_store/gui.py:343
+#: client/minios_store/gui.py:342
 msgid "Installing..."
 msgstr "Menginstal..."
 
-#: client/minios_store/gui.py:388
+#: client/minios_store/gui.py:387
 #, python-format
 msgid "Installing %d package(s)..."
 msgstr "Menginstal %d paket..."
 
-#: client/minios_store/gui.py:420
+#: client/minios_store/gui.py:400
+#, python-format
+msgid "%s - %s (%d/%d)"
+msgstr "%s - %s (%d/%d)"
+
+#: client/minios_store/gui.py:419
 msgid "Unknown error"
 msgstr "Kesalahan tidak diketahui"
 
-#: client/minios_store/gui.py:421
+#: client/minios_store/gui.py:420 client/minios_store/gui.py:580
 #, python-format
 msgid "Error: %s"
 msgstr "Kesalahan: %s"
 
-#: client/minios_store/gui.py:430
+#: client/minios_store/gui.py:429
 #, python-format
 msgid "Successfully installed: %s"
 msgstr "Berhasil diinstal: %s"
 
-#: client/minios_store/gui.py:436
+#: client/minios_store/gui.py:435
 #, python-format
 msgid "Module: %s"
 msgstr "Modul: %s"
 
-#: client/minios_store/gui.py:440
+#: client/minios_store/gui.py:439
 #, python-format
 msgid "Location: %s"
 msgstr "Lokasi: %s"
@@ -117,24 +158,24 @@ msgstr "Instalasi selesai"
 msgid "Failed: %s"
 msgstr "Gagal: %s"
 
-#: client/minios_store/gui.py:451 client/minios_store/gui.py:461
+#: client/minios_store/gui.py:450 client/minios_store/gui.py:460
 msgid "Installation failed"
 msgstr "Instalasi gagal"
 
-#: client/minios_store/gui.py:460
+#: client/minios_store/gui.py:459
 #, python-format
 msgid "Fatal error: %s"
 msgstr "Kesalahan fatal: %s"
 
-#: client/minios_store/gui.py:487 client/minios_store/gui.py:488
+#: client/minios_store/gui.py:486 client/minios_store/gui.py:487
 msgid "Cancelling..."
 msgstr "Membatalkan..."
 
-#: client/minios_store/gui.py:559
+#: client/minios_store/gui.py:558
 msgid "Root Privileges Required"
 msgstr "Hak akses root diperlukan"
 
-#: client/minios_store/gui.py:562
+#: client/minios_store/gui.py:561
 msgid ""
 "This installer must be run as root.\n"
 "Use the MiniOS Store URI handler or run with pkexec."
@@ -142,7 +183,7 @@ msgstr ""
 "Installer ini harus dijalankan sebagai root.\n"
 "Gunakan URI handler MiniOS Store atau jalankan dengan pkexec."
 
-#: client/minios_store/gui.py:569
+#: client/minios_store/gui.py:568
 msgid "Error: root privileges required. Run via pkexec or the URI handler."
 msgstr "Kesalahan: hak akses root diperlukan. Jalankan melalui pkexec atau URI handler."
 
@@ -215,6 +256,10 @@ msgstr "Terinstal ke sistem"
 msgid "%d modules"
 msgstr "%d modul"
 
+#: client/minios_store/installer.py:806 client/minios_store/installer.py:897
+msgid "[{}/{}] {} - {}"
+msgstr "[{}/{}] {} - {}"
+
 #: client/minios_store/installer.py:821
 #, python-format
 msgid "Installed to system: %s"
@@ -249,6 +294,90 @@ msgstr "Membangun modul tunggal untuk %d resep"
 msgid "No packages specified"
 msgstr "Tidak ada paket yang ditentukan"
 
+#: client/minios_store/launcher.py:121
+msgid "Launch MiniOS Store"
+msgstr "Luncurkan MiniOS Store"
+
+#: client/minios_store/launcher.py:184
+msgid "Starting MiniOS Store..."
+msgstr "Memulai MiniOS Store..."
+
+#: client/minios_store/launcher.py:202
+msgid "Retry"
+msgstr "Coba Lagi"
+
+#: client/minios_store/launcher.py:208
+msgid "Close"
+msgstr "Tutup"
+
+#: client/minios_store/launcher.py:235 client/minios_store/launcher.py:243
+msgid "Connecting to MiniOS Store..."
+msgstr "Menghubungkan ke MiniOS Store..."
+
+#: client/minios_store/launcher.py:248
+msgid "MiniOS Store is unavailable. Check your network connection."
+msgstr "MiniOS Store tidak tersedia. Periksa koneksi jaringan Anda."
+
+#: client/minios_store/launcher.py:253
+msgid "Opening the browser..."
+msgstr "Membuka browser..."
+
+#: client/minios_store/launcher.py:257
+msgid "Could not open the default browser."
+msgstr "Tidak dapat membuka browser default."
+
+#: client/minios_store/server.py:84
+msgid "Invalid JSON message"
+msgstr "Pesan JSON tidak valid"
+
+#: client/minios_store/server.py:110
+msgid "Unknown message type: {}"
+msgstr "Tipe pesan tidak dikenal: {}"
+
+#: client/minios_store/server.py:123
+msgid "Another installation is already in progress"
+msgstr "Proses instalasi lain sedang berlangsung"
+
+#: client/minios_store/server.py:131
+msgid "No recipes provided"
+msgstr "Tidak ada resep yang diberikan"
+
+#: client/minios_store/server.py:142
+msgid "Invalid mode '{}'"
+msgstr "Mode tidak valid '{}'"
+
+#: client/minios_store/server.py:154
+msgid "Invalid packaging '{}'"
+msgstr "Packaging tidak valid '{}'"
+
+#: client/minios_store/server.py:163
+msgid "Recipe missing 'id' field"
+msgstr "Resep tidak memiliki field 'id'"
+
+#: client/minios_store/server.py:169
+msgid "Invalid method '{}' for recipe '{}'"
+msgstr "Metode '{}' tidak valid untuk resep '{}'"
+
+#: client/minios_store/server.py:228
+msgid "Unexpected error: {}"
+msgstr "Terjadi error tak terduga: {}"
+
+#: client/minios_store/server.py:246
+msgid "Cancelling installation..."
+msgstr "Membatalkan instalasi..."
+
+#: client/minios_store/server.py:252
+msgid "No installation in progress to cancel"
+msgstr "Tidak ada instalasi yang sedang berjalan untuk dibatalkan"
+
+#: client/minios_store/server.py:301
+msgid "Folder does not exist: {}"
+msgstr "Folder tidak ditemukan: {}"
+
+#: client/minios_store/server.py:366
+msgid "Failed to open folder: no working file manager found"
+msgstr "Gagal membuka folder: file manager tidak ditemukan"
+
 #: share/applications/minios-store-uri-handler.desktop:2
 msgid "MiniOS Store URI Handler"
 msgstr "Penangan URI MiniOS Store"
@@ -268,3 +397,6 @@ msgstr "Instal aplikasi untuk MiniOS"
 #: share/applications/minios-store.desktop:9
 msgid "store;install;packages;modules;"
 msgstr "store;install;paket;modul;"
+
+#~ msgid "Waiting for the local installation service..."
+#~ msgstr "Menunggu layanan instalasi lokal..."

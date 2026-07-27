@@ -283,7 +283,7 @@ export const CategoryManager = forwardRef<ManagerHandle, CategoryManagerProps>(
               <div className="space-y-2">
                 <Label>{t('Category ID')}</Label>
                 <Input
-                  placeholder="e.g. internet"
+                  placeholder={t('e.g. internet')}
                   value={formData.id}
                   onChange={e => setFormData(prev => ({
                     ...prev,
@@ -296,7 +296,7 @@ export const CategoryManager = forwardRef<ManagerHandle, CategoryManagerProps>(
               <div className="space-y-2">
                 <Label>{t('Name')}</Label>
                 <Input
-                  placeholder="e.g. Internet"
+                  placeholder={t('e.g. {{name}}').replace('{{name}}', 'Internet')}
                   value={formData.name}
                   onChange={e => setFormData(prev => ({ ...prev, name: e.target.value }))}
                 />

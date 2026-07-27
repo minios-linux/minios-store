@@ -398,6 +398,20 @@ function TranslationSkeleton() {
 
 export function TranslationEditor() {
   const { t } = useTranslation();
+  const providerDescriptions: Record<string, string> = {
+    google: t('Gemini 2.5 (requires proxy outside US/EU)'),
+    groq: t('Llama 3.3 70B (fast)'),
+    opencode: t('Free & paid models'),
+    'opencode-local': t('Uses locally installed opencode CLI'),
+    'custom-openai': t('Any OpenAI-compatible endpoint'),
+    ollama: t('Local Ollama server'),
+    'gemini-cli': t('Uses locally installed gemini CLI (requires GOOGLE_CLOUD_PROJECT)'),
+    'copilot-cli': t('Uses locally installed GitHub Copilot CLI'),
+  };
+  const providers = AI_PROVIDERS.map(provider => ({
+    ...provider,
+    description: providerDescriptions[provider.id] || provider.description
+  }));
   const [activeTab, setActiveTab] = useState<'ui' | 'recipes'>('ui');
   const [languages, setLanguages] = useState<LanguageOption[]>([]);
   const [selectedLang, setSelectedLang] = useState<string>('');
@@ -695,14 +709,14 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
       const res = await fetch('/api/translations/sync', { method: 'POST' });
       const data = await res.json();
       if (data.added > 0 || data.removed > 0) {
-        toast.success(`Synced: +${data.added} -${data.removed} keys`);
+        toast.success(t('Synced: +{{added}} -{{removed}} keys').replace('{{added}}', String(data.added)).replace('{{removed}}', String(data.removed)));
         loadLanguages();
         loadStats();
       } else {
-        toast.info('Already in sync');
+        toast.info(t('Already in sync'));
       }
     } catch {
-      toast.error('Sync failed');
+      toast.error(t('Sync failed'));
     } finally {
       setSyncing(false);
     }
@@ -752,7 +766,7 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
   // Add new language
   const handleAddLanguage = async () => {
     if (!newLangCode || !newLangName) {
-      toast.error('Language code and name are required');
+      toast.error(t('Language code and name are required'));
       return;
     }
 
@@ -771,7 +785,7 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
       const data = await response.json();
 
       if (response.ok) {
-        toast.success(`Language "${newLangName}" created with ${data.keys} keys`);
+        toast.success(t('Language "{{name}}" created with {{keys}} keys').replace('{{name}}', newLangName).replace('{{keys}}', String(data.keys)));
         setShowAddLang(false);
         setNewLangCode('');
         setNewLangName('');
@@ -780,10 +794,10 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
         loadStats();
         setSelectedLang(newLangCode.trim());
       } else {
-        toast.error(data.error || 'Failed to create language');
+        toast.error(data.error || t('Failed to create language'));
       }
     } catch {
-      toast.error('Failed to create language');
+      toast.error(t('Failed to create language'));
     } finally {
       setAddingLang(false);
     }
@@ -817,14 +831,14 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
       const data = await response.json();
 
       if (response.ok) {
-        toast.success('Language updated');
+        toast.success(t('Language updated'));
         setShowEditLang(false);
         loadLanguages();
       } else {
-        toast.error(data.error || 'Failed to update language');
+        toast.error(data.error || t('Failed to update language'));
       }
     } catch {
-      toast.error('Failed to update language');
+      toast.error(t('Failed to update language'));
     } finally {
       setSavingLang(false);
     }
@@ -832,7 +846,7 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
 
   // Delete language
   const handleDeleteLanguage = async () => {
-    if (!confirm(`Are you sure you want to delete "${editLangName}" (${editLangCode})? This cannot be undone.`)) {
+    if (!confirm(t('Are you sure you want to delete "{{name}}" ({{code}})? This cannot be undone.').replace('{{name}}', editLangName).replace('{{code}}', editLangCode))) {
       return;
     }
 
@@ -847,16 +861,16 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
       const data = await response.json();
 
       if (response.ok) {
-        toast.success(`Language "${editLangName}" deleted`);
+        toast.success(t('Language "{{name}}" deleted').replace('{{name}}', editLangName));
         setShowEditLang(false);
         setSelectedLang('en');
         loadLanguages();
         loadStats();
       } else {
-        toast.error(data.error || 'Failed to delete language');
+        toast.error(data.error || t('Failed to delete language'));
       }
     } catch {
-      toast.error('Failed to delete language');
+      toast.error(t('Failed to delete language'));
     } finally {
       setDeletingLang(false);
     }
@@ -865,17 +879,17 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
   // Clear all translations for current language only
   const handleClearCurrentLanguage = async () => {
     if (!selectedLang) {
-      toast.error('Please select a language');
+      toast.error(t('Please select a language'));
       return;
     }
 
     if (selectedLang === 'en') {
-      toast.error('Cannot clear English language');
+      toast.error(t('Cannot clear English language'));
       return;
     }
 
     const langName = languages.find(l => l.code === selectedLang)?.name || selectedLang;
-    if (!confirm(`Are you sure you want to clear ALL translations for "${langName}"? This will set all values to empty strings. This action cannot be undone.`)) {
+    if (!confirm(t('Are you sure you want to clear ALL translations for "{{name}}"? This will set all values to empty strings. This action cannot be undone.').replace('{{name}}', langName))) {
       return;
     }
 
@@ -896,15 +910,15 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
 
       if (response.ok) {
         setTranslations(emptyTranslations);
-        toast.success(`All translations cleared for "${langName}"`);
+        toast.success(t('All translations cleared for "{{name}}"').replace('{{name}}', langName));
         loadStats();
       } else {
         const data = await response.json();
-        toast.error(data.error || 'Failed to clear translations');
+        toast.error(data.error || t('Failed to clear translations'));
       }
     } catch (error) {
       console.error('Failed to clear translations:', error);
-      toast.error('Failed to clear translations');
+      toast.error(t('Failed to clear translations'));
     }
   };
 
@@ -914,11 +928,11 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
     const languageCount = languagesToClear.length;
     
     if (languageCount === 0) {
-      toast.error('No languages available to clear (English is protected)');
+      toast.error(t('No languages available to clear (English is protected)'));
       return;
     }
 
-    if (!confirm(`Are you sure you want to clear ALL translations for ${languageCount} languages (excluding English)? This will set all values to empty strings. This action cannot be undone.`)) {
+    if (!confirm(t('Are you sure you want to clear ALL translations for {{count}} languages (excluding English)? This will set all values to empty strings. This action cannot be undone.').replace('{{count}}', String(languageCount)))) {
       return;
     }
 
@@ -961,13 +975,13 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
       loadStats();
 
       if (failCount === 0) {
-        toast.success(`All translations cleared for ${successCount} languages`);
+        toast.success(t('All translations cleared for {{count}} languages').replace('{{count}}', String(successCount)));
       } else {
-        toast.warning(`Cleared ${successCount} languages, failed ${failCount}`);
+        toast.warning(t('Cleared {{success}} languages, failed {{failed}}').replace('{{success}}', String(successCount)).replace('{{failed}}', String(failCount)));
       }
     } catch (error) {
       console.error('Failed to clear translations:', error);
-      toast.error('Failed to clear translations');
+      toast.error(t('Failed to clear translations'));
     }
   };
 
@@ -992,33 +1006,33 @@ Focus on how a native {{targetLang}} speaker in the tech community would natural
 
       if (response.ok) {
         setTranslations(updatedTranslations);
-        toast.success('Translation cleared');
+        toast.success(t('Translation cleared'));
         loadStats();
       } else {
         const data = await response.json();
-        toast.error(data.error || 'Failed to clear translation');
+        toast.error(data.error || t('Failed to clear translation'));
       }
     } catch (error) {
       console.error('Failed to clear translation:', error);
-      toast.error('Failed to clear translation');
+      toast.error(t('Failed to clear translation'));
     }
   };
 
   // Translate language name to native language and get flag using AI
   const translateLanguageName = async (langCode: string, currentName: string, isEdit: boolean) => {
-    const provider = AI_PROVIDERS.find(p => p.id === selectedProvider);
+    const provider = providers.find(p => p.id === selectedProvider);
     if (!provider) {
       toast.error(t('Please select an AI provider'));
       return;
     }
 
     if (!apiKey && selectedProvider !== 'opencode' && selectedProvider !== 'opencode-local' && selectedProvider !== 'gemini-cli') {
-      toast.error('Please enter your API key');
+      toast.error(t('Please enter your API key'));
       return;
     }
 
     if (selectedProvider === 'gemini-cli' && !googleProjectId) {
-      toast.error('Please enter GOOGLE_CLOUD_PROJECT');
+      toast.error(t('Please enter GOOGLE_CLOUD_PROJECT'));
       return;
     }
 
@@ -1074,7 +1088,7 @@ Return ONLY a JSON object like this, nothing else:
         });
       }
 
-      if (!response.ok) throw new Error('API error');
+      if (!response.ok) throw new Error(t('API error'));
 
       const data = await response.json();
       console.log('[Auto-fill] Raw response:', JSON.stringify(data).substring(0, 1000));
@@ -1153,7 +1167,7 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
     if (provider.id === 'custom-openai') {
       endpoint = customEndpoint || '';
       if (!endpoint) {
-        throw new Error('Custom endpoint is required for Custom OpenAI provider');
+        throw new Error(t('Custom endpoint is required for Custom OpenAI provider'));
       }
     } else if (provider.id === 'ollama') {
       endpoint = customEndpoint || 'http://localhost:11434/v1/chat/completions';
@@ -1229,10 +1243,10 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
 
         // Check for known Gemini bug with OpenCode
         if (errorText.includes('promptTokenCount')) {
-          throw new Error('Gemini models have a known bug with OpenCode API. Please switch to a different model (e.g., big-pickle, claude-3-5-sonnet, or use Groq).');
+          throw new Error(t('Gemini models have a known bug with OpenCode API. Please switch to a different model (e.g., big-pickle, claude-3-5-sonnet, or use Groq).'));
         }
 
-        let errorMessage = `API error ${response.status}`;
+        let errorMessage = t('API error {{status}}').replace('{{status}}', String(response.status));
         try {
           const errorData = JSON.parse(errorText);
           if (errorData.error) {
@@ -1240,7 +1254,7 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
             if (errorData.stderr && errorData.stderr.includes('exhausted your capacity')) {
               const quotaMatch = errorData.stderr.match(/You have exhausted your capacity on this model[^.]*\./);
               if (quotaMatch) {
-                errorMessage = `Gemini API: ${quotaMatch[0]}`;
+                errorMessage = t('Gemini API: {{error}}').replace('{{error}}', quotaMatch[0]);
                 console.error('[AI Translate] QUOTA ERROR:', quotaMatch[0]);
               }
             }
@@ -1262,7 +1276,7 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
       if (!content || content.trim() === '') {
         const keysCount = Object.keys(keysToTranslate).length;
         console.error('[AI Translate] Empty content. Full response:', JSON.stringify(data, null, 2).substring(0, 2000));
-        throw new Error(`AI returned empty response. Request may be too large (${keysCount} keys). Try reducing Batch size to 50 or less.`);
+        throw new Error(t('AI returned empty response. Request may be too large ({{count}} keys). Try reducing Batch size to 50 or less.').replace('{{count}}', String(keysCount)));
       }
 
       let jsonStr = content.trim();
@@ -1274,13 +1288,13 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
       const jsonMatch = jsonStr.match(/\{[\s\S]*\}/);
       if (!jsonMatch) {
         console.error('[AI Translate] No JSON found in response:', content);
-        throw new Error('AI response does not contain valid JSON');
+        throw new Error(t('AI response does not contain valid JSON'));
       }
 
       return JSON.parse(jsonMatch[0]);
     }
 
-    throw new Error('Rate limit exceeded after retries');
+    throw new Error(t('Rate limit exceeded after retries'));
   };
 
   // Utility function for parallel execution with concurrency limit
@@ -1382,24 +1396,24 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
 
   // AI-powered translation for current language
   const handleAITranslate = async () => {
-    const provider = AI_PROVIDERS.find(p => p.id === selectedProvider);
+    const provider = providers.find(p => p.id === selectedProvider);
     if (!provider) {
-      toast.error('Please select an AI provider');
+      toast.error(t('Please select an AI provider'));
       return;
     }
 
     if (!apiKey && !['opencode', 'opencode-local', 'ollama', 'gemini-cli', 'copilot-cli'].includes(selectedProvider)) {
-      toast.error('Please enter your API key');
+      toast.error(t('Please enter your API key'));
       return;
     }
 
     if (selectedProvider === 'custom-openai' && !customEndpoint) {
-      toast.error('Please enter your API endpoint');
+      toast.error(t('Please enter your API endpoint'));
       return;
     }
 
     if (selectedProvider === 'gemini-cli' && !googleProjectId) {
-      toast.error('Please enter GOOGLE_CLOUD_PROJECT');
+      toast.error(t('Please enter GOOGLE_CLOUD_PROJECT'));
       return;
     }
 
@@ -1408,7 +1422,7 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
       .map(([key]) => key);
 
     if (emptyKeys.length === 0) {
-      toast.info('No untranslated keys');
+      toast.info(t('No untranslated keys'));
       return;
     }
 
@@ -1484,7 +1498,7 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
             console.log(`[AI Translate] Chunk ${i + 1} done:`, saved, 'keys saved');
           } catch (chunkError) {
             console.error(`[AI Translate] Chunk ${i + 1} failed:`, chunkError);
-            toast.error(`Chunk ${i + 1} failed, continuing...`);
+            toast.error(t('Chunk {{chunk}} failed, continuing...').replace('{{chunk}}', String(i + 1)));
           }
 
           if (i < chunks.length - 1) {
@@ -1496,13 +1510,13 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
       loadStats();
 
       if (totalTranslated > 0) {
-        toast.success(`Translated and saved ${totalTranslated} keys`);
+        toast.success(t('Translated and saved {{count}} keys').replace('{{count}}', String(totalTranslated)));
       } else {
-        toast.error('No translations received');
+        toast.error(t('No translations received'));
       }
     } catch (error) {
       console.error('AI translation error:', error);
-      toast.error(`Translation failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      toast.error(t('Translation failed: {{error}}').replace('{{error}}', error instanceof Error ? error.message : t('Unknown error')));
     } finally {
       setIsTranslatingAll(false);
       setTranslatingAllProgress(null);
@@ -1511,24 +1525,24 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
 
   // Translate all languages with missing translations
   const handleTranslateAllLanguages = async () => {
-    const provider = AI_PROVIDERS.find(p => p.id === selectedProvider);
+    const provider = providers.find(p => p.id === selectedProvider);
     if (!provider) {
-      toast.error('Please select an AI provider');
+      toast.error(t('Please select an AI provider'));
       return;
     }
 
     if (!apiKey && !['opencode', 'opencode-local', 'ollama', 'gemini-cli', 'copilot-cli'].includes(selectedProvider)) {
-      toast.error('Please enter your API key');
+      toast.error(t('Please enter your API key'));
       return;
     }
 
     if (selectedProvider === 'custom-openai' && !customEndpoint) {
-      toast.error('Please enter your API endpoint');
+      toast.error(t('Please enter your API endpoint'));
       return;
     }
 
     if (selectedProvider === 'gemini-cli' && !googleProjectId) {
-      toast.error('Please enter GOOGLE_CLOUD_PROJECT');
+      toast.error(t('Please enter GOOGLE_CLOUD_PROJECT'));
       return;
     }
 
@@ -1540,7 +1554,7 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
       });
 
     if (langsToTranslate.length === 0) {
-      toast.info('All languages are fully translated');
+      toast.info(t('All languages are fully translated'));
       return;
     }
 
@@ -1897,7 +1911,7 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
       }
     } catch (error) {
       console.error('[Translate All] Fatal error:', error);
-      toast.error(`Translation failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      toast.error(t('Translation failed: {{error}}').replace('{{error}}', error instanceof Error ? error.message : t('Unknown error')));
     } finally {
       setIsTranslatingAll(false);
       setTranslatingAllProgress(null);
@@ -1908,9 +1922,9 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
       }
 
       if (failCount === 0) {
-        toast.success(`Translated ${successCount} language${successCount !== 1 ? 's' : ''} (${totalKeysTranslated} keys)`);
+        toast.success(t('Translated {{languages}} language(s) ({{keys}} keys)').replace('{{languages}}', String(successCount)).replace('{{keys}}', String(totalKeysTranslated)));
       } else {
-        toast.warning(`Translated ${successCount} (${totalKeysTranslated} keys), failed ${failCount}`);
+        toast.warning(t('Translated {{languages}} ({{keys}} keys), failed {{failed}}').replace('{{languages}}', String(successCount)).replace('{{keys}}', String(totalKeysTranslated)).replace('{{failed}}', String(failCount)));
       }
     }
   };
@@ -1925,21 +1939,21 @@ ${JSON.stringify(keysToTranslate, null, 2)}`;
     targetLang: string,
     _onProgress?: (progress: string) => void
   ): Promise<string> => {
-    const provider = AI_PROVIDERS.find(p => p.id === selectedProvider);
+    const provider = providers.find(p => p.id === selectedProvider);
     if (!provider) {
-      throw new Error('Please select an AI provider');
+      throw new Error(t('Please select an AI provider'));
     }
 
     if (!apiKey && !['opencode', 'opencode-local', 'ollama', 'gemini-cli', 'copilot-cli'].includes(selectedProvider)) {
-      throw new Error('Please enter your API key');
+      throw new Error(t('Please enter your API key'));
     }
 
     if (selectedProvider === 'custom-openai' && !customEndpoint) {
-      throw new Error('Please enter your API endpoint');
+      throw new Error(t('Please enter your API endpoint'));
     }
 
     if (selectedProvider === 'gemini-cli' && !googleProjectId) {
-      throw new Error('Please enter GOOGLE_CLOUD_PROJECT');
+      throw new Error(t('Please enter GOOGLE_CLOUD_PROJECT'));
     }
 
     const modelToUse = selectedModel || provider.model;
@@ -2033,9 +2047,9 @@ ${sourceContent}`;
     if (!response.ok) {
       const errorText = await response.text();
       if (errorText.includes('promptTokenCount')) {
-        throw new Error('Gemini models have a known bug with OpenCode API. Please switch to a different model.');
+        throw new Error(t('Gemini models have a known bug with OpenCode API. Please switch to a different model.'));
       }
-      throw new Error(`API error ${response.status}`);
+      throw new Error(t('API error {{status}}').replace('{{status}}', String(response.status)));
     }
 
     const data = await response.json();
@@ -2045,11 +2059,11 @@ ${sourceContent}`;
 
     const contentResult = provider.extractResponse(data);
     if (!contentResult || contentResult.trim() === '') {
-      throw new Error('AI returned empty response');
+      throw new Error(t('AI returned empty response'));
     }
 
     return contentResult;
-  }, [selectedProvider, selectedModel, apiKey, customEndpoint, customModel, proxyUrl, requestTimeout, googleProjectId]);
+  }, [selectedProvider, selectedModel, apiKey, customEndpoint, customModel, proxyUrl, requestTimeout, googleProjectId, providers, t]);
 
   return (
     <AnimatePresence mode="wait">
@@ -2263,7 +2277,7 @@ ${sourceContent}`;
             <SearchableSelect
               value={selectedProvider}
               onChange={handleProviderChange}
-              options={AI_PROVIDERS.map(provider => ({
+              options={providers.map(provider => ({
                 value: provider.id,
                 label: provider.name,
               }))}
@@ -2282,8 +2296,8 @@ ${sourceContent}`;
                 availableModels.length > 0
                   ? availableModels.map(model => ({ value: model, label: model }))
                   : [{
-                    value: AI_PROVIDERS.find(p => p.id === selectedProvider)?.model || '',
-                    label: AI_PROVIDERS.find(p => p.id === selectedProvider)?.model || ''
+                    value: providers.find(p => p.id === selectedProvider)?.model || '',
+                    label: providers.find(p => p.id === selectedProvider)?.model || ''
                   }]
               }
               placeholder={loadingModels ? t('Loading...') : t('Select model')}
@@ -2336,7 +2350,7 @@ ${sourceContent}`;
                 <label className="text-xs text-muted-foreground mb-1 block">
                   {t('API Endpoint')}
                   <span className="opacity-60 ml-1">
-                    ({selectedProvider === 'ollama' ? 'http://localhost:11434/v1/chat/completions' : 'OpenAI-compatible'})
+                    ({selectedProvider === 'ollama' ? 'http://localhost:11434/v1/chat/completions' : t('OpenAI-compatible')})
                   </span>
                 </label>
                 <Input

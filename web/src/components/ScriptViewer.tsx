@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { Copy, Check } from 'lucide-react';
+import { useTranslation } from '@/contexts/LanguageContext';
 
 interface ScriptViewerProps {
   code: string;
@@ -10,6 +11,7 @@ interface ScriptViewerProps {
 }
 
 const ScriptViewer: React.FC<ScriptViewerProps> = ({ code, language = 'bash', filename }) => {
+  const { t } = useTranslation();
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
@@ -36,7 +38,7 @@ const ScriptViewer: React.FC<ScriptViewerProps> = ({ code, language = 'bash', fi
         <span>{filename || language}</span>
         <button className="script-viewer-copy" onClick={handleCopy}>
           {copied ? <Check size={14} /> : <Copy size={14} />}
-          {copied ? 'Copied' : 'Copy'}
+          {copied ? t('Copied') : t('Copy')}
         </button>
       </div>
       <SyntaxHighlighter

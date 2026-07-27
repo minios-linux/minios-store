@@ -349,7 +349,12 @@ export function RecipeTranslationEditor({
       // Progress callback
       const onProgress = (completed: number) => {
         setTranslationProgress(
-          `${targetLangName}: ${completed}/${tasks.length} ${t('recipes')} (${Math.round((completed / tasks.length) * 100)}%)`
+          t('{{lang}}: {{completed}}/{{total}} {{recipes}} ({{percent}}%)')
+            .replace('{{lang}}', targetLangName)
+            .replace('{{completed}}', String(completed))
+            .replace('{{total}}', String(tasks.length))
+            .replace('{{recipes}}', t('recipes'))
+            .replace('{{percent}}', String(Math.round((completed / tasks.length) * 100)))
         );
         setStructuredProgress({
           completed,
@@ -373,7 +378,7 @@ export function RecipeTranslationEditor({
 
     } catch (error) {
       console.error('[Recipe Translate] Fatal error:', error);
-      toast.error(`Translation failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      toast.error(t('Translation failed: {{error}}').replace('{{error}}', error instanceof Error ? error.message : t('Unknown error')));
     } finally {
       setTranslatingAll(false);
       setTranslationProgress('');
@@ -482,7 +487,12 @@ export function RecipeTranslationEditor({
       const onProgress = (completed: number, active: Array<{ lang?: string }>) => {
         const activeLangs = active.map(a => a.lang?.toUpperCase()).filter(Boolean).join(', ');
         setTranslationProgress(
-          `${completed}/${allTasks.length} ${t('recipes')} (${Math.round((completed / allTasks.length) * 100)}%)${activeLangs ? ` • ${activeLangs}` : ''}`
+          t('{{completed}}/{{total}} {{recipes}} ({{percent}}%){{activeLanguages}}')
+            .replace('{{completed}}', String(completed))
+            .replace('{{total}}', String(allTasks.length))
+            .replace('{{recipes}}', t('recipes'))
+            .replace('{{percent}}', String(Math.round((completed / allTasks.length) * 100)))
+            .replace('{{activeLanguages}}', activeLangs ? ` • ${activeLangs}` : '')
         );
         setStructuredProgress({
           completed,
@@ -511,7 +521,7 @@ export function RecipeTranslationEditor({
 
     } catch (error) {
       console.error('[Recipe Translate All] Fatal error:', error);
-      toast.error(`Translation failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      toast.error(t('Translation failed: {{error}}').replace('{{error}}', error instanceof Error ? error.message : t('Unknown error')));
     } finally {
       setTranslatingAll(false);
       setTranslationProgress('');

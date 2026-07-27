@@ -8,6 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { RefreshCw } from 'lucide-react';
 import { toast } from 'sonner';
+import { useTranslation } from '@/contexts/LanguageContext';
 import { updateMetaTags } from '@/lib/meta';
 import type { SEOConfig } from '@/lib/types';
 import type { ManagerHandle, StateChangeCallback } from './types';
@@ -56,6 +57,7 @@ interface Props {
 }
 
 export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, ref) => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState<SEOConfig>(DEFAULT_SEO);
   const [originalData, setOriginalData] = useState<SEOConfig>(DEFAULT_SEO);
   const [loading, setLoading] = useState(true);
@@ -145,7 +147,7 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
       });
 
       if (res.ok) {
-        toast.success('SEO settings saved successfully');
+        toast.success(t('SEO settings saved successfully'));
         setHasChanges(false);
         setOriginalData(formData);
         // Apply settings immediately
@@ -161,7 +163,7 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
       }
     } catch (error) {
       console.error('Save error:', error);
-      toast.error('Failed to save SEO settings');
+      toast.error(t('Failed to save SEO settings'));
     } finally {
       setIsSaving(false);
     }
@@ -170,13 +172,13 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
   const handleDiscard = () => {
     setFormData(originalData);
     setHasChanges(false);
-    toast.info('Changes discarded');
+    toast.info(t('Changes discarded'));
   };
 
   const handleReset = () => {
     setFormData(DEFAULT_SEO);
     setHasChanges(true);
-    toast.info('Settings reset to defaults');
+    toast.info(t('Settings reset to defaults'));
   };
 
   // Expose methods via ref
@@ -209,9 +211,9 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-2xl font-semibold text-fg-primary mb-2">SEO Settings</h2>
+          <h2 className="text-2xl font-semibold text-fg-primary mb-2">{t('SEO Settings')}</h2>
           <p className="text-fg-secondary text-sm">
-            Configure meta tags for search engines and social media sharing
+            {t('Configure meta tags for search engines and social media sharing')}
           </p>
         </div>
         <div className="flex gap-2">
@@ -222,7 +224,7 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
             disabled={isSaving}
           >
             <RefreshCw className="w-4 h-4 mr-2" />
-            Reset
+            {t('Reset')}
           </Button>
         </div>
       </div>
@@ -230,41 +232,41 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
       {/* Primary Meta Tags */}
       <Card>
         <CardHeader>
-          <CardTitle>Meta Tags</CardTitle>
-          <CardDescription>Primary SEO meta tags for search engines</CardDescription>
+          <CardTitle>{t('Meta Tags')}</CardTitle>
+          <CardDescription>{t('Primary SEO meta tags for search engines')}</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
-          {renderField('title', 'Title')}
-          {renderField('description', 'Description', true)}
-          {renderField('keywords', 'Keywords')}
-          {renderField('author', 'Author')}
-          {renderField('canonicalUrl', 'Canonical URL')}
+          {renderField('title', t('Title'))}
+          {renderField('description', t('Description'), true)}
+          {renderField('keywords', t('Keywords'))}
+          {renderField('author', t('Author'))}
+          {renderField('canonicalUrl', t('Canonical URL'))}
         </CardContent>
       </Card>
 
       {/* Open Graph */}
       <Card>
         <CardHeader>
-          <CardTitle>Open Graph</CardTitle>
-          <CardDescription>Social media sharing preview (Facebook, LinkedIn, etc.)</CardDescription>
+          <CardTitle>{t('Open Graph')}</CardTitle>
+          <CardDescription>{t('Social media sharing preview (Facebook, LinkedIn, etc.)')}</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
-          {renderField('ogImage', 'OG Image URL')}
-          <p className="text-xs text-muted-foreground">Recommended size: 1200×630px</p>
-          {renderField('ogSiteName', 'Site Name')}
-          <p className="text-xs text-muted-foreground">og:locale is auto-generated from available translations</p>
+          {renderField('ogImage', t('OG Image URL'))}
+          <p className="text-xs text-muted-foreground">{t('Recommended size: 1200×630px')}</p>
+          {renderField('ogSiteName', t('Site Name'))}
+          <p className="text-xs text-muted-foreground">{t('og:locale is auto-generated from available translations')}</p>
         </CardContent>
       </Card>
 
       {/* Twitter */}
       <Card>
         <CardHeader>
-          <CardTitle>Twitter</CardTitle>
-          <CardDescription>Twitter card settings</CardDescription>
+          <CardTitle>{t('Twitter')}</CardTitle>
+          <CardDescription>{t('Twitter card settings')}</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="space-y-1.5">
-            <Label>Card Type</Label>
+            <Label>{t('Card Type')}</Label>
             <Select
               value={formData.twitterCard || 'summary_large_image'}
               onValueChange={(value) => updateField('twitterCard', value)}
@@ -273,26 +275,26 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
                 <SelectValue />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="summary">Summary</SelectItem>
-                <SelectItem value="summary_large_image">Summary Large Image</SelectItem>
+                <SelectItem value="summary">{t('Summary')}</SelectItem>
+                <SelectItem value="summary_large_image">{t('Summary Large Image')}</SelectItem>
               </SelectContent>
             </Select>
           </div>
-          {renderField('twitterImage', 'Twitter Image URL (optional)')}
-          <p className="text-xs text-muted-foreground">Falls back to OG Image if empty</p>
+          {renderField('twitterImage', t('Twitter Image URL (optional)'))}
+          <p className="text-xs text-muted-foreground">{t('Falls back to OG Image if empty')}</p>
         </CardContent>
       </Card>
 
       {/* Verification & Analytics */}
       <Card>
         <CardHeader>
-          <CardTitle>Verification & Analytics</CardTitle>
-          <CardDescription>Search engine verification and analytics codes</CardDescription>
+          <CardTitle>{t('Verification & Analytics')}</CardTitle>
+          <CardDescription>{t('Search engine verification and analytics codes')}</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-1.5">
-              <Label>Yandex Verification</Label>
+              <Label>{t('Yandex Verification')}</Label>
               <Input
                 value={formData.yandexVerification || ''}
                 onChange={(e) => updateField('yandexVerification', e.target.value)}
@@ -301,7 +303,7 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
               />
             </div>
             <div className="space-y-1.5">
-              <Label>Google Verification</Label>
+              <Label>{t('Google Verification')}</Label>
               <Input
                 value={formData.googleVerification || ''}
                 onChange={(e) => updateField('googleVerification', e.target.value)}
@@ -312,7 +314,7 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-1.5">
-              <Label>Yandex Metrika ID</Label>
+              <Label>{t('Yandex Metrika ID')}</Label>
               <Input
                 value={formData.yandexMetrikaId || ''}
                 onChange={(e) => updateField('yandexMetrikaId', e.target.value)}
@@ -321,7 +323,7 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
               />
             </div>
             <div className="space-y-1.5">
-              <Label>Google Analytics ID</Label>
+              <Label>{t('Google Analytics ID')}</Label>
               <Input
                 value={formData.googleAnalyticsId || ''}
                 onChange={(e) => updateField('googleAnalyticsId', e.target.value)}
@@ -336,13 +338,13 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
       {/* Structured Data */}
       <Card>
         <CardHeader>
-          <CardTitle>Structured Data</CardTitle>
-          <CardDescription>JSON-LD schema for rich search results</CardDescription>
+          <CardTitle>{t('Structured Data')}</CardTitle>
+          <CardDescription>{t('JSON-LD schema for rich search results')}</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="grid grid-cols-3 gap-4">
             <div className="space-y-1.5">
-              <Label>Software Version</Label>
+              <Label>{t('Software Version')}</Label>
               <Input
                 value={formData.structuredData?.softwareVersion || ''}
                 onChange={(e) => updateField('structuredData.softwareVersion', e.target.value)}
@@ -350,7 +352,7 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
               />
             </div>
             <div className="space-y-1.5">
-              <Label>Rating Value</Label>
+              <Label>{t('Rating Value')}</Label>
               <Input
                 value={formData.structuredData?.ratingValue || ''}
                 onChange={(e) => updateField('structuredData.ratingValue', e.target.value)}
@@ -358,7 +360,7 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
               />
             </div>
             <div className="space-y-1.5">
-              <Label>Rating Count</Label>
+              <Label>{t('Rating Count')}</Label>
               <Input
                 value={formData.structuredData?.ratingCount || ''}
                 onChange={(e) => updateField('structuredData.ratingCount', e.target.value)}
@@ -372,12 +374,12 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
       {/* Sitemap Settings */}
       <Card>
         <CardHeader>
-          <CardTitle>Sitemap</CardTitle>
-          <CardDescription>External links to include in sitemap.xml</CardDescription>
+          <CardTitle>{t('Sitemap')}</CardTitle>
+          <CardDescription>{t('External links to include in sitemap.xml')}</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="space-y-1.5">
-            <Label>External Links</Label>
+            <Label>{t('External Links')}</Label>
             <Textarea
               value={(formData.sitemap?.externalLinks || []).join('\n')}
               onChange={(e) => {
@@ -394,7 +396,7 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
               placeholder="https://minios.dev/docs&#10;https://t.me/s/minios_news&#10;https://github.com/minios-linux/minios-store"
               className="font-mono text-xs h-32"
             />
-            <p className="text-xs text-muted-foreground">One URL per line</p>
+            <p className="text-xs text-muted-foreground">{t('One URL per line')}</p>
           </div>
         </CardContent>
       </Card>

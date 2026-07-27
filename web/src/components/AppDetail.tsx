@@ -253,7 +253,7 @@ const AppDetail: React.FC<AppDetailProps> = ({
                     >
                       <img
                         src={thumbSrc}
-                        alt={`${recipe.name} screenshot ${i + 1}`}
+                        alt={t('{{name}} screenshot {{number}}').replace('{{name}}', recipe.name).replace('{{number}}', String(i + 1))}
                         loading="lazy"
                         onError={(e) => {
                           // Fallback to full image if thumbnail doesn't exist
@@ -314,7 +314,7 @@ const AppDetail: React.FC<AppDetailProps> = ({
           {/* Image */}
           <img
             src={resolveScreenshot(screenshots[lightboxIndex])}
-            alt={`Screenshot ${lightboxIndex + 1} of ${screenshotCount}`}
+            alt={t('Screenshot {{current}} of {{total}}').replace('{{current}}', String(lightboxIndex + 1)).replace('{{total}}', String(screenshotCount))}
             onClick={(e) => e.stopPropagation()}
           />
 

@@ -1,109 +1,152 @@
-# Translations for minios-store.
-# Copyright (C) 2026 MiniOS Linux
-# This file is distributed under the same license as the minios-store package.
+# Portuguese translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: minios-store 1.0.0\n"
-"Report-Msgid-Bugs-To: support@minios.dev\n"
-"POT-Creation-Date: 2026-06-28 12:02+0300\n"
-"PO-Revision-Date: 2026-06-28 09:02+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Project-Id-Version: minios-store 1.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 16:44+0300\n"
+"PO-Revision-Date: 2026-07-27 10:25+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: client/minios_store/gui.py:95
+#: client/minios_store/gui.py:32
+msgid "Error: GTK3 (python3-gi, gir1.2-gtk-3.0) is required"
+msgstr "Erro: GTK3 (python3-gi, gir1.2-gtk-3.0) é necessário"
+
+#: client/minios_store/gui.py:54
+#, python-format
+msgid "Invalid scheme: %s (expected minios-store)"
+msgstr "Esquema inválido: %s (esperado minios-store)"
+
+#: client/minios_store/gui.py:60
+#, python-format
+msgid "Invalid action: %s (expected 'install')"
+msgstr "Ação inválida: %s (esperado 'install')"
+
+#: client/minios_store/gui.py:67
+msgid "Missing 'recipes' parameter"
+msgstr "Parâmetro 'recipes' ausente"
+
+#: client/minios_store/gui.py:73
+#, python-format
+msgid "Invalid recipe format: %s"
+msgstr "Formato de receita inválido: %s"
+
+#: client/minios_store/gui.py:94
 msgid "MiniOS Store Installer"
 msgstr "Instalador da MiniOS Store"
 
-#: client/minios_store/gui.py:213
+#: client/minios_store/gui.py:96
+msgid "minios-store:// URI"
+msgstr "URI minios-store://"
+
+#: client/minios_store/gui.py:102
+msgid "Comma-separated id:level:compression"
+msgstr "id:nivel:compressão separados por vírgula"
+
+#: client/minios_store/gui.py:117
+#, python-format
+msgid "Invalid recipe: %s"
+msgstr "Receita inválida: %s"
+
+#: client/minios_store/gui.py:212
 msgid "Preparing..."
 msgstr "Preparando..."
 
-#: client/minios_store/gui.py:226 client/minios_store/gui.py:472
-#: client/minios_store/gui.py:476
+#: client/minios_store/gui.py:225 client/minios_store/gui.py:471
+#: client/minios_store/gui.py:475
 msgid "Installation Log"
 msgstr "Log de Instalação"
 
-#: client/minios_store/gui.py:270
+#: client/minios_store/gui.py:269
 msgid "Cancel Installation"
-msgstr "Cancelar instalação"
+msgstr "Cancelar Instalação"
 
-#: client/minios_store/gui.py:279
+#: client/minios_store/gui.py:278
 msgid "Open Folder"
-msgstr "Abrir pasta"
+msgstr "Abrir Pasta"
 
-#: client/minios_store/gui.py:285
+#: client/minios_store/gui.py:284
 msgid "Done"
 msgstr "Concluído"
 
-#: client/minios_store/gui.py:297
+#: client/minios_store/gui.py:296
 msgid "System install"
-msgstr "Instalar no sistema"
+msgstr "Instalação do sistema"
 
-#: client/minios_store/gui.py:299
+#: client/minios_store/gui.py:298
 msgid "Separate modules"
 msgstr "Módulos separados"
 
-#: client/minios_store/gui.py:300
+#: client/minios_store/gui.py:299
 msgid "Single module"
 msgstr "Módulo único"
 
-#: client/minios_store/gui.py:328
+#: client/minios_store/gui.py:327
 msgid "Starting installation..."
 msgstr "Iniciando a instalação..."
 
-#: client/minios_store/gui.py:330
+#: client/minios_store/gui.py:329
 #, python-format
 msgid "Mode: %s | Packaging: %s"
 msgstr "Modo: %s | Empacotamento: %s"
 
-#: client/minios_store/gui.py:334
+#: client/minios_store/gui.py:333
 #, python-format
 msgid "Packages: %s"
 msgstr "Pacotes: %s"
 
-#: client/minios_store/gui.py:337
+#: client/minios_store/gui.py:336
 #, python-format
 msgid "Target: %s"
 msgstr "Destino: %s"
 
-#: client/minios_store/gui.py:339
+#: client/minios_store/gui.py:338
 msgid "Warning: using fallback directory"
 msgstr "Aviso: usando diretório alternativo"
 
-#: client/minios_store/gui.py:343
+#: client/minios_store/gui.py:342
 msgid "Installing..."
 msgstr "Instalando..."
 
-#: client/minios_store/gui.py:388
+#: client/minios_store/gui.py:387
 #, python-format
 msgid "Installing %d package(s)..."
 msgstr "Instalando %d pacote(s)..."
 
-#: client/minios_store/gui.py:420
+#: client/minios_store/gui.py:400
+#, python-format
+msgid "%s - %s (%d/%d)"
+msgstr "%s - %s (%d/%d)"
+
+#: client/minios_store/gui.py:419
 msgid "Unknown error"
 msgstr "Erro desconhecido"
 
-#: client/minios_store/gui.py:421
+#: client/minios_store/gui.py:420 client/minios_store/gui.py:580
 #, python-format
 msgid "Error: %s"
 msgstr "Erro: %s"
 
-#: client/minios_store/gui.py:430
+#: client/minios_store/gui.py:429
 #, python-format
 msgid "Successfully installed: %s"
 msgstr "Instalado com sucesso: %s"
 
-#: client/minios_store/gui.py:436
+#: client/minios_store/gui.py:435
 #, python-format
 msgid "Module: %s"
 msgstr "Módulo: %s"
 
-#: client/minios_store/gui.py:440
+#: client/minios_store/gui.py:439
 #, python-format
 msgid "Location: %s"
 msgstr "Localização: %s"
@@ -117,137 +160,225 @@ msgstr "Instalação concluída"
 msgid "Failed: %s"
 msgstr "Falha: %s"
 
-#: client/minios_store/gui.py:451 client/minios_store/gui.py:461
+#: client/minios_store/gui.py:450 client/minios_store/gui.py:460
 msgid "Installation failed"
 msgstr "Falha na instalação"
 
-#: client/minios_store/gui.py:460
+#: client/minios_store/gui.py:459
 #, python-format
 msgid "Fatal error: %s"
 msgstr "Erro fatal: %s"
 
-#: client/minios_store/gui.py:487 client/minios_store/gui.py:488
+#: client/minios_store/gui.py:486 client/minios_store/gui.py:487
 msgid "Cancelling..."
 msgstr "Cancelando..."
 
-#: client/minios_store/gui.py:559
+#: client/minios_store/gui.py:558
 msgid "Root Privileges Required"
-msgstr "Cancelando..."
+msgstr "Privilégios de root necessários"
 
-#: client/minios_store/gui.py:562
+#: client/minios_store/gui.py:561
 msgid ""
 "This installer must be run as root.\n"
 "Use the MiniOS Store URI handler or run with pkexec."
-msgstr "Privilégios de root necessários"
-
-#: client/minios_store/gui.py:569
-msgid "Error: root privileges required. Run via pkexec or the URI handler."
 msgstr ""
 "Este instalador deve ser executado como root.\n"
 "Use o manipulador de URI da MiniOS Store ou execute com pkexec."
 
+#: client/minios_store/gui.py:568
+msgid "Error: root privileges required. Run via pkexec or the URI handler."
+msgstr "Erro: privilégios de root necessários. Execute via pkexec ou pelo manipulador de URI."
+
 #: client/minios_store/installer.py:119
 msgid "Installation cancelled by user"
-msgstr "Erro: privilégios de root necessários. Execute via pkexec ou pelo manipulador de URI."
+msgstr "Instalação cancelada pelo usuário"
 
 #: client/minios_store/installer.py:123
 #, python-format
 msgid "Command failed (exit %d): %s"
-msgstr "Instalação cancelada pelo usuário"
+msgstr "Comando falhou (saída %d): %s"
 
 #: client/minios_store/installer.py:140
 #, python-format
 msgid "Failed to execute %s: %s"
-msgstr "Falha no comando (saída %d): %s"
+msgstr "Falha ao executar %s: %s"
 
 #: client/minios_store/installer.py:179 client/minios_store/installer.py:368
 msgid "No packages specified for apt method"
-msgstr "Falha ao executar %s: %s"
+msgstr "Nenhum pacote especificado para o método apt"
 
 #: client/minios_store/installer.py:205 client/minios_store/installer.py:352
 #, python-format
 msgid "Module file not found after apt2sb: %s"
-msgstr "Nenhum pacote especificado para o método apt"
+msgstr "Arquivo do módulo não encontrado após apt2sb: %s"
 
 #: client/minios_store/installer.py:226 client/minios_store/installer.py:399
 msgid "No script specified for script method"
-msgstr "Arquivo do módulo não encontrado após apt2sb: %s"
+msgstr "Nenhum script especificado para o método script"
 
 #: client/minios_store/installer.py:269
 #, python-format
 msgid "Module file not found after script2sb: %s"
-msgstr "Nenhum script especificado para o método script"
+msgstr "Arquivo do módulo não encontrado após script2sb: %s"
 
 #: client/minios_store/installer.py:292 client/minios_store/installer.py:433
 msgid "No debUrl specified for deb method"
-msgstr "Arquivo do módulo não encontrado após script2sb: %s"
+msgstr "Nenhum debUrl especificado para o método deb"
 
 #: client/minios_store/installer.py:321 client/minios_store/installer.py:460
 #, python-format
 msgid "Failed to download %s: %s"
-msgstr "Nenhum debUrl especificado para o método deb"
+msgstr "Falha ao baixar %s: %s"
 
 #: client/minios_store/installer.py:506 client/minios_store/installer.py:528
 #, python-format
 msgid "Unknown install method: %s"
-msgstr "Falha ao baixar %s: %s"
+msgstr "Método de instalação desconhecido: %s"
 
 #: client/minios_store/installer.py:589
 #, python-format
 msgid "Building module for %s"
-msgstr "Método de instalação desconhecido: %s"
+msgstr "Construindo módulo para %s"
 
 #: client/minios_store/installer.py:599
 msgid "Module ready"
-msgstr "Construindo módulo para %s"
+msgstr "Módulo pronto"
 
 #: client/minios_store/installer.py:620
 #, python-format
 msgid "Installing %s"
-msgstr "Módulo pronto"
+msgstr "Instalando %s"
 
 #: client/minios_store/installer.py:630
 msgid "Installed to system"
-msgstr "Instalando %s"
+msgstr "Instalado no sistema"
 
 #: client/minios_store/installer.py:761
 #, python-format
 msgid "%d modules"
-msgstr "Instalado no sistema"
+msgstr "%d módulos"
+
+#: client/minios_store/installer.py:806 client/minios_store/installer.py:897
+msgid "[{}/{}] {} - {}"
+msgstr "[{}/{}] {} - {}"
 
 #: client/minios_store/installer.py:821
 #, python-format
 msgid "Installed to system: %s"
-msgstr "%d módulos"
+msgstr "Instalado no sistema: %s"
 
 #: client/minios_store/installer.py:833 client/minios_store/installer.py:922
 #: client/minios_store/installer.py:1064 client/minios_store/installer.py:1143
 msgid "Installation cancelled"
-msgstr "Instalado no sistema: %s"
+msgstr "Instalação cancelada"
 
 #: client/minios_store/installer.py:851 client/minios_store/installer.py:940
 #, python-format
 msgid "Failed to install %s: %s"
-msgstr "Instalação cancelada"
+msgstr "Falha ao instalar %s: %s"
 
 #: client/minios_store/installer.py:912 client/minios_store/installer.py:1055
 #: client/minios_store/installer.py:1134
 #, python-format
 msgid "Module built: %s"
-msgstr "Falha ao instalar %s: %s"
+msgstr "Módulo compilado: %s"
 
 #: client/minios_store/installer.py:969
 msgid "Combined module"
-msgstr "Módulo criado: %s"
+msgstr "Módulo combinado"
 
 #: client/minios_store/installer.py:977
 #, python-format
 msgid "Building single module for %d recipe(s)"
-msgstr "Módulo combinado"
+msgstr "Compilando módulo único para %d receita(s)"
 
 #: client/minios_store/installer.py:1008
 msgid "No packages specified"
-msgstr "Construindo módulo único para %d receita(s)"
+msgstr "Nenhum pacote especificado"
+
+#: client/minios_store/launcher.py:121
+msgid "Launch MiniOS Store"
+msgstr "Abrir MiniOS Store"
+
+#: client/minios_store/launcher.py:184
+msgid "Starting MiniOS Store..."
+msgstr "Iniciando MiniOS Store..."
+
+#: client/minios_store/launcher.py:202
+msgid "Retry"
+msgstr "Tentar novamente"
+
+#: client/minios_store/launcher.py:208
+msgid "Close"
+msgstr "Fechar"
+
+#: client/minios_store/launcher.py:235 client/minios_store/launcher.py:243
+msgid "Connecting to MiniOS Store..."
+msgstr "Conectando ao MiniOS Store..."
+
+#: client/minios_store/launcher.py:248
+msgid "MiniOS Store is unavailable. Check your network connection."
+msgstr "MiniOS Store indisponível. Verifique sua conexão de rede."
+
+#: client/minios_store/launcher.py:253
+msgid "Opening the browser..."
+msgstr "Abrindo o navegador..."
+
+#: client/minios_store/launcher.py:257
+msgid "Could not open the default browser."
+msgstr "Não foi possível abrir o navegador padrão."
+
+#: client/minios_store/server.py:84
+msgid "Invalid JSON message"
+msgstr "Mensagem JSON inválida"
+
+#: client/minios_store/server.py:110
+msgid "Unknown message type: {}"
+msgstr "Tipo de mensagem desconhecido: {}"
+
+#: client/minios_store/server.py:123
+msgid "Another installation is already in progress"
+msgstr "Outra instalação já está em andamento"
+
+#: client/minios_store/server.py:131
+msgid "No recipes provided"
+msgstr "Nenhuma receita fornecida"
+
+#: client/minios_store/server.py:142
+msgid "Invalid mode '{}'"
+msgstr "Modo inválido '{}'"
+
+#: client/minios_store/server.py:154
+msgid "Invalid packaging '{}'"
+msgstr "Empacotamento inválido '{}'"
+
+#: client/minios_store/server.py:163
+msgid "Recipe missing 'id' field"
+msgstr "Receita sem campo 'id'"
+
+#: client/minios_store/server.py:169
+msgid "Invalid method '{}' for recipe '{}'"
+msgstr "Método inválido '{}' para a receita '{}'"
+
+#: client/minios_store/server.py:228
+msgid "Unexpected error: {}"
+msgstr "Erro inesperado: {}"
+
+#: client/minios_store/server.py:246
+msgid "Cancelling installation..."
+msgstr "Cancelando instalação..."
+
+#: client/minios_store/server.py:252
+msgid "No installation in progress to cancel"
+msgstr "Nenhuma instalação em andamento para cancelar"
+
+#: client/minios_store/server.py:301
+msgid "Folder does not exist: {}"
+msgstr "Pasta não existe: {}"
+
+#: client/minios_store/server.py:366
+msgid "Failed to open folder: no working file manager found"
+msgstr "Falha ao abrir a pasta: nenhum gerenciador de arquivos disponível"
 
 #: share/applications/minios-store-uri-handler.desktop:2
 msgid "MiniOS Store URI Handler"
@@ -255,7 +386,7 @@ msgstr "MiniOS Store Manipulador de URI"
 
 #: share/applications/minios-store-uri-handler.desktop:3
 msgid "Handle minios-store:// protocol links"
-msgstr "Manipular links do protocolo minios-store://"
+msgstr "Manipula links do protocolo minios-store://"
 
 #: share/applications/minios-store.desktop:2
 msgid "MiniOS Store"
@@ -267,4 +398,7 @@ msgstr "Instale aplicativos para o MiniOS"
 
 #: share/applications/minios-store.desktop:9
 msgid "store;install;packages;modules;"
-msgstr "store;instalar;pacotes;módulos;"
+msgstr "store;install;packages;módulos;"
+
+#~ msgid "Waiting for the local installation service..."
+#~ msgstr "Aguardando o serviço local de instalação..."

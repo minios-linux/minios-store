@@ -1,5 +1,6 @@
 import { memo, useRef, useEffect, useState, useCallback } from 'react';
 import { DynamicIcon } from '@/components/DynamicIcon';
+import { useTranslation } from '@/contexts/LanguageContext';
 import { Plus, Check } from 'lucide-react';
 import type { Recipe, Category } from '@/lib/types';
 
@@ -12,6 +13,7 @@ interface AppCardProps {
 }
 
 const AppCard: React.FC<AppCardProps> = ({ recipe, category, inCart, onToggleCart, onOpenDetail }) => {
+  const { t } = useTranslation();
   const pkgRef = useRef<HTMLSpanElement>(null);
   const [isTruncated, setIsTruncated] = useState(false);
 
@@ -73,7 +75,7 @@ const AppCard: React.FC<AppCardProps> = ({ recipe, category, inCart, onToggleCar
         <button
           className={`app-card-add-btn ${inCart ? 'in-cart' : ''}`}
           onClick={(e) => { e.stopPropagation(); onToggleCart(); }}
-          title={inCart ? 'Remove from cart' : 'Add to cart'}
+          title={inCart ? t('Remove from cart') : t('Add to cart')}
         >
           {inCart ? <Check size={16} /> : <Plus size={16} />}
         </button>

@@ -29,8 +29,8 @@ export function SearchableSelect({
   value,
   onChange,
   options,
-  placeholder = 'Select...',
-  searchPlaceholder = 'Search...',
+  placeholder,
+  searchPlaceholder,
   disabled = false,
   className = '',
   showSearch = true,
@@ -72,7 +72,7 @@ export function SearchableSelect({
           )}
         >
           <span className="searchable-select-value">
-            {selectedOption ? selectedOption.label : <span className="searchable-select-placeholder">{placeholder}</span>}
+            {selectedOption ? selectedOption.label : <span className="searchable-select-placeholder">{placeholder ?? t('Select...')}</span>}
           </span>
           <ChevronDown size={16} className={cn('searchable-select-chevron', isOpen && 'open')} />
         </button>
@@ -94,7 +94,7 @@ export function SearchableSelect({
             <input
               ref={searchInputRef}
               type="text"
-              placeholder={t(searchPlaceholder)}
+              placeholder={searchPlaceholder ? t(searchPlaceholder) : t('Search...')}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
             />

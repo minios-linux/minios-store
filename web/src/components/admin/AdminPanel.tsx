@@ -104,7 +104,7 @@ export function AdminPanel({ onClose }: Props) {
       <header className="admin-top-header">
         <div className="admin-top-header-inner">
           <div className="admin-logo">
-            <img src="/minios_icon.svg" width="28" height="28" alt="Logo" />
+            <img src="/minios_icon.svg" width="28" height="28" alt={t('Logo')} />
           </div>
 
           {/* Section tabs */}

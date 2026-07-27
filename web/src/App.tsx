@@ -1,6 +1,6 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { ThemeProvider } from './contexts/ThemeContext';
-import { LanguageProvider } from './contexts/LanguageContext';
+import { LanguageProvider, useTranslation } from './contexts/LanguageContext';
 import StorePage from './pages/StorePage';
 import { AdminPanelSkeleton } from './components/admin/AdminPanelSkeleton';
 import { Settings } from 'lucide-react';
@@ -8,6 +8,20 @@ import './index.css';
 
 // Lazy-load admin panel
 const AdminPanel = lazy(() => import('./components/admin/AdminPanel').then(m => ({ default: m.AdminPanel })));
+
+function AdminToggle({ showAdmin, onToggle }: { showAdmin: boolean; onToggle: () => void }) {
+  const { t } = useTranslation();
+
+  return (
+    <button
+      className="admin-toggle-btn"
+      onClick={onToggle}
+      title={showAdmin ? t('Back to store') : t('Admin Panel (localhost only)')}
+    >
+      <Settings size={24} />
+    </button>
+  );
+}
 
 // Check if running on localhost
 function isDev(): boolean {
@@ -38,13 +52,7 @@ function App() {
 
         {/* Admin Toggle - only visible on localhost */}
         {isLocalhost && (
-          <button
-            className="admin-toggle-btn"
-            onClick={() => setShowAdmin(!showAdmin)}
-            title={showAdmin ? 'Back to store' : 'Admin Panel (localhost only)'}
-          >
-            <Settings size={24} />
-          </button>
+          <AdminToggle showAdmin={showAdmin} onToggle={() => setShowAdmin(!showAdmin)} />
         )}
       </ThemeProvider>
     </LanguageProvider>

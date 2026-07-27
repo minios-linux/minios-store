@@ -135,7 +135,12 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
 
   const duplicateRecipe = (recipe: Recipe) => {
     setEditingRecipe(null);
-    const dup = { ...recipe, id: recipe.id + '-copy', name: recipe.name + ' (Copy)', order: recipes.length };
+    const dup = {
+      ...recipe,
+      id: recipe.id + '-copy',
+      name: t('{{name}} (Copy)').replace('{{name}}', recipe.name),
+      order: recipes.length,
+    };
     setFormData(dup);
     setPackagesText(dup.packages?.join(', ') || '');
     setTagsText(dup.tags?.join(', ') || '');
@@ -340,9 +345,9 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
                     <div className="recipe-admin-meta">
                       <Badge variant="outline">{getCategoryName(recipe.categoryId)}</Badge>
                       <Badge variant="outline">{recipe.method}</Badge>
-                      <Badge variant="outline">Level {recipe.level}</Badge>
+                      <Badge variant="outline">{t('Level {{level}}').replace('{{level}}', recipe.level)}</Badge>
                       {recipe.packages && recipe.packages.length > 0 && (
-                        <span className="text-xs text-muted-foreground">{recipe.packages.length} pkgs</span>
+                        <span className="text-xs text-muted-foreground">{t('{{count}} packages').replace('{{count}}', String(recipe.packages.length))}</span>
                       )}
                     </div>
                   </div>
@@ -433,7 +438,7 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
                     <div className="space-y-2">
                       <Label>{t('Recipe ID')}</Label>
                       <Input
-                        placeholder="e.g. firefox"
+                        placeholder={t('e.g. firefox')}
                         value={formData.id}
                         onChange={e => setFormData(prev => ({ ...prev, id: e.target.value.toLowerCase().replace(/[^a-z0-9-]/g, '-') }))}
                         disabled={!!editingRecipe}
@@ -442,7 +447,7 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
                     <div className="space-y-2">
                       <Label>{t('Name')}</Label>
                       <Input
-                        placeholder="e.g. Firefox"
+                        placeholder={t('e.g. {{name}}').replace('{{name}}', 'Firefox')}
                         value={formData.name}
                         onChange={e => setFormData(prev => ({ ...prev, name: e.target.value }))}
                       />
