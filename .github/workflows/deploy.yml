@@ -17,7 +17,22 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install test dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-pytest python3-yaml python3-gi gir1.2-gtk-3.0
+
+      - name: Run Python test suite
+        run: python3 -m pytest -q
+
   build:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -70,6 +85,10 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        working-directory: web
+
+      - name: Run web unit tests
+        run: npm run test
         working-directory: web
 
       - name: Lint

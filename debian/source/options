@@ -19,6 +19,10 @@ tar-ignore=recipes
 # Build tools (not needed at runtime)
 tar-ignore=tools
 
+# Tests for excluded build tools are not part of the packaged Python suite
+tar-ignore=tests/test_build_recipes.py
+tar-ignore=tests/test_repo_parser.py
+
 # CI/CD and git metadata
 tar-ignore=.git
 tar-ignore=.github
@@ -33,3 +37,4 @@ tar-ignore=package-lock.json
 
 # Python bytecode
 tar-ignore=__pycache__
+tar-ignore=.pytest_cache
