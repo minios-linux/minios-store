@@ -21,6 +21,8 @@ Architecture: all
 Depends: ${misc:Depends},
          minios-store-common (= ${binary:Version}),
          python3-websockets,
+         python3-gi,
+         gir1.2-gtk-3.0,
          xdg-utils,
          lsb-base (>= 3.0-6)
 Description: MiniOS Store WebSocket daemon

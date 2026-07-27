@@ -39,9 +39,12 @@ override_dh_auto_install:
 	cp bin/minios-store-daemon debian/minios-store/usr/bin/
 	chmod +x debian/minios-store/usr/bin/minios-store-daemon
 	cp client/minios_store/server.py \
+	   client/minios_store/launcher.py \
 	   debian/minios-store/usr/lib/minios-store/minios_store/
-	cp share/applications/minios-store.desktop \
-	   debian/minios-store/usr/share/applications/
+	cp bin/minios-store-launcher debian/minios-store/usr/bin/
+	chmod +x debian/minios-store/usr/bin/minios-store-launcher
+	msgfmt --desktop --template=share/applications/minios-store.desktop \
+	   -d po -o debian/minios-store/usr/share/applications/minios-store.desktop
 
 	# --- minios-store-gui: GTK3 installer + URI handler ---
 	install -d debian/minios-store-gui/usr/bin \
@@ -56,14 +59,14 @@ override_dh_auto_install:
 	cp share/minios-store-uri-handler \
 	   debian/minios-store-gui/usr/lib/minios-store/
 	chmod +x debian/minios-store-gui/usr/lib/minios-store/minios-store-uri-handler
-	cp share/applications/minios-store-uri-handler.desktop \
-	   debian/minios-store-gui/usr/share/applications/
+	msgfmt --desktop --template=share/applications/minios-store-uri-handler.desktop \
+	   -d po -o debian/minios-store-gui/usr/share/applications/minios-store-uri-handler.desktop
 	cp share/polkit/dev.minios.store.policy \
 	   debian/minios-store-gui/usr/share/polkit-1/actions/
 
 # systemd/sysvinit only for the daemon package
 override_dh_installinit:
-	dh_installinit --no-start -p minios-store
+	dh_installinit -p minios-store
 
 override_dh_installsystemd:
 	dh_installsystemd -p minios-store
