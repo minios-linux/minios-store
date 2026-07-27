@@ -1,3 +1,22 @@
+minios-store (1.1.0) unstable; urgency=medium
+
+  * Restrict native systems to direct system installation.
+  * Report failed and partially failed batches as installation failures.
+  * Start the local installation service when the package is configured, while
+    allowing the launcher to open the browser-based Store without the service.
+  * Show immediate launch progress and actionable network, URL, or browser
+    errors while starting the Store.
+  * Match the GTK launcher buttons and progress indicator to the established
+    MiniOS application and active-theme styling.
+  * Keep the Debian source package test set self-contained and exclude test
+    caches and tests for source tools that are not shipped with the package.
+  * Add 116 Python regression tests for the packaged configuration, installer,
+    server, GTK helpers, launcher, and logging modules; measured line coverage
+    is 64% overall, including 94% for the installer, 96% for configuration,
+    and 75% for the server.
+
+ -- crims0n <crims0n@minios.dev>  Mon, 27 Jul 2026 16:40:01 +0300
+
 minios-store (1.0.3) unstable; urgency=medium
 
   * Remove junk from translation files
