@@ -162,12 +162,13 @@ export interface SystemInfo {
   name: string | null;
   version_id: string | null;
   arch: string | null;
+  is_native: boolean;
 }
 
 /** Messages sent from server to client */
 export type ServerMessage =
   | { type: 'pong' }
-  | { type: 'system_info'; codename: string | null; id: string | null; name: string | null; version_id: string | null; arch: string | null }
+  | { type: 'system_info'; codename: string | null; id: string | null; name: string | null; version_id: string | null; arch: string | null; is_native: boolean }
   | { type: 'install_status'; installing: boolean; current?: number; total?: number; recipeName?: string; step?: string; successful?: string[]; failed?: string[]; outputLines?: string[] }
   | { type: 'install_start'; total: number }
   | { type: 'install_progress'; recipeId: string; recipeName: string; step: string; progress: number; total: number; current: number }

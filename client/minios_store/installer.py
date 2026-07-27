@@ -40,7 +40,7 @@ class Installer:
     def __init__(self, modules_dir=None, is_fallback_dir=False):
         self._cancelled = False
         self._current_process = None
-        self.modules_dir = modules_dir or self.modules_dir
+        self.modules_dir = modules_dir or config.MODULES_DIR
         self.is_fallback_dir = is_fallback_dir
         self.last_module_filename = None
 
@@ -803,7 +803,7 @@ class Installer:
                     await message_callback({
                         "type": "log",
                         "level": "info",
-                        "message": "[{}/{}] {} - {}".format(
+                        "message": _("[{}/{}] {} - {}").format(
                             _i + 1, total, _name, detail
                         ),
                     })
@@ -894,7 +894,7 @@ class Installer:
                     await message_callback({
                         "type": "log",
                         "level": "info",
-                        "message": "[{}/{}] {} - {}".format(
+                        "message": _("[{}/{}] {} - {}").format(
                             _i + 1, total, _name, detail
                         ),
                     })

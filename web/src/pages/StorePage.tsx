@@ -10,7 +10,7 @@ import type { InstallProgressState } from '@/components/InstallProgress';
 import { Search } from 'lucide-react';
 import { useRecipes, useCart, useCategories, useStoreFilter } from '@/hooks/use-store';
 import { storeWs } from '@/lib/websocket';
-import type { Recipe, InstallRecipe, ServerMessage } from '@/lib/types';
+import type { Recipe, InstallRecipe, ServerMessage, SystemInfo } from '@/lib/types';
 import { Toaster, toast } from 'sonner';
 
 interface StorePageProps {
@@ -22,10 +22,11 @@ const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
   const { recipes } = useRecipes();
   const { categories } = useCategories();
   const cart = useCart(recipes);
+  const setInstallMode = cart.setInstallMode;
   
   // WebSocket connection (we'll handle messages directly)
   const [connectionStatus, setConnectionStatus] = useState(storeWs.status);
-  const [systemInfo, setSystemInfo] = useState<any>(null);
+  const [systemInfo, setSystemInfo] = useState<SystemInfo | null>(null);
 
   const { filter, filteredRecipes, setSearch, setCategory } = useStoreFilter(recipes, categories, systemInfo?.codename, systemInfo?.arch);
 
@@ -139,15 +140,21 @@ const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
         }
         break;
 
-      case 'install_complete':
+      case 'install_complete': {
+        const failed = msg.failed || [];
         setProgress(prev => ({
           ...prev,
-          status: 'complete',
+          status: failed.length > 0 ? 'error' : 'complete',
           successful: msg.successful,
-          failed: msg.failed,
+          failed,
         }));
-        cart.clearCart();
+        if (failed.length === 0) {
+          cart.clearCart();
+        } else {
+          msg.successful.forEach(cart.removeItem);
+        }
         break;
+      }
 
       case 'module_location': {
         // Show module location notification (persistent - user must dismiss)
@@ -155,7 +162,7 @@ const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
         if (msg.isFallback) {
           toast.warning(
             <>
-              Modules saved to fallback location:{moduleInfo}
+              {t('Modules saved to fallback location')}:{moduleInfo}
               <br />
               <button
                 className="mt-2 px-3 py-1.5 bg-orange-600 hover:bg-orange-700 text-white rounded text-sm font-medium transition-colors"
@@ -164,19 +171,19 @@ const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
                   storeWs.send({ type: 'open_folder', path: msg.directory });
                 }}
               >
-                Open Folder
+                {t('Open Folder')}
               </button>
             </>,
             { 
               duration: Infinity,
-              description: 'Primary location was not writable. Manual activation required.',
+              description: t('Primary location was not writable. Manual activation required.'),
               closeButton: true,
             }
           );
         } else {
           toast.success(
             <>
-              Modules saved:{moduleInfo}
+              {t('Modules saved')}:{moduleInfo}
               <br />
               <button
                 className="mt-2 px-3 py-1.5 bg-green-600 hover:bg-green-700 text-white rounded text-sm font-medium transition-colors"
@@ -185,12 +192,12 @@ const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
                   storeWs.send({ type: 'open_folder', path: msg.directory });
                 }}
               >
-                Open Folder
+                {t('Open Folder')}
               </button>
             </>,
             { 
               duration: Infinity,
-              description: 'Manual activation required.',
+              description: t('Manual activation required.'),
               closeButton: true,
             }
           );
@@ -202,11 +209,11 @@ const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
         setProgress(prev => ({
           ...prev,
           status: 'error',
-          outputLines: [...prev.outputLines, '>>> ERROR: ' + msg.error],
+          outputLines: [...prev.outputLines, `>>> ${t('Error')}: ${msg.error}`],
         }));
         break;
     }
-  }, [cart]);
+  }, [cart, t]);
 
   // Setup WebSocket connection and message handling
   const handleWebSocketMessageRef = useRef(handleWebSocketMessage);
@@ -230,12 +237,16 @@ const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
       
       // Handle system_info separately
       if (msg.type === 'system_info') {
+        if (msg.is_native) {
+          setInstallMode('system');
+        }
         setSystemInfo({
           codename: msg.codename,
           id: msg.id,
           name: msg.name,
           version_id: msg.version_id,
           arch: msg.arch,
+          is_native: msg.is_native,
         });
         return;
       }
@@ -250,7 +261,7 @@ const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
       unsubStatus();
       unsubMessage();
     };
-  }, []);
+  }, [setInstallMode]);
 
   const sendInstall = useCallback((installRecipes: InstallRecipe[]) => {
     const message: any = { 

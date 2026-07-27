@@ -45,6 +45,7 @@ export function useWebSocket() {
           name: msg.name,
           version_id: msg.version_id,
           arch: msg.arch,
+          is_native: msg.is_native,
         });
       } else {
         console.log('[useWebSocket] Setting lastMessage to:', msg.type);

@@ -1412,6 +1412,13 @@ html.light-theme .cart-dropdown {
     color: var(--text-main);
 }
 
+.cart-mode-label,
+.cart-mode-label:hover {
+    cursor: default;
+    background: var(--accent);
+    color: #0f1115;
+}
+
 .cart-mode-btn.active {
     background: var(--accent);
     color: #0f1115;

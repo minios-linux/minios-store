@@ -17,20 +17,6 @@ import threading
 import argparse
 import asyncio
 
-try:
-    import gi
-    gi.require_version("Gtk", "3.0")
-    from gi.repository import Gtk, GLib, Pango, Gdk
-except (ImportError, ValueError):
-    print("Error: GTK3 (python3-gi, gir1.2-gtk-3.0) is required",
-          file=sys.stderr)
-    sys.exit(1)
-
-from urllib.parse import urlparse, parse_qs
-
-from minios_store.config import get_writable_modules_dir
-from minios_store.installer import Installer
-
 # Internationalization
 APP_NAME = "minios-store"
 LOCALE_DIR = "/usr/share/locale"
@@ -38,6 +24,19 @@ gettext.bindtextdomain(APP_NAME, LOCALE_DIR)
 gettext.textdomain(APP_NAME)
 _ = gettext.gettext
 
+try:
+    import gi
+    gi.require_version("Gtk", "3.0")
+    from gi.repository import Gtk, GLib, Pango, Gdk
+except (ImportError, ValueError):
+    print(_("Error: GTK3 (python3-gi, gir1.2-gtk-3.0) is required"),
+          file=sys.stderr)
+    sys.exit(1)
+
+from urllib.parse import urlparse, parse_qs
+
+from minios_store.config import get_writable_modules_dir, is_native_system
+from minios_store.installer import Installer
 
 # ---------------------------------------------------------------------------
 # URI / CLI argument parsing
@@ -52,26 +51,26 @@ def parse_uri(uri):
 
     if parsed.scheme != "minios-store":
         raise ValueError(
-            "Invalid scheme: %s (expected minios-store)" % parsed.scheme
+            _("Invalid scheme: %s (expected minios-store)") % parsed.scheme
         )
 
     action = parsed.netloc or parsed.path.lstrip("/")
     if action != "install":
         raise ValueError(
-            "Invalid action: %s (expected 'install')" % action
+            _("Invalid action: %s (expected 'install')") % action
         )
 
     params = parse_qs(parsed.query)
 
     recipes_param = params.get("recipes", [""])[0]
     if not recipes_param:
-        raise ValueError("Missing 'recipes' parameter")
+        raise ValueError(_("Missing 'recipes' parameter"))
 
     recipes = []
     for part in recipes_param.split(","):
         tokens = part.split(":")
         if len(tokens) != 3:
-            raise ValueError("Invalid recipe format: %s" % part)
+            raise ValueError(_("Invalid recipe format: %s") % part)
         rid, level, compression = tokens
         recipes.append({
             "id": rid,
@@ -94,13 +93,13 @@ def build_cli_parser():
     """Build argparse parser for CLI arguments."""
     parser = argparse.ArgumentParser(description=_("MiniOS Store Installer"))
     parser.add_argument("uri", nargs="?",
-                        help="minios-store:// URI")
+                        help=_("minios-store:// URI"))
     parser.add_argument("--mode", choices=["module", "system"],
                         default="module")
     parser.add_argument("--packaging", choices=["single", "separate"],
                         default="single")
     parser.add_argument("--recipes",
-                        help="Comma-separated id:level:compression")
+                        help=_("Comma-separated id:level:compression"))
     parser.add_argument("--module-name", default="")
     return parser
 
@@ -115,7 +114,7 @@ def resolve_params(args):
         for part in args.recipes.split(","):
             tokens = part.strip().split(":")
             if len(tokens) != 3:
-                raise ValueError("Invalid recipe: %s" % part)
+                raise ValueError(_("Invalid recipe: %s") % part)
             rid, level, compression = tokens
             recipes.append({
                 "id": rid,
@@ -398,7 +397,7 @@ class InstallerWindow(Gtk.Window):
                 GLib.idle_add(self.progress_bar.set_fraction, frac)
             GLib.idle_add(
                 self._set_status,
-                "%s - %s (%d/%d)" % (name, step, current, total),
+                _("%s - %s (%d/%d)") % (name, step, current, total),
             )
 
         elif msg_type == "log":
@@ -439,16 +438,16 @@ class InstallerWindow(Gtk.Window):
                 self._log(
                     _("Location: %s") % self.modules_dir, "success"
                 )
-            self._set_status(_("Installation complete"))
-            if self.mode == "module":
+            if not failed:
+                self._set_status(_("Installation complete"))
+            if self.mode == "module" and not failed:
                 self.open_folder_btn.set_visible(True)
                 self.open_folder_btn.set_sensitive(True)
 
         if failed:
             self._log("")
             self._log(_("Failed: %s") % ", ".join(failed), "error")
-            if not successful:
-                self._set_status(_("Installation failed"))
+            self._set_status(_("Installation failed"))
 
         self.cancel_btn.set_visible(False)
         self.done_btn.set_visible(True)
@@ -578,12 +577,17 @@ def main():
     try:
         recipes, mode, packaging, module_name = resolve_params(args)
     except ValueError as e:
-        print("Error: %s" % e, file=sys.stderr)
+        print(_("Error: %s") % e, file=sys.stderr)
         sys.exit(1)
 
     if recipes is None:
         parser.print_help()
         sys.exit(1)
+
+    if is_native_system():
+        mode = "system"
+        packaging = "single"
+        module_name = ""
 
     # Allow Ctrl-C to work
     signal.signal(signal.SIGINT, signal.SIG_DFL)

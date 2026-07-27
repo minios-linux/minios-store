@@ -6,6 +6,7 @@ them to the installer. Handles ping/pong and cancel messages.
 
 import argparse
 import asyncio
+import gettext
 import json
 import logging
 import signal
@@ -16,6 +17,13 @@ import websockets
 from . import __version__, config
 from .installer import Installer
 from .logger import setup_logging
+
+# Internationalization
+APP_NAME = "minios-store"
+LOCALE_DIR = "/usr/share/locale"
+gettext.bindtextdomain(APP_NAME, LOCALE_DIR)
+gettext.textdomain(APP_NAME)
+_ = gettext.gettext
 
 logger = logging.getLogger("minios_store.server")
 
@@ -30,6 +38,7 @@ class StoreServer:
         self._installing = False
         self._clients = set()
         self._system_info = config.get_system_info()
+        self._is_native = bool(self._system_info.get("is_native"))
         
         # Installation state tracking
         self._install_state = {
@@ -72,7 +81,7 @@ class StoreServer:
         except (json.JSONDecodeError, TypeError):
             await self._send(websocket, {
                 "type": "install_error",
-                "error": "Invalid JSON message",
+                "error": _("Invalid JSON message"),
             })
             return
 
@@ -98,7 +107,7 @@ class StoreServer:
             logger.warning("Unknown message type: %s", msg_type)
             await self._send(websocket, {
                 "type": "install_error",
-                "error": "Unknown message type: {}".format(msg_type),
+                "error": _("Unknown message type: {}").format(msg_type),
             })
 
     async def _handle_install(self, websocket, message):
@@ -111,7 +120,7 @@ class StoreServer:
         if self._installing:
             await self._send(websocket, {
                 "type": "install_error",
-                "error": "Another installation is already in progress",
+                "error": _("Another installation is already in progress"),
             })
             return
 
@@ -119,7 +128,7 @@ class StoreServer:
         if not recipes:
             await self._send(websocket, {
                 "type": "install_error",
-                "error": "No recipes provided",
+                "error": _("No recipes provided"),
             })
             return
 
@@ -130,14 +139,19 @@ class StoreServer:
         if mode not in ("module", "system"):
             await self._send(websocket, {
                 "type": "install_error",
-                "error": "Invalid mode '{}'".format(mode),
+                "error": _("Invalid mode '{}'").format(mode),
             })
             return
+
+        if self._is_native:
+            mode = "system"
+            packaging = "single"
+            module_name = ""
 
         if packaging not in ("single", "separate"):
             await self._send(websocket, {
                 "type": "install_error",
-                "error": "Invalid packaging '{}'".format(packaging),
+                "error": _("Invalid packaging '{}'").format(packaging),
             })
             return
 
@@ -146,13 +160,13 @@ class StoreServer:
             if not recipe.get("id"):
                 await self._send(websocket, {
                     "type": "install_error",
-                    "error": "Recipe missing 'id' field",
+                    "error": _("Recipe missing 'id' field"),
                 })
                 return
             if recipe.get("method") not in ("apt", "script", "deb"):
                 await self._send(websocket, {
                     "type": "install_error",
-                    "error": "Invalid method '{}' for recipe '{}'".format(
+                    "error": _("Invalid method '{}' for recipe '{}'").format(
                         recipe.get("method"), recipe.get("id")
                     ),
                 })
@@ -211,7 +225,7 @@ class StoreServer:
             logger.error("Unexpected error during installation: %s", e)
             await self._send(websocket, {
                 "type": "install_error",
-                "error": "Unexpected error: {}".format(str(e)),
+                "error": _("Unexpected error: {}").format(str(e)),
             })
             self._install_state["active"] = False
         finally:
@@ -229,13 +243,13 @@ class StoreServer:
             await self._send(websocket, {
                 "type": "log",
                 "level": "warn",
-                "message": "Cancelling installation...",
+                "message": _("Cancelling installation..."),
             })
         else:
             await self._send(websocket, {
                 "type": "log",
                 "level": "info",
-                "message": "No installation in progress to cancel",
+                "message": _("No installation in progress to cancel"),
             })
 
     async def _handle_get_status(self, websocket):
@@ -284,7 +298,7 @@ class StoreServer:
             await self._send(websocket, {
                 "type": "log",
                 "level": "error",
-                "message": "Folder does not exist: {}".format(path),
+                "message": _("Folder does not exist: {}").format(path),
             })
             return
         
@@ -349,7 +363,7 @@ class StoreServer:
             await self._send(websocket, {
                 "type": "log",
                 "level": "error",
-                "message": "Failed to open folder: no working file manager found"
+                "message": _("Failed to open folder: no working file manager found")
             })
 
 
@@ -399,6 +413,7 @@ class StoreServer:
             "name": self._system_info.get("name"),
             "version_id": self._system_info.get("version_id"),
             "arch": self._system_info.get("arch"),
+            "is_native": self._is_native,
         })
 
         try:

@@ -2,7 +2,7 @@
 
 import os
 import subprocess
-from typing import Dict, Optional, Tuple
+from typing import Dict, Tuple, Union
 
 # WebSocket server
 WS_HOST = os.environ.get("MINIOS_STORE_HOST", "127.0.0.1")
@@ -31,18 +31,29 @@ PING_INTERVAL = 30
 PING_TIMEOUT = 10
 
 
-def get_system_info() -> Dict[str, Optional[str]]:
+def is_native_system(cmdline_path="/proc/cmdline", live_root=None):
+    """Return whether Store is running from an installed system."""
+    try:
+        with open(cmdline_path) as f:
+            cmdline = f.read().split()
+        return "boot=live" not in cmdline
+    except OSError:
+        return not os.path.isdir(live_root or MINIOS_BASE)
+
+
+def get_system_info() -> Dict[str, Union[str, bool, None]]:
     """Read distribution info from /etc/os-release.
 
     Returns:
         dict with keys: codename, id, name, version_id (any may be None)
     """
-    info: Dict[str, Optional[str]] = {
+    info: Dict[str, Union[str, bool, None]] = {
         "codename": None,
         "id": None,
         "name": None,
         "version_id": None,
         "arch": None,
+        "is_native": is_native_system(),
     }
 
     os_release_paths = ["/etc/os-release", "/usr/lib/os-release"]

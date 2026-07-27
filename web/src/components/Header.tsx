@@ -173,25 +173,34 @@ const Header: React.FC<HeaderProps> = ({
 
       {cartItems.length > 0 && (
         <div className="cart-dropdown-footer">
-          {/* Install mode selector */}
-          <div className="cart-mode-selector">
-            <button
-              className={`cart-mode-btn ${installMode === 'module' ? 'active' : ''}`}
-              onClick={() => onSetInstallMode('module')}
-              title={t('Build as module (.sb file)')}
-            >
-              <Package size={14} />
-              {t('Module')}
-            </button>
-            <button
-              className={`cart-mode-btn ${installMode === 'system' ? 'active' : ''}`}
-              onClick={() => onSetInstallMode('system')}
-              title={t('Install directly to system')}
-            >
-              <Download size={14} />
-              {t('System')}
-            </button>
-          </div>
+          {/* Native installations have only one valid destination. */}
+          {systemInfo?.is_native ? (
+            <div className="cart-mode-selector">
+              <div className="cart-mode-btn cart-mode-label active" title={t('Install directly to system')}>
+                <Download size={14} />
+                {t('System')}
+              </div>
+            </div>
+          ) : (
+            <div className="cart-mode-selector">
+              <button
+                className={`cart-mode-btn ${installMode === 'module' ? 'active' : ''}`}
+                onClick={() => onSetInstallMode('module')}
+                title={t('Build as module (.sb file)')}
+              >
+                <Package size={14} />
+                {t('Module')}
+              </button>
+              <button
+                className={`cart-mode-btn ${installMode === 'system' ? 'active' : ''}`}
+                onClick={() => onSetInstallMode('system')}
+                title={t('Install directly to system')}
+              >
+                <Download size={14} />
+                {t('System')}
+              </button>
+            </div>
+          )}
 
           {/* Packaging options (only for module mode, 2+ items) */}
           {installMode === 'module' && cartRecipes.length > 1 && (
@@ -366,7 +375,7 @@ const Header: React.FC<HeaderProps> = ({
             </div>
 
             {/* Mobile buttons */}
-            <button className="mobile-menu-btn" onClick={() => setMobileLangOpen(!mobileLangOpen)} title="Language">
+            <button className="mobile-menu-btn" onClick={() => setMobileLangOpen(!mobileLangOpen)} title={t('Language')}>
               <Languages size={24} />
             </button>
           </div>
