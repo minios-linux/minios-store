@@ -4,6 +4,7 @@ debian/debhelper-build-stamp
 debian/files
 debian/*.substvars
 debian/*.debhelper
+debian/*.log
 debian/*.debhelper.log
 debian/*.postrm.debhelper
 debian/*.postinst.debhelper
@@ -18,15 +19,22 @@ debian/tmp/
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
+.coverage
+htmlcov/
 
 # Node.js
 web/node_modules/
 web/dist/
 
 # Build artifacts
-*.deb
-*.buildinfo
-*.changes
+/*.deb
+/*.udeb
+/*.build
+/*.buildinfo
+/*.changes
+/*.dsc
+/*.tar.*
 *.mo
 
 # IDE

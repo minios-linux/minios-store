@@ -1,3 +1,9 @@
+minios-store (1.1.1) unstable; urgency=medium
+
+  * Exclude VCS metadata and generated build/test artifacts
+
+ -- crims0n <crims0n@minios.dev>  Thu, 27 Aug 2026 19:45:00 +0300
+
 minios-store (1.1.0) unstable; urgency=medium
 
   * Restrict native systems to direct system installation.

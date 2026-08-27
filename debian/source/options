@@ -38,3 +38,30 @@ tar-ignore=package-lock.json
 # Python bytecode
 tar-ignore=__pycache__
 tar-ignore=.pytest_cache
+tar-ignore=*.pyc
+tar-ignore=*.pyo
+tar-ignore=*$py.class
+tar-ignore=.coverage
+tar-ignore=htmlcov
+tar-ignore=*.mo
+
+# Debian staging and generated package state
+tar-ignore=debian/.debhelper
+tar-ignore=debian/debhelper-build-stamp
+tar-ignore=debian/files
+tar-ignore=debian/*.substvars
+tar-ignore=debian/*.debhelper
+tar-ignore=debian/*.log
+tar-ignore=debian/minios-store
+tar-ignore=debian/minios-store-common
+tar-ignore=debian/minios-store-gui
+tar-ignore=debian/tmp
+
+# Package artifacts copied into the source root
+tar-ignore=*.deb
+tar-ignore=*.udeb
+tar-ignore=*.build
+tar-ignore=*.buildinfo
+tar-ignore=*.changes
+tar-ignore=*.dsc
+tar-ignore=*.tar.*
