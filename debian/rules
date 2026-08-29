@@ -64,6 +64,9 @@ override_dh_auto_install:
 	cp share/polkit/dev.minios.store.policy \
 	   debian/minios-store-gui/usr/share/polkit-1/actions/
 
+override_dh_auto_test:
+	python3 -m pytest -q tests
+
 # systemd/sysvinit only for the daemon package
 override_dh_installinit:
 	dh_installinit -p minios-store
