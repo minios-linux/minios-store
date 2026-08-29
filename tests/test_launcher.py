@@ -37,7 +37,7 @@ def test_open_browser_uses_xdg_open():
     with patch("minios_store.launcher.subprocess.Popen") as popen:
         launcher.open_browser("https://store.minios.dev")
 
-    assert popen.call_args.args[0] == ["xdg-open", "https://store.minios.dev"]
+    assert popen.call_args[0][0] == ["xdg-open", "https://store.minios.dev"]
 
 
 def test_website_available_sends_user_agent_header():
