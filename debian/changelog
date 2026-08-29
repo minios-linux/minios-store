@@ -4,7 +4,7 @@ minios-store (1.1.2) unstable; urgency=medium
   * Run the Python regression suite during package builds
   * Keep the regression fixtures compatible with Bionic Python and pytest
 
- -- crims0n <crims0n@minios.dev>  Sun, 30 Aug 2026 00:18:37 +0300
+ -- crims0n <crims0n@minios.dev>  Sun, 30 Aug 2026 01:26:53 +0300
 
 minios-store (1.1.1) unstable; urgency=medium
 
