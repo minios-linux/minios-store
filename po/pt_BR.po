@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: minios-store 1.0.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 16:44+0300\n"
-"PO-Revision-Date: 2026-07-27 10:25+0000\n"
+"POT-Creation-Date: 2026-08-30 23:36+0300\n"
+"PO-Revision-Date: 2026-08-30 19:54+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -57,127 +57,134 @@ msgstr "id:nivel:compressão separados por vírgula"
 msgid "Invalid recipe: %s"
 msgstr "Receita inválida: %s"
 
-#: client/minios_store/gui.py:212
+#: client/minios_store/gui.py:138 client/minios_store/gui.py:162
+#: client/minios_store/gui.py:187 client/minios_store/launcher.py:143
+#: client/minios_store/launcher.py:152 client/minios_store/launcher.py:179
+#: share/applications/minios-store.desktop:2
+msgid "MiniOS Store"
+msgstr "MiniOS Store"
+
+#: client/minios_store/gui.py:214
 msgid "Preparing..."
 msgstr "Preparando..."
 
-#: client/minios_store/gui.py:225 client/minios_store/gui.py:471
-#: client/minios_store/gui.py:475
+#: client/minios_store/gui.py:227 client/minios_store/gui.py:473
+#: client/minios_store/gui.py:477
 msgid "Installation Log"
 msgstr "Log de Instalação"
 
-#: client/minios_store/gui.py:269
+#: client/minios_store/gui.py:271
 msgid "Cancel Installation"
 msgstr "Cancelar Instalação"
 
-#: client/minios_store/gui.py:278
+#: client/minios_store/gui.py:280
 msgid "Open Folder"
 msgstr "Abrir Pasta"
 
-#: client/minios_store/gui.py:284
+#: client/minios_store/gui.py:286
 msgid "Done"
 msgstr "Concluído"
 
-#: client/minios_store/gui.py:296
+#: client/minios_store/gui.py:298
 msgid "System install"
 msgstr "Instalação do sistema"
 
-#: client/minios_store/gui.py:298
+#: client/minios_store/gui.py:300
 msgid "Separate modules"
 msgstr "Módulos separados"
 
-#: client/minios_store/gui.py:299
+#: client/minios_store/gui.py:301
 msgid "Single module"
 msgstr "Módulo único"
 
-#: client/minios_store/gui.py:327
+#: client/minios_store/gui.py:329
 msgid "Starting installation..."
 msgstr "Iniciando a instalação..."
 
-#: client/minios_store/gui.py:329
+#: client/minios_store/gui.py:331
 #, python-format
 msgid "Mode: %s | Packaging: %s"
 msgstr "Modo: %s | Empacotamento: %s"
 
-#: client/minios_store/gui.py:333
+#: client/minios_store/gui.py:335
 #, python-format
 msgid "Packages: %s"
 msgstr "Pacotes: %s"
 
-#: client/minios_store/gui.py:336
+#: client/minios_store/gui.py:338
 #, python-format
 msgid "Target: %s"
 msgstr "Destino: %s"
 
-#: client/minios_store/gui.py:338
+#: client/minios_store/gui.py:340
 msgid "Warning: using fallback directory"
 msgstr "Aviso: usando diretório alternativo"
 
-#: client/minios_store/gui.py:342
+#: client/minios_store/gui.py:344
 msgid "Installing..."
 msgstr "Instalando..."
 
-#: client/minios_store/gui.py:387
+#: client/minios_store/gui.py:389
 #, python-format
 msgid "Installing %d package(s)..."
 msgstr "Instalando %d pacote(s)..."
 
-#: client/minios_store/gui.py:400
+#: client/minios_store/gui.py:402
 #, python-format
 msgid "%s - %s (%d/%d)"
 msgstr "%s - %s (%d/%d)"
 
-#: client/minios_store/gui.py:419
+#: client/minios_store/gui.py:421
 msgid "Unknown error"
 msgstr "Erro desconhecido"
 
-#: client/minios_store/gui.py:420 client/minios_store/gui.py:580
+#: client/minios_store/gui.py:422 client/minios_store/gui.py:582
 #, python-format
 msgid "Error: %s"
 msgstr "Erro: %s"
 
-#: client/minios_store/gui.py:429
+#: client/minios_store/gui.py:431
 #, python-format
 msgid "Successfully installed: %s"
 msgstr "Instalado com sucesso: %s"
 
-#: client/minios_store/gui.py:435
+#: client/minios_store/gui.py:437
 #, python-format
 msgid "Module: %s"
 msgstr "Módulo: %s"
 
-#: client/minios_store/gui.py:439
+#: client/minios_store/gui.py:441
 #, python-format
 msgid "Location: %s"
 msgstr "Localização: %s"
 
-#: client/minios_store/gui.py:442
+#: client/minios_store/gui.py:444
 msgid "Installation complete"
 msgstr "Instalação concluída"
 
-#: client/minios_store/gui.py:449
+#: client/minios_store/gui.py:451
 #, python-format
 msgid "Failed: %s"
 msgstr "Falha: %s"
 
-#: client/minios_store/gui.py:450 client/minios_store/gui.py:460
+#: client/minios_store/gui.py:452 client/minios_store/gui.py:462
 msgid "Installation failed"
 msgstr "Falha na instalação"
 
-#: client/minios_store/gui.py:459
+#: client/minios_store/gui.py:461
 #, python-format
 msgid "Fatal error: %s"
 msgstr "Erro fatal: %s"
 
-#: client/minios_store/gui.py:486 client/minios_store/gui.py:487
+#: client/minios_store/gui.py:488 client/minios_store/gui.py:489
 msgid "Cancelling..."
 msgstr "Cancelando..."
 
-#: client/minios_store/gui.py:558
+#: client/minios_store/gui.py:560
 msgid "Root Privileges Required"
 msgstr "Privilégios de root necessários"
 
-#: client/minios_store/gui.py:561
+#: client/minios_store/gui.py:563
 msgid ""
 "This installer must be run as root.\n"
 "Use the MiniOS Store URI handler or run with pkexec."
@@ -185,7 +192,7 @@ msgstr ""
 "Este instalador deve ser executado como root.\n"
 "Use o manipulador de URI da MiniOS Store ou execute com pkexec."
 
-#: client/minios_store/gui.py:568
+#: client/minios_store/gui.py:570
 msgid "Error: root privileges required. Run via pkexec or the URI handler."
 msgstr "Erro: privilégios de root necessários. Execute via pkexec ou pelo manipulador de URI."
 
@@ -388,17 +395,10 @@ msgstr "MiniOS Store Manipulador de URI"
 msgid "Handle minios-store:// protocol links"
 msgstr "Manipular links do protocolo minios-store://"
 
-#: share/applications/minios-store.desktop:2
-msgid "MiniOS Store"
-msgstr "MiniOS Store"
-
 #: share/applications/minios-store.desktop:3
-msgid "Install applications for MiniOS"
-msgstr "Instale aplicativos para o MiniOS"
+msgid "Install applications and build MiniOS modules"
+msgstr "Instale aplicativos e crie módulos do MiniOS"
 
 #: share/applications/minios-store.desktop:9
 msgid "store;install;packages;modules;"
 msgstr "store;install;packages;modules;"
-
-#~ msgid "Waiting for the local installation service..."
-#~ msgstr "Aguardando o serviço local de instalação..."

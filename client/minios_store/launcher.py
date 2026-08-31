@@ -140,7 +140,7 @@ def main():
 
     class LauncherWindow(Gtk.Window):
         def __init__(self):
-            Gtk.Window.__init__(self, title="MiniOS Store")
+            Gtk.Window.__init__(self, title=_("MiniOS Store"))
             self.set_default_size(400, 165)
             self.set_position(Gtk.WindowPosition.CENTER)
             self.set_resizable(False)
@@ -149,7 +149,7 @@ def main():
             self.connect("destroy", Gtk.main_quit)
 
             header = Gtk.HeaderBar(show_close_button=True)
-            header.props.title = "MiniOS Store"
+            header.props.title = _("MiniOS Store")
             header.get_style_context().add_class("minios-headerbar")
             self.set_titlebar(header)
 
@@ -176,7 +176,7 @@ def main():
             content.set_valign(Gtk.Align.CENTER)
             card.pack_start(content, True, True, 0)
 
-            title = Gtk.Label(label="MiniOS Store")
+            title = Gtk.Label(label=_("MiniOS Store"))
             title.set_halign(Gtk.Align.START)
             title.get_style_context().add_class("launcher-title")
             content.pack_start(title, False, False, 0)

@@ -135,7 +135,7 @@ def resolve_params(args):
 class InstallerWindow(Gtk.Window):
 
     def __init__(self, recipes, mode, packaging, module_name):
-        Gtk.Window.__init__(self, title="MiniOS Store")
+        Gtk.Window.__init__(self, title=_("MiniOS Store"))
         self.set_default_size(520, -1)
         self.set_position(Gtk.WindowPosition.CENTER)
         self.set_resizable(False)
@@ -159,7 +159,7 @@ class InstallerWindow(Gtk.Window):
     def _build_ui(self):
         # HeaderBar (like minios-installer)
         header_bar = Gtk.HeaderBar(show_close_button=True)
-        header_bar.props.title = "MiniOS Store"
+        header_bar.props.title = _("MiniOS Store")
         self.set_titlebar(header_bar)
 
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
@@ -183,7 +183,9 @@ class InstallerWindow(Gtk.Window):
             orientation=Gtk.Orientation.VERTICAL, spacing=2
         )
         title_label = Gtk.Label()
-        title_label.set_markup("<b><big>MiniOS Store</big></b>")
+        title_label.set_markup(
+            "<b><big>%s</big></b>" % GLib.markup_escape_text(_("MiniOS Store"))
+        )
         title_label.set_halign(Gtk.Align.START)
         title_box.pack_start(title_label, False, False, 0)
 
