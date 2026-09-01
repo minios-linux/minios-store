@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: minios-store 1.0.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-30 23:36+0300\n"
-"PO-Revision-Date: 2026-08-30 19:54+0000\n"
+"PO-Revision-Date: 2026-09-01 10:54+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -42,7 +42,7 @@ msgstr "Ungültiges Rezeptformat: %s"
 
 #: client/minios_store/gui.py:94
 msgid "MiniOS Store Installer"
-msgstr "MiniOS Store Installer"
+msgstr "MiniOS-App-Store-Installer"
 
 #: client/minios_store/gui.py:96
 msgid "minios-store:// URI"
@@ -62,7 +62,7 @@ msgstr "Ungültiges Rezept: %s"
 #: client/minios_store/launcher.py:152 client/minios_store/launcher.py:179
 #: share/applications/minios-store.desktop:2
 msgid "MiniOS Store"
-msgstr "MiniOS Store"
+msgstr "MiniOS-App-Store"
 
 #: client/minios_store/gui.py:214
 msgid "Preparing..."
@@ -189,8 +189,8 @@ msgid ""
 "This installer must be run as root.\n"
 "Use the MiniOS Store URI handler or run with pkexec."
 msgstr ""
-"Dieses Installationsprogramm muss als root ausgeführt werden.\n"
-"Nutzen Sie den MiniOS Store URI-Handler oder führen Sie es mit pkexec aus."
+"Dieser Installer muss als root ausgeführt werden.\n"
+"Nutzen Sie den MiniOS-App-Store-URI-Handler oder führen Sie ihn mit pkexec aus."
 
 #: client/minios_store/gui.py:570
 msgid "Error: root privileges required. Run via pkexec or the URI handler."
@@ -305,11 +305,11 @@ msgstr "Keine Pakete angegeben"
 
 #: client/minios_store/launcher.py:121
 msgid "Launch MiniOS Store"
-msgstr "MiniOS Store starten"
+msgstr "MiniOS-App-Store starten"
 
 #: client/minios_store/launcher.py:184
 msgid "Starting MiniOS Store..."
-msgstr "MiniOS Store wird gestartet..."
+msgstr "MiniOS-App-Store wird gestartet ..."
 
 #: client/minios_store/launcher.py:202
 msgid "Retry"
@@ -321,11 +321,11 @@ msgstr "Schließen"
 
 #: client/minios_store/launcher.py:235 client/minios_store/launcher.py:243
 msgid "Connecting to MiniOS Store..."
-msgstr "Verbinde mit MiniOS Store..."
+msgstr "Verbindung zum MiniOS-App-Store wird hergestellt ..."
 
 #: client/minios_store/launcher.py:248
 msgid "MiniOS Store is unavailable. Check your network connection."
-msgstr "MiniOS Store ist nicht verfügbar. Überprüfen Sie Ihre Netzwerkverbindung."
+msgstr "MiniOS-App-Store ist nicht verfügbar. Überprüfen Sie Ihre Netzwerkverbindung."
 
 #: client/minios_store/launcher.py:253
 msgid "Opening the browser..."
@@ -389,7 +389,7 @@ msgstr "Ordner konnte nicht geöffnet werden: Kein funktionierender Dateimanager
 
 #: share/applications/minios-store-uri-handler.desktop:2
 msgid "MiniOS Store URI Handler"
-msgstr "MiniOS Store URI-Handler"
+msgstr "MiniOS-App-Store-URI-Handler"
 
 #: share/applications/minios-store-uri-handler.desktop:3
 msgid "Handle minios-store:// protocol links"

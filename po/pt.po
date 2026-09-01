@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: minios-store 1.0.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-30 23:36+0300\n"
-"PO-Revision-Date: 2026-08-30 19:54+0000\n"
+"PO-Revision-Date: 2026-09-01 10:54+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: pt\n"
@@ -42,7 +42,7 @@ msgstr "Formato de receita inválido: %s"
 
 #: client/minios_store/gui.py:94
 msgid "MiniOS Store Installer"
-msgstr "Instalador da MiniOS Store"
+msgstr "Instalador da Loja de aplicações MiniOS"
 
 #: client/minios_store/gui.py:96
 msgid "minios-store:// URI"
@@ -62,7 +62,7 @@ msgstr "Receita inválida: %s"
 #: client/minios_store/launcher.py:152 client/minios_store/launcher.py:179
 #: share/applications/minios-store.desktop:2
 msgid "MiniOS Store"
-msgstr "MiniOS Store"
+msgstr "Loja de aplicações MiniOS"
 
 #: client/minios_store/gui.py:214
 msgid "Preparing..."
@@ -190,7 +190,7 @@ msgid ""
 "Use the MiniOS Store URI handler or run with pkexec."
 msgstr ""
 "Este instalador deve ser executado como root.\n"
-"Use o manipulador de URI da MiniOS Store ou execute com pkexec."
+"Utilize o manipulador de URI da Loja de aplicações MiniOS ou execute com pkexec."
 
 #: client/minios_store/gui.py:570
 msgid "Error: root privileges required. Run via pkexec or the URI handler."
@@ -305,11 +305,11 @@ msgstr "Nenhum pacote especificado"
 
 #: client/minios_store/launcher.py:121
 msgid "Launch MiniOS Store"
-msgstr "Abrir MiniOS Store"
+msgstr "Abrir Loja de aplicações MiniOS"
 
 #: client/minios_store/launcher.py:184
 msgid "Starting MiniOS Store..."
-msgstr "Iniciando MiniOS Store..."
+msgstr "A iniciar a Loja de aplicações MiniOS..."
 
 #: client/minios_store/launcher.py:202
 msgid "Retry"
@@ -321,11 +321,11 @@ msgstr "Fechar"
 
 #: client/minios_store/launcher.py:235 client/minios_store/launcher.py:243
 msgid "Connecting to MiniOS Store..."
-msgstr "Conectando ao MiniOS Store..."
+msgstr "A ligar à Loja de aplicações MiniOS..."
 
 #: client/minios_store/launcher.py:248
 msgid "MiniOS Store is unavailable. Check your network connection."
-msgstr "MiniOS Store indisponível. Verifique sua conexão de rede."
+msgstr "A Loja de aplicações MiniOS está indisponível. Verifique a sua ligação de rede."
 
 #: client/minios_store/launcher.py:253
 msgid "Opening the browser..."
@@ -389,7 +389,7 @@ msgstr "Falha ao abrir a pasta: nenhum gerenciador de arquivos disponível"
 
 #: share/applications/minios-store-uri-handler.desktop:2
 msgid "MiniOS Store URI Handler"
-msgstr "MiniOS Store Manipulador de URI"
+msgstr "Manipulador de URI da Loja de aplicações MiniOS"
 
 #: share/applications/minios-store-uri-handler.desktop:3
 msgid "Handle minios-store:// protocol links"
