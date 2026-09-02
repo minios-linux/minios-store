@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: minios-store 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-30 23:36+0300\n"
-"PO-Revision-Date: 2026-09-01 10:54+0000\n"
+"POT-Creation-Date: 2026-09-02 14:13+0300\n"
+"PO-Revision-Date: 2026-09-02 10:44+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: id\n"
@@ -400,3 +400,11 @@ msgstr "Instal aplikasi dan buat modul MiniOS"
 #: share/applications/minios-store.desktop:9
 msgid "store;install;packages;modules;"
 msgstr "store;install;paket;modul;"
+
+#: share/polkit/dev.minios.store.policy:11
+msgid "Install applications via MiniOS Store"
+msgstr "Instal aplikasi melalui Toko Aplikasi MiniOS"
+
+#: share/polkit/dev.minios.store.policy:13
+msgid "Authentication is required to install applications"
+msgstr "Otentikasi diperlukan untuk menginstal aplikasi"
