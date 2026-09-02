@@ -123,12 +123,17 @@ def build_parser():
     return parser
 
 
-def main():
-    args = build_parser().parse_args()
-
+def load_gtk3():
     import gi
+    gi.require_version("Gdk", "3.0")
     gi.require_version("Gtk", "3.0")
     from gi.repository import Gdk, GLib, Gtk
+    return Gdk, GLib, Gtk
+
+
+def main():
+    args = build_parser().parse_args()
+    Gdk, GLib, Gtk = load_gtk3()
 
     provider = Gtk.CssProvider()
     provider.load_from_data(LAUNCHER_CSS)

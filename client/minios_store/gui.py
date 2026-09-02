@@ -26,6 +26,7 @@ _ = gettext.gettext
 
 try:
     import gi
+    gi.require_version("Gdk", "3.0")
     gi.require_version("Gtk", "3.0")
     from gi.repository import Gtk, GLib, Pango, Gdk
 except (ImportError, ValueError):

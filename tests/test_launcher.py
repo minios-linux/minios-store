@@ -40,6 +40,13 @@ def test_open_browser_uses_xdg_open():
     assert popen.call_args[0][0] == ["xdg-open", "https://store.minios.dev"]
 
 
+def test_launcher_pins_gtk3_namespaces():
+    Gdk, _GLib, Gtk = launcher.load_gtk3()
+
+    assert Gdk._version == "3.0"
+    assert Gtk._version == "3.0"
+
+
 def test_website_available_sends_user_agent_header():
     captured = {}
 
