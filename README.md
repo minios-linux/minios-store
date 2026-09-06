@@ -78,6 +78,10 @@ single-recipe path used by the admin UI; it updates the YAML source plus
 `recipes.json`, recipe indexes, and the lazy-loaded detail file in one action.
 `build_recipes.py` remains the full rebuild/validation path used by CI.
 
+The Store UI supports up to three screenshots per recipe. Automated recipe
+creation and enrichment should add no more than two by default to limit media
+storage; use the third slot only deliberately when it adds distinct value.
+
 ### Building Web UI for Production
 
 ```bash
