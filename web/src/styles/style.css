@@ -2534,10 +2534,22 @@ html.light-theme .admin-top-header::before {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 24px;
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     align-items: center;
-    justify-content: space-between;
     gap: 24px;
+}
+
+.admin-logo {
+    justify-self: start;
+}
+
+.admin-top-nav {
+    justify-self: center;
+}
+
+.admin-header-actions {
+    justify-self: end;
 }
 
 .admin-logo {
@@ -3081,6 +3093,12 @@ html.light-theme .category-admin-icon {
 /* =========================================
    ADMIN - Form Sections (collapsible)
    ========================================= */
+
+.recipe-form-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 
 .admin-form-section {
     border: 1px solid var(--glass-border);
@@ -4370,10 +4388,22 @@ html.light-theme .admin-top-header::before {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 24px;
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     align-items: center;
-    justify-content: space-between;
     gap: 24px;
+}
+
+.admin-logo {
+    justify-self: start;
+}
+
+.admin-top-nav {
+    justify-self: center;
+}
+
+.admin-header-actions {
+    justify-self: end;
 }
 
 .admin-logo {
@@ -4668,14 +4698,14 @@ html.light-theme .admin-close-btn:hover svg {
 
 /* Primary buttons */
 .admin-panel button[class*="bg-primary"],
-.admin-panel [data-slot="button"]:not([data-variant]) {
+.admin-panel [data-slot="button"][data-variant="default"] {
     background: var(--accent);
     border-color: var(--accent);
     color: #0f1115;
 }
 
 .admin-panel button[class*="bg-primary"]:hover,
-.admin-panel [data-slot="button"]:not([data-variant]):hover {
+.admin-panel [data-slot="button"][data-variant="default"]:hover {
     filter: brightness(1.1);
     box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
 }
@@ -4744,6 +4774,20 @@ html.light-theme .admin-panel [data-slot="button"]:hover {
     border-color: #0891b2;
 }
 
+html.light-theme .admin-panel button[class*="bg-primary"],
+html.light-theme .admin-panel [data-slot="button"][data-variant="default"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #0f1115;
+}
+
+html.light-theme .admin-panel button[class*="bg-primary"]:hover,
+html.light-theme .admin-panel [data-slot="button"][data-variant="default"]:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    filter: brightness(0.95);
+}
+
 html.light-theme .admin-panel button[data-variant="outline"],
 html.light-theme .admin-panel [data-slot="button"][data-variant="outline"] {
     background: transparent;
@@ -4763,6 +4807,12 @@ html.light-theme .admin-panel [data-slot="button"][data-variant="ghost"]:hover {
 /* =========================================
    ADMIN PANEL - CARDS & CONTAINERS
    ========================================= */
+.seo-settings-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 .admin-panel [data-slot="card"] {
     background: rgba(20, 25, 35, 0.6) !important;
     border: 1px solid var(--glass-border) !important;

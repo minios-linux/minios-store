@@ -207,7 +207,7 @@ export const SEOManager = forwardRef<ManagerHandle, Props>(({ onStateChange }, r
           exit={{ opacity: 0 }}
           transition={{ duration: 0.2 }}
         >
-    <div className="space-y-6">
+    <div className="seo-settings-sections">
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>

@@ -460,7 +460,7 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
             </DialogTitle>
           </DialogHeader>
 
-          <div className="space-y-4">
+          <div className="recipe-form-sections">
             {/* Basic Info Section */}
             <div className="admin-form-section">
               <button
