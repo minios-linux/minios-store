@@ -217,6 +217,27 @@ const AppDetail: React.FC<AppDetailProps> = ({
             </div>
           )}
 
+          {/* Additional license */}
+          {recipe.license && (
+            <div className="app-detail-section">
+              <h4>{t('License')}</h4>
+              <div className="app-detail-license">
+                <a
+                  href={recipe.license.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <ExternalLink size={13} />
+                  {recipe.license.name}
+                </a>
+                {recipe.license.requiresAcceptance && (
+                  <span>{t('Explicit acceptance is required before installation.')}</span>
+                )}
+              </div>
+            </div>
+          )}
+
           {/* Packages */}
           {recipe.packages && recipe.packages.length > 0 && (
             <div className="app-detail-section">

@@ -1,0 +1,79 @@
+id: google-chrome
+name: Google Chrome
+description: Browse the web with Google Chrome
+longDescription: |
+  <p>Google Chrome is a fast, widely used web browser built around the Chromium engine. It provides synchronization with a Google account, built-in translation, password management, extension support, developer tools, and regular security updates.</p>
+  <p>The stable release channel is installed from Google's official Linux package repository.</p>
+categoryId: internet
+icon: Globe
+method: script
+level: auto
+compression: zstd
+script: |
+  #!/bin/bash
+  set -euo pipefail
+
+  export LC_ALL=C
+  export DEBIAN_FRONTEND=noninteractive
+
+  fail() {
+      printf '%s: %s\n' 'google-chrome-stable' "$*" >&2
+      exit 1
+  }
+
+  ARCH="$(dpkg --print-architecture)"
+  [ "$ARCH" = amd64 ] || fail "unsupported architecture: $ARCH"
+
+  if ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then
+      apt-get update
+      apt-get install -y --no-install-recommends ca-certificates curl
+  fi
+
+  install -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d
+  curl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/google-chrome.asc' 'https://dl.google.com/linux/linux_signing_key.pub'
+  chmod 0644 '/usr/share/keyrings/google-chrome.asc'
+
+  cat >'/etc/apt/sources.list.d/google-chrome.sources' <<'EOF'
+  Types: deb
+  URIs: https://dl.google.com/linux/chrome/deb/
+  Suites: stable
+  Components: main
+  Architectures: amd64
+  Signed-By: /usr/share/keyrings/google-chrome.asc
+  EOF
+  chmod 0644 '/etc/apt/sources.list.d/google-chrome.sources'
+
+  apt-get update
+  apt-get install -y --no-install-recommends 'google-chrome-stable'
+  dpkg-query -W -f='${Status}\n' 'google-chrome-stable' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'
+
+  rm -f -- '/etc/apt/sources.list.d/google-chrome.list'
+  apt-get clean
+distributions:
+  include:
+  - name: trixie
+    architectures:
+    - amd64
+developer: Google LLC
+homepage: https://www.google.com/chrome/
+tags:
+- browser
+- web
+- chromium
+- google
+- internet
+enabled: true
+order: 99
+screenshotSources:
+- url: https://dl.flathub.org/media/com/google/Chrome/e9625920e8ddd8b60e06fd7100b8d3bb/screenshots/image-1_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/google/Chrome/e9625920e8ddd8b60e06fd7100b8d3bb/screenshots/image-1_624x363@1.png
+  width: 1029
+  height: 600
+- url: https://dl.flathub.org/media/com/google/Chrome/e9625920e8ddd8b60e06fd7100b8d3bb/screenshots/image-2_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/google/Chrome/e9625920e8ddd8b60e06fd7100b8d3bb/screenshots/image-2_624x363@1.png
+  width: 1029
+  height: 600
+iconSources:
+- url: https://dl.flathub.org/media/com/google/Chrome/e9625920e8ddd8b60e06fd7100b8d3bb/icons/128x128/com.google.Chrome.png
+  width: 128
+  height: 128

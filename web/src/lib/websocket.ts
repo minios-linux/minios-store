@@ -175,36 +175,60 @@ class StoreWebSocket {
 // Singleton instance
 export const storeWs = new StoreWebSocket();
 
+/** Encode JSON as UTF-8 base64url for the URI fallback payload. */
+function encodeUriPayload(value: unknown): string {
+  const bytes = new TextEncoder().encode(JSON.stringify(value));
+  let binary = '';
+  const chunkSize = 0x8000;
+  for (let offset = 0; offset < bytes.length; offset += chunkSize) {
+    binary += String.fromCharCode(...bytes.subarray(offset, offset + chunkSize));
+  }
+  return btoa(binary)
+    .replace(/\+/g, '-')
+    .replace(/\//g, '_')
+    .replace(/=+$/g, '');
+}
+
 /**
- * Fallback: try to install via minios-store:// URI scheme
- * Used when WebSocket connection is not available.
- *
- * Each recipe is encoded as id:level:compression in the recipes param.
- *
- * Module mode: minios-store://install?mode=module&packaging=single&recipes=firefox:05:zstd,vlc:auto:xz&distro=bookworm&arch=amd64
- * System mode: minios-store://install?mode=system&recipes=firefox:05:zstd,vlc:auto:xz&distro=bookworm&arch=amd64
+ * Fallback: install via the minios-store:// URI scheme when the WebSocket
+ * service is unavailable. The legacy recipes=id:level:compression parameter
+ * is retained for compatibility, while payload carries the complete recipes
+ * needed for script/deb installs and acceptedLicenses preserves explicit
+ * license acceptance from the web UI.
  */
-export function installViaUriScheme(recipes: InstallRecipe[], mode: InstallMode, packaging: PackagingMode, distroCodename?: string | null, systemArch?: string | null): void {
-  // Encode each recipe as id:level:compression
+export function installViaUriScheme(
+  recipes: InstallRecipe[],
+  mode: InstallMode,
+  packaging: PackagingMode,
+  distroCodename?: string | null,
+  systemArch?: string | null,
+  moduleName?: string,
+  acceptedLicenses: string[] = [],
+): void {
   const recipeParts = recipes.map(r => `${r.id}:${r.level}:${r.compression}`).join(',');
   const params = new URLSearchParams({
     mode,
     recipes: recipeParts,
+    payload: encodeUriPayload(recipes),
   });
 
-  // packaging only applies to module mode
   if (mode === 'module') {
     params.set('packaging', packaging);
+    if (moduleName?.trim()) {
+      params.set('moduleName', moduleName.trim());
+    }
   }
 
-  // Include distribution codename if available
   if (distroCodename) {
     params.set('distro', distroCodename);
   }
 
-  // Include architecture if available
   if (systemArch) {
     params.set('arch', systemArch);
+  }
+
+  if (acceptedLicenses.length > 0) {
+    params.set('acceptedLicenses', acceptedLicenses.join(','));
   }
 
   window.location.href = `minios-store://install?${params.toString()}`;

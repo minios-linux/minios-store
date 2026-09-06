@@ -1,0 +1,76 @@
+id: visual-studio-code
+name: Visual Studio Code
+description: Edit, debug, and develop software with Visual Studio Code
+longDescription: |
+  <p>Visual Studio Code is Microsoft's extensible source-code editor with integrated debugging, source control, terminal access, language intelligence, remote development features, and a large extension ecosystem.</p>
+  <p>The stable release channel is installed from Microsoft's official Visual Studio Code repository.</p>
+categoryId: development
+icon: Code
+method: script
+level: auto
+compression: zstd
+script: |
+  #!/bin/bash
+  set -euo pipefail
+
+  export LC_ALL=C
+  export DEBIAN_FRONTEND=noninteractive
+
+  fail() {
+      printf '%s: %s\n' 'code' "$*" >&2
+      exit 1
+  }
+
+  ARCH="$(dpkg --print-architecture)"
+  [ "$ARCH" = amd64 ] || fail "unsupported architecture: $ARCH"
+
+  if ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then
+      apt-get update
+      apt-get install -y --no-install-recommends ca-certificates curl
+  fi
+
+  install -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d
+  curl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/microsoft-vscode.asc' 'https://packages.microsoft.com/keys/microsoft.asc'
+  chmod 0644 '/usr/share/keyrings/microsoft-vscode.asc'
+
+  cat >'/etc/apt/sources.list.d/vscode.sources' <<'EOF'
+  Types: deb
+  URIs: https://packages.microsoft.com/repos/code
+  Suites: stable
+  Components: main
+  Architectures: amd64
+  Signed-By: /usr/share/keyrings/microsoft-vscode.asc
+  EOF
+  chmod 0644 '/etc/apt/sources.list.d/vscode.sources'
+
+  apt-get update
+  apt-get install -y --no-install-recommends 'code'
+  dpkg-query -W -f='${Status}\n' 'code' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'
+
+  rm -f -- '/etc/apt/sources.list.d/vscode.list'
+  apt-get clean
+distributions:
+  include:
+  - name: trixie
+    architectures:
+    - amd64
+developer: Microsoft Corporation
+homepage: https://code.visualstudio.com/
+tags:
+- editor
+- code
+- development
+- ide
+- vscode
+- microsoft
+enabled: true
+order: 99
+screenshotSources:
+- url: https://dl.flathub.org/media/com/visualstudio/code/d086e55a35042d29ac5741e927b0d76f/screenshots/image-1_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/visualstudio/code/d086e55a35042d29ac5741e927b0d76f/screenshots/image-1_624x339@1.png
+  width: 2376
+  height: 1291
+iconSources:
+- url: https://dl.flathub.org/media/com/visualstudio/code/d086e55a35042d29ac5741e927b0d76f/icons/128x128/com.visualstudio.code.png
+  width: 128
+  height: 128

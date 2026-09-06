@@ -1,0 +1,327 @@
+id: "virtualbox"
+name: VirtualBox
+description: Run and manage virtual machines with Oracle VirtualBox
+longDescription: |
+  <p>VirtualBox is a cross-platform virtualization application for running multiple operating systems on a single computer. It provides graphical management tools and the VBoxManage command-line interface for creating, configuring, starting, and managing virtual machines.</p>
+  <p>VirtualBox supports snapshots, configurable virtual networking, shared folders, virtual disk management, and integration features provided by Guest Additions for supported guest operating systems.</p>
+  <p>The Oracle VM VirtualBox Extension Pack is not included.</p>
+
+categoryId: system
+icon: Monitor
+method: script
+level: "auto"
+compression: zstd
+script: |
+  #!/bin/bash
+  set -euo pipefail
+
+  export LC_ALL=C
+  export DEBIAN_FRONTEND=noninteractive
+
+  VBOX_REPO='https://download.virtualbox.org/virtualbox/debian'
+  VBOX_KEY_URL="${VBOX_REPO}/oracle_vbox_2016.asc"
+  VBOX_KEY_FINGERPRINT='B9F8D658297AF3EFC18D5CDFA2F683C52980AECF'
+  VBOX_SOURCE='/etc/apt/sources.list.d/virtualbox-script2sb.list'
+  KERNEL_SOURCE='/etc/apt/sources.list.d/minios-kernel-script2sb.list'
+  MANIFEST='/usr/share/minios/kernel-dpkg/manifest.json'
+  WORK="/tmp/virtualbox-script2sb.$$"
+  KEY_ASC="$WORK/oracle-vbox.asc"
+  KEYRING="$WORK/oracle-vbox.gpg"
+  HEADER_ROOT="$WORK/header-root"
+  DEB_DIR="$WORK/debs"
+  GPG_HOME="$WORK/gnupg"
+  SHIM_DIR="$WORK/bin"
+  BEFORE_PKGS="$WORK/before.pkgs"
+  AFTER_BUILD_PKGS="$WORK/after-build.pkgs"
+  NEW_BUILD_PKGS="$WORK/new-build.pkgs"
+  REMOVABLE_PKGS="$WORK/removable.pkgs"
+  CREATED_LINKS=()
+
+  fail() {
+      printf 'virtualbox-script2sb: %s\n' "$*" >&2
+      exit 1
+  }
+  cleanup() {
+      local path
+      for path in "${CREATED_LINKS[@]:-}"; do
+          [ -n "$path" ] && rm -f -- "$path"
+      done
+      rm -f -- "$VBOX_SOURCE" "$KERNEL_SOURCE"
+      rm -rf -- "$WORK"
+  }
+  trap cleanup EXIT INT TERM HUP
+
+  installed_packages() {
+      dpkg-query -W -f='${Package}\n' 2>/dev/null | sort -u
+  }
+
+  map_virtualbox_suite() {
+      local id="$1" codename="$2"
+      case "$id:$codename" in
+          devuan:excalibur) printf '%s\n' trixie ;;
+          devuan:daedalus)  printf '%s\n' bookworm ;;
+          devuan:chimaera)  printf '%s\n' bullseye ;;
+          devuan:beowulf)   printf '%s\n' buster ;;
+          devuan:ascii)     printf '%s\n' stretch ;;
+          debian:sid|debian:forky|debian:testing) printf '%s\n' trixie ;;
+          debian:*|ubuntu:*) printf '%s\n' "$codename" ;;
+          *) return 1 ;;
+      esac
+  }
+  download_file() {
+      local url="$1" output="$2"
+      if command -v curl >/dev/null 2>&1; then
+          curl -fL --retry 3 --connect-timeout 15 -o "$output" "$url"
+      elif command -v wget >/dev/null 2>&1; then
+          wget -O "$output" "$url"
+      else
+          python3 - "$url" "$output" <<'PY'
+  import sys
+  import urllib.request
+  url, output = sys.argv[1:]
+  with urllib.request.urlopen(url, timeout=30) as response, open(output, 'wb') as target:
+      target.write(response.read())
+  PY
+      fi
+  }
+
+  add_kernel_repositories_from_manifest() {
+      [ -r "$MANIFEST" ] || return 1
+      python3 - "$MANIFEST" >"$KERNEL_SOURCE" <<'PY'
+  import json, os, sys
+  manifest_path = sys.argv[1]
+  base = os.path.dirname(manifest_path)
+  with open(manifest_path, encoding='utf-8') as stream:
+      manifest = json.load(stream)
+  for repository in manifest.get('repositories', []):
+      suite = repository.get('suite')
+      components = repository.get('components') or []
+      architectures = repository.get('architectures') or []
+      keyring = (repository.get('keyring') or {}).get('path')
+      uris = repository.get('uris') or []
+      if not suite or not components or not keyring or not uris:
+          continue
+      keyring_path = keyring if os.path.isabs(keyring) else os.path.join(base, keyring)
+      if not os.path.isfile(keyring_path):
+          continue
+      options = [f'signed-by={keyring_path}']
+      if architectures:
+          options.insert(0, 'arch=' + ','.join(architectures))
+      for uri in uris:
+          print(f"deb [{' '.join(options)}] {uri} {suite} {' '.join(components)}")
+  PY
+      [ -s "$KERNEL_SOURCE" ]
+  }
+
+  candidate_version() {
+      apt-cache policy "$1" 2>/dev/null | awk '/Candidate:/ {print $2; exit}'
+  }
+
+  cleanup_build_dependencies() {
+      mapfile -t new_packages < <(comm -13 "$BEFORE_PKGS" "$AFTER_BUILD_PKGS")
+      [ "${#new_packages[@]}" -gt 0 ] || return 0
+
+      printf '%s\n' "${new_packages[@]}" | sort -u >"$NEW_BUILD_PKGS"
+      apt-get -s purge -- "${new_packages[@]}" 2>/dev/null |
+          awk '$1 == "Remv" {print $2}' | sed 's/:.*$//' | sort -u >"$REMOVABLE_PKGS"
+
+      comm -23 "$REMOVABLE_PKGS" "$NEW_BUILD_PKGS" >"${REMOVABLE_PKGS}.unexpected"
+      if [ -s "${REMOVABLE_PKGS}.unexpected" ]; then
+          fail "build-dependency cleanup would remove runtime packages: $(tr '\n' ' ' <"${REMOVABLE_PKGS}.unexpected")"
+      fi
+
+      apt-get purge -y -- "${new_packages[@]}"
+  }
+
+  download_header_tree() {
+      local package candidate deb path name dependency
+      local -a queue=("$HEADER_PACKAGE") seen=()
+      mkdir -p "$DEB_DIR" "$HEADER_ROOT"
+      chmod 0755 "$WORK" "$DEB_DIR"
+
+      while [ "${#queue[@]}" -gt 0 ]; do
+          package="${queue[0]}"
+          queue=("${queue[@]:1}")
+          case " ${seen[*]} " in *" $package "*) continue ;; esac
+          seen+=("$package")
+          candidate="$(candidate_version "$package")"
+          if [ -z "$candidate" ] || [ "$candidate" = '(none)' ]; then
+              fail "required header package is unavailable: $package"
+          fi
+          (cd "$DEB_DIR" && apt-get -o APT::Sandbox::User=root download "$package")
+          deb="$(find "$DEB_DIR" -maxdepth 1 -type f -name "${package}_*.deb" | head -n1)"
+          [ -n "$deb" ] || fail "downloaded package not found: $package"
+          while IFS= read -r dependency; do
+              [ -n "$dependency" ] || continue
+              case " ${seen[*]} ${queue[*]} " in
+                  *" $dependency "*) ;;
+                  *) queue+=("$dependency") ;;
+              esac
+          done < <(dpkg-deb -f "$deb" Depends 2>/dev/null | tr ',' '\n' | sed -E 's/[|].*$//; s/^[[:space:]]*//; s/[[:space:]].*$//' | grep -E '^linux-(headers|kbuild)-' || true)
+      done
+
+      for deb in "$DEB_DIR"/*.deb; do
+          [ -f "$deb" ] || continue
+          dpkg-deb -x "$deb" "$HEADER_ROOT"
+      done
+      HEADER_BUILD="$HEADER_ROOT/usr/src/linux-headers-$KERNEL"
+      [ -d "$HEADER_BUILD" ] || fail "downloaded headers do not contain $HEADER_BUILD"
+
+      for path in "$HEADER_ROOT"/usr/src/linux-headers-*; do
+          [ -d "$path" ] || continue
+          name="$(basename "$path")"
+          if [ -e "/usr/src/$name" ] || [ -L "/usr/src/$name" ]; then
+              fail "/usr/src/$name already exists; refusing to replace it"
+          fi
+          ln -s "$path" "/usr/src/$name"
+          CREATED_LINKS+=("/usr/src/$name")
+      done
+
+      MODULE_DIR="/usr/lib/modules/$KERNEL"
+      mkdir -p "$MODULE_DIR"
+      for name in build source; do
+          path="$MODULE_DIR/$name"
+          if [ -e "$path" ] || [ -L "$path" ]; then
+              fail "$path already exists; refusing to replace it"
+          fi
+          ln -s "/usr/src/linux-headers-$KERNEL" "$path"
+          CREATED_LINKS+=("$path")
+      done
+
+      for path in "$HEADER_ROOT"/usr/lib/linux-kbuild-*; do
+          [ -d "$path" ] || continue
+          name="$(basename "$path")"
+          if [ ! -e "/usr/lib/$name" ] && [ ! -L "/usr/lib/$name" ]; then
+              ln -s "$path" "/usr/lib/$name"
+              CREATED_LINKS+=("/usr/lib/$name")
+          fi
+      done
+  }
+
+  [ "$EUID" -eq 0 ] || fail 'must run as root'
+  for command in apt-get apt-cache dpkg-query dpkg-deb python3 gpg getent modinfo; do
+      command -v "$command" >/dev/null 2>&1 || fail "missing command: $command"
+  done
+
+  ARCH="$(dpkg --print-architecture)"
+  [ "$ARCH" = amd64 ] || fail "Oracle VirtualBox host packages require amd64 (detected: $ARCH)"
+  # shellcheck source=/etc/os-release
+  . /etc/os-release
+  CODENAME="${VERSION_CODENAME:-}"
+  [ -n "$CODENAME" ] || fail 'VERSION_CODENAME is missing from /etc/os-release'
+  VBOX_SUITE="$(map_virtualbox_suite "${ID:-}" "$CODENAME")" || fail "unsupported distribution: ${ID:-unknown} $CODENAME"
+  KERNEL="$(uname -r)"
+  HEADER_PACKAGE="linux-headers-$KERNEL"
+  mkdir -p "$WORK" "$GPG_HOME" "$SHIM_DIR"
+  chmod 0700 "$GPG_HOME"
+  installed_packages >"$BEFORE_PKGS"
+
+  printf 'Preparing VirtualBox for kernel %s (Oracle suite %s)\n' "$KERNEL" "$VBOX_SUITE"
+
+  download_file "$VBOX_KEY_URL" "$KEY_ASC"
+  KEY_FINGERPRINT="$(GNUPGHOME="$GPG_HOME" gpg --show-keys --with-colons "$KEY_ASC" 2>/dev/null | awk -F: '$1 == "fpr" {print $10; exit}')"
+  [ "$KEY_FINGERPRINT" = "$VBOX_KEY_FINGERPRINT" ] || fail "unexpected Oracle signing-key fingerprint: ${KEY_FINGERPRINT:-none}"
+  GNUPGHOME="$GPG_HOME" gpg --batch --yes --dearmor --output "$KEYRING" "$KEY_ASC"
+  chmod 0644 "$KEYRING"
+
+  cat >"$VBOX_SOURCE" <<EOF
+  deb [arch=amd64 signed-by=$KEYRING] $VBOX_REPO $VBOX_SUITE contrib
+  EOF
+
+  apt-get update
+  HEADER_CANDIDATE="$(candidate_version "$HEADER_PACKAGE")"
+  if [ -z "$HEADER_CANDIDATE" ] || [ "$HEADER_CANDIDATE" = '(none)' ]; then
+      add_kernel_repositories_from_manifest || fail "no usable kernel repository manifest for $KERNEL"
+      apt-get update
+      HEADER_CANDIDATE="$(candidate_version "$HEADER_PACKAGE")"
+  fi
+  if [ -z "$HEADER_CANDIDATE" ] || [ "$HEADER_CANDIDATE" = '(none)' ]; then
+      fail "matching headers are unavailable: $HEADER_PACKAGE"
+  fi
+
+  download_header_tree
+
+  GCC_PACKAGE="$(grep -oE 'gcc-[0-9]+' /proc/version | head -n1 || true)"
+  [ -n "$GCC_PACKAGE" ] || fail 'cannot determine the compiler used to build the running kernel'
+  apt-get install -y --no-install-recommends "$GCC_PACKAGE" pahole
+  installed_packages >"$AFTER_BUILD_PKGS"
+  GCC_BIN="$(command -v "$GCC_PACKAGE")"
+  [ -x "$GCC_BIN" ] || fail "compiler executable is unavailable: $GCC_PACKAGE"
+  ln -s "$GCC_BIN" "$SHIM_DIR/gcc"
+  ln -s "$GCC_BIN" "$SHIM_DIR/cc"
+
+  VBOX_PACKAGE=''
+  for package in virtualbox-7.2 virtualbox-7.1 virtualbox-7.0 virtualbox-6.1; do
+      candidate="$(candidate_version "$package")"
+      if [ -n "$candidate" ] && [ "$candidate" != '(none)' ]; then
+          VBOX_PACKAGE="$package"
+          break
+      fi
+  done
+  [ -n "$VBOX_PACKAGE" ] || fail "no supported Oracle VirtualBox package is available for $VBOX_SUITE"
+
+  printf 'Installing %s with %s\n' "$VBOX_PACKAGE" "$GCC_PACKAGE"
+  env PATH="$SHIM_DIR:$PATH" CC="$GCC_BIN" KBUILD_CC="$GCC_BIN" \
+      apt-get install -y --no-install-recommends "$VBOX_PACKAGE"
+
+  if [ -x /sbin/rcvboxdrv ]; then
+      if ! env PATH="$SHIM_DIR:$PATH" CC="$GCC_BIN" KBUILD_CC="$GCC_BIN" /sbin/rcvboxdrv setup; then
+          cat /var/log/vbox-setup.log >&2 2>/dev/null || true
+          fail 'VirtualBox kernel-module setup failed'
+      fi
+  elif [ -x /usr/lib/virtualbox/vboxdrv.sh ]; then
+      if ! env PATH="$SHIM_DIR:$PATH" CC="$GCC_BIN" KBUILD_CC="$GCC_BIN" /usr/lib/virtualbox/vboxdrv.sh setup; then
+          cat /var/log/vbox-setup.log >&2 2>/dev/null || true
+          fail 'VirtualBox kernel-module setup failed'
+      fi
+  elif [ -x /sbin/vboxconfig ]; then
+      if ! env PATH="$SHIM_DIR:$PATH" CC="$GCC_BIN" KBUILD_CC="$GCC_BIN" /sbin/vboxconfig; then
+          cat /var/log/vbox-setup.log >&2 2>/dev/null || true
+          fail 'VirtualBox kernel-module setup failed'
+      fi
+  fi
+
+  depmod -a "$KERNEL"
+  for module in vboxdrv vboxnetflt vboxnetadp; do
+      modinfo -k "$KERNEL" "$module" >/dev/null 2>&1 || fail "kernel module was not built: $module ($KERNEL)"
+  done
+
+  getent group vboxusers >/dev/null 2>&1 || fail 'VirtualBox did not create the vboxusers group'
+  install -d -m 0755 /usr/share/live/config/user-default-groups.d
+  printf '%s\n' vboxusers > /usr/share/live/config/user-default-groups.d/virtualbox.groups
+  chmod 0644 /usr/share/live/config/user-default-groups.d/virtualbox.groups
+
+  cleanup_build_dependencies
+
+  depmod -a "$KERNEL"
+  for module in vboxdrv vboxnetflt vboxnetadp; do
+      modinfo -k "$KERNEL" "$module" >/dev/null 2>&1 || fail "kernel module disappeared after build cleanup: $module ($KERNEL)"
+  done
+
+  rm -f -- "$VBOX_SOURCE" "$KERNEL_SOURCE"
+  rm -f /var/lib/apt/lists/download.virtualbox.org_virtualbox_debian_* 2>/dev/null || true
+  apt-get clean
+distributions:
+  include:
+    - name: trixie
+      architectures: [amd64]
+developer: Oracle Corporation
+homepage: "https://www.virtualbox.org/"
+tags:
+  - virtualization
+  - virtual-machine
+  - hypervisor
+  - vm
+enabled: true
+order: 99
+screenshotSources:
+  - url: "https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/img/virtualbox-main-empty.png"
+    width: 804
+    height: 466
+  - url: "https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/img/virtualbox-main.png"
+    width: 893
+    height: 511
+iconSources:
+  - url: "https://raw.githubusercontent.com/VirtualBox/virtualbox/main/src/VBox/Artwork/OSE/virtualbox-128px.png"
+    width: 128
+    height: 128

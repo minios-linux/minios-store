@@ -68,6 +68,38 @@ describe('installViaUriScheme', () => {
     expect(p.has('distro')).toBe(false);
     expect(p.has('arch')).toBe(false);
   });
+
+  it('carries full script recipe data and accepted licenses in fallback URI', () => {
+    const licensed = recipe({
+      id: 'virtualbox-extpack',
+      name: 'VirtualBox + Extension Pack',
+      method: 'script',
+      script: '#!/bin/bash\necho ok',
+      license: {
+        id: 'virtualbox-puel',
+        name: 'Oracle PUEL',
+        url: 'https://example.org/license',
+        requiresAcceptance: true,
+      },
+    });
+    installViaUriScheme(
+      [licensed], 'module', 'single', 'trixie', 'amd64',
+      'virtualbox-full', ['virtualbox-puel'],
+    );
+    const p = paramsFrom(assignedHref);
+    const encoded = p.get('payload') || '';
+    const padded = encoded.replace(/-/g, '+').replace(/_/g, '/')
+      + '='.repeat((4 - encoded.length % 4) % 4);
+    const binary = atob(padded);
+    const bytes = Uint8Array.from(binary, char => char.charCodeAt(0));
+    const payload = JSON.parse(new TextDecoder().decode(bytes));
+
+    expect(payload[0].method).toBe('script');
+    expect(payload[0].script).toContain('echo ok');
+    expect(payload[0].license.id).toBe('virtualbox-puel');
+    expect(p.get('acceptedLicenses')).toBe('virtualbox-puel');
+    expect(p.get('moduleName')).toBe('virtualbox-full');
+  });
 });
 
 // ---------------------------------------------------------------------------

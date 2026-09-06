@@ -1,0 +1,5 @@
+{
+  "name": "VirtualBox",
+  "description": "Esegui e gestisci macchine virtuali con Oracle VirtualBox",
+  "longDescription": "<p>VirtualBox è un'applicazione di virtualizzazione multipiattaforma per eseguire più sistemi operativi su un singolo computer. Fornisce strumenti di gestione grafica e l'interfaccia a riga di comando VBoxManage per creare, configurare, avviare e gestire macchine virtuali.</p>\n<p>VirtualBox supporta snapshot, rete virtuale configurabile, cartelle condivise, gestione dei dischi virtuali e funzionalità di integrazione fornite dagli Guest Additions per i sistemi operativi guest supportati.</p>\n<p>Il pacchetto di estensione Oracle VM VirtualBox Extension Pack non è incluso.</p>\n"
+}

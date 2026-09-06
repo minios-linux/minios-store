@@ -213,6 +213,65 @@ def test_handle_install_success_broadcasts_and_resets_flag():
     assert server.installer.call[1:] == ("module", "single", "")
 
 
+def test_handle_install_rejects_unaccepted_required_license():
+    server = make_server()
+    installer = FakeInstaller()
+    server.installer = installer
+    ws = FakeWS()
+    run(server._handle_install(ws, {
+        "recipes": [{
+            "id": "licensed",
+            "name": "Licensed App",
+            "method": "script",
+            "license": {
+                "id": "example-license",
+                "name": "Example License",
+                "requiresAcceptance": True,
+            },
+        }],
+        "mode": "module",
+        "packaging": "single",
+    }))
+    assert ws.sent[-1]["type"] == "install_error"
+    assert "must be accepted" in ws.sent[-1]["error"]
+    assert installer.call is None
+
+
+def test_handle_install_accepts_required_license():
+    server = make_server()
+    installer = FakeInstaller(result=(["licensed"], []))
+    server.installer = installer
+    ws = FakeWS()
+    server._clients.add(ws)
+    run(server._handle_install(ws, {
+        "recipes": [{
+            "id": "licensed",
+            "name": "Licensed App",
+            "method": "script",
+            "license": {
+                "id": "example-license",
+                "name": "Example License",
+                "requiresAcceptance": True,
+            },
+        }],
+        "acceptedLicenses": ["example-license"],
+        "mode": "module",
+        "packaging": "single",
+    }))
+    assert installer.call is not None
+
+
+def test_handle_install_rejects_invalid_license_acceptance_data():
+    server = make_server()
+    ws = FakeWS()
+    run(server._handle_install(ws, {
+        "recipes": [{"id": "x", "method": "apt"}],
+        "acceptedLicenses": "example-license",
+    }))
+    assert ws.sent[-1]["type"] == "install_error"
+    assert "Invalid license acceptance data" in ws.sent[-1]["error"]
+
+
 # ---------------------------------------------------------------------------
 # _handle_cancel
 # ---------------------------------------------------------------------------

@@ -2,9 +2,10 @@ import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from '@/contexts/LanguageContext';
 import { useTheme } from '@/contexts/ThemeContext';
 import { DynamicIcon } from '@/components/DynamicIcon';
-import { Sun, Moon, Languages, ChevronDown, Search, Store, ShoppingCart, X, Download, Trash2, Package, Layers, CheckCircle2, XCircle, Monitor } from 'lucide-react';
+import { Sun, Moon, Languages, ChevronDown, Search, Store, ShoppingCart, X, Download, Trash2, Package, Layers, CheckCircle2, XCircle, Monitor, ExternalLink } from 'lucide-react';
 import type { ConnectionStatus, SystemInfo, Recipe, CartItem, InstallRecipe, InstallMode, PackagingMode } from '@/lib/types';
 import { installViaUriScheme } from '@/lib/websocket';
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 
 interface HeaderProps {
   connectionStatus: ConnectionStatus;
@@ -23,7 +24,7 @@ interface HeaderProps {
   onSetModuleName: (name: string) => void;
   onRemoveItem: (recipeId: string) => void;
   onClearCart: () => void;
-  onInstall: (recipes: InstallRecipe[]) => void;
+  onInstall: (recipes: InstallRecipe[], acceptedLicenses?: string[]) => void;
   installProgress?: any | null;
   onRestoreProgress?: () => void;
 }
@@ -53,6 +54,8 @@ const Header: React.FC<HeaderProps> = ({
   const [langSearch, setLangSearch] = useState('');
   const [mobileLangOpen, setMobileLangOpen] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
+  const [licenseDialogOpen, setLicenseDialogOpen] = useState(false);
+  const [licenseAcceptance, setLicenseAcceptance] = useState<Record<string, boolean>>({});
   const cartRef = useRef<HTMLDivElement>(null);
   const mobileCartRef = useRef<HTMLDivElement>(null);
 
@@ -86,24 +89,61 @@ const Header: React.FC<HeaderProps> = ({
     setMobileLangOpen(false);
   };
 
-  const handleInstall = () => {
-    const installRecipes: InstallRecipe[] = cartRecipes.map(({ recipe }) => ({
-      id: recipe.id,
-      name: recipe.name,
-      method: recipe.method,
-      level: recipe.level,
-      compression: recipe.compression,
-      packages: recipe.packages,
-      script: recipe.script,
-      debUrl: recipe.debUrl,
-    }));
+  const requiredLicenseMap = new Map(
+    cartRecipes
+      .map(({ recipe }) => recipe.license)
+      .filter((license): license is NonNullable<Recipe['license']> => !!license?.requiresAcceptance)
+      .map(license => [license.id, license]),
+  );
+  const requiredLicenses = Array.from(requiredLicenseMap.values());
 
+  const buildInstallRecipes = (): InstallRecipe[] => cartRecipes.map(({ recipe }) => ({
+    id: recipe.id,
+    name: recipe.name,
+    method: recipe.method,
+    level: recipe.level,
+    compression: recipe.compression,
+    packages: recipe.packages,
+    script: recipe.script,
+    debUrl: recipe.debUrl,
+    license: recipe.license,
+  }));
+
+  const performInstall = (acceptedLicenses: string[] = []) => {
+    const installRecipes = buildInstallRecipes();
     if (connectionStatus === 'connected') {
-      onInstall(installRecipes);
+      onInstall(installRecipes, acceptedLicenses);
     } else {
-      installViaUriScheme(installRecipes, installMode, packaging, systemInfo?.codename, systemInfo?.arch);
+      installViaUriScheme(
+        installRecipes,
+        installMode,
+        packaging,
+        systemInfo?.codename,
+        systemInfo?.arch,
+        moduleName,
+        acceptedLicenses,
+      );
     }
     setCartOpen(false);
+  };
+
+  const handleInstall = () => {
+    if (requiredLicenses.length > 0) {
+      setLicenseAcceptance({});
+      setCartOpen(false);
+      setLicenseDialogOpen(true);
+      return;
+    }
+    performInstall();
+  };
+
+  const handleLicenseInstall = () => {
+    const acceptedLicenses = requiredLicenses
+      .filter(license => licenseAcceptance[license.id])
+      .map(license => license.id);
+    if (acceptedLicenses.length !== requiredLicenses.length) return;
+    setLicenseDialogOpen(false);
+    performInstall(acceptedLicenses);
   };
 
   const filteredLanguages = availableLanguages.filter(l =>
@@ -418,6 +458,55 @@ const Header: React.FC<HeaderProps> = ({
       <div className={`mobile-cart-menu ${cartOpen ? 'active' : ''}`} ref={mobileCartRef}>
         {renderCartContent()}
       </div>
+
+      <Dialog open={licenseDialogOpen} onOpenChange={setLicenseDialogOpen}>
+        <DialogContent className="license-acceptance-dialog">
+          <DialogHeader>
+            <DialogTitle>{t('License agreement')}</DialogTitle>
+            <DialogDescription>
+              {t('Review and accept the additional license terms before installation.')}
+            </DialogDescription>
+          </DialogHeader>
+          <div className="license-acceptance-list">
+            {requiredLicenses.map(license => (
+              <label key={license.id} className="license-acceptance-item">
+                <input
+                  type="checkbox"
+                  checked={licenseAcceptance[license.id] === true}
+                  onChange={e => setLicenseAcceptance(prev => ({
+                    ...prev,
+                    [license.id]: e.target.checked,
+                  }))}
+                />
+                <span>
+                  {t('I have read and accept')} {' '}
+                  <a
+                    href={license.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={e => e.stopPropagation()}
+                  >
+                    {license.name}
+                    <ExternalLink size={13} />
+                  </a>
+                </span>
+              </label>
+            ))}
+          </div>
+          <DialogFooter>
+            <button className="license-dialog-cancel" onClick={() => setLicenseDialogOpen(false)}>
+              {t('Cancel')}
+            </button>
+            <button
+              className="license-dialog-accept"
+              onClick={handleLicenseInstall}
+              disabled={!requiredLicenses.every(license => licenseAcceptance[license.id] === true)}
+            >
+              {t('Accept and install')}
+            </button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </>
   );
 };

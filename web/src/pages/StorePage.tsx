@@ -263,11 +263,12 @@ const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
     };
   }, [setInstallMode]);
 
-  const sendInstall = useCallback((installRecipes: InstallRecipe[]) => {
+  const sendInstall = useCallback((installRecipes: InstallRecipe[], acceptedLicenses: string[] = []) => {
     const message: any = { 
       type: 'install', 
       recipes: installRecipes, 
-      mode: cart.installMode 
+      mode: cart.installMode,
+      acceptedLicenses,
     };
     
     // Add packaging for module mode
@@ -327,8 +328,8 @@ const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
     }
   }, [cart, t]);
 
-  const handleInstall = (installRecipes: InstallRecipe[]) => {
-    sendInstall(installRecipes);
+  const handleInstall = (installRecipes: InstallRecipe[], acceptedLicenses: string[] = []) => {
+    sendInstall(installRecipes, acceptedLicenses);
   };
 
   const categoryMap = new Map(categories.map(c => [c.id, c]));

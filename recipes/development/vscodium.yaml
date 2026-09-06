@@ -1,0 +1,79 @@
+id: vscodium
+name: VSCodium
+description: Edit code without Microsoft telemetry
+longDescription: |
+  <p>VSCodium is a community-built distribution of Microsoft's open-source VS Code codebase with telemetry disabled and without Microsoft branding. It provides a modern editor, integrated terminal, debugging, source-control integration, language tooling, and extension support.</p>
+  <p>The current release is installed from the official VSCodium Debian repository.</p>
+categoryId: development
+icon: Code
+method: script
+level: auto
+compression: zstd
+script: |
+  #!/bin/bash
+  set -euo pipefail
+
+  export LC_ALL=C
+  export DEBIAN_FRONTEND=noninteractive
+
+  fail() {
+      printf '%s: %s\n' 'codium' "$*" >&2
+      exit 1
+  }
+
+  ARCH="$(dpkg --print-architecture)"
+  [ "$ARCH" = amd64 ] || fail "unsupported architecture: $ARCH"
+
+  if ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then
+      apt-get update
+      apt-get install -y --no-install-recommends ca-certificates curl
+  fi
+
+  install -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d
+  curl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/vscodium.asc' 'https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg'
+  chmod 0644 '/usr/share/keyrings/vscodium.asc'
+
+  cat >'/etc/apt/sources.list.d/vscodium.sources' <<'EOF'
+  Types: deb
+  URIs: https://download.vscodium.com/debs
+  Suites: vscodium
+  Components: main
+  Architectures: amd64
+  Signed-By: /usr/share/keyrings/vscodium.asc
+  EOF
+  chmod 0644 '/etc/apt/sources.list.d/vscodium.sources'
+
+  apt-get update
+  apt-get install -y --no-install-recommends 'codium'
+  dpkg-query -W -f='${Status}\n' 'codium' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'
+
+  apt-get clean
+distributions:
+  include:
+  - name: trixie
+    architectures:
+    - amd64
+developer: The VSCodium team
+homepage: https://vscodium.com/
+tags:
+- editor
+- code
+- development
+- ide
+- vscode
+- vscodium
+enabled: true
+order: 99
+screenshotSources:
+- url: https://dl.flathub.org/media/com/vscodium/codium/0127475b4272afb034a4cc24582bf123/screenshots/image-1_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/vscodium/codium/0127475b4272afb034a4cc24582bf123/screenshots/image-1_624x420@1.png
+  width: 1429
+  height: 962
+- url: https://dl.flathub.org/media/com/vscodium/codium/0127475b4272afb034a4cc24582bf123/screenshots/image-2_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/vscodium/codium/0127475b4272afb034a4cc24582bf123/screenshots/image-2_624x420@1.png
+  width: 1429
+  height: 962
+iconSources:
+- url: https://dl.flathub.org/media/com/vscodium/codium/0127475b4272afb034a4cc24582bf123/icons/128x128/com.vscodium.codium.png
+  width: 128
+  height: 128

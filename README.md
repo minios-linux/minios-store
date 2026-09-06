@@ -65,7 +65,18 @@ python3 tools/build_recipes.py --validate
 
 # Build JSON without downloading media (fast)
 python3 tools/build_recipes.py --no-screenshots --no-icons
+
+# Create/update one recipe and refresh all generated artifacts
+python3 tools/recipe_tool.py upsert < recipe.json
+
+# Delete one recipe and refresh all generated artifacts
+printf '{"id":"example"}\n' | python3 tools/recipe_tool.py delete
 ```
+
+`recipes/**/*.yaml` are the canonical recipe sources. `recipe_tool.py` is the
+single-recipe path used by the admin UI; it updates the YAML source plus
+`recipes.json`, recipe indexes, and the lazy-loaded detail file in one action.
+`build_recipes.py` remains the full rebuild/validation path used by CI.
 
 ### Building Web UI for Production
 

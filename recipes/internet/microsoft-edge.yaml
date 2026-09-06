@@ -1,0 +1,75 @@
+id: microsoft-edge
+name: Microsoft Edge
+description: Browse the web with Microsoft Edge
+longDescription: |
+  <p>Microsoft Edge is a Chromium-based web browser with synchronization, vertical tabs, collections, password management, built-in PDF tools, developer tools, and integration with Microsoft services.</p>
+  <p>The stable release channel is installed from Microsoft's official Edge repository.</p>
+categoryId: internet
+icon: Globe
+method: script
+level: auto
+compression: zstd
+script: |
+  #!/bin/bash
+  set -euo pipefail
+
+  export LC_ALL=C
+  export DEBIAN_FRONTEND=noninteractive
+
+  fail() {
+      printf '%s: %s\n' 'microsoft-edge-stable' "$*" >&2
+      exit 1
+  }
+
+  ARCH="$(dpkg --print-architecture)"
+  [ "$ARCH" = amd64 ] || fail "unsupported architecture: $ARCH"
+
+  if ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then
+      apt-get update
+      apt-get install -y --no-install-recommends ca-certificates curl
+  fi
+
+  install -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d
+  curl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/microsoft-edge.asc' 'https://packages.microsoft.com/keys/microsoft.asc'
+  chmod 0644 '/usr/share/keyrings/microsoft-edge.asc'
+
+  cat >'/etc/apt/sources.list.d/microsoft-edge.sources' <<'EOF'
+  Types: deb
+  URIs: https://packages.microsoft.com/repos/edge
+  Suites: stable
+  Components: main
+  Architectures: amd64
+  Signed-By: /usr/share/keyrings/microsoft-edge.asc
+  EOF
+  chmod 0644 '/etc/apt/sources.list.d/microsoft-edge.sources'
+
+  apt-get update
+  apt-get install -y --no-install-recommends 'microsoft-edge-stable'
+  dpkg-query -W -f='${Status}\n' 'microsoft-edge-stable' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'
+
+  rm -f -- '/etc/apt/sources.list.d/microsoft-edge.list'
+  apt-get clean
+distributions:
+  include:
+  - name: trixie
+    architectures:
+    - amd64
+developer: Microsoft Corporation
+homepage: https://www.microsoft.com/edge/
+tags:
+- browser
+- web
+- chromium
+- microsoft
+- internet
+enabled: true
+order: 99
+screenshotSources:
+- url: https://dl.flathub.org/media/com/microsoft/Edge/5670bbcc27b69cd8254902ebf18e1449/screenshots/image-1_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/microsoft/Edge/5670bbcc27b69cd8254902ebf18e1449/screenshots/image-1_624x351@1.png
+  width: 1024
+  height: 576
+iconSources:
+- url: https://dl.flathub.org/media/com/microsoft/Edge/5670bbcc27b69cd8254902ebf18e1449/icons/128x128/com.microsoft.Edge.png
+  width: 128
+  height: 128

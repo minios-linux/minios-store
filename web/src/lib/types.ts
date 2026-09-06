@@ -40,6 +40,38 @@ export interface DistributionFilter {
   exclude?: DistributionEntry[];
 }
 
+/** Source metadata used to build the recipe's local media cache */
+export interface RecipeMediaSource {
+  /** Remote source URL (upstream, Flathub, Snapcraft, AppStream, etc.) */
+  url?: string;
+  /** Local source file relative to recipes/ (used for uploaded media) */
+  file?: string;
+  /** Optional remote thumbnail URL */
+  thumbnailUrl?: string;
+  /** Optional local thumbnail file relative to recipes/ */
+  thumbnailFile?: string;
+  /** Source image width when known */
+  width?: number;
+  /** Source image height when known */
+  height?: number;
+  /** Content hash for locally stored media, used to invalidate generated caches */
+  sha256?: string;
+  /** Legacy cached AppStream icon name */
+  cached?: string;
+}
+
+/** Additional software license shown before installation */
+export interface RecipeLicense {
+  /** Stable identifier used for explicit acceptance */
+  id: string;
+  /** User-facing license name */
+  name: string;
+  /** Canonical URL with the license terms */
+  url: string;
+  /** Require explicit user acceptance before installation */
+  requiresAcceptance?: boolean;
+}
+
 /** A single recipe (application) that can be installed */
 export interface Recipe {
   /** Unique recipe identifier (e.g. "firefox", "vlc") */
@@ -81,8 +113,14 @@ export interface Recipe {
   homepage?: string;
   /** Screenshot image paths (relative to /screenshots/) */
   screenshots?: string[];
+  /** Canonical screenshot sources used to build the local cache */
+  screenshotSources?: RecipeMediaSource[] | null;
+  /** Canonical icon sources used to build the local cache */
+  iconSources?: RecipeMediaSource[] | null;
   /** Long description / notes */
   longDescription?: string;
+  /** Additional license terms associated with this recipe */
+  license?: RecipeLicense;
   /** Tags for search */
   tags?: string[];
   /** Whether this recipe is enabled (default true) */
@@ -137,7 +175,7 @@ export type ConnectionStatus = 'connected' | 'disconnected' | 'connecting';
 
 /** Messages sent from client to server */
 export type ClientMessage =
-  | { type: 'install'; recipes: InstallRecipe[]; mode: InstallMode; packaging?: PackagingMode; moduleName?: string }
+  | { type: 'install'; recipes: InstallRecipe[]; mode: InstallMode; packaging?: PackagingMode; moduleName?: string; acceptedLicenses?: string[] }
   | { type: 'cancel' }
   | { type: 'get_status' }
   | { type: 'ping' }
@@ -153,6 +191,7 @@ export interface InstallRecipe {
   packages?: string[];
   script?: string;
   debUrl?: string;
+  license?: RecipeLicense;
 }
 
 /** System information received from backend */

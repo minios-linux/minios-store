@@ -350,11 +350,22 @@ describe('useWebSocket', () => {
     act(() => { result.current.sendInstall(recipes as never, 'module', 'single'); });
     expect(storeWs.send).toHaveBeenCalledWith({
       type: 'install', recipes, mode: 'module', packaging: 'single',
+      acceptedLicenses: [],
     });
 
     act(() => { result.current.sendInstall(recipes as never, 'system', 'single'); });
     expect(storeWs.send).toHaveBeenCalledWith({
-      type: 'install', recipes, mode: 'system',
+      type: 'install', recipes, mode: 'system', acceptedLicenses: [],
+    });
+
+    act(() => {
+      result.current.sendInstall(
+        recipes as never, 'module', 'single', ['virtualbox-puel'],
+      );
+    });
+    expect(storeWs.send).toHaveBeenCalledWith({
+      type: 'install', recipes, mode: 'module', packaging: 'single',
+      acceptedLicenses: ['virtualbox-puel'],
     });
   });
 

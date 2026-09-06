@@ -135,6 +135,16 @@ class StoreServer:
         mode = message.get("mode", "module")
         packaging = message.get("packaging", "single")
         module_name = message.get("moduleName", "").strip()
+        accepted_licenses = message.get("acceptedLicenses", [])
+        if not isinstance(accepted_licenses, list) or any(
+            not isinstance(item, str) for item in accepted_licenses
+        ):
+            await self._send(websocket, {
+                "type": "install_error",
+                "error": _("Invalid license acceptance data"),
+            })
+            return
+        accepted_licenses = set(accepted_licenses)
 
         if mode not in ("module", "system"):
             await self._send(websocket, {
@@ -171,6 +181,18 @@ class StoreServer:
                     ),
                 })
                 return
+            license_info = recipe.get("license")
+            if isinstance(license_info, dict) and license_info.get("requiresAcceptance"):
+                license_id = license_info.get("id")
+                if not license_id or license_id not in accepted_licenses:
+                    await self._send(websocket, {
+                        "type": "install_error",
+                        "error": _("License '{}' must be accepted before installing '{}'").format(
+                            license_info.get("name") or license_id or "?",
+                            recipe.get("name") or recipe.get("id"),
+                        ),
+                    })
+                    return
 
         self._installing = True
         

@@ -1,0 +1,79 @@
+id: brave-browser
+name: Brave
+description: Browse privately with built-in ad and tracker blocking
+longDescription: |
+  <p>Brave is a Chromium-based web browser focused on privacy and performance. Brave Shields blocks many ads, trackers, fingerprinting techniques, and other unwanted content by default while retaining compatibility with Chromium extensions.</p>
+  <p>The stable release channel is installed from Brave Software's official APT repository.</p>
+categoryId: internet
+icon: Globe
+method: script
+level: auto
+compression: zstd
+script: |
+  #!/bin/bash
+  set -euo pipefail
+
+  export LC_ALL=C
+  export DEBIAN_FRONTEND=noninteractive
+
+  fail() {
+      printf '%s: %s\n' 'brave-browser' "$*" >&2
+      exit 1
+  }
+
+  ARCH="$(dpkg --print-architecture)"
+  [ "$ARCH" = amd64 ] || fail "unsupported architecture: $ARCH"
+
+  if ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then
+      apt-get update
+      apt-get install -y --no-install-recommends ca-certificates curl
+  fi
+
+  install -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d
+  curl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/brave-browser-archive-keyring.gpg' 'https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg'
+  chmod 0644 '/usr/share/keyrings/brave-browser-archive-keyring.gpg'
+
+  cat >'/etc/apt/sources.list.d/brave-browser.sources' <<'EOF'
+  Types: deb
+  URIs: https://brave-browser-apt-release.s3.brave.com
+  Suites: stable
+  Components: main
+  Architectures: amd64
+  Signed-By: /usr/share/keyrings/brave-browser-archive-keyring.gpg
+  EOF
+  chmod 0644 '/etc/apt/sources.list.d/brave-browser.sources'
+
+  apt-get update
+  apt-get install -y --no-install-recommends 'brave-browser'
+  dpkg-query -W -f='${Status}\n' 'brave-browser' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'
+
+  apt-get clean
+distributions:
+  include:
+  - name: trixie
+    architectures:
+    - amd64
+developer: Brave Software
+homepage: https://brave.com/
+tags:
+- browser
+- web
+- privacy
+- adblock
+- chromium
+- internet
+enabled: true
+order: 99
+screenshotSources:
+- url: https://dl.flathub.org/media/com/brave/Browser/0a789bdd7956816daec54987a0539216/screenshots/image-1_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/brave/Browser/0a789bdd7956816daec54987a0539216/screenshots/image-1_624x438@1.png
+  width: 1490
+  height: 1048
+- url: https://dl.flathub.org/media/com/brave/Browser/0a789bdd7956816daec54987a0539216/screenshots/image-2_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/brave/Browser/0a789bdd7956816daec54987a0539216/screenshots/image-2_624x394@1.png
+  width: 1653
+  height: 1046
+iconSources:
+- url: https://dl.flathub.org/media/com/brave/Browser/0a789bdd7956816daec54987a0539216/icons/128x128/com.brave.Browser.png
+  width: 128
+  height: 128

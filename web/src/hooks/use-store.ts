@@ -60,13 +60,13 @@ export function useWebSocket() {
     };
   }, []);
 
-  const sendInstall = useCallback((recipes: InstallRecipe[], mode: InstallMode, packaging: PackagingMode) => {
-    console.log('[useWebSocket] Sending install request:', { recipes, mode, packaging });
+  const sendInstall = useCallback((recipes: InstallRecipe[], mode: InstallMode, packaging: PackagingMode, acceptedLicenses: string[] = []) => {
+    console.log('[useWebSocket] Sending install request:', { recipes, mode, packaging, acceptedLicenses });
     // packaging only applies to module mode
     if (mode === 'module') {
-      return storeWs.send({ type: 'install', recipes, mode, packaging });
+      return storeWs.send({ type: 'install', recipes, mode, packaging, acceptedLicenses });
     }
-    return storeWs.send({ type: 'install', recipes, mode });
+    return storeWs.send({ type: 'install', recipes, mode, acceptedLicenses });
   }, []);
 
   const sendCancel = useCallback(() => {

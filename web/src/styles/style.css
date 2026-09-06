@@ -1468,9 +1468,66 @@ html.light-theme .cart-dropdown {
    APP DETAIL MODAL
    ========================================= */
 
-[data-slot="dialog-content"].app-detail-modal {
-    max-width: 700px !important;
-    width: 95% !important;
+[data-state="open"][data-slot="dialog-content"].app-detail-modal {
+    max-width: 960px !important;
+    width: calc(100vw - 48px) !important;
+}
+
+[data-state="open"][data-slot="dialog-content"].license-acceptance-dialog {
+    max-width: 620px !important;
+    width: calc(100vw - 48px) !important;
+}
+
+.license-acceptance-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.license-acceptance-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.license-acceptance-item input {
+    margin-top: 3px;
+}
+
+.license-acceptance-item a {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--accent);
+}
+
+.license-dialog-cancel,
+.license-dialog-accept {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--glass-border);
+    cursor: pointer;
+}
+
+.license-dialog-cancel {
+    background: transparent;
+    color: var(--text-main);
+}
+
+.license-dialog-accept {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #0f1115;
+    font-weight: 600;
+}
+
+.license-dialog-accept:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
 }
 
 .app-detail-header {
@@ -1551,8 +1608,32 @@ html.light-theme .cart-dropdown {
     text-decoration: underline;
 }
 
+.app-detail-license {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+}
+
+.app-detail-license a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    max-width: 100%;
+    color: var(--accent);
+    font-size: 0.85rem;
+}
+
+.app-detail-license span {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
 .app-detail-section {
     margin-bottom: 20px;
+    min-width: 0;
+    max-width: 100%;
 }
 
 .app-detail-section h4 {
@@ -1834,6 +1915,10 @@ html.light-theme .app-detail-option select {
 
 .script-viewer {
     position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid var(--glass-border);
@@ -1879,10 +1964,15 @@ html.light-theme .app-detail-option select {
 }
 
 .script-viewer pre {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
     margin: 0 !important;
     border-radius: 0 !important;
     max-height: 300px;
-    overflow-y: auto;
+    overflow-x: auto !important;
+    overflow-y: auto !important;
 }
 
 /* =========================================
@@ -4006,9 +4096,9 @@ html.light-theme .mobile-cart-menu {
    INSTALL PROGRESS MODAL
    ========================================= */
 
-.install-progress-modal {
-    max-width: 680px !important;
-    width: 95% !important;
+[data-state="open"][data-slot="dialog-content"].install-progress-modal {
+    max-width: 960px !important;
+    width: calc(100vw - 48px) !important;
 }
 
 .install-progress-header {

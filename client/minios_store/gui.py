@@ -16,6 +16,9 @@ import signal
 import threading
 import argparse
 import asyncio
+import base64
+import binascii
+import json
 
 # Internationalization
 APP_NAME = "minios-store"
@@ -43,6 +46,62 @@ from minios_store.installer import Installer
 # URI / CLI argument parsing
 # ---------------------------------------------------------------------------
 
+
+def _decode_recipe_payload(encoded):
+    """Decode the base64url recipe payload used by the web URI fallback."""
+    try:
+        padding = "=" * ((4 - len(encoded) % 4) % 4)
+        raw = base64.urlsafe_b64decode((encoded + padding).encode("ascii"))
+        recipes = json.loads(raw.decode("utf-8"))
+    except (ValueError, TypeError, UnicodeDecodeError, binascii.Error) as exc:
+        raise ValueError(_("Invalid recipe payload: %s") % exc)
+
+    if not isinstance(recipes, list) or not recipes:
+        raise ValueError(_("Recipe payload must contain a non-empty list"))
+
+    validated = []
+    for recipe in recipes:
+        if not isinstance(recipe, dict):
+            raise ValueError(_("Invalid recipe payload entry"))
+        rid = recipe.get("id")
+        method = recipe.get("method")
+        if not isinstance(rid, str) or not rid:
+            raise ValueError(_("Recipe payload entry is missing an ID"))
+        if method not in ("apt", "script", "deb"):
+            raise ValueError(_("Invalid installation method for %s") % rid)
+        if method == "apt" and not recipe.get("packages"):
+            raise ValueError(_("APT recipe '%s' has no packages") % rid)
+        if method == "script" and not recipe.get("script"):
+            raise ValueError(_("Script recipe '%s' has no script") % rid)
+        if method == "deb" and not recipe.get("debUrl"):
+            raise ValueError(_("DEB recipe '%s' has no URL") % rid)
+        validated.append(recipe)
+    return validated
+
+
+def _parse_accepted_licenses(value):
+    return [item.strip() for item in (value or "").split(",") if item.strip()]
+
+
+def validate_license_acceptance(recipes, accepted_licenses):
+    """Reject recipe payloads whose required licenses were not accepted."""
+    accepted = set(accepted_licenses or [])
+    missing = []
+    for recipe in recipes:
+        license_info = recipe.get("license")
+        if not isinstance(license_info, dict):
+            continue
+        if not license_info.get("requiresAcceptance"):
+            continue
+        license_id = license_info.get("id")
+        if license_id and license_id not in accepted:
+            missing.append(license_info.get("name") or license_id)
+    if missing:
+        raise ValueError(
+            _("License acceptance is required for: %s") % ", ".join(missing)
+        )
+
+
 def parse_uri(uri):
     """Parse minios-store:// URI and extract parameters.
 
@@ -63,30 +122,40 @@ def parse_uri(uri):
 
     params = parse_qs(parsed.query)
 
-    recipes_param = params.get("recipes", [""])[0]
-    if not recipes_param:
-        raise ValueError(_("Missing 'recipes' parameter"))
+    payload = params.get("payload", [""])[0]
+    if payload:
+        recipes = _decode_recipe_payload(payload)
+    else:
+        recipes_param = params.get("recipes", [""])[0]
+        if not recipes_param:
+            raise ValueError(_("Missing 'recipes' parameter"))
 
-    recipes = []
-    for part in recipes_param.split(","):
-        tokens = part.split(":")
-        if len(tokens) != 3:
-            raise ValueError(_("Invalid recipe format: %s") % part)
-        rid, level, compression = tokens
-        recipes.append({
-            "id": rid,
-            "name": rid,
-            "method": "apt",
-            "level": level,
-            "compression": compression,
-            "packages": [rid],
-        })
+        recipes = []
+        for part in recipes_param.split(","):
+            tokens = part.split(":")
+            if len(tokens) != 3:
+                raise ValueError(_("Invalid recipe format: %s") % part)
+            rid, level, compression = tokens
+            recipes.append({
+                "id": rid,
+                "name": rid,
+                "method": "apt",
+                "level": level,
+                "compression": compression,
+                "packages": [rid],
+            })
+
+    accepted_licenses = _parse_accepted_licenses(
+        params.get("acceptedLicenses", [""])[0]
+    )
+    validate_license_acceptance(recipes, accepted_licenses)
 
     return {
         "recipes": recipes,
         "mode": params.get("mode", ["module"])[0],
         "packaging": params.get("packaging", ["single"])[0],
         "module_name": params.get("moduleName", [""])[0],
+        "accepted_licenses": accepted_licenses,
     }
 
 
@@ -102,14 +171,19 @@ def build_cli_parser():
     parser.add_argument("--recipes",
                         help=_("Comma-separated id:level:compression"))
     parser.add_argument("--module-name", default="")
+    parser.add_argument("--accepted-licenses", default="",
+                        help=_("Comma-separated accepted license IDs"))
     return parser
 
 
 def resolve_params(args):
-    """Return (recipes, mode, packaging, module_name) from parsed args."""
+    """Return recipes, mode, packaging, module name, and accepted licenses."""
     if args.uri and args.uri.startswith("minios-store://"):
         p = parse_uri(args.uri)
-        return p["recipes"], p["mode"], p["packaging"], p["module_name"]
+        return (
+            p["recipes"], p["mode"], p["packaging"], p["module_name"],
+            p["accepted_licenses"],
+        )
     if args.recipes:
         recipes = []
         for part in args.recipes.split(","):
@@ -125,8 +199,9 @@ def resolve_params(args):
                 "compression": compression,
                 "packages": [rid],
             })
-        return recipes, args.mode, args.packaging, args.module_name or ""
-    return None, None, None, None
+        accepted = _parse_accepted_licenses(args.accepted_licenses)
+        return recipes, args.mode, args.packaging, args.module_name or "", accepted
+    return None, None, None, None, None
 
 
 # ---------------------------------------------------------------------------
@@ -578,7 +653,7 @@ def main():
     args = parser.parse_args()
 
     try:
-        recipes, mode, packaging, module_name = resolve_params(args)
+        recipes, mode, packaging, module_name, accepted_licenses = resolve_params(args)
     except ValueError as e:
         print(_("Error: %s") % e, file=sys.stderr)
         sys.exit(1)

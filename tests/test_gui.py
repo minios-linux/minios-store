@@ -5,6 +5,9 @@ parse_uri / resolve_params / build_cli_parser are plain logic and are
 fully testable.
 """
 
+import base64
+import json
+
 import pytest
 
 # gui.py imports GTK (gi) at module import time and calls sys.exit(1) when it
@@ -76,6 +79,54 @@ def test_parse_uri_bad_recipe_format():
         gui.parse_uri("minios-store://install?recipes=vlc:auto")
 
 
+def _payload(value):
+    raw = json.dumps(value, ensure_ascii=False).encode("utf-8")
+    return base64.urlsafe_b64encode(raw).decode("ascii").rstrip("=")
+
+
+def test_parse_uri_full_script_payload_with_license_acceptance():
+    recipe = {
+        "id": "virtualbox-extpack",
+        "name": "VirtualBox + Extension Pack",
+        "method": "script",
+        "level": "auto",
+        "compression": "zstd",
+        "script": "#!/bin/bash\necho ok",
+        "license": {
+            "id": "virtualbox-puel",
+            "name": "Oracle PUEL",
+            "url": "https://example.org/license",
+            "requiresAcceptance": True,
+        },
+    }
+    uri = (
+        "minios-store://install?mode=module&packaging=single"
+        "&recipes=virtualbox-extpack:auto:zstd&payload=%s"
+        "&acceptedLicenses=virtualbox-puel" % _payload([recipe])
+    )
+    result = gui.parse_uri(uri)
+    assert result["recipes"][0]["method"] == "script"
+    assert result["recipes"][0]["script"].endswith("echo ok")
+    assert result["accepted_licenses"] == ["virtualbox-puel"]
+
+
+def test_parse_uri_rejects_unaccepted_required_license():
+    recipe = {
+        "id": "demo", "name": "Demo", "method": "script",
+        "level": "auto", "compression": "zstd", "script": "echo ok",
+        "license": {
+            "id": "demo-license", "name": "Demo License",
+            "url": "https://example.org/license", "requiresAcceptance": True,
+        },
+    }
+    uri = (
+        "minios-store://install?recipes=demo:auto:zstd&payload=%s"
+        % _payload([recipe])
+    )
+    with pytest.raises(ValueError, match="License acceptance is required"):
+        gui.parse_uri(uri)
+
+
 # ---------------------------------------------------------------------------
 # build_cli_parser / resolve_params
 # ---------------------------------------------------------------------------
@@ -91,7 +142,7 @@ def test_build_cli_parser_defaults():
 def test_resolve_params_from_uri():
     parser = gui.build_cli_parser()
     args = parser.parse_args(["minios-store://install?recipes=vlc:auto:zstd"])
-    recipes, mode, packaging, module_name = gui.resolve_params(args)
+    recipes, mode, packaging, module_name, accepted = gui.resolve_params(args)
     assert recipes[0]["id"] == "vlc"
     assert mode == "module"
     assert packaging == "single"
@@ -105,7 +156,7 @@ def test_resolve_params_from_cli_flags():
         "--recipes", "vlc:auto:zstd,gimp:05:xz",
         "--module-name", "bundle",
     ])
-    recipes, mode, packaging, module_name = gui.resolve_params(args)
+    recipes, mode, packaging, module_name, accepted = gui.resolve_params(args)
     assert [r["id"] for r in recipes] == ["vlc", "gimp"]
     assert mode == "system"
     assert packaging == "separate"
@@ -115,7 +166,7 @@ def test_resolve_params_from_cli_flags():
 def test_resolve_params_none_when_no_input():
     parser = gui.build_cli_parser()
     args = parser.parse_args([])
-    assert gui.resolve_params(args) == (None, None, None, None)
+    assert gui.resolve_params(args) == (None, None, None, None, None)
 
 
 def test_resolve_params_bad_cli_recipe_raises():

@@ -18,6 +18,7 @@ import io
 import json
 import logging
 import os
+import shutil
 import sys
 import tarfile
 import time
@@ -125,8 +126,43 @@ def get_file_extension(url):
     return ".png"
 
 
+def _is_absolute_media_url(url):
+    """Return True for directly downloadable HTTP(S) media URLs."""
+    return isinstance(url, str) and url.startswith(("https://", "http://"))
+
+
+def _resolve_local_media(media_root, relative_path):
+    """Resolve a recipe-local media path without allowing path traversal."""
+    if not media_root or not isinstance(relative_path, str) or not relative_path:
+        return None
+    if os.path.isabs(relative_path):
+        return None
+    root = os.path.abspath(media_root)
+    candidate = os.path.abspath(os.path.join(root, relative_path))
+    try:
+        if os.path.commonpath([root, candidate]) != root:
+            return None
+    except ValueError:
+        return None
+    return candidate if os.path.isfile(candidate) else None
+
+
+def _copy_local_media(source_path, dest_path):
+    """Copy a local recipe media source into the generated public cache."""
+    if not source_path:
+        return 0
+    try:
+        os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+        shutil.copyfile(source_path, dest_path)
+        return os.path.getsize(dest_path)
+    except OSError as exc:
+        logger.debug("Failed to copy local media %s: %s", source_path, exc)
+        return 0
+
+
 def fetch_package_screenshots(package_name, output_dir,
-                              screenshot_sources=None, suites=None):
+                              screenshot_sources=None, suites=None,
+                              media_root=None):
     """Fetch screenshots for a single package from AppStream media or screenshots.debian.net.
 
     Prefers AppStream media URLs from screenshotSources (populated by repo_parser).
@@ -153,11 +189,16 @@ def fetch_package_screenshots(package_name, output_dir,
     pkg_dir = os.path.join(output_dir, package_name)
     no_screenshots_marker = os.path.join(pkg_dir, ".no_screenshots")
 
-    # Build a fingerprint from current source URLs for cache invalidation
+    # Build a fingerprint from current source locations for cache invalidation.
     current_fingerprint = ""
     if screenshot_sources:
         current_fingerprint = "|".join(
-            src.get("url", "") for src in screenshot_sources
+            "{}#{}#{}#{}#{}".format(
+                src.get("file", ""), src.get("url", ""),
+                src.get("thumbnailFile", ""), src.get("thumbnailUrl", ""),
+                src.get("sha256", ""),
+            )
+            for src in screenshot_sources
         )
 
     # Check if we already have cached screenshots
@@ -198,6 +239,7 @@ def fetch_package_screenshots(package_name, output_dir,
         return _fetch_from_appstream(
             package_name, pkg_dir, no_screenshots_marker,
             screenshot_sources, suites, current_fingerprint,
+            media_root=media_root,
         )
 
     # ---- Strategy 2: Legacy screenshots.debian.net API ----
@@ -247,7 +289,8 @@ def _download_thumbnail(base_url, rel_thumb, small_path):
 
 
 def _fetch_from_appstream(package_name, pkg_dir, no_screenshots_marker,
-                          screenshot_sources, suites, fingerprint=""):
+                          screenshot_sources, suites, fingerprint="",
+                          media_root=None):
     """Download screenshots using AppStream media URLs.
 
     Tries Debian suites first, then Ubuntu suites, for each screenshot source.
@@ -282,48 +325,79 @@ def _fetch_from_appstream(package_name, pkg_dir, no_screenshots_marker,
     total_bytes = 0
 
     for idx, src in enumerate(screenshot_sources[:MAX_SCREENSHOTS], 1):
+        rel_file = src.get("file", "")
         rel_url = src.get("url", "")
+        rel_thumb_file = src.get("thumbnailFile", "")
         rel_thumb = src.get("thumbnailUrl", "")
-        if not rel_url:
+        if not rel_file and not rel_url:
             continue
 
-        ext = get_file_extension(rel_url)
+        ext = get_file_extension(rel_file or rel_url)
         full_path = os.path.join(pkg_dir, "{}{}".format(idx, ext))
         small_path = os.path.join(pkg_dir, "{}_small{}".format(idx, ext))
+        local_full = _resolve_local_media(media_root, rel_file)
+        local_thumb = _resolve_local_media(media_root, rel_thumb_file)
 
-        # Skip if already cached
+        # Skip if already cached, but still fill a missing thumbnail.
         full_exists = os.path.isfile(full_path) and os.path.getsize(full_path) > 0
         small_exists = os.path.isfile(small_path) and os.path.getsize(small_path) > 0
 
         if full_exists:
+            if local_full:
+                total_bytes += _copy_local_media(local_full, full_path)
             count += 1
-            # Still try to fetch thumbnail if missing
-            if rel_thumb and not small_exists:
-                for base_url in media_urls:
-                    nbytes = _download_thumbnail(base_url, rel_thumb, small_path)
-                    if nbytes > 0:
-                        total_bytes += nbytes
-                        break
+            if not small_exists:
+                if local_thumb:
+                    total_bytes += _copy_local_media(local_thumb, small_path)
+                elif rel_thumb:
+                    if _is_absolute_media_url(rel_thumb):
+                        total_bytes += download_file(rel_thumb, small_path)
+                    else:
+                        for base_url in media_urls:
+                            nbytes = _download_thumbnail(base_url, rel_thumb, small_path)
+                            if nbytes > 0:
+                                total_bytes += nbytes
+                                break
             continue
 
-        # Try each media base URL until one works
+        # Locally uploaded recipe media is preferred. If it is unavailable,
+        # retain the normal direct/AppStream URL fallback behavior.
         downloaded = False
-        for base_url in media_urls:
-            full_url = base_url + rel_url
-            nbytes = download_file(full_url, full_path)
+        if local_full:
+            nbytes = _copy_local_media(local_full, full_path)
             if nbytes > 0:
                 count += 1
                 total_bytes += nbytes
                 downloaded = True
-
-                # Also fetch thumbnail from the same source
-                if rel_thumb and not small_exists:
-                    tnbytes = _download_thumbnail(base_url, rel_thumb, small_path)
-                    total_bytes += tnbytes
-                break
+                if local_thumb and not small_exists:
+                    total_bytes += _copy_local_media(local_thumb, small_path)
+        elif _is_absolute_media_url(rel_url):
+            nbytes = download_file(rel_url, full_path)
+            if nbytes > 0:
+                count += 1
+                total_bytes += nbytes
+                downloaded = True
+                if rel_thumb and not small_exists and _is_absolute_media_url(rel_thumb):
+                    total_bytes += download_file(rel_thumb, small_path)
+        elif rel_url:
+            for base_url in media_urls:
+                full_url = base_url + rel_url
+                nbytes = download_file(full_url, full_path)
+                if nbytes > 0:
+                    count += 1
+                    total_bytes += nbytes
+                    downloaded = True
+                    if rel_thumb and not small_exists:
+                        if _is_absolute_media_url(rel_thumb):
+                            total_bytes += download_file(rel_thumb, small_path)
+                        else:
+                            total_bytes += _download_thumbnail(
+                                base_url, rel_thumb, small_path
+                            )
+                    break
 
         if not downloaded:
-            logger.debug("No AppStream media found for %s screenshot %d", package_name, idx)
+            logger.debug("No media found for %s screenshot %d", package_name, idx)
 
     if count == 0:
         # Cache negative result with URL fingerprint for invalidation
@@ -460,7 +534,8 @@ def _extract_suites(recipe):
     return suites
 
 
-def fetch_all_screenshots(recipes, output_dir, concurrency=DEFAULT_CONCURRENCY):
+def fetch_all_screenshots(recipes, output_dir, concurrency=DEFAULT_CONCURRENCY,
+                          media_root=None):
     """Fetch screenshots for all recipes using a thread pool.
 
     Uses AppStream media URLs from screenshotSources when available,
@@ -568,6 +643,7 @@ def fetch_all_screenshots(recipes, output_dir, concurrency=DEFAULT_CONCURRENCY):
                 fetch_package_screenshots, pkg_name, output_dir,
                 screenshot_sources=screenshot_sources,
                 suites=suites,
+                media_root=media_root,
             )
             futures[future] = pkg_name
 
@@ -680,7 +756,7 @@ FALLBACK_ICON_SIZES = ["64x64", "48x48"]
 
 
 def fetch_package_icon(package_name, output_dir, icon_sources=None, suites=None,
-                       icon_tarballs=None):
+                       icon_tarballs=None, media_root=None):
     """Fetch an app icon for a single package.
 
     Handles two icon source types:
@@ -709,9 +785,12 @@ def fetch_package_icon(package_name, output_dir, icon_sources=None, suites=None,
     icon_path = os.path.join(output_dir, "{}.png".format(package_name))
     no_icon_marker = os.path.join(output_dir, ".no_icon_{}".format(package_name))
 
-    # Build fingerprint from current icon source for cache invalidation
+    # Build fingerprint from current icon source for cache invalidation.
     src = icon_sources[0]  # Use first (best) icon source
-    current_fingerprint = src.get("url", "") or src.get("cached", "")
+    current_fingerprint = "{}#{}#{}#{}".format(
+        src.get("file", ""), src.get("url", ""), src.get("cached", ""),
+        src.get("sha256", ""),
+    )
 
     # Check negative cache
     if os.path.isfile(no_icon_marker):
@@ -729,35 +808,51 @@ def fetch_package_icon(package_name, output_dir, icon_sources=None, suites=None,
             logger.info("Icon URL changed for %s, retrying download", package_name)
             os.remove(no_icon_marker)
 
-    # Check if already cached
+    # ---- Locally uploaded icon ----
+    # Local sources are cheap to copy and may have been replaced in place,
+    # so always refresh the generated public cache from the canonical file.
+    local_icon = _resolve_local_media(media_root, src.get("file", ""))
+    if local_icon:
+        nbytes = _copy_local_media(local_icon, icon_path)
+        if nbytes > 0:
+            return (1, nbytes, False)
+
+    # Check if a remote/AppStream icon is already cached.
     if os.path.isfile(icon_path) and os.path.getsize(icon_path) > 0:
         return (1, 0, True)
 
     if suites is None:
         suites = {"debian": [], "ubuntu": []}
 
-    # ---- Remote icon (direct URL from AppStream media CDN) ----
+    # ---- Remote icon ----
     if src.get("url"):
         rel_url = src["url"]
 
-        # Build ordered list of base URLs to try
-        media_urls = []
-        for suite in suites.get("debian", []):
-            media_urls.append(APPSTREAM_DEBIAN_MEDIA.format(suite=suite))
-        for suite in suites.get("ubuntu", []):
-            media_urls.append(APPSTREAM_UBUNTU_MEDIA.format(suite=suite))
-        if not media_urls:
-            media_urls = [
-                APPSTREAM_DEBIAN_MEDIA.format(suite="trixie"),
-                APPSTREAM_DEBIAN_MEDIA.format(suite="bookworm"),
-                APPSTREAM_UBUNTU_MEDIA.format(suite="noble"),
-            ]
-
-        for base_url in media_urls:
-            full_url = base_url + rel_url
-            nbytes = download_file(full_url, icon_path)
+        # Full HTTP(S) URLs are fetched directly, allowing official upstream,
+        # Flathub, Snapcraft, and similar catalog media. Relative paths retain
+        # the Debian/Ubuntu AppStream CDN behavior used by repo_parser.py.
+        if _is_absolute_media_url(rel_url):
+            nbytes = download_file(rel_url, icon_path)
             if nbytes > 0:
                 return (1, nbytes, False)
+        else:
+            media_urls = []
+            for suite in suites.get("debian", []):
+                media_urls.append(APPSTREAM_DEBIAN_MEDIA.format(suite=suite))
+            for suite in suites.get("ubuntu", []):
+                media_urls.append(APPSTREAM_UBUNTU_MEDIA.format(suite=suite))
+            if not media_urls:
+                media_urls = [
+                    APPSTREAM_DEBIAN_MEDIA.format(suite="trixie"),
+                    APPSTREAM_DEBIAN_MEDIA.format(suite="bookworm"),
+                    APPSTREAM_UBUNTU_MEDIA.format(suite="noble"),
+                ]
+
+            for base_url in media_urls:
+                full_url = base_url + rel_url
+                nbytes = download_file(full_url, icon_path)
+                if nbytes > 0:
+                    return (1, nbytes, False)
 
         # All URLs failed — write negative cache with fingerprint
         with open(no_icon_marker, "w") as f:
@@ -894,7 +989,8 @@ def _try_load_tarball(url_template, suite, component, preferred_size,
             logger.warning("Failed to process icons tarball %s: %s", url, e)
 
 
-def fetch_all_icons(recipes, output_dir, concurrency=DEFAULT_CONCURRENCY):
+def fetch_all_icons(recipes, output_dir, concurrency=DEFAULT_CONCURRENCY,
+                    media_root=None):
     """Fetch icons for all recipes using a thread pool.
 
     Downloads remote icons directly from AppStream media CDN.
@@ -995,6 +1091,7 @@ def fetch_all_icons(recipes, output_dir, concurrency=DEFAULT_CONCURRENCY):
                 icon_sources=icon_sources,
                 suites=suites,
                 icon_tarballs=icon_tarballs,
+                media_root=media_root,
             )
             futures[future] = pkg_name
 
@@ -1469,6 +1566,80 @@ def validate_recipe(recipe, filepath):
                             )
                         )
 
+    # Optional media source metadata. Sources may be remote URLs, local files
+    # under recipes/, or legacy cached AppStream icon names.
+    for field_name in ("screenshotSources", "iconSources"):
+        media_sources = recipe.get(field_name)
+        if media_sources is None:
+            continue
+        if not isinstance(media_sources, list):
+            errors.append("{}: '{}' must be a list".format(filepath, field_name))
+            continue
+        for idx, source in enumerate(media_sources):
+            if not isinstance(source, dict):
+                errors.append(
+                    "{}: {}[{}] must be an object".format(
+                        filepath, field_name, idx
+                    )
+                )
+                continue
+            if not any(source.get(key) for key in ("url", "file", "cached")):
+                errors.append(
+                    "{}: {}[{}] requires 'url', 'file', or 'cached'".format(
+                        filepath, field_name, idx
+                    )
+                )
+            for path_key in ("file", "thumbnailFile"):
+                local_path = source.get(path_key)
+                if local_path is None:
+                    continue
+                if not isinstance(local_path, str) or not local_path.strip():
+                    errors.append(
+                        "{}: {}[{}].{} must be a non-empty string".format(
+                            filepath, field_name, idx, path_key
+                        )
+                    )
+                    continue
+                normalized = local_path.replace("\\", "/")
+                if os.path.isabs(local_path) or ".." in normalized.split("/"):
+                    errors.append(
+                        "{}: {}[{}].{} must stay inside recipes/".format(
+                            filepath, field_name, idx, path_key
+                        )
+                    )
+            if field_name == "iconSources" and source.get("file"):
+                if not str(source["file"]).lower().endswith(".png"):
+                    errors.append(
+                        "{}: iconSources[{}].file must be a PNG file".format(
+                            filepath, idx
+                        )
+                    )
+
+    # Optional additional license metadata.
+    license_info = recipe.get("license")
+    if license_info is not None:
+        if not isinstance(license_info, dict):
+            errors.append("{}: 'license' must be an object".format(filepath))
+        else:
+            for field in ("id", "name", "url"):
+                value = license_info.get(field)
+                if not isinstance(value, str) or not value.strip():
+                    errors.append(
+                        "{}: license.{} must be a non-empty string".format(
+                            filepath, field
+                        )
+                    )
+            url = license_info.get("url")
+            if isinstance(url, str) and url and not url.startswith(("https://", "http://")):
+                errors.append(
+                    "{}: license.url must use http or https".format(filepath)
+                )
+            requires = license_info.get("requiresAcceptance")
+            if requires is not None and not isinstance(requires, bool):
+                errors.append(
+                    "{}: license.requiresAcceptance must be a boolean".format(filepath)
+                )
+
     # Top-level 'architectures' is deprecated (merged into distributions)
     if "architectures" in recipe:
         errors.append(
@@ -1479,6 +1650,23 @@ def validate_recipe(recipe, filepath):
         )
 
     return errors
+
+
+def normalize_recipe(recipe):
+    """Normalize one validated recipe for deterministic output."""
+    recipe = dict(recipe)
+    recipe["level"] = str(recipe.get("level", "05"))
+    for field in ("id", "name", "description", "categoryId"):
+        if field in recipe:
+            recipe[field] = str(recipe[field])
+    recipe.setdefault("compression", "zstd")
+    recipe.setdefault("enabled", True)
+    recipe.setdefault("order", 99)
+    try:
+        recipe["order"] = int(recipe["order"])
+    except (ValueError, TypeError):
+        recipe["order"] = 99
+    return recipe
 
 
 def build_recipes(recipes_dir, validate_only=False):
@@ -1529,29 +1717,184 @@ def build_recipes(recipes_dir, validate_only=False):
                 continue
             seen_ids.add(recipe_id)
 
-            # Ensure correct types (YAML may parse e.g. "2048" as int)
-            recipe["level"] = str(recipe.get("level", "05"))
-            for str_field in ("id", "name", "description", "categoryId"):
-                if str_field in recipe:
-                    recipe[str_field] = str(recipe[str_field])
-
-            # Set defaults
-            recipe.setdefault("compression", "zstd")
-            recipe.setdefault("enabled", True)
-            recipe.setdefault("order", 99)
-
-            # Ensure order is int for consistent sorting
-            try:
-                recipe["order"] = int(recipe["order"])
-            except (ValueError, TypeError):
-                recipe["order"] = 99
-
-            recipes.append(recipe)
+            recipes.append(normalize_recipe(recipe))
 
     # Sort by categoryId, then order, then name
     recipes.sort(key=lambda r: (r["categoryId"], r.get("order", 99), r["name"]))
 
     return recipes, all_errors
+
+
+BUILD_ONLY_FIELDS = {"screenshotSources", "iconSources"}
+HEAVY_FIELDS = {"longDescription", "script", "screenshots", "screenshotSources"}
+
+
+def recipe_media_name(recipe):
+    """Return the cache key used for a recipe's screenshots and icon."""
+    packages = recipe.get("packages")
+    if packages and isinstance(packages, list):
+        return str(packages[0])
+    return str(recipe["id"])
+
+
+def fetch_recipe_media(recipe, screenshots_dir, icons_dir, media_root=None):
+    """Fetch one recipe's media into the normal MiniOS Store cache."""
+    package_name = recipe_media_name(recipe)
+    suites = _extract_suites(recipe)
+    screenshots = fetch_package_screenshots(
+        package_name,
+        screenshots_dir,
+        screenshot_sources=recipe.get("screenshotSources"),
+        suites=suites,
+        media_root=media_root,
+    )
+
+    icon = (0, 0, False)
+    icon_sources = recipe.get("iconSources")
+    if icon_sources:
+        icon_tarballs = _load_icon_tarballs([recipe])
+        icon = fetch_package_icon(
+            package_name,
+            icons_dir,
+            icon_sources=icon_sources,
+            suites=suites,
+            icon_tarballs=icon_tarballs,
+            media_root=media_root,
+        )
+    return {"screenshots": screenshots, "icon": icon}
+
+
+def prepare_recipe_for_output(recipe, screenshots_dir, icons_dir):
+    """Return one normalized frontend recipe from its canonical source data."""
+    recipe = normalize_recipe(recipe)
+    package_name = recipe_media_name(recipe)
+
+    screenshots = scan_screenshots(screenshots_dir, package_name)
+    if screenshots:
+        recipe["screenshots"] = screenshots
+    else:
+        recipe.setdefault("screenshots", None)
+
+    icon = scan_icon(icons_dir, package_name)
+    if icon:
+        recipe["appIcon"] = icon
+    else:
+        recipe.pop("appIcon", None)
+
+    for field in BUILD_ONLY_FIELDS:
+        recipe.pop(field, None)
+    return recipe
+
+
+def _write_json(path, data, indent=None):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    tmp_path = path + ".tmp"
+    with open(tmp_path, "w", encoding="utf-8") as stream:
+        json.dump(data, stream, indent=indent, ensure_ascii=False)
+        stream.write("\n")
+    os.replace(tmp_path, path)
+
+
+def write_recipe_artifacts(recipes, output_path, pretty=True, changed_ids=None):
+    """Write all frontend artifacts from already prepared recipes.
+
+    changed_ids=None performs a full detail-file rebuild. Passing a set updates
+    only those detail files while still refreshing the aggregate indexes.
+    """
+    recipes = sorted(
+        recipes,
+        key=lambda recipe: (
+            recipe["categoryId"], recipe.get("order", 99), recipe["name"]
+        ),
+    )
+    output_dir = os.path.dirname(output_path) or "."
+    os.makedirs(output_dir, exist_ok=True)
+
+    _write_json(output_path, recipes, indent=2 if pretty else None)
+    index = [
+        {key: value for key, value in recipe.items() if key not in HEAVY_FIELDS}
+        for recipe in recipes
+    ]
+    index_path = os.path.join(output_dir, "recipes-index.json")
+    _write_json(index_path, index)
+
+    details_dir = os.path.join(output_dir, "recipes")
+    os.makedirs(details_dir, exist_ok=True)
+    if changed_ids is None:
+        for filename in os.listdir(details_dir):
+            if filename.endswith(".json"):
+                os.remove(os.path.join(details_dir, filename))
+        detail_recipes = recipes
+    else:
+        changed_ids = set(changed_ids)
+        for recipe_id in changed_ids:
+            detail_path = os.path.join(details_dir, recipe_id + ".json")
+            if os.path.isfile(detail_path):
+                os.remove(detail_path)
+        detail_recipes = [r for r in recipes if r["id"] in changed_ids]
+
+    for recipe in detail_recipes:
+        detail = {
+            "longDescription": recipe.get("longDescription"),
+            "script": recipe.get("script"),
+            "screenshots": recipe.get("screenshots"),
+        }
+        if any(value for value in detail.values()):
+            _write_json(
+                os.path.join(details_dir, recipe["id"] + ".json"), detail
+            )
+
+    for filename in os.listdir(output_dir):
+        if (
+            filename != "recipes-index.json"
+            and filename.startswith("recipes-index.")
+            and filename.endswith(".json")
+        ):
+            os.remove(os.path.join(output_dir, filename))
+
+    translations_dir = os.path.join(output_dir, "recipe-translations")
+    language_count = 0
+    if os.path.isdir(translations_dir):
+        for language in sorted(os.listdir(translations_dir)):
+            lang_dir = os.path.join(translations_dir, language)
+            if not os.path.isdir(lang_dir):
+                continue
+            translations = {}
+            for filename in os.listdir(lang_dir):
+                if not filename.endswith(".json"):
+                    continue
+                try:
+                    with open(os.path.join(lang_dir, filename), encoding="utf-8") as stream:
+                        translations[filename[:-5]] = json.load(stream)
+                except (json.JSONDecodeError, OSError):
+                    continue
+            if not translations:
+                continue
+
+            translated_index = []
+            for entry in index:
+                translated = translations.get(entry.get("id", ""))
+                if not translated:
+                    translated_index.append(entry)
+                    continue
+                merged = dict(entry)
+                if translated.get("name"):
+                    merged["name"] = translated["name"]
+                if translated.get("description"):
+                    merged["description"] = translated["description"]
+                translated_index.append(merged)
+            _write_json(
+                os.path.join(output_dir, "recipes-index.{}.json".format(language)),
+                translated_index,
+            )
+            language_count += 1
+
+    return {
+        "recipes": len(recipes),
+        "languages": language_count,
+        "index_path": index_path,
+        "details_dir": details_dir,
+    }
 
 
 def main():
@@ -1641,6 +1984,7 @@ def main():
             recipes,
             screenshots_dir,
             concurrency=args.screenshot_concurrency,
+            media_root=args.recipes_dir,
         )
 
     # --- Icon fetching ---
@@ -1650,162 +1994,29 @@ def main():
             recipes,
             icons_dir,
             concurrency=args.icon_concurrency,
+            media_root=args.recipes_dir,
         )
 
-    # Populate screenshots field from on-disk files
-    # Uses the first package name (or recipe ID) to find screenshot directory
-    screenshots_populated = 0
-    for recipe in recipes:
-        pkg_name = None
-        pkgs = recipe.get("packages")
-        if pkgs and isinstance(pkgs, list) and len(pkgs) > 0:
-            pkg_name = str(pkgs[0])
-        else:
-            pkg_name = str(recipe["id"])
-
-        shots = scan_screenshots(screenshots_dir, pkg_name)
-        if shots:
-            recipe["screenshots"] = shots
-            screenshots_populated += 1
-        else:
-            # Don't override if recipe YAML had manual screenshots
-            recipe.setdefault("screenshots", None)
-
-    if screenshots_populated > 0:
-        logger.info("Populated screenshots for %d recipes", screenshots_populated)
-
-    # Populate appIcon field from on-disk icon files
-    icons_populated = 0
-    for recipe in recipes:
-        pkg_name = None
-        pkgs = recipe.get("packages")
-        if pkgs and isinstance(pkgs, list) and len(pkgs) > 0:
-            pkg_name = str(pkgs[0])
-        else:
-            pkg_name = str(recipe["id"])
-
-        icon = scan_icon(icons_dir, pkg_name)
-        if icon:
-            recipe["appIcon"] = icon
-            icons_populated += 1
-
-    if icons_populated > 0:
-        logger.info("Populated appIcon for %d recipes", icons_populated)
-
-    # Strip build-only fields before writing JSON (not needed by frontend)
-    BUILD_ONLY_FIELDS = {"screenshotSources", "iconSources"}
-    for recipe in recipes:
-        for field in BUILD_ONLY_FIELDS:
-            recipe.pop(field, None)
-
-    # Ensure output directory exists
-    output_dir = os.path.dirname(args.output)
-    if output_dir:
-        os.makedirs(output_dir, exist_ok=True)
-
-    indent = 2 if args.pretty else None
-
-    # Write full recipes.json (backward compatibility + admin panel)
-    with open(args.output, "w", encoding="utf-8") as f:
-        json.dump(recipes, f, indent=indent, ensure_ascii=False)
-        f.write("\n")
+    prepared = [
+        prepare_recipe_for_output(recipe, screenshots_dir, icons_dir)
+        for recipe in recipes
+    ]
+    result = write_recipe_artifacts(
+        prepared,
+        args.output,
+        pretty=args.pretty,
+        changed_ids=None,
+    )
 
     print("Written to: {}".format(args.output))
-
-    # Build lightweight index (without heavy fields: longDescription, script, screenshots)
-    # This is loaded by the store UI for browsing and search.
-    HEAVY_FIELDS = {"longDescription", "script", "screenshots", "screenshotSources"}
-    index = []
-    for recipe in recipes:
-        light = {k: v for k, v in recipe.items() if k not in HEAVY_FIELDS}
-        index.append(light)
-
-    index_path = os.path.join(output_dir, "recipes-index.json")
-    with open(index_path, "w", encoding="utf-8") as f:
-        json.dump(index, f, ensure_ascii=False)
-        f.write("\n")
-
-    # Write individual recipe detail files (for lazy-loading)
-    details_dir = os.path.join(output_dir, "recipes")
-    os.makedirs(details_dir, exist_ok=True)
-    for recipe in recipes:
-        detail = {
-            "longDescription": recipe.get("longDescription"),
-            "script": recipe.get("script"),
-            "screenshots": recipe.get("screenshots"),
-        }
-        # Only write if there's something worth loading
-        if any(v for v in detail.values()):
-            detail_path = os.path.join(details_dir, "{}.json".format(recipe["id"]))
-            with open(detail_path, "w", encoding="utf-8") as f:
-                json.dump(detail, f, ensure_ascii=False)
-                f.write("\n")
-
-    full_size = os.path.getsize(args.output)
-    index_size = os.path.getsize(index_path)
-    print(
-        "Index written to: {} ({:,} bytes, {:.0f}% smaller than full)".format(
-            index_path, index_size,
-            100 * (1 - index_size / full_size) if full_size else 0,
+    print("Index written to: {}".format(result["index_path"]))
+    print("Detail files written to: {}/".format(result["details_dir"]))
+    if result["languages"]:
+        print(
+            "Translated index files written: {} language(s)".format(
+                result["languages"]
+            )
         )
-    )
-    print("Detail files written to: {}/".format(details_dir))
-
-    # Build per-language aggregated index files (recipes-index.{lang}.json)
-    # These allow the frontend to load a single pre-translated index per
-    # language, eliminating the flash of English content.
-    translations_dir = os.path.join(output_dir, "recipe-translations")
-    if os.path.isdir(translations_dir):
-        lang_count = 0
-        for lang in sorted(os.listdir(translations_dir)):
-            lang_dir = os.path.join(translations_dir, lang)
-            if not os.path.isdir(lang_dir):
-                continue
-
-            # Read all per-recipe translation files for this language
-            tr_map = {}
-            for fname in os.listdir(lang_dir):
-                if not fname.endswith(".json"):
-                    continue
-                recipe_id = fname[:-5]  # strip .json
-                tr_path = os.path.join(lang_dir, fname)
-                try:
-                    with open(tr_path, "r", encoding="utf-8") as f:
-                        tr = json.load(f)
-                    tr_map[recipe_id] = tr
-                except (json.JSONDecodeError, OSError):
-                    continue
-
-            if not tr_map:
-                continue
-
-            # Overlay translations onto the lightweight index
-            translated_index = []
-            for entry in index:
-                recipe_id = entry.get("id", "")
-                tr = tr_map.get(recipe_id)
-                if tr:
-                    merged = dict(entry)
-                    if tr.get("name"):
-                        merged["name"] = tr["name"]
-                    if tr.get("description"):
-                        merged["description"] = tr["description"]
-                    translated_index.append(merged)
-                else:
-                    translated_index.append(entry)
-
-            lang_index_path = os.path.join(
-                output_dir, "recipes-index.{}.json".format(lang)
-            )
-            with open(lang_index_path, "w", encoding="utf-8") as f:
-                json.dump(translated_index, f, ensure_ascii=False)
-                f.write("\n")
-            lang_count += 1
-
-        if lang_count:
-            print(
-                "Translated index files written: {} language(s)".format(lang_count)
-            )
 
 
 if __name__ == "__main__":

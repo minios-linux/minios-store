@@ -1,0 +1,79 @@
+id: opera
+name: Opera
+description: Browse the web with Opera
+longDescription: |-
+  <p>Opera is a Chromium-based web browser with a customizable start page, tab management, sidebar tools, built-in ad blocking, synchronization, and integrated communication and productivity features.</p>
+  <p>The stable release channel is installed from Opera's official Debian repository.</p>
+categoryId: internet
+icon: Globe
+method: script
+level: auto
+compression: zstd
+script: |
+  #!/bin/bash
+  set -euo pipefail
+
+  export LC_ALL=C
+  export DEBIAN_FRONTEND=noninteractive
+
+  fail() {
+      printf '%s: %s\n' 'opera-stable' "$*" >&2
+      exit 1
+  }
+
+  ARCH="$(dpkg --print-architecture)"
+  [ "$ARCH" = amd64 ] || fail "unsupported architecture: $ARCH"
+
+  if ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then
+      apt-get update
+      apt-get install -y --no-install-recommends ca-certificates curl
+  fi
+
+  install -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d
+  curl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/opera-browser.asc' 'https://deb.opera.com/archive.key'
+  chmod 0644 '/usr/share/keyrings/opera-browser.asc'
+
+  cat >'/etc/apt/sources.list.d/opera-browser.sources' <<'EOF'
+  Types: deb
+  URIs: https://deb.opera.com/opera-stable/
+  Suites: stable
+  Components: non-free
+  Architectures: amd64
+  Signed-By: /usr/share/keyrings/opera-browser.asc
+  EOF
+  chmod 0644 '/etc/apt/sources.list.d/opera-browser.sources'
+
+  apt-get update
+  apt-get install -y --no-install-recommends 'opera-stable'
+  dpkg-query -W -f='${Status}\n' 'opera-stable' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'
+
+  rm -f -- '/etc/apt/sources.list.d/opera-stable.list' '/etc/apt/sources.list.d/opera-archive.list'
+  apt-get clean
+distributions:
+  include:
+  - name: trixie
+    architectures:
+    - amd64
+developer: Opera Software
+homepage: https://www.opera.com/
+tags:
+- browser
+- web
+- chromium
+- opera
+- internet
+enabled: true
+order: 99
+screenshotSources:
+- url: https://dl.flathub.org/media/com/opera/Opera/490a444454e90be9de60f1efe55998bd/screenshots/image-1_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/opera/Opera/490a444454e90be9de60f1efe55998bd/screenshots/image-1_624x451@1.png
+  width: 1051
+  height: 761
+- url: https://dl.flathub.org/media/com/opera/Opera/490a444454e90be9de60f1efe55998bd/screenshots/image-2_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/opera/Opera/490a444454e90be9de60f1efe55998bd/screenshots/image-2_624x452@1.png
+  width: 1051
+  height: 762
+iconSources:
+- url: https://dl.flathub.org/media/com/opera/Opera/490a444454e90be9de60f1efe55998bd/icons/128x128/com.opera.Opera.png
+  width: 128
+  height: 128

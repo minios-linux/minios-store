@@ -11827,6 +11827,45 @@
     "appIcon": "/icons/umbrello.png"
   },
   {
+    "id": "vscodium",
+    "name": "VSCodium",
+    "description": "Edit code without Microsoft telemetry",
+    "longDescription": "<p>VSCodium is a community-built distribution of Microsoft's open-source VS Code codebase with telemetry disabled and without Microsoft branding. It provides a modern editor, integrated terminal, debugging, source-control integration, language tooling, and extension support.</p>\n<p>The current release is installed from the official VSCodium Debian repository.</p>\n",
+    "categoryId": "development",
+    "icon": "Code",
+    "method": "script",
+    "level": "auto",
+    "compression": "zstd",
+    "script": "#!/bin/bash\nset -euo pipefail\n\nexport LC_ALL=C\nexport DEBIAN_FRONTEND=noninteractive\n\nfail() {\n    printf '%s: %s\\n' 'codium' \"$*\" >&2\n    exit 1\n}\n\nARCH=\"$(dpkg --print-architecture)\"\n[ \"$ARCH\" = amd64 ] || fail \"unsupported architecture: $ARCH\"\n\nif ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then\n    apt-get update\n    apt-get install -y --no-install-recommends ca-certificates curl\nfi\n\ninstall -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d\ncurl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/vscodium.asc' 'https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg'\nchmod 0644 '/usr/share/keyrings/vscodium.asc'\n\ncat >'/etc/apt/sources.list.d/vscodium.sources' <<'EOF'\nTypes: deb\nURIs: https://download.vscodium.com/debs\nSuites: vscodium\nComponents: main\nArchitectures: amd64\nSigned-By: /usr/share/keyrings/vscodium.asc\nEOF\nchmod 0644 '/etc/apt/sources.list.d/vscodium.sources'\n\napt-get update\napt-get install -y --no-install-recommends 'codium'\ndpkg-query -W -f='${Status}\\n' 'codium' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'\n\napt-get clean\n",
+    "distributions": {
+      "include": [
+        {
+          "name": "trixie",
+          "architectures": [
+            "amd64"
+          ]
+        }
+      ]
+    },
+    "developer": "The VSCodium team",
+    "homepage": "https://vscodium.com/",
+    "tags": [
+      "editor",
+      "code",
+      "development",
+      "ide",
+      "vscode",
+      "vscodium"
+    ],
+    "enabled": true,
+    "order": 99,
+    "screenshots": [
+      "/screenshots/vscodium/1.png",
+      "/screenshots/vscodium/2.png"
+    ],
+    "appIcon": "/icons/vscodium.png"
+  },
+  {
     "id": "veroroute",
     "name": "VeroRoute",
     "description": "Qt based Veroboard/Perfboard/PCB layout and routing application",
@@ -12054,6 +12093,44 @@
       "/screenshots/virtaal/1.png",
       "/screenshots/virtaal/2.png"
     ]
+  },
+  {
+    "id": "visual-studio-code",
+    "name": "Visual Studio Code",
+    "description": "Edit, debug, and develop software with Visual Studio Code",
+    "longDescription": "<p>Visual Studio Code is Microsoft's extensible source-code editor with integrated debugging, source control, terminal access, language intelligence, remote development features, and a large extension ecosystem.</p>\n<p>The stable release channel is installed from Microsoft's official Visual Studio Code repository.</p>\n",
+    "categoryId": "development",
+    "icon": "Code",
+    "method": "script",
+    "level": "auto",
+    "compression": "zstd",
+    "script": "#!/bin/bash\nset -euo pipefail\n\nexport LC_ALL=C\nexport DEBIAN_FRONTEND=noninteractive\n\nfail() {\n    printf '%s: %s\\n' 'code' \"$*\" >&2\n    exit 1\n}\n\nARCH=\"$(dpkg --print-architecture)\"\n[ \"$ARCH\" = amd64 ] || fail \"unsupported architecture: $ARCH\"\n\nif ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then\n    apt-get update\n    apt-get install -y --no-install-recommends ca-certificates curl\nfi\n\ninstall -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d\ncurl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/microsoft-vscode.asc' 'https://packages.microsoft.com/keys/microsoft.asc'\nchmod 0644 '/usr/share/keyrings/microsoft-vscode.asc'\n\ncat >'/etc/apt/sources.list.d/vscode.sources' <<'EOF'\nTypes: deb\nURIs: https://packages.microsoft.com/repos/code\nSuites: stable\nComponents: main\nArchitectures: amd64\nSigned-By: /usr/share/keyrings/microsoft-vscode.asc\nEOF\nchmod 0644 '/etc/apt/sources.list.d/vscode.sources'\n\napt-get update\napt-get install -y --no-install-recommends 'code'\ndpkg-query -W -f='${Status}\\n' 'code' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'\n\nrm -f -- '/etc/apt/sources.list.d/vscode.list'\napt-get clean\n",
+    "distributions": {
+      "include": [
+        {
+          "name": "trixie",
+          "architectures": [
+            "amd64"
+          ]
+        }
+      ]
+    },
+    "developer": "Microsoft Corporation",
+    "homepage": "https://code.visualstudio.com/",
+    "tags": [
+      "editor",
+      "code",
+      "development",
+      "ide",
+      "vscode",
+      "microsoft"
+    ],
+    "enabled": true,
+    "order": 99,
+    "screenshots": [
+      "/screenshots/visual-studio-code/1.png"
+    ],
+    "appIcon": "/icons/visual-studio-code.png"
   },
   {
     "id": "visualvm",
@@ -60257,6 +60334,45 @@
     "appIcon": "/icons/bluedevil.png"
   },
   {
+    "id": "brave-browser",
+    "name": "Brave",
+    "description": "Browse privately with built-in ad and tracker blocking",
+    "longDescription": "<p>Brave is a Chromium-based web browser focused on privacy and performance. Brave Shields blocks many ads, trackers, fingerprinting techniques, and other unwanted content by default while retaining compatibility with Chromium extensions.</p>\n<p>The stable release channel is installed from Brave Software's official APT repository.</p>\n",
+    "categoryId": "internet",
+    "icon": "Globe",
+    "method": "script",
+    "level": "auto",
+    "compression": "zstd",
+    "script": "#!/bin/bash\nset -euo pipefail\n\nexport LC_ALL=C\nexport DEBIAN_FRONTEND=noninteractive\n\nfail() {\n    printf '%s: %s\\n' 'brave-browser' \"$*\" >&2\n    exit 1\n}\n\nARCH=\"$(dpkg --print-architecture)\"\n[ \"$ARCH\" = amd64 ] || fail \"unsupported architecture: $ARCH\"\n\nif ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then\n    apt-get update\n    apt-get install -y --no-install-recommends ca-certificates curl\nfi\n\ninstall -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d\ncurl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/brave-browser-archive-keyring.gpg' 'https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg'\nchmod 0644 '/usr/share/keyrings/brave-browser-archive-keyring.gpg'\n\ncat >'/etc/apt/sources.list.d/brave-browser.sources' <<'EOF'\nTypes: deb\nURIs: https://brave-browser-apt-release.s3.brave.com\nSuites: stable\nComponents: main\nArchitectures: amd64\nSigned-By: /usr/share/keyrings/brave-browser-archive-keyring.gpg\nEOF\nchmod 0644 '/etc/apt/sources.list.d/brave-browser.sources'\n\napt-get update\napt-get install -y --no-install-recommends 'brave-browser'\ndpkg-query -W -f='${Status}\\n' 'brave-browser' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'\n\napt-get clean\n",
+    "distributions": {
+      "include": [
+        {
+          "name": "trixie",
+          "architectures": [
+            "amd64"
+          ]
+        }
+      ]
+    },
+    "developer": "Brave Software",
+    "homepage": "https://brave.com/",
+    "tags": [
+      "browser",
+      "web",
+      "privacy",
+      "adblock",
+      "chromium",
+      "internet"
+    ],
+    "enabled": true,
+    "order": 99,
+    "screenshots": [
+      "/screenshots/brave-browser/1.png",
+      "/screenshots/brave-browser/2.png"
+    ],
+    "appIcon": "/icons/brave-browser.png"
+  },
+  {
     "id": "webhttrack",
     "name": "Browse Mirrored Websites",
     "description": "Browse Websites Mirrored by WebHTTrack",
@@ -64459,6 +64575,44 @@
     "appIcon": "/icons/gobby.png"
   },
   {
+    "id": "google-chrome",
+    "name": "Google Chrome",
+    "description": "Browse the web with Google Chrome",
+    "longDescription": "<p>Google Chrome is a fast, widely used web browser built around the Chromium engine. It provides synchronization with a Google account, built-in translation, password management, extension support, developer tools, and regular security updates.</p>\n<p>The stable release channel is installed from Google's official Linux package repository.</p>\n",
+    "categoryId": "internet",
+    "icon": "Globe",
+    "method": "script",
+    "level": "auto",
+    "compression": "zstd",
+    "script": "#!/bin/bash\nset -euo pipefail\n\nexport LC_ALL=C\nexport DEBIAN_FRONTEND=noninteractive\n\nfail() {\n    printf '%s: %s\\n' 'google-chrome-stable' \"$*\" >&2\n    exit 1\n}\n\nARCH=\"$(dpkg --print-architecture)\"\n[ \"$ARCH\" = amd64 ] || fail \"unsupported architecture: $ARCH\"\n\nif ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then\n    apt-get update\n    apt-get install -y --no-install-recommends ca-certificates curl\nfi\n\ninstall -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d\ncurl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/google-chrome.asc' 'https://dl.google.com/linux/linux_signing_key.pub'\nchmod 0644 '/usr/share/keyrings/google-chrome.asc'\n\ncat >'/etc/apt/sources.list.d/google-chrome.sources' <<'EOF'\nTypes: deb\nURIs: https://dl.google.com/linux/chrome/deb/\nSuites: stable\nComponents: main\nArchitectures: amd64\nSigned-By: /usr/share/keyrings/google-chrome.asc\nEOF\nchmod 0644 '/etc/apt/sources.list.d/google-chrome.sources'\n\napt-get update\napt-get install -y --no-install-recommends 'google-chrome-stable'\ndpkg-query -W -f='${Status}\\n' 'google-chrome-stable' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'\n\nrm -f -- '/etc/apt/sources.list.d/google-chrome.list'\napt-get clean\n",
+    "distributions": {
+      "include": [
+        {
+          "name": "trixie",
+          "architectures": [
+            "amd64"
+          ]
+        }
+      ]
+    },
+    "developer": "Google LLC",
+    "homepage": "https://www.google.com/chrome/",
+    "tags": [
+      "browser",
+      "web",
+      "chromium",
+      "google",
+      "internet"
+    ],
+    "enabled": true,
+    "order": 99,
+    "screenshots": [
+      "/screenshots/google-chrome/1.png",
+      "/screenshots/google-chrome/2.png"
+    ],
+    "appIcon": "/icons/google-chrome.png"
+  },
+  {
     "id": "gpredict-doc",
     "name": "Gpredict",
     "description": "Satellite tracker",
@@ -67598,6 +67752,43 @@
     ]
   },
   {
+    "id": "microsoft-edge",
+    "name": "Microsoft Edge",
+    "description": "Browse the web with Microsoft Edge",
+    "longDescription": "<p>Microsoft Edge is a Chromium-based web browser with synchronization, vertical tabs, collections, password management, built-in PDF tools, developer tools, and integration with Microsoft services.</p>\n<p>The stable release channel is installed from Microsoft's official Edge repository.</p>\n",
+    "categoryId": "internet",
+    "icon": "Globe",
+    "method": "script",
+    "level": "auto",
+    "compression": "zstd",
+    "script": "#!/bin/bash\nset -euo pipefail\n\nexport LC_ALL=C\nexport DEBIAN_FRONTEND=noninteractive\n\nfail() {\n    printf '%s: %s\\n' 'microsoft-edge-stable' \"$*\" >&2\n    exit 1\n}\n\nARCH=\"$(dpkg --print-architecture)\"\n[ \"$ARCH\" = amd64 ] || fail \"unsupported architecture: $ARCH\"\n\nif ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then\n    apt-get update\n    apt-get install -y --no-install-recommends ca-certificates curl\nfi\n\ninstall -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d\ncurl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/microsoft-edge.asc' 'https://packages.microsoft.com/keys/microsoft.asc'\nchmod 0644 '/usr/share/keyrings/microsoft-edge.asc'\n\ncat >'/etc/apt/sources.list.d/microsoft-edge.sources' <<'EOF'\nTypes: deb\nURIs: https://packages.microsoft.com/repos/edge\nSuites: stable\nComponents: main\nArchitectures: amd64\nSigned-By: /usr/share/keyrings/microsoft-edge.asc\nEOF\nchmod 0644 '/etc/apt/sources.list.d/microsoft-edge.sources'\n\napt-get update\napt-get install -y --no-install-recommends 'microsoft-edge-stable'\ndpkg-query -W -f='${Status}\\n' 'microsoft-edge-stable' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'\n\nrm -f -- '/etc/apt/sources.list.d/microsoft-edge.list'\napt-get clean\n",
+    "distributions": {
+      "include": [
+        {
+          "name": "trixie",
+          "architectures": [
+            "amd64"
+          ]
+        }
+      ]
+    },
+    "developer": "Microsoft Corporation",
+    "homepage": "https://www.microsoft.com/edge/",
+    "tags": [
+      "browser",
+      "web",
+      "chromium",
+      "microsoft",
+      "internet"
+    ],
+    "enabled": true,
+    "order": 99,
+    "screenshots": [
+      "/screenshots/microsoft-edge/1.png"
+    ],
+    "appIcon": "/icons/microsoft-edge.png"
+  },
+  {
     "id": "midori",
     "name": "Midori",
     "description": "Browse the Web",
@@ -68511,6 +68702,44 @@
       "/screenshots/python3-opensnitch-ui/3.png"
     ],
     "appIcon": "/icons/python3-opensnitch-ui.png"
+  },
+  {
+    "id": "opera",
+    "name": "Opera",
+    "description": "Browse the web with Opera",
+    "longDescription": "<p>Opera is a Chromium-based web browser with a customizable start page, tab management, sidebar tools, built-in ad blocking, synchronization, and integrated communication and productivity features.</p>\n<p>The stable release channel is installed from Opera's official Debian repository.</p>",
+    "categoryId": "internet",
+    "icon": "Globe",
+    "method": "script",
+    "level": "auto",
+    "compression": "zstd",
+    "script": "#!/bin/bash\nset -euo pipefail\n\nexport LC_ALL=C\nexport DEBIAN_FRONTEND=noninteractive\n\nfail() {\n    printf '%s: %s\\n' 'opera-stable' \"$*\" >&2\n    exit 1\n}\n\nARCH=\"$(dpkg --print-architecture)\"\n[ \"$ARCH\" = amd64 ] || fail \"unsupported architecture: $ARCH\"\n\nif ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then\n    apt-get update\n    apt-get install -y --no-install-recommends ca-certificates curl\nfi\n\ninstall -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d\ncurl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/opera-browser.asc' 'https://deb.opera.com/archive.key'\nchmod 0644 '/usr/share/keyrings/opera-browser.asc'\n\ncat >'/etc/apt/sources.list.d/opera-browser.sources' <<'EOF'\nTypes: deb\nURIs: https://deb.opera.com/opera-stable/\nSuites: stable\nComponents: non-free\nArchitectures: amd64\nSigned-By: /usr/share/keyrings/opera-browser.asc\nEOF\nchmod 0644 '/etc/apt/sources.list.d/opera-browser.sources'\n\napt-get update\napt-get install -y --no-install-recommends 'opera-stable'\ndpkg-query -W -f='${Status}\\n' 'opera-stable' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'\n\nrm -f -- '/etc/apt/sources.list.d/opera-stable.list' '/etc/apt/sources.list.d/opera-archive.list'\napt-get clean\n",
+    "distributions": {
+      "include": [
+        {
+          "name": "trixie",
+          "architectures": [
+            "amd64"
+          ]
+        }
+      ]
+    },
+    "developer": "Opera Software",
+    "homepage": "https://www.opera.com/",
+    "tags": [
+      "browser",
+      "web",
+      "chromium",
+      "opera",
+      "internet"
+    ],
+    "enabled": true,
+    "order": 99,
+    "screenshots": [
+      "/screenshots/opera/1.png",
+      "/screenshots/opera/2.png"
+    ],
+    "appIcon": "/icons/opera.png"
   },
   {
     "id": "pcmanx-gtk2",
@@ -73934,6 +74163,45 @@
       "/screenshots/video-downloader/3.png"
     ],
     "appIcon": "/icons/video-downloader.png"
+  },
+  {
+    "id": "vivaldi",
+    "name": "Vivaldi",
+    "description": "Use a highly customizable feature-packed web browser",
+    "longDescription": "<p>Vivaldi is a Chromium-based browser built around extensive customization and power-user features. It includes tab stacking and tiling, workspaces, web panels, keyboard and mouse shortcuts, mail and calendar integration, notes, and flexible interface themes.</p>\n<p>The stable release channel is installed from Vivaldi Technologies' official Debian repository.</p>\n",
+    "categoryId": "internet",
+    "icon": "Globe",
+    "method": "script",
+    "level": "auto",
+    "compression": "zstd",
+    "script": "#!/bin/bash\nset -euo pipefail\n\nexport LC_ALL=C\nexport DEBIAN_FRONTEND=noninteractive\n\nfail() {\n    printf '%s: %s\\n' 'vivaldi-stable' \"$*\" >&2\n    exit 1\n}\n\nARCH=\"$(dpkg --print-architecture)\"\n[ \"$ARCH\" = amd64 ] || fail \"unsupported architecture: $ARCH\"\n\nif ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then\n    apt-get update\n    apt-get install -y --no-install-recommends ca-certificates curl\nfi\n\ninstall -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d\ncurl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/vivaldi-browser.asc' 'https://repo.vivaldi.com/archive/linux_signing_key.pub'\nchmod 0644 '/usr/share/keyrings/vivaldi-browser.asc'\n\ncat >'/etc/apt/sources.list.d/vivaldi.sources' <<'EOF'\nTypes: deb\nURIs: https://repo.vivaldi.com/archive/deb/\nSuites: stable\nComponents: main\nArchitectures: amd64\nSigned-By: /usr/share/keyrings/vivaldi-browser.asc\nEOF\nchmod 0644 '/etc/apt/sources.list.d/vivaldi.sources'\n\napt-get update\napt-get install -y --no-install-recommends 'vivaldi-stable'\ndpkg-query -W -f='${Status}\\n' 'vivaldi-stable' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'\n\nrm -f -- '/etc/apt/sources.list.d/vivaldi.list'\napt-get clean\n",
+    "distributions": {
+      "include": [
+        {
+          "name": "trixie",
+          "architectures": [
+            "amd64"
+          ]
+        }
+      ]
+    },
+    "developer": "Vivaldi Technologies",
+    "homepage": "https://vivaldi.com/",
+    "tags": [
+      "browser",
+      "web",
+      "chromium",
+      "vivaldi",
+      "customizable",
+      "internet"
+    ],
+    "enabled": true,
+    "order": 99,
+    "screenshots": [
+      "/screenshots/vivaldi/1.png",
+      "/screenshots/vivaldi/2.png"
+    ],
+    "appIcon": "/icons/vivaldi.png"
   },
   {
     "id": "wasistlos",
@@ -164387,6 +164655,88 @@
       "/screenshots/virt-manager/3.png"
     ],
     "appIcon": "/icons/virt-manager.png"
+  },
+  {
+    "id": "virtualbox",
+    "name": "VirtualBox",
+    "description": "Run and manage virtual machines with Oracle VirtualBox",
+    "longDescription": "<p>VirtualBox is a cross-platform virtualization application for running multiple operating systems on a single computer. It provides graphical management tools and the VBoxManage command-line interface for creating, configuring, starting, and managing virtual machines.</p>\n<p>VirtualBox supports snapshots, configurable virtual networking, shared folders, virtual disk management, and integration features provided by Guest Additions for supported guest operating systems.</p>\n<p>The Oracle VM VirtualBox Extension Pack is not included.</p>\n",
+    "categoryId": "system",
+    "icon": "Monitor",
+    "method": "script",
+    "level": "auto",
+    "compression": "zstd",
+    "script": "#!/bin/bash\nset -euo pipefail\n\nexport LC_ALL=C\nexport DEBIAN_FRONTEND=noninteractive\n\nVBOX_REPO='https://download.virtualbox.org/virtualbox/debian'\nVBOX_KEY_URL=\"${VBOX_REPO}/oracle_vbox_2016.asc\"\nVBOX_KEY_FINGERPRINT='B9F8D658297AF3EFC18D5CDFA2F683C52980AECF'\nVBOX_SOURCE='/etc/apt/sources.list.d/virtualbox-script2sb.list'\nKERNEL_SOURCE='/etc/apt/sources.list.d/minios-kernel-script2sb.list'\nMANIFEST='/usr/share/minios/kernel-dpkg/manifest.json'\nWORK=\"/tmp/virtualbox-script2sb.$$\"\nKEY_ASC=\"$WORK/oracle-vbox.asc\"\nKEYRING=\"$WORK/oracle-vbox.gpg\"\nHEADER_ROOT=\"$WORK/header-root\"\nDEB_DIR=\"$WORK/debs\"\nGPG_HOME=\"$WORK/gnupg\"\nSHIM_DIR=\"$WORK/bin\"\nBEFORE_PKGS=\"$WORK/before.pkgs\"\nAFTER_BUILD_PKGS=\"$WORK/after-build.pkgs\"\nNEW_BUILD_PKGS=\"$WORK/new-build.pkgs\"\nREMOVABLE_PKGS=\"$WORK/removable.pkgs\"\nCREATED_LINKS=()\n\nfail() {\n    printf 'virtualbox-script2sb: %s\\n' \"$*\" >&2\n    exit 1\n}\ncleanup() {\n    local path\n    for path in \"${CREATED_LINKS[@]:-}\"; do\n        [ -n \"$path\" ] && rm -f -- \"$path\"\n    done\n    rm -f -- \"$VBOX_SOURCE\" \"$KERNEL_SOURCE\"\n    rm -rf -- \"$WORK\"\n}\ntrap cleanup EXIT INT TERM HUP\n\ninstalled_packages() {\n    dpkg-query -W -f='${Package}\\n' 2>/dev/null | sort -u\n}\n\nmap_virtualbox_suite() {\n    local id=\"$1\" codename=\"$2\"\n    case \"$id:$codename\" in\n        devuan:excalibur) printf '%s\\n' trixie ;;\n        devuan:daedalus)  printf '%s\\n' bookworm ;;\n        devuan:chimaera)  printf '%s\\n' bullseye ;;\n        devuan:beowulf)   printf '%s\\n' buster ;;\n        devuan:ascii)     printf '%s\\n' stretch ;;\n        debian:sid|debian:forky|debian:testing) printf '%s\\n' trixie ;;\n        debian:*|ubuntu:*) printf '%s\\n' \"$codename\" ;;\n        *) return 1 ;;\n    esac\n}\ndownload_file() {\n    local url=\"$1\" output=\"$2\"\n    if command -v curl >/dev/null 2>&1; then\n        curl -fL --retry 3 --connect-timeout 15 -o \"$output\" \"$url\"\n    elif command -v wget >/dev/null 2>&1; then\n        wget -O \"$output\" \"$url\"\n    else\n        python3 - \"$url\" \"$output\" <<'PY'\nimport sys\nimport urllib.request\nurl, output = sys.argv[1:]\nwith urllib.request.urlopen(url, timeout=30) as response, open(output, 'wb') as target:\n    target.write(response.read())\nPY\n    fi\n}\n\nadd_kernel_repositories_from_manifest() {\n    [ -r \"$MANIFEST\" ] || return 1\n    python3 - \"$MANIFEST\" >\"$KERNEL_SOURCE\" <<'PY'\nimport json, os, sys\nmanifest_path = sys.argv[1]\nbase = os.path.dirname(manifest_path)\nwith open(manifest_path, encoding='utf-8') as stream:\n    manifest = json.load(stream)\nfor repository in manifest.get('repositories', []):\n    suite = repository.get('suite')\n    components = repository.get('components') or []\n    architectures = repository.get('architectures') or []\n    keyring = (repository.get('keyring') or {}).get('path')\n    uris = repository.get('uris') or []\n    if not suite or not components or not keyring or not uris:\n        continue\n    keyring_path = keyring if os.path.isabs(keyring) else os.path.join(base, keyring)\n    if not os.path.isfile(keyring_path):\n        continue\n    options = [f'signed-by={keyring_path}']\n    if architectures:\n        options.insert(0, 'arch=' + ','.join(architectures))\n    for uri in uris:\n        print(f\"deb [{' '.join(options)}] {uri} {suite} {' '.join(components)}\")\nPY\n    [ -s \"$KERNEL_SOURCE\" ]\n}\n\ncandidate_version() {\n    apt-cache policy \"$1\" 2>/dev/null | awk '/Candidate:/ {print $2; exit}'\n}\n\ncleanup_build_dependencies() {\n    mapfile -t new_packages < <(comm -13 \"$BEFORE_PKGS\" \"$AFTER_BUILD_PKGS\")\n    [ \"${#new_packages[@]}\" -gt 0 ] || return 0\n\n    printf '%s\\n' \"${new_packages[@]}\" | sort -u >\"$NEW_BUILD_PKGS\"\n    apt-get -s purge -- \"${new_packages[@]}\" 2>/dev/null |\n        awk '$1 == \"Remv\" {print $2}' | sed 's/:.*$//' | sort -u >\"$REMOVABLE_PKGS\"\n\n    comm -23 \"$REMOVABLE_PKGS\" \"$NEW_BUILD_PKGS\" >\"${REMOVABLE_PKGS}.unexpected\"\n    if [ -s \"${REMOVABLE_PKGS}.unexpected\" ]; then\n        fail \"build-dependency cleanup would remove runtime packages: $(tr '\\n' ' ' <\"${REMOVABLE_PKGS}.unexpected\")\"\n    fi\n\n    apt-get purge -y -- \"${new_packages[@]}\"\n}\n\ndownload_header_tree() {\n    local package candidate deb path name dependency\n    local -a queue=(\"$HEADER_PACKAGE\") seen=()\n    mkdir -p \"$DEB_DIR\" \"$HEADER_ROOT\"\n    chmod 0755 \"$WORK\" \"$DEB_DIR\"\n\n    while [ \"${#queue[@]}\" -gt 0 ]; do\n        package=\"${queue[0]}\"\n        queue=(\"${queue[@]:1}\")\n        case \" ${seen[*]} \" in *\" $package \"*) continue ;; esac\n        seen+=(\"$package\")\n        candidate=\"$(candidate_version \"$package\")\"\n        if [ -z \"$candidate\" ] || [ \"$candidate\" = '(none)' ]; then\n            fail \"required header package is unavailable: $package\"\n        fi\n        (cd \"$DEB_DIR\" && apt-get -o APT::Sandbox::User=root download \"$package\")\n        deb=\"$(find \"$DEB_DIR\" -maxdepth 1 -type f -name \"${package}_*.deb\" | head -n1)\"\n        [ -n \"$deb\" ] || fail \"downloaded package not found: $package\"\n        while IFS= read -r dependency; do\n            [ -n \"$dependency\" ] || continue\n            case \" ${seen[*]} ${queue[*]} \" in\n                *\" $dependency \"*) ;;\n                *) queue+=(\"$dependency\") ;;\n            esac\n        done < <(dpkg-deb -f \"$deb\" Depends 2>/dev/null | tr ',' '\\n' | sed -E 's/[|].*$//; s/^[[:space:]]*//; s/[[:space:]].*$//' | grep -E '^linux-(headers|kbuild)-' || true)\n    done\n\n    for deb in \"$DEB_DIR\"/*.deb; do\n        [ -f \"$deb\" ] || continue\n        dpkg-deb -x \"$deb\" \"$HEADER_ROOT\"\n    done\n    HEADER_BUILD=\"$HEADER_ROOT/usr/src/linux-headers-$KERNEL\"\n    [ -d \"$HEADER_BUILD\" ] || fail \"downloaded headers do not contain $HEADER_BUILD\"\n\n    for path in \"$HEADER_ROOT\"/usr/src/linux-headers-*; do\n        [ -d \"$path\" ] || continue\n        name=\"$(basename \"$path\")\"\n        if [ -e \"/usr/src/$name\" ] || [ -L \"/usr/src/$name\" ]; then\n            fail \"/usr/src/$name already exists; refusing to replace it\"\n        fi\n        ln -s \"$path\" \"/usr/src/$name\"\n        CREATED_LINKS+=(\"/usr/src/$name\")\n    done\n\n    MODULE_DIR=\"/usr/lib/modules/$KERNEL\"\n    mkdir -p \"$MODULE_DIR\"\n    for name in build source; do\n        path=\"$MODULE_DIR/$name\"\n        if [ -e \"$path\" ] || [ -L \"$path\" ]; then\n            fail \"$path already exists; refusing to replace it\"\n        fi\n        ln -s \"/usr/src/linux-headers-$KERNEL\" \"$path\"\n        CREATED_LINKS+=(\"$path\")\n    done\n\n    for path in \"$HEADER_ROOT\"/usr/lib/linux-kbuild-*; do\n        [ -d \"$path\" ] || continue\n        name=\"$(basename \"$path\")\"\n        if [ ! -e \"/usr/lib/$name\" ] && [ ! -L \"/usr/lib/$name\" ]; then\n            ln -s \"$path\" \"/usr/lib/$name\"\n            CREATED_LINKS+=(\"/usr/lib/$name\")\n        fi\n    done\n}\n\n[ \"$EUID\" -eq 0 ] || fail 'must run as root'\nfor command in apt-get apt-cache dpkg-query dpkg-deb python3 gpg getent modinfo; do\n    command -v \"$command\" >/dev/null 2>&1 || fail \"missing command: $command\"\ndone\n\nARCH=\"$(dpkg --print-architecture)\"\n[ \"$ARCH\" = amd64 ] || fail \"Oracle VirtualBox host packages require amd64 (detected: $ARCH)\"\n# shellcheck source=/etc/os-release\n. /etc/os-release\nCODENAME=\"${VERSION_CODENAME:-}\"\n[ -n \"$CODENAME\" ] || fail 'VERSION_CODENAME is missing from /etc/os-release'\nVBOX_SUITE=\"$(map_virtualbox_suite \"${ID:-}\" \"$CODENAME\")\" || fail \"unsupported distribution: ${ID:-unknown} $CODENAME\"\nKERNEL=\"$(uname -r)\"\nHEADER_PACKAGE=\"linux-headers-$KERNEL\"\nmkdir -p \"$WORK\" \"$GPG_HOME\" \"$SHIM_DIR\"\nchmod 0700 \"$GPG_HOME\"\ninstalled_packages >\"$BEFORE_PKGS\"\n\nprintf 'Preparing VirtualBox for kernel %s (Oracle suite %s)\\n' \"$KERNEL\" \"$VBOX_SUITE\"\n\ndownload_file \"$VBOX_KEY_URL\" \"$KEY_ASC\"\nKEY_FINGERPRINT=\"$(GNUPGHOME=\"$GPG_HOME\" gpg --show-keys --with-colons \"$KEY_ASC\" 2>/dev/null | awk -F: '$1 == \"fpr\" {print $10; exit}')\"\n[ \"$KEY_FINGERPRINT\" = \"$VBOX_KEY_FINGERPRINT\" ] || fail \"unexpected Oracle signing-key fingerprint: ${KEY_FINGERPRINT:-none}\"\nGNUPGHOME=\"$GPG_HOME\" gpg --batch --yes --dearmor --output \"$KEYRING\" \"$KEY_ASC\"\nchmod 0644 \"$KEYRING\"\n\ncat >\"$VBOX_SOURCE\" <<EOF\ndeb [arch=amd64 signed-by=$KEYRING] $VBOX_REPO $VBOX_SUITE contrib\nEOF\n\napt-get update\nHEADER_CANDIDATE=\"$(candidate_version \"$HEADER_PACKAGE\")\"\nif [ -z \"$HEADER_CANDIDATE\" ] || [ \"$HEADER_CANDIDATE\" = '(none)' ]; then\n    add_kernel_repositories_from_manifest || fail \"no usable kernel repository manifest for $KERNEL\"\n    apt-get update\n    HEADER_CANDIDATE=\"$(candidate_version \"$HEADER_PACKAGE\")\"\nfi\nif [ -z \"$HEADER_CANDIDATE\" ] || [ \"$HEADER_CANDIDATE\" = '(none)' ]; then\n    fail \"matching headers are unavailable: $HEADER_PACKAGE\"\nfi\n\ndownload_header_tree\n\nGCC_PACKAGE=\"$(grep -oE 'gcc-[0-9]+' /proc/version | head -n1 || true)\"\n[ -n \"$GCC_PACKAGE\" ] || fail 'cannot determine the compiler used to build the running kernel'\napt-get install -y --no-install-recommends \"$GCC_PACKAGE\" pahole\ninstalled_packages >\"$AFTER_BUILD_PKGS\"\nGCC_BIN=\"$(command -v \"$GCC_PACKAGE\")\"\n[ -x \"$GCC_BIN\" ] || fail \"compiler executable is unavailable: $GCC_PACKAGE\"\nln -s \"$GCC_BIN\" \"$SHIM_DIR/gcc\"\nln -s \"$GCC_BIN\" \"$SHIM_DIR/cc\"\n\nVBOX_PACKAGE=''\nfor package in virtualbox-7.2 virtualbox-7.1 virtualbox-7.0 virtualbox-6.1; do\n    candidate=\"$(candidate_version \"$package\")\"\n    if [ -n \"$candidate\" ] && [ \"$candidate\" != '(none)' ]; then\n        VBOX_PACKAGE=\"$package\"\n        break\n    fi\ndone\n[ -n \"$VBOX_PACKAGE\" ] || fail \"no supported Oracle VirtualBox package is available for $VBOX_SUITE\"\n\nprintf 'Installing %s with %s\\n' \"$VBOX_PACKAGE\" \"$GCC_PACKAGE\"\nenv PATH=\"$SHIM_DIR:$PATH\" CC=\"$GCC_BIN\" KBUILD_CC=\"$GCC_BIN\" \\\n    apt-get install -y --no-install-recommends \"$VBOX_PACKAGE\"\n\nif [ -x /sbin/rcvboxdrv ]; then\n    if ! env PATH=\"$SHIM_DIR:$PATH\" CC=\"$GCC_BIN\" KBUILD_CC=\"$GCC_BIN\" /sbin/rcvboxdrv setup; then\n        cat /var/log/vbox-setup.log >&2 2>/dev/null || true\n        fail 'VirtualBox kernel-module setup failed'\n    fi\nelif [ -x /usr/lib/virtualbox/vboxdrv.sh ]; then\n    if ! env PATH=\"$SHIM_DIR:$PATH\" CC=\"$GCC_BIN\" KBUILD_CC=\"$GCC_BIN\" /usr/lib/virtualbox/vboxdrv.sh setup; then\n        cat /var/log/vbox-setup.log >&2 2>/dev/null || true\n        fail 'VirtualBox kernel-module setup failed'\n    fi\nelif [ -x /sbin/vboxconfig ]; then\n    if ! env PATH=\"$SHIM_DIR:$PATH\" CC=\"$GCC_BIN\" KBUILD_CC=\"$GCC_BIN\" /sbin/vboxconfig; then\n        cat /var/log/vbox-setup.log >&2 2>/dev/null || true\n        fail 'VirtualBox kernel-module setup failed'\n    fi\nfi\n\ndepmod -a \"$KERNEL\"\nfor module in vboxdrv vboxnetflt vboxnetadp; do\n    modinfo -k \"$KERNEL\" \"$module\" >/dev/null 2>&1 || fail \"kernel module was not built: $module ($KERNEL)\"\ndone\n\ngetent group vboxusers >/dev/null 2>&1 || fail 'VirtualBox did not create the vboxusers group'\ninstall -d -m 0755 /usr/share/live/config/user-default-groups.d\nprintf '%s\\n' vboxusers > /usr/share/live/config/user-default-groups.d/virtualbox.groups\nchmod 0644 /usr/share/live/config/user-default-groups.d/virtualbox.groups\n\ncleanup_build_dependencies\n\ndepmod -a \"$KERNEL\"\nfor module in vboxdrv vboxnetflt vboxnetadp; do\n    modinfo -k \"$KERNEL\" \"$module\" >/dev/null 2>&1 || fail \"kernel module disappeared after build cleanup: $module ($KERNEL)\"\ndone\n\nrm -f -- \"$VBOX_SOURCE\" \"$KERNEL_SOURCE\"\nrm -f /var/lib/apt/lists/download.virtualbox.org_virtualbox_debian_* 2>/dev/null || true\napt-get clean\n",
+    "distributions": {
+      "include": [
+        {
+          "name": "trixie",
+          "architectures": [
+            "amd64"
+          ]
+        }
+      ]
+    },
+    "developer": "Oracle Corporation",
+    "homepage": "https://www.virtualbox.org/",
+    "tags": [
+      "virtualization",
+      "virtual-machine",
+      "hypervisor",
+      "vm"
+    ],
+    "enabled": true,
+    "order": 99,
+    "screenshots": [
+      "/screenshots/virtualbox/1.png",
+      "/screenshots/virtualbox/2.png"
+    ],
+    "appIcon": "/icons/virtualbox.png"
+  },
+  {
+    "id": "virtualbox-extpack",
+    "name": "VirtualBox + Extension Pack",
+    "description": "Run VirtualBox with the Oracle VM VirtualBox Extension Pack",
+    "longDescription": "<p>VirtualBox is a cross-platform virtualization application for running multiple operating systems on a single computer. It provides graphical management tools and the VBoxManage command-line interface for creating, configuring, starting, and managing virtual machines.</p>\n<p>This edition also installs the Oracle VM VirtualBox Extension Pack, which provides additional Oracle functionality for VirtualBox, including extended USB device support and cloud integration features.</p>\n<p>The Extension Pack is distributed under the Oracle VirtualBox Extension Pack Personal Use and Evaluation License (PUEL). Review and accept the license before installation.</p>\n",
+    "categoryId": "system",
+    "icon": "Monitor",
+    "method": "script",
+    "level": "auto",
+    "compression": "zstd",
+    "script": "#!/bin/bash\nset -euo pipefail\n\nexport LC_ALL=C\nexport DEBIAN_FRONTEND=noninteractive\n\nVBOX_REPO='https://download.virtualbox.org/virtualbox/debian'\nVBOX_KEY_URL=\"${VBOX_REPO}/oracle_vbox_2016.asc\"\nVBOX_KEY_FINGERPRINT='B9F8D658297AF3EFC18D5CDFA2F683C52980AECF'\nVBOX_SOURCE='/etc/apt/sources.list.d/virtualbox-script2sb.list'\nKERNEL_SOURCE='/etc/apt/sources.list.d/minios-kernel-script2sb.list'\nMANIFEST='/usr/share/minios/kernel-dpkg/manifest.json'\nWORK=\"/tmp/virtualbox-script2sb.$$\"\nKEY_ASC=\"$WORK/oracle-vbox.asc\"\nKEYRING=\"$WORK/oracle-vbox.gpg\"\nHEADER_ROOT=\"$WORK/header-root\"\nDEB_DIR=\"$WORK/debs\"\nGPG_HOME=\"$WORK/gnupg\"\nSHIM_DIR=\"$WORK/bin\"\nBEFORE_PKGS=\"$WORK/before.pkgs\"\nAFTER_BUILD_PKGS=\"$WORK/after-build.pkgs\"\nNEW_BUILD_PKGS=\"$WORK/new-build.pkgs\"\nREMOVABLE_PKGS=\"$WORK/removable.pkgs\"\nCREATED_LINKS=()\n\nfail() {\n    printf 'virtualbox-script2sb: %s\\n' \"$*\" >&2\n    exit 1\n}\ncleanup() {\n    local path\n    for path in \"${CREATED_LINKS[@]:-}\"; do\n        [ -n \"$path\" ] && rm -f -- \"$path\"\n    done\n    rm -f -- \"$VBOX_SOURCE\" \"$KERNEL_SOURCE\"\n    rm -rf -- \"$WORK\"\n}\ntrap cleanup EXIT INT TERM HUP\n\ninstalled_packages() {\n    dpkg-query -W -f='${Package}\\n' 2>/dev/null | sort -u\n}\n\nmap_virtualbox_suite() {\n    local id=\"$1\" codename=\"$2\"\n    case \"$id:$codename\" in\n        devuan:excalibur) printf '%s\\n' trixie ;;\n        devuan:daedalus)  printf '%s\\n' bookworm ;;\n        devuan:chimaera)  printf '%s\\n' bullseye ;;\n        devuan:beowulf)   printf '%s\\n' buster ;;\n        devuan:ascii)     printf '%s\\n' stretch ;;\n        debian:sid|debian:forky|debian:testing) printf '%s\\n' trixie ;;\n        debian:*|ubuntu:*) printf '%s\\n' \"$codename\" ;;\n        *) return 1 ;;\n    esac\n}\ndownload_file() {\n    local url=\"$1\" output=\"$2\"\n    if command -v curl >/dev/null 2>&1; then\n        curl -fL --retry 3 --connect-timeout 15 -o \"$output\" \"$url\"\n    elif command -v wget >/dev/null 2>&1; then\n        wget -O \"$output\" \"$url\"\n    else\n        python3 - \"$url\" \"$output\" <<'PY'\nimport sys\nimport urllib.request\nurl, output = sys.argv[1:]\nwith urllib.request.urlopen(url, timeout=30) as response, open(output, 'wb') as target:\n    target.write(response.read())\nPY\n    fi\n}\n\nadd_kernel_repositories_from_manifest() {\n    [ -r \"$MANIFEST\" ] || return 1\n    python3 - \"$MANIFEST\" >\"$KERNEL_SOURCE\" <<'PY'\nimport json, os, sys\nmanifest_path = sys.argv[1]\nbase = os.path.dirname(manifest_path)\nwith open(manifest_path, encoding='utf-8') as stream:\n    manifest = json.load(stream)\nfor repository in manifest.get('repositories', []):\n    suite = repository.get('suite')\n    components = repository.get('components') or []\n    architectures = repository.get('architectures') or []\n    keyring = (repository.get('keyring') or {}).get('path')\n    uris = repository.get('uris') or []\n    if not suite or not components or not keyring or not uris:\n        continue\n    keyring_path = keyring if os.path.isabs(keyring) else os.path.join(base, keyring)\n    if not os.path.isfile(keyring_path):\n        continue\n    options = [f'signed-by={keyring_path}']\n    if architectures:\n        options.insert(0, 'arch=' + ','.join(architectures))\n    for uri in uris:\n        print(f\"deb [{' '.join(options)}] {uri} {suite} {' '.join(components)}\")\nPY\n    [ -s \"$KERNEL_SOURCE\" ]\n}\n\ncandidate_version() {\n    apt-cache policy \"$1\" 2>/dev/null | awk '/Candidate:/ {print $2; exit}'\n}\n\ncleanup_build_dependencies() {\n    mapfile -t new_packages < <(comm -13 \"$BEFORE_PKGS\" \"$AFTER_BUILD_PKGS\")\n    [ \"${#new_packages[@]}\" -gt 0 ] || return 0\n\n    printf '%s\\n' \"${new_packages[@]}\" | sort -u >\"$NEW_BUILD_PKGS\"\n    apt-get -s purge -- \"${new_packages[@]}\" 2>/dev/null |\n        awk '$1 == \"Remv\" {print $2}' | sed 's/:.*$//' | sort -u >\"$REMOVABLE_PKGS\"\n\n    comm -23 \"$REMOVABLE_PKGS\" \"$NEW_BUILD_PKGS\" >\"${REMOVABLE_PKGS}.unexpected\"\n    if [ -s \"${REMOVABLE_PKGS}.unexpected\" ]; then\n        fail \"build-dependency cleanup would remove runtime packages: $(tr '\\n' ' ' <\"${REMOVABLE_PKGS}.unexpected\")\"\n    fi\n\n    apt-get purge -y -- \"${new_packages[@]}\"\n}\n\ndownload_header_tree() {\n    local package candidate deb path name dependency\n    local -a queue=(\"$HEADER_PACKAGE\") seen=()\n    mkdir -p \"$DEB_DIR\" \"$HEADER_ROOT\"\n    chmod 0755 \"$WORK\" \"$DEB_DIR\"\n\n    while [ \"${#queue[@]}\" -gt 0 ]; do\n        package=\"${queue[0]}\"\n        queue=(\"${queue[@]:1}\")\n        case \" ${seen[*]} \" in *\" $package \"*) continue ;; esac\n        seen+=(\"$package\")\n        candidate=\"$(candidate_version \"$package\")\"\n        if [ -z \"$candidate\" ] || [ \"$candidate\" = '(none)' ]; then\n            fail \"required header package is unavailable: $package\"\n        fi\n        (cd \"$DEB_DIR\" && apt-get -o APT::Sandbox::User=root download \"$package\")\n        deb=\"$(find \"$DEB_DIR\" -maxdepth 1 -type f -name \"${package}_*.deb\" | head -n1)\"\n        [ -n \"$deb\" ] || fail \"downloaded package not found: $package\"\n        while IFS= read -r dependency; do\n            [ -n \"$dependency\" ] || continue\n            case \" ${seen[*]} ${queue[*]} \" in\n                *\" $dependency \"*) ;;\n                *) queue+=(\"$dependency\") ;;\n            esac\n        done < <(dpkg-deb -f \"$deb\" Depends 2>/dev/null | tr ',' '\\n' | sed -E 's/[|].*$//; s/^[[:space:]]*//; s/[[:space:]].*$//' | grep -E '^linux-(headers|kbuild)-' || true)\n    done\n\n    for deb in \"$DEB_DIR\"/*.deb; do\n        [ -f \"$deb\" ] || continue\n        dpkg-deb -x \"$deb\" \"$HEADER_ROOT\"\n    done\n    HEADER_BUILD=\"$HEADER_ROOT/usr/src/linux-headers-$KERNEL\"\n    [ -d \"$HEADER_BUILD\" ] || fail \"downloaded headers do not contain $HEADER_BUILD\"\n\n    for path in \"$HEADER_ROOT\"/usr/src/linux-headers-*; do\n        [ -d \"$path\" ] || continue\n        name=\"$(basename \"$path\")\"\n        if [ -e \"/usr/src/$name\" ] || [ -L \"/usr/src/$name\" ]; then\n            fail \"/usr/src/$name already exists; refusing to replace it\"\n        fi\n        ln -s \"$path\" \"/usr/src/$name\"\n        CREATED_LINKS+=(\"/usr/src/$name\")\n    done\n\n    MODULE_DIR=\"/usr/lib/modules/$KERNEL\"\n    mkdir -p \"$MODULE_DIR\"\n    for name in build source; do\n        path=\"$MODULE_DIR/$name\"\n        if [ -e \"$path\" ] || [ -L \"$path\" ]; then\n            fail \"$path already exists; refusing to replace it\"\n        fi\n        ln -s \"/usr/src/linux-headers-$KERNEL\" \"$path\"\n        CREATED_LINKS+=(\"$path\")\n    done\n\n    for path in \"$HEADER_ROOT\"/usr/lib/linux-kbuild-*; do\n        [ -d \"$path\" ] || continue\n        name=\"$(basename \"$path\")\"\n        if [ ! -e \"/usr/lib/$name\" ] && [ ! -L \"/usr/lib/$name\" ]; then\n            ln -s \"$path\" \"/usr/lib/$name\"\n            CREATED_LINKS+=(\"/usr/lib/$name\")\n        fi\n    done\n}\n\n[ \"$EUID\" -eq 0 ] || fail 'must run as root'\nfor command in apt-get apt-cache dpkg-query dpkg-deb python3 gpg getent modinfo tar sha256sum; do\n    command -v \"$command\" >/dev/null 2>&1 || fail \"missing command: $command\"\ndone\n\nARCH=\"$(dpkg --print-architecture)\"\n[ \"$ARCH\" = amd64 ] || fail \"Oracle VirtualBox host packages require amd64 (detected: $ARCH)\"\n# shellcheck source=/etc/os-release\n. /etc/os-release\nCODENAME=\"${VERSION_CODENAME:-}\"\n[ -n \"$CODENAME\" ] || fail 'VERSION_CODENAME is missing from /etc/os-release'\nVBOX_SUITE=\"$(map_virtualbox_suite \"${ID:-}\" \"$CODENAME\")\" || fail \"unsupported distribution: ${ID:-unknown} $CODENAME\"\nKERNEL=\"$(uname -r)\"\nHEADER_PACKAGE=\"linux-headers-$KERNEL\"\nmkdir -p \"$WORK\" \"$GPG_HOME\" \"$SHIM_DIR\"\nchmod 0700 \"$GPG_HOME\"\ninstalled_packages >\"$BEFORE_PKGS\"\n\nprintf 'Preparing VirtualBox for kernel %s (Oracle suite %s)\\n' \"$KERNEL\" \"$VBOX_SUITE\"\n\ndownload_file \"$VBOX_KEY_URL\" \"$KEY_ASC\"\nKEY_FINGERPRINT=\"$(GNUPGHOME=\"$GPG_HOME\" gpg --show-keys --with-colons \"$KEY_ASC\" 2>/dev/null | awk -F: '$1 == \"fpr\" {print $10; exit}')\"\n[ \"$KEY_FINGERPRINT\" = \"$VBOX_KEY_FINGERPRINT\" ] || fail \"unexpected Oracle signing-key fingerprint: ${KEY_FINGERPRINT:-none}\"\nGNUPGHOME=\"$GPG_HOME\" gpg --batch --yes --dearmor --output \"$KEYRING\" \"$KEY_ASC\"\nchmod 0644 \"$KEYRING\"\n\ncat >\"$VBOX_SOURCE\" <<EOF\ndeb [arch=amd64 signed-by=$KEYRING] $VBOX_REPO $VBOX_SUITE contrib\nEOF\n\napt-get update\nHEADER_CANDIDATE=\"$(candidate_version \"$HEADER_PACKAGE\")\"\nif [ -z \"$HEADER_CANDIDATE\" ] || [ \"$HEADER_CANDIDATE\" = '(none)' ]; then\n    add_kernel_repositories_from_manifest || fail \"no usable kernel repository manifest for $KERNEL\"\n    apt-get update\n    HEADER_CANDIDATE=\"$(candidate_version \"$HEADER_PACKAGE\")\"\nfi\nif [ -z \"$HEADER_CANDIDATE\" ] || [ \"$HEADER_CANDIDATE\" = '(none)' ]; then\n    fail \"matching headers are unavailable: $HEADER_PACKAGE\"\nfi\n\ndownload_header_tree\n\nGCC_PACKAGE=\"$(grep -oE 'gcc-[0-9]+' /proc/version | head -n1 || true)\"\n[ -n \"$GCC_PACKAGE\" ] || fail 'cannot determine the compiler used to build the running kernel'\napt-get install -y --no-install-recommends \"$GCC_PACKAGE\" pahole\ninstalled_packages >\"$AFTER_BUILD_PKGS\"\nGCC_BIN=\"$(command -v \"$GCC_PACKAGE\")\"\n[ -x \"$GCC_BIN\" ] || fail \"compiler executable is unavailable: $GCC_PACKAGE\"\nln -s \"$GCC_BIN\" \"$SHIM_DIR/gcc\"\nln -s \"$GCC_BIN\" \"$SHIM_DIR/cc\"\n\nVBOX_PACKAGE=''\nfor package in virtualbox-7.2 virtualbox-7.1 virtualbox-7.0 virtualbox-6.1; do\n    candidate=\"$(candidate_version \"$package\")\"\n    if [ -n \"$candidate\" ] && [ \"$candidate\" != '(none)' ]; then\n        VBOX_PACKAGE=\"$package\"\n        break\n    fi\ndone\n[ -n \"$VBOX_PACKAGE\" ] || fail \"no supported Oracle VirtualBox package is available for $VBOX_SUITE\"\n\nprintf 'Installing %s with %s\\n' \"$VBOX_PACKAGE\" \"$GCC_PACKAGE\"\nenv PATH=\"$SHIM_DIR:$PATH\" CC=\"$GCC_BIN\" KBUILD_CC=\"$GCC_BIN\" \\\n    apt-get install -y --no-install-recommends \"$VBOX_PACKAGE\"\n\nif [ -x /sbin/rcvboxdrv ]; then\n    if ! env PATH=\"$SHIM_DIR:$PATH\" CC=\"$GCC_BIN\" KBUILD_CC=\"$GCC_BIN\" /sbin/rcvboxdrv setup; then\n        cat /var/log/vbox-setup.log >&2 2>/dev/null || true\n        fail 'VirtualBox kernel-module setup failed'\n    fi\nelif [ -x /usr/lib/virtualbox/vboxdrv.sh ]; then\n    if ! env PATH=\"$SHIM_DIR:$PATH\" CC=\"$GCC_BIN\" KBUILD_CC=\"$GCC_BIN\" /usr/lib/virtualbox/vboxdrv.sh setup; then\n        cat /var/log/vbox-setup.log >&2 2>/dev/null || true\n        fail 'VirtualBox kernel-module setup failed'\n    fi\nelif [ -x /sbin/vboxconfig ]; then\n    if ! env PATH=\"$SHIM_DIR:$PATH\" CC=\"$GCC_BIN\" KBUILD_CC=\"$GCC_BIN\" /sbin/vboxconfig; then\n        cat /var/log/vbox-setup.log >&2 2>/dev/null || true\n        fail 'VirtualBox kernel-module setup failed'\n    fi\nfi\n\ndepmod -a \"$KERNEL\"\nfor module in vboxdrv vboxnetflt vboxnetadp; do\n    modinfo -k \"$KERNEL\" \"$module\" >/dev/null 2>&1 || fail \"kernel module was not built: $module ($KERNEL)\"\ndone\n\nVBOX_VERSION=\"$(VBoxManage --version | sed -E 's/r[0-9]+$//')\"\n[ -n \"$VBOX_VERSION\" ] || fail 'cannot determine the installed VirtualBox version'\nEXTPACK=\"$WORK/Oracle_VirtualBox_Extension_Pack-${VBOX_VERSION}.vbox-extpack\"\nEXTPACK_URL=\"https://download.virtualbox.org/virtualbox/${VBOX_VERSION}/Oracle_VirtualBox_Extension_Pack-${VBOX_VERSION}.vbox-extpack\"\nLICENSE_FILE=\"$WORK/ExtPack-license.txt\"\n\nprintf 'Installing Oracle VirtualBox Extension Pack %s\\n' \"$VBOX_VERSION\"\ndownload_file \"$EXTPACK_URL\" \"$EXTPACK\"\ntar -xOf \"$EXTPACK\" ./ExtPack-license.txt >\"$LICENSE_FILE\" || fail 'Extension Pack license file is missing'\n[ -s \"$LICENSE_FILE\" ] || fail 'Extension Pack license file is empty'\nLICENSE_HASH=\"$(sha256sum \"$LICENSE_FILE\" | awk '{print $1}')\"\n[ -n \"$LICENSE_HASH\" ] || fail 'cannot calculate the Extension Pack license hash'\nVBoxManage extpack install --replace --accept-license=\"$LICENSE_HASH\" \"$EXTPACK\"\nVBoxManage list extpacks | grep -Fq 'Oracle VirtualBox Extension Pack' || fail 'Extension Pack was not installed'\nVBoxManage list extpacks | grep -Eq '^Usable:[[:space:]]+true$' || fail 'Extension Pack is not usable'\n\ngetent group vboxusers >/dev/null 2>&1 || fail 'VirtualBox did not create the vboxusers group'\ninstall -d -m 0755 /usr/share/live/config/user-default-groups.d\nprintf '%s\\n' vboxusers > /usr/share/live/config/user-default-groups.d/virtualbox.groups\nchmod 0644 /usr/share/live/config/user-default-groups.d/virtualbox.groups\n\ncleanup_build_dependencies\n\ndepmod -a \"$KERNEL\"\nfor module in vboxdrv vboxnetflt vboxnetadp; do\n    modinfo -k \"$KERNEL\" \"$module\" >/dev/null 2>&1 || fail \"kernel module disappeared after build cleanup: $module ($KERNEL)\"\ndone\n\nrm -f -- \"$VBOX_SOURCE\" \"$KERNEL_SOURCE\"\nrm -f /var/lib/apt/lists/download.virtualbox.org_virtualbox_debian_* 2>/dev/null || true\napt-get clean\n",
+    "distributions": {
+      "include": [
+        {
+          "name": "trixie",
+          "architectures": [
+            "amd64"
+          ]
+        }
+      ]
+    },
+    "developer": "Oracle Corporation",
+    "homepage": "https://www.virtualbox.org/",
+    "tags": [
+      "virtualization",
+      "virtual-machine",
+      "hypervisor",
+      "vm",
+      "extension-pack",
+      "usb"
+    ],
+    "license": {
+      "id": "virtualbox-puel",
+      "name": "Oracle VirtualBox Extension Pack Personal Use and Evaluation License (PUEL)",
+      "url": "https://www.virtualbox.org/wiki/VirtualBox_PUEL",
+      "requiresAcceptance": true
+    },
+    "enabled": true,
+    "order": 99,
+    "screenshots": [
+      "/screenshots/virtualbox-extpack/1.png",
+      "/screenshots/virtualbox-extpack/2.png"
+    ],
+    "appIcon": "/icons/virtualbox-extpack.png"
   },
   {
     "id": "vorta",

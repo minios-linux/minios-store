@@ -1,0 +1,80 @@
+id: vivaldi
+name: Vivaldi
+description: Use a highly customizable feature-packed web browser
+longDescription: |
+  <p>Vivaldi is a Chromium-based browser built around extensive customization and power-user features. It includes tab stacking and tiling, workspaces, web panels, keyboard and mouse shortcuts, mail and calendar integration, notes, and flexible interface themes.</p>
+  <p>The stable release channel is installed from Vivaldi Technologies' official Debian repository.</p>
+categoryId: internet
+icon: Globe
+method: script
+level: auto
+compression: zstd
+script: |
+  #!/bin/bash
+  set -euo pipefail
+
+  export LC_ALL=C
+  export DEBIAN_FRONTEND=noninteractive
+
+  fail() {
+      printf '%s: %s\n' 'vivaldi-stable' "$*" >&2
+      exit 1
+  }
+
+  ARCH="$(dpkg --print-architecture)"
+  [ "$ARCH" = amd64 ] || fail "unsupported architecture: $ARCH"
+
+  if ! command -v curl >/dev/null 2>&1 || [ ! -s /etc/ssl/certs/ca-certificates.crt ]; then
+      apt-get update
+      apt-get install -y --no-install-recommends ca-certificates curl
+  fi
+
+  install -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d
+  curl -fL --retry 3 --connect-timeout 15 -o '/usr/share/keyrings/vivaldi-browser.asc' 'https://repo.vivaldi.com/archive/linux_signing_key.pub'
+  chmod 0644 '/usr/share/keyrings/vivaldi-browser.asc'
+
+  cat >'/etc/apt/sources.list.d/vivaldi.sources' <<'EOF'
+  Types: deb
+  URIs: https://repo.vivaldi.com/archive/deb/
+  Suites: stable
+  Components: main
+  Architectures: amd64
+  Signed-By: /usr/share/keyrings/vivaldi-browser.asc
+  EOF
+  chmod 0644 '/etc/apt/sources.list.d/vivaldi.sources'
+
+  apt-get update
+  apt-get install -y --no-install-recommends 'vivaldi-stable'
+  dpkg-query -W -f='${Status}\n' 'vivaldi-stable' | grep -Fqx 'install ok installed' || fail 'package installation was not recorded by dpkg'
+
+  rm -f -- '/etc/apt/sources.list.d/vivaldi.list'
+  apt-get clean
+distributions:
+  include:
+  - name: trixie
+    architectures:
+    - amd64
+developer: Vivaldi Technologies
+homepage: https://vivaldi.com/
+tags:
+- browser
+- web
+- chromium
+- vivaldi
+- customizable
+- internet
+enabled: true
+order: 99
+screenshotSources:
+- url: https://dl.flathub.org/media/com/vivaldi/Vivaldi/adfcea0bd2e5e91a8ef750b17e1bedcc/screenshots/image-1_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/vivaldi/Vivaldi/adfcea0bd2e5e91a8ef750b17e1bedcc/screenshots/image-1_624x351@1.png
+  width: 1920
+  height: 1080
+- url: https://dl.flathub.org/media/com/vivaldi/Vivaldi/adfcea0bd2e5e91a8ef750b17e1bedcc/screenshots/image-2_orig.png
+  thumbnailUrl: https://dl.flathub.org/media/com/vivaldi/Vivaldi/adfcea0bd2e5e91a8ef750b17e1bedcc/screenshots/image-2_624x351@1.png
+  width: 1920
+  height: 1080
+iconSources:
+- url: https://dl.flathub.org/media/com/vivaldi/Vivaldi/adfcea0bd2e5e91a8ef750b17e1bedcc/icons/128x128/com.vivaldi.Vivaldi.png
+  width: 128
+  height: 128

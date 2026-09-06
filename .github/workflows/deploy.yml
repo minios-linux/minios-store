@@ -52,12 +52,13 @@ jobs:
       - name: Build recipes.json
         run: python3 tools/build_recipes.py -o web/public/data/recipes.json
 
-      - name: Check recipes.json is up to date
+      - name: Check recipe artifacts are up to date
         run: |
-          git diff --exit-code web/public/data/recipes.json || {
-            echo "::error::recipes.json is out of date. Run 'python3 tools/build_recipes.py -o web/public/data/recipes.json' and commit the result."
+          if [ -n "$(git status --porcelain -- web/public/data/recipes.json web/public/data/recipes-index*.json web/public/data/recipes/)" ]; then
+            git status --short -- web/public/data/recipes.json web/public/data/recipes-index*.json web/public/data/recipes/
+            echo "::error::Recipe artifacts are out of date. Run 'python3 tools/build_recipes.py -o web/public/data/recipes.json' and commit the generated files."
             exit 1
-          }
+          fi
 
       - name: Generate languages.json
         run: |

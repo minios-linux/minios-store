@@ -481,6 +481,34 @@ def test_fetch_from_appstream_no_media_writes_marker(tmp_path, monkeypatch):
     assert marker.read_text() == "fp"
 
 
+def test_fetch_from_appstream_direct_urls_are_not_prefixed(tmp_path, monkeypatch):
+    requested = []
+
+    def fake_dl(url, dest):
+        import os
+        requested.append(url)
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        with open(dest, "wb") as f:
+            f.write(b"img")
+        return 3
+
+    monkeypatch.setattr(build_recipes, "download_file", fake_dl)
+    pkg_dir = tmp_path / "demo"
+    count, _nbytes, _cached = build_recipes._fetch_from_appstream(
+        "demo", str(pkg_dir), str(pkg_dir / ".no_screenshots"),
+        [{
+            "url": "https://example.org/screenshot.png",
+            "thumbnailUrl": "https://example.org/thumb.png",
+        }],
+        {"debian": ["bookworm"], "ubuntu": []}, "fp",
+    )
+    assert count == 1
+    assert requested == [
+        "https://example.org/screenshot.png",
+        "https://example.org/thumb.png",
+    ]
+
+
 def test_fetch_from_debian_screenshots_success(tmp_path, monkeypatch):
     data = {
         "screenshots": [
@@ -528,7 +556,7 @@ def test_fetch_from_debian_screenshots_404_writes_marker(tmp_path, monkeypatch):
 def test_fetch_package_screenshots_uses_valid_negative_cache(tmp_path):
     pkg_dir = tmp_path / "vlc"
     pkg_dir.mkdir()
-    (pkg_dir / ".no_screenshots").write_text("http://x/a.png")
+    (pkg_dir / ".no_screenshots").write_text("#http://x/a.png###")
     result = build_recipes.fetch_package_screenshots(
         "vlc", str(tmp_path),
         screenshot_sources=[{"url": "http://x/a.png"}],
@@ -566,6 +594,27 @@ def test_fetch_package_icon_remote_download(tmp_path, monkeypatch):
     assert cached is False
 
 
+def test_fetch_package_icon_direct_url_is_not_prefixed(tmp_path, monkeypatch):
+    requested = []
+
+    def fake_dl(url, dest):
+        requested.append(url)
+        with open(dest, "wb") as f:
+            f.write(b"icon")
+        return 4
+
+    monkeypatch.setattr(build_recipes, "download_file", fake_dl)
+    found, nbytes, cached = build_recipes.fetch_package_icon(
+        "demo", str(tmp_path),
+        icon_sources=[{"url": "https://example.org/icon.png"}],
+        suites={"debian": ["bookworm"], "ubuntu": []},
+    )
+    assert found == 1
+    assert nbytes == 4
+    assert cached is False
+    assert requested == ["https://example.org/icon.png"]
+
+
 # ---------------------------------------------------------------------------
 # _parse_simple_yaml -- deeper nesting
 # ---------------------------------------------------------------------------
@@ -600,7 +649,7 @@ def test_load_icon_tarballs_no_cached_returns_empty():
 
 
 def test_fetch_all_screenshots_aggregates(tmp_path, monkeypatch):
-    def fake(pkg, out, screenshot_sources=None, suites=None):
+    def fake(pkg, out, screenshot_sources=None, suites=None, media_root=None):
         return (2, 100, False)
 
     monkeypatch.setattr(build_recipes, "fetch_package_screenshots", fake)
@@ -613,7 +662,7 @@ def test_fetch_all_screenshots_aggregates(tmp_path, monkeypatch):
 
 
 def test_fetch_all_screenshots_handles_worker_error(tmp_path, monkeypatch):
-    def boom(pkg, out, screenshot_sources=None, suites=None):
+    def boom(pkg, out, screenshot_sources=None, suites=None, media_root=None):
         raise RuntimeError("worker failed")
 
     monkeypatch.setattr(build_recipes, "fetch_package_screenshots", boom)
@@ -626,7 +675,8 @@ def test_fetch_all_screenshots_handles_worker_error(tmp_path, monkeypatch):
 def test_fetch_all_icons_aggregates(tmp_path, monkeypatch):
     monkeypatch.setattr(build_recipes, "_load_icon_tarballs", lambda recipes: {})
 
-    def fake(pkg, out, icon_sources=None, suites=None, icon_tarballs=None):
+    def fake(pkg, out, icon_sources=None, suites=None, icon_tarballs=None,
+             media_root=None):
         return (1, 50, False)
 
     monkeypatch.setattr(build_recipes, "fetch_package_icon", fake)
@@ -737,3 +787,170 @@ def test_main_invalid_recipe_exits(tmp_path, monkeypatch):
     ])
     with pytest.raises(SystemExit):
         build_recipes.main()
+
+
+def test_main_removes_stale_generated_artifacts(tmp_path, monkeypatch):
+    recipes_dir = tmp_path / "recipes" / "internet"
+    recipes_dir.mkdir(parents=True)
+    (recipes_dir / "demo.yaml").write_text(_VALID_YAML.format(id="demo", name="Demo"))
+
+    data_dir = tmp_path / "web" / "public" / "data"
+    details_dir = data_dir / "recipes"
+    details_dir.mkdir(parents=True)
+    stale_detail = details_dir / "stale.json"
+    stale_detail.write_text("{}")
+    stale_index = data_dir / "recipes-index.zz.json"
+    stale_index.write_text("[]")
+
+    output = data_dir / "recipes.json"
+    monkeypatch.setattr(
+        build_recipes.sys,
+        "argv",
+        [
+            "build_recipes.py", "--recipes-dir", str(tmp_path / "recipes"),
+            "--output", str(output), "--no-screenshots", "--no-icons",
+            "--screenshots-dir", str(tmp_path / "screenshots"),
+            "--icons-dir", str(tmp_path / "icons"),
+        ],
+    )
+    build_recipes.main()
+
+    assert output.exists()
+    assert not stale_detail.exists()
+    assert not stale_index.exists()
+
+
+def test_fetch_recipe_media_uses_normal_cache_key(tmp_path, monkeypatch):
+    calls = []
+
+    def fake_screenshots(package_name, output_dir, screenshot_sources=None,
+                         suites=None, media_root=None):
+        calls.append(("screenshots", package_name, screenshot_sources, suites))
+        return (1, 3, False)
+
+    def fake_icons(package_name, output_dir, icon_sources=None, suites=None,
+                   icon_tarballs=None, media_root=None):
+        calls.append(("icon", package_name, icon_sources, suites))
+        return (1, 4, False)
+
+    monkeypatch.setattr(build_recipes, "fetch_package_screenshots", fake_screenshots)
+    monkeypatch.setattr(build_recipes, "fetch_package_icon", fake_icons)
+    monkeypatch.setattr(build_recipes, "_load_icon_tarballs", lambda recipes: {})
+
+    recipe = {
+        "id": "demo",
+        "packages": ["demo-package"],
+        "screenshotSources": [{"url": "https://example.org/shot.png"}],
+        "iconSources": [{"url": "https://example.org/icon.png"}],
+        "distributions": {"include": [{"name": "trixie"}]},
+    }
+    result = build_recipes.fetch_recipe_media(
+        recipe, str(tmp_path / "screenshots"), str(tmp_path / "icons")
+    )
+
+    assert result["screenshots"] == (1, 3, False)
+    assert result["icon"] == (1, 4, False)
+    assert calls[0][1] == "demo-package"
+    assert calls[1][1] == "demo-package"
+
+
+def test_validate_recipe_accepts_license_metadata():
+    recipe = {
+        "id": "licensed",
+        "name": "Licensed",
+        "description": "Licensed application",
+        "categoryId": "system",
+        "icon": "Package",
+        "method": "apt",
+        "packages": ["licensed"],
+        "license": {
+            "id": "example-license",
+            "name": "Example License",
+            "url": "https://example.org/license",
+            "requiresAcceptance": True,
+        },
+    }
+    assert build_recipes.validate_recipe(recipe, "licensed.yaml") == []
+
+
+def test_validate_recipe_rejects_invalid_license_metadata():
+    recipe = {
+        "id": "licensed",
+        "name": "Licensed",
+        "description": "Licensed application",
+        "categoryId": "system",
+        "icon": "Package",
+        "method": "apt",
+        "packages": ["licensed"],
+        "license": {"id": "", "name": "Example", "url": "file:///license"},
+    }
+    errors = build_recipes.validate_recipe(recipe, "licensed.yaml")
+    assert any("license.id" in error for error in errors)
+    assert any("license.url" in error for error in errors)
+
+
+def test_fetch_screenshot_from_local_recipe_media(tmp_path):
+    media_root = tmp_path / "recipes"
+    source = media_root / "media" / "demo" / "shot.png"
+    source.parent.mkdir(parents=True)
+    source.write_bytes(b"local-shot-v1")
+
+    out = tmp_path / "screenshots"
+    result = build_recipes.fetch_package_screenshots(
+        "demo", str(out),
+        screenshot_sources=[{"file": "media/demo/shot.png", "sha256": "one"}],
+        media_root=str(media_root),
+    )
+    assert result[0] == 1
+    assert (out / "demo" / "1.png").read_bytes() == b"local-shot-v1"
+
+
+def test_local_screenshot_refreshes_existing_cache(tmp_path):
+    media_root = tmp_path / "recipes"
+    source = media_root / "media" / "demo" / "shot.png"
+    source.parent.mkdir(parents=True)
+    source.write_bytes(b"v1")
+    out = tmp_path / "screenshots"
+    sources = [{"file": "media/demo/shot.png", "sha256": "one"}]
+    build_recipes.fetch_package_screenshots(
+        "demo", str(out), screenshot_sources=sources, media_root=str(media_root)
+    )
+    source.write_bytes(b"v2")
+    build_recipes.fetch_package_screenshots(
+        "demo", str(out),
+        screenshot_sources=[{"file": "media/demo/shot.png", "sha256": "two"}],
+        media_root=str(media_root),
+    )
+    assert (out / "demo" / "1.png").read_bytes() == b"v2"
+
+
+def test_fetch_icon_from_local_recipe_media_refreshes_cache(tmp_path):
+    media_root = tmp_path / "recipes"
+    source = media_root / "media" / "demo" / "icon.png"
+    source.parent.mkdir(parents=True)
+    source.write_bytes(b"icon-v1")
+    out = tmp_path / "icons"
+
+    result = build_recipes.fetch_package_icon(
+        "demo", str(out),
+        icon_sources=[{"file": "media/demo/icon.png", "sha256": "one"}],
+        media_root=str(media_root),
+    )
+    assert result[0] == 1
+    assert (out / "demo.png").read_bytes() == b"icon-v1"
+
+    source.write_bytes(b"icon-v2")
+    build_recipes.fetch_package_icon(
+        "demo", str(out),
+        icon_sources=[{"file": "media/demo/icon.png", "sha256": "two"}],
+        media_root=str(media_root),
+    )
+    assert (out / "demo.png").read_bytes() == b"icon-v2"
+
+
+def test_validate_recipe_rejects_local_media_path_traversal():
+    recipe = _valid_recipe()
+    recipe["screenshotSources"] = [{"file": "../secret.png"}]
+    recipe["iconSources"] = [{"file": "/tmp/icon.png"}]
+    errors = build_recipes.validate_recipe(recipe, "demo.yaml")
+    assert any("must stay inside recipes" in error for error in errors)

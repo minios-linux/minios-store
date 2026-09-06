@@ -2,6 +2,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import fs from 'fs';
+import { spawnSync } from 'child_process';
+import { createHash } from 'crypto';
 import { HttpsProxyAgent } from 'https-proxy-agent';
 import type { IncomingMessage, ServerResponse } from 'http';
 import type { ViteDevServer, Connect } from 'vite';
@@ -454,7 +456,15 @@ interface Recipe {
   distributions?: { include?: string[]; exclude?: string[] };
   version?: string;
   screenshots?: string[];
+  screenshotSources?: Array<Record<string, unknown>> | null;
+  iconSources?: Array<Record<string, unknown>> | null;
   longDescription?: string;
+  license?: {
+    id: string;
+    name: string;
+    url: string;
+    requiresAcceptance?: boolean;
+  };
   tags?: string[];
   enabled?: boolean;
   order?: number;
@@ -469,9 +479,97 @@ interface Category {
   enabled?: boolean;
 }
 
+const PROJECT_ROOT = path.resolve(__dirname, '..');
 const RECIPES_PATH = path.resolve(__dirname, 'public', 'data', 'recipes.json');
 const CATEGORIES_PATH = path.resolve(__dirname, 'public', 'data', 'categories.json');
 const RECIPE_TRANSLATIONS_DIR = path.resolve(__dirname, 'public', 'data', 'recipe-translations');
+const RECIPE_TOOL = path.resolve(PROJECT_ROOT, 'tools', 'recipe_tool.py');
+const RECIPE_MEDIA_DIR = path.resolve(PROJECT_ROOT, 'recipes', 'media');
+const SAFE_RECIPE_ID = /^[a-z0-9][a-z0-9-]*$/;
+const MAX_RECIPE_MEDIA_BYTES = 15 * 1024 * 1024;
+
+type RecipeMediaKind = 'icon' | 'screenshot';
+
+function detectImageType(data: Buffer): { ext: string; mime: string } | null {
+  if (data.length >= 8 && data.subarray(0, 8).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]))) {
+    return { ext: '.png', mime: 'image/png' };
+  }
+  if (data.length >= 3 && data[0] === 0xff && data[1] === 0xd8 && data[2] === 0xff) {
+    return { ext: '.jpg', mime: 'image/jpeg' };
+  }
+  if (data.length >= 6 && (data.subarray(0, 6).toString('ascii') === 'GIF87a' || data.subarray(0, 6).toString('ascii') === 'GIF89a')) {
+    return { ext: '.gif', mime: 'image/gif' };
+  }
+  if (data.length >= 12 && data.subarray(0, 4).toString('ascii') === 'RIFF' && data.subarray(8, 12).toString('ascii') === 'WEBP') {
+    return { ext: '.webp', mime: 'image/webp' };
+  }
+  return null;
+}
+
+async function fetchRecipeMediaUrl(url: string): Promise<Buffer> {
+  const parsed = new URL(url);
+  if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') {
+    throw new Error('Media URL must use http:// or https://');
+  }
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), API_TIMEOUT);
+  try {
+    const response = await fetch(parsed, {
+      headers: { 'User-Agent': 'MiniOS-Store/1.0 (admin media fetcher)' },
+      signal: controller.signal,
+    });
+    if (!response.ok) {
+      throw new Error(`Media download failed: HTTP ${response.status}`);
+    }
+    const declaredSize = Number(response.headers.get('content-length') || 0);
+    if (declaredSize > MAX_RECIPE_MEDIA_BYTES) {
+      throw new Error('Media file is too large');
+    }
+    const data = Buffer.from(await response.arrayBuffer());
+    if (data.length === 0 || data.length > MAX_RECIPE_MEDIA_BYTES) {
+      throw new Error(data.length === 0 ? 'Downloaded media is empty' : 'Media file is too large');
+    }
+    return data;
+  } finally {
+    clearTimeout(timeoutId);
+  }
+}
+
+function storeRecipeMedia(
+  recipeId: string,
+  kind: RecipeMediaKind,
+  slot: number,
+  data: Buffer,
+  sourceUrl?: string,
+): Record<string, unknown> {
+  if (!SAFE_RECIPE_ID.test(recipeId)) throw new Error('Invalid recipe ID');
+  if (kind !== 'icon' && kind !== 'screenshot') throw new Error('Invalid media kind');
+  if (!Number.isInteger(slot) || slot < 0 || slot > 2) throw new Error('Invalid media slot');
+
+  const imageType = detectImageType(data);
+  if (!imageType) throw new Error('Unsupported or invalid image file');
+  if (kind === 'icon' && imageType.ext !== '.png') {
+    throw new Error('Recipe icons must be PNG files');
+  }
+
+  const mediaDir = path.resolve(RECIPE_MEDIA_DIR, recipeId);
+  fs.mkdirSync(mediaDir, { recursive: true });
+  const prefix = kind === 'icon' ? 'icon' : `screenshot-${slot + 1}`;
+  for (const ext of ['.png', '.jpg', '.jpeg', '.gif', '.webp']) {
+    const stale = path.resolve(mediaDir, prefix + ext);
+    if (fs.existsSync(stale)) fs.unlinkSync(stale);
+  }
+  const filename = prefix + imageType.ext;
+  const target = path.resolve(mediaDir, filename);
+  fs.writeFileSync(target, data);
+
+  const source: Record<string, unknown> = {
+    file: `media/${recipeId}/${filename}`,
+    sha256: createHash('sha256').update(data).digest('hex'),
+  };
+  if (sourceUrl) source.url = sourceUrl;
+  return { source, mime: imageType.mime, size: data.length };
+}
 
 function ensureDataDir(): void {
   const dataDir = path.resolve(__dirname, 'public', 'data');
@@ -493,9 +591,33 @@ function readRecipes(): Recipe[] {
   }
 }
 
-function writeRecipes(recipes: Recipe[]): void {
-  ensureDataDir();
-  fs.writeFileSync(RECIPES_PATH, JSON.stringify(recipes, null, 2), 'utf-8');
+function runRecipeTool(action: 'upsert' | 'delete' | 'get', payload: unknown): Record<string, unknown> {
+  const result = spawnSync('python3', [RECIPE_TOOL, action], {
+    cwd: PROJECT_ROOT,
+    input: JSON.stringify(payload),
+    encoding: 'utf-8',
+    maxBuffer: 16 * 1024 * 1024,
+  });
+
+  if (result.error) {
+    throw result.error;
+  }
+
+  let response: Record<string, unknown> = {};
+  try {
+    response = JSON.parse(result.stdout || '{}');
+  } catch {
+    // Use stderr below when the helper did not return JSON.
+  }
+
+  if (result.status !== 0) {
+    const message = typeof response.error === 'string'
+      ? response.error
+      : (result.stderr || 'Recipe operation failed').trim();
+    throw new Error(message);
+  }
+
+  return response;
 }
 
 function readCategories(): Category[] {
@@ -557,6 +679,65 @@ function localDataPlugin() {
             console.error('Failed to read recipes:', error);
             sendJson(res, 500, { error: 'Failed to read recipes' });
           }
+          return;
+        }
+
+        // GET /api/recipes/:id/source — canonical YAML source for admin editing
+        if (req.method === 'GET' && req.url?.match(/^\/api\/recipes\/[a-z0-9][a-z0-9-]*\/source$/)) {
+          try {
+            const id = req.url.split('/api/recipes/')[1].replace('/source', '');
+            const result = runRecipeTool('get', { id });
+            sendJson(res, 200, result.recipe || {});
+          } catch (error) {
+            const message = error instanceof Error ? error.message : 'Failed to read recipe source';
+            sendJson(res, 500, { error: message });
+          }
+          return;
+        }
+
+        // POST /api/recipes/media — download or upload canonical recipe media
+        if (req.method === 'POST' && req.url === '/api/recipes/media') {
+          parseRequestBody(req)
+            .then(async (body) => {
+              try {
+                const payload = JSON.parse(body) as {
+                  recipeId?: string;
+                  kind?: RecipeMediaKind;
+                  slot?: number;
+                  url?: string;
+                  dataBase64?: string;
+                };
+                const recipeId = String(payload.recipeId || '');
+                const kind = payload.kind;
+                const slot = Number(payload.slot ?? 0);
+                if (!SAFE_RECIPE_ID.test(recipeId)) throw new Error('Recipe ID is required before adding media');
+                if (kind !== 'icon' && kind !== 'screenshot') throw new Error('Invalid media kind');
+
+                let data: Buffer;
+                let sourceUrl: string | undefined;
+                if (payload.url) {
+                  sourceUrl = payload.url.trim();
+                  data = await fetchRecipeMediaUrl(sourceUrl);
+                } else if (payload.dataBase64) {
+                  if (payload.dataBase64.length > MAX_RECIPE_MEDIA_BYTES * 2) {
+                    throw new Error('Media file is too large');
+                  }
+                  data = Buffer.from(payload.dataBase64, 'base64');
+                  if (data.length === 0 || data.length > MAX_RECIPE_MEDIA_BYTES) {
+                    throw new Error(data.length === 0 ? 'Uploaded media is empty' : 'Media file is too large');
+                  }
+                } else {
+                  throw new Error('Media URL or file data is required');
+                }
+
+                const result = storeRecipeMedia(recipeId, kind, slot, data, sourceUrl);
+                sendJson(res, 200, { success: true, ...result });
+              } catch (error) {
+                const message = error instanceof Error ? error.message : 'Failed to store recipe media';
+                sendJson(res, 400, { error: message });
+              }
+            })
+            .catch((err) => sendJson(res, 400, { error: 'Invalid request: ' + err.message }));
           return;
         }
 
@@ -641,21 +822,13 @@ function localDataPlugin() {
                   return;
                 }
 
-                const recipes = readRecipes();
-                const existingIndex = recipes.findIndex(r => r.id === recipe.id);
-
-                if (existingIndex >= 0) {
-                  recipes[existingIndex] = recipe;
-                } else {
-                  recipes.push(recipe);
-                }
-
-                writeRecipes(recipes);
-                console.log(`[Recipes] Saved recipe: ${recipe.id} (${recipe.name})`);
-                sendJson(res, 200, { success: true, recipe });
+                const result = runRecipeTool('upsert', recipe);
+                console.log(`[Recipes] Saved recipe source and rebuilt artifacts: ${recipe.id} (${recipe.name})`);
+                sendJson(res, 200, { success: true, recipe, ...result });
               } catch (error) {
                 console.error('Failed to save recipe:', error);
-                sendJson(res, 500, { error: 'Failed to save recipe' });
+                const message = error instanceof Error ? error.message : 'Failed to save recipe';
+                sendJson(res, 500, { error: message });
               }
             })
             .catch((err) => {
@@ -668,30 +841,13 @@ function localDataPlugin() {
         if (req.method === 'DELETE' && req.url?.match(/^\/api\/recipes\/[^/]+$/) && !req.url.includes('/translations')) {
           try {
             const id = req.url.split('/api/recipes/')[1];
-            const recipes = readRecipes();
-            const filtered = recipes.filter(r => r.id !== id);
-
-            if (filtered.length === recipes.length) {
-              sendJson(res, 404, { error: 'Recipe not found' });
-              return;
-            }
-
-            writeRecipes(filtered);
-
-            // Also delete any recipe translations
-            const languages = getLanguagesWithMeta().filter(l => l.code !== 'en');
-            for (const lang of languages) {
-              const translationPath = path.resolve(RECIPE_TRANSLATIONS_DIR, lang.code, `${id}.json`);
-              if (fs.existsSync(translationPath)) {
-                fs.unlinkSync(translationPath);
-              }
-            }
-
-            console.log(`[Recipes] Deleted recipe: ${id}`);
+            runRecipeTool('delete', { id });
+            console.log(`[Recipes] Deleted recipe source and rebuilt artifacts: ${id}`);
             sendJson(res, 200, { success: true });
           } catch (error) {
             console.error('Failed to delete recipe:', error);
-            sendJson(res, 500, { error: 'Failed to delete recipe' });
+            const message = error instanceof Error ? error.message : 'Failed to delete recipe';
+            sendJson(res, 500, { error: message });
           }
           return;
         }

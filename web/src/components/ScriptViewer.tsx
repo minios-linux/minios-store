@@ -45,9 +45,15 @@ const ScriptViewer: React.FC<ScriptViewerProps> = ({ code, language = 'bash', fi
         language={language}
         style={oneDark}
         customStyle={{
+          width: '100%',
+          maxWidth: '100%',
+          minWidth: 0,
+          boxSizing: 'border-box',
           margin: 0,
           borderRadius: 0,
           maxHeight: '300px',
+          overflowX: 'auto',
+          overflowY: 'auto',
           fontSize: '0.8125rem',
         }}
       >

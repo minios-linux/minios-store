@@ -1,3 +1,10 @@
+minios-store (1.2.0) unstable; urgency=medium
+
+  * Require explicit acceptance of recipe licenses before installation when
+    requested by the recipe, including the standalone URI installer path.
+
+ -- crims0n <crims0n@minios.dev>  Sun, 06 Sep 2026 17:28:17 +0300
+
 minios-store (1.1.6) unstable; urgency=medium
 
   * Pin the GTK launcher and installer to GDK 3 before importing PyGObject

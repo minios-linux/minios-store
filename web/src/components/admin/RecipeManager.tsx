@@ -24,6 +24,7 @@ import {
 import { toast } from 'sonner';
 import { useTranslation } from '@/contexts/LanguageContext';
 import { IconPicker } from './IconPicker';
+import RecipeMediaEditor from './RecipeMediaEditor';
 import { DynamicIcon } from '@/components/DynamicIcon';
 import type { Recipe, Category, InstallMethod, ModuleLevel, CompressionType, DistributionEntry } from '@/lib/types';
 import { COMPRESSION_TYPES } from '@/lib/types';
@@ -48,10 +49,9 @@ const EMPTY_RECIPE: Recipe = {
   script: '',
   debUrl: '',
   tags: [],
-  screenshots: [],
   longDescription: '',
   enabled: true,
-  order: 0,
+  order: 99,
 };
 
 export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
@@ -70,14 +70,16 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     basic: true,
     install: true,
+    media: false,
     meta: false,
     advanced: false,
   });
+  const [mediaIconPreview, setMediaIconPreview] = useState<string | undefined>();
+  const [mediaScreenshotPreviews, setMediaScreenshotPreviews] = useState<string[]>([]);
 
   // Temp state for comma-separated inputs
   const [packagesText, setPackagesText] = useState('');
   const [tagsText, setTagsText] = useState('');
-  const [screenshotsText, setScreenshotsText] = useState('');
 
   // Notify parent that RecipeManager doesn't use bulk save/discard
   useEffect(() => {
@@ -114,38 +116,60 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
 
   const openCreateDialog = () => {
     setEditingRecipe(null);
-    const newRecipe = { ...EMPTY_RECIPE, order: recipes.length };
-    setFormData(newRecipe);
+    setFormData({ ...EMPTY_RECIPE, order: 99 });
     setPackagesText('');
     setTagsText('');
-    setScreenshotsText('');
-    setExpandedSections({ basic: true, install: true, meta: false, advanced: false });
+    setMediaIconPreview(undefined);
+    setMediaScreenshotPreviews([]);
+    setExpandedSections({ basic: true, install: true, media: true, meta: false, advanced: false });
     setDialogOpen(true);
   };
 
-  const openEditDialog = (recipe: Recipe) => {
+  const openEditDialog = async (recipe: Recipe) => {
+    const { screenshots: _generatedScreenshots, appIcon: _generatedIcon, ...generatedBase } = recipe;
     setEditingRecipe(recipe);
-    setFormData({ ...recipe });
+    setFormData(generatedBase as Recipe);
     setPackagesText(recipe.packages?.join(', ') || '');
     setTagsText(recipe.tags?.join(', ') || '');
-    setScreenshotsText(recipe.screenshots?.join(', ') || '');
-    setExpandedSections({ basic: true, install: true, meta: true, advanced: true });
+    setMediaIconPreview(recipe.appIcon);
+    setMediaScreenshotPreviews(recipe.screenshots || []);
+    setExpandedSections({ basic: true, install: true, media: true, meta: true, advanced: true });
     setDialogOpen(true);
+
+    try {
+      const res = await fetch(`/api/recipes/${recipe.id}/source`);
+      if (!res.ok) return;
+      const source = await res.json() as Recipe;
+      setFormData({ ...generatedBase, ...source } as Recipe);
+      setPackagesText(source.packages?.join(', ') || '');
+      setTagsText(source.tags?.join(', ') || '');
+    } catch (err) {
+      console.error('Failed to load canonical recipe source:', err);
+    }
   };
 
-  const duplicateRecipe = (recipe: Recipe) => {
-    setEditingRecipe(null);
+  const duplicateRecipe = async (recipe: Recipe) => {
+    let source: Recipe = recipe;
+    try {
+      const res = await fetch(`/api/recipes/${recipe.id}/source`);
+      if (res.ok) source = await res.json() as Recipe;
+    } catch (err) {
+      console.error('Failed to load canonical recipe source:', err);
+    }
+    const { appIcon: _generatedIcon, ...sourceData } = source;
     const dup = {
-      ...recipe,
+      ...sourceData,
       id: recipe.id + '-copy',
       name: t('{{name}} (Copy)').replace('{{name}}', recipe.name),
-      order: recipes.length,
-    };
+      order: 99,
+    } as Recipe;
+    setEditingRecipe(null);
     setFormData(dup);
     setPackagesText(dup.packages?.join(', ') || '');
     setTagsText(dup.tags?.join(', ') || '');
-    setScreenshotsText(dup.screenshots?.join(', ') || '');
-    setExpandedSections({ basic: true, install: true, meta: true, advanced: true });
+    setMediaIconPreview(recipe.appIcon);
+    setMediaScreenshotPreviews(recipe.screenshots || []);
+    setExpandedSections({ basic: true, install: true, media: true, meta: true, advanced: true });
     setDialogOpen(true);
   };
 
@@ -163,6 +187,16 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
       toast.error(t('Category is required'));
       return;
     }
+    if (formData.license) {
+      if (!formData.license.id.trim() || !formData.license.name.trim() || !formData.license.url.trim()) {
+        toast.error(t('License ID, name, and URL are required'));
+        return;
+      }
+      if (!/^https?:\/\//i.test(formData.license.url.trim())) {
+        toast.error(t('License URL must start with http:// or https://'));
+        return;
+      }
+    }
 
     // Check for duplicate ID on create
     if (!editingRecipe && recipes.some(r => r.id === formData.id.trim())) {
@@ -173,7 +207,6 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
     // Parse comma-separated fields
     const packages = packagesText.split(',').map(s => s.trim()).filter(Boolean);
     const tags = tagsText.split(',').map(s => s.trim()).filter(Boolean);
-    const screenshots = screenshotsText.split(',').map(s => s.trim()).filter(Boolean);
 
     const recipeToSave: Recipe = {
       ...formData,
@@ -184,8 +217,13 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
       script: formData.method === 'script' ? formData.script : undefined,
       debUrl: formData.method === 'deb' ? formData.debUrl : undefined,
       tags: tags.length > 0 ? tags : undefined,
-      screenshots: screenshots.length > 0 ? screenshots : undefined,
       longDescription: formData.longDescription?.trim() || undefined,
+      license: formData.license ? {
+        id: formData.license.id.trim(),
+        name: formData.license.name.trim(),
+        url: formData.license.url.trim(),
+        requiresAcceptance: formData.license.requiresAcceptance === true,
+      } : undefined,
     };
 
     setSaving(true);
@@ -201,8 +239,8 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
         setDialogOpen(false);
         await fetchRecipes();
       } else {
-        const err = await res.text();
-        toast.error(err || t('Failed to save recipe'));
+        const payload = await res.json().catch(() => ({})) as { error?: string };
+        toast.error(payload.error || t('Failed to save recipe'));
       }
     } catch {
       toast.error(t('Failed to save recipe'));
@@ -219,7 +257,8 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
         setDeleteConfirm(null);
         await fetchRecipes();
       } else {
-        toast.error(t('Failed to delete recipe'));
+        const payload = await res.json().catch(() => ({})) as { error?: string };
+        toast.error(payload.error || t('Failed to delete recipe'));
       }
     } catch {
       toast.error(t('Failed to delete recipe'));
@@ -611,6 +650,31 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
               )}
             </div>
 
+            {/* Media Section */}
+            <div className="admin-form-section">
+              <button
+                type="button"
+                className="admin-form-section-header"
+                onClick={() => toggleSection('media')}
+              >
+                <span>{t('Icon')} / {t('Screenshots')}</span>
+                {expandedSections.media ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+              </button>
+              {expandedSections.media && (
+                <div className="admin-form-section-body">
+                  <RecipeMediaEditor
+                    recipeId={formData.id}
+                    iconSources={formData.iconSources}
+                    screenshotSources={formData.screenshotSources}
+                    iconPreview={mediaIconPreview}
+                    screenshotPreviews={mediaScreenshotPreviews}
+                    onIconSourcesChange={sources => setFormData(prev => ({ ...prev, iconSources: sources }))}
+                    onScreenshotSourcesChange={sources => setFormData(prev => ({ ...prev, screenshotSources: sources }))}
+                  />
+                </div>
+              )}
+            </div>
+
             {/* Metadata Section */}
             <div className="admin-form-section">
               <button
@@ -633,15 +697,6 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
                   </div>
 
                   <div className="space-y-2">
-                    <Label>{t('Screenshots')} <span className="text-muted-foreground text-xs">({t('comma-separated paths')})</span></Label>
-                    <Input
-                      placeholder="firefox-1.png, firefox-2.png"
-                      value={screenshotsText}
-                      onChange={e => setScreenshotsText(e.target.value)}
-                    />
-                  </div>
-
-                  <div className="space-y-2">
                     <Label>{t('Long Description')}</Label>
                     <Textarea
                       placeholder={t('Detailed description...')}
@@ -649,6 +704,73 @@ export const RecipeManager = forwardRef<ManagerHandle, RecipeManagerProps>(
                       onChange={e => setFormData(prev => ({ ...prev, longDescription: e.target.value }))}
                       rows={4}
                     />
+                  </div>
+
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3">
+                      <Switch
+                        checked={!!formData.license}
+                        onCheckedChange={enabled => setFormData(prev => ({
+                          ...prev,
+                          license: enabled ? (prev.license || {
+                            id: '',
+                            name: '',
+                            url: '',
+                            requiresAcceptance: true,
+                          }) : undefined,
+                        }))}
+                      />
+                      <Label>{t('Additional license')}</Label>
+                    </div>
+                    {formData.license && (
+                      <div className="grid gap-3 pl-1">
+                        <div className="grid grid-cols-2 gap-3">
+                          <div className="space-y-2">
+                            <Label>{t('License ID')}</Label>
+                            <Input
+                              placeholder="virtualbox-puel"
+                              value={formData.license.id}
+                              onChange={e => setFormData(prev => ({
+                                ...prev,
+                                license: prev.license ? { ...prev.license, id: e.target.value } : undefined,
+                              }))}
+                            />
+                          </div>
+                          <div className="space-y-2">
+                            <Label>{t('License name')}</Label>
+                            <Input
+                              placeholder="PUEL"
+                              value={formData.license.name}
+                              onChange={e => setFormData(prev => ({
+                                ...prev,
+                                license: prev.license ? { ...prev.license, name: e.target.value } : undefined,
+                              }))}
+                            />
+                          </div>
+                        </div>
+                        <div className="space-y-2">
+                          <Label>{t('License URL')}</Label>
+                          <Input
+                            placeholder="https://example.com/license"
+                            value={formData.license.url}
+                            onChange={e => setFormData(prev => ({
+                              ...prev,
+                              license: prev.license ? { ...prev.license, url: e.target.value } : undefined,
+                            }))}
+                          />
+                        </div>
+                        <div className="flex items-center gap-3">
+                          <Switch
+                            checked={formData.license.requiresAcceptance === true}
+                            onCheckedChange={value => setFormData(prev => ({
+                              ...prev,
+                              license: prev.license ? { ...prev.license, requiresAcceptance: value } : undefined,
+                            }))}
+                          />
+                          <Label>{t('Require explicit acceptance before installation')}</Label>
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   <div className="space-y-2">
