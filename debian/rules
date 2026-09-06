@@ -35,12 +35,14 @@ override_dh_auto_install:
 	# --- minios-store: WebSocket daemon ---
 	install -d debian/minios-store/usr/bin \
 	           debian/minios-store/usr/lib/minios-store/minios_store \
-	           debian/minios-store/usr/share/applications
+	           debian/minios-store/usr/share/applications \
+	           debian/minios-store/usr/share/minios-store
 	cp bin/minios-store-daemon debian/minios-store/usr/bin/
 	chmod +x debian/minios-store/usr/bin/minios-store-daemon
 	cp client/minios_store/server.py \
 	   client/minios_store/launcher.py \
 	   debian/minios-store/usr/lib/minios-store/minios_store/
+	cp share/launcher.css debian/minios-store/usr/share/minios-store/
 	cp bin/minios-store-launcher debian/minios-store/usr/bin/
 	chmod +x debian/minios-store/usr/bin/minios-store-launcher
 	msgfmt --desktop --template=share/applications/minios-store.desktop \

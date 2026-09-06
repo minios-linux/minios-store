@@ -31,7 +31,7 @@ try:
     import gi
     gi.require_version("Gdk", "3.0")
     gi.require_version("Gtk", "3.0")
-    from gi.repository import Gtk, GLib, Pango, Gdk
+    from gi.repository import Gtk, GLib, Pango
 except (ImportError, ValueError):
     print(_("Error: GTK3 (python3-gi, gir1.2-gtk-3.0) is required"),
           file=sys.stderr)
@@ -41,6 +41,7 @@ from urllib.parse import urlparse, parse_qs
 
 from minios_store.config import get_writable_modules_dir, is_native_system
 from minios_store.installer import Installer
+from minios_gui import OperationView, apply_minios_css, new_header_bar, new_icon
 
 # ---------------------------------------------------------------------------
 # URI / CLI argument parsing
@@ -233,10 +234,7 @@ class InstallerWindow(Gtk.Window):
     # -- UI -----------------------------------------------------------------
 
     def _build_ui(self):
-        # HeaderBar (like minios-installer)
-        header_bar = Gtk.HeaderBar(show_close_button=True)
-        header_bar.props.title = _("MiniOS Store")
-        self.set_titlebar(header_bar)
+        self.set_titlebar(new_header_bar(_("MiniOS Store")))
 
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
         self.add(vbox)
@@ -250,8 +248,9 @@ class InstallerWindow(Gtk.Window):
         info_box.set_margin_top(16)
         info_box.set_margin_bottom(8)
 
-        icon = Gtk.Image.new_from_icon_name(
-            "system-software-install", Gtk.IconSize.DIALOG
+        icon = new_icon(
+            "system-software-install", Gtk.IconSize.DIALOG,
+            accessible_name=_("MiniOS Store"),
         )
         info_box.pack_start(icon, False, False, 0)
 
@@ -279,60 +278,22 @@ class InstallerWindow(Gtk.Window):
         info_box.pack_start(title_box, True, True, 0)
         vbox.pack_start(info_box, False, False, 0)
 
-        # Progress area
-        progress_box = Gtk.Box(
-            orientation=Gtk.Orientation.VERTICAL, spacing=8
+        self.operation_view = OperationView(
+            status=_("Preparing..."), show_log=True, cancellable=True
         )
-        progress_box.set_margin_start(16)
-        progress_box.set_margin_end(16)
-        progress_box.set_margin_top(12)
-
-        self.status_label = Gtk.Label(label=_("Preparing..."))
-        self.status_label.set_halign(Gtk.Align.START)
-        self.status_label.set_ellipsize(Pango.EllipsizeMode.END)
-        progress_box.pack_start(self.status_label, False, False, 0)
-
-        self.progress_bar = Gtk.ProgressBar()
-        self.progress_bar.set_show_text(False)
-        progress_box.pack_start(self.progress_bar, False, False, 0)
-
-        vbox.pack_start(progress_box, False, False, 0)
-
-        # Log toggle button
-        self.log_toggle = Gtk.ToggleButton(
-            label="\u25b6 %s" % _("Installation Log")
+        self.operation_view.set_margin_start(8)
+        self.operation_view.set_margin_end(8)
+        self.operation_view.set_margin_top(4)
+        self.operation_view.status_label.set_line_wrap(False)
+        self.operation_view.status_label.set_ellipsize(Pango.EllipsizeMode.END)
+        self.operation_view.log_expander.set_label(_("Installation Log"))
+        self.operation_view.log_expander.connect(
+            "notify::expanded", self._on_log_toggled
         )
-        self.log_toggle.set_relief(Gtk.ReliefStyle.NONE)
-        self.log_toggle.set_halign(Gtk.Align.START)
-        self.log_toggle.set_margin_start(16)
-        self.log_toggle.set_margin_top(8)
-        self.log_toggle.connect("toggled", self._on_log_toggled)
-        vbox.pack_start(self.log_toggle, False, False, 0)
-
-        # Log scrolled window (hidden initially)
-        self.log_sw = Gtk.ScrolledWindow()
-        self.log_sw.set_policy(Gtk.PolicyType.AUTOMATIC, Gtk.PolicyType.AUTOMATIC)
-        self.log_sw.set_size_request(-1, 200)
-        self.log_sw.set_margin_start(16)
-        self.log_sw.set_margin_end(16)
-        self.log_sw.set_margin_bottom(8)
-
-        self.log_buffer = Gtk.TextBuffer()
-        self.log_view = Gtk.TextView(buffer=self.log_buffer)
-        self.log_view.set_editable(False)
-        self.log_view.set_cursor_visible(False)
-        self.log_view.set_wrap_mode(Gtk.WrapMode.WORD_CHAR)
-        self.log_view.set_monospace(True)
-
-        # Create tags for coloring
-        self.log_buffer.create_tag("info", foreground="#4a9eff")
-        self.log_buffer.create_tag("error", foreground="#ff4444")
-        self.log_buffer.create_tag("success", foreground="#44bb44")
-        self.log_buffer.create_tag("warning", foreground="#ffaa00")
-        self.log_buffer.create_tag("output", foreground="#999999")
-
-        self.log_sw.add(self.log_view)
-        vbox.pack_start(self.log_sw, False, False, 0)
+        self.operation_view.log_view.set_size_request(-1, 200)
+        self.operation_view.cancel_button.set_label(_("Cancel Installation"))
+        self.operation_view.connect("cancel-requested", self._on_cancel)
+        vbox.pack_start(self.operation_view, False, False, 0)
 
         # Bottom buttons
         self.button_box = Gtk.Box(
@@ -343,13 +304,6 @@ class InstallerWindow(Gtk.Window):
         self.button_box.set_margin_bottom(16)
         self.button_box.set_margin_top(4)
 
-        # Left: Cancel Installation (shown during install)
-        self.cancel_btn = Gtk.Button(label=_("Cancel Installation"))
-        self.cancel_btn.get_style_context().add_class("destructive-action")
-        self.cancel_btn.connect("clicked", self._on_cancel)
-        self.button_box.pack_start(self.cancel_btn, False, False, 0)
-
-        # Spacer
         self.button_box.pack_start(Gtk.Box(), True, True, 0)
 
         # Right: Open Folder button (hidden initially)
@@ -378,24 +332,12 @@ class InstallerWindow(Gtk.Window):
 
     # -- Logging ------------------------------------------------------------
 
-    def _log(self, text, tag=None):
+    def _log(self, text, level=None):
         """Append text to log view (must be called from main thread)."""
-        end = self.log_buffer.get_end_iter()
-        if tag:
-            self.log_buffer.insert_with_tags_by_name(
-                end, text + "\n", tag
-            )
-        else:
-            self.log_buffer.insert(end, text + "\n")
-        # Auto-scroll
-        end_mark = self.log_buffer.create_mark(
-            None, self.log_buffer.get_end_iter(), False
-        )
-        self.log_view.scroll_to_mark(end_mark, 0.0, False, 0.0, 0.0)
-        self.log_buffer.delete_mark(end_mark)
+        self.operation_view.feed(text + "\n", level=level)
 
-    def _log_threadsafe(self, text, tag=None):
-        GLib.idle_add(self._log, text, tag)
+    def _log_threadsafe(self, text, level=None):
+        GLib.idle_add(self._log, text, level)
 
     # -- Installation -------------------------------------------------------
 
@@ -416,9 +358,9 @@ class InstallerWindow(Gtk.Window):
             self._log(_("Warning: using fallback directory"), "warning")
         self._log("")
 
-        self.progress_bar.set_fraction(0.0)
-        GLib.idle_add(self._set_status, _("Installing..."))
-        GLib.idle_add(self.progress_bar.pulse)
+        self.operation_view.set_progress(0.0)
+        self.operation_view.set_state("running", _("Installing..."))
+        GLib.idle_add(self.operation_view.progress_bar.pulse)
 
         self.installer = Installer(self.modules_dir, self.is_fallback)
         self.install_thread = threading.Thread(
@@ -432,7 +374,7 @@ class InstallerWindow(Gtk.Window):
     def _pulse_progress(self):
         if self.finished:
             return False
-        self.progress_bar.pulse()
+        self.operation_view.progress_bar.pulse()
         return True
 
     def _install_worker(self):
@@ -472,7 +414,7 @@ class InstallerWindow(Gtk.Window):
             total = msg.get("total", 1)
             if total > 0:
                 frac = float(current) / float(total)
-                GLib.idle_add(self.progress_bar.set_fraction, frac)
+                GLib.idle_add(self.operation_view.set_progress, frac)
             GLib.idle_add(
                 self._set_status,
                 _("%s - %s (%d/%d)") % (name, step, current, total),
@@ -499,7 +441,7 @@ class InstallerWindow(Gtk.Window):
 
     def _on_install_complete(self, successful, failed):
         self.finished = True
-        self.progress_bar.set_fraction(1.0 if not failed else 0.0)
+        self.operation_view.set_progress(1.0 if not failed else 0.0)
 
         if successful:
             self._log("")
@@ -517,7 +459,9 @@ class InstallerWindow(Gtk.Window):
                     _("Location: %s") % self.modules_dir, "success"
                 )
             if not failed:
-                self._set_status(_("Installation complete"))
+                self.operation_view.set_state(
+                    "success", _("Installation complete")
+                )
             if self.mode == "module" and not failed:
                 self.open_folder_btn.set_visible(True)
                 self.open_folder_btn.set_sensitive(True)
@@ -525,34 +469,28 @@ class InstallerWindow(Gtk.Window):
         if failed:
             self._log("")
             self._log(_("Failed: %s") % ", ".join(failed), "error")
-            self._set_status(_("Installation failed"))
+            state = "cancelled" if self.installer._cancelled else "error"
+            self.operation_view.set_state(state, _("Installation failed"))
 
-        self.cancel_btn.set_visible(False)
+        self.operation_view.cancel_button.set_visible(False)
         self.done_btn.set_visible(True)
 
     def _on_install_error(self, error_text):
         self.finished = True
-        self.progress_bar.set_fraction(0.0)
+        self.operation_view.set_progress(0.0)
         self._log("")
         self._log(_("Fatal error: %s") % error_text, "error")
-        self._set_status(_("Installation failed"))
-        self.cancel_btn.set_visible(False)
+        self.operation_view.set_state("error", _("Installation failed"))
+        self.operation_view.cancel_button.set_visible(False)
         self.done_btn.set_visible(True)
 
     # -- Actions ------------------------------------------------------------
 
     def _set_status(self, text):
-        self.status_label.set_text(text)
+        self.operation_view.set_status(text)
 
-    def _on_log_toggled(self, btn):
-        if btn.get_active():
-            btn.set_label("\u25bc %s" % _("Installation Log"))
-            self.set_resizable(True)
-            self.log_sw.show_all()
-        else:
-            btn.set_label("\u25b6 %s" % _("Installation Log"))
-            self.log_sw.hide()
-            self.set_resizable(False)
+    def _on_log_toggled(self, expander, _param):
+        self.set_resizable(expander.get_expanded())
 
     def _on_done(self, _btn):
         Gtk.main_quit()
@@ -581,38 +519,6 @@ class InstallerWindow(Gtk.Window):
                 self.installer.cancel()
         Gtk.main_quit()
         return False
-
-
-# ---------------------------------------------------------------------------
-# CSS theming
-# ---------------------------------------------------------------------------
-
-CSS = b"""
-window {
-    background-color: @theme_bg_color;
-}
-textview {
-    font-size: 11px;
-}
-textview text {
-    background-color: shade(@theme_bg_color, 0.95);
-    color: @theme_fg_color;
-    padding: 6px;
-}
-"""
-
-
-def _apply_css():
-    screen = Gdk.Screen.get_default()
-    if screen is None:
-        return
-    provider = Gtk.CssProvider()
-    provider.load_from_data(CSS)
-    Gtk.StyleContext.add_provider_for_screen(
-        screen,
-        provider,
-        Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION,
-    )
 
 
 # ---------------------------------------------------------------------------
@@ -670,10 +576,9 @@ def main():
     # Allow Ctrl-C to work
     signal.signal(signal.SIGINT, signal.SIG_DFL)
 
-    _apply_css()
+    apply_minios_css()
     win = InstallerWindow(recipes, mode, packaging, module_name)
     win.show_all()
-    win.log_sw.hide()
 
     # Auto-start installation
     GLib.idle_add(win._on_install, None)

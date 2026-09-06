@@ -1,0 +1,17 @@
+/* Layout specific to the compact MiniOS Store browser launcher. */
+.launcher-card {
+    padding: 12px;
+}
+
+.launcher-icon-box {
+    padding: 2px;
+}
+
+.launcher-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.launcher-footer {
+    padding-top: 8px;
+}

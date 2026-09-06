@@ -16,7 +16,82 @@ try:
     from minios_store import gui
 except (SystemExit, ImportError, ValueError):  # pragma: no cover
     pytest.skip("GTK (python3-gi / gir1.2-gtk-3.0) not available",
-                allow_module_level=True)
+                 allow_module_level=True)
+
+
+def _require_gtk_display():
+    initialized = gui.Gtk.init_check([])
+    if isinstance(initialized, tuple):
+        initialized = initialized[0]
+    if not initialized:
+        pytest.skip("GTK display is unavailable")
+
+
+def test_installer_uses_public_minios_gui_api():
+    assert gui.OperationView.__module__ == "minios_gui.widgets"
+    assert gui.apply_minios_css.__module__ == "minios_gui.style"
+    assert gui.new_header_bar.__module__ == "minios_gui.widgets"
+    assert gui.new_icon.__module__ == "minios_gui.style"
+
+
+def test_installer_has_no_local_generic_css_or_hard_coded_log_colors():
+    with open(gui.__file__, encoding="utf-8") as stream:
+        source = stream.read()
+
+    assert "Gtk.CssProvider" not in source
+    assert "foreground=" not in source
+    assert "self.operation_view.feed(text + \"\\n\", level=level)" in source
+    assert "#4a9eff" not in source
+    assert "#ff4444" not in source
+
+
+def test_installer_composes_operation_view(monkeypatch):
+    _require_gtk_display()
+    monkeypatch.setattr(gui, "get_writable_modules_dir", lambda: ("/tmp", False))
+    window = gui.InstallerWindow(
+        [{"id": "vlc"}], "module", "single", ""
+    )
+    try:
+        assert isinstance(window.operation_view, gui.OperationView)
+        assert (window.operation_view.log_expander.get_label()
+                == "Installation Log")
+        assert (window.operation_view.cancel_button.get_label()
+                == "Cancel Installation")
+
+        window._log("failed", "error")
+        tags = window.operation_view.log_view.text_buffer.get_tag_table()
+        assert tags.lookup("log-level-error") is not None
+    finally:
+        window.destroy()
+
+
+def test_installer_operation_cancel_reaches_async_installer(monkeypatch):
+    _require_gtk_display()
+    monkeypatch.setattr(gui, "get_writable_modules_dir", lambda: ("/tmp", False))
+    window = gui.InstallerWindow(
+        [{"id": "vlc"}], "module", "single", ""
+    )
+
+    class RunningThread:
+        def is_alive(self):
+            return True
+
+    class CancellableInstaller:
+        def __init__(self):
+            self.cancelled = False
+
+        def cancel(self):
+            self.cancelled = True
+
+    try:
+        window.install_thread = RunningThread()
+        window.installer = CancellableInstaller()
+        window.operation_view.emit("cancel-requested")
+
+        assert window.installer.cancelled
+        assert window.operation_view.status_label.get_text() == "Cancelling..."
+    finally:
+        window.destroy()
 
 
 # ---------------------------------------------------------------------------
