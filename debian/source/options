@@ -22,6 +22,7 @@ tar-ignore=tools
 # Tests for excluded build tools are not part of the packaged Python suite
 tar-ignore=tests/test_build_recipes.py
 tar-ignore=tests/test_repo_parser.py
+tar-ignore=tests/test_recipe_tool.py
 
 # CI/CD and git metadata
 tar-ignore=.git
