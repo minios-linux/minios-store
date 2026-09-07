@@ -3,6 +3,7 @@ import json
 import os
 import sys
 import types
+from pathlib import Path
 from unittest.mock import patch
 
 
@@ -13,6 +14,7 @@ if "websockets" not in sys.modules:
     websockets.exceptions = types.SimpleNamespace(ConnectionClosed=Exception)
     sys.modules["websockets"] = websockets
 
+from minios_store import __version__
 from minios_store.server import StoreServer
 
 
@@ -68,6 +70,13 @@ def run(coro):
         return loop.run_until_complete(coro)
     finally:
         loop.close()
+
+
+def test_runtime_version_matches_debian_changelog():
+    changelog = Path(__file__).resolve().parents[1] / "debian" / "changelog"
+    first_entry = changelog.read_text(encoding="utf-8").splitlines()[0]
+    package_version = first_entry.split("(", 1)[1].split(")", 1)[0]
+    assert __version__ == package_version
 
 
 def test_native_server_forces_system_installation():

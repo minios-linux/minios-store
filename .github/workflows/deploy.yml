@@ -23,13 +23,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Checkout MiniOS GUI test dependency
+        uses: actions/checkout@v4
+        with:
+          repository: minios-linux/minios-gui
+          path: .ci/minios-gui
+
       - name: Install test dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y python3-pytest python3-yaml python3-gi gir1.2-gtk-3.0
+          sudo apt-get install -y python3-pytest python3-yaml python3-gi gir1.2-gtk-3.0 python3-websockets
 
       - name: Run Python test suite
         run: python3 -m pytest -q
+        env:
+          PYTHONPATH: ${{ github.workspace }}/.ci/minios-gui
 
   build:
     needs: test

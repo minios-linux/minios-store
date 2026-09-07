@@ -3,10 +3,10 @@
 # This file is distributed under the same license as the minios-store package.
 msgid ""
 msgstr ""
-"Project-Id-Version: minios-store 1.0.0\n"
+"Project-Id-Version: minios-store 1.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-02 14:13+0300\n"
-"PO-Revision-Date: 2026-09-02 10:44+0000\n"
+"POT-Creation-Date: 2026-09-07 03:09+0300\n"
+"PO-Revision-Date: 2026-09-07 00:09+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -15,174 +15,224 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: client/minios_store/gui.py:32
+#: client/minios_store/gui.py:36
 msgid "Error: GTK3 (python3-gi, gir1.2-gtk-3.0) is required"
 msgstr "Ошибка: требуется GTK3 (python3-gi, gir1.2-gtk-3.0)"
 
-#: client/minios_store/gui.py:54
+#: client/minios_store/gui.py:58
+#, python-format
+msgid "Invalid recipe payload: %s"
+msgstr "Недопустимый состав рецепта: %s"
+
+#: client/minios_store/gui.py:61
+msgid "Recipe payload must contain a non-empty list"
+msgstr "Состав рецепта должен содержать непустой список"
+
+#: client/minios_store/gui.py:66
+msgid "Invalid recipe payload entry"
+msgstr "Недопустимая запись в составе рецепта"
+
+#: client/minios_store/gui.py:70
+msgid "Recipe payload entry is missing an ID"
+msgstr "В записи состава рецепта отсутствует идентификатор"
+
+#: client/minios_store/gui.py:72
+#, python-format
+msgid "Invalid installation method for %s"
+msgstr "Недопустимый способ установки для %s"
+
+#: client/minios_store/gui.py:74
+#, python-format
+msgid "APT recipe '%s' has no packages"
+msgstr "APT-рецепт «%s» не содержит пакетов"
+
+#: client/minios_store/gui.py:76
+#, python-format
+msgid "Script recipe '%s' has no script"
+msgstr "Сценарный рецепт «%s» не содержит скрипта"
+
+#: client/minios_store/gui.py:78
+#, python-format
+msgid "DEB recipe '%s' has no URL"
+msgstr "DEB-рецепт «%s» не содержит URL"
+
+#: client/minios_store/gui.py:99
+msgid "Required license is missing an ID"
+msgstr "В требуемой лицензии отсутствует идентификатор"
+
+#: client/minios_store/gui.py:104
+#, python-format
+msgid "License acceptance is required for: %s"
+msgstr "Необходимо принять лицензию для: %s"
+
+#: client/minios_store/gui.py:117
 #, python-format
 msgid "Invalid scheme: %s (expected minios-store)"
 msgstr "Недопустимая схема: %s (ожидается minios-store)"
 
-#: client/minios_store/gui.py:60
+#: client/minios_store/gui.py:123
 #, python-format
 msgid "Invalid action: %s (expected 'install')"
 msgstr "Недопустимое действие: %s (ожидается 'install')"
 
-#: client/minios_store/gui.py:67
+#: client/minios_store/gui.py:134
 msgid "Missing 'recipes' parameter"
 msgstr "Отсутствует параметр 'recipes'"
 
-#: client/minios_store/gui.py:73
+#: client/minios_store/gui.py:140
 #, python-format
 msgid "Invalid recipe format: %s"
 msgstr "Некорректный формат рецепта: %s"
 
-#: client/minios_store/gui.py:94
+#: client/minios_store/gui.py:167
 msgid "MiniOS Store Installer"
 msgstr "Установщик Магазина приложений MiniOS"
 
-#: client/minios_store/gui.py:96
+#: client/minios_store/gui.py:169
 msgid "minios-store:// URI"
 msgstr "minios-store:// URI"
 
-#: client/minios_store/gui.py:102
+#: client/minios_store/gui.py:175
 msgid "Comma-separated id:level:compression"
 msgstr "ID, уровень и сжатие через запятую"
 
-#: client/minios_store/gui.py:117
+#: client/minios_store/gui.py:178
+msgid "Comma-separated accepted license IDs"
+msgstr "ID принятых лицензий, разделённые запятыми"
+
+#: client/minios_store/gui.py:195
 #, python-format
 msgid "Invalid recipe: %s"
 msgstr "Некорректный рецепт: %s"
 
-#: client/minios_store/gui.py:138 client/minios_store/gui.py:162
-#: client/minios_store/gui.py:187 client/minios_store/launcher.py:143
-#: client/minios_store/launcher.py:152 client/minios_store/launcher.py:179
+#: client/minios_store/gui.py:217 client/minios_store/gui.py:239
+#: client/minios_store/gui.py:255 client/minios_store/gui.py:264
+#: client/minios_store/launcher.py:83 client/minios_store/launcher.py:95
+#: client/minios_store/launcher.py:110 client/minios_store/launcher.py:120
 #: share/applications/minios-store.desktop:2
 msgid "MiniOS Store"
 msgstr "Магазин приложений MiniOS"
 
-#: client/minios_store/gui.py:214
+#: client/minios_store/gui.py:284
 msgid "Preparing..."
 msgstr "Подготовка..."
 
-#: client/minios_store/gui.py:227 client/minios_store/gui.py:473
-#: client/minios_store/gui.py:477
+#: client/minios_store/gui.py:291
 msgid "Installation Log"
 msgstr "Журнал установки"
 
-#: client/minios_store/gui.py:271
+#: client/minios_store/gui.py:296
 msgid "Cancel Installation"
 msgstr "Отменить установку"
 
-#: client/minios_store/gui.py:280
+#: client/minios_store/gui.py:312
 msgid "Open Folder"
 msgstr "Открыть папку"
 
-#: client/minios_store/gui.py:286
+#: client/minios_store/gui.py:318
 msgid "Done"
 msgstr "Готово"
 
-#: client/minios_store/gui.py:298
+#: client/minios_store/gui.py:330
 msgid "System install"
 msgstr "Установка в систему"
 
-#: client/minios_store/gui.py:300
+#: client/minios_store/gui.py:332
 msgid "Separate modules"
 msgstr "Отдельные модули"
 
-#: client/minios_store/gui.py:301
+#: client/minios_store/gui.py:333
 msgid "Single module"
 msgstr "Один модуль"
 
-#: client/minios_store/gui.py:329
+#: client/minios_store/gui.py:349
 msgid "Starting installation..."
 msgstr "Запуск установки..."
 
-#: client/minios_store/gui.py:331
+#: client/minios_store/gui.py:351
 #, python-format
 msgid "Mode: %s | Packaging: %s"
 msgstr "Режим: %s | Упаковка: %s"
 
-#: client/minios_store/gui.py:335
+#: client/minios_store/gui.py:355
 #, python-format
 msgid "Packages: %s"
 msgstr "Пакеты: %s"
 
-#: client/minios_store/gui.py:338
+#: client/minios_store/gui.py:358
 #, python-format
 msgid "Target: %s"
 msgstr "Цель: %s"
 
-#: client/minios_store/gui.py:340
+#: client/minios_store/gui.py:360
 msgid "Warning: using fallback directory"
 msgstr "Внимание: используется резервная директория"
 
-#: client/minios_store/gui.py:344
+#: client/minios_store/gui.py:364
 msgid "Installing..."
 msgstr "Установка..."
 
-#: client/minios_store/gui.py:389
+#: client/minios_store/gui.py:409
 #, python-format
 msgid "Installing %d package(s)..."
 msgstr "Установка %d пакета(ов)..."
 
-#: client/minios_store/gui.py:402
+#: client/minios_store/gui.py:422
 #, python-format
 msgid "%s - %s (%d/%d)"
 msgstr "%s - %s (%d/%d)"
 
-#: client/minios_store/gui.py:421
+#: client/minios_store/gui.py:441
 msgid "Unknown error"
 msgstr "Неизвестная ошибка"
 
-#: client/minios_store/gui.py:422 client/minios_store/gui.py:582
+#: client/minios_store/gui.py:442 client/minios_store/gui.py:566
 #, python-format
 msgid "Error: %s"
 msgstr "Ошибка: %s"
 
-#: client/minios_store/gui.py:431
+#: client/minios_store/gui.py:451
 #, python-format
 msgid "Successfully installed: %s"
 msgstr "Успешно установлено: %s"
 
-#: client/minios_store/gui.py:437
+#: client/minios_store/gui.py:457
 #, python-format
 msgid "Module: %s"
 msgstr "Модуль: %s"
 
-#: client/minios_store/gui.py:441
+#: client/minios_store/gui.py:461
 #, python-format
 msgid "Location: %s"
 msgstr "Расположение: %s"
 
-#: client/minios_store/gui.py:444
+#: client/minios_store/gui.py:465
 msgid "Installation complete"
 msgstr "Установка завершена"
 
-#: client/minios_store/gui.py:451
+#: client/minios_store/gui.py:473
 #, python-format
 msgid "Failed: %s"
 msgstr "Не удалось: %s"
 
-#: client/minios_store/gui.py:452 client/minios_store/gui.py:462
+#: client/minios_store/gui.py:475 client/minios_store/gui.py:485
 msgid "Installation failed"
 msgstr "Ошибка установки"
 
-#: client/minios_store/gui.py:461
+#: client/minios_store/gui.py:484
 #, python-format
 msgid "Fatal error: %s"
 msgstr "Критическая ошибка: %s"
 
-#: client/minios_store/gui.py:488 client/minios_store/gui.py:489
+#: client/minios_store/gui.py:504 client/minios_store/gui.py:505
 msgid "Cancelling..."
 msgstr "Отмена..."
 
-#: client/minios_store/gui.py:560
+#: client/minios_store/gui.py:544
 msgid "Root Privileges Required"
 msgstr "Требуются права root"
 
-#: client/minios_store/gui.py:563
+#: client/minios_store/gui.py:547
 msgid ""
 "This installer must be run as root.\n"
 "Use the MiniOS Store URI handler or run with pkexec."
@@ -190,7 +240,7 @@ msgstr ""
 "Этот установщик должен быть запущен от имени root.\n"
 "Используйте обработчик URI Магазина приложений MiniOS или запустите с помощью pkexec."
 
-#: client/minios_store/gui.py:570
+#: client/minios_store/gui.py:554
 msgid "Error: root privileges required. Run via pkexec or the URI handler."
 msgstr "Ошибка: требуются права root. Запустите через pkexec или обработчик URI."
 
@@ -301,37 +351,37 @@ msgstr "Сборка одного модуля для %d рецепта(ов)"
 msgid "No packages specified"
 msgstr "Пакеты не указаны"
 
-#: client/minios_store/launcher.py:121
+#: client/minios_store/launcher.py:50
 msgid "Launch MiniOS Store"
 msgstr "Запустить Магазин приложений MiniOS"
 
-#: client/minios_store/launcher.py:184
+#: client/minios_store/launcher.py:126
 msgid "Starting MiniOS Store..."
 msgstr "Запуск Магазина приложений MiniOS..."
 
-#: client/minios_store/launcher.py:202
+#: client/minios_store/launcher.py:143
 msgid "Retry"
 msgstr "Повторить"
 
-#: client/minios_store/launcher.py:208
+#: client/minios_store/launcher.py:148
 msgid "Close"
 msgstr "Закрыть"
 
-#: client/minios_store/launcher.py:235 client/minios_store/launcher.py:243
+#: client/minios_store/launcher.py:184
 msgid "Connecting to MiniOS Store..."
 msgstr "Подключение к Магазину приложений MiniOS..."
 
-#: client/minios_store/launcher.py:248
+#: client/minios_store/launcher.py:214
 msgid "MiniOS Store is unavailable. Check your network connection."
 msgstr "Магазин приложений MiniOS недоступен. Проверьте сетевое подключение."
 
-#: client/minios_store/launcher.py:253
-msgid "Opening the browser..."
-msgstr "Открытие браузера..."
-
-#: client/minios_store/launcher.py:257
+#: client/minios_store/launcher.py:217
 msgid "Could not open the default browser."
 msgstr "Не удалось открыть браузер по умолчанию."
+
+#: client/minios_store/launcher.py:219
+msgid "Opening the browser..."
+msgstr "Открытие браузера..."
 
 #: client/minios_store/server.py:84
 msgid "Invalid JSON message"
@@ -349,39 +399,48 @@ msgstr "Другая установка уже выполняется"
 msgid "No recipes provided"
 msgstr "Рецепты не предоставлены"
 
-#: client/minios_store/server.py:142
+#: client/minios_store/server.py:144
+msgid "Invalid license acceptance data"
+msgstr "Недопустимые данные о принятии лицензии"
+
+#: client/minios_store/server.py:152
 msgid "Invalid mode '{}'"
 msgstr "Недопустимый режим '{}'"
 
-#: client/minios_store/server.py:154
+#: client/minios_store/server.py:164
 msgid "Invalid packaging '{}'"
 msgstr "Недопустимый тип упаковки '{}'"
 
-#: client/minios_store/server.py:163
+#: client/minios_store/server.py:173
 msgid "Recipe missing 'id' field"
 msgstr "В рецепте отсутствует поле 'id'"
 
-#: client/minios_store/server.py:169
+#: client/minios_store/server.py:179
 msgid "Invalid method '{}' for recipe '{}'"
 msgstr "Недопустимый метод '{}' для рецепта '{}'"
 
-#: client/minios_store/server.py:228
+#: client/minios_store/server.py:191
+#, python-brace-format
+msgid "License '{license}' must be accepted before installing '{application}'"
+msgstr "Перед установкой «{application}» необходимо принять лицензию «{license}»"
+
+#: client/minios_store/server.py:253
 msgid "Unexpected error: {}"
 msgstr "Непредвиденная ошибка: {}"
 
-#: client/minios_store/server.py:246
+#: client/minios_store/server.py:271
 msgid "Cancelling installation..."
 msgstr "Отмена установки..."
 
-#: client/minios_store/server.py:252
+#: client/minios_store/server.py:277
 msgid "No installation in progress to cancel"
 msgstr "Нет установки, которую можно отменить"
 
-#: client/minios_store/server.py:301
+#: client/minios_store/server.py:326
 msgid "Folder does not exist: {}"
 msgstr "Папка не существует: {}"
 
-#: client/minios_store/server.py:366
+#: client/minios_store/server.py:391
 msgid "Failed to open folder: no working file manager found"
 msgstr "Не удалось открыть папку: не найден файловый менеджер"
 
@@ -408,3 +467,6 @@ msgstr "Установить приложения через Магазин пр
 #: share/polkit/dev.minios.store.policy:13
 msgid "Authentication is required to install applications"
 msgstr "Для установки приложений требуется аутентификация"
+
+#~ msgid "License '{}' must be accepted before installing '{}'"
+#~ msgstr "Лицензию «%s» необходимо принять перед установкой «%s»"

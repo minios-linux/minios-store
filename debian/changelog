@@ -1,11 +1,22 @@
 minios-store (1.2.0) unstable; urgency=medium
 
   * Require explicit acceptance of recipe licenses before installation when
-    requested by the recipe.
+    requested by the recipe, including WebSocket and browser URI fallback
+    installations with complete script and DEB recipe data.
+  * Make YAML files the canonical recipe sources and add an admin workflow that
+    updates sources, generated indexes, lazy-loaded details and media together.
+  * Support validated local and remote recipe icons and screenshots, refresh
+    changed caches deterministically and remove obsolete generated details.
+  * Add managed recipes for VirtualBox, Visual Studio Code, VSCodium and major
+    third-party web browsers, with distribution filters, media and licensing.
   * Reuse shared MiniOS GUI background tasks, headers and operation widgets in
-    the launcher and GTK installer.
+    the launcher and GTK installer, requiring python3-minios-gui 1.4.0.
+  * Keep package tests self-contained by declaring their WebSocket and shared
+    GUI build dependencies and excluding source-only recipe tool tests.
+  * Correct Store admin navigation, form spacing and button styling, and widen
+    application detail and installation dialogs for long scripts and logs.
 
- -- crims0n <crims0n@minios.dev>  Mon, 07 Sep 2026 02:52:11 +0300
+ -- crims0n <crims0n@minios.dev>  Mon, 07 Sep 2026 03:09:59 +0300
 
 minios-store (1.1.6) unstable; urgency=medium
 

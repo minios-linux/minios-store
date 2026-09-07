@@ -187,9 +187,12 @@ class StoreServer:
                 if not license_id or license_id not in accepted_licenses:
                     await self._send(websocket, {
                         "type": "install_error",
-                        "error": _("License '{}' must be accepted before installing '{}'").format(
-                            license_info.get("name") or license_id or "?",
-                            recipe.get("name") or recipe.get("id"),
+                        "error": _(
+                            "License '{license}' must be accepted before "
+                            "installing '{application}'"
+                        ).format(
+                            license=license_info.get("name") or license_id or "?",
+                            application=recipe.get("name") or recipe.get("id"),
                         ),
                     })
                     return

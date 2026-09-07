@@ -202,6 +202,20 @@ def test_parse_uri_rejects_unaccepted_required_license():
         gui.parse_uri(uri)
 
 
+def test_parse_uri_rejects_required_license_without_id():
+    recipe = {
+        "id": "demo", "name": "Demo", "method": "script",
+        "level": "auto", "compression": "zstd", "script": "echo ok",
+        "license": {
+            "name": "Demo License", "url": "https://example.org/license",
+            "requiresAcceptance": True,
+        },
+    }
+    uri = "minios-store://install?payload=%s" % _payload([recipe])
+    with pytest.raises(ValueError, match="Required license is missing an ID"):
+        gui.parse_uri(uri)
+
+
 # ---------------------------------------------------------------------------
 # build_cli_parser / resolve_params
 # ---------------------------------------------------------------------------

@@ -95,7 +95,9 @@ def validate_license_acceptance(recipes, accepted_licenses):
         if not license_info.get("requiresAcceptance"):
             continue
         license_id = license_info.get("id")
-        if license_id and license_id not in accepted:
+        if not isinstance(license_id, str) or not license_id.strip():
+            raise ValueError(_("Required license is missing an ID"))
+        if license_id not in accepted:
             missing.append(license_info.get("name") or license_id)
     if missing:
         raise ValueError(
