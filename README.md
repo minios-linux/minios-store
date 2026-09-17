@@ -1,5 +1,7 @@
 # MiniOS Store
 
+## Overview
+
 A web-based application store for [MiniOS](https://minios.dev) Linux distribution. Browse, search, and install application recipes as squashfs modules.
 
 **Live**: [store.minios.dev](https://store.minios.dev)
@@ -11,105 +13,6 @@ A web-based application store for [MiniOS](https://minios.dev) Linux distributio
 - **GTK3 GUI** (`client/minios_store/gui.py`) -- standalone installer for `minios-store://` URIs (works without WebSocket daemon)
 - **Recipes** (`recipes/`) -- YAML recipe definitions organized by category
 - **Build Tools** (`tools/`) -- `repo_parser.py` (DEP-11 AppStream -> YAML), `build_recipes.py` (YAML -> JSON + media download)
-
-## Quick Start
-
-### Web UI Development
-
-```bash
-cd web
-npm install
-npm run dev
-```
-
-The development server starts at `http://localhost:5174`.
-
-### Python Daemon
-
-The daemon listens on `ws://127.0.0.1:8765` and handles installation requests from the web UI. Requires root privileges for apt/dpkg/mount operations.
-
-```bash
-# Run directly
-sudo python3 -m client.minios_store.server
-
-# Or via launcher
-sudo bin/minios-store-daemon
-
-# With verbose logging
-sudo python3 -m client.minios_store.server --verbose
-```
-
-### GTK3 GUI Installer
-
-Standalone graphical installer for `minios-store://` URIs. Works without the WebSocket daemon.
-
-```bash
-# Via launcher
-minios-store-install "minios-store://install?mode=module&recipes=vlc:auto:zstd&packaging=single"
-
-# Or with command-line arguments
-minios-store-install --mode module --packaging single --recipes vlc:auto:zstd
-```
-
-### Building Recipes
-
-```bash
-# Parse DEP-11 metadata from Debian repos into YAML recipes
-python3 tools/repo_parser.py --dist trixie
-
-# Build JSON + download screenshots/icons from YAML recipes
-python3 tools/build_recipes.py
-
-# Validate recipes only (no download)
-python3 tools/build_recipes.py --validate
-
-# Build JSON without downloading media (fast)
-python3 tools/build_recipes.py --no-screenshots --no-icons
-
-# Create/update one recipe and refresh all generated artifacts
-python3 tools/recipe_tool.py upsert < recipe.json
-
-# Delete one recipe and refresh all generated artifacts
-printf '{"id":"example"}\n' | python3 tools/recipe_tool.py delete
-```
-
-`recipes/**/*.yaml` are the canonical recipe sources. `recipe_tool.py` is the
-single-recipe path used by the admin UI; it updates the YAML source plus
-`recipes.json`, recipe indexes, and the lazy-loaded detail file in one action.
-`build_recipes.py` remains the full rebuild/validation path used by CI.
-
-The Store UI supports up to three screenshots per recipe. Automated recipe
-creation and enrichment should add no more than two by default to limit media
-storage; use the third slot only deliberately when it adds distinct value.
-
-### Building Web UI for Production
-
-```bash
-cd web
-npm run build
-```
-
-Output goes to `web/dist/`.
-
-## Installation
-
-### From Debian Package
-
-```bash
-sudo apt install ./minios-store_*.deb
-```
-
-### From Source
-
-Build the Debian package:
-
-```bash
-# Build the package
-debuild -uc -us
-
-# Install it
-sudo apt install ../minios-store_*.deb
-```
 
 ## Architecture
 
@@ -180,6 +83,26 @@ Accessible via the Settings icon when running on `localhost`. Features:
 - Recipe translation editor
 - AI-assisted batch translation (OpenAI, Gemini, Groq, local OpenCode)
 
+## Installation
+
+### From Debian Package
+
+```bash
+sudo apt install ./minios-store_*.deb
+```
+
+### From Source
+
+Build the Debian package:
+
+```bash
+# Build the package
+debuild -uc -us
+
+# Install it
+sudo apt install ../minios-store_*.deb
+```
+
 ## Deployment
 
 ### GitHub Pages (store.minios.dev)
@@ -194,6 +117,80 @@ Install the Debian package:
 sudo apt install ./minios-store_*.deb
 sudo systemctl enable --now minios-store
 ```
+
+## Development
+
+### Web UI Development
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+The development server starts at `http://localhost:5174`.
+
+### Python Daemon
+
+The daemon listens on `ws://127.0.0.1:8765` and handles installation requests from the web UI. Requires root privileges for apt/dpkg/mount operations.
+
+```bash
+# Run directly
+sudo python3 -m client.minios_store.server
+
+# Or via launcher
+sudo bin/minios-store-daemon
+
+# With verbose logging
+sudo python3 -m client.minios_store.server --verbose
+```
+
+### GTK3 GUI Installer
+
+Standalone graphical installer for `minios-store://` URIs. Works without the WebSocket daemon.
+
+```bash
+# Via launcher
+minios-store-install "minios-store://install?mode=module&recipes=vlc:auto:zstd&packaging=single"
+
+# Or with command-line arguments
+minios-store-install --mode module --packaging single --recipes vlc:auto:zstd
+```
+
+### Building Recipes
+
+```bash
+# Parse DEP-11 metadata from Debian repos into YAML recipes
+python3 tools/repo_parser.py --dist trixie
+
+# Build JSON + download screenshots/icons from YAML recipes
+python3 tools/build_recipes.py
+
+# Validate recipes only (no download)
+python3 tools/build_recipes.py --validate
+
+# Build JSON without downloading media (fast)
+python3 tools/build_recipes.py --no-screenshots --no-icons
+
+# Create/update one recipe and refresh all generated artifacts
+python3 tools/recipe_tool.py upsert < recipe.json
+
+# Delete one recipe and refresh all generated artifacts
+printf '{"id":"example"}\n' | python3 tools/recipe_tool.py delete
+```
+
+`recipes/**/*.yaml` are the canonical recipe sources. `recipe_tool.py` is the single-recipe path used by the admin UI; it updates the YAML source plus `recipes.json`, recipe indexes, and the lazy-loaded detail file in one action. `build_recipes.py` remains the full rebuild/validation path used by CI.
+
+The Store UI supports up to three screenshots per recipe. Automated recipe creation and enrichment should add no more than two by default to limit media storage; use the third slot only deliberately when it adds distinct value.
+
+### Building Web UI for Production
+
+```bash
+cd web
+npm run build
+```
+
+Output goes to `web/dist/`.
 
 ## License
 
