@@ -1,4 +1,6 @@
 # Debian package build files
+/.pc/
+/obj-*/
 debian/.debhelper/
 debian/debhelper-build-stamp
 debian/files
