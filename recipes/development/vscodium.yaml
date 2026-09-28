@@ -35,7 +35,7 @@ script: |
 
   cat >'/etc/apt/sources.list.d/vscodium.sources' <<'EOF'
   Types: deb
-  URIs: https://download.vscodium.com/debs
+  URIs: https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs
   Suites: vscodium
   Components: main
   Architectures: amd64

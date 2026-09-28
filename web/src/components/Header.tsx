@@ -5,6 +5,7 @@ import { DynamicIcon } from '@/components/DynamicIcon';
 import { Sun, Moon, Languages, ChevronDown, Search, Store, ShoppingCart, X, Download, Trash2, Package, Layers, CheckCircle2, XCircle, Monitor, ExternalLink } from 'lucide-react';
 import type { ConnectionStatus, SystemInfo, Recipe, CartItem, InstallRecipe, InstallMode, PackagingMode } from '@/lib/types';
 import { installViaUriScheme } from '@/lib/websocket';
+import { loadRecipeDetail } from '@/hooks/use-store';
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 
 interface HeaderProps {
@@ -97,20 +98,30 @@ const Header: React.FC<HeaderProps> = ({
   );
   const requiredLicenses = Array.from(requiredLicenseMap.values());
 
-  const buildInstallRecipes = (): InstallRecipe[] => cartRecipes.map(({ recipe }) => ({
-    id: recipe.id,
-    name: recipe.name,
-    method: recipe.method,
-    level: recipe.level,
-    compression: recipe.compression,
-    packages: recipe.packages,
-    script: recipe.script,
-    debUrl: recipe.debUrl,
-    license: recipe.license,
-  }));
+  const buildInstallRecipes = async (): Promise<InstallRecipe[]> => Promise.all(
+    cartRecipes.map(async ({ recipe }) => {
+      let script = recipe.script;
+      if (recipe.method === 'script' && !script) {
+        const detail = await loadRecipeDetail(recipe.id);
+        script = detail.script;
+      }
 
-  const performInstall = (acceptedLicenses: string[] = []) => {
-    const installRecipes = buildInstallRecipes();
+      return {
+        id: recipe.id,
+        name: recipe.name,
+        method: recipe.method,
+        level: recipe.level,
+        compression: recipe.compression,
+        packages: recipe.packages,
+        script,
+        debUrl: recipe.debUrl,
+        license: recipe.license,
+      };
+    }),
+  );
+
+  const performInstall = async (acceptedLicenses: string[] = []) => {
+    const installRecipes = await buildInstallRecipes();
     if (connectionStatus === 'connected') {
       onInstall(installRecipes, acceptedLicenses);
     } else {

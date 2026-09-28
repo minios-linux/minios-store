@@ -173,12 +173,31 @@ class StoreServer:
                     "error": _("Recipe missing 'id' field"),
                 })
                 return
-            if recipe.get("method") not in ("apt", "script", "deb"):
+            method = recipe.get("method")
+            if method not in ("apt", "script", "deb"):
                 await self._send(websocket, {
                     "type": "install_error",
                     "error": _("Invalid method '{}' for recipe '{}'").format(
-                        recipe.get("method"), recipe.get("id")
+                        method, recipe.get("id")
                     ),
+                })
+                return
+            if method == "apt" and not recipe.get("packages"):
+                await self._send(websocket, {
+                    "type": "install_error",
+                    "error": _("No packages specified for apt method"),
+                })
+                return
+            if method == "script" and not recipe.get("script"):
+                await self._send(websocket, {
+                    "type": "install_error",
+                    "error": _("No script specified for script method"),
+                })
+                return
+            if method == "deb" and not recipe.get("debUrl"):
+                await self._send(websocket, {
+                    "type": "install_error",
+                    "error": _("No debUrl specified for deb method"),
                 })
                 return
             license_info = recipe.get("license")

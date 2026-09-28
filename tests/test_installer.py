@@ -431,6 +431,14 @@ def test_build_combined_script_deb_downloads_and_installs():
     assert "rm -f" in script
 
 
+def test_build_combined_script_rejects_missing_script_data():
+    inst = Installer("/tmp")
+    with pytest.raises(InstallationError):
+        inst._build_combined_script(
+            [{"id": "edge", "method": "script", "script": ""}]
+        )
+
+
 # ---------------------------------------------------------------------------
 # _make_line_callback
 # ---------------------------------------------------------------------------

@@ -655,37 +655,46 @@ class Installer:
             if method == "apt":
                 # Ensure all package names are strings
                 packages = [str(p) for p in recipe.get("packages", [])]
-                if packages:
-                    lines.append("apt-get update -qq")
-                    lines.append(
-                        "apt-get install -y --no-install-recommends "
-                        + " ".join(packages)
+                if not packages:
+                    raise InstallationError(
+                        _("No packages specified for apt method")
                     )
-                    lines.append("apt-get clean")
+                lines.append("apt-get update -qq")
+                lines.append(
+                    "apt-get install -y --no-install-recommends "
+                    + " ".join(packages)
+                )
+                lines.append("apt-get clean")
 
             elif method == "script":
                 script_content = recipe.get("script", "")
-                if script_content:
-                    # Embed script inline
-                    lines.append(script_content)
+                if not script_content:
+                    raise InstallationError(
+                        _("No script specified for script method")
+                    )
+                # Embed script inline
+                lines.append(script_content)
 
             elif method == "deb":
                 deb_url = recipe.get("debUrl", "")
-                if deb_url:
-                    deb_basename = (
-                        os.path.basename(deb_url.split("?")[0])
-                        or "package.deb"
+                if not deb_url:
+                    raise InstallationError(
+                        _("No debUrl specified for deb method")
                     )
-                    if not deb_basename.endswith(".deb"):
-                        deb_basename += ".deb"
-                    deb_tmp = "/tmp/{}".format(deb_basename)
-                    lines.append(
-                        'wget -O "{}" "{}"'.format(deb_tmp, deb_url)
-                    )
-                    lines.append(
-                        'apt install -y "{}"'.format(deb_tmp)
-                    )
-                    lines.append('rm -f "{}"'.format(deb_tmp))
+                deb_basename = (
+                    os.path.basename(deb_url.split("?")[0])
+                    or "package.deb"
+                )
+                if not deb_basename.endswith(".deb"):
+                    deb_basename += ".deb"
+                deb_tmp = "/tmp/{}".format(deb_basename)
+                lines.append(
+                    'wget -O "{}" "{}"'.format(deb_tmp, deb_url)
+                )
+                lines.append(
+                    'apt install -y "{}"'.format(deb_tmp)
+                )
+                lines.append('rm -f "{}"'.format(deb_tmp))
 
             lines.append("")
 

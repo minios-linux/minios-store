@@ -1,3 +1,13 @@
+minios-store (1.2.1) unstable; urgency=medium
+
+  * Load complete script recipes before cart installation through the WebSocket
+    daemon or browser URI fallback.
+  * Reject incomplete APT, script and DEB installation payloads explicitly.
+  * Use the maintained VSCodium Debian repository address in its recipe.
+  * Run GTK regression tests under Xvfb during Debian package builds.
+
+ -- crims0n <crims0n@minios.dev>  Mon, 28 Sep 2026 23:48:52 +0300
+
 minios-store (1.2.0) unstable; urgency=medium
 
   * Require explicit acceptance of recipe licenses before installation when

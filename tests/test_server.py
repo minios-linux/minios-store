@@ -96,7 +96,7 @@ def test_native_server_forces_system_installation():
         "mode": "module",
         "packaging": "separate",
         "moduleName": "requested-module",
-        "recipes": [{"id": "test", "name": "Test", "method": "apt"}],
+        "recipes": [{"id": "test", "name": "Test", "method": "apt", "packages": ["test"]}],
     }
     run(server._handle_install(object(), message))
 
@@ -197,6 +197,18 @@ def test_handle_install_recipe_invalid_method():
     assert "Invalid method" in ws.sent[-1]["error"]
 
 
+def test_handle_install_script_requires_script_data():
+    server = make_server()
+    ws = FakeWS()
+    run(server._handle_install(ws, {
+        "recipes": [{"id": "edge", "method": "script"}],
+        "mode": "module",
+        "packaging": "single",
+    }))
+    assert ws.sent[-1]["type"] == "install_error"
+    assert "No script specified for script method" in ws.sent[-1]["error"]
+
+
 def test_handle_install_already_installing():
     server = make_server()
     server._installing = True
@@ -214,7 +226,7 @@ def test_handle_install_success_broadcasts_and_resets_flag():
     ws = FakeWS()
     server._clients.add(ws)
     run(server._handle_install(ws, {
-        "recipes": [{"id": "vlc", "name": "VLC", "method": "apt"}],
+        "recipes": [{"id": "vlc", "name": "VLC", "method": "apt", "packages": ["vlc"]}],
         "mode": "module",
         "packaging": "single",
     }))
@@ -232,6 +244,7 @@ def test_handle_install_rejects_unaccepted_required_license():
             "id": "licensed",
             "name": "Licensed App",
             "method": "script",
+            "script": "echo ok",
             "license": {
                 "id": "example-license",
                 "name": "Example License",
@@ -257,6 +270,7 @@ def test_handle_install_accepts_required_license():
             "id": "licensed",
             "name": "Licensed App",
             "method": "script",
+            "script": "echo ok",
             "license": {
                 "id": "example-license",
                 "name": "Example License",
@@ -480,7 +494,7 @@ def test_handle_install_tracks_state_and_broadcasts():
     ws = FakeWS()
     server._clients.add(ws)
     run(server._handle_install(ws, {
-        "recipes": [{"id": "vlc", "name": "VLC", "method": "apt"}],
+        "recipes": [{"id": "vlc", "name": "VLC", "method": "apt", "packages": ["vlc"]}],
         "mode": "module",
         "packaging": "single",
     }))
