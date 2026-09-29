@@ -22,6 +22,7 @@ import type {
   InstallMethod,
   PackagingMode,
   InstallMode,
+  ModuleLevelSetting,
 } from '@/lib/types';
 
 // ============================================
@@ -144,6 +145,7 @@ export function useCart(recipes: Recipe[]) {
   const [installMode, setInstallMode] = useState<InstallMode>('module');
   const [packaging, setPackaging] = useState<PackagingMode>('single');
   const [moduleName, setModuleName] = useState<string>('');
+  const [moduleLevel, setModuleLevel] = useState<ModuleLevelSetting>('recipe');
 
   // Build a lookup map for recipe methods
   const recipeMap = useMemo(() => {
@@ -236,6 +238,7 @@ export function useCart(recipes: Recipe[]) {
     installMode, setInstallMode,
     packaging, setPackaging,
     moduleName, setModuleName,
+    moduleLevel, setModuleLevel,
   };
 }
 

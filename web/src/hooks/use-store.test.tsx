@@ -150,14 +150,17 @@ describe('useCart', () => {
     expect(result.current.isInCart('gimp')).toBe(true);
   });
 
-  it('exposes install mode / packaging setters', () => {
+  it('exposes module installation settings', () => {
     const { result } = renderHook(() => useCart(recipes));
+    expect(result.current.moduleLevel).toBe('recipe');
     act(() => { result.current.setInstallMode('system'); });
     act(() => { result.current.setPackaging('separate'); });
     act(() => { result.current.setModuleName('bundle'); });
+    act(() => { result.current.setModuleLevel('04'); });
     expect(result.current.installMode).toBe('system');
     expect(result.current.packaging).toBe('separate');
     expect(result.current.moduleName).toBe('bundle');
+    expect(result.current.moduleLevel).toBe('04');
   });
 });
 

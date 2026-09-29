@@ -386,9 +386,11 @@ const StorePage: React.FC<StorePageProps> = ({ isDevMode = false }) => {
         installMode={cart.installMode}
         packaging={cart.packaging}
         moduleName={cart.moduleName}
+        moduleLevel={cart.moduleLevel}
         onSetInstallMode={cart.setInstallMode}
         onSetPackaging={cart.setPackaging}
         onSetModuleName={cart.setModuleName}
+        onSetModuleLevel={cart.setModuleLevel}
         onRemoveItem={cart.removeItem}
         onClearCart={cart.clearCart}
         onInstall={handleInstall}

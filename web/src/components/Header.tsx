@@ -2,11 +2,17 @@ import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from '@/contexts/LanguageContext';
 import { useTheme } from '@/contexts/ThemeContext';
 import { DynamicIcon } from '@/components/DynamicIcon';
-import { Sun, Moon, Languages, ChevronDown, Search, Store, ShoppingCart, X, Download, Trash2, Package, Layers, CheckCircle2, XCircle, Monitor, ExternalLink } from 'lucide-react';
-import type { ConnectionStatus, SystemInfo, Recipe, CartItem, InstallRecipe, InstallMode, PackagingMode } from '@/lib/types';
+import { Sun, Moon, Languages, ChevronDown, Search, Store, ShoppingCart, X, Download, Trash2, Package, Layers, CheckCircle2, XCircle, Monitor, ExternalLink, CircleHelp } from 'lucide-react';
+import type { ConnectionStatus, SystemInfo, Recipe, CartItem, InstallRecipe, InstallMode, PackagingMode, ModuleLevelSetting } from '@/lib/types';
 import { installViaUriScheme } from '@/lib/websocket';
 import { loadRecipeDetail } from '@/hooks/use-store';
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+
+const MODULE_LEVEL_OPTIONS: ModuleLevelSetting[] = [
+  'recipe', 'auto', '01', '02', '03', '04', '05', '06', '07', '08', '09',
+];
 
 interface HeaderProps {
   connectionStatus: ConnectionStatus;
@@ -20,9 +26,11 @@ interface HeaderProps {
   installMode: InstallMode;
   packaging: PackagingMode;
   moduleName: string;
+  moduleLevel: ModuleLevelSetting;
   onSetInstallMode: (mode: InstallMode) => void;
   onSetPackaging: (packaging: PackagingMode) => void;
   onSetModuleName: (name: string) => void;
+  onSetModuleLevel: (level: ModuleLevelSetting) => void;
   onRemoveItem: (recipeId: string) => void;
   onClearCart: () => void;
   onInstall: (recipes: InstallRecipe[], acceptedLicenses?: string[]) => void;
@@ -40,9 +48,11 @@ const Header: React.FC<HeaderProps> = ({
   installMode,
   packaging,
   moduleName,
+  moduleLevel,
   onSetInstallMode,
   onSetPackaging,
   onSetModuleName,
+  onSetModuleLevel,
   onRemoveItem,
   onClearCart,
   onInstall,
@@ -76,7 +86,10 @@ const Header: React.FC<HeaderProps> = ({
         setLangMenuOpen(false);
       }
       const inCart = cartRef.current?.contains(target) || mobileCartRef.current?.contains(target);
-      if (!inCart) {
+      const inFloatingControl = (target as HTMLElement).closest?.(
+        '[data-slot="select-content"], [data-slot="popover-content"]',
+      );
+      if (!inCart && !inFloatingControl) {
         setCartOpen(false);
       }
     };
@@ -110,7 +123,7 @@ const Header: React.FC<HeaderProps> = ({
         id: recipe.id,
         name: recipe.name,
         method: recipe.method,
-        level: recipe.level,
+        level: moduleLevel === 'recipe' ? recipe.level : moduleLevel,
         compression: recipe.compression,
         packages: recipe.packages,
         script,
@@ -272,6 +285,51 @@ const Header: React.FC<HeaderProps> = ({
                 <Layers size={14} />
                 {t('Separate modules')}
               </button>
+            </div>
+          )}
+
+          {/* Module base level */}
+          {installMode === 'module' && (
+            <div className="cart-level-setting">
+              <div className="cart-level-label">
+                <span>{t('Level')}</span>
+                <Popover>
+                  <PopoverTrigger asChild>
+                    <button
+                      type="button"
+                      className="cart-level-help-button"
+                      aria-label={t('Module level help')}
+                    >
+                      <CircleHelp size={14} />
+                    </button>
+                  </PopoverTrigger>
+                  <PopoverContent className="cart-level-help-popover" align="end" side="left" sideOffset={8}>
+                    <strong>{t('Module level')}</strong>
+                    <p>{t('The module level controls which loaded MiniOS modules are used as the build base.')}</p>
+                    <p>{t('Recipe default keeps the level defined by each recipe. Auto uses all loaded modules. A numeric level uses modules up to and including that level.')}</p>
+                    <p>{t('Use an explicit level only when you need to avoid dependencies on higher-level optional modules.')}</p>
+                  </PopoverContent>
+                </Popover>
+              </div>
+              <Select
+                value={moduleLevel}
+                onValueChange={(value) => onSetModuleLevel(value as ModuleLevelSetting)}
+              >
+                <SelectTrigger className="cart-level-select" size="sm" aria-label={t('Level')}>
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  {MODULE_LEVEL_OPTIONS.map(level => (
+                    <SelectItem key={level} value={level}>
+                      {level === 'recipe'
+                        ? t('Recipe default')
+                        : level === 'auto'
+                          ? t('Auto')
+                          : level}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
             </div>
           )}
 

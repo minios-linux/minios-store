@@ -24,6 +24,9 @@ export type PackagingMode = 'single' | 'separate';
 /** Module level for live system. 'auto' means all bundles, no prefix. */
 export type ModuleLevel = 'auto' | '01' | '02' | '03' | '04' | '05' | '06' | '07' | '08' | '09';
 
+/** User-facing level override. 'recipe' keeps each recipe's configured level. */
+export type ModuleLevelSetting = 'recipe' | ModuleLevel;
+
 /** A distribution entry with per-distribution architecture list */
 export interface DistributionEntry {
   /** Distribution codename (e.g. "bookworm", "trixie") */

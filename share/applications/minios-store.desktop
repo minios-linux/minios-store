@@ -5,6 +5,6 @@ Exec=minios-store-launcher
 Icon=system-software-install
 Terminal=false
 Type=Application
-Categories=System;PackageManager;
+Categories=System;PackageManager;X-MiniOS;
 Keywords=store;install;packages;modules;
 StartupNotify=true

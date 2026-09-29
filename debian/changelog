@@ -1,3 +1,11 @@
+minios-store (1.3.0) unstable; urgency=medium
+
+  * Let users override the module build level from the web cart, with an
+    explanation of recipe, automatic and explicit numeric choices.
+  * Group the Store launcher in the MiniOS desktop category.
+
+ -- crims0n <crims0n@minios.dev>  Tue, 29 Sep 2026 17:05:25 +0300
+
 minios-store (1.2.1) unstable; urgency=medium
 
   * Load complete script recipes before cart installation through the WebSocket
