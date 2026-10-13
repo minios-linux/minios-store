@@ -117,11 +117,6 @@ def main():
             content.set_valign(Gtk.Align.CENTER)
             card.pack_start(content, True, True, 0)
 
-            title = Gtk.Label(label=_("MiniOS Store"))
-            title.set_halign(Gtk.Align.START)
-            title.get_style_context().add_class("launcher-title")
-            content.pack_start(title, False, False, 0)
-
             self.operation_view = OperationView(
                 status=_("Starting MiniOS Store..."),
                 show_log=False,
